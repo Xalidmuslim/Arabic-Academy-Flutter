@@ -26,4 +26,4 @@
 
 ## Фактические размеры и время сборок
 
-Финальный Release APK: 88,91с на три ABI, AAB: 45,79с, Debug: 29,38с в прогретой среде. ARM64 APK около 35,6 MiB, AAB около 66,4 MiB; точные байты/SHA в [android-artifacts.json](verification/android-artifacts.json). Это измерения сборок, не cold start/FPS. Артефакты подписаны development ключом и содержат проверенные новые ассеты.
+Финальный Release APK: 224,53с на три ABI, AAB: 96,51с, Debug: 102,45с в прогретой среде. ARM64 APK около 35,6 MiB, AAB около 66,4 MiB; точные байты/SHA в [android-artifacts.json](verification/android-artifacts.json). Это измерения сборок, не cold start/FPS. Артефакты подписаны development ключом и содержат проверенные новые ассеты.

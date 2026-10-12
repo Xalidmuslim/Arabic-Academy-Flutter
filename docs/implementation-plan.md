@@ -16,7 +16,7 @@
 - [x] G: нормализованные таблицы, RLS, private storage и Edge Functions; тесты роли, платного API, чужих данных, серверной оценки и идемпотентности.
 - [x] H/I/J: Supabase OTP/синхронизация, LiveKit access token, IAP receipt verification, голосовая запись и playback, загрузки. Проверять adapters без конфигурации как errors, с конфигурацией — реальными запросами; не создавать фиктивные покупки/эфиры.
 - [x] K/L: Flutter analyze/test, PostgreSQL security tests, asset validation, Android debug/release/APK/AAB; визуальные скриншоты и профиль при доступном runtime; macOS iOS CI; документация и точная матрица готовности.
-- [ ] GitHub: push новой ветки, draft PR; main не сливать. Если API ограничен, сохранить конкретный blocker и не выдумывать PR URL.
+- [x] GitHub: push новой ветки, draft PR; main не сливать. Если API ограничен, сохранить конкретный blocker и не выдумывать PR URL.
 
 Независимые работы выполняются параллельно с непересекающимися наборами файлов: SQL/Edge Functions; движок упражнений; Flutter интеграции. Основной исполнитель ведёт состояние, навигацию, дизайн и сборку. Перед финалом — отдельная проверка безопасности и регрессий.
 

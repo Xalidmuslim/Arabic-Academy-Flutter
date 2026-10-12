@@ -1,5 +1,5 @@
 {
-  "flutter_source_commit": "8ce8a97005d6f1e03cecda80361fd4511be79caa",
+  "flutter_source_commit": "f982c33e75ac88f57f67f3e079cb9531273a3222",
   "version": "0.7.0+7",
   "signing_mode": "development",
   "certificate_sha256": "ed4366cd566d5395a2c9c426e26cedc185e2611c0a24bbedb9805cb2b5ad90b4",
@@ -14,7 +14,7 @@
         "--split-per-abi"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 88.91
+      "elapsed_seconds": 224.53
     },
     {
       "name": "release-aab",
@@ -26,7 +26,7 @@
         "--no-pub"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 45.79
+      "elapsed_seconds": 96.51
     },
     {
       "name": "debug-apk",
@@ -37,34 +37,34 @@
         "--debug"
       ],
       "exit_code": 0,
-      "elapsed_seconds": 29.38
+      "elapsed_seconds": 102.45
     }
   ],
   "artifacts": [
     {
       "path": "build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk",
       "bytes": 30060629,
-      "sha256": "901a859e8cf02fcaa7494cc34b0f8b1d28074ddf2fda4174443af09a614b446a"
+      "sha256": "d6d71990feecbadc314b8479b10fb8e6b3e9d58552d221c6cfd6596fc03a8f58"
     },
     {
       "path": "build/app/outputs/flutter-apk/app-arm64-v8a-release.apk",
       "bytes": 37308809,
-      "sha256": "65ccde0a5b5f3d8cd4e97fcae3ec5c6c0806fe421bbf956028aa1dce2a389572"
+      "sha256": "df7669b4f7e727231e04ff2813f58be9128d5e94f3bc54ba3ed829ecd455be77"
     },
     {
       "path": "build/app/outputs/flutter-apk/app-x86_64-release.apk",
       "bytes": 42456999,
-      "sha256": "3885eacb8eebe0225a9544d0d1d7214552446504c97ed808662a48e5c7e82670"
+      "sha256": "fce951ef8513d4044ba61c0336aa9afbc20778ad4f3894c9978cb2026852a41a"
     },
     {
       "path": "build/app/outputs/flutter-apk/app-debug.apk",
-      "bytes": 225995913,
-      "sha256": "ba20097436397ca21bf41405a7e0ad80b77170ada3611501fef757e6e44d8b08"
+      "bytes": 199758420,
+      "sha256": "8d4e192b0d3a7812ec044e42519a6d60db48624e2f6064e3f193db9fd263b3f8"
     },
     {
       "path": "build/app/outputs/bundle/release/app-release.aab",
-      "bytes": 69667896,
-      "sha256": "700f498e55fb9fdeb0a7cc89ccf0da305b25b86f6158eb0698472a030c13c86b"
+      "bytes": 69670062,
+      "sha256": "8539d919a1b043af695494c9ab4df61bbb322c1e86b9e32af04fc9cb820f95f5"
     }
   ]
 }

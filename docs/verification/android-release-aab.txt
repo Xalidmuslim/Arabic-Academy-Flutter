@@ -1,4 +1,4 @@
 Running Gradle task 'bundleRelease'...
 Picked up JAVA_TOOL_OPTIONS:  -Djavax.net.ssl.trustStore=/workspace/.config/bayna-java-cacerts -Djavax.net.ssl.trustStorePassword=changeit -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080 -Dhttp.nonProxyHosts=localhost|127.*|[::1]
-Running Gradle task 'bundleRelease'...                             44.9s
+Running Gradle task 'bundleRelease'...                             95.6s
 ✓ Built build/app/outputs/bundle/release/app-release.aab (69.7MB)

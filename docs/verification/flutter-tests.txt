@@ -1,21 +1,21 @@
 00:00 +0: loading /workspace/Arabic-Academy-Flutter/test/library_test.dart
 00:00 +0: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
 00:00 +1: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
-00:00 +2: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
-00:00 +3: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
-00:00 +4: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
-00:00 +5: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
+00:01 +2: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
+00:01 +3: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
+00:01 +4: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
+00:01 +5: /workspace/Arabic-Academy-Flutter/test/library_test.dart: dictionary search folds Arabic/Russian without changing vowels
 00:01 +6: /workspace/Arabic-Academy-Flutter/test/library_test.dart: lesson dictionary scope and known entry details are real
-00:01 +7: /workspace/Arabic-Academy-Flutter/test/library_test.dart: lesson dictionary scope and known entry details are real
+00:01 +7: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmark and favorite filter persist across state restoration
 00:01 +8: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmark and favorite filter persist across state restoration
 00:02 +9: /workspace/Arabic-Academy-Flutter/test/library_test.dart: flashcards require revealing and persist spaced review
 00:02 +10: /workspace/Arabic-Academy-Flutter/test/library_test.dart: difficult and due filters follow stored reviews
-00:02 +11: /workspace/Arabic-Academy-Flutter/test/neumorphic_dashboard_test.dart: Learner dashboard shows four neumorphic shortcuts and opens lessons
+00:02 +11: /workspace/Arabic-Academy-Flutter/test/library_test.dart: global search opens lessons, words and grammar
 00:03 +12: /workspace/Arabic-Academy-Flutter/test/neumorphic_dashboard_test.dart: Learner dashboard shows four neumorphic shortcuts and opens lessons
-00:04 +13: /workspace/Arabic-Academy-Flutter/test/library_test.dart: grammar exercise records the assigned ID and wrong points
-00:04 +14: /workspace/Arabic-Academy-Flutter/test/library_test.dart: grammar exercise records the assigned ID and wrong points
+00:04 +13: /workspace/Arabic-Academy-Flutter/test/neumorphic_dashboard_test.dart: Learner dashboard shows four neumorphic shortcuts and opens lessons
+00:04 +14: /workspace/Arabic-Academy-Flutter/test/library_test.dart: grammar writing stays needsReview without awarding points or progress
 00:04 +15: /workspace/Arabic-Academy-Flutter/test/library_test.dart: grammar writing stays needsReview without awarding points or progress
-00:05 +16: /workspace/Arabic-Academy-Flutter/test/exercise_engine_test.dart: Russian controls stay readable and LTR beside Arabic RTL options
+00:05 +16: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
 00:05 +17: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
 00:05 +18: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
 00:05 +19: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
@@ -35,154 +35,155 @@
 00:05 +33: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
 00:05 +34: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
 00:05 +35: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
-00:05 +36: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
-00:05 +37: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
-00:05 +38: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
-00:06 +39: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
-00:06 +40: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
-00:06 +41: /workspace/Arabic-Academy-Flutter/test/exercise_engine_test.dart: runner matching dropdowns require every source
-00:06 +42: /workspace/Arabic-Academy-Flutter/test/library_test.dart: empty search, dictionary and bookmark states are meaningful
-00:06 +43: /workspace/Arabic-Academy-Flutter/test/library_test.dart: empty search, dictionary and bookmark states are meaningful
-00:06 +44: /workspace/Arabic-Academy-Flutter/test/library_test.dart: empty search, dictionary and bookmark states are meaningful
-00:06 +45: /workspace/Arabic-Academy-Flutter/test/library_test.dart: empty search, dictionary and bookmark states are meaningful
-00:06 +46: /workspace/Arabic-Academy-Flutter/test/library_test.dart: empty search, dictionary and bookmark states are meaningful
-00:06 +47: /workspace/Arabic-Academy-Flutter/test/library_test.dart: empty search, dictionary and bookmark states are meaningful
-00:07 +48: /workspace/Arabic-Academy-Flutter/test/library_test.dart: empty search, dictionary and bookmark states are meaningful
-00:07 +49: /workspace/Arabic-Academy-Flutter/test/library_test.dart: narrow doubled-text dictionary and grammar details do not overflow
+00:06 +36: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
+00:06 +37: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
+00:06 +38: /workspace/Arabic-Academy-Flutter/test/library_test.dart: bookmarks resolve and open all three real content types
+00:06 +39: /workspace/Arabic-Academy-Flutter/test/exercise_engine_test.dart: runner checkboxes submit original indexes and draft cannot mutate state
+00:06 +40: /workspace/Arabic-Academy-Flutter/test/library_test.dart: empty search, dictionary and bookmark states are meaningful
+00:06 +41: /workspace/Arabic-Academy-Flutter/test/exercise_engine_test.dart: runner word ordering keeps repeated words separately selectable
+00:06 +42: /workspace/Arabic-Academy-Flutter/test/library_test.dart: narrow doubled-text dictionary and grammar details do not overflow
+00:06 +43: /workspace/Arabic-Academy-Flutter/test/exercise_engine_test.dart: runner matching dropdowns require every source
+00:06 +44: /workspace/Arabic-Academy-Flutter/test/library_test.dart: device synthesis receives original Arabic and reports unavailable voice
+00:07 +45: /workspace/Arabic-Academy-Flutter/test/library_test.dart: device synthesis receives original Arabic and reports unavailable voice
+00:07 +46: /workspace/Arabic-Academy-Flutter/test/library_test.dart: device synthesis receives original Arabic and reports unavailable voice
+00:07 +47: /workspace/Arabic-Academy-Flutter/test/library_test.dart: device synthesis receives original Arabic and reports unavailable voice
+00:07 +48: /workspace/Arabic-Academy-Flutter/test/library_test.dart: device synthesis receives original Arabic and reports unavailable voice
+00:07 +49: /workspace/Arabic-Academy-Flutter/test/library_test.dart: device synthesis receives original Arabic and reports unavailable voice
 00:07 +50: /workspace/Arabic-Academy-Flutter/test/library_test.dart: device synthesis receives original Arabic and reports unavailable voice
-00:07 +51: /workspace/Arabic-Academy-Flutter/test/lesson_flow_test.dart: Lesson exposes all six interactive learning stages
-00:08 +52: /workspace/Arabic-Academy-Flutter/test/lesson_flow_test.dart: Lesson exposes all six interactive learning stages
-00:08 +53: /workspace/Arabic-Academy-Flutter/test/library_test.dart: every grammar check persists exactly once across retries
-00:08 +54: /workspace/Arabic-Academy-Flutter/test/library_test.dart: every grammar check persists exactly once across retries
-00:08 +55: /workspace/Arabic-Academy-Flutter/test/library_test.dart: missing bookmark content is preserved until explicit removal
-00:08 +56: /workspace/Arabic-Academy-Flutter/test/library_test.dart: legacy raw lesson bookmark resolves and can be removed
-00:08 +57: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +58: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +59: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +60: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +61: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +62: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +63: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +64: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +65: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +66: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +67: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +68: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
-00:09 +69: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
+00:07 +51: /workspace/Arabic-Academy-Flutter/test/library_test.dart: failed persistence keeps the revealed flashcard and reports the failure
+00:07 +52: /workspace/Arabic-Academy-Flutter/test/library_test.dart: every grammar check persists exactly once across retries
+00:08 +53: /workspace/Arabic-Academy-Flutter/test/lesson_flow_test.dart: Lesson exposes all six interactive learning stages
+00:08 +54: /workspace/Arabic-Academy-Flutter/test/lesson_flow_test.dart: Lesson exposes all six interactive learning stages
+00:08 +55: /workspace/Arabic-Academy-Flutter/test/lesson_flow_test.dart: Lesson exposes all six interactive learning stages
+00:08 +56: /workspace/Arabic-Academy-Flutter/test/library_test.dart: all 22 actual grammar topics are browsable without asset loading
+00:09 +57: /workspace/Arabic-Academy-Flutter/test/lesson_flow_test.dart: Wrong answer is saved and does not complete the lesson
+00:09 +58: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: lossless optimistic lesson payload metadata edits omit content entirely and retain expected version
+00:09 +59: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: lossless optimistic lesson payload editing one section sends complete arrays with stable IDs and unknown nested JSON
+00:09 +60: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: lossless optimistic lesson payload unknown row fields block destructive replacement but permit metadata-only save
+00:09 +61: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: lossless optimistic lesson payload provenance and optional linguistic metadata survive a complete save
+00:09 +62: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: lossless optimistic lesson payload block positions are scoped to step; save acknowledgement resets dirty flag
+00:09 +63: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: lossless optimistic lesson payload source objects are not mutated and unsupported examples are preserved
+00:09 +64: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: private exercise keys and exact wire answers existing automatic exercises cannot save without explicit key replacement
+00:09 +65: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: private exercise keys and exact wire answers multiple choice stores a complete array of UUID option IDs, not indexes
+00:09 +66: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: private exercise keys and exact wire answers missing answers, removed options and invalid finite scores fail validation
+00:09 +67: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: private exercise keys and exact wire answers text answers preserve Arabic diacritics and explicit comparison
+00:09 +68: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: private exercise keys and exact wire answers manual questions never send keys; unknown schemas are not overwritten
+00:09 +69: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: private exercise keys and exact wire answers new exercise UUID is stable across retries and expected version is zero
 00:09 +70: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: unconfigured, student, and failed roles never read school tables
-00:10 +71: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: embedded teacher panel browses hierarchy and rechecks revoked role
+00:10 +71: /workspace/Arabic-Academy-Flutter/test/widget_test.dart: Student dashboard is available without a paid account in demo
 00:10 +72: /workspace/Arabic-Academy-Flutter/test/widget_test.dart: Student dashboard is available without a paid account in demo
-00:10 +73: /workspace/Arabic-Academy-Flutter/test/widget_test.dart: Student dashboard is available without a paid account in demo
+00:11 +73: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native creation sends only server course/position contract
 00:11 +74: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: lesson save uses expected version; conflict keeps visible draft
-00:11 +75: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: teacher groups cannot self-assign students; reports use actual rows
+00:12 +75: /workspace/Arabic-Academy-Flutter/test/teacher_editor_test.dart: Teacher content builder can create a dialogue, word and exercise without JSON
 00:12 +76: /workspace/Arabic-Academy-Flutter/test/teacher_editor_test.dart: Teacher content builder can create a dialogue, word and exercise without JSON
 00:12 +77: /workspace/Arabic-Academy-Flutter/test/teacher_editor_test.dart: Teacher content builder can create a dialogue, word and exercise without JSON
 00:12 +78: /workspace/Arabic-Academy-Flutter/test/teacher_editor_test.dart: Teacher content builder can create a dialogue, word and exercise without JSON
-00:12 +79: /workspace/Arabic-Academy-Flutter/test/teacher_editor_test.dart: Teacher content builder can create a dialogue, word and exercise without JSON
-00:13 +80: /workspace/Arabic-Academy-Flutter/test/teacher_editor_test.dart: Teacher content builder can create a dialogue, word and exercise without JSON
-00:13 +81: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
-00:13 +82: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +83: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +84: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +85: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +86: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +87: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +88: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +89: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +90: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +91: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +92: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +93: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:13 +94: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +95: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +96: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +97: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +98: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +99: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +100: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +101: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +102: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
-00:14 +103: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
+00:13 +79: /workspace/Arabic-Academy-Flutter/test/teacher_editor_test.dart: Teacher content builder can create a dialogue, word and exercise without JSON
+00:13 +80: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native grading binds the displayed submission revision and feedback
+00:13 +81: /workspace/Arabic-Academy-Flutter/test/integration_config_test.dart: public configuration and validation missing backend remains offline and fails closed
+00:13 +82: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +83: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +84: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +85: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +86: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +87: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +88: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +89: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +90: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +91: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +92: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +93: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +94: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +95: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +96: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +97: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +98: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +99: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +100: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +101: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +102: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
+00:13 +103: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: composer targets a scoped member and checks real server dispatch state
 00:14 +104: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native dialogue creation preserves every content array without unsupported position
 00:14 +105: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: administrator adds only a server-enrolled profile with exact membership RPC
-00:14 +106: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native exercise builder uses generated question and option UUIDs as exact answers
-00:14 +107: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native exercise builder uses generated question and option UUIDs as exact answers
-00:14 +108: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native exercise builder uses generated question and option UUIDs as exact answers
-00:14 +109: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native exercise builder uses generated question and option UUIDs as exact answers
-00:14 +110: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native exercise builder uses generated question and option UUIDs as exact answers
-00:14 +111: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: native exercise builder uses generated question and option UUIDs as exact answers
-00:14 +112: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: teacher multiple-choice wire draft round trips through learner API and server lesson completion
+00:14 +106: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: administrator adds only a server-enrolled profile with exact membership RPC
+00:14 +107: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: administrator adds only a server-enrolled profile with exact membership RPC
+00:14 +108: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: administrator adds only a server-enrolled profile with exact membership RPC
+00:14 +109: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: administrator adds only a server-enrolled profile with exact membership RPC
+00:14 +110: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: administrator adds only a server-enrolled profile with exact membership RPC
+00:14 +111: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: teacher multiple-choice wire draft round trips through learner API and server lesson completion
+00:15 +112: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: teacher multiple-choice wire draft round trips through learner API and server lesson completion
 00:15 +113: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: teacher multiple-choice wire draft round trips through learner API and server lesson completion
-00:15 +114: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: teacher multiple-choice wire draft round trips through learner API and server lesson completion
-00:15 +115: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: single-choice remains scalar and text prompt uses legacy fallback
-00:15 +116: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: dialogue lines render RTL; unavailable private media never requests a URL
+00:15 +114: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: missing invitation endpoint shows activation error and never fabricates a code
+00:15 +115: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: missing invitation endpoint shows activation error and never fabricates a code
+00:15 +116: /workspace/Arabic-Academy-Flutter/test/remote_school_screen_test.dart: missing invitation endpoint shows activation error and never fabricates a code
 00:15 +117: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: private audio signing is explicit and a denied URL displays a real error
 00:15 +118: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: homework persists before RPC and keeps identical payload/key after an uncertain failure
-00:16 +119: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 home
+00:16 +119: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: lost acknowledgement reconciles server history without creating another revision
 00:16 +120: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 home
 00:16 +121: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 home
-00:16 +122: /workspace/Arabic-Academy-Flutter/test/online_learning_test.dart: revision conflict keeps local text until explicit comparison then submits the new expected revision
-00:17 +123: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
-00:17 +124: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
+00:17 +122: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 home
+00:17 +123: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 home
+00:17 +124: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 home
 00:17 +125: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
-00:17 +126: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 lesson
-00:17 +127: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 exercise
-00:17 +128: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
-00:17 +129: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
-00:17 +130: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
-00:17 +131: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
-00:17 +132: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
-00:17 +133: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
-00:17 +134: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
-00:18 +135: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 grammar
-00:18 +136: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 progress
-00:18 +137: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 progress
-00:18 +138: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 progress
-00:18 +139: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 settings
-00:18 +140: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 localteacher
-00:18 +141: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 localteacher
-00:18 +142: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 editor
-00:19 +143: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 lesson-dialogue
-00:19 +144: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary-detail
-00:19 +145: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 grammar-detail
-00:19 +146: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 home
-00:19 +147: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 courses
-00:19 +148: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 lesson
-00:19 +149: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 exercise
-00:19 +150: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 dictionary
-00:19 +151: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 grammar
-00:20 +152: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 progress
-00:20 +153: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 settings
-00:20 +154: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 localteacher
-00:20 +155: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 editor
-00:20 +156: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 lesson-dialogue
-00:20 +157: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 dictionary-detail
-00:20 +158: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 grammar-detail
-00:20 +159: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x home
-00:20 +160: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x courses
-00:21 +161: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x lesson
-00:21 +162: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x exercise
-00:21 +163: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x dictionary
-00:21 +164: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x grammar
-00:21 +165: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x progress
-00:21 +166: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x settings
-00:21 +167: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x localteacher
-00:21 +168: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x editor
-00:21 +169: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x lesson-dialogue
-00:22 +170: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x dictionary-detail
-00:22 +171: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x grammar-detail
-00:22 +172: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x home
-00:22 +173: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x courses
-00:22 +174: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x lesson
-00:22 +175: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x exercise
-00:22 +176: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x dictionary
-00:22 +177: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x grammar
-00:22 +178: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x progress
-00:22 +179: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x settings
-00:22 +180: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x localteacher
-00:23 +181: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x editor
-00:23 +182: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x lesson-dialogue
-00:23 +183: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x dictionary-detail
-00:23 +184: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x grammar-detail
-00:23 +185: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: (tearDownAll)
-00:23 +185: All tests passed!
+00:17 +126: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
+00:17 +127: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
+00:17 +128: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
+00:17 +129: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
+00:17 +130: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
+00:17 +131: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
+00:17 +132: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 courses
+00:18 +133: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 lesson
+00:18 +134: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 exercise
+00:18 +135: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
+00:18 +136: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
+00:18 +137: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary
+00:18 +138: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 grammar
+00:18 +139: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 grammar
+00:18 +140: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 progress
+00:19 +141: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 settings
+00:19 +142: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 localteacher
+00:19 +143: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 editor
+00:19 +144: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 lesson-dialogue
+00:19 +145: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 dictionary-detail
+00:20 +146: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-390 grammar-detail
+00:20 +147: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 home
+00:20 +148: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 courses
+00:20 +149: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 lesson
+00:20 +150: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 exercise
+00:20 +151: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 dictionary
+00:20 +152: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 grammar
+00:20 +153: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 progress
+00:21 +154: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 settings
+00:21 +155: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 localteacher
+00:21 +156: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 editor
+00:21 +157: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 lesson-dialogue
+00:21 +158: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 dictionary-detail
+00:21 +159: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-390 grammar-detail
+00:21 +160: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x home
+00:21 +161: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x courses
+00:21 +162: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x lesson
+00:21 +163: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x exercise
+00:21 +164: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x dictionary
+00:22 +165: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x grammar
+00:22 +166: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x progress
+00:22 +167: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x settings
+00:22 +168: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x localteacher
+00:22 +169: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x editor
+00:22 +170: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x lesson-dialogue
+00:22 +171: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x dictionary-detail
+00:23 +172: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ru-320-2x grammar-detail
+00:23 +173: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x home
+00:23 +174: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x courses
+00:23 +175: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x lesson
+00:23 +176: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x exercise
+00:23 +177: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x dictionary
+00:23 +178: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x grammar
+00:23 +179: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x progress
+00:23 +180: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x settings
+00:24 +181: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x localteacher
+00:24 +182: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x editor
+00:24 +183: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x lesson-dialogue
+00:24 +184: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x dictionary-detail
+00:24 +185: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: visual ar-320-2x grammar-detail
+00:24 +186: /workspace/Arabic-Academy-Flutter/test/visual_acceptance_test.dart: (tearDownAll)
+00:24 +186: All tests passed!
