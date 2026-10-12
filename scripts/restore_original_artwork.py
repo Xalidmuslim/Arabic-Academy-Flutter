@@ -46,7 +46,13 @@ for idx, name in enumerate(icon_names):
     features[name] = (x, y, x + 120, y + 120)
 
 for name, rect in features.items():
+    # The welcome source originally included a distant skyline. Exclude
+    # its minarets: only the neutral indoor desk/plants are displayed.
+    if name == "feature_welcome.webp":
+        rect = (76, 480, 213, 640)
     area = image.crop(rect)
+    if name == "feature_welcome.webp":
+        area = area.resize((213, 160), Image.Resampling.LANCZOS)
     area.save(dest / name, "WEBP", quality=87, method=5)
     print(name, area.size, (dest / name).stat().st_size)
 print("Restored", len(features), "independently displayable original UI graphics")
