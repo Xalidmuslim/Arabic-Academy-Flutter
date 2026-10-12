@@ -2,6 +2,8 @@ name: Flutter Android debug APK
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -17,6 +19,10 @@ jobs:
           cache: true
       - name: Generate Flutter platform folders
         run: flutter create --project-name arabic_academy --platforms android,ios .
+      - name: Install tooling for generated launcher icons
+        run: python3 -m pip install --disable-pip-version-check pillow==11.3.0
+      - name: Generate modern app icons
+        run: python3 scripts/refresh_launcher_icons.py
       - name: Install dependencies
         run: flutter pub get
       - name: Static analysis

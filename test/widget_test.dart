@@ -28,7 +28,10 @@ void main() {
       ],
     });
     await tester.pumpWidget(AcademyApp(state: state));
-    expect(find.text('Моё обучение'), findsOneWidget);
+    expect(find.text('Начать обучение'), findsOneWidget);
+    await tester.tap(find.text('Начать обучение'));
+    await tester.pumpAndSettle();
+    expect(find.text('Арабский каждый день'), findsOneWidget);
     expect(find.byIcon(Icons.swap_horiz_rounded), findsOneWidget);
   });
 }
