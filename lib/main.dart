@@ -370,7 +370,8 @@ class _HomeScreenState extends State<HomeScreen> {
         )),
       )),
     ],
-  );
+    );
+  }
 
   Widget _teacherView(BuildContext context) {
     final total = widget.state.teacherLessons.length;
