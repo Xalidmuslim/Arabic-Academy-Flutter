@@ -6,11 +6,12 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 import 'ui/premium_art.dart';
+import 'ui/neumorphic_components.dart';
 import 'ui/reference_components.dart';
 import 'ui/welcome_screen.dart';
 
 const green = Color(0xFF123F35);
-const cream = Color(0xFFF7F3EA);
+const cream = NeumorphicPalette.background;
 const bronze = Color(0xFFB69A72);
 const muted = Color(0xFF60766C);
 
@@ -119,11 +120,14 @@ class Panel extends StatelessWidget {
   Widget build(BuildContext context) => Container(
     padding: const EdgeInsets.all(17),
     decoration: BoxDecoration(
-      color: Colors.white, borderRadius: BorderRadius.circular(20),
-      border: Border.all(color: const Color(0xFFE9E0D4)),
-      boxShadow: const [BoxShadow(color: Color(0x16173F32), blurRadius: 18, offset: Offset(0, 7))],
+      color: NeumorphicPalette.surface, borderRadius: BorderRadius.circular(20),
+      border: Border.all(color: NeumorphicPalette.outline),
+      boxShadow: const [
+        BoxShadow(color: Color(0xBFFFFFFF), blurRadius: 10, offset: Offset(-4, -4)),
+        BoxShadow(color: Color(0x358D7C65), blurRadius: 14, offset: Offset(5, 6)),
+      ],
     ),
-    child: child,
+    child: Material(type: MaterialType.transparency, child: child),
   );
 }
 
@@ -140,8 +144,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      backgroundColor: refGreen,
-      foregroundColor: Colors.white,
+      backgroundColor: NeumorphicPalette.background,
+      foregroundColor: NeumorphicPalette.ink,
       toolbarHeight: 67,
       titleSpacing: 18,
       title: Row(children: [
@@ -149,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
           width: 41, height: 41,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: refGreen,
+            color: NeumorphicPalette.surface,
             borderRadius: BorderRadius.circular(13),
             boxShadow: const [BoxShadow(
               color: Color(0x30123F35), blurRadius: 12, offset: Offset(0, 5))],
@@ -166,10 +170,10 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             const Text('АРАБСКАЯ АКАДЕМИЯ',
               maxLines: 1, overflow: TextOverflow.ellipsis,
-              style: TextStyle(fontSize: 15, color: Colors.white, fontWeight: FontWeight.w800,
+              style: TextStyle(fontSize: 15, color: NeumorphicPalette.ink, fontWeight: FontWeight.w800,
                 letterSpacing: 0.35)),
             Text(teacher ? 'Кабинет учительницы' : 'Пространство обучения',
-              style: const TextStyle(fontSize: 11, color: Color(0xFFD5E4D9))),
+              style: const TextStyle(fontSize: 11, color: NeumorphicPalette.secondary)),
           ],
         )),
       ]),
@@ -194,8 +198,8 @@ class _HomeScreenState extends State<HomeScreen> {
     ),
     bottomNavigationBar: NavigationBar(
       height: 71,
-      backgroundColor: const Color(0xFFFFFAF2),
-      indicatorColor: const Color(0xFFD9E9DE),
+      backgroundColor: NeumorphicPalette.surface,
+      indicatorColor: const Color(0xFFDDDCC7),
       labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
       selectedIndex: selectedTab,
       onDestinationSelected: (v) => setState(() => selectedTab = v),
@@ -290,7 +294,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _learnerView(BuildContext context) {
     final totalLessons = widget.state.lessons.length;
-    final completedCount = widget.state.completed.length.clamp(0, totalLessons);
+    final completedCount = widget.state.lessons.where(
+      (lesson) => widget.state.completed.contains((lesson as Map)['id'])).length;
     final progress = totalLessons == 0 ? 0.0 : completedCount / totalLessons;
     return ListView(
       padding: const EdgeInsets.fromLTRB(18, 12, 18, 25),
@@ -299,10 +304,12 @@ class _HomeScreenState extends State<HomeScreen> {
           Expanded(child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('Добро пожаловать',
+              const Text('Арабский каждый день',
                 style: TextStyle(fontSize: 12, color: muted)),
-              Text('Арабский каждый день', style: Theme.of(context).textTheme.headlineSmall
-                ?.copyWith(color: green, fontWeight: FontWeight.w800, fontSize: 24)),
+              Text('Байна Ядайк', style: Theme.of(context).textTheme.headlineSmall
+                ?.copyWith(color: green, fontWeight: FontWeight.w800, fontSize: 26)),
+              const Text('Арабский язык в твоих руках',
+                style: TextStyle(fontSize: 11, color: NeumorphicPalette.secondary)),
             ],
           )),
           Container(
@@ -332,36 +339,49 @@ class _HomeScreenState extends State<HomeScreen> {
           crossAxisCount: 2,
           crossAxisSpacing: 11,
           mainAxisSpacing: 11,
-          childAspectRatio: 0.99,
+          childAspectRatio: 0.94,
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
           children: [
             ReferenceFeatureTile(
-              title: 'Уроки', subtitle: 'Видео, тексты, аудио',
+              title: 'Уроки', subtitle: 'Диалоги и тексты',
               image: 'assets/images/feature_lessons.webp',
               onTap: () => Navigator.push(context, MaterialPageRoute(
                 builder: (_) => UnitScreen(state: widget.state))),
             ),
             ReferenceFeatureTile(
-              title: 'Задания', subtitle: 'Тесты и упражнения',
+              title: 'Грамматика', subtitle: 'Простые объяснения',
               image: 'assets/images/feature_homework.webp',
-              onTap: () => setState(() => selectedTab = 2),
+              onTap: () {
+                final lessons = widget.state.lessons.cast<Map<String, dynamic>>();
+                if (lessons.isEmpty) {
+                  _notice(context, 'Уроки пока не добавлены.');
+                  return;
+                }
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (_) => LessonScreen(
+                    state: widget.state, lesson: lessons.first, initialTab: 2)));
+              },
             ),
             ReferenceFeatureTile(
-              title: 'Произношение', subtitle: 'Устная практика',
-              image: 'assets/images/feature_pronunciation.webp',
-              onTap: () => setState(() => selectedTab = 3),
-            ),
-            ReferenceFeatureTile(
-              title: 'Словарь', subtitle: 'Новые слова',
+              title: 'Словарь', subtitle: 'Арабские слова',
               image: 'assets/images/feature_vocabulary.webp',
               onTap: () {
-                final lessons = widget.state.lessons.cast<Map<String,dynamic>>();
-                if (lessons.isEmpty) return;
+                final lessons = widget.state.lessons.cast<Map<String, dynamic>>();
+                if (lessons.isEmpty) {
+                  _notice(context, 'Уроки пока не добавлены.');
+                  return;
+                }
                 Navigator.push(context, MaterialPageRoute(
                   builder: (_) => LessonScreen(
                     state: widget.state, lesson: lessons.first, initialTab: 1)));
               },
+            ),
+            ReferenceFeatureTile(
+              title: 'Мой прогресс', subtitle: 'Результаты обучения',
+              image: 'assets/images/feature_pronunciation.webp',
+              onTap: () => Navigator.push(context, MaterialPageRoute(
+                builder: (_) => LearnerProgressScreen(state: widget.state))),
             ),
           ],
         ),
@@ -684,6 +704,84 @@ class _HomeScreenState extends State<HomeScreen> {
       Navigator.push(context, MaterialPageRoute(builder: (_) => LessonScreen(state: widget.state, lesson: data)));
 }
 
+/// Compact learner statistics; never invents lessons, streaks, or study time.
+class LearnerProgressScreen extends StatelessWidget {
+  const LearnerProgressScreen({super.key, required this.state});
+  final AcademyState state;
+
+  @override
+  Widget build(BuildContext context) {
+    final lessons = state.lessons.cast<Map<String, dynamic>>();
+    final total = lessons.length;
+    final done = lessons.where((lesson) =>
+      state.completed.contains(lesson['id'])).length;
+    final progress = total == 0 ? 0.0 : done / total;
+    return Scaffold(
+      appBar: AppBar(title: const Text('Мой прогресс')),
+      body: ListView(
+        padding: const EdgeInsets.fromLTRB(17, 19, 17, 30),
+        children: [
+          NeumorphicSurface(
+            padding: const EdgeInsets.all(20),
+            child: Row(children: [
+              SizedBox(
+                width: 102, height: 102,
+                child: Stack(alignment: Alignment.center, children: [
+                  SizedBox.expand(child: CircularProgressIndicator(
+                    value: progress, strokeWidth: 9,
+                    strokeCap: StrokeCap.round,
+                    color: NeumorphicPalette.olive,
+                    backgroundColor: const Color(0xFFDDD1C0),
+                  )),
+                  Text('${(progress * 100).round()}%',
+                    style: const TextStyle(color: green, fontSize: 24,
+                      fontWeight: FontWeight.w800)),
+                ]),
+              ),
+              const SizedBox(width: 19),
+              Expanded(child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Базовый уровень 1',
+                    style: TextStyle(fontSize: 17, fontWeight: FontWeight.w800,
+                      color: green)),
+                  const SizedBox(height: 7),
+                  Text('Пройдено $done из $total уроков',
+                    style: const TextStyle(
+                      color: NeumorphicPalette.secondary, fontSize: 12)),
+                ],
+              )),
+            ]),
+          ),
+          const SizedBox(height: 25),
+          const Text('Мои уроки', style: TextStyle(
+            color: green, fontSize: 19, fontWeight: FontWeight.w800)),
+          const SizedBox(height: 13),
+          if (lessons.isEmpty)
+            const NeumorphicSurface(child: Text('Уроки пока не добавлены.')),
+          ...lessons.map((lesson) => Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: NeumorphicSurface(
+              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+              child: ListTile(
+                leading: ArtworkIcon('books', size: 46),
+                title: Text(lesson['title'] as String),
+                subtitle: Text(state.completed.contains(lesson['id'])
+                  ? 'Завершён' : 'Для изучения'),
+                trailing: Icon(state.completed.contains(lesson['id'])
+                  ? Icons.check_circle_rounded : Icons.chevron_right_rounded,
+                  color: NeumorphicPalette.olive),
+                onTap: () => Navigator.push(context, MaterialPageRoute(
+                  builder: (_) => LessonScreen(state: state, lesson: lesson))),
+              ),
+            ),
+          )),
+        ],
+      ),
+    );
+  }
+}
+
 class UnitScreen extends StatelessWidget {
   const UnitScreen({super.key, required this.state});
   final AcademyState state;
@@ -741,7 +839,8 @@ class _LessonScreenState extends State<LessonScreen> {
     const names = ['Урок','Слова','Грамматика','Задания'];
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: refGreen,foregroundColor:Colors.white,
+        backgroundColor: NeumorphicPalette.background,
+        foregroundColor: NeumorphicPalette.ink,
         title: Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
           Text(data['title'] as String,
             maxLines:1,overflow:TextOverflow.ellipsis,
@@ -751,7 +850,7 @@ class _LessonScreenState extends State<LessonScreen> {
       ),
       body: Column(children:[
         Container(
-          color:const Color(0xFFFFFAF2),
+          color: NeumorphicPalette.background,
           padding:const EdgeInsets.fromLTRB(11,9,11,10),
           child: Row(children: List.generate(names.length, (i) =>
             Expanded(child: Padding(
@@ -762,16 +861,18 @@ class _LessonScreenState extends State<LessonScreen> {
                 child: Container(
                   padding:const EdgeInsets.symmetric(vertical:10),
                   decoration:BoxDecoration(
-                    color: activeTab==i ? const Color(0xFFE6EEE6) : Colors.transparent,
-                    borderRadius:BorderRadius.circular(10),
-                    border:Border(bottom:BorderSide(
-                      width:activeTab==i ? 2.5 : 0,
-                      color:activeTab==i ? const Color(0xFFC79B57) : Colors.transparent)),
+                    color: activeTab==i
+                      ? NeumorphicPalette.olive : NeumorphicPalette.surface,
+                    borderRadius:BorderRadius.circular(15),
+                    border:Border.all(color:const Color(0xAAFFFFFF)),
+                    boxShadow:const [BoxShadow(
+                      color:Color(0x248D7C65),blurRadius:6,offset:Offset(2,3))],
                   ),
                   alignment:Alignment.center,
                   child:Text(names[i],maxLines:1,
                     style:TextStyle(fontSize:12,fontWeight:activeTab==i
-                      ? FontWeight.w800 : FontWeight.w500,color:green)),
+                      ? FontWeight.w800 : FontWeight.w500,
+                      color:activeTab==i ? Colors.white : green)),
                 ),
               ),
             )),
