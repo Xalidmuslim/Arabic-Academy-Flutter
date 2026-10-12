@@ -93,7 +93,7 @@ class NaskhText extends StatelessWidget {
   Widget build(BuildContext context) => Directionality(
     textDirection: TextDirection.rtl,
     child: Text(value, textAlign: TextAlign.right, style: GoogleFonts.notoNaskhArabic(
-      fontSize: size, height: 1.8, color: color,
+      fontSize: size, height: 1.65, color: color,
     )),
   );
 }
@@ -105,9 +105,9 @@ class Panel extends StatelessWidget {
   Widget build(BuildContext context) => Container(
     padding: const EdgeInsets.all(17),
     decoration: BoxDecoration(
-      color: Colors.white, borderRadius: BorderRadius.circular(22),
+      color: Colors.white, borderRadius: BorderRadius.circular(20),
       border: Border.all(color: const Color(0xFFE9E0D4)),
-      boxShadow: const [BoxShadow(color: Color(0x0B173F32), blurRadius: 20, offset: Offset(0, 8))],
+      boxShadow: const [BoxShadow(color: Color(0x16173F32), blurRadius: 18, offset: Offset(0, 7))],
     ),
     child: child,
   );
@@ -125,7 +125,33 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      title: const Text('Арабская академия', style: TextStyle(fontWeight: FontWeight.w800)),
+      toolbarHeight: 68,
+      titleSpacing: 18,
+      title: Row(children: [
+        Container(
+          width: 41, height: 41,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            color: green,
+            borderRadius: BorderRadius.circular(13),
+            boxShadow: const [BoxShadow(
+              color: Color(0x30123F35), blurRadius: 12, offset: Offset(0, 5))],
+          ),
+          child: const NaskhText('ع', color: Colors.white, size: 25),
+        ),
+        const SizedBox(width: 11),
+        Expanded(child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text('АРАБСКАЯ АКАДЕМИЯ',
+              maxLines: 1, overflow: TextOverflow.ellipsis,
+              style: TextStyle(fontSize: 15, color: green, fontWeight: FontWeight.w800,
+                letterSpacing: 0.35)),
+            Text(teacher ? 'Кабинет учительницы' : 'Пространство обучения',
+              style: const TextStyle(fontSize: 11, color: muted)),
+          ],
+        )),
+      ]),
       actions: [
         PopupMenuButton<bool>(
           tooltip: 'Переключить демо-роль',
@@ -136,53 +162,167 @@ class _HomeScreenState extends State<HomeScreen> {
             PopupMenuItem(value: true, child: Text('Демо: учительница')),
           ],
         ),
+        const SizedBox(width: 7),
       ],
     ),
     body: AnimatedBuilder(
       animation: widget.state,
       builder: (context, _) => teacher ? _teacherView(context) : _learnerView(context),
     ),
-    bottomNavigationBar: Container(
-      color: const Color(0xFFEDE6D9), padding: const EdgeInsets.all(10),
-      child: Text(
-        'ДЕМО · ${teacher ? 'учительница' : 'ученица'} · нет серверных аккаунтов и оплаты',
-        textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 11, color: muted),
+    bottomNavigationBar: SafeArea(
+      top: false,
+      child: Container(
+        color: const Color(0xFFECE6D9),
+        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Icon(Icons.science_outlined, size: 15, color: muted),
+            const SizedBox(width: 7),
+            Flexible(child: Text(
+              'ДЕМО · ${teacher ? 'учительница' : 'ученица'} · без сервера и оплаты',
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 10, color: muted),
+            )),
+          ],
+        ),
       ),
     ),
   );
 
-  Widget _learnerView(BuildContext context) => ListView(
-    padding: const EdgeInsets.all(17), children: [
-      const NaskhText('السَّلَامُ عَلَيْكِ', size: 21),
-      Text('Моё обучение', style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold)),
-      const SizedBox(height: 14),
-      Container(
-        padding: const EdgeInsets.all(23),
-        decoration: BoxDecoration(
-          gradient: const LinearGradient(colors: [green, Color(0xFF2B6B59)]),
-          borderRadius: BorderRadius.circular(25),
-          boxShadow: const [BoxShadow(color: Color(0x33123F35), blurRadius: 25, offset: Offset(0, 9))],
-        ),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          const Text('ПЕРВЫЙ УРОВЕНЬ', style: TextStyle(color: bronze, letterSpacing: 2)),
-          const NaskhText('اللُّغَةُ الْعَرَبِيَّةُ', color: Colors.white, size: 35),
-          Text('Пройдено уроков: ${widget.state.completed.length} из 3',
-            style: const TextStyle(color: Colors.white)),
-          const SizedBox(height: 10),
-          LinearProgressIndicator(value: (widget.state.completed.length / 3).clamp(0, 1).toDouble(),
-            minHeight: 6, color: bronze, backgroundColor: Colors.white24),
-          const SizedBox(height: 17),
-          FilledButton(
-            onPressed: () => _openLesson(context, widget.state.lessons.first as Map<String, dynamic>),
-            style: FilledButton.styleFrom(backgroundColor: cream, foregroundColor: green),
-            child: const Text('Начать обучение'),
+  Widget _learnerView(BuildContext context) {
+    final completedCount = widget.state.completed.length.clamp(0, 3);
+    final progress = completedCount / 3.0;
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(18, 12, 18, 25),
+      children: [
+        Row(children: [
+          Expanded(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text('Добро пожаловать',
+                style: TextStyle(fontSize: 12, color: muted)),
+              Text('Моё обучение', style: Theme.of(context).textTheme.headlineSmall
+                ?.copyWith(color: green, fontWeight: FontWeight.w800, fontSize: 24)),
+            ],
+          )),
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 4),
+            decoration: BoxDecoration(
+              color: const Color(0xFFE5ECE4),
+              borderRadius: BorderRadius.circular(14),
+            ),
+            child: const NaskhText('السَّلَامُ عَلَيْكِ', size: 16),
           ),
         ]),
-      ),
-      const SizedBox(height: 22),
-      const Text('Программа обучения', style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold)),
-      const SizedBox(height: 10),
+        const SizedBox(height: 17),
+        Container(
+          decoration: BoxDecoration(
+            gradient: const LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [Color(0xFF123F35), Color(0xFF205948), Color(0xFF2F705B)],
+            ),
+            borderRadius: BorderRadius.circular(26),
+            boxShadow: const [BoxShadow(
+              color: Color(0x30123F35), blurRadius: 27, offset: Offset(0, 12))],
+          ),
+          clipBehavior: Clip.antiAlias,
+          child: Stack(children: [
+            const Positioned(
+              right: -35, top: -42,
+              child: Icon(Icons.auto_stories_rounded,
+                color: Color(0x0EFFFFFF), size: 195),
+            ),
+            Positioned(
+              right: -70, bottom: -115,
+              child: Container(
+                width: 215, height: 215,
+                decoration: BoxDecoration(
+                  border: Border.all(color: const Color(0x26FFFFFF)),
+                  shape: BoxShape.circle,
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(21),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Row(children: [
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: const Color(0x24FFFFFF),
+                        borderRadius: BorderRadius.circular(14),
+                      ),
+                      child: const Text('ПЕРВЫЙ УРОВЕНЬ',
+                        style: TextStyle(fontSize: 10, letterSpacing: 1.4,
+                          fontWeight: FontWeight.w700, color: Color(0xFFE1CCAD))),
+                    ),
+                    const Spacer(),
+                    const Icon(Icons.stars_rounded,
+                      size: 20, color: Color(0xFFE1CCAD)),
+                  ]),
+                  const SizedBox(height: 14),
+                  const NaskhText('اللُّغَةُ الْعَرَبِيَّةُ',
+                    size: 33, color: Colors.white),
+                  const SizedBox(height: 2),
+                  const Text('Ваш путь к арабскому языку',
+                    style: TextStyle(fontSize: 12, color: Color(0xFFE1EAE4))),
+                  const SizedBox(height: 20),
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+                    Text('Пройдено $completedCount из 3 уроков',
+                      style: const TextStyle(color: Colors.white, fontSize: 12)),
+                    Text('${(progress * 100).round()}%',
+                      style: const TextStyle(color: Color(0xFFE1CCAD),
+                        fontWeight: FontWeight.w800, fontSize: 13)),
+                  ]),
+                  const SizedBox(height: 10),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: LinearProgressIndicator(
+                      value: progress,
+                      minHeight: 7,
+                      color: const Color(0xFFDEC9A5),
+                      backgroundColor: Colors.white24,
+                    ),
+                  ),
+                  const SizedBox(height: 19),
+                  FilledButton.icon(
+                    onPressed: () {
+                      final lessons = widget.state.lessons.cast<Map<String, dynamic>>();
+                      final next = lessons.firstWhere(
+                        (x) => !widget.state.completed.contains(x['id']),
+                        orElse: () => lessons.first,
+                      );
+                      _openLesson(context, next);
+                    },
+                    style: FilledButton.styleFrom(
+                      backgroundColor: cream,
+                      foregroundColor: green,
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(15)),
+                    ),
+                    icon: const Icon(Icons.play_circle_outline_rounded),
+                    label: Text(completedCount == 0
+                      ? 'Начать обучение' : 'Продолжить обучение',
+                      style: const TextStyle(fontWeight: FontWeight.w800)),
+                  ),
+                ],
+              ),
+            ),
+          ]),
+        ),
+        const SizedBox(height: 25),
+        Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+          const Text('Программа обучения',
+            style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: green)),
+          Text('${widget.state.units.length} разделов',
+            style: const TextStyle(fontSize: 11, color: muted)),
+        ]),
+        const SizedBox(height: 12),
       ...widget.state.units.asMap().entries.map((entry) {
         final unit = entry.value as Map<String, dynamic>;
         final free = unit['access_default'] == 'free';
@@ -230,55 +370,212 @@ class _HomeScreenState extends State<HomeScreen> {
         )),
       )),
     ],
-  );
+    );
+  }
 
-  Widget _teacherView(BuildContext context) => ListView(
-    padding: const EdgeInsets.all(17),
-    children: [
-      const NaskhText('الْعِلْمُ نُورٌ', size: 31),
-      const Text('Кабинет учительницы', style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold)),
-      const SizedBox(height: 16),
-      const Panel(child: Text('Это демонстрационный редактор. Уроки сохраняются только на текущем телефоне.')),
-      const SizedBox(height: 15),
-      FilledButton.icon(
-        onPressed: () => Navigator.push(context, MaterialPageRoute(
-          builder: (_) => TeacherEditor(state: widget.state))),
-        icon: const Icon(Icons.add_circle_outline), label: const Text('Добавить урок'),
-      ),
-      const SizedBox(height: 22),
-      const Text('Материалы учительницы', style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold)),
-      const SizedBox(height: 10),
-      if (widget.state.teacherLessons.isEmpty)
-        const Panel(child: Text('Уроков пока нет. Создайте первый материал.')),
-      ...widget.state.teacherLessons.map((item) => Padding(
-        padding: const EdgeInsets.only(bottom: 10),
-        child: Panel(child: Row(children: [
-          Icon(item['published'] == true ? Icons.check_circle_outline : Icons.edit_note, color: green),
-          const SizedBox(width: 10),
-          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text(item['title'] as String, style: const TextStyle(fontWeight: FontWeight.bold)),
-            Text(item['published'] == true ? 'Опубликован · локально' : 'Черновик',
-              style: const TextStyle(fontSize: 12, color: muted)),
+  Widget _teacherView(BuildContext context) {
+    final total = widget.state.teacherLessons.length;
+    final published = widget.state.teacherLessons
+      .where((item) => item['published'] == true).length;
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(18, 12, 18, 25),
+      children: [
+        Row(children: [
+          Expanded(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text('Панель преподавателя',
+                style: TextStyle(color: muted, fontSize: 12)),
+              Text('Моя академия', style: Theme.of(context).textTheme.headlineSmall
+                ?.copyWith(fontSize: 24, fontWeight: FontWeight.w800, color: green)),
+            ],
+          )),
+          Container(
+            width: 48, height: 48,
+            decoration: BoxDecoration(
+              color: const Color(0xFFE4EBE3),
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: const Icon(Icons.school_outlined, color: green, size: 27),
+          ),
+        ]),
+        const SizedBox(height: 17),
+        Container(
+          decoration: BoxDecoration(
+            gradient: const LinearGradient(
+              begin: Alignment.topLeft, end: Alignment.bottomRight,
+              colors: [green, Color(0xFF286B56)],
+            ),
+            borderRadius: BorderRadius.circular(24),
+            boxShadow: const [BoxShadow(
+              color: Color(0x26123F35), blurRadius: 20, offset: Offset(0, 9))],
+          ),
+          clipBehavior: Clip.antiAlias,
+          child: Stack(children: [
+            const Positioned(
+              right: -30, top: -30,
+              child: Icon(Icons.local_library_outlined,
+                size: 155, color: Color(0x13FFFFFF)),
+            ),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 21, vertical: 19),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text('УПРАВЛЕНИЕ ОБУЧЕНИЕМ',
+                    style: TextStyle(fontSize: 10, letterSpacing: 1.3,
+                      fontWeight: FontWeight.w700, color: Color(0xFFE0CBA8))),
+                  SizedBox(height: 6),
+                  NaskhText('الْعِلْمُ نُورٌ', size: 27, color: Colors.white),
+                  Text('Создавайте собственные уроки',
+                    style: TextStyle(color: Color(0xFFE4EDE7), fontSize: 12)),
+                ],
+              ),
+            ),
+          ]),
+        ),
+        const SizedBox(height: 14),
+        Row(children: [
+          Expanded(child: _teacherMetric('Всего', total, Icons.library_books_outlined)),
+          const SizedBox(width: 8),
+          Expanded(child: _teacherMetric('Опубликовано', published, Icons.check_circle_outline)),
+          const SizedBox(width: 8),
+          Expanded(child: _teacherMetric('Черновики', total - published, Icons.edit_note_outlined)),
+        ]),
+        const SizedBox(height: 23),
+        const Text('Быстрые действия',
+          style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: green)),
+        const SizedBox(height: 11),
+        FilledButton.icon(
+          onPressed: () => Navigator.push(context, MaterialPageRoute(
+            builder: (_) => TeacherEditor(state: widget.state))),
+          icon: const Icon(Icons.add_circle_outline),
+          label: const Text('Создать новый урок',
+            style: TextStyle(fontWeight: FontWeight.w800)),
+          style: FilledButton.styleFrom(
+            padding: const EdgeInsets.symmetric(vertical: 16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(17)),
+          ),
+        ),
+        const SizedBox(height: 10),
+        Container(
+          padding: const EdgeInsets.all(13),
+          decoration: BoxDecoration(
+            color: const Color(0xFFEFE8DB),
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: const Row(children: [
+            Icon(Icons.info_outline_rounded, color: muted, size: 19),
+            SizedBox(width: 10),
+            Expanded(child: Text(
+              'Пока уроки сохраняются только на этом устройстве. Общий доступ появится после подключения сервера.',
+              style: TextStyle(fontSize: 11, color: muted),
+            )),
+          ]),
+        ),
+        const SizedBox(height: 22),
+        Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+          const Text('Мои материалы',
+            style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: green)),
+          Text('$total уроков', style: const TextStyle(color: muted, fontSize: 11)),
+        ]),
+        const SizedBox(height: 12),
+        if (widget.state.teacherLessons.isEmpty)
+          const Panel(child: Column(children: [
+            Icon(Icons.auto_stories_outlined, color: muted, size: 30),
+            SizedBox(height: 8),
+            Text('Пока нет созданных уроков',
+              style: TextStyle(fontWeight: FontWeight.w800, color: green)),
+            SizedBox(height: 5),
+            Text('Добавьте первый материал кнопкой выше.',
+              style: TextStyle(color: muted, fontSize: 12)),
           ])),
-          IconButton(tooltip: 'Изменить', icon: const Icon(Icons.edit), onPressed: () =>
-            Navigator.push(context, MaterialPageRoute(builder: (_) =>
-              TeacherEditor(state: widget.state, original: item)))),
-          IconButton(tooltip: 'Удалить', icon: const Icon(Icons.delete_outline),
-            onPressed: () => widget.state.remove(item['id'] as String)),
+        ...widget.state.teacherLessons.map((item) => Padding(
+          padding: const EdgeInsets.only(bottom: 10),
+          child: Panel(child: Row(children: [
+            Icon(item['published'] == true
+              ? Icons.check_circle_outline : Icons.edit_note, color: green),
+            const SizedBox(width: 10),
+            Expanded(child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(item['title'] as String,
+                  style: const TextStyle(fontWeight: FontWeight.w800)),
+                Text(item['published'] == true ? 'Опубликован · локально' : 'Черновик',
+                  style: const TextStyle(fontSize: 12, color: muted)),
+              ],
+            )),
+            IconButton(
+              tooltip: 'Изменить',
+              icon: const Icon(Icons.edit_outlined),
+              onPressed: () => Navigator.push(context, MaterialPageRoute(
+                builder: (_) => TeacherEditor(state: widget.state, original: item))),
+            ),
+            IconButton(
+              tooltip: 'Удалить',
+              icon: const Icon(Icons.delete_outline),
+              onPressed: () async {
+                final yes = await showDialog<bool>(
+                  context: context,
+                  builder: (dialogContext) => AlertDialog(
+                    title: const Text('Удалить урок?'),
+                    content: const Text('Урок будет удалён с этого телефона.'),
+                    actions: [
+                      TextButton(onPressed: () => Navigator.pop(dialogContext, false),
+                        child: const Text('Отмена')),
+                      TextButton(onPressed: () => Navigator.pop(dialogContext, true),
+                        child: const Text('Удалить')),
+                    ],
+                  ),
+                );
+                if (yes == true) await widget.state.remove(item['id'] as String);
+              },
+            ),
+          ])),
+        )),
+        const SizedBox(height: 20),
+        const Text('Управление школой',
+          style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: green)),
+        const SizedBox(height: 11),
+        const Panel(child: Column(children: [
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: Icon(Icons.groups_outlined, color: green),
+            title: Text('Ученицы и группы'),
+            subtitle: Text('Подключим вместе с сервером')),
+          Divider(height: 10),
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: Icon(Icons.assignment_turned_in_outlined, color: green),
+            title: Text('Проверка заданий'),
+            subtitle: Text('Пока не подключена')),
+          Divider(height: 10),
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: Icon(Icons.payment_outlined, color: green),
+            title: Text('Платежи'),
+            subtitle: Text('Пока не подключены')),
         ])),
-      )),
-      const SizedBox(height: 15),
-      const Panel(child: Column(children: [
-        ListTile(leading: Icon(Icons.groups), title: Text('Ученицы и группы'),
-          subtitle: Text('Подключим вместе с сервером')),
-        Divider(),
-        ListTile(leading: Icon(Icons.assignment_turned_in_outlined),
-          title: Text('Проверка заданий'), subtitle: Text('Пока не подключена')),
-        Divider(),
-        ListTile(leading: Icon(Icons.payment), title: Text('Платежи'),
-          subtitle: Text('Пока не подключены')),
-      ])),
-    ],
+      ],
+    );
+  }
+
+  Widget _teacherMetric(String name, int count, IconData icon) => Container(
+    padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 12),
+    decoration: BoxDecoration(
+      color: Colors.white,
+      borderRadius: BorderRadius.circular(17),
+      border: Border.all(color: const Color(0xFFEAE0D4)),
+    ),
+    child: Column(children: [
+      Icon(icon, size: 21, color: bronze),
+      const SizedBox(height: 5),
+      Text('$count', style: const TextStyle(
+        fontWeight: FontWeight.w800, fontSize: 21, color: green)),
+      Text(name, maxLines: 1, overflow: TextOverflow.ellipsis,
+        style: const TextStyle(fontSize: 10, color: muted)),
+    ]),
   );
 
   void _openLesson(BuildContext context, Map<String, dynamic> data) =>
