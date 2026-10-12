@@ -145,7 +145,7 @@ class _HomeScreenState extends State<HomeScreen> {
     bottomNavigationBar: Container(
       color: const Color(0xFFEDE6D9), padding: const EdgeInsets.all(10),
       child: Text(
-        'ДЕМО · ' + (teacher ? 'учительница' : 'ученица') + ' · нет серверных аккаунтов и оплаты',
+        'ДЕМО · ${teacher ? 'учительница' : 'ученица'} · нет серверных аккаунтов и оплаты',
         textAlign: TextAlign.center,
         style: const TextStyle(fontSize: 11, color: muted),
       ),
@@ -167,7 +167,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           const Text('ПЕРВЫЙ УРОВЕНЬ', style: TextStyle(color: bronze, letterSpacing: 2)),
           const NaskhText('اللُّغَةُ الْعَرَبِيَّةُ', color: Colors.white, size: 35),
-          Text('Пройдено уроков: ' + widget.state.completed.length.toString() + ' из 3',
+          Text('Пройдено уроков: ${widget.state.completed.length} из 3',
             style: const TextStyle(color: Colors.white)),
           const SizedBox(height: 10),
           LinearProgressIndicator(value: (widget.state.completed.length / 3).clamp(0, 1).toDouble(),
@@ -366,11 +366,16 @@ class _LessonScreenState extends State<LessonScreen> {
         const SizedBox(height: 10),
         Panel(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Text(data['question'] as String, style: const TextStyle(fontWeight: FontWeight.bold)),
-          ...answers.asMap().entries.map((x) => RadioListTile<int>(
-            value: x.key, groupValue: selected, contentPadding: EdgeInsets.zero,
-            title: Text(x.value.toString()),
-            onChanged: (v) => setState(() { selected = v; checked = false; }),
-          )),
+          RadioGroup<int>(
+            groupValue: selected,
+            onChanged: (value) => setState(() { selected = value; checked = false; }),
+            child: Column(children: [
+              ...answers.asMap().entries.map((x) => RadioListTile<int>(
+                value: x.key, contentPadding: EdgeInsets.zero,
+                title: Text(x.value.toString()),
+              )),
+            ]),
+          ),
           if (checked)
             Text(selected == data['correct'] ? 'Правильно!' : 'Неверно, повторите материал.',
               style: const TextStyle(color: green, fontWeight: FontWeight.bold)),
