@@ -1,0 +1,1070 @@
+{
+  "renderer": "Flutter widget tester engine; NOT Android/device screenshots",
+  "visual_review": "pending PNG inspection; layout success alone is not visual approval",
+  "flutter_version": "3.35.7",
+  "git_head": "6a29dcada3288d28f5a03e6f6bc8df60608410fe",
+  "working_tree_source_sha256": {
+    "assets/artwork/emblem.webp": "77321da5e091b716643ddb21ff0faed73bf6a9b845c538dd5459f9ff316d2bb0",
+    "assets/artwork/exercises.webp": "6a21fd66995b8d1cc748bd1038e15f5e0ad0830622591aace499f7e35a636fa2",
+    "assets/artwork/grammar.webp": "f1b0c8872b31316e09d693c7b0a895fe243ae6341f0056b556b3d29e428bdf10",
+    "assets/artwork/hero.webp": "b3fd71804a9a0e2489a01041e5e123c5c5175029e9657f2e014e85e717aa8952",
+    "assets/artwork/lessons.webp": "1e98c7713b4e4fb3b50e67d401bfc80349d328741911dc4b8aa91b4f1206cc99",
+    "assets/artwork/live.webp": "1e3d0527770cb1f6c8b9730e8b980fd905b29dec6bf6a4e2947e98980565d12d",
+    "assets/artwork/manifest.json": "3ddcce71e0fc6ea6913f02c93f319e1a2a8a1efcd4453f18c4a88eb27101e3dd",
+    "assets/artwork/oral.webp": "1f026ec20f2fdc1aef93e6390db4a70830b6e48e7efe041e9733e29add15b6ff",
+    "assets/artwork/progress.webp": "aadd692ed70bcc0a39359b483c20543ab33589b3d3baa3ccfb767fb1030e3c9c",
+    "assets/artwork/teacher.webp": "36b960e3ae3fd9db0855ff918e7a306a24c54577fe702d81ec8189a20f730cc6",
+    "assets/artwork/vocabulary.webp": "a2efdbdce8bba7565150d395c67fd9fbd79a471229ec5b5ca8549d1f9e51c2f9",
+    "assets/content/grammar.json": "19df52c95f08f9d85053ee0d1d1de43b330d247395cac5e18fdf5b0cbae9f056",
+    "assets/content/level1.json": "787212030cb5deb4992fcccb88da7e613b3ff5f927c00972ed985a36085eec64",
+    "assets/content/original_lessons.json": "0991a0ffe0e4f8b3ab5923fce48750c44f1ac12255f5e8344a2c7274c5bc32fd",
+    "assets/fonts/Manrope.ttf": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "assets/fonts/NotoNaskhArabic.ttf": "67b5a525a661b607971fbd3f96a81b89d3a768e74534fca84f18ac97e6fab72f",
+    "assets/fonts/manrope-OFL.txt": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac",
+    "assets/fonts/notonaskharabic-OFL.txt": "a783ea143e23dc0374b472b79d3b76a369e57a28eb599d19535073c0a4b3aa4d",
+    "lib/app.dart": "ee674446b62d747e8d1c75f1dae6f753860ebb5bb621fa8f8039e5609cfc0071",
+    "lib/core/academy_state.dart": "b50f646ad4e2644b9766452a8ec7b41c694192a240cdd2507e70e83c4a753281",
+    "lib/core/app_strings.dart": "97568879f29c4f49d30bf5a2a53f8e0e7055d5aad8e511709f9cd0a5031ce334",
+    "lib/core/arabic.dart": "1eface309a5b1527ed94c04ef7f4ec750fc70246f92caa88c2b1c3b9f4f1164d",
+    "lib/core/learning_sync.dart": "c0423cf740ee9ed7df94207e654de51bf1831bcc3f85eac486d88da78b341a39",
+    "lib/core/secure_session_storage.dart": "cb0c2cd36ab0df63ce11a2fee357decfc102f1b3ef36daabc00e0d694827dc67",
+    "lib/core/speech.dart": "9735083003a727ad6e37ef587ee3a0785127a17ce546d0bce059775ae52ab81c",
+    "lib/core/study_analytics.dart": "0ef1c7354321eb2623c16baded3c6f8e6aa00612425c6f5d99a233aa77c36518",
+    "lib/core/vocabulary_key.dart": "bc366f2f685a4317b7adc0dd1cb49da97d20fc3eb42715234c8d9b0da7169d3f",
+    "lib/features/exercises/arabic_normalization.dart": "b5773f7ba1d0726e482f382258d269f546b6985bd8bb67ef8c7948851c039393",
+    "lib/features/exercises/exercise.dart": "d3fa091d96c77e10ededa6ffc5deed742f42bb800d1d4ebc6062fa93a6dd731e",
+    "lib/features/exercises/exercise_evaluator.dart": "9387416316ab46733b83b77804479318e4f5bc1c2997210f22dc9119189ae14e",
+    "lib/features/exercises/exercise_inputs.dart": "4c5f84f975266ced901eb827a83ec80bdeb58058d0e9d57b2306c1a663c5161c",
+    "lib/features/exercises/exercise_result.dart": "3be4f4961231faa9f9db3625422787111470aff8eafaeb12195c75cd7a179524",
+    "lib/features/exercises/exercise_runner.dart": "3ed8b2046074c404256fa6de4a7865e464883d9a12b96290dbf4d39795f59943",
+    "lib/features/exercises/exercises.dart": "e94a367084a043307a03fffc8e6e3527f3c820ce3062b5072697cd9e520ad844",
+    "lib/features/integrations/integration_widgets.dart": "3826708d4dad49b496e04c53b2eb123aa5f7b9b22fb8ea763231def584d70911",
+    "lib/features/integrations/integrations.dart": "6696388bdb05634e8ece4baacaba2305835cd17fff7c06e0327d949da5603e80",
+    "lib/features/integrations/live_sessions_screen.dart": "c345c515a20e220ab888695aabb889867c6969ce3e39e84810b6a1daa860c2cb",
+    "lib/features/integrations/media_upload_screen.dart": "5344dd9e500e5431eb52f0df25592c3fe5eda3e46a5551a3d32b539b03cd64b5",
+    "lib/features/integrations/oral_practice_screen.dart": "994ad52859f9c5ba746588e0699a4a204094305e31b5bba801edc680eedb7736",
+    "lib/features/integrations/phone_auth_screen.dart": "90e91861dea38c81e42ae56206878279e81171c92f4089b815bfd70e3c69844f",
+    "lib/features/integrations/purchases_screen.dart": "b0583ae152ad8df0596ff8e7f39f1b8dc08af1fdb08b6c2f71a1d28031410513",
+    "lib/features/learning/course_screen.dart": "0e3c89b44ceca88b112019aa5de7f1d064756af032cc6385818d86e6bf888f0d",
+    "lib/features/learning/home_screen.dart": "091c0ba3725139d9e21d66280e578c3a846f36634816a99c76c37f2f3edc88ae",
+    "lib/features/learning/lesson_screen.dart": "6f03915612513c6d0962224c31cc58329c8026e67032259118176d0c58e63f33",
+    "lib/features/learning/library_screens.dart": "35cf4c4164465ed92219c0ebe32f22d09b9f61ef02155eef4e2eee21d4b408e6",
+    "lib/features/learning/notification_preferences.dart": "69c55ce89e8dee4ee19b282da2b5c8503cc35a8c710f89710c73688c1216245e",
+    "lib/features/learning/online_courses_screen.dart": "47baece37be11ba188bb8841f405dd780012d33db79bcb905aff1a5f972fcc7c",
+    "lib/features/learning/online_homework_screen.dart": "c807f8108dd25cc36aeabeca8032ebb7beec3edbd71ce4a17ce1890529bc5bed",
+    "lib/features/learning/progress_screen.dart": "6c8ceb33c7e7d66a10a91d9e99aece31d671103c582042e98fb1971f01e713eb",
+    "lib/features/learning/settings_screen.dart": "b1c1be0be072f121ad06ddf2f6e90aa4b257659046e184c310ea9d5cb3c10c76",
+    "lib/features/teacher/content_editor.dart": "aa00997ae093e77497ac7285b134b2625ac2cd33e60b2ad0fef4aa9027f5e85e",
+    "lib/features/teacher/remote/catalog_panel.dart": "9a302f0d7824df7defb6e174685987b30263e4013c3e6d58d21c61552a4e24b2",
+    "lib/features/teacher/remote/exercises_panel.dart": "290aee2e3231f0b82dbb8fac19cdbe7da8948762128edb6d17a9a6e16e0ae883",
+    "lib/features/teacher/remote/groups_panel.dart": "97f724f0da2eaedf6084006d07525cb7136c669892bff3d75c066215839f8774",
+    "lib/features/teacher/remote/homework_draft.dart": "0e0fff0495e62f4b1693a486d260e320df4b5a8044b0a1cc46cb8eb039c028f9",
+    "lib/features/teacher/remote/lesson_editor.dart": "2565f05eb307f82d051dd9ce030264cc6c9852326b3c2f36e8009230b6965635",
+    "lib/features/teacher/remote/online_learning_api.dart": "9ed34a835c8d863e31409494ba2845b074a3439351c312a093c73283ddb61db6",
+    "lib/features/teacher/remote/online_media_preview.dart": "260e585eacb2e9b25a1e65ab14c75b7ca86de8322e64f48d2e0e2d6bc7cb2521",
+    "lib/features/teacher/remote/reports_panel.dart": "ac0ad36d85032bfcad7fc6857d9f2017517f717775719bf5b64d73e64084d788",
+    "lib/features/teacher/remote/school_api.dart": "4fae5eacdbfdca7847f108248d480746cb2a4ba94a50519797c40f9a8992210c",
+    "lib/features/teacher/remote/school_models.dart": "dbe3ac009fe54b522ed2bdd666bf7472ab8f5a6319399072cce3108f8f169752",
+    "lib/features/teacher/remote/school_widgets.dart": "7607f3adac004c5945a0178edf1eb27430e129ab5c0dab34ab1f8a9909761df8",
+    "lib/features/teacher/remote/submission_panel.dart": "055a9ac2493b3512335bdaa9e45bf39efcaa99f5e73857e81e6a69dc79a3cb73",
+    "lib/features/teacher/remote_school_screen.dart": "2300b04d2701aac85f6726e7a6fd8a256d0831134a996bf1d6616eb3d87b3037",
+    "lib/features/teacher/teacher_dashboard.dart": "0d48b27d9622d117463d1bf574520bbba47e0023e738f99d9aae0c3053787902",
+    "lib/features/teacher/teacher_editor.dart": "2c34b77e9a2f9d8d91648c6edd48a53644dbd71eba5f2211c80d83a1b9c49cca",
+    "lib/main.dart": "262aab9f385bbd5bbaa136330cca817c28e06d4037050446522e6cc156b30baf",
+    "lib/services/audio_practice_service.dart": "4c908ba8f3c99ebe89540ffc7bea7e5b4f0aca0cdc65336f25b678c4ea158f07",
+    "lib/services/backend_service.dart": "1610f2cdd69372d1fb3876ed26e9a266d4da4467b5107783baf3ee7cd3b8fe01",
+    "lib/services/integration_config.dart": "c91879c7b2323ed108606dc219c52e0a50ee20cfcf45ee43f6f5db972d86a766",
+    "lib/services/media_upload_service.dart": "e75ca7e5a0a47fb0af4ab6f04a89798610ada535386f03e57e5c689eda685642",
+    "lib/services/purchase_service.dart": "2713f2f1766eb629676820412ffbcdcd3a9d8d80de7b4487b069b36865ed9ac9",
+    "lib/services/push_service.dart": "c4936dc0e8aed253960f169ba5a601757ab538ab075a6e7a243d0dbcf588e5bc",
+    "lib/ui/components.dart": "c931de9dd966252473eb5a6f157edf5e2575daee6c8d36f8aebc3efa169093f3",
+    "lib/ui/design_tokens.dart": "7fb6afcf0e1665ba43cbf4e133835a1a30d465fb3b3013c2714ea8d56e3475c9",
+    "lib/ui/neumorphic_components.dart": "dc41dafa392ee12f9c80e08e7aee0fbe78992352dcebb2847707692a481f1d87",
+    "lib/ui/original_art.dart": "fae7ee8d758bb75e3c30229d97af87a7d65c412a5509f8edad5e7cbb0123ee5f",
+    "lib/ui/premium_art.dart": "1fd07b6c882cecd4a53579b0e296ef346ff77a263ed32617c0ca44833144452f",
+    "lib/ui/purchase_scope.dart": "b9189283d1ba0bc1830dfe4fd3cc9a03a8121b2e94859c04ca82b4f03a4b392f",
+    "lib/ui/reference_components.dart": "eda8b92a7df954407ecbecf563048d023bf004ed21e8b9bdd92580b5962095eb",
+    "lib/ui/welcome_screen.dart": "128a74434d1645bdf083bb09ebb85313532120ea8ad01d178c2d0a38bc018e26",
+    "pubspec.lock": "e796647f4994853db8e27cd306b2b2fb78e0e95111a362d9f2412d3c6ad72556",
+    "pubspec.yaml": "0a9d682ac9085aca4796cfa05546679f62e32524c73461810fb040ca227213e6",
+    "test/visual_acceptance_test.dart": "0f9dcf9ee8c4553ad0f4abfb1968dede673945111e5db2ba1a695c921090c653"
+  },
+  "source_hashes_stable_during_run": true,
+  "changed_source_paths": [],
+  "flutter_exit_code": 0,
+  "additional_test_arguments": [],
+  "complete_matrix_passed": true,
+  "cases_passed": 52,
+  "cases_failed": 0,
+  "expected_cases": 52,
+  "case_reports": [
+    "ru-320-2x-grammar.json",
+    "ru-320-2x-localteacher.json",
+    "ar-320-2x-exercise.json",
+    "ar-320-2x-dictionary.json",
+    "ar-320-2x-dictionary-detail.json",
+    "ru-320-2x-exercise.json",
+    "ru-390-lesson.json",
+    "ru-390-courses.json",
+    "ru-390-dictionary-detail.json",
+    "ar-390-localteacher.json",
+    "ar-320-2x-progress.json",
+    "ru-390-exercise.json",
+    "ar-390-dictionary-detail.json",
+    "ar-320-2x-localteacher.json",
+    "ru-390-grammar.json",
+    "ru-320-2x-home.json",
+    "ar-320-2x-lesson.json",
+    "ar-390-home.json",
+    "ar-390-settings.json",
+    "ru-320-2x-dictionary-detail.json",
+    "ru-390-home.json",
+    "ar-390-editor.json",
+    "ar-390-grammar-detail.json",
+    "ru-390-progress.json",
+    "ru-320-2x-lesson-dialogue.json",
+    "ar-390-dictionary.json",
+    "ru-320-2x-dictionary.json",
+    "ar-390-courses.json",
+    "ar-390-grammar.json",
+    "ru-390-grammar-detail.json",
+    "ru-320-2x-lesson.json",
+    "ar-390-lesson.json",
+    "ar-390-progress.json",
+    "ar-320-2x-grammar.json",
+    "ar-390-lesson-dialogue.json",
+    "ar-320-2x-editor.json",
+    "ru-390-settings.json",
+    "ru-390-localteacher.json",
+    "ar-320-2x-grammar-detail.json",
+    "ar-320-2x-courses.json",
+    "ru-390-lesson-dialogue.json",
+    "ru-390-editor.json",
+    "ar-320-2x-home.json",
+    "ar-390-exercise.json",
+    "source-before.json",
+    "ru-320-2x-grammar-detail.json",
+    "ar-320-2x-lesson-dialogue.json",
+    "ru-390-dictionary.json",
+    "ru-320-2x-settings.json",
+    "ru-320-2x-progress.json",
+    "run.json",
+    "ru-320-2x-courses.json",
+    "ru-320-2x-editor.json",
+    "ar-320-2x-settings.json"
+  ],
+  "screenshots": [
+    {
+      "file": "ar-320-2x-courses-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "09b5aa0243f63ab6d2606dc8b04d22ec74f4699cbf154abb0cfd75da3a4886dc"
+    },
+    {
+      "file": "ar-320-2x-courses-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "4d0e970a1a3aa52c7a39259ff33f88db55708276a5b4bbdd07efeb0135667117"
+    },
+    {
+      "file": "ar-320-2x-courses-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "9d82290013a030bafe4deac0b03498e83edd630167af6748b1c51c3e820ca5f2"
+    },
+    {
+      "file": "ar-320-2x-dictionary-detail-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1259385afc8967500aab371bbc8c27723120188c7902fbe1444b854eaf8a8327"
+    },
+    {
+      "file": "ar-320-2x-dictionary-detail-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1259385afc8967500aab371bbc8c27723120188c7902fbe1444b854eaf8a8327"
+    },
+    {
+      "file": "ar-320-2x-dictionary-detail-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "df14ea6eb53aa855007be5f402df628478575fc4ec2223beee3190d881a3644e"
+    },
+    {
+      "file": "ar-320-2x-dictionary-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "9269a18f4702fbf1e610e01b14a36a3b116b5a57befa93f0d601d5cd81b3a9d2"
+    },
+    {
+      "file": "ar-320-2x-dictionary-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "cd7c58122bd8b9ba665079b0d9bbea738d21c5f4149f06d3847ff449e9894034"
+    },
+    {
+      "file": "ar-320-2x-dictionary-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "12898e87126e3b071d816fa97e675b707738298d3fb9be06a985517c74808193"
+    },
+    {
+      "file": "ar-320-2x-editor-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "01e550bdd525a012ec6cf296d63986492d7a5e6d06fcbf67e2e234ff892dd2c8"
+    },
+    {
+      "file": "ar-320-2x-editor-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "29816b97b135559ec9dc0ba05ad573b3b51791bee95ec42a4480fed201be25b1"
+    },
+    {
+      "file": "ar-320-2x-editor-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "f27ab67a7c65369199cbfa90ffb664f0756c382aa2b5432b7d109850a7f427c6"
+    },
+    {
+      "file": "ar-320-2x-exercise-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "d0625cbf9829803fb1d57cd1ebcf87e08a2c5421e91dc91191000c915f36381f"
+    },
+    {
+      "file": "ar-320-2x-exercise-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "d0625cbf9829803fb1d57cd1ebcf87e08a2c5421e91dc91191000c915f36381f"
+    },
+    {
+      "file": "ar-320-2x-exercise-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "b1f47786bc4cc4e20436509fdc6efbc39314e7d968b465f9b85554bad3027b79"
+    },
+    {
+      "file": "ar-320-2x-grammar-detail-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "8de593682f8c8fe64c8ad21be7576f30cf58a2abf27ee291ef27daa290fa3d9c"
+    },
+    {
+      "file": "ar-320-2x-grammar-detail-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "e3b44e1727fe20d9603a721ba3e067687512d58391368fca9d202568388af0c6"
+    },
+    {
+      "file": "ar-320-2x-grammar-detail-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "9fcb30827dd602db7013849e99365c8cf6379adb377e991ce84fa4abc75a0b6a"
+    },
+    {
+      "file": "ar-320-2x-grammar-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "c2c0396899c9fa55cab0c16068a14da4cf2a68da45e37069cf75a11b4a0a6a99"
+    },
+    {
+      "file": "ar-320-2x-grammar-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "9d881d9a89815c2a52cd3b55235025dd14809b1bdd562f11262e32cdd782e8ec"
+    },
+    {
+      "file": "ar-320-2x-grammar-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "bb8488d11e3317dd30e3d723f472fb0470ba2f25f2230edd2d9ff602ab6e2508"
+    },
+    {
+      "file": "ar-320-2x-home-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "f329c4ad39262cb6f10bb92f72b008dc2f8552328c9d31cc2a09b170e5beb7fa"
+    },
+    {
+      "file": "ar-320-2x-home-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1fbdd554c88d82922bca56344bdb984ebd1615924f8193fb4f095a02e0c65956"
+    },
+    {
+      "file": "ar-320-2x-home-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "ee924cae155f5f178ccb71917059037b81bfb602170f0816043ba6fb881034df"
+    },
+    {
+      "file": "ar-320-2x-lesson-dialogue-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "eed07235425d274272737a8109d1b85742e4986f98e2b2e7237a9b24b004a1ac"
+    },
+    {
+      "file": "ar-320-2x-lesson-dialogue-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "52645c4021b10689b7d2e1355249bc2746db0867ae34d069b166102467f1cabe"
+    },
+    {
+      "file": "ar-320-2x-lesson-dialogue-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "15396404fa2770f8f306c7a931d6a33c47d7bb9e9dcded3d653d3a89e7c34f45"
+    },
+    {
+      "file": "ar-320-2x-lesson-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "bb016995941f4761c09a1a7179c898b478b9cb7bac928eb8419f30bca9c5ec0a"
+    },
+    {
+      "file": "ar-320-2x-lesson-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1c7c91c4e7d35f4f3cf7e5be51033ee115fe3f06dc195c24dfd9e2eed2e42e58"
+    },
+    {
+      "file": "ar-320-2x-lesson-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "04658b619918c9010680925160d72b3dbf557ed17c51fa0baefc6afb0ddbdcd5"
+    },
+    {
+      "file": "ar-320-2x-localteacher-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "9a32d38c7de78ae93fe2837e1610f8cbf72242f22b161ce2189bcbdc3d3c8f3e"
+    },
+    {
+      "file": "ar-320-2x-localteacher-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "ecdf77a2d5db9e030f0ed9233e814edaa20dbd4c66c4d360246a9761075616cb"
+    },
+    {
+      "file": "ar-320-2x-localteacher-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "3a0b2414a10334fa224fe0433091ba1954ad7e6411dbc9f7acc700fa48024b9e"
+    },
+    {
+      "file": "ar-320-2x-progress-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "0d778726213f9ede60177d4194476a232ccf94b413991bf9ab7f78168867df2e"
+    },
+    {
+      "file": "ar-320-2x-progress-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "9fe8b6e15bfa02e8faa80ef2e1eb5e49688ce5811d2940bb38403f03017b3b8f"
+    },
+    {
+      "file": "ar-320-2x-progress-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "11fa111a62ee18dcffa8b662160b8e1f5d0f9b8a5dd68c6212d2d9101688b7b5"
+    },
+    {
+      "file": "ar-320-2x-settings-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "44743f7b4b9d766c7b57c5c75df4df8315c613e79710c423876ea8dcce9319cd"
+    },
+    {
+      "file": "ar-320-2x-settings-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "50a1ed5e92c61060ead315b99b3eb762c03147e40b802e3299ee897fc969e0c2"
+    },
+    {
+      "file": "ar-320-2x-settings-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "154c9c4983af0558078bd350e3d3e9570f5c43c3589307622f0286230f62436c"
+    },
+    {
+      "file": "ar-390-courses-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "c4dfc8596f69c5ac0c1de2f04461d52e203e29e6759baf0b8080c31ed505e54b"
+    },
+    {
+      "file": "ar-390-courses-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "15ca6f8419508bd6fcbadb5228c90ac823a64cb0c95bb53f17a714711a988fa2"
+    },
+    {
+      "file": "ar-390-courses-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "4232baf10f0f51f7b8553ed699cf3ac99195739b6117047398a9d4f47e585e52"
+    },
+    {
+      "file": "ar-390-dictionary-detail-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "bc1692dbfb74670601b9e839794f3935e03ae9239f6752fff439342dc6002a42"
+    },
+    {
+      "file": "ar-390-dictionary-detail-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "bc1692dbfb74670601b9e839794f3935e03ae9239f6752fff439342dc6002a42"
+    },
+    {
+      "file": "ar-390-dictionary-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "ad080e70fe7c3a3cbd68301851870eeefa8e0169e74b2f593d2ce23a41f43469"
+    },
+    {
+      "file": "ar-390-dictionary-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "e31e1b647b8cef3c3754144165a2c1f61de2ad82ec2126bc4344b8e6162d6f82"
+    },
+    {
+      "file": "ar-390-dictionary-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "3eef54b2f7ec64c97fc909a08e35901320ad5fbe9e5c9e72028153370249fe78"
+    },
+    {
+      "file": "ar-390-editor-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "bd93cad28db0762841cc5f448f87e996725c95b1ae982dfffbebe587a9d22885"
+    },
+    {
+      "file": "ar-390-editor-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "a35e213c55fcc3d0a1bc16bb252972a2023b52f1c395e2f0d75dfaffa9aa6e76"
+    },
+    {
+      "file": "ar-390-editor-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "cbb891bedb56d01f92f6f0a6efc3f832c8eedccf34fc279a64acfdb338f752a8"
+    },
+    {
+      "file": "ar-390-exercise-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "9240e9324fea004c7638891ae2da927842b13793b7150dd15d868bc30791e665"
+    },
+    {
+      "file": "ar-390-exercise-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "9240e9324fea004c7638891ae2da927842b13793b7150dd15d868bc30791e665"
+    },
+    {
+      "file": "ar-390-grammar-detail-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "eaa5b51e80fd9475caffb61e45788a74cbdc14531673dab35e41a801f6aa4a19"
+    },
+    {
+      "file": "ar-390-grammar-detail-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "eaa5b51e80fd9475caffb61e45788a74cbdc14531673dab35e41a801f6aa4a19"
+    },
+    {
+      "file": "ar-390-grammar-detail-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "224d778516b6f44982e5b98ac3d690c5c11877a8afa2b8e64e2f2715693e48b7"
+    },
+    {
+      "file": "ar-390-grammar-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "9d581d335e6de8e80c5a39754147db2b4560075667b30d1058ec536edbe1077b"
+    },
+    {
+      "file": "ar-390-grammar-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "d2967b99845ff22aea14f9b9984ab31817d439405941dd98c47d3696b757d4a5"
+    },
+    {
+      "file": "ar-390-grammar-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "0099c58a5784f9f226ca3c9550c85c69cce552afad313ce8d5a8ee1ea07c3785"
+    },
+    {
+      "file": "ar-390-home-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "554a78758cf68b30ad3f091063a449d80940c60d7251459fd23140973b41d7e3"
+    },
+    {
+      "file": "ar-390-home-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "554a78758cf68b30ad3f091063a449d80940c60d7251459fd23140973b41d7e3"
+    },
+    {
+      "file": "ar-390-home-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "8f7f7ce6e2c3cd9ec673c2fe367bfc35a6236969a1565ab44f517ceea919cdc2"
+    },
+    {
+      "file": "ar-390-lesson-dialogue-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "8b32e25145207bcda2d7583a31f426412a9a77ca0661b8039bb81460ae004a6b"
+    },
+    {
+      "file": "ar-390-lesson-dialogue-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "8b32e25145207bcda2d7583a31f426412a9a77ca0661b8039bb81460ae004a6b"
+    },
+    {
+      "file": "ar-390-lesson-dialogue-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "25724e1d4dedd80b2a4538c3f8a906da477eaf78661051726a82490da74dc1a8"
+    },
+    {
+      "file": "ar-390-lesson-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "809053f82c943e9886bac924f2eac6ad6eebe85907188b9bdb179428bdbdc7ad"
+    },
+    {
+      "file": "ar-390-lesson-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "809053f82c943e9886bac924f2eac6ad6eebe85907188b9bdb179428bdbdc7ad"
+    },
+    {
+      "file": "ar-390-lesson-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "11a7b8b4354292e81fcc99013fb9eaf437f303b573aa21506fda6942d58e0b54"
+    },
+    {
+      "file": "ar-390-localteacher-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "d23fca89b577aec0dc13c459ababb45b96e4ebb5a508dafe1c67ba33be43dd44"
+    },
+    {
+      "file": "ar-390-localteacher-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "d23fca89b577aec0dc13c459ababb45b96e4ebb5a508dafe1c67ba33be43dd44"
+    },
+    {
+      "file": "ar-390-localteacher-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "ab457f596b89c88fcd048d794770169ce4cf5075e6388d517b05da630ae12405"
+    },
+    {
+      "file": "ar-390-progress-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "af89772077acf8dcb5b7331c4df01107001ab2ea7e066461822eec8e9e8c0edf"
+    },
+    {
+      "file": "ar-390-progress-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "8d8f736d621e5c9f8b197eecddfd1101781ce6a6476a93b9f4ccf9080ec9fcf7"
+    },
+    {
+      "file": "ar-390-progress-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "20a70d510a85c1498d8e550ac5fbf683ad678f7e92377d52a463f2a42131217f"
+    },
+    {
+      "file": "ar-390-settings-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "f553bda5cf97d6edb4999d3850f04910fd488171c610eaf675ca70b1ff975855"
+    },
+    {
+      "file": "ar-390-settings-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "3d7e86fcd63dbab37fa76b61d5d951cb17e051fc5a13ca15686bd37a59ca5a65"
+    },
+    {
+      "file": "ar-390-settings-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "1ac4a776e911147b2faff41ee2e4d07660759edd5957ca0573c43ff83ff2603d"
+    },
+    {
+      "file": "ru-320-2x-courses-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "f8e346c5bd57c2c17b4bcb20b4d37059dc903c87f28a1a1bac1ef609da910271"
+    },
+    {
+      "file": "ru-320-2x-courses-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "176124e42cc8951f068dcb19eb21f961d660c3c38e2c28e5efced7b2c9258601"
+    },
+    {
+      "file": "ru-320-2x-courses-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "20f01aa18b9aeb7656647d72ab51fff691369403a17560a8b5526f4e325b9a21"
+    },
+    {
+      "file": "ru-320-2x-dictionary-detail-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "5a153195f59ac4563dfbd56d5cf9e880fc4dbfad8d827e623fc862ec8b15d10d"
+    },
+    {
+      "file": "ru-320-2x-dictionary-detail-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "5a153195f59ac4563dfbd56d5cf9e880fc4dbfad8d827e623fc862ec8b15d10d"
+    },
+    {
+      "file": "ru-320-2x-dictionary-detail-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1298b487ebe0db7c200f3eb4b50e2f4cb0ccf7350033b8f0dc5ab2a16688e8d8"
+    },
+    {
+      "file": "ru-320-2x-dictionary-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "7e960110a5267fcf09bd092a451385bc871a3e71c9febc6af3d1e2741935dfc7"
+    },
+    {
+      "file": "ru-320-2x-dictionary-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1941920f2b1a2c9117c60c758ea970286832292c3960781a8d17e15b63a75821"
+    },
+    {
+      "file": "ru-320-2x-dictionary-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "4e5a76747c64ad5cb350e00e03dd028ad6ef8fe9f43d9e236eebb03364d75b00"
+    },
+    {
+      "file": "ru-320-2x-editor-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "8fdb7023d364459a3bf97bd6baf2f9d0c6e8a8417bb473f5cfc148d2339c02e6"
+    },
+    {
+      "file": "ru-320-2x-editor-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "5aba5bf9943eb9eb823e0ced7147eacba255f6d13b9756a98f150544c636a12e"
+    },
+    {
+      "file": "ru-320-2x-editor-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "b4249b20c50984d5bc2ea19731a7401f0bfe258c4126d7c2283aa36c2edf8b2f"
+    },
+    {
+      "file": "ru-320-2x-exercise-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1c865e7b6ad3cfddf516a2e823a96120a7dfca88a0b03b1dbf8e054d8629ba5f"
+    },
+    {
+      "file": "ru-320-2x-exercise-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1c865e7b6ad3cfddf516a2e823a96120a7dfca88a0b03b1dbf8e054d8629ba5f"
+    },
+    {
+      "file": "ru-320-2x-exercise-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1ec2fa2c138967691688b3af0985f87ede72008556a535c1048793eee7bc32c3"
+    },
+    {
+      "file": "ru-320-2x-grammar-detail-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "6db2ef6c0bd82dc56b7620ececb3b8c74bf032ebf17555b7a14c4979dc7a60bd"
+    },
+    {
+      "file": "ru-320-2x-grammar-detail-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "f768011fbb79e0f5168c50b98a7c8a920d920ebde28de0e8d4d641cafa6a356b"
+    },
+    {
+      "file": "ru-320-2x-grammar-detail-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "3ea95aacb4944527f24b7a0328947e728dedc1b0c9622d2e02a111ddf79a0946"
+    },
+    {
+      "file": "ru-320-2x-grammar-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "38fdb5d38a2c7641419400990caa6679e9b9cce11f23ffe9f112f0975b3e9375"
+    },
+    {
+      "file": "ru-320-2x-grammar-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1ffa800d93e81ba039bb52d298343003f367219e5479fd18265f1f845f9cd196"
+    },
+    {
+      "file": "ru-320-2x-grammar-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "f15bc497990a392d26cf4dff805aa3d5ade0eb572924d6869a38cbcca3924231"
+    },
+    {
+      "file": "ru-320-2x-home-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "839ce8c6a6eef6d83cc5f6032f77451fc4038211128f92a193a849ebd952e7b1"
+    },
+    {
+      "file": "ru-320-2x-home-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "5e928053c317ab18e29d54791fabaf81fd44698a0e745900d9715e1b75b37773"
+    },
+    {
+      "file": "ru-320-2x-home-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "e38858dfcd15419f9d415c9ed49f5c14c893ce033686e24204f2aae11d99b606"
+    },
+    {
+      "file": "ru-320-2x-lesson-dialogue-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "4e73b8dffd9b3f1c78aef7e0f6b4f600afec3a3b175e6135dd218e4dbf628da6"
+    },
+    {
+      "file": "ru-320-2x-lesson-dialogue-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "06b2c1f37f98bf9f09a4a35db43139a1d7e45280348677205d0dd40ec80aaf62"
+    },
+    {
+      "file": "ru-320-2x-lesson-dialogue-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "78b4c1dc7bdfcbf433447b5e44ba5de204bfda9ff8b576a161583caa3a0d8309"
+    },
+    {
+      "file": "ru-320-2x-lesson-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "0589ccb5c9e6166fa9acb8c469e59f242c795dcdd82e4bf60e713a5e8ac196c0"
+    },
+    {
+      "file": "ru-320-2x-lesson-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1ca183eecb9eea8c0fd6efabeabcf0d4e8b0be5bc3f9c20a0bcf86347cc31b14"
+    },
+    {
+      "file": "ru-320-2x-lesson-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "47c9051f92df6bc1231d72c203ac239c713f81b1bb6510b2fc770b04a26cde94"
+    },
+    {
+      "file": "ru-320-2x-localteacher-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "20452981e5b81fc7647f989be85e90f418464b306561cee4d1a0f457b8b4504b"
+    },
+    {
+      "file": "ru-320-2x-localteacher-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "b93f2767e183f07aecc124fa75e4db4705a420bfec568b7286a5f9631d7a520d"
+    },
+    {
+      "file": "ru-320-2x-localteacher-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "9f30793b99baa0b4d15fceddbb340a83faa6cf46529642b568ee55b2db7b4db9"
+    },
+    {
+      "file": "ru-320-2x-progress-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "c59b35de8803ff00c43c29b185271cc37db2157c4a940b4946ec7a7b48fa08cc"
+    },
+    {
+      "file": "ru-320-2x-progress-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "39daedf9701716683c7a2575f94789754e54543f331e190fbf162335dd5facde"
+    },
+    {
+      "file": "ru-320-2x-progress-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "222f28a5fb1cd4743c51935ed5161e248b32b596174d05ea47a3a25ec693c6fc"
+    },
+    {
+      "file": "ru-320-2x-settings-end.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "bc6c3c34792c25098536e94eca03e0565506632775ec18738dee0c06178b472e"
+    },
+    {
+      "file": "ru-320-2x-settings-scroll.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "f6771343e0ba7dcf1c25f49c108697592ba8f423449a43ec3561c9de9ad39eb7"
+    },
+    {
+      "file": "ru-320-2x-settings-start.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "5506bcfd457e57feb57237c337f629988f716ec8cc45873759d8fa7e7d7e11f7"
+    },
+    {
+      "file": "ru-390-courses-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "7baf9842c00a71ec904fb54bfb7caf20d836c5a2f623f9a633c66bc16f1cc869"
+    },
+    {
+      "file": "ru-390-courses-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "7a8cd7f79e59920ae2e80452109d8ef1dfa4d6cbaefe4196ac393353eea620ec"
+    },
+    {
+      "file": "ru-390-courses-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "72b568547bc89fa0279f0e58aedcbb8c0b674a607cfeeaf34d50a87f6a0384dc"
+    },
+    {
+      "file": "ru-390-dictionary-detail-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "5c59f79a60e2d54d0ab627b84ea552fcb7420919269d59a8afc067577e522526"
+    },
+    {
+      "file": "ru-390-dictionary-detail-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "5c59f79a60e2d54d0ab627b84ea552fcb7420919269d59a8afc067577e522526"
+    },
+    {
+      "file": "ru-390-dictionary-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "aabb8a96443c614fad7598cedbe0688c746b68079c7ac90ae89a8db0efc41d4d"
+    },
+    {
+      "file": "ru-390-dictionary-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "341a2196eee0aa731bb46a0f94919f26569bf7d43870f8dea2eceb2a8bc63e4a"
+    },
+    {
+      "file": "ru-390-dictionary-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "8837de0118898852ff1203c08ad0287f4282c29b331792041a9968650ae5b6bd"
+    },
+    {
+      "file": "ru-390-editor-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "ce0551100d9c3ab8bdd4f42e2354d63d6eb855b175eb6ea4e6b66a8d4cb54f3d"
+    },
+    {
+      "file": "ru-390-editor-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "b0c062965db82b46980bd5e34c74aea0871d2eb7a57710f880cf1a7c0e5d00b3"
+    },
+    {
+      "file": "ru-390-editor-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "29f2aca7bfd50552976a758132c7f1f7d6b01c15e19fc703fdeee2d73ec07521"
+    },
+    {
+      "file": "ru-390-exercise-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "b8900d8748c808092c51946357b94454c559f1f77e876ccd6b2466b88cee6376"
+    },
+    {
+      "file": "ru-390-exercise-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "b8900d8748c808092c51946357b94454c559f1f77e876ccd6b2466b88cee6376"
+    },
+    {
+      "file": "ru-390-grammar-detail-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "5c10fe908f9389d1673ee3c26f5cf84b92d3ac20e366e66434696a44a14facf0"
+    },
+    {
+      "file": "ru-390-grammar-detail-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "5c10fe908f9389d1673ee3c26f5cf84b92d3ac20e366e66434696a44a14facf0"
+    },
+    {
+      "file": "ru-390-grammar-detail-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "ddb3ee0d0b9484daacc6971193b41f235e247644462d532a459464af3dfd7254"
+    },
+    {
+      "file": "ru-390-grammar-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "291a4691e65c169f26aa7982ae0c7c610479bb0474c3e2cef956a7fc5d29cb3f"
+    },
+    {
+      "file": "ru-390-grammar-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "b140c6a0656e188008c9eebe71e349ac4970e0468452b02ffa53e8a29bb065c4"
+    },
+    {
+      "file": "ru-390-grammar-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "d83be641713f0b5ad9a4b50dbca20953f5995d570c5c382e95e7034f87d77d67"
+    },
+    {
+      "file": "ru-390-home-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "dcc2e980572f7df863ed089d17c75249d57134d6ec8bdea797c4d97a3208418e"
+    },
+    {
+      "file": "ru-390-home-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "dcc2e980572f7df863ed089d17c75249d57134d6ec8bdea797c4d97a3208418e"
+    },
+    {
+      "file": "ru-390-home-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "d2c0035bbf279906c7ad1d373fc12ca486251d8b5bc21532fcf0cdeb3f2bf1dd"
+    },
+    {
+      "file": "ru-390-lesson-dialogue-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "fc1c073fbec1d800c7b89c64b6f6901e4943223bad33d141b1b832f37043c8d6"
+    },
+    {
+      "file": "ru-390-lesson-dialogue-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "fc1c073fbec1d800c7b89c64b6f6901e4943223bad33d141b1b832f37043c8d6"
+    },
+    {
+      "file": "ru-390-lesson-dialogue-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "0ef8e27dbe9085e8f155ae1909336e28550dfe1931d43e88efa047c28b9930a9"
+    },
+    {
+      "file": "ru-390-lesson-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "6948d30575711f2778b52fddf4a11d3eceb0b7d402830ce83127a7d862e1350f"
+    },
+    {
+      "file": "ru-390-lesson-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "6948d30575711f2778b52fddf4a11d3eceb0b7d402830ce83127a7d862e1350f"
+    },
+    {
+      "file": "ru-390-lesson-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "1b418b7cad2610a540aea5ee843da783d7763f2923f9d21d43dbd349b8e897c2"
+    },
+    {
+      "file": "ru-390-localteacher-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "30396f8c3bd424fdb34d7e738a84255795010004aad3fce6bc2f560dc6cc973f"
+    },
+    {
+      "file": "ru-390-localteacher-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "30396f8c3bd424fdb34d7e738a84255795010004aad3fce6bc2f560dc6cc973f"
+    },
+    {
+      "file": "ru-390-localteacher-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "bc103993aefa005704b6e2bba39491926b5d16f5ebd7b18c169bc5355a95f86e"
+    },
+    {
+      "file": "ru-390-progress-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "d43a22b918ff892001bdc926c31e48e2b1fca2e9367fcf0643852128ca2566a3"
+    },
+    {
+      "file": "ru-390-progress-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "e9a84e55c726c733876807664f4a06c1d106c6afe1eb70adc5378a9c92228480"
+    },
+    {
+      "file": "ru-390-progress-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "32432ac047d34179aaa19e20b81bc637cc95d548f3172a598cf8d8c6e1e84e7b"
+    },
+    {
+      "file": "ru-390-settings-end.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "ec9122a6ef1ded80b8e2eb35ad16fb59b1b354dc8f5dd4023a7e1bfdca5892a8"
+    },
+    {
+      "file": "ru-390-settings-scroll.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "7aaa7bf9743531fda801a14a4fc94ff04b361ef21233a93355a900eb90f16243"
+    },
+    {
+      "file": "ru-390-settings-start.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "1875b0de90363cefd28fc3b4d3e93d9da767519d68868a7fdbf5d5ad1f35b213"
+    }
+  ]
+}

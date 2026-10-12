@@ -1,0 +1,70 @@
+{
+  "flutter_source_commit": "8ce8a97005d6f1e03cecda80361fd4511be79caa",
+  "version": "0.7.0+7",
+  "signing_mode": "development",
+  "certificate_sha256": "ed4366cd566d5395a2c9c426e26cedc185e2611c0a24bbedb9805cb2b5ad90b4",
+  "builds": [
+    {
+      "name": "release-apks",
+      "command": [
+        "flutter",
+        "build",
+        "apk",
+        "--release",
+        "--split-per-abi"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 88.91
+    },
+    {
+      "name": "release-aab",
+      "command": [
+        "flutter",
+        "build",
+        "appbundle",
+        "--release",
+        "--no-pub"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 45.79
+    },
+    {
+      "name": "debug-apk",
+      "command": [
+        "flutter",
+        "build",
+        "apk",
+        "--debug"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 29.38
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk",
+      "bytes": 30060629,
+      "sha256": "901a859e8cf02fcaa7494cc34b0f8b1d28074ddf2fda4174443af09a614b446a"
+    },
+    {
+      "path": "build/app/outputs/flutter-apk/app-arm64-v8a-release.apk",
+      "bytes": 37308809,
+      "sha256": "65ccde0a5b5f3d8cd4e97fcae3ec5c6c0806fe421bbf956028aa1dce2a389572"
+    },
+    {
+      "path": "build/app/outputs/flutter-apk/app-x86_64-release.apk",
+      "bytes": 42456999,
+      "sha256": "3885eacb8eebe0225a9544d0d1d7214552446504c97ed808662a48e5c7e82670"
+    },
+    {
+      "path": "build/app/outputs/flutter-apk/app-debug.apk",
+      "bytes": 225995913,
+      "sha256": "ba20097436397ca21bf41405a7e0ad80b77170ada3611501fef757e6e44d8b08"
+    },
+    {
+      "path": "build/app/outputs/bundle/release/app-release.aab",
+      "bytes": 69667896,
+      "sha256": "700f498e55fb9fdeb0a7cc89ccf0da305b25b86f6158eb0698472a030c13c86b"
+    }
+  ]
+}

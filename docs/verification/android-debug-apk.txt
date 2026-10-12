@@ -1,0 +1,4 @@
+Running Gradle task 'assembleDebug'...
+Picked up JAVA_TOOL_OPTIONS:  -Djavax.net.ssl.trustStore=/workspace/.config/bayna-java-cacerts -Djavax.net.ssl.trustStorePassword=changeit -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080 -Dhttp.nonProxyHosts=localhost|127.*|[::1]
+Running Gradle task 'assembleDebug'...                             26.5s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk

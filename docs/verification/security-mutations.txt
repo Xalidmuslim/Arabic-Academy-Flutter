@@ -1,0 +1,14 @@
+PASS: SQL mutation baseline
+KILLED: disabled category delivery
+KILLED: event account affinity
+KILLED: single-use invite replay
+KILLED: atomic preference preservation
+KILLED: profile lock / actual upload-deletion race
+PASS: Edge mutation baseline (frozen checksums)
+KILLED: learner chat data grant
+KILLED: future-expiry canceled/grace subscriptions
+KILLED: production sandbox isolation
+KILLED: first-send response notification ID
+KILLED: cached replay response notification ID
+KILLED: concurrent replay response notification ID
+PASS: all security mutations were detected

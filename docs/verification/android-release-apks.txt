@@ -1,0 +1,7 @@
+Running Gradle task 'assembleRelease'...
+Picked up JAVA_TOOL_OPTIONS:  -Djavax.net.ssl.trustStore=/workspace/.config/bayna-java-cacerts -Djavax.net.ssl.trustStorePassword=changeit -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080 -Dhttp.nonProxyHosts=localhost|127.*|[::1]
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 10616 bytes (99.4% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Running Gradle task 'assembleRelease'...                           87.4s
+✓ Built build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk (30.1MB)
+✓ Built build/app/outputs/flutter-apk/app-arm64-v8a-release.apk (37.3MB)
+✓ Built build/app/outputs/flutter-apk/app-x86_64-release.apk (42.5MB)
