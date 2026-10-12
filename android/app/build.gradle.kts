@@ -7,6 +7,12 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
+// Firebase remains optional. An owner's real configuration activates resource
+// generation needed by background FCM; unconfigured offline builds stay valid.
+if (file("google-services.json").exists()) {
+    apply(plugin = "com.google.gms.google-services")
+}
+
 val ownerSigningFile = rootProject.file("key.properties")
 val ownerSigning = Properties()
 if (ownerSigningFile.exists()) {

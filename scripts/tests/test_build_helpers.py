@@ -13,6 +13,27 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class BuildHelpersTests(unittest.TestCase):
+    def test_android_sdk_manager_does_not_require_sdk_in_path(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            sdk = root / 'sdk'
+            manager = sdk / 'cmdline-tools/latest/bin/sdkmanager'
+            javac = root / 'jdk/bin/javac'
+            manager.parent.mkdir(parents=True)
+            javac.parent.mkdir(parents=True)
+            calls = root / 'calls.txt'
+            manager.write_text('#!/bin/bash\nprintf "%s\\n" "$*" >> "$BAYNA_TEST_CALLS"\nif [[ "$*" == *--licenses* ]]; then head -n 1 >/dev/null; fi\n')
+            javac.write_text('#!/bin/bash\nprintf "javac 17\\n"\n')
+            manager.chmod(0o755)
+            javac.chmod(0o755)
+            env = {**os.environ, 'PATH': '/usr/bin:/bin', 'ANDROID_HOME': str(sdk),
+                   'JAVA_HOME': str(root / 'jdk'), 'BAYNA_TEST_CALLS': str(calls)}
+            result = subprocess.run(['bash', str(ROOT / 'scripts/prepare_android_ci.sh')],
+                                    env=env, capture_output=True, text=True, timeout=10)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertIn('--licenses', calls.read_text())
+            self.assertIn('platforms;android-36', calls.read_text())
+
     def test_workflow_has_all_gates_and_immutable_action_pins(self):
         import re
         workflow = (ROOT / '.github/workflows/flutter-android.yml').read_text()

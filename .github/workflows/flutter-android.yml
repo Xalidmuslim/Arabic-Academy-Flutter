@@ -118,7 +118,21 @@ jobs:
           cd ios
           if [[ -f Podfile.lock ]]; then pod install --deployment; else pod install; fi
       - name: Build unsigned iOS application
-        run: flutter build ios --release --no-codesign --no-pub
+        run: |
+          set +e
+          flutter build ios --release --no-codesign --no-pub > /tmp/bayna-ios-build.log 2>&1
+          result=$?
+          set -e
+          cat /tmp/bayna-ios-build.log
+          if [[ "$result" != 0 ]]; then
+            python3 - <<'PY'
+          from pathlib import Path
+          text = '\n'.join(Path('/tmp/bayna-ios-build.log').read_text().splitlines()[-100:])[-16000:]
+          text = text.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+          print('::error title=Unsigned iOS build diagnostic::' + text)
+          PY
+          fi
+          exit "$result"
       - name: Preserve unsigned app bundle and label it clearly
         run: |
           test -d build/ios/iphoneos/Runner.app
