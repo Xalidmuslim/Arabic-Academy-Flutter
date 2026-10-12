@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
+import 'ui/premium_art.dart';
 
 const green = Color(0xFF123F35);
 const cream = Color(0xFFF7F3EA);
@@ -137,7 +138,11 @@ class _HomeScreenState extends State<HomeScreen> {
             boxShadow: const [BoxShadow(
               color: Color(0x30123F35), blurRadius: 12, offset: Offset(0, 5))],
           ),
-          child: const NaskhText('ع', color: Colors.white, size: 25),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(12),
+            child: Image.asset(PremiumArt.emblem, width: 41, height: 41,
+              fit: BoxFit.cover, filterQuality: FilterQuality.medium),
+          ),
         ),
         const SizedBox(width: 11),
         Expanded(child: Column(
@@ -165,9 +170,11 @@ class _HomeScreenState extends State<HomeScreen> {
         const SizedBox(width: 7),
       ],
     ),
-    body: AnimatedBuilder(
-      animation: widget.state,
-      builder: (context, _) => teacher ? _teacherView(context) : _learnerView(context),
+    body: ArtworkBackdrop(
+      child: AnimatedBuilder(
+        animation: widget.state,
+        builder: (context, _) => teacher ? _teacherView(context) : _learnerView(context),
+      ),
     ),
     bottomNavigationBar: SafeArea(
       top: false,
@@ -229,6 +236,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           clipBehavior: Clip.antiAlias,
           child: Stack(children: [
+            const ArtworkHeroLayer(),
             const Positioned(
               right: -35, top: -42,
               child: Icon(Icons.auto_stories_rounded,
@@ -337,14 +345,14 @@ class _HomeScreenState extends State<HomeScreen> {
               }
             },
             child: Row(children: [
-              CircleAvatar(backgroundColor: cream, child: Text((entry.key + 1).toString(),
-                style: const TextStyle(color: green, fontWeight: FontWeight.bold))),
+              ArtworkIcon(PremiumArt.icons[entry.key % PremiumArt.icons.length], size: 62),
               const SizedBox(width: 12),
               Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text(unit['title_ru'] as String, style: const TextStyle(fontWeight: FontWeight.bold)),
                 NaskhText(unit['title_ar'] as String, size: 17),
               ])),
-              Icon(free ? Icons.chevron_right : Icons.lock_outline, color: muted),
+              Icon(free ? Icons.chevron_right_rounded : Icons.lock_outline_rounded,
+                color: muted, size: 21),
             ]),
           )),
         );
@@ -396,7 +404,7 @@ class _HomeScreenState extends State<HomeScreen> {
               color: const Color(0xFFE4EBE3),
               borderRadius: BorderRadius.circular(15),
             ),
-            child: const Icon(Icons.school_outlined, color: green, size: 27),
+            child: const ArtworkIcon('books', size: 48),
           ),
         ]),
         const SizedBox(height: 17),
@@ -412,6 +420,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           clipBehavior: Clip.antiAlias,
           child: Stack(children: [
+            const ArtworkHeroLayer(),
             const Positioned(
               right: -30, top: -30,
               child: Icon(Icons.local_library_outlined,
@@ -458,7 +467,15 @@ class _HomeScreenState extends State<HomeScreen> {
               borderRadius: BorderRadius.circular(17)),
           ),
         ),
-        const SizedBox(height: 10),
+        const SizedBox(height: 12),
+        Row(children: [
+          Expanded(child: _teacherAction(context, 'Видео', 'video')),
+          const SizedBox(width: 9),
+          Expanded(child: _teacherAction(context, 'Задание', 'homework')),
+          const SizedBox(width: 9),
+          Expanded(child: _teacherAction(context, 'Тест', 'tests')),
+        ]),
+        const SizedBox(height: 13),
         Container(
           padding: const EdgeInsets.all(13),
           decoration: BoxDecoration(
@@ -561,6 +578,29 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  Widget _teacherAction(BuildContext context, String title, String art) =>
+    Material(
+      color: Colors.white,
+      borderRadius: BorderRadius.circular(17),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(17),
+        onTap: () => Navigator.push(context, MaterialPageRoute(
+          builder: (_) => TeacherEditor(state: widget.state))),
+        child: Container(
+          padding: const EdgeInsets.symmetric(vertical: 9, horizontal: 4),
+          decoration: BoxDecoration(
+            border: Border.all(color: const Color(0xFFE8DFD3)),
+            borderRadius: BorderRadius.circular(17)),
+          child: Column(children: [
+            ArtworkIcon(art, size: 63),
+            const SizedBox(height: 3),
+            Text(title, style: const TextStyle(
+              fontSize: 11, fontWeight: FontWeight.w700, color: green)),
+          ]),
+        ),
+      ),
+    );
+
   Widget _teacherMetric(String name, int count, IconData icon) => Container(
     padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 12),
     decoration: BoxDecoration(
@@ -569,7 +609,11 @@ class _HomeScreenState extends State<HomeScreen> {
       border: Border.all(color: const Color(0xFFEAE0D4)),
     ),
     child: Column(children: [
-      Icon(icon, size: 21, color: bronze),
+      ArtworkIcon(
+        icon == Icons.library_books_outlined ? 'books'
+          : icon == Icons.check_circle_outline ? 'tests' : 'homework',
+        size: 43),
+
       const SizedBox(height: 5),
       Text('$count', style: const TextStyle(
         fontWeight: FontWeight.w800, fontSize: 21, color: green)),
@@ -592,6 +636,7 @@ class UnitScreen extends StatelessWidget {
       ...state.lessons.map((item) {
         final lesson = item as Map<String, dynamic>;
         return Padding(padding: const EdgeInsets.only(bottom: 10), child: Panel(child: ListTile(
+          leading: const ArtworkIcon('books', size: 47),
           title: Text(lesson['title'] as String),
           subtitle: NaskhText(lesson['title_ar'] as String, size: 20),
           trailing: Icon(state.completed.contains(lesson['id']) ? Icons.check_circle : Icons.chevron_right,
