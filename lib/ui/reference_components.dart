@@ -104,7 +104,7 @@ class ReferencePhotoHeader extends StatelessWidget {
     height:153,clipBehavior:Clip.antiAlias,
     decoration:BoxDecoration(color:refGreen,borderRadius:BorderRadius.circular(22)),
     child:Stack(fit:StackFit.expand,children:[
-      Image.asset('assets/images/feature_welcome.webp',fit:BoxFit.cover),
+      Image.asset('assets/images/feature_teacher.webp',fit:BoxFit.cover),
       const DecoratedBox(decoration:BoxDecoration(gradient:LinearGradient(
         colors:[Color(0xE307382D),Color(0x9907382D),Color(0x2807382D)]))),
       Padding(padding:const EdgeInsets.all(17),child:Column(
