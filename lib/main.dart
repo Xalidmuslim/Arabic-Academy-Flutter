@@ -460,70 +460,22 @@ class _HomeScreenState extends State<HomeScreen> {
     final published = widget.state.teacherLessons
       .where((item) => item['published'] == true).length;
     return ListView(
-      padding: const EdgeInsets.fromLTRB(18, 12, 18, 25),
+      padding: const EdgeInsets.fromLTRB(16, 15, 16, 28),
       children: [
-        Row(children: [
-          Expanded(child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Text('Панель преподавателя',
-                style: TextStyle(color: muted, fontSize: 12)),
-              Text('Моя академия', style: Theme.of(context).textTheme.headlineSmall
-                ?.copyWith(fontSize: 24, fontWeight: FontWeight.w800, color: green)),
-            ],
-          )),
-          Container(
-            width: 48, height: 48,
-            decoration: BoxDecoration(
-              color: const Color(0xFFE4EBE3),
-              borderRadius: BorderRadius.circular(15),
-            ),
-            child: const ArtworkIcon('books', size: 48),
-          ),
-        ]),
-        const SizedBox(height: 17),
-        Container(
-          decoration: BoxDecoration(
-            gradient: const LinearGradient(
-              begin: Alignment.topLeft, end: Alignment.bottomRight,
-              colors: [green, Color(0xFF286B56)],
-            ),
-            borderRadius: BorderRadius.circular(24),
-            boxShadow: const [BoxShadow(
-              color: Color(0x26123F35), blurRadius: 20, offset: Offset(0, 9))],
-          ),
-          clipBehavior: Clip.antiAlias,
-          child: Stack(children: [
-            const ArtworkHeroLayer(),
-            const Positioned(
-              right: -30, top: -30,
-              child: Icon(Icons.local_library_outlined,
-                size: 155, color: Color(0x13FFFFFF)),
-            ),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 21, vertical: 19),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text('УПРАВЛЕНИЕ ОБУЧЕНИЕМ',
-                    style: TextStyle(fontSize: 10, letterSpacing: 1.3,
-                      fontWeight: FontWeight.w700, color: Color(0xFFE0CBA8))),
-                  SizedBox(height: 6),
-                  NaskhText('الْعِلْمُ نُورٌ', size: 27, color: Colors.white),
-                  Text('Создавайте собственные уроки',
-                    style: TextStyle(color: Color(0xFFE4EDE7), fontSize: 12)),
-                ],
-              ),
-            ),
-          ]),
+        const Text('Кабинет преподавателя',
+          style: TextStyle(fontSize: 22,fontWeight: FontWeight.w800,color: green)),
+        const SizedBox(height: 13),
+        const ReferencePhotoHeader(
+          title: 'Добро пожаловать!',
+          subtitle: 'Создавайте уроки и помогайте ученицам изучать арабский язык.',
         ),
-        const SizedBox(height: 14),
+        const SizedBox(height: 13),
         Row(children: [
-          Expanded(child: _teacherMetric('Всего', total, Icons.library_books_outlined)),
+          Expanded(child: _teacherMetric('Ученицы', null, Icons.groups_outlined)),
           const SizedBox(width: 8),
-          Expanded(child: _teacherMetric('Опубликовано', published, Icons.check_circle_outline)),
+          Expanded(child: _teacherMetric('На проверке', null, Icons.fact_check_outlined)),
           const SizedBox(width: 8),
-          Expanded(child: _teacherMetric('Черновики', total - published, Icons.edit_note_outlined)),
+          Expanded(child: _teacherMetric('Группы', null, Icons.people_alt_outlined)),
         ]),
         const SizedBox(height: 23),
         const Text('Быстрые действия',
@@ -565,6 +517,31 @@ class _HomeScreenState extends State<HomeScreen> {
             )),
           ]),
         ),
+        const SizedBox(height: 21),
+        const Text('Управление школой',style:TextStyle(
+          fontSize:19,fontWeight:FontWeight.w800,color:green)),
+        const SizedBox(height: 9),
+        Panel(child:Column(children:[
+          _teacherMenuRow('Мои курсы','Редактирование и публикация',
+            Icons.menu_book_outlined,()=>setState(()=>selectedTab=1)),
+          const Divider(height:12),
+          _teacherMenuRow('Ученицы','Список, прогресс и сообщения',
+            Icons.groups_outlined,()=>setState(()=>selectedTab=2)),
+          const Divider(height:12),
+          _teacherMenuRow('Домашние задания','Проверка выполненных работ',
+            Icons.assignment_turned_in_outlined,()=>setState(()=>selectedTab=3)),
+          const Divider(height:12),
+          _teacherMenuRow('Расписание','Онлайн-занятия и встречи',
+            Icons.calendar_month_outlined,
+            ()=>_notice(context,'Расписание появится после подключения сервера.')),
+          const Divider(height:12),
+          _teacherMenuRow('Статистика','Активность и результаты',
+            Icons.bar_chart_rounded,
+            ()=>_notice(context,'Общая статистика появится после подключения сервера.')),
+          const Divider(height:12),
+          _teacherMenuRow('Настройки','Язык, уведомления и оформление',
+            Icons.settings_outlined,()=>setState(()=>selectedTab=4)),
+        ])),
         const SizedBox(height: 22),
         Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
           const Text('Мои материалы',
@@ -625,32 +602,21 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ])),
         )),
-        const SizedBox(height: 20),
-        const Text('Управление школой',
-          style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: green)),
-        const SizedBox(height: 11),
-        const Panel(child: Column(children: [
-          ListTile(
-            contentPadding: EdgeInsets.zero,
-            leading: Icon(Icons.groups_outlined, color: green),
-            title: Text('Ученицы и группы'),
-            subtitle: Text('Подключим вместе с сервером')),
-          Divider(height: 10),
-          ListTile(
-            contentPadding: EdgeInsets.zero,
-            leading: Icon(Icons.assignment_turned_in_outlined, color: green),
-            title: Text('Проверка заданий'),
-            subtitle: Text('Пока не подключена')),
-          Divider(height: 10),
-          ListTile(
-            contentPadding: EdgeInsets.zero,
-            leading: Icon(Icons.payment_outlined, color: green),
-            title: Text('Платежи'),
-            subtitle: Text('Пока не подключены')),
-        ])),
       ],
     );
   }
+
+  Widget _teacherMenuRow(String title, String description,
+    IconData icon, VoidCallback onTap) => ListTile(
+      contentPadding: const EdgeInsets.symmetric(horizontal: 3,vertical: 0),
+      dense: true,
+      leading: Icon(icon,color: const Color(0xFF9D714A),size: 26),
+      title: Text(title,style: const TextStyle(
+        color: green,fontWeight: FontWeight.w800,fontSize: 13)),
+      subtitle: Text(description,style: const TextStyle(fontSize: 11,color: muted)),
+      trailing: const Icon(Icons.chevron_right_rounded,color: muted,size: 20),
+      onTap: onTap,
+    );
 
   Widget _teacherAction(BuildContext context, String title, String art) =>
     Material(
@@ -675,7 +641,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
 
-  Widget _teacherMetric(String name, int count, IconData icon) => Container(
+  Widget _teacherMetric(String name, int? count, IconData icon) => Container(
     padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 12),
     decoration: BoxDecoration(
       color: Colors.white,
@@ -689,7 +655,7 @@ class _HomeScreenState extends State<HomeScreen> {
         size: 43),
 
       const SizedBox(height: 5),
-      Text('$count', style: const TextStyle(
+      Text(count == null ? '—' : '$count', style: const TextStyle(
         fontWeight: FontWeight.w800, fontSize: 21, color: green)),
       Text(name, maxLines: 1, overflow: TextOverflow.ellipsis,
         style: const TextStyle(fontSize: 10, color: muted)),
