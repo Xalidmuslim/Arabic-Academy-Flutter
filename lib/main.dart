@@ -155,7 +155,7 @@ class _HomeScreenState extends State<HomeScreen> {
       actions: [
         PopupMenuButton<bool>(
           tooltip: 'Переключить демо-роль',
-          icon: const Icon(Icons.manage_accounts_outlined),
+          icon: const Icon(Icons.swap_horiz_rounded),
           onSelected: (v) => setState(() => teacher = v),
           itemBuilder: (_) => const [
             PopupMenuItem(value: false, child: Text('Демо: ученица')),
