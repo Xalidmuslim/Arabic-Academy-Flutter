@@ -301,7 +301,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               const Text('Добро пожаловать',
                 style: TextStyle(fontSize: 12, color: muted)),
-              Text('Моё обучение', style: Theme.of(context).textTheme.headlineSmall
+              Text('Арабский каждый день', style: Theme.of(context).textTheme.headlineSmall
                 ?.copyWith(color: green, fontWeight: FontWeight.w800, fontSize: 24)),
             ],
           )),
