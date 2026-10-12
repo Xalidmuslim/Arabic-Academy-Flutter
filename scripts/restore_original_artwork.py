@@ -15,7 +15,7 @@ if not PARTS:
     raise SystemExit("Missing embedded original artwork archive parts")
 encoded = "".join(p.read_text(encoding="ascii").strip() for p in PARTS)
 content = base64.b64decode(encoded, validate=True)
-expected = "SHA_TO_SET"
+expected = "4998ffa3d701e67ff0732e76b9e1e75b5c36f865d5171ee1745f466216bf1ac7"
 actual = hashlib.sha256(content).hexdigest()
 if actual != expected:
     raise SystemExit(f"Atlas integrity mismatch: {actual} != {expected}")
