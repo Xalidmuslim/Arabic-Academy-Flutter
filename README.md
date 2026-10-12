@@ -6,7 +6,7 @@
 
 ## Запуск
 
-Требуются Flutter **3.35.7**, полный JDK **17**, Android SDK **36**; для iOS — macOS/Xcode и CocoaPods, deployment target iOS 15+. Нативные проекты уже включены; повторное `flutter create` не требуется.
+Требуются Flutter **3.35.7**, полный JDK **17**, Android SDK **36**; для iOS — macOS, Xcode **26.3** и CocoaPods, deployment target iOS 15+. Нативные проекты уже включены; повторное `flutter create` не требуется.
 
 ```bash
 flutter pub get --enforce-lockfile

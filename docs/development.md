@@ -149,3 +149,7 @@ from a completed hosted CI run.
 ## Flutter 3.35.7 plugin regeneration
 
 The first release APK build after a debug/test command must allow Flutter tooling regeneration: `flutter build apk --release --split-per-abi` (without `--no-pub`). This SDK skips regenerating its Android plugin registrant when `--no-pub` is used, while Gradle correctly excludes dev plugins from release. An old debug registrant can therefore reference `IntegrationTestPlugin`, which is absent from release. Keep the integration-test dependency and all checks; do not patch the generated Java or SDK. Resolve the committed lock beforehand with `flutter pub get --enforce-lockfile`, build sequentially, and check `git diff --exit-code -- pubspec.lock` afterward. A following release AAB may use `--no-pub` because its release registrant is current.
+
+## Supported Apple compiler
+
+Use Xcode 26.3 (present on the macOS 15 hosted image), while keeping the iOS deployment target 15. The locked `connectivity_plus 7.3.1` references `NWPath.isUltraConstrained` inside `#available(iOS 26.0, *)`. That guard preserves older-device support but requires an SDK that defines the symbol; Xcode 16.4 fails at compile time. No dependency cache or plugin source is patched.
