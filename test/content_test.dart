@@ -6,7 +6,9 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   late Map<String, dynamic> catalog;
   setUpAll(() {
-    catalog = jsonDecode(File('assets/content/level1.json').readAsStringSync()) as Map<String, dynamic>;
+    catalog =
+        jsonDecode(File('assets/content/level1.json').readAsStringSync())
+            as Map<String, dynamic>;
   });
 
   test('Eight units, first free, seven restricted', () {
@@ -25,7 +27,10 @@ void main() {
       expect((lesson['options'] as List), isNotEmpty);
       expect(lesson['title_ar'], isNotEmpty);
       final answer = lesson['correct'] as int;
-      expect(answer, inInclusiveRange(0, (lesson['options'] as List).length - 1));
+      expect(
+        answer,
+        inInclusiveRange(0, (lesson['options'] as List).length - 1),
+      );
     }
   });
 }

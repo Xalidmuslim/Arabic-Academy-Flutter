@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'design_tokens.dart';
 
 /// Shared, deliberately lightweight soft-matte visual language.
 /// Two pre-defined shadows and local WebP images avoid expensive backdrop blur.
 abstract final class NeumorphicPalette {
-  static const background = Color(0xFFF2E8D9);
-  static const surface = Color(0xFFF5EBDD);
-  static const ink = Color(0xFF27372E);
-  static const olive = Color(0xFF526B40);
-  static const secondary = Color(0xFF786F62);
+  static const background = DesignTokens.ivory;
+  static const surface = Color(0xFFF7F0E2);
+  static const ink = DesignTokens.ink;
+  static const olive = DesignTokens.olive;
+  static const secondary = DesignTokens.secondary;
   static const outline = Color(0xCCFFFFFF);
 }
 
@@ -71,7 +72,9 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
   @override
   Widget build(BuildContext context) => AnimatedScale(
     scale: _pressed ? 0.975 : 1,
-    duration: const Duration(milliseconds: 115),
+    duration: Duration(
+      milliseconds: MediaQuery.disableAnimationsOf(context) ? 0 : 115,
+    ),
     curve: Curves.easeOutCubic,
     child: NeumorphicSurface(
       padding: EdgeInsets.zero,
@@ -113,6 +116,7 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
                   style: const TextStyle(
                     color: NeumorphicPalette.ink,
                     fontWeight: FontWeight.w800,
+                    fontVariations: [FontVariation('wght', 800)],
                     fontSize: 14,
                   ),
                 ),
@@ -165,14 +169,25 @@ class NeumorphicCourseHero extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Мой курс', style: TextStyle(
-                      color: NeumorphicPalette.secondary, fontSize: 12)),
+                    Text(
+                      'Мой курс',
+                      style: TextStyle(
+                        color: NeumorphicPalette.secondary,
+                        fontSize: 12,
+                      ),
+                    ),
                     SizedBox(height: 3),
-                    Text('Базовый уровень 1',
+                    Text(
+                      'Базовый уровень 1',
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
-                      style: TextStyle(color: NeumorphicPalette.ink,
-                        fontWeight: FontWeight.w800, fontSize: 17)),
+                      style: TextStyle(
+                        color: NeumorphicPalette.ink,
+                        fontWeight: FontWeight.w800,
+                        fontVariations: [FontVariation('wght', 800)],
+                        fontSize: 17,
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -183,25 +198,37 @@ class NeumorphicCourseHero extends StatelessWidget {
                 child: Stack(
                   alignment: Alignment.center,
                   children: [
-                    SizedBox.expand(child: CircularProgressIndicator(
-                      value: value,
-                      strokeWidth: 5,
-                      strokeCap: StrokeCap.round,
-                      color: NeumorphicPalette.olive,
-                      backgroundColor: const Color(0xFFDDD1C0),
-                    )),
-                    Text('${(value * 100).round()}%', style: const TextStyle(
-                      fontSize: 12, fontWeight: FontWeight.w800,
-                      color: NeumorphicPalette.ink)),
+                    SizedBox.expand(
+                      child: CircularProgressIndicator(
+                        value: value,
+                        strokeWidth: 5,
+                        strokeCap: StrokeCap.round,
+                        color: NeumorphicPalette.olive,
+                        backgroundColor: const Color(0xFFDDD1C0),
+                      ),
+                    ),
+                    Text(
+                      '${(value * 100).round()}%',
+                      style: const TextStyle(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w800,
+                        fontVariations: [FontVariation('wght', 800)],
+                        color: NeumorphicPalette.ink,
+                      ),
+                    ),
                   ],
                 ),
               ),
             ],
           ),
           const SizedBox(height: 9),
-          Text('Пройдено $completed из $total уроков',
+          Text(
+            'Пройдено $completed из $total уроков',
             style: const TextStyle(
-              color: NeumorphicPalette.secondary, fontSize: 11)),
+              color: NeumorphicPalette.secondary,
+              fontSize: 11,
+            ),
+          ),
           const SizedBox(height: 8),
           Row(
             children: [
@@ -226,11 +253,13 @@ class NeumorphicCourseHero extends StatelessWidget {
                     foregroundColor: Colors.white,
                     padding: const EdgeInsets.symmetric(horizontal: 13),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(17)),
+                      borderRadius: BorderRadius.circular(17),
+                    ),
                   ),
-                  child: const Text('Продолжить',
-                    style: TextStyle(fontSize: 12,
-                      fontWeight: FontWeight.w700)),
+                  child: const Text(
+                    'Продолжить',
+                    style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+                  ),
                 ),
               ),
             ],

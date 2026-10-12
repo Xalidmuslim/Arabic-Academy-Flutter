@@ -6,7 +6,9 @@ import 'package:arabic_academy/main.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('Student dashboard is available without a paid account in demo', (tester) async {
+  testWidgets('Student dashboard is available without a paid account in demo', (
+    tester,
+  ) async {
     SharedPreferences.setMockInitialValues({});
     final prefs = await SharedPreferences.getInstance();
     final state = AcademyState(prefs, <String, dynamic>{
