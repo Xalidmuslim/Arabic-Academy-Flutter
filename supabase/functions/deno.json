@@ -1,0 +1,9 @@
+{
+  "compilerOptions": { "strict": true },
+  "nodeModulesDir": "auto",
+  "fmt": { "lineWidth": 100 },
+  "imports": {
+    "jose": "npm:jose@5.9.6",
+    "apple-store": "npm:@apple/app-store-server-library@3.1.0"
+  }
+}
