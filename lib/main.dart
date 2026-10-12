@@ -622,7 +622,13 @@ class _HomeScreenState extends State<HomeScreen> {
     IconData icon, VoidCallback onTap) => ListTile(
       contentPadding: const EdgeInsets.symmetric(horizontal: 3,vertical: 0),
       dense: true,
-      leading: Icon(icon,color: const Color(0xFF9D714A),size: 26),
+      leading: ArtworkIcon(
+        icon == Icons.menu_book_outlined ? 'books'
+        : icon == Icons.groups_outlined ? 'students'
+        : icon == Icons.assignment_turned_in_outlined ? 'homework'
+        : icon == Icons.calendar_month_outlined ? 'schedule'
+        : icon == Icons.bar_chart_rounded ? 'analytics' : 'settings',
+        size: 48),
       title: Text(title,style: const TextStyle(
         color: green,fontWeight: FontWeight.w800,fontSize: 13)),
       subtitle: Text(description,style: const TextStyle(fontSize: 11,color: muted)),
@@ -662,8 +668,8 @@ class _HomeScreenState extends State<HomeScreen> {
     ),
     child: Column(children: [
       ArtworkIcon(
-        icon == Icons.library_books_outlined ? 'books'
-          : icon == Icons.check_circle_outline ? 'tests' : 'homework',
+        icon == Icons.groups_outlined ? 'students'
+          : icon == Icons.fact_check_outlined ? 'tests' : 'analytics',
         size: 43),
 
       const SizedBox(height: 5),
