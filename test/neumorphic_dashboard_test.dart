@@ -34,11 +34,20 @@ void main() {
     expect(find.byType(NeumorphicFeatureTile), findsNWidgets(4));
     expect(find.text('Уроки'), findsWidgets);
     expect(find.text('Словарь'), findsOneWidget);
+    expect(find.text('Грамматика'), findsOneWidget);
+    expect(find.text('Мой прогресс'), findsOneWidget);
     expect(find.text('Базовый уровень 1'), findsWidgets);
 
     await tester.tap(find.widgetWithText(NeumorphicFeatureTile, 'Уроки'));
     await tester.pumpAndSettle();
     expect(find.byType(UnitScreen), findsOneWidget);
+    await tester.pageBack();
+    await tester.pumpAndSettle();
+    final progressCard = find.widgetWithText(NeumorphicFeatureTile, 'Мой прогресс');
+    await tester.ensureVisible(progressCard);
+    await tester.tap(progressCard);
+    await tester.pumpAndSettle();
+    expect(find.byType(LearnerProgressScreen), findsOneWidget);
   });
 
   testWidgets('Course progress displays real completion, not mock statistics',
