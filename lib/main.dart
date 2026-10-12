@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 import 'ui/premium_art.dart';
 import 'ui/reference_components.dart';
+import 'ui/welcome_screen.dart';
 
 const green = Color(0xFF123F35);
 const cream = Color(0xFFF7F3EA);
@@ -81,7 +82,18 @@ class AcademyApp extends StatelessWidget {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       )),
     ),
-    home: HomeScreen(state: state),
+    home: state.prefs.getBool('welcome_seen') == true
+      ? HomeScreen(state: state)
+      : Builder(builder: (welcomeContext) => ReferenceWelcomeScreen(
+          onStart: () async {
+            await state.prefs.setBool('welcome_seen', true);
+            if (welcomeContext.mounted) {
+              Navigator.of(welcomeContext).pushReplacement(MaterialPageRoute(
+                builder: (_) => HomeScreen(state: state)));
+            }
+          },
+        )),
+
   );
 }
 
@@ -546,7 +558,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
           const Text('Мои материалы',
             style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: green)),
-          Text('$total уроков', style: const TextStyle(color: muted, fontSize: 11)),
+          Text('$total уроков · $published опубликовано', style: const TextStyle(color: muted, fontSize: 11)),
         ]),
         const SizedBox(height: 12),
         if (widget.state.teacherLessons.isEmpty)
