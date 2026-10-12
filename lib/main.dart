@@ -173,7 +173,7 @@ class _HomeScreenState extends State<HomeScreen> {
               style: TextStyle(fontSize: 15, color: NeumorphicPalette.ink, fontWeight: FontWeight.w800,
                 letterSpacing: 0.35)),
             Text(teacher ? 'Кабинет учительницы' : 'Пространство обучения',
-              style: const TextStyle(fontSize: 11, color: NeumorphicPalette.secondary))),
+              style: const TextStyle(fontSize: 11, color: NeumorphicPalette.secondary)),
           ],
         )),
       ]),
