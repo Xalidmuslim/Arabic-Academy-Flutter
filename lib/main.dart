@@ -839,7 +839,8 @@ class _LessonScreenState extends State<LessonScreen> {
     const names = ['Урок','Слова','Грамматика','Задания'];
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: refGreen,foregroundColor:Colors.white,
+        backgroundColor: NeumorphicPalette.background,
+        foregroundColor: NeumorphicPalette.ink,
         title: Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
           Text(data['title'] as String,
             maxLines:1,overflow:TextOverflow.ellipsis,
@@ -849,7 +850,7 @@ class _LessonScreenState extends State<LessonScreen> {
       ),
       body: Column(children:[
         Container(
-          color:const Color(0xFFFFFAF2),
+          color: NeumorphicPalette.background,
           padding:const EdgeInsets.fromLTRB(11,9,11,10),
           child: Row(children: List.generate(names.length, (i) =>
             Expanded(child: Padding(
@@ -860,16 +861,18 @@ class _LessonScreenState extends State<LessonScreen> {
                 child: Container(
                   padding:const EdgeInsets.symmetric(vertical:10),
                   decoration:BoxDecoration(
-                    color: activeTab==i ? const Color(0xFFE6EEE6) : Colors.transparent,
-                    borderRadius:BorderRadius.circular(10),
-                    border:Border(bottom:BorderSide(
-                      width:activeTab==i ? 2.5 : 0,
-                      color:activeTab==i ? const Color(0xFFC79B57) : Colors.transparent)),
+                    color: activeTab==i
+                      ? NeumorphicPalette.olive : NeumorphicPalette.surface,
+                    borderRadius:BorderRadius.circular(15),
+                    border:Border.all(color:const Color(0xAAFFFFFF)),
+                    boxShadow:const [BoxShadow(
+                      color:Color(0x248D7C65),blurRadius:6,offset:Offset(2,3))],
                   ),
                   alignment:Alignment.center,
                   child:Text(names[i],maxLines:1,
                     style:TextStyle(fontSize:12,fontWeight:activeTab==i
-                      ? FontWeight.w800 : FontWeight.w500,color:green)),
+                      ? FontWeight.w800 : FontWeight.w500,
+                      color:activeTab==i ? Colors.white : green)),
                 ),
               ),
             )),
