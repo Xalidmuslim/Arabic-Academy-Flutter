@@ -277,8 +277,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _learnerView(BuildContext context) {
-    final completedCount = widget.state.completed.length.clamp(0, 3);
-    final progress = completedCount / 3.0;
+    final totalLessons = widget.state.lessons.length;
+    final completedCount = widget.state.completed.length.clamp(0, totalLessons);
+    final progress = totalLessons == 0 ? 0.0 : completedCount / totalLessons;
     return ListView(
       padding: const EdgeInsets.fromLTRB(18, 12, 18, 25),
       children: [
@@ -302,107 +303,101 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ]),
         const SizedBox(height: 17),
-        Container(
-          decoration: BoxDecoration(
-            gradient: const LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [Color(0xFF123F35), Color(0xFF205948), Color(0xFF2F705B)],
+        ReferenceCourseHero(
+          progress: progress, completed: completedCount, total: totalLessons,
+          onContinue: () {
+            final lessons = widget.state.lessons.cast<Map<String,dynamic>>();
+            if (lessons.isEmpty) { _notice(context, 'Уроки пока не добавлены.'); return; }
+            final next = lessons.firstWhere(
+              (x) => !widget.state.completed.contains(x['id']),
+              orElse: () => lessons.last,
+            );
+            _openLesson(context, next);
+          },
+        ),
+        const SizedBox(height: 14),
+        GridView.count(
+          crossAxisCount: 2,
+          crossAxisSpacing: 11,
+          mainAxisSpacing: 11,
+          childAspectRatio: 0.99,
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          children: [
+            ReferenceFeatureTile(
+              title: 'Уроки', subtitle: 'Видео, тексты, аудио',
+              image: 'assets/images/feature_lessons.webp',
+              onTap: () => Navigator.push(context, MaterialPageRoute(
+                builder: (_) => UnitScreen(state: widget.state))),
             ),
-            borderRadius: BorderRadius.circular(26),
-            boxShadow: const [BoxShadow(
-              color: Color(0x30123F35), blurRadius: 27, offset: Offset(0, 12))],
-          ),
-          clipBehavior: Clip.antiAlias,
-          child: Stack(children: [
-            const ArtworkHeroLayer(),
-            const Positioned(
-              right: -35, top: -42,
-              child: Icon(Icons.auto_stories_rounded,
-                color: Color(0x0EFFFFFF), size: 195),
+            ReferenceFeatureTile(
+              title: 'Задания', subtitle: 'Тесты и упражнения',
+              image: 'assets/images/feature_homework.webp',
+              onTap: () => setState(() => selectedTab = 2),
             ),
-            Positioned(
-              right: -70, bottom: -115,
-              child: Container(
-                width: 215, height: 215,
-                decoration: BoxDecoration(
-                  border: Border.all(color: const Color(0x26FFFFFF)),
-                  shape: BoxShape.circle,
+            ReferenceFeatureTile(
+              title: 'Произношение', subtitle: 'Устная практика',
+              image: 'assets/images/feature_pronunciation.webp',
+              onTap: () => setState(() => selectedTab = 3),
+            ),
+            ReferenceFeatureTile(
+              title: 'Словарь', subtitle: 'Новые слова',
+              image: 'assets/images/feature_vocabulary.webp',
+              onTap: () {
+                final lessons = widget.state.lessons.cast<Map<String,dynamic>>();
+                if (lessons.isEmpty) return;
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (_) => LessonScreen(
+                    state: widget.state, lesson: lessons.first, initialTab: 1)));
+              },
+            ),
+          ],
+        ),
+        const SizedBox(height: 22),
+        Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,children:[
+          const Text('Моё обучение',style: TextStyle(
+            fontSize: 18,fontWeight: FontWeight.w800,color: green)),
+          Text('$completedCount из $totalLessons',
+            style: const TextStyle(fontSize: 11,color: muted)),
+        ]),
+        const SizedBox(height: 9),
+        ...widget.state.lessons.take(3).map((raw) {
+          final lesson = raw as Map<String,dynamic>;
+          final done = widget.state.completed.contains(lesson['id']);
+          return Padding(
+            padding: const EdgeInsets.only(bottom: 7),
+            child: Material(
+              color: const Color(0xFFFFFCF7),
+              borderRadius: BorderRadius.circular(14),
+              child: InkWell(
+                borderRadius: BorderRadius.circular(14),
+                onTap: () => _openLesson(context, lesson),
+                child: Padding(
+                  padding: const EdgeInsets.all(9),
+                  child: Row(children:[
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.asset('assets/images/feature_classroom.webp',
+                        width: 54,height: 47,fit: BoxFit.cover),
+                    ),
+                    const SizedBox(width: 11),
+                    Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start,children:[
+                      Text(lesson['title'] as String,
+                        maxLines: 1,overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(fontSize: 12.5,fontWeight: FontWeight.w700)),
+                      Text(done ? 'Завершён' : 'Для изучения',
+                        style: TextStyle(fontSize: 11,
+                          color: done ? const Color(0xFF178257) : muted)),
+                    ])),
+                    Icon(done ? Icons.check_circle : Icons.play_circle_fill,
+                      color: const Color(0xFF116647),size: 23),
+                  ]),
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(21),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Row(children: [
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 6),
-                      decoration: BoxDecoration(
-                        color: const Color(0x24FFFFFF),
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                      child: const Text('ПЕРВЫЙ УРОВЕНЬ',
-                        style: TextStyle(fontSize: 10, letterSpacing: 1.4,
-                          fontWeight: FontWeight.w700, color: Color(0xFFE1CCAD))),
-                    ),
-                    const Spacer(),
-                    const Icon(Icons.stars_rounded,
-                      size: 20, color: Color(0xFFE1CCAD)),
-                  ]),
-                  const SizedBox(height: 14),
-                  const NaskhText('اللُّغَةُ الْعَرَبِيَّةُ',
-                    size: 33, color: Colors.white),
-                  const SizedBox(height: 2),
-                  const Text('Ваш путь к арабскому языку',
-                    style: TextStyle(fontSize: 12, color: Color(0xFFE1EAE4))),
-                  const SizedBox(height: 20),
-                  Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-                    Text('Пройдено $completedCount из 3 уроков',
-                      style: const TextStyle(color: Colors.white, fontSize: 12)),
-                    Text('${(progress * 100).round()}%',
-                      style: const TextStyle(color: Color(0xFFE1CCAD),
-                        fontWeight: FontWeight.w800, fontSize: 13)),
-                  ]),
-                  const SizedBox(height: 10),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8),
-                    child: LinearProgressIndicator(
-                      value: progress,
-                      minHeight: 7,
-                      color: const Color(0xFFDEC9A5),
-                      backgroundColor: Colors.white24,
-                    ),
-                  ),
-                  const SizedBox(height: 19),
-                  FilledButton.icon(
-                    onPressed: () {
-                      final lessons = widget.state.lessons.cast<Map<String, dynamic>>();
-                      final next = lessons.firstWhere(
-                        (x) => !widget.state.completed.contains(x['id']),
-                        orElse: () => lessons.first,
-                      );
-                      _openLesson(context, next);
-                    },
-                    style: FilledButton.styleFrom(
-                      backgroundColor: cream,
-                      foregroundColor: green,
-                      padding: const EdgeInsets.symmetric(vertical: 14),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15)),
-                    ),
-                    icon: const Icon(Icons.play_circle_outline_rounded),
-                    label: Text(completedCount == 0
-                      ? 'Начать обучение' : 'Продолжить обучение',
-                      style: const TextStyle(fontWeight: FontWeight.w800)),
-                  ),
-                ],
-              ),
-            ),
-          ]),
-        ),
-        const SizedBox(height: 25),
+          );
+        }),
+        const SizedBox(height: 20),
         Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
           const Text('Программа обучения',
             style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: green)),
