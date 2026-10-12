@@ -724,9 +724,11 @@ class UnitScreen extends StatelessWidget {
 }
 
 class LessonScreen extends StatefulWidget {
-  const LessonScreen({super.key, required this.state, required this.lesson});
+  const LessonScreen({super.key, required this.state, required this.lesson,
+    this.initialTab = 0});
   final AcademyState state;
   final Map<String, dynamic> lesson;
+  final int initialTab;
   @override
   State<LessonScreen> createState() => _LessonScreenState();
 }
@@ -734,104 +736,215 @@ class LessonScreen extends StatefulWidget {
 class _LessonScreenState extends State<LessonScreen> {
   int? selected;
   bool checked = false;
+  late int activeTab;
+
+  @override
+  void initState() {
+    super.initState();
+    activeTab = widget.initialTab.clamp(0, 3);
+  }
+
+  Widget _heading(String name) => Padding(
+    padding: const EdgeInsets.only(bottom: 11),
+    child: Text(name,style:const TextStyle(fontSize:19,
+      color:green,fontWeight:FontWeight.w800)),
+  );
 
   @override
   Widget build(BuildContext context) {
     final data = widget.lesson;
-    final items = data['dialogue'] as List;
-    final words = data['vocabulary'] as List;
     final answers = data['options'] as List;
+    const names = ['Урок','Слова','Грамматика','Задания'];
     return Scaffold(
-      appBar: AppBar(title: Text(data['title'] as String)),
-      body: ListView(padding: const EdgeInsets.all(17), children: [
+      appBar: AppBar(
+        backgroundColor: refGreen,foregroundColor:Colors.white,
+        title: Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+          Text(data['title'] as String,
+            maxLines:1,overflow:TextOverflow.ellipsis,
+            style:const TextStyle(fontSize:16,fontWeight:FontWeight.w800)),
+          const Text('Базовый уровень 1',style:TextStyle(fontSize:11)),
+        ]),
+      ),
+      body: Column(children:[
         Container(
-          padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(
-            color: green,
-            borderRadius: BorderRadius.circular(24),
-            image: const DecorationImage(
-              image: AssetImage(PremiumArt.hero),
-              fit: BoxFit.cover,
-              colorFilter: ColorFilter.mode(Color(0xD9123F35), BlendMode.multiply),
-            ),
-            boxShadow: const [BoxShadow(
-              color: Color(0x2B123F35), blurRadius: 20, offset: Offset(0, 9))],
-          ),
-          child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-            Row(children: [
-              const ArtworkIcon('books', size: 54),
-              const SizedBox(width: 10),
-              const Expanded(child: Text('АРАБСКИЙ ЯЗЫК · УРОК',
-                style: TextStyle(color: Color(0xFFF2DEC2), fontSize: 11,
-                  fontWeight: FontWeight.w700, letterSpacing: 0.7))),
-            ]),
-            const SizedBox(height: 7),
-            NaskhText(data['title_ar'] as String, size: 29, color: Colors.white),
-            const SizedBox(height: 5),
-            Text(data['goal'] as String, style: const TextStyle(color: Colors.white)),
-          ]),
+          color:const Color(0xFFFFFAF2),
+          padding:const EdgeInsets.fromLTRB(11,9,11,10),
+          child: Row(children: List.generate(names.length, (i) =>
+            Expanded(child: Padding(
+              padding:const EdgeInsets.symmetric(horizontal:2),
+              child: InkWell(
+                borderRadius:BorderRadius.circular(10),
+                onTap:()=>setState(()=>activeTab=i),
+                child: Container(
+                  padding:const EdgeInsets.symmetric(vertical:10),
+                  decoration:BoxDecoration(
+                    color: activeTab==i ? const Color(0xFFE6EEE6) : Colors.transparent,
+                    borderRadius:BorderRadius.circular(10),
+                    border:Border(bottom:BorderSide(
+                      width:activeTab==i ? 2.5 : 0,
+                      color:activeTab==i ? const Color(0xFFC79B57) : Colors.transparent)),
+                  ),
+                  alignment:Alignment.center,
+                  child:Text(names[i],maxLines:1,
+                    style:TextStyle(fontSize:12,fontWeight:activeTab==i
+                      ? FontWeight.w800 : FontWeight.w500,color:green)),
+                ),
+              ),
+            )),
+          )),
         ),
-        const SizedBox(height: 20),
-        const Text('Диалог', style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold)),
-        ...items.map((entry) {
-          final line = entry as Map<String, dynamic>;
-          return Padding(padding: const EdgeInsets.only(top: 9),
-            child: Panel(child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-              NaskhText(line['ar'] as String, size: 24),
-              Text(line['ru'] as String),
-            ])));
-        }),
-        const SizedBox(height: 20),
-        const Text('Словарь', style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold)),
-        Panel(child: Column(children: [
-          ...words.map((entry) {
-            final line = entry as Map<String, dynamic>;
-            return Row(children: [
-              Expanded(child: Text(line['ru'] as String)),
-              Flexible(child: NaskhText(line['ar'] as String, size: 24)),
-            ]);
-          }),
-        ])),
-        const SizedBox(height: 20),
-        const Text('Грамматика', style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold)),
-        Panel(child: Text(data['grammar'] as String)),
-        const SizedBox(height: 20),
-        const Text('Проверка знаний', style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold)),
-        const SizedBox(height: 10),
-        Panel(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text(data['question'] as String, style: const TextStyle(fontWeight: FontWeight.bold)),
-          RadioGroup<int>(
-            groupValue: selected,
-            onChanged: (value) => setState(() { selected = value; checked = false; }),
-            child: Column(children: [
-              ...answers.asMap().entries.map((x) => RadioListTile<int>(
-                value: x.key, contentPadding: EdgeInsets.zero,
-                title: Text(x.value.toString()),
-              )),
-            ]),
-          ),
-          if (checked)
-            Text(selected == data['correct'] ? 'Правильно!' : 'Неверно, повторите материал.',
-              style: const TextStyle(color: green, fontWeight: FontWeight.bold)),
-          FilledButton(
-            onPressed: selected == null ? null : () => setState(() => checked = true),
-            child: const Text('Проверить ответ'),
-          ),
-        ])),
-        const SizedBox(height: 18),
-        const Text('Домашнее задание', style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold)),
-        Panel(child: Text(data['homework'] as String)),
-        const SizedBox(height: 18),
-        FilledButton.icon(
-          onPressed: checked && selected == data['correct'] ? () async {
-            await widget.state.finish(data['id'] as String);
-            if (context.mounted) _notice(context, 'Урок отмечен как изученный на этом телефоне.');
-          } : null,
-          icon: const Icon(Icons.check_circle_outline), label: const Text('Завершить урок'),
-        ),
-        const SizedBox(height: 16),
-        const Text('Черновые тексты и огласовки требуют редакторской проверки перед публикацией.',
-          style: TextStyle(fontSize: 12, color: muted)),
+        Expanded(child: ListView(
+          padding:const EdgeInsets.fromLTRB(16,16,16,26),
+          children: [
+            if (activeTab==0) ...[
+              Container(
+                height:190,clipBehavior:Clip.antiAlias,
+                decoration:BoxDecoration(
+                  borderRadius:BorderRadius.circular(20),
+                  color:const Color(0xFFEAE5D8)),
+                child:Stack(fit:StackFit.expand,children:[
+                  Image.asset('assets/images/feature_classroom.webp',fit:BoxFit.cover),
+                  const DecoratedBox(decoration:BoxDecoration(
+                    gradient:LinearGradient(
+                      begin:Alignment.topCenter,end:Alignment.bottomCenter,
+                      colors:[Colors.transparent,Color(0xB3093A30)]))),
+                  const Align(alignment:Alignment.bottomCenter,
+                    child:Padding(padding:EdgeInsets.all(13),
+                      child:Text('Видеоурок пока не загружен',
+                        style:TextStyle(color:Colors.white,fontWeight:FontWeight.w700)))),
+                ]),
+              ),
+              const SizedBox(height:19),
+              NaskhText(data['title_ar'] as String,size:30),
+              Text(data['goal'] as String,style:const TextStyle(color:muted)),
+              const SizedBox(height:17),
+              _heading('Диалог'),
+              ...((data['dialogue'] as List).map((raw) {
+                final line = raw as Map<String,dynamic>;
+                return Padding(padding:const EdgeInsets.only(bottom:9),
+                  child:Panel(child:Column(crossAxisAlignment:CrossAxisAlignment.stretch,
+                    children:[
+                      NaskhText(line['ar'] as String,size:25),
+                      const SizedBox(height:5),
+                      Text(line['ru'] as String,
+                        style:const TextStyle(fontSize:13,color:muted)),
+                    ])));
+              })),
+              const SizedBox(height:15),
+              Row(children:[
+                Expanded(child:OutlinedButton.icon(
+                  onPressed:()=>Navigator.pop(context),
+                  icon:const Icon(Icons.arrow_back,size:18),
+                  label:const Text('Назад'))),
+                const SizedBox(width:12),
+                Expanded(child:FilledButton.icon(
+                  onPressed:()=>setState(()=>activeTab=1),
+                  icon:const Icon(Icons.arrow_forward,size:18),
+                  label:const Text('Далее'))),
+              ]),
+            ] else if (activeTab==1) ...[
+              _heading('Новые слова'),
+              const Text('Арабский текст с огласовками — шрифт насх.',
+                style:TextStyle(color:muted,fontSize:12)),
+              const SizedBox(height:13),
+              ...((data['vocabulary'] as List).map((raw) {
+                final word=raw as Map<String,dynamic>;
+                return Padding(padding:const EdgeInsets.only(bottom:9),
+                  child:Panel(child:Row(children:[
+                    Expanded(child:Text(word['ru'] as String,
+                      style:const TextStyle(fontSize:14))),
+                    Expanded(child:NaskhText(word['ar'] as String,size:27)),
+                  ])));
+              })),
+              FilledButton(onPressed:()=>setState(()=>activeTab=2),
+                child:const Text('Перейти к грамматике')),
+            ] else if (activeTab==2) ...[
+              _heading('Объяснение грамматики'),
+              Panel(child:Text(data['grammar'] as String,
+                style:const TextStyle(fontSize:15,height:1.65))),
+              const SizedBox(height:20),
+              FilledButton(onPressed:()=>setState(()=>activeTab=3),
+                child:const Text('Перейти к заданиям')),
+            ] else ...[
+              _heading('Упражнение 1'),
+              const Text('Выберите правильный ответ',
+                style:TextStyle(fontSize:13,color:muted)),
+              const SizedBox(height:14),
+              Panel(child:Column(crossAxisAlignment:CrossAxisAlignment.stretch,
+                children:[
+                  Text(data['question'] as String,
+                    style:const TextStyle(fontWeight:FontWeight.w800,fontSize:16)),
+                  const SizedBox(height:15),
+                  RadioGroup<int>(
+                    groupValue:selected,
+                    onChanged:(v)=>setState((){selected=v;checked=false;}),
+                    child:Column(children:[
+                      ...answers.asMap().entries.map((x)=>RadioListTile<int>(
+                        value:x.key,
+                        title:Text(x.value.toString()),
+                        contentPadding:EdgeInsets.zero,
+                      )),
+                    ]),
+                  ),
+                  if (checked) Container(
+                    margin:const EdgeInsets.only(bottom:12),
+                    padding:const EdgeInsets.all(13),
+                    decoration:BoxDecoration(
+                      color:selected==data['correct']
+                        ? const Color(0xFFE3F4E8) : const Color(0xFFFFEDE6),
+                      borderRadius:BorderRadius.circular(13)),
+                    child:Row(children:[
+                      Icon(selected==data['correct']
+                        ? Icons.check_circle : Icons.info_outline,
+                        color:selected==data['correct']
+                          ? const Color(0xFF138553) : const Color(0xFF9B5D3E)),
+                      const SizedBox(width:8),
+                      Expanded(child:Text(selected==data['correct']
+                        ? 'Правильно!':'Попробуйте другой ответ.',
+                        style:const TextStyle(fontWeight:FontWeight.w700))),
+                    ]),
+                  ),
+                  FilledButton(
+                    onPressed:selected==null ? null : ()=>setState(()=>checked=true),
+                    child:const Text('Проверить ответ')),
+                ])),
+              const SizedBox(height:15),
+              _heading('Домашнее задание'),
+              Panel(child:Text(data['homework'] as String)),
+              const SizedBox(height:15),
+              Panel(child:Column(children:[
+                Row(children:[
+                  const ArtworkIcon('microphone',size:66),
+                  const SizedBox(width:10),
+                  Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,
+                    children:[
+                      const Text('Устная практика',style:TextStyle(
+                        fontWeight:FontWeight.w800,fontSize:16)),
+                      const Text('Запись голоса пока не подключена',
+                        style:TextStyle(color:muted,fontSize:12)),
+                    ])),
+                ]),
+                const SizedBox(height:8),
+                OutlinedButton.icon(onPressed:null,
+                  icon:const Icon(Icons.mic_none),
+                  label:const Text('Записать ответ')),
+              ])),
+              const SizedBox(height:15),
+              FilledButton.icon(
+                onPressed:checked && selected==data['correct'] ? () async {
+                  await widget.state.finish(data['id'] as String);
+                  if (context.mounted) {
+                    _notice(context,'Урок отмечен как изученный на этом телефоне.');
+                  }
+                } : null,
+                icon:const Icon(Icons.check_circle_outline),
+                label:const Text('Завершить урок')),
+            ],
+            const SizedBox(height:15),
+            const Text('Учебные тексты требуют редакторской проверки перед публикацией.',
+              style:TextStyle(color:muted,fontSize:11)),
+          ],
+        )),
       ]),
     );
   }
