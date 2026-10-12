@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 import 'ui/premium_art.dart';
+import 'ui/reference_components.dart';
 
 const green = Color(0xFF123F35);
 const cream = Color(0xFFF7F3EA);
@@ -123,17 +124,20 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   bool teacher = false;
+  int selectedTab = 0;
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      toolbarHeight: 68,
+      backgroundColor: refGreen,
+      foregroundColor: Colors.white,
+      toolbarHeight: 67,
       titleSpacing: 18,
       title: Row(children: [
         Container(
           width: 41, height: 41,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: green,
+            color: refGreen,
             borderRadius: BorderRadius.circular(13),
             boxShadow: const [BoxShadow(
               color: Color(0x30123F35), blurRadius: 12, offset: Offset(0, 5))],
@@ -150,10 +154,10 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             const Text('АРАБСКАЯ АКАДЕМИЯ',
               maxLines: 1, overflow: TextOverflow.ellipsis,
-              style: TextStyle(fontSize: 15, color: green, fontWeight: FontWeight.w800,
+              style: TextStyle(fontSize: 15, color: Colors.white, fontWeight: FontWeight.w800,
                 letterSpacing: 0.35)),
             Text(teacher ? 'Кабинет учительницы' : 'Пространство обучения',
-              style: const TextStyle(fontSize: 11, color: muted)),
+              style: const TextStyle(fontSize: 11, color: Color(0xFFD5E4D9))),
           ],
         )),
       ]),
@@ -161,7 +165,7 @@ class _HomeScreenState extends State<HomeScreen> {
         PopupMenuButton<bool>(
           tooltip: 'Переключить демо-роль',
           icon: const Icon(Icons.swap_horiz_rounded),
-          onSelected: (v) => setState(() => teacher = v),
+          onSelected: (v) => setState(() { teacher = v; selectedTab = 0; }),
           itemBuilder: (_) => const [
             PopupMenuItem(value: false, child: Text('Демо: ученица')),
             PopupMenuItem(value: true, child: Text('Демо: учительница')),
@@ -170,32 +174,107 @@ class _HomeScreenState extends State<HomeScreen> {
         const SizedBox(width: 7),
       ],
     ),
-    body: ArtworkBackdrop(
-      child: AnimatedBuilder(
-        animation: widget.state,
-        builder: (context, _) => teacher ? _teacherView(context) : _learnerView(context),
-      ),
+    body: AnimatedBuilder(
+      animation: widget.state,
+      builder: (context, _) => teacher
+        ? (selectedTab == 0 ? _teacherView(context) : _auxiliaryPage(context))
+        : (selectedTab == 0 ? _learnerView(context) : _auxiliaryPage(context)),
     ),
-    bottomNavigationBar: SafeArea(
-      top: false,
-      child: Container(
-        color: const Color(0xFFECE6D9),
-        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Icon(Icons.science_outlined, size: 15, color: muted),
-            const SizedBox(width: 7),
-            Flexible(child: Text(
-              'ДЕМО · ${teacher ? 'учительница' : 'ученица'} · без сервера и оплаты',
-              textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 10, color: muted),
-            )),
-          ],
-        ),
-      ),
+    bottomNavigationBar: NavigationBar(
+      height: 71,
+      backgroundColor: const Color(0xFFFFFAF2),
+      indicatorColor: const Color(0xFFD9E9DE),
+      labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
+      selectedIndex: selectedTab,
+      onDestinationSelected: (v) => setState(() => selectedTab = v),
+      destinations: teacher ? const [
+        NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: 'Главная'),
+        NavigationDestination(icon: Icon(Icons.auto_stories_outlined), selectedIcon: Icon(Icons.auto_stories), label: 'Курсы'),
+        NavigationDestination(icon: Icon(Icons.groups_outlined), selectedIcon: Icon(Icons.groups), label: 'Ученицы'),
+        NavigationDestination(icon: Icon(Icons.assignment_outlined), selectedIcon: Icon(Icons.assignment), label: 'Задания'),
+        NavigationDestination(icon: Icon(Icons.more_horiz), label: 'Ещё'),
+      ] : const [
+        NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: 'Главная'),
+        NavigationDestination(icon: Icon(Icons.auto_stories_outlined), selectedIcon: Icon(Icons.auto_stories), label: 'Курсы'),
+        NavigationDestination(icon: Icon(Icons.assignment_outlined), selectedIcon: Icon(Icons.assignment), label: 'Задания'),
+        NavigationDestination(icon: Icon(Icons.forum_outlined), selectedIcon: Icon(Icons.forum), label: 'Разговор'),
+        NavigationDestination(icon: Icon(Icons.person_outline), selectedIcon: Icon(Icons.person), label: 'Профиль'),
+      ],
     ),
   );
+
+  Widget _auxiliaryPage(BuildContext context) {
+    final studentTitles = ['','Курсы','Задания','Разговор','Профиль'];
+    final teacherTitles = ['','Мои курсы','Ученицы','Домашние задания','Ещё'];
+    final title = teacher ? teacherTitles[selectedTab] : studentTitles[selectedTab];
+    return ListView(padding: const EdgeInsets.all(18), children: [
+      Text(title, style: const TextStyle(fontSize: 23,
+        fontWeight: FontWeight.w800,color: green)),
+      const SizedBox(height: 15),
+      if (!teacher && selectedTab == 1) ...[
+        Panel(child: ListTile(
+          leading: const ArtworkIcon('books',size:57),
+          title: const Text('Базовый уровень 1'),
+          subtitle: const Text('Бесплатный ознакомительный раздел'),
+          trailing: const Icon(Icons.chevron_right),
+          onTap: () => Navigator.push(context, MaterialPageRoute(
+            builder: (_) => UnitScreen(state: widget.state))),
+        )),
+        const SizedBox(height: 12),
+        ...widget.state.units.skip(1).map((u) => Padding(
+          padding: const EdgeInsets.only(bottom: 9),
+          child: Panel(child: ListTile(
+            title: Text((u as Map)['title_ru'] as String),
+            trailing: const Icon(Icons.lock_outline,color: muted),
+            onTap: () => _notice(context, 'Платный доступ пока не подключён.'),
+          )),
+        )),
+      ] else if (!teacher && selectedTab == 2) ...[
+        const Text('Задания первого уровня', style: TextStyle(color: muted)),
+        const SizedBox(height: 12),
+        ...widget.state.lessons.map((lesson) => Padding(
+          padding: const EdgeInsets.only(bottom: 10),
+          child: Panel(child: ListTile(
+            leading: const ArtworkIcon('homework', size: 53),
+            title: Text((lesson as Map)['title'] as String),
+            subtitle: const Text('Открыть проверку знаний'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => Navigator.push(context, MaterialPageRoute(
+              builder: (_) => LessonScreen(state: widget.state,
+                lesson: lesson.cast<String,dynamic>(), initialTab: 3))),
+          )),
+        )),
+      ] else if (teacher && selectedTab == 1) ...[
+        FilledButton.icon(
+          onPressed: () => Navigator.push(context,MaterialPageRoute(
+            builder: (_) => TeacherEditor(state: widget.state))),
+          icon: const Icon(Icons.add),
+          label: const Text('Добавить урок'),
+        ),
+        const SizedBox(height: 13),
+        ...widget.state.teacherLessons.map((x) => Panel(
+          child: ListTile(
+            title: Text(x['title'] as String),
+            subtitle: Text(x['published'] == true ? 'Опубликован локально' : 'Черновик'),
+            onTap: () => Navigator.push(context, MaterialPageRoute(
+              builder: (_) => TeacherEditor(state: widget.state, original: x))),
+          ),
+        )),
+      ] else
+        Panel(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          const Icon(Icons.info_outline,color: green),
+          const SizedBox(height: 10),
+          Text(teacher
+            ? 'Раздел будет доступен после подключения серверных аккаунтов и групп.'
+            : selectedTab == 3
+              ? 'Онлайн-разговоры и оценка произношения появятся после подключения сервера и аудиосервиса.'
+              : 'Сейчас это демонстрационная версия. Регистрация и синхронизация аккаунтов пока не подключены.'),
+          const SizedBox(height: 8),
+          const Text('Данные этой версии сохраняются только на устройстве.',
+            style: TextStyle(color: muted,fontSize: 12)),
+        ])),
+    ]);
+  }
 
   Widget _learnerView(BuildContext context) {
     final completedCount = widget.state.completed.length.clamp(0, 3);
