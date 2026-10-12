@@ -95,6 +95,7 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
                     child: Image.asset(
                       widget.image,
                       fit: BoxFit.contain,
+                      cacheWidth: 360,
                       filterQuality: FilterQuality.medium,
                       errorBuilder: (_, __, ___) => const Icon(
                         Icons.auto_stories_rounded,
