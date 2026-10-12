@@ -8,7 +8,7 @@ class PremiumArt {
   static const emblem = 'assets/images/academy_emblem.webp';
   static const icons = <String>[
     'books', 'video', 'homework', 'students',
-    'wallet', 'microphone', 'tests', 'settings',
+    'vocabulary', 'microphone', 'tests', 'settings',
   ];
 
   static String iconPath(String icon) => 'assets/images/icon_$icon.webp';
