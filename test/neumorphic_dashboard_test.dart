@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart' show ListView, Offset;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/main.dart';
@@ -43,7 +44,9 @@ void main() {
     await tester.pageBack();
     await tester.pumpAndSettle();
     final progressCard = find.widgetWithText(NeumorphicFeatureTile, 'Мой прогресс');
-    await tester.ensureVisible(progressCard);
+    // GridView is shrink-wrapped inside the outer scrolling ListView.
+    await tester.drag(find.byType(ListView).first, const Offset(0, -650));
+    await tester.pumpAndSettle();
     await tester.tap(progressCard);
     await tester.pumpAndSettle();
     expect(find.byType(LearnerProgressScreen), findsOneWidget);
@@ -62,7 +65,7 @@ void main() {
       ],
     });
     await tester.pumpWidget(AcademyApp(state: state));
-    expect(find.text('1 из 1'), findsWidgets);
+    expect(find.text('Пройдено 1 из 1 уроков'), findsOneWidget);
     expect(find.text('100%'), findsOneWidget);
   });
 }
