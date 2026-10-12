@@ -672,10 +672,28 @@ class _LessonScreenState extends State<LessonScreen> {
       body: ListView(padding: const EdgeInsets.all(17), children: [
         Container(
           padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(color: green, borderRadius: BorderRadius.circular(24)),
+          decoration: BoxDecoration(
+            color: green,
+            borderRadius: BorderRadius.circular(24),
+            image: const DecorationImage(
+              image: AssetImage(PremiumArt.hero),
+              fit: BoxFit.cover,
+              colorFilter: ColorFilter.mode(Color(0xD9123F35), BlendMode.multiply),
+            ),
+            boxShadow: const [BoxShadow(
+              color: Color(0x2B123F35), blurRadius: 20, offset: Offset(0, 9))],
+          ),
           child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-            const Text('УЧЕБНЫЙ УРОК · ЧЕРНОВИК', style: TextStyle(color: bronze, fontSize: 11)),
-            NaskhText(data['title_ar'] as String, size: 30, color: Colors.white),
+            Row(children: [
+              const ArtworkIcon('books', size: 54),
+              const SizedBox(width: 10),
+              const Expanded(child: Text('АРАБСКИЙ ЯЗЫК · УРОК',
+                style: TextStyle(color: Color(0xFFF2DEC2), fontSize: 11,
+                  fontWeight: FontWeight.w700, letterSpacing: 0.7))),
+            ]),
+            const SizedBox(height: 7),
+            NaskhText(data['title_ar'] as String, size: 29, color: Colors.white),
+            const SizedBox(height: 5),
             Text(data['goal'] as String, style: const TextStyle(color: Colors.white)),
           ]),
         ),
@@ -786,7 +804,21 @@ class _TeacherEditorState extends State<TeacherEditor> {
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: const Text('Редактор урока')),
     body: Form(key: formKey, child: ListView(padding: const EdgeInsets.all(17), children: [
-      const Panel(child: Text('Сохранение только на текущем устройстве. Загрузка видеофайлов с телефона появится после подключения сервера.')),
+      const Row(children: [
+        ArtworkIcon('homework', size: 64),
+        SizedBox(width: 10),
+        Expanded(child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Конструктор уроков',
+              style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: green)),
+            Text('Текст, задание и видеоматериал',
+              style: TextStyle(fontSize: 12, color: muted)),
+          ],
+        )),
+      ]),
+      const SizedBox(height: 12),
+      const Panel(child: Text('Демо: уроки сохраняются только на этом устройстве. Для загрузки видео с телефона и публикации другим ученицам требуется сервер.')),
       const SizedBox(height: 15),
       TextFormField(controller: title, maxLength: 100,
         decoration: const InputDecoration(labelText: 'Название урока'),
