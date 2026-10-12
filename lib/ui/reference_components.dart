@@ -51,7 +51,7 @@ class ReferenceCourseHero extends StatelessWidget {
   final VoidCallback onContinue;
   @override
   Widget build(BuildContext context) => Container(
-    height:210,
+    height:228,
     decoration:BoxDecoration(
       color:refGreen,borderRadius:BorderRadius.circular(24),
       boxShadow:const [BoxShadow(color:Color(0x2A173F32),blurRadius:20,offset:Offset(0,9))]),
