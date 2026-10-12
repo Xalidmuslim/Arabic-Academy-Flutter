@@ -620,7 +620,9 @@ class AcademyState extends ChangeNotifier {
   String exportData() => const JsonEncoder.withIndent('  ').convert({
     ..._document,
     'workspace': _isDemo ? 'demo' : 'account',
-    'legacy_teacher_lessons': prefs.getString('legacy_teacher_lessons_v1'),
+    'legacy_teacher_lessons': _isDemo
+        ? prefs.getString('legacy_teacher_lessons_v1')
+        : null,
     'unreadable_snapshot': _blocked ? prefs.getString(namespace) : null,
     'warnings': storageWarnings,
   });

@@ -5,6 +5,19 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
+  test('Account export excludes device demo teacher backups', () async {
+    SharedPreferences.setMockInitialValues({
+      'legacy_teacher_lessons_v1': '[{"title":"Private demo material"}]',
+    });
+    final prefs = await SharedPreferences.getInstance();
+    final account = AcademyState(prefs, {
+      'modules': [],
+      'lessons': [],
+    }, namespace: 'academy_account_student');
+    await account.initialize();
+    expect(jsonDecode(account.exportData())['legacy_teacher_lessons'], isNull);
+    expect(prefs.getString('legacy_teacher_lessons_v1'), isNotNull);
+  });
   TestWidgetsFlutterBinding.ensureInitialized();
   const catalog = <String, dynamic>{
     'modules': <dynamic>[],
