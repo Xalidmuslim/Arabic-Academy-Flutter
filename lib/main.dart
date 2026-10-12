@@ -127,7 +127,7 @@ class Panel extends StatelessWidget {
         BoxShadow(color: Color(0x358D7C65), blurRadius: 14, offset: Offset(5, 6)),
       ],
     ),
-    child: child,
+    child: Material(type: MaterialType.transparency, child: child),
   );
 }
 
