@@ -1,0 +1,20 @@
+{
+  "renderer": "Flutter widget tester engine; NOT Android/device screenshot",
+  "screen": "grammar-detail",
+  "profile": "ar-320-2x",
+  "width": 320.0,
+  "height": 800.0,
+  "device_pixel_ratio": 1,
+  "text_scale": 2.0,
+  "locale": "ar",
+  "direction": "rtl",
+  "status": "passed",
+  "scroll_steps": 4,
+  "reached_end": true,
+  "captures": [
+    "ar-320-2x-grammar-detail-start.png",
+    "ar-320-2x-grammar-detail-scroll.png",
+    "ar-320-2x-grammar-detail-end.png"
+  ],
+  "errors": []
+}

@@ -6,7 +6,9 @@ import 'package:arabic_academy/main.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('Student dashboard is available without a paid account in demo', (tester) async {
+  testWidgets('Student dashboard is available without a paid account in demo', (
+    tester,
+  ) async {
     SharedPreferences.setMockInitialValues({});
     final prefs = await SharedPreferences.getInstance();
     final state = AcademyState(prefs, <String, dynamic>{
@@ -28,7 +30,10 @@ void main() {
       ],
     });
     await tester.pumpWidget(AcademyApp(state: state));
-    expect(find.text('Моё обучение'), findsOneWidget);
+    expect(find.text('Начать обучение'), findsOneWidget);
+    await tester.tap(find.text('Начать обучение'));
+    await tester.pumpAndSettle();
+    expect(find.text('Арабский каждый день'), findsOneWidget);
     expect(find.byIcon(Icons.swap_horiz_rounded), findsOneWidget);
   });
 }

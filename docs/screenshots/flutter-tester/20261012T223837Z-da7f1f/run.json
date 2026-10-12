@@ -1,0 +1,34 @@
+{
+  "renderer": "Flutter widget tester engine; NOT Android/device screenshots",
+  "expected_cases": 52,
+  "screens": [
+    "home",
+    "courses",
+    "lesson",
+    "exercise",
+    "dictionary",
+    "grammar",
+    "progress",
+    "settings",
+    "localteacher",
+    "editor",
+    "lesson-dialogue",
+    "dictionary-detail",
+    "grammar-detail"
+  ],
+  "profiles": [
+    "ru-390",
+    "ar-390",
+    "ru-320-2x",
+    "ar-320-2x"
+  ],
+  "lessons": 15,
+  "grammar_topics": 22,
+  "fonts": [
+    "Manrope",
+    "NotoNaskhArabic",
+    "MaterialIcons"
+  ],
+  "shadows": "enabled",
+  "backend": "explicitly unconfigured; local screens only"
+}

@@ -1,0 +1,19 @@
+{
+  "renderer": "Flutter widget tester engine; NOT Android/device screenshot",
+  "screen": "exercise",
+  "profile": "ru-390",
+  "width": 390.0,
+  "height": 844.0,
+  "device_pixel_ratio": 1,
+  "text_scale": 1.0,
+  "locale": "ru",
+  "direction": "ltr",
+  "status": "passed",
+  "scroll_steps": 0,
+  "reached_end": true,
+  "captures": [
+    "ru-390-exercise-start.png",
+    "ru-390-exercise-end.png"
+  ],
+  "errors": []
+}

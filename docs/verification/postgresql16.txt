@@ -1,0 +1,1854 @@
+CREATE ROLE
+CREATE ROLE
+CREATE ROLE
+CREATE SCHEMA
+CREATE TABLE
+CREATE FUNCTION
+GRANT
+GRANT
+CREATE SCHEMA
+CREATE TABLE
+CREATE TABLE
+ALTER TABLE
+GRANT
+GRANT
+GRANT
+Applying supabase/migrations/202610120001_schema.sql
+BEGIN
+CREATE SCHEMA
+REVOKE
+CREATE EXTENSION
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE INDEX
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+DO
+REVOKE
+REVOKE
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+GRANT
+GRANT
+GRANT
+GRANT
+COMMIT
+Applying supabase/migrations/202610120002_security.sql
+BEGIN
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE POLICY
+CREATE POLICY
+GRANT
+CREATE POLICY
+GRANT
+CREATE POLICY
+CREATE POLICY
+GRANT
+CREATE POLICY
+GRANT
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+GRANT
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+GRANT
+DO
+CREATE POLICY
+CREATE POLICY
+GRANT
+GRANT
+CREATE POLICY
+GRANT
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+GRANT
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+GRANT
+CREATE POLICY
+GRANT
+CREATE POLICY
+CREATE POLICY
+GRANT
+DO
+CREATE POLICY
+CREATE POLICY
+GRANT
+CREATE POLICY
+GRANT
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+GRANT
+GRANT
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+GRANT
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+GRANT
+CREATE POLICY
+GRANT
+CREATE FUNCTION
+CREATE TRIGGER
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+GRANT
+GRANT
+COMMIT
+Applying supabase/migrations/202610120003_learning_rpcs.sql
+BEGIN
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+REVOKE
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+COMMIT
+Applying supabase/migrations/202610120004_integrations.sql
+BEGIN
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+GRANT
+INSERT 0 3
+COMMIT
+Applying supabase/migrations/202610120005_media_and_profiles.sql
+BEGIN
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+CREATE INDEX
+ALTER POLICY
+ALTER TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE TABLE
+ALTER TABLE
+REVOKE
+GRANT
+CREATE POLICY
+GRANT
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+GRANT
+UPDATE 1
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+COMMIT
+Applying supabase/migrations/202610120006_audit_and_stt_limits.sql
+BEGIN
+CREATE TABLE
+ALTER TABLE
+REVOKE
+GRANT
+CREATE INDEX
+CREATE FUNCTION
+GRANT
+CREATE FUNCTION
+CREATE TRIGGER
+CREATE TRIGGER
+CREATE TRIGGER
+CREATE TRIGGER
+COMMIT
+BEGIN
+CREATE POLICY
+COMMIT
+Applying supabase/migrations/202610120007_catalog_workflows.sql
+BEGIN
+ALTER TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ALTER TABLE
+UPDATE 0
+CREATE TABLE
+CREATE TABLE
+CREATE FUNCTION
+CREATE TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+DO
+CREATE POLICY
+CREATE POLICY
+CREATE POLICY
+CREATE INDEX
+CREATE INDEX
+GRANT
+COMMIT
+Applying supabase/migrations/202610120008_notifications.sql
+BEGIN
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+CREATE INDEX
+CREATE FUNCTION
+CREATE TABLE
+ALTER TABLE
+REVOKE
+GRANT
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+GRANT
+COMMIT
+Applying supabase/migrations/202610120009_account_privacy.sql
+BEGIN
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE TRIGGER
+CREATE TRIGGER
+CREATE TRIGGER
+CREATE TRIGGER
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+GRANT
+GRANT
+COMMIT
+Applying supabase/migrations/202610120010_content_provenance.sql
+BEGIN
+CREATE FUNCTION
+ALTER TABLE
+ALTER TABLE
+DO
+ALTER TABLE
+ALTER TABLE
+CREATE FUNCTION
+GRANT
+CREATE FUNCTION
+COMMIT
+Applying supabase/migrations/202610120011_account_media_cleanup.sql
+BEGIN
+CREATE TABLE
+ALTER TABLE
+REVOKE
+GRANT
+CREATE INDEX
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+COMMIT
+Applying supabase/migrations/202610120012_review_security.sql
+BEGIN
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+COMMIT
+Applying supabase/migrations/202610120013_group_invites.sql
+BEGIN
+CREATE TABLE
+ALTER TABLE
+REVOKE
+GRANT
+CREATE INDEX
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+COMMIT
+Running supabase/tests/content_test.sql
+BEGIN
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+INSERT 0 2
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+SET
+SET
+                                                            create_lesson
+-------------------------------------------------------------------------------------------------------------------------------------
+ (50542487-eac6-4865-9057-446388a85072,20000000-0000-0000-0000-000000000400,,Draft,,"",draft,f,0,1,"2026-10-12 21:56:13.116096+00",)
+(1 row)
+
+                                                               save_lesson
+-----------------------------------------------------------------------------------------------------------------------------------------
+ (50542487-eac6-4865-9057-446388a85072,20000000-0000-0000-0000-000000000400,,Draft,,"",published,f,0,2,"2026-10-12 21:56:13.116096+00",)
+(1 row)
+
+                                                  save_exercise
+-----------------------------------------------------------------------------------------------------------------
+ (20000000-0000-0000-0000-000000000600,50542487-eac6-4865-9057-446388a85072,multi_choice,Test,automatic,100,1,t)
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+RESET
+SET
+SET
+INSERT 0 1
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+                                               complete_lesson
+-------------------------------------------------------------------------------------------------------------
+ (20000000-0000-0000-0000-000000000002,50542487-eac6-4865-9057-446388a85072,"2026-10-12 21:56:13.116096+00")
+(1 row)
+
+RESET
+SET
+SET
+                                                               save_lesson
+-----------------------------------------------------------------------------------------------------------------------------------------
+ (50542487-eac6-4865-9057-446388a85072,20000000-0000-0000-0000-000000000400,,Draft,,"",published,f,0,3,"2026-10-12 21:56:13.116096+00",)
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+                                                               save_lesson
+-----------------------------------------------------------------------------------------------------------------------------------------
+ (50542487-eac6-4865-9057-446388a85072,20000000-0000-0000-0000-000000000400,,Draft,,"",published,f,0,4,"2026-10-12 21:56:13.116096+00",)
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+                                               save_exercise
+------------------------------------------------------------------------------------------------------------
+ (20000000-0000-0000-0000-000000000600,50542487-eac6-4865-9057-446388a85072,text,Revised,automatic,100,2,t)
+(1 row)
+
+RESET
+SET
+SET
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+ROLLBACK
+Running supabase/tests/isolation_test.sql
+BEGIN
+CREATE FUNCTION
+GRANT
+INSERT 0 2
+INSERT 0 1
+INSERT 0 1
+INSERT 0 2
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+SET
+SET
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+INSERT 0 1
+SET
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+INSERT 0 1
+INSERT 0 1
+SET
+ check
+-------
+
+(1 row)
+
+RESET
+ROLLBACK
+Running supabase/tests/media_test.sql
+BEGIN
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+CREATE POLICY
+GRANT
+INSERT 0 2
+SET
+SET
+ denied
+--------
+
+(1 row)
+
+                                                  save_profile
+-----------------------------------------------------------------------------------------------------------------
+ (10000000-0000-0000-0000-000000000001,Name,ru,"2026-10-12 21:56:13.440129+00",,"2026-10-12 21:56:13.440129+00")
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+UPDATE 1
+                                                                                                                   prepare_media_upload
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {"media_id": "f1520256-c8de-424c-9588-82e464263b85", "bucket_id": "student-media", "byte_size": 10, "mime_type": "audio/mp4", "object_path": "10000000-0000-0000-0000-000000000001/f1520256-c8de-424c-9588-82e464263b85.m4a", "upload_state": "pending"}
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ register_push_token
+---------------------
+
+(1 row)
+
+ register_push_token
+---------------------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+SET
+ denied
+--------
+
+(1 row)
+
+INSERT 0 1
+ denied
+--------
+
+(1 row)
+
+UPDATE 1
+ denied
+--------
+
+(1 row)
+
+                                                           finalize_media_upload
+-------------------------------------------------------------------------------------------------------------------------------------------
+ (f1520256-c8de-424c-9588-82e464263b85,,10000000-0000-0000-0000-000000000001,audio,audio/mp4,10,t,f,"2026-10-12 21:56:13.440129+00",ready)
+(1 row)
+
+RESET
+SET
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+                                                                                                                  media_access
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {"media_id": "f1520256-c8de-424c-9588-82e464263b85", "bucket_id": "student-media", "byte_size": 10, "mime_type": "audio/mp4", "expires_in": 60, "object_path": "10000000-0000-0000-0000-000000000001/f1520256-c8de-424c-9588-82e464263b85.m4a"}
+(1 row)
+
+         reserve_stt_request
+--------------------------------------
+ 2bb58d24-c880-4df7-93ff-14d8b29bea67
+ 34acd8b0-f842-4f6c-8b81-f29683c5a2bd
+ 55180439-5919-4018-973b-8390f34b119a
+ 6a14386b-3f75-42eb-a489-60fb19dd39f7
+ 0a141eda-0260-4be9-a265-362d2c41c2e7
+(5 rows)
+
+ denied
+--------
+
+(1 row)
+
+ set_media_stt_consent
+-----------------------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+RESET
+SET
+SET
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+RESET
+SET
+ mark_media_deleted
+--------------------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+RESET
+SET
+SET
+ check
+-------
+
+(1 row)
+
+ unregister_push_token
+-----------------------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+ROLLBACK
+Running supabase/tests/review_test.sql
+BEGIN
+CREATE TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+GRANT
+CREATE TABLE
+GRANT
+INSERT 0 5
+INSERT 0 2
+UPDATE 2
+SET
+SET
+INSERT 0 1
+INSERT 0 1
+RESET
+UPDATE 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+INSERT 0 6
+SET
+SET
+ review_case
+-------------
+
+
+
+
+
+
+(6 rows)
+
+RESET
+SET
+SET
+ review_case
+-------------
+
+
+
+
+
+
+(6 rows)
+
+ review_case
+-------------
+
+(1 row)
+
+RESET
+SET
+SET
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+RESET
+ review_case
+-------------
+
+(1 row)
+
+CREATE FUNCTION
+CREATE FUNCTION
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+SET
+SET
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+ review_case
+-------------
+
+(1 row)
+
+RESET
+ label | message
+-------+---------
+(0 rows)
+
+DO
+ROLLBACK
+Running supabase/tests/security_test.sql
+BEGIN
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+INSERT 0 5
+INSERT 0 3
+INSERT 0 3
+INSERT 0 3
+INSERT 0 2
+INSERT 0 2
+INSERT 0 2
+INSERT 0 2
+INSERT 0 2
+INSERT 0 2
+INSERT 0 4
+INSERT 0 2
+INSERT 0 3
+INSERT 0 3
+INSERT 0 2
+INSERT 0 1
+INSERT 0 2
+INSERT 0 2
+INSERT 0 1
+INSERT 0 2
+INSERT 0 2
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+RESET
+SET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+                                               complete_lesson
+-------------------------------------------------------------------------------------------------------------
+ (00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000000601,"2026-10-12 21:56:13.813615+00")
+(1 row)
+
+                                                                                                       record_event
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (78b6169e-650e-42a7-a3b8-1cb3a7be7a62,00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000002004,draft_saved,"{""legacy_id"": ""l1"", ""unknown_field"": ""preserved""}","2026-10-12 21:56:13.813615+00")
+(1 row)
+
+                                                                                                       record_event
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (78b6169e-650e-42a7-a3b8-1cb3a7be7a62,00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000002004,draft_saved,"{""legacy_id"": ""l1"", ""unknown_field"": ""preserved""}","2026-10-12 21:56:13.813615+00")
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+UPDATE 1
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+RESET
+SET
+ expect_error
+--------------
+
+(1 row)
+
+                                                                                       apply_verified_purchase
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (98872df7-7179-4653-a680-48cbd8002011,00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000001100,apple,tx1,verified,"2026-10-12 21:56:13.813615+00","2026-10-12 21:56:13.813615+00")
+(1 row)
+
+                                                                                       apply_verified_purchase
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (98872df7-7179-4653-a680-48cbd8002011,00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000001100,apple,tx1,verified,"2026-10-12 21:56:13.813615+00","2026-10-12 21:56:13.813615+00")
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+RESET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+                                                                                                                       submit_attempt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (e985363b-6697-43f8-ad7e-14f528d9b058,00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000000700,1,00000000-0000-0000-0000-000000002010,"{""00000000-0000-0000-0000-000000000800"": ""yes""}",graded,1,1,t,"2026-10-12 21:56:13.813615+00")
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+                                                enroll_course
+-------------------------------------------------------------------------------------------------------------
+ (00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000000100,"2026-10-12 21:56:13.813615+00")
+(1 row)
+
+RESET
+SET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+RESET
+SET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+RESET
+SET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+                                                                                                                         review_attempt
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (02b42899-bddc-4a37-bf5a-15675574a6a8,00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000000702,1,00000000-0000-0000-0000-000000002011,"{""00000000-0000-0000-0000-000000000802"": ""audio-id""}",graded,1,1,t,"2026-10-12 21:56:13.813615+00")
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+                                                                save_lesson
+-------------------------------------------------------------------------------------------------------------------------------------------
+ (00000000-0000-0000-0000-000000000600,00000000-0000-0000-0000-000000000500,,Updated,,"",published,f,0,2,"2026-10-12 21:56:13.813615+00",)
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+                                                                                        create_assignment
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (496d8850-94e5-40e4-b496-7281f58ccc1b,00000000-0000-0000-0000-000000000200,00000000-0000-0000-0000-000000000700,Homework,,00000000-0000-0000-0000-000000000003,"2026-10-12 21:56:13.813615+00")
+(1 row)
+
+RESET
+SET
+SET
+                                               complete_lesson
+-------------------------------------------------------------------------------------------------------------
+ (00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000000600,"2026-10-12 21:56:13.813615+00")
+(1 row)
+
+                                                                                  submit_assignment
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (d7aead69-740b-427d-a41b-b9c3cdabeba0,496d8850-94e5-40e4-b496-7281f58ccc1b,00000000-0000-0000-0000-000000000001,1,"{""text"": ""draft""}","2026-10-12 21:56:13.813615+00",submitted)
+(1 row)
+
+                                                                                  submit_assignment
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (d7aead69-740b-427d-a41b-b9c3cdabeba0,496d8850-94e5-40e4-b496-7281f58ccc1b,00000000-0000-0000-0000-000000000001,1,"{""text"": ""draft""}","2026-10-12 21:56:13.813615+00",submitted)
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+                                                                                   submit_assignment
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (d7aead69-740b-427d-a41b-b9c3cdabeba0,496d8850-94e5-40e4-b496-7281f58ccc1b,00000000-0000-0000-0000-000000000001,2,"{""text"": ""second""}","2026-10-12 21:56:13.813615+00",submitted)
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+RESET
+SET
+SET
+                                                                   grade_submission
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ (6b52da4d-5237-4399-bcbb-1822bec16ebb,d7aead69-740b-427d-a41b-b9c3cdabeba0,2,00000000-0000-0000-0000-000000000003,90,"2026-10-12 21:56:13.813615+00")
+(1 row)
+
+                                                                   grade_submission
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ (6b52da4d-5237-4399-bcbb-1822bec16ebb,d7aead69-740b-427d-a41b-b9c3cdabeba0,2,00000000-0000-0000-0000-000000000003,90,"2026-10-12 21:56:13.813615+00")
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+RESET
+SET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+RESET
+SET
+ expect_error
+--------------
+
+(1 row)
+
+                           apply_purchase_webhook
+-----------------------------------------------------------------------------
+ {"duplicate": false, "purchase_id": "98872df7-7179-4653-a680-48cbd8002011"}
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+RESET
+SET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+ expect_error
+--------------
+
+(1 row)
+
+RESET
+SET
+                                                                                           apply_verified_purchase
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (3906ec14-d3e6-4cf5-90dd-397fca278828,00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000001101,google,token-hash,verified,"2026-10-12 20:56:13.813615+00","2026-10-12 21:56:13.813615+00")
+(1 row)
+
+UPDATE 1
+RESET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+RESET
+DELETE 1
+SET
+SET
+ assert_true
+-------------
+
+(1 row)
+
+ assert_true
+-------------
+
+(1 row)
+
+RESET
+ROLLBACK
+Running supabase/tests/workflow_test.sql
+BEGIN
+CREATE FUNCTION
+CREATE FUNCTION
+GRANT
+CREATE TABLE
+GRANT
+INSERT 0 3
+INSERT 0 2
+SET
+SET
+ denied
+--------
+
+(1 row)
+
+RESET
+SET
+SET
+                                                       save_profile
+---------------------------------------------------------------------------------------------------------------------------
+ (40000000-0000-0000-0000-000000000001,"Teacher Name",ru,"2026-10-12 21:56:14.220398+00",,"2026-10-12 21:56:14.220398+00")
+(1 row)
+
+INSERT 0 1
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+                                                                                          set_book_source
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (71e0691b-9550-4509-9f0d-fe61b1047d6c,08d9ca3b-30bd-4593-99a0-166fab4d39f0,Book,"fixture edition","fixture reference",0,"{""edition"": ""fixture edition"", ""page_end"": 2, ""page_start"": 1}")
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+ denied
+--------
+
+(1 row)
+
+                                                                                                       save_lesson
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (b9ed61fd-c723-4698-b715-e57ca34bf7ac,2f581993-e5b5-4808-9288-7a2a39cdec1d,,Lesson,,"",published,f,0,2,"2026-10-12 21:56:14.220398+00","{""page"": 3, ""edition"": ""fixture"", ""unknown_manifest_field"": ""kept""}")
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+                                                                                                 publish_course
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (a8d61eeb-42ef-4334-9a4a-4b623ac36c33,course_a8d61eeb-42ef-4334-9a4a-4b623ac36c33,"Original course","",free,published,original_editorial,"2026-10-12 21:56:14.220398+00",40000000-0000-0000-0000-000000000001)
+(1 row)
+
+                                                save_exercise
+-------------------------------------------------------------------------------------------------------------
+ (40000000-0000-0000-0000-000000000700,b9ed61fd-c723-4698-b715-e57ca34bf7ac,text,Exercise,automatic,100,1,t)
+(1 row)
+
+INSERT 0 1
+ denied
+--------
+
+(1 row)
+
+RESET
+SET
+SET
+ set_group_member
+------------------
+
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+RESET
+SET
+SET
+INSERT 0 1
+INSERT 0 1
+ check
+-------
+
+(1 row)
+
+RESET
+SET
+SET
+ register_push_token
+---------------------
+
+(1 row)
+
+INSERT 0 1
+                                                                                                    end_study_session
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (4359a8b1-4251-457d-9575-8617664d7b7f,40000000-0000-0000-0000-000000000002,b9ed61fd-c723-4698-b715-e57ca34bf7ac,40000000-0000-0000-0000-000000000901,"2026-10-12 21:56:14.220398+00","2026-10-12 21:56:14.220398+00",2)
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+INSERT 0 1
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+SET
+SET
+                                                                     request_submission_revision
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (bb086b8d-cea9-4813-a00f-cca798174fd7,10c33fad-79ab-48de-a263-59a71011ff75,1,40000000-0000-0000-0000-000000000001,"Please revise","2026-10-12 21:56:14.220398+00",)
+(1 row)
+
+                                                                     request_submission_revision
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (bb086b8d-cea9-4813-a00f-cca798174fd7,10c33fad-79ab-48de-a263-59a71011ff75,1,40000000-0000-0000-0000-000000000001,"Please revise","2026-10-12 21:56:14.220398+00",)
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+UPDATE 1
+SET
+SET
+                                                                                   submit_assignment
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ (10c33fad-79ab-48de-a263-59a71011ff75,2b4d0bd6-728e-4329-8f12-15ba28ee8fbe,40000000-0000-0000-0000-000000000002,2,"{""text"": ""revised""}","2026-10-12 21:56:14.220398+00",submitted)
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+SET
+SET
+                                                                   grade_submission
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ (29a31046-6003-4752-94aa-20ffbac2e5ac,10c33fad-79ab-48de-a263-59a71011ff75,2,40000000-0000-0000-0000-000000000001,90,"2026-10-12 21:56:14.220398+00")
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+SET
+SET
+ denied
+--------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+                                               finish_notification_dispatch
+--------------------------------------------------------------------------------------------------------------------------
+ {"state": "accepted", "failed_count": 0, "accepted_count": 1, "notification_id": "9e3d446c-665b-47ff-912c-f871c3bd3a5f"}
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+RESET
+SET
+SET
+                                                                                                                  prepare_media_upload
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {"media_id": "a818aa5b-61a5-4347-a354-fc68329056b4", "bucket_id": "student-media", "byte_size": 3, "mime_type": "audio/mp4", "object_path": "40000000-0000-0000-0000-000000000001/a818aa5b-61a5-4347-a354-fc68329056b4.m4a", "upload_state": "pending"}
+(1 row)
+
+                                                                                                                  prepare_media_upload
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {"media_id": "ced01b75-f76f-4472-88ef-c1cc57c9e4ef", "bucket_id": "course-media", "byte_size": 3, "mime_type": "image/png", "object_path": "40000000-0000-0000-0000-000000000001/ced01b75-f76f-4472-88ef-c1cc57c9e4ef.png", "upload_state": "pending"}
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+ denied
+--------
+
+(1 row)
+
+RESET
+SET
+SET
+ purge_account_data
+--------------------
+
+(1 row)
+
+ purge_account_data
+--------------------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+DELETE 1
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+SET
+ check
+-------
+
+(1 row)
+
+UPDATE 1
+ check
+-------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+ finish_account_media_cleanup
+------------------------------
+
+(1 row)
+
+ check
+-------
+
+(1 row)
+
+RESET
+ROLLBACK
+PASS: real sessions: upload-first, deletion-first, concurrent preference merge; cleanup locator retained after purge
+Backend migrations and security assertions passed.

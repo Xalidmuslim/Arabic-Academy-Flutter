@@ -1,0 +1,32 @@
+project_id = "bayna-academy"
+[db]
+major_version = 16
+[api]
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+[functions.livekit-token]
+verify_jwt = false
+[functions.verify-purchase]
+verify_jwt = false
+[functions.protected-media]
+verify_jwt = false
+[functions.grade-attempt]
+verify_jwt = false
+[functions.transcribe]
+verify_jwt = false
+[functions.purchase-webhook]
+verify_jwt = false
+# User functions validate JWTs via Supabase Auth /user, including current signing keys.
+# Webhook authenticates a timestamped raw-body HMAC instead of a user JWT.
+[functions.media-upload]
+verify_jwt = false
+[functions.delete-media]
+verify_jwt = false
+[functions.account-export]
+verify_jwt = false
+[functions.account-delete]
+verify_jwt = false
+[functions.dispatch-notification]
+verify_jwt = false
+[functions.cleanup-account-media]
+verify_jwt = false

@@ -19,3 +19,5 @@ android/key.properties
 !*.example
 *.log
 .DS_Store
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
