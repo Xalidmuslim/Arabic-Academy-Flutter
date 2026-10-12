@@ -6,11 +6,12 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 import 'ui/premium_art.dart';
+import 'ui/neumorphic_components.dart';
 import 'ui/reference_components.dart';
 import 'ui/welcome_screen.dart';
 
 const green = Color(0xFF123F35);
-const cream = Color(0xFFF7F3EA);
+const cream = NeumorphicPalette.background;
 const bronze = Color(0xFFB69A72);
 const muted = Color(0xFF60766C);
 
@@ -119,9 +120,12 @@ class Panel extends StatelessWidget {
   Widget build(BuildContext context) => Container(
     padding: const EdgeInsets.all(17),
     decoration: BoxDecoration(
-      color: Colors.white, borderRadius: BorderRadius.circular(20),
-      border: Border.all(color: const Color(0xFFE9E0D4)),
-      boxShadow: const [BoxShadow(color: Color(0x16173F32), blurRadius: 18, offset: Offset(0, 7))],
+      color: NeumorphicPalette.surface, borderRadius: BorderRadius.circular(20),
+      border: Border.all(color: NeumorphicPalette.outline),
+      boxShadow: const [
+        BoxShadow(color: Color(0xBFFFFFFF), blurRadius: 10, offset: Offset(-4, -4)),
+        BoxShadow(color: Color(0x358D7C65), blurRadius: 14, offset: Offset(5, 6)),
+      ],
     ),
     child: child,
   );
@@ -140,8 +144,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      backgroundColor: refGreen,
-      foregroundColor: Colors.white,
+      backgroundColor: NeumorphicPalette.background,
+      foregroundColor: NeumorphicPalette.ink,
       toolbarHeight: 67,
       titleSpacing: 18,
       title: Row(children: [
@@ -149,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
           width: 41, height: 41,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: refGreen,
+            color: NeumorphicPalette.surface,
             borderRadius: BorderRadius.circular(13),
             boxShadow: const [BoxShadow(
               color: Color(0x30123F35), blurRadius: 12, offset: Offset(0, 5))],
@@ -166,10 +170,10 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             const Text('АРАБСКАЯ АКАДЕМИЯ',
               maxLines: 1, overflow: TextOverflow.ellipsis,
-              style: TextStyle(fontSize: 15, color: Colors.white, fontWeight: FontWeight.w800,
+              style: TextStyle(fontSize: 15, color: NeumorphicPalette.ink, fontWeight: FontWeight.w800,
                 letterSpacing: 0.35)),
             Text(teacher ? 'Кабинет учительницы' : 'Пространство обучения',
-              style: const TextStyle(fontSize: 11, color: Color(0xFFD5E4D9))),
+              style: const TextStyle(fontSize: 11, color: NeumorphicPalette.secondary))),
           ],
         )),
       ]),
@@ -194,8 +198,8 @@ class _HomeScreenState extends State<HomeScreen> {
     ),
     bottomNavigationBar: NavigationBar(
       height: 71,
-      backgroundColor: const Color(0xFFFFFAF2),
-      indicatorColor: const Color(0xFFD9E9DE),
+      backgroundColor: NeumorphicPalette.surface,
+      indicatorColor: const Color(0xFFDDDCC7),
       labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
       selectedIndex: selectedTab,
       onDestinationSelected: (v) => setState(() => selectedTab = v),
@@ -299,10 +303,12 @@ class _HomeScreenState extends State<HomeScreen> {
           Expanded(child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('Добро пожаловать',
+              const Text('Арабский каждый день',
                 style: TextStyle(fontSize: 12, color: muted)),
-              Text('Арабский каждый день', style: Theme.of(context).textTheme.headlineSmall
-                ?.copyWith(color: green, fontWeight: FontWeight.w800, fontSize: 24)),
+              Text('Байна Ядайк', style: Theme.of(context).textTheme.headlineSmall
+                ?.copyWith(color: green, fontWeight: FontWeight.w800, fontSize: 26)),
+              const Text('Арабский язык в твоих руках',
+                style: TextStyle(fontSize: 11, color: NeumorphicPalette.secondary)),
             ],
           )),
           Container(
@@ -332,28 +338,28 @@ class _HomeScreenState extends State<HomeScreen> {
           crossAxisCount: 2,
           crossAxisSpacing: 11,
           mainAxisSpacing: 11,
-          childAspectRatio: 0.99,
+          childAspectRatio: 0.94,
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
           children: [
             ReferenceFeatureTile(
-              title: 'Уроки', subtitle: 'Видео, тексты, аудио',
+              title: 'Уроки', subtitle: 'Диалоги и тексты',
               image: 'assets/images/feature_lessons.webp',
               onTap: () => Navigator.push(context, MaterialPageRoute(
                 builder: (_) => UnitScreen(state: widget.state))),
             ),
             ReferenceFeatureTile(
-              title: 'Задания', subtitle: 'Тесты и упражнения',
+              title: 'Задания', subtitle: 'Практика и упражнения',
               image: 'assets/images/feature_homework.webp',
               onTap: () => setState(() => selectedTab = 2),
             ),
             ReferenceFeatureTile(
-              title: 'Произношение', subtitle: 'Устная практика',
+              title: 'Произношение', subtitle: 'Разговорная практика',
               image: 'assets/images/feature_pronunciation.webp',
               onTap: () => setState(() => selectedTab = 3),
             ),
             ReferenceFeatureTile(
-              title: 'Словарь', subtitle: 'Новые слова',
+              title: 'Словарь', subtitle: 'Арабские слова',
               image: 'assets/images/feature_vocabulary.webp',
               onTap: () {
                 final lessons = widget.state.lessons.cast<Map<String,dynamic>>();
