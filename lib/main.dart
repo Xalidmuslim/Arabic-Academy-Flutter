@@ -294,7 +294,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _learnerView(BuildContext context) {
     final totalLessons = widget.state.lessons.length;
-    final completedCount = widget.state.completed.length.clamp(0, totalLessons);
+    final completedCount = widget.state.lessons.where(
+      (lesson) => widget.state.completed.contains((lesson as Map)['id'])).length;
     final progress = totalLessons == 0 ? 0.0 : completedCount / totalLessons;
     return ListView(
       padding: const EdgeInsets.fromLTRB(18, 12, 18, 25),
@@ -349,25 +350,38 @@ class _HomeScreenState extends State<HomeScreen> {
                 builder: (_) => UnitScreen(state: widget.state))),
             ),
             ReferenceFeatureTile(
-              title: 'Задания', subtitle: 'Практика и упражнения',
+              title: 'Грамматика', subtitle: 'Простые объяснения',
               image: 'assets/images/feature_homework.webp',
-              onTap: () => setState(() => selectedTab = 2),
-            ),
-            ReferenceFeatureTile(
-              title: 'Произношение', subtitle: 'Разговорная практика',
-              image: 'assets/images/feature_pronunciation.webp',
-              onTap: () => setState(() => selectedTab = 3),
+              onTap: () {
+                final lessons = widget.state.lessons.cast<Map<String, dynamic>>();
+                if (lessons.isEmpty) {
+                  _notice(context, 'Уроки пока не добавлены.');
+                  return;
+                }
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (_) => LessonScreen(
+                    state: widget.state, lesson: lessons.first, initialTab: 2)));
+              },
             ),
             ReferenceFeatureTile(
               title: 'Словарь', subtitle: 'Арабские слова',
               image: 'assets/images/feature_vocabulary.webp',
               onTap: () {
-                final lessons = widget.state.lessons.cast<Map<String,dynamic>>();
-                if (lessons.isEmpty) return;
+                final lessons = widget.state.lessons.cast<Map<String, dynamic>>();
+                if (lessons.isEmpty) {
+                  _notice(context, 'Уроки пока не добавлены.');
+                  return;
+                }
                 Navigator.push(context, MaterialPageRoute(
                   builder: (_) => LessonScreen(
                     state: widget.state, lesson: lessons.first, initialTab: 1)));
               },
+            ),
+            ReferenceFeatureTile(
+              title: 'Мой прогресс', subtitle: 'Результаты обучения',
+              image: 'assets/images/feature_pronunciation.webp',
+              onTap: () => Navigator.push(context, MaterialPageRoute(
+                builder: (_) => LearnerProgressScreen(state: widget.state))),
             ),
           ],
         ),
@@ -688,6 +702,84 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _openLesson(BuildContext context, Map<String, dynamic> data) =>
       Navigator.push(context, MaterialPageRoute(builder: (_) => LessonScreen(state: widget.state, lesson: data)));
+}
+
+/// Compact learner statistics; never invents lessons, streaks, or study time.
+class LearnerProgressScreen extends StatelessWidget {
+  const LearnerProgressScreen({super.key, required this.state});
+  final AcademyState state;
+
+  @override
+  Widget build(BuildContext context) {
+    final lessons = state.lessons.cast<Map<String, dynamic>>();
+    final total = lessons.length;
+    final done = lessons.where((lesson) =>
+      state.completed.contains(lesson['id'])).length;
+    final progress = total == 0 ? 0.0 : done / total;
+    return Scaffold(
+      appBar: AppBar(title: const Text('Мой прогресс')),
+      body: ListView(
+        padding: const EdgeInsets.fromLTRB(17, 19, 17, 30),
+        children: [
+          NeumorphicSurface(
+            padding: const EdgeInsets.all(20),
+            child: Row(children: [
+              SizedBox(
+                width: 102, height: 102,
+                child: Stack(alignment: Alignment.center, children: [
+                  SizedBox.expand(child: CircularProgressIndicator(
+                    value: progress, strokeWidth: 9,
+                    strokeCap: StrokeCap.round,
+                    color: NeumorphicPalette.olive,
+                    backgroundColor: const Color(0xFFDDD1C0),
+                  )),
+                  Text('${(progress * 100).round()}%',
+                    style: const TextStyle(color: green, fontSize: 24,
+                      fontWeight: FontWeight.w800)),
+                ]),
+              ),
+              const SizedBox(width: 19),
+              Expanded(child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Базовый уровень 1',
+                    style: TextStyle(fontSize: 17, fontWeight: FontWeight.w800,
+                      color: green)),
+                  const SizedBox(height: 7),
+                  Text('Пройдено $done из $total уроков',
+                    style: const TextStyle(
+                      color: NeumorphicPalette.secondary, fontSize: 12)),
+                ],
+              )),
+            ]),
+          ),
+          const SizedBox(height: 25),
+          const Text('Мои уроки', style: TextStyle(
+            color: green, fontSize: 19, fontWeight: FontWeight.w800)),
+          const SizedBox(height: 13),
+          if (lessons.isEmpty)
+            const NeumorphicSurface(child: Text('Уроки пока не добавлены.')),
+          ...lessons.map((lesson) => Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: NeumorphicSurface(
+              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+              child: ListTile(
+                leading: ArtworkIcon('books', size: 46),
+                title: Text(lesson['title'] as String),
+                subtitle: Text(state.completed.contains(lesson['id'])
+                  ? 'Завершён' : 'Для изучения'),
+                trailing: Icon(state.completed.contains(lesson['id'])
+                  ? Icons.check_circle_rounded : Icons.chevron_right_rounded,
+                  color: NeumorphicPalette.olive),
+                onTap: () => Navigator.push(context, MaterialPageRoute(
+                  builder: (_) => LessonScreen(state: state, lesson: lesson))),
+              ),
+            ),
+          )),
+        ],
+      ),
+    );
+  }
 }
 
 class UnitScreen extends StatelessWidget {
