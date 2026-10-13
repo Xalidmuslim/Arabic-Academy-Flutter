@@ -1,5 +1,3 @@
-import 'dart:typed_data';
-
 import 'package:arabic_academy/features/learning/textbook_reader_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
