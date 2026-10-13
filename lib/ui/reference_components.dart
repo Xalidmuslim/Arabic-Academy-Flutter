@@ -68,9 +68,7 @@ class ReferencePhotoHeader extends StatelessWidget {
         Image.asset('assets/artwork/teacher.webp', fit: BoxFit.cover),
         const DecoratedBox(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Color(0xE307382D), Color(0x9907382D), Color(0x2807382D)],
-            ),
+            color: Color(0xA607382D),
           ),
         ),
         Padding(

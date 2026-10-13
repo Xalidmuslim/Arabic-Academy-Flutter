@@ -6,6 +6,7 @@ import 'services/backend_service.dart';
 import 'services/purchase_service.dart';
 import 'ui/purchase_scope.dart';
 import 'ui/design_tokens.dart';
+import 'ui/floating_navigation.dart';
 import 'ui/welcome_screen.dart';
 import 'features/learning/home_screen.dart';
 
@@ -20,9 +21,18 @@ class AcademyApp extends StatefulWidget {
 class _AcademyAppState extends State<AcademyApp> {
   late final BackendService _backend = widget.backend ?? BackendService();
   late final PurchaseService _purchases = PurchaseService(_backend);
+  final _navigatorKey = GlobalKey<NavigatorState>();
+  final _selectedTab = ValueNotifier<int>(0);
+  late bool _welcomeSeen;
+
+  void _selectTab(int index) {
+    _selectedTab.value = index;
+    _navigatorKey.currentState?.popUntil((route) => route.isFirst);
+  }
   @override
   void initState() {
     super.initState();
+    _welcomeSeen = widget.state.prefs.getBool('welcome_seen') == true;
     _backend.addListener(_connectStore);
     // Local learning paints immediately; optional online setup never gates it.
     WidgetsBinding.instance.addPostFrameCallback(
@@ -49,6 +59,7 @@ class _AcademyAppState extends State<AcademyApp> {
   void dispose() {
     _backend.removeListener(_connectStore);
     _purchases.dispose();
+    _selectedTab.dispose();
     if (widget.backend == null) {
       _backend.dispose();
     }
@@ -61,6 +72,7 @@ class _AcademyAppState extends State<AcademyApp> {
     builder: (context, _) => MaterialApp(
       title: 'Байна Ядайк',
       debugShowCheckedModeBanner: false,
+      navigatorKey: _navigatorKey,
       theme: DesignTokens.theme(),
       locale: Locale(widget.state.settings['language'] as String? ?? 'ru'),
       supportedLocales: const [Locale('ru'), Locale('ar')],
@@ -83,22 +95,44 @@ class _AcademyAppState extends State<AcademyApp> {
                   widget.state.settings['reduceMotion'] == true,
               textScaler: _CombinedTextScaler(media.textScaler, size),
             ),
-            child: child!,
+            child: _welcomeSeen
+                ? Scaffold(
+                    backgroundColor: DesignTokens.ivory,
+                    body: child!,
+                    bottomNavigationBar: ValueListenableBuilder<int>(
+                      valueListenable: _selectedTab,
+                      builder: (context, selected, _) => FloatingStudyNavigation(
+                        selectedIndex: selected,
+                        onSelected: _selectTab,
+                      ),
+                    ),
+                  )
+                : child!,
           ),
         );
       },
-      home: widget.state.prefs.getBool('welcome_seen') == true
-          ? HomeScreen(state: widget.state, backend: _backend)
+      home: _welcomeSeen
+          ? HomeScreen(
+              state: widget.state,
+              backend: _backend,
+              navigationTab: _selectedTab,
+              showEmbeddedNavigation: false,
+            )
           : Builder(
               builder: (context) => ReferenceWelcomeScreen(
                 backend: _backend,
                 onStart: () async {
                   await widget.state.prefs.setBool('welcome_seen', true);
                   if (context.mounted) {
+                    setState(() => _welcomeSeen = true);
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute(
-                        builder: (_) =>
-                            HomeScreen(state: widget.state, backend: _backend),
+                        builder: (_) => HomeScreen(
+                          state: widget.state,
+                          backend: _backend,
+                          navigationTab: _selectedTab,
+                          showEmbeddedNavigation: false,
+                        ),
                       ),
                     );
                   }

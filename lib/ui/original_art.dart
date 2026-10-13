@@ -75,12 +75,7 @@ class _SystemIconPainter extends CustomPainter {
     );
     canvas.drawRRect(
       shape,
-      Paint()
-        ..shader = const LinearGradient(
-          colors: [Color(0xFFFFFCF3), DesignTokens.beige],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ).createShader(const Rect.fromLTWH(5, 5, 38, 38)),
+      Paint()..color = const Color(0xFFF3E7D6),
     );
     final pen = Paint()
       ..color = DesignTokens.deepOlive

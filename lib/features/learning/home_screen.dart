@@ -23,9 +23,17 @@ import 'settings_screen.dart';
 import 'online_homework_screen.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key, required this.state, this.backend});
+  const HomeScreen({
+    super.key,
+    required this.state,
+    this.backend,
+    this.navigationTab,
+    this.showEmbeddedNavigation = true,
+  });
   final AcademyState state;
   final BackendService? backend;
+  final ValueNotifier<int>? navigationTab;
+  final bool showEmbeddedNavigation;
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
@@ -43,6 +51,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    _tab = widget.navigationTab?.value ?? 0;
+    widget.navigationTab?.addListener(_onNavigationChanged);
     _backend.addListener(_authChanged);
     _authChanged();
   }
@@ -99,8 +109,22 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {});
   }
 
+  void _onNavigationChanged() {
+    if (!mounted) return;
+    final next = widget.navigationTab?.value ?? 0;
+    if (_tab != next) setState(() => _tab = next);
+  }
+
+  void _setTab(int tab) {
+    if (_tab != tab) setState(() => _tab = tab);
+    if (widget.navigationTab != null && widget.navigationTab!.value != tab) {
+      widget.navigationTab!.value = tab;
+    }
+  }
+
   @override
   void dispose() {
+    widget.navigationTab?.removeListener(_onNavigationChanged);
     _syncTimer?.cancel();
     _backend.removeListener(_authChanged);
     _accountState?.dispose();
@@ -208,9 +232,11 @@ class _HomeScreenState extends State<HomeScreen> {
         },
       ),
     ),
-    bottomNavigationBar: NavigationBar(
+    bottomNavigationBar: !widget.showEmbeddedNavigation
+        ? null
+        : NavigationBar(
       selectedIndex: _tab,
-      onDestinationSelected: (tab) => setState(() => _tab = tab),
+      onDestinationSelected: _setTab,
       destinations: [
         NavigationDestination(
           icon: const ArtworkIcon('home', size: 29),

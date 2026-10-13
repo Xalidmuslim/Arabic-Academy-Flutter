@@ -24,12 +24,7 @@ class ReferenceWelcomeScreen extends StatelessWidget {
         ),
         const DecoratedBox(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [Color(0x12FFF7E9), Color(0x7EFFF5E4), Color(0xECFFF6E8)],
-              stops: [0, 0.52, 1],
-            ),
+            color: Color(0x77FFF6E9),
           ),
         ),
         SafeArea(
