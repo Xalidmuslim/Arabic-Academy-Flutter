@@ -14,5 +14,17 @@ void main() {
     // Linux widget tests deliberately cannot read a real Android PDF.
     expect(find.textContaining('Просмотр сканированных страниц'), findsOneWidget);
     expect(find.byIcon(Icons.file_open_outlined), findsOneWidget);
+    expect(find.textContaining('282 страницы'), findsOneWidget);
   });
+
+  testWidgets('second book PDF is independent and its page count is explained', (tester) async {
+    await tester.pumpWidget(const MaterialApp(
+      home: TextbookReaderScreen(part: 2, initialPage: 22),
+    ));
+    await tester.pump();
+    expect(find.text('Учебник · Часть 2'), findsOneWidget);
+    expect(find.textContaining('284 страницы'), findsOneWidget);
+    expect(find.byIcon(Icons.file_open_outlined), findsOneWidget);
+  });
+
 }

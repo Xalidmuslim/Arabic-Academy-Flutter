@@ -10,6 +10,7 @@ Future<Map<String, dynamic>> loadBundledAcademyCatalog() async {
     'level': 'assets/content/level1.json',
     'original': 'assets/content/original_lessons.json',
     'book': 'assets/content/book1_original_dialogues.json',
+    'book2': 'assets/content/book1_part2_editorial.json',
     'grammar': 'assets/content/grammar.json',
   };
 
@@ -26,6 +27,7 @@ Future<Map<String, dynamic>> loadBundledAcademyCatalog() async {
   final catalog = Map<String, dynamic>.from(documents['level']!);
   final original = documents['original']!;
   final book = documents['book']!;
+  final book2 = documents['book2']!;
   final grammar = documents['grammar']!;
 
   List<dynamic> requireList(Map<String, dynamic> data, String key, String source) {
@@ -38,15 +40,18 @@ Future<Map<String, dynamic>> loadBundledAcademyCatalog() async {
 
   final modules = requireList(book, 'modules', 'book');
   final dialogues = requireList(book, 'lessons', 'book');
+  final secondPartUnits = requireList(book2, 'modules', 'book2');
+  final secondPartLessons = requireList(book2, 'lessons', 'book2');
   final supplements = requireList(catalog, 'lessons', 'level');
   final originalLessons = requireList(original, 'lessons', 'original');
   final grammarTopics = requireList(grammar, 'topics', 'grammar');
 
   // Independent editorial dialogues in Book 1 order. Existing micro-lessons
   // remain supplementary, never passed off as publisher textbook content.
-  catalog['modules'] = modules;
+  catalog['modules'] = [...modules, ...secondPartUnits];
   catalog['lessons'] = [
     ...dialogues,
+    ...secondPartLessons,
     for (final item in supplements)
       {...item as Map, 'module_id': 'u1', 'source': 'original_editorial',
         'supplementary': true},

@@ -36,6 +36,7 @@ flutter:
     - assets/content/grammar.json
     - assets/content/original_lessons.json
     - assets/content/book1_original_dialogues.json
+    - assets/content/book1_part2_editorial.json
   fonts:
     - family: Manrope
       fonts:

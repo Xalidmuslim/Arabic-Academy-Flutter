@@ -9,10 +9,12 @@ import 'package:path_provider/path_provider.dart';
 /// into the distributed APK. The reader opens a private copy the user picks
 /// on their own device, preserving the book's images and Arabic diacritics.
 class TextbookReaderScreen extends StatefulWidget {
-  const TextbookReaderScreen({super.key, this.initialPage = 22});
+  const TextbookReaderScreen({super.key, this.initialPage = 22, this.part = 1})
+      : assert(part == 1 || part == 2);
 
-  /// Zero-based starting page for the provided student book, part 1.
+  /// Zero-based starting page within the selected privately imported file.
   final int initialPage;
+  final int part;
 
   @override
   State<TextbookReaderScreen> createState() => _TextbookReaderScreenState();
@@ -20,8 +22,9 @@ class TextbookReaderScreen extends StatefulWidget {
 
 class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
   static const _native = MethodChannel('bayna.private_pdf');
-  static const _fileName = 'student_book_1_part_1.pdf';
-  static const _chapters = <(String, int)>[
+  String get _fileName => 'student_book_1_part_${widget.part}.pdf';
+  List<(String, int)> get _chapters => widget.part == 1 ? _chaptersPart1 : _chaptersPart2;
+  static const _chaptersPart1 = <(String, int)>[
     ('1 · Приветствие и знакомство', 22),
     ('2 · Семья', 48),
     ('3 · Жильё', 76),
@@ -30,6 +33,16 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     ('6 · Молитва', 156),
     ('7 · Учёба', 184),
     ('8 · Работа', 210),
+  ];
+  static const _chaptersPart2 = <(String, int)>[
+    ('9 · Покупки', 22),
+    ('10 · Погода', 48),
+    ('11 · Люди и места', 76),
+    ('12 · Увлечения', 102),
+    ('13 · Путешествие', 130),
+    ('14 · Хадж и умра', 156),
+    ('15 · Здоровье', 184),
+    ('16 · Каникулы и отдых', 210),
   ];
 
   final TransformationController _zoom = TransformationController();
@@ -232,7 +245,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
           shrinkWrap: true,
           children: [
             const ListTile(
-              title: Text('Книга 1 · Часть 1'),
+              title: Text('Книга 1 · Часть ${widget.part}'),
               subtitle: Text('Переход к началу раздела по печатному оглавлению'),
             ),
             for (final chapter in _chapters)
@@ -265,7 +278,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      title: const Text('Учебник · Часть 1'),
+      title: Text('Учебник · Часть ${widget.part}'),
       actions: [
         if (_hasBook)
           IconButton(
@@ -293,8 +306,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                       const SizedBox(height: 14),
                       const Text('Оригинальный учебник хранится только на устройстве.'),
                       const SizedBox(height: 8),
-                      const Text('Выберите «Аль-Арабия байна ядайк», '
-                          'Книга студента 1, часть 1 — 282 страницы.'),
+                      Text(widget.part == 1
+                          ? 'Выберите «Аль-Арабия байна ядайк», Книга студента 1, часть 1 — 282 страницы.'
+                          : 'Выберите «Аль-Арабия байна ядайк», Книга студента 1, часть 2 — 284 страницы.'),
                       if (_error != null) ...[
                         const SizedBox(height: 12),
                         Text(_error!, textAlign: TextAlign.center),

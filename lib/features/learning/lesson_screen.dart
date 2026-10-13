@@ -372,11 +372,12 @@ class _LessonScreenState extends State<LessonScreen>
               key: const ValueKey('open-original-pdf-page'),
               icon: const Icon(Icons.picture_as_pdf_outlined),
               label: Text(
-                'Оригинальный учебник · страница ${(widget.lesson['pdf_page'] as int) + 1}',
+                'Учебник · Часть ${widget.lesson['pdf_part'] == 2 ? 2 : 1} · страница ${(widget.lesson['pdf_page'] as int) + 1}',
               ),
               onPressed: () => Navigator.of(context).push(
                 MaterialPageRoute<void>(
                   builder: (_) => TextbookReaderScreen(
+                    part: widget.lesson['pdf_part'] == 2 ? 2 : 1,
                     initialPage: widget.lesson['pdf_page'] as int,
                   ),
                 ),

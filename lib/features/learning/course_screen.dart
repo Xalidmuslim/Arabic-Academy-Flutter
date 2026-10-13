@@ -34,7 +34,13 @@ class _UnitScreenState extends State<UnitScreen> {
     'u05': 130, 'u06': 156, 'u07': 184, 'u08': 210,
     'u1': 22, 'u2': 48, 'u3': 76, 'u4': 102,
     'u5': 130, 'u6': 156, 'u7': 184, 'u8': 210,
+    // Zero-based PDF starts for the separate Student Book 1 Part 2 PDF.
+    'u9': 22, 'u10': 48, 'u11': 76, 'u12': 102,
+    'u13': 130, 'u14': 156, 'u15': 184, 'u16': 210,
   }[widget.unitId] ?? 22;
+
+  int get _textbookPart => widget.unitId == null ||
+          (int.tryParse(widget.unitId!.replaceFirst('u', '')) ?? 1) <= 8 ? 1 : 2;
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -128,28 +134,39 @@ class _UnitScreenState extends State<UnitScreen> {
               SliverPadding(
                 padding: const EdgeInsets.fromLTRB(18, 5, 18, 14),
                 sliver: SliverToBoxAdapter(
-                  child: Panel(
-                    padding: EdgeInsets.zero,
-                    child: ListTile(
-                      key: const ValueKey('private-pdf-textbook-entry'),
-                      leading: const Icon(Icons.picture_as_pdf_outlined),
-                      title: const Text(
-                        'Оригинальный учебник · Часть 1',
-                        style: TextStyle(fontWeight: FontWeight.w700),
-                      ),
-                      subtitle: const Text(
-                        '8 разделов · 282 страницы · импорт PDF с телефона',
-                      ),
-                      trailing: const Icon(Icons.chevron_right),
-                      onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => TextbookReaderScreen(
-                            initialPage: _textbookStartPage,
+                  child: Column(
+                    children: [
+                      for (final part in widget.unitId == null
+                          ? const [1, 2] : [_textbookPart])
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 10),
+                          child: Panel(
+                            padding: EdgeInsets.zero,
+                            child: ListTile(
+                              key: ValueKey('private-pdf-textbook-entry-$part'),
+                              leading: const Icon(Icons.picture_as_pdf_outlined),
+                              title: Text(
+                                'Оригинальный учебник · Часть $part',
+                                style: const TextStyle(fontWeight: FontWeight.w700),
+                              ),
+                              subtitle: Text(part == 1
+                                  ? 'Разделы 1–8 · 282 страницы · импорт PDF с телефона'
+                                  : 'Разделы 9–16 · 284 страницы · импорт PDF с телефона'),
+                              trailing: const Icon(Icons.chevron_right),
+                              onTap: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => TextbookReaderScreen(
+                                    part: part,
+                                    initialPage: widget.unitId == null
+                                        ? 22 : _textbookStartPage,
+                                  ),
+                                ),
+                              ),
+                            ),
                           ),
                         ),
-                      ),
-                    ),
+                    ],
                   ),
                 ),
               ),

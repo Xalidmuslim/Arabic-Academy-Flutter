@@ -11,7 +11,7 @@ void main() {
     final modules = catalog['modules'] as List;
     final lessons = catalog['lessons'] as List;
     final grammarTopics = catalog['grammar_topics'] as List;
-    expect(modules, hasLength(8));
+    expect(modules, hasLength(16));
     expect(lessons.length, greaterThan(24));
     expect(grammarTopics, hasLength(22));
     expect((lessons.first as Map)['id'], 'book1-u1-d1');
@@ -22,7 +22,7 @@ void main() {
     final state = AcademyState(prefs, catalog);
     addTearDown(state.dispose);
     await state.initialize();
-    expect(state.units, hasLength(8));
+    expect(state.units, hasLength(16));
     expect(state.allLessons.length, lessons.length);
   });
 }
