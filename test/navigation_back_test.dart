@@ -27,7 +27,7 @@ void main() {
 
     await tester.tap(find.byKey(const ValueKey('study-tab-3')));
     await tester.pump();
-    expect(find.text('Покупки и подписки'), findsWidgets);
+    expect(find.text('Ученица · локальное обучение'), findsOneWidget);
 
     await tester.binding.handlePopRoute();
     await tester.pump();
