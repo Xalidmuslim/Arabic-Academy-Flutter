@@ -122,11 +122,13 @@
       "pdf_chapter": 1,
       "question": "Как переводится «اسْمٌ»?",
       "options": [
-        "имя",
         "добро пожаловать",
-        "рад знакомству"
+        "рад знакомству",
+        "имя"
       ],
-      "correct": 0
+      "correct": 2,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u1-d2",
@@ -185,7 +187,9 @@
         "страна",
         "изучаю"
       ],
-      "correct": 0
+      "correct": 0,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u1-d3",
@@ -240,11 +244,13 @@
       "pdf_chapter": 1,
       "question": "Как переводится «طَالِبٌ»?",
       "options": [
-        "студент",
         "новый",
+        "студент",
         "понимаю"
       ],
-      "correct": 0
+      "correct": 1,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u2-d1",
@@ -307,7 +313,9 @@
         "мать",
         "брат"
       ],
-      "correct": 0
+      "correct": 0,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u2-d2",
@@ -362,11 +370,13 @@
       "pdf_chapter": 2,
       "question": "Как переводится «أَيْنَ»?",
       "options": [
-        "где",
         "университет",
+        "где",
         "дом"
       ],
-      "correct": 0
+      "correct": 1,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u2-d3",
@@ -421,11 +431,13 @@
       "pdf_chapter": 2,
       "question": "Как переводится «جَدٌّ»?",
       "options": [
-        "дедушка",
         "бабушка",
-        "вместе"
+        "вместе",
+        "дедушка"
       ],
-      "correct": 0
+      "correct": 2,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u3-d1",
@@ -480,11 +492,13 @@
       "pdf_chapter": 3,
       "question": "Как переводится «شَقَّةٌ»?",
       "options": [
-        "квартира",
         "комната",
+        "квартира",
         "улица"
       ],
-      "correct": 0
+      "correct": 1,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u3-d2",
@@ -539,11 +553,13 @@
       "pdf_chapter": 3,
       "question": "Как переводится «غُرْفَةُ النَّوْمِ»?",
       "options": [
-        "спальня",
         "кухня",
-        "рядом"
+        "рядом",
+        "спальня"
       ],
-      "correct": 0
+      "correct": 2,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u3-d3",
@@ -602,7 +618,9 @@
         "стул",
         "перед"
       ],
-      "correct": 0
+      "correct": 0,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u4-d1",
@@ -657,11 +675,13 @@
       "pdf_chapter": 4,
       "question": "Как переводится «أَسْتَيْقِظُ»?",
       "options": [
-        "просыпаюсь",
         "завтрак",
-        "затем"
+        "затем",
+        "просыпаюсь"
       ],
-      "correct": 0
+      "correct": 2,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u4-d2",
@@ -720,7 +740,9 @@
         "минута",
         "близкий"
       ],
-      "correct": 0
+      "correct": 0,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u4-d3",
@@ -775,11 +797,13 @@
       "pdf_chapter": 4,
       "question": "Как переводится «مَسَاءً»?",
       "options": [
-        "вечером",
         "повторяю",
+        "вечером",
         "предпочитаю"
       ],
-      "correct": 0
+      "correct": 1,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u5-d1",
@@ -838,7 +862,9 @@
         "яблоки",
         "бананы"
       ],
-      "correct": 0
+      "correct": 0,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u5-d2",
@@ -893,11 +919,13 @@
       "pdf_chapter": 5,
       "question": "Как переводится «أَرُزٌّ»?",
       "options": [
-        "рис",
         "курица",
+        "рис",
         "салат"
       ],
-      "correct": 0
+      "correct": 1,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u5-d3",
@@ -952,11 +980,13 @@
       "pdf_chapter": 5,
       "question": "Как переводится «شَايٌ»?",
       "options": [
-        "чай",
         "сок",
-        "сахар"
+        "сахар",
+        "чай"
       ],
-      "correct": 0
+      "correct": 2,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u6-d1",
@@ -1011,11 +1041,13 @@
       "pdf_chapter": 6,
       "question": "Как переводится «وَقْتٌ»?",
       "options": [
-        "время",
         "азан",
+        "время",
         "мечеть"
       ],
-      "correct": 0
+      "correct": 1,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u6-d2",
@@ -1070,11 +1102,13 @@
       "pdf_chapter": 6,
       "question": "Как переводится «تَوَضَّأْتُ»?",
       "options": [
-        "совершил омовение",
         "готовый",
-        "пешком"
+        "пешком",
+        "совершил омовение"
       ],
-      "correct": 0
+      "correct": 2,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u6-d3",
@@ -1133,7 +1167,9 @@
         "урок",
         "приду"
       ],
-      "correct": 0
+      "correct": 0,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u7-d1",
@@ -1188,11 +1224,13 @@
       "pdf_chapter": 7,
       "question": "Как переводится «صَفْحَةٌ»?",
       "options": [
-        "страница",
         "текст",
-        "предложение"
+        "предложение",
+        "страница"
       ],
-      "correct": 0
+      "correct": 2,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u7-d2",
@@ -1251,7 +1289,9 @@
         "закончил",
         "помощь"
       ],
-      "correct": 0
+      "correct": 0,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u7-d3",
@@ -1306,11 +1346,13 @@
       "pdf_chapter": 7,
       "question": "Как переводится «اخْتِبَارٌ»?",
       "options": [
-        "экзамен",
         "лексика",
+        "экзамен",
         "беседа"
       ],
-      "correct": 0
+      "correct": 1,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u8-d1",
@@ -1359,7 +1401,7 @@
           "ru": "учитель"
         }
       ],
-      "grammar": "Названия профессий, рабочие обязанности и вопрос عَمَّاذَا تَعْمَلُ؟",
+      "grammar": "Названия профессий, рабочие обязанности и вопрос مَا مِهْنَتُكَ؟",
       "homework": "Напишите собственный диалог из 4–6 реплик по теме «кем ты работаешь?» и прочитайте его вслух.",
       "pdf_page": 211,
       "pdf_chapter": 8,
@@ -1369,7 +1411,9 @@
         "инженер",
         "учитель"
       ],
-      "correct": 0
+      "correct": 0,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u8-d2",
@@ -1422,17 +1466,19 @@
           "ru": "отдых"
         }
       ],
-      "grammar": "Названия профессий, рабочие обязанности и вопрос عَمَّاذَا تَعْمَلُ؟",
+      "grammar": "Названия профессий, рабочие обязанности и вопрос مَا مِهْنَتُكَ؟",
       "homework": "Напишите собственный диалог из 4–6 реплик по теме «рабочий день» и прочитайте его вслух.",
       "pdf_page": 213,
       "pdf_chapter": 8,
       "question": "Как переводится «أَبْدَأُ»?",
       "options": [
-        "начинаю",
         "заканчиваю",
+        "начинаю",
         "отдых"
       ],
-      "correct": 0
+      "correct": 1,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
     },
     {
       "id": "book1-u8-d3",
@@ -1481,17 +1527,75 @@
           "ru": "задача"
         }
       ],
-      "grammar": "Названия профессий, рабочие обязанности и вопрос عَمَّاذَا تَعْمَلُ؟",
+      "grammar": "Названия профессий, рабочие обязанности и вопрос مَا مِهْنَتُكَ؟",
       "homework": "Напишите собственный диалог из 4–6 реплик по теме «первая встреча на работе» и прочитайте его вслух.",
       "pdf_page": 215,
       "pdf_chapter": 8,
       "question": "Как переводится «فَرِيقٌ»?",
       "options": [
-        "команда",
         "сотрудник",
-        "задача"
+        "задача",
+        "команда"
       ],
-      "correct": 0
+      "correct": 2,
+      "review_status": "needs_native_arabic_editor_review",
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+    }
+  ],
+  "curriculum_order": [
+    {
+      "key": "dialogue_1",
+      "ar": "الْحِوَارُ الْأَوَّلُ",
+      "ru": "Диалог 1 и словарь",
+      "interactive": true
+    },
+    {
+      "key": "dialogue_2",
+      "ar": "الْحِوَارُ الثَّانِي",
+      "ru": "Диалог 2 и словарь",
+      "interactive": true
+    },
+    {
+      "key": "dialogue_3",
+      "ar": "الْحِوَارُ الثَّالِثُ",
+      "ru": "Диалог 3 и словарь",
+      "interactive": true
+    },
+    {
+      "key": "vocabulary",
+      "ar": "تَدْرِيبَاتُ الْمُفْرَدَاتِ",
+      "ru": "Лексические упражнения",
+      "interactive": false
+    },
+    {
+      "key": "grammar",
+      "ar": "التَّرَاكِيبُ النَّحْوِيَّةُ",
+      "ru": "Грамматика",
+      "interactive": false
+    },
+    {
+      "key": "listening",
+      "ar": "الْأَصْوَاتُ وَفَهْمُ الْمَسْمُوعِ",
+      "ru": "Фонетика и аудирование",
+      "interactive": false
+    },
+    {
+      "key": "speaking",
+      "ar": "الْكَلَامُ",
+      "ru": "Говорение",
+      "interactive": false
+    },
+    {
+      "key": "reading",
+      "ar": "الْقِرَاءَةُ",
+      "ru": "Чтение",
+      "interactive": false
+    },
+    {
+      "key": "writing",
+      "ar": "الْكِتَابَةُ",
+      "ru": "Письмо",
+      "interactive": false
     }
   ]
 }
