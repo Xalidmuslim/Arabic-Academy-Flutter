@@ -101,7 +101,13 @@ class _AcademyAppState extends State<AcademyApp> {
                     // The navigation widget itself is transparent in its margins.
                     extendBody: true,
                     backgroundColor: DesignTokens.ivory,
-                    body: child!,
+                    // A single viewport reservation applies to every
+                    // pushed route (including PDF/Settings), so the overlay
+                    // can never cover buttons even on short screens.
+                    body: Padding(
+                      padding: EdgeInsets.only(bottom: 102 + media.padding.bottom),
+                      child: child!,
+                    ),
                     bottomNavigationBar: ValueListenableBuilder<int>(
                       valueListenable: _selectedTab,
                       builder: (context, selected, _) => FloatingStudyNavigation(
