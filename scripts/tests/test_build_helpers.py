@@ -45,7 +45,7 @@ class BuildHelpersTests(unittest.TestCase):
             self.assertIn(gate, workflow)
         self.assertIn("FLUTTER_VERSION: '3.35.7'", workflow)
         self.assertIn("java-version: '17'", workflow)
-        self.assertIn('branches: [codex/bayna-platform, codex/bayna-matte-3d-depth-v1, codex/bayna-matte-3d-depth-v2, codex/bayna-solid-3d-floating-v3, codex/bayna-solid-3d-v4, codex/bayna-nav-scroll-design-v5]', workflow)
+        self.assertIn('branches: [codex/bayna-platform, codex/bayna-matte-3d-depth-v1, codex/bayna-matte-3d-depth-v2, codex/bayna-solid-3d-floating-v3, codex/bayna-solid-3d-v4, codex/bayna-nav-scroll-design-v5, codex/bayna-private-textbook-pdf-import-v6, codex/bayna-book1-original-dialogues-v7]', workflow)
         self.assertIn('branches: [main]', workflow)
         self.assertNotIn('flutter create', workflow)
         self.assertNotIn('continue-on-error', workflow)
