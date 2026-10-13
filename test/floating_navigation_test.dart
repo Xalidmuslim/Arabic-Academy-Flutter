@@ -10,6 +10,8 @@ void main() {
       MaterialApp(
         navigatorKey: navigator,
         builder: (context, child) => Scaffold(
+          extendBody: true,
+          backgroundColor: Colors.transparent,
           body: child!,
           bottomNavigationBar: FloatingStudyNavigation(
             selectedIndex: selected,
@@ -21,6 +23,10 @@ void main() {
     );
 
     expect(find.byKey(const ValueKey('floating-study-navigation')), findsOneWidget);
+    final nav = find.byKey(const ValueKey('floating-study-navigation'));
+    final paint = tester.widget<DecoratedBox>(nav).decoration as BoxDecoration;
+    expect(paint.border, isNull);
+    expect(tester.widget<Scaffold>(find.byType(Scaffold).first).extendBody, isTrue);
     navigator.currentState!.push(
       MaterialPageRoute<void>(
         builder: (_) => const Scaffold(body: Text('Вложенный урок')),
