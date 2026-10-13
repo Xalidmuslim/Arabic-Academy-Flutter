@@ -71,10 +71,13 @@ class SettingsScreen extends StatelessWidget {
               'russianScale', 0.85, 1.6, 1, '×'),
           _compactSlider(context, tr(context, 'Размер арабского текста'),
               'arabicSize', 22, 42, 28, ' dp'),
-          NaskhText(
-            'أَنَا أَتَعَلَّمُ اللُّغَةَ الْعَرَبِيَّةَ.',
-            size: (state.settings['arabicSize'] as num? ?? 28).toDouble(),
-            height: (state.settings['arabicHeight'] as num? ?? 1.8).toDouble(),
+          Align(
+            alignment: Alignment.centerRight,
+            child: NaskhText(
+              'أَنَا أَتَعَلَّمُ اللُّغَةَ الْعَرَبِيَّةَ.',
+              size: (state.settings['arabicSize'] as num? ?? 28).toDouble(),
+              height: 1.12, // Preview is compact; lesson spacing is unchanged.
+            ),
           ),
           _compactSlider(context, tr(context, 'Межстрочный интервал'),
               'arabicHeight', 1.65, 2.5, 1.8, '×'),
@@ -94,8 +97,19 @@ class SettingsScreen extends StatelessWidget {
           ),
           _compactSlider(context, tr(context, 'Ежедневная цель'),
               'dailyGoal', 5, 60, 15, ' мин'),
-          _section(tr(context, 'Уведомления')),
-          for (final entry in const {
+          // Optional controls are kept, but do not dominate Settings.
+          ExpansionTile(
+            key: const ValueKey('notification-preferences'),
+            tilePadding: EdgeInsets.zero,
+            childrenPadding: const EdgeInsets.only(bottom: 4),
+            initiallyExpanded: false,
+            title: Text(tr(context, 'Уведомления'),
+              style: const TextStyle(
+                fontSize: 14, fontWeight: FontWeight.w700,
+              ),
+            ),
+            children: [
+              for (final entry in const {
             'lesson': 'Новые уроки',
             'assignment': 'Домашние задания',
             'live': 'Прямые эфиры',
@@ -103,7 +117,7 @@ class SettingsScreen extends StatelessWidget {
             'message': 'Сообщения',
             'review': 'Повторение слов',
           }.entries)
-            SwitchListTile(
+                SwitchListTile(
               dense: true,
               visualDensity: VisualDensity.compact,
               contentPadding: EdgeInsets.zero,
@@ -120,7 +134,9 @@ class SettingsScreen extends StatelessWidget {
                 await state.setSetting('notification:${entry.key}', value);
               }),
             ),
-          _PushButton(backend: backend),
+              _PushButton(backend: backend),
+            ],
+          ),
           if (backend.isAuthenticated) ...[
             _section('Синхронизация обучения'),
             OutlinedButton.icon(
@@ -229,9 +245,9 @@ class SettingsScreen extends StatelessWidget {
   );
 
   Widget _section(String title) => Padding(
-    padding: const EdgeInsets.only(top: 13, bottom: 6),
+    padding: const EdgeInsets.only(top: 9, bottom: 4),
     child: Text(title, style: const TextStyle(
-      fontSize: 15.5, fontWeight: FontWeight.w700, color: DesignTokens.ink,
+      fontSize: 14, fontWeight: FontWeight.w700, color: DesignTokens.ink,
     )),
   );
 
@@ -242,22 +258,22 @@ class SettingsScreen extends StatelessWidget {
       key == 'arabicSize' || key == 'dailyGoal' ? 0 : 2,
     )}$suffix';
     return Padding(
-      padding: const EdgeInsets.only(top: 11),
+      padding: const EdgeInsets.only(top: 5),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         Row(children: [
           Expanded(child: Text(title, style: const TextStyle(
-            fontSize: 15, fontWeight: FontWeight.w700, color: DesignTokens.ink,
+            fontSize: 13.5, fontWeight: FontWeight.w600, color: DesignTokens.ink,
           ))),
           Text(display, style: const TextStyle(fontSize: 12.5,
               color: DesignTokens.secondary)),
         ]),
         SliderTheme(
           data: SliderTheme.of(context).copyWith(
-            trackHeight: 3,
-            thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 9),
+            trackHeight: 2.5,
+            thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 8),
             overlayShape: const RoundSliderOverlayShape(overlayRadius: 16),
           ),
-          child: SizedBox(height: 39, child: Slider(
+          child: SizedBox(height: 34, child: Slider(
             value: value, min: min, max: max,
             divisions: key == 'dailyGoal' ? 11 : 20,
             onChanged: (next) => guardedAction(
