@@ -97,9 +97,10 @@ class _AcademyAppState extends State<AcademyApp> {
             ),
             child: _welcomeSeen
                 ? Scaffold(
-                    // Body paints under the transparent margins of the bar.
-                    extendBody: true,
-                    backgroundColor: Colors.transparent,
+                    // Reserve real scroll viewport ABOVE the floating bar.
+                    // The navigation widget itself is transparent in its margins.
+                    extendBody: false,
+                    backgroundColor: DesignTokens.ivory,
                     body: child!,
                     bottomNavigationBar: ValueListenableBuilder<int>(
                       valueListenable: _selectedTab,
