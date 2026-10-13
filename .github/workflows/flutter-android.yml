@@ -110,7 +110,7 @@ jobs:
           profile: pixel_6
           emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect
           script: |
-            set -euo pipefail
+            set -eu
             mkdir -p smoke-output
             adb install -r downloaded-apk/app-x86_64-release.apk
             adb shell am start -W -n com.example.arabic_academy/.MainActivity

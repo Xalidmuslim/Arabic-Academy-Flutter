@@ -38,7 +38,9 @@ void main() {
     expect(find.text('Не удалось загрузить учебные материалы.'), findsOneWidget);
     expect(find.textContaining('Данные приложения не удалены'), findsOneWidget);
     await tester.tap(find.text('Повторить запуск'));
-    await tester.pump();
+    // FutureBuilder first paints the waiting state; drain the resolved
+    // asynchronous loader and the subsequent AcademyApp frame.
+    await tester.pumpAndSettle();
     expect(attempts, 2);
     expect(find.byType(AcademyApp), findsOneWidget);
     expect(prefs.getBool('welcome_seen'), isTrue);
