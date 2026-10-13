@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -14,59 +16,113 @@ export 'features/learning/progress_screen.dart';
 export 'features/teacher/teacher_editor.dart';
 export 'ui/components.dart';
 
-Future<void> main() async {
+/// Paint the first Flutter frame immediately; never keep the Android system
+/// splash on screen while waiting for preferences or bundled JSON assets.
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  try {
-    // Load files by explicit names; no positional JSON array indexes.
-    // Never let a data parsing error silently strand Android on its splash.
-    final loaded = await Future.wait<Object>([
-      SharedPreferences.getInstance(),
-      loadBundledAcademyCatalog(),
-    ]);
-    final state = AcademyState(
-      loaded[0] as SharedPreferences,
-      loaded[1] as Map<String, dynamic>,
-    );
-    await state.initialize();
-    runApp(AcademyApp(state: state));
-  } catch (error, stackTrace) {
-    FlutterError.reportError(FlutterErrorDetails(
-      exception: error,
-      stack: stackTrace,
-      library: 'academy startup',
-    ));
-    runApp(MaterialApp(
-      title: 'Байна Ядайк',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-        scaffoldBackgroundColor: const Color(0xFFF8F4E8),
-      ),
-      home: Scaffold(
-        body: SafeArea(
-          child: Center(
-            child: Padding(
-              padding: const EdgeInsets.all(24),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  const Icon(Icons.error_outline, size: 42),
-                  const SizedBox(height: 16),
-                  const Text(
-                    'Не удалось загрузить учебные материалы.',
-                    textAlign: TextAlign.center,
-                  ),
-                  const SizedBox(height: 16),
-                  FilledButton(
-                    onPressed: main,
-                    child: const Text('Повторить запуск'),
-                  ),
-                ],
+  runApp(const AcademyBootstrap());
+}
+
+class AcademyBootstrap extends StatefulWidget {
+  const AcademyBootstrap({super.key, this.loader});
+
+  /// Injectable so startup error/retry states are tested without Android.
+  final Future<AcademyState> Function()? loader;
+
+  @override
+  State<AcademyBootstrap> createState() => _AcademyBootstrapState();
+}
+
+class _AcademyBootstrapState extends State<AcademyBootstrap> {
+  late Future<AcademyState> _loading = _loadState();
+
+  Future<AcademyState> _loadState() async {
+    if (widget.loader != null) {
+      return widget.loader!();
+    }
+    try {
+      final resources = await Future.wait<Object>([
+        SharedPreferences.getInstance(),
+        loadBundledAcademyCatalog(),
+      ]).timeout(const Duration(seconds: 25));
+      final state = AcademyState(
+        resources[0] as SharedPreferences,
+        resources[1] as Map<String, dynamic>,
+      );
+      await state.initialize().timeout(const Duration(seconds: 25));
+      return state;
+    } catch (error, trace) {
+      FlutterError.reportError(FlutterErrorDetails(
+        exception: error,
+        stack: trace,
+        library: 'Bayna startup',
+      ));
+      rethrow;
+    }
+  }
+
+  void _retry() {
+    setState(() {
+      _loading = _loadState();
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) => FutureBuilder<AcademyState>(
+    future: _loading,
+    builder: (context, snapshot) {
+      if (snapshot.hasData) {
+        return AcademyApp(state: snapshot.requireData);
+      }
+      return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Байна Ядайк',
+        theme: ThemeData(
+          useMaterial3: true,
+          scaffoldBackgroundColor: const Color(0xFFF8F4E8),
+          colorSchemeSeed: const Color(0xFF566B44),
+        ),
+        home: Scaffold(
+          body: SafeArea(
+            child: Center(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                child: snapshot.hasError
+                    ? Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const Icon(Icons.error_outline, size: 42),
+                          const SizedBox(height: 18),
+                          const Text(
+                            'Не удалось загрузить учебные материалы.',
+                            textAlign: TextAlign.center,
+                          ),
+                          const SizedBox(height: 14),
+                          const Text(
+                            'Данные приложения не удалены. '
+                            'Попробуйте повторить запуск.',
+                            textAlign: TextAlign.center,
+                          ),
+                          const SizedBox(height: 22),
+                          FilledButton(
+                            onPressed: _retry,
+                            child: const Text('Повторить запуск'),
+                          ),
+                        ],
+                      )
+                    : const Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          CircularProgressIndicator(),
+                          SizedBox(height: 18),
+                          Text('Загрузка учебных материалов…'),
+                        ],
+                      ),
               ),
             ),
           ),
         ),
-      ),
-    ));
-  }
+      );
+    },
+  );
 }

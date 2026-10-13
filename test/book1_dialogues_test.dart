@@ -41,10 +41,13 @@ void main() {
   testWidgets('dialogue links to exact original PDF page', (tester) async {
     SharedPreferences.setMockInitialValues(<String, Object>{});
     final prefs = await SharedPreferences.getInstance();
-    final text = await rootBundle.loadString(
-      'assets/content/book1_original_dialogues.json',
+    // This 65 KB asset is UTF-8 decoded in a background isolate by Flutter.
+    // In a widget test, reading it under FakeAsync deadlocks indefinitely.
+    final text = await tester.runAsync(
+      () => rootBundle.loadString('assets/content/book1_original_dialogues.json'),
     );
-    final catalog = jsonDecode(text) as Map<String, dynamic>;
+    expect(text, isNotNull);
+    final catalog = jsonDecode(text!) as Map<String, dynamic>;
     final state = AcademyState(prefs, catalog);
     final lesson = Map<String, dynamic>.from(
       (catalog['lessons'] as List).first as Map,
@@ -69,5 +72,5 @@ void main() {
     await tester.pump(const Duration(milliseconds: 350));
     expect(find.byType(TextbookReaderScreen), findsOneWidget);
     expect(find.text('Учебник · Часть 1'), findsOneWidget);
-  });
+  }, timeout: const Timeout(Duration(seconds: 45)));
 }
