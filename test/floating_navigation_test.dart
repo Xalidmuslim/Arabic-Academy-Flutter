@@ -3,6 +3,26 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  testWidgets('floating bar width is capped on tablets with usable targets', (tester) async {
+    tester.view.physicalSize = const Size(900, 800);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    await tester.pumpWidget(MaterialApp(
+      home: Scaffold(
+        bottomNavigationBar: FloatingStudyNavigation(
+          selectedIndex: 0, onSelected: (_) {},
+        ),
+      ),
+    ));
+    expect(tester.getSize(find.byKey(const ValueKey('floating-study-navigation'))).width,
+        lessThanOrEqualTo(440));
+    for (var index = 0; index < 4; index++) {
+      expect(tester.getSize(find.byKey(ValueKey('study-tab-$index'))).height,
+          greaterThanOrEqualTo(48));
+    }
+  });
+
   testWidgets('floating bar remains above nested pushed screens', (tester) async {
     final navigator = GlobalKey<NavigatorState>();
     var selected = 0;

@@ -21,11 +21,14 @@ class NeumorphicSurface extends StatelessWidget {
     required this.child,
     this.padding = const EdgeInsets.all(14),
     this.radius = 22,
+    this.emphasized = false,
   });
 
   final Widget child;
   final EdgeInsetsGeometry padding;
   final double radius;
+  /// Stronger lighting is reserved for main interactive cards.
+  final bool emphasized;
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +37,11 @@ class NeumorphicSurface extends StatelessWidget {
       decoration: BoxDecoration(
         color: const Color(0xFFF5ECDF),
         borderRadius: BorderRadius.circular(radius),
-        boxShadow: const [
+        boxShadow: emphasized ? const [
+          BoxShadow(color: Color(0x4A493B2F), offset: Offset(0, 5), blurRadius: 10, spreadRadius: -3),
+          BoxShadow(color: Color(0x2B5B483B), offset: Offset(0, 13), blurRadius: 23, spreadRadius: -6),
+          BoxShadow(color: Color(0x125B483B), offset: Offset(0, 23), blurRadius: 34, spreadRadius: -10),
+        ] : const [
           // Defines the elevation without creating a brown outline.
           BoxShadow(
             color: Color(0x3F634F3F),
@@ -90,6 +97,7 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
     child: NeumorphicSurface(
       padding: EdgeInsets.zero,
       radius: 21,
+      emphasized: true,
       child: Material(
         color: Colors.transparent,
         borderRadius: BorderRadius.circular(21),
@@ -171,6 +179,7 @@ class NeumorphicCourseHero extends StatelessWidget {
     final value = progress.clamp(0.0, 1.0).toDouble();
     return NeumorphicSurface(
       padding: const EdgeInsets.fromLTRB(16, 13, 15, 14),
+      emphasized: true,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

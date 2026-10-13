@@ -23,6 +23,32 @@ void main() {
     expect(decor.boxShadow!.last.blurRadius, greaterThan(20));
   });
 
+  testWidgets('primary tiles have three shadow layers without outlines', (tester) async {
+    await tester.pumpWidget(MaterialApp(
+      home: Scaffold(
+        body: SizedBox(
+          width: 220, height: 230,
+          child: NeumorphicFeatureTile(
+            title: 'Уроки', subtitle: 'Изучение языка',
+            image: 'assets/artwork/lessons.webp', onTap: () {},
+          ),
+        ),
+      ),
+    ));
+    final surface = tester.widget<DecoratedBox>(
+      find.byKey(const ValueKey('matte-3d-surface')),
+    );
+    final decoration = surface.decoration as BoxDecoration;
+    expect(decoration.color, const Color(0xFFF5ECDF));
+    expect(decoration.gradient, isNull);
+    expect(decoration.border, isNull);
+    expect(decoration.boxShadow, hasLength(3));
+    expect(decoration.boxShadow![0].blurRadius,
+        lessThan(decoration.boxShadow![1].blurRadius));
+    expect(decoration.boxShadow![1].blurRadius,
+        lessThan(decoration.boxShadow![2].blurRadius));
+  });
+
   testWidgets('feature tile keeps navigation tap with subtle press animation', (
     tester,
   ) async {
