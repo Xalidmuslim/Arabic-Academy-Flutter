@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('solid matte surfaces expose a lower physical lip, no gradients', (
+  testWidgets('soft matte cards have no gradients, rims, or hard sidewall', (
     tester,
   ) async {
     await tester.pumpWidget(const MaterialApp(
@@ -14,23 +14,13 @@ void main() {
     final surface = find.byKey(const ValueKey('matte-3d-surface'));
     expect(surface, findsOneWidget);
     final outer = tester.widget<DecoratedBox>(surface);
-    final outerDecoration = outer.decoration as BoxDecoration;
-    expect(outerDecoration.gradient, isNull);
-    expect(outerDecoration.color, const Color(0xFFD0B79F));
-    expect(outerDecoration.boxShadow, hasLength(2));
-    expect(outerDecoration.boxShadow!.first.blurRadius, lessThan(8));
-    final rim = find.descendant(
-      of: surface, matching: find.byType(Padding),
-    );
-    expect(rim, findsWidgets);
-    final inner = find.descendant(
-      of: surface, matching: find.byType(DecoratedBox),
-    );
-    final innerDecoration = tester.widget<DecoratedBox>(inner.first).decoration
-        as BoxDecoration;
-    expect(innerDecoration.gradient, isNull);
-    expect(innerDecoration.color, const Color(0xFFF5EADD));
-    expect(innerDecoration.border, isNull);
+    final decor = outer.decoration as BoxDecoration;
+    expect(decor.color, const Color(0xFFF5ECDF));
+    expect(decor.gradient, isNull);
+    expect(decor.border, isNull);
+    expect(decor.boxShadow, hasLength(2));
+    expect(decor.boxShadow!.first.offset.dy, greaterThan(0));
+    expect(decor.boxShadow!.last.blurRadius, greaterThan(20));
   });
 
   testWidgets('feature tile keeps navigation tap with subtle press animation', (
