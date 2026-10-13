@@ -97,7 +97,9 @@ class _AcademyAppState extends State<AcademyApp> {
             ),
             child: _welcomeSeen
                 ? Scaffold(
-                    backgroundColor: DesignTokens.ivory,
+                    // Body paints under the transparent margins of the bar.
+                    extendBody: true,
+                    backgroundColor: Colors.transparent,
                     body: child!,
                     bottomNavigationBar: ValueListenableBuilder<int>(
                       valueListenable: _selectedTab,
