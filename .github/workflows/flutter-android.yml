@@ -71,10 +71,78 @@ jobs:
           path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           if-no-files-found: error
           retention-days: 7
+      # The emulator runs x86_64; the user-facing install artifact stays ARM64.
+      - name: Preserve x86_64 APK for real Android boot smoke
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: bayna-v8-ci-x86_64-emulator
+          path: build/app/outputs/flutter-apk/app-x86_64-release.apk
+          if-no-files-found: error
+          retention-days: 3
       - name: Analyze and test UI after verified APK compilation
         run: |
           flutter analyze --no-pub
           flutter test --no-pub test/matte_depth_test.dart test/floating_navigation_test.dart test/open_catalog_test.dart test/navigation_back_test.dart test/private_textbook_test.dart test/book1_dialogues_test.dart test/settings_compact_test.dart test/startup_catalog_test.dart test/bootstrap_test.dart --timeout 45s
+  android-launch-smoke:
+    # Independent from the Flutter widget-suite outcome: install the verified
+    # APK in a real Android system image and capture first-launch evidence.
+    if: ${{ always() && github.event_name == 'push' && github.ref == 'refs/heads/codex/bayna-impeccable-ui-v8' }}
+    needs: [fast-android]
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - name: Download x86_64 APK created by this workflow
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: bayna-v8-ci-x86_64-emulator
+          path: downloaded-apk
+      - name: Enable Android emulator KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Install and launch Android APK (emulator API 35)
+        uses: reactivecircus/android-emulator-runner@1dcd0090116d15e7c562f8db72807de5e036a4ed
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect
+          script: |
+            set -euo pipefail
+            mkdir -p smoke-output
+            adb install -r downloaded-apk/app-x86_64-release.apk
+            adb shell am start -W -n com.example.arabic_academy/.MainActivity
+            sleep 15
+            adb shell pidof com.example.arabic_academy
+            adb shell screencap -p /sdcard/bayna-launch.png
+            adb pull /sdcard/bayna-launch.png smoke-output/launch.png
+            adb logcat -d -v time > smoke-output/logcat.txt
+            if grep -E 'FATAL EXCEPTION|E/flutter.*Unhandled Exception' smoke-output/logcat.txt; then
+              echo 'Android startup emitted a fatal exception'
+              exit 1
+            fi
+            for attempt in 1 2 3; do
+              adb shell uiautomator dump /sdcard/bayna-ui.xml > /dev/null || true
+              adb pull /sdcard/bayna-ui.xml smoke-output/window.xml > /dev/null || true
+              if grep -Eq 'Начать обучение|Арабский каждый день|Арабский язык в твоих руках' smoke-output/window.xml; then
+                echo 'Visible first-run Flutter content confirmed on Android emulator'
+                exit 0
+              fi
+              sleep 5
+            done
+            echo 'Android did not expose the expected first-run content; inspect screenshot and logcat'
+            exit 1
+      - name: Upload startup evidence even if emulator fails
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: bayna-v8-android-launch-evidence
+          path: smoke-output/
+          if-no-files-found: warn
+          retention-days: 7
+
   quality:
     if: github.event_name != 'push' || (github.ref != 'refs/heads/codex/bayna-solid-3d-floating-v3' && github.ref != 'refs/heads/codex/bayna-solid-3d-v4' && github.ref != 'refs/heads/codex/bayna-nav-scroll-design-v5' && github.ref != 'refs/heads/codex/bayna-private-textbook-pdf-import-v6' && github.ref != 'refs/heads/codex/bayna-book1-original-dialogues-v7' && github.ref != 'refs/heads/codex/bayna-impeccable-ui-v8')
     runs-on: ubuntu-22.04
