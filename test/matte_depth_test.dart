@@ -23,6 +23,12 @@ void main() {
     expect(outerDecoration.gradient, isA<LinearGradient>());
     expect(outerDecoration.boxShadow, hasLength(3));
     expect(outerDecoration.boxShadow![1].offset.dy, greaterThan(0));
+    // v2: tight contact shadow and muted upper fill, without plastic glow.
+    expect(outerDecoration.boxShadow![1].blurRadius, lessThan(8));
+    expect(outerDecoration.boxShadow!.first.color.a, lessThan(0.55));
+    final outsideLight = outerDecoration.gradient! as LinearGradient;
+    expect(outsideLight.colors.last, const Color(0xFFCDBAA5));
+
 
     final inner = find.descendant(
       of: surface,
@@ -32,6 +38,10 @@ void main() {
         tester.widget<DecoratedBox>(inner.first).decoration as BoxDecoration;
     expect(innerDecoration.gradient, isA<LinearGradient>());
     expect(innerDecoration.border, isNotNull);
+    final matte = innerDecoration.gradient! as LinearGradient;
+    // Small color differences across the face preserve its matte appearance.
+    expect(matte.colors.first, const Color(0xFFF9F3E9));
+    expect(matte.colors.last, const Color(0xFFF0E6D8));
   });
 
   testWidgets('feature tile keeps navigation tap with subtle press animation', (

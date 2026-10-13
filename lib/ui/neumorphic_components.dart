@@ -13,7 +13,7 @@ abstract final class NeumorphicPalette {
 }
 
 /// A raised matte card: directional light, a narrow chamfered rim,
-/// and two layers of warm ambient/contact shadows. No blur filters or images.
+/// and two warm contact/ambient shadows. No blur filters or images.
 /// Keep the inner Material transparent so existing InkWell/ListTile work.
 class NeumorphicSurface extends StatelessWidget {
   const NeumorphicSurface({
@@ -31,45 +31,48 @@ class NeumorphicSurface extends StatelessWidget {
   Widget build(BuildContext context) {
     final outerRadius = BorderRadius.circular(radius);
     final innerRadius = BorderRadius.circular(
-      (radius - 1.5).clamp(0.0, double.infinity).toDouble(),
+      (radius - 2.0).clamp(0.0, double.infinity).toDouble(),
     );
     return DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
       decoration: BoxDecoration(
         borderRadius: outerRadius,
-        // Light upper edge and warmer, darker lower edge form a true bevel.
+        // Matte outer rim: restrained upper illumination and a thin lower lip.
         gradient: const LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            Color(0xFFFFFFFF),
-            Color(0xFFFFFBF3),
-            Color(0xFFD9C9B3),
+            Color(0xFFFFFAF1),
+            Color(0xFFF2E8DA),
+            Color(0xFFCDBAA5),
           ],
-          stops: [0.0, 0.48, 1.0],
+          stops: [0.0, 0.66, 1.0],
         ),
         boxShadow: const [
+          // A restrained fill light, not a glowing white halo.
           BoxShadow(
-            color: Color(0xE6FFFFFF),
-            offset: Offset(-4, -4),
-            blurRadius: 12,
+            color: Color(0x76FFFFFF),
+            offset: Offset(-2, -2),
+            blurRadius: 7,
           ),
+          // Crisp contact shade makes the card visibly sit above the page.
           BoxShadow(
-            color: Color(0x365D4B37),
-            offset: Offset(4, 7),
-            blurRadius: 10,
-            spreadRadius: -2,
+            color: Color(0x485A4A36),
+            offset: Offset(3, 5),
+            blurRadius: 6,
+            spreadRadius: -1,
           ),
+          // Soft, subtle ambient depth under the physical edge.
           BoxShadow(
-            color: Color(0x265D4B37),
-            offset: Offset(0, 15),
-            blurRadius: 24,
+            color: Color(0x225A4A36),
+            offset: Offset(0, 12),
+            blurRadius: 19,
             spreadRadius: -5,
           ),
         ],
       ),
       child: Padding(
-        padding: const EdgeInsets.all(1.5),
+        padding: const EdgeInsets.all(2.0),
         child: DecoratedBox(
           decoration: BoxDecoration(
             borderRadius: innerRadius,
@@ -77,15 +80,15 @@ class NeumorphicSurface extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Color(0xFFFFFBF4),
-                Color(0xFFF7F0E4),
-                Color(0xFFEDE1D0),
+                Color(0xFFF9F3E9),
+                Color(0xFFF6EEE3),
+                Color(0xFFF0E6D8),
               ],
-              stops: [0.0, 0.57, 1.0],
+              stops: [0.0, 0.55, 1.0],
             ),
             border: Border.all(
-              color: const Color(0x9EFFFFFF),
-              width: 0.7,
+              color: const Color(0x52FFFFFF),
+              width: 0.6,
             ),
           ),
           child: Material(
