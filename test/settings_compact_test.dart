@@ -23,7 +23,10 @@ void main() {
     expect(find.byKey(const ValueKey('reading-preferences')), findsOneWidget);
     expect(find.text('Размер русского текста'), findsNothing);
     await tester.tap(find.byKey(const ValueKey('reading-preferences')));
-    await tester.pumpAndSettle();
+    // TTS voice enumeration can remain pending on a fake Android platform.
+    // Expansion animation needs frames, not a global settle of async work.
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 400));
     expect(find.text('Размер русского текста'), findsOneWidget);
     expect(find.text('Размер арабского текста'), findsOneWidget);
     expect(state.settings['reduceMotion'] == true, isFalse);
