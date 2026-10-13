@@ -32,7 +32,10 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     ('8 · Работа', 210),
   ];
 
-  late final PageController _controller;
+  final TransformationController _zoom = TransformationController();
+  double _scale = 1;
+  bool _fitWidth = false;
+  Size _viewportSize = Size.zero;
   final Map<int, Future<Uint8List>> _pageCache = {};
   int _page = 0;
   int _pageCount = 0;
@@ -44,7 +47,8 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
   void initState() {
     super.initState();
     _page = widget.initialPage;
-    _controller = PageController(initialPage: _page);
+    _zoom.addListener(_onZoomChanged);
+    _setGestureExclusion(true);
     _openSaved();
   }
 
@@ -103,11 +107,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       _pageCount = count;
       _page = widget.initialPage.clamp(0, count - 1).toInt();
     });
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted && _controller.hasClients) {
-        _controller.jumpToPage(_page);
-      }
-    });
+    _zoom.value = Matrix4.identity();
   }
 
   Future<void> _importFile() async {
@@ -184,7 +184,40 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
         return data;
       });
 
-  void _onPageChanged(int page) {
+  // The Android back-edge exclusion is deliberately limited to a small
+  // central region; other OS gestures retain their normal behavior.
+  static const _gestureChannel = MethodChannel('bayna.reader_gesture');
+
+  void _setGestureExclusion(bool enabled) {
+    if (Platform.isAndroid) {
+      _gestureChannel.invokeMethod<void>('excludeRightEdge', {
+        'enabled': enabled,
+      }).catchError((Object _) {});
+    }
+  }
+
+  void _onZoomChanged() {
+    final next = _zoom.value.getMaxScaleOnAxis();
+    if ((next - _scale).abs() > 0.02 && mounted) {
+      setState(() => _scale = next);
+    }
+  }
+
+  void _setZoom(double scale) {
+    final next = scale.clamp(1.0, 5.0);
+    final width = _viewportSize.width;
+    final height = _viewportSize.height;
+    final matrix = Matrix4.identity()
+      ..setEntry(0, 0, next)
+      ..setEntry(1, 1, next)
+      ..setEntry(0, 3, width * (1 - next) / 2)
+      ..setEntry(1, 3, height * (1 - next) / 2);
+    _zoom.value = matrix;
+  }
+
+  void _goToPage(int page) {
+    if (page < 0 || page >= _pageCount || page == _page) return;
+    _zoom.value = Matrix4.identity();
     setState(() => _page = page);
     _pageCache.removeWhere((key, _) => (key - page).abs() > 2);
   }
@@ -209,7 +242,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                 enabled: chapter.$2 < _pageCount,
                 onTap: () {
                   Navigator.pop(context);
-                  _controller.jumpToPage(chapter.$2);
+                  _goToPage(chapter.$2);
                 },
               ),
           ],
@@ -221,7 +254,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
   @override
   void dispose() {
     _pageCache.clear();
-    _controller.dispose();
+    _setGestureExclusion(false);
+    _zoom.removeListener(_onZoomChanged);
+    _zoom.dispose();
     // Native PDF resources are released on reader dismissal.
     _native.invokeMethod<void>('close');
     super.dispose();
@@ -277,32 +312,51 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
             : Column(
                 children: [
                   Expanded(
-                    child: PageView.builder(
-                      controller: _controller,
-                      itemCount: _pageCount,
-                      onPageChanged: _onPageChanged,
-                      itemBuilder: (context, index) => FutureBuilder<Uint8List>(
-                        future: _render(index),
-                        builder: (context, snapshot) {
-                          if (snapshot.hasError) {
-                            return Center(child: Text('Ошибка страницы: ${snapshot.error}'));
-                          }
-                          if (!snapshot.hasData) {
-                            return const Center(child: CircularProgressIndicator());
-                          }
-                          return InteractiveViewer(
-                            minScale: 1,
-                            maxScale: 4,
-                            child: Center(
-                              child: Image.memory(
-                                snapshot.data!,
-                                fit: BoxFit.contain,
-                                gaplessPlayback: true,
-                              ),
-                            ),
-                          );
-                        },
-                      ),
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        _viewportSize = constraints.biggest;
+                        return FutureBuilder<Uint8List>(
+                          key: ValueKey('pdf-page-$_page'),
+                          future: _render(_page),
+                          builder: (context, snapshot) {
+                            if (snapshot.hasError) {
+                              return Center(child: Text('Ошибка страницы: ${snapshot.error}'));
+                            }
+                            if (!snapshot.hasData) {
+                              return const Center(child: CircularProgressIndicator());
+                            }
+                            // No PageView/swipe recognizer: pinch and pan cannot
+                            // accidentally turn a page. Page turns use arrows.
+                            return InteractiveViewer(
+                              key: const ValueKey('pdf-interactive-viewer'),
+                              transformationController: _zoom,
+                              constrained: false,
+                              boundaryMargin: const EdgeInsets.all(24),
+                              minScale: 1,
+                              maxScale: 5,
+                              panEnabled: true,
+                              scaleEnabled: true,
+                              trackpadScrollCausesScale: true,
+                              child: _fitWidth
+                                  ? Image.memory(
+                                      snapshot.data!,
+                                      width: constraints.maxWidth,
+                                      fit: BoxFit.fitWidth,
+                                      gaplessPlayback: true,
+                                    )
+                                  : SizedBox(
+                                      width: constraints.maxWidth,
+                                      height: constraints.maxHeight,
+                                      child: Image.memory(
+                                        snapshot.data!,
+                                        fit: BoxFit.contain,
+                                        gaplessPlayback: true,
+                                      ),
+                                    ),
+                            );
+                          },
+                        );
+                      },
                     ),
                   ),
                   SafeArea(
@@ -311,15 +365,46 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                       padding: const EdgeInsets.symmetric(
                         horizontal: 12, vertical: 5,
                       ),
-                      child: Row(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              IconButton(
+                                key: const ValueKey('pdf-zoom-out'),
+                                tooltip: 'Уменьшить масштаб',
+                                onPressed: _scale <= 1.01 ? null : () => _setZoom(_scale / 1.5),
+                                icon: const Icon(Icons.remove_circle_outline),
+                              ),
+                              Text('${_scale.toStringAsFixed(1)}×'),
+                              IconButton(
+                                key: const ValueKey('pdf-zoom-in'),
+                                tooltip: 'Увеличить масштаб',
+                                onPressed: _scale >= 4.99 ? null : () => _setZoom(_scale * 1.5),
+                                icon: const Icon(Icons.add_circle_outline),
+                              ),
+                              TextButton(
+                                key: const ValueKey('pdf-fit-width'),
+                                onPressed: () {
+                                  _zoom.value = Matrix4.identity();
+                                  setState(() => _fitWidth = !_fitWidth);
+                                },
+                                child: Text(_fitWidth ? 'Вся страница' : 'По ширине'),
+                              ),
+                              IconButton(
+                                tooltip: 'Сбросить масштаб',
+                                onPressed: () => _setZoom(1),
+                                icon: const Icon(Icons.center_focus_strong_outlined),
+                              ),
+                            ],
+                          ),
+                          Row(
                         children: [
                           IconButton(
                             tooltip: 'Предыдущая страница',
                             onPressed: _page > 0
-                                ? () => _controller.previousPage(
-                                    duration: const Duration(milliseconds: 180),
-                                    curve: Curves.easeOut,
-                                  )
+                                ? () => _goToPage(_page - 1)
                                 : null,
                             icon: const Icon(Icons.chevron_left),
                           ),
@@ -332,12 +417,11 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                           IconButton(
                             tooltip: 'Следующая страница',
                             onPressed: _page + 1 < _pageCount
-                                ? () => _controller.nextPage(
-                                    duration: const Duration(milliseconds: 180),
-                                    curve: Curves.easeOut,
-                                  )
+                                ? () => _goToPage(_page + 1)
                                 : null,
                             icon: const Icon(Icons.chevron_right),
+                          ),
+                          ],
                           ),
                         ],
                       ),

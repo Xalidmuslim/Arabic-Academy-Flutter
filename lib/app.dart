@@ -99,7 +99,7 @@ class _AcademyAppState extends State<AcademyApp> {
                 ? Scaffold(
                     // Reserve real scroll viewport ABOVE the floating bar.
                     // The navigation widget itself is transparent in its margins.
-                    extendBody: false,
+                    extendBody: true,
                     backgroundColor: DesignTokens.ivory,
                     body: child!,
                     bottomNavigationBar: ValueListenableBuilder<int>(

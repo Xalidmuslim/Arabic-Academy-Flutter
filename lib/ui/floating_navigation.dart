@@ -31,9 +31,9 @@ class FloatingStudyNavigation extends StatelessWidget {
     ];
     return SafeArea(
       top: false,
-      minimum: const EdgeInsets.only(bottom: 4),
+      minimum: const EdgeInsets.only(bottom: 9),
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(22, 5, 22, 3),
+        padding: const EdgeInsets.fromLTRB(24, 8, 24, 10),
         child: Center(
           heightFactor: 1,
           child: ConstrainedBox(

@@ -416,6 +416,7 @@ class _UnitScreenState extends State<UnitScreen> {
                 ),
               ),
             ),
+            const SliverToBoxAdapter(child: SizedBox(height: 112)),
           ],
         );
       },

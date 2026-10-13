@@ -498,12 +498,15 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
         ),
+        // Overlay navigation paints above the scroll viewport; last actions
+        // must remain fully visible when scrolled to the end.
+        const SliverToBoxAdapter(child: SizedBox(height: 112)),
       ],
     );
   }
 
   Widget _profile() => ListView(
-    padding: const EdgeInsets.all(18),
+    padding: const EdgeInsets.fromLTRB(18, 18, 18, 128),
     children: [
       Panel(
         child: Row(

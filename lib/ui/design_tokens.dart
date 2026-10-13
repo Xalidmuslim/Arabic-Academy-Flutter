@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 abstract final class DesignTokens {
-  static const ivory = Color(0xFFF6F0E5);
+  static const ivory = Color(0xFFF8F0E1);
   static const beige = Color(0xFFE8D9C5);
   static const sand = Color(0xFFD4BEA5);
   static const sage = Color(0xFFA7A68D);
