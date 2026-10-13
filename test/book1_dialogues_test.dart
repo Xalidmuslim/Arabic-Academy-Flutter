@@ -63,7 +63,10 @@ void main() {
     expect(find.textContaining('страница 24'), findsOneWidget);
     await tester.ensureVisible(button);
     await tester.tap(button);
-    await tester.pumpAndSettle();
+    // The PDF reader initializes platform services asynchronously. Navigation
+    // must not wait for native PDF loading or an indefinitely active indicator.
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 350));
     expect(find.byType(TextbookReaderScreen), findsOneWidget);
     expect(find.text('Учебник · Часть 1'), findsOneWidget);
   });
