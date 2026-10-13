@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '../../core/academy_state.dart';
 import '../../core/app_strings.dart';
 import '../../core/study_analytics.dart';
@@ -143,8 +144,41 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       );
 
+  // A root-tab back gesture goes to Home, not out of the Android process.
+  // On Home, ask for explicit confirmation instead of exiting unexpectedly.
+  void _handleRootBack(bool didPop, Object? result) {
+    if (didPop || !mounted) return;
+    if (_tab != 0) {
+      _setTab(0);
+      return;
+    }
+    showDialog<void>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: const Text('Выйти из приложения?'),
+        content: const Text('Прогресс останется сохранённым.'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(dialogContext).pop(),
+            child: const Text('Отмена'),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.of(dialogContext).pop();
+              SystemNavigator.pop();
+            },
+            child: const Text('Выйти'),
+          ),
+        ],
+      ),
+    );
+  }
+
   @override
-  Widget build(BuildContext context) => Scaffold(
+  Widget build(BuildContext context) => PopScope(
+    canPop: false,
+    onPopInvokedWithResult: _handleRootBack,
+    child: Scaffold(
     appBar: _tab == 1 || _tab == 2
         ? null
         : AppBar(
@@ -255,6 +289,7 @@ class _HomeScreenState extends State<HomeScreen> {
           label: tr(context, 'Профиль'),
         ),
       ],
+    ),
     ),
   );
 
