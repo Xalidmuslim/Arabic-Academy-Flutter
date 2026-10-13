@@ -153,6 +153,44 @@ class _UnitScreenState extends State<UnitScreen> {
                   ),
                 ),
               ),
+            if (widget.unitId != null &&
+                _filter == 'Все' &&
+                _query.trim().isEmpty)
+              SliverPadding(
+                padding: const EdgeInsets.fromLTRB(18, 0, 18, 10),
+                sliver: SliverToBoxAdapter(
+                  child: ExpansionTile(
+                    key: const ValueKey('book1-outline'),
+                    tilePadding: const EdgeInsets.symmetric(horizontal: 14),
+                    title: const Text('Порядок раздела по учебнику'),
+                    subtitle: const Text(
+                      '3 диалога → лексика → грамматика → аудирование → '
+                      'говорение → чтение → письмо',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                    children: const [
+                      ListTile(dense: true, title: Text('1. Диалог 1 · слова и практика')),
+                      ListTile(dense: true, title: Text('2. Диалог 2 · слова и практика')),
+                      ListTile(dense: true, title: Text('3. Диалог 3 · слова и практика')),
+                      ListTile(
+                        dense: true,
+                        title: Text('4. Лексика и грамматические упражнения'),
+                        subtitle: Text('Оригинальные задания — в PDF'),
+                      ),
+                      ListTile(
+                        dense: true,
+                        title: Text('5. Аудирование и говорение'),
+                        subtitle: Text('Оригинальные задания — в PDF'),
+                      ),
+                      ListTile(
+                        dense: true,
+                        title: Text('6. Чтение и письмо'),
+                        subtitle: Text('Оригинальные задания — в PDF'),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             if (widget.unitId == null &&
                 _filter != 'Избранное' &&
                 _filter != 'Завершённые')
