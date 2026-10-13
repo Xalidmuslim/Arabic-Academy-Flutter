@@ -17,17 +17,17 @@ abstract final class DesignTokens {
   static const cardPadding = 16.0;
   static const minimumTarget = 48.0;
   static const shadows = [
-    BoxShadow(color: Color(0xE6FFFFFF), offset: Offset(-4, -4), blurRadius: 12),
+    BoxShadow(color: Color(0x76FFFFFF), offset: Offset(-2, -2), blurRadius: 7),
     BoxShadow(
-      color: Color(0x365D4B37),
-      offset: Offset(4, 7),
-      blurRadius: 10,
-      spreadRadius: -2,
+      color: Color(0x485A4A36),
+      offset: Offset(3, 5),
+      blurRadius: 6,
+      spreadRadius: -1,
     ),
     BoxShadow(
-      color: Color(0x265D4B37),
-      offset: Offset(0, 15),
-      blurRadius: 24,
+      color: Color(0x225A4A36),
+      offset: Offset(0, 12),
+      blurRadius: 19,
       spreadRadius: -5,
     ),
   ];
