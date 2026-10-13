@@ -11,7 +11,7 @@ import '../../ui/premium_art.dart';
 import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
 import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
-import 'textbook_reader_screen.dart';
+import 'lesson_pdf_link.dart';
 
 class LessonScreen extends StatefulWidget {
   const LessonScreen({
@@ -365,19 +365,8 @@ class _LessonScreenState extends State<LessonScreen>
         if (widget.lesson['pdf_page'] is int)
           Padding(
             padding: const EdgeInsets.only(bottom: 12),
-            child: OutlinedButton.icon(
-              key: const ValueKey('open-original-pdf-page'),
-              icon: const Icon(Icons.picture_as_pdf_outlined),
-              label: Text(
-                'Оригинальный учебник · страница ${(widget.lesson['pdf_page'] as int) + 1}',
-              ),
-              onPressed: () => Navigator.of(context).push(
-                MaterialPageRoute<void>(
-                  builder: (_) => TextbookReaderScreen(
-                    initialPage: widget.lesson['pdf_page'] as int,
-                  ),
-                ),
-              ),
+            child: OriginalTextbookLink(
+              pageIndex: widget.lesson['pdf_page'] as int,
             ),
           ),
         if (widget.lesson['pdf_page'] is int)
