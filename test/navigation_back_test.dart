@@ -23,7 +23,7 @@ void main() {
     await tester.pump();
     expect(find.byType(FloatingStudyNavigation), findsOneWidget);
     final root = tester.widgetList<Scaffold>(find.byType(Scaffold)).first;
-    expect(root.extendBody, isFalse);
+    expect(root.extendBody, isTrue);
 
     await tester.tap(find.byKey(const ValueKey('study-tab-3')));
     await tester.pump();

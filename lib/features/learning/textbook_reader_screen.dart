@@ -204,7 +204,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
   }
 
   void _setZoom(double scale) {
-    final next = scale.clamp(1.0, 5.0);
+    final next = scale.clamp(1.0, 5.0).toDouble();
     final width = _viewportSize.width;
     final height = _viewportSize.height;
     final matrix = Matrix4.identity()

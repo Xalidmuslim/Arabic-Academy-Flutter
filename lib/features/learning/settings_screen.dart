@@ -310,7 +310,13 @@ class _ArabicVoiceSettings extends StatefulWidget {
 }
 
 class _ArabicVoiceSettingsState extends State<_ArabicVoiceSettings> {
-  late Future<(List<String>, List<ArabicVoice>)> _available = _load();
+  late Future<(List<String>, List<ArabicVoice>)> _available;
+
+  @override
+  void initState() {
+    super.initState();
+    _available = _load();
+  }
 
   Future<(List<String>, List<ArabicVoice>)> _load() async {
     final engines = await ArabicSpeech.availableEngines();
