@@ -327,32 +327,11 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                             }
                             // No PageView/swipe recognizer: pinch and pan cannot
                             // accidentally turn a page. Page turns use arrows.
-                            return InteractiveViewer(
-                              key: const ValueKey('pdf-interactive-viewer'),
-                              transformationController: _zoom,
-                              constrained: false,
-                              boundaryMargin: const EdgeInsets.all(24),
-                              minScale: 1,
-                              maxScale: 5,
-                              panEnabled: true,
-                              scaleEnabled: true,
-                              trackpadScrollCausesScale: true,
-                              child: _fitWidth
-                                  ? Image.memory(
-                                      snapshot.data!,
-                                      width: constraints.maxWidth,
-                                      fit: BoxFit.fitWidth,
-                                      gaplessPlayback: true,
-                                    )
-                                  : SizedBox(
-                                      width: constraints.maxWidth,
-                                      height: constraints.maxHeight,
-                                      child: Image.memory(
-                                        snapshot.data!,
-                                        fit: BoxFit.contain,
-                                        gaplessPlayback: true,
-                                      ),
-                                    ),
+                            return PdfPageImage(
+                              bytes: snapshot.data!,
+                              controller: _zoom,
+                              fitWidth: _fitWidth,
+                              viewport: constraints.biggest,
                             );
                           },
                         );
@@ -429,5 +408,51 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                   ),
                 ],
               ),
+  );
+}
+
+
+/// Standalone gesture surface: the absence of PageView is deliberate.
+/// Two-finger pinch and pan belong exclusively to InteractiveViewer.
+class PdfPageImage extends StatelessWidget {
+  const PdfPageImage({
+    super.key,
+    required this.bytes,
+    required this.controller,
+    required this.fitWidth,
+    required this.viewport,
+  });
+  final Uint8List bytes;
+  final TransformationController controller;
+  final bool fitWidth;
+  final Size viewport;
+
+  @override
+  Widget build(BuildContext context) => InteractiveViewer(
+    key: const ValueKey('pdf-interactive-viewer'),
+    transformationController: controller,
+    constrained: false,
+    boundaryMargin: const EdgeInsets.all(24),
+    minScale: 1,
+    maxScale: 5,
+    panEnabled: true,
+    scaleEnabled: true,
+    trackpadScrollCausesScale: true,
+    child: fitWidth
+        ? Image.memory(
+            bytes,
+            width: viewport.width,
+            fit: BoxFit.fitWidth,
+            gaplessPlayback: true,
+          )
+        : SizedBox(
+            width: viewport.width,
+            height: viewport.height,
+            child: Image.memory(
+              bytes,
+              fit: BoxFit.contain,
+              gaplessPlayback: true,
+            ),
+          ),
   );
 }
