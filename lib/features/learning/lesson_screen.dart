@@ -11,6 +11,7 @@ import '../../ui/premium_art.dart';
 import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
 import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
+import 'lesson_pdf_link.dart';
 
 class LessonScreen extends StatefulWidget {
   const LessonScreen({
@@ -361,6 +362,22 @@ class _LessonScreenState extends State<LessonScreen>
           ],
         ),
         const SizedBox(height: 12),
+        if (widget.lesson['pdf_page'] is int)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: OriginalTextbookLink(
+              pageIndex: widget.lesson['pdf_page'] as int,
+            ),
+          ),
+        if (widget.lesson['pdf_page'] is int)
+          const Padding(
+            padding: EdgeInsets.only(bottom: 12),
+            child: Text(
+              'Диалог в приложении авторский. По кнопке — соответствующая '
+              'страница оригинального учебника для самостоятельной сверки.',
+              style: TextStyle(fontSize: 12.5),
+            ),
+          ),
         if (_dialogue.isEmpty)
           const EmptyState(
             title: 'Диалог не добавлен',

@@ -20,16 +20,26 @@ Future<void> main() async {
     SharedPreferences.getInstance(),
     rootBundle.loadString('assets/content/level1.json'),
     rootBundle.loadString('assets/content/original_lessons.json'),
+    rootBundle.loadString('assets/content/book1_original_dialogues.json'),
     rootBundle.loadString('assets/content/grammar.json'),
   ]);
   final catalog = jsonDecode(loaded[1] as String) as Map<String, dynamic>;
   final original = jsonDecode(loaded[2] as String) as Map<String, dynamic>;
   final grammar = jsonDecode(loaded[3] as String) as Map<String, dynamic>;
+  final book = jsonDecode(loaded[4] as String) as Map<String, dynamic>;
+  // Original author-written dialogues appear first in the book's verified
+  // chapter/lesson order. Existing 15 micro-lessons are kept as supplementary
+  // learning content; they are NOT represented as the publisher's dialogues.
+  catalog['modules'] = book['modules'];
   catalog['lessons'] = [
+    ...book['lessons'] as List,
     ...(catalog['lessons'] as List).map(
-      (x) => {...x as Map, 'module_id': 'u1', 'source': 'original_editorial'},
+      (x) => {...x as Map, 'module_id': 'u1', 'source': 'original_editorial',
+        'supplementary': true},
     ),
-    ...original['lessons'] as List,
+    ...(original['lessons'] as List).map(
+      (x) => {...x as Map, 'supplementary': true},
+    ),
   ];
   catalog['grammar_topics'] = grammar['topics'];
   final state = AcademyState(loaded[0] as SharedPreferences, catalog);

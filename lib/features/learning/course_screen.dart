@@ -30,10 +30,10 @@ class _UnitScreenState extends State<UnitScreen> {
   }
 
   int get _textbookStartPage => const <String, int>{
-    'u01': 22, 'u02': 48, 'u03': 74, 'u04': 102,
-    'u05': 129, 'u06': 156, 'u07': 182, 'u08': 210,
-    'u1': 22, 'u2': 48, 'u3': 74, 'u4': 102,
-    'u5': 129, 'u6': 156, 'u7': 182, 'u8': 210,
+    'u01': 22, 'u02': 48, 'u03': 76, 'u04': 102,
+    'u05': 130, 'u06': 156, 'u07': 184, 'u08': 210,
+    'u1': 22, 'u2': 48, 'u3': 76, 'u4': 102,
+    'u5': 130, 'u6': 156, 'u7': 184, 'u8': 210,
   }[widget.unitId] ?? 22;
 
   @override
@@ -150,6 +150,44 @@ class _UnitScreenState extends State<UnitScreen> {
                         ),
                       ),
                     ),
+                  ),
+                ),
+              ),
+            if (widget.unitId != null &&
+                _filter == 'Все' &&
+                _query.trim().isEmpty)
+              SliverPadding(
+                padding: const EdgeInsets.fromLTRB(18, 0, 18, 10),
+                sliver: SliverToBoxAdapter(
+                  child: ExpansionTile(
+                    key: const ValueKey('book1-outline'),
+                    tilePadding: const EdgeInsets.symmetric(horizontal: 14),
+                    title: const Text('Порядок раздела по учебнику'),
+                    subtitle: const Text(
+                      '3 диалога → лексика → грамматика → аудирование → '
+                      'говорение → чтение → письмо',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                    children: const [
+                      ListTile(dense: true, title: Text('1. Диалог 1 · слова и практика')),
+                      ListTile(dense: true, title: Text('2. Диалог 2 · слова и практика')),
+                      ListTile(dense: true, title: Text('3. Диалог 3 · слова и практика')),
+                      ListTile(
+                        dense: true,
+                        title: Text('4. Лексика и грамматические упражнения'),
+                        subtitle: Text('Оригинальные задания — в PDF'),
+                      ),
+                      ListTile(
+                        dense: true,
+                        title: Text('5. Аудирование и говорение'),
+                        subtitle: Text('Оригинальные задания — в PDF'),
+                      ),
+                      ListTile(
+                        dense: true,
+                        title: Text('6. Чтение и письмо'),
+                        subtitle: Text('Оригинальные задания — в PDF'),
+                      ),
+                    ],
                   ),
                 ),
               ),
