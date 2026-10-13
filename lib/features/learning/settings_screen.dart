@@ -240,7 +240,7 @@ class SettingsScreen extends StatelessWidget {
     final value = (state.settings[key] as num? ?? fallback).toDouble().clamp(min, max);
     final display = '${value.toStringAsFixed(
       key == 'arabicSize' || key == 'dailyGoal' ? 0 : 2,
-    )}${suffix}';
+    )}$suffix';
     return Padding(
       padding: const EdgeInsets.only(top: 11),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
