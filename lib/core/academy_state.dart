@@ -166,13 +166,19 @@ class AcademyState extends ChangeNotifier {
       Map<String, dynamic>.from(_document['drafts'] as Map);
   Map<String, dynamic> get reviews =>
       Map<String, dynamic>.from(_document['reviews'] as Map);
+  /// Temporary preview of locally stored published lessons only.
+  /// Server-side access policies and payments are not bypassed.
+  static const bool temporaryLocalLessonAccess = true;
+
   List<dynamic> get units => catalog['modules'] as List? ?? [];
   List<dynamic> get lessons => catalog['lessons'] as List? ?? [];
   List<Map<String, dynamic>> get published =>
       teacherLessons.where((x) => x['published'] == true).toList();
   List<Map<String, dynamic>> get allLessons => [
     ...lessons.map((x) => Map<String, dynamic>.from(x as Map)),
-    ...published.where((x) => x['free'] != false).map(asLesson),
+    ...published
+        .where((x) => temporaryLocalLessonAccess || x['free'] != false)
+        .map(asLesson),
   ];
 
   /// Preserve old editor fields while presenting a full lesson contract.

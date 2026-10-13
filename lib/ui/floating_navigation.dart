@@ -31,21 +31,20 @@ class FloatingStudyNavigation extends StatelessWidget {
     ];
     return SafeArea(
       top: false,
-      minimum: const EdgeInsets.only(bottom: 4),
+      minimum: const EdgeInsets.only(bottom: 7),
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(16, 6, 16, 4),
+        padding: const EdgeInsets.fromLTRB(22, 8, 22, 6),
         child: DecoratedBox(
           key: const ValueKey('floating-study-navigation'),
           decoration: BoxDecoration(
-            color: const Color(0xFFF2E7D7),
-            borderRadius: BorderRadius.circular(28),
-            border: Border.all(color: const Color(0xFFFFF9EF)),
+            color: const Color(0xFFF0E4D5),
+            borderRadius: BorderRadius.circular(27),
             boxShadow: const [
               BoxShadow(
-                color: Color(0x3C5C4838),
-                offset: Offset(0, 5),
-                blurRadius: 9,
-                spreadRadius: -2,
+                color: Color(0x385C4838),
+                offset: Offset(0, 6),
+                blurRadius: 12,
+                spreadRadius: -3,
               ),
             ],
           ),

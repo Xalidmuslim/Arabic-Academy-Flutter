@@ -12,8 +12,8 @@ abstract final class NeumorphicPalette {
   static const outline = Color(0xCCFFFFFF);
 }
 
-/// Genuine solid-color relief: the back layer remains visible along
-/// the bottom/right edge, while short contact shadows anchor the card.
+/// Borderless relief: the darker substrate appears ONLY along the bottom/right
+/// as a physical side wall, with no drawn contour on the front surface.
 /// No ShaderMask, image, gradient or backdrop blur is needed.
 class NeumorphicSurface extends StatelessWidget {
   const NeumorphicSurface({
@@ -31,36 +31,35 @@ class NeumorphicSurface extends StatelessWidget {
   Widget build(BuildContext context) {
     final outer = BorderRadius.circular(radius);
     final faceRadius = BorderRadius.circular(
-      (radius - 2).clamp(0.0, double.infinity).toDouble(),
+      (radius - 1.5).clamp(0.0, double.infinity).toDouble(),
     );
     return DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
       decoration: BoxDecoration(
-        color: const Color(0xFFD3BDA5),
+        color: const Color(0xFFD0B79F),
         borderRadius: outer,
         boxShadow: const [
           BoxShadow(
-            color: Color(0x445C4838),
-            offset: Offset(3, 5),
-            blurRadius: 6,
-            spreadRadius: -2,
+            color: Color(0x4C574334),
+            offset: Offset(2, 4),
+            blurRadius: 5,
+            spreadRadius: -1.5,
           ),
           BoxShadow(
-            color: Color(0x245C4838),
-            offset: Offset(0, 11),
-            blurRadius: 17,
-            spreadRadius: -4,
+            color: Color(0x25574334),
+            offset: Offset(1, 12),
+            blurRadius: 20,
+            spreadRadius: -5,
           ),
         ],
       ),
       child: Padding(
         // The exposed solid bottom/right side is a physical 3D edge, not shading.
-        padding: const EdgeInsets.fromLTRB(1, 1, 2.5, 3.5),
+        padding: const EdgeInsets.only(right: 2.2, bottom: 3.2),
         child: DecoratedBox(
           decoration: BoxDecoration(
-            color: const Color(0xFFF6EBDE),
+            color: const Color(0xFFF5EADD),
             borderRadius: faceRadius,
-            border: Border.all(color: const Color(0xFFFFF9EF), width: 1),
           ),
           child: Material(
             type: MaterialType.transparency,
