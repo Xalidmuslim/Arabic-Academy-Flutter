@@ -109,31 +109,7 @@ jobs:
           arch: x86_64
           profile: pixel_6
           emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect
-          script: |
-            set -eu
-            mkdir -p smoke-output
-            adb install -r downloaded-apk/app-x86_64-release.apk
-            adb shell am start -W -n com.example.arabic_academy/.MainActivity
-            sleep 15
-            adb shell pidof com.example.arabic_academy
-            adb shell screencap -p /sdcard/bayna-launch.png
-            adb pull /sdcard/bayna-launch.png smoke-output/launch.png
-            adb logcat -d -v time > smoke-output/logcat.txt
-            if grep -E 'FATAL EXCEPTION|E/flutter.*Unhandled Exception' smoke-output/logcat.txt; then
-              echo 'Android startup emitted a fatal exception'
-              exit 1
-            fi
-            for attempt in 1 2 3; do
-              adb shell uiautomator dump /sdcard/bayna-ui.xml > /dev/null || true
-              adb pull /sdcard/bayna-ui.xml smoke-output/window.xml > /dev/null || true
-              if grep -Eq 'Начать обучение|Арабский каждый день|Арабский язык в твоих руках' smoke-output/window.xml; then
-                echo 'Visible first-run Flutter content confirmed on Android emulator'
-                exit 0
-              fi
-              sleep 5
-            done
-            echo 'Android did not expose the expected first-run content; inspect screenshot and logcat'
-            exit 1
+          script: bash scripts/android_launch_smoke.sh
       - name: Upload startup evidence even if emulator fails
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
