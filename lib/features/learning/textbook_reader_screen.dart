@@ -96,7 +96,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       _busy = false;
       _error = null;
       _pageCount = count;
-      _page = widget.initialPage.clamp(0, count - 1);
+      _page = widget.initialPage.clamp(0, count - 1).toInt();
     });
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted && _controller.hasClients) _controller.jumpToPage(_page);
