@@ -70,16 +70,18 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       final file = await _targetFile();
       if (!await file.exists()) {
         if (mounted) {
-        setState(() => _busy = false);
-      }
+          setState(() => _busy = false);
+        }
         return;
       }
       await _openFile(file);
     } catch (error) {
-      if (mounted) setState(() {
-        _busy = false;
-        _error = 'Не удалось открыть учебник: $error';
-      });
+      if (mounted) {
+        setState(() {
+          _busy = false;
+          _error = 'Не удалось открыть учебник: $error';
+        });
+      }
     }
   }
 
@@ -90,7 +92,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     if (count == null || count < 1) {
       throw const FormatException('PDF не содержит страниц');
     }
-    if (!mounted) return;
+    if (!mounted) {
+      return;
+    }
     _pageCache.clear();
     setState(() {
       _hasBook = true;
@@ -100,21 +104,29 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       _page = widget.initialPage.clamp(0, count - 1).toInt();
     });
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted && _controller.hasClients) _controller.jumpToPage(_page);
+      if (mounted && _controller.hasClients) {
+        _controller.jumpToPage(_page);
+      }
     });
   }
 
   Future<void> _importFile() async {
-    if (_busy) return;
+    if (_busy) {
+      return;
+    }
     final selected = await FilePicker.platform.pickFiles(
       type: FileType.custom,
       allowedExtensions: const ['pdf'],
       withData: false,
     );
-    if (selected == null || selected.files.isEmpty) return;
+    if (selected == null || selected.files.isEmpty) {
+      return;
+    }
     final path = selected.files.single.path;
     if (path == null) {
-      if (mounted) setState(() => _error = 'Не удалось получить файл PDF.');
+      if (mounted) {
+        setState(() => _error = 'Не удалось получить файл PDF.');
+      }
       return;
     }
     setState(() {
@@ -139,11 +151,15 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       // Stage the copy in the same private directory, then rename atomically.
       final target = await _targetFile();
       final temporary = File('${target.path}.importing');
-      if (await temporary.exists()) await temporary.delete();
+      if (await temporary.exists()) {
+        await temporary.delete();
+      }
       await source.copy(temporary.path);
       // Close any currently displayed PDF before swapping the file on disk.
       await _native.invokeMethod<void>('close');
-      if (await target.exists()) await target.delete();
+      if (await target.exists()) {
+        await target.delete();
+      }
       await temporary.rename(target.path);
       await _openFile(target);
     } catch (error) {
