@@ -16,7 +16,7 @@ void main() {
     final outer = tester.widget<DecoratedBox>(surface);
     final outerDecoration = outer.decoration as BoxDecoration;
     expect(outerDecoration.gradient, isNull);
-    expect(outerDecoration.color, const Color(0xFFD3BDA5));
+    expect(outerDecoration.color, const Color(0xFFD0B79F));
     expect(outerDecoration.boxShadow, hasLength(2));
     expect(outerDecoration.boxShadow!.first.blurRadius, lessThan(8));
     final rim = find.descendant(
@@ -29,8 +29,8 @@ void main() {
     final innerDecoration = tester.widget<DecoratedBox>(inner.first).decoration
         as BoxDecoration;
     expect(innerDecoration.gradient, isNull);
-    expect(innerDecoration.color, const Color(0xFFF6EBDE));
-    expect(innerDecoration.border, isNotNull);
+    expect(innerDecoration.color, const Color(0xFFF5EADD));
+    expect(innerDecoration.border, isNull);
   });
 
   testWidgets('feature tile keeps navigation tap with subtle press animation', (
