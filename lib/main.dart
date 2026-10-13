@@ -34,7 +34,13 @@ class AcademyBootstrap extends StatefulWidget {
 }
 
 class _AcademyBootstrapState extends State<AcademyBootstrap> {
-  late Future<AcademyState> _loading = _loadState();
+  late Future<AcademyState> _loading;
+
+  @override
+  void initState() {
+    super.initState();
+    _loading = _loadState();
+  }
 
   Future<AcademyState> _loadState() async {
     if (widget.loader != null) {
