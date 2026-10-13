@@ -244,9 +244,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
         child: ListView(
           shrinkWrap: true,
           children: [
-            const ListTile(
+            ListTile(
               title: Text('Книга 1 · Часть ${widget.part}'),
-              subtitle: Text('Переход к началу раздела по печатному оглавлению'),
+              subtitle: const Text('Переход к началу раздела по печатному оглавлению'),
             ),
             for (final chapter in _chapters)
               ListTile(
