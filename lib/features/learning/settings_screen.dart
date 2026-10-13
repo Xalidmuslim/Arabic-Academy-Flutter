@@ -9,6 +9,7 @@ import '../../core/learning_sync.dart';
 import '../../services/backend_service.dart';
 import '../../services/push_service.dart';
 import '../../ui/components.dart';
+import '../../ui/design_tokens.dart';
 import '../integrations/phone_auth_screen.dart';
 import '../integrations/purchases_screen.dart';
 import 'notification_preferences.dart';
@@ -23,19 +24,24 @@ class SettingsScreen extends StatelessWidget {
     body: AnimatedBuilder(
       animation: state,
       builder: (context, _) => ListView(
-        padding: const EdgeInsets.all(18),
+        padding: const EdgeInsets.fromLTRB(16, 4, 16, 22),
         children: [
           Panel(
             padding: EdgeInsets.zero,
             child: ListTile(
-              leading: const Icon(Icons.person_outline),
-              title: Text(tr(context, 'Аккаунт')),
+              dense: true,
+              visualDensity: VisualDensity.compact,
+              contentPadding: const EdgeInsets.symmetric(horizontal: 13),
+              leading: const Icon(Icons.person_outline, size: 23),
+              title: Text(tr(context, 'Аккаунт'), style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700)),
               subtitle: Text(
                 backend.isAuthenticated
                     ? 'Выполнен вход по телефону'
                     : 'Данные обучения на этом устройстве',
+                style: const TextStyle(fontSize: 12.5, height: 1.25),
+                maxLines: 2,
               ),
-              trailing: const Icon(Icons.chevron_right),
+              trailing: const Icon(Icons.chevron_right, size: 21),
               onTap: () => Navigator.push(
                 context,
                 MaterialPageRoute(
@@ -44,8 +50,13 @@ class SettingsScreen extends StatelessWidget {
               ),
             ),
           ),
-          SectionTitle(tr(context, 'Язык интерфейса')),
+          _section(tr(context, 'Язык интерфейса')),
           DropdownButtonFormField<String>(
+            isDense: true,
+            decoration: const InputDecoration(
+              isDense: true,
+              contentPadding: EdgeInsets.symmetric(horizontal: 13, vertical: 10),
+            ),
             initialValue: state.settings['language'] as String? ?? 'ru',
             items: const [
               DropdownMenuItem(value: 'ru', child: Text('Русский')),
@@ -56,31 +67,34 @@ class SettingsScreen extends StatelessWidget {
               () => state.setSetting('language', value ?? 'ru'),
             ),
           ),
-          SectionTitle(tr(context, 'Размер русского текста')),
-          _slider(context, 'russianScale', 0.85, 1.6, 1, '×'),
-          SectionTitle(tr(context, 'Размер арабского текста')),
-          _slider(context, 'arabicSize', 22, 42, 28, ' dp'),
+          _compactSlider(context, tr(context, 'Размер русского текста'),
+              'russianScale', 0.85, 1.6, 1, '×'),
+          _compactSlider(context, tr(context, 'Размер арабского текста'),
+              'arabicSize', 22, 42, 28, ' dp'),
           NaskhText(
             'أَنَا أَتَعَلَّمُ اللُّغَةَ الْعَرَبِيَّةَ.',
             size: (state.settings['arabicSize'] as num? ?? 28).toDouble(),
             height: (state.settings['arabicHeight'] as num? ?? 1.8).toDouble(),
           ),
-          SectionTitle(tr(context, 'Межстрочный интервал')),
-          _slider(context, 'arabicHeight', 1.65, 2.5, 1.8, '×'),
-          SectionTitle(tr(context, 'Скорость синтеза речи')),
-          _slider(context, 'audioSpeed', 0.2, 0.8, 0.45, '×'),
+          _compactSlider(context, tr(context, 'Межстрочный интервал'),
+              'arabicHeight', 1.65, 2.5, 1.8, '×'),
+          _compactSlider(context, tr(context, 'Скорость синтеза речи'),
+              'audioSpeed', 0.2, 0.8, 0.45, '×'),
           SwitchListTile(
+            dense: true,
+            visualDensity: VisualDensity.compact,
             contentPadding: EdgeInsets.zero,
-            title: Text(tr(context, 'Уменьшить анимации')),
+            title: Text(tr(context, 'Уменьшить анимации'),
+                style: const TextStyle(fontSize: 14)),
             value: state.settings['reduceMotion'] == true,
             onChanged: (value) => guardedAction(
               context,
               () => state.setSetting('reduceMotion', value),
             ),
           ),
-          SectionTitle(tr(context, 'Ежедневная цель')),
-          _slider(context, 'dailyGoal', 5, 60, 15, ' мин'),
-          SectionTitle(tr(context, 'Уведомления')),
+          _compactSlider(context, tr(context, 'Ежедневная цель'),
+              'dailyGoal', 5, 60, 15, ' мин'),
+          _section(tr(context, 'Уведомления')),
           for (final entry in const {
             'lesson': 'Новые уроки',
             'assignment': 'Домашние задания',
@@ -90,8 +104,11 @@ class SettingsScreen extends StatelessWidget {
             'review': 'Повторение слов',
           }.entries)
             SwitchListTile(
+              dense: true,
+              visualDensity: VisualDensity.compact,
               contentPadding: EdgeInsets.zero,
-              title: Text(tr(context, entry.value)),
+              title: Text(tr(context, entry.value),
+                  style: const TextStyle(fontSize: 14)),
               value:
                   (state.settings['notification:${entry.key}'] ??
                       state.settings['notification:${entry.value}']) !=
@@ -105,7 +122,7 @@ class SettingsScreen extends StatelessWidget {
             ),
           _PushButton(backend: backend),
           if (backend.isAuthenticated) ...[
-            const SectionTitle('Синхронизация обучения'),
+            _section('Синхронизация обучения'),
             OutlinedButton.icon(
               icon: const Icon(Icons.sync),
               label: Text(
@@ -162,7 +179,7 @@ class SettingsScreen extends StatelessWidget {
                 ],
               ),
             ),
-          SectionTitle(tr(context, 'Приватность')),
+          _section(tr(context, 'Приватность')),
           OutlinedButton.icon(
             icon: const Icon(Icons.download),
             label: Text(tr(context, 'Экспорт данных')),
@@ -190,7 +207,7 @@ class SettingsScreen extends StatelessWidget {
             ),
           ),
           if (state.storageWarnings.isNotEmpty) ...[
-            const SectionTitle('Восстановление данных'),
+            _section('Восстановление данных'),
             ...state.storageWarnings.map(
               (message) => Panel(child: Text(message)),
             ),
@@ -211,36 +228,47 @@ class SettingsScreen extends StatelessWidget {
     ),
   );
 
-  Widget _slider(
-    BuildContext context,
-    String key,
-    double min,
-    double max,
-    double fallback,
-    String suffix,
-  ) {
-    final value = (state.settings[key] as num? ?? fallback).toDouble().clamp(
-      min,
-      max,
-    );
-    return Row(
-      children: [
-        Expanded(
-          child: Slider(
-            value: value,
-            min: min,
-            max: max,
-            divisions: key == 'dailyGoal' ? 11 : 20,
-            onChanged: (value) =>
-                guardedAction(context, () => state.setSetting(key, value)),
+  Widget _section(String title) => Padding(
+    padding: const EdgeInsets.only(top: 13, bottom: 6),
+    child: Text(title, style: const TextStyle(
+      fontSize: 15.5, fontWeight: FontWeight.w700, color: DesignTokens.ink,
+    )),
+  );
+
+  Widget _compactSlider(BuildContext context, String title, String key,
+      double min, double max, double fallback, String suffix) {
+    final value = (state.settings[key] as num? ?? fallback).toDouble().clamp(min, max);
+    final display = '${value.toStringAsFixed(
+      key == 'arabicSize' || key == 'dailyGoal' ? 0 : 2,
+    )}${suffix}';
+    return Padding(
+      padding: const EdgeInsets.only(top: 11),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Row(children: [
+          Expanded(child: Text(title, style: const TextStyle(
+            fontSize: 15, fontWeight: FontWeight.w700, color: DesignTokens.ink,
+          ))),
+          Text(display, style: const TextStyle(fontSize: 12.5,
+              color: DesignTokens.secondary)),
+        ]),
+        SliderTheme(
+          data: SliderTheme.of(context).copyWith(
+            trackHeight: 3,
+            thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 9),
+            overlayShape: const RoundSliderOverlayShape(overlayRadius: 16),
           ),
+          child: SizedBox(height: 39, child: Slider(
+            value: value, min: min, max: max,
+            divisions: key == 'dailyGoal' ? 11 : 20,
+            onChanged: (next) => guardedAction(
+              context, () => state.setSetting(key, next),
+            ),
+          )),
         ),
-        Text(
-          '${value.toStringAsFixed(key == 'arabicSize' || key == 'dailyGoal' ? 0 : 2)}$suffix',
-        ),
-      ],
+      ]),
     );
   }
+
 }
 
 class NotificationsScreen extends StatefulWidget {
