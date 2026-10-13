@@ -8,6 +8,7 @@ import '../../ui/design_tokens.dart';
 import '../integrations/purchases_screen.dart';
 import 'lesson_screen.dart';
 import 'online_courses_screen.dart';
+import 'textbook_reader_screen.dart';
 
 class UnitScreen extends StatefulWidget {
   const UnitScreen({super.key, required this.state, this.unitId, this.backend});
@@ -27,6 +28,13 @@ class _UnitScreenState extends State<UnitScreen> {
     _search.dispose();
     super.dispose();
   }
+
+  int get _textbookStartPage => const <String, int>{
+    'u01': 22, 'u02': 48, 'u03': 74, 'u04': 102,
+    'u05': 129, 'u06': 156, 'u07': 182, 'u08': 210,
+    'u1': 22, 'u2': 48, 'u3': 74, 'u4': 102,
+    'u5': 129, 'u6': 156, 'u7': 182, 'u8': 210,
+  }[widget.unitId] ?? 22;
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -116,6 +124,35 @@ class _UnitScreenState extends State<UnitScreen> {
                 ),
               ),
             ),
+            if (_filter == 'Все' && _query.trim().isEmpty)
+              SliverPadding(
+                padding: const EdgeInsets.fromLTRB(18, 5, 18, 14),
+                sliver: SliverToBoxAdapter(
+                  child: Panel(
+                    padding: EdgeInsets.zero,
+                    child: ListTile(
+                      key: const ValueKey('private-pdf-textbook-entry'),
+                      leading: const Icon(Icons.picture_as_pdf_outlined),
+                      title: const Text(
+                        'Оригинальный учебник · Часть 1',
+                        style: TextStyle(fontWeight: FontWeight.w700),
+                      ),
+                      subtitle: const Text(
+                        '8 разделов · 282 страницы · импорт PDF с телефона',
+                      ),
+                      trailing: const Icon(Icons.chevron_right),
+                      onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => TextbookReaderScreen(
+                            initialPage: _textbookStartPage,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             if (widget.unitId == null &&
                 _filter != 'Избранное' &&
                 _filter != 'Завершённые')
