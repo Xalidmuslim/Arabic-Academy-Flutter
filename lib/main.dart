@@ -1,9 +1,9 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
 import 'app.dart';
 import 'core/academy_state.dart';
+import 'core/bundled_catalog.dart';
 
 export 'app.dart';
 export 'core/academy_state.dart';
@@ -16,33 +16,57 @@ export 'ui/components.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final loaded = await Future.wait([
-    SharedPreferences.getInstance(),
-    rootBundle.loadString('assets/content/level1.json'),
-    rootBundle.loadString('assets/content/original_lessons.json'),
-    rootBundle.loadString('assets/content/book1_original_dialogues.json'),
-    rootBundle.loadString('assets/content/grammar.json'),
-  ]);
-  final catalog = jsonDecode(loaded[1] as String) as Map<String, dynamic>;
-  final original = jsonDecode(loaded[2] as String) as Map<String, dynamic>;
-  final grammar = jsonDecode(loaded[3] as String) as Map<String, dynamic>;
-  final book = jsonDecode(loaded[4] as String) as Map<String, dynamic>;
-  // Original author-written dialogues appear first in the book's verified
-  // chapter/lesson order. Existing 15 micro-lessons are kept as supplementary
-  // learning content; they are NOT represented as the publisher's dialogues.
-  catalog['modules'] = book['modules'];
-  catalog['lessons'] = [
-    ...book['lessons'] as List,
-    ...(catalog['lessons'] as List).map(
-      (x) => {...x as Map, 'module_id': 'u1', 'source': 'original_editorial',
-        'supplementary': true},
-    ),
-    ...(original['lessons'] as List).map(
-      (x) => {...x as Map, 'supplementary': true},
-    ),
-  ];
-  catalog['grammar_topics'] = grammar['topics'];
-  final state = AcademyState(loaded[0] as SharedPreferences, catalog);
-  await state.initialize();
-  runApp(AcademyApp(state: state));
+  try {
+    // Load files by explicit names; no positional JSON array indexes.
+    // Never let a data parsing error silently strand Android on its splash.
+    final loaded = await Future.wait<Object>([
+      SharedPreferences.getInstance(),
+      loadBundledAcademyCatalog(),
+    ]);
+    final state = AcademyState(
+      loaded[0] as SharedPreferences,
+      loaded[1] as Map<String, dynamic>,
+    );
+    await state.initialize();
+    runApp(AcademyApp(state: state));
+  } catch (error, stackTrace) {
+    FlutterError.reportError(FlutterErrorDetails(
+      exception: error,
+      stack: stackTrace,
+      library: 'academy startup',
+    ));
+    runApp(MaterialApp(
+      title: 'Байна Ядайк',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        useMaterial3: true,
+        scaffoldBackgroundColor: const Color(0xFFF8F4E8),
+      ),
+      home: Scaffold(
+        body: SafeArea(
+          child: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Icon(Icons.error_outline, size: 42),
+                  const SizedBox(height: 16),
+                  const Text(
+                    'Не удалось загрузить учебные материалы.',
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 16),
+                  FilledButton(
+                    onPressed: main,
+                    child: const Text('Повторить запуск'),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    ));
+  }
 }
