@@ -34,18 +34,18 @@ class FloatingStudyNavigation extends StatelessWidget {
       minimum: const EdgeInsets.only(bottom: 4),
       child: Padding(
         padding: const EdgeInsets.fromLTRB(22, 5, 22, 3),
-        child: DecoratedBox(
+        child: Center(
+          heightFactor: 1,
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 440),
+            child: DecoratedBox(
           key: const ValueKey('floating-study-navigation'),
           decoration: BoxDecoration(
             color: const Color(0xFFF1E6D8),
             borderRadius: BorderRadius.circular(27),
             boxShadow: const [
-              BoxShadow(
-                color: Color(0x385C4838),
-                offset: Offset(0, 4),
-                blurRadius: 11,
-                spreadRadius: -3,
-              ),
+              BoxShadow(color: Color(0x3B534133), offset: Offset(0, 5), blurRadius: 11, spreadRadius: -3),
+              BoxShadow(color: Color(0x16534133), offset: Offset(0, 12), blurRadius: 23, spreadRadius: -7),
             ],
           ),
           child: Padding(
@@ -94,6 +94,8 @@ class FloatingStudyNavigation extends StatelessWidget {
               ],
             ),
           ),
+        ),
+        ),
         ),
       ),
     );

@@ -67,33 +67,45 @@ class SettingsScreen extends StatelessWidget {
               () => state.setSetting('language', value ?? 'ru'),
             ),
           ),
-          _compactSlider(context, tr(context, 'Размер русского текста'),
-              'russianScale', 0.85, 1.6, 1, '×'),
-          _compactSlider(context, tr(context, 'Размер арабского текста'),
-              'arabicSize', 22, 42, 28, ' dp'),
-          Align(
-            alignment: Alignment.centerRight,
-            child: NaskhText(
-              'أَنَا أَتَعَلَّمُ اللُّغَةَ الْعَرَبِيَّةَ.',
-              size: (state.settings['arabicSize'] as num? ?? 28).toDouble(),
-              height: 1.12, // Preview is compact; lesson spacing is unchanged.
+          ExpansionTile(
+            key: const ValueKey('reading-preferences'),
+            initiallyExpanded: false,
+            tilePadding: EdgeInsets.zero,
+            childrenPadding: EdgeInsets.zero,
+            title: Text(
+              tr(context, 'Чтение и произношение'),
+              style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
             ),
-          ),
-          _compactSlider(context, tr(context, 'Межстрочный интервал'),
-              'arabicHeight', 1.65, 2.5, 1.8, '×'),
-          _compactSlider(context, tr(context, 'Скорость синтеза речи'),
-              'audioSpeed', 0.2, 0.8, 0.45, '×'),
-          SwitchListTile(
-            dense: true,
-            visualDensity: VisualDensity.compact,
-            contentPadding: EdgeInsets.zero,
-            title: Text(tr(context, 'Уменьшить анимации'),
-                style: const TextStyle(fontSize: 14)),
-            value: state.settings['reduceMotion'] == true,
-            onChanged: (value) => guardedAction(
-              context,
-              () => state.setSetting('reduceMotion', value),
+            children: [
+            _compactSlider(context, tr(context, 'Размер русского текста'),
+                'russianScale', 0.85, 1.6, 1, '×'),
+            _compactSlider(context, tr(context, 'Размер арабского текста'),
+                'arabicSize', 22, 42, 28, ' dp'),
+            Align(
+              alignment: Alignment.centerRight,
+              child: NaskhText(
+                'أَنَا أَتَعَلَّمُ اللُّغَةَ الْعَرَبِيَّةَ.',
+                size: (state.settings['arabicSize'] as num? ?? 28).toDouble(),
+                height: 1.12, // Preview is compact; lesson spacing is unchanged.
+              ),
             ),
+            _compactSlider(context, tr(context, 'Межстрочный интервал'),
+                'arabicHeight', 1.65, 2.5, 1.8, '×'),
+            _compactSlider(context, tr(context, 'Скорость синтеза речи'),
+                'audioSpeed', 0.2, 0.8, 0.45, '×'),
+            SwitchListTile(
+              dense: true,
+              visualDensity: VisualDensity.compact,
+              contentPadding: EdgeInsets.zero,
+              title: Text(tr(context, 'Уменьшить анимации'),
+                  style: const TextStyle(fontSize: 14)),
+              value: state.settings['reduceMotion'] == true,
+              onChanged: (value) => guardedAction(
+                context,
+                () => state.setSetting('reduceMotion', value),
+              ),
+            ),
+            ],
           ),
           _compactSlider(context, tr(context, 'Ежедневная цель'),
               'dailyGoal', 5, 60, 15, ' мин'),
