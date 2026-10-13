@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:typed_data';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
@@ -70,7 +69,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     try {
       final file = await _targetFile();
       if (!await file.exists()) {
-        if (mounted) setState(() => _busy = false);
+        if (mounted) {
+        setState(() => _busy = false);
+      }
         return;
       }
       await _openFile(file);
