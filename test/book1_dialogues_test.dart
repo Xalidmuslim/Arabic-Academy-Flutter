@@ -72,5 +72,5 @@ void main() {
     await tester.pump(const Duration(milliseconds: 350));
     expect(find.byType(TextbookReaderScreen), findsOneWidget);
     expect(find.text('Учебник · Часть 1'), findsOneWidget);
-  }, timeout: const Timeout(Duration(seconds: 45)));
+  });
 }
