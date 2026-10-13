@@ -138,6 +138,7 @@ class _UnitScreenState extends State<UnitScreen> {
                         .where((x) => widget.state.completed.contains(x['id']))
                         .length;
                     final free = unit['access_default'] == 'free';
+                    final isOpen = free || AcademyState.temporaryLocalLessonAccess;
                     const illustrations = [
                       'lessons',
                       'teacher',
@@ -155,7 +156,7 @@ class _UnitScreenState extends State<UnitScreen> {
                         child: InkWell(
                           borderRadius: BorderRadius.circular(22),
                           onTap: () {
-                            if (free) {
+                            if (isOpen) {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -211,8 +212,10 @@ class _UnitScreenState extends State<UnitScreen> {
                                       ),
                                       const SizedBox(height: 5),
                                       Text(
-                                        free
-                                            ? 'Бесплатно · $done/${unitLessons.length}'
+                                        isOpen
+                                            ? unitLessons.isEmpty
+                                                ? 'Раздел открыт · материалы готовятся'
+                                                : 'Открыто · $done/${unitLessons.length}'
                                             : 'Доступ после серверного подтверждения',
                                         style: const TextStyle(
                                           fontSize: 11,
@@ -232,7 +235,7 @@ class _UnitScreenState extends State<UnitScreen> {
                                   ),
                                 ),
                                 Icon(
-                                  free
+                                  isOpen
                                       ? Icons.chevron_right
                                       : Icons.lock_outline,
                                   size: 20,
@@ -254,9 +257,17 @@ class _UnitScreenState extends State<UnitScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 18),
                 sliver: SliverToBoxAdapter(
                   child: lessons.isEmpty
-                      ? const EmptyState(
-                          title: 'Нет подходящих уроков',
-                          message: 'Измените фильтр или поисковый запрос.',
+                      ? EmptyState(
+                          title: widget.unitId != null &&
+                                  _query.trim().isEmpty &&
+                                  _filter == 'Все'
+                              ? 'Материалы пока не загружены'
+                              : 'Нет подходящих уроков',
+                          message: widget.unitId != null &&
+                                  _query.trim().isEmpty &&
+                                  _filter == 'Все'
+                              ? 'Раздел открыт. Учебные тексты появятся после импорта.'
+                              : 'Измените фильтр или поисковый запрос.',
                         )
                       : const SizedBox(height: 12),
                 ),
