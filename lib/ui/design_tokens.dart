@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 abstract final class DesignTokens {
-  static const ivory = Color(0xFFF8F4E8);
-  static const beige = Color(0xFFEADFCB);
-  static const sand = Color(0xFFD6C8AE);
+  static const ivory = Color(0xFFF6F0E5);
+  static const beige = Color(0xFFE8D9C5);
+  static const sand = Color(0xFFD4BEA5);
   static const sage = Color(0xFFA7A68D);
   static const olive = Color(0xFF5F7A47);
   static const deepOlive = Color(0xFF3E5B33);
@@ -17,18 +17,17 @@ abstract final class DesignTokens {
   static const cardPadding = 16.0;
   static const minimumTarget = 48.0;
   static const shadows = [
-    BoxShadow(color: Color(0x76FFFFFF), offset: Offset(-2, -2), blurRadius: 7),
     BoxShadow(
-      color: Color(0x485A4A36),
+      color: Color(0x445C4838),
       offset: Offset(3, 5),
       blurRadius: 6,
-      spreadRadius: -1,
+      spreadRadius: -2,
     ),
     BoxShadow(
-      color: Color(0x225A4A36),
-      offset: Offset(0, 12),
-      blurRadius: 19,
-      spreadRadius: -5,
+      color: Color(0x245C4838),
+      offset: Offset(0, 11),
+      blurRadius: 17,
+      spreadRadius: -4,
     ),
   ];
 
@@ -105,8 +104,8 @@ abstract final class DesignTokens {
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
         backgroundColor: olive,
-        elevation: 3,
-        shadowColor: const Color(0x66475637),
+        elevation: 2,
+        shadowColor: const Color(0x52475637),
         foregroundColor: Colors.white,
         minimumSize: const Size(48, 50),
         padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 13),

@@ -2,19 +2,19 @@ import 'package:flutter/material.dart';
 import 'design_tokens.dart';
 
 /// Shared, deliberately lightweight soft-matte visual language.
-/// Directional lighting and layered shadows use no expensive backdrop blur.
+/// Solid warm relief with a real exposed edge, no gradient or backdrop blur.
 abstract final class NeumorphicPalette {
   static const background = DesignTokens.ivory;
-  static const surface = Color(0xFFF7F0E2);
+  static const surface = Color(0xFFF6EBDE);
   static const ink = DesignTokens.ink;
   static const olive = DesignTokens.olive;
   static const secondary = DesignTokens.secondary;
   static const outline = Color(0xCCFFFFFF);
 }
 
-/// A raised matte card: directional light, a narrow chamfered rim,
-/// and two warm contact/ambient shadows. No blur filters or images.
-/// Keep the inner Material transparent so existing InkWell/ListTile work.
+/// Genuine solid-color relief: the back layer remains visible along
+/// the bottom/right edge, while short contact shadows anchor the card.
+/// No ShaderMask, image, gradient or backdrop blur is needed.
 class NeumorphicSurface extends StatelessWidget {
   const NeumorphicSurface({
     super.key,
@@ -29,67 +29,38 @@ class NeumorphicSurface extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final outerRadius = BorderRadius.circular(radius);
-    final innerRadius = BorderRadius.circular(
-      (radius - 2.0).clamp(0.0, double.infinity).toDouble(),
+    final outer = BorderRadius.circular(radius);
+    final faceRadius = BorderRadius.circular(
+      (radius - 2).clamp(0.0, double.infinity).toDouble(),
     );
     return DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
       decoration: BoxDecoration(
-        borderRadius: outerRadius,
-        // Matte outer rim: restrained upper illumination and a thin lower lip.
-        gradient: const LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [
-            Color(0xFFFFFAF1),
-            Color(0xFFF2E8DA),
-            Color(0xFFCDBAA5),
-          ],
-          stops: [0.0, 0.66, 1.0],
-        ),
+        color: const Color(0xFFD3BDA5),
+        borderRadius: outer,
         boxShadow: const [
-          // A restrained fill light, not a glowing white halo.
           BoxShadow(
-            color: Color(0x76FFFFFF),
-            offset: Offset(-2, -2),
-            blurRadius: 7,
-          ),
-          // Crisp contact shade makes the card visibly sit above the page.
-          BoxShadow(
-            color: Color(0x485A4A36),
+            color: Color(0x445C4838),
             offset: Offset(3, 5),
             blurRadius: 6,
-            spreadRadius: -1,
+            spreadRadius: -2,
           ),
-          // Soft, subtle ambient depth under the physical edge.
           BoxShadow(
-            color: Color(0x225A4A36),
-            offset: Offset(0, 12),
-            blurRadius: 19,
-            spreadRadius: -5,
+            color: Color(0x245C4838),
+            offset: Offset(0, 11),
+            blurRadius: 17,
+            spreadRadius: -4,
           ),
         ],
       ),
       child: Padding(
-        padding: const EdgeInsets.all(2.0),
+        // The exposed solid bottom/right side is a physical 3D edge, not shading.
+        padding: const EdgeInsets.fromLTRB(1, 1, 2.5, 3.5),
         child: DecoratedBox(
           decoration: BoxDecoration(
-            borderRadius: innerRadius,
-            gradient: const LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                Color(0xFFF9F3E9),
-                Color(0xFFF6EEE3),
-                Color(0xFFF0E6D8),
-              ],
-              stops: [0.0, 0.55, 1.0],
-            ),
-            border: Border.all(
-              color: const Color(0x52FFFFFF),
-              width: 0.6,
-            ),
+            color: const Color(0xFFF6EBDE),
+            borderRadius: faceRadius,
+            border: Border.all(color: const Color(0xFFFFF9EF), width: 1),
           ),
           child: Material(
             type: MaterialType.transparency,
