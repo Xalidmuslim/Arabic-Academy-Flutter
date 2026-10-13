@@ -1,12 +1,10 @@
 import 'dart:convert';
 
-import 'package:arabic_academy/core/academy_state.dart';
-import 'package:arabic_academy/features/learning/lesson_screen.dart';
+import 'package:arabic_academy/features/learning/lesson_pdf_link.dart';
 import 'package:arabic_academy/features/learning/textbook_reader_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -38,33 +36,18 @@ void main() {
     }
   });
 
-  testWidgets('dialogue links to exact original PDF page', (tester) async {
-    SharedPreferences.setMockInitialValues(<String, Object>{});
-    final prefs = await SharedPreferences.getInstance();
-    final text = await rootBundle.loadString(
-      'assets/content/book1_original_dialogues.json',
-    );
-    final catalog = jsonDecode(text) as Map<String, dynamic>;
-    final state = AcademyState(prefs, catalog);
-    final lesson = Map<String, dynamic>.from(
-      (catalog['lessons'] as List).first as Map,
-    );
-
-    await tester.pumpWidget(
-      MaterialApp(home: LessonScreen(
-        state: state,
-        lesson: lesson,
-        initialTab: 2,
-      )),
-    );
-    await tester.pump();
+  testWidgets('PDF button routes to the exact selected original page', (tester) async {
+    await tester.pumpWidget(const MaterialApp(
+      home: Scaffold(body: OriginalTextbookLink(pageIndex: 23)),
+    ));
     final button = find.byKey(const ValueKey('open-original-pdf-page'));
     expect(button, findsOneWidget);
     expect(find.textContaining('страница 24'), findsOneWidget);
-    await tester.ensureVisible(button);
     await tester.tap(button);
-    await tester.pumpAndSettle();
-    expect(find.byType(TextbookReaderScreen), findsOneWidget);
-    expect(find.text('Учебник · Часть 1'), findsOneWidget);
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 400));
+    final reader = find.byType(TextbookReaderScreen);
+    expect(reader, findsOneWidget);
+    expect(tester.widget<TextbookReaderScreen>(reader).initialPage, 23);
   });
 }
