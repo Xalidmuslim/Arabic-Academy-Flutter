@@ -1,7 +1,6 @@
 import 'package:arabic_academy/core/academy_state.dart';
 import 'package:arabic_academy/features/learning/settings_screen.dart';
 import 'package:arabic_academy/services/backend_service.dart';
-import 'package:arabic_academy/services/integration_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
