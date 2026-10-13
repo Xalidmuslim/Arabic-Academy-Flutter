@@ -41,15 +41,13 @@ jobs:
           bash scripts/prepare_signing.sh --mode development
           flutter pub get --enforce-lockfile
           git diff --exit-code -- pubspec.lock
-      - name: Check packaged assets and Flutter analysis
-        run: |
-          python3 scripts/verify_assets.py
-          flutter analyze --no-pub
-      # Do not run flutter test before Android compilation in the same job.
-      # integration_test can rewrite GeneratedPluginRegistrant for a test plugin
-      # unavailable to assembleRelease. Run UI tests after the signed APK exists.
-      - name: Compile optimized ARM64 APK only
-        run: flutter build apk --release --split-per-abi --target-platform android-arm64 --no-pub
+      - name: Verify source assets before compilation
+        run: python3 scripts/verify_assets.py
+      # Follow the known-green Android release ordering from v2.
+      # Do not invoke analyzer/test runner before assembleRelease: either may
+      # regenerate the debug-only integration_test Java plugin registrant.
+      - name: Compile verified release ABI APKs
+        run: flutter build apk --release --split-per-abi
       - name: Verify APK assets, signature and ARM64 ABI
         run: |
           python3 scripts/verify_android_artifacts.py --mode development \
@@ -64,8 +62,10 @@ jobs:
                       if p.startswith('lib/') and p.endswith('.so')}
           assert abis == {'arm64-v8a'}, f'Unexpected ABIs: {abis}'
           PY
-      - name: Test card relief and persistent navigation after APK compilation
-        run: flutter test --no-pub test/matte_depth_test.dart test/floating_navigation_test.dart
+      - name: Analyze and test UI after verified APK compilation
+        run: |
+          flutter analyze --no-pub
+          flutter test --no-pub test/matte_depth_test.dart test/floating_navigation_test.dart
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: bayna-solid-3d-v3-arm64-release
