@@ -315,11 +315,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Positioned.fill(
                         child: DecoratedBox(
                           decoration: const BoxDecoration(
-                            gradient: LinearGradient(
-                              colors: [Color(0xE8F8F4E8), Color(0x1AF8F4E8)],
-                              begin: Alignment.centerLeft,
-                              end: Alignment.centerRight,
-                            ),
+                            color: Color(0x42FFF4E6),
                           ),
                         ),
                       ),
