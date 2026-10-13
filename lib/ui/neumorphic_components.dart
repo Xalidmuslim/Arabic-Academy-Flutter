@@ -12,9 +12,9 @@ abstract final class NeumorphicPalette {
   static const outline = Color(0xCCFFFFFF);
 }
 
-/// Borderless relief: the darker substrate appears ONLY along the bottom/right
-/// as a physical side wall, with no drawn contour on the front surface.
-/// No ShaderMask, image, gradient or backdrop blur is needed.
+/// Solid matte elevation with no painted contour, hard extrusion or gradient.
+/// A soft close-contact shadow plus a broad ambient shadow reproduce the
+/// understated raised panels of the supplied reference at mobile scale.
 class NeumorphicSurface extends StatelessWidget {
   const NeumorphicSurface({
     super.key,
@@ -29,43 +29,31 @@ class NeumorphicSurface extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final outer = BorderRadius.circular(radius);
-    final faceRadius = BorderRadius.circular(
-      (radius - 1.5).clamp(0.0, double.infinity).toDouble(),
-    );
     return DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
       decoration: BoxDecoration(
-        color: const Color(0xFFD0B79F),
-        borderRadius: outer,
+        color: const Color(0xFFF5ECDF),
+        borderRadius: BorderRadius.circular(radius),
         boxShadow: const [
+          // Defines the elevation without creating a brown outline.
           BoxShadow(
-            color: Color(0x4C574334),
-            offset: Offset(2, 4),
-            blurRadius: 5,
-            spreadRadius: -1.5,
+            color: Color(0x3F634F3F),
+            offset: Offset(1, 5),
+            blurRadius: 11,
+            spreadRadius: -4,
           ),
+          // Wider falloff makes it feel physically raised, not boxed-in.
           BoxShadow(
-            color: Color(0x25574334),
-            offset: Offset(1, 12),
-            blurRadius: 20,
-            spreadRadius: -5,
+            color: Color(0x23584535),
+            offset: Offset(0, 13),
+            blurRadius: 25,
+            spreadRadius: -7,
           ),
         ],
       ),
-      child: Padding(
-        // The exposed solid bottom/right side is a physical 3D edge, not shading.
-        padding: const EdgeInsets.only(right: 2.2, bottom: 3.2),
-        child: DecoratedBox(
-          decoration: BoxDecoration(
-            color: const Color(0xFFF5EADD),
-            borderRadius: faceRadius,
-          ),
-          child: Material(
-            type: MaterialType.transparency,
-            child: Padding(padding: padding, child: child),
-          ),
-        ),
+      child: Material(
+        type: MaterialType.transparency,
+        child: Padding(padding: padding, child: child),
       ),
     );
   }
