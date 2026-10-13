@@ -3,6 +3,8 @@ package com.example.arabic_academy
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Color
+import android.graphics.Rect
+import android.os.Build
 import android.graphics.pdf.PdfRenderer
 import android.os.ParcelFileDescriptor
 import io.flutter.embedding.android.FlutterActivity
@@ -31,6 +33,32 @@ class MainActivity : FlutterActivity() {
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
+        // Android limits system-gesture exclusions to a small edge area.
+        // Exclude only the right-hand center of the PDF viewport, not the
+        // full gesture edge or global Android navigation.
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "bayna.reader_gesture")
+            .setMethodCallHandler { call, result ->
+                if (call.method != "excludeRightEdge") {
+                    result.notImplemented()
+                } else {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                        val enabled = call.argument<Boolean>("enabled") == true
+                        val view = window.decorView
+                        view.post {
+                            val density = resources.displayMetrics.density
+                            val strip = (20 * density).toInt()
+                            val height = (170 * density).toInt()
+                            val middle = view.height / 2
+                            val exclusion = if (enabled && view.width > strip && middle > 0) {
+                                listOf(Rect(view.width - strip, middle - height / 2,
+                                    view.width, middle + height / 2))
+                            } else emptyList()
+                            view.systemGestureExclusionRects = exclusion
+                        }
+                    }
+                    result.success(null)
+                }
+            }
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "bayna.private_pdf")
             .setMethodCallHandler { call, result ->
                 readerExecutor.execute {

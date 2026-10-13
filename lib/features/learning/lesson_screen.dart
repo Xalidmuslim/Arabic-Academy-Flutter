@@ -128,7 +128,10 @@ class _LessonScreenState extends State<LessonScreen>
     context,
     () => ArabicSpeech.speak(
       text,
-      speed: (widget.state.settings['audioSpeed'] as num? ?? 0.45).toDouble(),
+      speed: (widget.state.settings['audioSpeed'] as num? ?? 0.50).toDouble(),
+      engine: widget.state.settings['audioEngine'] as String?,
+      voiceName: widget.state.settings['audioVoiceName'] as String?,
+      voiceLocale: widget.state.settings['audioVoiceLocale'] as String?,
     ),
   );
 

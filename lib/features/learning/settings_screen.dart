@@ -4,6 +4,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import '../../core/academy_state.dart';
+import '../../core/speech.dart';
 import '../../core/app_strings.dart';
 import '../../core/learning_sync.dart';
 import '../../services/backend_service.dart';
@@ -92,7 +93,8 @@ class SettingsScreen extends StatelessWidget {
             _compactSlider(context, tr(context, 'Межстрочный интервал'),
                 'arabicHeight', 1.65, 2.5, 1.8, '×'),
             _compactSlider(context, tr(context, 'Скорость синтеза речи'),
-                'audioSpeed', 0.2, 0.8, 0.45, '×'),
+                'audioSpeed', 0.38, 0.65, 0.50, '×'),
+            _ArabicVoiceSettings(state: state),
             SwitchListTile(
               dense: true,
               visualDensity: VisualDensity.compact,
@@ -297,6 +299,121 @@ class SettingsScreen extends StatelessWidget {
     );
   }
 
+}
+
+
+class _ArabicVoiceSettings extends StatefulWidget {
+  const _ArabicVoiceSettings({required this.state});
+  final AcademyState state;
+  @override
+  State<_ArabicVoiceSettings> createState() => _ArabicVoiceSettingsState();
+}
+
+class _ArabicVoiceSettingsState extends State<_ArabicVoiceSettings> {
+  late Future<(List<String>, List<ArabicVoice>)> _available = _load();
+
+  Future<(List<String>, List<ArabicVoice>)> _load() async {
+    final engines = await ArabicSpeech.availableEngines();
+    final chosen = widget.state.settings['audioEngine'] as String?;
+    final voices = await ArabicSpeech.availableVoices(engine: chosen);
+    return (engines, voices);
+  }
+
+  void _refresh() => setState(() => _available = _load());
+
+  @override
+  Widget build(BuildContext context) => FutureBuilder<(List<String>, List<ArabicVoice>)>(
+    future: _available,
+    builder: (context, snapshot) {
+      if (snapshot.hasError) {
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            const Text('Не удалось получить голоса устройства. Проверьте настройки TTS Android.'),
+            TextButton(onPressed: _refresh, child: const Text('Обновить список')),
+          ],
+        );
+      }
+      if (!snapshot.hasData) {
+        return const Padding(
+          padding: EdgeInsets.symmetric(vertical: 8),
+          child: LinearProgressIndicator(minHeight: 2),
+        );
+      }
+      final engines = snapshot.requireData.$1;
+      final voices = snapshot.requireData.$2;
+      final engine = widget.state.settings['audioEngine'] as String?;
+      final voiceName = widget.state.settings['audioVoiceName'] as String?;
+      final voiceLocale = widget.state.settings['audioVoiceLocale'] as String?;
+      final selectedVoice = voices.any((voice) =>
+          voice.name == voiceName && voice.locale == voiceLocale)
+          ? '$voiceLocale::$voiceName' : '';
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          const Text('Арабский голос телефона',
+              style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700)),
+          const SizedBox(height: 6),
+          DropdownButtonFormField<String>(
+            key: ValueKey('tts-engine-${engine ?? 'system'}'),
+            isDense: true,
+            initialValue: engines.contains(engine) ? engine : '',
+            decoration: const InputDecoration(labelText: 'Движок речи', isDense: true),
+            items: [
+              const DropdownMenuItem(value: '', child: Text('Системный')),
+              for (final value in engines)
+                DropdownMenuItem(value: value, child: Text(value,
+                    overflow: TextOverflow.ellipsis)),
+            ],
+            onChanged: (value) => guardedAction(context, () async {
+              await widget.state.setSetting('audioEngine', value ?? '');
+              await widget.state.setSetting('audioVoiceName', '');
+              await widget.state.setSetting('audioVoiceLocale', '');
+              _refresh();
+            }),
+          ),
+          const SizedBox(height: 8),
+          DropdownButtonFormField<String>(
+            key: ValueKey('tts-voice-$selectedVoice'),
+            isDense: true,
+            initialValue: selectedVoice,
+            decoration: const InputDecoration(labelText: 'Голос арабского языка', isDense: true),
+            items: [
+              const DropdownMenuItem(value: '', child: Text('Автоматически')),
+              for (final voice in voices)
+                DropdownMenuItem(value: voice.key,
+                  child: Text(voice.label, overflow: TextOverflow.ellipsis)),
+            ],
+            onChanged: (value) => guardedAction(context, () async {
+              final selected = voices.where((voice) => voice.key == value).firstOrNull;
+              await widget.state.setSetting('audioVoiceName', selected?.name ?? '');
+              await widget.state.setSetting('audioVoiceLocale', selected?.locale ?? '');
+            }),
+          ),
+          const SizedBox(height: 5),
+          Text(voices.isEmpty
+              ? 'Арабские голоса не найдены. Установите арабский голос в настройках Android.'
+              : 'Качество определяется установленным голосом. Для онлайн-голосов нужен интернет.',
+              style: const TextStyle(fontSize: 11.5, color: DesignTokens.secondary)),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: TextButton.icon(
+              key: const ValueKey('tts-preview'),
+              onPressed: () => guardedAction(context, () => ArabicSpeech.speak(
+                'السَّلَامُ عَلَيْكُمْ. أَهْلًا وَسَهْلًا.',
+                speed: (widget.state.settings['audioSpeed'] as num? ?? 0.50).toDouble(),
+                engine: engine,
+                voiceName: voiceName,
+                voiceLocale: voiceLocale,
+              )),
+              icon: const Icon(Icons.volume_up_outlined),
+              label: const Text('Послушать выбранный голос'),
+            ),
+          ),
+        ],
+      );
+    },
+  );
 }
 
 class NotificationsScreen extends StatefulWidget {
