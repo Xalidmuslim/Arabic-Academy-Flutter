@@ -17,8 +17,19 @@ abstract final class DesignTokens {
   static const cardPadding = 16.0;
   static const minimumTarget = 48.0;
   static const shadows = [
-    BoxShadow(color: Color(0xA6FFFFFF), offset: Offset(-3, -3), blurRadius: 9),
-    BoxShadow(color: Color(0x288B7858), offset: Offset(4, 5), blurRadius: 12),
+    BoxShadow(color: Color(0xE6FFFFFF), offset: Offset(-4, -4), blurRadius: 12),
+    BoxShadow(
+      color: Color(0x365D4B37),
+      offset: Offset(4, 7),
+      blurRadius: 10,
+      spreadRadius: -2,
+    ),
+    BoxShadow(
+      color: Color(0x265D4B37),
+      offset: Offset(0, 15),
+      blurRadius: 24,
+      spreadRadius: -5,
+    ),
   ];
 
   static ThemeData theme() => ThemeData(
@@ -94,6 +105,8 @@ abstract final class DesignTokens {
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
         backgroundColor: olive,
+        elevation: 3,
+        shadowColor: const Color(0x66475637),
         foregroundColor: Colors.white,
         minimumSize: const Size(48, 50),
         padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 13),

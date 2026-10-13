@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'design_tokens.dart';
 
 /// Shared, deliberately lightweight soft-matte visual language.
-/// Two pre-defined shadows and local WebP images avoid expensive backdrop blur.
+/// Directional lighting and layered shadows use no expensive backdrop blur.
 abstract final class NeumorphicPalette {
   static const background = DesignTokens.ivory;
   static const surface = Color(0xFFF7F0E2);
@@ -12,6 +12,9 @@ abstract final class NeumorphicPalette {
   static const outline = Color(0xCCFFFFFF);
 }
 
+/// A raised matte card: directional light, a narrow chamfered rim,
+/// and two layers of warm ambient/contact shadows. No blur filters or images.
+/// Keep the inner Material transparent so existing InkWell/ListTile work.
 class NeumorphicSurface extends StatelessWidget {
   const NeumorphicSurface({
     super.key,
@@ -25,27 +28,74 @@ class NeumorphicSurface extends StatelessWidget {
   final double radius;
 
   @override
-  Widget build(BuildContext context) => Container(
-    padding: padding,
-    decoration: BoxDecoration(
-      color: NeumorphicPalette.surface,
-      borderRadius: BorderRadius.circular(radius),
-      border: Border.all(color: NeumorphicPalette.outline, width: 1),
-      boxShadow: const [
-        BoxShadow(
-          color: Color(0xBFFFFFFF),
-          offset: Offset(-4, -4),
-          blurRadius: 10,
+  Widget build(BuildContext context) {
+    final outerRadius = BorderRadius.circular(radius);
+    final innerRadius = BorderRadius.circular(
+      (radius - 1.5).clamp(0.0, double.infinity),
+    );
+    return DecoratedBox(
+      key: const ValueKey('matte-3d-surface'),
+      decoration: BoxDecoration(
+        borderRadius: outerRadius,
+        // Light upper edge and warmer, darker lower edge form a true bevel.
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xFFFFFFFF),
+            Color(0xFFFFFBF3),
+            Color(0xFFD9C9B3),
+          ],
+          stops: [0.0, 0.48, 1.0],
         ),
-        BoxShadow(
-          color: Color(0x358D7C65),
-          offset: Offset(5, 6),
-          blurRadius: 14,
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0xE6FFFFFF),
+            offset: Offset(-4, -4),
+            blurRadius: 12,
+          ),
+          BoxShadow(
+            color: Color(0x365D4B37),
+            offset: Offset(4, 7),
+            blurRadius: 10,
+            spreadRadius: -2,
+          ),
+          BoxShadow(
+            color: Color(0x265D4B37),
+            offset: Offset(0, 15),
+            blurRadius: 24,
+            spreadRadius: -5,
+          ),
+        ],
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(1.5),
+        child: DecoratedBox(
+          decoration: BoxDecoration(
+            borderRadius: innerRadius,
+            gradient: const LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFFFFFBF4),
+                Color(0xFFF7F0E4),
+                Color(0xFFEDE1D0),
+              ],
+              stops: [0.0, 0.57, 1.0],
+            ),
+            border: Border.all(
+              color: const Color(0x9EFFFFFF),
+              width: 0.7,
+            ),
+          ),
+          child: Material(
+            type: MaterialType.transparency,
+            child: Padding(padding: padding, child: child),
+          ),
         ),
-      ],
-    ),
-    child: Material(type: MaterialType.transparency, child: child),
-  );
+      ),
+    );
+  }
 }
 
 class NeumorphicFeatureTile extends StatefulWidget {
@@ -71,9 +121,9 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
 
   @override
   Widget build(BuildContext context) => AnimatedScale(
-    scale: _pressed ? 0.975 : 1,
+    scale: _pressed ? 0.985 : 1,
     duration: Duration(
-      milliseconds: MediaQuery.disableAnimationsOf(context) ? 0 : 115,
+      milliseconds: MediaQuery.disableAnimationsOf(context) ? 0 : 135,
     ),
     curve: Curves.easeOutCubic,
     child: NeumorphicSurface(

@@ -1,7 +1,7 @@
 name: Bayna platform verification and development builds
 on:
   push:
-    branches: [codex/bayna-platform]
+    branches: [codex/bayna-platform, codex/bayna-matte-3d-depth-v1]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -46,6 +46,15 @@ jobs:
         run: flutter analyze --no-pub
       - name: Run the complete Flutter suite with packaged assets
         run: flutter test --no-pub --reporter expanded
+      - name: Capture representative matte 3D screens (Flutter tester, not Android)
+        run: bash scripts/run_visual_acceptance.sh -- --name 'visual ru-390 (home|courses|progress|settings)'
+      - name: Preserve rendered screens for visual review
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: matte-3d-flutter-tester-preview
+          path: docs/screenshots/flutter-tester/
+          if-no-files-found: error
+          retention-days: 7
   backend:
     runs-on: ubuntu-22.04
     timeout-minutes: 20
