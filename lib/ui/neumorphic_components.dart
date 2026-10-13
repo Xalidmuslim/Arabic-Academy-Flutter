@@ -31,7 +31,7 @@ class NeumorphicSurface extends StatelessWidget {
   Widget build(BuildContext context) {
     final outerRadius = BorderRadius.circular(radius);
     final innerRadius = BorderRadius.circular(
-      (radius - 1.5).clamp(0.0, double.infinity),
+      (radius - 1.5).clamp(0.0, double.infinity).toDouble(),
     );
     return DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
