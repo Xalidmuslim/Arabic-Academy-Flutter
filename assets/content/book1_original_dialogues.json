@@ -27,7 +27,8 @@
       "title_ar": "السَّكَنُ",
       "access_default": "free",
       "pdf_page": 76,
-      "unit_order": 3
+      "unit_order": 3,
+      "illustration_asset": "assets/artwork/lesson_generated/u3_housing.webp"
     },
     {
       "id": "u4",
@@ -71,7 +72,8 @@
       "title_ar": "الْعَمَلُ",
       "access_default": "free",
       "pdf_page": 210,
-      "unit_order": 8
+      "unit_order": 8,
+      "illustration_asset": "assets/artwork/lesson_generated/u8_work.webp"
     }
   ],
   "lessons": [
