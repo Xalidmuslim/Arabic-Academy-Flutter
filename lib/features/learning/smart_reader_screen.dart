@@ -88,7 +88,9 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
       },
       onCompleted: () {
         if (!mounted || generation != _playGeneration ||
-            lineIndex == null) return;
+            lineIndex == null) {
+          return;
+        }
         if (_continuous && _activeLine == lineIndex &&
             lineIndex + 1 < _lines.length) {
           _readLine(lineIndex + 1);
@@ -166,10 +168,12 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
       _playGeneration++;
       await ArabicSpeech.stop();
       await _audioLibrary.stop();
-      if (mounted) setState(() {
-        _continuous = false;
-        _activeToken = null;
-      });
+      if (mounted) {
+        setState(() {
+          _continuous = false;
+          _activeToken = null;
+        });
+      }
       return;
     }
     if (_lines.isEmpty) return;
