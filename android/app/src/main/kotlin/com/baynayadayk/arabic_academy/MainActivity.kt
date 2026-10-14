@@ -5,6 +5,8 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Rect
 import android.os.Build
+import android.Manifest
+import android.content.pm.PackageManager
 import android.graphics.pdf.PdfRenderer
 import android.os.ParcelFileDescriptor
 import io.flutter.embedding.android.FlutterActivity
@@ -23,6 +25,25 @@ class MainActivity : FlutterActivity() {
     private val readerExecutor = Executors.newSingleThreadExecutor()
     private var descriptor: ParcelFileDescriptor? = null
     private var renderer: PdfRenderer? = null
+    private var reminderPermissionResult: MethodChannel.Result? = null
+    private val reminderPermissionRequest = 9127
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == reminderPermissionRequest) {
+            val result = reminderPermissionResult
+            reminderPermissionResult = null
+            result?.success(
+                grantResults.isNotEmpty() &&
+                    grantResults[0] == PackageManager.PERMISSION_GRANTED
+            )
+        }
+    }
+
 
     private fun closeReader() {
         renderer?.close()
@@ -33,6 +54,41 @@ class MainActivity : FlutterActivity() {
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger,
+            "bayna.study_reminders").setMethodCallHandler { call, result ->
+            try {
+                when (call.method) {
+                    "requestPermission" -> {
+                        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU ||
+                            checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS)
+                                == PackageManager.PERMISSION_GRANTED) {
+                            result.success(true)
+                        } else if (reminderPermissionResult != null) {
+                            result.error("BUSY", "Permission request pending", null)
+                        } else {
+                            reminderPermissionResult = result
+                            requestPermissions(
+                                arrayOf(Manifest.permission.POST_NOTIFICATIONS),
+                                reminderPermissionRequest
+                            )
+                        }
+                    }
+                    "schedule" -> {
+                        val dates = call.argument<List<Long>>("instants")
+                            ?: throw IllegalArgumentException("Missing schedule")
+                        StudyReminderScheduler.schedule(this, dates)
+                        result.success(true)
+                    }
+                    "cancel" -> {
+                        StudyReminderScheduler.cancel(this)
+                        result.success(true)
+                    }
+                    else -> result.notImplemented()
+                }
+            } catch (error: Exception) {
+                result.error("STUDY_REMINDER_ERROR", error.message, null)
+            }
+        }
         // Android limits system-gesture exclusions to a small edge area.
         // Exclude only the right-hand center of the PDF viewport, not the
         // full gesture edge or global Android navigation.
