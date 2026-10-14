@@ -16,9 +16,16 @@ import '../integrations/purchases_screen.dart';
 import 'notification_preferences.dart';
 
 class SettingsScreen extends StatelessWidget {
-  const SettingsScreen({super.key, required this.state, required this.backend});
+  const SettingsScreen({
+    super.key,
+    required this.state,
+    required this.backend,
+    this.onDemoRoleChanged,
+  });
   final AcademyState state;
   final BackendService backend;
+  /// Local demo only; real teacher permissions are enforced on the server.
+  final Future<bool> Function()? onDemoRoleChanged;
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: Text(tr(context, 'Настройки'))),
@@ -236,6 +243,42 @@ class SettingsScreen extends StatelessWidget {
               ),
             ),
           ),
+          if (!backend.isAuthenticated && onDemoRoleChanged != null)
+            ExpansionTile(
+              key: const ValueKey('demo-tools'),
+              initiallyExpanded: false,
+              tilePadding: EdgeInsets.zero,
+              childrenPadding: const EdgeInsets.only(bottom: 6),
+              title: const Text(
+                'Дополнительные возможности',
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
+              ),
+              children: [
+                Panel(
+                  padding: EdgeInsets.zero,
+                  child: ListTile(
+                    key: const ValueKey('demo-role-in-settings'),
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 12),
+                    dense: true,
+                    leading: const Icon(Icons.science_outlined,
+                        color: DesignTokens.deepOlive),
+                    title: const Text('Выбрать демо-кабинет'),
+                    subtitle: const Text(
+                      'Локальная демонстрация. Не предоставляет прав '
+                      'учительницы в реальной школе.',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                    trailing: const Icon(Icons.chevron_right),
+                    onTap: () async {
+                      final changed = await onDemoRoleChanged!();
+                      if (changed && context.mounted) {
+                        Navigator.of(context).pop();
+                      }
+                    },
+                  ),
+                ),
+              ],
+            ),
           if (state.storageWarnings.isNotEmpty) ...[
             _section('Восстановление данных'),
             ...state.storageWarnings.map(
