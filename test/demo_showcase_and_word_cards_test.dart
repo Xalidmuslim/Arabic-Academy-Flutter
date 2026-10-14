@@ -16,7 +16,7 @@ void main() {
     final school = DemoSchoolStore(prefs);
     addTearDown(school.dispose);
     expect(school.students.length, 9);
-    expect(school.skillAssessmentsFor('s1').length, 7);
+    expect(school.skillAssessments, isEmpty);
     final original = school.submissions.first['grade'];
 
     await school.populateShowcase();
