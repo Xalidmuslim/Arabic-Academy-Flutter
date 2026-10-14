@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/practice_generator.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'practice_center_screen.dart';
