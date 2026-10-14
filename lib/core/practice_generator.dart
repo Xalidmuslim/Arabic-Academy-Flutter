@@ -1,5 +1,3 @@
-import 'dart:math' as math;
-
 import 'academy_state.dart';
 import 'vocabulary_practice.dart';
 import '../features/exercises/arabic_normalization.dart';
@@ -65,6 +63,7 @@ abstract final class PracticeGenerator {
     AcademyState state,
     PracticeMode mode, {
     String? lessonId,
+    String? moduleId,
     int limit = 12,
   }) {
     if (limit <= 0) return [];
@@ -77,7 +76,7 @@ abstract final class PracticeGenerator {
         PracticeMode.dialogue,
         PracticeMode.dictation,
       ]) {
-        sequence.addAll(build(state, kind, lessonId: lessonId, limit: 5));
+        sequence.addAll(build(state, kind, lessonId: lessonId, moduleId: moduleId, limit: 5));
       }
       // Interleave question types instead of forcing a block of each kind.
       final grouped = <PracticeMode, List<PracticeQuestion>>{};
@@ -113,15 +112,19 @@ abstract final class PracticeGenerator {
         PracticeMode.dictation,
         PracticeMode.dialogue,
       ]) {
-        source.addAll(build(state, kind, lessonId: lessonId, limit: 300));
+        source.addAll(build(state, kind, lessonId: lessonId, moduleId: moduleId, limit: 300));
       }
       return source.where((q) => failed.contains(q.id)).take(limit).toList();
     }
 
-    final catalog = _lessons(state, lessonId);
+    final catalog = _lessons(state, lessonId)
+        .where((lesson) => moduleId == null || lesson['module_id'] == moduleId)
+        .toList();
     final results = <PracticeQuestion>[];
     if (mode == PracticeMode.quiz || mode == PracticeMode.illustrations) {
-      final words = VocabularyPractice.words(state, lessonId: lessonId);
+      final allowedIds = catalog.map((lesson) => lesson['id']).toSet();
+      final words = VocabularyPractice.words(state, lessonId: lessonId)
+          .where((word) => allowedIds.contains(word.lessonId)).toList();
       final terms = words.where((word) =>
           mode != PracticeMode.illustrations ||
           IllustratedTerm.hasIllustration(word.ar)).toList();
@@ -247,7 +250,8 @@ abstract final class IllustratedTerm {
     'مستشفى': 'hospital', 'كوب': 'cup', 'مطبخ': 'kitchen',
   };
   static String? concept(String arabic) {
-    final folded = ArabicNormalization.forSearch(arabic);
+    final folded = ArabicNormalization.forGrading(
+        arabic, ignoreDiacritics: true).replaceAll('ـ', '').trim();
     return concepts[folded];
   }
   static bool hasIllustration(String arabic) => concept(arabic) != null;
