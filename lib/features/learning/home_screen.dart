@@ -53,6 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
   late final LearningSync _sync = LearningSync(_backend);
   Timer? _syncTimer;
   int _tab = 0;
+  final List<int> _tabHistory = [];
   AcademyState get state => _accountState ?? widget.state;
   @override
   void initState() {
@@ -113,6 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _role = _accountId == null ? null : _backend.loadRole();
       _demoTeacher = false;
       _tab = 0;
+      _tabHistory.clear();
     }
     setState(() {});
   }
@@ -120,11 +122,13 @@ class _HomeScreenState extends State<HomeScreen> {
   void _onNavigationChanged() {
     if (!mounted) return;
     final next = widget.navigationTab?.value ?? 0;
-    if (_tab != next) setState(() => _tab = next);
+    _setTab(next);
   }
 
-  void _setTab(int tab) {
-    if (_tab != tab) setState(() => _tab = tab);
+  void _setTab(int tab, {bool remember = true}) {
+    if (tab < 0 || tab > 3 || tab == _tab) return;
+    if (remember) _tabHistory.add(_tab);
+    setState(() => _tab = tab);
     if (widget.navigationTab != null && widget.navigationTab!.value != tab) {
       widget.navigationTab!.value = tab;
     }
@@ -198,6 +202,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (!mounted) return false;
     setState(() {
       _demoTeacher = selected;
+      _tabHistory.clear();
       _tab = 0;
     });
     widget.navigationTab?.value = 0;
@@ -219,8 +224,12 @@ class _HomeScreenState extends State<HomeScreen> {
   // On Home, ask for explicit confirmation instead of exiting unexpectedly.
   void _handleRootBack(bool didPop, Object? result) {
     if (didPop || !mounted) return;
+    if (_tabHistory.isNotEmpty) {
+      _setTab(_tabHistory.removeLast(), remember: false);
+      return;
+    }
     if (_tab != 0) {
-      _setTab(0);
+      _setTab(0, remember: false);
       return;
     }
     showDialog<void>(
