@@ -132,7 +132,7 @@ class TeacherToolsScreen extends StatelessWidget {
             crossAxisCount: narrow ? 1 : 2,
             crossAxisSpacing: 12,
             mainAxisSpacing: 12,
-            childAspectRatio: narrow ? 3.3 : 1.45,
+            childAspectRatio: narrow ? 2.7 : 1.12,
           ),
           itemBuilder: (context, index) {
             final tile = tiles[index];
