@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/academy_state.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
+import '../../ui/dialogue_scene_illustration.dart';
 import 'smart_reader_screen.dart';
 import 'dialogue_journey_screen.dart';
 
@@ -42,6 +43,12 @@ class SituationsScreen extends StatelessWidget {
                   children: [
                     Text(lesson['title']?.toString() ?? 'Диалог',
                       style: Theme.of(context).textTheme.titleMedium),
+                    if (DialogueSceneIllustration.sceneFor(
+                        lesson['title']?.toString() ?? '') != null) ...[
+                      const SizedBox(height: 8),
+                      DialogueSceneIllustration(
+                        setting: lesson['title']?.toString() ?? ''),
+                    ],
                     const SizedBox(height: 6),
                     Text(
                       '${(lesson['dialogue'] as List).length} реплик · '
