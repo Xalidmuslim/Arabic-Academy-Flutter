@@ -419,7 +419,7 @@ class _LessonScreenState extends State<LessonScreen>
       ] else if (_stage == 2) ...[
         if (StudyArtAsset.valid(widget.lesson['dialogue_illustration_asset']) case final imagePath?) ...[
           Center(child: FittedStudyArtwork(
-            image: AssetImage(imagePath), size: 190,
+            image: AssetImage(imagePath), width: 295, height: 166,
           )),
           const SizedBox(height: 12),
         ],
