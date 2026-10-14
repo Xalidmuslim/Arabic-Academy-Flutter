@@ -31,9 +31,13 @@ abstract final class LearningInsights {
     final id = attempt['exercise_id']?.toString() ?? '';
     if (id.startsWith('practice:')) {
       if (id.startsWith('practice:quiz:') ||
-          id.startsWith('practice:illustrations:')) return 'words';
+          id.startsWith('practice:illustrations:')) {
+        return 'words';
+      }
       if (id.startsWith('practice:missingWord:') ||
-          id.startsWith('practice:sentence:')) return 'grammar';
+          id.startsWith('practice:sentence:')) {
+        return 'grammar';
+      }
       if (id.startsWith('practice:dictation:')) return 'listening';
       if (id.startsWith('practice:dialogue:')) return 'dialogue';
       if (id.startsWith('practice:exam:')) return null;
