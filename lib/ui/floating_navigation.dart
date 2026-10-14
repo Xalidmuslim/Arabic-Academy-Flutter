@@ -19,7 +19,8 @@ class FloatingStudyNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final labels = teacherMode
-        ? <String>['Обзор', 'Группы', 'Работы', 'Меню']
+        ? <String>[tr(context, 'Обзор'), tr(context, 'Группы'),
+            tr(context, 'Работы'), tr(context, 'Меню')]
         : <String>[
             tr(context, 'Сегодня'),
             tr(context, 'Учебник'),

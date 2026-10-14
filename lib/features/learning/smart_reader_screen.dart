@@ -269,9 +269,24 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                   refresh(() {});
                 },
               ),
+              ExpansionTile(
+                title: const Text('Записи носителя (необязательно)'),
+                children: [
+                  for (var i = 0; i < _lines.length; i++)
+                    ListTile(
+                      dense: true,
+                      title: Text('Запись для реплики ${i + 1}'),
+                      trailing: const Icon(Icons.audio_file_outlined),
+                      onTap: () {
+                        Navigator.pop(sheet);
+                        _importAudio(i);
+                      },
+                    ),
+                ],
+              ),
               const SizedBox(height: 8),
               const Text('Для реплик можно импортировать запись носителя '
-                'кнопкой рядом с фразой. Если записи нет, используется '
+                'в настройках чтения. Если записи нет, используется '
                 'системный синтезатор. Подсветка отдельного слова доступна '
                 'только когда движок передаёт точные временные метки.',
                 style: TextStyle(
@@ -337,12 +352,6 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                           ? FontWeight.w800 : FontWeight.w500,
                         color: DesignTokens.deepOlive)),
                     const Spacer(),
-                    IconButton(
-                      key: ValueKey('reader-import-audio-$i'),
-                      tooltip: 'Импортировать запись носителя для этой реплики',
-                      onPressed: () => _importAudio(i),
-                      icon: const Icon(Icons.library_music_outlined),
-                    ),
                     IconButton(
                       key: ValueKey('reader-audio-$i'),
                       tooltip: 'Повторить реплику (запись или TTS)',
