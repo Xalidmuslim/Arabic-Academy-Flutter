@@ -7,6 +7,8 @@ import '../../ui/design_tokens.dart';
 import 'demo_school_store.dart';
 import 'demo_student_screen.dart' show DemoLiveRoomScreen;
 import 'demo_voice_homework.dart';
+import 'student_diagnostics_panel.dart';
+import 'student_diagnostics.dart';
 import 'teacher_dashboard.dart';
 import 'teacher_editor.dart';
 
@@ -106,6 +108,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     String? pupil = studentId;
     DateTime? due;
     var addVoice = false;
+    var selectedSkill = 'general';
     final result = await showDialog<bool>(
       context: context,
       builder: (ctx) => StatefulBuilder(
@@ -163,6 +166,27 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                     ],
                     onChanged: (value) => change(() => pupil =
                         value == 'all' ? null : value),
+                  ),
+                  const SizedBox(height: 10),
+                  DropdownButtonFormField<String>(
+                    initialValue: selectedSkill, isExpanded: true,
+                    decoration: const InputDecoration(
+                      labelText: 'Какой навык тренируем'),
+                    items: [
+                      const DropdownMenuItem(
+                        value: 'general', child: Text('Общее домашнее задание')),
+                      for (final category
+                          in StudentLearningReport.skillNames.entries)
+                        DropdownMenuItem<String>(
+                          value: category.key,
+                          child: Text(category.value),
+                        ),
+                    ],
+                    onChanged: (value) {
+                      if (value != null) {
+                        change(() => selectedSkill = value);
+                      }
+                    },
                   ),
                   const SizedBox(height: 8),
                   OutlinedButton.icon(
@@ -224,7 +248,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
       await guardedAction(context, () => school.createAssignment(
         title: title.text, instructions: instructions.text,
         groupId: selectedGroup, studentId: pupil, due: due,
-        audioPath: audioPath,
+        audioPath: audioPath, skill: selectedSkill,
       ));
     }
   }
@@ -751,7 +775,13 @@ class _DemoGroupDetails extends StatelessWidget {
                     backgroundColor: DesignTokens.beige,
                     child: Icon(Icons.person_outline, color: DesignTokens.emerald)),
                   title: Text(pupil['name'] as String),
-                  subtitle: Text('${school.assignmentsForStudent(pupil['id'] as String).length} заданий'),
+                  subtitle: Text(() {
+                    final report = StudentLearningReport.build(
+                      school, learning, pupil['id'] as String);
+                    return '${report.submitted}/${report.assigned} сдано · '
+                      '${report.graded} проверено · '
+                      '${report.errors.length} ошибок сейчас';
+                  }()),
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () => Navigator.push(context,
                     MaterialPageRoute<void>(builder: (_) => DemoStudentDetails(
@@ -827,6 +857,12 @@ class DemoStudentDetails extends StatelessWidget {
                 label: const Text('Назначить индивидуальное задание'),
               ),
             ],
+            StudentDiagnosticsPanel(
+              key: ValueKey('student-diagnostics-$studentId'),
+              school: school,
+              learning: learning,
+              studentId: studentId,
+            ),
             const SectionTitle('Результаты уроков'),
             if (finished.isEmpty)
               const Text('Завершённых уроков пока нет.'),
