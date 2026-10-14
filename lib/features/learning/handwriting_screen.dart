@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/gestures.dart';
 
 import '../../core/academy_state.dart';
 import '../../ui/components.dart';
@@ -49,10 +50,41 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
   List<List<Offset>> _strokes = [];
   bool _saving = false;
   int _savedCount = 0;
+  int? _activePointer;
+
+  void _beginStroke(PointerDownEvent event, Size size) {
+    if (_activePointer != null || _saving) return;
+    _activePointer = event.pointer;
+    setState(() {
+      _strokes = [..._strokes, [_pointInBounds(event.localPosition, size)]];
+    });
+  }
+
+  void _continueStroke(PointerMoveEvent event, Size size) {
+    if (_activePointer != event.pointer || _strokes.isEmpty) return;
+    final point = _pointInBounds(event.localPosition, size);
+    setState(() {
+      _strokes = [
+        ..._strokes.take(_strokes.length - 1),
+        [..._strokes.last, point],
+      ];
+    });
+  }
+
+  void _finishStroke(int pointer) {
+    if (_activePointer != pointer) return;
+    _activePointer = null;
+  }
+
+  Offset _pointInBounds(Offset point, Size size) => Offset(
+    point.dx.clamp(0.0, size.width),
+    point.dy.clamp(0.0, size.height),
+  );
 
   void _choose(String value) => setState(() {
     _letter = value;
     _strokes = [];
+    _activePointer = null;
   });
 
   Future<void> _save() async {
@@ -96,8 +128,9 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
       padding: const EdgeInsets.fromLTRB(18, 14, 18, 155),
       children: [
         const Text('Выберите букву и обведите светлый образец пальцем. '
-          'Приложение сохраняет факт тренировки, но не оценивает '
-          'правильность почерка автоматически.',
+          'Внутри поля жесты отдаются рисованию, а не прокрутке. '
+          'Системный свайп «Назад» работает у краёв телефона. '
+          'Приложение не оценивает почерк автоматически.',
           style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
         const SizedBox(height: 12),
         SizedBox(
@@ -124,31 +157,45 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
         Text('Буква: $_letter', textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.titleLarge),
         const SizedBox(height: 10),
-        Container(
-          clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(
-            color: DesignTokens.cardSurface,
-            borderRadius: BorderRadius.circular(24),
-            border: Border.all(color: DesignTokens.softOutline),
-          ),
-          height: 285,
-          child: LayoutBuilder(builder: (context, constraints) =>
-            GestureDetector(
-              key: const ValueKey('handwriting-canvas'),
-              behavior: HitTestBehavior.opaque,
-              onPanStart: (details) => setState(() {
-                _strokes.add([details.localPosition]);
-              }),
-              onPanUpdate: (details) => setState(() {
-                if (_strokes.isNotEmpty) {
-                  _strokes.last.add(details.localPosition);
-                }
-              }),
-              child: CustomPaint(
-                size: Size(constraints.maxWidth, 285),
-                painter: _TracePainter(_letter, _strokes),
-              ),
+        Padding(
+          // Avoid Android system-back gesture zones at the left/right edges.
+          padding: const EdgeInsets.symmetric(horizontal: 23),
+          child: Container(
+            clipBehavior: Clip.antiAlias,
+            decoration: BoxDecoration(
+              color: DesignTokens.cardSurface,
+              borderRadius: BorderRadius.circular(24),
+              border: Border.all(color: DesignTokens.softOutline),
             ),
+            height: 285,
+            child: LayoutBuilder(builder: (context, constraints) {
+              final size = Size(constraints.maxWidth, 285);
+              return RawGestureDetector(
+                // Eagerly claim strokes before the ancestor ListView's
+                // VerticalDragGestureRecognizer can scroll the page.
+                gestures: {
+                  EagerGestureRecognizer:
+                      GestureRecognizerFactoryWithHandlers<
+                          EagerGestureRecognizer>(
+                    () => EagerGestureRecognizer(),
+                    (instance) {},
+                  ),
+                },
+                behavior: HitTestBehavior.opaque,
+                child: Listener(
+                  key: const ValueKey('handwriting-canvas'),
+                  behavior: HitTestBehavior.opaque,
+                  onPointerDown: (event) => _beginStroke(event, size),
+                  onPointerMove: (event) => _continueStroke(event, size),
+                  onPointerUp: (event) => _finishStroke(event.pointer),
+                  onPointerCancel: (event) => _finishStroke(event.pointer),
+                  child: CustomPaint(
+                    size: size,
+                    painter: _TracePainter(_letter, _strokes),
+                  ),
+                ),
+              );
+            }),
           ),
         ),
         const SizedBox(height: 10),
@@ -243,5 +290,6 @@ class _TracePainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(covariant _TracePainter old) => true;
+  bool shouldRepaint(covariant _TracePainter old) =>
+      old.letter != letter || !identical(old.strokes, strokes);
 }
