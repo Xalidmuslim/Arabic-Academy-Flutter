@@ -6,6 +6,7 @@ import '../../core/speech.dart';
 import '../../core/vocabulary_key.dart';
 import '../../ui/components.dart';
 import '../exercises/exercises.dart';
+import 'vocabulary_practice_screen.dart';
 
 typedef OpenLibraryLesson =
     void Function(BuildContext context, Map<String, dynamic> lesson);
@@ -279,6 +280,20 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                     ),
                     const SizedBox(height: 12),
                     FilledButton.icon(
+                      key: const ValueKey('vocabulary-daily-trainer'),
+                      onPressed: words.isEmpty
+                          ? null
+                          : () => Navigator.of(context).push(
+                              MaterialPageRoute<void>(
+                                builder: (_) => VocabularyPracticeScreen(
+                                    state: state, lessonId: widget.lessonId),
+                              ),
+                            ),
+                      icon: const Icon(Icons.psychology_alt_outlined),
+                      label: const Text('Повторение сегодня'),
+                    ),
+                    const SizedBox(height: 8),
+                    OutlinedButton.icon(
                       onPressed: visible.isEmpty
                           ? null
                           : () => Navigator.of(context).push(
