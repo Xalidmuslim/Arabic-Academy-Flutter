@@ -324,7 +324,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                   );
                 },
               ),
-            const SliverToBoxAdapter(child: SizedBox(height: 24)),
+            const SliverToBoxAdapter(child: SizedBox(height: 142))
           ],
         ),
       );
@@ -820,7 +820,7 @@ class _TopicDetail extends StatelessWidget {
                 },
               ),
             ],
-            const SliverToBoxAdapter(child: SizedBox(height: 24)),
+            const SliverToBoxAdapter(child: SizedBox(height: 142))
           ],
         ),
       ),
@@ -1149,7 +1149,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 ),
               ),
             ],
-            const SliverToBoxAdapter(child: SizedBox(height: 18)),
+            const SliverToBoxAdapter(child: SizedBox(height: 142))
           ],
         ),
       );
