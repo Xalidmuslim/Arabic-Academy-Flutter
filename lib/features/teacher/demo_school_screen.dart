@@ -390,6 +390,8 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                 groupId: group['id'] as String,
                 addStudent: () => _addStudent(group['id'] as String),
                 newAssignment: () => _createAssignment(groupId: group['id'] as String),
+                assignStudent: (studentId) => _createAssignment(
+                    groupId: group['id'] as String, studentId: studentId),
               )),
             ),
           ),
@@ -578,12 +580,14 @@ class _DemoGroupDetails extends StatelessWidget {
   const _DemoGroupDetails({
     required this.school, required this.learning, required this.groupId,
     required this.addStudent, required this.newAssignment,
+    required this.assignStudent,
   });
   final DemoSchoolStore school;
   final AcademyState learning;
   final String groupId;
   final VoidCallback addStudent;
   final VoidCallback newAssignment;
+  final ValueChanged<String> assignStudent;
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -617,6 +621,7 @@ class _DemoGroupDetails extends StatelessWidget {
                     MaterialPageRoute<void>(builder: (_) => DemoStudentDetails(
                       school: school, learning: learning,
                       studentId: pupil['id'] as String,
+                      onAssign: () => assignStudent(pupil['id'] as String),
                     ))),
                 ),
               ),
@@ -631,10 +636,12 @@ class DemoStudentDetails extends StatelessWidget {
   const DemoStudentDetails({
     super.key,
     required this.school, required this.learning, required this.studentId,
+    this.onAssign,
   });
   final DemoSchoolStore school;
   final AcademyState learning;
   final String studentId;
+  final VoidCallback? onAssign;
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -676,6 +683,14 @@ class DemoStudentDetails extends StatelessWidget {
                   style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
               ],
             )),
+            if (onAssign != null) ...[
+              const SizedBox(height: 12),
+              FilledButton.icon(
+                onPressed: onAssign,
+                icon: const Icon(Icons.assignment_ind_outlined),
+                label: const Text('Назначить индивидуальное задание'),
+              ),
+            ],
             const SectionTitle('Результаты уроков'),
             if (finished.isEmpty)
               const Text('Завершённых уроков пока нет.'),
