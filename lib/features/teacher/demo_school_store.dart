@@ -130,7 +130,7 @@ class DemoSchoolStore extends ChangeNotifier {
       final groupId = (group as Map)['id']?.toString() ?? '';
       if (groupId.isEmpty) continue;
       for (var index = 0; index < 2; index++) {
-        final id = 'showcase_task_\${groupId}_$index';
+        final id = 'showcase_task_${groupId}_$index';
         if (assignments.any((a) => (a as Map)['id'] == id)) continue;
         assignments.add({
           'id': id,
@@ -165,7 +165,7 @@ class DemoSchoolStore extends ChangeNotifier {
       if (studentId.isEmpty) continue;
       for (var k = 0; k < assessedSkills.length; k++) {
         final skill = assessedSkills[k];
-        final id = 'showcase_assessment_\${studentId}_$skill';
+        final id = 'showcase_assessment_${studentId}_$skill';
         if (assessments.any((a) => (a as Map)['id'] == id)) continue;
         final score = (60 + (i * 7 + k * 11) % 38).clamp(0, 100);
         assessments.add({
@@ -198,8 +198,8 @@ class DemoSchoolStore extends ChangeNotifier {
         });
       }
       for (var exercise = 0; exercise < 2; exercise++) {
-        final taskId = 'showcase_task_\${groupId}_$exercise';
-        final submissionId = 'showcase_submission_\${studentId}_$exercise';
+        final taskId = 'showcase_task_${groupId}_$exercise';
+        final submissionId = 'showcase_submission_${studentId}_$exercise';
         if (submissions.any((s) => (s as Map)['id'] == submissionId)) continue;
         final phase = (i + exercise) % 5;
         if (phase == 4) continue; // One unsubmitted example.
