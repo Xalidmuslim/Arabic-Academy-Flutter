@@ -406,8 +406,12 @@ class _LessonScreenState extends State<LessonScreen>
       ] else if (_stage == 2) ...[
         if (DialogueSceneIllustration.sceneFor(
             widget.lesson['title']?.toString() ?? '') != null) ...[
-          DialogueSceneIllustration(
-            setting: widget.lesson['title']?.toString() ?? ''),
+          Center(child: SizedBox(
+              width: 190,
+              child: DialogueSceneIllustration(
+                setting: widget.lesson['title']?.toString() ?? '',
+              ),
+            )),
           const SizedBox(height: 12),
         ],
         Row(
