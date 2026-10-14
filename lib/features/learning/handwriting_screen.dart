@@ -237,6 +237,5 @@ class _TracePainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(covariant _TracePainter old) =>
-      old.letter != letter || old.strokes != strokes;
+  bool shouldRepaint(covariant _TracePainter old) => true;
 }
