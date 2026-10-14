@@ -97,11 +97,21 @@ abstract final class PracticeGenerator {
     }
 
     if (mode == PracticeMode.mistakes) {
-      final failed = state.attempts
-          .where((row) => row['status'] == 'incorrect')
-          .map((row) => row['exercise_id']?.toString() ?? '')
-          .where((id) => id.startsWith('practice:'))
-          .toSet();
+      // A corrected exercise stops being a current mistake. Historical
+      // attempts remain visible in progress reports, without an endless
+      // error queue for questions the learner can now answer.
+      final latest = <String, String>{};
+      for (final attempt in state.attempts) {
+        final id = attempt['exercise_id']?.toString() ?? '';
+        if (!id.startsWith('practice:') ||
+            id.startsWith('practice:exam:')) {
+          continue;
+        }
+        latest[id] = attempt['status']?.toString() ?? '';
+      }
+      final failed = latest.entries
+          .where((entry) => entry.value == 'incorrect')
+          .map((entry) => entry.key).toSet();
       if (failed.isEmpty) return [];
       final source = <PracticeQuestion>[];
       for (final kind in [
