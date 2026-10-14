@@ -90,14 +90,23 @@ void main() {
     await school.addSkillAssessment(
       studentId: 's2', skill: 'pronunciation',
       score: 62, note: 'Сокращает долгие гласные.',
+      criteria: {
+        'consonants': 81,
+        'vowels': 43,
+        'endings': 62,
+        'fluency': 70,
+      },
     );
     await school.addSkillAssessment(
       studentId: 's2', skill: 'pronunciation',
       score: 78, note: 'Стала лучше различать долгие звуки.',
+      criteria: {'vowels': 73, 'fluency': 80},
     );
     var report = StudentLearningReport.build(school, learning, 's2');
     expect(report.skill('pronunciation').attempts, 0);
     expect(report.skill('pronunciation').teacherAverage, 70);
+    expect(report.skill('pronunciation').pronunciationCriteria['vowels'], 58);
+    expect(report.skill('pronunciation').pronunciationCriteria['consonants'], 81);
     expect(report.skill('pronunciation').notes.first,
         contains('Стала лучше'));
     expect(report.skill('grammar').teacherAverage, isNull);
