@@ -58,8 +58,10 @@ class _StudyCalendarScreenState extends State<StudyCalendarScreen> {
         final granted = await LocalStudyReminders().schedule(plan);
         if (!granted) {
           plan = plan.copyWith(notificationsEnabled: false);
-          if (mounted) notice(context,
-            'Уведомления Android не разрешены. Расписание сохранится без них.');
+          if (mounted) {
+            notice(context,
+              'Уведомления Android не разрешены. Расписание сохранится без них.');
+          }
         }
       } else if (previous.notificationsEnabled) {
         await LocalStudyReminders().cancel();
@@ -177,8 +179,10 @@ class _StudyCalendarScreenState extends State<StudyCalendarScreen> {
                       child: Text('За 2 часа')),
                   ],
                   onChanged: (v) {
-                    if (v != null) setState(() => _plan =
-                        _plan.copyWith(notifyMinutesBefore: v));
+                    if (v != null) {
+                      setState(() => _plan =
+                          _plan.copyWith(notifyMinutesBefore: v));
+                    }
                   },
                 ),
               ],
