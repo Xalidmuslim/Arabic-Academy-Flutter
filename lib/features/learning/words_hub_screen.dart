@@ -91,9 +91,13 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
         for (final word in all) {
           if (search.isNotEmpty &&
               !word.ru.toLowerCase().contains(search) &&
-              !word.ar.toLowerCase().contains(search)) continue;
+              !word.ar.toLowerCase().contains(search)) {
+            continue;
+          }
           final key = '${word.ar}:${word.ru}'.toLowerCase();
-          if (seen.add(key)) shown.add(word);
+          if (seen.add(key)) {
+            shown.add(word);
+          }
         }
         final oneColumn = MediaQuery.sizeOf(context).width < 345 ||
             MediaQuery.textScalerOf(context).scale(1) > 1.45;
