@@ -93,24 +93,23 @@ class _PronunciationComparisonScreenState
         return;
       }
     }
-    await _do(() async {
-      // Failing Android TTS shutdown must not block phrase selection.
-      try {
-        await ArabicSpeech.stop();
-      } catch (_) {}
-      // An unused recorder has no audio to discard (or player to stop).
-      if (_recording.hasRecording) {
-        await _recording.delete();
-      }
-      if (!mounted) {
+    // Local phrase navigation must work without a TTS engine or microphone.
+    // Stop audio asynchronously; it must not hold the choice UI hostage.
+    unawaited(ArabicSpeech.stop().catchError((Object _) {}));
+    if (_recording.hasRecording) {
+      await _do(_recording.delete);
+      if (!mounted || _recording.hasRecording) {
         return;
       }
-      setState(() {
-        _activeIndex = index;
-        _lessonId = examples[index].id;
-        _phrase = examples[index].text;
-        _saved = false;
-      });
+    }
+    if (!mounted) {
+      return;
+    }
+    setState(() {
+      _activeIndex = index;
+      _lessonId = examples[index].id;
+      _phrase = examples[index].text;
+      _saved = false;
     });
   }
 
