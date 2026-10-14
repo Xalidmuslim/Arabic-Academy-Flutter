@@ -70,9 +70,20 @@ class ArabicSpeech {
     String? engine,
     String? voiceName,
     String? voiceLocale,
+    void Function(int start, int end, String word)? onProgress,
+    void Function()? onCompleted,
   }) async {
     if (text.trim().isEmpty) return;
     await _tts.stop();
+    // Android reports UTF-16 offsets for the currently spoken word.
+    // Handlers are replaced for every new utterance; old route callbacks
+    // cannot keep modifying the highlight after another screen speaks.
+    _tts.setProgressHandler((String spoken, int start, int end, String word) {
+      onProgress?.call(start, end, word);
+    });
+    _tts.setCompletionHandler(() {
+      onCompleted?.call();
+    });
     if (Platform.isAndroid && engine != null && engine.isNotEmpty) {
       await _tts.setEngine(engine);
     }
