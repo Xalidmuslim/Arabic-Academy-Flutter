@@ -28,6 +28,7 @@ import 'settings_screen.dart';
 import 'online_homework_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'practice_center_screen.dart';
+import 'study_calendar_screen.dart';
 import '../../core/practice_generator.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -536,6 +537,18 @@ class _HomeScreenState extends State<HomeScreen> {
                       appBar: AppBar(title: const Text('Практика')),
                       body: PracticeCenterScreen(state: state),
                     )),
+                  ),
+                ),
+                Panel(
+                  padding: EdgeInsets.zero,
+                  child: ListTile(
+                    key: const ValueKey('home-study-calendar'),
+                    leading: const Icon(Icons.calendar_month_outlined,
+                        color: DesignTokens.deepOlive, size: 32),
+                    title: const Text('Расписание и напоминания'),
+                    subtitle: const Text('Личные дни занятий, цель и уведомления Android'),
+                    trailing: const Icon(Icons.chevron_right),
+                    onTap: () => _open(StudyCalendarScreen(state: state)),
                   ),
                 ),
                 SectionTitle('Повторение сегодня'),
