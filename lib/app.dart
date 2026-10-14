@@ -23,6 +23,9 @@ class _AcademyAppState extends State<AcademyApp> {
   late final PurchaseService _purchases = PurchaseService(_backend);
   final _navigatorKey = GlobalKey<NavigatorState>();
   final _selectedTab = ValueNotifier<int>(0);
+  late final _teacherMode = ValueNotifier<bool>(
+    widget.state.prefs.getBool('demo_role_teacher') == true,
+  );
   final _showFloatingNav = ValueNotifier<bool>(true);
   late final _routeObserver = _FloatingNavRouteObserver((visible) {
     if (_showFloatingNav.value != visible) _showFloatingNav.value = visible;
@@ -64,6 +67,7 @@ class _AcademyAppState extends State<AcademyApp> {
     _backend.removeListener(_connectStore);
     _purchases.dispose();
     _selectedTab.dispose();
+    _teacherMode.dispose();
     _showFloatingNav.dispose();
     if (widget.backend == null) {
       _backend.dispose();
@@ -115,13 +119,18 @@ class _AcademyAppState extends State<AcademyApp> {
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                child: ValueListenableBuilder<int>(
-                                  valueListenable: _selectedTab,
-                                  builder: (context, selected, _) =>
-                                      FloatingStudyNavigation(
-                                        selectedIndex: selected,
-                                        onSelected: _selectTab,
-                                      ),
+                                child: ValueListenableBuilder<bool>(
+                                  valueListenable: _teacherMode,
+                                  builder: (context, isTeacher, _) =>
+                                      ValueListenableBuilder<int>(
+                                    valueListenable: _selectedTab,
+                                    builder: (context, selected, _) =>
+                                        FloatingStudyNavigation(
+                                          selectedIndex: selected,
+                                          onSelected: _selectTab,
+                                          teacherMode: isTeacher,
+                                        ),
+                                  ),
                                 ),
                               )
                             : const SizedBox.shrink(),
@@ -137,6 +146,7 @@ class _AcademyAppState extends State<AcademyApp> {
               state: widget.state,
               backend: _backend,
               navigationTab: _selectedTab,
+              teacherNavigationMode: _teacherMode,
               showEmbeddedNavigation: false,
             )
           : Builder(
@@ -152,6 +162,7 @@ class _AcademyAppState extends State<AcademyApp> {
                           state: widget.state,
                           backend: _backend,
                           navigationTab: _selectedTab,
+                          teacherNavigationMode: _teacherMode,
                           showEmbeddedNavigation: false,
                         ),
                       ),

@@ -9,25 +9,36 @@ class FloatingStudyNavigation extends StatelessWidget {
     super.key,
     required this.selectedIndex,
     required this.onSelected,
+    this.teacherMode = false,
   });
 
   final int selectedIndex;
   final ValueChanged<int> onSelected;
+  final bool teacherMode;
 
   @override
   Widget build(BuildContext context) {
-    final labels = [
-      tr(context, 'Главная'),
-      tr(context, 'Уроки'),
-      tr(context, 'Поиск'),
-      tr(context, 'Профиль'),
-    ];
-    final icons = <Widget>[
-      const ArtworkIcon('home', size: 26),
-      const Icon(Icons.menu_book_outlined, size: 26),
-      const Icon(Icons.search_outlined, size: 26),
-      const ArtworkIcon('profile', size: 26),
-    ];
+    final labels = teacherMode
+        ? <String>['Обзор', 'Группы', 'Работы', 'Меню']
+        : <String>[
+            tr(context, 'Главная'),
+            tr(context, 'Уроки'),
+            tr(context, 'Поиск'),
+            tr(context, 'Профиль'),
+          ];
+    final icons = teacherMode
+        ? <Widget>[
+            const Icon(Icons.dashboard_outlined, size: 26),
+            const Icon(Icons.groups_2_outlined, size: 26),
+            const Icon(Icons.fact_check_outlined, size: 26),
+            const Icon(Icons.grid_view_rounded, size: 26),
+          ]
+        : <Widget>[
+            const ArtworkIcon('home', size: 26),
+            const Icon(Icons.menu_book_outlined, size: 26),
+            const Icon(Icons.search_outlined, size: 26),
+            const ArtworkIcon('profile', size: 26),
+          ];
     return SafeArea(
       top: false,
       minimum: const EdgeInsets.only(bottom: 12),

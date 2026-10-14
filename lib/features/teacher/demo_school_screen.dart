@@ -11,6 +11,7 @@ import 'student_diagnostics_panel.dart';
 import 'student_diagnostics.dart';
 import 'teacher_dashboard.dart';
 import 'teacher_editor.dart';
+import 'teacher_word_card_studio_screen.dart';
 
 String _demoDate(Object? input) {
   final date = DateTime.tryParse(input?.toString() ?? '')?.toLocal();
@@ -35,20 +36,34 @@ class DemoSchoolScreen extends StatefulWidget {
     required this.school,
     required this.learning,
     required this.backend,
+    this.initialSection = 'groups',
+    this.compactEmbedded = false,
+    this.compactOverview = false,
   });
   final DemoSchoolStore school;
   final AcademyState learning;
   final BackendService backend;
+  final String initialSection;
+  final bool compactEmbedded;
+  final bool compactOverview;
 
   @override
   State<DemoSchoolScreen> createState() => _DemoSchoolScreenState();
 }
 
 class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
-  String section = 'groups';
+  late String section;
+  @override
+  void initState() {
+    super.initState();
+    section = widget.initialSection;
+  }
   DemoSchoolStore get school => widget.school;
   Future<void> _open(Widget page) => Navigator.push(
       context, MaterialPageRoute<void>(builder: (_) => page));
+
+  void _createWordCards() =>
+      _open(TeacherWordCardStudioScreen(state: widget.learning));
 
   Future<void> _addGroup() async {
     final controller = TextEditingController();
@@ -635,6 +650,28 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     builder: (context, _) => ListView(
       padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
       children: [
+        if (widget.compactEmbedded) ...[
+          Text(section == 'submissions' ? 'Работы учениц' :
+            section == 'groups' ? 'Группы и ученицы' :
+            section == 'reports' ? 'Отчёты и статистика' :
+            section == 'sessions' ? 'Прямые эфиры' : 'Уведомления',
+            style: Theme.of(context).textTheme.titleLarge),
+          const SizedBox(height: 10),
+          if (section == 'groups')
+            OutlinedButton.icon(
+              onPressed: _addGroup,
+              icon: const Icon(Icons.add),
+              label: const Text('Добавить группу'),
+            ),
+          if (section == 'submissions')
+            OutlinedButton.icon(
+              onPressed: () => _createAssignment(),
+              icon: const Icon(Icons.add_task_outlined),
+              label: const Text('Создать задание'),
+            ),
+          const SizedBox(height: 12),
+        ],
+        if (!widget.compactEmbedded) ...[
         Row(children: [
           Expanded(child: Text('Кабинет учительницы',
               style: Theme.of(context).textTheme.headlineSmall)),
@@ -649,6 +686,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                 case 'notice': _announce();
                 case 'group': _addGroup();
                 case 'editor': _open(TeacherEditor(state: widget.learning));
+                case 'wordcards': _createWordCards();
                 case 'materials': _open(Scaffold(
                     appBar: AppBar(title: const Text('Редактор учительницы')),
                     body: TeacherDashboard(
@@ -671,13 +709,31 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                 child: Text('Конструктор упражнений')),
               PopupMenuItem(value: 'materials',
                 child: Text('Мои учебные материалы')),
+              PopupMenuItem(value: 'wordcards',
+                child: Text('Карточки слов с изображениями')),
             ],
           ),
         ]),
         const SizedBox(height: 8),
-        const Text('ДЕМОРЕЖИМ · данные сохраняются только на этом устройстве. '
-            'Отправка другим телефонам отключена.',
+        const Text('ДЕМОРЕЖИМ · примерные данные и оценки вымышлены. '
+            'Отправка другим телефонам и выдача платных прав отключены.',
             style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
+        const SizedBox(height: 10),
+        Wrap(spacing: 8, runSpacing: 7, children: [
+          FilledButton.tonalIcon(
+            key: const ValueKey('teacher-word-card-studio'),
+            onPressed: _createWordCards,
+            icon: const Icon(Icons.collections_bookmark_outlined),
+            label: const Text('Карточки слов'),
+          ),
+          OutlinedButton.icon(
+            key: const ValueKey('teacher-showcase-seed'),
+            onPressed: school.readOnly ? null : () =>
+                guardedAction(context, school.populateShowcase),
+            icon: const Icon(Icons.auto_graph_outlined),
+            label: const Text('Заполнить демоданные'),
+          ),
+        ]),
         const SizedBox(height: 14),
         Row(children: [
           Expanded(child: _Metric(label: 'Группы', value: '${school.groups.length}')),
@@ -690,7 +746,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
         // Actions live in the plus-menu above: groups and learner statuses
         // should be visible immediately without scrolling beneath the nav.
 
-        SingleChildScrollView(
+        if (!widget.compactOverview) SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(children: [
             for (final tab in [
@@ -711,6 +767,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
           ]),
         ),
         const SizedBox(height: 14),
+        ],
         if (section == 'groups') _groups(),
         if (section == 'submissions') _submissions(),
         if (section == 'reports') _reports(),

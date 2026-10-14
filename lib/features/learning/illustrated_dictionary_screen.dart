@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
@@ -10,9 +12,11 @@ import '../../ui/design_tokens.dart';
 /// Each image cue is deliberately tied to a known concept; unsupported words
 /// remain in the regular dictionary and are never illustrated incorrectly.
 class SemanticWordIllustration extends StatelessWidget {
-  const SemanticWordIllustration({super.key, required this.arabic, this.size = 132});
+  const SemanticWordIllustration({super.key, required this.arabic,
+    this.size = 132, this.imagePath});
   final String arabic;
   final double size;
+  final String? imagePath;
 
   static const symbols = <String, IconData>{
     'book': Icons.menu_book_outlined, 'pen': Icons.edit_outlined,
@@ -36,6 +40,20 @@ class SemanticWordIllustration extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (imagePath != null && imagePath!.isNotEmpty) {
+      return ClipRRect(
+        borderRadius: BorderRadius.circular(20),
+        child: Image.file(
+          File(imagePath!), width: size, height: size,
+          fit: BoxFit.cover, cacheWidth: (size * 2).round(),
+          errorBuilder: (context, error, stack) => _semanticFallback(),
+        ),
+      );
+    }
+    return _semanticFallback();
+  }
+
+  Widget _semanticFallback() {
     final concept = IllustratedTerm.concept(arabic);
     return Semantics(
       label: 'Предметный рисунок: ${concept ?? 'нет рисунка'}',
@@ -88,7 +106,8 @@ class _IllustratedDictionaryScreenState extends State<IllustratedDictionaryScree
       animation: widget.state,
       builder: (context, _) {
         final all = VocabularyPractice.words(widget.state)
-            .where((word) => IllustratedTerm.hasIllustration(word.ar))
+            .where((word) => IllustratedTerm.hasIllustration(word.ar) ||
+                (word.imagePath?.isNotEmpty ?? false))
             .toList();
         final term = _search.text.toLowerCase().trim();
         final seen = <String>{};
@@ -101,8 +120,8 @@ class _IllustratedDictionaryScreenState extends State<IllustratedDictionaryScree
         return ListView(
           padding: const EdgeInsets.fromLTRB(18, 12, 18, 32),
           children: [
-            const Text('Предметные пиктограммы для слов с проверенным '
-              'значением. Для остальных слов используйте обычный словарь.',
+            const Text('Карточки с проверенными образами и рисунками учительницы. '
+              'Новые изображения добавляются в конструкторе карточек.',
               style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
             const SizedBox(height: 12),
             TextField(
@@ -143,7 +162,8 @@ class _IllustratedDictionaryScreenState extends State<IllustratedDictionaryScree
       Panel(child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          SemanticWordIllustration(arabic: word.ar, size: 110),
+          SemanticWordIllustration(arabic: word.ar, size: 110,
+            imagePath: word.imagePath),
           const SizedBox(height: 9),
           NaskhText(word.ar, size: 25, align: TextAlign.center,
               color: DesignTokens.emerald),

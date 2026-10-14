@@ -7,6 +7,7 @@ import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/premium_art.dart';
 import 'teacher_editor.dart';
+import 'teacher_word_card_studio_screen.dart';
 
 class TeacherDashboard extends StatelessWidget {
   const TeacherDashboard({
@@ -56,6 +57,15 @@ class TeacherDashboard extends StatelessWidget {
             context,
             MaterialPageRoute(builder: (_) => TeacherEditor(state: state)),
           ),
+        ),
+        const SizedBox(height: 10),
+        OutlinedButton.icon(
+          key: const ValueKey('teacher-local-word-cards'),
+          icon: const Icon(Icons.collections_bookmark_outlined),
+          label: const Text('Карточки слов и изображения'),
+          onPressed: () => Navigator.push(context,
+            MaterialPageRoute(builder: (_) =>
+              TeacherWordCardStudioScreen(state: state))),
         ),
         const SizedBox(height: 10),
         OutlinedButton.icon(
