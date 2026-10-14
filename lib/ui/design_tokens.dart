@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 abstract final class DesignTokens {
-  static const ivory = Color(0xFFF8F0E1);
+  // Warm base is deliberately darker than matte surfaces for visible elevation.
+  static const ivory = Color(0xFFF3EBDD);
+  static const cardSurface = Color(0xFFFBF7EF);
+  static const cardHighlight = Color(0xE6FFFFFF);
+  static const navSurface = Color(0xFFF9F3E9);
   static const beige = Color(0xFFE8D9C5);
   static const sand = Color(0xFFD4BEA5);
   static const sage = Color(0xFFA7A68D);
@@ -133,11 +137,11 @@ abstract final class DesignTokens {
     ),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
-      fillColor: const Color(0xFFFFFCF4),
+      fillColor: const Color(0xFFFCF8F1),
       contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
-        borderSide: const BorderSide(color: sand),
+        borderSide: const BorderSide(color: Color(0xFFE8DECF)),
       ),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
