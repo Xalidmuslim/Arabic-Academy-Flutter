@@ -137,8 +137,8 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
                   widget.title,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(
-                    color: NeumorphicPalette.ink,
+                  style: TextStyle(
+                    color: Theme.of(context).colorScheme.onSurface,
                     fontWeight: FontWeight.w800,
                     fontVariations: [FontVariation('wght', 800)],
                     fontSize: 14,
@@ -149,8 +149,8 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
                   widget.subtitle,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(
-                    color: NeumorphicPalette.secondary,
+                  style: TextStyle(
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                     fontSize: 10.5,
                     height: 1.18,
                   ),
@@ -190,7 +190,7 @@ class NeumorphicCourseHero extends StatelessWidget {
         children: [
           Row(
             children: [
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -207,7 +207,7 @@ class NeumorphicCourseHero extends StatelessWidget {
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
-                        color: NeumorphicPalette.ink,
+                        color: Theme.of(context).colorScheme.onSurface,
                         fontWeight: FontWeight.w800,
                         fontVariations: [FontVariation('wght', 800)],
                         fontSize: 17,
@@ -228,8 +228,8 @@ class NeumorphicCourseHero extends StatelessWidget {
                         value: value,
                         strokeWidth: 5,
                         strokeCap: StrokeCap.round,
-                        color: NeumorphicPalette.olive,
-                        backgroundColor: const Color(0xFFDDD1C0),
+                        color: Theme.of(context).colorScheme.primary,
+                        backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
                       ),
                     ),
                     Text(
@@ -238,7 +238,7 @@ class NeumorphicCourseHero extends StatelessWidget {
                         fontSize: 12,
                         fontWeight: FontWeight.w800,
                         fontVariations: [FontVariation('wght', 800)],
-                        color: NeumorphicPalette.ink,
+                        color: Theme.of(context).colorScheme.onSurface,
                       ),
                     ),
                   ],
@@ -249,8 +249,8 @@ class NeumorphicCourseHero extends StatelessWidget {
           const SizedBox(height: 9),
           Text(
             'Пройдено $completed из $total уроков',
-            style: const TextStyle(
-              color: NeumorphicPalette.secondary,
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
               fontSize: 11,
             ),
           ),
@@ -263,8 +263,8 @@ class NeumorphicCourseHero extends StatelessWidget {
                   child: LinearProgressIndicator(
                     value: value,
                     minHeight: 6,
-                    color: NeumorphicPalette.olive,
-                    backgroundColor: const Color(0xFFDDD1C0),
+                    color: Theme.of(context).colorScheme.primary,
+                    backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
                   ),
                 ),
               ),
@@ -274,8 +274,8 @@ class NeumorphicCourseHero extends StatelessWidget {
                 child: FilledButton(
                   onPressed: onContinue,
                   style: FilledButton.styleFrom(
-                    backgroundColor: NeumorphicPalette.olive,
-                    foregroundColor: Colors.white,
+                    backgroundColor: Theme.of(context).colorScheme.primary,
+                    foregroundColor: Theme.of(context).colorScheme.onPrimary,
                     padding: const EdgeInsets.symmetric(horizontal: 13),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(17),
