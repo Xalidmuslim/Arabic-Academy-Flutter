@@ -11,6 +11,7 @@ import '../../ui/design_tokens.dart';
 import 'pronunciation_comparison_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'words_hub_screen.dart';
+import 'illustrated_dictionary_screen.dart';
 import 'situations_screen.dart';
 import 'handwriting_screen.dart';
 
