@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/app_strings.dart';
 import '../../core/practice_generator.dart';
 import '../../core/speech.dart';
 import '../../core/vocabulary_practice.dart';
@@ -77,7 +78,7 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('Слова')),
+    appBar: AppBar(title: Text(tr(context, 'Слова'))),
     body: AnimatedBuilder(
       animation: widget.state,
       builder: (context, _) {
@@ -107,17 +108,17 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
             sliver: SliverToBoxAdapter(child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                const Text('Учу слово → вспоминаю → возвращаюсь к нему позже',
+                Text(tr(context, 'Учу слово → вспоминаю → возвращаюсь к нему позже'),
                   style: TextStyle(color: DesignTokens.secondary,
                     fontSize: 12)),
                 const SizedBox(height: 10),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: SegmentedButton<String>(
-                    segments: const [
-                      ButtonSegment(value: 'learn', label: Text('Изучаю')),
-                      ButtonSegment(value: 'test', label: Text('Проверяю')),
-                      ButtonSegment(value: 'review', label: Text('Повторяю')),
+                    segments: [
+                      ButtonSegment(value: 'learn', label: Text(tr(context, 'Изучаю'))),
+                      ButtonSegment(value: 'test', label: Text(tr(context, 'Проверяю'))),
+                      ButtonSegment(value: 'review', label: Text(tr(context, 'Повторяю'))),
                     ],
                     selected: {_phase},
                     onSelectionChanged: (next) =>
@@ -131,9 +132,9 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                     controller: _query,
                     onChanged: (_) => setState(() {}),
                     textInputAction: TextInputAction.search,
-                    decoration: const InputDecoration(
-                      prefixIcon: Icon(Icons.search),
-                      hintText: 'Найти арабское слово или перевод',
+                    decoration: InputDecoration(
+                      prefixIcon: const Icon(Icons.search),
+                      hintText: tr(context, 'Найти арабское слово или перевод'),
                     ),
                   )
                 else
@@ -158,8 +159,8 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                         key: const ValueKey('words-start-practice'),
                         onPressed: _practice,
                         icon: const Icon(Icons.play_arrow_rounded),
-                        label: Text(_phase == 'test'
-                            ? 'Проверить себя' : 'Начать повторение'),
+                        label: Text(tr(context, _phase == 'test'
+                            ? 'Проверить себя' : 'Начать повторение')),
                       ),
                     ],
                   )),
