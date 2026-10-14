@@ -31,6 +31,7 @@ class StudentDiagnosticsPanel extends StatelessWidget {
       skill: assessment.skill,
       score: assessment.score,
       note: assessment.note,
+      criteria: assessment.criteria,
     ));
   }
 
@@ -159,6 +160,26 @@ class StudentDiagnosticsPanel extends StatelessWidget {
                       child: Text('Ручной проверки ожидают: '
                         '${skill.pendingManual} работ.'),
                     ),
+                  if (skill.id == 'pronunciation' &&
+                      skill.pronunciationCriteria.isNotEmpty) ...[
+                    const SizedBox(height: 8),
+                    for (final part in skill.pronunciationCriteria.entries)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 6),
+                        child: Row(children: [
+                          Expanded(child: Text(
+                            StudentLearningReport
+                                  .pronunciationCriteriaLabels[part.key] ??
+                              part.key,
+                            style: const TextStyle(fontSize: 12),
+                          )),
+                          Text('${part.value.round()}/100',
+                            style: const TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: DesignTokens.deepOlive)),
+                        ]),
+                      ),
+                  ],
                   if (skill.id == 'pronunciation')
                     const Align(
                       alignment: Alignment.centerLeft,
@@ -303,10 +324,13 @@ class StudentDiagnosticsPanel extends StatelessWidget {
 }
 
 class _SkillAssessmentDraft {
-  const _SkillAssessmentDraft(this.skill, this.score, this.note);
+  const _SkillAssessmentDraft(
+    this.skill, this.score, this.note, this.criteria,
+  );
   final String skill;
   final int score;
   final String note;
+  final Map<String, int> criteria;
 }
 
 class _ManualSkillAssessmentDialog extends StatefulWidget {
@@ -321,12 +345,19 @@ class _ManualSkillAssessmentDialogState
   final _form = GlobalKey<FormState>();
   final _score = TextEditingController(text: '80');
   final _note = TextEditingController();
+  final _criteria = <String, TextEditingController>{
+    for (final key in StudentLearningReport.pronunciationCriteriaLabels.keys)
+      key: TextEditingController(),
+  };
   String _skill = 'pronunciation';
 
   @override
   void dispose() {
     _score.dispose();
     _note.dispose();
+    for (final field in _criteria.values) {
+      field.dispose();
+    }
     super.dispose();
   }
 
@@ -373,6 +404,36 @@ class _ManualSkillAssessmentDialogState
                       : null;
                 },
               ),
+              if (_skill == 'pronunciation') ...[
+                const SizedBox(height: 8),
+                const Text('Дополнительный разбор по параметрам '
+                  '(необязательно, 0–100)',
+                  style: TextStyle(fontSize: 12,
+                    color: DesignTokens.secondary)),
+                const SizedBox(height: 8),
+                for (final criterion
+                    in StudentLearningReport.pronunciationCriteriaLabels.entries)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 9),
+                    child: TextFormField(
+                      controller: _criteria[criterion.key],
+                      keyboardType: TextInputType.number,
+                      decoration: InputDecoration(
+                        labelText: criterion.value,
+                        hintText: 'Не проверено',
+                      ),
+                      validator: (value) {
+                        if (value == null || value.trim().isEmpty) {
+                          return null;
+                        }
+                        final score = int.tryParse(value.trim());
+                        return score == null || score < 0 || score > 100
+                            ? '0–100 или оставьте пустым'
+                            : null;
+                      },
+                    ),
+                  ),
+              ],
               const SizedBox(height: 12),
               TextFormField(
                 controller: _note,
@@ -400,7 +461,17 @@ class _ManualSkillAssessmentDialogState
         onPressed: () {
           if (!(_form.currentState?.validate() ?? false)) return;
           Navigator.pop(context, _SkillAssessmentDraft(
-            _skill, int.parse(_score.text.trim()), _note.text.trim()));
+            _skill,
+            int.parse(_score.text.trim()),
+            _note.text.trim(),
+            _skill == 'pronunciation'
+                ? {
+                    for (final entry in _criteria.entries)
+                      if (entry.value.text.trim().isNotEmpty)
+                        entry.key: int.parse(entry.value.text.trim()),
+                  }
+                : <String, int>{},
+          ));
         },
         child: const Text('Сохранить оценку'),
       ),
