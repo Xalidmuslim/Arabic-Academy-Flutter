@@ -31,6 +31,20 @@
       "standalone_reviewed": true
     },
     {
+      "id": "u3_housing",
+      "kind": "unit",
+      "content_id": "u3",
+      "meaning": "Жильё, гостиная и мебель",
+      "file": "assets/artwork/lesson_generated/u3_housing.webp",
+      "source": "OpenAI ImageGen standalone original generation 2026-10-14: image-gen-5(20261014-215113).png; no cropping",
+      "sha256": "76a936a8874c215e5f17690208bc58435ed70cf1551c45737a840d2a277c7c78",
+      "width": 768,
+      "height": 768,
+      "semantics_reviewed": true,
+      "blank_faces_reviewed": true,
+      "standalone_reviewed": true
+    },
+    {
       "id": "u4_daily_routine",
       "kind": "unit",
       "content_id": "u4",
@@ -87,6 +101,20 @@
       "standalone_reviewed": true
     },
     {
+      "id": "u8_work",
+      "kind": "unit",
+      "content_id": "u8",
+      "meaning": "Работа, планирование задач",
+      "file": "assets/artwork/lesson_generated/u8_work.webp",
+      "source": "OpenAI ImageGen standalone original generation 2026-10-14: image-gen-9(7).png; no cropping",
+      "sha256": "8f27e2a960bc983d6d60ed8349ba4759240661e8a6831801b850a8a4842e79b1",
+      "width": 768,
+      "height": 768,
+      "semantics_reviewed": true,
+      "blank_faces_reviewed": true,
+      "standalone_reviewed": true
+    },
+    {
       "id": "u9_shopping",
       "kind": "unit",
       "content_id": "u9",
@@ -124,6 +152,34 @@
       "sha256": "8584c060e4df6ac3c54926a47ec63ecf06c3d7dbe5c7d130e54b8ae2a7a7a884",
       "width": 960,
       "height": 720,
+      "semantics_reviewed": true,
+      "blank_faces_reviewed": true,
+      "standalone_reviewed": true
+    },
+    {
+      "id": "u12_hobbies",
+      "kind": "unit",
+      "content_id": "u12",
+      "meaning": "Увлечения, чтение книг",
+      "file": "assets/artwork/lesson_generated/u12_hobbies.webp",
+      "source": "OpenAI ImageGen standalone original generation 2026-10-14: image-gen-2(20261014-215105).png; no cropping",
+      "sha256": "28f9a4d40743f64ee1f4c998bde867ea07b8e59aec6ec734c8ecc2075137ebb5",
+      "width": 768,
+      "height": 768,
+      "semantics_reviewed": true,
+      "blank_faces_reviewed": true,
+      "standalone_reviewed": true
+    },
+    {
+      "id": "u13_travel",
+      "kind": "unit",
+      "content_id": "u13",
+      "meaning": "Путешествие, автобус и чемодан",
+      "file": "assets/artwork/lesson_generated/u13_travel.webp",
+      "source": "OpenAI ImageGen standalone original generation 2026-10-14: image-gen-10(1).png; no cropping",
+      "sha256": "19ad0d634dffe62f036ff2544eabebe870b49bf580496b00fbb2aa139995b8ee",
+      "width": 768,
+      "height": 768,
       "semantics_reviewed": true,
       "blank_faces_reviewed": true,
       "standalone_reviewed": true
