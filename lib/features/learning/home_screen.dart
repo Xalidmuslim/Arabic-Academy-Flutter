@@ -30,6 +30,9 @@ import 'online_homework_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'practice_center_screen.dart';
 import 'demo_showcase_screen.dart';
+import 'words_hub_screen.dart';
+import 'situations_screen.dart';
+import 'handwriting_screen.dart';
 import 'study_calendar_screen.dart';
 import '../../core/practice_generator.dart';
 
@@ -392,19 +395,19 @@ class _HomeScreenState extends State<HomeScreen> {
           : [
               NavigationDestination(
                 icon: const ArtworkIcon('home', size: 29),
-                label: tr(context, 'Главная'),
+                label: tr(context, 'Сегодня'),
               ),
               NavigationDestination(
                 icon: const Icon(Icons.menu_book_outlined),
-                label: tr(context, 'Уроки'),
+                label: tr(context, 'Учебник'),
               ),
               NavigationDestination(
-                icon: const Icon(Icons.search_outlined),
-                label: tr(context, 'Поиск'),
+                icon: const Icon(Icons.psychology_outlined),
+                label: tr(context, 'Практика'),
               ),
               NavigationDestination(
                 icon: const ArtworkIcon('profile', size: 29),
-                label: tr(context, 'Профиль'),
+                label: tr(context, 'Моё'),
               ),
             ],
     ),
@@ -454,7 +457,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _page() => switch (_tab) {
     1 => UnitScreen(state: state, backend: _backend),
-    2 => SearchScreen(state: state, onOpenLesson: _lesson),
+    2 => PracticeCenterScreen(state: state),
     3 => _profile(),
     _ => _dashboard(),
   };
@@ -462,341 +465,196 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _dashboard() {
     final lessons = state.allLessons;
     final analytics = StudyAnalytics(state);
-    final todayPlan = LearningInsights.dailyPlan(state);
-    final wordPlan = VocabularyPractice.plan(state,
-      newLimit: todayPlan.newWordLimit);
+    final today = LearningInsights.dailyPlan(state);
+    final words = VocabularyPractice.plan(state,
+      newLimit: today.newWordLimit);
     final next = lessons.isEmpty
         ? null
-        : lessons.firstWhere(
-            (x) => x['id'] == state.lastLessonId,
+        : lessons.firstWhere((x) => x['id'] == state.lastLessonId,
             orElse: () => lessons.firstWhere(
               (x) => !state.completed.contains(x['id']),
               orElse: () => lessons.last,
-            ),
-          );
-    final scale = MediaQuery.textScalerOf(context).scale(1);
-    final columns = MediaQuery.sizeOf(context).width < 340 || scale > 1.6
-        ? 1
-        : 2;
-    return CustomScrollView(
-      slivers: [
-        SliverPadding(
-          padding: const EdgeInsets.fromLTRB(18, 6, 18, 0),
-          sliver: SliverToBoxAdapter(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  tr(context, 'Арабский каждый день'),
-                  style: const TextStyle(fontSize: 12, color: muted),
-                ),
-                const SizedBox(height: 5),
-                Text(
-                  tr(context, 'Арабский язык в твоих руках'),
-                  style: const TextStyle(fontSize: 13, color: green),
-                ),
-                const SizedBox(height: 12),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(22),
-                  child: Stack(
-                    children: [
-                      Image.asset(
-                        PremiumArt.hero,
-                        height: scale > 1.6 ? 180 : 126,
-                        width: double.infinity,
-                        fit: BoxFit.cover,
-                        alignment: Alignment.centerRight,
-                        cacheWidth: 900,
-                        excludeFromSemantics: true,
-                      ),
-                      Positioned.fill(
-                        child: DecoratedBox(
-                          decoration: const BoxDecoration(
-                            color: Color(0x42FFF4E6),
-                          ),
-                        ),
-                      ),
-                      PositionedDirectional(
-                        top: 15,
-                        start: 16,
-                        bottom: 12,
-                        end: 90,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              'العربية بين يديك',
-                              textDirection: TextDirection.rtl,
-                              style: TextStyle(
-                                fontFamily: 'NotoNaskhArabic',
-                                fontSize: scale > 1.6 ? 18 : 25,
-                                height: 1.55,
-                                color: green,
-                              ),
-                            ),
-                            if (scale <= 1.6)
-                              Text(
-                                tr(context, 'Локальное обучение'),
-                                style: const TextStyle(
-                                  fontSize: 11,
-                                  color: muted,
-                                ),
-                              ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: 12),
-                NeumorphicCourseHero(
-                  progress: analytics.progress,
-                  completed: analytics.completedLessons,
-                  total: analytics.totalLessons,
-                  onContinue: () {
-                    if (next != null) _lesson(context, next);
-                  },
-                ),
-                const SizedBox(height: 14),
-              ],
-            ),
-          ),
-        ),
-        SliverPadding(
-          padding: const EdgeInsets.symmetric(horizontal: 18),
-          sliver: SliverGrid.count(
-            crossAxisCount: columns,
-            crossAxisSpacing: 12,
-            mainAxisSpacing: 12,
-            childAspectRatio: columns == 1 ? 1.55 : 0.96,
-            children: [
-              NeumorphicFeatureTile(
-                title: tr(context, 'Уроки'),
-                subtitle: 'Диалоги и учебные тексты',
-                image: 'assets/artwork/lessons.webp',
-                onTap: () => _open(UnitScreen(state: state, backend: _backend)),
-              ),
-              NeumorphicFeatureTile(
-                title: tr(context, 'Грамматика'),
-                subtitle: 'Правила и практика',
-                image: 'assets/artwork/grammar.webp',
-                onTap: () => _open(GrammarScreen(state: state)),
-              ),
-              NeumorphicFeatureTile(
-                title: tr(context, 'Словарь'),
-                subtitle: 'Слова и повторение',
-                image: 'assets/artwork/vocabulary.webp',
-                onTap: () => _open(DictionaryScreen(state: state)),
-              ),
-              NeumorphicFeatureTile(
-                title: tr(context, 'Мой прогресс'),
-                subtitle: 'Результаты обучения',
-                image: 'assets/artwork/progress.webp',
-                onTap: () => _open(LearnerProgressScreen(state: state)),
-              ),
-              NeumorphicFeatureTile(
-                title: 'Практика',
-                subtitle: 'Тренажёры и задания',
-                image: 'assets/artwork/exercises.webp',
-                onTap: () => _open(Scaffold(
-                  appBar: AppBar(title: const Text('Практика')),
-                  body: PracticeCenterScreen(state: state),
-                )),
-              ),
-              if (!_backend.isAuthenticated)
-                NeumorphicFeatureTile(
-                  title: 'Все функции · демо',
-                  subtitle: 'Обзор для заказчика',
-                  image: 'assets/artwork/teacher.webp',
-                  onTap: () => _open(DemoShowcaseScreen(
-                    learning: state, school: _demoSchool, backend: _backend,
-                  )),
-                ),
-            ],
-          ),
-        ),
-        SliverPadding(
-          padding: const EdgeInsets.all(18),
-          sliver: SliverToBoxAdapter(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                SectionTitle('Личный учебный план'),
-                Panel(
-                  padding: EdgeInsets.zero,
-                  child: ListTile(
-                    leading: const Icon(Icons.auto_awesome_outlined,
-                        color: DesignTokens.deepOlive, size: 34),
-                    title: const Text('Что изучить сегодня'),
-                    subtitle: Text(
-                      'Повторить ${todayPlan.due} слов · '
-                      'до ${todayPlan.newWordLimit} новых\n'
-                      '${todayPlan.weakSkill == null
-                          ? "Продолжить следующий урок"
-                          : "Особое внимание: ${LearningInsights.skillLabels[
-                              todayPlan.weakSkill] ?? "повторение"}"}',
-                    ),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () => _open(Scaffold(
-                      appBar: AppBar(title: const Text('Практика')),
-                      body: PracticeCenterScreen(state: state),
-                    )),
-                  ),
-                ),
-                Panel(
-                  padding: EdgeInsets.zero,
-                  child: ListTile(
-                    key: const ValueKey('home-study-calendar'),
-                    leading: const Icon(Icons.calendar_month_outlined,
-                        color: DesignTokens.deepOlive, size: 32),
-                    title: const Text('Расписание и напоминания'),
-                    subtitle: const Text('Личные дни занятий, цель и уведомления Android'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () => _open(StudyCalendarScreen(state: state)),
-                  ),
-                ),
-                SectionTitle('Повторение сегодня'),
-                Panel(
-                  padding: EdgeInsets.zero,
-                  child: ListTile(
-                    key: const ValueKey('daily-vocabulary-entry'),
-                    contentPadding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
-                    leading: const Icon(Icons.psychology_alt_outlined,
-                        color: DesignTokens.deepOlive, size: 38),
-                    title: Text(
-                      wordPlan.words.isEmpty
-                          ? 'Слова на сегодня повторены'
-                          : 'Вспомнить ${wordPlan.words.length} слов',
-                      style: const TextStyle(fontWeight: FontWeight.w800),
-                    ),
-                    subtitle: Text(
-                      'Просрочено: ${wordPlan.due} · Новых доступно: ${wordPlan.newWords}\n'
-                      'Карточки, викторины, письмо и аудирование',
-                    ),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () => _open(VocabularyPracticeScreen(state: state)),
-                  ),
-                ),
-                SectionTitle('Практика'),
-                Panel(
-                  padding: EdgeInsets.zero,
-                  child: ListTile(
-                    key: const ValueKey('home-practice-entry'),
-                    contentPadding: const EdgeInsets.fromLTRB(16, 13, 14, 13),
-                    leading: const Icon(Icons.psychology_alt_outlined,
-                      size: 38, color: DesignTokens.deepOlive),
-                    title: const Text('Тренажёры арабского языка',
-                      style: TextStyle(fontWeight: FontWeight.w800)),
-                    subtitle: const Text('Диалоги, письмо, диктанты, контрольные, '
-                      'рисунки и работа над ошибками'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () => _open(Scaffold(
-                      appBar: AppBar(title: const Text('Практика')),
-                      body: PracticeCenterScreen(state: state),
-                    )),
-                  ),
-                ),
-                const SizedBox(height: 10),
-                Wrap(spacing: 8, runSpacing: 6, children: [
-                  for (final mode in <(PracticeMode, String)>[
-                    (PracticeMode.quiz, 'Викторина'),
-                    (PracticeMode.dialogue, 'Диалоги'),
-                    (PracticeMode.dictation, 'Диктант'),
-                    (PracticeMode.mistakes, 'Ошибки'),
-                  ])
-                    ActionChip(
-                      label: Text(mode.$2),
-                      onPressed: () => _open(PracticeSessionScreen(
-                        state: state, mode: mode.$1,
-                      )),
-                    ),
-                ]),
-                SectionTitle(tr(context, 'Моё обучение')),
-                if (lessons.isEmpty)
-                  const EmptyState(
-                    title: 'Уроки ещё не добавлены',
-                    message:
-                        'Создайте и опубликуйте материал в локальном кабинете учительницы.',
-                  ),
-                ...lessons
-                    .take(2)
-                    .map(
-                      (lesson) => Padding(
-                        padding: const EdgeInsets.only(bottom: 9),
-                        child: Panel(
-                          padding: EdgeInsets.zero,
-                          child: ListTile(
-                            title: Text(lesson['title'] as String? ?? ''),
-                            subtitle: Text(
-                              state.completed.contains(lesson['id'])
-                                  ? 'Завершён'
-                                  : 'Продолжить изучение',
-                            ),
-                            leading: const Icon(
-                              Icons.auto_stories_outlined,
-                              color: DesignTokens.olive,
-                            ),
-                            trailing: const Icon(Icons.chevron_right),
-                            onTap: () => _lesson(context, lesson),
-                          ),
-                        ),
-                      ),
-                    ),
-                if (!_backend.isAuthenticated) ...[
-                  const SizedBox(height: 12),
-                  Panel(
-                    padding: EdgeInsets.zero,
-                    child: ListTile(
-                      leading: const Icon(Icons.assignment_turned_in_outlined,
-                        color: DesignTokens.deepOlive, size: 35),
-                      title: const Text('Домашние задания · демо'),
-                      subtitle: Text(
-                        '${_demoSchool.homeworkFor(_demoSchool.currentStudentId).length} заданий · '
-                        '${_demoSchool.studentName(_demoSchool.currentStudentId)}'),
-                      trailing: const Icon(Icons.chevron_right),
-                      onTap: () => _open(DemoStudentSchoolScreen(
-                          school: _demoSchool, learning: state)),
-                    ),
-                  ),
+            ));
+    final oneColumn = MediaQuery.sizeOf(context).width < 340 ||
+        MediaQuery.textScalerOf(context).scale(1) > 1.45;
+    return CustomScrollView(slivers: [
+      SliverPadding(
+        padding: const EdgeInsets.fromLTRB(18, 9, 18, 12),
+        sliver: SliverToBoxAdapter(child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Row(children: [
+              Expanded(child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Арабский каждый день',
+                    style: Theme.of(context).textTheme.titleLarge),
+                  const Text('МОЁ ОБУЧЕНИЕ',
+                    style: TextStyle(color: DesignTokens.secondary,
+                      fontSize: 11, letterSpacing: 0.4)),
                 ],
-                const SizedBox(height: 8),
-                Panel(
-                  padding: EdgeInsets.zero,
-                  child: ListTile(
-                    leading: const ArtworkIcon('schedule', size: 43),
-                    title: Text(tr(context, 'Расписание')),
-                    subtitle: Text(_backend.isAuthenticated
-                        ? 'Онлайн-уроки вашей школы'
-                        : 'Встречи и напоминания · демо'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () => _open(_backend.isAuthenticated
-                        ? LiveSessionsScreen(backend: _backend)
-                        : DemoStudentSchoolScreen(
-                            school: _demoSchool, learning: state,
-                            initialTab: 'sessions')),
-                  ),
-                ),
-                const SizedBox(height: 12),
-                Panel(
-                  padding: EdgeInsets.zero,
-                  child: ListTile(
-                    leading: const ArtworkIcon('microphone', size: 45),
-                    title: Text(tr(context, 'Устная практика')),
-                    subtitle: const Text('Запись и прослушивание ответа'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () => _open(OralPracticeScreen(backend: _backend)),
-                  ),
-                ),
-              ],
+              )),
+              IconButton(
+                key: const ValueKey('home-search'),
+                tooltip: 'Поиск по урокам и словам',
+                onPressed: () => _open(SearchScreen(
+                  state: state, onOpenLesson: _lesson)),
+                icon: const Icon(Icons.search_outlined,
+                  color: DesignTokens.deepOlive),
+              ),
+            ]),
+            const SizedBox(height: 6),
+            NeumorphicCourseHero(
+              progress: analytics.progress,
+              completed: analytics.completedLessons,
+              total: analytics.totalLessons,
+              onContinue: () {
+                if (next != null) _lesson(context, next);
+              },
             ),
-          ),
+            if (next != null)
+              Padding(
+                padding: const EdgeInsets.only(top: 6),
+                child: Text('Следующий урок: ${next['title'] ?? ''}',
+                  maxLines: 2, overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(color: DesignTokens.secondary,
+                    fontSize: 12)),
+              ),
+            const SizedBox(height: 15),
+            Text('Сегодня', style: Theme.of(context).textTheme.titleMedium),
+            const SizedBox(height: 8),
+            Panel(
+              padding: EdgeInsets.zero,
+              child: ListTile(
+                key: const ValueKey('daily-vocabulary-entry'),
+                leading: const Icon(Icons.style_outlined, size: 32,
+                  color: DesignTokens.deepOlive),
+                title: Text(words.words.isEmpty
+                    ? 'На сегодня всё повторено'
+                    : 'Повторить ${words.words.length} слов',
+                  style: const TextStyle(fontWeight: FontWeight.w800)),
+                subtitle: Text('К повторению: ${words.due} · '
+                  'Новых доступно: ${words.newWords}',
+                  style: const TextStyle(fontSize: 12)),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => _open(VocabularyPracticeScreen(state: state)),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Panel(
+              padding: EdgeInsets.zero,
+              child: ListTile(
+                leading: const Icon(Icons.tips_and_updates_outlined,
+                  color: DesignTokens.deepOlive, size: 30),
+                title: const Text('Что изучить дальше',
+                  style: TextStyle(fontWeight: FontWeight.w700)),
+                subtitle: Text(today.weakSkill == null
+                    ? 'Продолжить урок и закрепить слова'
+                    : 'Особое внимание: ${LearningInsights.skillLabels[today.weakSkill] ?? "повторение"}',
+                  maxLines: 2),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => _setTab(2),
+              ),
+            ),
+          ],
+        )),
+      ),
+      SliverPadding(
+        padding: const EdgeInsets.fromLTRB(18, 0, 18, 0),
+        sliver: SliverGrid.count(
+          crossAxisCount: oneColumn ? 1 : 2,
+          crossAxisSpacing: 12,
+          mainAxisSpacing: 12,
+          childAspectRatio: oneColumn ? 2.0 : 1.1,
+          children: [
+            NeumorphicFeatureTile(
+              title: 'Слова в образах',
+              subtitle: 'Изучаю · Проверяю · Повторяю',
+              image: 'assets/artwork/vocabulary.webp',
+              onTap: () => _open(WordsHubScreen(state: state)),
+            ),
+            NeumorphicFeatureTile(
+              title: 'Диалоги',
+              subtitle: 'Слушаю и отвечаю',
+              image: 'assets/artwork/lessons.webp',
+              onTap: () => _open(SituationsScreen(state: state)),
+            ),
+            NeumorphicFeatureTile(
+              title: 'Арабское письмо',
+              subtitle: 'Буквы, формы и обводка',
+              image: 'assets/artwork/grammar.webp',
+              onTap: () => _open(HandwritingScreen(state: state)),
+            ),
+            NeumorphicFeatureTile(
+              key: const ValueKey('home-practice-entry'),
+              title: 'Проверить себя',
+              subtitle: 'Упражнения и мои ошибки',
+              image: 'assets/artwork/exercises.webp',
+              onTap: () => _setTab(2),
+            ),
+          ],
         ),
-        // Overlay navigation paints above the scroll viewport; last actions
-        // must remain fully visible when scrolled to the end.
-        const SliverToBoxAdapter(child: SizedBox(height: 142)),
-      ],
-    );
+      ),
+      SliverPadding(
+        padding: const EdgeInsets.fromLTRB(18, 18, 18, 4),
+        sliver: SliverToBoxAdapter(child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            SectionTitle('Мой учебный путь'),
+            Panel(child: Row(children: [
+              for (final phase in <
+                  (String, IconData, VoidCallback)>[
+                ('Изучаю', Icons.menu_book_outlined,
+                    () => _setTab(1)),
+                ('Практикую', Icons.edit_note_outlined,
+                    () => _setTab(2)),
+                ('Проверяю', Icons.fact_check_outlined,
+                    () => _setTab(2)),
+                ('Повторяю', Icons.repeat_outlined,
+                    () => _open(WordsHubScreen(state: state))),
+              ])
+                Expanded(child: InkWell(
+                  onTap: phase.$3,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 6),
+                    child: Column(children: [
+                      Icon(phase.$2, color: DesignTokens.deepOlive, size: 23),
+                      const SizedBox(height: 5),
+                      Text(phase.$1, maxLines: 1,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(fontSize: 10)),
+                    ]),
+                  ),
+                )),
+            ])),
+            const SizedBox(height: 12),
+            Panel(padding: EdgeInsets.zero, child: ListTile(
+              key: const ValueKey('home-study-calendar'),
+              leading: const Icon(Icons.calendar_month_outlined,
+                color: DesignTokens.deepOlive),
+              title: const Text('Моё расписание'),
+              subtitle: const Text('План занятий и напоминания'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => _open(StudyCalendarScreen(state: state)),
+            )),
+            if (!_backend.isAuthenticated) ...[
+              const SizedBox(height: 9),
+              Panel(padding: EdgeInsets.zero, child: ListTile(
+                leading: const Icon(Icons.assignment_outlined,
+                  color: DesignTokens.deepOlive),
+                title: const Text('Домашняя работа'),
+                subtitle: Text(
+                  '${_demoSchool.homeworkFor(_demoSchool.currentStudentId).length} заданий · демо'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => _open(DemoStudentSchoolScreen(
+                  school: _demoSchool, learning: state)),
+              )),
+            ],
+          ],
+        )),
+      ),
+      const SliverToBoxAdapter(child: SizedBox(height: 155)),
+    ]);
   }
 
   Widget _profile() => ListView(
