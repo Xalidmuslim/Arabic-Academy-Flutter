@@ -18,6 +18,7 @@ String _demoStatus(String? value) => switch (value) {
   'submitted' => 'Ожидает проверки',
   'graded' => 'Проверено',
   'revision_requested' => 'Вернуть на исправление',
+  'scheduled' => 'Запланирован',
   'live' => 'Демоэфир начат',
   'ended' => 'Завершён',
   _ => 'Не сдано',
@@ -511,7 +512,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
         const SizedBox(height: 14),
         Wrap(spacing: 8, runSpacing: 8, children: [
           FilledButton.icon(onPressed: () => _createAssignment(),
-            icon: const Icon(Icons.assignment_add), label: const Text('Задание')),
+            icon: const Icon(Icons.post_add_outlined), label: const Text('Задание')),
           OutlinedButton.icon(onPressed: _scheduleLive,
             icon: const Icon(Icons.videocam_outlined), label: const Text('Эфир')),
           OutlinedButton.icon(onPressed: _announce,
@@ -563,15 +564,13 @@ class _Metric extends StatelessWidget {
   final String label;
   final String value;
   @override
-  Widget build(BuildContext context) => Expanded(
-    child: Panel(
+  Widget build(BuildContext context) => Panel(
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 12),
       child: Column(children: [
         Text(value, style: Theme.of(context).textTheme.titleLarge),
         Text(label, maxLines: 1, overflow: TextOverflow.ellipsis,
           style: const TextStyle(fontSize: 11, color: DesignTokens.secondary)),
       ]),
-    ),
   );
 }
 
