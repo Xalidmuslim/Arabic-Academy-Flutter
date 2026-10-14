@@ -109,6 +109,10 @@ void main() {
     expect(PracticeGenerator.build(restored, PracticeMode.mistakes),
         isNotEmpty);
     restored.dispose();
+    await model.recordAttempt(lessonId: question.lessonId,
+      exerciseId: question.id, answer: question.answer,
+      status: 'correct', points: 1);
+    expect(PracticeGenerator.build(model, PracticeMode.mistakes), isEmpty);
   });
 
   testWidgets('learner practice records wrong answer, shows correct and navigates',
@@ -130,6 +134,25 @@ void main() {
     expect(model.attempts, hasLength(1));
     expect(find.byKey(const ValueKey('practice-next-question')), findsOneWidget);
     expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('picture dictionary uses known illustrations and precise search',
+      (tester) async {
+    final model = await state();
+    addTearDown(model.dispose);
+    await tester.pumpWidget(MaterialApp(
+      home: Scaffold(body: PracticeCenterScreen(state: model)),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Словарь с рисунками'));
+    await tester.pumpAndSettle();
+    expect(find.text('Слова в рисунках'), findsOneWidget);
+    expect(find.text('Книга'), findsWidgets);
+    await tester.enterText(
+      find.byKey(const ValueKey('illustrated-dictionary-search')), 'дверь');
+    await tester.pumpAndSettle();
+    expect(find.text('Дверь'), findsOneWidget);
+    expect(find.text('Книга'), findsNothing);
   });
 
   testWidgets('Android back returns to previous main tab and then home', (tester) async {
