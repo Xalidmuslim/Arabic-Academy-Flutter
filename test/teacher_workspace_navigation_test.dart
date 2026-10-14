@@ -41,8 +41,12 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('study-tab-3')));
     await tester.pumpAndSettle();
     expect(find.text('Инструменты учительницы'), findsOneWidget);
-    expect(find.text('Настройки'), findsWidgets);
     expect(find.text('Карточки слов'), findsWidgets);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('teacher-settings-entry')), 220,
+      scrollable: find.byType(Scrollable).last,
+    );
+    expect(find.text('Настройки'), findsWidgets);
     expect(find.text('Уроки'), findsNothing);
   });
 
