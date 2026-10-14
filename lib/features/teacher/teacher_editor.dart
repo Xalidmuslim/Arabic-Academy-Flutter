@@ -60,7 +60,7 @@ class _TeacherEditorState extends State<TeacherEditor> {
     body: Form(
       key: formKey,
       child: ListView(
-        padding: const EdgeInsets.all(17),
+        padding: const EdgeInsets.fromLTRB(17, 17, 17, 150),
         children: [
           const Row(
             children: [
@@ -217,7 +217,7 @@ class _ExtraLessonScreenState extends State<ExtraLessonScreen> {
     return Scaffold(
       appBar: AppBar(title: Text(widget.data['title'] as String)),
       body: ListView(
-        padding: const EdgeInsets.all(17),
+        padding: const EdgeInsets.fromLTRB(17, 17, 17, 150),
         children: [
           NaskhText(widget.data['arabic'] as String? ?? '', size: 30),
           const SizedBox(height: 14),
