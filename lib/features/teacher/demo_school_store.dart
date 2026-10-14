@@ -31,6 +31,7 @@ class DemoSchoolStore extends ChangeNotifier {
         }
         _data = Map<String, dynamic>.from(snapshot);
         _data.putIfAbsent('skill_assessments', () => <dynamic>[]);
+        _data.putIfAbsent('showcase_metrics', () => <dynamic>[]);
       } catch (_) {
         readOnly = true;
         warning = 'Повреждённые демоданные сохранены без изменений. Экспортируйте исходную резервную копию.';
@@ -97,6 +98,7 @@ class DemoSchoolStore extends ChangeNotifier {
     'sessions': [],
     'announcements': [],
     'skill_assessments': [],
+    'showcase_metrics': [],
     'lesson_results': [
       {'student_id': 's2', 'lesson_id': 'l1', 'score': 90},
       {'student_id': 's2', 'lesson_id': 'l2', 'score': 85},
@@ -106,6 +108,18 @@ class DemoSchoolStore extends ChangeNotifier {
     ],
   };
 
+
+  /// Synthetic customer-presentation metrics. Never treated as real work.
+  Map<String, dynamic>? showcaseMetricsFor(String studentId) {
+    final rows = _data['showcase_metrics'];
+    if (rows is! List) return null;
+    for (final row in rows) {
+      if (row is Map && row['student_id'] == studentId) {
+        return Map<String, dynamic>.from(row);
+      }
+    }
+    return null;
+  }
 
   /// Populate fictional example records for a customer presentation only.
   /// Idempotent, preserves all earlier local teacher edits and grades.
@@ -119,6 +133,8 @@ class DemoSchoolStore extends ChangeNotifier {
     final submissions = (data['submissions'] as List);
     final assessments = (data['skill_assessments'] as List);
     final results = (data['lesson_results'] as List);
+    data.putIfAbsent('showcase_metrics', () => <dynamic>[]);
+    final metrics = data['showcase_metrics'] as List;
     final now = DateTime.now().toUtc();
     final earlier = now.subtract(const Duration(days: 6)).toIso8601String();
     final later = now.add(const Duration(days: 6)).toIso8601String();
@@ -160,6 +176,36 @@ class DemoSchoolStore extends ChangeNotifier {
       final studentId = student['id']?.toString() ?? '';
       final groupId = student['group_id']?.toString() ?? '';
       if (studentId.isEmpty) continue;
+      if (!metrics.any((m) => (m as Map)['student_id'] == studentId)) {
+        metrics.add({
+          'id': 'showcase_stats_$studentId',
+          'student_id': studentId,
+          'days_studied': 7 + i * 2,
+          'attempts': 34 + i * 8,
+          'recent_attempts': 8 + (i * 3) % 15,
+          'words_reviewed': 54 + i * 12,
+          'words_mastered': 31 + i * 8,
+          'words_due': 7 + (i * 2) % 10,
+          'words_difficult': 4 + i % 5,
+          'word_lapses': 5 + (i * 3) % 8,
+          'errors': [
+            {
+              'skill': 'Грамматика',
+              'response': 'هَذِهِ كِتَابٌ',
+              'expected': 'هَذَا كِتَابٌ',
+              'explanation': 'В примере слово «книга» мужского рода.',
+              'count': 2 + i % 3,
+            },
+            {
+              'skill': 'Слова',
+              'response': 'بَابٌ',
+              'expected': 'بَيْتٌ',
+              'explanation': 'Перепутаны слова «дверь» и «дом».',
+              'count': 1 + i % 3,
+            },
+          ],
+        });
+      }
       for (var k = 0; k < assessedSkills.length; k++) {
         final skill = assessedSkills[k];
         final id = 'showcase_assessment_${studentId}_$skill';
