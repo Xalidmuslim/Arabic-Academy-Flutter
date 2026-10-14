@@ -243,6 +243,12 @@ class _HomeScreenState extends State<HomeScreen> {
     return true;
   }
 
+  Future<void> _toggleAppearance() async {
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    await guardedAction(context, () =>
+      state.setSetting('appearance', dark ? 'light' : 'dark'));
+  }
+
   void _open(Widget page) =>
       Navigator.push(context, MaterialPageRoute(builder: (_) => page));
   void _lesson(BuildContext context, Map<String, dynamic> lesson) =>
@@ -302,6 +308,25 @@ class _HomeScreenState extends State<HomeScreen> {
               style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800),
             ),
             actions: [
+              if (_tab == 0 && !_backend.isAuthenticated)
+                IconButton(
+                  key: const ValueKey('home-switch-role'),
+                  tooltip: _demoTeacher
+                      ? 'Кабинет учительницы · сменить'
+                      : 'Кабинет ученицы · сменить',
+                  icon: const Icon(Icons.switch_account_outlined),
+                  onPressed: _pickDemoRole,
+                ),
+              if (_tab == 0)
+                IconButton(
+                  key: const ValueKey('home-toggle-theme'),
+                  tooltip: Theme.of(context).brightness == Brightness.dark
+                      ? 'Включить день' : 'Включить ночь',
+                  icon: Icon(Theme.of(context).brightness == Brightness.dark
+                      ? Icons.light_mode_outlined
+                      : Icons.dark_mode_outlined),
+                  onPressed: _toggleAppearance,
+                ),
               IconButton(
                 tooltip: tr(context, 'Уведомления'),
                 icon: const Icon(Icons.notifications_none),
