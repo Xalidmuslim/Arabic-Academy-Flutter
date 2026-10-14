@@ -28,14 +28,19 @@ class _TeacherWordImagePickerState extends State<TeacherWordImagePicker> {
     if (_busy) return;
     setState(() => _busy = true);
     try {
-      final file = await FilePicker.platform.pickFiles(
-        type: FileType.image, allowMultiple: false, withData: true,
+      final selection = await FilePicker.platform.pickFiles(
+        type: FileType.image, allowMultiple: false, withData: false,
       );
-      if (file == null || file.files.isEmpty) return;
-      final bytes = file.files.single.bytes;
-      if (bytes == null) {
-        throw const FormatException('Не удалось прочитать изображение.');
+      if (selection == null || selection.files.isEmpty) return;
+      final picked = selection.files.single;
+      if (picked.size > TeacherWordImageStore.maxBytes) {
+        throw const FormatException('Изображение больше 2 МБ. Уменьшите его.');
       }
+      final path = picked.path;
+      if (path == null) {
+        throw const FormatException('Не удалось открыть выбранный файл.');
+      }
+      final bytes = await File(path).readAsBytes();
       TeacherWordImageStore.extension(bytes);
       if (!mounted) return;
       setState(() {
