@@ -130,15 +130,18 @@ void main() {
 
   testWidgets('Arabic letter tracing feedback remains a qualified hint',
       (tester) async {
-    final output = await TraceEvaluator.evaluate(
+    // Dart:ui toImage completes on the raster thread; with FakeAsync
+    // it never resolves until runAsync releases the test clock.
+    final output = await tester.runAsync(() => TraceEvaluator.evaluate(
       glyph: 'ب',
       strokes: [
         [const Offset(115, 140), const Offset(155, 140)],
         [const Offset(145, 156), const Offset(155, 175)],
       ],
       size: const Size(300, 285),
-    );
-    expect(output.inkProximity, inInclusiveRange(0, 1));
+    ));
+    expect(output, isNotNull);
+    expect(output!.inkProximity, inInclusiveRange(0, 1));
     expect(output.templateCoverage, inInclusiveRange(0, 1));
     expect(output.message, isNotEmpty);
   });
@@ -217,8 +220,10 @@ void main() {
     await tester.tap(tue);
     await tester.pumpAndSettle();
     final save = find.byKey(const ValueKey('study-calendar-save'));
-    await tester.ensureVisible(save);
-    await tester.tap(save);
+    await tester.scrollUntilVisible(save, 200,
+      scrollable: find.byType(Scrollable).first);
+    await tester.pumpAndSettle();
+    await tester.tap(save.hitTestable());
     await tester.pumpAndSettle();
     expect(StudyCalendarPlan.fromState(state).weekdays.contains(2), false);
     expect(StudyCalendarPlan.fromState(state).notificationsEnabled, false);
