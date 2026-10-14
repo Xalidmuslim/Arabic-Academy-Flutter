@@ -44,7 +44,7 @@ void main() {
     final state = await learning();
     addTearDown(state.dispose);
     final original = LearningInsights.skills(state);
-    expect(original, hasLength(6));
+    expect(original, hasLength(7));
     expect(original.every((skill) => skill.accuracy == null), isTrue);
     expect(LearningInsights.weakestSkill(state), isNull);
     await state.recordAttempt(
