@@ -1,6 +1,9 @@
 import 'dart:convert';
+import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import '../../core/academy_state.dart';
+import '../../services/teacher_word_image_store.dart';
+import '../../ui/teacher_word_image_picker.dart';
 import '../../ui/components.dart';
 import '../exercises/exercises.dart';
 
@@ -104,6 +107,8 @@ class _LessonContentEditorState extends State<LessonContentEditor> {
     );
     final root = TextEditingController(text: old['root'] as String? ?? '');
     final form = GlobalKey<FormState>();
+    Uint8List? selectedPicture;
+    var pictureCleared = false;
     final saved = await showDialog<bool>(
       context: context,
       builder: (dialogContext) => AlertDialog(
@@ -157,6 +162,14 @@ class _LessonContentEditorState extends State<LessonContentEditor> {
                       labelText: 'Пример употребления',
                     ),
                   ),
+                  const SizedBox(height: 16),
+                  TeacherWordImagePicker(
+                    initialPath: old['image_path'] as String?,
+                    onChanged: (bytes, cleared) {
+                      selectedPicture = bytes;
+                      pictureCleared = cleared;
+                    },
+                  ),
                 ],
               ],
             ),
@@ -179,6 +192,18 @@ class _LessonContentEditorState extends State<LessonContentEditor> {
       ),
     );
     if (saved == true && mounted) {
+      String? picturePath = old['image_path'] as String?;
+      if (pictureCleared) picturePath = '';
+      var pictureSaved = true;
+      if (section == 'vocabulary' && selectedPicture != null) {
+        try {
+          picturePath = await TeacherWordImageStore.save(selectedPicture!);
+        } catch (error) {
+          pictureSaved = false;
+          if (mounted) notice(context, 'Не удалось сохранить рисунок: $error');
+        }
+      }
+      if (pictureSaved && mounted) {
       final value = {
         ...old,
         if (section == 'vocabulary') 'id': old['id'] ?? AcademyState.newId(),
@@ -186,6 +211,7 @@ class _LessonContentEditorState extends State<LessonContentEditor> {
         'ru': russian.text.trim(),
         if (section == 'vocabulary') 'root': root.text.trim(),
         if (section == 'vocabulary') 'example_ar': example.text.trim(),
+        if (section == 'vocabulary') 'image_path': picturePath ?? '',
       };
       setState(() {
         if (index == null) {
@@ -194,6 +220,7 @@ class _LessonContentEditorState extends State<LessonContentEditor> {
           widget.draft.items[section]![index] = value;
         }
       });
+      }
     }
     arabic.dispose();
     russian.dispose();
