@@ -5,6 +5,7 @@ abstract final class DesignTokens {
   static const ivory = Color(0xFFF3EBDD);
   static const cardSurface = Color(0xFFFBF7EF);
   static const cardHighlight = Color(0xE6FFFFFF);
+  static const softOutline = Color(0xFFE7DBCA);
   static const navSurface = Color(0xFFF9F3E9);
   static const beige = Color(0xFFE8D9C5);
   static const sand = Color(0xFFD4BEA5);
@@ -129,7 +130,7 @@ abstract final class DesignTokens {
       style: OutlinedButton.styleFrom(
         minimumSize: const Size(48, 48),
         foregroundColor: deepOlive,
-        side: const BorderSide(color: sand),
+        side: const BorderSide(color: softOutline),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(buttonRadius),
         ),
@@ -141,11 +142,11 @@ abstract final class DesignTokens {
       contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
-        borderSide: const BorderSide(color: Color(0xFFE8DECF)),
+        borderSide: const BorderSide(color: softOutline),
       ),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
-        borderSide: const BorderSide(color: sand),
+        borderSide: const BorderSide(color: softOutline),
       ),
     ),
     navigationBarTheme: NavigationBarThemeData(
@@ -165,7 +166,7 @@ abstract final class DesignTokens {
     chipTheme: ChipThemeData(
       backgroundColor: ivory,
       selectedColor: olive,
-      side: const BorderSide(color: sand),
+      side: const BorderSide(color: softOutline),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
     ),
   );
