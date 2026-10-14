@@ -22,6 +22,8 @@ void main() {
     await school.populateShowcase();
     expect(school.skillAssessmentsFor('s1').length, 7);
     expect(school.skillAssessmentsFor('s9').length, 7);
+    expect(school.showcaseMetricsFor('s9')?['words_reviewed'], greaterThan(0));
+    expect(school.showcaseMetricsFor('s1')?['errors'], hasLength(2));
     expect(school.submissions.first['grade'], original);
     expect(school.assignments.length, greaterThan(2));
     expect(school.submissions.length, greaterThan(1));
