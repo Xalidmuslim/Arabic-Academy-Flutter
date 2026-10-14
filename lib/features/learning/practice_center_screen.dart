@@ -11,6 +11,8 @@ import '../../ui/design_tokens.dart';
 import '../integrations/oral_practice_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'illustrated_dictionary_screen.dart';
+import 'situations_screen.dart';
+import 'handwriting_screen.dart';
 
 /// A single practice hub: no extra main navigation tabs or decorative noise.
 class PracticeCenterScreen extends StatelessWidget {
@@ -187,6 +189,36 @@ class PracticeCenterScreen extends StatelessWidget {
                 ),
               ),
             ),
+          const SectionTitle('Говорение и письмо'),
+          Panel(
+            padding: EdgeInsets.zero,
+            child: ListTile(
+              key: const ValueKey('situation-practice-entry'),
+              leading: const Icon(Icons.record_voice_over_outlined,
+                color: DesignTokens.deepOlive, size: 32),
+              title: const Text('Живые разговорные ситуации'),
+              subtitle: const Text('Учебные диалоги с выбором следующей реплики'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => Navigator.push(context,
+                MaterialPageRoute<void>(
+                  builder: (_) => SituationsScreen(state: state))),
+            ),
+          ),
+          const SizedBox(height: 10),
+          Panel(
+            padding: EdgeInsets.zero,
+            child: ListTile(
+              key: const ValueKey('handwriting-entry'),
+              leading: const Icon(Icons.draw_outlined,
+                color: DesignTokens.deepOlive, size: 32),
+              title: const Text('Письмо пальцем'),
+              subtitle: const Text('Арабские буквы и их формы'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => Navigator.push(context,
+                MaterialPageRoute<void>(
+                  builder: (_) => HandwritingScreen(state: state))),
+            ),
+          ),
           const SectionTitle('Произношение'),
           Panel(padding: EdgeInsets.zero,
             child: ListTile(
