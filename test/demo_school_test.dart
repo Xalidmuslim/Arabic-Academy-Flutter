@@ -86,6 +86,19 @@ void main() {
     final sessionId = store.sessions.single['id'] as String;
     await store.setLiveStatus(sessionId, 'live');
     expect(store.sessions.single['status'], 'live');
+    await store.postLiveMessage(
+      sessionId: sessionId, authorId: 's1', text: 'السلام عليكم');
+    await store.toggleLiveHand(sessionId: sessionId, studentId: 's1');
+    expect((store.sessions.single['messages'] as List).single['text'],
+        'السلام عليكم');
+    expect(store.sessions.single['raised_hands'], contains('s1'));
+    await expectLater(store.postLiveMessage(
+      sessionId: sessionId, authorId: 's4', text: 'Wrong group'),
+        throwsStateError);
+    await store.setLiveStatus(sessionId, 'ended');
+    await expectLater(store.postLiveMessage(
+      sessionId: sessionId, authorId: 's1', text: 'After ending'),
+        throwsStateError);
     await store.announce(title: 'Всем', text: 'Учебное сообщение', groupId: 'all');
     await store.announce(title: 'Только группа А', text: 'Не забудьте тетрадь',
         groupId: 'g1');
