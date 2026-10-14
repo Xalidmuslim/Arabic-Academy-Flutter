@@ -6,7 +6,6 @@ import '../../core/academy_state.dart';
 import '../../core/speech.dart';
 import '../../services/audio_practice_service.dart';
 import '../../ui/components.dart';
-import '../../ui/design_tokens.dart';
 
 /// Guided A/B speaking practice. It does not misrepresent Android speech
 /// recognition as a phonetic accuracy score. Teacher evaluation is manual.
@@ -69,7 +68,9 @@ class _PronunciationComparisonScreenState
     int index, List<({String id, String title, String text})> examples,
   ) async {
     if (_busy || index < 0 || index >= examples.length ||
-        index == _activeIndex) return;
+        index == _activeIndex) {
+      return;
+    }
     if (_recording.isRecording) {
       notice(context, 'Сначала остановите запись.');
       return;
@@ -88,12 +89,19 @@ class _PronunciationComparisonScreenState
           ],
         ),
       );
-      if (discard != true || !mounted) return;
+      if (discard != true || !mounted) {
+        return;
+      }
     }
     await _do(() async {
-      await ArabicSpeech.stop();
+      // Failing Android TTS shutdown must not block phrase selection.
+      try {
+        await ArabicSpeech.stop();
+      } catch (_) {}
       await _recording.delete();
-      if (!mounted) return;
+      if (!mounted) {
+        return;
+      }
       setState(() {
         _activeIndex = index;
         _lessonId = examples[index].id;
@@ -105,7 +113,9 @@ class _PronunciationComparisonScreenState
 
   Future<void> _choosePhrase(
       List<({String id, String title, String text})> examples) async {
-    if (_busy || _recording.isRecording) return;
+    if (_busy || _recording.isRecording) {
+      return;
+    }
     String query = '';
     final choice = await showModalBottomSheet<int>(
       context: context,
@@ -161,7 +171,9 @@ class _PronunciationComparisonScreenState
         },
       ),
     );
-    if (choice != null && mounted) await _selectPhrase(choice, examples);
+    if (choice != null && mounted) {
+      await _selectPhrase(choice, examples);
+    }
   }
 
   Future<void> _do(Future<void> Function() action) async {
