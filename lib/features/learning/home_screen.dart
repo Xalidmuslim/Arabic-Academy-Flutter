@@ -14,7 +14,6 @@ import '../integrations/live_sessions_screen.dart';
 import '../integrations/oral_practice_screen.dart';
 import '../integrations/phone_auth_screen.dart';
 import '../integrations/purchases_screen.dart';
-import '../teacher/teacher_dashboard.dart';
 import '../teacher/demo_school_store.dart';
 import '../teacher/demo_school_screen.dart';
 import '../teacher/demo_student_screen.dart';
