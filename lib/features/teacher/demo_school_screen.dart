@@ -6,6 +6,7 @@ import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'demo_school_store.dart';
 import 'demo_student_screen.dart' show DemoLiveRoomScreen;
+import 'demo_voice_homework.dart';
 import 'teacher_dashboard.dart';
 import 'teacher_editor.dart';
 
@@ -104,6 +105,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     String selectedGroup = groupId ?? school.groups.first['id'] as String;
     String? pupil = studentId;
     DateTime? due;
+    var addVoice = false;
     final result = await showDialog<bool>(
       context: context,
       builder: (ctx) => StatefulBuilder(
@@ -183,6 +185,13 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                     icon: const Icon(Icons.calendar_today_outlined),
                     label: Text(due == null ? 'Добавить срок (необязательно)' : _demoDate(due!.toIso8601String())),
                   ),
+                  SwitchListTile.adaptive(
+                    contentPadding: EdgeInsets.zero,
+                    title: const Text('Добавить голосовое условие'),
+                    subtitle: const Text('Записать после заполнения задания'),
+                    value: addVoice,
+                    onChanged: (v) => change(() => addVoice = v),
+                  ),
                   const SizedBox(height: 8),
                   const Text('Демо: ученицы увидят задание на этом устройстве.',
                       style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
@@ -202,9 +211,20 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
       ),
     );
     if (result == true && mounted) {
+      String? audioPath;
+      if (addVoice) {
+        audioPath = await Navigator.push<String>(context,
+          MaterialPageRoute<String>(builder: (_) =>
+            const DemoVoiceRecorderScreen(
+              title: 'Голосовое задание учительницы',
+            )));
+        if (audioPath == null || !mounted) return;
+      }
+      if (!mounted) return;
       await guardedAction(context, () => school.createAssignment(
         title: title.text, instructions: instructions.text,
         groupId: selectedGroup, studentId: pupil, due: due,
+        audioPath: audioPath,
       ));
     }
   }
@@ -885,6 +905,7 @@ class _DemoSubmissionDetails extends StatelessWidget {
     final score = TextEditingController(text: '${original['grade'] ?? 100}');
     final feedback = TextEditingController(text: original['feedback'] as String? ?? '');
     var revision = false;
+    var addVoice = false;
     final save = await showDialog<bool>(
       context: context,
       builder: (ctx) => StatefulBuilder(builder: (ctx, update) =>
@@ -903,6 +924,13 @@ class _DemoSubmissionDetails extends StatelessWidget {
               value: revision,
               onChanged: (v) => update(() => revision = v),
             ),
+            SwitchListTile.adaptive(
+              contentPadding: EdgeInsets.zero,
+              title: const Text('Голосовой комментарий'),
+              subtitle: const Text('Записать после закрытия оценки'),
+              value: addVoice,
+              onChanged: (v) => update(() => addVoice = v),
+            ),
           ]),
           actions: [
             TextButton(onPressed: () => Navigator.pop(ctx, false),
@@ -914,11 +942,22 @@ class _DemoSubmissionDetails extends StatelessWidget {
       ),
     );
     if (save == true && context.mounted) {
+      String? feedbackAudioPath;
+      if (addVoice) {
+        feedbackAudioPath = await Navigator.push<String>(context,
+          MaterialPageRoute<String>(builder: (_) =>
+            const DemoVoiceRecorderScreen(
+              title: 'Комментарий учительницы · голосом',
+            )));
+        if (feedbackAudioPath == null || !context.mounted) return;
+      }
+      if (!context.mounted) return;
       await guardedAction(context, () => school.grade(
         submissionId: rowId,
         score: int.tryParse(score.text) ?? -1,
         feedback: feedback.text,
         revision: revision,
+        feedbackAudioPath: feedbackAudioPath,
       ));
     }
   }
@@ -944,6 +983,16 @@ class _DemoSubmissionDetails extends StatelessWidget {
                 Text('Статус: ${_demoStatus(row['status'] as String?)}'),
                 const SizedBox(height: 12),
                 SelectableText(row['answer'] as String? ?? ''),
+                if ((row['audio_path'] as String?)?.isNotEmpty == true)
+                  DemoVoicePlayback(
+                    path: row['audio_path'] as String?,
+                    title: 'Прослушать голосовой ответ ученицы',
+                  ),
+                if ((row['feedback_audio_path'] as String?)?.isNotEmpty == true)
+                  DemoVoicePlayback(
+                    path: row['feedback_audio_path'] as String?,
+                    title: 'Прослушать голосовой комментарий',
+                  ),
                 if (row['grade'] != null) ...[
                   const SizedBox(height: 12),
                   Text('Оценка: ${row['grade']}/100'),
