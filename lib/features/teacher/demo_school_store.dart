@@ -340,6 +340,55 @@ class DemoSchoolStore extends ChangeNotifier {
     (rows[i] as Map)['status'] = status;
   });
 
+  Future<void> postLiveMessage({
+    required String sessionId,
+    required String authorId,
+    required String text,
+  }) => _change((data) {
+    if (text.trim().isEmpty || text.length > 1000) {
+      throw const FormatException('Введите сообщение до 1000 символов.');
+    }
+    final rows = data['sessions'] as List;
+    final i = rows.indexWhere((x) => x['id'] == sessionId);
+    if (i < 0) throw StateError('Эфир не найден.');
+    final item = rows[i] as Map;
+    if (item['status'] != 'live') throw StateError('Демокомната не открыта.');
+    if (authorId != 'teacher') {
+      final pupil = student(authorId);
+      if (pupil == null ||
+          (item['group_id'] != 'all' && pupil['group_id'] != item['group_id'])) {
+        throw StateError('Эфир не назначен этой ученице.');
+      }
+    }
+    (item['messages'] ??= <dynamic>[]).add({
+      'id': AcademyState.newId(),
+      'author_id': authorId,
+      'text': text.trim(),
+      'at': DateTime.now().toUtc().toIso8601String(),
+    });
+  });
+
+  Future<void> toggleLiveHand({
+    required String sessionId,
+    required String studentId,
+  }) => _change((data) {
+    final pupil = student(studentId);
+    final rows = data['sessions'] as List;
+    final i = rows.indexWhere((x) => x['id'] == sessionId);
+    if (i < 0 || pupil == null) throw StateError('Участница или эфир не найдены.');
+    final item = rows[i] as Map;
+    if (item['status'] != 'live' ||
+        (item['group_id'] != 'all' && item['group_id'] != pupil['group_id'])) {
+      throw StateError('Участница не приглашена в активный эфир.');
+    }
+    final hands = (item['raised_hands'] ??= <dynamic>[]) as List;
+    if (hands.contains(studentId)) {
+      hands.remove(studentId);
+    } else {
+      hands.add(studentId);
+    }
+  });
+
   Future<void> announce({
     required String title,
     required String text,
