@@ -61,7 +61,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.enterText(find.byType(TextField).last,
         'اِسْمِي أَمِينَةُ. أَنَا طَالِبَةٌ.');
-    await tester.tap(find.text('Отправить учительнице'));
+    await tester.tap(find.text('Отправить'));
     await tester.pumpAndSettle();
     expect(school.submissionFor('a1', 's1')?['status'], 'submitted');
     expect(find.text('Отправлено · ожидает проверки'), findsOneWidget);
