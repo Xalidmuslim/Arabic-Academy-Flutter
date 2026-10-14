@@ -32,14 +32,17 @@ class NeumorphicSurface extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final dark = Theme.of(context).brightness == Brightness.dark;
     return DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
       decoration: BoxDecoration(
-        color: DesignTokens.cardSurface,
+        color: dark ? const Color(0xFF29372E) : DesignTokens.cardSurface,
         borderRadius: BorderRadius.circular(radius),
         // A soft pale highlight, not the dark outline that flattened v8.
-        border: Border.all(color: DesignTokens.cardHighlight, width: 0.8),
-        boxShadow: emphasized ? const [
+        border: Border.all(color: dark ? const Color(0xFF405747) : DesignTokens.cardHighlight, width: 0.8),
+        boxShadow: dark ? const [
+          BoxShadow(color: Color(0x55000000), offset: Offset(0, 6), blurRadius: 16),
+        ] : emphasized ? const [
           BoxShadow(color: Color(0x2C58473B), offset: Offset(0, 5), blurRadius: 12, spreadRadius: -3),
           BoxShadow(color: Color(0x205B483B), offset: Offset(0, 13), blurRadius: 25, spreadRadius: -6),
           BoxShadow(color: Color(0x125B483B), offset: Offset(0, 23), blurRadius: 35, spreadRadius: -10),
