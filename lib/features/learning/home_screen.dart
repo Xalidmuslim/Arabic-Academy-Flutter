@@ -144,12 +144,14 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<bool> _pickDemoRole() async {
     final selected = await showModalBottomSheet<bool>(
       context: context,
+      isScrollControlled: true,
       showDragHandle: true,
       backgroundColor: DesignTokens.cardSurface,
       builder: (sheet) => SafeArea(
         child: Padding(
           padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
-          child: Column(
+          child: SingleChildScrollView(
+            child: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
@@ -182,6 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
             ],
+          ),
           ),
         ),
       ),
