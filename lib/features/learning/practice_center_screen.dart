@@ -287,8 +287,33 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
     }
   }
 
-  void _next() {
-    if (!_checked) return;
+  Future<void> _next() async {
+    if (!_checked || _busy) return;
+    if (_index + 1 == _questions.length &&
+        widget.mode == PracticeMode.exam) {
+      setState(() => _busy = true);
+      try {
+        final passed = _successes * 100 >= _questions.length * 70;
+        await widget.state.recordAttempt(
+          lessonId: widget.moduleId ?? 'all',
+          exerciseId: 'practice:exam:${widget.moduleId ?? 'all'}',
+          answer: {
+            'completed': _questions.length,
+            'correct': _successes,
+            'incorrect': _incorrect,
+            'module_id': widget.moduleId,
+          },
+          status: passed ? 'correct' : 'incorrect',
+          points: _successes,
+        );
+      } catch (error) {
+        if (mounted) notice(context, 'Не удалось сохранить контрольную: $error');
+        return;
+      } finally {
+        if (mounted) setState(() => _busy = false);
+      }
+    }
+    if (!mounted) return;
     setState(() {
       _index++;
       _selected = null;
@@ -511,7 +536,7 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
           ),
           const SizedBox(height: 10),
           FilledButton(
-            onPressed: _next,
+            onPressed: _busy ? null : _next,
             key: const ValueKey('practice-next-question'),
             child: const Text('Далее'),
           ),
