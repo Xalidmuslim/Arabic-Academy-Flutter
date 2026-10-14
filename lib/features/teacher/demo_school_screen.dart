@@ -36,17 +36,21 @@ class DemoSchoolScreen extends StatefulWidget {
     required this.school,
     required this.learning,
     required this.backend,
+    this.initialSection = 'groups',
+    this.compactEmbedded = false,
   });
   final DemoSchoolStore school;
   final AcademyState learning;
   final BackendService backend;
+  final String initialSection;
+  final bool compactEmbedded;
 
   @override
   State<DemoSchoolScreen> createState() => _DemoSchoolScreenState();
 }
 
 class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
-  String section = 'groups';
+  late String section = widget.initialSection;
   DemoSchoolStore get school => widget.school;
   Future<void> _open(Widget page) => Navigator.push(
       context, MaterialPageRoute<void>(builder: (_) => page));
@@ -639,6 +643,15 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     builder: (context, _) => ListView(
       padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
       children: [
+        if (widget.compactEmbedded) ...[
+          Text(section == 'submissions' ? 'Работы учениц' :
+            section == 'groups' ? 'Группы и ученицы' :
+            section == 'reports' ? 'Отчёты и статистика' :
+            section == 'sessions' ? 'Прямые эфиры' : 'Уведомления',
+            style: Theme.of(context).textTheme.titleLarge),
+          const SizedBox(height: 12),
+        ],
+        if (!widget.compactEmbedded) ...[
         Row(children: [
           Expanded(child: Text('Кабинет учительницы',
               style: Theme.of(context).textTheme.headlineSmall)),
@@ -734,6 +747,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
           ]),
         ),
         const SizedBox(height: 14),
+        ],
         if (section == 'groups') _groups(),
         if (section == 'submissions') _submissions(),
         if (section == 'reports') _reports(),
