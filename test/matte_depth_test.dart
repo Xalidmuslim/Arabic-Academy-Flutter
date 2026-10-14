@@ -18,7 +18,7 @@ void main() {
     expect(decor.color, const Color(0xFFFBF7EF));
     expect(decor.gradient, isNull);
     expect(decor.border, isNotNull);
-    expect(decor.border!.top.color, const Color(0xE6FFFFFF));
+    expect((decor.border as Border).top.color, const Color(0xE6FFFFFF));
     expect(decor.boxShadow, hasLength(2));
     expect(decor.boxShadow!.first.offset.dy, greaterThan(0));
     expect(decor.boxShadow!.last.blurRadius, greaterThan(20));
