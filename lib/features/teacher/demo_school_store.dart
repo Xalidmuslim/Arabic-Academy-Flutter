@@ -232,7 +232,9 @@ class DemoSchoolStore extends ChangeNotifier {
       for (var lesson = 1; lesson <= 3; lesson++) {
         final id = 'l$lesson';
         if (results.any((r) => (r as Map)['student_id'] == studentId &&
-            r['lesson_id'] == id)) continue;
+            r['lesson_id'] == id)) {
+          continue;
+        }
         results.add({
           'student_id': studentId,
           'lesson_id': id,
@@ -243,9 +245,13 @@ class DemoSchoolStore extends ChangeNotifier {
       for (var exercise = 0; exercise < 2; exercise++) {
         final taskId = 'showcase_task_${groupId}_$exercise';
         final submissionId = 'showcase_submission_${studentId}_$exercise';
-        if (submissions.any((s) => (s as Map)['id'] == submissionId)) continue;
+        if (submissions.any((s) => (s as Map)['id'] == submissionId)) {
+          continue;
+        }
         final phase = (i + exercise) % 5;
-        if (phase == 4) continue; // One unsubmitted example.
+        if (phase == 4) { // One unsubmitted example.
+          continue;
+        }
         final status = phase == 3
             ? 'revision_requested' : phase == 2 ? 'submitted' : 'graded';
         submissions.add({
