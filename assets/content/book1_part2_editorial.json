@@ -292,7 +292,9 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u9_d3_clothes.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u9-vocabulary",
