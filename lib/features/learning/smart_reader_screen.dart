@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/app_strings.dart';
 import '../../core/speech.dart';
 import '../../core/vocabulary_key.dart';
 import '../../services/lesson_audio_library.dart';
@@ -249,11 +250,11 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text('Настройки чтения',
+              Text(tr(context, 'Настройки чтения'),
                 style: Theme.of(sheet).textTheme.titleLarge),
               SwitchListTile.adaptive(
                 contentPadding: EdgeInsets.zero,
-                title: const Text('Показывать перевод фраз'),
+                title: Text(tr(context, 'Показывать перевод фраз')),
                 value: _translations,
                 onChanged: (value) {
                   setState(() => _translations = value);
@@ -270,7 +271,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                 },
               ),
               ExpansionTile(
-                title: const Text('Записи носителя (необязательно)'),
+                title: Text(tr(context, 'Записи носителя (необязательно)'),
                 children: [
                   for (var i = 0; i < _lines.length; i++)
                     ListTile(
@@ -300,7 +301,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('Умное чтение'), actions: [
+    appBar: AppBar(title: Text(tr(context, 'Умное чтение')), actions: [
       IconButton(
         key: const ValueKey('reader-settings'),
         tooltip: 'Настройки чтения и скорости',
@@ -335,8 +336,8 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
             onPressed: _lines.isEmpty ? null : _toggleDialogue,
             icon: Icon(_continuous ? Icons.stop_circle_outlined
                 : Icons.play_circle_outline),
-            label: Text(_continuous ? 'Остановить диалог'
-                : 'Прослушать диалог по репликам'),
+            label: Text(tr(context, _continuous ? 'Остановить диалог'
+                : 'Прослушать диалог по репликам')),
           ),
           const SizedBox(height: 10),
           for (var i = 0; i < _lines.length; i++)
@@ -403,7 +404,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
               )),
             ),
           if (_lines.isEmpty)
-            const EmptyState(title: 'Диалог пока не добавлен',
+            EmptyState(title: tr(context, 'Диалог пока не добавлен'),
               message: 'Откройте урок с диалогом для умного чтения.'),
         ],
       ),
