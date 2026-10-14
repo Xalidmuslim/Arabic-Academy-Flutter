@@ -166,8 +166,12 @@ class _DialogueJourneyScreenState extends State<DialogueJourneyScreen> {
           if (DialogueSceneIllustration.sceneFor(
               _lesson['title']?.toString() ?? '') != null) ...[
             const SizedBox(height: 10),
-            DialogueSceneIllustration(
-              setting: _lesson['title']?.toString() ?? ''),
+            Center(child: SizedBox(
+                width: 190,
+                child: DialogueSceneIllustration(
+                  setting: _lesson['title']?.toString() ?? '',
+                ),
+              )),
           ],
           const SizedBox(height: 8),
           const Text('Выбирайте следующую реплику. Ошибки открывают '
