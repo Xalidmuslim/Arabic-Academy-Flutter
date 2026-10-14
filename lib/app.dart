@@ -6,7 +6,6 @@ import 'core/academy_state.dart';
 import 'services/backend_service.dart';
 import 'services/purchase_service.dart';
 import 'ui/purchase_scope.dart';
-import 'ui/design_tokens.dart';
 import 'ui/appearance_theme.dart';
 import 'ui/floating_navigation.dart';
 import 'ui/welcome_screen.dart';
