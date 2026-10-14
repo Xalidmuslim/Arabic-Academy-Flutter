@@ -464,6 +464,15 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                 ),
+                const SizedBox(height: 12),
+                NeumorphicCourseHero(
+                  progress: analytics.progress,
+                  completed: analytics.completedLessons,
+                  total: analytics.totalLessons,
+                  onContinue: () {
+                    if (next != null) _lesson(context, next);
+                  },
+                ),
                 const SizedBox(height: 14),
               ],
             ),
@@ -528,14 +537,6 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                NeumorphicCourseHero(
-                  progress: analytics.progress,
-                  completed: analytics.completedLessons,
-                  total: analytics.totalLessons,
-                  onContinue: () {
-                    if (next != null) _lesson(context, next);
-                  },
-                ),
                 SectionTitle('Личный учебный план'),
                 Panel(
                   padding: EdgeInsets.zero,
