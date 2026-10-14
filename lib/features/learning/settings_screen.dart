@@ -14,6 +14,7 @@ import '../../ui/design_tokens.dart';
 import '../integrations/phone_auth_screen.dart';
 import '../integrations/purchases_screen.dart';
 import 'notification_preferences.dart';
+import 'study_calendar_screen.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({
@@ -118,6 +119,20 @@ class SettingsScreen extends StatelessWidget {
           ),
           _compactSlider(context, tr(context, 'Ежедневная цель'),
               'dailyGoal', 5, 60, 15, ' мин'),
+          Panel(
+            padding: EdgeInsets.zero,
+            child: ListTile(
+              dense: true,
+              leading: const Icon(Icons.event_note_outlined),
+              title: const Text('Расписание и напоминания'),
+              subtitle: const Text('Местные уведомления без сервера'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => Navigator.push(context,
+                MaterialPageRoute<void>(
+                  builder: (_) => StudyCalendarScreen(state: state),
+                )),
+            ),
+          ),
           // Optional controls are kept, but do not dominate Settings.
           ExpansionTile(
             key: const ValueKey('notification-preferences'),
