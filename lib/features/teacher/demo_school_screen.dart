@@ -7,6 +7,7 @@ import '../../ui/design_tokens.dart';
 import 'demo_school_store.dart';
 import 'demo_student_screen.dart' show DemoLiveRoomScreen;
 import 'teacher_dashboard.dart';
+import 'teacher_editor.dart';
 
 String _demoDate(Object? input) {
   final date = DateTime.tryParse(input?.toString() ?? '')?.toLocal();
@@ -497,6 +498,93 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     ],
   );
 
+  Widget _reports() {
+    final groups = school.groups;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        const Text('Отчёт рассчитывается только по локальным '
+            'демоданным. Ученицы других телефонов здесь не отображаются.',
+          style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
+        const SizedBox(height: 12),
+        for (final group in groups)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: Panel(
+              child: Builder(builder: (context) {
+                final pupils = school.members(group['id'] as String);
+                var assigned = 0;
+                var submitted = 0;
+                var graded = 0;
+                var sum = 0;
+                for (final pupil in pupils) {
+                  final id = pupil['id'] as String;
+                  for (final task in school.homeworkFor(id)) {
+                    assigned++;
+                    final response = school.submissionFor(
+                        task['id'] as String, id);
+                    if (response != null) {
+                      submitted++;
+                      if (response['status'] == 'graded' &&
+                          response['grade'] is num) {
+                        graded++;
+                        sum += (response['grade'] as num).round();
+                      }
+                    }
+                  }
+                }
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(group['name'] as String,
+                      style: Theme.of(context).textTheme.titleMedium),
+                    const SizedBox(height: 8),
+                    Text('Учениц: ${pupils.length} · Заданий назначено: $assigned'),
+                    Text('Отправлено: $submitted · Проверено: $graded'),
+                    Text('Средняя оценка проверенных: ${graded == 0
+                        ? "—" : "${(sum / graded).round()}/100"}'),
+                    const SizedBox(height: 9),
+                    LinearProgressIndicator(
+                      value: assigned == 0 ? 0 : submitted / assigned,
+                      minHeight: 6,
+                      borderRadius: BorderRadius.circular(8),
+                      color: DesignTokens.olive,
+                      backgroundColor: DesignTokens.beige,
+                    ),
+                    const SizedBox(height: 10),
+                    for (final pupil in pupils)
+                      ListTile(
+                        contentPadding: EdgeInsets.zero,
+                        leading: const Icon(Icons.person_outline,
+                          color: DesignTokens.deepOlive),
+                        title: Text(pupil['name'] as String),
+                        subtitle: Text(
+                          'Сдано ${school.homeworkFor(pupil['id'] as String)
+                              .where((task) => school.submissionFor(
+                                task['id'] as String,
+                                pupil['id'] as String) != null).length} из '
+                          '${school.homeworkFor(pupil['id'] as String).length} · '
+                          'Уроков: ${school.studentResults(
+                            pupil['id'] as String).length}'),
+                        trailing: const Icon(Icons.chevron_right),
+                        onTap: () => _open(DemoStudentDetails(
+                          school: school, learning: widget.learning,
+                          studentId: pupil['id'] as String,
+                          onAssign: () => _createAssignment(
+                            groupId: group['id'] as String,
+                            studentId: pupil['id'] as String,
+                          ),
+                        )),
+                      ),
+                  ],
+                );
+              }),
+            ),
+          ),
+      ],
+    );
+  }
+
   @override
   Widget build(BuildContext context) => AnimatedBuilder(
     animation: school,
@@ -529,6 +617,13 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
             icon: const Icon(Icons.group_add_outlined), label: const Text('Группа')),
         ]),
         const SizedBox(height: 14),
+        FilledButton.icon(
+          key: const ValueKey('teacher-exercise-builder'),
+          icon: const Icon(Icons.post_add_outlined),
+          label: const Text('Создать урок, викторину или контрольную'),
+          onPressed: () => _open(TeacherEditor(state: widget.learning)),
+        ),
+        const SizedBox(height: 8),
         OutlinedButton.icon(
           icon: const Icon(Icons.edit_note_outlined),
           label: const Text('Редактор уроков и материалов'),
@@ -544,6 +639,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
             for (final tab in [
               ('groups', 'Группы', Icons.groups_outlined),
               ('submissions', 'Работы', Icons.fact_check_outlined),
+              ('reports', 'Отчёты', Icons.bar_chart_outlined),
               ('sessions', 'Эфиры', Icons.video_call_outlined),
               ('notices', 'Уведомления', Icons.notifications_outlined),
             ])
@@ -560,6 +656,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
         const SizedBox(height: 14),
         if (section == 'groups') _groups(),
         if (section == 'submissions') _submissions(),
+        if (section == 'reports') _reports(),
         if (section == 'sessions') _sessions(),
         if (section == 'notices') _notices(),
       ],
