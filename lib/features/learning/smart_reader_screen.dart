@@ -7,6 +7,7 @@ import '../../services/lesson_audio_library.dart';
 import '../../features/exercises/arabic_normalization.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
+import '../../ui/dialogue_scene_illustration.dart';
 
 /// Uses only the selected catalog lesson; no synthetic or unverified
 /// translations are shown for words missing from that lesson's vocabulary.
@@ -299,6 +300,12 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
         children: [
           Text(widget.lesson['title']?.toString() ?? '',
             style: Theme.of(context).textTheme.titleLarge),
+          if (DialogueSceneIllustration.sceneFor(
+              widget.lesson['title']?.toString() ?? '') != null) ...[
+            const SizedBox(height: 10),
+            DialogueSceneIllustration(
+              setting: widget.lesson['title']?.toString() ?? ''),
+          ],
           const SizedBox(height: 8),
           const Text('Нажмите арабское слово, чтобы узнать перевод '
             'и прослушать произношение.',
