@@ -38,12 +38,14 @@ class DemoSchoolScreen extends StatefulWidget {
     required this.backend,
     this.initialSection = 'groups',
     this.compactEmbedded = false,
+    this.compactOverview = false,
   });
   final DemoSchoolStore school;
   final AcademyState learning;
   final BackendService backend;
   final String initialSection;
   final bool compactEmbedded;
+  final bool compactOverview;
 
   @override
   State<DemoSchoolScreen> createState() => _DemoSchoolScreenState();
@@ -654,6 +656,19 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
             section == 'reports' ? 'Отчёты и статистика' :
             section == 'sessions' ? 'Прямые эфиры' : 'Уведомления',
             style: Theme.of(context).textTheme.titleLarge),
+          const SizedBox(height: 10),
+          if (section == 'groups')
+            OutlinedButton.icon(
+              onPressed: _addGroup,
+              icon: const Icon(Icons.add),
+              label: const Text('Добавить группу'),
+            ),
+          if (section == 'submissions')
+            OutlinedButton.icon(
+              onPressed: () => _createAssignment(),
+              icon: const Icon(Icons.add_task_outlined),
+              label: const Text('Создать задание'),
+            ),
           const SizedBox(height: 12),
         ],
         if (!widget.compactEmbedded) ...[
@@ -731,7 +746,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
         // Actions live in the plus-menu above: groups and learner statuses
         // should be visible immediately without scrolling beneath the nav.
 
-        SingleChildScrollView(
+        if (!widget.compactOverview) SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(children: [
             for (final tab in [
