@@ -37,6 +37,8 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
   bool _hintUsed = false;
   bool _wasCorrect = false;
   bool _saving = false;
+  int? _confidence;
+  final Stopwatch _recallTimer = Stopwatch();
   String? _choice;
 
   @override
@@ -46,6 +48,7 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
       lessonId: widget.lessonId,
       newLimit: LearningInsights.reviewGoal(widget.state));
     _all = VocabularyPractice.words(widget.state, lessonId: widget.lessonId);
+    _recallTimer.start();
     _tasks = [
       for (var i = 0; i < _plan.words.length; i++)
         _TrainingItem(
@@ -88,6 +91,7 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
     setState(() {
       _wasCorrect = correct && !_hintUsed;
       _checked = true;
+      _recallTimer.stop();
     });
   }
 
@@ -96,6 +100,7 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
     setState(() {
       _wasCorrect = recalled;
       _checked = true;
+      _recallTimer.stop();
     });
   }
 
@@ -105,7 +110,11 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
     final task = _task;
     try {
       if (!task.retry) {
-        await widget.state.reviewWord(task.word.id, _wasCorrect);
+        await widget.state.reviewWord(
+          task.word.id, _wasCorrect,
+          responseMillis: _recallTimer.elapsedMilliseconds,
+          confidence: _wasCorrect ? (_confidence ?? 4) : 0,
+        );
       }
       if (!mounted) return;
       setState(() {
@@ -124,6 +133,10 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
           }
         }
         _position++;
+        _confidence = null;
+        _recallTimer
+          ..reset()
+          ..start();
         _checked = false;
         _hintUsed = false;
         _wasCorrect = false;
@@ -302,6 +315,24 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
               ],
             ),
           ),
+          if (_wasCorrect && !task.retry) ...[
+            const SizedBox(height: 9),
+            const Text('Насколько уверенно вспомнили?',
+              style: TextStyle(fontWeight: FontWeight.w600)),
+            const SizedBox(height: 7),
+            Wrap(spacing: 8, runSpacing: 6, children: [
+              ChoiceChip(
+                label: const Text('С сомнением'),
+                selected: _confidence == 2,
+                onSelected: (_) => setState(() => _confidence = 2),
+              ),
+              ChoiceChip(
+                label: const Text('Уверенно'),
+                selected: _confidence == 5,
+                onSelected: (_) => setState(() => _confidence = 5),
+              ),
+            ]),
+          ],
           const SizedBox(height: 10),
           FilledButton(
             key: const ValueKey('practice-next'),
