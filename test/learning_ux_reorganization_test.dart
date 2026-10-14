@@ -115,7 +115,10 @@ void main() {
     await tester.pumpAndSettle();
     for (final group in ['Слова', 'Письмо и грамматика',
         'Слушаю и говорю', 'Проверяю']) {
-      expect(find.text(group), findsOneWidget);
+      final target = find.text(group);
+      await tester.scrollUntilVisible(target, 190,
+        scrollable: find.byType(Scrollable).first);
+      expect(target, findsOneWidget);
     }
   });
 }
