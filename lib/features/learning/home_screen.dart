@@ -20,6 +20,7 @@ import '../teacher/demo_school_store.dart';
 import '../teacher/demo_school_screen.dart';
 import '../teacher/demo_student_screen.dart';
 import '../teacher/remote_school_screen.dart';
+import '../teacher/teacher_tools_screen.dart';
 import 'course_screen.dart';
 import 'lesson_screen.dart';
 import 'library_screens.dart';
@@ -38,11 +39,13 @@ class HomeScreen extends StatefulWidget {
     required this.state,
     this.backend,
     this.navigationTab,
+    this.teacherNavigationMode,
     this.showEmbeddedNavigation = true,
   });
   final AcademyState state;
   final BackendService? backend;
   final ValueNotifier<int>? navigationTab;
+  final ValueNotifier<bool>? teacherNavigationMode;
   final bool showEmbeddedNavigation;
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -54,6 +57,16 @@ class _HomeScreenState extends State<HomeScreen> {
   String? _accountId;
   Future<ServerRole>? _role;
   bool _demoTeacher = false;
+  bool _serverTeacher = false;
+  bool get _teacherLayout => _backend.isAuthenticated
+      ? _serverTeacher : _demoTeacher;
+  void _syncTeacherNavigation() {
+    final notifier = widget.teacherNavigationMode;
+    if (notifier != null && notifier.value != _teacherLayout) {
+      notifier.value = _teacherLayout;
+    }
+  }
+
   late final DemoSchoolStore _demoSchool;
   late final LearningSync _sync = LearningSync(_backend);
   Timer? _syncTimer;
@@ -116,8 +129,21 @@ class _HomeScreenState extends State<HomeScreen> {
           if (_accountState != null) unawaited(_synchronize(_accountState!));
         });
       }
+      _serverTeacher = false;
       _role = _accountId == null ? null : _backend.loadRole();
       _demoTeacher = false;
+      _syncTeacherNavigation();
+      final account = _accountId;
+      _role?.then((role) {
+        if (!mounted || account != _accountId) return;
+        final teacher = role == ServerRole.teacher || role == ServerRole.admin;
+        if (_serverTeacher != teacher) {
+          setState(() => _serverTeacher = teacher);
+        }
+        _syncTeacherNavigation();
+      }, onError: (Object error, StackTrace stack) {
+        // The FutureBuilder exposes the server role error in the main view.
+      });
       _tab = 0;
       _tabHistory.clear();
     }
@@ -211,6 +237,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _tab = 0;
     });
     widget.navigationTab?.value = 0;
+    _syncTeacherNavigation();
     return true;
   }
 
@@ -264,23 +291,36 @@ class _HomeScreenState extends State<HomeScreen> {
     canPop: false,
     onPopInvokedWithResult: _handleRootBack,
     child: Scaffold(
-    appBar: _tab == 1 || _tab == 2
+    appBar: !_teacherLayout && (_tab == 1 || _tab == 2)
         ? null
         : AppBar(
             centerTitle: false,
-            title: const Text(
-              'Байна Ядайк',
+            title: Text(
+              _teacherLayout ? 'Учительница · Байна Ядайк' : 'Байна Ядайк',
               style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800),
             ),
             actions: [
               IconButton(
                 tooltip: tr(context, 'Уведомления'),
                 icon: const Icon(Icons.notifications_none),
-                onPressed: () => _open(_backend.isAuthenticated
-                    ? NotificationsScreen(backend: _backend)
-                    : DemoStudentSchoolScreen(
-                        school: _demoSchool, learning: state,
-                        initialTab: 'notices')),
+                onPressed: () => _open(_teacherLayout
+                    ? _backend.isAuthenticated
+                        ? TeacherToolsScreen(
+                            state: state, school: _demoSchool,
+                            backend: _backend, online: true)
+                        : Scaffold(
+                            appBar: AppBar(title: const Text('Уведомления ученицам')),
+                            body: DemoSchoolScreen(
+                              school: _demoSchool, learning: state,
+                              backend: _backend, initialSection: 'notices',
+                              compactEmbedded: true,
+                            ),
+                          )
+                    : _backend.isAuthenticated
+                        ? NotificationsScreen(backend: _backend)
+                        : DemoStudentSchoolScreen(
+                            school: _demoSchool, learning: state,
+                            initialTab: 'notices')),
               ),
               IconButton(
                 tooltip: tr(context, 'Настройки'),
@@ -320,22 +360,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 if (!snapshot.hasData) {
                   return const Center(child: CircularProgressIndicator());
                 }
-                if (_tab == 0 &&
-                    [
-                      ServerRole.teacher,
-                      ServerRole.admin,
-                    ].contains(snapshot.data)) {
-                  return RemoteSchoolScreen(backend: _backend, embedded: true);
+                if ([ServerRole.teacher, ServerRole.admin]
+                    .contains(snapshot.data)) {
+                  return _onlineTeacherPage();
                 }
                 return _page();
               },
             );
           }
-          if (_demoTeacher && _tab == 0) {
-            return DemoSchoolScreen(
-              school: _demoSchool, learning: state, backend: _backend,
-            );
-          }
+          if (_demoTeacher) return _demoTeacherPage();
           return _page();
         },
       ),
@@ -345,27 +378,78 @@ class _HomeScreenState extends State<HomeScreen> {
         : NavigationBar(
       selectedIndex: _tab,
       onDestinationSelected: _setTab,
-      destinations: [
-        NavigationDestination(
-          icon: const ArtworkIcon('home', size: 29),
-          label: tr(context, 'Главная'),
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.menu_book_outlined),
-          label: tr(context, 'Уроки'),
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.search_outlined),
-          label: tr(context, 'Поиск'),
-        ),
-        NavigationDestination(
-          icon: const ArtworkIcon('profile', size: 29),
-          label: tr(context, 'Профиль'),
-        ),
-      ],
+      destinations: _teacherLayout
+          ? const [
+              NavigationDestination(icon: Icon(Icons.dashboard_outlined),
+                label: 'Обзор'),
+              NavigationDestination(icon: Icon(Icons.groups_2_outlined),
+                label: 'Группы'),
+              NavigationDestination(icon: Icon(Icons.fact_check_outlined),
+                label: 'Работы'),
+              NavigationDestination(icon: Icon(Icons.grid_view_rounded),
+                label: 'Меню'),
+            ]
+          : [
+              NavigationDestination(
+                icon: const ArtworkIcon('home', size: 29),
+                label: tr(context, 'Главная'),
+              ),
+              NavigationDestination(
+                icon: const Icon(Icons.menu_book_outlined),
+                label: tr(context, 'Уроки'),
+              ),
+              NavigationDestination(
+                icon: const Icon(Icons.search_outlined),
+                label: tr(context, 'Поиск'),
+              ),
+              NavigationDestination(
+                icon: const ArtworkIcon('profile', size: 29),
+                label: tr(context, 'Профиль'),
+              ),
+            ],
     ),
     ),
   );
+
+  Widget _demoTeacherPage() => switch (_tab) {
+    1 => DemoSchoolScreen(
+      key: const ValueKey('teacher-groups-tab'),
+      school: _demoSchool, learning: state, backend: _backend,
+      initialSection: 'groups', compactEmbedded: true,
+    ),
+    2 => DemoSchoolScreen(
+      key: const ValueKey('teacher-works-tab'),
+      school: _demoSchool, learning: state, backend: _backend,
+      initialSection: 'submissions', compactEmbedded: true,
+    ),
+    3 => TeacherToolsScreen(
+      state: state, school: _demoSchool, backend: _backend,
+      onDemoRoleChanged: _pickDemoRole,
+    ),
+    _ => DemoSchoolScreen(
+      key: const ValueKey('teacher-overview-tab'),
+      school: _demoSchool, learning: state, backend: _backend,
+    ),
+  };
+
+  Widget _onlineTeacherPage() => switch (_tab) {
+    1 => RemoteSchoolScreen(
+      backend: _backend, embedded: true,
+      initialArea: 'groups', compactEmbedded: true,
+    ),
+    2 => RemoteSchoolScreen(
+      backend: _backend, embedded: true,
+      initialArea: 'reports', compactEmbedded: true,
+    ),
+    3 => TeacherToolsScreen(
+      state: state, school: _demoSchool,
+      backend: _backend, online: true,
+    ),
+    _ => RemoteSchoolScreen(
+      backend: _backend, embedded: true,
+      initialArea: 'catalog', compactEmbedded: false,
+    ),
+  };
 
   Widget _page() => switch (_tab) {
     1 => UnitScreen(state: state, backend: _backend),
