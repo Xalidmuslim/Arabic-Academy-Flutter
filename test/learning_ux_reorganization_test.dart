@@ -4,6 +4,8 @@ import 'package:arabic_academy/features/learning/lesson_screen.dart';
 import 'package:arabic_academy/features/learning/practice_center_screen.dart';
 import 'package:arabic_academy/features/learning/words_hub_screen.dart';
 import 'package:arabic_academy/ui/floating_navigation.dart';
+import 'package:arabic_academy/ui/dialogue_scene_illustration.dart';
+import 'package:arabic_academy/ui/semantic_object_artwork.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -49,6 +51,10 @@ void main() {
     }
     expect(find.descendant(of: nav, matching: find.text('Поиск')),
         findsNothing);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('home-practice-entry')), 230,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.byKey(const ValueKey('home-practice-entry')), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('study-tab-2')));
     await tester.pumpAndSettle();
@@ -57,6 +63,20 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('study-tab-3')));
     await tester.pumpAndSettle();
     expect(find.text('Ученица · локальное обучение'), findsOneWidget);
+  });
+
+  test('dialogue scene assets correspond only to known educational contexts', () {
+    expect(DialogueSceneIllustration.sceneFor('В магазине'), 'shop');
+    expect(DialogueSceneIllustration.sceneFor('Предметы класса'), 'classroom');
+    expect(DialogueSceneIllustration.sceneFor('В доме'), 'home');
+    expect(DialogueSceneIllustration.sceneFor('Случайная тема'), isNull);
+  });
+
+  testWidgets('recognized words show original illustrations', (tester) async {
+    final state = await makeState();
+    await tester.pumpWidget(MaterialApp(home: WordsHubScreen(state: state)));
+    await tester.pumpAndSettle();
+    expect(find.byType(SemanticObjectArtwork), findsWidgets);
   });
 
   testWidgets('word study, test and reviews live in a single entry', (tester) async {
