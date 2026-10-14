@@ -384,7 +384,9 @@
       ],
       "correct": 1,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u2_d2_siblings.webp",
+      "dialogue_illustration_format": "four_by_three"
     },
     {
       "id": "book1-u2-d3",
@@ -628,7 +630,9 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u3_d3_furniture.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u4-d1",
@@ -872,7 +876,9 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u5_d1_market.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u5-d2",
@@ -933,7 +939,9 @@
       ],
       "correct": 1,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u5_d2_lunch.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u5-d3",
@@ -994,7 +1002,9 @@
       ],
       "correct": 2,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u5_d3_tea.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u6-d1",
@@ -1116,7 +1126,9 @@
       ],
       "correct": 2,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u6_d2_mosque_route.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u6-d3",
@@ -1238,7 +1250,9 @@
       ],
       "correct": 2,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u7_d1_class.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u7-d2",
@@ -1299,7 +1313,9 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u7_d2_homework.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u7-d3",
