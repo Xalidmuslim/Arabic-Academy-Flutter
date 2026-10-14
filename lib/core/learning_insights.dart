@@ -25,6 +25,7 @@ abstract final class LearningInsights {
     'reading': 'Чтение',
     'writing': 'Письмо',
     'dialogue': 'Диалог',
+    'pronunciation': 'Произношение',
   };
 
   static String? classify(Map<String, dynamic> attempt) {
@@ -43,6 +44,7 @@ abstract final class LearningInsights {
       if (id.startsWith('practice:exam:')) return null;
     }
     if (id.startsWith('handwriting:')) return 'writing';
+    if (id.startsWith('pronunciation:')) return 'pronunciation';
     if (id.startsWith('reader:')) return 'reading';
     if (id.startsWith('voice:')) return 'listening';
     return null;
