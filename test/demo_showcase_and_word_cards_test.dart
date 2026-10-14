@@ -1,4 +1,6 @@
+import 'dart:typed_data';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:arabic_academy/services/teacher_word_image_store.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/core/academy_state.dart';
 import 'package:arabic_academy/core/vocabulary_practice.dart';
@@ -33,6 +35,17 @@ void main() {
     final restored = DemoSchoolStore(prefs);
     addTearDown(restored.dispose);
     expect(restored.skillAssessments.length, rubricCount);
+  });
+
+  test('picture import validates actual image bytes and rejects oversized files', () {
+    expect(TeacherWordImageStore.extension(Uint8List.fromList(
+      [137, 80, 78, 71, 13, 10, 26, 10, 0, 0])), 'png');
+    expect(TeacherWordImageStore.extension(Uint8List.fromList(
+      [255, 216, 255, 224])), 'jpg');
+    expect(() => TeacherWordImageStore.extension(Uint8List.fromList(
+      [47, 47, 47, 0, 0])), throwsFormatException);
+    expect(() => TeacherWordImageStore.extension(Uint8List(2 * 1024 * 1024 + 1)),
+      throwsFormatException);
   });
 
   test('teacher card picture path is propagated into vocabulary practice', () async {
