@@ -5,6 +5,7 @@ import '../../core/practice_generator.dart';
 import '../../core/speech.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
+import '../../ui/dialogue_scene_illustration.dart';
 
 /// Context-preserving, branching practice: a correct choice advances the
 /// course dialogue, a mistake branches into listening/repair, and a completed
@@ -162,6 +163,12 @@ class _DialogueJourneyScreenState extends State<DialogueJourneyScreen> {
         children: [
           Text(_lesson['title']?.toString() ?? '',
             style: Theme.of(context).textTheme.titleLarge),
+          if (DialogueSceneIllustration.sceneFor(
+              _lesson['title']?.toString() ?? '') != null) ...[
+            const SizedBox(height: 10),
+            DialogueSceneIllustration(
+              setting: _lesson['title']?.toString() ?? ''),
+          ],
           const SizedBox(height: 8),
           const Text('Выбирайте следующую реплику. Ошибки открывают '
             'ветку с подсказкой; после завершения можно выбрать '
