@@ -5,6 +5,7 @@ import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'demo_school_store.dart';
+import 'demo_student_screen.dart' show DemoLiveRoomScreen;
 import 'teacher_dashboard.dart';
 
 String _demoDate(Object? input) {
@@ -452,12 +453,22 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                   icon: const Icon(Icons.play_circle_outline),
                   label: const Text('Начать демонстрацию эфира'),
                 ),
-              if (row['status'] == 'live')
+              if (row['status'] == 'live') ...[
+                FilledButton.icon(
+                  onPressed: () => _open(DemoLiveRoomScreen(
+                    school: school, sessionId: row['id'] as String,
+                    isTeacher: true,
+                  )),
+                  icon: const Icon(Icons.meeting_room_outlined),
+                  label: const Text('Открыть демокомнату'),
+                ),
+                const SizedBox(height: 8),
                 OutlinedButton(
                   onPressed: () => guardedAction(context, () =>
                       school.setLiveStatus(row['id'] as String, 'ended')),
                   child: const Text('Завершить демонстрацию'),
                 ),
+              ],
             ],
           )),
         ),
@@ -700,8 +711,24 @@ class DemoStudentDetails extends StatelessWidget {
                     color: DesignTokens.olive),
                 title: Text(catalog.where((x) => x['id'] == id).isEmpty ? id :
                     catalog.firstWhere((x) => x['id'] == id)['title'].toString()),
-                subtitle: const Text('Завершён'),
+                subtitle: Text(school.studentResults(studentId).where(
+                  (result) => result['lesson_id'] == id,
+                ).isEmpty ? 'Завершён на этом устройстве' :
+                  'Демооценка: ${school.studentResults(studentId).firstWhere(
+                    (result) => result['lesson_id'] == id,
+                  )['score']}/100'),
               ),
+            if (studentId == 's1' && learning.attempts.isNotEmpty) ...[
+              const SectionTitle('Тесты и упражнения'),
+              for (final attempt in learning.attempts.reversed.take(10))
+                ListTile(
+                  leading: const Icon(Icons.fact_check_outlined,
+                    color: DesignTokens.olive),
+                  title: Text(attempt['exercise_id']?.toString() ?? 'Упражнение'),
+                  subtitle: Text('Результат: ${attempt['status'] ?? 'не указан'} · '
+                    '${attempt['points'] ?? 0} баллов'),
+                ),
+            ],
             const SectionTitle('Домашние задания и проверки'),
             for (final assignment in assigned)
               Padding(
