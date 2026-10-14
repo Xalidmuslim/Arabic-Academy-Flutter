@@ -134,5 +134,12 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Выберите кабинет'), findsOneWidget);
     expect(find.byType(FloatingStudyNavigation), findsNothing);
+    final teacher = find.text('Учительница').last;
+    await tester.ensureVisible(teacher);
+    await tester.tap(teacher);
+    await tester.pumpAndSettle();
+    expect(find.text('Кабинет учительницы'), findsOneWidget);
+    final prefs = await SharedPreferences.getInstance();
+    expect(prefs.getBool('demo_role_teacher'), isTrue);
   });
 }
