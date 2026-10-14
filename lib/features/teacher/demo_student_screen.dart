@@ -4,6 +4,7 @@ import '../../core/academy_state.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'demo_school_store.dart';
+import 'demo_voice_homework.dart';
 
 String _readableDate(Object? value) {
   final date = DateTime.tryParse(value?.toString() ?? '')?.toLocal();
@@ -85,7 +86,7 @@ class _DemoStudentSchoolScreenState extends State<DemoStudentSchoolScreen> {
     final controller = TextEditingController(
       text: previous?['answer'] as String? ?? '',
     );
-    final send = await showDialog<bool>(
+    final send = await showDialog<String>(
       context: context,
       builder: (ctx) => AlertDialog(
         title: Text(assignment['title'] as String),
@@ -119,22 +120,38 @@ class _DemoStudentSchoolScreenState extends State<DemoStudentSchoolScreen> {
           ),
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(ctx, false),
+          TextButton(onPressed: () => Navigator.pop(ctx),
               child: const Text('Отмена')),
+          TextButton.icon(
+            icon: const Icon(Icons.mic_none_outlined),
+            onPressed: () => Navigator.pop(ctx, 'voice'),
+            label: const Text('Голосом'),
+          ),
           FilledButton.icon(
             icon: const Icon(Icons.send_outlined),
-            onPressed: () => Navigator.pop(ctx, true),
-            label: const Text('Отправить учительнице'),
+            onPressed: () => Navigator.pop(ctx, 'text'),
+            label: const Text('Отправить'),
           ),
         ],
       ),
     );
-    if (send == true && mounted) {
-      await guardedAction(context, () => widget.school.submit(
-        assignmentId: assignment['id'] as String,
-        studentId: studentId, answer: controller.text,
-      ));
+    if (send == null || !mounted) return;
+    String? audioPath;
+    if (send == 'voice') {
+      audioPath = await Navigator.push<String>(
+        context,
+        MaterialPageRoute<String>(builder: (_) =>
+          const DemoVoiceRecorderScreen(title: 'Ответ ученицы · аудио')),
+      );
+      if (audioPath == null || !mounted) return;
     }
+    if (!mounted) return;
+    await guardedAction(context, () => widget.school.submit(
+      assignmentId: assignment['id'] as String,
+      studentId: studentId,
+      answer: send == 'text' ? controller.text : '',
+      audioPath: audioPath,
+    ));
   }
 
   Widget _assignment(Map<String, dynamic> row, String studentId) {
@@ -160,6 +177,11 @@ class _DemoStudentSchoolScreenState extends State<DemoStudentSchoolScreen> {
               style: const TextStyle(fontSize: 12, color: DesignTokens.secondary)),
           Text('Срок: ${_readableDate(row['due_at'])}',
               style: const TextStyle(fontSize: 12, color: DesignTokens.secondary)),
+          if ((row['audio_path'] as String?)?.isNotEmpty == true)
+            DemoVoicePlayback(
+              path: row['audio_path'] as String?,
+              title: 'Прослушать голосовое условие учительницы',
+            ),
           const SizedBox(height: 10),
           Text(switch (status) {
             'submitted' => 'Отправлено · ожидает проверки',
@@ -168,6 +190,16 @@ class _DemoStudentSchoolScreenState extends State<DemoStudentSchoolScreen> {
             _ => 'Ожидает выполнения',
           }, style: const TextStyle(
             color: DesignTokens.deepOlive, fontWeight: FontWeight.w700)),
+          if ((submission?['audio_path'] as String?)?.isNotEmpty == true)
+            DemoVoicePlayback(
+              path: submission?['audio_path'] as String?,
+              title: 'Прослушать свой голосовой ответ',
+            ),
+          if ((submission?['feedback_audio_path'] as String?)?.isNotEmpty == true)
+            DemoVoicePlayback(
+              path: submission?['feedback_audio_path'] as String?,
+              title: 'Прослушать голосовой комментарий учительницы',
+            ),
           if ((submission?['feedback'] as String?)?.isNotEmpty == true) ...[
             const SizedBox(height: 6),
             Text('Комментарий: ${submission?['feedback']}'),
