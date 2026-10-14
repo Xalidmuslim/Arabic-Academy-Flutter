@@ -855,6 +855,36 @@ class _DemoGroupDetails extends StatelessWidget {
   );
 }
 
+String _exerciseTitle(String? id) {
+  if (id == null || id.isEmpty) return 'Упражнение';
+  if (id.endsWith('-check')) return 'Проверка понимания диалога';
+  if (id.startsWith('practice:dialogue:')) {
+    final number = int.tryParse(id.split(':').last);
+    return number == null ? 'Практика диалога'
+        : 'Практика диалога · реплика ${number + 1}';
+  }
+  if (id.startsWith('practice:')) {
+    final skill = id.split(':')[1];
+    const labels = {
+      'quiz': 'Слова · викторина',
+      'missingWord': 'Пропущенное слово',
+      'dictation': 'Диктант',
+      'sentence': 'Грамматика · предложение',
+      'illustrations': 'Слово и рисунок',
+      'exam': 'Проверочная работа',
+    };
+    return labels[skill] ?? 'Практика · упражнение';
+  }
+  return id.startsWith('handwriting:') ? 'Письмо арабских букв' : 'Упражнение';
+}
+
+String _attemptStatus(String? status) => switch (status) {
+  'correct' => 'Верно',
+  'incorrect' => 'Ошибка',
+  'needsReview' => 'Нужна проверка',
+  _ => 'Результат не указан',
+};
+
 class DemoStudentDetails extends StatelessWidget {
   const DemoStudentDetails({
     super.key,
@@ -883,6 +913,7 @@ class DemoStudentDetails extends StatelessWidget {
           (id) => catalog.any((lesson) => lesson['id'] == id),
         ).length;
         return ListView(
+          key: PageStorageKey<String>('student-detail-$studentId'),
           padding: const EdgeInsets.fromLTRB(18, 16, 18, 150),
           children: [
             Panel(child: Column(
@@ -938,14 +969,42 @@ class DemoStudentDetails extends StatelessWidget {
               ),
             if (studentId == 's1' && learning.attempts.isNotEmpty) ...[
               const SectionTitle('Тесты и упражнения'),
-              for (final attempt in learning.attempts.reversed.take(10))
-                ListTile(
-                  leading: const Icon(Icons.fact_check_outlined,
-                    color: DesignTokens.olive),
-                  title: Text(attempt['exercise_id']?.toString() ?? 'Упражнение'),
-                  subtitle: Text('Результат: ${attempt['status'] ?? 'не указан'} · '
-                    '${attempt['points'] ?? 0} баллов'),
-                ),
+              Panel(child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  for (final attempt in learning.attempts.reversed.take(10))
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 6),
+                      child: Row(children: [
+                        Icon(
+                          attempt['status'] == 'correct'
+                            ? Icons.check_circle_outline
+                            : attempt['status'] == 'incorrect'
+                              ? Icons.error_outline
+                              : Icons.pending_outlined,
+                          size: 20,
+                          color: attempt['status'] == 'correct'
+                              ? DesignTokens.deepOlive
+                              : Theme.of(context).colorScheme.error,
+                        ),
+                        const SizedBox(width: 10),
+                        Expanded(child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(_exerciseTitle(attempt['exercise_id']?.toString()),
+                              maxLines: 1, overflow: TextOverflow.ellipsis,
+                              style: const TextStyle(
+                                fontSize: 13, fontWeight: FontWeight.w700)),
+                            Text(_attemptStatus(attempt['status']?.toString()),
+                              style: const TextStyle(fontSize: 11)),
+                          ],
+                        )),
+                        Text('${attempt['points'] ?? 0} б.',
+                          style: const TextStyle(fontWeight: FontWeight.w700)),
+                      ]),
+                    ),
+                ],
+              )),
             ],
             const SectionTitle('Домашние задания и проверки'),
             for (final assignment in assigned)
