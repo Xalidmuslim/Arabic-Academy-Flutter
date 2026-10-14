@@ -22,8 +22,16 @@ void main() {
     await tester.pumpWidget(AcademyApp(state: state));
     await tester.pump();
     expect(find.byType(FloatingStudyNavigation), findsOneWidget);
-    final root = tester.widgetList<Scaffold>(find.byType(Scaffold)).first;
-    expect(root.extendBody, isTrue);
+    // The navigation is now a real overlay, not an opaque Scaffold slot.
+    final overlay = tester.widget<Positioned>(
+      find.ancestor(
+        of: find.byType(FloatingStudyNavigation),
+        matching: find.byType(Positioned),
+      ).first,
+    );
+    expect(overlay.bottom, 0);
+    expect(overlay.left, 0);
+    expect(overlay.right, 0);
 
     await tester.tap(find.byKey(const ValueKey('study-tab-3')));
     await tester.pump();
