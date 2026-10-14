@@ -14,24 +14,26 @@ class DialogueSceneIllustration extends StatelessWidget {
   static String? sceneFor(String input) {
     final text = input.toLowerCase();
     if (['магазин', 'покуп', 'рынок', 'سوق', 'متجر']
-        .any(text.contains)) return 'shop';
+        .any(text.contains)) { return 'shop'; }
     if (['школ', 'класс', 'учител', 'مدرس', 'فصل', 'صف']
-        .any(text.contains)) return 'classroom';
+        .any(text.contains)) { return 'classroom'; }
     if (['дом', 'семь', 'кухн', 'بيت', 'أسرة', 'عائلة']
-        .any(text.contains)) return 'home';
+        .any(text.contains)) { return 'home'; }
     if (['дорог', 'улиц', 'путь', 'طريق', 'شارع']
-        .any(text.contains)) return 'street';
+        .any(text.contains)) { return 'street'; }
     if (['библиот', 'книг', 'كتاب', 'مكتبة']
-        .any(text.contains)) return 'books';
+        .any(text.contains)) { return 'books'; }
     if (['знаком', 'привет', 'встреч', 'تعارف', 'سلام']
-        .any(text.contains)) return 'greeting';
+        .any(text.contains)) { return 'greeting'; }
     return null;
   }
 
   @override
   Widget build(BuildContext context) {
     final scene = sceneFor(setting);
-    if (scene == null) return const SizedBox.shrink();
+    if (scene == null) {
+      return const SizedBox.shrink();
+    }
     return Semantics(
       label: 'Оригинальная учебная иллюстрация: $setting. '
           'Персонажи изображены без черт лица.',
