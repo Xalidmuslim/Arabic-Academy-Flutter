@@ -70,16 +70,22 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
         status: 'needsReview',
         points: 0,
       );
-      if (mounted) setState(() {
-        _savedCount++;
-        _strokes = [];
-      });
-      if (mounted) notice(context,
-        'Тренировка сохранена. Сравните свою букву с образцом.');
+      if (mounted) {
+        setState(() {
+          _savedCount++;
+          _strokes = [];
+        });
+        notice(context,
+          'Тренировка сохранена. Сравните свою букву с образцом.');
+      }
     } catch (error) {
-      if (mounted) notice(context, 'Не удалось сохранить: $error');
+      if (mounted) {
+        notice(context, 'Не удалось сохранить: $error');
+      }
     } finally {
-      if (mounted) setState(() => _saving = false);
+      if (mounted) {
+        setState(() => _saving = false);
+      }
     }
   }
 
