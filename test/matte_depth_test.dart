@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('soft matte cards have no gradients, rims, or hard sidewall', (
+  testWidgets('soft matte cards have warm relief and subtle pale edges', (
     tester,
   ) async {
     await tester.pumpWidget(const MaterialApp(
@@ -15,15 +15,16 @@ void main() {
     expect(surface, findsOneWidget);
     final outer = tester.widget<DecoratedBox>(surface);
     final decor = outer.decoration as BoxDecoration;
-    expect(decor.color, const Color(0xFFF5ECDF));
+    expect(decor.color, const Color(0xFFFBF7EF));
     expect(decor.gradient, isNull);
-    expect(decor.border, isNull);
+    expect(decor.border, isNotNull);
+    expect(decor.border!.top.color, const Color(0xE6FFFFFF));
     expect(decor.boxShadow, hasLength(2));
     expect(decor.boxShadow!.first.offset.dy, greaterThan(0));
     expect(decor.boxShadow!.last.blurRadius, greaterThan(20));
   });
 
-  testWidgets('primary tiles have three shadow layers without outlines', (tester) async {
+  testWidgets('primary tiles have three softened shadow layers and a light edge', (tester) async {
     await tester.pumpWidget(MaterialApp(
       home: Scaffold(
         body: SizedBox(
@@ -39,9 +40,9 @@ void main() {
       find.byKey(const ValueKey('matte-3d-surface')),
     );
     final decoration = surface.decoration as BoxDecoration;
-    expect(decoration.color, const Color(0xFFF5ECDF));
+    expect(decoration.color, const Color(0xFFFBF7EF));
     expect(decoration.gradient, isNull);
-    expect(decoration.border, isNull);
+    expect(decoration.border, isNotNull);
     expect(decoration.boxShadow, hasLength(3));
     expect(decoration.boxShadow![0].blurRadius,
         lessThan(decoration.boxShadow![1].blurRadius));
