@@ -85,6 +85,7 @@ class _IllustratedDictionaryScreenState extends State<IllustratedDictionaryScree
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: const Text('Слова в рисунках')),
+    backgroundColor: Theme.of(context).scaffoldBackgroundColor,
     body: AnimatedBuilder(
       animation: widget.state,
       builder: (context, _) {
@@ -101,7 +102,7 @@ class _IllustratedDictionaryScreenState extends State<IllustratedDictionaryScree
             seen.add('${word.ar.toLowerCase()}:${word.ru.toLowerCase()}')
           ).toList();
         return ListView(
-          padding: const EdgeInsets.fromLTRB(18, 12, 18, 32),
+          padding: const EdgeInsets.fromLTRB(18, 12, 18, 175),
           children: [
             const Text('Карточки с проверенными образами и рисунками учительницы. '
               'Новые изображения добавляются в конструкторе карточек.',
