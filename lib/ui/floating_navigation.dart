@@ -3,8 +3,7 @@ import '../core/app_strings.dart';
 import 'design_tokens.dart';
 import 'original_art.dart';
 
-/// Lives *above* the Navigator, so navigating into lessons, settings,
-/// dictionaries and teacher screens cannot remove it.
+/// Visible on root tabs only; NavigatorObserver hides it for detail routes.
 class FloatingStudyNavigation extends StatelessWidget {
   const FloatingStudyNavigation({
     super.key,
@@ -20,13 +19,13 @@ class FloatingStudyNavigation extends StatelessWidget {
     final labels = [
       tr(context, 'Главная'),
       tr(context, 'Уроки'),
-      tr(context, 'Поиск'),
+      tr(context, 'Практика'),
       tr(context, 'Профиль'),
     ];
     final icons = <Widget>[
       const ArtworkIcon('home', size: 26),
       const Icon(Icons.menu_book_outlined, size: 26),
-      const ArtworkIcon('search', size: 26),
+      const Icon(Icons.psychology_alt_outlined, size: 26),
       const ArtworkIcon('profile', size: 26),
     ];
     return SafeArea(
