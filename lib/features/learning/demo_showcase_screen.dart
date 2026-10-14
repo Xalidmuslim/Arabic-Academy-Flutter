@@ -9,7 +9,7 @@ import '../../ui/premium_art.dart';
 import '../teacher/demo_school_store.dart';
 import '../teacher/demo_school_screen.dart';
 import '../teacher/demo_student_screen.dart';
-import '../teacher/teacher_editor.dart';
+import '../teacher/teacher_word_card_studio_screen.dart';
 import 'dialogue_journey_screen.dart';
 import 'handwriting_screen.dart';
 import 'illustrated_dictionary_screen.dart';
@@ -117,14 +117,8 @@ class DemoShowcaseScreen extends StatelessWidget {
               const SizedBox(height: 8),
               OutlinedButton.icon(
                 key: const ValueKey('showcase-word-cards'),
-                onPressed: () => _go(context, TeacherEditor(
-                  state: learning,
-                  original: const {
-                    'title': 'Иллюстрированные карточки',
-                    'published': true, 'free': true,
-                    'vocabulary': <Map<String, dynamic>>[],
-                  },
-                )),
+                onPressed: () => _go(context,
+                  TeacherWordCardStudioScreen(state: learning)),
                 icon: const Icon(Icons.collections_bookmark_outlined),
                 label: const Text('Создать карточки слов'),
               ),
@@ -141,7 +135,7 @@ class DemoShowcaseScreen extends StatelessWidget {
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: compact ? 1 : 2,
               crossAxisSpacing: 12, mainAxisSpacing: 12,
-              childAspectRatio: compact ? 2.15 : .97,
+              childAspectRatio: compact ? 2.05 : .78,
             ),
             itemBuilder: (context, i) {
               final item = entries[i];
