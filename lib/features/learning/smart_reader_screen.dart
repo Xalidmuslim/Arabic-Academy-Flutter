@@ -23,6 +23,8 @@ class SmartReaderScreen extends StatefulWidget {
 class _SmartReaderScreenState extends State<SmartReaderScreen> {
   bool _translations = false;
   int? _activeLine;
+  int? _activeToken;
+  bool _continuous = false;
   double _speed = .50;
 
   List<Map<String, dynamic>> get _lines {
@@ -57,16 +59,67 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
     return null;
   }
 
-  Future<void> _speak(String arabic) => guardedAction(context, () =>
-      ArabicSpeech.speak(
-        arabic,
-        speed: _speed,
-        engine: widget.state.settings['audioEngine'] as String?,
-        voiceName: widget.state.settings['audioVoiceName'] as String?,
-        voiceLocale: widget.state.settings['audioVoiceLocale'] as String?,
-      ));
+  /// Highlights real TTS speech-progress callbacks, not a guessed timer.
+  /// Some Android voices do not expose word offsets: in that case only the
+  /// current phrase is highlighted, without pretending to know timing.
+  Future<void> _speak(String arabic, {int? lineIndex}) async {
+    await guardedAction(context, () => ArabicSpeech.speak(
+      arabic,
+      speed: _speed,
+      engine: widget.state.settings['audioEngine'] as String?,
+      voiceName: widget.state.settings['audioVoiceName'] as String?,
+      voiceLocale: widget.state.settings['audioVoiceLocale'] as String?,
+      onProgress: (start, end, spoken) {
+        if (!mounted || lineIndex == null || _activeLine != lineIndex) {
+          return;
+        }
+        final tokens = RegExp(r'\\S+').allMatches(arabic).toList();
+        final selected = tokens.indexWhere((m) =>
+            start >= m.start && start < m.end);
+        if (selected >= 0 && _activeToken != selected) {
+          setState(() => _activeToken = selected);
+        }
+      },
+      onCompleted: () {
+        if (!mounted || lineIndex == null) return;
+        if (_continuous && _activeLine == lineIndex &&
+            lineIndex + 1 < _lines.length) {
+          _readLine(lineIndex + 1);
+        } else if (_activeLine == lineIndex) {
+          setState(() {
+            _continuous = false;
+            _activeToken = null;
+          });
+        }
+      },
+    ));
+  }
+
+  Future<void> _readLine(int index) async {
+    if (!mounted || index >= _lines.length) return;
+    setState(() {
+      _activeLine = index;
+      _activeToken = null;
+    });
+    await _speak(_lines[index]['ar']?.toString() ?? '', lineIndex: index);
+  }
+
+  Future<void> _toggleDialogue() async {
+    if (_continuous) {
+      await ArabicSpeech.stop();
+      if (mounted) setState(() {
+        _continuous = false;
+        _activeToken = null;
+      });
+      return;
+    }
+    if (_lines.isEmpty) return;
+    setState(() => _continuous = true);
+    await _readLine(0);
+  }
 
   void _wordSheet(String raw) {
+    _continuous = false;
     final word = _findWord(raw);
     showModalBottomSheet<void>(
       context: context,
@@ -111,6 +164,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
 
   @override
   void dispose() {
+    _continuous = false;
     ArabicSpeech.stop();
     super.dispose();
   }
@@ -147,6 +201,15 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
             'от установленного арабского голоса.',
             style: TextStyle(fontSize: 11, color: DesignTokens.secondary)),
           const SizedBox(height: 10),
+          FilledButton.icon(
+            key: const ValueKey('reader-play-dialogue'),
+            onPressed: _lines.isEmpty ? null : _toggleDialogue,
+            icon: Icon(_continuous ? Icons.stop_circle_outlined
+                : Icons.play_circle_outline),
+            label: Text(_continuous ? 'Остановить диалог'
+                : 'Прослушать диалог по репликам'),
+          ),
+          const SizedBox(height: 10),
           for (var i = 0; i < _lines.length; i++)
             Padding(
               padding: const EdgeInsets.only(bottom: 12),
@@ -164,8 +227,8 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                       key: ValueKey('reader-audio-$i'),
                       tooltip: 'Повторить реплику',
                       onPressed: () {
-                        setState(() => _activeLine = i);
-                        _speak(_lines[i]['ar']?.toString() ?? '');
+                        _continuous = false;
+                        _readLine(i);
                       },
                       icon: const Icon(Icons.record_voice_over_outlined),
                     ),
@@ -176,15 +239,24 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                     child: Wrap(
                       spacing: 6, runSpacing: 8,
                       children: [
-                        for (final token in (_lines[i]['ar']?.toString() ?? '')
-                          .split(RegExp(r'\s+')).where((s) => s.isNotEmpty))
+                        for (final entry in RegExp(r'\\S+')
+                            .allMatches(_lines[i]['ar']?.toString() ?? '')
+                            .toList().asMap().entries)
                           InkWell(
-                            onTap: () => _wordSheet(token),
+                            key: ValueKey('reader-word-$i-${entry.key}'),
+                            onTap: () => _wordSheet(entry.value.group(0)!),
                             borderRadius: BorderRadius.circular(8),
-                            child: Padding(
+                            child: Container(
                               padding: const EdgeInsets.symmetric(
-                                horizontal: 2, vertical: 3),
-                              child: NaskhText(token, size: 26,
+                                horizontal: 3, vertical: 3),
+                              decoration: BoxDecoration(
+                                color: _activeLine == i &&
+                                    _activeToken == entry.key
+                                      ? const Color(0xFFDAE5C6)
+                                      : Colors.transparent,
+                                borderRadius: BorderRadius.circular(7),
+                              ),
+                              child: NaskhText(entry.value.group(0)!, size: 26,
                                 color: DesignTokens.emerald),
                             ),
                           ),
