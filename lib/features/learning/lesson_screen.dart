@@ -174,7 +174,9 @@ class _LessonScreenState extends State<LessonScreen>
     canPop: widget.returnToProgressOnBack || _stage == 0,
     onPopInvokedWithResult: (didPop, result) {
       if (didPop || !mounted || _stage == 0 ||
-          widget.returnToProgressOnBack) return;
+          widget.returnToProgressOnBack) {
+        return;
+      }
       setState(() {
         _stage--;
         _exerciseIndex = 0;
