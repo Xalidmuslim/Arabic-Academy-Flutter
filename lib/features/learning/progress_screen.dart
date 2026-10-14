@@ -165,26 +165,73 @@ class LearnerProgressScreen extends StatelessWidget {
                   'Отсутствие данных не означает отсутствие знаний.',
                   style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
                 const SizedBox(height: 14),
-                for (final skill in skills) ...[
-                  Row(children: [
-                    Expanded(child: Text(skill.name,
-                      style: const TextStyle(fontWeight: FontWeight.w600))),
-                    Text(skill.accuracy == null
-                        ? 'Не проверено'
-                        : '${skill.percent}% · ${skill.total} ответов',
-                        style: const TextStyle(fontSize: 12,
-                          color: DesignTokens.secondary)),
-                  ]),
-                  const SizedBox(height: 5),
-                  LinearProgressIndicator(
-                    value: skill.accuracy ?? 0,
-                    backgroundColor: DesignTokens.beige,
-                    color: DesignTokens.olive,
-                    minHeight: 6,
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  const SizedBox(height: 13),
-                ],
+                LayoutBuilder(builder: (context, constraints) {
+                  final single = constraints.maxWidth < 330 ||
+                      MediaQuery.textScalerOf(context).scale(1) > 1.5;
+                  final width = single ? constraints.maxWidth :
+                      (constraints.maxWidth - 9) / 2;
+                  return Wrap(spacing: 9, runSpacing: 9, children: [
+                    for (final skill in skills)
+                      SizedBox(width: width, child: Material(
+                        color: Colors.transparent,
+                        child: InkWell(
+                          key: ValueKey('skill-map-${skill.id}'),
+                          borderRadius: BorderRadius.circular(16),
+                          onTap: () => showModalBottomSheet<void>(
+                            context: context,
+                            showDragHandle: true,
+                            builder: (sheet) => SafeArea(
+                              child: Padding(
+                                padding: const EdgeInsets.all(22),
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.min,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(skill.name,
+                                      style: Theme.of(sheet).textTheme.titleLarge),
+                                    const SizedBox(height: 8),
+                                    Text(skill.accuracy == null
+                                      ? 'Результатов пока нет. Пройдите упражнение, '
+                                        'чтобы начать отслеживать этот навык.'
+                                      : 'Верных ответов: ${skill.percent}% '
+                                        'из ${skill.total} проверенных попыток.'),
+                                    const SizedBox(height: 12),
+                                    const Text('Рекомендация: тренируйте навык '
+                                      'короткими занятиями и повторяйте ошибки.',
+                                      style: TextStyle(fontSize: 12)),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                          child: Panel(child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(skill.name, maxLines: 2,
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.w700)),
+                              const SizedBox(height: 6),
+                              Text(skill.accuracy == null
+                                  ? 'Не проверено'
+                                  : '${skill.percent}% · ${skill.total} ответов',
+                                style: const TextStyle(
+                                  fontSize: 12,
+                                  color: DesignTokens.secondary)),
+                              const SizedBox(height: 9),
+                              LinearProgressIndicator(
+                                value: skill.accuracy ?? 0,
+                                backgroundColor: DesignTokens.beige,
+                                color: DesignTokens.olive,
+                                minHeight: 7,
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                            ],
+                          )),
+                        ),
+                      )),
+                  ]);
+                }),
+                const SizedBox(height: 14),
                 Text('Устойчиво освоенных слов: '
                   '${LearningInsights.totalMasteredWords(state)}'),
                 Text('Следующий план: ${plan.due} повторений; '
