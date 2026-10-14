@@ -50,7 +50,12 @@ class DemoSchoolScreen extends StatefulWidget {
 }
 
 class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
-  late String section = widget.initialSection;
+  late String section;
+  @override
+  void initState() {
+    super.initState();
+    section = widget.initialSection;
+  }
   DemoSchoolStore get school => widget.school;
   Future<void> _open(Widget page) => Navigator.push(
       context, MaterialPageRoute<void>(builder: (_) => page));
