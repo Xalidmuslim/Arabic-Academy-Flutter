@@ -32,10 +32,11 @@ class RemoteSchoolScreen extends StatefulWidget {
 
 class _RemoteSchoolScreenState extends State<RemoteSchoolScreen> {
   late final RemoteSchoolApi api;
-  late String area = widget.initialArea;
+  late String area;
   @override
   void initState() {
     super.initState();
+    area = widget.initialArea;
     api = widget.api ?? RemoteSchoolApi(widget.backend);
   }
 
