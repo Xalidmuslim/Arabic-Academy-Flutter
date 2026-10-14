@@ -164,14 +164,16 @@ class _AcademyAppState extends State<AcademyApp> {
   );
 }
 
-/// Root tabs own the floating pill. Pushed pages and modal routes must be
-/// above the content, not underneath a globally drawn navigation overlay.
+/// The floating pill remains across ordinary routes; modal popup routes
+/// temporarily hide it so dialogs and bottom sheets receive all touches.
 class _FloatingNavRouteObserver extends NavigatorObserver {
   _FloatingNavRouteObserver(this.onVisibilityChanged);
   final ValueChanged<bool> onVisibilityChanged;
 
   void _update(Route<dynamic>? top) =>
-      onVisibilityChanged(top == null || top.isFirst);
+      // Keep the floating bar across pushed screens; only modal overlays
+      // (dialogs / sheets) must be above and unobstructed by navigation.
+      onVisibilityChanged(top == null || top is! PopupRoute);
 
   @override
   void didPush(Route<dynamic> route, Route<dynamic>? previousRoute) {
