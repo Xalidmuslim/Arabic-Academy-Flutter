@@ -278,7 +278,7 @@ class StudentLearningReport {
         errors: errors,
         pendingManual: pending,
         teacherScores: scores,
-        notes: notes.reversed.take(3).toList(),
+        notes: notes.take(3).toList(),
         pronunciationCriteria: {
           for (final entry in criteria.entries)
             if (entry.value.isNotEmpty)
