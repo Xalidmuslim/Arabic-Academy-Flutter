@@ -15,16 +15,18 @@ String _readableDate(Object? value) {
 class DemoStudentSchoolScreen extends StatefulWidget {
   const DemoStudentSchoolScreen({
     super.key, required this.school, required this.learning,
+    this.initialTab = 'homework',
   });
   final DemoSchoolStore school;
   final AcademyState learning;
+  final String initialTab;
 
   @override
   State<DemoStudentSchoolScreen> createState() => _DemoStudentSchoolScreenState();
 }
 
 class _DemoStudentSchoolScreenState extends State<DemoStudentSchoolScreen> {
-  String tab = 'homework';
+  late String tab = widget.initialTab;
 
   Future<void> _changeStudent() async {
     final id = await showModalBottomSheet<String>(
