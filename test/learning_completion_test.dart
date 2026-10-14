@@ -207,8 +207,23 @@ void main() {
       findsOneWidget);
     expect(find.byKey(const ValueKey('pronunciation-record')),
       findsOneWidget);
+    expect(find.byKey(const ValueKey('pronunciation-play-model')),
+      findsOneWidget);
+    expect(find.text('Фраза 1 из 6'), findsOneWidget);
     expect(find.byKey(const ValueKey('pronunciation-save')),
       findsNothing);
+    await tester.tap(find.byKey(const ValueKey('pronunciation-next-phrase')));
+    await tester.pumpAndSettle();
+    expect(find.text('Фраза 2 из 6'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('pronunciation-choose-phrase')));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('pronunciation-phrase-search')),
+      findsOneWidget);
+    await tester.enterText(
+      find.byKey(const ValueKey('pronunciation-phrase-search')), 'Другой диалог');
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('pronunciation-choice-3')),
+      findsOneWidget);
   });
 
   testWidgets('calendar supports offline weekday toggles without FCM',

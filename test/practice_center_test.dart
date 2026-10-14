@@ -65,6 +65,22 @@ void main() {
     expect(AdaptiveReview.mastery(recovered), greaterThan(0));
   });
 
+  test('exam picker displays textbook unit names, never raw internal codes', () {
+    expect(PracticeCenterScreen.moduleDisplayTitle({
+      'id': 'u1', 'title_ru': 'Приветствие и знакомство',
+      'title_ar': 'التعارف',
+    }), 'Раздел 1 · Приветствие и знакомство');
+    expect(PracticeCenterScreen.moduleDisplayTitle({
+      'id': 'u2', 'title_ru': 'Семья',
+    }), 'Раздел 2 · Семья');
+    expect(PracticeCenterScreen.moduleDisplayTitle({
+      'id': 'u7',
+    }), 'Раздел 7');
+    expect(PracticeCenterScreen.moduleDisplayTitle({
+      'id': 'u1', 'title_ar': 'التعارف',
+    }, arabic: true), 'الوحدة 1 · التعارف');
+  });
+
   test('practice questions are grounded in catalog and exam scoped to module', () async {
     final model = await state();
     addTearDown(model.dispose);
