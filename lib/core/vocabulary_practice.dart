@@ -11,12 +11,14 @@ class VocabularyPracticeWord {
     required this.ru,
     required this.lessonId,
     required this.lessonTitle,
+    this.imagePath,
   });
   final String id;
   final String ar;
   final String ru;
   final String lessonId;
   final String lessonTitle;
+  final String? imagePath;
 }
 
 enum VocabularyChallenge {
@@ -70,6 +72,8 @@ abstract final class VocabularyPractice {
           ru: ru,
           lessonId: id,
           lessonTitle: lesson['title']?.toString() ?? '',
+          imagePath: word['image_path'] is String
+              ? word['image_path'] as String : null,
         ));
       }
     }
