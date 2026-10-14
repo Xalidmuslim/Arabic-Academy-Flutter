@@ -255,7 +255,7 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
     if (_busy || _checked || (!skip && !_canCheck)) return;
     final q = _current;
     final response = skip ? '' : _answer;
-    final correct = !skip && (q.usesOrder
+    final correct = !skip && !_showHint && (q.usesOrder
         ? List.generate(q.tokens.length, (i) => i)
             .asMap().entries.every((item) => _ordered[item.key] == item.value)
         : q.usesChoices
@@ -564,6 +564,19 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
             'Результаты сохранены для журнала и анализа ошибок.',
         textAlign: TextAlign.center),
       const SizedBox(height: 18),
+      if (_questions.isNotEmpty && widget.mode == PracticeMode.exam) ...[
+        Panel(child: Column(children: [
+          Text('Итог: ${(_successes * 100 / _questions.length).round()}%',
+            style: Theme.of(context).textTheme.titleLarge),
+          const SizedBox(height: 6),
+          Text(_successes * 100 >= _questions.length * 70
+            ? 'Зачтено · результат сохранён'
+            : 'Не зачтено · рекомендовано повторение'),
+          const Text('Порог зачёта — 70%',
+            style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
+        ])),
+        const SizedBox(height: 12),
+      ],
       if (_questions.isNotEmpty && _incorrect > 0)
         FilledButton.icon(
           onPressed: () => Navigator.pushReplacement(context,
