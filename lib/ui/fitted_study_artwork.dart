@@ -7,20 +7,27 @@ class FittedStudyArtwork extends StatelessWidget {
     super.key,
     required this.image,
     this.size = 120,
+    this.width,
+    this.height,
     this.semanticLabel,
   });
 
   final ImageProvider image;
   final double size;
+  final double? width;
+  final double? height;
   final String? semanticLabel;
 
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
     final dark = Theme.of(context).brightness == Brightness.dark;
+    final imageWidth = width ?? size;
+    final imageHeight = height ?? size;
+    final base = imageWidth < imageHeight ? imageWidth : imageHeight;
     return SizedBox(
-      width: size,
-      height: size,
+      width: imageWidth,
+      height: imageHeight,
       child: DecoratedBox(
         key: const ValueKey('fitted-study-artwork'),
         decoration: BoxDecoration(
@@ -43,7 +50,7 @@ class FittedStudyArtwork extends StatelessWidget {
           ],
         ),
         child: Padding(
-          padding: EdgeInsets.all(size * .055),
+          padding: EdgeInsets.all(base * .055),
           child: Image(
             key: const ValueKey('fitted-study-image'),
             image: image,
@@ -54,7 +61,7 @@ class FittedStudyArtwork extends StatelessWidget {
             semanticLabel: semanticLabel,
             errorBuilder: (_, __, ___) => Center(
               child: Icon(Icons.image_not_supported_outlined,
-                color: colors.onSurfaceVariant, size: size * .3),
+                color: colors.onSurfaceVariant, size: base * .3),
             ),
           ),
         ),
