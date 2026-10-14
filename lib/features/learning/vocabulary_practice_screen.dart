@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/learning_insights.dart';
 import '../../core/speech.dart';
 import '../../core/vocabulary_practice.dart';
 import '../../ui/components.dart';
@@ -41,7 +42,9 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
   @override
   void initState() {
     super.initState();
-    _plan = VocabularyPractice.plan(widget.state, lessonId: widget.lessonId);
+    _plan = VocabularyPractice.plan(widget.state,
+      lessonId: widget.lessonId,
+      newLimit: LearningInsights.reviewGoal(widget.state));
     _all = VocabularyPractice.words(widget.state, lessonId: widget.lessonId);
     _tasks = [
       for (var i = 0; i < _plan.words.length; i++)
