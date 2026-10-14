@@ -1,4 +1,5 @@
 import 'practice_generator.dart';
+import 'grammar_guidance.dart';
 
 /// Evidence-based hints only. Without a verified grammar rule linked to the
 /// exercise, the app does not invent an explanation of Arabic morphology.
@@ -24,20 +25,24 @@ abstract final class PracticeFeedback {
         _ => 'Ответ совпадает с проверенным эталоном упражнения.',
       };
     }
+    final related = GrammarGuidance.relatedTo(question);
+    final hint = related == null ? '' :
+        '\nГрамматическая справка — ${related.title}: '
+        '${related.rule}\nПример: ${related.example}';
     switch (question.mode) {
       case PracticeMode.sentence:
         return 'Обратите внимание на порядок слов. '
             'В учебнике: ${question.answer}. '
-            'Ваша последовательность: $submitted';
+            'Ваша последовательность: $submitted$hint';
       case PracticeMode.dictation:
         return 'Сравните услышанную фразу с учебным эталоном. '
             'Запись: $submitted. Образец: ${question.answer}. '
-            'Огласовки можно пропускать, буквы и хамза имеют значение.';
+            'Огласовки можно пропускать, буквы и хамза имеют значение.$hint';
       case PracticeMode.missingWord:
         return 'В контексте «${question.reference}» '
             'пропущено слово «${question.answer}». '
             'Сопоставьте его с русским переводом: '
-            '${question.translation}.';
+            '${question.translation}.$hint';
       case PracticeMode.quiz:
       case PracticeMode.illustrations:
         return 'Для «${question.word}» в словаре урока '
@@ -46,7 +51,7 @@ abstract final class PracticeFeedback {
       case PracticeMode.dialogue:
         return 'В исходном диалоге после «${question.reference}» '
             'следует реплика «${question.answer}». '
-            'Прослушайте последовательность снова.';
+            'Прослушайте последовательность снова.$hint';
       case PracticeMode.exam:
       case PracticeMode.mistakes:
         return 'Ответ отличается от учебного эталона: ${question.answer}.';
