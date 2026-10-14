@@ -73,7 +73,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
         if (!mounted || lineIndex == null || _activeLine != lineIndex) {
           return;
         }
-        final tokens = RegExp(r'\\S+').allMatches(arabic).toList();
+        final tokens = RegExp(r'\S+').allMatches(arabic).toList();
         final selected = tokens.indexWhere((m) =>
             start >= m.start && start < m.end);
         if (selected >= 0 && _activeToken != selected) {
@@ -239,7 +239,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                     child: Wrap(
                       spacing: 6, runSpacing: 8,
                       children: [
-                        for (final entry in RegExp(r'\\S+')
+                        for (final entry in RegExp(r'\S+')
                             .allMatches(_lines[i]['ar']?.toString() ?? '')
                             .toList().asMap().entries)
                           InkWell(
