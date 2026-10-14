@@ -100,7 +100,7 @@ class _OralPracticeScreenState extends State<OralPracticeScreen>
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: const Text('Устная практика')),
     body: ListView(
-      padding: const EdgeInsets.all(20),
+      padding: const EdgeInsets.fromLTRB(20, 20, 20, 155),
       children: [
         const IntegrationNotice(
           'Запишите арабскую речь и послушайте себя. '
