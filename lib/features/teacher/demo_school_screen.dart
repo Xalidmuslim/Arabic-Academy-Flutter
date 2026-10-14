@@ -137,10 +137,12 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                         ),
                     ],
                     onChanged: (value) {
-                      if (value != null) change(() {
+                      if (value != null) {
+                        change(() {
                         selectedGroup = value;
                         pupil = null;
                       });
+                      }
                     },
                   ),
                   const SizedBox(height: 10),
