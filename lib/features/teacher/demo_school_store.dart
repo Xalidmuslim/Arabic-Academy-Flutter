@@ -35,6 +35,9 @@ class DemoSchoolStore extends ChangeNotifier {
         readOnly = true;
         warning = 'Повреждённые демоданные сохранены без изменений. Экспортируйте исходную резервную копию.';
       }
+    } else {
+      // Brand-new installations show a fully populated, explicitly fictional demo.
+      _populateShowcase(_data);
     }
   }
 
@@ -105,6 +108,125 @@ class DemoSchoolStore extends ChangeNotifier {
       {'student_id': 's5', 'lesson_id': 'l1', 'score': 85},
     ],
   };
+
+
+  /// Populate fictional example records for a customer presentation only.
+  /// Idempotent, preserves all earlier local teacher edits and grades.
+  Future<void> populateShowcase() => _change(_populateShowcase);
+
+  static void _populateShowcase(Map<String, dynamic> data) {
+    if (data['showcase_version'] == 1) return;
+    final groups = (data['groups'] as List);
+    final pupils = (data['students'] as List);
+    final assignments = (data['assignments'] as List);
+    final submissions = (data['submissions'] as List);
+    final assessments = (data['skill_assessments'] as List);
+    final results = (data['lesson_results'] as List);
+    final now = DateTime.now().toUtc();
+    final earlier = now.subtract(const Duration(days: 6)).toIso8601String();
+    final later = now.add(const Duration(days: 6)).toIso8601String();
+
+    for (final group in groups) {
+      final groupId = (group as Map)['id']?.toString() ?? '';
+      if (groupId.isEmpty) continue;
+      for (var index = 0; index < 2; index++) {
+        final id = 'showcase_task_\${groupId}_$index';
+        if (assignments.any((a) => (a as Map)['id'] == id)) continue;
+        assignments.add({
+          'id': id,
+          'title': index == 0 ? 'Карточки слов: дом и семья'
+              : 'Диалог и произношение',
+          'instructions': index == 0
+              ? 'Изучите изображения, повторите слова и запишите перевод.'
+              : 'Прослушайте реплики и подготовьте ответ по-арабски.',
+          'group_id': groupId,
+          'student_id': null,
+          'skill': index == 0 ? 'words' : 'pronunciation',
+          'created_at': earlier,
+          'due_at': later,
+          'showcase': true,
+        });
+      }
+    }
+
+    const notes = <String, String>{
+      'words': 'Часть слов запоминается уверенно; проверьте сложные пары.',
+      'grammar': 'Стоит повторить согласование и указательные местоимения.',
+      'listening': 'Рекомендуется медленное прослушивание диалогов.',
+      'reading': 'Продолжить работу над плавным чтением с огласовками.',
+      'writing': 'Проверить соединение букв и направление штрихов.',
+      'dialogue': 'Потренировать выбор ответной реплики по ситуации.',
+      'pronunciation': 'Пример ручной проверки: окончания и долгие гласные.',
+    };
+    for (var i = 0; i < pupils.length; i++) {
+      final student = pupils[i] as Map;
+      final studentId = student['id']?.toString() ?? '';
+      final groupId = student['group_id']?.toString() ?? '';
+      if (studentId.isEmpty) continue;
+      for (var k = 0; k < assessedSkills.length; k++) {
+        final skill = assessedSkills[k];
+        final id = 'showcase_assessment_\${studentId}_$skill';
+        if (assessments.any((a) => (a as Map)['id'] == id)) continue;
+        final score = (60 + (i * 7 + k * 11) % 38).clamp(0, 100);
+        assessments.add({
+          'id': id,
+          'student_id': studentId,
+          'skill': skill,
+          'score': score,
+          'note': notes[skill],
+          'criteria': skill == 'pronunciation'
+              ? {
+                  'consonants': (score + 3).clamp(0, 100),
+                  'vowels': (score - 7).clamp(0, 100),
+                  'endings': (score - 11).clamp(0, 100),
+                  'fluency': score,
+                } : <String, int>{},
+          'source': 'showcase_manual_example',
+          'showcase': true,
+          'at': now.subtract(Duration(days: k % 5)).toIso8601String(),
+        });
+      }
+      for (var lesson = 1; lesson <= 3; lesson++) {
+        final id = 'l$lesson';
+        if (results.any((r) => (r as Map)['student_id'] == studentId &&
+            r['lesson_id'] == id)) continue;
+        results.add({
+          'student_id': studentId,
+          'lesson_id': id,
+          'score': 65 + (i * 6 + lesson * 7) % 34,
+          'showcase': true,
+        });
+      }
+      for (var exercise = 0; exercise < 2; exercise++) {
+        final taskId = 'showcase_task_\${groupId}_$exercise';
+        final submissionId = 'showcase_submission_\${studentId}_$exercise';
+        if (submissions.any((s) => (s as Map)['id'] == submissionId)) continue;
+        final phase = (i + exercise) % 5;
+        if (phase == 4) continue; // One unsubmitted example.
+        final status = phase == 3
+            ? 'revision_requested' : phase == 2 ? 'submitted' : 'graded';
+        submissions.add({
+          'id': submissionId,
+          'assignment_id': taskId,
+          'student_id': studentId,
+          'answer': exercise == 0 ? 'بَيْتٌ، بَابٌ، كِتَابٌ'
+              : 'السَّلَامُ عَلَيْكُمْ. أَنَا طَالِبَةٌ.',
+          'status': status,
+          'grade': status == 'graded' ? (72 + i * 3 + exercise * 4).clamp(0, 100) : null,
+          'feedback': status == 'graded' ? 'Ответ проверен. Повторите трудные слова.'
+              : status == 'revision_requested'
+                  ? 'Исправьте окончания и отправьте повторно.' : '',
+          'history': [
+            {'status': 'submitted', 'at': earlier},
+            if (status != 'submitted') {'status': status, 'at': earlier},
+          ],
+          'updated_at': earlier,
+          'showcase': true,
+        });
+      }
+    }
+    data['showcase_version'] = 1;
+  }
 
   List<Map<String, dynamic>> _rows(String key) =>
       (_data[key] as List).map((e) => Map<String, dynamic>.from(e as Map)).toList();
