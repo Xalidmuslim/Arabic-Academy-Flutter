@@ -62,7 +62,7 @@ void main() {
     await tester.pumpAndSettle();
 
     final nav = find.byKey(const ValueKey('floating-study-navigation'));
-    expect(find.descendant(of: nav, matching: find.text('Уроки')), findsOneWidget);
+    expect(find.descendant(of: nav, matching: find.text('Учебник')), findsOneWidget);
     expect(find.descendant(of: nav, matching: find.text('Меню')), findsNothing);
   });
 }
