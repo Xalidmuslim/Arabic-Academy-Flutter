@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
-import '../../core/practice_generator.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
-import 'practice_center_screen.dart';
 import 'smart_reader_screen.dart';
+import 'dialogue_journey_screen.dart';
 
 /// Conversation scenarios follow real editorial dialogues already present in
 /// the student's lesson library. No unverified AI responses are invented.
@@ -62,14 +61,13 @@ class SituationsScreen extends StatelessWidget {
                           )),
                       ),
                       FilledButton.icon(
-                        icon: const Icon(Icons.forum_outlined),
-                        label: const Text('Ответить в диалоге'),
+                        icon: const Icon(Icons.alt_route_outlined),
+                        label: const Text('Диалог с вариантами'),
                         onPressed: () => Navigator.push(context,
                           MaterialPageRoute<void>(
-                            builder: (_) => PracticeSessionScreen(
+                            builder: (_) => DialogueJourneyScreen(
                               state: state,
-                              mode: PracticeMode.dialogue,
-                              lessonId: lesson['id']?.toString(),
+                              lesson: lesson,
                             ),
                           )),
                       ),
