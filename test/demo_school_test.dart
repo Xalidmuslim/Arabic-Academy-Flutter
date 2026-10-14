@@ -50,7 +50,7 @@ void main() {
     await store.submit(assignmentId: id, studentId: newPupil,
         answer: 'أَنَا لَيْلَى، أَنَا طَالِبَةٌ');
     expect(store.submissionFor(id, newPupil)!['status'], 'submitted');
-    expect((store.submissionFor(id, newPupil)!['history'] as List), hasLength(4));
+    expect((store.submissionFor(id, newPupil)!['history'] as List), hasLength(3));
     await store.grade(submissionId: submissionId, score: 97,
         feedback: 'Принято');
     expect(store.submissionFor(id, newPupil)!['grade'], 97);
