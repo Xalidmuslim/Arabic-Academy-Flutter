@@ -222,6 +222,7 @@ class DemoSchoolStore extends ChangeNotifier {
     required String groupId,
     String? studentId,
     DateTime? due,
+    String? audioPath,
   }) => _change((data) {
     if (title.trim().isEmpty || instructions.trim().isEmpty || group(groupId) == null) {
       throw const FormatException('Заполните название, текст и группу.');
@@ -234,6 +235,7 @@ class DemoSchoolStore extends ChangeNotifier {
       'title': title.trim(), 'instructions': instructions.trim(),
       'group_id': groupId, 'student_id': studentId,
       'due_at': due?.toUtc().toIso8601String(),
+      'audio_path': audioPath,
       'created_at': DateTime.now().toUtc().toIso8601String(),
     });
   });
@@ -242,12 +244,15 @@ class DemoSchoolStore extends ChangeNotifier {
     required String assignmentId,
     required String studentId,
     required String answer,
+    String? audioPath,
   }) => _change((data) {
     final matching = assignments.where((a) => a['id'] == assignmentId);
     if (matching.isEmpty || !isRecipient(matching.first, studentId)) {
       throw StateError('Задание не назначено выбранной ученице.');
     }
-    if (answer.trim().isEmpty) throw const FormatException('Напишите ответ.');
+    if (answer.trim().isEmpty && (audioPath == null || audioPath.isEmpty)) {
+      throw const FormatException('Напишите или запишите ответ.');
+    }
     final rows = data['submissions'] as List;
     final index = rows.indexWhere((r) => r['assignment_id'] == assignmentId &&
         r['student_id'] == studentId);
@@ -257,8 +262,12 @@ class DemoSchoolStore extends ChangeNotifier {
       ...old,
       'id': old['id'] ?? AcademyState.newId(),
       'assignment_id': assignmentId, 'student_id': studentId,
-      'answer': answer.trim(), 'status': 'submitted',
-      'grade': null, 'feedback': null, 'updated_at': now,
+      'answer': answer.trim(),
+      'audio_path': audioPath,
+      'status': 'submitted',
+      'grade': null, 'feedback': null,
+      'feedback_audio_path': null,
+      'updated_at': now,
       'history': [
         ...((old['history'] as List?) ?? []),
         {'status': 'submitted', 'at': now, 'answer': answer.trim()},
@@ -272,6 +281,7 @@ class DemoSchoolStore extends ChangeNotifier {
     required int score,
     required String feedback,
     bool revision = false,
+    String? feedbackAudioPath,
   }) => _change((data) {
     if (score < 0 || score > 100) throw const FormatException('Оценка: 0–100.');
     final rows = data['submissions'] as List;
@@ -286,9 +296,12 @@ class DemoSchoolStore extends ChangeNotifier {
     item['status'] = revision ? 'revision_requested' : 'graded';
     item['grade'] = score;
     item['feedback'] = feedback.trim();
+    item['feedback_audio_path'] = feedbackAudioPath;
     item['updated_at'] = now;
     (item['history'] as List).add({
-      'status': item['status'], 'score': score, 'feedback': feedback.trim(), 'at': now,
+      'status': item['status'], 'score': score,
+      'feedback': feedback.trim(), 'feedback_audio_path': feedbackAudioPath,
+      'at': now,
     });
   });
 
