@@ -13,6 +13,7 @@ import '../integrations/oral_practice_screen.dart';
 import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
 import 'textbook_reader_screen.dart';
 import 'vocabulary_practice_screen.dart';
+import 'illustrated_dictionary_screen.dart' show SemanticWordIllustration;
 import 'smart_reader_screen.dart';
 
 class LessonScreen extends StatefulWidget {
@@ -327,6 +328,14 @@ class _LessonScreenState extends State<LessonScreen>
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  if ((word['image_path'] as String? ?? '').isNotEmpty) ...[
+                    Center(child: SemanticWordIllustration(
+                      arabic: word['ar']?.toString() ?? '',
+                      imagePath: word['image_path'] as String,
+                      size: 180,
+                    )),
+                    const SizedBox(height: 12),
+                  ],
                   NaskhText(word['ar'] as String? ?? '', size: _arabicSize),
                   Text(word['ru'] as String? ?? ''),
                   Row(
