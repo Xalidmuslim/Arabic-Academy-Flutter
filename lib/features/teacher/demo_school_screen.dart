@@ -50,6 +50,17 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
   Future<void> _open(Widget page) => Navigator.push(
       context, MaterialPageRoute<void>(builder: (_) => page));
 
+  void _createWordCards() => _open(TeacherEditor(
+    state: widget.learning,
+    original: const {
+      'title': 'Мои иллюстрированные карточки',
+      'description': 'Слова с изображениями и произношением',
+      'published': true,
+      'free': true,
+      'vocabulary': <Map<String, dynamic>>[],
+    },
+  ));
+
   Future<void> _addGroup() async {
     final controller = TextEditingController();
     final value = await showDialog<String>(
@@ -649,6 +660,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                 case 'notice': _announce();
                 case 'group': _addGroup();
                 case 'editor': _open(TeacherEditor(state: widget.learning));
+                case 'wordcards': _createWordCards();
                 case 'materials': _open(Scaffold(
                     appBar: AppBar(title: const Text('Редактор учительницы')),
                     body: TeacherDashboard(
@@ -671,13 +683,33 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                 child: Text('Конструктор упражнений')),
               PopupMenuItem(value: 'materials',
                 child: Text('Мои учебные материалы')),
+              PopupMenuItem(value: 'wordcards',
+                child: Text('Карточки слов с изображениями')),
             ],
           ),
         ]),
         const SizedBox(height: 8),
-        const Text('ДЕМОРЕЖИМ · данные сохраняются только на этом устройстве. '
-            'Отправка другим телефонам отключена.',
+        const Text('ДЕМОРЕЖИМ · примерные данные и оценки вымышлены. '
+            'Отправка другим телефонам и выдача платных прав отключены.',
             style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
+        const SizedBox(height: 10),
+        Wrap(spacing: 8, runSpacing: 7, children: [
+          FilledButton.tonalIcon(
+            key: const ValueKey('teacher-word-card-studio'),
+            onPressed: _createWordCards,
+            icon: const Icon(Icons.collections_bookmark_outlined),
+            label: const Text('Карточки слов'),
+          ),
+          OutlinedButton.icon(
+            key: const ValueKey('teacher-showcase-seed'),
+            onPressed: school.readOnly ? null : () async {
+              await guardedAction(context, school.populateShowcase);
+              if (mounted) notice(context, 'Примеры статистики готовы для просмотра.');
+            },
+            icon: const Icon(Icons.auto_graph_outlined),
+            label: const Text('Заполнить демоданные'),
+          ),
+        ]),
         const SizedBox(height: 14),
         Row(children: [
           Expanded(child: _Metric(label: 'Группы', value: '${school.groups.length}')),
