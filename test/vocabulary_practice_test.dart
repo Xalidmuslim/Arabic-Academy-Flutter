@@ -123,9 +123,8 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byType(FloatingStudyNavigation), findsOneWidget);
     final advanced = find.byKey(const ValueKey('demo-tools'));
-    await tester.ensureVisible(advanced);
-    await tester.pumpAndSettle();
-    await tester.drag(find.byType(ListView).first, const Offset(0, -220));
+    await tester.scrollUntilVisible(advanced, 190,
+      scrollable: find.byType(Scrollable).first);
     await tester.pumpAndSettle();
     await tester.tap(find.text('Дополнительные возможности').hitTestable());
     await tester.pump(const Duration(milliseconds: 350));
