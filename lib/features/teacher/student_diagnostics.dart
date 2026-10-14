@@ -16,6 +16,7 @@ class StudentSkillDiagnostic {
     required this.pendingManual,
     required this.teacherScores,
     required this.notes,
+    required this.pronunciationCriteria,
   });
 
   final String id;
@@ -26,6 +27,7 @@ class StudentSkillDiagnostic {
   final int pendingManual;
   final List<int> teacherScores;
   final List<String> notes;
+  final Map<String, double> pronunciationCriteria;
 
   double? get automaticAccuracy =>
       attempts == 0 ? null : correct / attempts;
@@ -128,6 +130,13 @@ class StudentLearningReport {
   final DateTime? lastActivity;
   final List<String> recommendations;
 
+  static const pronunciationCriteriaLabels = <String, String>{
+    'consonants': 'Согласные и махрадж',
+    'vowels': 'Долгие/краткие гласные',
+    'endings': 'Огласовки и окончания',
+    'fluency': 'Плавность речи',
+  };
+
   static const skillNames = <String, String>{
     'words': 'Запоминание слов',
     'grammar': 'Грамматика',
@@ -218,6 +227,7 @@ class StudentLearningReport {
       var pending = 0;
       final scores = <int>[];
       final notes = <String>[];
+      final criteria = <String, List<int>>{};
       for (final attempt in attempts) {
         if (LearningInsights.classify(attempt) != category.key) continue;
         if (attempt['status'] == 'correct') correct++;
@@ -228,6 +238,16 @@ class StudentLearningReport {
         if (item['skill'] != category.key) continue;
         final score = item['score'];
         if (score is num) scores.add(score.round());
+        final rubric = item['criteria'];
+        if (category.key == 'pronunciation' && rubric is Map) {
+          for (final entry in rubric.entries) {
+            if (pronunciationCriteriaLabels.containsKey(entry.key) &&
+                entry.value is num) {
+              criteria.putIfAbsent(entry.key as String, () => <int>[])
+                  .add((entry.value as num).round());
+            }
+          }
+        }
         final note = item['note']?.toString() ?? '';
         if (note.trim().isNotEmpty) notes.add(note);
       }
@@ -259,6 +279,12 @@ class StudentLearningReport {
         pendingManual: pending,
         teacherScores: scores,
         notes: notes.reversed.take(3).toList(),
+        pronunciationCriteria: {
+          for (final entry in criteria.entries)
+            if (entry.value.isNotEmpty)
+              entry.key: entry.value.reduce((a, b) => a + b) /
+                  entry.value.length,
+        },
       ));
     }
 
