@@ -139,7 +139,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.dispose();
   }
 
-  Future<void> _pickDemoRole() async {
+  Future<bool> _pickDemoRole() async {
     final selected = await showModalBottomSheet<bool>(
       context: context,
       showDragHandle: true,
@@ -184,14 +184,19 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
     );
-    if (selected == null || !mounted) return;
-    await widget.state.prefs.setBool('demo_role_teacher', selected);
-    if (!mounted) return;
+    if (selected == null || !mounted) return false;
+    if (selected == _demoTeacher) return false;
+    if (!await widget.state.prefs.setBool('demo_role_teacher', selected)) {
+      if (mounted) notice(context, 'Не удалось сохранить режим демонстрации.');
+      return false;
+    }
+    if (!mounted) return false;
     setState(() {
       _demoTeacher = selected;
       _tab = 0;
     });
     widget.navigationTab?.value = 0;
+    return true;
   }
 
   void _open(Widget page) =>
@@ -262,31 +267,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 tooltip: tr(context, 'Настройки'),
                 icon: const Icon(Icons.settings_outlined),
                 onPressed: () =>
-                    _open(SettingsScreen(state: state, backend: _backend)),
+                    _open(SettingsScreen(state: state, backend: _backend,
+                      onDemoRoleChanged: _pickDemoRole)),
               ),
-              if (!_backend.isAuthenticated)
-                Tooltip(
-                  message: 'Сменить демо-роль',
-                  child: Padding(
-                    padding: const EdgeInsets.only(right: 8),
-                    child: Material(
-                      color: DesignTokens.cardSurface,
-                      borderRadius: BorderRadius.circular(18),
-                      child: InkWell(
-                        key: const ValueKey('demo-role-switch'),
-                        borderRadius: BorderRadius.circular(18),
-                        onTap: _pickDemoRole,
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 9),
-                          child: Icon(
-                            _demoTeacher ? Icons.school_outlined : Icons.swap_horiz_rounded,
-                            color: DesignTokens.deepOlive,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+
             ],
           ),
     body: ArtworkBackdrop(
@@ -640,7 +624,8 @@ class _HomeScreenState extends State<HomeScreen> {
         (
           'Настройки',
           Icons.settings_outlined,
-          SettingsScreen(state: state, backend: _backend),
+          SettingsScreen(state: state, backend: _backend,
+            onDemoRoleChanged: _pickDemoRole),
         ),
         (
           'Закладки',
