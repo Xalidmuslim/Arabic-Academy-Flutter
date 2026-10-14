@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/app_strings.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'demo_school_store.dart';
@@ -48,7 +49,7 @@ class StudentDiagnosticsPanel extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const SectionTitle('Учебный профиль'),
+        SectionTitle(tr(context, 'Учебный профиль')),
         Panel(child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -146,7 +147,7 @@ class StudentDiagnosticsPanel extends StatelessWidget {
             ],
           ),
         SectionTitle(
-          'Усвоение по навыкам',
+          tr(context, 'Усвоение по навыкам'),
           trailing: IconButton(
             key: const ValueKey('student-manual-assessment'),
             tooltip: 'Добавить ручную оценку навыка',
@@ -258,7 +259,7 @@ class StudentDiagnosticsPanel extends StatelessWidget {
         const Text('* Оценки со звёздочкой поставлены учительницей вручную.',
           style: TextStyle(fontSize: 11, color: DesignTokens.secondary)),
         if (report.localLearningAvailable) ...[
-          const SectionTitle('Запоминание слов'),
+          SectionTitle(tr(context, 'Запоминание слов')),
           Panel(child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
@@ -288,7 +289,7 @@ class StudentDiagnosticsPanel extends StatelessWidget {
             ],
           )),
         ],
-        const SectionTitle('Где чаще ошибается'),
+        SectionTitle(tr(context, 'Где чаще ошибается')),
         if (report.errors.isEmpty)
           const Panel(child: Text('Непроработанных ошибок пока нет. '
             'Показаны только результаты этой ученицы.'))
@@ -325,7 +326,7 @@ class StudentDiagnosticsPanel extends StatelessWidget {
                 ),
               ),
             ),
-        const SectionTitle('Рекомендации учительнице'),
+        SectionTitle(tr(context, 'Рекомендации учительнице')),
         Panel(child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
