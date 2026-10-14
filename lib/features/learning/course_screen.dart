@@ -77,8 +77,7 @@ class _UnitScreenState extends State<UnitScreen> {
                         'lesson:${lesson['id']}',
                       )) &&
                   (_filter != 'Завершённые' ||
-                      widget.state.completed.contains(lesson['id'])) &&
-                  !['Средний', 'Продвинутый'].contains(_filter),
+                      widget.state.completed.contains(lesson['id'])),
             )
             .toList();
         return CustomScrollView(
@@ -105,8 +104,6 @@ class _UnitScreenState extends State<UnitScreen> {
                             [
                                   'Все',
                                   'Начальный',
-                                  'Средний',
-                                  'Продвинутый',
                                   'Избранное',
                                   'Завершённые',
                                 ]
