@@ -135,7 +135,6 @@ class _DemoStudentSchoolScreenState extends State<DemoStudentSchoolScreen> {
         studentId: studentId, answer: controller.text,
       ));
     }
-    controller.dispose();
   }
 
   Widget _assignment(Map<String, dynamic> row, String studentId) {
