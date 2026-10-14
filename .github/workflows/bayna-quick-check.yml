@@ -2,6 +2,8 @@ name: Bayna quick Flutter verification
 on:
   push:
     branches: [codex/bayna-impeccable-ui-v8, codex/bayna-v11-illustrated-demo-studio]
+  pull_request:
+    branches: [codex/bayna-impeccable-ui-v8]
 permissions:
   contents: read
 concurrency:
