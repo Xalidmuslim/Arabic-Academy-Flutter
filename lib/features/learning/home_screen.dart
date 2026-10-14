@@ -11,9 +11,7 @@ import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../../ui/neumorphic_components.dart';
-import '../../ui/premium_art.dart';
 import '../integrations/live_sessions_screen.dart';
-import '../integrations/oral_practice_screen.dart';
 import '../integrations/phone_auth_screen.dart';
 import '../integrations/purchases_screen.dart';
 import '../teacher/demo_school_store.dart';
@@ -34,7 +32,6 @@ import 'words_hub_screen.dart';
 import 'situations_screen.dart';
 import 'handwriting_screen.dart';
 import 'study_calendar_screen.dart';
-import '../../core/practice_generator.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -657,106 +654,105 @@ class _HomeScreenState extends State<HomeScreen> {
     ]);
   }
 
-  Widget _profile() => ListView(
-    padding: const EdgeInsets.fromLTRB(18, 18, 18, 142),
-    children: [
-      Panel(
-        child: Row(
-          children: [
-            const ArtworkIcon('profile', size: 60),
-            const SizedBox(width: 14),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    _backend.isAuthenticated
-                        ? 'Личный аккаунт'
-                        : _demoTeacher
-                            ? 'Учительница · демо'
-                            : 'Ученица · локальное обучение',
-                    style: Theme.of(context).textTheme.titleMedium,
-                  ),
-                  const Text(
-                    'العربية بين يديك',
-                    style: TextStyle(
-                      fontFamily: 'NotoNaskhArabic',
-                      fontSize: 22,
-                      height: 1.8,
-                      color: green,
-                    ),
-                  ),
-                ],
+  Widget _profile() {
+    final learningLinks = <(String, IconData, Widget)>[
+      ('Мой прогресс', Icons.insights_outlined,
+        LearnerProgressScreen(state: state)),
+      ('Слова и повторение', Icons.style_outlined,
+        WordsHubScreen(state: state)),
+      ('Закладки', Icons.bookmark_outline,
+        BookmarksScreen(state: state, onOpenLesson: _lesson)),
+      ('Домашние задания', Icons.assignment_outlined,
+        _backend.isAuthenticated
+          ? OnlineHomeworkScreen(backend: _backend, state: state)
+          : DemoStudentSchoolScreen(school: _demoSchool, learning: state)),
+      ('Расписание', Icons.calendar_month_outlined,
+        StudyCalendarScreen(state: state)),
+    ];
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
+      children: [
+        Panel(child: Row(children: [
+          const ArtworkIcon('profile', size: 52),
+          const SizedBox(width: 12),
+          Expanded(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(_backend.isAuthenticated
+                  ? 'Личный аккаунт' : 'Ученица · локальное обучение',
+                style: Theme.of(context).textTheme.titleMedium),
+              const NaskhText('العربية بين يديك', size: 24),
+            ],
+          )),
+        ])),
+        const SectionTitle('Моё обучение'),
+        Panel(
+          padding: EdgeInsets.zero,
+          child: Column(children: [
+            for (var i = 0; i < learningLinks.length; i++) ...[
+              if (i > 0) const Divider(height: 1, indent: 16, endIndent: 16),
+              ListTile(
+                dense: true,
+                leading: Icon(learningLinks[i].$2,
+                  color: DesignTokens.deepOlive),
+                title: Text(learningLinks[i].$1),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => _open(learningLinks[i].$3),
               ),
+            ],
+          ]),
+        ),
+        const SectionTitle('Параметры'),
+        Panel(padding: EdgeInsets.zero, child: Column(children: [
+          ListTile(
+            dense: true,
+            leading: const Icon(Icons.settings_outlined,
+              color: DesignTokens.deepOlive),
+            title: const Text('Настройки'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => _open(SettingsScreen(
+              state: state, backend: _backend,
+              onDemoRoleChanged: _pickDemoRole)),
+          ),
+          const Divider(height: 1, indent: 16, endIndent: 16),
+          ListTile(
+            dense: true,
+            leading: const Icon(Icons.person_outline,
+              color: DesignTokens.deepOlive),
+            title: const Text('Аккаунт'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => _open(PhoneAuthScreen(backend: _backend)),
+          ),
+        ])),
+        const SizedBox(height: 10),
+        ExpansionTile(
+          title: const Text('Дополнительные возможности'),
+          children: [
+            ListTile(
+              leading: const Icon(Icons.video_camera_front_outlined),
+              title: const Text('Учебные встречи'),
+              onTap: () => _open(_backend.isAuthenticated
+                ? LiveSessionsScreen(backend: _backend)
+                : DemoStudentSchoolScreen(
+                    school: _demoSchool, learning: state,
+                    initialTab: 'sessions')),
+            ),
+            ListTile(
+              leading: const Icon(Icons.workspace_premium_outlined),
+              title: Text(_backend.isAuthenticated
+                  ? 'Покупки и подписки' : 'Демонстрация всех функций'),
+              subtitle: !_backend.isAuthenticated
+                  ? const Text('Презентация для заказчика · локальный демо')
+                  : null,
+              onTap: () => _open(_backend.isAuthenticated
+                ? PurchasesScreen(backend: _backend)
+                : DemoShowcaseScreen(learning: state,
+                    school: _demoSchool, backend: _backend)),
             ),
           ],
         ),
-      ),
-      const SizedBox(height: 16),
-      for (final row in <(String, IconData, Widget)>[
-        ('Мой прогресс', Icons.insights_outlined,
-            LearnerProgressScreen(state: state)),
-        ('Практика', Icons.psychology_alt_outlined,
-            Scaffold(appBar: AppBar(title: const Text('Практика')),
-              body: PracticeCenterScreen(state: state))),
-        ('Аккаунт', Icons.person_outline, PhoneAuthScreen(backend: _backend)),
-        (
-          'Настройки',
-          Icons.settings_outlined,
-          SettingsScreen(state: state, backend: _backend,
-            onDemoRoleChanged: _pickDemoRole),
-        ),
-        (
-          'Закладки',
-          Icons.bookmark_outline,
-          BookmarksScreen(state: state, onOpenLesson: _lesson),
-        ),
-        (
-          'Домашние задания',
-          Icons.assignment_outlined,
-          _backend.isAuthenticated
-              ? OnlineHomeworkScreen(backend: _backend, state: state)
-              : DemoStudentSchoolScreen(school: _demoSchool, learning: state),
-        ),
-        (
-          'Офлайн-материалы',
-          Icons.download_outlined,
-          UnitScreen(state: state, backend: _backend),
-        ),
-        (
-          _backend.isAuthenticated ? 'Покупки и подписки' : 'Все функции · демо',
-          Icons.workspace_premium_outlined,
-          _backend.isAuthenticated
-              ? PurchasesScreen(backend: _backend)
-              : DemoShowcaseScreen(
-                  learning: state, school: _demoSchool, backend: _backend),
-        ),
-        (
-          'Прямые эфиры',
-          Icons.videocam_outlined,
-          _backend.isAuthenticated
-              ? LiveSessionsScreen(backend: _backend)
-              : DemoStudentSchoolScreen(
-                  school: _demoSchool, learning: state, initialTab: 'sessions'),
-        ),
-      ])
-        Padding(
-          padding: const EdgeInsets.only(bottom: 10),
-          child: Panel(
-            padding: EdgeInsets.zero,
-            child: ListTile(
-              leading: Icon(row.$2, color: DesignTokens.olive),
-              title: Text(tr(context, row.$1)),
-              trailing: const Icon(Icons.chevron_right),
-              onTap: () => _open(row.$3),
-            ),
-          ),
-        ),
-      const SizedBox(height: 8),
-      const Text(
-        'Бесплатные тексты, словарь, грамматика и черновики доступны без сети. Онлайн-уроки и личные данные школы требуют входа.',
-        style: TextStyle(fontSize: 12, color: muted),
-      ),
-    ],
-  );
+      ],
+    );
+  }
+
 }
