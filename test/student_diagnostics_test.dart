@@ -184,7 +184,9 @@ void main() {
     await tester.pumpAndSettle();
     expect(scrollable.position.pixels, closeTo(before, .5));
     final save = find.byKey(const ValueKey('handwriting-save'));
-    await tester.ensureVisible(save);
+    // Leave the canvas to scroll; its own touch gestures are reserved for ink.
+    await tester.dragFrom(
+      const Offset(8, 490), const Offset(0, -290));
     await tester.pumpAndSettle();
     await tester.tap(save);
     await tester.pumpAndSettle();
