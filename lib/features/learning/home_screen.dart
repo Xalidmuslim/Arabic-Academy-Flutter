@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import '../../core/academy_state.dart';
 import '../../core/app_strings.dart';
 import '../../core/study_analytics.dart';
+import '../../core/vocabulary_practice.dart';
 import '../../core/learning_sync.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
@@ -24,6 +25,7 @@ import 'library_screens.dart';
 import 'progress_screen.dart';
 import 'settings_screen.dart';
 import 'online_homework_screen.dart';
+import 'vocabulary_practice_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -358,6 +360,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _dashboard() {
     final lessons = state.allLessons;
     final analytics = StudyAnalytics(state);
+    final wordPlan = VocabularyPractice.plan(state);
     final next = lessons.isEmpty
         ? null
         : lessons.firstWhere(
@@ -495,6 +498,28 @@ class _HomeScreenState extends State<HomeScreen> {
                   onContinue: () {
                     if (next != null) _lesson(context, next);
                   },
+                ),
+                SectionTitle('Повторение сегодня'),
+                Panel(
+                  padding: EdgeInsets.zero,
+                  child: ListTile(
+                    key: const ValueKey('daily-vocabulary-entry'),
+                    contentPadding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
+                    leading: const Icon(Icons.psychology_alt_outlined,
+                        color: DesignTokens.deepOlive, size: 38),
+                    title: Text(
+                      wordPlan.words.isEmpty
+                          ? 'Слова на сегодня повторены'
+                          : 'Вспомнить ${wordPlan.words.length} слов',
+                      style: const TextStyle(fontWeight: FontWeight.w800),
+                    ),
+                    subtitle: Text(
+                      'Просрочено: ${wordPlan.due} · Новых доступно: ${wordPlan.newWords}\n'
+                      'Карточки, викторины, письмо и аудирование',
+                    ),
+                    trailing: const Icon(Icons.chevron_right),
+                    onTap: () => _open(VocabularyPracticeScreen(state: state)),
+                  ),
                 ),
                 SectionTitle(tr(context, 'Моё обучение')),
                 if (lessons.isEmpty)
