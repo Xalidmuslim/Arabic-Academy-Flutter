@@ -695,10 +695,8 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
           ),
           OutlinedButton.icon(
             key: const ValueKey('teacher-showcase-seed'),
-            onPressed: school.readOnly ? null : () async {
-              await guardedAction(context, school.populateShowcase);
-              if (mounted) notice(context, 'Примеры статистики готовы для просмотра.');
-            },
+            onPressed: school.readOnly ? null : () =>
+                guardedAction(context, school.populateShowcase),
             icon: const Icon(Icons.auto_graph_outlined),
             label: const Text('Заполнить демоданные'),
           ),
