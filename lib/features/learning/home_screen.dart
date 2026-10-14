@@ -196,7 +196,8 @@ class _HomeScreenState extends State<HomeScreen> {
               const SizedBox(height: 8),
               const Text(
                 'Демонстрация на одном телефоне. Данные школы не отправляются на сервер.',
-                style: TextStyle(fontSize: 12, color: DesignTokens.secondary),
+                style: TextStyle(fontSize: 12,
+                  color: Theme.of(context).colorScheme.onSurfaceVariant),
               ),
               const SizedBox(height: 16),
               for (final option in [
@@ -517,8 +518,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Text('Арабский каждый день',
                     style: Theme.of(context).textTheme.titleLarge),
-                  const Text('МОЁ ОБУЧЕНИЕ',
-                    style: TextStyle(color: DesignTokens.secondary,
+                  Text('МОЁ ОБУЧЕНИЕ',
+                    style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant,
                       fontSize: 11, letterSpacing: 0.4)),
                 ],
               )),
@@ -545,7 +546,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.only(top: 6),
                 child: Text('Следующий урок: ${next['title'] ?? ''}',
                   maxLines: 2, overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(color: DesignTokens.secondary,
+                  style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant,
                     fontSize: 12)),
               ),
             const SizedBox(height: 15),
