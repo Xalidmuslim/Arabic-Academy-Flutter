@@ -13,6 +13,7 @@ import '../integrations/oral_practice_screen.dart';
 import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
 import 'textbook_reader_screen.dart';
 import 'vocabulary_practice_screen.dart';
+import 'smart_reader_screen.dart';
 
 class LessonScreen extends StatefulWidget {
   const LessonScreen({
@@ -388,6 +389,15 @@ class _LessonScreenState extends State<LessonScreen>
               ),
             ),
           ],
+        ),
+        const SizedBox(height: 10),
+        OutlinedButton.icon(
+          icon: const Icon(Icons.chrome_reader_mode_outlined),
+          label: const Text('Умное чтение · слова, перевод, аудио'),
+          onPressed: () => Navigator.push(context,
+            MaterialPageRoute<void>(builder: (_) => SmartReaderScreen(
+              state: widget.state, lesson: widget.lesson,
+            ))),
         ),
         const SizedBox(height: 12),
         if (widget.lesson['pdf_page'] is int)
