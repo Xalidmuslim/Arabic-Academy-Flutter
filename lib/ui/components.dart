@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'design_tokens.dart';
+import 'appearance_theme.dart';
 import 'neumorphic_components.dart';
 
 const green = DesignTokens.emerald;
@@ -27,10 +28,11 @@ class NaskhText extends StatelessWidget {
       value,
       textAlign: align,
       style: TextStyle(
-        fontFamily: 'NotoNaskhArabic',
+        fontFamily: ReadingFontScope.arabicFontOf(context),
         fontSize: size,
         height: height,
-        color: color,
+        color: color == green && Theme.of(context).brightness == Brightness.dark
+            ? const Color(0xFFB7D3AE) : color,
       ),
       textHeightBehavior: const TextHeightBehavior(
         applyHeightToFirstAscent: true,
