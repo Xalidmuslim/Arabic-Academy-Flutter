@@ -55,7 +55,9 @@ abstract final class VocabularyPractice {
         if (word is! Map) continue;
         final ar = (word['ar'] as String? ?? '').trim();
         final ru = (word['ru'] as String? ?? '').trim();
-        if (ar.isEmpty || ru.isEmpty) continue;
+        if (ar.isEmpty || ru.isEmpty) {
+        continue;
+      }
         result.add(VocabularyPracticeWord(
           id: vocabularyKey(id, i, word),
           ar: ar,
