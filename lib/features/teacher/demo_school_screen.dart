@@ -68,7 +68,6 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     if (value != null) {
       await guardedAction(context, () => school.createGroup(value));
     }
-    controller.dispose();
   }
 
   Future<void> _addStudent(String groupId) async {
@@ -92,7 +91,6 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     if (name != null) {
       await guardedAction(context, () => school.addStudent(groupId, name));
     }
-    controller.dispose();
   }
 
   Future<void> _createAssignment({String? groupId, String? studentId}) async {
@@ -208,8 +206,6 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
         groupId: selectedGroup, studentId: pupil, due: due,
       ));
     }
-    title.dispose();
-    instructions.dispose();
   }
 
   Future<void> _scheduleLive() async {
@@ -314,7 +310,6 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
         durationMinutes: duration, remindMinutes: reminder,
       ));
     }
-    title.dispose();
   }
 
   Future<void> _announce() async {
@@ -369,8 +364,6 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
         title: title.text, text: message.text, groupId: groupId,
       ));
     }
-    title.dispose();
-    message.dispose();
   }
 
   Widget _groups() => Column(
@@ -818,8 +811,6 @@ class _DemoSubmissionDetails extends StatelessWidget {
         revision: revision,
       ));
     }
-    score.dispose();
-    feedback.dispose();
   }
 
   @override
