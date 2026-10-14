@@ -36,7 +36,7 @@ class LearnerProgressScreen extends StatelessWidget {
           (i) => today.subtract(Duration(days: 6 - i)),
         );
         return ListView(
-          padding: const EdgeInsets.all(18),
+          padding: const EdgeInsets.fromLTRB(18, 18, 18, 150),
           children: [
             Panel(
               child: Row(
