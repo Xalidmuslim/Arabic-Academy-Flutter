@@ -40,6 +40,7 @@ class FloatingStudyNavigation extends StatelessWidget {
             const Icon(Icons.psychology_outlined, size: 26),
             const ArtworkIcon('profile', size: 26),
           ];
+    final dark = Theme.of(context).brightness == Brightness.dark;
     return SafeArea(
       top: false,
       minimum: const EdgeInsets.only(bottom: 12),
@@ -52,9 +53,9 @@ class FloatingStudyNavigation extends StatelessWidget {
             child: DecoratedBox(
           key: const ValueKey('floating-study-navigation'),
           decoration: BoxDecoration(
-            color: DesignTokens.navSurface,
+            color: dark ? const Color(0xFF29372E) : DesignTokens.navSurface,
             borderRadius: BorderRadius.circular(29),
-            border: Border.all(color: DesignTokens.cardHighlight, width: 0.8),
+            border: Border.all(color: dark ? const Color(0xFF405747) : DesignTokens.cardHighlight, width: 0.8),
             boxShadow: const [
               BoxShadow(color: Color(0x28534133), offset: Offset(0, 6), blurRadius: 15, spreadRadius: -3),
               BoxShadow(color: Color(0x19534133), offset: Offset(0, 15), blurRadius: 28, spreadRadius: -8),
@@ -68,7 +69,7 @@ class FloatingStudyNavigation extends StatelessWidget {
                   Expanded(
                     child: Material(
                       color: selectedIndex == index
-                          ? const Color(0xFFDEDCC7)
+                          ? (dark ? const Color(0xFF53684C) : const Color(0xFFDEDCC7))
                           : Colors.transparent,
                       borderRadius: BorderRadius.circular(23),
                       child: InkWell(
@@ -90,8 +91,8 @@ class FloatingStudyNavigation extends StatelessWidget {
                                   labels[index],
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
-                                  style: const TextStyle(
-                                    color: DesignTokens.ink,
+                                  style: TextStyle(
+                                     color: dark ? const Color(0xFFE9F1E7) : DesignTokens.ink,
                                     fontWeight: FontWeight.w600,
                                     fontSize: 11,
                                   ),
