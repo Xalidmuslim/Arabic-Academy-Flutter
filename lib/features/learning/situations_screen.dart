@@ -46,8 +46,12 @@ class SituationsScreen extends StatelessWidget {
                     if (DialogueSceneIllustration.sceneFor(
                         lesson['title']?.toString() ?? '') != null) ...[
                       const SizedBox(height: 8),
-                      DialogueSceneIllustration(
-                        setting: lesson['title']?.toString() ?? ''),
+                      Center(child: SizedBox(
+                          width: 190,
+                          child: DialogueSceneIllustration(
+                            setting: lesson['title']?.toString() ?? '',
+                          ),
+                        )),
                     ],
                     const SizedBox(height: 6),
                     Text(
