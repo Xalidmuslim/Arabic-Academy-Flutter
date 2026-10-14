@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
 import '../../core/vocabulary_key.dart';
+import '../../core/practice_generator.dart';
 import '../../core/speech.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
@@ -351,13 +352,15 @@ class _LessonScreenState extends State<LessonScreen>
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  if ((word['image_path'] as String? ?? '').isNotEmpty) ...[
+                  if ((word['image_path'] as String? ?? '').isNotEmpty ||
+                      IllustratedTerm.hasIllustration(
+                          word['ar']?.toString() ?? '')) ...[
                     Center(child: SemanticWordIllustration(
                       arabic: word['ar']?.toString() ?? '',
-                      imagePath: word['image_path'] as String,
-                      size: 180,
+                      imagePath: word['image_path'] as String?,
+                      size: 116,
                     )),
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 6),
                   ],
                   NaskhText(word['ar'] as String? ?? '', size: _arabicSize),
                   Text(word['ru'] as String? ?? ''),
