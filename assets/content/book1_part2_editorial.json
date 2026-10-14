@@ -10,7 +10,8 @@
       "access_default": "free",
       "pdf_page": 22,
       "unit_order": 9,
-      "pdf_part": 2
+      "pdf_part": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u9_shopping.webp"
     },
     {
       "id": "u10",
@@ -19,7 +20,8 @@
       "access_default": "free",
       "pdf_page": 48,
       "unit_order": 10,
-      "pdf_part": 2
+      "pdf_part": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u10_weather.webp"
     },
     {
       "id": "u11",
@@ -28,7 +30,8 @@
       "access_default": "free",
       "pdf_page": 76,
       "unit_order": 11,
-      "pdf_part": 2
+      "pdf_part": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u11_people_places.webp"
     },
     {
       "id": "u12",
@@ -37,7 +40,8 @@
       "access_default": "free",
       "pdf_page": 102,
       "unit_order": 12,
-      "pdf_part": 2
+      "pdf_part": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u12_hobbies.webp"
     },
     {
       "id": "u13",
@@ -46,7 +50,8 @@
       "access_default": "free",
       "pdf_page": 130,
       "unit_order": 13,
-      "pdf_part": 2
+      "pdf_part": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u13_travel.webp"
     },
     {
       "id": "u14",
@@ -64,7 +69,8 @@
       "access_default": "free",
       "pdf_page": 184,
       "unit_order": 15,
-      "pdf_part": 2
+      "pdf_part": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u15_health.webp"
     },
     {
       "id": "u16",
@@ -73,7 +79,8 @@
       "access_default": "free",
       "pdf_page": 210,
       "unit_order": 16,
-      "pdf_part": 2
+      "pdf_part": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u16_holiday.webp"
     }
   ],
   "lessons": [
@@ -285,7 +292,9 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u9_d3_clothes.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u9-vocabulary",

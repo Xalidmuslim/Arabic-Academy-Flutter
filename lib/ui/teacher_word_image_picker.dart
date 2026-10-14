@@ -5,6 +5,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 import '../services/teacher_word_image_store.dart';
+import 'fitted_study_artwork.dart';
 
 /// Edits only a local lesson image reference. Saving the lesson is a separate
 /// explicit action; cancelled cards never overwrite an existing picture.
@@ -84,15 +85,11 @@ class _TeacherWordImagePickerState extends State<TeacherWordImagePicker> {
           style: TextStyle(fontSize: 12)),
         const SizedBox(height: 10),
         if (hasPicture)
-          ClipRRect(
-            borderRadius: BorderRadius.circular(16),
-            child: _chosen != null
-                ? Image.memory(_chosen!, height: 132, width: 180,
-                    fit: BoxFit.cover, cacheWidth: 400)
-                : Image.file(File(initial!), height: 132, width: 180,
-                    fit: BoxFit.cover, cacheWidth: 400,
-                    errorBuilder: (_, __, ___) => const Text(
-                      'Изображение недоступно на устройстве')),
+          FittedStudyArtwork(
+            size: 132,
+            image: _chosen != null
+                ? MemoryImage(_chosen!)
+                : FileImage(File(initial!)),
           ),
         const SizedBox(height: 9),
         Wrap(spacing: 8, runSpacing: 6, children: [

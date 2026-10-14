@@ -9,7 +9,8 @@
       "title_ar": "التَّحِيَّةُ وَالتَّعَارُفُ",
       "access_default": "free",
       "pdf_page": 22,
-      "unit_order": 1
+      "unit_order": 1,
+      "illustration_asset": "assets/artwork/lesson_generated/u1_greeting.webp"
     },
     {
       "id": "u2",
@@ -17,7 +18,8 @@
       "title_ar": "الْأُسْرَةُ",
       "access_default": "free",
       "pdf_page": 48,
-      "unit_order": 2
+      "unit_order": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u2_family.webp"
     },
     {
       "id": "u3",
@@ -25,7 +27,8 @@
       "title_ar": "السَّكَنُ",
       "access_default": "free",
       "pdf_page": 76,
-      "unit_order": 3
+      "unit_order": 3,
+      "illustration_asset": "assets/artwork/lesson_generated/u3_housing.webp"
     },
     {
       "id": "u4",
@@ -33,7 +36,8 @@
       "title_ar": "الْحَيَاةُ الْيَوْمِيَّةُ",
       "access_default": "free",
       "pdf_page": 102,
-      "unit_order": 4
+      "unit_order": 4,
+      "illustration_asset": "assets/artwork/lesson_generated/u4_daily_routine.webp"
     },
     {
       "id": "u5",
@@ -41,7 +45,8 @@
       "title_ar": "الطَّعَامُ وَالشَّرَابُ",
       "access_default": "free",
       "pdf_page": 130,
-      "unit_order": 5
+      "unit_order": 5,
+      "illustration_asset": "assets/artwork/lesson_generated/u5_food.webp"
     },
     {
       "id": "u6",
@@ -49,7 +54,8 @@
       "title_ar": "الصَّلَاةُ",
       "access_default": "free",
       "pdf_page": 156,
-      "unit_order": 6
+      "unit_order": 6,
+      "illustration_asset": "assets/artwork/lesson_generated/u6_prayer.webp"
     },
     {
       "id": "u7",
@@ -57,7 +63,8 @@
       "title_ar": "الدِّرَاسَةُ",
       "access_default": "free",
       "pdf_page": 184,
-      "unit_order": 7
+      "unit_order": 7,
+      "illustration_asset": "assets/artwork/lesson_generated/u7_study.webp"
     },
     {
       "id": "u8",
@@ -65,7 +72,8 @@
       "title_ar": "الْعَمَلُ",
       "access_default": "free",
       "pdf_page": 210,
-      "unit_order": 8
+      "unit_order": 8,
+      "illustration_asset": "assets/artwork/lesson_generated/u8_work.webp"
     }
   ],
   "lessons": [
@@ -376,7 +384,9 @@
       ],
       "correct": 1,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u2_d2_siblings.webp",
+      "dialogue_illustration_format": "four_by_three"
     },
     {
       "id": "book1-u2-d3",
@@ -620,7 +630,9 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u3_d3_furniture.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u4-d1",
@@ -864,7 +876,9 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u5_d1_market.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u5-d2",
@@ -925,7 +939,9 @@
       ],
       "correct": 1,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u5_d2_lunch.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u5-d3",
@@ -986,7 +1002,9 @@
       ],
       "correct": 2,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u5_d3_tea.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u6-d1",
@@ -1108,7 +1126,9 @@
       ],
       "correct": 2,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u6_d2_mosque_route.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u6-d3",
@@ -1230,7 +1250,9 @@
       ],
       "correct": 2,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u7_d1_class.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u7-d2",
@@ -1291,7 +1313,9 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u7_d2_homework.webp",
+      "dialogue_illustration_format": "square"
     },
     {
       "id": "book1-u7-d3",

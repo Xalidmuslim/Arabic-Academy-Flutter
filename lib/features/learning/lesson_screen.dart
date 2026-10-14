@@ -8,7 +8,8 @@ import '../../core/speech.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
-import '../../ui/dialogue_scene_illustration.dart';
+import '../../ui/fitted_study_artwork.dart';
+import '../../ui/study_art_asset.dart';
 import '../../ui/premium_art.dart';
 import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
@@ -278,13 +279,16 @@ class _LessonScreenState extends State<LessonScreen>
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Image.asset(
-                'assets/artwork/${widget.lesson['grammar_topic'] == null ? 'teacher' : 'grammar'}.webp',
-                height: 175,
-                fit: BoxFit.contain,
-                cacheWidth: 600,
-                excludeFromSemantics: true,
-              ),
+              if (StudyArtAsset.valid(widget.lesson['illustration_asset']) case final path?)
+                Center(child: FittedStudyArtwork(
+                  image: AssetImage(path), size: 175,
+                ))
+              else if (widget.lesson['grammar_topic'] != null)
+                Image.asset(
+                  'assets/artwork/grammar.webp',
+                  height: 175, fit: BoxFit.contain, cacheWidth: 600,
+                  excludeFromSemantics: true,
+                ),
               Text(
                 widget.lesson['title'] as String? ?? '',
                 style: Theme.of(context).textTheme.headlineSmall,
@@ -413,14 +417,14 @@ class _LessonScreenState extends State<LessonScreen>
             label: const Text('Закрепить слова этого урока'),
           ),
       ] else if (_stage == 2) ...[
-        if (DialogueSceneIllustration.sceneFor(
-            widget.lesson['title']?.toString() ?? '') != null) ...[
-          Center(child: SizedBox(
-              width: 190,
-              child: DialogueSceneIllustration(
-                setting: widget.lesson['title']?.toString() ?? '',
-              ),
-            )),
+        if (StudyArtAsset.valid(widget.lesson['dialogue_illustration_asset']) case final imagePath?) ...[
+          Center(child: FittedStudyArtwork(
+            image: AssetImage(imagePath),
+            width: widget.lesson['dialogue_illustration_format'] == 'square' ? 218 :
+                widget.lesson['dialogue_illustration_format'] == 'four_by_three' ? 280 : 295,
+            height: widget.lesson['dialogue_illustration_format'] == 'square' ? 218 :
+                widget.lesson['dialogue_illustration_format'] == 'four_by_three' ? 210 : 166,
+          )),
           const SizedBox(height: 12),
         ],
         Row(

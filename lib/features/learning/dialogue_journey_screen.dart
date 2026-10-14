@@ -5,7 +5,8 @@ import '../../core/practice_generator.dart';
 import '../../core/speech.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
-import '../../ui/dialogue_scene_illustration.dart';
+import '../../ui/fitted_study_artwork.dart';
+import '../../ui/study_art_asset.dart';
 
 /// Context-preserving, branching practice: a correct choice advances the
 /// course dialogue, a mistake branches into listening/repair, and a completed
@@ -163,15 +164,15 @@ class _DialogueJourneyScreenState extends State<DialogueJourneyScreen> {
         children: [
           Text(_lesson['title']?.toString() ?? '',
             style: Theme.of(context).textTheme.titleLarge),
-          if (DialogueSceneIllustration.sceneFor(
-              _lesson['title']?.toString() ?? '') != null) ...[
+          if (StudyArtAsset.valid(_lesson['dialogue_illustration_asset']) case final imagePath?) ...[
             const SizedBox(height: 10),
-            Center(child: SizedBox(
-                width: 190,
-                child: DialogueSceneIllustration(
-                  setting: _lesson['title']?.toString() ?? '',
-                ),
-              )),
+            Center(child: FittedStudyArtwork(
+              image: AssetImage(imagePath),
+            width: _lesson['dialogue_illustration_format'] == 'square' ? 218 :
+                _lesson['dialogue_illustration_format'] == 'four_by_three' ? 280 : 295,
+            height: _lesson['dialogue_illustration_format'] == 'square' ? 218 :
+                _lesson['dialogue_illustration_format'] == 'four_by_three' ? 210 : 166,
+            )),
           ],
           const SizedBox(height: 8),
           const Text('Выбирайте следующую реплику. Ошибки открывают '

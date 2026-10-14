@@ -252,12 +252,12 @@ abstract final class IllustratedTerm {
     'شجرة': 'tree', 'مسجد': 'mosque', 'سوق': 'market',
     'ساعة': 'clock', 'ماء': 'water', 'خبز': 'bread',
     'تفاح': 'apple', 'تفاحة': 'apple', 'شمس': 'sun',
-    'قمر': 'moon', 'طائرة': 'plane', 'قط': 'cat', 'قطة': 'cat',
+    'قمر': 'moon', 'طائرة': 'plane',
     'كرسي': 'chair', 'هاتف': 'phone', 'حاسوب': 'computer',
     'مفتاح': 'key', 'نافذة': 'window', 'زهرة': 'flower',
     'سمكة': 'fish', 'طعام': 'food', 'قميص': 'shirt',
-    'بقرة': 'cow', 'حصان': 'horse', 'طبيب': 'doctor',
-    'مستشفى': 'hospital', 'كوب': 'cup', 'مطبخ': 'kitchen',
+    'طبيب': 'doctor',
+    'مستشفى': 'hospital', 'كوب': 'cup',
   };
   static String? concept(String arabic) {
     final folded = ArabicNormalization.forGrading(

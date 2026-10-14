@@ -9,6 +9,7 @@ import '../../core/vocabulary_practice.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../../ui/semantic_object_artwork.dart';
+import '../../ui/fitted_study_artwork.dart';
 
 /// Each image cue is deliberately tied to a known concept; unsupported words
 /// remain in the regular dictionary and are never illustrated incorrectly.
@@ -22,13 +23,10 @@ class SemanticWordIllustration extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (imagePath != null && imagePath!.isNotEmpty) {
-      return ClipRRect(
-        borderRadius: BorderRadius.circular(20),
-        child: Image.file(
-          File(imagePath!), width: size, height: size,
-          fit: BoxFit.cover, cacheWidth: (size * 2).round(),
-          errorBuilder: (context, error, stack) => _semanticFallback(),
-        ),
+      return FittedStudyArtwork(
+        image: FileImage(File(imagePath!)),
+        size: size,
+        semanticLabel: 'Изображение слова $arabic',
       );
     }
     return _semanticFallback();
