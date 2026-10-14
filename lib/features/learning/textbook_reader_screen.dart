@@ -46,6 +46,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
   ];
 
   final TransformationController _zoom = TransformationController();
+  final Set<int> _pointers = <int>{};
+  Offset? _swipeStart;
+  bool _multitouch = false;
   double _scale = 1;
   bool _fitWidth = false;
   Size _viewportSize = Size.zero;
@@ -61,7 +64,6 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     super.initState();
     _page = widget.initialPage;
     _zoom.addListener(_onZoomChanged);
-    _setGestureExclusion(true);
     _openSaved();
   }
 
@@ -197,16 +199,34 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
         return data;
       });
 
-  // The Android back-edge exclusion is deliberately limited to a small
-  // central region; other OS gestures retain their normal behavior.
-  static const _gestureChannel = MethodChannel('bayna.reader_gesture');
-
-  void _setGestureExclusion(bool enabled) {
-    if (Platform.isAndroid) {
-      _gestureChannel.invokeMethod<void>('excludeRightEdge', {
-        'enabled': enabled,
-      }).catchError((Object _) {});
+  // Passive observation of swipes keeps Android system Back and pinch intact.
+  void _pointerDown(PointerDownEvent e) {
+    if (_pointers.isEmpty) {
+      _swipeStart = e.localPosition;
+      _multitouch = false;
+    } else {
+      _multitouch = true;
     }
+    _pointers.add(e.pointer);
+  }
+
+  void _pointerUp(PointerUpEvent e) {
+    final start = _swipeStart;
+    final single = _pointers.length == 1 &&
+        _pointers.contains(e.pointer) && !_multitouch;
+    _pointers.remove(e.pointer);
+    if (_pointers.isEmpty) _swipeStart = null;
+    if (!single || start == null || _scale > 1.03) return;
+    if (start.dx < 36 || start.dx > _viewportSize.width - 36) return;
+    final movement = e.localPosition - start;
+    if (movement.dx.abs() < 85 ||
+        movement.dx.abs() < movement.dy.abs() * 1.4) return;
+    _goToPage(_page + (movement.dx < 0 ? 1 : -1));
+  }
+
+  void _pointerCancel(PointerCancelEvent e) {
+    _pointers.remove(e.pointer);
+    if (_pointers.isEmpty) _swipeStart = null;
   }
 
   void _onZoomChanged() {
@@ -267,7 +287,6 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
   @override
   void dispose() {
     _pageCache.clear();
-    _setGestureExclusion(false);
     _zoom.removeListener(_onZoomChanged);
     _zoom.dispose();
     // Native PDF resources are released on reader dismissal.
@@ -339,13 +358,16 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                             if (!snapshot.hasData) {
                               return const Center(child: CircularProgressIndicator());
                             }
-                            // No PageView/swipe recognizer: pinch and pan cannot
-                            // accidentally turn a page. Page turns use arrows.
-                            return PdfPageImage(
-                              bytes: snapshot.data!,
-                              controller: _zoom,
-                              fitWidth: _fitWidth,
-                              viewport: constraints.biggest,
+                            return Listener(
+                              onPointerDown: _pointerDown,
+                              onPointerUp: _pointerUp,
+                              onPointerCancel: _pointerCancel,
+                              child: PdfPageImage(
+                                bytes: snapshot.data!,
+                                controller: _zoom,
+                                fitWidth: _fitWidth,
+                                viewport: constraints.biggest,
+                              ),
                             );
                           },
                         );
@@ -426,8 +448,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
 }
 
 
-/// Standalone gesture surface: the absence of PageView is deliberate.
-/// Two-finger pinch and pan belong exclusively to InteractiveViewer.
+/// Standalone pinch/pan surface. Its parent detects page swipes at 1x.
 class PdfPageImage extends StatelessWidget {
   const PdfPageImage({
     super.key,

@@ -165,7 +165,7 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                   )),
                 const SizedBox(height: 7),
                 if (_phase == 'learn')
-                  Text('${shown.length} слов · нажмите для прослушивания',
+                  Text('${shown.length} слов · касание — звук, удержание — подробнее',
                     style: const TextStyle(
                       fontSize: 12, color: DesignTokens.secondary)),
               ],
@@ -187,7 +187,7 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: oneColumn ? 1 : 2,
                   crossAxisSpacing: 12, mainAxisSpacing: 12,
-                  childAspectRatio: oneColumn ? 1.15 : .72,
+                  childAspectRatio: oneColumn ? 1.6 : .80,
                 ),
                 itemBuilder: (context, index) {
                   final word = shown[index];
@@ -198,7 +198,8 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                     child: InkWell(
                       key: ValueKey('unified-word-${word.id}'),
                       borderRadius: BorderRadius.circular(20),
-                      onTap: () => _showWord(word),
+                      onTap: () => _speak(word.ar),
+                      onLongPress: () => _showWord(word),
                       child: Panel(child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -211,7 +212,7 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                               ),
                             ))
                           else
-                            const Spacer(),
+                            const SizedBox(height: 12),
                           NaskhText(word.ar, size: 25,
                             align: TextAlign.center,
                             color: DesignTokens.emerald),
