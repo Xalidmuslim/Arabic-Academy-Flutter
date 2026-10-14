@@ -124,7 +124,10 @@ void main() {
     expect(find.byType(FloatingStudyNavigation), findsOneWidget);
     final advanced = find.byKey(const ValueKey('demo-tools'));
     await tester.ensureVisible(advanced);
-    await tester.tap(advanced);
+    await tester.pumpAndSettle();
+    await tester.drag(find.byType(ListView).first, const Offset(0, -220));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Дополнительные возможности').hitTestable());
     await tester.pump(const Duration(milliseconds: 350));
     expect(find.text('Выбрать демо-кабинет'), findsOneWidget);
     final choose = find.byKey(const ValueKey('demo-role-in-settings'));
