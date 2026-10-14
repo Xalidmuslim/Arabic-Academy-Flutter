@@ -8,6 +8,7 @@ import '../../core/speech.dart';
 import '../../core/vocabulary_practice.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
+import '../../ui/semantic_object_artwork.dart';
 
 /// Each image cue is deliberately tied to a known concept; unsupported words
 /// remain in the regular dictionary and are never illustrated incorrectly.
@@ -17,26 +18,6 @@ class SemanticWordIllustration extends StatelessWidget {
   final String arabic;
   final double size;
   final String? imagePath;
-
-  static const symbols = <String, IconData>{
-    'book': Icons.menu_book_outlined, 'pen': Icons.edit_outlined,
-    'door': Icons.door_front_door_outlined, 'house': Icons.home_outlined,
-    'school': Icons.school_outlined, 'bag': Icons.backpack_outlined,
-    'car': Icons.directions_car_outlined, 'tree': Icons.park_outlined,
-    'mosque': Icons.account_balance_outlined, 'market': Icons.storefront_outlined,
-    'clock': Icons.watch_later_outlined, 'water': Icons.water_drop_outlined,
-    'bread': Icons.bakery_dining_outlined, 'apple': Icons.apple_outlined,
-    'sun': Icons.wb_sunny_outlined, 'moon': Icons.nightlight_round,
-    'plane': Icons.flight_outlined, 'cat': Icons.pets_outlined,
-    'chair': Icons.chair_outlined, 'phone': Icons.phone_android_outlined,
-    'computer': Icons.laptop_outlined, 'key': Icons.key_outlined,
-    'window': Icons.window_outlined, 'flower': Icons.local_florist_outlined,
-    'fish': Icons.set_meal_outlined, 'food': Icons.restaurant_outlined,
-    'shirt': Icons.checkroom_outlined, 'cow': Icons.pets_outlined,
-    'horse': Icons.pets_outlined, 'doctor': Icons.medical_services_outlined,
-    'hospital': Icons.local_hospital_outlined, 'cup': Icons.local_cafe_outlined,
-    'kitchen': Icons.kitchen_outlined,
-  };
 
   @override
   Widget build(BuildContext context) {
@@ -74,9 +55,11 @@ class SemanticWordIllustration extends StatelessWidget {
                 offset: Offset(0, 13), blurRadius: 25),
             ],
           ),
-          child: Icon(symbols[concept] ?? Icons.help_outline,
-            size: size * .56,
-            color: DesignTokens.deepOlive),
+          child: concept == null
+              ? Center(child: NaskhText(arabic, size: size * .25,
+                  align: TextAlign.center))
+              : Center(child: SemanticObjectArtwork(
+                  concept: concept, size: size * .86)),
         ),
       ),
     );

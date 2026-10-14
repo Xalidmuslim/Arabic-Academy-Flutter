@@ -136,7 +136,7 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('picture dictionary uses known illustrations and precise search',
+  testWidgets('unified word hub keeps precise search and semantic images',
       (tester) async {
     final model = await state();
     addTearDown(model.dispose);
@@ -144,12 +144,12 @@ void main() {
       home: Scaffold(body: PracticeCenterScreen(state: model)),
     ));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Словарь с рисунками'));
+    await tester.tap(find.text('Все слова в одном месте'));
     await tester.pumpAndSettle();
-    expect(find.text('Слова в рисунках'), findsOneWidget);
+    expect(find.text('Слова'), findsWidgets);
     expect(find.text('Книга'), findsWidgets);
     await tester.enterText(
-      find.byKey(const ValueKey('illustrated-dictionary-search')), 'дверь');
+      find.byKey(const ValueKey('words-unified-search')), 'дверь');
     await tester.pumpAndSettle();
     expect(find.text('Дверь'), findsOneWidget);
     expect(find.text('Книга'), findsNothing);
@@ -164,7 +164,7 @@ void main() {
     await tester.pump();
     await tester.tap(find.byKey(const ValueKey('study-tab-2')));
     await tester.pump();
-    expect(find.text('Поиск'), findsWidgets);
+    expect(find.text('Практика'), findsWidgets);
     await tester.binding.handlePopRoute();
     await tester.pump();
     expect(find.text('Ученица · локальное обучение'), findsOneWidget);
@@ -193,7 +193,7 @@ void main() {
     )));
     await tester.tap(find.text('Open lesson'));
     await tester.pumpAndSettle();
-    expect(find.text('Введение'), findsWidgets);
+    expect(find.text('Изучаю'), findsWidgets);
     await tester.tap(find.text('Начать урок'));
     await tester.pumpAndSettle();
     expect(find.text('Новые слова'), findsOneWidget);

@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
 import '../../core/vocabulary_key.dart';
+import '../../core/practice_generator.dart';
 import '../../core/speech.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
+import '../../ui/dialogue_scene_illustration.dart';
 import '../../ui/premium_art.dart';
 import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
@@ -34,14 +36,40 @@ class LessonScreen extends StatefulWidget {
 
 class _LessonScreenState extends State<LessonScreen>
     with WidgetsBindingObserver {
+  // Four learner-facing phases keep the six existing internal steps and
+  // all saved lesson results backward compatible.
   static const stages = [
-    'Введение',
-    'Лексика',
-    'Диалог',
-    'Грамматика',
-    'Практика',
-    'Проверка',
+    'Изучаю',
+    'Понимаю',
+    'Практикую',
+    'Закрепляю',
   ];
+  static const _phaseStarts = [0, 2, 4, 5];
+  int get _phase => switch (_stage) {
+    0 || 1 => 0,
+    2 || 3 => 1,
+    4 => 2,
+    _ => 3,
+  };
+  bool _hasMaterial(int stage) => switch (stage) {
+    1 => _words.isNotEmpty,
+    2 => _dialogue.isNotEmpty,
+    3 => (widget.lesson['grammar']?.toString().trim().isNotEmpty ?? false),
+    _ => true,
+  };
+  int _skipEmptySections(int stage) {
+    var next = stage < 0 ? 0 : stage > 5 ? 5 : stage;
+    while (next >= 1 && next <= 3 && !_hasMaterial(next)) {
+      next++;
+    }
+    return next;
+  }
+  void _selectPhase(int phase) => setState(() {
+    _stage = _skipEmptySections(_phaseStarts[phase]);
+    _exerciseIndex = 0;
+    _round = 0;
+    _finished = false;
+  });
   late int _stage;
   late final List<Exercise> _exercises;
   final Map<String, ExerciseResult> _results = {};
@@ -179,7 +207,7 @@ class _LessonScreenState extends State<LessonScreen>
       child: Column(
         children: [
           LinearProgressIndicator(
-            value: (_stage + 1) / stages.length,
+            value: (_phase + 1) / stages.length,
             minHeight: 4,
             color: DesignTokens.olive,
             backgroundColor: DesignTokens.beige,
@@ -197,26 +225,22 @@ class _LessonScreenState extends State<LessonScreen>
                     child: ActionChip(
                       avatar: CircleAvatar(
                         radius: 12,
-                        backgroundColor: i == _stage
+                        backgroundColor: i == _phase
                             ? DesignTokens.olive
                             : DesignTokens.beige,
                         child: Text(
                           '${i + 1}',
                           style: TextStyle(
                             fontSize: 11,
-                            color: i == _stage ? Colors.white : green,
+                            color: i == _phase ? Colors.white : green,
                           ),
                         ),
                       ),
                       label: Text(stages[i]),
-                      backgroundColor: i == _stage
+                      backgroundColor: i == _phase
                           ? const Color(0xFFE3E8D5)
                           : cream,
-                      onPressed: () => setState(() {
-                        _stage = i;
-                        _exerciseIndex = 0;
-                        _finished = false;
-                      }),
+                      onPressed: () => _selectPhase(i),
                     ),
                   ),
                 ),
@@ -267,7 +291,7 @@ class _LessonScreenState extends State<LessonScreen>
               Text(widget.lesson['goal'] as String? ?? ''),
               const SizedBox(height: 16),
               FilledButton.icon(
-                onPressed: () => setState(() => _stage = 1),
+                onPressed: () => setState(() => _stage = _skipEmptySections(1)),
                 icon: const Icon(Icons.play_arrow),
                 label: const Text('Начать урок'),
               ),
@@ -328,13 +352,15 @@ class _LessonScreenState extends State<LessonScreen>
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  if ((word['image_path'] as String? ?? '').isNotEmpty) ...[
+                  if ((word['image_path'] as String? ?? '').isNotEmpty ||
+                      IllustratedTerm.hasIllustration(
+                          word['ar']?.toString() ?? '')) ...[
                     Center(child: SemanticWordIllustration(
                       arabic: word['ar']?.toString() ?? '',
-                      imagePath: word['image_path'] as String,
-                      size: 180,
+                      imagePath: word['image_path'] as String?,
+                      size: 116,
                     )),
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 6),
                   ],
                   NaskhText(word['ar'] as String? ?? '', size: _arabicSize),
                   Text(word['ru'] as String? ?? ''),
@@ -381,6 +407,16 @@ class _LessonScreenState extends State<LessonScreen>
             label: const Text('Закрепить слова этого урока'),
           ),
       ] else if (_stage == 2) ...[
+        if (DialogueSceneIllustration.sceneFor(
+            widget.lesson['title']?.toString() ?? '') != null) ...[
+          Center(child: SizedBox(
+              width: 190,
+              child: DialogueSceneIllustration(
+                setting: widget.lesson['title']?.toString() ?? '',
+              ),
+            )),
+          const SizedBox(height: 12),
+        ],
         Row(
           children: [
             Expanded(
@@ -482,7 +518,7 @@ class _LessonScreenState extends State<LessonScreen>
         ),
         const SizedBox(height: 16),
         FilledButton(
-          onPressed: () => setState(() => _stage = 4),
+          onPressed: () => setState(() => _stage = _skipEmptySections(4)),
           child: const Text('Перейти к практике'),
         ),
       ],
@@ -490,7 +526,7 @@ class _LessonScreenState extends State<LessonScreen>
         const SizedBox(height: 16),
         FilledButton.icon(
           icon: const Icon(Icons.arrow_forward),
-          onPressed: () => setState(() => _stage++),
+          onPressed: () => setState(() => _stage = _skipEmptySections(_stage + 1)),
           label: const Text('Далее'),
         ),
       ],

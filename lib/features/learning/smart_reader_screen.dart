@@ -7,6 +7,7 @@ import '../../services/lesson_audio_library.dart';
 import '../../features/exercises/arabic_normalization.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
+import '../../ui/dialogue_scene_illustration.dart';
 
 /// Uses only the selected catalog lesson; no synthetic or unverified
 /// translations are shown for words missing from that lesson's vocabulary.
@@ -236,9 +237,62 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
     super.dispose();
   }
 
+  void _readerOptions() => showModalBottomSheet<void>(
+    context: context,
+    isScrollControlled: true,
+    showDragHandle: true,
+    builder: (sheet) => StatefulBuilder(
+      builder: (sheet, refresh) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(20, 8, 20, 28),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text('Настройки чтения',
+                style: Theme.of(sheet).textTheme.titleLarge),
+              SwitchListTile.adaptive(
+                contentPadding: EdgeInsets.zero,
+                title: const Text('Показывать перевод фраз'),
+                value: _translations,
+                onChanged: (value) {
+                  setState(() => _translations = value);
+                  refresh(() {});
+                },
+              ),
+              Text('Скорость воспроизведения · ${(_speed * 100).round()}%',
+                style: const TextStyle(color: DesignTokens.secondary)),
+              Slider(
+                value: _speed, min: .4, max: .65, divisions: 5,
+                onChanged: (value) {
+                  setState(() => _speed = value);
+                  refresh(() {});
+                },
+              ),
+              const SizedBox(height: 8),
+              const Text('Для реплик можно импортировать запись носителя '
+                'кнопкой рядом с фразой. Если записи нет, используется '
+                'системный синтезатор. Подсветка отдельного слова доступна '
+                'только когда движок передаёт точные временные метки.',
+                style: TextStyle(
+                  fontSize: 12, color: DesignTokens.secondary)),
+            ],
+          ),
+        ),
+      ),
+    ),
+  );
+
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('Умное чтение')),
+    appBar: AppBar(title: const Text('Умное чтение'), actions: [
+      IconButton(
+        key: const ValueKey('reader-settings'),
+        tooltip: 'Настройки чтения и скорости',
+        icon: const Icon(Icons.tune_outlined),
+        onPressed: _readerOptions,
+      ),
+    ]),
     body: AnimatedBuilder(
       animation: widget.state,
       builder: (context, _) => ListView(
@@ -246,28 +300,20 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
         children: [
           Text(widget.lesson['title']?.toString() ?? '',
             style: Theme.of(context).textTheme.titleLarge),
+          if (DialogueSceneIllustration.sceneFor(
+              widget.lesson['title']?.toString() ?? '') != null) ...[
+            const SizedBox(height: 10),
+            Center(child: SizedBox(
+                width: 190,
+                child: DialogueSceneIllustration(
+                  setting: widget.lesson['title']?.toString() ?? '',
+                ),
+              )),
+          ],
           const SizedBox(height: 8),
-          const Text('Нажмите слово для перевода и произношения. '
-            'Для незнакомых слов перевод не выдумывается.',
+          const Text('Нажмите арабское слово, чтобы узнать перевод '
+            'и прослушать произношение.',
             style: TextStyle(color: DesignTokens.secondary, fontSize: 12)),
-          SwitchListTile.adaptive(
-            title: const Text('Показывать перевод фраз'),
-            value: _translations,
-            onChanged: (v) => setState(() => _translations = v),
-            contentPadding: EdgeInsets.zero,
-          ),
-          Text('Скорость воспроизведения: '
-            '${(_speed * 100).round()}%',
-            style: const TextStyle(fontSize: 12,
-              color: DesignTokens.secondary)),
-          Slider(
-            value: _speed, min: .4, max: .65, divisions: 5,
-            onChanged: (value) => setState(() => _speed = value),
-          ),
-          const Text('Импортируйте аудио носителя кнопкой возле реплики. '
-            'Если файла нет, используется системный арабский синтезатор. '
-            'Для записей выделяется реплика, для поддерживаемого TTS — слово.',
-            style: TextStyle(fontSize: 11, color: DesignTokens.secondary)),
           const SizedBox(height: 10),
           FilledButton.icon(
             key: const ValueKey('reader-play-dialogue'),

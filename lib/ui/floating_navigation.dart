@@ -21,10 +21,10 @@ class FloatingStudyNavigation extends StatelessWidget {
     final labels = teacherMode
         ? <String>['Обзор', 'Группы', 'Работы', 'Меню']
         : <String>[
-            tr(context, 'Главная'),
-            tr(context, 'Уроки'),
-            tr(context, 'Поиск'),
-            tr(context, 'Профиль'),
+            tr(context, 'Сегодня'),
+            tr(context, 'Учебник'),
+            tr(context, 'Практика'),
+            tr(context, 'Моё'),
           ];
     final icons = teacherMode
         ? <Widget>[
@@ -36,7 +36,7 @@ class FloatingStudyNavigation extends StatelessWidget {
         : <Widget>[
             const ArtworkIcon('home', size: 26),
             const Icon(Icons.menu_book_outlined, size: 26),
-            const Icon(Icons.search_outlined, size: 26),
+            const Icon(Icons.psychology_outlined, size: 26),
             const ArtworkIcon('profile', size: 26),
           ];
     return SafeArea(
