@@ -303,8 +303,12 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
           if (DialogueSceneIllustration.sceneFor(
               widget.lesson['title']?.toString() ?? '') != null) ...[
             const SizedBox(height: 10),
-            DialogueSceneIllustration(
-              setting: widget.lesson['title']?.toString() ?? ''),
+            Center(child: SizedBox(
+                width: 190,
+                child: DialogueSceneIllustration(
+                  setting: widget.lesson['title']?.toString() ?? '',
+                ),
+              )),
           ],
           const SizedBox(height: 8),
           const Text('Нажмите арабское слово, чтобы узнать перевод '
