@@ -167,7 +167,7 @@ class _DialogueJourneyScreenState extends State<DialogueJourneyScreen> {
           if (StudyArtAsset.valid(_lesson['dialogue_illustration_asset']) case final imagePath?) ...[
             const SizedBox(height: 10),
             Center(child: FittedStudyArtwork(
-              image: AssetImage(imagePath), size: 190,
+              image: AssetImage(imagePath), width: 295, height: 166,
             )),
           ],
           const SizedBox(height: 8),
