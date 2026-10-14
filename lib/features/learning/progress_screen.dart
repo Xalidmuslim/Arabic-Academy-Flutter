@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../core/academy_state.dart';
 import '../../core/study_analytics.dart';
+import '../../core/learning_insights.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../../ui/premium_art.dart';
@@ -17,6 +18,8 @@ class LearnerProgressScreen extends StatelessWidget {
       animation: state,
       builder: (context, _) {
         final data = StudyAnalytics(state);
+        final skills = LearningInsights.skills(state);
+        final plan = LearningInsights.dailyPlan(state);
         final weak = <String, int>{};
         for (final attempt in data.mistakes) {
           final id = attempt['lesson_id']?.toString() ?? '';
@@ -154,6 +157,40 @@ class LearnerProgressScreen extends StatelessWidget {
                 ),
               ),
             ],
+            const SectionTitle('Карта знаний'),
+            Panel(child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Оцениваем только проверенные ответы. '
+                  'Отсутствие данных не означает отсутствие знаний.',
+                  style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
+                const SizedBox(height: 14),
+                for (final skill in skills) ...[
+                  Row(children: [
+                    Expanded(child: Text(skill.name,
+                      style: const TextStyle(fontWeight: FontWeight.w600))),
+                    Text(skill.accuracy == null
+                        ? 'Не проверено'
+                        : '${skill.percent}% · ${skill.total} ответов',
+                        style: const TextStyle(fontSize: 12,
+                          color: DesignTokens.secondary)),
+                  ]),
+                  const SizedBox(height: 5),
+                  LinearProgressIndicator(
+                    value: skill.accuracy ?? 0,
+                    backgroundColor: DesignTokens.beige,
+                    color: DesignTokens.olive,
+                    minHeight: 6,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  const SizedBox(height: 13),
+                ],
+                Text('Устойчиво освоенных слов: '
+                  '${LearningInsights.totalMasteredWords(state)}'),
+                Text('Следующий план: ${plan.due} повторений; '
+                  'до ${plan.newWordLimit} новых слов.'),
+              ],
+            )),
             const SectionTitle('Проверка знаний'),
             Panel(
               child: Column(
