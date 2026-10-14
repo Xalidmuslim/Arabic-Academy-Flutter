@@ -11,6 +11,7 @@ import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../../ui/neumorphic_components.dart';
+import '../../ui/premium_art.dart';
 import '../integrations/live_sessions_screen.dart';
 import '../integrations/phone_auth_screen.dart';
 import '../integrations/purchases_screen.dart';
