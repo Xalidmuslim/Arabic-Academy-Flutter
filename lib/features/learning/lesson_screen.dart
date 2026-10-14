@@ -8,10 +8,9 @@ import '../../core/speech.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
-import '../../ui/dialogue_scene_illustration.dart';
-import '../../ui/premium_art.dart';
 import '../../ui/fitted_study_artwork.dart';
 import '../../ui/study_art_asset.dart';
+import '../../ui/premium_art.dart';
 import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
 import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
@@ -418,14 +417,10 @@ class _LessonScreenState extends State<LessonScreen>
             label: const Text('Закрепить слова этого урока'),
           ),
       ] else if (_stage == 2) ...[
-        if (DialogueSceneIllustration.sceneFor(
-            widget.lesson['title']?.toString() ?? '') != null) ...[
-          Center(child: SizedBox(
-              width: 190,
-              child: DialogueSceneIllustration(
-                setting: widget.lesson['title']?.toString() ?? '',
-              ),
-            )),
+        if (StudyArtAsset.valid(widget.lesson['dialogue_illustration_asset']) case final imagePath?) ...[
+          Center(child: FittedStudyArtwork(
+            image: AssetImage(imagePath), size: 190,
+          )),
           const SizedBox(height: 12),
         ],
         Row(
