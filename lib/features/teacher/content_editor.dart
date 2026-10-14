@@ -448,7 +448,7 @@ class _ExerciseEditorState extends State<ExerciseEditor> {
     body: Form(
       key: _form,
       child: ListView(
-        padding: const EdgeInsets.all(18),
+        padding: const EdgeInsets.fromLTRB(18, 18, 18, 150),
         children: [
           DropdownButtonFormField<ExerciseKind>(
             initialValue: _kind,
