@@ -3,7 +3,7 @@
 /// sprite atlases, crops and recycled generic illustrations are not accepted.
 abstract final class StudyArtAsset {
   static final RegExp _standalone = RegExp(
-    r'^assets/artwork/lesson_generated/[a-z0-9][a-z0-9_-]*\\.webp$',
+    r'^assets/artwork/lesson_generated/[a-z0-9][a-z0-9_-]*\.webp$',
   );
 
   static String? valid(Object? source) {
