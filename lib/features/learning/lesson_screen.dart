@@ -12,6 +12,7 @@ import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
 import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
 import 'textbook_reader_screen.dart';
+import 'vocabulary_practice_screen.dart';
 
 class LessonScreen extends StatefulWidget {
   const LessonScreen({
@@ -345,6 +346,18 @@ class _LessonScreenState extends State<LessonScreen>
             ),
           );
         }),
+        if (_words.isNotEmpty)
+          OutlinedButton.icon(
+            icon: const Icon(Icons.psychology_alt_outlined),
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute<void>(
+                builder: (_) => VocabularyPracticeScreen(
+                  state: widget.state, lessonId: id),
+              ),
+            ),
+            label: const Text('Закрепить слова этого урока'),
+          ),
       ] else if (_stage == 2) ...[
         Row(
           children: [
