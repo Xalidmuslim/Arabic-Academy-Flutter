@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/academy_state.dart';
 import '../../core/speech.dart';
 import '../../core/vocabulary_key.dart';
+import '../../services/lesson_audio_library.dart';
 import '../../features/exercises/arabic_normalization.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
@@ -25,7 +26,10 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
   int? _activeLine;
   int? _activeToken;
   bool _continuous = false;
+  int _playGeneration = 0;
   double _speed = .50;
+  late final LessonAudioLibrary _audioLibrary =
+      LessonAudioLibrary(widget.state);
 
   List<Map<String, dynamic>> get _lines {
     final rows = widget.lesson['dialogue'];
@@ -63,6 +67,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
   /// Some Android voices do not expose word offsets: in that case only the
   /// current phrase is highlighted, without pretending to know timing.
   Future<void> _speak(String arabic, {int? lineIndex}) async {
+    final generation = _playGeneration;
     await guardedAction(context, () => ArabicSpeech.speak(
       arabic,
       speed: _speed,
@@ -70,7 +75,8 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
       voiceName: widget.state.settings['audioVoiceName'] as String?,
       voiceLocale: widget.state.settings['audioVoiceLocale'] as String?,
       onProgress: (start, end, spoken) {
-        if (!mounted || lineIndex == null || _activeLine != lineIndex) {
+        if (!mounted || generation != _playGeneration ||
+            lineIndex == null || _activeLine != lineIndex) {
           return;
         }
         final tokens = RegExp(r'\S+').allMatches(arabic).toList();
@@ -81,7 +87,8 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
         }
       },
       onCompleted: () {
-        if (!mounted || lineIndex == null) return;
+        if (!mounted || generation != _playGeneration ||
+            lineIndex == null) return;
         if (_continuous && _activeLine == lineIndex &&
             lineIndex + 1 < _lines.length) {
           _readLine(lineIndex + 1);
@@ -97,16 +104,68 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
 
   Future<void> _readLine(int index) async {
     if (!mounted || index >= _lines.length) return;
+    final generation = ++_playGeneration;
     setState(() {
       _activeLine = index;
       _activeToken = null;
     });
-    await _speak(_lines[index]['ar']?.toString() ?? '', lineIndex: index);
+    final lessonId = widget.lesson['id']?.toString() ?? '';
+    try {
+      if (await _audioLibrary.hasSample(lessonId, index)) {
+        // A real recording has no word-level time marks: highlight only
+        // the current sentence rather than fake token timing.
+        await ArabicSpeech.stop();
+        if (!mounted || generation != _playGeneration) return;
+        await _audioLibrary.play(
+          lessonId, index, speed: (_speed / 0.5).clamp(0.7, 1.25),
+        );
+        if (!mounted || generation != _playGeneration) return;
+        if (_continuous && index + 1 < _lines.length) {
+          await _readLine(index + 1);
+        } else {
+          setState(() {
+            _continuous = false;
+            _activeToken = null;
+          });
+        }
+      } else {
+        await _audioLibrary.stop();
+        if (!mounted || generation != _playGeneration) return;
+        await _speak(_lines[index]['ar']?.toString() ?? '', lineIndex: index);
+      }
+    } catch (error) {
+      if (mounted) {
+        notice(context, 'Не удалось прочитать реплику: $error');
+        setState(() => _continuous = false);
+      }
+    }
+  }
+
+  Future<void> _importAudio(int index) async {
+    _playGeneration++;
+    _continuous = false;
+    await ArabicSpeech.stop();
+    await _audioLibrary.stop();
+    try {
+      final success = await _audioLibrary.importFor(
+        widget.lesson['id']?.toString() ?? '', index,
+      );
+      if (mounted && success) {
+        setState(() {});
+        notice(context, 'Аудиозапись носителя добавлена для реплики.');
+      }
+    } catch (error) {
+      if (mounted) {
+        notice(context, 'Не удалось импортировать аудио: $error');
+      }
+    }
   }
 
   Future<void> _toggleDialogue() async {
     if (_continuous) {
+      _playGeneration++;
       await ArabicSpeech.stop();
+      await _audioLibrary.stop();
       if (mounted) setState(() {
         _continuous = false;
         _activeToken = null;
@@ -120,6 +179,8 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
 
   void _wordSheet(String raw) {
     _continuous = false;
+    _playGeneration++;
+    _audioLibrary.stop();
     final word = _findWord(raw);
     showModalBottomSheet<void>(
       context: context,
@@ -165,7 +226,9 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
   @override
   void dispose() {
     _continuous = false;
+    _playGeneration++;
     ArabicSpeech.stop();
+    _audioLibrary.dispose();
     super.dispose();
   }
 
@@ -197,8 +260,9 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
             value: _speed, min: .4, max: .65, divisions: 5,
             onChanged: (value) => setState(() => _speed = value),
           ),
-          const Text('Озвучка — синтезатор телефона. Качество зависит '
-            'от установленного арабского голоса.',
+          const Text('Импортируйте аудио носителя кнопкой возле реплики. '
+            'Если файла нет, используется системный арабский синтезатор. '
+            'Для записей выделяется реплика, для поддерживаемого TTS — слово.',
             style: TextStyle(fontSize: 11, color: DesignTokens.secondary)),
           const SizedBox(height: 10),
           FilledButton.icon(
@@ -224,11 +288,19 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                         color: DesignTokens.deepOlive)),
                     const Spacer(),
                     IconButton(
+                      key: ValueKey('reader-import-audio-$i'),
+                      tooltip: 'Импортировать запись носителя для этой реплики',
+                      onPressed: () => _importAudio(i),
+                      icon: const Icon(Icons.library_music_outlined),
+                    ),
+                    IconButton(
                       key: ValueKey('reader-audio-$i'),
-                      tooltip: 'Повторить реплику',
-                      onPressed: () {
+                      tooltip: 'Повторить реплику (запись или TTS)',
+                      onPressed: () async {
                         _continuous = false;
-                        _readLine(i);
+                        await _audioLibrary.stop();
+                        await ArabicSpeech.stop();
+                        await _readLine(i);
                       },
                       icon: const Icon(Icons.record_voice_over_outlined),
                     ),
