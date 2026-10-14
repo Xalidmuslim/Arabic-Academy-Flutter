@@ -1,11 +1,12 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'core/academy_state.dart';
 import 'services/backend_service.dart';
 import 'services/purchase_service.dart';
 import 'ui/purchase_scope.dart';
-import 'ui/design_tokens.dart';
+import 'ui/appearance_theme.dart';
 import 'ui/floating_navigation.dart';
 import 'ui/welcome_screen.dart';
 import 'features/learning/home_screen.dart';
@@ -83,7 +84,17 @@ class _AcademyAppState extends State<AcademyApp> {
       debugShowCheckedModeBanner: false,
       navigatorKey: _navigatorKey,
       navigatorObservers: [_routeObserver],
-      theme: DesignTokens.theme(),
+      theme: academyTheme(
+        dark: false,
+        latinFont: widget.state.settings['russianFont'] as String? ?? 'Manrope'),
+      darkTheme: academyTheme(
+        dark: true,
+        latinFont: widget.state.settings['russianFont'] as String? ?? 'Manrope'),
+      themeMode: switch (widget.state.settings['appearance']) {
+        'light' => ThemeMode.light,
+        'dark' => ThemeMode.dark,
+        _ => ThemeMode.system,
+      },
       locale: Locale(widget.state.settings['language'] as String? ?? 'ru'),
       supportedLocales: const [Locale('ru'), Locale('ar')],
       localizationsDelegates: const [
@@ -92,11 +103,22 @@ class _AcademyAppState extends State<AcademyApp> {
         GlobalCupertinoLocalizations.delegate,
       ],
       builder: (context, child) {
+        final dark = Theme.of(context).brightness == Brightness.dark;
         final media = MediaQuery.of(context);
         final size = (widget.state.settings['russianScale'] as num? ?? 1)
             .toDouble()
             .clamp(0.85, 1.6);
-        return PurchaseScope(
+        return AnnotatedRegion<SystemUiOverlayStyle>(
+          value: SystemUiOverlayStyle(
+            statusBarColor: Colors.transparent,
+            systemNavigationBarColor: Colors.transparent,
+            systemNavigationBarContrastEnforced: false,
+            statusBarIconBrightness: dark ? Brightness.light : Brightness.dark,
+            systemNavigationBarIconBrightness: dark ? Brightness.light : Brightness.dark,
+          ),
+          child: ReadingFontScope(
+            arabicFamily: widget.state.settings['arabicFont'] as String? ?? 'NotoNaskhArabic',
+            child: PurchaseScope(
           service: _purchases,
           child: MediaQuery(
             data: media.copyWith(
@@ -139,7 +161,7 @@ class _AcademyAppState extends State<AcademyApp> {
                   )
                 : child!,
           ),
-        );
+        )));
       },
       home: _welcomeSeen
           ? HomeScreen(

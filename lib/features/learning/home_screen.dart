@@ -73,6 +73,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Timer? _syncTimer;
   int _tab = 0;
   final List<int> _tabHistory = [];
+  final PageStorageBucket _scrollPositions = PageStorageBucket();
   AcademyState get state => _accountState ?? widget.state;
   @override
   void initState() {
@@ -333,7 +334,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
             ],
           ),
-    body: ArtworkBackdrop(
+    body: PageStorage(
+      bucket: _scrollPositions,
+      child: ArtworkBackdrop(
       child: AnimatedBuilder(
         animation: state,
         builder: (context, _) {
@@ -373,7 +376,7 @@ class _HomeScreenState extends State<HomeScreen> {
           return _page();
         },
       ),
-    ),
+    )),
     bottomNavigationBar: !widget.showEmbeddedNavigation
         ? null
         : NavigationBar(
@@ -475,7 +478,9 @@ class _HomeScreenState extends State<HomeScreen> {
             ));
     final oneColumn = MediaQuery.sizeOf(context).width < 340 ||
         MediaQuery.textScalerOf(context).scale(1) > 1.45;
-    return CustomScrollView(slivers: [
+    return CustomScrollView(
+      key: const PageStorageKey<String>('today-scroll-position'),
+      slivers: [
       SliverPadding(
         padding: const EdgeInsets.fromLTRB(18, 9, 18, 12),
         sliver: SliverToBoxAdapter(child: Column(
@@ -671,6 +676,7 @@ class _HomeScreenState extends State<HomeScreen> {
         StudyCalendarScreen(state: state)),
     ];
     return ListView(
+      key: const PageStorageKey<String>('profile-scroll-position'),
       padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
       children: [
         Panel(child: Row(children: [

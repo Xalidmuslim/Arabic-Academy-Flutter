@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/app_strings.dart';
 import '../../core/practice_generator.dart';
 import '../../core/practice_feedback.dart';
 import '../../core/speech.dart';
@@ -114,7 +115,7 @@ class PracticeCenterScreen extends StatelessWidget {
       return ListView(
         padding: const EdgeInsets.fromLTRB(18, 18, 18, 150),
         children: [
-          Text('Практика', style: Theme.of(context).textTheme.headlineSmall),
+          Text(tr(context, 'Практика'), style: Theme.of(context).textTheme.headlineSmall),
           const SizedBox(height: 5),
           const Text('Сначала вспомните материал, затем проверьте себя.',
             style: TextStyle(color: DesignTokens.secondary)),
@@ -126,7 +127,7 @@ class PracticeCenterScreen extends StatelessWidget {
                 const Icon(Icons.psychology_alt_outlined,
                   color: DesignTokens.deepOlive, size: 35),
                 const SizedBox(width: 12),
-                Expanded(child: Text('Ежедневный план',
+                Expanded(child: Text(tr(context, 'Ежедневный план'),
                   style: Theme.of(context).textTheme.titleLarge)),
               ]),
               const SizedBox(height: 10),
@@ -151,16 +152,16 @@ class PracticeCenterScreen extends StatelessWidget {
                   fontSize: 12, color: DesignTokens.secondary)),
             ],
           )),
-          const SectionTitle('Тренировка навыков'),
+          SectionTitle(tr(context, 'Тренировка навыков')),
           Panel(
             padding: EdgeInsets.zero,
             child: ListTile(
               key: const ValueKey('practice-words-unified'),
               leading: const Icon(Icons.collections_bookmark_outlined,
                 color: DesignTokens.deepOlive, size: 30),
-              title: const Text('Все слова в одном месте',
+              title: Text(tr(context, 'Все слова в одном месте'),
                 style: TextStyle(fontWeight: FontWeight.w800)),
-              subtitle: const Text('Слова с рисунками, проверка и повторение'),
+              subtitle: Text(tr(context, 'Слова с рисунками, проверка и повторение')),
               trailing: const Icon(Icons.chevron_right),
               onTap: () => Navigator.push(context, MaterialPageRoute<void>(
                 builder: (_) => WordsHubScreen(state: state),

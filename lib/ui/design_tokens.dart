@@ -163,6 +163,10 @@ abstract final class DesignTokens {
         ),
       ),
     ),
+    expansionTileTheme: const ExpansionTileThemeData(
+      shape: Border(),
+      collapsedShape: Border(),
+    ),
     chipTheme: ChipThemeData(
       backgroundColor: ivory,
       selectedColor: olive,

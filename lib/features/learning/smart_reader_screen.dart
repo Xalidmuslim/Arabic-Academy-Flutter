@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/app_strings.dart';
 import '../../core/speech.dart';
 import '../../core/vocabulary_key.dart';
 import '../../services/lesson_audio_library.dart';
@@ -249,11 +250,11 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text('Настройки чтения',
+              Text(tr(context, 'Настройки чтения'),
                 style: Theme.of(sheet).textTheme.titleLarge),
               SwitchListTile.adaptive(
                 contentPadding: EdgeInsets.zero,
-                title: const Text('Показывать перевод фраз'),
+                title: Text(tr(context, 'Показывать перевод фраз')),
                 value: _translations,
                 onChanged: (value) {
                   setState(() => _translations = value);
@@ -269,9 +270,24 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                   refresh(() {});
                 },
               ),
+              ExpansionTile(
+                title: Text(tr(context, 'Записи носителя (необязательно)')),
+                children: [
+                  for (var i = 0; i < _lines.length; i++)
+                    ListTile(
+                      dense: true,
+                      title: Text('Запись для реплики ${i + 1}'),
+                      trailing: const Icon(Icons.audio_file_outlined),
+                      onTap: () {
+                        Navigator.pop(sheet);
+                        _importAudio(i);
+                      },
+                    ),
+                ],
+              ),
               const SizedBox(height: 8),
               const Text('Для реплик можно импортировать запись носителя '
-                'кнопкой рядом с фразой. Если записи нет, используется '
+                'в настройках чтения. Если записи нет, используется '
                 'системный синтезатор. Подсветка отдельного слова доступна '
                 'только когда движок передаёт точные временные метки.',
                 style: TextStyle(
@@ -285,7 +301,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('Умное чтение'), actions: [
+    appBar: AppBar(title: Text(tr(context, 'Умное чтение')), actions: [
       IconButton(
         key: const ValueKey('reader-settings'),
         tooltip: 'Настройки чтения и скорости',
@@ -320,8 +336,8 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
             onPressed: _lines.isEmpty ? null : _toggleDialogue,
             icon: Icon(_continuous ? Icons.stop_circle_outlined
                 : Icons.play_circle_outline),
-            label: Text(_continuous ? 'Остановить диалог'
-                : 'Прослушать диалог по репликам'),
+            label: Text(tr(context, _continuous ? 'Остановить диалог'
+                : 'Прослушать диалог по репликам')),
           ),
           const SizedBox(height: 10),
           for (var i = 0; i < _lines.length; i++)
@@ -337,12 +353,6 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                           ? FontWeight.w800 : FontWeight.w500,
                         color: DesignTokens.deepOlive)),
                     const Spacer(),
-                    IconButton(
-                      key: ValueKey('reader-import-audio-$i'),
-                      tooltip: 'Импортировать запись носителя для этой реплики',
-                      onPressed: () => _importAudio(i),
-                      icon: const Icon(Icons.library_music_outlined),
-                    ),
                     IconButton(
                       key: ValueKey('reader-audio-$i'),
                       tooltip: 'Повторить реплику (запись или TTS)',
@@ -394,7 +404,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
               )),
             ),
           if (_lines.isEmpty)
-            const EmptyState(title: 'Диалог пока не добавлен',
+            EmptyState(title: tr(context, 'Диалог пока не добавлен'),
               message: 'Откройте урок с диалогом для умного чтения.'),
         ],
       ),

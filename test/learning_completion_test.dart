@@ -186,8 +186,12 @@ void main() {
     ));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('reader-play-dialogue')), findsOneWidget);
-    expect(find.byKey(const ValueKey('reader-import-audio-0')),
-      findsOneWidget);
+    expect(find.byKey(const ValueKey('reader-import-audio-0')), findsNothing);
+    await tester.tap(find.byKey(const ValueKey('reader-settings')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Записи носителя (необязательно)'));
+    await tester.pumpAndSettle();
+    expect(find.text('Запись для реплики 1'), findsOneWidget);
     expect(find.byKey(const ValueKey('reader-word-0-0')), findsOneWidget);
   });
 

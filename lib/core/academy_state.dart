@@ -156,6 +156,9 @@ class AcademyState extends ChangeNotifier {
   };
   static const _visualKeys = {
     'language',
+    'appearance',
+    'russianFont',
+    'arabicFont',
     'russianScale',
     'arabicSize',
     'arabicHeight',
