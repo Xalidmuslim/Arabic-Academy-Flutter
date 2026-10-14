@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/trace_feedback.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 
@@ -51,11 +52,15 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
   bool _saving = false;
   int _savedCount = 0;
   int? _activePointer;
+  Size _canvasSize = const Size(300, 285);
+  TraceFeedback? _traceFeedback;
+  bool _checking = false;
 
   void _beginStroke(PointerDownEvent event, Size size) {
     if (_activePointer != null || _saving) return;
     _activePointer = event.pointer;
     setState(() {
+      _traceFeedback = null;
       _strokes = [..._strokes, [_pointInBounds(event.localPosition, size)]];
     });
   }
@@ -76,6 +81,23 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
     _activePointer = null;
   }
 
+  Future<void> _checkTracing() async {
+    if (_strokes.isEmpty || _checking) return;
+    setState(() => _checking = true);
+    try {
+      final result = await TraceEvaluator.evaluate(
+        glyph: _letter,
+        strokes: _strokes,
+        size: _canvasSize,
+      );
+      if (mounted) setState(() => _traceFeedback = result);
+    } catch (error) {
+      if (mounted) notice(context, 'Проверка обводки не удалась: $error');
+    } finally {
+      if (mounted) setState(() => _checking = false);
+    }
+  }
+
   Offset _pointInBounds(Offset point, Size size) => Offset(
     point.dx.clamp(0.0, size.width),
     point.dy.clamp(0.0, size.height),
@@ -85,6 +107,7 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
     _letter = value;
     _strokes = [];
     _activePointer = null;
+    _traceFeedback = null;
   });
 
   Future<void> _save() async {
@@ -98,6 +121,11 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
           'letter': _letter,
           'stroke_count': _strokes.length,
           'review_type': 'manual',
+          if (_traceFeedback != null) ...{
+            'ink_proximity': _traceFeedback!.inkProximity,
+            'template_coverage': _traceFeedback!.templateCoverage,
+            'automated_letter_recognition': false,
+          },
         },
         status: 'needsReview',
         points: 0,
@@ -106,6 +134,7 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
         setState(() {
           _savedCount++;
           _strokes = [];
+          _traceFeedback = null;
         });
         notice(context,
           'Тренировка сохранена. Сравните свою букву с образцом.');
@@ -170,6 +199,7 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
             height: 285,
             child: LayoutBuilder(builder: (context, constraints) {
               final size = Size(constraints.maxWidth, 285);
+              _canvasSize = size;
               return RawGestureDetector(
                 // Eagerly claim strokes before the ancestor ListView's
                 // VerticalDragGestureRecognizer can scroll the page.
@@ -202,7 +232,8 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
         Row(children: [
           Expanded(child: OutlinedButton.icon(
             onPressed: _strokes.isEmpty ? null : () => setState(() {
-              _strokes.removeLast();
+              _strokes = [..._strokes]..removeLast();
+              _traceFeedback = null;
             }),
             icon: const Icon(Icons.undo),
             label: const Text('Отменить линию'),
@@ -210,11 +241,44 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
           const SizedBox(width: 8),
           Expanded(child: OutlinedButton.icon(
             onPressed: _strokes.isEmpty ? null :
-                () => setState(() => _strokes = []),
+                () => setState(() {
+                  _strokes = [];
+                  _traceFeedback = null;
+                }),
             icon: const Icon(Icons.delete_outline),
             label: const Text('Очистить'),
           )),
         ]),
+        const SizedBox(height: 10),
+        OutlinedButton.icon(
+          key: const ValueKey('handwriting-check-trace'),
+          onPressed: _strokes.isEmpty || _checking ? null : _checkTracing,
+          icon: const Icon(Icons.fact_check_outlined),
+          label: Text(_checking ? 'Сверяем линии…'
+            : 'Сравнить обводку с образцом'),
+        ),
+        if (_traceFeedback != null)
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            child: Panel(child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text('Сравнение формы с образцом',
+                  style: TextStyle(fontWeight: FontWeight.w800)),
+                const SizedBox(height: 6),
+                Text('Близость линии: '
+                  '${(_traceFeedback!.inkProximity * 100).round()}%'),
+                Text('Охвачено элементов: '
+                  '${(_traceFeedback!.templateCoverage * 100).round()}%'),
+                const SizedBox(height: 5),
+                Text(_traceFeedback!.message),
+                const Text('Это визуальная подсказка, не оценка '
+                  'правильности арабского письма.',
+                  style: TextStyle(fontSize: 11,
+                    color: DesignTokens.secondary)),
+              ],
+            )),
+          ),
         const SizedBox(height: 10),
         FilledButton.icon(
           key: const ValueKey('handwriting-save'),
