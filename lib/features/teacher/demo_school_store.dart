@@ -35,9 +35,6 @@ class DemoSchoolStore extends ChangeNotifier {
         readOnly = true;
         warning = 'Повреждённые демоданные сохранены без изменений. Экспортируйте исходную резервную копию.';
       }
-    } else {
-      // Brand-new installations show a fully populated, explicitly fictional demo.
-      _populateShowcase(_data);
     }
   }
 
