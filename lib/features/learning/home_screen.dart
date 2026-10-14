@@ -305,7 +305,7 @@ class _HomeScreenState extends State<HomeScreen> {
         : AppBar(
             centerTitle: false,
             title: Text(
-              _teacherLayout ? 'Учительница · Байна Ядайк' : 'Байна Ядайк',
+              _teacherLayout ? 'Учительница' : 'Байна Ядайк',
               style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800),
             ),
             actions: [
