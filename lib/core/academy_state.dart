@@ -540,15 +540,23 @@ class AcademyState extends ChangeNotifier {
     _event(doc, 'study_session', record);
   });
 
-  Future<void> reviewWord(String id, bool remembered, {DateTime? now}) =>
-      _change((doc) {
+  Future<void> reviewWord(
+    String id,
+    bool remembered, {
+    DateTime? now,
+    int responseMillis = 0,
+    int? confidence,
+  }) => _change((doc) {
         final time = now ?? DateTime.now();
         final old = (doc['reviews'] as Map)[id] as Map? ?? {};
         (doc['reviews'] as Map)[id] =
-            AdaptiveReview.update(old, remembered, time);
+            AdaptiveReview.update(old, remembered, time,
+              responseMillis: responseMillis, confidence: confidence);
         _event(doc, 'word_review', {
           'word_id': id,
           'remembered': remembered,
+          'response_millis': responseMillis,
+          if (confidence != null) 'confidence': confidence,
           'review': (doc['reviews'] as Map)[id],
         });
       });
