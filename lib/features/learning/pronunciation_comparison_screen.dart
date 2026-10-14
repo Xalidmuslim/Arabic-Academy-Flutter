@@ -98,7 +98,10 @@ class _PronunciationComparisonScreenState
       try {
         await ArabicSpeech.stop();
       } catch (_) {}
-      await _recording.delete();
+      // An unused recorder has no audio to discard (or player to stop).
+      if (_recording.hasRecording) {
+        await _recording.delete();
+      }
       if (!mounted) {
         return;
       }
