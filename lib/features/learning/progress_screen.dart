@@ -328,6 +328,7 @@ class LearnerProgressScreen extends StatelessWidget {
                                 state: state,
                                 lesson: lesson,
                                 initialTab: 4,
+                                returnToProgressOnBack: true,
                               ),
                             ),
                           ),
