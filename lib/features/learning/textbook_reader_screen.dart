@@ -215,7 +215,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     final single = _pointers.length == 1 &&
         _pointers.contains(e.pointer) && !_multitouch;
     _pointers.remove(e.pointer);
-    if (_pointers.isEmpty) _swipeStart = null;
+    if (_pointers.isEmpty) {
+      _swipeStart = null;
+    }
     if (!single || start == null || _scale > 1.03) return;
     if (start.dx < 36 || start.dx > _viewportSize.width - 36) return;
     final movement = e.localPosition - start;
@@ -226,7 +228,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
 
   void _pointerCancel(PointerCancelEvent e) {
     _pointers.remove(e.pointer);
-    if (_pointers.isEmpty) _swipeStart = null;
+    if (_pointers.isEmpty) {
+      _swipeStart = null;
+    }
   }
 
   void _onZoomChanged() {
