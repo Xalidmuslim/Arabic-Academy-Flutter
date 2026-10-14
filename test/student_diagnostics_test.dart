@@ -207,7 +207,9 @@ void main() {
     ));
     await tester.pumpAndSettle();
     expect(find.text('Усвоение по навыкам'), findsOneWidget);
-    expect(find.text('Запоминание слов'), findsOneWidget);
+    expect(find.text('Запоминание слов'), findsWidgets);
+    expect(find.text('Диаграмма навыков'), findsOneWidget);
+    expect(find.text('Проверки по навыкам'), findsOneWidget);
     await tester.tap(
       find.byKey(const ValueKey('student-manual-assessment')),
     );
