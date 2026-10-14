@@ -8,7 +8,7 @@ import '../../core/study_analytics.dart';
 import '../../core/vocabulary_practice.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
-import '../integrations/oral_practice_screen.dart';
+import 'pronunciation_comparison_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'illustrated_dictionary_screen.dart';
 import 'situations_screen.dart';
@@ -224,12 +224,12 @@ class PracticeCenterScreen extends StatelessWidget {
             child: ListTile(
               leading: const Icon(Icons.mic_none_outlined,
                 color: DesignTokens.deepOlive, size: 30),
-              title: const Text('Записать свою речь'),
-              subtitle: const Text('Сравнение на слух; без автоматической оценки'),
+              title: const Text('Слушать и сравнить произношение'),
+              subtitle: const Text('Запись, образец, прослушивание и ручная оценка'),
               trailing: const Icon(Icons.chevron_right),
               onTap: () => Navigator.push(context,
                 MaterialPageRoute<void>(
-                  builder: (_) => const OralPracticeScreen(),
+                  builder: (_) => PronunciationComparisonScreen(state: state),
                 )),
             )),
         ],
