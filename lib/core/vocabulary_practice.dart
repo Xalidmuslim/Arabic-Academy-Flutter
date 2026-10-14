@@ -47,17 +47,23 @@ abstract final class VocabularyPractice {
     for (final lesson in state.allLessons) {
       final id = lesson['id'];
       if (id is! String || id.isEmpty ||
-          (lessonId != null && id != lessonId)) continue;
+          (lessonId != null && id != lessonId)) {
+        continue;
+      }
       final vocabulary = lesson['vocabulary'];
-      if (vocabulary is! List) continue;
+      if (vocabulary is! List) {
+        continue;
+      }
       for (var i = 0; i < vocabulary.length; i++) {
         final word = vocabulary[i];
-        if (word is! Map) continue;
+        if (word is! Map) {
+          continue;
+        }
         final ar = (word['ar'] as String? ?? '').trim();
         final ru = (word['ru'] as String? ?? '').trim();
         if (ar.isEmpty || ru.isEmpty) {
-        continue;
-      }
+          continue;
+        }
         result.add(VocabularyPracticeWord(
           id: vocabularyKey(id, i, word),
           ar: ar,
