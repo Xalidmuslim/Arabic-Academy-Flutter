@@ -9,6 +9,7 @@ import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../integrations/oral_practice_screen.dart';
 import 'vocabulary_practice_screen.dart';
+import 'illustrated_dictionary_screen.dart';
 
 /// A single practice hub: no extra main navigation tabs or decorative noise.
 class PracticeCenterScreen extends StatelessWidget {
@@ -147,6 +148,21 @@ class PracticeCenterScreen extends StatelessWidget {
             ],
           )),
           const SectionTitle('Потренировать навыки'),
+          Panel(
+            padding: EdgeInsets.zero,
+            child: ListTile(
+              leading: const Icon(Icons.collections_bookmark_outlined,
+                color: DesignTokens.deepOlive, size: 32),
+              title: const Text('Словарь с рисунками',
+                style: TextStyle(fontWeight: FontWeight.w800)),
+              subtitle: const Text('Предметы, перевод, аудио и избранное'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => Navigator.push(context, MaterialPageRoute<void>(
+                builder: (_) => IllustratedDictionaryScreen(state: state),
+              )),
+            ),
+          ),
+          const SizedBox(height: 10),
           for (final entry in _modes)
             Padding(
               padding: const EdgeInsets.only(bottom: 10),
@@ -330,47 +346,8 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
     align: TextAlign.center, color: DesignTokens.emerald,
   );
 
-  Widget _illustration(String arabic) {
-    const icons = <String, IconData>{
-      'book': Icons.menu_book_outlined, 'pen': Icons.edit_outlined,
-      'door': Icons.door_front_door_outlined, 'house': Icons.home_outlined,
-      'school': Icons.school_outlined, 'bag': Icons.backpack_outlined,
-      'car': Icons.directions_car_outlined, 'tree': Icons.park_outlined,
-      'mosque': Icons.account_balance_outlined, 'market': Icons.storefront_outlined,
-      'clock': Icons.watch_later_outlined, 'water': Icons.water_drop_outlined,
-      'bread': Icons.bakery_dining_outlined, 'apple': Icons.apple_outlined,
-      'sun': Icons.wb_sunny_outlined, 'moon': Icons.nightlight_round,
-      'plane': Icons.flight_outlined, 'cat': Icons.pets_outlined,
-      'chair': Icons.chair_outlined, 'phone': Icons.phone_android_outlined,
-      'computer': Icons.laptop_outlined, 'key': Icons.key_outlined,
-      'window': Icons.window_outlined, 'flower': Icons.local_florist_outlined,
-      'fish': Icons.set_meal_outlined, 'food': Icons.restaurant_outlined,
-      'shirt': Icons.checkroom_outlined, 'cow': Icons.pets_outlined,
-      'horse': Icons.pets_outlined, 'doctor': Icons.medical_services_outlined,
-      'hospital': Icons.local_hospital_outlined, 'cup': Icons.local_cafe_outlined,
-      'kitchen': Icons.kitchen_outlined,
-    };
-    final concept = IllustratedTerm.concept(arabic);
-    return Center(
-      child: Container(
-        width: 160, height: 145,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(27),
-          gradient: const LinearGradient(
-            colors: [Color(0xFFFFFBF4), Color(0xFFE8E5D6)],
-            begin: Alignment.topLeft, end: Alignment.bottomRight,
-          ),
-          border: Border.all(color: Colors.white, width: 1.5),
-          boxShadow: const [
-            BoxShadow(color: Color(0x22564636), blurRadius: 18,
-                offset: Offset(0, 9)),
-          ],
-        ),
-        child: Icon(icons[concept] ?? Icons.help_outline,
-          size: 79, color: DesignTokens.deepOlive),
-      ),
-    );
-  }
+  Widget _illustration(String arabic) =>
+      SemanticWordIllustration(arabic: arabic, size: 145);
 
   Widget _questionContent(PracticeQuestion q) {
     final enable = !_checked && !_busy;
