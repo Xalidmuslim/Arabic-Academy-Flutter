@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import '../../core/academy_state.dart';
 import '../../core/app_strings.dart';
 import '../../core/study_analytics.dart';
+import '../../core/learning_insights.dart';
 import '../../core/vocabulary_practice.dart';
 import '../../core/learning_sync.dart';
 import '../../services/backend_service.dart';
@@ -374,7 +375,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _dashboard() {
     final lessons = state.allLessons;
     final analytics = StudyAnalytics(state);
-    final wordPlan = VocabularyPractice.plan(state);
+    final todayPlan = LearningInsights.dailyPlan(state);
+    final wordPlan = VocabularyPractice.plan(state,
+      newLimit: todayPlan.newWordLimit);
     final next = lessons.isEmpty
         ? null
         : lessons.firstWhere(
@@ -512,6 +515,28 @@ class _HomeScreenState extends State<HomeScreen> {
                   onContinue: () {
                     if (next != null) _lesson(context, next);
                   },
+                ),
+                SectionTitle('Личный учебный план'),
+                Panel(
+                  padding: EdgeInsets.zero,
+                  child: ListTile(
+                    leading: const Icon(Icons.auto_awesome_outlined,
+                        color: DesignTokens.deepOlive, size: 34),
+                    title: const Text('Что изучить сегодня'),
+                    subtitle: Text(
+                      'Повторить ${todayPlan.due} слов · '
+                      'до ${todayPlan.newWordLimit} новых\n'
+                      '${todayPlan.weakSkill == null
+                          ? "Продолжить следующий урок"
+                          : "Особое внимание: ${LearningInsights.skillLabels[
+                              todayPlan.weakSkill] ?? "повторение"}"}',
+                    ),
+                    trailing: const Icon(Icons.chevron_right),
+                    onTap: () => _open(Scaffold(
+                      appBar: AppBar(title: const Text('Практика')),
+                      body: PracticeCenterScreen(state: state),
+                    )),
+                  ),
                 ),
                 SectionTitle('Повторение сегодня'),
                 Panel(
