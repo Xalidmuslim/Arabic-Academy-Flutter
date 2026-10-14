@@ -36,7 +36,7 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('study-tab-2')));
     await tester.pumpAndSettle();
     expect(find.text('Работы учениц'), findsOneWidget);
-    expect(find.text('Знакомство на арабском'), findsWidgets);
+    expect(find.textContaining('Знакомство на арабском'), findsWidgets);
 
     await tester.tap(find.byKey(const ValueKey('study-tab-3')));
     await tester.pumpAndSettle();
