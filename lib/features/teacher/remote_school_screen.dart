@@ -18,17 +18,21 @@ class RemoteSchoolScreen extends StatefulWidget {
     required this.backend,
     this.embedded = false,
     this.api,
+    this.initialArea = 'catalog',
+    this.compactEmbedded = false,
   });
   final BackendService backend;
   final bool embedded;
   final RemoteSchoolApi? api;
+  final String initialArea;
+  final bool compactEmbedded;
   @override
   State<RemoteSchoolScreen> createState() => _RemoteSchoolScreenState();
 }
 
 class _RemoteSchoolScreenState extends State<RemoteSchoolScreen> {
   late final RemoteSchoolApi api;
-  String area = 'catalog';
+  late String area = widget.initialArea;
   @override
   void initState() {
     super.initState();
@@ -37,7 +41,7 @@ class _RemoteSchoolScreenState extends State<RemoteSchoolScreen> {
 
   Widget _body(ServerRole role) => Column(
     children: [
-      Padding(
+      if (!widget.compactEmbedded) Padding(
         padding: const EdgeInsets.all(12),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
