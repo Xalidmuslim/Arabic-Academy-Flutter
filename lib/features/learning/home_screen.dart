@@ -28,6 +28,7 @@ import 'settings_screen.dart';
 import 'online_homework_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'practice_center_screen.dart';
+import 'demo_showcase_screen.dart';
 import 'study_calendar_screen.dart';
 import '../../core/practice_generator.dart';
 
@@ -500,6 +501,24 @@ class _HomeScreenState extends State<HomeScreen> {
                 image: 'assets/artwork/progress.webp',
                 onTap: () => _open(LearnerProgressScreen(state: state)),
               ),
+              NeumorphicFeatureTile(
+                title: 'Практика',
+                subtitle: 'Тренажёры и задания',
+                image: 'assets/artwork/exercises.webp',
+                onTap: () => _open(Scaffold(
+                  appBar: AppBar(title: const Text('Практика')),
+                  body: PracticeCenterScreen(state: state),
+                )),
+              ),
+              if (!_backend.isAuthenticated)
+                NeumorphicFeatureTile(
+                  title: 'Все функции · демо',
+                  subtitle: 'Обзор для заказчика',
+                  image: 'assets/artwork/teacher.webp',
+                  onTap: () => _open(DemoShowcaseScreen(
+                    learning: state, school: _demoSchool, backend: _backend,
+                  )),
+                ),
             ],
           ),
         ),
@@ -761,9 +780,12 @@ class _HomeScreenState extends State<HomeScreen> {
           UnitScreen(state: state, backend: _backend),
         ),
         (
-          'Покупки и подписки',
+          _backend.isAuthenticated ? 'Покупки и подписки' : 'Все функции · демо',
           Icons.workspace_premium_outlined,
-          PurchasesScreen(backend: _backend),
+          _backend.isAuthenticated
+              ? PurchasesScreen(backend: _backend)
+              : DemoShowcaseScreen(
+                  learning: state, school: _demoSchool, backend: _backend),
         ),
         (
           'Прямые эфиры',
