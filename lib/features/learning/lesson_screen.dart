@@ -226,7 +226,7 @@ class _LessonScreenState extends State<LessonScreen>
 
   Widget _reading() => ListView(
     key: ValueKey(_stage),
-    padding: const EdgeInsets.fromLTRB(18, 14, 18, 26),
+    padding: const EdgeInsets.fromLTRB(18, 14, 18, 142),
     children: [
       if (_stage == 0) ...[
         Panel(
@@ -472,7 +472,7 @@ class _LessonScreenState extends State<LessonScreen>
         : _exercises;
     if (exercises.isEmpty) {
       return ListView(
-        padding: const EdgeInsets.all(18),
+        padding: const EdgeInsets.fromLTRB(18, 18, 18, 142),
         children: [
           const EmptyState(
             title: 'Автоматическая проверка не задана',
@@ -492,7 +492,7 @@ class _LessonScreenState extends State<LessonScreen>
     final score = (correctCount / exercises.length * 100).round();
     return ListView(
       key: ValueKey('practice-$_stage'),
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.fromLTRB(16, 16, 16, 142),
       children: [
         Row(
           children: [
