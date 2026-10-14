@@ -111,9 +111,10 @@ void main() {
     addTearDown(state.dispose);
     await tester.pumpWidget(AcademyApp(state:state));
     await tester.pumpAndSettle();
-    expect(find.byKey(const ValueKey('home-practice-entry')), findsOneWidget);
     expect(find.byType(FloatingStudyNavigation), findsOneWidget);
     final entry=find.byKey(const ValueKey('home-practice-entry'));
+    await tester.scrollUntilVisible(entry, 280,
+      scrollable: find.byType(Scrollable).first);
     await tester.ensureVisible(entry);
     await tester.pumpAndSettle();
     await tester.tap(entry);
@@ -153,9 +154,11 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.textContaining('не оценивает'), findsOneWidget);
     final canvas=find.byKey(const ValueKey('handwriting-canvas'));
-    await tester.drag(canvas, const Offset(40, 30));
+    await tester.drag(canvas, const Offset(110, 0));
     await tester.pump();
-    await tester.ensureVisible(find.byKey(const ValueKey('handwriting-save')));
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('handwriting-save')), 160,
+      scrollable: find.byType(Scrollable).first);
     await tester.tap(find.byKey(const ValueKey('handwriting-save')));
     await tester.pumpAndSettle();
     expect(state.attempts.last['status'],'needsReview');
