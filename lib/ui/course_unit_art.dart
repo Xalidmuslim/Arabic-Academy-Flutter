@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
+import 'fitted_study_artwork.dart';
+import 'study_art_asset.dart';
 
 /// A distinct, semantically matched cue for each unit. Used only while a
 /// separately generated, unit-specific 3D scene is not bundled. Never rotates
 /// unrelated 3D feature art through the lesson catalog.
 class CourseUnitArt extends StatelessWidget {
-  const CourseUnitArt({super.key, required this.unitId, this.size = 78});
+  const CourseUnitArt({super.key, required this.unitId, this.size = 78, this.imageAsset});
   final String unitId;
   final double size;
+  final String? imageAsset;
 
   static IconData iconFor(String unitId) => switch (unitId) {
     'u1' => Icons.waving_hand_rounded,
@@ -14,7 +17,7 @@ class CourseUnitArt extends StatelessWidget {
     'u3' => Icons.bed_outlined,
     'u4' => Icons.wb_sunny_outlined,
     'u5' => Icons.restaurant_outlined,
-    'u6' => Icons.calendar_month_outlined,
+    'u6' => Icons.access_time_outlined,
     'u7' => Icons.school_outlined,
     'u8' => Icons.work_outline,
     'u9' => Icons.shopping_bag_outlined,
@@ -30,6 +33,10 @@ class CourseUnitArt extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final verified = StudyArtAsset.valid(imageAsset);
+    if (verified != null) {
+      return FittedStudyArtwork(image: AssetImage(verified), size: size);
+    }
     final scheme = Theme.of(context).colorScheme;
     return Semantics(
       label: 'Тематический значок раздела',
