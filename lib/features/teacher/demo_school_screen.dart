@@ -591,8 +591,45 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     builder: (context, _) => ListView(
       padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
       children: [
-        Text('Кабинет учительницы',
-            style: Theme.of(context).textTheme.headlineSmall),
+        Row(children: [
+          Expanded(child: Text('Кабинет учительницы',
+              style: Theme.of(context).textTheme.headlineSmall)),
+          PopupMenuButton<String>(
+            tooltip: 'Действия учительницы',
+            icon: const Icon(Icons.add_circle_outline,
+              color: DesignTokens.deepOlive, size: 31),
+            onSelected: (action) {
+              switch (action) {
+                case 'assignment': _createAssignment();
+                case 'live': _scheduleLive();
+                case 'notice': _announce();
+                case 'group': _addGroup();
+                case 'editor': _open(TeacherEditor(state: widget.learning));
+                case 'materials': _open(Scaffold(
+                    appBar: AppBar(title: const Text('Редактор учительницы')),
+                    body: TeacherDashboard(
+                      state: widget.learning, backend: widget.backend),
+                  ));
+              }
+            },
+            itemBuilder: (context) => const [
+              PopupMenuItem(value: 'assignment',
+                child: Text('Создать домашнее задание')),
+              PopupMenuItem(value: 'group',
+                child: Text('Добавить группу')),
+              PopupMenuItem(value: 'live',
+                child: Text('Создать прямой эфир')),
+              PopupMenuItem(value: 'notice',
+                child: Text('Разослать уведомление')),
+              PopupMenuItem(
+                key: ValueKey('teacher-exercise-builder'),
+                value: 'editor',
+                child: Text('Конструктор упражнений')),
+              PopupMenuItem(value: 'materials',
+                child: Text('Мои учебные материалы')),
+            ],
+          ),
+        ]),
         const SizedBox(height: 8),
         const Text('ДЕМОРЕЖИМ · данные сохраняются только на этом устройстве. '
             'Отправка другим телефонам отключена.',
@@ -605,34 +642,10 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
           const SizedBox(width: 10),
           Expanded(child: _Metric(label: 'Работы', value: '${school.submissions.length}')),
         ]),
-        const SizedBox(height: 14),
-        Wrap(spacing: 8, runSpacing: 8, children: [
-          FilledButton.icon(onPressed: () => _createAssignment(),
-            icon: const Icon(Icons.post_add_outlined), label: const Text('Задание')),
-          OutlinedButton.icon(onPressed: _scheduleLive,
-            icon: const Icon(Icons.videocam_outlined), label: const Text('Эфир')),
-          OutlinedButton.icon(onPressed: _announce,
-            icon: const Icon(Icons.notifications_active_outlined), label: const Text('Оповещение')),
-          OutlinedButton.icon(onPressed: _addGroup,
-            icon: const Icon(Icons.group_add_outlined), label: const Text('Группа')),
-        ]),
-        const SizedBox(height: 14),
-        FilledButton.icon(
-          key: const ValueKey('teacher-exercise-builder'),
-          icon: const Icon(Icons.post_add_outlined),
-          label: const Text('Создать урок, викторину или контрольную'),
-          onPressed: () => _open(TeacherEditor(state: widget.learning)),
-        ),
-        const SizedBox(height: 8),
-        OutlinedButton.icon(
-          icon: const Icon(Icons.edit_note_outlined),
-          label: const Text('Редактор уроков и материалов'),
-          onPressed: () => _open(Scaffold(
-            appBar: AppBar(title: const Text('Редактор учительницы')),
-            body: TeacherDashboard(state: widget.learning, backend: widget.backend),
-          )),
-        ),
-        const SizedBox(height: 18),
+        const SizedBox(height: 12),
+        // Actions live in the plus-menu above: groups and learner statuses
+        // should be visible immediately without scrolling beneath the nav.
+
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(children: [
