@@ -85,7 +85,12 @@ class FloatingStudyNavigation extends StatelessWidget {
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
                               children: [
-                                ExcludeSemantics(child: icons[index]),
+                                IconTheme(
+                                  data: IconThemeData(color: dark
+                                      ? const Color(0xFFE9F1E7)
+                                      : DesignTokens.ink),
+                                  child: ExcludeSemantics(child: icons[index]),
+                                ),
                                 const SizedBox(height: 3),
                                 Text(
                                   labels[index],

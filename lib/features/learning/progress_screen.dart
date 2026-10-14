@@ -36,6 +36,7 @@ class LearnerProgressScreen extends StatelessWidget {
           (i) => today.subtract(Duration(days: 6 - i)),
         );
         return ListView(
+          key: const PageStorageKey<String>('learner-progress-position'),
           padding: const EdgeInsets.fromLTRB(18, 18, 18, 150),
           children: [
             Panel(
@@ -316,16 +317,18 @@ class LearnerProgressScreen extends StatelessWidget {
                       color: DesignTokens.olive,
                     ),
                     title: Text(lesson?['title'] as String? ?? 'Упражнение'),
-                    subtitle: Text('Ваш ответ: ${attempt['answer']}'),
+                    subtitle: _MistakeSummary(answer: attempt['answer']),
                     onTap: lesson == null
                         ? null
                         : () => Navigator.push(
                             context,
                             MaterialPageRoute(
+                              settings: const RouteSettings(name: '/progress/review-mistake'),
                               builder: (_) => LessonScreen(
                                 state: state,
                                 lesson: lesson,
                                 initialTab: 4,
+                                returnToProgressOnBack: true,
                               ),
                             ),
                           ),
@@ -389,4 +392,35 @@ class LearnerProgressScreen extends StatelessWidget {
       ),
     ),
   );
+}
+
+/// Practice results use structured JSON. Never stringify maps into the UI:
+/// response/expected/feedback/source are internal keys, not Russian words.
+class _MistakeSummary extends StatelessWidget {
+  const _MistakeSummary({required this.answer});
+  final Object? answer;
+
+  @override
+  Widget build(BuildContext context) {
+    if (answer is Map) {
+      final fields = Map<Object?, Object?>.from(answer as Map);
+      final response = fields['response']?.toString().trim() ?? '';
+      final expected = fields['expected']?.toString().trim() ?? '';
+      final feedback = fields['feedback']?.toString().trim() ?? '';
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (response.isNotEmpty) Text('Ответ ученицы: $response'),
+          if (expected.isNotEmpty) Text('Правильный ответ: $expected'),
+          if (feedback.isNotEmpty) Text('Пояснение: $feedback'),
+          if (response.isEmpty && expected.isEmpty && feedback.isEmpty)
+            const Text('Повторите это упражнение.'),
+        ],
+      );
+    }
+    final response = answer?.toString().trim() ?? '';
+    return Text(response.isEmpty
+        ? 'Нажмите, чтобы повторить упражнение'
+        : 'Ваш ответ: $response');
+  }
 }

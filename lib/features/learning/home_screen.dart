@@ -194,9 +194,10 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               Text('Выберите кабинет', style: Theme.of(sheet).textTheme.titleLarge),
               const SizedBox(height: 8),
-              const Text(
+              Text(
                 'Демонстрация на одном телефоне. Данные школы не отправляются на сервер.',
-                style: TextStyle(fontSize: 12, color: DesignTokens.secondary),
+                style: TextStyle(fontSize: 12,
+                  color: Theme.of(context).colorScheme.onSurfaceVariant),
               ),
               const SizedBox(height: 16),
               for (final option in [
@@ -241,6 +242,12 @@ class _HomeScreenState extends State<HomeScreen> {
     widget.navigationTab?.value = 0;
     _syncTeacherNavigation();
     return true;
+  }
+
+  Future<void> _toggleAppearance() async {
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    await guardedAction(context, () =>
+      state.setSetting('appearance', dark ? 'light' : 'dark'));
   }
 
   void _open(Widget page) =>
@@ -298,10 +305,29 @@ class _HomeScreenState extends State<HomeScreen> {
         : AppBar(
             centerTitle: false,
             title: Text(
-              _teacherLayout ? 'Учительница · Байна Ядайк' : 'Байна Ядайк',
+              _teacherLayout ? 'Учительница' : 'Байна Ядайк',
               style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800),
             ),
             actions: [
+              if (_tab == 0 && !_backend.isAuthenticated)
+                IconButton(
+                  key: const ValueKey('home-switch-role'),
+                  tooltip: _demoTeacher
+                      ? 'Кабинет учительницы · сменить'
+                      : 'Кабинет ученицы · сменить',
+                  icon: const Icon(Icons.switch_account_outlined),
+                  onPressed: _pickDemoRole,
+                ),
+              if (_tab == 0)
+                IconButton(
+                  key: const ValueKey('home-toggle-theme'),
+                  tooltip: Theme.of(context).brightness == Brightness.dark
+                      ? 'Включить день' : 'Включить ночь',
+                  icon: Icon(Theme.of(context).brightness == Brightness.dark
+                      ? Icons.light_mode_outlined
+                      : Icons.dark_mode_outlined),
+                  onPressed: _toggleAppearance,
+                ),
               IconButton(
                 tooltip: tr(context, 'Уведомления'),
                 icon: const Icon(Icons.notifications_none),
@@ -492,8 +518,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Text('Арабский каждый день',
                     style: Theme.of(context).textTheme.titleLarge),
-                  const Text('МОЁ ОБУЧЕНИЕ',
-                    style: TextStyle(color: DesignTokens.secondary,
+                  Text('МОЁ ОБУЧЕНИЕ',
+                    style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant,
                       fontSize: 11, letterSpacing: 0.4)),
                 ],
               )),
@@ -520,7 +546,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.only(top: 6),
                 child: Text('Следующий урок: ${next['title'] ?? ''}',
                   maxLines: 2, overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(color: DesignTokens.secondary,
+                  style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant,
                     fontSize: 12)),
               ),
             const SizedBox(height: 15),

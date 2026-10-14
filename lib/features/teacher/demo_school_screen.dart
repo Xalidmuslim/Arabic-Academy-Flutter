@@ -112,6 +112,35 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
     }
   }
 
+  /// Accessible from the root teacher groups screen, not only group details.
+  Future<void> _addStudentFromOverview() async {
+    if (school.groups.isEmpty) {
+      await _addGroup();
+      if (!mounted || school.groups.isEmpty) return;
+    }
+    if (school.groups.length == 1) {
+      await _addStudent(school.groups.first['id'] as String);
+      return;
+    }
+    final selected = await showDialog<String>(
+      context: context,
+      builder: (dialog) => SimpleDialog(
+        title: const Text('Выберите группу ученицы'),
+        children: [
+          for (final group in school.groups)
+            SimpleDialogOption(
+              onPressed: () => Navigator.pop(dialog, group['id'] as String),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 9),
+                child: Text(group['name'] as String),
+              ),
+            ),
+        ],
+      ),
+    );
+    if (selected != null && mounted) await _addStudent(selected);
+  }
+
   Future<void> _createAssignment({String? groupId, String? studentId}) async {
     if (school.groups.isEmpty) {
       notice(context, 'Сначала создайте группу.');
@@ -658,11 +687,19 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
             style: Theme.of(context).textTheme.titleLarge),
           const SizedBox(height: 10),
           if (section == 'groups')
-            OutlinedButton.icon(
-              onPressed: _addGroup,
-              icon: const Icon(Icons.add),
-              label: const Text('Добавить группу'),
-            ),
+            Wrap(spacing: 8, runSpacing: 8, children: [
+              FilledButton.tonalIcon(
+                key: const ValueKey('teacher-add-student'),
+                onPressed: _addStudentFromOverview,
+                icon: const Icon(Icons.person_add_alt_1_outlined),
+                label: const Text('Добавить ученицу'),
+              ),
+              OutlinedButton.icon(
+                onPressed: _addGroup,
+                icon: const Icon(Icons.group_add_outlined),
+                label: const Text('Группа'),
+              ),
+            ]),
           if (section == 'submissions')
             OutlinedButton.icon(
               onPressed: () => _createAssignment(),
@@ -685,6 +722,7 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                 case 'live': _scheduleLive();
                 case 'notice': _announce();
                 case 'group': _addGroup();
+                case 'student': _addStudentFromOverview();
                 case 'editor': _open(TeacherEditor(state: widget.learning));
                 case 'wordcards': _createWordCards();
                 case 'materials': _open(Scaffold(
@@ -699,6 +737,8 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
                 child: Text('Создать домашнее задание')),
               PopupMenuItem(value: 'group',
                 child: Text('Добавить группу')),
+              PopupMenuItem(value: 'student',
+                child: Text('Добавить ученицу')),
               PopupMenuItem(value: 'live',
                 child: Text('Создать прямой эфир')),
               PopupMenuItem(value: 'notice',

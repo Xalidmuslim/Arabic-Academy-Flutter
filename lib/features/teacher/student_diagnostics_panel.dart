@@ -6,6 +6,7 @@ import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'demo_school_store.dart';
 import 'student_diagnostics.dart';
+import 'teacher_analytics_widgets.dart';
 
 /// Per-student teacher dashboard, strictly separated by student_id.
 /// Skill evidence, demo fixtures and unverified pronunciation are labelled.
@@ -161,6 +162,13 @@ class StudentDiagnosticsPanel extends StatelessWidget {
           'после прослушивания записи.',
           style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
         const SizedBox(height: 10),
+        PupilSkillsOverview(report: report),
+        const SizedBox(height: 8),
+        ExpansionTile(
+          key: const ValueKey('teacher-skills-details'),
+          initiallyExpanded: false,
+          title: const Text('Подробности и комментарии по навыкам'),
+          children: [
         for (final skill in report.skills)
           Padding(
             padding: const EdgeInsets.only(bottom: 10),
@@ -256,24 +264,20 @@ class StudentDiagnosticsPanel extends StatelessWidget {
               ),
             ),
           ),
+        ],
+        ),
         const Text('* Оценки со звёздочкой поставлены учительницей вручную.',
           style: TextStyle(fontSize: 11, color: DesignTokens.secondary)),
-        if (report.localLearningAvailable) ...[
-          SectionTitle(tr(context, 'Запоминание слов')),
+        SectionTitle(tr(context, 'Запоминание слов')),
+        PupilVocabularyOverview(report: report),
+        if (report.localLearningAvailable && report.hardWords.isNotEmpty) ...[
+          ExpansionTile(
+          title: const Text('Слова, которые нужно повторить'),
+          children: [
           Panel(child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text('Повторяли: ${report.wordReviewed} · '
-                'Устойчиво на этапах 2–5: ${report.wordMastered}'),
-              const SizedBox(height: 5),
-              Text('К повторению: ${report.wordDue} · '
-                'Трудных: ${report.wordDifficult}'),
-              Text('Случаев забывания в истории: ${report.wordLapses}'),
-              if (report.hardWords.isEmpty)
-                const Padding(
-                  padding: EdgeInsets.only(top: 8),
-                  child: Text('Сложные слова пока не выявлены.'),
-                ),
+
               for (final word in report.hardWords)
                 ListTile(
                   dense: true,
@@ -288,6 +292,8 @@ class StudentDiagnosticsPanel extends StatelessWidget {
                 ),
             ],
           )),
+          ],
+          ),
         ],
         SectionTitle(tr(context, 'Где чаще ошибается')),
         if (report.errors.isEmpty)
