@@ -31,8 +31,8 @@ abstract final class TraceEvaluator {
       );
     }
 
-    final width = size.width.ceil().clamp(1, 800);
-    final height = size.height.ceil().clamp(1, 800);
+    final width = size.width.ceil().clamp(1, 800).toInt();
+    final height = size.height.ceil().clamp(1, 800).toInt();
     final recorder = ui.PictureRecorder();
     final canvas = Canvas(recorder);
     final painter = TextPainter(
