@@ -187,7 +187,7 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: oneColumn ? 1 : 2,
                   crossAxisSpacing: 12, mainAxisSpacing: 12,
-                  childAspectRatio: oneColumn ? 1.95 : .8,
+                  childAspectRatio: oneColumn ? 1.15 : .72,
                 ),
                 itemBuilder: (context, index) {
                   final word = shown[index];
