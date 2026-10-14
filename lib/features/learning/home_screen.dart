@@ -194,7 +194,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               Text('Выберите кабинет', style: Theme.of(sheet).textTheme.titleLarge),
               const SizedBox(height: 8),
-              const Text(
+              Text(
                 'Демонстрация на одном телефоне. Данные школы не отправляются на сервер.',
                 style: TextStyle(fontSize: 12,
                   color: Theme.of(context).colorScheme.onSurfaceVariant),
