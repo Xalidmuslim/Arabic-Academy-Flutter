@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
 import '../../core/practice_generator.dart';
+import '../../core/practice_feedback.dart';
 import '../../core/speech.dart';
 import '../../core/study_analytics.dart';
 import '../../core/vocabulary_practice.dart';
@@ -231,6 +232,7 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
   bool _checked = false;
   bool _wasCorrect = false;
   bool _showHint = false;
+  String _feedback = '';
 
   @override
   void initState() {
@@ -282,10 +284,19 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
             : PracticeGenerator.matchesArabic(response, q.answer));
     setState(() => _busy = true);
     try {
+      final message = PracticeFeedback.explain(
+        q, response, correct: correct, revealed: skip || _showHint,
+      );
       await widget.state.recordAttempt(
         lessonId: q.lessonId,
         exerciseId: q.id,
-        answer: response,
+        answer: {
+          'response': response,
+          'expected': q.answer,
+          'feedback': message,
+          'source': q.lessonTitle,
+          'mode': q.mode.name,
+        },
         status: correct ? 'correct' : 'incorrect',
         points: correct ? 1 : 0,
       );
@@ -293,6 +304,7 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
       setState(() {
         _checked = true;
         _wasCorrect = correct;
+        _feedback = message;
         if (correct) {
           _successes++;
         } else {
@@ -341,6 +353,7 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
       _showHint = false;
       _checked = false;
       _wasCorrect = false;
+      _feedback = '';
     });
   }
 
@@ -507,6 +520,11 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
                     ? q.word : q.answer),
                 if (q.translation.isNotEmpty)
                   Text(q.translation, textAlign: TextAlign.center),
+                const SizedBox(height: 8),
+                Text(_feedback, style: const TextStyle(
+                  color: DesignTokens.secondary,
+                  fontSize: 13,
+                )),
                 if (!_wasCorrect)
                   const Text('Вы найдёте это задание в разделе ошибок.',
                     style: TextStyle(
