@@ -235,9 +235,15 @@ class _DemoStudentSchoolScreenState extends State<DemoStudentSchoolScreen> {
               }, style: const TextStyle(color: DesignTokens.deepOlive)),
               if (row['status'] == 'live') ...[
                 const SizedBox(height: 10),
-                const Text('Деморежим не передаёт видео и звук. '
-                    'Реальный эфир требует подключения LiveKit и сервера.',
-                    style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
+                FilledButton.icon(
+                  onPressed: () => Navigator.push(context,
+                    MaterialPageRoute<void>(builder: (_) => DemoLiveRoomScreen(
+                      school: widget.school, sessionId: row['id'] as String,
+                      isTeacher: false,
+                    ))),
+                  icon: const Icon(Icons.meeting_room_outlined),
+                  label: const Text('Войти в демокомнату'),
+                ),
               ],
             ],
           )),
@@ -338,6 +344,161 @@ class _DemoStudentSchoolScreenState extends State<DemoStudentSchoolScreen> {
             if (tab == 'homework') _homework(studentId),
             if (tab == 'sessions') _schedule(studentId),
             if (tab == 'notices') _notices(studentId),
+          ],
+        );
+      },
+    ),
+  );
+}
+
+ 
+/// Interactive LOCAL room: chat and raised hands only; no streaming or push.
+class DemoLiveRoomScreen extends StatefulWidget {
+  const DemoLiveRoomScreen({
+    super.key, required this.school, required this.sessionId,
+    required this.isTeacher,
+  });
+  final DemoSchoolStore school;
+  final String sessionId;
+  final bool isTeacher;
+  @override
+  State<DemoLiveRoomScreen> createState() => _DemoLiveRoomScreenState();
+}
+
+class _DemoLiveRoomScreenState extends State<DemoLiveRoomScreen> {
+  final _message = TextEditingController();
+  bool _sending = false;
+  @override
+  void dispose() {
+    _message.dispose();
+    super.dispose();
+  }
+
+  Future<void> _send() async {
+    if (_sending || _message.text.trim().isEmpty) return;
+    setState(() => _sending = true);
+    final text = _message.text;
+    try {
+      await widget.school.postLiveMessage(
+        sessionId: widget.sessionId,
+        authorId: widget.isTeacher
+            ? 'teacher' : widget.school.currentStudentId,
+        text: text,
+      );
+      _message.clear();
+    } catch (error) {
+      if (mounted) notice(context, error.toString());
+    } finally {
+      if (mounted) setState(() => _sending = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) => Scaffold(
+    appBar: AppBar(title: const Text('Учебный эфир · демо')),
+    body: AnimatedBuilder(
+      animation: widget.school,
+      builder: (context, _) {
+        final matches = widget.school.sessions.where(
+          (row) => row['id'] == widget.sessionId);
+        if (matches.isEmpty) {
+          return const Center(child: Text('Эфир не найден.'));
+        }
+        final row = matches.first;
+        final live = row['status'] == 'live';
+        final hands = List<String>.from(
+          row['raised_hands'] as List? ?? const [],
+        );
+        final studentId = widget.school.currentStudentId;
+        final messages = row['messages'] as List? ?? const [];
+        return ListView(
+          padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
+          children: [
+            Panel(child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text(row['title'] as String,
+                    style: Theme.of(context).textTheme.titleLarge),
+                const SizedBox(height: 8),
+                Text(live ? 'Демоэфир открыт' : 'Занятие завершено',
+                  style: const TextStyle(
+                    color: DesignTokens.deepOlive,
+                    fontWeight: FontWeight.w800,
+                  )),
+                const SizedBox(height: 10),
+                const Icon(Icons.video_call_outlined, size: 70,
+                  color: DesignTokens.sage),
+                const Text('Здесь можно проверить чат и поднятие руки. '
+                    'Реальная передача видео и звука отсутствует.',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 12, color: DesignTokens.secondary,
+                    )),
+              ],
+            )),
+            const SizedBox(height: 12),
+            if (widget.isTeacher) ...[
+              Text('Подняли руку: ${hands.length}',
+                style: Theme.of(context).textTheme.titleMedium),
+              if (hands.isNotEmpty)
+                Text(hands.map(widget.school.studentName).join(', ')),
+            ] else if (live) ...[
+              OutlinedButton.icon(
+                onPressed: () => guardedAction(context, () =>
+                    widget.school.toggleLiveHand(
+                      sessionId: widget.sessionId, studentId: studentId,
+                    )),
+                icon: Icon(hands.contains(studentId)
+                    ? Icons.pan_tool : Icons.pan_tool_outlined),
+                label: Text(hands.contains(studentId)
+                    ? 'Опустить руку' : 'Поднять руку'),
+              ),
+            ],
+            const SectionTitle('Чат занятия'),
+            if (messages.isEmpty)
+              const Text('Сообщений пока нет.'),
+            for (final value in messages)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 9),
+                child: Panel(child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text((value as Map)['author_id'] == 'teacher'
+                        ? 'Учительница'
+                        : widget.school.studentName(
+                            value['author_id'] as String),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w800,
+                        color: DesignTokens.deepOlive,
+                      )),
+                    const SizedBox(height: 4),
+                    Text(value['text'] as String),
+                    const SizedBox(height: 3),
+                    Text(_readableDate(value['at']),
+                      style: const TextStyle(
+                        color: DesignTokens.secondary, fontSize: 11,
+                      )),
+                  ],
+                )),
+              ),
+            if (live) ...[
+              const SizedBox(height: 10),
+              TextField(
+                controller: _message,
+                maxLength: 1000,
+                minLines: 1,
+                maxLines: 4,
+                decoration: const InputDecoration(
+                  labelText: 'Сообщение в чат',
+                  prefixIcon: Icon(Icons.chat_bubble_outline),
+                ),
+              ),
+              FilledButton.icon(
+                onPressed: _sending ? null : _send,
+                icon: const Icon(Icons.send_outlined),
+                label: const Text('Отправить в чат'),
+              ),
+            ],
           ],
         );
       },
