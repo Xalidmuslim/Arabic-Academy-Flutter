@@ -27,6 +27,7 @@ import 'settings_screen.dart';
 import 'online_homework_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'practice_center_screen.dart';
+import '../../core/practice_generator.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -260,7 +261,7 @@ class _HomeScreenState extends State<HomeScreen> {
     canPop: false,
     onPopInvokedWithResult: _handleRootBack,
     child: Scaffold(
-    appBar: _tab == 1
+    appBar: _tab == 1 || _tab == 2
         ? null
         : AppBar(
             centerTitle: false,
@@ -269,13 +270,6 @@ class _HomeScreenState extends State<HomeScreen> {
               style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800),
             ),
             actions: [
-              if (_tab == 2)
-                IconButton(
-                  tooltip: 'Поиск по библиотеке',
-                  icon: const Icon(Icons.search_outlined),
-                  onPressed: () => _open(SearchScreen(
-                      state: state, onOpenLesson: _lesson)),
-                ),
               IconButton(
                 tooltip: tr(context, 'Уведомления'),
                 icon: const Icon(Icons.notifications_none),
@@ -358,8 +352,8 @@ class _HomeScreenState extends State<HomeScreen> {
           label: tr(context, 'Уроки'),
         ),
         NavigationDestination(
-          icon: const Icon(Icons.psychology_alt_outlined),
-          label: tr(context, 'Практика'),
+          icon: const Icon(Icons.search_outlined),
+          label: tr(context, 'Поиск'),
         ),
         NavigationDestination(
           icon: const ArtworkIcon('profile', size: 29),
@@ -372,7 +366,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _page() => switch (_tab) {
     1 => UnitScreen(state: state, backend: _backend),
-    2 => PracticeCenterScreen(state: state),
+    2 => SearchScreen(state: state, onOpenLesson: _lesson),
     3 => _profile(),
     _ => _dashboard(),
   };
@@ -541,6 +535,40 @@ class _HomeScreenState extends State<HomeScreen> {
                     onTap: () => _open(VocabularyPracticeScreen(state: state)),
                   ),
                 ),
+                SectionTitle('Практика'),
+                Panel(
+                  padding: EdgeInsets.zero,
+                  child: ListTile(
+                    key: const ValueKey('home-practice-entry'),
+                    contentPadding: const EdgeInsets.fromLTRB(16, 13, 14, 13),
+                    leading: const Icon(Icons.psychology_alt_outlined,
+                      size: 38, color: DesignTokens.deepOlive),
+                    title: const Text('Тренажёры арабского языка',
+                      style: TextStyle(fontWeight: FontWeight.w800)),
+                    subtitle: const Text('Диалоги, письмо, диктанты, контрольные, '
+                      'рисунки и работа над ошибками'),
+                    trailing: const Icon(Icons.chevron_right),
+                    onTap: () => _open(Scaffold(
+                      appBar: AppBar(title: const Text('Практика')),
+                      body: PracticeCenterScreen(state: state),
+                    )),
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Wrap(spacing: 8, runSpacing: 6, children: [
+                  for (final mode in <(PracticeMode, String)>[
+                    (PracticeMode.quiz, 'Викторина'),
+                    (PracticeMode.dialogue, 'Диалоги'),
+                    (PracticeMode.dictation, 'Диктант'),
+                    (PracticeMode.mistakes, 'Ошибки'),
+                  ])
+                    ActionChip(
+                      label: Text(mode.$2),
+                      onPressed: () => _open(PracticeSessionScreen(
+                        state: state, mode: mode.$1,
+                      )),
+                    ),
+                ]),
                 SectionTitle(tr(context, 'Моё обучение')),
                 if (lessons.isEmpty)
                   const EmptyState(
