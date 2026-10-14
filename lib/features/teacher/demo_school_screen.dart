@@ -11,6 +11,7 @@ import 'student_diagnostics_panel.dart';
 import 'student_diagnostics.dart';
 import 'teacher_dashboard.dart';
 import 'teacher_editor.dart';
+import 'teacher_word_card_studio_screen.dart';
 
 String _demoDate(Object? input) {
   final date = DateTime.tryParse(input?.toString() ?? '')?.toLocal();
@@ -50,16 +51,8 @@ class _DemoSchoolScreenState extends State<DemoSchoolScreen> {
   Future<void> _open(Widget page) => Navigator.push(
       context, MaterialPageRoute<void>(builder: (_) => page));
 
-  void _createWordCards() => _open(TeacherEditor(
-    state: widget.learning,
-    original: const {
-      'title': 'Мои иллюстрированные карточки',
-      'description': 'Слова с изображениями и произношением',
-      'published': true,
-      'free': true,
-      'vocabulary': <Map<String, dynamic>>[],
-    },
-  ));
+  void _createWordCards() =>
+      _open(TeacherWordCardStudioScreen(state: widget.learning));
 
   Future<void> _addGroup() async {
     final controller = TextEditingController();
