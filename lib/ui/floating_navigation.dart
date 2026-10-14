@@ -3,7 +3,7 @@ import '../core/app_strings.dart';
 import 'design_tokens.dart';
 import 'original_art.dart';
 
-/// Visible on root tabs only; NavigatorObserver hides it for detail routes.
+/// Persistent across ordinary routes, but hidden while a dialog/sheet is open.
 class FloatingStudyNavigation extends StatelessWidget {
   const FloatingStudyNavigation({
     super.key,
@@ -19,13 +19,13 @@ class FloatingStudyNavigation extends StatelessWidget {
     final labels = [
       tr(context, 'Главная'),
       tr(context, 'Уроки'),
-      tr(context, 'Практика'),
+      tr(context, 'Поиск'),
       tr(context, 'Профиль'),
     ];
     final icons = <Widget>[
       const ArtworkIcon('home', size: 26),
       const Icon(Icons.menu_book_outlined, size: 26),
-      const Icon(Icons.psychology_alt_outlined, size: 26),
+      const Icon(Icons.search_outlined, size: 26),
       const ArtworkIcon('profile', size: 26),
     ];
     return SafeArea(
