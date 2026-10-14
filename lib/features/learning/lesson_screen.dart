@@ -7,6 +7,7 @@ import '../../core/speech.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
+import '../../ui/dialogue_scene_illustration.dart';
 import '../../ui/premium_art.dart';
 import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
@@ -403,6 +404,12 @@ class _LessonScreenState extends State<LessonScreen>
             label: const Text('Закрепить слова этого урока'),
           ),
       ] else if (_stage == 2) ...[
+        if (DialogueSceneIllustration.sceneFor(
+            widget.lesson['title']?.toString() ?? '') != null) ...[
+          DialogueSceneIllustration(
+            setting: widget.lesson['title']?.toString() ?? ''),
+          const SizedBox(height: 12),
+        ],
         Row(
           children: [
             Expanded(
