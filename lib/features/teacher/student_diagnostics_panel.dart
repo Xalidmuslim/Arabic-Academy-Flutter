@@ -93,13 +93,15 @@ class StudentDiagnosticsPanel extends StatelessWidget {
                 fontSize: 11, color: DesignTokens.secondary)),
           ],
         )),
-        if (showcase != null) ...[
-          const SizedBox(height: 12),
-          const Text('ПРИМЕР ДЛЯ ЗАКАЗЧИКА · синтетическая статистика',
-            style: TextStyle(fontWeight: FontWeight.w800,
-              color: DesignTokens.deepOlive, fontSize: 12)),
-          const SizedBox(height: 7),
-          Panel(child: Column(
+        if (showcase != null)
+          ExpansionTile(
+            key: const ValueKey('teacher-synthetic-preview'),
+            initiallyExpanded: false,
+            title: const Text('Демонстрационные данные · не результаты ученицы',
+              style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700)),
+            childrenPadding: const EdgeInsets.only(bottom: 10),
+            children: [
+              Panel(child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Wrap(spacing: 16, runSpacing: 9, children: [
@@ -137,10 +139,12 @@ class StudentDiagnosticsPanel extends StatelessWidget {
                   ),
             ],
           )),
-          const Text('Данные показаны только для иллюстрации интерфейса. '
+              const SizedBox(height: 7),
+              const Text('Данные показаны только для иллюстрации интерфейса. '
             'Они не являются результатами реальной ученицы.',
             style: TextStyle(fontSize: 11, color: DesignTokens.secondary)),
-        ],
+            ],
+          ),
         SectionTitle(
           'Усвоение по навыкам',
           trailing: IconButton(
@@ -286,32 +290,40 @@ class StudentDiagnosticsPanel extends StatelessWidget {
         ],
         const SectionTitle('Где чаще ошибается'),
         if (report.errors.isEmpty)
-          const Panel(child: Text('Нет непроработанных ошибок по '
-            'автоматически проверенным упражнениям. '
-            'Ошибки других учениц сюда не попадают.'))
+          const Panel(child: Text('Непроработанных ошибок пока нет. '
+            'Показаны только результаты этой ученицы.'))
         else
           for (final error in report.errors)
             Padding(
-              padding: const EdgeInsets.only(bottom: 10),
-              child: Panel(child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text('${error.skill} · ${error.lesson}',
-                    style: const TextStyle(fontWeight: FontWeight.w800)),
-                  Text('Ошибок в истории: ${error.count}',
-                    style: const TextStyle(
-                      fontSize: 12, color: DesignTokens.secondary)),
-                  if (error.response.isNotEmpty)
-                    Text('Ответ ученицы: ${error.response}'),
-                  if (error.expected.isNotEmpty)
-                    Text('Правильный ответ: ${error.expected}'),
-                  if (error.explanation.isNotEmpty)
-                    Padding(
-                      padding: const EdgeInsets.only(top: 4),
-                      child: Text(error.explanation),
-                    ),
-                ],
-              )),
+              padding: const EdgeInsets.only(bottom: 8),
+              child: Panel(
+                padding: EdgeInsets.zero,
+                child: ExpansionTile(
+                  key: ValueKey('student-error-${error.skill}-${error.lesson}'),
+                  tilePadding: const EdgeInsets.symmetric(horizontal: 12),
+                  childrenPadding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                  title: Text('${error.skill} · ${error.lesson}',
+                    maxLines: 2, overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(fontSize: 13,
+                      fontWeight: FontWeight.w700)),
+                  subtitle: Text('Ошибок: ${error.count}',
+                    style: const TextStyle(fontSize: 11)),
+                  children: [
+                    if (error.response.isNotEmpty)
+                      Align(alignment: Alignment.centerLeft,
+                        child: Text('Ответ ученицы: ${error.response}')),
+                    if (error.expected.isNotEmpty)
+                      Align(alignment: Alignment.centerLeft,
+                        child: Text('Правильно: ${error.expected}')),
+                    if (error.explanation.isNotEmpty)
+                      Padding(
+                        padding: const EdgeInsets.only(top: 5),
+                        child: Align(alignment: Alignment.centerLeft,
+                          child: Text(error.explanation)),
+                      ),
+                  ],
+                ),
+              ),
             ),
         const SectionTitle('Рекомендации учительнице'),
         Panel(child: Column(
@@ -360,16 +372,22 @@ class StudentDiagnosticsPanel extends StatelessWidget {
   }
 
   Widget _shortStat(String label, String number) =>
-      Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(number,
-            style: const TextStyle(fontWeight: FontWeight.w800,
-              fontSize: 22, color: DesignTokens.deepOlive)),
-          Text(label, style: const TextStyle(
-            fontSize: 11, color: DesignTokens.secondary)),
-        ],
-      );
+      Builder(builder: (context) => SizedBox(
+        width: 112,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(number, style: TextStyle(
+              fontWeight: FontWeight.w800, fontSize: 21,
+              color: Theme.of(context).colorScheme.primary)),
+            Text(label, maxLines: 2, overflow: TextOverflow.ellipsis,
+              style: TextStyle(fontSize: 11,
+                color: Theme.of(context).colorScheme.onSurface)),
+          ],
+        ),
+      ));
+
 }
 
 class _SkillAssessmentDraft {
