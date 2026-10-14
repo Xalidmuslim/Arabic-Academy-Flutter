@@ -218,11 +218,17 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     if (_pointers.isEmpty) {
       _swipeStart = null;
     }
-    if (!single || start == null || _scale > 1.03) return;
-    if (start.dx < 36 || start.dx > _viewportSize.width - 36) return;
+    if (!single || start == null || _scale > 1.03) {
+      return;
+    }
+    if (start.dx < 36 || start.dx > _viewportSize.width - 36) {
+      return;
+    }
     final movement = e.localPosition - start;
     if (movement.dx.abs() < 85 ||
-        movement.dx.abs() < movement.dy.abs() * 1.4) return;
+        movement.dx.abs() < movement.dy.abs() * 1.4) {
+      return;
+    }
     _goToPage(_page + (movement.dx < 0 ? 1 : -1));
   }
 
