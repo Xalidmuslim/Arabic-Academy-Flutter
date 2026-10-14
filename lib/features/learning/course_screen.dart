@@ -262,7 +262,10 @@ class _UnitScreenState extends State<UnitScreen> {
                             padding: const EdgeInsets.all(12),
                             child: Row(
                               children: [
-                                CourseUnitArt(unitId: unit['id'] as String),
+                                CourseUnitArt(
+                                  unitId: unit['id'] as String,
+                                  imageAsset: unit['illustration_asset'] as String?,
+                                ),
                                 const SizedBox(width: 12),
                                 Expanded(
                                   child: Column(
