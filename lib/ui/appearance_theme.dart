@@ -4,20 +4,41 @@ import 'design_tokens.dart';
 /// Day/night rendering, without changing the established warm day palette.
 ThemeData academyTheme({required bool dark, required String latinFont}) {
   final base = DesignTokens.theme();
-  final bg = dark ? const Color(0xFF202B25) : DesignTokens.ivory;
-  final ink = dark ? const Color(0xFFE9F1E7) : DesignTokens.ink;
-  final surface = dark ? const Color(0xFF29372E) : DesignTokens.cardSurface;
-  final edge = dark ? const Color(0xFF435848) : DesignTokens.softOutline;
+  final bg = dark ? const Color(0xFF1C2421) : DesignTokens.ivory;
+  final ink = dark ? const Color(0xFFF2F2EB) : DesignTokens.ink;
+  final surface = dark ? const Color(0xFF2B3630) : DesignTokens.cardSurface;
+  final edge = dark ? const Color(0xFF526457) : DesignTokens.softOutline;
   final scheme = base.colorScheme.copyWith(
     brightness: dark ? Brightness.dark : Brightness.light,
-    primary: dark ? const Color(0xFFB1CA9F) : DesignTokens.deepOlive,
+    primary: dark ? const Color(0xFFBBD5A9) : DesignTokens.deepOlive,
     onPrimary: dark ? const Color(0xFF1B2B20) : Colors.white,
-    surface: bg, onSurface: ink, outline: edge,
+    surface: surface, onSurface: ink, outline: edge,
+    onSurfaceVariant: dark ? const Color(0xFFCCD6CB) : DesignTokens.secondary,
+    surfaceContainerHighest: dark ? const Color(0xFF425047) : DesignTokens.beige,
+    onSecondaryContainer: ink,
+    secondary: dark ? const Color(0xFFD0C4A9) : DesignTokens.bronze,
   );
   return base.copyWith(
     brightness: dark ? Brightness.dark : Brightness.light,
     colorScheme: scheme,
     scaffoldBackgroundColor: bg,
+    canvasColor: bg,
+    dividerColor: edge,
+    iconTheme: IconThemeData(color: dark ? const Color(0xFFD5E2D1) : DesignTokens.deepOlive),
+    listTileTheme: ListTileThemeData(
+      iconColor: dark ? const Color(0xFFCADCC0) : DesignTokens.deepOlive,
+      textColor: ink,
+      subtitleTextStyle: TextStyle(fontFamily: latinFont, fontSize: 12.5,
+        color: dark ? const Color(0xFFCAD3C6) : DesignTokens.secondary),
+    ),
+    cardTheme: CardThemeData(color: surface, surfaceTintColor: Colors.transparent),
+    dialogTheme: DialogThemeData(backgroundColor: surface,
+      titleTextStyle: TextStyle(color: ink, fontFamily: latinFont,
+        fontSize: 19, fontWeight: FontWeight.w700)),
+    bottomSheetTheme: BottomSheetThemeData(backgroundColor: surface,
+      modalBackgroundColor: surface),
+    popupMenuTheme: PopupMenuThemeData(color: surface,
+      textStyle: TextStyle(color: ink, fontFamily: latinFont)),
     textTheme: base.textTheme.apply(
       fontFamily: latinFont, bodyColor: ink, displayColor: ink),
     appBarTheme: base.appBarTheme.copyWith(
@@ -48,6 +69,9 @@ ThemeData academyTheme({required bool dark, required String latinFont}) {
               borderRadius: BorderRadius.circular(24)),
           ))
         : base.filledButtonTheme,
+    textButtonTheme: dark
+        ? TextButtonThemeData(style: TextButton.styleFrom(foregroundColor: ink))
+        : base.textButtonTheme,
     outlinedButtonTheme: dark
         ? OutlinedButtonThemeData(style: OutlinedButton.styleFrom(
             foregroundColor: ink, side: BorderSide(color: edge)))
