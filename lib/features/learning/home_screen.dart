@@ -429,6 +429,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _ => DemoSchoolScreen(
       key: const ValueKey('teacher-overview-tab'),
       school: _demoSchool, learning: state, backend: _backend,
+      compactOverview: true,
     ),
   };
 
