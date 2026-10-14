@@ -9,7 +9,8 @@
       "title_ar": "التَّحِيَّةُ وَالتَّعَارُفُ",
       "access_default": "free",
       "pdf_page": 22,
-      "unit_order": 1
+      "unit_order": 1,
+      "illustration_asset": "assets/artwork/lesson_generated/u1_greeting.webp"
     },
     {
       "id": "u2",
@@ -17,7 +18,8 @@
       "title_ar": "الْأُسْرَةُ",
       "access_default": "free",
       "pdf_page": 48,
-      "unit_order": 2
+      "unit_order": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u2_family.webp"
     },
     {
       "id": "u3",
@@ -33,7 +35,8 @@
       "title_ar": "الْحَيَاةُ الْيَوْمِيَّةُ",
       "access_default": "free",
       "pdf_page": 102,
-      "unit_order": 4
+      "unit_order": 4,
+      "illustration_asset": "assets/artwork/lesson_generated/u4_daily_routine.webp"
     },
     {
       "id": "u5",
@@ -41,7 +44,8 @@
       "title_ar": "الطَّعَامُ وَالشَّرَابُ",
       "access_default": "free",
       "pdf_page": 130,
-      "unit_order": 5
+      "unit_order": 5,
+      "illustration_asset": "assets/artwork/lesson_generated/u5_food.webp"
     },
     {
       "id": "u6",
@@ -49,7 +53,8 @@
       "title_ar": "الصَّلَاةُ",
       "access_default": "free",
       "pdf_page": 156,
-      "unit_order": 6
+      "unit_order": 6,
+      "illustration_asset": "assets/artwork/lesson_generated/u6_prayer.webp"
     },
     {
       "id": "u7",
@@ -57,7 +62,8 @@
       "title_ar": "الدِّرَاسَةُ",
       "access_default": "free",
       "pdf_page": 184,
-      "unit_order": 7
+      "unit_order": 7,
+      "illustration_asset": "assets/artwork/lesson_generated/u7_study.webp"
     },
     {
       "id": "u8",
