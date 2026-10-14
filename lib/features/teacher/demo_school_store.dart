@@ -22,7 +22,15 @@ class DemoSchoolStore extends ChangeNotifier {
             throw FormatException('Invalid demo field: $key');
           }
         }
+        // New diagnostic entries are optional for pre-existing v1 archives.
+        // Do not discard or overwrite old lessons, assignments, or grades.
+        final diagnostics = snapshot['skill_assessments'];
+        if (diagnostics != null &&
+            (diagnostics is! List || diagnostics.any((row) => row is! Map))) {
+          throw const FormatException('Invalid diagnostic records');
+        }
         _data = Map<String, dynamic>.from(snapshot);
+        _data.putIfAbsent('skill_assessments', () => <dynamic>[]);
       } catch (_) {
         readOnly = true;
         warning = 'Повреждённые демоданные сохранены без изменений. Экспортируйте исходную резервную копию.';
@@ -88,6 +96,7 @@ class DemoSchoolStore extends ChangeNotifier {
     ],
     'sessions': [],
     'announcements': [],
+    'skill_assessments': [],
     'lesson_results': [
       {'student_id': 's2', 'lesson_id': 'l1', 'score': 90},
       {'student_id': 's2', 'lesson_id': 'l2', 'score': 85},
@@ -106,6 +115,47 @@ class DemoSchoolStore extends ChangeNotifier {
   List<Map<String, dynamic>> get sessions => _rows('sessions');
   List<Map<String, dynamic>> get announcements => _rows('announcements');
   List<Map<String, dynamic>> get lessonResults => _rows('lesson_results');
+  List<Map<String, dynamic>> get skillAssessments => _rows('skill_assessments');
+
+  List<Map<String, dynamic>> skillAssessmentsFor(String studentId) =>
+      skillAssessments
+          .where((entry) => entry['student_id'] == studentId)
+          .toList()
+        ..sort((a, b) => (b['at']?.toString() ?? '')
+            .compareTo(a['at']?.toString() ?? ''));
+
+  static const assessedSkills = <String>[
+    'words', 'grammar', 'listening', 'reading',
+    'writing', 'dialogue', 'pronunciation',
+  ];
+
+  /// A human-entered rubric, not an automatically verified pronunciation
+  /// grade. These are strictly local, per-pupil demo observations.
+  Future<void> addSkillAssessment({
+    required String studentId,
+    required String skill,
+    required int score,
+    required String note,
+  }) => _change((data) {
+    if (student(studentId) == null) {
+      throw StateError('Ученица не найдена.');
+    }
+    if (!assessedSkills.contains(skill) || score < 0 || score > 100) {
+      throw const FormatException('Выберите навык и оценку 0–100.');
+    }
+    if (note.trim().isEmpty || note.trim().length > 1000) {
+      throw const FormatException('Укажите короткое наблюдение учительницы.');
+    }
+    (data['skill_assessments'] as List).add({
+      'id': AcademyState.newId(),
+      'student_id': studentId,
+      'skill': skill,
+      'score': score,
+      'note': note.trim(),
+      'source': 'teacher_manual',
+      'at': DateTime.now().toUtc().toIso8601String(),
+    });
+  });
   String get currentStudentId => _data['current_student'] as String? ?? 's1';
 
   Map<String, dynamic>? student(String id) {
@@ -223,9 +273,13 @@ class DemoSchoolStore extends ChangeNotifier {
     String? studentId,
     DateTime? due,
     String? audioPath,
+    String skill = 'general',
   }) => _change((data) {
     if (title.trim().isEmpty || instructions.trim().isEmpty || group(groupId) == null) {
       throw const FormatException('Заполните название, текст и группу.');
+    }
+    if (skill != 'general' && !assessedSkills.contains(skill)) {
+      throw const FormatException('Неизвестная учебная категория.');
     }
     if (studentId != null && student(studentId)?['group_id'] != groupId) {
       throw StateError('Ученица не входит в выбранную группу.');
@@ -234,6 +288,7 @@ class DemoSchoolStore extends ChangeNotifier {
       'id': AcademyState.newId(),
       'title': title.trim(), 'instructions': instructions.trim(),
       'group_id': groupId, 'student_id': studentId,
+      'skill': skill,
       'due_at': due?.toUtc().toIso8601String(),
       'audio_path': audioPath,
       'created_at': DateTime.now().toUtc().toIso8601String(),
