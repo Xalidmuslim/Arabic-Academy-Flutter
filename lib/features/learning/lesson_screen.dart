@@ -137,7 +137,18 @@ class _LessonScreenState extends State<LessonScreen>
   );
 
   @override
-  Widget build(BuildContext context) => Scaffold(
+  Widget build(BuildContext context) => PopScope(
+    canPop: _stage == 0,
+    onPopInvokedWithResult: (didPop, result) {
+      if (didPop || !mounted || _stage == 0) return;
+      setState(() {
+        _stage--;
+        _exerciseIndex = 0;
+        _round = 0;
+        _finished = false;
+      });
+    },
+    child: Scaffold(
     appBar: AppBar(
       title: Text(
         widget.lesson['title'] as String? ?? 'Урок',
