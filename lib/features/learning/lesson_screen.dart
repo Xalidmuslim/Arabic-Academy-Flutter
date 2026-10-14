@@ -25,11 +25,14 @@ class LessonScreen extends StatefulWidget {
     required this.lesson,
     this.initialTab = 0,
     this.backend,
+    this.returnToProgressOnBack = false,
   });
   final AcademyState state;
   final Map<String, dynamic> lesson;
   final int initialTab;
   final BackendService? backend;
+  /// Review launched from progress returns there on the first Android Back.
+  final bool returnToProgressOnBack;
   @override
   State<LessonScreen> createState() => _LessonScreenState();
 }
@@ -168,9 +171,10 @@ class _LessonScreenState extends State<LessonScreen>
 
   @override
   Widget build(BuildContext context) => PopScope(
-    canPop: _stage == 0,
+    canPop: widget.returnToProgressOnBack || _stage == 0,
     onPopInvokedWithResult: (didPop, result) {
-      if (didPop || !mounted || _stage == 0) return;
+      if (didPop || !mounted || _stage == 0 ||
+          widget.returnToProgressOnBack) return;
       setState(() {
         _stage--;
         _exerciseIndex = 0;
