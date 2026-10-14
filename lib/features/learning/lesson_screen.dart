@@ -10,6 +10,8 @@ import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../../ui/dialogue_scene_illustration.dart';
 import '../../ui/premium_art.dart';
+import '../../ui/fitted_study_artwork.dart';
+import '../../ui/study_art_asset.dart';
 import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
 import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
@@ -278,13 +280,16 @@ class _LessonScreenState extends State<LessonScreen>
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Image.asset(
-                'assets/artwork/${widget.lesson['grammar_topic'] == null ? 'teacher' : 'grammar'}.webp',
-                height: 175,
-                fit: BoxFit.contain,
-                cacheWidth: 600,
-                excludeFromSemantics: true,
-              ),
+              if (StudyArtAsset.valid(widget.lesson['illustration_asset']) case final path?)
+                Center(child: FittedStudyArtwork(
+                  image: AssetImage(path), size: 175,
+                ))
+              else if (widget.lesson['grammar_topic'] != null)
+                Image.asset(
+                  'assets/artwork/grammar.webp',
+                  height: 175, fit: BoxFit.contain, cacheWidth: 600,
+                  excludeFromSemantics: true,
+                ),
               Text(
                 widget.lesson['title'] as String? ?? '',
                 style: Theme.of(context).textTheme.headlineSmall,
