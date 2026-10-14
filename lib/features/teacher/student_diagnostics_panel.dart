@@ -38,6 +38,7 @@ class StudentDiagnosticsPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final report = StudentLearningReport.build(school, learning, studentId);
+    final showcase = school.showcaseMetricsFor(studentId);
     final date = report.lastActivity;
     final lastDate = date == null
         ? 'Не зафиксирована'
@@ -92,6 +93,54 @@ class StudentDiagnosticsPanel extends StatelessWidget {
                 fontSize: 11, color: DesignTokens.secondary)),
           ],
         )),
+        if (showcase != null) ...[
+          const SizedBox(height: 12),
+          const Text('ПРИМЕР ДЛЯ ЗАКАЗЧИКА · синтетическая статистика',
+            style: TextStyle(fontWeight: FontWeight.w800,
+              color: DesignTokens.deepOlive, fontSize: 12)),
+          const SizedBox(height: 7),
+          Panel(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Wrap(spacing: 16, runSpacing: 9, children: [
+                _shortStat('Дней занятий',
+                  '${showcase['days_studied'] ?? 0}'),
+                _shortStat('Упражнений',
+                  '${showcase['attempts'] ?? 0}'),
+                _shortStat('За неделю',
+                  '${showcase['recent_attempts'] ?? 0}'),
+              ]),
+              const Divider(height: 22),
+              Text('Слов повторяли: ${showcase['words_reviewed'] ?? 0} · '
+                   'запомнили: ${showcase['words_mastered'] ?? 0}'),
+              Text('На повторение: ${showcase['words_due'] ?? 0} · '
+                   'трудных: ${showcase['words_difficult'] ?? 0} · '
+                   'забываний: ${showcase['word_lapses'] ?? 0}'),
+              const SizedBox(height: 9),
+              const Text('Примеры наиболее частых ошибок:',
+                style: TextStyle(fontWeight: FontWeight.w700)),
+              for (final item in (showcase['errors'] as List? ?? const []))
+                if (item is Map)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 7),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('${item['skill']}: ${item['count']} повторений',
+                          style: const TextStyle(fontWeight: FontWeight.w600)),
+                        Text('Ответ: ${item['response']}  →  ${item['expected']}'),
+                        Text(item['explanation']?.toString() ?? '',
+                          style: const TextStyle(
+                            fontSize: 12, color: DesignTokens.secondary)),
+                      ],
+                    ),
+                  ),
+            ],
+          )),
+          const Text('Данные показаны только для иллюстрации интерфейса. '
+            'Они не являются результатами реальной ученицы.',
+            style: TextStyle(fontSize: 11, color: DesignTokens.secondary)),
+        ],
         SectionTitle(
           'Усвоение по навыкам',
           trailing: IconButton(
