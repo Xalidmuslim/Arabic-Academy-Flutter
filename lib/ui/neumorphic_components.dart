@@ -197,11 +197,11 @@ class NeumorphicCourseHero extends StatelessWidget {
                     Text(
                       'Мой курс',
                       style: TextStyle(
-                        color: NeumorphicPalette.secondary,
+                        color: Theme.of(context).colorScheme.onSurfaceVariant,
                         fontSize: 12,
                       ),
                     ),
-                    SizedBox(height: 3),
+                    const SizedBox(height: 3),
                     Text(
                       'Базовый уровень 1',
                       maxLines: 1,
@@ -234,10 +234,10 @@ class NeumorphicCourseHero extends StatelessWidget {
                     ),
                     Text(
                       '${(value * 100).round()}%',
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontSize: 12,
                         fontWeight: FontWeight.w800,
-                        fontVariations: [FontVariation('wght', 800)],
+                        fontVariations: const [FontVariation('wght', 800)],
                         color: Theme.of(context).colorScheme.onSurface,
                       ),
                     ),
