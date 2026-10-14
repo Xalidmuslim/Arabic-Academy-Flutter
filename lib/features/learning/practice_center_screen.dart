@@ -207,11 +207,13 @@ class PracticeCenterScreen extends StatelessWidget {
 
 class PracticeSessionScreen extends StatefulWidget {
   const PracticeSessionScreen({
-    super.key, required this.state, required this.mode, this.moduleId,
+    super.key, required this.state, required this.mode,
+    this.moduleId, this.lessonId,
   });
   final AcademyState state;
   final PracticeMode mode;
   final String? moduleId;
+  final String? lessonId;
 
   @override
   State<PracticeSessionScreen> createState() => _PracticeSessionScreenState();
@@ -234,7 +236,8 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
   void initState() {
     super.initState();
     _questions = PracticeGenerator.build(
-      widget.state, widget.mode, moduleId: widget.moduleId,
+      widget.state, widget.mode,
+      lessonId: widget.lessonId, moduleId: widget.moduleId,
       limit: widget.mode == PracticeMode.exam ? 12 : 10,
     );
   }
