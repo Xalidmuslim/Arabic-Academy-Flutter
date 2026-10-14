@@ -1,6 +1,7 @@
 import 'package:arabic_academy/core/practice_generator.dart';
 import 'package:arabic_academy/ui/fitted_study_artwork.dart';
 import 'package:arabic_academy/ui/course_unit_art.dart';
+import 'package:arabic_academy/ui/study_art_asset.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -30,6 +31,15 @@ void main() {
     expect(IllustratedTerm.concept('مَطْبَخٌ'), isNull);
     expect(IllustratedTerm.concept('كِتَابٌ'), 'book');
     expect(IllustratedTerm.concept('كُرْسِيٌّ'), 'chair');
+  });
+
+  test('only individually bundled generated scene paths are accepted', () {
+    expect(StudyArtAsset.valid('assets/artwork/lesson_generated/u1_greeting.webp'),
+        'assets/artwork/lesson_generated/u1_greeting.webp');
+    expect(StudyArtAsset.valid('assets/artwork/lessons.webp'), isNull);
+    expect(StudyArtAsset.valid('../assets/artwork/lesson_generated/u1.webp'), isNull);
+    expect(StudyArtAsset.valid('assets/artwork/lesson_generated/a.png'), isNull);
+    expect(StudyArtAsset.valid(null), isNull);
   });
 
   test('course art matches unit identity instead of repeating generic images', () {
