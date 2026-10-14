@@ -107,7 +107,7 @@ void main() {
     expect(find.text('Выберите арабское слово'), findsOneWidget);
   });
 
-  testWidgets('floating navigation never obstructs modal settings or lessons',
+  testWidgets('floating navigation remains on settings but hides for modal sheets',
       (tester) async {
     SharedPreferences.setMockInitialValues({
       'welcome_seen': true,
@@ -121,7 +121,7 @@ void main() {
     expect(find.byKey(const ValueKey('demo-role-switch')), findsNothing);
     await tester.tap(find.byTooltip('Настройки'));
     await tester.pumpAndSettle();
-    expect(find.byType(FloatingStudyNavigation), findsNothing);
+    expect(find.byType(FloatingStudyNavigation), findsOneWidget);
     final advanced = find.byKey(const ValueKey('demo-tools'));
     await tester.ensureVisible(advanced);
     await tester.tap(advanced);
