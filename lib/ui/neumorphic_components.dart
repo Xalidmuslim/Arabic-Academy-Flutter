@@ -5,7 +5,7 @@ import 'design_tokens.dart';
 /// Solid warm relief with a real exposed edge, no gradient or backdrop blur.
 abstract final class NeumorphicPalette {
   static const background = DesignTokens.ivory;
-  static const surface = Color(0xFFF6EBDE);
+  static const surface = DesignTokens.cardSurface;
   static const ink = DesignTokens.ink;
   static const olive = DesignTokens.olive;
   static const secondary = DesignTokens.secondary;
@@ -35,23 +35,25 @@ class NeumorphicSurface extends StatelessWidget {
     return DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
       decoration: BoxDecoration(
-        color: const Color(0xFFF5ECDF),
+        color: DesignTokens.cardSurface,
         borderRadius: BorderRadius.circular(radius),
+        // A soft pale highlight, not the dark outline that flattened v8.
+        border: Border.all(color: DesignTokens.cardHighlight, width: 0.8),
         boxShadow: emphasized ? const [
-          BoxShadow(color: Color(0x4A493B2F), offset: Offset(0, 5), blurRadius: 10, spreadRadius: -3),
-          BoxShadow(color: Color(0x2B5B483B), offset: Offset(0, 13), blurRadius: 23, spreadRadius: -6),
-          BoxShadow(color: Color(0x125B483B), offset: Offset(0, 23), blurRadius: 34, spreadRadius: -10),
+          BoxShadow(color: Color(0x2C58473B), offset: Offset(0, 5), blurRadius: 12, spreadRadius: -3),
+          BoxShadow(color: Color(0x205B483B), offset: Offset(0, 13), blurRadius: 25, spreadRadius: -6),
+          BoxShadow(color: Color(0x125B483B), offset: Offset(0, 23), blurRadius: 35, spreadRadius: -10),
         ] : const [
           // Defines the elevation without creating a brown outline.
           BoxShadow(
-            color: Color(0x3F634F3F),
+            color: Color(0x28634F3F),
             offset: Offset(1, 5),
             blurRadius: 11,
             spreadRadius: -4,
           ),
           // Wider falloff makes it feel physically raised, not boxed-in.
           BoxShadow(
-            color: Color(0x23584535),
+            color: Color(0x19584535),
             offset: Offset(0, 13),
             blurRadius: 25,
             spreadRadius: -7,
