@@ -38,10 +38,10 @@
         <!-- Only the explicitly enabled local study reminders are scheduled. -->
         <receiver
             android:exported="false"
-            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+            android:name="com.example.arabic_academy.StudyReminderReceiver" />
         <receiver
             android:exported="false"
-            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver">
+            android:name="com.example.arabic_academy.StudyReminderBootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
