@@ -300,6 +300,7 @@ class _HomeScreenState extends State<HomeScreen> {
     canPop: false,
     onPopInvokedWithResult: _handleRootBack,
     child: Scaffold(
+    backgroundColor: Theme.of(context).scaffoldBackgroundColor,
     appBar: !_teacherLayout && (_tab == 1 || _tab == 2)
         ? null
         : AppBar(

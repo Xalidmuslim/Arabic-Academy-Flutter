@@ -128,7 +128,9 @@ class _AcademyAppState extends State<AcademyApp> {
               textScaler: _CombinedTextScaler(media.textScaler, size),
             ),
             child: _welcomeSeen
-                ? Stack(
+                ? ColoredBox(
+                    color: Theme.of(context).scaffoldBackgroundColor,
+                    child: Stack(
                     // Let pages paint behind the pill: the outside of the
                     // floating navigation is genuinely transparent.
                     fit: StackFit.expand,
@@ -158,7 +160,7 @@ class _AcademyAppState extends State<AcademyApp> {
                             : const SizedBox.shrink(),
                       ),
                     ],
-                  )
+                  ))
                 : child!,
           ),
         )));

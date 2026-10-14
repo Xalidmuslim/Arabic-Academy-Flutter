@@ -47,6 +47,23 @@ class PracticeCenterScreen extends StatelessWidget {
     ));
   }
 
+  /// Unit titles are localized in the bundled textbook catalog.
+  static String moduleDisplayTitle(Map module, {bool arabic = false}) {
+    final id = module['id']?.toString() ?? '';
+    final number = RegExp(r'^u([0-9]+)$').firstMatch(id)?.group(1);
+    final candidates = [
+      arabic ? module['title_ar'] : module['title_ru'],
+      arabic ? module['title_ru'] : module['title_ar'],
+      module['title'], module['name'],
+    ].whereType<String>().map((value) => value.trim())
+        .where((value) => value.isNotEmpty &&
+            !RegExp(r'^u[0-9]+$').hasMatch(value));
+    final heading = arabic
+        ? (number == null ? 'الوحدة' : 'الوحدة $number')
+        : (number == null ? 'Учебный раздел' : 'Раздел $number');
+    return candidates.isEmpty ? heading : '$heading · ${candidates.first}';
+  }
+
   Future<void> _exam(BuildContext context) async {
     final modules = state.catalog['modules'];
     if (modules is! List || modules.isEmpty) {
@@ -64,7 +81,7 @@ class PracticeCenterScreen extends StatelessWidget {
               MediaQuery.sizeOf(sheet).height * .75),
           child: ListView(
             shrinkWrap: true,
-            padding: const EdgeInsets.fromLTRB(16, 0, 16, 20),
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 28),
             children: [
               Text('Контрольная по разделу',
                   style: Theme.of(sheet).textTheme.titleLarge),
@@ -79,8 +96,8 @@ class PracticeCenterScreen extends StatelessWidget {
               for (final item in modules)
                 if (item is Map && item['id'] is String)
                   ListTile(
-                    title: Text(item['title']?.toString() ??
-                        item['name']?.toString() ?? item['id'] as String),
+                    title: Text(moduleDisplayTitle(item,
+                      arabic: Localizations.localeOf(sheet).languageCode == 'ar')),
                     trailing: const Icon(Icons.chevron_right),
                     onTap: () => Navigator.pop(sheet, item['id'] as String),
                   ),
@@ -645,9 +662,11 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: Text(widget.mode == PracticeMode.exam
         ? 'Контрольная работа' : 'Тренировка · ${_modeTitle(widget.mode)}')),
-    body: SafeArea(
+    backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+    body: SafeArea(bottom: false,
       child: ListView(
-        padding: const EdgeInsets.fromLTRB(18, 14, 18, 35),
+        key: const PageStorageKey<String>('practice-session-scroll'),
+        padding: const EdgeInsets.fromLTRB(18, 14, 18, 175),
         children: [
           if (_finished)
             _result()

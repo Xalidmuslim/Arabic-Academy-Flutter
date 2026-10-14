@@ -409,7 +409,7 @@ class _VocabularyPracticeScreenState extends State<VocabularyPracticeScreen> {
       appBar: AppBar(title: const Text('Повторение слов')),
       body: SafeArea(
         child: ListView(
-          padding: const EdgeInsets.fromLTRB(18, 12, 18, 36),
+          padding: const EdgeInsets.fromLTRB(18, 12, 18, 175),
           children: [
             if (done)
               _summary(context)
