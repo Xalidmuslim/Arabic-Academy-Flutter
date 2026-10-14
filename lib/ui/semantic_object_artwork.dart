@@ -20,7 +20,6 @@ class _ObjectPainter extends CustomPainter {
   const _ObjectPainter(this.concept);
   final String concept;
   static const olive = Color(0xFF82927D);
-  static const pale = Color(0xFFD7DCC3);
   static const terra = Color(0xFFC18A6F);
   static const wood = Color(0xFFB08C6B);
   static const ivory = Color(0xFFFFF9EA);
@@ -64,7 +63,9 @@ class _ObjectPainter extends CustomPainter {
     }else if(shop){
       poly(c,[const Offset(23,45),const Offset(39,25),
           const Offset(122,25),const Offset(138,45)],olive);
-      for(var i=0;i<4;i++) box(c,31+i*24.0,48,18,13,ivory,2);
+      for(var i=0;i<4;i++) {
+        box(c,31+i*24.0,48,18,13,ivory,2);
+      }
     }else if(hospital){
       box(c,61,24,38,35,ivory,5);
       box(c,75,29,10,25,terra,1);
@@ -201,8 +202,9 @@ class _ObjectPainter extends CustomPainter {
       case 'bread':
         box(canvas,30,80,99,48,wood,17);
         oval(canvas,30,55,99,62,terra);
-        for(var i=0;i<3;i++)line(canvas,55+i*26.0,74,
-          63+i*26.0,90,ivory,4);
+        for(var i=0;i<3;i++) {
+          line(canvas,55+i*26.0,74,63+i*26.0,90,ivory,4);
+        }
       case 'chair':
         box(canvas,38,22,72,75,olive,9);
         box(canvas,39,92,89,15,wood,4);
