@@ -131,11 +131,16 @@ class DemoSchoolStore extends ChangeNotifier {
 
   /// A human-entered rubric, not an automatically verified pronunciation
   /// grade. These are strictly local, per-pupil demo observations.
+  static const pronunciationCriteria = <String>[
+    'consonants', 'vowels', 'endings', 'fluency',
+  ];
+
   Future<void> addSkillAssessment({
     required String studentId,
     required String skill,
     required int score,
     required String note,
+    Map<String, int> criteria = const {},
   }) => _change((data) {
     if (student(studentId) == null) {
       throw StateError('Ученица не найдена.');
@@ -146,12 +151,21 @@ class DemoSchoolStore extends ChangeNotifier {
     if (note.trim().isEmpty || note.trim().length > 1000) {
       throw const FormatException('Укажите короткое наблюдение учительницы.');
     }
+    if (criteria.isNotEmpty && skill != 'pronunciation') {
+      throw const FormatException('Детальная шкала доступна для произношения.');
+    }
+    if (criteria.entries.any((entry) =>
+        !pronunciationCriteria.contains(entry.key) ||
+        entry.value < 0 || entry.value > 100)) {
+      throw const FormatException('Параметры произношения: 0–100.');
+    }
     (data['skill_assessments'] as List).add({
       'id': AcademyState.newId(),
       'student_id': studentId,
       'skill': skill,
       'score': score,
       'note': note.trim(),
+      'criteria': criteria,
       'source': 'teacher_manual',
       'at': DateTime.now().toUtc().toIso8601String(),
     });
