@@ -25,7 +25,7 @@ class SettingsScreen extends StatelessWidget {
     body: AnimatedBuilder(
       animation: state,
       builder: (context, _) => ListView(
-        padding: const EdgeInsets.fromLTRB(16, 4, 16, 22),
+        padding: const EdgeInsets.fromLTRB(16, 4, 16, 142),
         children: [
           Panel(
             padding: EdgeInsets.zero,
