@@ -190,12 +190,6 @@ class _TeacherWordCardStudioScreenState
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: const Text('Карточки слов')),
-    floatingActionButton: FloatingActionButton.extended(
-      key: const ValueKey('word-card-add'),
-      onPressed: _saving ? null : () => _edit(),
-      label: const Text('Добавить'),
-      icon: const Icon(Icons.add_photo_alternate_outlined),
-    ),
     body: AnimatedBuilder(
       animation: widget.state,
       builder: (context, _) {
@@ -215,7 +209,14 @@ class _TeacherWordCardStudioScreenState
                   'Карточки сразу доступны ученице в иллюстрированном словаре '
                   'и системе запоминания.',
                   style: TextStyle(fontSize: 12, color: DesignTokens.secondary)),
-                const SizedBox(height: 9),
+                const SizedBox(height: 10),
+                FilledButton.icon(
+                  key: const ValueKey('word-card-add'),
+                  onPressed: _saving ? null : () => _edit(),
+                  icon: const Icon(Icons.add_photo_alternate_outlined),
+                  label: const Text('Добавить карточку'),
+                ),
+                const SizedBox(height: 7),
                 if (cards.isNotEmpty)
                   FilledButton.tonalIcon(
                     onPressed: () => Navigator.push(context, MaterialPageRoute(
@@ -241,7 +242,7 @@ class _TeacherWordCardStudioScreenState
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: single ? 1 : 2,
                 crossAxisSpacing: 12, mainAxisSpacing: 12,
-                childAspectRatio: single ? 1.7 : .86,
+                childAspectRatio: single ? 1.55 : .64,
               ),
               itemBuilder: (context, index) {
                 final card = cards[index];
@@ -253,7 +254,7 @@ class _TeacherWordCardStudioScreenState
                       Expanded(child: SemanticWordIllustration(
                         arabic: card['ar']?.toString() ?? '',
                         imagePath: card['image_path'] as String?,
-                        size: single ? 105 : 116,
+                        size: single ? 90 : 80,
                       )),
                       NaskhText(card['ar']?.toString() ?? '',
                         size: 25, align: TextAlign.center),
@@ -264,6 +265,8 @@ class _TeacherWordCardStudioScreenState
                         child: IconButton(
                           tooltip: 'Удалить карточку',
                           icon: const Icon(Icons.delete_outline),
+                          iconSize: 20,
+                          visualDensity: VisualDensity.compact,
                           onPressed: () => _delete(card),
                         )),
                     ],
