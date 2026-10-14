@@ -40,6 +40,14 @@ class _RemoteSchoolScreenState extends State<RemoteSchoolScreen> {
     api = widget.api ?? RemoteSchoolApi(widget.backend);
   }
 
+  @override
+  void didUpdateWidget(covariant RemoteSchoolScreen oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.initialArea != widget.initialArea) {
+      area = widget.initialArea;
+    }
+  }
+
   Widget _body(ServerRole role) => Column(
     children: [
       if (!widget.compactEmbedded) Padding(
