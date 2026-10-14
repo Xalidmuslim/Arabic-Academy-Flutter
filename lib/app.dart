@@ -23,6 +23,10 @@ class _AcademyAppState extends State<AcademyApp> {
   late final PurchaseService _purchases = PurchaseService(_backend);
   final _navigatorKey = GlobalKey<NavigatorState>();
   final _selectedTab = ValueNotifier<int>(0);
+  final _showFloatingNav = ValueNotifier<bool>(true);
+  late final _routeObserver = _FloatingNavRouteObserver((visible) {
+    if (_showFloatingNav.value != visible) _showFloatingNav.value = visible;
+  });
   late bool _welcomeSeen;
 
   void _selectTab(int index) {
@@ -60,6 +64,7 @@ class _AcademyAppState extends State<AcademyApp> {
     _backend.removeListener(_connectStore);
     _purchases.dispose();
     _selectedTab.dispose();
+    _showFloatingNav.dispose();
     if (widget.backend == null) {
       _backend.dispose();
     }
@@ -73,6 +78,7 @@ class _AcademyAppState extends State<AcademyApp> {
       title: 'Байна Ядайк',
       debugShowCheckedModeBanner: false,
       navigatorKey: _navigatorKey,
+      navigatorObservers: [_routeObserver],
       theme: DesignTokens.theme(),
       locale: Locale(widget.state.settings['language'] as String? ?? 'ru'),
       supportedLocales: const [Locale('ru'), Locale('ar')],
@@ -102,18 +108,23 @@ class _AcademyAppState extends State<AcademyApp> {
                     fit: StackFit.expand,
                     children: [
                       child!,
-                      Positioned(
-                        left: 0,
-                        right: 0,
-                        bottom: 0,
-                        child: ValueListenableBuilder<int>(
-                          valueListenable: _selectedTab,
-                          builder: (context, selected, _) =>
-                              FloatingStudyNavigation(
-                                selectedIndex: selected,
-                                onSelected: _selectTab,
-                              ),
-                        ),
+                      ValueListenableBuilder<bool>(
+                        valueListenable: _showFloatingNav,
+                        builder: (context, visible, _) => visible
+                            ? Positioned(
+                                left: 0,
+                                right: 0,
+                                bottom: 0,
+                                child: ValueListenableBuilder<int>(
+                                  valueListenable: _selectedTab,
+                                  builder: (context, selected, _) =>
+                                      FloatingStudyNavigation(
+                                        selectedIndex: selected,
+                                        onSelected: _selectTab,
+                                      ),
+                                ),
+                              )
+                            : const SizedBox.shrink(),
                       ),
                     ],
                   )
@@ -151,6 +162,40 @@ class _AcademyAppState extends State<AcademyApp> {
             ),
     ),
   );
+}
+
+/// Root tabs own the floating pill. Pushed pages and modal routes must be
+/// above the content, not underneath a globally drawn navigation overlay.
+class _FloatingNavRouteObserver extends NavigatorObserver {
+  _FloatingNavRouteObserver(this.onVisibilityChanged);
+  final ValueChanged<bool> onVisibilityChanged;
+
+  void _update(Route<dynamic>? top) =>
+      onVisibilityChanged(top == null || top.isFirst);
+
+  @override
+  void didPush(Route<dynamic> route, Route<dynamic>? previousRoute) {
+    super.didPush(route, previousRoute);
+    _update(route);
+  }
+
+  @override
+  void didPop(Route<dynamic> route, Route<dynamic>? previousRoute) {
+    super.didPop(route, previousRoute);
+    _update(previousRoute);
+  }
+
+  @override
+  void didRemove(Route<dynamic> route, Route<dynamic>? previousRoute) {
+    super.didRemove(route, previousRoute);
+    _update(previousRoute);
+  }
+
+  @override
+  void didReplace({Route<dynamic>? newRoute, Route<dynamic>? oldRoute}) {
+    super.didReplace(newRoute: newRoute, oldRoute: oldRoute);
+    _update(newRoute);
+  }
 }
 
 class _CombinedTextScaler extends TextScaler {
