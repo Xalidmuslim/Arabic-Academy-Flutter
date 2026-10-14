@@ -93,6 +93,30 @@ class AudioPracticeService {
     );
   });
 
+  /// Keep a locally recorded homework message in app-private documents.
+  /// The caller explicitly requests this; temporary rehearsal audio remains
+  /// short-lived and gets removed when leaving the recorder.
+  Future<String> preserveForHomework() async {
+    final path = _path;
+    if (_disposed || _recording || path == null) {
+      throw const IntegrationException('Сначала остановите запись.');
+    }
+    final source = File(path);
+    if (!await source.exists() ||
+        await source.length() > 10 * 1024 * 1024) {
+      throw const IntegrationException(
+        'Запись отсутствует или превышает 10 МБ.',
+      );
+    }
+    final root = await getApplicationDocumentsDirectory();
+    final folder = Directory('${root.path}/bayna_voice_homework');
+    if (!await folder.exists()) await folder.create(recursive: true);
+    final saved = File('${folder.path}/voice_'
+        '${DateTime.now().microsecondsSinceEpoch}.m4a');
+    await source.copy(saved.path);
+    return saved.path;
+  }
+
   Future<Uint8List> readForTranscription({required bool consent}) async {
     IntegrationValidation.consent(consent);
     if (!hasRecording) {
