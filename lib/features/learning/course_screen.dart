@@ -4,6 +4,7 @@ import '../../core/arabic.dart';
 import '../../core/app_strings.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
+import '../../ui/course_unit_art.dart';
 import '../../ui/design_tokens.dart';
 import '../integrations/purchases_screen.dart';
 import 'lesson_screen.dart';
@@ -228,16 +229,6 @@ class _UnitScreenState extends State<UnitScreen> {
                         .length;
                     final free = unit['access_default'] == 'free';
                     final isOpen = free || AcademyState.temporaryLocalLessonAccess;
-                    const illustrations = [
-                      'lessons',
-                      'teacher',
-                      'grammar',
-                      'progress',
-                      'oral',
-                      'live',
-                      'exercises',
-                      'vocabulary',
-                    ];
                     return Padding(
                       padding: const EdgeInsets.only(top: 12),
                       child: Panel(
@@ -271,13 +262,7 @@ class _UnitScreenState extends State<UnitScreen> {
                             padding: const EdgeInsets.all(12),
                             child: Row(
                               children: [
-                                Image.asset(
-                                  'assets/artwork/${illustrations[i % illustrations.length]}.webp',
-                                  width: 78,
-                                  height: 82,
-                                  cacheWidth: 240,
-                                  excludeFromSemantics: true,
-                                ),
+                                CourseUnitArt(unitId: unit['id'] as String),
                                 const SizedBox(width: 12),
                                 Expanded(
                                   child: Column(
