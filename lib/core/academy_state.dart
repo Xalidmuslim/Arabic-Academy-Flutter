@@ -1,3 +1,4 @@
+import 'adaptive_review.dart';
 import 'dart:convert';
 import 'dart:math';
 
@@ -543,18 +544,8 @@ class AcademyState extends ChangeNotifier {
       _change((doc) {
         final time = now ?? DateTime.now();
         final old = (doc['reviews'] as Map)[id] as Map? ?? {};
-        final stage = remembered ? min((old['stage'] as int? ?? 0) + 1, 5) : 0;
-        const intervals = [0, 1, 3, 7, 14, 30];
-        (doc['reviews'] as Map)[id] = {
-          'stage': stage,
-          'difficult': !remembered,
-          'last_review': time.toUtc().toIso8601String(),
-          'due_at': time
-              .add(Duration(days: intervals[stage]))
-              .toUtc()
-              .toIso8601String(),
-          'reviews': (old['reviews'] as int? ?? 0) + 1,
-        };
+        (doc['reviews'] as Map)[id] =
+            AdaptiveReview.update(old, remembered, time);
         _event(doc, 'word_review', {
           'word_id': id,
           'remembered': remembered,
