@@ -96,25 +96,26 @@ class _AcademyAppState extends State<AcademyApp> {
               textScaler: _CombinedTextScaler(media.textScaler, size),
             ),
             child: _welcomeSeen
-                ? Scaffold(
-                    // Reserve real scroll viewport ABOVE the floating bar.
-                    // The navigation widget itself is transparent in its margins.
-                    extendBody: true,
-                    backgroundColor: DesignTokens.ivory,
-                    // A single viewport reservation applies to every
-                    // pushed route (including PDF/Settings), so the overlay
-                    // can never cover buttons even on short screens.
-                    body: Padding(
-                      padding: EdgeInsets.only(bottom: 102 + media.padding.bottom),
-                      child: child!,
-                    ),
-                    bottomNavigationBar: ValueListenableBuilder<int>(
-                      valueListenable: _selectedTab,
-                      builder: (context, selected, _) => FloatingStudyNavigation(
-                        selectedIndex: selected,
-                        onSelected: _selectTab,
+                ? Stack(
+                    // Let pages paint behind the pill: the outside of the
+                    // floating navigation is genuinely transparent.
+                    fit: StackFit.expand,
+                    children: [
+                      child!,
+                      Positioned(
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        child: ValueListenableBuilder<int>(
+                          valueListenable: _selectedTab,
+                          builder: (context, selected, _) =>
+                              FloatingStudyNavigation(
+                                selectedIndex: selected,
+                                onSelected: _selectTab,
+                              ),
+                        ),
                       ),
-                    ),
+                    ],
                   )
                 : child!,
           ),
