@@ -26,6 +26,7 @@ import 'progress_screen.dart';
 import 'settings_screen.dart';
 import 'online_homework_screen.dart';
 import 'vocabulary_practice_screen.dart';
+import 'practice_center_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -259,7 +260,7 @@ class _HomeScreenState extends State<HomeScreen> {
     canPop: false,
     onPopInvokedWithResult: _handleRootBack,
     child: Scaffold(
-    appBar: _tab == 1 || _tab == 2
+    appBar: _tab == 1
         ? null
         : AppBar(
             centerTitle: false,
@@ -268,6 +269,13 @@ class _HomeScreenState extends State<HomeScreen> {
               style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800),
             ),
             actions: [
+              if (_tab == 2)
+                IconButton(
+                  tooltip: 'Поиск по библиотеке',
+                  icon: const Icon(Icons.search_outlined),
+                  onPressed: () => _open(SearchScreen(
+                      state: state, onOpenLesson: _lesson)),
+                ),
               IconButton(
                 tooltip: tr(context, 'Уведомления'),
                 icon: const Icon(Icons.notifications_none),
@@ -350,8 +358,8 @@ class _HomeScreenState extends State<HomeScreen> {
           label: tr(context, 'Уроки'),
         ),
         NavigationDestination(
-          icon: const ArtworkIcon('search', size: 29),
-          label: tr(context, 'Поиск'),
+          icon: const Icon(Icons.psychology_alt_outlined),
+          label: tr(context, 'Практика'),
         ),
         NavigationDestination(
           icon: const ArtworkIcon('profile', size: 29),
@@ -364,7 +372,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _page() => switch (_tab) {
     1 => UnitScreen(state: state, backend: _backend),
-    2 => SearchScreen(state: state, onOpenLesson: _lesson),
+    2 => PracticeCenterScreen(state: state),
     3 => _profile(),
     _ => _dashboard(),
   };
@@ -657,6 +665,11 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       const SizedBox(height: 16),
       for (final row in <(String, IconData, Widget)>[
+        ('Мой прогресс', Icons.insights_outlined,
+            LearnerProgressScreen(state: state)),
+        ('Практика', Icons.psychology_alt_outlined,
+            Scaffold(appBar: AppBar(title: const Text('Практика')),
+              body: PracticeCenterScreen(state: state))),
         ('Аккаунт', Icons.person_outline, PhoneAuthScreen(backend: _backend)),
         (
           'Настройки',
