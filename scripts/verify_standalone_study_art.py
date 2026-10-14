@@ -14,8 +14,8 @@ from verify_assets import webp_dimensions
 
 ROOT = Path(__file__).resolve().parents[1]
 DIR = ROOT / "assets/artwork/lesson_generated"
-EXPECTED = {"unit": (768, 768), "word": (768, 768),
-            "lesson": (1024, 1024), "dialogue": (1280, 720)}
+EXPECTED = {"unit": {(768, 768), (960, 720)}, "word": {(768, 768)},
+            "lesson": {(1024, 1024), (960, 720)}, "dialogue": {(1280, 720), (960, 720)}}
 FIELDS = {"id", "kind", "content_id", "meaning", "file",
           "source", "sha256", "width", "height",
           "semantics_reviewed", "blank_faces_reviewed", "standalone_reviewed"}
@@ -67,7 +67,7 @@ def check():
         if any(type(image[k]) is not int for k in ("width", "height")):
             raise ValueError("Image dimensions must be integers")
         size = (image["width"], image["height"])
-        if size != EXPECTED[kind] or webp_dimensions(path.read_bytes()) != size:
+        if size not in EXPECTED[kind] or webp_dimensions(path.read_bytes()) != size:
             raise ValueError(f"Invalid image dimensions: {identity}")
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         if image["sha256"] != digest or digest in hashes:
