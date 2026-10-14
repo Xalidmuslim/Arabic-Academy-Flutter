@@ -31,9 +31,9 @@ class FloatingStudyNavigation extends StatelessWidget {
     ];
     return SafeArea(
       top: false,
-      minimum: const EdgeInsets.only(bottom: 9),
+      minimum: const EdgeInsets.only(bottom: 12),
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(24, 8, 24, 10),
+        padding: const EdgeInsets.fromLTRB(22, 8, 22, 6),
         child: Center(
           heightFactor: 1,
           child: ConstrainedBox(
@@ -41,11 +41,12 @@ class FloatingStudyNavigation extends StatelessWidget {
             child: DecoratedBox(
           key: const ValueKey('floating-study-navigation'),
           decoration: BoxDecoration(
-            color: const Color(0xFFF1E6D8),
-            borderRadius: BorderRadius.circular(27),
+            color: DesignTokens.navSurface,
+            borderRadius: BorderRadius.circular(29),
+            border: Border.all(color: DesignTokens.cardHighlight, width: 0.8),
             boxShadow: const [
-              BoxShadow(color: Color(0x3B534133), offset: Offset(0, 5), blurRadius: 11, spreadRadius: -3),
-              BoxShadow(color: Color(0x16534133), offset: Offset(0, 12), blurRadius: 23, spreadRadius: -7),
+              BoxShadow(color: Color(0x28534133), offset: Offset(0, 6), blurRadius: 15, spreadRadius: -3),
+              BoxShadow(color: Color(0x19534133), offset: Offset(0, 15), blurRadius: 28, spreadRadius: -8),
             ],
           ),
           child: Padding(
