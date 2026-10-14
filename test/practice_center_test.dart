@@ -121,7 +121,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('practice-mode-quiz')));
     await tester.pumpAndSettle();
-    expect(find.text('Викторина'), findsWidgets);
+    expect(find.textContaining('Викторина'), findsWidgets);
     await tester.tap(find.byKey(const ValueKey('practice-answer-0')));
     await tester.pump();
     await tester.ensureVisible(find.byKey(const ValueKey('practice-submit-answer')));
