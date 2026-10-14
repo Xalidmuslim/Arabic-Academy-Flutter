@@ -56,7 +56,7 @@ class _LessonScreenState extends State<LessonScreen>
     _ => true,
   };
   int _skipEmptySections(int stage) {
-    var next = stage.clamp(0, 5);
+    var next = stage < 0 ? 0 : stage > 5 ? 5 : stage;
     while (next >= 1 && next <= 3 && !_hasMaterial(next)) {
       next++;
     }
