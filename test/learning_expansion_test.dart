@@ -156,9 +156,11 @@ void main() {
     final canvas=find.byKey(const ValueKey('handwriting-canvas'));
     await tester.drag(canvas, const Offset(110, 0));
     await tester.pump();
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('handwriting-save')), 160,
-      scrollable: find.byType(Scrollable).first);
+    // Scroll from the outside gutter: strokes inside the ink canvas
+    // intentionally capture all drags and no longer move the page.
+    await tester.dragFrom(
+      const Offset(8, 480), const Offset(0, -290));
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('handwriting-save')));
     await tester.pumpAndSettle();
     expect(state.attempts.last['status'],'needsReview');
