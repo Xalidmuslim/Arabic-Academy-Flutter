@@ -100,9 +100,15 @@ class SettingsScreen extends StatelessWidget {
               style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
             ),
             children: [
+            Text(tr(context, 'Русский шрифт'),
+              style: Theme.of(context).textTheme.labelLarge),
+            const SizedBox(height: 7),
             DropdownButtonFormField<String>(
               key: ValueKey('russian-font-${state.settings['russianFont']}'),
-              decoration: InputDecoration(labelText: tr(context, 'Русский шрифт')),
+              isExpanded: true,
+              decoration: const InputDecoration(
+                isDense: true, contentPadding: EdgeInsets.symmetric(
+                  horizontal: 16, vertical: 12)),
               initialValue: state.settings['russianFont'] as String? ?? 'Manrope',
               items: [
                 const DropdownMenuItem(value: 'Manrope', child: Text('Manrope')),
@@ -113,9 +119,15 @@ class SettingsScreen extends StatelessWidget {
                 () => state.setSetting('russianFont', font ?? 'Manrope')),
             ),
             const SizedBox(height: 8),
+            Text(tr(context, 'Арабский шрифт'),
+              style: Theme.of(context).textTheme.labelLarge),
+            const SizedBox(height: 7),
             DropdownButtonFormField<String>(
               key: ValueKey('arabic-font-${state.settings['arabicFont']}'),
-              decoration: InputDecoration(labelText: tr(context, 'Арабский шрифт')),
+              isExpanded: true,
+              decoration: const InputDecoration(
+                isDense: true, contentPadding: EdgeInsets.symmetric(
+                  horizontal: 16, vertical: 12)),
               initialValue: state.settings['arabicFont'] as String? ?? 'NotoNaskhArabic',
               items: const [
                 DropdownMenuItem(value: 'NotoNaskhArabic',
@@ -126,6 +138,7 @@ class SettingsScreen extends StatelessWidget {
               onChanged: (font) => guardedAction(context,
                 () => state.setSetting('arabicFont', font ?? 'NotoNaskhArabic')),
             ),
+            const SizedBox(height: 12),
             const SizedBox(height: 8),
             _compactSlider(context, tr(context, 'Размер русского текста'),
                 'russianScale', 0.85, 1.6, 1, '×'),
