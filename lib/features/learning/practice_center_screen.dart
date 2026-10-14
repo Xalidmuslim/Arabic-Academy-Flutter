@@ -1,0 +1,600 @@
+import 'package:flutter/material.dart';
+
+import '../../core/academy_state.dart';
+import '../../core/practice_generator.dart';
+import '../../core/speech.dart';
+import '../../core/study_analytics.dart';
+import '../../core/vocabulary_practice.dart';
+import '../../ui/components.dart';
+import '../../ui/design_tokens.dart';
+import '../integrations/oral_practice_screen.dart';
+import 'vocabulary_practice_screen.dart';
+
+/// A single practice hub: no extra main navigation tabs or decorative noise.
+class PracticeCenterScreen extends StatelessWidget {
+  const PracticeCenterScreen({super.key, required this.state});
+  final AcademyState state;
+
+  static const _modes = <(PracticeMode, String, String, IconData)>[
+    (PracticeMode.quiz, 'Викторина', 'Выберите точный перевод', Icons.quiz_outlined),
+    (PracticeMode.illustrations, 'Слово и рисунок',
+        'Предметы с проверенными иллюстрациями', Icons.image_outlined),
+    (PracticeMode.sentence, 'Собери фразу',
+        'Восстановите предложение', Icons.view_agenda_outlined),
+    (PracticeMode.missingWord, 'Пропущенное слово',
+        'Вспомните слово в контексте', Icons.edit_note_outlined),
+    (PracticeMode.dictation, 'Аудиодиктант',
+        'Слушайте и пишите по-арабски', Icons.headphones_outlined),
+    (PracticeMode.dialogue, 'Диалог по ролям',
+        'Выберите следующую реплику', Icons.forum_outlined),
+    (PracticeMode.exam, 'Контрольная работа',
+        'Проверка после раздела', Icons.assignment_turned_in_outlined),
+    (PracticeMode.mistakes, 'Работа над ошибками',
+        'Повторите трудные упражнения', Icons.replay_outlined),
+  ];
+
+  void _open(BuildContext context, PracticeMode mode, {String? moduleId}) {
+    Navigator.push(context, MaterialPageRoute<void>(
+      builder: (_) => PracticeSessionScreen(
+        state: state, mode: mode, moduleId: moduleId,
+      ),
+    ));
+  }
+
+  Future<void> _exam(BuildContext context) async {
+    final modules = state.catalog['modules'];
+    if (modules is! List || modules.isEmpty) {
+      _open(context, PracticeMode.exam);
+      return;
+    }
+    final selected = await showModalBottomSheet<String>(
+      context: context,
+      isScrollControlled: true,
+      showDragHandle: true,
+      backgroundColor: DesignTokens.cardSurface,
+      builder: (sheet) => SafeArea(
+        child: ConstrainedBox(
+          constraints: BoxConstraints(maxHeight:
+              MediaQuery.sizeOf(sheet).height * .75),
+          child: ListView(
+            shrinkWrap: true,
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 20),
+            children: [
+              Text('Контрольная по разделу',
+                  style: Theme.of(sheet).textTheme.titleLarge),
+              const SizedBox(height: 7),
+              const Text('Задания только из изучаемого раздела. '
+                  'Вопросы выбираются из сохранённых учебных материалов.',
+                  style: TextStyle(color: DesignTokens.secondary)),
+              ListTile(
+                title: const Text('Общая контрольная'),
+                onTap: () => Navigator.pop(sheet, 'all'),
+              ),
+              for (final item in modules)
+                if (item is Map && item['id'] is String)
+                  ListTile(
+                    title: Text(item['title']?.toString() ??
+                        item['name']?.toString() ?? item['id'] as String),
+                    trailing: const Icon(Icons.chevron_right),
+                    onTap: () => Navigator.pop(sheet, item['id'] as String),
+                  ),
+            ],
+          ),
+        ),
+      ),
+    );
+    if (!context.mounted || selected == null) return;
+    _open(context, PracticeMode.exam,
+      moduleId: selected == 'all' ? null : selected);
+  }
+
+  @override
+  Widget build(BuildContext context) => AnimatedBuilder(
+    animation: state,
+    builder: (context, _) {
+      final plan = VocabularyPractice.plan(state);
+      final analytics = StudyAnalytics(state);
+      final now = DateTime.now().toLocal();
+      final today = StudyAnalytics.dayKey(now);
+      final reviewedToday = state.reviews.values.where((value) {
+        if (value is! Map) return false;
+        final d = DateTime.tryParse(value['last_review']?.toString() ?? '');
+        return d != null && StudyAnalytics.dayKey(d.toLocal()) == today;
+      }).length;
+      final answeredToday = state.attempts.where((row) {
+        final d = DateTime.tryParse(row['created_at']?.toString() ?? '');
+        return d != null && StudyAnalytics.dayKey(d.toLocal()) == today &&
+            (row['exercise_id']?.toString().startsWith('practice:') ?? false);
+      }).length;
+      return ListView(
+        padding: const EdgeInsets.fromLTRB(18, 18, 18, 150),
+        children: [
+          Text('Практика', style: Theme.of(context).textTheme.headlineSmall),
+          const SizedBox(height: 5),
+          const Text('Сначала вспомните материал, затем проверьте себя.',
+            style: TextStyle(color: DesignTokens.secondary)),
+          const SizedBox(height: 15),
+          Panel(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Row(children: [
+                const Icon(Icons.psychology_alt_outlined,
+                  color: DesignTokens.deepOlive, size: 35),
+                const SizedBox(width: 12),
+                Expanded(child: Text('Ежедневный план',
+                  style: Theme.of(context).textTheme.titleLarge)),
+              ]),
+              const SizedBox(height: 10),
+              Text('Повторено сегодня: $reviewedToday · '
+                  'Заданий выполнено: $answeredToday'),
+              Text('К повторению: ${plan.due} · '
+                  'Новых слов: ${plan.newWords}'),
+              const SizedBox(height: 12),
+              FilledButton.icon(
+                key: const ValueKey('practice-daily'),
+                onPressed: () => Navigator.push(context,
+                  MaterialPageRoute<void>(
+                    builder: (_) => VocabularyPracticeScreen(state: state),
+                  )),
+                icon: const Icon(Icons.play_arrow_rounded),
+                label: const Text('Начать повторение'),
+              ),
+              const SizedBox(height: 10),
+              Text('Изучено слов: ${analytics.learnedWords} · '
+                  'Трудных: ${analytics.difficultWords}',
+                style: const TextStyle(
+                  fontSize: 12, color: DesignTokens.secondary)),
+            ],
+          )),
+          const SectionTitle('Потренировать навыки'),
+          for (final entry in _modes)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 10),
+              child: Panel(
+                padding: EdgeInsets.zero,
+                child: ListTile(
+                  key: ValueKey('practice-mode-${entry.$1.name}'),
+                  contentPadding: const EdgeInsets.fromLTRB(15, 10, 14, 10),
+                  leading: CircleAvatar(
+                    radius: 24, backgroundColor: const Color(0xFFE8EBDD),
+                    child: Icon(entry.$4, color: DesignTokens.deepOlive),
+                  ),
+                  title: Text(entry.$2, style: const TextStyle(
+                    fontWeight: FontWeight.w800)),
+                  subtitle: Text(entry.$3,
+                    style: const TextStyle(fontSize: 12)),
+                  trailing: const Icon(Icons.chevron_right),
+                  onTap: () => entry.$1 == PracticeMode.exam
+                      ? _exam(context)
+                      : _open(context, entry.$1),
+                ),
+              ),
+            ),
+          const SectionTitle('Произношение'),
+          Panel(padding: EdgeInsets.zero,
+            child: ListTile(
+              leading: const Icon(Icons.mic_none_outlined,
+                color: DesignTokens.deepOlive, size: 30),
+              title: const Text('Записать свою речь'),
+              subtitle: const Text('Сравнение на слух; без автоматической оценки'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => Navigator.push(context,
+                MaterialPageRoute<void>(
+                  builder: (_) => const OralPracticeScreen(),
+                )),
+            )),
+        ],
+      );
+    },
+  );
+}
+
+class PracticeSessionScreen extends StatefulWidget {
+  const PracticeSessionScreen({
+    super.key, required this.state, required this.mode, this.moduleId,
+  });
+  final AcademyState state;
+  final PracticeMode mode;
+  final String? moduleId;
+
+  @override
+  State<PracticeSessionScreen> createState() => _PracticeSessionScreenState();
+}
+
+class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
+  late final List<PracticeQuestion> _questions;
+  final _text = TextEditingController();
+  String? _selected;
+  final List<int> _ordered = [];
+  int _index = 0;
+  int _successes = 0;
+  int _incorrect = 0;
+  bool _busy = false;
+  bool _checked = false;
+  bool _wasCorrect = false;
+  bool _showHint = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _questions = PracticeGenerator.build(
+      widget.state, widget.mode, moduleId: widget.moduleId,
+      limit: widget.mode == PracticeMode.exam ? 12 : 10,
+    );
+  }
+
+  @override
+  void dispose() {
+    _text.dispose();
+    super.dispose();
+  }
+
+  bool get _finished => _index >= _questions.length;
+  PracticeQuestion get _current => _questions[_index];
+
+  Future<void> _speak(PracticeQuestion question) => guardedAction(context, () =>
+      ArabicSpeech.speak(question.answer,
+        speed: (widget.state.settings['audioSpeed'] as num? ?? 0.5)
+            .toDouble().clamp(0.2, 0.8),
+      ));
+
+  String get _answer {
+    final q = _current;
+    if (q.usesOrder) {
+      return _ordered.map((index) => q.tokens[index]).join(' ');
+    }
+    return q.usesChoices ? (_selected ?? '') : _text.text.trim();
+  }
+
+  bool get _canCheck {
+    if (_current.usesOrder) return _ordered.length == _current.tokens.length;
+    return _answer.trim().isNotEmpty;
+  }
+
+  Future<void> _submit({bool skip = false}) async {
+    if (_busy || _checked || (!skip && !_canCheck)) return;
+    final q = _current;
+    final response = skip ? '' : _answer;
+    final correct = !skip && (q.usesOrder
+        ? List.generate(q.tokens.length, (i) => i)
+            .asMap().entries.every((item) => _ordered[item.key] == item.value)
+        : q.usesChoices
+            ? response == q.answer
+            : PracticeGenerator.matchesArabic(response, q.answer));
+    setState(() => _busy = true);
+    try {
+      await widget.state.recordAttempt(
+        lessonId: q.lessonId,
+        exerciseId: q.id,
+        answer: response,
+        status: correct ? 'correct' : 'incorrect',
+        points: correct ? 1 : 0,
+      );
+      if (!mounted) return;
+      setState(() {
+        _checked = true;
+        _wasCorrect = correct;
+        if (correct) {
+          _successes++;
+        } else {
+          _incorrect++;
+        }
+      });
+    } catch (error) {
+      if (mounted) notice(context, 'Не удалось сохранить ответ: $error');
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  void _next() {
+    if (!_checked) return;
+    setState(() {
+      _index++;
+      _selected = null;
+      _ordered.clear();
+      _text.clear();
+      _showHint = false;
+      _checked = false;
+      _wasCorrect = false;
+    });
+  }
+
+  Widget _arabic(String value, {double size = 25}) => NaskhText(
+    value, size: size, height: 1.7,
+    align: TextAlign.center, color: DesignTokens.emerald,
+  );
+
+  Widget _illustration(String arabic) {
+    const icons = <String, IconData>{
+      'book': Icons.menu_book_outlined, 'pen': Icons.edit_outlined,
+      'door': Icons.door_front_door_outlined, 'house': Icons.home_outlined,
+      'school': Icons.school_outlined, 'bag': Icons.backpack_outlined,
+      'car': Icons.directions_car_outlined, 'tree': Icons.park_outlined,
+      'mosque': Icons.account_balance_outlined, 'market': Icons.storefront_outlined,
+      'clock': Icons.watch_later_outlined, 'water': Icons.water_drop_outlined,
+      'bread': Icons.bakery_dining_outlined, 'apple': Icons.apple_outlined,
+      'sun': Icons.wb_sunny_outlined, 'moon': Icons.nightlight_round,
+      'plane': Icons.flight_outlined, 'cat': Icons.pets_outlined,
+      'chair': Icons.chair_outlined, 'phone': Icons.phone_android_outlined,
+      'computer': Icons.laptop_outlined, 'key': Icons.key_outlined,
+      'window': Icons.window_outlined, 'flower': Icons.local_florist_outlined,
+      'fish': Icons.set_meal_outlined, 'food': Icons.restaurant_outlined,
+      'shirt': Icons.checkroom_outlined, 'cow': Icons.pets_outlined,
+      'horse': Icons.pets_outlined, 'doctor': Icons.medical_services_outlined,
+      'hospital': Icons.local_hospital_outlined, 'cup': Icons.local_cafe_outlined,
+      'kitchen': Icons.kitchen_outlined,
+    };
+    final concept = IllustratedTerm.concept(arabic);
+    return Center(
+      child: Container(
+        width: 160, height: 145,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(27),
+          gradient: const LinearGradient(
+            colors: [Color(0xFFFFFBF4), Color(0xFFE8E5D6)],
+            begin: Alignment.topLeft, end: Alignment.bottomRight,
+          ),
+          border: Border.all(color: Colors.white, width: 1.5),
+          boxShadow: const [
+            BoxShadow(color: Color(0x22564636), blurRadius: 18,
+                offset: Offset(0, 9)),
+          ],
+        ),
+        child: Icon(icons[concept] ?? Icons.help_outline,
+          size: 79, color: DesignTokens.deepOlive),
+      ),
+    );
+  }
+
+  Widget _questionContent(PracticeQuestion q) {
+    final enable = !_checked && !_busy;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(q.prompt, style: Theme.of(context).textTheme.titleMedium),
+        const SizedBox(height: 12),
+        Panel(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              if (q.mode == PracticeMode.illustrations)
+                _illustration(q.word)
+              else if (q.mode == PracticeMode.dictation) ...[
+                Center(child: IconButton.filledTonal(
+                  key: const ValueKey('session-play-audio'),
+                  tooltip: 'Прослушать оригинальную фразу',
+                  icon: const Icon(Icons.volume_up_outlined, size: 38),
+                  onPressed: () => _speak(q),
+                )),
+                const Text('Используется арабский голос устройства.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 12,
+                    color: DesignTokens.secondary)),
+                if (_showHint || _checked) _arabic(q.answer, size: 22),
+              ] else if (q.mode == PracticeMode.missingWord ||
+                  q.mode == PracticeMode.dialogue)
+                _arabic(q.reference)
+              else if (q.mode == PracticeMode.sentence)
+                Text(q.translation, textAlign: TextAlign.center,
+                  style: Theme.of(context).textTheme.bodyLarge)
+              else
+                _arabic(q.reference),
+              const SizedBox(height: 8),
+              Text(q.lessonTitle, textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: DesignTokens.secondary, fontSize: 12)),
+            ],
+          ),
+        ),
+        const SizedBox(height: 14),
+        if (q.usesOrder) ...[
+          const Text('Собранное предложение'),
+          const SizedBox(height: 7),
+          Container(
+            constraints: const BoxConstraints(minHeight: 60),
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: DesignTokens.cardSurface,
+              border: Border.all(color: DesignTokens.softOutline),
+              borderRadius: BorderRadius.circular(18),
+            ),
+            child: Wrap(spacing: 6, runSpacing: 6, children: [
+              for (final i in _ordered)
+                InputChip(
+                  label: Text(q.tokens[i], textDirection: TextDirection.rtl),
+                  onPressed: enable ? () =>
+                      setState(() => _ordered.remove(i)) : null,
+                ),
+            ]),
+          ),
+          const SizedBox(height: 12),
+          const Text('Нажмите на слова в исходном порядке'),
+          const SizedBox(height: 8),
+          Wrap(spacing: 7, runSpacing: 7, children: [
+            for (var i = q.tokens.length - 1; i >= 0; i--)
+              if (!_ordered.contains(i))
+                ActionChip(
+                  key: ValueKey('order-token-$i'),
+                  label: Text(q.tokens[i],
+                    textDirection: TextDirection.rtl),
+                  onPressed: enable ? () =>
+                      setState(() => _ordered.add(i)) : null,
+                ),
+          ]),
+          const SizedBox(height: 7),
+          TextButton(
+            onPressed: !enable ? null : () => setState(_ordered.clear),
+            child: const Text('Собрать заново'),
+          ),
+        ] else if (q.usesChoices) ...[
+          for (final option in q.options)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 9),
+              child: OutlinedButton(
+                key: ValueKey('practice-answer-${q.options.indexOf(option)}'),
+                style: OutlinedButton.styleFrom(
+                  backgroundColor: option == _selected
+                      ? const Color(0xFFE5EAD7) : DesignTokens.cardSurface,
+                  minimumSize: const Size.fromHeight(54),
+                ),
+                onPressed: enable ? () =>
+                    setState(() => _selected = option) : null,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 8),
+                  child: q.mode == PracticeMode.dialogue ||
+                          q.mode == PracticeMode.illustrations
+                      ? _arabic(option, size: 23)
+                      : Text(option, textAlign: TextAlign.center),
+                ),
+              ),
+            ),
+        ] else
+          TextField(
+            controller: _text,
+            enabled: enable,
+            key: const ValueKey('practice-written-answer'),
+            maxLines: q.mode == PracticeMode.dictation ? 3 : 2,
+            maxLength: 280,
+            textDirection: TextDirection.rtl,
+            onChanged: (_) => setState(() {}),
+            decoration: InputDecoration(
+              labelText: q.mode == PracticeMode.dictation
+                  ? 'Напишите услышанную фразу'
+                  : 'Введите пропущенное слово',
+              helperText: 'Огласовки необязательны. Буквы и хамза важны.',
+            ),
+          ),
+        if (q.mode == PracticeMode.dictation && !_checked)
+          TextButton(
+            onPressed: () => setState(() => _showHint = true),
+            child: const Text('Не слышно? Показать фразу для тренировки'),
+          ),
+        if (!_checked) ...[
+          const SizedBox(height: 8),
+          FilledButton.icon(
+            key: const ValueKey('practice-submit-answer'),
+            onPressed: !_canCheck || _busy ? null : _submit,
+            icon: const Icon(Icons.check_circle_outline),
+            label: Text(_busy ? 'Сохранение…' : 'Проверить ответ'),
+          ),
+          OutlinedButton(
+            onPressed: _busy ? null : () => _submit(skip: true),
+            child: const Text('Не знаю — показать ответ'),
+          ),
+        ] else ...[
+          const SizedBox(height: 10),
+          Panel(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Row(children: [
+                  Icon(_wasCorrect ? Icons.check_circle : Icons.refresh,
+                    color: DesignTokens.deepOlive),
+                  const SizedBox(width: 9),
+                  Expanded(child: Text(_wasCorrect
+                      ? 'Верно! Результат сохранён.'
+                      : 'Нужно повторить. Ошибка сохранена.',
+                    style: Theme.of(context).textTheme.titleMedium)),
+                ]),
+                const SizedBox(height: 12),
+                _arabic(q.mode == PracticeMode.illustrations
+                    ? q.word : q.answer),
+                if (q.translation.isNotEmpty)
+                  Text(q.translation, textAlign: TextAlign.center),
+                if (!_wasCorrect)
+                  const Text('Вы найдёте это задание в разделе ошибок.',
+                    style: TextStyle(
+                      fontSize: 12, color: DesignTokens.secondary)),
+              ],
+            ),
+          ),
+          const SizedBox(height: 10),
+          FilledButton(
+            onPressed: _next,
+            key: const ValueKey('practice-next-question'),
+            child: const Text('Далее'),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _result() => Column(
+    crossAxisAlignment: CrossAxisAlignment.stretch,
+    children: [
+      const SizedBox(height: 34),
+      const Icon(Icons.fact_check_outlined, size: 64,
+          color: DesignTokens.deepOlive),
+      const SizedBox(height: 14),
+      Text(_questions.isEmpty ? 'Материала пока недостаточно' :
+          'Проверка завершена', textAlign: TextAlign.center,
+          style: Theme.of(context).textTheme.headlineSmall),
+      const SizedBox(height: 12),
+      Text(_questions.isEmpty
+          ? 'В выбранном разделе пока нет проверенных заданий этого вида. '
+            'Попробуйте другой режим или раздел.'
+          : 'Всего: ${_questions.length} · Верно: $_successes · '
+            'Ошибок: $_incorrect\n'
+            'Результаты сохранены для журнала и анализа ошибок.',
+        textAlign: TextAlign.center),
+      const SizedBox(height: 18),
+      if (_questions.isNotEmpty && _incorrect > 0)
+        FilledButton.icon(
+          onPressed: () => Navigator.pushReplacement(context,
+            MaterialPageRoute<void>(builder: (_) => PracticeSessionScreen(
+              state: widget.state, mode: PracticeMode.mistakes,
+              moduleId: widget.moduleId,
+            ))),
+          icon: const Icon(Icons.refresh),
+          label: const Text('Повторить ошибки'),
+        ),
+      const SizedBox(height: 12),
+      OutlinedButton(onPressed: () => Navigator.pop(context),
+        child: const Text('В практику')),
+    ],
+  );
+
+  @override
+  Widget build(BuildContext context) => Scaffold(
+    appBar: AppBar(title: Text(widget.mode == PracticeMode.exam
+        ? 'Контрольная работа' : 'Тренировка · ${_modeTitle(widget.mode)}')),
+    body: SafeArea(
+      child: ListView(
+        padding: const EdgeInsets.fromLTRB(18, 14, 18, 35),
+        children: [
+          if (_finished)
+            _result()
+          else ...[
+            Row(children: [
+              Expanded(child: Text('Вопрос ${_index + 1} из ${_questions.length}',
+                style: const TextStyle(fontWeight: FontWeight.w700))),
+              Text('Верно: $_successes',
+                style: const TextStyle(color: DesignTokens.secondary)),
+            ]),
+            const SizedBox(height: 11),
+            LinearProgressIndicator(
+              value: _questions.isEmpty ? 0 : _index / _questions.length,
+              minHeight: 6, borderRadius: BorderRadius.circular(8),
+              color: DesignTokens.olive,
+              backgroundColor: DesignTokens.beige,
+            ),
+            const SizedBox(height: 20),
+            _questionContent(_current),
+          ],
+        ],
+      ),
+    ),
+  );
+
+  static String _modeTitle(PracticeMode mode) => switch (mode) {
+    PracticeMode.quiz => 'Викторина',
+    PracticeMode.illustrations => 'Слова с рисунками',
+    PracticeMode.sentence => 'Собери предложение',
+    PracticeMode.missingWord => 'Пропущенное слово',
+    PracticeMode.dictation => 'Аудиодиктант',
+    PracticeMode.dialogue => 'Диалог',
+    PracticeMode.exam => 'Контрольная',
+    PracticeMode.mistakes => 'Мои ошибки',
+  };
+}
