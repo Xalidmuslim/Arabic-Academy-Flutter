@@ -89,7 +89,7 @@ class _TeacherWordImagePickerState extends State<TeacherWordImagePicker> {
             size: 132,
             image: _chosen != null
                 ? MemoryImage(_chosen!)
-                : FileImage(File(initial!)) as ImageProvider,
+                : FileImage(File(initial!)),
           ),
         const SizedBox(height: 9),
         Wrap(spacing: 8, runSpacing: 6, children: [
