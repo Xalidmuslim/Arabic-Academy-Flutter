@@ -89,10 +89,11 @@ class DemoSchoolStore extends ChangeNotifier {
     'sessions': [],
     'announcements': [],
     'lesson_results': [
-      {'student_id': 's2', 'lesson_id': 'b1', 'score': 90},
-      {'student_id': 's3', 'lesson_id': 'b1', 'score': 75},
-      {'student_id': 's4', 'lesson_id': 'b1', 'score': 100},
-      {'student_id': 's5', 'lesson_id': 'b1', 'score': 85},
+      {'student_id': 's2', 'lesson_id': 'l1', 'score': 90},
+      {'student_id': 's2', 'lesson_id': 'l2', 'score': 85},
+      {'student_id': 's3', 'lesson_id': 'l1', 'score': 75},
+      {'student_id': 's4', 'lesson_id': 'l1', 'score': 100},
+      {'student_id': 's5', 'lesson_id': 'l1', 'score': 85},
     ],
   };
 
