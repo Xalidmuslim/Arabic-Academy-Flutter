@@ -10,7 +10,7 @@ import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'pronunciation_comparison_screen.dart';
 import 'vocabulary_practice_screen.dart';
-import 'illustrated_dictionary_screen.dart';
+import 'words_hub_screen.dart';
 import 'situations_screen.dart';
 import 'handwriting_screen.dart';
 
@@ -150,88 +150,104 @@ class PracticeCenterScreen extends StatelessWidget {
                   fontSize: 12, color: DesignTokens.secondary)),
             ],
           )),
-          const SectionTitle('Потренировать навыки'),
+          const SectionTitle('Тренировка навыков'),
           Panel(
             padding: EdgeInsets.zero,
             child: ListTile(
+              key: const ValueKey('practice-words-unified'),
               leading: const Icon(Icons.collections_bookmark_outlined,
-                color: DesignTokens.deepOlive, size: 32),
-              title: const Text('Словарь с рисунками',
+                color: DesignTokens.deepOlive, size: 30),
+              title: const Text('Все слова в одном месте',
                 style: TextStyle(fontWeight: FontWeight.w800)),
-              subtitle: const Text('Предметы, перевод, аудио и избранное'),
+              subtitle: const Text('Слова с рисунками, проверка и повторение'),
               trailing: const Icon(Icons.chevron_right),
               onTap: () => Navigator.push(context, MaterialPageRoute<void>(
-                builder: (_) => IllustratedDictionaryScreen(state: state),
+                builder: (_) => WordsHubScreen(state: state),
               )),
             ),
           ),
           const SizedBox(height: 10),
-          for (final entry in _modes)
+          for (final group in <
+              (String, String, IconData, List<PracticeMode>)>[
+            ('Слова', 'Викторина, рисунки и пропуски',
+                Icons.style_outlined, [
+                  PracticeMode.quiz, PracticeMode.illustrations,
+                  PracticeMode.missingWord,
+                ]),
+            ('Письмо и грамматика', 'Построение фраз и буквы',
+                Icons.edit_note_outlined, [PracticeMode.sentence]),
+            ('Слушаю и говорю', 'Диктант, реплики и произношение',
+                Icons.headphones_outlined, [
+                  PracticeMode.dictation, PracticeMode.dialogue,
+                ]),
+            ('Проверяю', 'Контрольная и мои ошибки',
+                Icons.fact_check_outlined, [
+                  PracticeMode.exam, PracticeMode.mistakes,
+                ]),
+          ])
             Padding(
               padding: const EdgeInsets.only(bottom: 10),
               child: Panel(
                 padding: EdgeInsets.zero,
-                child: ListTile(
-                  key: ValueKey('practice-mode-${entry.$1.name}'),
-                  contentPadding: const EdgeInsets.fromLTRB(15, 10, 14, 10),
-                  leading: CircleAvatar(
-                    radius: 24, backgroundColor: const Color(0xFFE8EBDD),
-                    child: Icon(entry.$4, color: DesignTokens.deepOlive),
-                  ),
-                  title: Text(entry.$2, style: const TextStyle(
+                child: ExpansionTile(
+                  key: ValueKey('practice-group-${group.$1}'),
+                  initiallyExpanded: group.$1 == 'Слова',
+                  tilePadding: const EdgeInsets.symmetric(horizontal: 14),
+                  leading: Icon(group.$3, color: DesignTokens.deepOlive),
+                  title: Text(group.$1, style: const TextStyle(
                     fontWeight: FontWeight.w800)),
-                  subtitle: Text(entry.$3,
+                  subtitle: Text(group.$2, maxLines: 2,
                     style: const TextStyle(fontSize: 12)),
-                  trailing: const Icon(Icons.chevron_right),
-                  onTap: () => entry.$1 == PracticeMode.exam
-                      ? _exam(context)
-                      : _open(context, entry.$1),
+                  children: [
+                    for (final mode in group.$4)
+                      if (_modes.any((m) => m.$1 == mode))
+                        ListTile(
+                          dense: true,
+                          key: ValueKey('practice-mode-${mode.name}'),
+                          contentPadding: const EdgeInsets.only(left: 20, right: 14),
+                          title: Text(_modes.firstWhere((m) => m.$1 == mode).$2),
+                          subtitle: Text(_modes.firstWhere((m) => m.$1 == mode).$3,
+                            style: const TextStyle(fontSize: 11)),
+                          trailing: const Icon(Icons.chevron_right, size: 20),
+                          onTap: () => mode == PracticeMode.exam
+                              ? _exam(context) : _open(context, mode),
+                        ),
+                    if (group.$1 == 'Письмо и грамматика')
+                      ListTile(
+                        dense: true,
+                        key: const ValueKey('handwriting-entry'),
+                        title: const Text('Письмо пальцем'),
+                        subtitle: const Text('Арабские буквы и формы'),
+                        trailing: const Icon(Icons.chevron_right),
+                        onTap: () => Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (_) => HandwritingScreen(state: state),
+                        )),
+                      ),
+                    if (group.$1 == 'Слушаю и говорю') ...[
+                      ListTile(
+                        dense: true,
+                        key: const ValueKey('situation-practice-entry'),
+                        title: const Text('Живые разговорные ситуации'),
+                        subtitle: const Text('Реплики и контекстные ответы'),
+                        trailing: const Icon(Icons.chevron_right),
+                        onTap: () => Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (_) => SituationsScreen(state: state),
+                        )),
+                      ),
+                      ListTile(
+                        dense: true,
+                        title: const Text('Произношение'),
+                        subtitle: const Text('Образец, запись и сравнение'),
+                        trailing: const Icon(Icons.chevron_right),
+                        onTap: () => Navigator.push(context, MaterialPageRoute<void>(
+                          builder: (_) => PronunciationComparisonScreen(state: state),
+                        )),
+                      ),
+                    ],
+                  ],
                 ),
               ),
             ),
-          const SectionTitle('Говорение и письмо'),
-          Panel(
-            padding: EdgeInsets.zero,
-            child: ListTile(
-              key: const ValueKey('situation-practice-entry'),
-              leading: const Icon(Icons.record_voice_over_outlined,
-                color: DesignTokens.deepOlive, size: 32),
-              title: const Text('Живые разговорные ситуации'),
-              subtitle: const Text('Учебные диалоги с выбором следующей реплики'),
-              trailing: const Icon(Icons.chevron_right),
-              onTap: () => Navigator.push(context,
-                MaterialPageRoute<void>(
-                  builder: (_) => SituationsScreen(state: state))),
-            ),
-          ),
-          const SizedBox(height: 10),
-          Panel(
-            padding: EdgeInsets.zero,
-            child: ListTile(
-              key: const ValueKey('handwriting-entry'),
-              leading: const Icon(Icons.draw_outlined,
-                color: DesignTokens.deepOlive, size: 32),
-              title: const Text('Письмо пальцем'),
-              subtitle: const Text('Арабские буквы и их формы'),
-              trailing: const Icon(Icons.chevron_right),
-              onTap: () => Navigator.push(context,
-                MaterialPageRoute<void>(
-                  builder: (_) => HandwritingScreen(state: state))),
-            ),
-          ),
-          const SectionTitle('Произношение'),
-          Panel(padding: EdgeInsets.zero,
-            child: ListTile(
-              leading: const Icon(Icons.mic_none_outlined,
-                color: DesignTokens.deepOlive, size: 30),
-              title: const Text('Слушать и сравнить произношение'),
-              subtitle: const Text('Запись, образец, прослушивание и ручная оценка'),
-              trailing: const Icon(Icons.chevron_right),
-              onTap: () => Navigator.push(context,
-                MaterialPageRoute<void>(
-                  builder: (_) => PronunciationComparisonScreen(state: state),
-                )),
-            )),
         ],
       );
     },
