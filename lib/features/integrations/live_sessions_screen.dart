@@ -240,7 +240,7 @@ class _LiveSessionsScreenState extends State<LiveSessionsScreen>
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: const Text('Живые занятия')),
     body: ListView(
-      padding: const EdgeInsets.all(20),
+      padding: const EdgeInsets.fromLTRB(20, 20, 20, 150),
       children: [
         const IntegrationNotice(
           'Здесь только доступные вашему аккаунту занятия. '
@@ -516,7 +516,7 @@ class _LiveRoomScreenState extends State<_LiveRoomScreen>
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
       body: ListView(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.fromLTRB(16, 16, 16, 150),
         children: [
           actionStatus,
           Semantics(
