@@ -271,7 +271,7 @@ class _SmartReaderScreenState extends State<SmartReaderScreen> {
                 },
               ),
               ExpansionTile(
-                title: Text(tr(context, 'Записи носителя (необязательно)'),
+                title: Text(tr(context, 'Записи носителя (необязательно)')),
                 children: [
                   for (var i = 0; i < _lines.length; i++)
                     ListTile(
