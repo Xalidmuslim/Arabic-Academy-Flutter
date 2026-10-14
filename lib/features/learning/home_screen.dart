@@ -15,6 +15,9 @@ import '../integrations/oral_practice_screen.dart';
 import '../integrations/phone_auth_screen.dart';
 import '../integrations/purchases_screen.dart';
 import '../teacher/teacher_dashboard.dart';
+import '../teacher/demo_school_store.dart';
+import '../teacher/demo_school_screen.dart';
+import '../teacher/demo_student_screen.dart';
 import '../teacher/remote_school_screen.dart';
 import 'course_screen.dart';
 import 'lesson_screen.dart';
@@ -45,6 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
   String? _accountId;
   Future<ServerRole>? _role;
   bool _demoTeacher = false;
+  late final DemoSchoolStore _demoSchool;
   late final LearningSync _sync = LearningSync(_backend);
   Timer? _syncTimer;
   int _tab = 0;
@@ -52,6 +56,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    _demoSchool = DemoSchoolStore(widget.state.prefs);
+    _demoTeacher = widget.state.prefs.getBool('demo_role_teacher') == true;
     _tab = widget.navigationTab?.value ?? 0;
     widget.navigationTab?.addListener(_onNavigationChanged);
     _backend.addListener(_authChanged);
@@ -129,8 +135,64 @@ class _HomeScreenState extends State<HomeScreen> {
     _syncTimer?.cancel();
     _backend.removeListener(_authChanged);
     _accountState?.dispose();
+    _demoSchool.dispose();
     if (widget.backend == null) _backend.dispose();
     super.dispose();
+  }
+
+  Future<void> _pickDemoRole() async {
+    final selected = await showModalBottomSheet<bool>(
+      context: context,
+      showDragHandle: true,
+      backgroundColor: DesignTokens.cardSurface,
+      builder: (sheet) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text('Выберите кабинет', style: Theme.of(sheet).textTheme.titleLarge),
+              const SizedBox(height: 8),
+              const Text(
+                'Демонстрация на одном телефоне. Данные школы не отправляются на сервер.',
+                style: TextStyle(fontSize: 12, color: DesignTokens.secondary),
+              ),
+              const SizedBox(height: 16),
+              for (final option in [
+                (false, 'Ученица', 'Уроки, задания и проверенные ответы', Icons.menu_book_outlined),
+                (true, 'Учительница', 'Группы, ученицы, проверки и эфиры', Icons.school_outlined),
+              ])
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: Panel(
+                    padding: EdgeInsets.zero,
+                    child: ListTile(
+                      minVerticalPadding: 16,
+                      leading: Icon(option.$4, size: 30, color: DesignTokens.deepOlive),
+                      title: Text(option.$2,
+                          style: const TextStyle(fontWeight: FontWeight.w800)),
+                      subtitle: Text(option.$3),
+                      trailing: _demoTeacher == option.$1
+                          ? const Icon(Icons.check_circle, color: DesignTokens.deepOlive)
+                          : const Icon(Icons.chevron_right),
+                      onTap: () => Navigator.pop(sheet, option.$1),
+                    ),
+                  ),
+                ),
+            ],
+          ),
+        ),
+      ),
+    );
+    if (selected == null || !mounted) return;
+    await widget.state.prefs.setBool('demo_role_teacher', selected);
+    if (!mounted) return;
+    setState(() {
+      _demoTeacher = selected;
+      _tab = 0;
+    });
+    widget.navigationTab?.value = 0;
   }
 
   void _open(Widget page) =>
@@ -191,7 +253,11 @@ class _HomeScreenState extends State<HomeScreen> {
               IconButton(
                 tooltip: tr(context, 'Уведомления'),
                 icon: const Icon(Icons.notifications_none),
-                onPressed: () => _open(NotificationsScreen(backend: _backend)),
+                onPressed: () => _open(_backend.isAuthenticated
+                    ? NotificationsScreen(backend: _backend)
+                    : DemoStudentSchoolScreen(
+                        school: _demoSchool, learning: state,
+                        initialTab: 'notices')),
               ),
               IconButton(
                 tooltip: tr(context, 'Настройки'),
@@ -200,23 +266,27 @@ class _HomeScreenState extends State<HomeScreen> {
                     _open(SettingsScreen(state: state, backend: _backend)),
               ),
               if (!_backend.isAuthenticated)
-                PopupMenuButton<bool>(
-                  tooltip: 'Переключить демо-роль',
-                  icon: const Icon(Icons.swap_horiz_rounded),
-                  onSelected: (teacher) => setState(() {
-                    _demoTeacher = teacher;
-                    _tab = 0;
-                  }),
-                  itemBuilder: (context) => [
-                    PopupMenuItem(
-                      value: false,
-                      child: Text(tr(context, 'Демо: ученица')),
+                Tooltip(
+                  message: 'Сменить демо-роль',
+                  child: Padding(
+                    padding: const EdgeInsets.only(right: 8),
+                    child: Material(
+                      color: DesignTokens.cardSurface,
+                      borderRadius: BorderRadius.circular(18),
+                      child: InkWell(
+                        key: const ValueKey('demo-role-switch'),
+                        borderRadius: BorderRadius.circular(18),
+                        onTap: _pickDemoRole,
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 9),
+                          child: Icon(
+                            _demoTeacher ? Icons.school_outlined : Icons.swap_horiz_rounded,
+                            color: DesignTokens.deepOlive,
+                          ),
+                        ),
+                      ),
                     ),
-                    PopupMenuItem(
-                      value: true,
-                      child: Text(tr(context, 'Демо: учительница')),
-                    ),
-                  ],
+                  ),
                 ),
             ],
           ),
@@ -260,7 +330,9 @@ class _HomeScreenState extends State<HomeScreen> {
             );
           }
           if (_demoTeacher && _tab == 0) {
-            return TeacherDashboard(state: state, backend: _backend);
+            return DemoSchoolScreen(
+              school: _demoSchool, learning: state, backend: _backend,
+            );
           }
           return _page();
         },
@@ -472,15 +544,38 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                     ),
+                if (!_backend.isAuthenticated) ...[
+                  const SizedBox(height: 12),
+                  Panel(
+                    padding: EdgeInsets.zero,
+                    child: ListTile(
+                      leading: const Icon(Icons.assignment_turned_in_outlined,
+                        color: DesignTokens.deepOlive, size: 35),
+                      title: const Text('Домашние задания · демо'),
+                      subtitle: Text(
+                        '${_demoSchool.homeworkFor(_demoSchool.currentStudentId).length} заданий · '
+                        '${_demoSchool.studentName(_demoSchool.currentStudentId)}'),
+                      trailing: const Icon(Icons.chevron_right),
+                      onTap: () => _open(DemoStudentSchoolScreen(
+                          school: _demoSchool, learning: state)),
+                    ),
+                  ),
+                ],
                 const SizedBox(height: 8),
                 Panel(
                   padding: EdgeInsets.zero,
                   child: ListTile(
                     leading: const ArtworkIcon('schedule', size: 43),
                     title: Text(tr(context, 'Расписание')),
-                    subtitle: const Text('Онлайн-уроки вашей школы'),
+                    subtitle: Text(_backend.isAuthenticated
+                        ? 'Онлайн-уроки вашей школы'
+                        : 'Встречи и напоминания · демо'),
                     trailing: const Icon(Icons.chevron_right),
-                    onTap: () => _open(LiveSessionsScreen(backend: _backend)),
+                    onTap: () => _open(_backend.isAuthenticated
+                        ? LiveSessionsScreen(backend: _backend)
+                        : DemoStudentSchoolScreen(
+                            school: _demoSchool, learning: state,
+                            initialTab: 'sessions')),
                   ),
                 ),
                 const SizedBox(height: 12),
@@ -520,7 +615,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                     _backend.isAuthenticated
                         ? 'Личный аккаунт'
-                        : 'Ученица · локальное обучение',
+                        : _demoTeacher
+                            ? 'Учительница · демо'
+                            : 'Ученица · локальное обучение',
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   const Text(
@@ -556,7 +653,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Icons.assignment_outlined,
           _backend.isAuthenticated
               ? OnlineHomeworkScreen(backend: _backend, state: state)
-              : LocalHomeworkScreen(state: state),
+              : DemoStudentSchoolScreen(school: _demoSchool, learning: state),
         ),
         (
           'Офлайн-материалы',
@@ -571,7 +668,10 @@ class _HomeScreenState extends State<HomeScreen> {
         (
           'Прямые эфиры',
           Icons.videocam_outlined,
-          LiveSessionsScreen(backend: _backend),
+          _backend.isAuthenticated
+              ? LiveSessionsScreen(backend: _backend)
+              : DemoStudentSchoolScreen(
+                  school: _demoSchool, learning: state, initialTab: 'sessions'),
         ),
       ])
         Padding(
