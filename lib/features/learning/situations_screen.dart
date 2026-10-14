@@ -47,7 +47,7 @@ class SituationsScreen extends StatelessWidget {
                     if (StudyArtAsset.valid(lesson['dialogue_illustration_asset']) case final imagePath?) ...[
                       const SizedBox(height: 8),
                       Center(child: FittedStudyArtwork(
-                        image: AssetImage(imagePath), size: 190,
+                        image: AssetImage(imagePath), width: 295, height: 166,
                       )),
                     ],
                     const SizedBox(height: 6),
