@@ -36,11 +36,11 @@ abstract final class TeacherWordImageStore {
   static Future<String> save(Uint8List image) async {
     final ext = extension(image);
     final root = await getApplicationSupportDirectory();
-    final directory = Directory(root.path + '/teacher_word_cards');
+    final directory = Directory('${root.path}/teacher_word_cards');
     await directory.create(recursive: true);
-    final name = DateTime.now().microsecondsSinceEpoch.toString() +
-        '_' + Random.secure().nextInt(1 << 30).toString() + '.' + ext;
-    final saved = File(directory.path + '/' + name);
+    final name = '${DateTime.now().microsecondsSinceEpoch}_'
+        '${Random.secure().nextInt(1 << 30)}.$ext';
+    final saved = File('${directory.path}/$name');
     await saved.writeAsBytes(image, flush: true);
     return saved.path;
   }
