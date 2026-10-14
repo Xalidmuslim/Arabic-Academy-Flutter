@@ -5,6 +5,7 @@ import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../../ui/premium_art.dart';
 import 'lesson_screen.dart';
+import 'practice_center_screen.dart';
 
 class LearnerProgressScreen extends StatelessWidget {
   const LearnerProgressScreen({super.key, required this.state});
@@ -16,6 +17,16 @@ class LearnerProgressScreen extends StatelessWidget {
       animation: state,
       builder: (context, _) {
         final data = StudyAnalytics(state);
+        final weak = <String, int>{};
+        for (final attempt in data.mistakes) {
+          final id = attempt['lesson_id']?.toString() ?? '';
+          if (id.isNotEmpty) weak[id] = (weak[id] ?? 0) + 1;
+        }
+        final weakTopics = weak.entries.toList()
+          ..sort((a, b) => b.value.compareTo(a.value));
+        final exams = state.attempts.where((attempt) =>
+          attempt['exercise_id']?.toString().startsWith(
+            'practice:exam:') == true).toList().reversed.take(8);
         final today = DateTime.now();
         final days = List.generate(
           7,
@@ -142,6 +153,63 @@ class LearnerProgressScreen extends StatelessWidget {
                   subtitle: Text('Вы завершили первый урок.'),
                 ),
               ),
+            ],
+            const SectionTitle('Проверка знаний'),
+            Panel(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text('Сложных слов: ${data.difficultWords} · '
+                    'Освоенных: ${data.learnedWords}'),
+                  const SizedBox(height: 8),
+                  Text('Автоматических проверок: '
+                    '${data.automaticAttempts} · '
+                    'Точность: ${data.accuracy == null
+                      ? "—" : "${(data.accuracy! * 100).round()}%"}'),
+                  const SizedBox(height: 10),
+                  OutlinedButton.icon(
+                    onPressed: () => Navigator.push(context,
+                      MaterialPageRoute<void>(
+                        builder: (_) => Scaffold(
+                          appBar: AppBar(title: const Text('Практика')),
+                          body: PracticeCenterScreen(state: state),
+                        ),
+                      )),
+                    icon: const Icon(Icons.psychology_alt_outlined),
+                    label: const Text('Повторить и закрепить'),
+                  ),
+                ],
+              ),
+            ),
+            if (weakTopics.isNotEmpty) ...[
+              const SectionTitle('Сложные темы'),
+              for (final entry in weakTopics.take(4))
+                ListTile(
+                  leading: const Icon(Icons.trending_down_outlined,
+                    color: DesignTokens.olive),
+                  title: Text(state.allLessons
+                    .where((lesson) => lesson['id'] == entry.key)
+                    .map((lesson) => lesson['title']?.toString() ?? entry.key)
+                    .firstOrNull ?? entry.key),
+                  subtitle: Text('Ошибок: ${entry.value}'),
+                ),
+            ],
+            if (exams.isNotEmpty) ...[
+              const SectionTitle('Контрольные работы'),
+              for (final result in exams)
+                Panel(
+                  padding: EdgeInsets.zero,
+                  child: ListTile(
+                    leading: const Icon(Icons.assignment_turned_in_outlined,
+                      color: DesignTokens.deepOlive),
+                    title: Text('Раздел: ${result['lesson_id']}'),
+                    subtitle: Text('Правильно: '
+                      '${(result['answer'] as Map?)?['correct'] ?? "—"} из '
+                      '${(result['answer'] as Map?)?['completed'] ?? "—"} · '
+                      '${result['status'] == 'correct'
+                        ? 'Зачтено' : 'Повторить'}'),
+                  ),
+                ),
             ],
             const SectionTitle('Работа над ошибками'),
             if (data.mistakes.isEmpty)
