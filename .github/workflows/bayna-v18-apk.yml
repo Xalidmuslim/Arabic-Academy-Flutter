@@ -2,7 +2,7 @@ name: Bayna v18 semantic 3D art Android APK
 on:
   push:
     branches:
-      - codex/bayna-v18-compact-3d-lesson-art
+      - codex/bayna-v18-frameless-3d-art
   workflow_dispatch:
 permissions:
   contents: read
