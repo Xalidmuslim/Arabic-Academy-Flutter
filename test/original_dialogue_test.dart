@@ -97,6 +97,11 @@ void main() {
     expect(find.textContaining('Страница 30'), findsOneWidget);
     expect(find.textContaining('Проверено вами по PDF'), findsOneWidget);
     expect(find.text('السَّلَامُ عَلَيْكُمْ'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('وَعَلَيْكُمُ السَّلَامُ'),
+      150,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('وَعَلَيْكُمُ السَّلَامُ'), findsOneWidget);
     expect(find.text('هذا نص من إعدادنا'), findsNothing);
   });
