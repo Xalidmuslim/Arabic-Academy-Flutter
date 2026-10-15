@@ -114,9 +114,14 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         }
       }
     });
+    // Once the learner confirms a page, find its dialogue without
+    // requiring a manual crop or a second recognition button.
+    if (available && selected != null) {
+      unawaited(_extract());
+    }
   }
 
-  Future<void> _extract({bool forceOcr = false}) async {
+  Future<void> _extract() async {
     if (_busy || !_bookReady) return;
     setState(() {
       _busy = true;
@@ -124,41 +129,36 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       _error = null;
     });
     try {
-      // On Android 15+ searchable pages can be read directly; image-only
-      // scans, older Android versions and non-Arabic text layers use local OCR.
-      final embedded = forceOcr
-          ? const PdfTextExtraction('empty', '')
-          : await _store.extractText(_part, _page);
-      final hasArabic = RegExp(r'[\u0600-\u06ff]')
-          .hasMatch(embedded.text);
-      final data = embedded.status == 'ok' && hasArabic && !forceOcr
-          ? embedded
-          : embedded.status == 'missing'
-              ? embedded
-              : await _store.recognizeScan(_part, _page);
+      // The native engine analyzes text-line positions, separates dialogues
+      // from illustrations and instructions, then OCRs ONLY the chosen block.
+      // The second conversation may share the earlier PDF page with the first.
+      final slot = widget.lesson['lesson_order'] == 2 ? 2 : 1;
+      final data = await _store.recognizeDialogue(_part, _page, slot);
       if (!mounted) return;
       setState(() {
         _busy = false;
-        if ((data.status == 'ok' || data.status == 'ocr') &&
-            data.text.trim().isNotEmpty) {
+        if (data.status == 'ocr' && data.text.trim().isNotEmpty) {
+          if (_page != data.pageIndex) {
+            _page = data.pageIndex;
+          }
           _transcript.text = data.text;
           _verified = false;
-          _source = data.status == 'ocr' ? 'ocr_arabic' : 'pdf_text';
+          _source = 'ocr_arabic';
           _editing = true;
-          _message = data.status == 'ocr'
-              ? 'Арабский текст распознан со скана на этом телефоне. '
-                  'OCR может ошибаться в огласовках, именах и порядке реплик. '
-                  'Удалите посторонние строки и обязательно сверьте с PDF.'
-              : 'Текстовый слой найден. Удалите лишние строки и '
-                  'сверьте арабский текст с оригинальной страницей.';
+          _message = data.autoSelected
+              ? 'Область диалога найдена автоматически '
+                  '(блоков на странице: ${data.detectedBlocks}). '
+                  'Распознан только выбранный текст. Сверьте огласовки '
+                  'и правильность реплик с PDF.'
+              : 'Текст получен, но точность выделения не подтверждена. '
+                  'Сверьте область и реплики по оригинальной странице.';
         } else if (data.status == 'empty') {
-          _message = 'OCR не смог прочитать эту страницу. Попробуйте '
-              'соседнюю страницу или используйте ручное исправление.';
-          _editing = true;
+          _message = 'Не удалось надёжно определить область диалога. '
+              'Откройте страницу PDF, выберите правильную страницу '
+              'и повторите автоматический поиск. '
+              'Полный текст страницы подставляться не будет.';
         } else if (data.status == 'unsupported') {
-          _message = 'Распознавание недоступно на устройстве. '
-              'Вы можете внести текст по личному PDF вручную.';
-          _editing = true;
+          _message = 'Автоматическое распознавание доступно в Android-приложении.';
         } else {
           _bookReady = false;
           _message = 'Сначала импортируйте личный PDF учебника.';
@@ -168,7 +168,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       if (!mounted) return;
       setState(() {
         _busy = false;
-        _error = 'Ошибка распознавания страницы: $e';
+        _error = 'Ошибка распознавания области диалога: $e';
       });
     }
   }
@@ -249,7 +249,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
               ),
             ),
           Text(
-            widget.lesson['title']?.toString() ?? 'Диалог',
+            'Диалог ${widget.lesson['lesson_order'] ?? 1}',
             style: Theme.of(context).textTheme.titleLarge,
           ),
           const SizedBox(height: 8),
@@ -293,14 +293,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                     key: const ValueKey('original-dialogue-extract'),
                     onPressed: _busy ? null : _extract,
                     icon: const Icon(Icons.text_snippet_outlined),
-                    label: const Text('Распознать арабский текст страницы'),
-                  ),
-                  const SizedBox(height: 8),
-                  OutlinedButton.icon(
-                    key: const ValueKey('original-dialogue-force-ocr'),
-                    onPressed: _busy ? null : () => _extract(forceOcr: true),
-                    icon: const Icon(Icons.document_scanner_outlined),
-                    label: const Text('Повторно распознать изображение (OCR)'),
+                    label: const Text('Найти и распознать только диалог'),
                   ),
                 ],
               ],
@@ -345,8 +338,8 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 textDirection: TextDirection.rtl,
                 textAlign: TextAlign.right,
                 decoration: const InputDecoration(
-                  hintText: 'Распознанные реплики · исправьте ошибки по PDF. '
-                      'Каждую реплику разместите с новой строки.',
+                  hintText: 'Только выделенный диалог. Сверьте арабские '
+                      'слова и огласовки; каждая реплика — с новой строки.',
                   border: OutlineInputBorder(),
                 ),
                 onChanged: (_) {
@@ -403,8 +396,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
             ] else ...[
               const Text(
                 'Оригинальный текст не подменяется авторским. '
-                'Нажмите «Распознать арабский текст страницы». '
-                'Система прочитает даже скан без текстового слоя.',
+                'Нажмите «Найти и распознать только диалог». '
+                'Приложение само определит границы текста, '
+                'исключая заголовки и фотографии.',
               ),
               const SizedBox(height: 10),
               OutlinedButton.icon(
