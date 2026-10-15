@@ -25,7 +25,7 @@ internal object ArabicDialogueColors {
         // Cream-yellow paper: (254,250,207). White pages and garments must
         // never match. Stay tolerant to scanned shadows and JPEG compression.
         return r >= 185 && g >= 170 && b <= 242 &&
-            r - b >= 20 && g - b >= 12 && r - g in -20..45
+            r - b >= 30 && g - b >= 22 && r - g in -20..45
     }
 
     private fun ink(color: Int): Ink? {
