@@ -15,6 +15,7 @@ import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
 import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
 import 'textbook_reader_screen.dart';
+import 'original_dialogue_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'illustrated_dictionary_screen.dart' show SemanticWordIllustration;
 import 'smart_reader_screen.dart';
@@ -417,6 +418,25 @@ class _LessonScreenState extends State<LessonScreen>
             label: const Text('Закрепить слова этого урока'),
           ),
       ] else if (_stage == 2) ...[
+        if (widget.lesson['pdf_page'] is int) ...[
+          FilledButton.icon(
+            key: const ValueKey('open-original-dialogue'),
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (_) => OriginalDialogueScreen(lesson: widget.lesson),
+              ),
+            ),
+            icon: const Icon(Icons.menu_book_outlined),
+            label: const Text('Оригинальный диалог · мой PDF'),
+          ),
+          const SizedBox(height: 8),
+          const Text(
+            'Откройте собственный учебник и сохраните сверенные '
+            'арабские реплики только на этом телефоне.',
+            style: TextStyle(fontSize: 12),
+          ),
+          const SizedBox(height: 16),
+        ],
         if (StudyArtAsset.valid(widget.lesson['dialogue_illustration_asset']) case final imagePath?) ...[
           Center(child: FittedStudyArtwork(
             image: AssetImage(imagePath),
@@ -431,7 +451,7 @@ class _LessonScreenState extends State<LessonScreen>
           children: [
             Expanded(
               child: Text(
-                'Диалог',
+                'Диалог · авторская практика',
                 style: Theme.of(context).textTheme.titleLarge,
               ),
             ),
@@ -478,8 +498,8 @@ class _LessonScreenState extends State<LessonScreen>
           const Padding(
             padding: EdgeInsets.only(bottom: 12),
             child: Text(
-              'Диалог в приложении авторский. По кнопке — соответствующая '
-              'страница оригинального учебника для самостоятельной сверки.',
+              'Диалог ниже составлен для тренировки и не является дословным '
+              'текстом учебника. Страница PDF указана ориентировочно.',
               style: TextStyle(fontSize: 12.5),
             ),
           ),
