@@ -4,6 +4,7 @@ import 'package:arabic_academy/core/academy_state.dart';
 import 'package:arabic_academy/features/learning/course_screen.dart';
 import 'package:arabic_academy/features/learning/lesson_screen.dart';
 import 'package:arabic_academy/features/learning/textbook_reader_screen.dart';
+import 'package:arabic_academy/features/learning/original_dialogue_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -57,16 +58,16 @@ void main() {
       home: LessonScreen(state: state, lesson: lesson, initialTab: 2),
     ));
     await tester.pump();
-    final link = find.byKey(const ValueKey('open-original-pdf-page'));
+    final link = find.byKey(const ValueKey('open-original-dialogue'));
     expect(link, findsOneWidget);
-    expect(find.textContaining('Часть 2'), findsOneWidget);
+    expect(find.byKey(const ValueKey('open-original-pdf-page')), findsNothing);
     await tester.ensureVisible(link);
     await tester.tap(link);
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 350));
-    expect(find.byType(TextbookReaderScreen), findsOneWidget);
-    expect(tester.widget<TextbookReaderScreen>(find.byType(TextbookReaderScreen)).part, 2);
-    expect(find.text('Учебник · Часть 2'), findsOneWidget);
+    expect(find.byType(OriginalDialogueScreen), findsOneWidget);
+    expect(tester.widget<OriginalDialogueScreen>(
+      find.byType(OriginalDialogueScreen)).lesson['pdf_part'], 2);
   });
 
   testWidgets('course catalog lists both separately imported private PDFs', (tester) async {
