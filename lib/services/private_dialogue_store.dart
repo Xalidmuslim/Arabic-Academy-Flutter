@@ -1,8 +1,31 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:typed_data';
 
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
+
+/// Normalized coordinates of a reader-owned PDF fragment, not an APK asset.
+class DialogueCrop {
+  const DialogueCrop(this.left, this.top, this.right, this.bottom);
+
+  final double left, top, right, bottom;
+
+  bool get isValid =>
+      [left, top, right, bottom].every((v) => v.isFinite && v >= 0 && v <= 1) &&
+      right - left >= 0.08 && bottom - top >= 0.06;
+
+  List<double> toJson() => [left, top, right, bottom];
+
+  static DialogueCrop? fromJson(Object? value) {
+    if (value is! List || value.length != 4 || value.any((v) => v is! num)) {
+      return null;
+    }
+    final values = value.cast<num>().map((v) => v.toDouble()).toList();
+    final crop = DialogueCrop(values[0], values[1], values[2], values[3]);
+    return crop.isValid ? crop : null;
+  }
+}
 
 /// Text brought in by the owner of a local PDF. Never bundled, published,
 /// uploaded, or inserted in the academy's synced lesson catalog.
@@ -12,12 +35,14 @@ class SavedOriginalDialogue {
     required this.text,
     required this.verified,
     required this.source,
+    this.crop,
   });
 
   final int pageIndex;
   final String text;
   final bool verified;
   final String source;
+  final DialogueCrop? crop;
 
   Map<String, dynamic> toJson() => {
     'version': 1,
@@ -25,6 +50,7 @@ class SavedOriginalDialogue {
     'text': text,
     'verified': verified,
     'source': source,
+    if (crop != null) 'crop': crop!.toJson(),
   };
 
   static SavedOriginalDialogue? fromJson(Object? value) {
@@ -38,6 +64,9 @@ class SavedOriginalDialogue {
             value['source'] != 'ocr_arabic')) {
       return null;
     }
+    if (value.containsKey('crop') && DialogueCrop.fromJson(value['crop']) == null) {
+      return null;
+    }
     final page = value['page_index'] as int;
     if (page < 0 || page > 10000) return null;
     final content = value['text'] as String;
@@ -47,6 +76,7 @@ class SavedOriginalDialogue {
       text: content,
       verified: value['verified'] as bool,
       source: value['source'] as String,
+      crop: DialogueCrop.fromJson(value['crop']),
     );
   }
 }
@@ -67,11 +97,20 @@ class DialogueOcrResult extends PdfTextExtraction {
     required this.pageIndex,
     required this.autoSelected,
     required this.detectedBlocks,
+    this.crop,
+    this.imagePng,
   });
 
   final int pageIndex;
   final bool autoSelected;
   final int detectedBlocks;
+  final DialogueCrop? crop;
+  final Uint8List? imagePng;
+}
+
+/// Optional visual feature keeps existing test stores and lesson data compatible.
+abstract class DialogueArtworkStore {
+  Future<Uint8List> renderCrop(int part, int pageIndex, DialogueCrop crop);
 }
 
 abstract class OriginalDialogueStore {
@@ -86,7 +125,7 @@ abstract class OriginalDialogueStore {
   );
 }
 
-class OnDeviceDialogueStore implements OriginalDialogueStore {
+class OnDeviceDialogueStore implements OriginalDialogueStore, DialogueArtworkStore {
   const OnDeviceDialogueStore();
 
   static const _native = MethodChannel('bayna.private_pdf');
@@ -190,6 +229,24 @@ class OnDeviceDialogueStore implements OriginalDialogueStore {
 
 
   @override
+  Future<Uint8List> renderCrop(int part, int pageIndex, DialogueCrop crop) async {
+    _check(part);
+    if (pageIndex < 0 || pageIndex > 10000 || !crop.isValid) {
+      throw const FormatException('Invalid PDF dialogue crop');
+    }
+    if (!Platform.isAndroid) throw UnsupportedError('Android only');
+    final png = await _native.invokeMethod<Uint8List>('renderDialogueCrop', {
+      'part': part,
+      'page': pageIndex,
+      'crop': crop.toJson(),
+    });
+    if (png == null || png.isEmpty) {
+      throw const FormatException('Empty PDF fragment');
+    }
+    return png;
+  }
+
+  @override
   Future<DialogueOcrResult> recognizeDialogue(
     int part, int pageIndex, int dialogueSlot,
   ) async {
@@ -229,6 +286,10 @@ class OnDeviceDialogueStore implements OriginalDialogueStore {
       pageIndex: actualPage,
       autoSelected: result?['auto_selected'] == true,
       detectedBlocks: groupCount is int ? groupCount : 0,
+      crop: DialogueCrop.fromJson(result?['crop']),
+      imagePng: result?['image_png'] is Uint8List
+          ? result!['image_png'] as Uint8List
+          : null,
     );
   }
 
