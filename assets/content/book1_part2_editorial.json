@@ -60,7 +60,8 @@
       "access_default": "free",
       "pdf_page": 156,
       "unit_order": 14,
-      "pdf_part": 2
+      "pdf_part": 2,
+      "illustration_asset": "assets/artwork/lesson_generated/u14_hajj.webp"
     },
     {
       "id": "u15",
@@ -1918,7 +1919,8 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u12_d1_hobbies.webp"
     },
     {
       "id": "book1-u12-d2",
@@ -3094,7 +3096,8 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u14_d1_preparation.webp"
     },
     {
       "id": "book1-u14-d2",
@@ -3164,7 +3167,8 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u14_d2_mosque.webp"
     },
     {
       "id": "book1-u14-d3",
@@ -3682,7 +3686,8 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u15_d1_doctor.webp"
     },
     {
       "id": "book1-u15-d2",

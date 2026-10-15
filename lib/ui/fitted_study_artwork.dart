@@ -31,9 +31,30 @@ class FittedStudyArtwork extends StatelessWidget {
       child: DecoratedBox(
         key: const ValueKey('fitted-study-artwork'),
         decoration: BoxDecoration(
-          color: colors.surface,
+          // A subtle raised edge, with the original illustration always
+          // fully visible: no ClipRRect, cut-outs or BoxFit.cover.
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Color.alphaBlend(
+                Colors.white.withValues(alpha: dark ? .045 : .48),
+                colors.surface,
+              ),
+              colors.surface,
+              Color.alphaBlend(
+                colors.primary.withValues(alpha: dark ? .08 : .045),
+                colors.surface,
+              ),
+            ],
+          ),
           borderRadius: BorderRadius.circular(21),
-          border: Border.all(color: colors.outlineVariant.withValues(alpha: .28)),
+          border: Border.all(
+            color: dark
+                ? colors.outlineVariant.withValues(alpha: .24)
+                : Colors.white.withValues(alpha: .72),
+            width: .85,
+          ),
           boxShadow: [
             BoxShadow(
               color: colors.shadow.withValues(alpha: dark ? .24 : .14),
