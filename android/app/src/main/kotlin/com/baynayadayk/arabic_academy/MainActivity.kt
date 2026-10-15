@@ -201,7 +201,7 @@ class MainActivity : FlutterActivity() {
                                                 page.textContents
                                                     .map { it.text.trim() }
                                                     .filter { it.isNotEmpty() }
-                                                    .joinToString("\\n")
+                                                    .joinToString("\n")
                                             }
                                         }
                                     }
