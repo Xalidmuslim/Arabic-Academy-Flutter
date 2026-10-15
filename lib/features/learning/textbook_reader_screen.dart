@@ -153,6 +153,30 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       }
       return;
     }
+    if (_hasBook) {
+      final confirmed = await showDialog<bool>(
+        context: context,
+        builder: (dialogContext) => AlertDialog(
+          title: const Text('Заменить личный PDF?'),
+          content: const Text(
+            'После замены сохранённые расшифровки диалогов этой '
+            'части будут удалены, потому что они привязаны '
+            'к прежнему учебнику. Продолжить?',
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(dialogContext).pop(false),
+              child: const Text('Отмена'),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.of(dialogContext).pop(true),
+              child: const Text('Заменить PDF'),
+            ),
+          ],
+        ),
+      );
+      if (confirmed != true || !mounted) return;
+    }
     setState(() {
       _busy = true;
       _error = null;
