@@ -276,7 +276,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
           } else {
             _message = data.autoSelected
                 ? 'Область диалога найдена автоматически '
-                    '(блоков: ${data.detectedBlocks}). '
+                    '(блоков на странице: ${data.detectedBlocks}). '
                     'Сверьте текст и огласовки с PDF.'
                 : 'Текст получен, но точность выделения не подтверждена. '
                     'Сверьте область и реплики по оригинальной странице.';
