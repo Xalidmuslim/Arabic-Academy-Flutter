@@ -153,6 +153,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       }
       return;
     }
+    if (!mounted) return;
     if (_hasBook) {
       final confirmed = await showDialog<bool>(
         context: context,
