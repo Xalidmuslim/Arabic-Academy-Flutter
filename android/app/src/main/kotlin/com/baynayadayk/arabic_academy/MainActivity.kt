@@ -172,6 +172,14 @@ class MainActivity : FlutterActivity() {
                                     page.close()
                                 }
                             }
+                            "renderDialogueCrop" -> {
+                                val part = call.argument<Int>("part") ?: 1
+                                val page = call.argument<Int>("page") ?: 0
+                                val crop = call.argument<List<Double>>("crop")
+                                    ?: throw IllegalArgumentException("Missing crop boundaries")
+                                val png = ArabicPdfCrop.render(this@MainActivity, part, page, crop)
+                                runOnUiThread { result.success(png) }
+                            }
                             "ocrArabicDialogue" -> {
                                 val part = call.argument<Int>("part") ?: 1
                                 val page = call.argument<Int>("page") ?: 0
