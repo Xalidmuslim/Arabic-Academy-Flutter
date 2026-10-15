@@ -108,11 +108,19 @@ void main() {
     expect(find.byKey(const ValueKey('original-dialogue-editor')),
         findsOneWidget);
     expect(find.textContaining('Текстовый слой найден'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-verified')),
+      250,
+      scrollable: find.byType(Scrollable).first,
+    );
     final verify = tester.widget<SwitchListTile>(
         find.byKey(const ValueKey('original-dialogue-verified')));
     expect(verify.value, false);
-    await tester.ensureVisible(find.byKey(
-        const ValueKey('original-dialogue-save')));
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-save')),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.tap(find.byKey(
         const ValueKey('original-dialogue-save')));
     await tester.pumpAndSettle();
