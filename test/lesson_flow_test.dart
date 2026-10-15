@@ -28,7 +28,7 @@ void main() {
     });
   }
 
-  testWidgets('Lesson exposes all six interactive learning stages', (
+  testWidgets('Lesson starts at dialogue with vocabulary after it', (
     tester,
   ) async {
     final data = await state();
@@ -39,18 +39,12 @@ void main() {
       ),
     );
     for (final name in [
-      'Введение',
-      'Лексика',
-      'Диалог',
-      'Грамматика',
-      'Практика',
-      'Проверка',
+      'Диалог', 'Новые слова', 'Практикую', 'Закрепляю',
     ]) {
       expect(find.text(name), findsWidgets);
     }
-    await tester.tap(find.text('Грамматика').first);
-    await tester.pumpAndSettle();
-    expect(find.text('Правило'), findsOneWidget);
+    expect(find.text('Начать урок'), findsNothing);
+    expect(find.text('Цель обучения'), findsNothing);
     expect(tester.takeException(), isNull);
   });
 
