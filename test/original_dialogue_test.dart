@@ -1,9 +1,26 @@
+import 'dart:convert';
+import 'dart:typed_data';
+
 import 'package:arabic_academy/features/learning/original_dialogue_screen.dart';
 import 'package:arabic_academy/services/private_dialogue_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-class MemoryOriginalDialogueStore implements OriginalDialogueStore {
+class MemoryOriginalDialogueStore
+    implements OriginalDialogueStore, DialogueArtworkStore {
+  static final Uint8List tinyPng = base64Decode(
+    'iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+'
+    'AAAAFklEQVR4nGP88OzSfwYkwMSABggLAADwggOvWRDQ6AAAAABJRU5ErkJggg==',
+  );
+  int cropRenders = 0;
+  DialogueCrop? lastCrop;
+
+  @override
+  Future<Uint8List> renderCrop(int part, int pageIndex, DialogueCrop crop) async {
+    cropRenders++;
+    lastCrop = crop;
+    return tinyPng;
+  }
   MemoryOriginalDialogueStore({this.pdfPresent = true, this.extracted = '', this.scanned = ''});
   bool pdfPresent;
   String extracted;
@@ -47,6 +64,10 @@ class MemoryOriginalDialogueStore implements OriginalDialogueStore {
           : pageIndex,
       autoSelected: scanned.isNotEmpty,
       detectedBlocks: scanned.isNotEmpty ? (dialogueSlot == 2 ? 2 : 1) : 0,
+      crop: scanned.isNotEmpty
+          ? const DialogueCrop(0.08, 0.23, 0.92, 0.72)
+          : null,
+      imagePng: scanned.isNotEmpty ? tinyPng : null,
     );
   }
 
@@ -247,6 +268,76 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.textContaining('Страница 24'), findsOneWidget);
     expect(find.textContaining('блоков на странице: 2'), findsOneWidget);
+  });
+
+
+  test('crop persistence rejects malformed geometry and keeps legacy records', () {
+    const crop = DialogueCrop(0.06, 0.20, 0.92, 0.74);
+    expect(DialogueCrop.fromJson(crop.toJson())!.right, closeTo(0.92, .001));
+    expect(DialogueCrop.fromJson([0.8, 0.2, 0.2, 0.7]), isNull);
+    expect(DialogueCrop.fromJson([0.1, -0.1, 0.9, 0.9]), isNull);
+    expect(DialogueCrop.fromJson([0.1, 0.2, double.nan, 0.8]), isNull);
+    const record = SavedOriginalDialogue(
+      pageIndex: 12, text: 'السَّلَامُ', verified: false,
+      source: 'ocr_arabic', crop: crop,
+    );
+    expect(SavedOriginalDialogue.fromJson(record.toJson())!.crop!.top, .20);
+    final legacy = <String, dynamic>{...record.toJson()}..remove('crop');
+    expect(SavedOriginalDialogue.fromJson(legacy)!.crop, isNull);
+    expect(SavedOriginalDialogue.fromJson({
+      ...record.toJson(), 'crop': [0.4, 0.8, 0.2, 0.9],
+    }), isNull);
+  });
+
+  testWidgets('private visual PDF fragment supports crop adjustment and save',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(scanned: 'السَّلَامُ عَلَيْكُمْ');
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('original-dialogue-pdf-fragment')),
+        findsOneWidget);
+    expect(find.byKey(const ValueKey('original-dialogue-pdf-zoom')),
+        findsOneWidget);
+
+    await tester.ensureVisible(
+        find.byKey(const ValueKey('original-dialogue-crop-edit')));
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-crop-edit')));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('original-dialogue-crop-horizontal')),
+        findsOneWidget);
+    await tester.ensureVisible(
+        find.byKey(const ValueKey('original-dialogue-crop-apply')));
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-crop-apply')));
+    await tester.pumpAndSettle();
+    expect(store.cropRenders, 1);
+
+    await tester.ensureVisible(
+        find.byKey(const ValueKey('original-dialogue-save')));
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
+    await tester.pumpAndSettle();
+    expect(store.records['1/book1-u1-d1']!.crop, isNotNull);
+    expect(store.records['1/book1-u1-d1']!.verified, false);
+  });
+
+  testWidgets('saved image can be re-rendered without re-running OCR',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore();
+    store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
+      pageIndex: 23, text: 'السَّلَامُ', verified: true,
+      source: 'manual', crop: DialogueCrop(0.08, 0.23, 0.92, 0.72),
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    expect(store.cropRenders, 1);
+    expect(store.ocrCalls, 0);
+    expect(find.byKey(const ValueKey('original-dialogue-pdf-fragment')),
+        findsOneWidget);
   });
 
 }
