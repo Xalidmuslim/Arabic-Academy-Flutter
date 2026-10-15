@@ -1,7 +1,7 @@
 name: Bayna v18 semantic 3D artwork checks
 on:
   push:
-    branches: [codex/bayna-v18-compact-3d-lesson-art]
+    branches: [codex/bayna-v18-frameless-3d-art]
   pull_request:
     branches: [codex/bayna-v17-compact-3d-lesson-art]
 permissions:
