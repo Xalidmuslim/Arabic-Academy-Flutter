@@ -172,6 +172,48 @@ class MainActivity : FlutterActivity() {
                                     page.close()
                                 }
                             }
+                            "extractText" -> {
+                                // Read only the local imported PDF for this user's book.
+                                // The extraction is never sent to a backend or cached in APK assets.
+                                val part = call.argument<Int>("part") ?: 1
+                                require(part == 1 || part == 2) { "Invalid book part" }
+                                val pageIndex = call.argument<Int>("page") ?: 0
+                                val safeDir = File(filesDir, "private_textbooks").canonicalFile
+                                val book = File(safeDir, "student_book_1_part_${part}.pdf").canonicalFile
+                                require(book.parentFile == safeDir) { "Invalid PDF location" }
+                                if (!book.isFile) {
+                                    runOnUiThread {
+                                        result.success(mapOf("status" to "missing", "text" to ""))
+                                    }
+                                } else if (Build.VERSION.SDK_INT < 35) {
+                                    runOnUiThread {
+                                        result.success(mapOf("status" to "unsupported", "text" to ""))
+                                    }
+                                } else {
+                                    val content = ParcelFileDescriptor.open(
+                                        book, ParcelFileDescriptor.MODE_READ_ONLY
+                                    ).use { handle ->
+                                        PdfRenderer(handle).use { pdf ->
+                                            require(pageIndex in 0 until pdf.pageCount) {
+                                                "PDF page index out of range"
+                                            }
+                                            pdf.openPage(pageIndex).use { page ->
+                                                page.textContents
+                                                    .map { it.text.trim() }
+                                                    .filter { it.isNotEmpty() }
+                                                    .joinToString("\\n")
+                                            }
+                                        }
+                                    }
+                                    val limited = content.take(100000)
+                                    runOnUiThread {
+                                        result.success(mapOf(
+                                            "status" to (if (limited.isEmpty()) "empty" else "ok"),
+                                            "text" to limited
+                                        ))
+                                    }
+                                }
+                            }
                             "close" -> {
                                 closeReader()
                                 runOnUiThread { result.success(null) }
