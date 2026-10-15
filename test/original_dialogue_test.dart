@@ -35,6 +35,22 @@ class MemoryOriginalDialogueStore implements OriginalDialogueStore {
       PdfTextExtraction(extracted.isEmpty ? 'empty' : 'ok', extracted);
 
   @override
+  Future<DialogueOcrResult> recognizeDialogue(
+    int part, int pageIndex, int dialogueSlot,
+  ) async {
+    ocrCalls++;
+    return DialogueOcrResult(
+      scanned.isEmpty ? 'empty' : 'ocr',
+      scanned,
+      pageIndex: dialogueSlot == 2 && pageIndex >= 2
+          ? pageIndex - 2
+          : pageIndex,
+      autoSelected: scanned.isNotEmpty,
+      detectedBlocks: scanned.isNotEmpty ? (dialogueSlot == 2 ? 2 : 1) : 0,
+    );
+  }
+
+  @override
   Future<PdfTextExtraction> recognizeScan(int part, int pageIndex) async {
     ocrCalls++;
     return PdfTextExtraction(scanned.isEmpty ? 'empty' : 'ocr', scanned);
@@ -109,7 +125,7 @@ void main() {
   testWidgets('extracted text is unverified until user reviews and saves',
       (tester) async {
     final store = MemoryOriginalDialogueStore(
-      extracted: 'النَّصُ مِنَ الْكِتَابِ',
+      scanned: 'النَّصُ مِنَ الْكِتَابِ',
     );
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
@@ -120,7 +136,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('original-dialogue-editor')),
         findsOneWidget);
-    expect(find.textContaining('Текстовый слой найден'), findsOneWidget);
+    expect(find.textContaining('Область диалога найдена автоматически'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.byKey(const ValueKey('original-dialogue-verified')),
       250,
@@ -140,8 +156,8 @@ void main() {
     final saved = store.records['1/book1-u1-d1'];
     expect(saved, isNotNull);
     expect(saved!.verified, isFalse);
-    expect(saved.source, 'pdf_text');
-    expect(store.ocrCalls, 0);
+    expect(saved.source, 'ocr_arabic');
+    expect(store.ocrCalls, 1);
     expect(saved.pageIndex, 23);
   });
 
@@ -155,10 +171,10 @@ void main() {
     await tester.tap(find.byKey(
         const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
-    expect(find.textContaining('OCR не смог прочитать'), findsOneWidget);
+    expect(find.textContaining('Не удалось надёжно определить область'), findsOneWidget);
     expect(store.ocrCalls, 1);
     expect(find.byKey(const ValueKey('original-dialogue-editor')),
-        findsOneWidget);
+        findsNothing);
   });
   testWidgets('Arabic OCR extracts scanned page and keeps lines unverified',
       (tester) async {
@@ -174,7 +190,7 @@ void main() {
         const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
     expect(store.ocrCalls, 1);
-    expect(find.textContaining('Арабский текст распознан со скана'),
+    expect(find.textContaining('Область диалога найдена автоматически'),
         findsOneWidget);
     await tester.scrollUntilVisible(
       find.byKey(const ValueKey('original-dialogue-save')),
@@ -191,7 +207,7 @@ void main() {
     expect(saved.text, contains('السَّلَامُ'));
   });
 
-  testWidgets('force OCR overrides a searchable text layer', (tester) async {
+  testWidgets('auto OCR isolates a conversation without manual crop', (tester) async {
     final store = MemoryOriginalDialogueStore(
       extracted: 'السَّلَامُ',
       scanned: 'وَعَلَيْكُمُ السَّلَامُ',
@@ -201,7 +217,7 @@ void main() {
     ));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-force-ocr')));
+        const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
     expect(store.ocrCalls, 1);
     final editor = tester.widget<TextField>(
@@ -210,5 +226,27 @@ void main() {
     expect(editor.controller!.text, contains('وَعَلَيْكُمُ'));
   });
 
+
+  testWidgets('second dialogue may be auto-located on earlier shared page',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: 'خولة: السَّلَامُ عَلَيْكُمْ',
+    );
+    final d2 = <String, dynamic>{
+      ...lesson,
+      'id': 'book1-u1-d2',
+      'lesson_order': 2,
+      'pdf_page': 25,
+    };
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: d2, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(
+        const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Страница 24'), findsOneWidget);
+    expect(find.textContaining('блоков на странице: 2'), findsOneWidget);
+  });
 
 }

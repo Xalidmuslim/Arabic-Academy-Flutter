@@ -99,7 +99,7 @@ void main() {
       home: LessonScreen(state: state, lesson: state.allLessons.first),
     ));
     await tester.pumpAndSettle();
-    for (final stage in ['Изучаю', 'Понимаю', 'Практикую', 'Закрепляю']) {
+    for (final stage in ['Диалог', 'Новые слова', 'Практикую', 'Закрепляю']) {
       expect(find.text(stage), findsOneWidget);
     }
     expect(find.text('Введение'), findsNothing);

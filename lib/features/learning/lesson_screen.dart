@@ -13,8 +13,6 @@ import '../../ui/study_art_asset.dart';
 import '../../ui/premium_art.dart';
 import '../exercises/exercises.dart';
 import '../integrations/oral_practice_screen.dart';
-import '../teacher/teacher_editor.dart' show ExtraLessonScreen;
-import 'textbook_reader_screen.dart';
 import 'original_dialogue_screen.dart';
 import 'vocabulary_practice_screen.dart';
 import 'illustrated_dictionary_screen.dart' show SemanticWordIllustration;
@@ -43,22 +41,31 @@ class _LessonScreenState extends State<LessonScreen>
     with WidgetsBindingObserver {
   // Four learner-facing phases keep the six existing internal steps and
   // all saved lesson results backward compatible.
-  static const stages = [
-    'Изучаю',
-    'Понимаю',
-    'Практикую',
-    'Закрепляю',
-  ];
-  static const _phaseStarts = [0, 2, 4, 5];
+  // The first learning step is the dialogue itself, not a redundant intro.
+  // Existing internal stage IDs and saved exercise IDs stay unchanged.
+  static const stages = ['Диалог', 'Новые слова', 'Практикую', 'Закрепляю'];
+  static const _phaseStarts = [2, 1, 4, 5];
   int get _phase => switch (_stage) {
-    0 || 1 => 0,
-    2 || 3 => 1,
+    2 => 0,
+    1 || 3 => 1,
     4 => 2,
     _ => 3,
   };
+  int _nextReadingStage(int stage) => switch (stage) {
+    2 => _words.isNotEmpty ? 1 : _skipEmptySections(3),
+    1 => _skipEmptySections(3),
+    _ => _skipEmptySections(4),
+  };
+  int _previousReadingStage(int stage) => switch (stage) {
+    1 => 2,
+    3 => _words.isNotEmpty ? 1 : 2,
+    4 => _hasMaterial(3) ? 3 : (_words.isNotEmpty ? 1 : 2),
+    5 => 4,
+    _ => 2,
+  };
   bool _hasMaterial(int stage) => switch (stage) {
     1 => _words.isNotEmpty,
-    2 => _dialogue.isNotEmpty,
+    2 => _dialogue.isNotEmpty || widget.lesson['pdf_page'] is int,
     3 => (widget.lesson['grammar']?.toString().trim().isNotEmpty ?? false),
     _ => true,
   };
@@ -86,7 +93,6 @@ class _LessonScreenState extends State<LessonScreen>
   bool _finished = false;
   bool _showTranslation = true;
   late final TextEditingController _homework;
-  late final TextEditingController _note;
   String get id => widget.lesson['id'] as String;
   List get _words => widget.lesson['vocabulary'] as List? ?? [];
   List get _dialogue => widget.lesson['dialogue'] as List? ?? [];
@@ -94,7 +100,7 @@ class _LessonScreenState extends State<LessonScreen>
   @override
   void initState() {
     super.initState();
-    _stage = widget.initialTab.clamp(0, 5);
+    _stage = widget.initialTab == 0 ? 2 : widget.initialTab.clamp(1, 5);
     WidgetsBinding.instance.addObserver(this);
     _study.start();
     _exercises = [
@@ -113,7 +119,6 @@ class _LessonScreenState extends State<LessonScreen>
     ];
     final saved = widget.state.drafts['homework:$id'] as Map?;
     _homework = TextEditingController(text: saved?['text'] as String? ?? '');
-    _note = TextEditingController(text: widget.state.note(id));
     unawaited(widget.state.visitLesson(id));
   }
 
@@ -156,7 +161,6 @@ class _LessonScreenState extends State<LessonScreen>
     unawaited(widget.state.recordStudy(id, _study.elapsed.inSeconds));
     unawaited(ArabicSpeech.stop().catchError((Object _) {}));
     _homework.dispose();
-    _note.dispose();
     super.dispose();
   }
 
@@ -173,14 +177,14 @@ class _LessonScreenState extends State<LessonScreen>
 
   @override
   Widget build(BuildContext context) => PopScope(
-    canPop: widget.returnToProgressOnBack || _stage == 0,
+    canPop: widget.returnToProgressOnBack || _stage == 2,
     onPopInvokedWithResult: (didPop, result) {
-      if (didPop || !mounted || _stage == 0 ||
+      if (didPop || !mounted || _stage == 2 ||
           widget.returnToProgressOnBack) {
         return;
       }
       setState(() {
-        _stage--;
+        _stage = _previousReadingStage(_stage);
         _exerciseIndex = 0;
         _round = 0;
         _finished = false;
@@ -189,7 +193,9 @@ class _LessonScreenState extends State<LessonScreen>
     child: Scaffold(
     appBar: AppBar(
       title: Text(
-        widget.lesson['title'] as String? ?? 'Урок',
+        widget.lesson['pdf_page'] is int
+            ? 'Диалог ${widget.lesson['lesson_order'] ?? 1}'
+            : widget.lesson['title'] as String? ?? 'Урок',
         maxLines: 2,
         style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
       ),
@@ -275,79 +281,7 @@ class _LessonScreenState extends State<LessonScreen>
     key: ValueKey(_stage),
     padding: const EdgeInsets.fromLTRB(18, 14, 18, 142),
     children: [
-      if (_stage == 0) ...[
-        Panel(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              if (StudyArtAsset.valid(widget.lesson['illustration_asset']) case final path?)
-                Center(child: FittedStudyArtwork(
-                  image: AssetImage(path), size: 175,
-                ))
-              else if (widget.lesson['grammar_topic'] != null)
-                Image.asset(
-                  'assets/artwork/grammar.webp',
-                  height: 175, fit: BoxFit.contain, cacheWidth: 600,
-                  excludeFromSemantics: true,
-                ),
-              Text(
-                widget.lesson['title'] as String? ?? '',
-                style: Theme.of(context).textTheme.headlineSmall,
-              ),
-              NaskhText(
-                widget.lesson['title_ar'] as String? ?? '',
-                size: _arabicSize,
-              ),
-              const SizedBox(height: 8),
-              Text(widget.lesson['goal'] as String? ?? ''),
-              const SizedBox(height: 16),
-              FilledButton.icon(
-                onPressed: () => setState(() => _stage = _skipEmptySections(1)),
-                icon: const Icon(Icons.play_arrow),
-                label: const Text('Начать урок'),
-              ),
-            ],
-          ),
-        ),
-        if ((widget.lesson['video'] as String?)?.isNotEmpty == true)
-          Padding(
-            padding: const EdgeInsets.only(top: 12),
-            child: OutlinedButton.icon(
-              icon: const Icon(Icons.ondemand_video),
-              label: const Text('Открыть видеоматериал'),
-              onPressed: () => Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => ExtraLessonScreen(data: widget.lesson),
-                ),
-              ),
-            ),
-          ),
-        const SectionTitle('Цель обучения'),
-        Panel(
-          child: Text(
-            widget.lesson['goal'] as String? ??
-                'Изучите материал и выполните задания.',
-          ),
-        ),
-        const SectionTitle('Личные заметки'),
-        TextField(
-          controller: _note,
-          minLines: 2,
-          maxLines: 6,
-          decoration: const InputDecoration(
-            hintText: 'Ваши заметки сохраняются на устройстве',
-          ),
-          onChanged: (text) => unawaited(widget.state.saveNote(id, text)),
-        ),
-        const SizedBox(height: 10),
-        Text(
-          widget.lesson['source'] == 'original_editorial'
-              ? 'Авторский материал. Не является страницей издательского учебника.'
-              : 'Сохранённый учебный материал.',
-          style: Theme.of(context).textTheme.bodySmall,
-        ),
-      ] else if (_stage == 1) ...[
+      if (_stage == 1) ...[
         const SectionTitle('Новые слова'),
         if (_words.isEmpty)
           const EmptyState(
@@ -476,25 +410,6 @@ class _LessonScreenState extends State<LessonScreen>
         ),
         const SizedBox(height: 12),
         if (widget.lesson['pdf_page'] is int)
-          Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: OutlinedButton.icon(
-              key: const ValueKey('open-original-pdf-page'),
-              icon: const Icon(Icons.picture_as_pdf_outlined),
-              label: Text(
-                'Учебник · Часть ${widget.lesson['pdf_part'] == 2 ? 2 : 1} · страница ${(widget.lesson['pdf_page'] as int) + 1}',
-              ),
-              onPressed: () => Navigator.of(context).push(
-                MaterialPageRoute<void>(
-                  builder: (_) => TextbookReaderScreen(
-                    part: widget.lesson['pdf_part'] == 2 ? 2 : 1,
-                    initialPage: widget.lesson['pdf_page'] as int,
-                  ),
-                ),
-              ),
-            ),
-          ),
-        if (widget.lesson['pdf_page'] is int)
           const Padding(
             padding: EdgeInsets.only(bottom: 12),
             child: Text(
@@ -556,7 +471,7 @@ class _LessonScreenState extends State<LessonScreen>
         const SizedBox(height: 16),
         FilledButton.icon(
           icon: const Icon(Icons.arrow_forward),
-          onPressed: () => setState(() => _stage = _skipEmptySections(_stage + 1)),
+          onPressed: () => setState(() => _stage = _nextReadingStage(_stage)),
           label: const Text('Далее'),
         ),
       ],

@@ -172,6 +172,15 @@ class MainActivity : FlutterActivity() {
                                     page.close()
                                 }
                             }
+                            "ocrArabicDialogue" -> {
+                                val part = call.argument<Int>("part") ?: 1
+                                val page = call.argument<Int>("page") ?: 0
+                                val slot = call.argument<Int>("dialogueSlot") ?: 1
+                                val recognition = ArabicPdfOcr.recognizeDialogue(
+                                    this@MainActivity, part, page, slot
+                                )
+                                runOnUiThread { result.success(recognition) }
+                            }
                             "ocrArabicPage" -> {
                                 // Offline recognition: only locally imported PDF,
                                 // model bundled at build, no network activity.

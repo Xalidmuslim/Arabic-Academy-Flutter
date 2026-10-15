@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Color
+import android.graphics.Rect
 import android.graphics.pdf.PdfRenderer
 import android.os.ParcelFileDescriptor
 import com.googlecode.tesseract.android.TessBaseAPI
@@ -113,4 +114,145 @@ internal object ArabicPdfOcr {
             bitmap.recycle()
         }
     }
+
+    /**
+     * Auto-detect the relevant conversation on a scan before the final OCR.
+     *
+     * Detects Arabic text-line bounding boxes, separates independent dialogue
+     * blocks by vertical whitespace, and restricts the second OCR pass to the
+     * selected block. A d2 page hint can be two pages later than the first
+     * scan containing both (a)/(b) conversations; in this case also inspect
+     * the earlier page and choose its second block if identified.
+     *
+     * This is heuristic layout analysis, NOT a source-accuracy guarantee.
+     */
+    fun recognizeDialogue(
+        context: Context,
+        part: Int,
+        pageIndex: Int,
+        dialogueSlot: Int,
+    ): Map<String, Any> {
+        require(part == 1 || part == 2) { "Invalid book part" }
+        require(pageIndex >= 0) { "Invalid page index" }
+        require(dialogueSlot in 1..2) { "Invalid dialogue slot" }
+        val privateFolder = File(context.filesDir, "private_textbooks").canonicalFile
+        val pdf = File(privateFolder, "student_book_1_part_${part}.pdf").canonicalFile
+        require(pdf.parentFile == privateFolder) { "Invalid book location" }
+        if (!pdf.isFile) {
+            return mapOf("status" to "missing", "text" to "", "page_index" to pageIndex)
+        }
+        require(pdf.length() in 5L..(400L * 1024 * 1024)) { "Invalid PDF size" }
+
+        val root = modelDirectory(context)
+        val tess = TessBaseAPI()
+        try {
+            check(tess.init(root.absolutePath, "ara")) {
+                "Unable to initialize offline Arabic OCR engine"
+            }
+            return ParcelFileDescriptor.open(
+                pdf, ParcelFileDescriptor.MODE_READ_ONLY
+            ).use { descriptor ->
+                PdfRenderer(descriptor).use { renderer ->
+                    require(pageIndex < renderer.pageCount) {
+                        "PDF page index out of range"
+                    }
+                    // Only one previous page is checked for a second dialogue.
+                    // We never upload or index an entire textbook.
+                    val indexes = if (dialogueSlot == 2 && pageIndex >= 2) {
+                        listOf(pageIndex - 2, pageIndex)
+                    } else {
+                        listOf(pageIndex)
+                    }
+                    for (candidateIndex in indexes) {
+                        val bitmap = renderer.openPage(candidateIndex).use { page ->
+                            val scale = minOf(2300.0 / page.width, 3300.0 / page.height)
+                            val width = (page.width * scale).toInt().coerceAtLeast(480)
+                            val height = (page.height * scale).toInt().coerceAtLeast(480)
+                            Bitmap.createBitmap(
+                                width, height, Bitmap.Config.ARGB_8888
+                            ).also { image ->
+                                Canvas(image).drawColor(Color.WHITE)
+                                page.render(
+                                    image, null, null,
+                                    PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY
+                                )
+                            }
+                        }
+                        try {
+                            tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_AUTO)
+                            tess.setImage(bitmap)
+                            // Recognition must occur before iterating text-line boxes.
+                            tess.getUTF8Text()
+                            val lines = mutableListOf<ArabicDialogueRegion.Line>()
+                            val iterator = tess.getResultIterator()
+                            if (iterator != null) {
+                                try {
+                                    iterator.begin()
+                                    do {
+                                        val text = iterator.getUTF8Text(
+                                            TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
+                                        )?.trim().orEmpty()
+                                        val box = iterator.getBoundingRect(
+                                            TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
+                                        )
+                                        val confidence = iterator.confidence(
+                                            TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
+                                        )
+                                        if (text.isNotEmpty() && box != null) {
+                                            lines.add(
+                                                ArabicDialogueRegion.Line(text, box, confidence)
+                                            )
+                                        }
+                                    } while (iterator.next(
+                                        TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
+                                    ))
+                                } finally {
+                                    iterator.delete()
+                                }
+                            }
+                            val selection = ArabicDialogueRegion.choose(
+                                lines, bitmap.width, bitmap.height, dialogueSlot
+                            )
+                            val region = selection.crop ?: continue
+                            // Do not confuse the first dialogue on a previous
+                            // page with the requested second one.
+                            if (candidateIndex != pageIndex &&
+                                selection.groupsOnPage < 2) {
+                                continue
+                            }
+                            tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_SINGLE_BLOCK)
+                            tess.setRectangle(region)
+                            val recognized = ArabicDialogueRegion.onlyDialogueLines(
+                                tess.getUTF8Text().orEmpty()
+                            )
+                            if (recognized.isNotBlank()) {
+                                return@use mapOf(
+                                    "status" to "ocr",
+                                    "text" to recognized,
+                                    "page_index" to candidateIndex,
+                                    "auto_selected" to true,
+                                    "detected_blocks" to selection.groupsOnPage,
+                                    "review_required" to true,
+                                    "method" to "tesseract_arabic_auto_dialogue_region"
+                                )
+                            }
+                        } finally {
+                            bitmap.recycle()
+                        }
+                    }
+                    mapOf(
+                        "status" to "empty",
+                        "text" to "",
+                        "page_index" to pageIndex,
+                        "auto_selected" to false,
+                        "detected_blocks" to 0,
+                        "review_required" to true,
+                    )
+                }
+            }
+        } finally {
+            tess.recycle()
+        }
+    }
+
 }

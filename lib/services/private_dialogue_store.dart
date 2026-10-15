@@ -59,6 +59,21 @@ class PdfTextExtraction {
   final String text;
 }
 
+/// A selected block of dialogue; it is NOT authoritative until user verified.
+class DialogueOcrResult extends PdfTextExtraction {
+  const DialogueOcrResult(
+    super.status,
+    super.text, {
+    required this.pageIndex,
+    required this.autoSelected,
+    required this.detectedBlocks,
+  });
+
+  final int pageIndex;
+  final bool autoSelected;
+  final int detectedBlocks;
+}
+
 abstract class OriginalDialogueStore {
   Future<bool> hasImportedPdf(int part);
   Future<SavedOriginalDialogue?> load(int part, String lessonId);
@@ -66,6 +81,9 @@ abstract class OriginalDialogueStore {
   Future<void> clearPart(int part);
   Future<PdfTextExtraction> extractText(int part, int pageIndex);
   Future<PdfTextExtraction> recognizeScan(int part, int pageIndex);
+  Future<DialogueOcrResult> recognizeDialogue(
+    int part, int pageIndex, int dialogueSlot,
+  );
 }
 
 class OnDeviceDialogueStore implements OriginalDialogueStore {
@@ -168,6 +186,50 @@ class OnDeviceDialogueStore implements OriginalDialogueStore {
       throw const FormatException('Unexpected scanned PDF OCR status');
     }
     return PdfTextExtraction(status, result?['text']?.toString() ?? '');
+  }
+
+
+  @override
+  Future<DialogueOcrResult> recognizeDialogue(
+    int part, int pageIndex, int dialogueSlot,
+  ) async {
+    _check(part);
+    if (pageIndex < 0 || pageIndex > 10000) {
+      throw ArgumentError.value(pageIndex, 'pageIndex');
+    }
+    if (dialogueSlot != 1 && dialogueSlot != 2) {
+      throw ArgumentError.value(dialogueSlot, 'dialogueSlot');
+    }
+    if (!Platform.isAndroid) {
+      return DialogueOcrResult('unsupported', '',
+          pageIndex: pageIndex, autoSelected: false, detectedBlocks: 0);
+    }
+    final result = await _native.invokeMapMethod<String, dynamic>(
+      'ocrArabicDialogue', {
+        'part': part,
+        'page': pageIndex,
+        'dialogueSlot': dialogueSlot,
+      },
+    );
+    final status = result?['status']?.toString() ?? 'empty';
+    if (!const ['ocr', 'empty', 'missing'].contains(status)) {
+      throw const FormatException('Unknown automatic dialogue OCR status');
+    }
+    final actualPage = result?['page_index'];
+    if (actualPage is! int || actualPage < 0 || actualPage > 10000) {
+      throw const FormatException('Invalid dialogue source page');
+    }
+    final groupCount = result?['detected_blocks'];
+    if (groupCount != null && (groupCount is! int || groupCount < 0)) {
+      throw const FormatException('Invalid dialogue section count');
+    }
+    return DialogueOcrResult(
+      status,
+      result?['text']?.toString() ?? '',
+      pageIndex: actualPage,
+      autoSelected: result?['auto_selected'] == true,
+      detectedBlocks: groupCount is int ? groupCount : 0,
+    );
   }
 
 }

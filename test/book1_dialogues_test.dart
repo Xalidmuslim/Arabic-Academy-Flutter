@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:arabic_academy/core/academy_state.dart';
 import 'package:arabic_academy/features/learning/lesson_screen.dart';
-import 'package:arabic_academy/features/learning/textbook_reader_screen.dart';
+import 'package:arabic_academy/features/learning/original_dialogue_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -38,7 +38,7 @@ void main() {
     }
   });
 
-  testWidgets('dialogue links to exact original PDF page', (tester) async {
+  testWidgets('dialogue directly links to personal original without duplicate PDF', (tester) async {
     SharedPreferences.setMockInitialValues(<String, Object>{});
     final prefs = await SharedPreferences.getInstance();
     // This 65 KB asset is UTF-8 decoded in a background isolate by Flutter.
@@ -61,16 +61,14 @@ void main() {
       )),
     );
     await tester.pump();
-    final button = find.byKey(const ValueKey('open-original-pdf-page'));
+    final button = find.byKey(const ValueKey('open-original-dialogue'));
     expect(button, findsOneWidget);
-    expect(find.textContaining('страница 24'), findsOneWidget);
+    expect(find.byKey(const ValueKey('open-original-pdf-page')), findsNothing);
     await tester.ensureVisible(button);
     await tester.tap(button);
-    // The PDF reader initializes platform services asynchronously. Navigation
-    // must not wait for native PDF loading or an indefinitely active indicator.
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 350));
-    expect(find.byType(TextbookReaderScreen), findsOneWidget);
-    expect(find.text('Учебник · Часть 1'), findsOneWidget);
+    expect(find.byType(OriginalDialogueScreen), findsOneWidget);
+    expect(find.text('Оригинальный диалог'), findsOneWidget);
   });
 }
