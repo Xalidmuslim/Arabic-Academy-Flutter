@@ -215,7 +215,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       _error = null;
     });
     try {
-      final image = await store.renderCrop(_part, _page, crop);
+      final image = await (store as DialogueArtworkStore).renderCrop(_part, _page, crop);
       if (!mounted) return;
       setState(() {
         _originalPng = image;
