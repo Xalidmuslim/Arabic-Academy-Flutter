@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 
@@ -37,6 +38,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
   bool _editing = false;
   bool _verified = false;
   bool _hadStoredText = false;
+  Uint8List? _originalPng;
+  DialogueCrop? _crop;
+  bool _editingCrop = false;
   String _source = 'manual';
   String? _message;
   String? _error;
@@ -57,10 +61,21 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
     try {
       final hasBook = await _store.hasImportedPdf(_part);
       final saved = await _store.load(_part, _lessonId);
+      Uint8List? preview;
+      if (hasBook && saved?.crop != null && _store is DialogueArtworkStore) {
+        try {
+          preview = await (_store as DialogueArtworkStore)
+              .renderCrop(_part, saved!.pageIndex, saved.crop!);
+        } catch (_) {
+          // A changed or damaged PDF must not suppress the saved transcription.
+        }
+      }
       if (!mounted) return;
       setState(() {
         _bookReady = hasBook;
         _hadStoredText = saved != null;
+        _crop = saved?.crop;
+        _originalPng = preview;
         if (saved != null) {
           _page = saved.pageIndex;
           _transcript.text = saved.text;
@@ -98,6 +113,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       final wasReplaced = _hadStoredText && storedAfter == null;
       _hadStoredText = storedAfter != null;
       if (wasReplaced) {
+        _crop = null;
+        _originalPng = null;
+        _editingCrop = false;
         _transcript.clear();
         _verified = false;
         _source = 'manual';
@@ -107,6 +125,12 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       }
       if (selected != null && selected != _page) {
         _page = selected;
+        _crop = null;
+        _originalPng = null;
+        _editingCrop = false;
+        _transcript.clear();
+        _source = 'manual';
+        _editing = false;
         _verified = false;
         if (!wasReplaced) {
           _message =
@@ -127,6 +151,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       _busy = true;
       _message = null;
       _error = null;
+      _originalPng = null;
+      _crop = null;
+      _editingCrop = false;
     });
     try {
       // The native engine analyzes text-line positions, separates dialogues
@@ -137,6 +164,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       if (!mounted) return;
       setState(() {
         _busy = false;
+        _crop = data.crop;
+        _originalPng = data.imagePng;
+        if (data.crop != null) _page = data.pageIndex;
         if (data.status == 'ocr' && data.text.trim().isNotEmpty) {
           if (_page != data.pageIndex) {
             _page = data.pageIndex;
@@ -153,7 +183,10 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
               : 'Текст получен, но точность выделения не подтверждена. '
                   'Сверьте область и реплики по оригинальной странице.';
         } else if (data.status == 'empty') {
-          _message = 'Не удалось надёжно определить область диалога. '
+          _message = data.crop != null
+              ? 'Оригинальный фрагмент найден, но OCR не распознал реплики. '
+                  'Проверьте границы и введите арабский текст вручную.'
+              : 'Не удалось надёжно определить область диалога. '
               'Откройте страницу PDF, выберите правильную страницу '
               'и повторите автоматический поиск. '
               'Полный текст страницы подставляться не будет.';
@@ -173,10 +206,38 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
     }
   }
 
+  Future<void> _renderManualCrop() async {
+    final crop = _crop;
+    final store = _store;
+    if (crop == null || !crop.isValid || store is! DialogueArtworkStore) return;
+    setState(() {
+      _busy = true;
+      _error = null;
+    });
+    try {
+      final image = await store.renderCrop(_part, _page, crop);
+      if (!mounted) return;
+      setState(() {
+        _originalPng = image;
+        _editingCrop = false;
+        _verified = false;
+        _busy = false;
+        _message = 'Границы изменены. Сверьте картинку и огласовки, '
+            'затем сохраните локально.';
+      });
+    } catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _busy = false;
+        _error = 'Не удалось обрезать PDF: $e';
+      });
+    }
+  }
+
   Future<void> _save() async {
     if (_busy || !_bookReady) return;
-    if (_transcript.text.trim().isEmpty) {
-      setState(() => _error = 'Введите текст реплик перед сохранением.');
+    if (_transcript.text.trim().isEmpty && _crop == null) {
+      setState(() => _error = 'Добавьте фрагмент PDF или текст реплик.');
       return;
     }
     setState(() {
@@ -189,6 +250,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         text: _transcript.text.trim(),
         verified: _verified,
         source: _source,
+        crop: _crop,
       ));
       if (!mounted) return;
       setState(() {
@@ -312,6 +374,97 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
               child: Text(_error!, key: const ValueKey('original-dialogue-error')),
             ),
           if (_bookReady && !_busy) ...[
+            Row(
+              children: [
+                Expanded(
+                  child: Text('Оригинальный фрагмент PDF',
+                      style: Theme.of(context).textTheme.titleLarge),
+                ),
+                if (_store is DialogueArtworkStore)
+                  TextButton(
+                    key: const ValueKey('original-dialogue-crop-edit'),
+                    onPressed: () => setState(() {
+                      _crop ??= const DialogueCrop(0.05, 0.08, 0.95, 0.90);
+                      _editingCrop = !_editingCrop;
+                    }),
+                    child: Text(_crop == null ? 'Выделить' : 'Границы'),
+                  ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            if (_originalPng != null) ...[
+              Container(
+                key: const ValueKey('original-dialogue-pdf-fragment'),
+                height: 300,
+                clipBehavior: Clip.antiAlias,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: InteractiveViewer(
+                  key: const ValueKey('original-dialogue-pdf-zoom'),
+                  minScale: 1,
+                  maxScale: 6,
+                  boundaryMargin: const EdgeInsets.all(18),
+                  child: Center(
+                    child: Image.memory(_originalPng!,
+                        fit: BoxFit.contain, gaplessPlayback: true),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 6),
+              const Text('Оригинальные пиксели PDF. Увеличивайте двумя '
+                  'пальцами. Границы автоматические и требуют проверки.',
+                  style: TextStyle(fontSize: 12)),
+            ] else
+              const Text('Нажмите «Найти и распознать только диалог» '
+                  'для автоматической обрезки оригинальной страницы.',
+                  style: TextStyle(fontSize: 12)),
+            if (_editingCrop && _crop != null) ...[
+              const SizedBox(height: 12),
+              const Text('Границы по ширине страницы PDF'),
+              RangeSlider(
+                key: const ValueKey('original-dialogue-crop-horizontal'),
+                values: RangeValues(_crop!.left, _crop!.right),
+                min: 0,
+                max: 1,
+                onChanged: (value) {
+                  if (value.end - value.start < 0.08) return;
+                  setState(() {
+                    _crop = DialogueCrop(value.start, _crop!.top,
+                        value.end, _crop!.bottom);
+                  });
+                },
+              ),
+              const Text('Границы по высоте страницы PDF'),
+              RangeSlider(
+                key: const ValueKey('original-dialogue-crop-vertical'),
+                values: RangeValues(_crop!.top, _crop!.bottom),
+                min: 0,
+                max: 1,
+                onChanged: (value) {
+                  if (value.end - value.start < 0.06) return;
+                  setState(() {
+                    _crop = DialogueCrop(_crop!.left, value.start,
+                        _crop!.right, value.end);
+                  });
+                },
+              ),
+              FilledButton.icon(
+                key: const ValueKey('original-dialogue-crop-apply'),
+                onPressed: _renderManualCrop,
+                icon: const Icon(Icons.crop),
+                label: const Text('Применить обрезку'),
+              ),
+            ],
+            if (_crop != null && !_editing && _transcript.text.trim().isEmpty)
+              TextButton.icon(
+                key: const ValueKey('original-dialogue-save-image'),
+                onPressed: _save,
+                icon: const Icon(Icons.save_outlined),
+                label: const Text('Сохранить фрагмент PDF'),
+              ),
+            const SizedBox(height: 20),
             Row(
               children: [
                 Expanded(
