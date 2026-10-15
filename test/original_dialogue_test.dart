@@ -317,8 +317,10 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('original-dialogue-crop-horizontal')),
         findsOneWidget);
-    await tester.ensureVisible(
-        find.byKey(const ValueKey('original-dialogue-crop-apply')));
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-crop-apply')),
+      160, scrollable: find.byType(Scrollable).first,
+    );
     await tester.tap(find.byKey(const ValueKey('original-dialogue-crop-apply')));
     await tester.pumpAndSettle();
     expect(store.cropRenders, 1);
