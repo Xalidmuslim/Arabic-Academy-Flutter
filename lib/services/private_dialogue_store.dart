@@ -4,6 +4,8 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 
+import 'dialogue_ocr_region.dart';
+
 /// Text brought in by the owner of a local PDF. Never bundled, published,
 /// uploaded, or inserted in the academy's synced lesson catalog.
 class SavedOriginalDialogue {
@@ -66,6 +68,16 @@ abstract class OriginalDialogueStore {
   Future<void> clearPart(int part);
   Future<PdfTextExtraction> extractText(int part, int pageIndex);
   Future<PdfTextExtraction> recognizeScan(int part, int pageIndex);
+
+  /// Local thumbnail of the same full PDF page the OCR region refers to.
+  Future<PrivatePdfPagePreview?> previewPage(int part, int pageIndex);
+
+  /// Tesseract processes ONLY the selected coordinates, not the whole page.
+  Future<PdfTextExtraction> recognizeRegion(
+    int part,
+    int pageIndex,
+    DialogueOcrRegion region,
+  );
 }
 
 class OnDeviceDialogueStore implements OriginalDialogueStore {
@@ -166,6 +178,51 @@ class OnDeviceDialogueStore implements OriginalDialogueStore {
     final status = result?['status']?.toString() ?? 'empty';
     if (!const ['ocr', 'empty', 'missing'].contains(status)) {
       throw const FormatException('Unexpected scanned PDF OCR status');
+    }
+    return PdfTextExtraction(status, result?['text']?.toString() ?? '');
+  }
+
+
+  @override
+  Future<PrivatePdfPagePreview?> previewPage(int part, int pageIndex) async {
+    _check(part);
+    if (pageIndex < 0) throw ArgumentError.value(pageIndex, 'pageIndex');
+    if (!Platform.isAndroid) return null;
+    final result = await _native.invokeMapMethod<String, dynamic>(
+      'previewOcrPage',
+      {'part': part, 'page': pageIndex, 'width': 1000},
+    );
+    if (result?['status'] == 'missing') return null;
+    final bytes = result?['bytes'];
+    final width = result?['width'];
+    final height = result?['height'];
+    if (bytes is! Uint8List || width is! int || height is! int) {
+      throw const FormatException('Invalid PDF preview from Android');
+    }
+    final preview = PrivatePdfPagePreview(
+      bytes: bytes, width: width, height: height,
+    );
+    if (!preview.valid) throw const FormatException('Empty PDF page preview');
+    return preview;
+  }
+
+  @override
+  Future<PdfTextExtraction> recognizeRegion(
+    int part,
+    int pageIndex,
+    DialogueOcrRegion region,
+  ) async {
+    _check(part);
+    if (pageIndex < 0) throw ArgumentError.value(pageIndex, 'pageIndex');
+    final bounds = region.normalizedBounds;
+    if (!Platform.isAndroid) return const PdfTextExtraction('unsupported', '');
+    final result = await _native.invokeMapMethod<String, dynamic>(
+      'ocrArabicRegion',
+      {'part': part, 'page': pageIndex, 'region': bounds},
+    );
+    final status = result?['status']?.toString() ?? 'empty';
+    if (!const ['ocr', 'empty', 'missing'].contains(status)) {
+      throw const FormatException('Invalid cropped PDF OCR status');
     }
     return PdfTextExtraction(status, result?['text']?.toString() ?? '');
   }
