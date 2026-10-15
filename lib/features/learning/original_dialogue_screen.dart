@@ -236,7 +236,12 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
 
   Future<void> _save() async {
     if (_busy || !_bookReady) return;
-    if (_transcript.text.trim().isEmpty && _crop == null) {
+    if (_editingCrop) {
+      setState(() => _error = 'Примените границы обрезки перед сохранением.');
+      return;
+    }
+    if (_transcript.text.trim().isEmpty &&
+        (_crop == null || _originalPng == null)) {
       setState(() => _error = 'Добавьте фрагмент PDF или текст реплик.');
       return;
     }
@@ -257,7 +262,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         _busy = false;
         _editing = false;
         _hadStoredText = true;
-        _message = 'Текст сохранён только в памяти этого телефона.';
+        _message = _crop == null
+            ? 'Текст сохранён только на этом телефоне.'
+            : 'Фрагмент PDF и текст сохранены только на этом телефоне.';
       });
     } catch (e) {
       if (!mounted) return;
@@ -302,7 +309,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
         children: [
-          if (illustration != null)
+          if (illustration != null && _originalPng == null)
             Center(
               child: FittedStudyArtwork(
                 image: AssetImage(illustration),
@@ -433,6 +440,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                   setState(() {
                     _crop = DialogueCrop(value.start, _crop!.top,
                         value.end, _crop!.bottom);
+                    _verified = false;
                   });
                 },
               ),
@@ -447,6 +455,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                   setState(() {
                     _crop = DialogueCrop(_crop!.left, value.start,
                         _crop!.right, value.end);
+                    _verified = false;
                   });
                 },
               ),
@@ -457,7 +466,8 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 label: const Text('Применить обрезку'),
               ),
             ],
-            if (_crop != null && !_editing && _transcript.text.trim().isEmpty)
+            if (_crop != null && _originalPng != null &&
+                !_editing && !_editingCrop && _transcript.text.trim().isEmpty)
               TextButton.icon(
                 key: const ValueKey('original-dialogue-save-image'),
                 onPressed: _save,
