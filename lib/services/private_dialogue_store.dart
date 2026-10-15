@@ -33,7 +33,9 @@ class SavedOriginalDialogue {
         value['page_index'] is! int ||
         value['text'] is! String ||
         value['verified'] is! bool ||
-        (value['source'] != 'manual' && value['source'] != 'pdf_text')) {
+        (value['source'] != 'manual' &&
+            value['source'] != 'pdf_text' &&
+            value['source'] != 'ocr_arabic')) {
       return null;
     }
     final page = value['page_index'] as int;
@@ -52,7 +54,7 @@ class SavedOriginalDialogue {
 class PdfTextExtraction {
   const PdfTextExtraction(this.status, this.text);
 
-  /// ok, empty (scanned image), unsupported (older Android), missing.
+  /// ok, ocr (unverified Arabic scan), empty, unsupported, missing.
   final String status;
   final String text;
 }
@@ -63,6 +65,7 @@ abstract class OriginalDialogueStore {
   Future<void> save(int part, String lessonId, SavedOriginalDialogue record);
   Future<void> clearPart(int part);
   Future<PdfTextExtraction> extractText(int part, int pageIndex);
+  Future<PdfTextExtraction> recognizeScan(int part, int pageIndex);
 }
 
 class OnDeviceDialogueStore implements OriginalDialogueStore {
@@ -151,4 +154,20 @@ class OnDeviceDialogueStore implements OriginalDialogueStore {
     }
     return PdfTextExtraction(status, result?['text']?.toString() ?? '');
   }
+  @override
+  Future<PdfTextExtraction> recognizeScan(int part, int pageIndex) async {
+    _check(part);
+    if (pageIndex < 0) throw ArgumentError.value(pageIndex, 'pageIndex');
+    if (!Platform.isAndroid) return const PdfTextExtraction('unsupported', '');
+    final result = await _native.invokeMapMethod<String, dynamic>('ocrArabicPage', {
+      'part': part,
+      'page': pageIndex,
+    });
+    final status = result?['status']?.toString() ?? 'empty';
+    if (!const ['ocr', 'empty', 'missing'].contains(status)) {
+      throw const FormatException('Unexpected scanned PDF OCR status');
+    }
+    return PdfTextExtraction(status, result?['text']?.toString() ?? '');
+  }
+
 }
