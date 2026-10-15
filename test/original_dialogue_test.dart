@@ -155,9 +155,13 @@ void main() {
     await tester.tap(find.byKey(
         const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
+    expect(find.textContaining('Область диалога найдена автоматически'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
     expect(find.byKey(const ValueKey('original-dialogue-editor')),
         findsOneWidget);
-    expect(find.textContaining('Область диалога найдена автоматически'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.byKey(const ValueKey('original-dialogue-verified')),
       250,
@@ -241,6 +245,10 @@ void main() {
         const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
     expect(store.ocrCalls, 1);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
     final editor = tester.widget<TextField>(
       find.byKey(const ValueKey('original-dialogue-editor')),
     );
@@ -315,8 +323,10 @@ void main() {
     await tester.pumpAndSettle();
     expect(store.cropRenders, 1);
 
-    await tester.ensureVisible(
-        find.byKey(const ValueKey('original-dialogue-save')));
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-save')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
     await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
     await tester.pumpAndSettle();
     expect(store.records['1/book1-u1-d1']!.crop, isNotNull);
