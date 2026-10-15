@@ -262,13 +262,12 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
           _source = 'ocr_arabic';
           _editing = true;
           if (data.yellowDetected == true) {
+            final incomplete = data.blueLines == 0 || data.orangeLines == 0;
             _message = 'Жёлтая область диалога выделена без фотографии. '
                 'Синие реплики: ${data.blueLines}, '
                 'оранжевые: ${data.orangeLines}. '
-                '${data.blueLines == 0 || data.orangeLines == 0 ? '
-                "'Один из цветов распознан не полностью — "
-                'проверьте пропущенные строки. ' : ''}'
-                'Сверьте слова и огласовки с оригинальным PDF.';
+                '${incomplete ? "Один из цветов распознан не полностью. " : ""}'
+                'Сверьте пропущенные слова и огласовки с оригинальным PDF.';
           } else if (data.yellowDetected == false) {
             _message = 'Граница жёлтого фона не определена надёжно. '
                 'Обрезана только текстовая колонка, без изображения. '
