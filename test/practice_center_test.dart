@@ -213,7 +213,7 @@ void main() {
     final continueButton = find.text('Далее');
     await tester.scrollUntilVisible(
       continueButton, 230,
-      scrollable: find.byType(Scrollable).first,
+      scrollable: find.byType(Scrollable).last,
     );
     await tester.tap(continueButton);
     await tester.pumpAndSettle();
