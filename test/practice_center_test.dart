@@ -209,13 +209,18 @@ void main() {
     )));
     await tester.tap(find.text('Open lesson'));
     await tester.pumpAndSettle();
-    expect(find.text('Изучаю'), findsWidgets);
-    await tester.tap(find.text('Начать урок'));
+    expect(find.text('Диалог'), findsWidgets);
+    final continueButton = find.text('Далее');
+    await tester.scrollUntilVisible(
+      continueButton, 230,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(continueButton);
     await tester.pumpAndSettle();
-    expect(find.text('Новые слова'), findsOneWidget);
+    expect(find.text('Новые слова'), findsWidgets);
     await tester.binding.handlePopRoute();
     await tester.pumpAndSettle();
-    expect(find.text('Цель обучения'), findsOneWidget);
+    expect(find.text('Диалог · авторская практика'), findsOneWidget);
     await tester.binding.handlePopRoute();
     await tester.pumpAndSettle();
     expect(find.text('Open lesson'), findsOneWidget);
