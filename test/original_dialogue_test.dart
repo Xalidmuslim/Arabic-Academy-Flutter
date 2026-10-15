@@ -21,7 +21,17 @@ class MemoryOriginalDialogueStore
     lastCrop = crop;
     return tinyPng;
   }
-  MemoryOriginalDialogueStore({this.pdfPresent = true, this.extracted = '', this.scanned = ''});
+  MemoryOriginalDialogueStore({
+    this.pdfPresent = true,
+    this.extracted = '',
+    this.scanned = '',
+    this.yellowDetected,
+    this.blueLines = 0,
+    this.orangeLines = 0,
+  });
+  final bool? yellowDetected;
+  final int blueLines;
+  final int orangeLines;
   bool pdfPresent;
   String extracted;
   String scanned;
@@ -68,6 +78,9 @@ class MemoryOriginalDialogueStore
           ? const DialogueCrop(0.08, 0.23, 0.92, 0.72)
           : null,
       imagePng: scanned.isNotEmpty ? tinyPng : null,
+      yellowDetected: yellowDetected,
+      blueLines: blueLines,
+      orangeLines: orangeLines,
     );
   }
 
@@ -373,5 +386,51 @@ void main() {
     expect(store.ocrCalls, 0);
   });
 
+
+  testWidgets('yellow panel reports both Arabic ink colors and keeps tashkeel',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: 'خَالِدٌ: السَّلَامُ عَلَيْكُمْ\\nخَلِيلٌ: وَعَلَيْكُمُ السَّلَامُ',
+      yellowDetected: true,
+      blueLines: 1,
+      orangeLines: 1,
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('без фотографии'), findsOneWidget);
+    expect(find.textContaining('Синие реплики: 1'), findsOneWidget);
+    expect(find.textContaining('оранжевые: 1'), findsOneWidget);
+    expect(find.textContaining('не полностью'), findsNothing);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
+    final text = tester.widget<TextField>(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+    ).controller!.text;
+    expect(text, contains('السَّلَامُ'));
+  });
+
+  testWidgets('missing blue lines are flagged for manual source review',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: 'خَلِيلٌ: وَعَلَيْكُمُ السَّلَامُ',
+      yellowDetected: true,
+      orangeLines: 1,
+      blueLines: 0,
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('не полностью'), findsOneWidget);
+    expect(find.textContaining('Синие реплики: 0'), findsOneWidget);
+  });
 
 }
