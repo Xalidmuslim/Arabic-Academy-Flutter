@@ -176,7 +176,12 @@ void main() {
     ));
     await tester.pumpAndSettle();
     expect(find.text('Диалог'), findsWidgets);
-    await tester.tap(find.text('Читать и слушать').first);
+    await tester.scrollUntilVisible(
+      find.text('Авторский текст').first,
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(find.text('Авторский текст').first);
     await tester.pumpAndSettle();
     expect(find.text('Умное чтение'), findsOneWidget);
   });

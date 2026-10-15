@@ -5,16 +5,25 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 
+import '../../services/private_dialogue_store.dart';
+
 /// The scanned book is NEVER checked into the public repository or bundled
 /// into the distributed APK. The reader opens a private copy the user picks
 /// on their own device, preserving the book's images and Arabic diacritics.
 class TextbookReaderScreen extends StatefulWidget {
-  const TextbookReaderScreen({super.key, this.initialPage = 22, this.part = 1})
+  const TextbookReaderScreen({
+    super.key,
+    this.initialPage = 22,
+    this.part = 1,
+    this.selectPageForDialogue = false,
+  })
       : assert(part == 1 || part == 2);
 
   /// Zero-based starting page within the selected privately imported file.
   final int initialPage;
   final int part;
+  /// When true, the user can choose the verified page for one dialogue.
+  final bool selectPageForDialogue;
 
   @override
   State<TextbookReaderScreen> createState() => _TextbookReaderScreenState();
@@ -144,6 +153,31 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       }
       return;
     }
+    if (!mounted) return;
+    if (_hasBook) {
+      final confirmed = await showDialog<bool>(
+        context: context,
+        builder: (dialogContext) => AlertDialog(
+          title: const Text('Заменить личный PDF?'),
+          content: const Text(
+            'После замены сохранённые расшифровки диалогов этой '
+            'части будут удалены, потому что они привязаны '
+            'к прежнему учебнику. Продолжить?',
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(dialogContext).pop(false),
+              child: const Text('Отмена'),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.of(dialogContext).pop(true),
+              child: const Text('Заменить PDF'),
+            ),
+          ],
+        ),
+      );
+      if (confirmed != true || !mounted) return;
+    }
     setState(() {
       _busy = true;
       _error = null;
@@ -177,6 +211,9 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       }
       await temporary.rename(target.path);
       await _openFile(target);
+      // Replacing the source book must invalidate saved transcriptions so
+      // old quotations cannot accidentally be assigned to a new PDF.
+      await const OnDeviceDialogueStore().clearPart(widget.part);
     } catch (error) {
       if (mounted) {
         setState(() {
@@ -448,6 +485,16 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                           ),
                           ],
                           ),
+                          if (widget.selectPageForDialogue)
+                            Padding(
+                              padding: const EdgeInsets.only(top: 5, bottom: 7),
+                              child: FilledButton.icon(
+                                key: const ValueKey('choose-original-dialogue-page'),
+                                onPressed: () => Navigator.of(context).pop(_page),
+                                icon: const Icon(Icons.check),
+                                label: Text('Выбрать страницу ${_page + 1} для диалога'),
+                              ),
+                            ),
                         ],
                       ),
                     ),

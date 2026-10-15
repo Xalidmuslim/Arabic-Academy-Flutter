@@ -7,6 +7,7 @@ import '../../ui/fitted_study_artwork.dart';
 import '../../ui/study_art_asset.dart';
 import 'smart_reader_screen.dart';
 import 'dialogue_journey_screen.dart';
+import 'original_dialogue_screen.dart';
 
 /// Conversation scenarios follow real editorial dialogues already present in
 /// the student's lesson library. No unverified AI responses are invented.
@@ -27,8 +28,8 @@ class SituationsScreen extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(18, 14, 18, 150),
         children: [
           const Text(
-            'Практикуйте настоящие диалоги из материалов вашего курса. '
-            'Каждая следующая реплика проверяется по учебному тексту.',
+            'Оригинал открывается только из вашего личного PDF. '
+            'Тренировочные диалоги приложения написаны отдельно и не являются текстом издательства.',
             style: TextStyle(fontSize: 12, color: DesignTokens.secondary),
           ),
           const SizedBox(height: 14),
@@ -57,15 +58,28 @@ class SituationsScreen extends StatelessWidget {
                     const SizedBox(height: 6),
                     Text(
                       '${(lesson['dialogue'] as List).length} реплик · '
-                      'Практика по учебному материалу',
+                      'Авторский тренировочный диалог',
                       style: const TextStyle(
                         fontSize: 12, color: DesignTokens.secondary),
                     ),
                     const SizedBox(height: 10),
+                    if (lesson['pdf_page'] is int) ...[
+                      FilledButton.icon(
+                        key: ValueKey('original-situation-${lesson['id']}'),
+                        icon: const Icon(Icons.menu_book_outlined),
+                        label: const Text('Оригинал · мой PDF'),
+                        onPressed: () => Navigator.push(context,
+                          MaterialPageRoute<void>(
+                            builder: (_) => OriginalDialogueScreen(
+                              lesson: lesson),
+                          )),
+                      ),
+                      const SizedBox(height: 8),
+                    ],
                     Wrap(spacing: 8, runSpacing: 8, children: [
                       OutlinedButton.icon(
                         icon: const Icon(Icons.chrome_reader_mode_outlined),
-                        label: const Text('Читать и слушать'),
+                        label: const Text('Авторский текст'),
                         onPressed: () => Navigator.push(context,
                           MaterialPageRoute<void>(
                             builder: (_) => SmartReaderScreen(
@@ -74,7 +88,7 @@ class SituationsScreen extends StatelessWidget {
                       ),
                       FilledButton.icon(
                         icon: const Icon(Icons.alt_route_outlined),
-                        label: const Text('Диалог с вариантами'),
+                        label: const Text('Авторская практика'),
                         onPressed: () => Navigator.push(context,
                           MaterialPageRoute<void>(
                             builder: (_) => DialogueJourneyScreen(
