@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class MemoryOriginalDialogueStore implements OriginalDialogueStore {
-  MemoryOriginalDialogueStore({this.pdfPresent = true, this.extracted = ''});
+  MemoryOriginalDialogueStore({this.pdfPresent = true, this.extracted = '', this.scanned = ''});
   bool pdfPresent;
   String extracted;
+  String scanned;
+  int ocrCalls = 0;
   final Map<String, SavedOriginalDialogue> records = {};
   String _key(int part, String lessonId) => '$part/$lessonId';
 
@@ -31,6 +33,12 @@ class MemoryOriginalDialogueStore implements OriginalDialogueStore {
   @override
   Future<PdfTextExtraction> extractText(int part, int pageIndex) async =>
       PdfTextExtraction(extracted.isEmpty ? 'empty' : 'ok', extracted);
+
+  @override
+  Future<PdfTextExtraction> recognizeScan(int part, int pageIndex) async {
+    ocrCalls++;
+    return PdfTextExtraction(scanned.isEmpty ? 'empty' : 'ocr', scanned);
+  }
 }
 
 void main() {
@@ -89,6 +97,11 @@ void main() {
     expect(find.textContaining('Страница 30'), findsOneWidget);
     expect(find.textContaining('Проверено вами по PDF'), findsOneWidget);
     expect(find.text('السَّلَامُ عَلَيْكُمْ'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('وَعَلَيْكُمُ السَّلَامُ'),
+      150,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('وَعَلَيْكُمُ السَّلَامُ'), findsOneWidget);
     expect(find.text('هذا نص من إعدادنا'), findsNothing);
   });
@@ -128,10 +141,11 @@ void main() {
     expect(saved, isNotNull);
     expect(saved!.verified, isFalse);
     expect(saved.source, 'pdf_text');
+    expect(store.ocrCalls, 0);
     expect(saved.pageIndex, 23);
   });
 
-  testWidgets('scanned page explains manual transcription fallback',
+  testWidgets('unreadable scan reports OCR and supports manual corrections',
       (tester) async {
     final store = MemoryOriginalDialogueStore(extracted: '');
     await tester.pumpWidget(MaterialApp(
@@ -141,8 +155,60 @@ void main() {
     await tester.tap(find.byKey(
         const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
-    expect(find.textContaining('скан без извлекаемого'), findsOneWidget);
+    expect(find.textContaining('OCR не смог прочитать'), findsOneWidget);
+    expect(store.ocrCalls, 1);
     expect(find.byKey(const ValueKey('original-dialogue-editor')),
         findsOneWidget);
   });
+  testWidgets('Arabic OCR extracts scanned page and keeps lines unverified',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      extracted: '',
+      scanned: 'السَّلَامُ عَلَيْكُمْ\nوَعَلَيْكُمُ السَّلَامُ',
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(
+        const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    expect(store.ocrCalls, 1);
+    expect(find.textContaining('Арабский текст распознан со скана'),
+        findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-save')),
+      250,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(find.byKey(
+        const ValueKey('original-dialogue-save')));
+    await tester.pumpAndSettle();
+    final saved = store.records['1/book1-u1-d1'];
+    expect(saved, isNotNull);
+    expect(saved!.source, 'ocr_arabic');
+    expect(saved.verified, isFalse);
+    expect(saved.text, contains('السَّلَامُ'));
+  });
+
+  testWidgets('force OCR overrides a searchable text layer', (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      extracted: 'السَّلَامُ',
+      scanned: 'وَعَلَيْكُمُ السَّلَامُ',
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(
+        const ValueKey('original-dialogue-force-ocr')));
+    await tester.pumpAndSettle();
+    expect(store.ocrCalls, 1);
+    final editor = tester.widget<TextField>(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+    );
+    expect(editor.controller!.text, contains('وَعَلَيْكُمُ'));
+  });
+
+
 }

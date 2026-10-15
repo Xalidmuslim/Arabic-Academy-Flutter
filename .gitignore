@@ -21,3 +21,6 @@ android/key.properties
 .DS_Store
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
+
+# Reproducibly downloaded free/open Arabic OCR language model; never commit binary.
+android/app/src/main/assets/tessdata/ara.traineddata
