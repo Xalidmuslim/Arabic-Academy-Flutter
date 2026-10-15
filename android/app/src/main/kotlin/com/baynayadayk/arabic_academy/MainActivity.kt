@@ -172,6 +172,26 @@ class MainActivity : FlutterActivity() {
                                     page.close()
                                 }
                             }
+                            "previewOcrPage" -> {
+                                // Temporary private page preview for selecting the OCR crop.
+                                val part = call.argument<Int>("part") ?: 1
+                                val page = call.argument<Int>("page") ?: 0
+                                val width = call.argument<Int>("width") ?: 1000
+                                val image = ArabicPdfOcr.preview(
+                                    this@MainActivity, part, page, width
+                                )
+                                runOnUiThread { result.success(image) }
+                            }
+                            "ocrArabicRegion" -> {
+                                val part = call.argument<Int>("part") ?: 1
+                                val page = call.argument<Int>("page") ?: 0
+                                val bounds = call.argument<List<Double>>("region")
+                                    ?: throw IllegalArgumentException("Missing crop region")
+                                val transcription = ArabicPdfOcr.recognize(
+                                    this@MainActivity, part, page, bounds
+                                )
+                                runOnUiThread { result.success(transcription) }
+                            }
                             "ocrArabicPage" -> {
                                 // Offline recognition: only locally imported PDF,
                                 // model bundled at build, no network activity.
