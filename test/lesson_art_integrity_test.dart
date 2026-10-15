@@ -6,22 +6,28 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('lesson artwork is entirely visible without cropping and has soft shadows',
+  testWidgets('3D artwork has no square frame and keeps an alpha shadow',
       (tester) async {
     await tester.pumpWidget(const MaterialApp(
       home: Scaffold(body: Center(child: FittedStudyArtwork(
         image: AssetImage('assets/artwork/lessons.webp'), size: 132,
       ))),
     ));
-    final image = tester.widget<Image>(
+    final root = find.byKey(const ValueKey('fitted-study-artwork'));
+    expect(root, findsOneWidget);
+    expect(tester.widget<SizedBox>(root).width, 132);
+    expect(find.descendant(of: root, matching: find.byType(DecoratedBox)),
+      findsNothing,
+      reason: 'No tile, outline or rectangular drop shadow around 3D artwork');
+    expect(find.descendant(of: root, matching: find.byType(ImageFiltered)),
+      findsOneWidget,
+      reason: 'The soft shadow is derived from the image silhouette');
+    expect(find.descendant(of: root, matching: find.byType(ColorFiltered)),
+      findsOneWidget);
+    final foreground = tester.widget<Image>(
         find.byKey(const ValueKey('fitted-study-image')));
-    expect(image.fit, BoxFit.contain);
-    final wrapper = tester.widget<DecoratedBox>(
-        find.byKey(const ValueKey('fitted-study-artwork')));
-    final decor = wrapper.decoration as BoxDecoration;
-    expect(decor.boxShadow, isNotEmpty);
-    expect(decor.boxShadow!.first.blurRadius, greaterThan(12));
-    expect(decor.borderRadius, isNotNull);
+    expect(foreground.fit, BoxFit.contain);
+    expect(foreground.semanticLabel, isNull);
   });
 
   test('do not show an unrelated animal or room image as a vocabulary match', () {
