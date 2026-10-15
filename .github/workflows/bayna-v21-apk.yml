@@ -2,7 +2,7 @@ name: Bayna v21 semantic 3D art Android APK
 on:
   push:
     branches:
-      - codex/bayna-v21-personal-original-pdf-dialogues
+      - codex/bayna-v21-offline-arabic-scanned-pdf-ocr
   workflow_dispatch:
 permissions:
   contents: read
