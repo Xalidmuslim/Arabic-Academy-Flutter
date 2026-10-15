@@ -10,6 +10,92 @@ import '../../ui/fitted_study_artwork.dart';
 import '../../ui/study_art_asset.dart';
 import 'textbook_reader_screen.dart';
 
+/// Inline original scan preview for the lesson's primary Dialogue stage.
+/// Shows only a fragment previously saved by this learner from their PDF.
+class OriginalDialoguePdfPreview extends StatefulWidget {
+  const OriginalDialoguePdfPreview({
+    super.key,
+    required this.lesson,
+    this.store,
+  });
+
+  final Map<String, dynamic> lesson;
+  final OriginalDialogueStore? store;
+
+  @override
+  State<OriginalDialoguePdfPreview> createState() =>
+      _OriginalDialoguePdfPreviewState();
+}
+
+class _OriginalDialoguePdfPreviewState
+    extends State<OriginalDialoguePdfPreview> {
+  late final Future<Uint8List?> _preview;
+
+  @override
+  void initState() {
+    super.initState();
+    _preview = _load();
+  }
+
+  Future<Uint8List?> _load() async {
+    final store = widget.store ?? const OnDeviceDialogueStore();
+    if (store is! DialogueArtworkStore) return null;
+    final part = widget.lesson['pdf_part'] == 2 ? 2 : 1;
+    final id = widget.lesson['id'] as String?;
+    if (id == null || !await store.hasImportedPdf(part)) return null;
+    final saved = await store.load(part, id);
+    if (saved?.crop == null) return null;
+    try {
+      return await (store as DialogueArtworkStore).renderCrop(
+          part, saved!.pageIndex, saved.crop!);
+    } catch (_) {
+      return null;
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return FutureBuilder<Uint8List?>(
+      future: _preview,
+      builder: (context, snapshot) {
+        final bytes = snapshot.data;
+        if (bytes == null || bytes.isEmpty) {
+          return const SizedBox.shrink();
+        }
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Text('Диалог из оригинального PDF',
+                style: Theme.of(context).textTheme.titleLarge),
+            const SizedBox(height: 8),
+            Container(
+              key: const ValueKey('lesson-original-pdf-fragment'),
+              height: 290,
+              clipBehavior: Clip.antiAlias,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: InteractiveViewer(
+                key: const ValueKey('lesson-original-pdf-zoom'),
+                minScale: 1,
+                maxScale: 6,
+                boundaryMargin: const EdgeInsets.all(18),
+                child: Center(child: Image.memory(bytes, fit: BoxFit.contain)),
+              ),
+            ),
+            const SizedBox(height: 6),
+            const Text('Оригинальное оформление и огласовки из '
+                'вашего PDF. Увеличивайте двумя пальцами.',
+                style: TextStyle(fontSize: 12)),
+            const SizedBox(height: 16),
+          ],
+        );
+      },
+    );
+  }
+}
+
 /// A private companion to a reader-owned PDF. The bundled editorial dialog is
 /// deliberately NOT used as the original or silently substituted for it.
 class OriginalDialogueScreen extends StatefulWidget {
