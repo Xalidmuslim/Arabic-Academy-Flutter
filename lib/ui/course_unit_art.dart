@@ -35,7 +35,11 @@ class CourseUnitArt extends StatelessWidget {
   Widget build(BuildContext context) {
     final verified = StudyArtAsset.valid(imageAsset);
     if (verified != null) {
-      return FittedStudyArtwork(image: AssetImage(verified), size: size);
+      return FittedStudyArtwork(
+        image: AssetImage(verified),
+        size: size,
+        semanticLabel: 'Иллюстрация раздела $unitId',
+      );
     }
     final scheme = Theme.of(context).colorScheme;
     return Semantics(

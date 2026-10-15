@@ -264,6 +264,7 @@ class _UnitScreenState extends State<UnitScreen> {
                               children: [
                                 CourseUnitArt(
                                   unitId: unit['id'] as String,
+                                  size: 88,
                                   imageAsset: unit['illustration_asset'] as String?,
                                 ),
                                 const SizedBox(width: 12),

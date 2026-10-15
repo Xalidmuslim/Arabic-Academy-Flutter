@@ -42,7 +42,24 @@ void main() {
     expect(StudyArtAsset.valid(null), isNull);
   });
 
-  test('course art matches unit identity instead of repeating generic images', () {
+  testWidgets('compact topic art uses full-image fitting without cropping',
+      (tester) async {
+    await tester.pumpWidget(const MaterialApp(
+      home: Scaffold(body: CourseUnitArt(
+        unitId: 'u12',
+        imageAsset: 'assets/artwork/lesson_generated/u12_hobbies.webp',
+      )),
+    ));
+    final artwork = tester.widget<FittedStudyArtwork>(
+        find.byType(FittedStudyArtwork));
+    expect(artwork.size, 78);
+    final picture = tester.widget<Image>(
+        find.byKey(const ValueKey('fitted-study-image')));
+    expect(picture.fit, BoxFit.contain);
+    expect(artwork.image, isA<AssetImage>());
+  });
+
+    test('course art matches unit identity instead of repeating generic images', () {
     expect(CourseUnitArt.iconFor('u1'), Icons.waving_hand_rounded);
     expect(CourseUnitArt.iconFor('u9'), Icons.shopping_bag_outlined);
     expect(CourseUnitArt.iconFor('u10'), Icons.cloud_outlined);
