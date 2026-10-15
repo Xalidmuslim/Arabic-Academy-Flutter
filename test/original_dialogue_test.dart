@@ -170,7 +170,7 @@ void main() {
     final store = MemoryOriginalDialogueStore();
     store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
       pageIndex: 29,
-      text: 'السَّلَامُ عَلَيْكُمْ" + "\\n" + "وَعَلَيْكُمُ السَّلَامُ',
+      text: 'السَّلَامُ عَلَيْكُمْ\nوَعَلَيْكُمُ السَّلَامُ',
       verified: true,
       source: 'manual',
     );
