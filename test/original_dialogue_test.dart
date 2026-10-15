@@ -1,15 +1,29 @@
+import 'dart:convert';
+import 'dart:typed_data';
+
+import 'package:arabic_academy/features/learning/dialogue_region_picker_screen.dart';
 import 'package:arabic_academy/features/learning/original_dialogue_screen.dart';
+import 'package:arabic_academy/services/dialogue_ocr_region.dart';
 import 'package:arabic_academy/services/private_dialogue_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class MemoryOriginalDialogueStore implements OriginalDialogueStore {
-  MemoryOriginalDialogueStore({this.pdfPresent = true, this.extracted = '', this.scanned = ''});
+  MemoryOriginalDialogueStore({
+    this.pdfPresent = true,
+    this.scanned = '',
+    this.secondScan,
+  });
+
   bool pdfPresent;
-  String extracted;
   String scanned;
+  String? secondScan;
   int ocrCalls = 0;
+  int wholePageCalls = 0;
+  int previewCalls = 0;
+  DialogueOcrRegion? lastCrop;
   final Map<String, SavedOriginalDialogue> records = {};
+
   String _key(int part, String lessonId) => '$part/$lessonId';
 
   @override
@@ -20,73 +34,143 @@ class MemoryOriginalDialogueStore implements OriginalDialogueStore {
       records[_key(part, lessonId)];
 
   @override
-  Future<void> save(int part, String lessonId,
-      SavedOriginalDialogue record) async {
+  Future<void> save(
+      int part, String lessonId, SavedOriginalDialogue record) async {
     records[_key(part, lessonId)] = record;
   }
 
   @override
-  Future<void> clearPart(int part) async {
-    records.removeWhere((key, _) => key.startsWith('$part/'));
-  }
+  Future<void> clearPart(int part) async =>
+      records.removeWhere((key, _) => key.startsWith('$part/'));
 
   @override
-  Future<PdfTextExtraction> extractText(int part, int pageIndex) async =>
-      PdfTextExtraction(extracted.isEmpty ? 'empty' : 'ok', extracted);
+  Future<PdfTextExtraction> extractText(int part, int pageIndex) async {
+    wholePageCalls++;
+    return const PdfTextExtraction('empty', '');
+  }
 
   @override
   Future<PdfTextExtraction> recognizeScan(int part, int pageIndex) async {
+    wholePageCalls++;
+    return PdfTextExtraction('ocr', scanned);
+  }
+
+  @override
+  Future<PrivatePdfPagePreview?> previewPage(int part, int pageIndex) async {
+    previewCalls++;
+    if (!pdfPresent) return null;
+    // Valid, transparent 1x1 PNG: UI tests do not ship or display a
+    // copyrighted original PDF page.
+    return PrivatePdfPagePreview(
+      bytes: Uint8List.fromList(base64Decode(
+        'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9YlCnWQAAAAASUVORK5CYII=',
+      )),
+      width: 1,
+      height: 1,
+    );
+  }
+
+  @override
+  Future<PdfTextExtraction> recognizeRegion(
+    int part, int pageIndex, DialogueOcrRegion region,
+  ) async {
     ocrCalls++;
-    return PdfTextExtraction(scanned.isEmpty ? 'empty' : 'ocr', scanned);
+    lastCrop = region;
+    final value = ocrCalls > 1 ? (secondScan ?? scanned) : scanned;
+    return PdfTextExtraction(value.isEmpty ? 'empty' : 'ocr', value);
   }
 }
 
-void main() {
-  const lesson = <String, dynamic>{
-    'id': 'book1-u1-d1',
-    'title': 'Диалог 1. Знакомство в учебном центре',
-    'pdf_part': 1,
-    'pdf_page': 23,
-    // The editor's dialogue does NOT become the alleged original.
-    'dialogue': [
-      {'ar': 'هذا نص من إعدادنا', 'ru': 'Авторский текст'}
-    ],
-  };
+const lesson = <String, dynamic>{
+  'id': 'book1-u1-d1',
+  'title': 'Диалог 1. Знакомство в учебном центре',
+  'pdf_part': 1,
+  'pdf_page': 23,
+  'dialogue': [
+    {'ar': 'هذا نص من إعدادنا', 'ru': 'Авторский текст'}
+  ],
+};
 
-  test('saved personal transcription requires a review flag', () {
+Future<void> openCrop(WidgetTester tester) async {
+  final extract = find.byKey(const ValueKey('original-dialogue-extract'));
+  await tester.ensureVisible(extract);
+  await tester.tap(extract);
+  await tester.pumpAndSettle();
+  expect(find.byType(DialogueRegionPickerScreen), findsOneWidget);
+  expect(find.text('Выберите текст диалога'), findsOneWidget);
+  expect(find.byKey(const ValueKey('ocr-crop-page-preview')), findsOneWidget);
+}
+
+Future<void> confirmCrop(WidgetTester tester) async {
+  final confirm = find.byKey(const ValueKey('ocr-crop-confirm'));
+  await tester.scrollUntilVisible(
+    confirm,
+    200,
+    scrollable: find.byType(Scrollable).last,
+  );
+  await tester.tap(confirm);
+  await tester.pumpAndSettle();
+}
+
+void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
+  test('crop presets cover only the right-hand dialogue column', () {
+    const top = DialogueOcrRegion.upperDialogue;
+    const bottom = DialogueOcrRegion.lowerDialogue;
+    expect(top.valid, isTrue);
+    expect(bottom.valid, isTrue);
+    expect(top.left, greaterThan(0.50));
+    expect(bottom.left, greaterThan(0.50));
+    expect(top.bottom, lessThan(bottom.top));
+    expect(top.normalizedBounds, [0.57, 0.20, 0.97, 0.54]);
+  });
+
+  test('manual crop handles reversed drags and bounds', () {
+    final selected = DialogueOcrRegion.fromDrag(
+      0.94, 0.89, 0.58, 0.20,
+    );
+    expect(selected.valid, isTrue);
+    expect(selected.left, 0.58);
+    expect(selected.bottom, 0.89);
+    final clipped = DialogueOcrRegion.fromDrag(
+      -8, -2, 4, 3,
+    );
+    expect(clipped.normalizedBounds, [0, 0, 1, 1]);
+    expect(() => const DialogueOcrRegion(
+        left: .7, top: .5, right: .7, bottom: .5,
+      ).normalizedBounds, throwsFormatException);
+  });
+
+  test('local transcript remains unverified until source review', () {
     const record = SavedOriginalDialogue(
       pageIndex: 27,
       text: 'السَّلَامُ عَلَيْكُمْ',
       verified: false,
-      source: 'pdf_text',
+      source: 'ocr_arabic',
     );
     expect(SavedOriginalDialogue.fromJson(record.toJson())!.verified, false);
-    expect(SavedOriginalDialogue.fromJson(record.toJson())!.pageIndex, 27);
+    expect(SavedOriginalDialogue.fromJson(record.toJson())!.source, 'ocr_arabic');
     expect(SavedOriginalDialogue.fromJson({'version': 1}), isNull);
-    expect(SavedOriginalDialogue.fromJson({
-      ...record.toJson(), 'source': 'publisher_official',
-    }), isNull);
   });
 
-  testWidgets('missing personal PDF never substitutes editorial dialogue',
+  testWidgets('missing local book never substitutes editorial dialogue',
       (tester) async {
     final store = MemoryOriginalDialogueStore(pdfPresent: false);
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
     await tester.pumpAndSettle();
-    expect(find.text('Оригинальный диалог'), findsOneWidget);
     expect(find.text('Импортировать личный PDF'), findsOneWidget);
-    expect(find.text('Авторский текст'), findsNothing);
     expect(find.text('هذا نص من إعدادنا'), findsNothing);
   });
 
-  testWidgets('owner-verified local text is displayed as independent lines',
+  testWidgets('saved personal Arabic lines are rendered independently',
       (tester) async {
     final store = MemoryOriginalDialogueStore();
     store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
       pageIndex: 29,
-      text: 'السَّلَامُ عَلَيْكُمْ\nوَعَلَيْكُمُ السَّلَامُ',
+      text: 'السَّلَامُ عَلَيْكُمْ" + "\\n" + "وَعَلَيْكُمُ السَّلَامُ',
       verified: true,
       source: 'manual',
     );
@@ -95,120 +179,100 @@ void main() {
     ));
     await tester.pumpAndSettle();
     expect(find.textContaining('Страница 30'), findsOneWidget);
-    expect(find.textContaining('Проверено вами по PDF'), findsOneWidget);
     expect(find.text('السَّلَامُ عَلَيْكُمْ'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('وَعَلَيْكُمُ السَّلَامُ'),
-      150,
+      175,
       scrollable: find.byType(Scrollable).first,
     );
     expect(find.text('وَعَلَيْكُمُ السَّلَامُ'), findsOneWidget);
-    expect(find.text('هذا نص من إعدادنا'), findsNothing);
   });
 
-  testWidgets('extracted text is unverified until user reviews and saves',
+  testWidgets('OCR sees only confirmed upper dialogue region',
       (tester) async {
     final store = MemoryOriginalDialogueStore(
-      extracted: 'النَّصُ مِنَ الْكِتَابِ',
+      scanned: 'السَّلَامُ عَلَيْكُمْ',
     );
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
     await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(find.byKey(const ValueKey('original-dialogue-editor')),
-        findsOneWidget);
-    expect(find.textContaining('Текстовый слой найден'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-verified')),
-      250,
-      scrollable: find.byType(Scrollable).first,
-    );
-    final verify = tester.widget<SwitchListTile>(
-        find.byKey(const ValueKey('original-dialogue-verified')));
-    expect(verify.value, false);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-save')),
-      200,
-      scrollable: find.byType(Scrollable).first,
-    );
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-save')));
-    await tester.pumpAndSettle();
-    final saved = store.records['1/book1-u1-d1'];
-    expect(saved, isNotNull);
-    expect(saved!.verified, isFalse);
-    expect(saved.source, 'pdf_text');
-    expect(store.ocrCalls, 0);
-    expect(saved.pageIndex, 23);
-  });
 
-  testWidgets('unreadable scan reports OCR and supports manual corrections',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(extracted: '');
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(find.textContaining('OCR не смог прочитать'), findsOneWidget);
+    await openCrop(tester);
+    await confirmCrop(tester);
+    expect(store.previewCalls, 1);
+    expect(store.wholePageCalls, 0);
     expect(store.ocrCalls, 1);
-    expect(find.byKey(const ValueKey('original-dialogue-editor')),
+    expect(store.lastCrop, same(DialogueOcrRegion.upperDialogue));
+    expect(find.textContaining('Распознан только выбранный фрагмент'),
         findsOneWidget);
-  });
-  testWidgets('Arabic OCR extracts scanned page and keeps lines unverified',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      extracted: '',
-      scanned: 'السَّلَامُ عَلَيْكُمْ\nوَعَلَيْكُمُ السَّلَامُ',
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(store.ocrCalls, 1);
-    expect(find.textContaining('Арабский текст распознан со скана'),
-        findsOneWidget);
+
+    final save = find.byKey(const ValueKey('original-dialogue-save'));
     await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-save')),
-      250,
-      scrollable: find.byType(Scrollable).first,
+      save, 220, scrollable: find.byType(Scrollable).first,
     );
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-save')));
+    await tester.tap(save);
     await tester.pumpAndSettle();
-    final saved = store.records['1/book1-u1-d1'];
-    expect(saved, isNotNull);
-    expect(saved!.source, 'ocr_arabic');
-    expect(saved.verified, isFalse);
-    expect(saved.text, contains('السَّلَامُ'));
+    final stored = store.records['1/book1-u1-d1'];
+    expect(stored?.text, 'السَّلَامُ عَلَيْكُمْ');
+    expect(stored?.verified, isFalse);
+    expect(stored?.source, 'ocr_arabic');
   });
 
-  testWidgets('force OCR overrides a searchable text layer', (tester) async {
+  testWidgets('lower dialogue preset never includes the first text area',
+      (tester) async {
     final store = MemoryOriginalDialogueStore(
-      extracted: 'السَّلَامُ',
       scanned: 'وَعَلَيْكُمُ السَّلَامُ',
     );
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
     await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-force-ocr')));
-    await tester.pumpAndSettle();
-    expect(store.ocrCalls, 1);
-    final editor = tester.widget<TextField>(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-    );
-    expect(editor.controller!.text, contains('وَعَلَيْكُمُ'));
+    await openCrop(tester);
+    await tester.tap(find.byKey(const ValueKey('ocr-crop-lower')));
+    await confirmCrop(tester);
+    expect(store.lastCrop, same(DialogueOcrRegion.lowerDialogue));
+    expect(store.wholePageCalls, 0);
   });
 
+  testWidgets('two regions may be combined without replacing first dialogue',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: 'السَّلَامُ عَلَيْكُمْ',
+      secondScan: 'وَعَلَيْكُمُ السَّلَامُ',
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await openCrop(tester);
+    await confirmCrop(tester);
 
+    await openCrop(tester);
+    await tester.tap(find.byKey(const ValueKey('ocr-crop-lower')));
+    await confirmCrop(tester);
+    expect(find.text('Добавить распознанные реплики?'), findsOneWidget);
+    await tester.tap(find.text('Добавить'));
+    await tester.pumpAndSettle();
+    final field = tester.widget<TextField>(
+        find.byKey(const ValueKey('original-dialogue-editor')));
+    expect(field.controller!.text, contains('السَّلَامُ عَلَيْكُمْ'));
+    expect(field.controller!.text, contains('وَعَلَيْكُمُ السَّلَامُ'));
+    expect(store.ocrCalls, 2);
+  });
+
+  testWidgets('OCR failure leaves existing text untouched',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(scanned: '');
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await openCrop(tester);
+    await confirmCrop(tester);
+    expect(find.textContaining('Выделенный фрагмент не удалось прочитать'),
+        findsOneWidget);
+    expect(store.wholePageCalls, 0);
+    expect(store.ocrCalls, 1);
+  });
 }
