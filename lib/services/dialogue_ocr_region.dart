@@ -45,10 +45,10 @@ class DialogueOcrRegion {
     double endX,
     double endY,
   ) {
-    final x0 = startX.clamp(0.0, 1.0);
-    final x1 = endX.clamp(0.0, 1.0);
-    final y0 = startY.clamp(0.0, 1.0);
-    final y1 = endY.clamp(0.0, 1.0);
+    final x0 = startX.clamp(0.0, 1.0).toDouble();
+    final x1 = endX.clamp(0.0, 1.0).toDouble();
+    final y0 = startY.clamp(0.0, 1.0).toDouble();
+    final y1 = endY.clamp(0.0, 1.0).toDouble();
     return DialogueOcrRegion(
       left: x0 < x1 ? x0 : x1,
       top: y0 < y1 ? y0 : y1,
