@@ -46,7 +46,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
     _store = widget.store ?? const OnDeviceDialogueStore();
     _part = widget.lesson['pdf_part'] == 2 ? 2 : 1;
     _page = widget.lesson['pdf_page'] is int
-        ? (widget.lesson['pdf_page'] as int).clamp(0, 10000)
+        ? (widget.lesson['pdf_page'] as int).clamp(0, 10000).toInt()
         : 22;
     _lessonId = (widget.lesson['id'] as String?) ?? 'unknown';
     unawaited(_loadLocal());
