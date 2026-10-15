@@ -80,7 +80,7 @@ internal object ArabicDialogueRegion {
         val distances = sorted.zipWithNext { a, b ->
             b.bounds.top - a.bounds.bottom
         }.filter { it > 0 }.sorted()
-        val typical = if (distances.isEmpty) 0 else distances[distances.size / 2]
+        val typical = if (distances.isEmpty()) 0 else distances[distances.size / 2]
         val minGap = max((height * 0.052).toInt(), typical * 3)
         val groups = mutableListOf<MutableList<Line>>()
         for (line in sorted) {
