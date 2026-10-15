@@ -48,7 +48,7 @@ internal object ArabicDialogueColors {
     fun yellowPanel(bitmap: Bitmap, textBox: Rect): Rect? {
         val width = bitmap.width
         val height = bitmap.height
-        if (width < 90 || height < 90 || textBox.isEmpty) return null
+        if (width < 90 || height < 90 || textBox.isEmpty()) return null
         val pixels = IntArray(width * height)
         bitmap.getPixels(pixels, 0, width, 0, 0, width, height)
         val y0 = textBox.top.coerceIn(0, height - 1)
@@ -62,7 +62,7 @@ internal object ArabicDialogueColors {
         var candidateLast = -1
         var gaps = 0
         val anchor = textBox.centerX().coerceIn(0, width - 1)
-        for (x in xBegin..xEnd + 1) {
+        for (x in xBegin..(xEnd + 6)) {
             var yellowCount = 0
             var samples = 0
             if (x <= xEnd) {
@@ -155,7 +155,7 @@ internal object ArabicDialogueColors {
     ): Recognition {
         val w = bitmap.width
         val h = bitmap.height
-        if (selected.isEmpty) return Recognition("", 0, 0)
+        if (selected.isEmpty()) return Recognition("", 0, 0)
         val pixels = IntArray(w * selected.height())
         bitmap.getPixels(pixels, 0, w, 0, selected.top, w, selected.height())
         val rowBlue = IntArray(selected.height())
