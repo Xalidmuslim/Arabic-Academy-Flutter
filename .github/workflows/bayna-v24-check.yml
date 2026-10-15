@@ -1,7 +1,7 @@
 name: Bayna v24 original PDF visual dialogue checks
 on:
   push:
-    branches: [codex/bayna-v24-original-pdf-dialogue-crops]
+    branches: [codex/bayna-v24-yellow-dialogue-blue-orange-ocr]
 permissions:
   contents: read
 concurrency:
