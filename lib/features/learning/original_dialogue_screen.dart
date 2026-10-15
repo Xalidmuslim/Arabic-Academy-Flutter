@@ -504,7 +504,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 height: 300,
                 clipBehavior: Clip.antiAlias,
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: const Color(0xFFFCF7D5),
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: InteractiveViewer(
@@ -519,7 +519,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 ),
               ),
               const SizedBox(height: 6),
-              const Text('Фрагмент из вашего PDF. Увеличивайте двумя 
+              const Text('Фрагмент из вашего PDF. Увеличивайте двумя '
                   'пальцами. Проверьте границы и огласовки.',
                   style: TextStyle(fontSize: 12)),
             ] else
