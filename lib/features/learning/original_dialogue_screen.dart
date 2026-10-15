@@ -36,6 +36,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
   bool _bookReady = false;
   bool _editing = false;
   bool _verified = false;
+  bool _hadStoredText = false;
   String _source = 'manual';
   String? _message;
   String? _error;
@@ -59,6 +60,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       if (!mounted) return;
       setState(() {
         _bookReady = hasBook;
+        _hadStoredText = saved != null;
         if (saved != null) {
           _page = saved.pageIndex;
           _transcript.text = saved.text;
@@ -89,14 +91,27 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
     );
     if (!mounted) return;
     final available = await _store.hasImportedPdf(_part);
+    final storedAfter = await _store.load(_part, _lessonId);
     if (!mounted) return;
     setState(() {
       _bookReady = available;
+      final wasReplaced = _hadStoredText && storedAfter == null;
+      _hadStoredText = storedAfter != null;
+      if (wasReplaced) {
+        _transcript.clear();
+        _verified = false;
+        _source = 'manual';
+        _editing = false;
+        _message = 'PDF заменён. Старые диалоги очищены, чтобы '
+            'не выдавать их за текст новой книги.';
+      }
       if (selected != null && selected != _page) {
         _page = selected;
         _verified = false;
-        _message =
-            'Страница изменена. Проверьте привязку текста и сохраните заново.';
+        if (!wasReplaced) {
+          _message =
+              'Страница изменена. Проверьте привязку текста и сохраните заново.';
+        }
       }
     });
   }
@@ -163,6 +178,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       setState(() {
         _busy = false;
         _editing = false;
+        _hadStoredText = true;
         _message = 'Текст сохранён только в памяти этого телефона.';
       });
     } catch (e) {
