@@ -73,7 +73,7 @@ class _OriginalDialoguePdfPreviewState
               height: 290,
               clipBehavior: Clip.antiAlias,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: const Color(0xFFFCF7D5),
                 borderRadius: BorderRadius.circular(16),
               ),
               child: InteractiveViewer(
@@ -261,13 +261,27 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
           _verified = false;
           _source = 'ocr_arabic';
           _editing = true;
-          _message = data.autoSelected
-              ? 'Область диалога найдена автоматически '
-                  '(блоков на странице: ${data.detectedBlocks}). '
-                  'Распознан только выбранный текст. Сверьте огласовки '
-                  'и правильность реплик с PDF.'
-              : 'Текст получен, но точность выделения не подтверждена. '
-                  'Сверьте область и реплики по оригинальной странице.';
+          if (data.yellowDetected == true) {
+            _message = 'Жёлтая область диалога выделена без фотографии. '
+                'Синие реплики: ${data.blueLines}, '
+                'оранжевые: ${data.orangeLines}. '
+                '${data.blueLines == 0 || data.orangeLines == 0 ? '
+                "'Один из цветов распознан не полностью — "
+                'проверьте пропущенные строки. ' : ''}'
+                'Сверьте слова и огласовки с оригинальным PDF.';
+          } else if (data.yellowDetected == false) {
+            _message = 'Граница жёлтого фона не определена надёжно. '
+                'Обрезана только текстовая колонка, без изображения. '
+                'Проверьте фрагмент и при необходимости измените границы. '
+                'Огласовки требуют ручной сверки.';
+          } else {
+            _message = data.autoSelected
+                ? 'Область диалога найдена автоматически '
+                    '(блоков: ${data.detectedBlocks}). '
+                    'Сверьте текст и огласовки с PDF.'
+                : 'Текст получен, но точность выделения не подтверждена. '
+                    'Сверьте область и реплики по оригинальной странице.';
+          }
         } else if (data.status == 'empty') {
           _message = data.crop != null
               ? 'Оригинальный фрагмент найден, но OCR не распознал реплики. '
@@ -477,7 +491,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                   TextButton(
                     key: const ValueKey('original-dialogue-crop-edit'),
                     onPressed: () => setState(() {
-                      _crop ??= const DialogueCrop(0.05, 0.08, 0.95, 0.90);
+                      _crop ??= const DialogueCrop(0.40, 0.10, 0.96, 0.90);
                       _editingCrop = !_editingCrop;
                     }),
                     child: Text(_crop == null ? 'Выделить' : 'Границы'),
@@ -506,8 +520,8 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 ),
               ),
               const SizedBox(height: 6),
-              const Text('Оригинальные пиксели PDF. Увеличивайте двумя '
-                  'пальцами. Границы автоматические и требуют проверки.',
+              const Text('Фрагмент из вашего PDF. Увеличивайте двумя 
+                  'пальцами. Проверьте границы и огласовки.',
                   style: TextStyle(fontSize: 12)),
             ] else
               const Text('Нажмите «Найти и распознать только диалог» '
