@@ -175,7 +175,7 @@ internal object ArabicDialogueColors {
         }
 
         val bands = mutableListOf<Band>()
-        val gap = max(5, (h * .005).toInt())
+        val gap = max(5, (h * .002).toInt())
         val threshold = max(3, selected.width() / 135)
         for (y in rowBlue.indices) {
             val blue = rowBlue[y]
