@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:arabic_academy/core/academy_state.dart';
 import 'package:arabic_academy/features/learning/course_screen.dart';
 import 'package:arabic_academy/features/learning/lesson_screen.dart';
-import 'package:arabic_academy/features/learning/textbook_reader_screen.dart';
 import 'package:arabic_academy/features/learning/original_dialogue_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
