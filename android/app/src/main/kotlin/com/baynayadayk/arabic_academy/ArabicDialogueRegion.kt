@@ -1,7 +1,6 @@
 package com.example.arabic_academy
 
 import android.graphics.Rect
-import kotlin.math.abs
 import kotlin.math.max
 
 /**
@@ -23,8 +22,7 @@ internal object ArabicDialogueRegion {
 
     private val arabic = Regex("[\\u0621-\\u064A]")
     private val harakat = Regex("[\\u064B-\\u065F\\u0670\\u0640]")
-    private val arabicPrefix = Regex("^[\\u0621-\\u064A]{2,}")
-    private val separators = Regex("[\\s،,؛.:!؟"'()«»\u0660-\u0669\u06F0-\u06F9]")
+    private val separators = Regex("""[\\s،,؛.:!؟"'()«»٠-٩۰-۹]""")
 
     internal fun isInstruction(text: String): Boolean {
         val normalized = text.replace(harakat, "")
