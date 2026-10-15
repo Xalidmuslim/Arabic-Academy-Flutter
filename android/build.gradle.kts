@@ -2,6 +2,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        // Pinned upstream Tesseract4Android AAR for offline Arabic OCR.
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
