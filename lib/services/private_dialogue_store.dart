@@ -98,6 +98,9 @@ class DialogueOcrResult extends PdfTextExtraction {
     required this.detectedBlocks,
     this.crop,
     this.imagePng,
+    this.yellowDetected,
+    this.blueLines = 0,
+    this.orangeLines = 0,
   });
 
   final int pageIndex;
@@ -105,6 +108,9 @@ class DialogueOcrResult extends PdfTextExtraction {
   final int detectedBlocks;
   final DialogueCrop? crop;
   final Uint8List? imagePng;
+  final bool? yellowDetected;
+  final int blueLines;
+  final int orangeLines;
 }
 
 /// Optional visual feature keeps existing test stores and lesson data compatible.
@@ -279,12 +285,25 @@ class OnDeviceDialogueStore implements OriginalDialogueStore, DialogueArtworkSto
     if (groupCount != null && (groupCount is! int || groupCount < 0)) {
       throw const FormatException('Invalid dialogue section count');
     }
+    for (final key in ['blue_lines', 'orange_lines']) {
+      final value = result?[key];
+      if (value != null && (value is! int || value < 0 || value > 1000)) {
+        throw const FormatException('Invalid color-separated OCR line count');
+      }
+    }
+    final yellow = result?['yellow_detected'];
+    if (yellow != null && yellow is! bool) {
+      throw const FormatException('Invalid yellow panel confidence');
+    }
     return DialogueOcrResult(
       status,
       result?['text']?.toString() ?? '',
       pageIndex: actualPage,
       autoSelected: result?['auto_selected'] == true,
       detectedBlocks: groupCount is int ? groupCount : 0,
+      yellowDetected: yellow is bool ? yellow : null,
+      blueLines: result?['blue_lines'] is int ? result!['blue_lines'] as int : 0,
+      orangeLines: result?['orange_lines'] is int ? result!['orange_lines'] as int : 0,
       crop: DialogueCrop.fromJson(result?['crop']),
       imagePng: result?['image_png'] is Uint8List
           ? result!['image_png'] as Uint8List
