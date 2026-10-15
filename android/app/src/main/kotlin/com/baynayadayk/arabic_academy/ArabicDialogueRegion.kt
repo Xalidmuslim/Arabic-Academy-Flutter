@@ -91,12 +91,18 @@ internal object ArabicDialogueRegion {
                 groups.last().add(line)
             }
         }
-        val usable = groups.filter { it.size >= 2 }
-        // A solitary title or paragraph is not a safe dialogue region.
-        val sections = usable.ifEmpty {
-            if (sorted.size >= 3) listOf(sorted) else emptyList()
+        val sections = groups.filter { it.size >= 2 }
+        // Fail closed: if layout analysis cannot isolate a contiguous text
+        // block, never return all lines from an unsegmented full page.
+        if (sections.isEmpty()) return Selection(null, 0, text.size)
+        if (sections.size == 1) {
+            val only = sections.first()
+            val verticalSpan = only.maxOf { it.bounds.bottom } -
+                only.minOf { it.bounds.top }
+            if (verticalSpan > height * 0.70) {
+                return Selection(null, 1, only.size)
+            }
         }
-        if (sections.isEmpty()) return Selection(null, 0, 0)
         val position = (dialogueSlot - 1).coerceIn(0, sections.size - 1)
         val selected = sections[position]
         val left = (selected.minOf { it.bounds.left } -
