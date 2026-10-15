@@ -136,7 +136,8 @@
       ],
       "correct": 2,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u1_d1_greeting.webp"
     },
     {
       "id": "book1-u1-d2",
@@ -197,7 +198,8 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u1_d2_origins.webp"
     },
     {
       "id": "book1-u1-d3",
@@ -258,7 +260,8 @@
       ],
       "correct": 1,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u1_d3_teacher.webp"
     },
     {
       "id": "book1-u2-d1",
@@ -323,7 +326,8 @@
       ],
       "correct": 0,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u2_d1_family.webp"
     },
     {
       "id": "book1-u2-d2",
@@ -508,7 +512,8 @@
       ],
       "correct": 1,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u3_d1_apartment.webp"
     },
     {
       "id": "book1-u3-d2",
@@ -693,7 +698,8 @@
       ],
       "correct": 2,
       "review_status": "needs_native_arabic_editor_review",
-      "pdf_reference_kind": "parallel_theme_reference_not_verbatim"
+      "pdf_reference_kind": "parallel_theme_reference_not_verbatim",
+      "dialogue_illustration_asset": "assets/artwork/lesson_generated/dialogue_u4_d1_morning.webp"
     },
     {
       "id": "book1-u4-d2",
