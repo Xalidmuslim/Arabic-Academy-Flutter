@@ -1,7 +1,7 @@
 name: Bayna v21 semantic 3D artwork checks
 on:
   push:
-    branches: [codex/bayna-v21-personal-original-pdf-dialogues]
+    branches: [codex/bayna-v21-offline-arabic-scanned-pdf-ocr]
   pull_request:
     branches: [codex/bayna-v20-personal-original-pdf-dialogues]
 permissions:
