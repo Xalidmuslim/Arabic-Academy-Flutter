@@ -172,6 +172,16 @@ class MainActivity : FlutterActivity() {
                                     page.close()
                                 }
                             }
+                            "ocrArabicPage" -> {
+                                // Offline recognition: only locally imported PDF,
+                                // model bundled at build, no network activity.
+                                val part = call.argument<Int>("part") ?: 1
+                                val page = call.argument<Int>("page") ?: 0
+                                val recognized = ArabicPdfOcr.recognize(
+                                    this@MainActivity, part, page
+                                )
+                                runOnUiThread { result.success(recognized) }
+                            }
                             "extractText" -> {
                                 // Read only the local imported PDF for this user's book.
                                 // The extraction is never sent to a backend or cached in APK assets.
