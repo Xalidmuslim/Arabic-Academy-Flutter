@@ -45,31 +45,42 @@ internal object ArabicPdfCrop {
         }
     }
 
+    data class Selection(
+        val coordinates: List<Double>,
+        val imagePng: ByteArray,
+        val rect: Rect,
+        val yellowDetected: Boolean,
+    )
+
     /**
-     * OCR boundaries cover only right-column words. For the visual fragment,
-     * also include the adjacent original picture on the left, with a modest
-     * vertical margin. Users can refine these heuristic bounds themselves.
+     * Visual crop comes from the yellow dialogue panel. Never expand towards
+     * the photo. For unmatched editions keep just the OCR text column and
+     * signal that a yellow background wasn't found.
      */
-    fun fromDetectedText(bitmap: Bitmap, textBox: Rect): Pair<List<Double>, ByteArray> {
+    fun fromDetectedText(bitmap: Bitmap, textBox: Rect): Selection {
         val width = bitmap.width
         val height = bitmap.height
-        val left = if (textBox.left > width * 0.42) {
-            (width * 0.055).toInt()
-        } else {
-            (textBox.left - width * 0.03).toInt().coerceAtLeast(0)
-        }
-        val right = (textBox.right + width * 0.03).toInt().coerceAtMost(width)
-        val top = (textBox.top - height * 0.055).toInt().coerceAtLeast(0)
-        val bottom = (textBox.bottom + height * 0.045).toInt().coerceAtMost(height)
-        val rect = Rect(left, top, right, bottom)
-        require(rect.width() > 0 && rect.height() > 0) { "Empty PDF region" }
-        val crop = listOf(
-            left.toDouble() / width,
-            top.toDouble() / height,
-            right.toDouble() / width,
-            bottom.toDouble() / height
+        val yellow = ArabicDialogueColors.yellowPanel(bitmap, textBox)
+        val rect = yellow ?: Rect(
+            (textBox.left - width * .025).toInt().coerceAtLeast(0),
+            (textBox.top - height * .018).toInt().coerceAtLeast(0),
+            (textBox.right + width * .025).toInt().coerceAtMost(width),
+            (textBox.bottom + height * .020).toInt().coerceAtMost(height),
         )
-        return crop to encode(bitmap, rect)
+        require(rect.width() >= 24 && rect.height() >= 24) {
+            "Cannot isolate original dialogue"
+        }
+        return Selection(
+            listOf(
+                rect.left.toDouble() / width,
+                rect.top.toDouble() / height,
+                rect.right.toDouble() / width,
+                rect.bottom.toDouble() / height,
+            ),
+            encode(bitmap, rect),
+            rect,
+            yellow != null,
+        )
     }
 
     /** Re-render saved or manually adjusted bounds from the same local PDF. */
