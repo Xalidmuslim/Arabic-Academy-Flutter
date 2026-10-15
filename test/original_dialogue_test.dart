@@ -340,4 +340,26 @@ void main() {
         findsOneWidget);
   });
 
+  testWidgets('saved original crop appears inline in the Dialogue stage',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore();
+    store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
+      pageIndex: 23, text: 'السَّلَامُ عَلَيْكُمْ', verified: true,
+      source: 'manual', crop: DialogueCrop(0.08, 0.23, 0.92, 0.72),
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: Scaffold(body: OriginalDialoguePdfPreview(
+          lesson: lesson, store: store)),
+    ));
+    await tester.pumpAndSettle();
+    expect(find.text('Диалог из оригинального PDF'), findsOneWidget);
+    expect(find.byKey(const ValueKey('lesson-original-pdf-fragment')),
+        findsOneWidget);
+    expect(find.byKey(const ValueKey('lesson-original-pdf-zoom')),
+        findsOneWidget);
+    expect(store.cropRenders, 1);
+    expect(store.ocrCalls, 0);
+  });
+
+
 }
