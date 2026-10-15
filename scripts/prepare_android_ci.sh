@@ -11,4 +11,22 @@ yes | "$sdk_manager" --sdk_root="$ANDROID_HOME" --licenses >/dev/null
 statuses=("${PIPESTATUS[@]}")
 set -o pipefail
 [[ "${statuses[1]}" == 0 ]] || { echo 'Android license acceptance failed' >&2; exit 1; }
-"$sdk_manager" --sdk_root="$ANDROID_HOME" 'platforms;android-36' 'build-tools;36.0.0' 'ndk;27.0.12077973'
+"$sdk_manager" --sdk_root="$ANDROID_HOME" 'platforms;android-36' 'build-tools;36.0.0'
+ndk_version="27.0.12077973"
+ndk_directory="$ANDROID_HOME/ndk/$ndk_version"
+# Retry transient truncated ZIP downloads. Only incomplete NDK installations
+# are cleared; an already installed NDK is never removed.
+if [[ ! -f "$ndk_directory/source.properties" ]]; then
+  installed=false
+  for attempt in 1 2 3; do
+    if "$sdk_manager" --sdk_root="$ANDROID_HOME" "ndk;$ndk_version" &&
+       [[ -f "$ndk_directory/source.properties" ]]; then
+      installed=true
+      break
+    fi
+    echo "NDK download attempt $attempt failed." >&2
+    rm -rf -- "$ndk_directory"
+    if [[ "$attempt" -lt 3 ]]; then sleep 8; fi
+  done
+  [[ "$installed" == true ]] || { echo 'NDK installation failed after three attempts' >&2; exit 1; }
+fi
