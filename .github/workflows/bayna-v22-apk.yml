@@ -2,7 +2,7 @@ name: Bayna v22 semantic 3D art Android APK
 on:
   push:
     branches:
-      - codex/bayna-v22-offline-arabic-scanned-pdf-ocr
+      - codex/bayna-v22-auto-dialogue-ocr-flow
   workflow_dispatch:
 permissions:
   contents: read
