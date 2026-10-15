@@ -1,7 +1,7 @@
 name: Bayna v22 semantic 3D artwork checks
 on:
   push:
-    branches: [codex/bayna-v22-offline-arabic-scanned-pdf-ocr]
+    branches: [codex/bayna-v22-dialogue-region-ocr]
   pull_request:
     branches: [codex/bayna-v21-offline-arabic-scanned-pdf-ocr]
 permissions:
