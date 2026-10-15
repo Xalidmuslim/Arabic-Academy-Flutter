@@ -222,23 +222,44 @@ internal object ArabicPdfOcr {
                             }
                             tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_SINGLE_BLOCK)
                             tess.setRectangle(region)
-                            val recognized = ArabicDialogueRegion.onlyDialogueLines(
+                            val broadText = ArabicDialogueRegion.onlyDialogueLines(
                                 tess.getUTF8Text().orEmpty()
                             )
-                            // Render the original pixels, not the OCR text.
-                            // Extend left to preserve the adjacent illustration.
-                            val (visualCrop, originalPng) =
-                                ArabicPdfCrop.fromDetectedText(bitmap, region)
+                            // First preserve the actual source pixels. This is
+                            // the cream-yellow text panel only, not its photo.
+                            val visual = ArabicPdfCrop.fromDetectedText(bitmap, region)
+                            // Next isolate muted blue and orange glyph pixels.
+                            // Segment rows independently of page-level Tesseract
+                            // text-line boxes, which often drop the blue prompts.
+                            val colored = ArabicDialogueColors.recognizeBothColors(
+                                tess, bitmap, visual.rect
+                            )
+                            val combinedText = if (colored.blueLines > 0 &&
+                                colored.orangeLines > 0) {
+                                colored.text
+                            } else if (colored.text.isBlank()) {
+                                broadText
+                            } else {
+                                // Keep colored lines when standard OCR sees fewer
+                                // lines; otherwise retain its unmasked fallback.
+                                val coloredCount = colored.text.lines().size
+                                val broadCount = broadText.lines().size
+                                if (broadCount > coloredCount) broadText
+                                else colored.text
+                            }
                             return@use mapOf(
-                                "status" to (if (recognized.isBlank()) "empty" else "ocr"),
-                                "text" to recognized,
+                                "status" to (if (combinedText.isBlank()) "empty" else "ocr"),
+                                "text" to combinedText,
                                 "page_index" to candidateIndex,
                                 "auto_selected" to true,
                                 "detected_blocks" to selection.groupsOnPage,
-                                "crop" to visualCrop,
-                                "image_png" to originalPng,
+                                "crop" to visual.coordinates,
+                                "image_png" to visual.imagePng,
+                                "yellow_detected" to visual.yellowDetected,
+                                "blue_lines" to colored.blueLines,
+                                "orange_lines" to colored.orangeLines,
                                 "review_required" to true,
-                                "method" to "tesseract_arabic_auto_dialogue_region"
+                                "method" to "tesseract_arabic_color_separated_dialogue"
                             )
                         } finally {
                             bitmap.recycle()
