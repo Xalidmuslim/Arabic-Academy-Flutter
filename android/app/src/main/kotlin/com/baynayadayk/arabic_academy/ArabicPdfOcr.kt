@@ -225,17 +225,21 @@ internal object ArabicPdfOcr {
                             val recognized = ArabicDialogueRegion.onlyDialogueLines(
                                 tess.getUTF8Text().orEmpty()
                             )
-                            if (recognized.isNotBlank()) {
-                                return@use mapOf(
-                                    "status" to "ocr",
-                                    "text" to recognized,
-                                    "page_index" to candidateIndex,
-                                    "auto_selected" to true,
-                                    "detected_blocks" to selection.groupsOnPage,
-                                    "review_required" to true,
-                                    "method" to "tesseract_arabic_auto_dialogue_region"
-                                )
-                            }
+                            // Render the original pixels, not the OCR text.
+                            // Extend left to preserve the adjacent illustration.
+                            val (visualCrop, originalPng) =
+                                ArabicPdfCrop.fromDetectedText(bitmap, region)
+                            return@use mapOf(
+                                "status" to (if (recognized.isBlank()) "empty" else "ocr"),
+                                "text" to recognized,
+                                "page_index" to candidateIndex,
+                                "auto_selected" to true,
+                                "detected_blocks" to selection.groupsOnPage,
+                                "crop" to visualCrop,
+                                "image_png" to originalPng,
+                                "review_required" to true,
+                                "method" to "tesseract_arabic_auto_dialogue_region"
+                            )
                         } finally {
                             bitmap.recycle()
                         }
