@@ -92,6 +92,7 @@ class _LessonScreenState extends State<LessonScreen>
   int _round = 0;
   bool _finished = false;
   bool _showTranslation = true;
+  int _pdfPreviewRevision = 0;
   late final TextEditingController _homework;
   String get id => widget.lesson['id'] as String;
   List get _words => widget.lesson['vocabulary'] as List? ?? [];
@@ -353,13 +354,20 @@ class _LessonScreenState extends State<LessonScreen>
           ),
       ] else if (_stage == 2) ...[
         if (widget.lesson['pdf_page'] is int) ...[
+          OriginalDialoguePdfPreview(
+            key: ValueKey('lesson-original-pdf-preview-$_pdfPreviewRevision'),
+            lesson: widget.lesson,
+          ),
           FilledButton.icon(
             key: const ValueKey('open-original-dialogue'),
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute<void>(
-                builder: (_) => OriginalDialogueScreen(lesson: widget.lesson),
-              ),
-            ),
+            onPressed: () async {
+              await Navigator.of(context).push(
+                MaterialPageRoute<void>(
+                  builder: (_) => OriginalDialogueScreen(lesson: widget.lesson),
+                ),
+              );
+              if (mounted) setState(() => _pdfPreviewRevision++);
+            },
             icon: const Icon(Icons.menu_book_outlined),
             label: const Text('Оригинальный диалог · мой PDF'),
           ),
