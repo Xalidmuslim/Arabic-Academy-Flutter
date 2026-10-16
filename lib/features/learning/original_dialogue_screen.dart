@@ -292,7 +292,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
   Future<void> _applyCrop() async {
     final crop = _crop;
     if (_busy || !_bookReady || crop == null || !crop.isValid ||
-        _store is! DialogueArtworkStore) return;
+        _store is! DialogueArtworkStore) {
+      return;
+    }
     setState(() {
       _busy = true;
       _error = null;
