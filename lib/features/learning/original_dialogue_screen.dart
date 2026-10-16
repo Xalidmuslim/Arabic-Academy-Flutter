@@ -28,6 +28,7 @@ class OriginalDialoguePdfPreview extends StatefulWidget {
 class _OriginalDialoguePdfPreviewState
     extends State<OriginalDialoguePdfPreview> {
   late final Future<Uint8List?> _preview;
+  bool _expanded = true;
 
   @override
   void initState() {
@@ -63,26 +64,55 @@ class _OriginalDialoguePdfPreviewState
         return Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text('Диалог из оригинального PDF',
-                style: Theme.of(context).textTheme.titleLarge),
-            const SizedBox(height: 8),
-            Container(
-              key: const ValueKey('lesson-original-pdf-fragment'),
-              height: 290,
-              clipBehavior: Clip.antiAlias,
-              decoration: BoxDecoration(
-                color: const Color(0xFFFCF7D5),
-                borderRadius: BorderRadius.circular(16),
-              ),
-              child: OriginalPdfZoomImage(
-                image: bytes,
-                viewerKey: const ValueKey('lesson-original-pdf-zoom'),
-              ),
+            Row(
+              children: [
+                Expanded(
+                  child: Text('Диалог из оригинального PDF',
+                      style: Theme.of(context).textTheme.titleLarge),
+                ),
+                IconButton(
+                  key: const ValueKey('lesson-original-dialogue-toggle'),
+                  tooltip: _expanded
+                      ? 'Скрыть оригинальный диалог'
+                      : 'Показать оригинальный диалог',
+                  onPressed: () => setState(() => _expanded = !_expanded),
+                  icon: Icon(_expanded
+                      ? Icons.keyboard_arrow_up_rounded
+                      : Icons.keyboard_arrow_down_rounded),
+                ),
+              ],
             ),
-            const SizedBox(height: 6),
-            const Text('Оригинальное оформление и огласовки из '
-                'вашего PDF. Увеличивайте двумя пальцами.',
-                style: TextStyle(fontSize: 12)),
+            AnimatedSize(
+              duration: const Duration(milliseconds: 180),
+              curve: Curves.easeOutCubic,
+              alignment: Alignment.topCenter,
+              child: _expanded
+                  ? Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        const SizedBox(height: 8),
+                        Container(
+                          key: const ValueKey('lesson-original-pdf-fragment'),
+                          height: 290,
+                          clipBehavior: Clip.antiAlias,
+                          decoration: BoxDecoration(
+                            color: const Color(0xFFFCF7D5),
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                          child: OriginalPdfZoomImage(
+                            image: bytes,
+                            viewerKey:
+                                const ValueKey('lesson-original-pdf-zoom'),
+                          ),
+                        ),
+                        const SizedBox(height: 6),
+                        const Text('Оригинальное оформление и огласовки из '
+                            'вашего PDF. Увеличивайте двумя пальцами.',
+                            style: TextStyle(fontSize: 12)),
+                      ],
+                    )
+                  : const SizedBox.shrink(),
+            ),
             const SizedBox(height: 16),
           ],
         );
