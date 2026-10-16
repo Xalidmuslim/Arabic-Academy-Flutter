@@ -27,6 +27,7 @@ class _OriginalPdfZoomImageState extends State<OriginalPdfZoomImage> {
   Offset _doubleTapPosition = Offset.zero;
   bool _locked = false;
   double _scale = 1;
+  Size _viewport = Size.zero;
 
   @override
   void initState() {
@@ -62,18 +63,21 @@ class _OriginalPdfZoomImageState extends State<OriginalPdfZoomImage> {
     _updateLock();
   }
 
+  void _scaleAt(double factor, Offset focal) {
+    final next = factor.clamp(1.0, 5.0).toDouble();
+    _zoom.value = Matrix4.identity()
+      ..translateByDouble(-focal.dx * (next - 1),
+          -focal.dy * (next - 1), 0, 1)
+      ..scaleByDouble(next, next, 1, 1);
+  }
+
   void _toggleZoom() {
     if (_scale > 1.1) {
       _zoom.value = Matrix4.identity();
-      return;
+    } else {
+      _scaleAt(2.25, _doubleTapPosition);
     }
-    const factor = 2.25;
-    final position = _doubleTapPosition;
-    _zoom.value = Matrix4.identity()
-      ..translateByDouble(-position.dx * (factor - 1), -position.dy * (factor - 1), 0, 1)
-      ..scaleByDouble(factor, factor, 1, 1);
   }
-
   @override
   void dispose() {
     _zoom.removeListener(_onTransform);
@@ -84,41 +88,80 @@ class _OriginalPdfZoomImageState extends State<OriginalPdfZoomImage> {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
-      builder: (context, constraints) => Listener(
-        onPointerDown: (event) {
-          _activePointers.add(event.pointer);
-          _updateLock();
-        },
-        onPointerUp: (event) => _onPointerEnd(event.pointer),
-        onPointerCancel: (event) => _onPointerEnd(event.pointer),
-        child: GestureDetector(
-          behavior: HitTestBehavior.opaque,
-          onDoubleTapDown: (details) =>
-              _doubleTapPosition = details.localPosition,
-          onDoubleTap: _toggleZoom,
-          child: InteractiveViewer(
-            key: widget.viewerKey,
-            transformationController: _zoom,
-            minScale: 1,
-            maxScale: 5,
-            panEnabled: true,
-            scaleEnabled: true,
-            boundaryMargin: const EdgeInsets.all(20),
-            interactionEndFrictionCoefficient: 0.000008,
-            clipBehavior: Clip.hardEdge,
-            child: SizedBox(
-              width: constraints.maxWidth,
-              height: constraints.maxHeight,
-              child: Image.memory(
-                widget.image,
-                fit: BoxFit.contain,
-                gaplessPlayback: true,
-                filterQuality: FilterQuality.medium,
+      builder: (context, constraints) {
+        _viewport = constraints.biggest;
+        return Stack(
+          children: [
+            Positioned.fill(
+              child: Listener(
+                onPointerDown: (event) {
+                  _activePointers.add(event.pointer);
+                  _updateLock();
+                },
+                onPointerUp: (event) => _onPointerEnd(event.pointer),
+                onPointerCancel: (event) => _onPointerEnd(event.pointer),
+                child: InteractiveViewer(
+                  key: widget.viewerKey,
+                  transformationController: _zoom,
+                  minScale: 1,
+                  maxScale: 5,
+                  panEnabled: true,
+                  scaleEnabled: true,
+                  boundaryMargin: const EdgeInsets.all(20),
+                  interactionEndFrictionCoefficient: 0.000008,
+                  clipBehavior: Clip.hardEdge,
+                  child: GestureDetector(
+                    behavior: HitTestBehavior.opaque,
+                    onDoubleTapDown: (details) =>
+                        _doubleTapPosition = details.localPosition,
+                    onDoubleTap: _toggleZoom,
+                    child: SizedBox(
+                      width: constraints.maxWidth,
+                      height: constraints.maxHeight,
+                      child: Image.memory(
+                        widget.image,
+                        fit: BoxFit.contain,
+                        gaplessPlayback: true,
+                        filterQuality: FilterQuality.medium,
+                      ),
+                    ),
+                  ),
+                ),
               ),
             ),
-          ),
-        ),
-      ),
+            Positioned(
+              bottom: 6,
+              right: 6,
+              child: Material(
+                color: const Color(0xEAFDF8DC),
+                borderRadius: BorderRadius.circular(20),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    IconButton(
+                      key: const ValueKey('original-pdf-zoom-in'),
+                      icon: const Icon(Icons.add),
+                      tooltip: 'Увеличить фрагмент',
+                      visualDensity: VisualDensity.compact,
+                      onPressed: () => _scaleAt(
+                        _scale < 1.1 ? 2 : _scale * 1.5,
+                        Offset(_viewport.width / 2, _viewport.height / 2),
+                      ),
+                    ),
+                    IconButton(
+                      key: const ValueKey('original-pdf-zoom-reset'),
+                      icon: const Icon(Icons.fit_screen_outlined),
+                      tooltip: 'Сбросить масштаб',
+                      visualDensity: VisualDensity.compact,
+                      onPressed: () => _zoom.value = Matrix4.identity(),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        );
+      },
     );
   }
 }
