@@ -1,6 +1,4 @@
 import 'dart:developer' as developer;
-import 'dart:ui';
-
 import 'package:flutter/widgets.dart';
 
 /// Opt-in metrics only. Ordinary release users incur zero frame callbacks.
