@@ -3,11 +3,8 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 
-import '../../core/speech.dart';
 import '../../services/private_dialogue_store.dart';
 import '../../ui/components.dart';
-import '../../ui/fitted_study_artwork.dart';
-import '../../ui/study_art_asset.dart';
 import 'textbook_reader_screen.dart';
 import 'original_pdf_zoom_image.dart';
 
@@ -94,35 +91,16 @@ class _OriginalDialoguePdfPreviewState
   }
 }
 
-class _OriginalDialogueDraft {
-  const _OriginalDialogueDraft({
-    required this.page,
-    required this.text,
-    required this.verified,
-    required this.source,
-    required this.crop,
-    required this.originalPng,
-    required this.lineSamples,
-    required this.editing,
-    required this.editingCrop,
-    required this.hadStoredText,
-    this.message,
-  });
+class _VisualDialogueDraft {
+  const _VisualDialogueDraft(this.page, this.crop, this.image, this.message);
   final int page;
-  final String text;
-  final bool verified;
-  final String source;
   final DialogueCrop? crop;
-  final Uint8List? originalPng;
-  final List<DialogueLineSample> lineSamples;
-  final bool editing;
-  final bool editingCrop;
-  final bool hadStoredText;
+  final Uint8List? image;
   final String? message;
 }
 
-/// A private companion to a reader-owned PDF. The bundled editorial dialog is
-/// deliberately NOT used as the original or silently substituted for it.
+/// Shows the exact source pixels of one of the two dialogue panels.
+/// There is deliberately no OCR text field, transcription or TTS.
 class OriginalDialogueScreen extends StatefulWidget {
   const OriginalDialogueScreen({
     super.key,
@@ -139,36 +117,28 @@ class OriginalDialogueScreen extends StatefulWidget {
 
 class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
   late final OriginalDialogueStore _store;
-  final TextEditingController _transcript = TextEditingController();
-  late int _page;
   late final int _part;
   late final String _lessonId;
   late final int _defaultSlot;
-  int _dialogueSlot = 1;
-  final Map<int, _OriginalDialogueDraft> _drafts = {};
+  late int _page;
+  late int _slot;
+  bool _busy = true;
+  bool _bookReady = false;
+  bool _editingCrop = false;
   bool _zoomLocked = false;
+  DialogueCrop? _crop;
+  Uint8List? _image;
+  String? _message;
+  String? _error;
+  final Map<int, _VisualDialogueDraft> _drafts = {};
 
   String _recordId(int slot) {
     if (slot == _defaultSlot) return _lessonId;
-    final safeBase = _lessonId.length > 60
+    final base = _lessonId.length > 60
         ? _lessonId.substring(0, 60)
         : _lessonId;
-    return '${safeBase}_dialogue_$slot';
+    return '${base}_dialogue_$slot';
   }
-
-
-  bool _busy = true;
-  bool _bookReady = false;
-  bool _editing = false;
-  bool _verified = false;
-  bool _hadStoredText = false;
-  Uint8List? _originalPng;
-  List<DialogueLineSample> _lineSamples = const [];
-  DialogueCrop? _crop;
-  bool _editingCrop = false;
-  String _source = 'manual';
-  String? _message;
-  String? _error;
 
   @override
   void initState() {
@@ -180,260 +150,168 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         : 22;
     _lessonId = (widget.lesson['id'] as String?) ?? 'unknown';
     _defaultSlot = widget.lesson['lesson_order'] == 2 ? 2 : 1;
-    _dialogueSlot = _defaultSlot;
-    unawaited(_loadLocal());
+    _slot = _defaultSlot;
+    unawaited(_loadInitial());
   }
 
-  Future<void> _loadLocal() async {
+  Future<Uint8List?> _renderSaved(SavedOriginalDialogue? saved) async {
+    if (saved?.crop == null || _store is! DialogueArtworkStore) return null;
     try {
-      final hasBook = await _store.hasImportedPdf(_part);
-      final saved = await _store.load(_part, _recordId(_dialogueSlot));
-      Uint8List? preview;
-      if (hasBook && saved?.crop != null && _store is DialogueArtworkStore) {
-        try {
-          preview = await (_store as DialogueArtworkStore)
-              .renderCrop(_part, saved!.pageIndex, saved.crop!);
-        } catch (_) {
-          // A changed or damaged PDF must not suppress the saved transcription.
-        }
-      }
+      return await (_store as DialogueArtworkStore)
+          .renderCrop(_part, saved!.pageIndex, saved.crop!);
+    } catch (_) {
+      return null;
+    }
+  }
+
+  Future<void> _loadInitial() async {
+    try {
+      final ready = await _store.hasImportedPdf(_part);
+      final saved = ready ? await _store.load(_part, _recordId(_slot)) : null;
+      final image = ready ? await _renderSaved(saved) : null;
       if (!mounted) return;
       setState(() {
-        _bookReady = hasBook;
-        _hadStoredText = saved != null;
+        _bookReady = ready;
+        _page = saved?.pageIndex ?? _page;
         _crop = saved?.crop;
-        _originalPng = preview;
-        if (saved != null) {
-          _page = saved.pageIndex;
-          _transcript.text = saved.text;
-          _verified = saved.verified;
-          _source = saved.source;
-        }
+        _image = image;
         _busy = false;
-        _error = null;
       });
-    } catch (e) {
+    } catch (error) {
       if (!mounted) return;
       setState(() {
         _busy = false;
-        _error = 'Не удалось прочитать локальные данные: $e';
+        _error = 'Не удалось открыть личный PDF: $error';
       });
     }
   }
 
-  Future<void> _openPdf({bool choosePage = false}) async {
+  Future<void> _switchDialogue(int next) async {
+    if (_busy || next == _slot || next < 1 || next > 2) return;
+    _drafts[_slot] = _VisualDialogueDraft(_page, _crop, _image, _message);
+    setState(() {
+      _busy = true;
+      _zoomLocked = false;
+      _error = null;
+    });
+    try {
+      final draft = _drafts[next];
+      final saved = draft == null
+          ? await _store.load(_part, _recordId(next))
+          : null;
+      final preview = draft?.image ?? await _renderSaved(saved);
+      if (!mounted) return;
+      setState(() {
+        _slot = next;
+        _page = draft?.page ?? saved?.pageIndex ?? _page;
+        _crop = draft?.crop ?? saved?.crop;
+        _image = preview;
+        _editingCrop = false;
+        _busy = false;
+        _message = draft?.message ??
+            (preview == null ? 'Выбран диалог ${next == 1 ? "А" : "Б"}.'
+                : 'Загружен сохранённый фрагмент PDF.');
+      });
+      if (preview == null && _bookReady) await _findOriginal();
+    } catch (error) {
+      if (!mounted) return;
+      setState(() {
+        _busy = false;
+        _error = 'Не удалось открыть второй диалог: $error';
+      });
+    }
+  }
+
+  Future<void> _openPdf() async {
     final selected = await Navigator.of(context).push<int>(
       MaterialPageRoute<int>(
         builder: (_) => TextbookReaderScreen(
           part: _part,
           initialPage: _page,
-          selectPageForDialogue: choosePage,
+          selectPageForDialogue: true,
         ),
       ),
     );
     if (!mounted) return;
     final available = await _store.hasImportedPdf(_part);
-    final storedAfter = await _store.load(_part, _recordId(_dialogueSlot));
     if (!mounted) return;
     setState(() {
-      if (_hadStoredText && storedAfter == null) _drafts.clear();
       _bookReady = available;
-      final wasReplaced = _hadStoredText && storedAfter == null;
-      _hadStoredText = storedAfter != null;
-      if (wasReplaced) {
-        _crop = null;
-        _originalPng = null;
-        _editingCrop = false;
-        _transcript.clear();
-        _verified = false;
-        _source = 'manual';
-        _editing = false;
-        _message = 'PDF заменён. Старые диалоги очищены, чтобы '
-            'не выдавать их за текст новой книги.';
-      }
       if (selected != null && selected != _page) {
         _page = selected;
         _crop = null;
-        _originalPng = null;
+        _image = null;
         _editingCrop = false;
-        _transcript.clear();
-        _source = 'manual';
-        _editing = false;
-        _verified = false;
-        if (!wasReplaced) {
-          _message =
-              'Страница изменена. Проверьте привязку текста и сохраните заново.';
-        }
+        _drafts.clear();
       }
     });
-    // Once the learner confirms a page, find its dialogue without
-    // requiring a manual crop or a second recognition button.
-    if (available && selected != null) {
-      unawaited(_extract());
-    }
+    if (available && selected != null) await _findOriginal();
   }
 
-  Future<void> _switchDialogue(int nextSlot) async {
-    if (_busy || nextSlot == _dialogueSlot || nextSlot < 1 || nextSlot > 2) return;
-    _drafts[_dialogueSlot] = _OriginalDialogueDraft(
-      page: _page, text: _transcript.text, verified: _verified,
-      source: _source, crop: _crop, originalPng: _originalPng,
-      lineSamples: _lineSamples,
-      editing: _editing, editingCrop: _editingCrop,
-      hadStoredText: _hadStoredText, message: _message,
-    );
-    final pageHint = _page;
-    setState(() { _busy = true; _error = null; _zoomLocked = false; });
-    try {
-      final draft = _drafts[nextSlot];
-      final saved = draft == null
-          ? await _store.load(_part, _recordId(nextSlot)) : null;
-      Uint8List? preview = draft?.originalPng;
-      if (draft == null && saved?.crop != null && _bookReady &&
-          _store is DialogueArtworkStore) {
-        try {
-          preview = await (_store as DialogueArtworkStore)
-              .renderCrop(_part, saved!.pageIndex, saved.crop!);
-        } catch (_) {
-          // Keep text available if the local source PDF was replaced.
-        }
-      }
-      if (!mounted) return;
-      setState(() {
-        _dialogueSlot = nextSlot;
-        _page = draft?.page ?? saved?.pageIndex ?? pageHint;
-        _transcript.text = draft?.text ?? saved?.text ?? '';
-        _crop = draft?.crop ?? saved?.crop;
-        _originalPng = preview;
-        _lineSamples = draft?.lineSamples ?? const [];
-        _verified = draft?.verified ?? saved?.verified ?? false;
-        _source = draft?.source ?? saved?.source ?? 'manual';
-        _editing = draft?.editing ?? false;
-        _editingCrop = draft?.editingCrop ?? false;
-        _hadStoredText = draft?.hadStoredText ?? (saved != null);
-        _message = draft?.message ?? (saved != null
-            ? 'Загружен сохранённый диалог ${nextSlot == 1 ? "А" : "Б"}.'
-            : 'Выбран диалог ${nextSlot == 1 ? "А" : "Б"}. Ищем его на странице.');
-        _busy = false;
-      });
-      if (draft == null && saved == null && _bookReady) await _extract();
-    } catch (error) {
-      if (!mounted) return;
-      setState(() {
-        _busy = false;
-        _error = 'Не удалось переключить диалог: $error';
-      });
-    }
-  }
-  Future<void> _extract() async {
+  Future<void> _findOriginal() async {
     if (_busy || !_bookReady) return;
     setState(() {
       _busy = true;
-      _message = null;
       _error = null;
-      _originalPng = null;
-      _lineSamples = const [];
-      _crop = null;
+      _message = null;
       _editingCrop = false;
       _zoomLocked = false;
     });
     try {
-      // The native engine analyzes text-line positions, separates dialogues
-      // from illustrations and instructions, then OCRs ONLY the chosen block.
-      // The second conversation may share the earlier PDF page with the first.
-      final slot = _dialogueSlot;
-      final data = await _store.recognizeDialogue(_part, _page, slot);
+      // Native Android scans only the background geometry and returns PNG.
+      // No Arabic OCR, synthetic vocalization or handwritten transcript.
+      final result = await _store.recognizeDialogue(_part, _page, _slot);
       if (!mounted) return;
       setState(() {
         _busy = false;
-        _crop = data.crop;
-        _originalPng = data.imagePng;
-        _lineSamples = data.lineSamples;
-        if (data.crop != null) _page = data.pageIndex;
-        if (data.status == 'ocr' && data.text.trim().isNotEmpty) {
-          if (_page != data.pageIndex) {
-            _page = data.pageIndex;
-          }
-          _transcript.text = data.text;
-          _verified = false;
-          _source = 'ocr_arabic';
-          _editing = true;
-          if (data.yellowDetected == true) {
-            final detectedBlue = data.detectedBlueLines == 0
-                ? data.blueLines : data.detectedBlueLines;
-            final detectedOrange = data.detectedOrangeLines == 0
-                ? data.orangeLines : data.detectedOrangeLines;
-            final incomplete = data.unreadableLines > 0 ||
-                data.blueLines == 0 || data.orangeLines == 0 ||
-                detectedBlue > data.blueLines ||
-                detectedOrange > data.orangeLines;
-            _message = 'Жёлтая область диалога выделена без фотографии. '
-                'Синие реплики: ${data.blueLines} из $detectedBlue, '
-                'оранжевые: ${data.orangeLines} из $detectedOrange. '
-                '${incomplete ? "Распознавание не полностью завершено. "
-                "Проверьте пропуски ниже. " : ""}'
-                'Сверьте огласовки по PDF.';
-          } else if (data.yellowDetected == false) {
-            _message = 'Граница жёлтого фона не определена надёжно. '
-                'Обрезана только текстовая колонка, без изображения. '
-                'Проверьте фрагмент и при необходимости измените границы. '
-                'Огласовки требуют ручной сверки.';
-          } else {
-            _message = data.autoSelected
-                ? 'Область диалога найдена автоматически '
-                    '(блоков на странице: ${data.detectedBlocks}). '
-                    'Сверьте текст и огласовки с PDF.'
-                : 'Текст получен, но точность выделения не подтверждена. '
-                    'Сверьте область и реплики по оригинальной странице.';
-          }
-        } else if (data.status == 'empty') {
-          _message = data.crop != null
-              ? 'Оригинальный фрагмент найден, но OCR не распознал реплики. '
-                  'Проверьте границы и введите арабский текст вручную.'
-              : 'Не удалось надёжно определить область диалога. '
-              'Откройте страницу PDF, выберите правильную страницу '
-              'и повторите автоматический поиск. '
-              'Полный текст страницы подставляться не будет.';
-        } else if (data.status == 'unsupported') {
-          _message = 'Автоматическое распознавание доступно в Android-приложении.';
+        if (result.crop != null && result.imagePng != null &&
+            result.imagePng!.isNotEmpty) {
+          _crop = result.crop;
+          _image = result.imagePng;
+          _page = result.pageIndex;
+          _message = 'Выделен оригинальный диалог ${_slot == 1 ? "А" : "Б"}. '
+              'Изображение и огласовки сохранены без изменений. '
+              'Проверьте границы перед сохранением.';
         } else {
-          _bookReady = false;
-          _message = 'Сначала импортируйте личный PDF учебника.';
+          _crop = null;
+          _image = null;
+          _message = 'Жёлтая область этого диалога не определена. '
+              'Выберите страницу PDF и повторите поиск либо '
+              'отметьте границы вручную.';
         }
       });
-    } catch (e) {
+    } catch (error) {
       if (!mounted) return;
       setState(() {
         _busy = false;
-        _error = 'Ошибка распознавания области диалога: $e';
+        _error = 'Ошибка поиска оригинального диалога: $error';
       });
     }
   }
 
-  Future<void> _renderManualCrop() async {
+  Future<void> _applyCrop() async {
     final crop = _crop;
-    final store = _store;
-    if (crop == null || !crop.isValid || store is! DialogueArtworkStore) return;
+    if (_busy || !_bookReady || crop == null || !crop.isValid ||
+        _store is! DialogueArtworkStore) return;
     setState(() {
       _busy = true;
       _error = null;
     });
     try {
-      final image = await (store as DialogueArtworkStore).renderCrop(_part, _page, crop);
+      final png = await (_store as DialogueArtworkStore)
+          .renderCrop(_part, _page, crop);
       if (!mounted) return;
       setState(() {
-        _originalPng = image;
+        _busy = false;
+        _image = png;
         _editingCrop = false;
-        _verified = false;
-        _busy = false;
-        _message = 'Границы изменены. Сверьте картинку и огласовки, '
-            'затем сохраните локально.';
+        _message = 'Границы применены. Проверьте фрагмент PDF.';
       });
-    } catch (e) {
+    } catch (error) {
       if (!mounted) return;
       setState(() {
         _busy = false;
-        _error = 'Не удалось обрезать PDF: $e';
+        _error = 'Не удалось применить границы: $error';
       });
     }
   }
@@ -441,12 +319,11 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
   Future<void> _save() async {
     if (_busy || !_bookReady) return;
     if (_editingCrop) {
-      setState(() => _error = 'Примените границы обрезки перед сохранением.');
+      setState(() => _error = 'Сначала примените новые границы.');
       return;
     }
-    if (_transcript.text.trim().isEmpty &&
-        (_crop == null || _originalPng == null)) {
-      setState(() => _error = 'Добавьте фрагмент PDF или текст реплик.');
+    if (_crop == null || !_crop!.isValid || _image == null) {
+      setState(() => _error = 'Сначала найдите или выделите фрагмент PDF.');
       return;
     }
     setState(() {
@@ -454,84 +331,47 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       _error = null;
     });
     try {
-      await _store.save(_part, _recordId(_dialogueSlot), SavedOriginalDialogue(
-        pageIndex: _page,
-        text: _transcript.text.trim(),
-        verified: _verified,
-        source: _source,
-        crop: _crop,
-      ));
-      if (!mounted) return;
-      setState(() {
-        _busy = false;
-        _editing = false;
-        _hadStoredText = true;
-        _drafts.remove(_dialogueSlot);
-        _message = _crop == null
-            ? 'Текст сохранён только на этом телефоне.'
-            : 'Фрагмент PDF и текст сохранены только на этом телефоне.';
-      });
-    } catch (e) {
-      if (!mounted) return;
-      setState(() {
-        _busy = false;
-        _error = 'Не удалось сохранить текст на телефоне: $e';
-      });
-    }
-  }
-
-  Future<void> _speak(String text) async {
-    try {
-      await ArabicSpeech.speak(text);
-    } catch (_) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Озвучка сейчас недоступна.')),
+      await _store.save(
+        _part, _recordId(_slot),
+        SavedOriginalDialogue(
+          pageIndex: _page,
+          text: '', // No guesswork: only a visual PDF crop is saved.
+          verified: false,
+          source: 'manual',
+          crop: _crop,
+        ),
       );
+      if (!mounted) return;
+      setState(() {
+        _busy = false;
+        _drafts.remove(_slot);
+        _message = 'Оригинальный фрагмент PDF сохранён на этом устройстве.';
+      });
+    } catch (error) {
+      if (!mounted) return;
+      setState(() {
+        _busy = false;
+        _error = 'Не удалось сохранить оригинал PDF: $error';
+      });
     }
-  }
-
-  @override
-  void dispose() {
-    _transcript.dispose();
-    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    final illustration = StudyArtAsset.valid(
-      widget.lesson['dialogue_illustration_asset'],
-    );
-    final lines = _transcript.text.split(RegExp(r'\r?\n'))
-        .map((line) => line.trim())
-        .where((line) => line.isNotEmpty)
-        .toList();
-
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Оригинальный диалог'),
-      ),
+      appBar: AppBar(title: const Text('Оригинальный диалог')),
       body: ListView(
         physics: _zoomLocked
             ? const NeverScrollableScrollPhysics()
             : const ClampingScrollPhysics(),
         padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
         children: [
-          if (illustration != null && _originalPng == null)
-            Center(
-              child: FittedStudyArtwork(
-                image: AssetImage(illustration),
-                size: 180,
-                semanticLabel: 'Иллюстрация к диалогу',
-              ),
-            ),
-          Text(
-            'Диалог ${_dialogueSlot == 1 ? "А (أ)" : "Б (ب)"}',
-            style: Theme.of(context).textTheme.titleLarge,
-          ),
-          const SizedBox(height: 8),
+          Text('Диалог ${_slot == 1 ? "А (أ)" : "Б (ب)"}',
+              style: Theme.of(context).textTheme.titleLarge),
+          const SizedBox(height: 7),
           const Text(
-            'Личная копия учебника · оригинал сверяется по вашему PDF',
+            'Только изображение оригинального учебника — '
+            'без распознавания и изменения арабского текста.',
             style: TextStyle(fontSize: 12),
           ),
           const SizedBox(height: 14),
@@ -542,44 +382,39 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 Text('Книга 1 · часть $_part',
                     style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: 12),
-                const Text('Выберите диалог с этой страницы',
+                const Text('Выберите диалог на странице',
                     style: TextStyle(fontSize: 13)),
-                const SizedBox(height: 6),
+                const SizedBox(height: 7),
                 SegmentedButton<int>(
                   key: const ValueKey('original-dialogue-selector'),
                   segments: const [
                     ButtonSegment<int>(
-                      value: 1, label: Text('Диалог А (أ)'),
-                    ),
+                        value: 1, label: Text('Диалог А (أ)')),
                     ButtonSegment<int>(
-                      value: 2, label: Text('Диалог Б (ب)'),
-                    ),
+                        value: 2, label: Text('Диалог Б (ب)')),
                   ],
-                  selected: {_dialogueSlot},
+                  selected: {_slot},
                   showSelectedIcon: false,
                   onSelectionChanged: _busy
-                      ? null : (values) => _switchDialogue(values.first),
+                      ? null
+                      : (values) => _switchDialogue(values.first),
                 ),
-                const SizedBox(height: 9),
-                Text(
-                  'Страница ${_page + 1} · '
-                  '${_bookReady ? 'PDF загружен' : 'PDF не загружен'}',
-                  key: const ValueKey('original-dialogue-source-page'),
-                ),
-                const SizedBox(height: 6),
-                if (_originalPng == null) ...[
+                const SizedBox(height: 12),
+                Text('Страница ${_page + 1} · '
+                    '${_bookReady ? "PDF загружен" : "PDF не загружен"}',
+                    key: const ValueKey('original-dialogue-source-page')),
+                const SizedBox(height: 12),
+                if (_image == null) ...[
                   const Text(
-                    'Начальная страница указана ориентировочно. '
-                    'Найдите настоящий диалог в книге и подтвердите страницу.',
+                    'Найдите страницу с диалогом в личном PDF. '
+                    'Приложение выделит жёлтую область без фотографии.',
                     style: TextStyle(fontSize: 12),
                   ),
-                  const SizedBox(height: 12),
+                  const SizedBox(height: 10),
                   FilledButton.icon(
                     key: const ValueKey('original-dialogue-open-pdf'),
-                    onPressed: _busy
-                        ? null
-                        : () => _openPdf(choosePage: true),
                     icon: const Icon(Icons.picture_as_pdf_outlined),
+                    onPressed: _busy ? null : _openPdf,
                     label: Text(_bookReady
                         ? 'Открыть PDF · выбрать страницу'
                         : 'Импортировать личный PDF'),
@@ -588,23 +423,19 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                     const SizedBox(height: 8),
                     OutlinedButton.icon(
                       key: const ValueKey('original-dialogue-extract'),
-                      onPressed: _busy ? null : _extract,
-                      icon: const Icon(Icons.text_snippet_outlined),
-                      label: const Text('Найти и распознать только диалог'),
+                      onPressed: _busy ? null : _findOriginal,
+                      icon: const Icon(Icons.crop_free),
+                      label: const Text('Найти оригинальный диалог'),
                     ),
                   ],
-                ] else if (_bookReady) ...[
-                  const SizedBox(height: 8),
+                ] else if (_bookReady)
                   Row(
                     children: [
                       Expanded(
                         child: OutlinedButton.icon(
                           key: const ValueKey('original-dialogue-open-pdf'),
-                          onPressed: _busy
-                              ? null
-                              : () => _openPdf(choosePage: true),
-                          icon: const Icon(Icons.picture_as_pdf_outlined,
-                              size: 18),
+                          onPressed: _busy ? null : _openPdf,
+                          icon: const Icon(Icons.picture_as_pdf_outlined),
                           label: const Text('Страница PDF'),
                         ),
                       ),
@@ -612,14 +443,13 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                       Expanded(
                         child: OutlinedButton.icon(
                           key: const ValueKey('original-dialogue-extract'),
-                          onPressed: _busy ? null : _extract,
-                          icon: const Icon(Icons.refresh, size: 18),
-                          label: const Text('Повторить OCR'),
+                          onPressed: _busy ? null : _findOriginal,
+                          icon: const Icon(Icons.refresh),
+                          label: const Text('Найти снова'),
                         ),
                       ),
                     ],
                   ),
-                ],
               ],
             ),
           ),
@@ -628,43 +458,45 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
           if (_message != null)
             Padding(
               padding: const EdgeInsets.only(bottom: 12),
-              child: Text(_message!, key: const ValueKey('original-dialogue-notice')),
+              child: Text(_message!,
+                  key: const ValueKey('original-dialogue-notice')),
             ),
           if (_error != null)
             Padding(
               padding: const EdgeInsets.only(bottom: 12),
-              child: Text(_error!, key: const ValueKey('original-dialogue-error')),
+              child: Text(_error!,
+                  key: const ValueKey('original-dialogue-error')),
             ),
           if (_bookReady && !_busy) ...[
             Row(
               children: [
                 Expanded(
-                  child: Text('Оригинальный фрагмент PDF',
+                  child: Text('Фрагмент оригинального PDF',
                       style: Theme.of(context).textTheme.titleLarge),
                 ),
                 if (_store is DialogueArtworkStore)
                   TextButton(
                     key: const ValueKey('original-dialogue-crop-edit'),
                     onPressed: () => setState(() {
-                      _crop ??= const DialogueCrop(0.40, 0.10, 0.96, 0.90);
+                      _crop ??= const DialogueCrop(0.50, 0.20, 0.96, 0.82);
                       _editingCrop = !_editingCrop;
                     }),
-                    child: Text(_crop == null ? 'Выделить' : 'Границы'),
+                    child: Text(_image == null ? 'Выделить' : 'Границы'),
                   ),
               ],
             ),
             const SizedBox(height: 8),
-            if (_originalPng != null) ...[
+            if (_image != null) ...[
               Container(
                 key: const ValueKey('original-dialogue-pdf-fragment'),
-                height: 300,
+                height: 370,
                 clipBehavior: Clip.antiAlias,
                 decoration: BoxDecoration(
                   color: const Color(0xFFFCF7D5),
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: OriginalPdfZoomImage(
-                  image: _originalPng!,
+                  image: _image!,
                   viewerKey: const ValueKey('original-dialogue-pdf-zoom'),
                   onScrollLockChanged: (locked) {
                     if (mounted && _zoomLocked != locked) {
@@ -674,234 +506,66 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 ),
               ),
               const SizedBox(height: 6),
-              const Text('Увеличение двумя пальцами, двойное касание — масштаб или сброс. '
-                  'Проверьте слова и огласовки по PDF.',
-                  style: TextStyle(fontSize: 12)),
+              const Text(
+                'Масштабируйте двумя пальцами или кнопками. '
+                'Все огласовки — из оригинального PDF.',
+                style: TextStyle(fontSize: 12),
+              ),
             ] else
-              const Text('Нажмите «Найти и распознать только диалог» '
-                  'для автоматической обрезки оригинальной страницы.',
-                  style: TextStyle(fontSize: 12)),
+              const Text(
+                'Выберите страницу и нажмите «Найти оригинальный диалог». '
+                'Если фон не распознан, задайте границы вручную.',
+                style: TextStyle(fontSize: 12),
+              ),
             if (_editingCrop && _crop != null) ...[
               const SizedBox(height: 12),
-              const Text('Границы по ширине страницы PDF'),
+              const Text('Границы по ширине страницы'),
               RangeSlider(
                 key: const ValueKey('original-dialogue-crop-horizontal'),
                 values: RangeValues(_crop!.left, _crop!.right),
-                min: 0,
-                max: 1,
+                min: 0, max: 1,
                 onChanged: (value) {
-                  if (value.end - value.start < 0.08) return;
+                  if (value.end - value.start < .08) return;
                   setState(() {
                     _crop = DialogueCrop(value.start, _crop!.top,
                         value.end, _crop!.bottom);
-                    _verified = false;
                   });
                 },
               ),
-              const Text('Границы по высоте страницы PDF'),
+              const Text('Границы по высоте страницы'),
               RangeSlider(
                 key: const ValueKey('original-dialogue-crop-vertical'),
                 values: RangeValues(_crop!.top, _crop!.bottom),
-                min: 0,
-                max: 1,
+                min: 0, max: 1,
                 onChanged: (value) {
-                  if (value.end - value.start < 0.06) return;
+                  if (value.end - value.start < .06) return;
                   setState(() {
                     _crop = DialogueCrop(_crop!.left, value.start,
                         _crop!.right, value.end);
-                    _verified = false;
                   });
                 },
               ),
               FilledButton.icon(
                 key: const ValueKey('original-dialogue-crop-apply'),
-                onPressed: _renderManualCrop,
                 icon: const Icon(Icons.crop),
-                label: const Text('Применить обрезку'),
+                onPressed: _applyCrop,
+                label: const Text('Применить границы'),
               ),
             ],
-            if (_crop != null && _originalPng != null &&
-                !_editing && !_editingCrop && _transcript.text.trim().isEmpty)
-              TextButton.icon(
-                key: const ValueKey('original-dialogue-save-image'),
-                onPressed: _save,
-                icon: const Icon(Icons.save_outlined),
-                label: const Text('Сохранить фрагмент PDF'),
-              ),
-            if (_lineSamples.isNotEmpty) ...[
-              const SizedBox(height: 10),
-              ExpansionTile(
-                key: const ValueKey('original-dialogue-line-review'),
-                initiallyExpanded: false,
-                tilePadding: const EdgeInsets.symmetric(horizontal: 6),
-                title: Text(
-                  'Сверка по строкам PDF · ${_lineSamples.length}',
-                  style: Theme.of(context).textTheme.titleMedium,
-                ),
-                subtitle: const Text(
-                  'Исходные изображения без OCR-искажений — проверьте слова и огласовки',
-                  style: TextStyle(fontSize: 12),
-                ),
-                children: [
-                  for (var i = 0; i < _lineSamples.length; i++) ...[
-                    Padding(
-                      padding: const EdgeInsets.only(bottom: 10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          Row(
-                            children: [
-                              Icon(Icons.image_outlined,
-                                  size: 17,
-                                  color: _lineSamples[i].color == 'blue'
-                                      ? const Color(0xFF536A8F)
-                                      : const Color(0xFFB17C45)),
-                              const SizedBox(width: 6),
-                              Expanded(
-                                child: Text(
-                                  '${i + 1}. ${_lineSamples[i].color == 'blue' ? 'Синяя' : 'Оранжевая'} '
-                                  'реплика · оригинал PDF',
-                                  style: const TextStyle(fontSize: 13),
-                                ),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(height: 4),
-                          Container(
-                            key: ValueKey('original-dialogue-line-source-$i'),
-                            padding: const EdgeInsets.all(4),
-                            decoration: BoxDecoration(
-                              color: const Color(0xFFFCF7D5),
-                              borderRadius: BorderRadius.circular(10),
-                            ),
-                            child: Image.memory(
-                              _lineSamples[i].imagePng,
-                              height: 66,
-                              fit: BoxFit.contain,
-                              alignment: Alignment.centerRight,
-                              gaplessPlayback: true,
-                            ),
-                          ),
-                          if (_lineSamples[i].text.trim().isEmpty)
-                            const Text(
-                              'OCR не прочитал эту реплику. Исправьте её по изображению.',
-                              style: TextStyle(fontSize: 12),
-                            ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ],
-              ),
-            ],
-            const SizedBox(height: 20),
-            Row(
-              children: [
-                Expanded(
-                  child: Text('Текст диалога',
-                    style: Theme.of(context).textTheme.titleLarge),
-                ),
-                if (!_editing && _transcript.text.isNotEmpty)
-                  IconButton(
-                    key: const ValueKey('original-dialogue-edit'),
-                    tooltip: 'Исправить текст',
-                    icon: const Icon(Icons.edit_outlined),
-                    onPressed: () => setState(() => _editing = true),
-                  ),
-              ],
-            ),
-            const SizedBox(height: 6),
-            if (_editing) ...[
-              TextField(
-                key: const ValueKey('original-dialogue-editor'),
-                controller: _transcript,
-                minLines: 7,
-                maxLines: 16,
-                maxLength: 100000,
-                textDirection: TextDirection.rtl,
-                textAlign: TextAlign.right,
-                decoration: const InputDecoration(
-                  hintText: 'Только выделенный диалог. Сверьте арабские '
-                      'слова и огласовки; каждая реплика — с новой строки.',
-                  border: OutlineInputBorder(),
-                ),
-                onChanged: (_) {
-                  if (_verified || _source != 'manual') {
-                    setState(() {
-                      _verified = false;
-                      _source = 'manual';
-                    });
-                  }
-                },
-              ),
-              SwitchListTile.adaptive(
-                key: const ValueKey('original-dialogue-verified'),
-                contentPadding: EdgeInsets.zero,
-                title: const Text('Сверено со страницей PDF'),
-                subtitle: Text(_transcript.text.contains('Не распознана')
-                    ? 'Сначала восстановите все пропущенные реплики по PDF.'
-                    : 'Отмечайте только после проверки огласовок и реплик.'),
-                value: _verified,
-                onChanged: _transcript.text.contains('Не распознана')
-                    ? null
-                    : (value) => setState(() => _verified = value),
-              ),
+            if (_image != null && !_editingCrop && _crop != null) ...[
+              const SizedBox(height: 12),
               FilledButton.icon(
                 key: const ValueKey('original-dialogue-save'),
-                onPressed: _save,
                 icon: const Icon(Icons.save_outlined),
-                label: const Text('Сохранить на устройстве'),
-              ),
-            ] else if (lines.isNotEmpty) ...[
-              Text(
-                _verified
-                    ? 'Проверено вами по PDF · локальная запись'
-                    : 'Не проверено: сверьте с оригинальной страницей',
-                style: const TextStyle(fontSize: 12),
-                key: const ValueKey('original-dialogue-verification-state'),
-              ),
-              const SizedBox(height: 8),
-              for (final line in lines)
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 10),
-                  child: Panel(
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        IconButton(
-                          tooltip: 'Озвучить: синтез речи',
-                          icon: const Icon(Icons.volume_up_outlined),
-                          onPressed: () => _speak(line),
-                        ),
-                        Expanded(child: NaskhText(line, size: 25)),
-                      ],
-                    ),
-                  ),
-                ),
-            ] else ...[
-              const Text(
-                'Оригинальный текст не подменяется авторским. '
-                'Нажмите «Найти и распознать только диалог». '
-                'Приложение само определит границы текста, '
-                'исключая заголовки и фотографии.',
-              ),
-              const SizedBox(height: 10),
-              OutlinedButton.icon(
-                key: const ValueKey('original-dialogue-type'),
-                onPressed: () => setState(() {
-                  _editing = true;
-                  _source = 'manual';
-                  _verified = false;
-                }),
-                icon: const Icon(Icons.edit_note_outlined),
-                label: const Text('Ввести текст вручную'),
+                onPressed: _save,
+                label: const Text('Сохранить оригинальный фрагмент'),
               ),
             ],
           ],
-          const SizedBox(height: 14),
+          const SizedBox(height: 18),
           const Text(
-            'PDF и введённые реплики хранятся только на устройстве. '
-            'Материалы не включаются в APK и не отправляются в школьный сервис.',
+            'Ваш учебник и фрагменты хранятся только на устройстве. '
+            'Никакого OCR-текста, исправлений или искусственных огласовок.',
             style: TextStyle(fontSize: 12),
           ),
         ],
