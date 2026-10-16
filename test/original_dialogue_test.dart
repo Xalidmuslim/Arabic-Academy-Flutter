@@ -28,10 +28,17 @@ class MemoryOriginalDialogueStore
     this.yellowDetected,
     this.blueLines = 0,
     this.orangeLines = 0,
+    this.detectedBlueLines = 0,
+    this.detectedOrangeLines = 0,
+    this.unreadableLines = 0,
   });
   final bool? yellowDetected;
   final int blueLines;
   final int orangeLines;
+  final int detectedBlueLines;
+  final int detectedOrangeLines;
+  final int unreadableLines;
+  int? lastSlot;
   bool pdfPresent;
   String extracted;
   String scanned;
@@ -66,6 +73,7 @@ class MemoryOriginalDialogueStore
     int part, int pageIndex, int dialogueSlot,
   ) async {
     ocrCalls++;
+    lastSlot = dialogueSlot;
     return DialogueOcrResult(
       scanned.isEmpty ? 'empty' : 'ocr',
       scanned,
@@ -81,6 +89,9 @@ class MemoryOriginalDialogueStore
       yellowDetected: yellowDetected,
       blueLines: blueLines,
       orangeLines: orangeLines,
+      detectedBlueLines: detectedBlueLines,
+      detectedOrangeLines: detectedOrangeLines,
+      unreadableLines: unreadableLines,
     );
   }
 
@@ -433,4 +444,116 @@ void main() {
     expect(find.textContaining('Синие реплики: 0'), findsOneWidget);
   });
 
+  testWidgets('learner can select both PDF dialogues without losing unsaved edit',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: 'مَرْيَمُ: السَّلَامُ عَلَيْكُمْ',
+      yellowDetected: true, blueLines: 1, orangeLines: 1,
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('original-dialogue-selector')),
+        findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
+    await tester.enterText(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+      'تَمَّ تَصْحِيحُ الْحِوَارِ الأَوَّلِ',
+    );
+    await tester.ensureVisible(
+      find.byKey(const ValueKey('original-dialogue-selector')));
+    await tester.tap(find.text('Диалог Б (ب)'));
+    await tester.pumpAndSettle();
+    expect(store.lastSlot, 2);
+    expect(store.ocrCalls, 2);
+    await tester.ensureVisible(
+      find.byKey(const ValueKey('original-dialogue-selector')));
+    await tester.tap(find.text('Диалог А (أ)'));
+    await tester.pumpAndSettle();
+    expect(store.ocrCalls, 2);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
+    final editor = tester.widget<TextField>(
+      find.byKey(const ValueKey('original-dialogue-editor')),
+    );
+    expect(editor.controller!.text, 'تَمَّ تَصْحِيحُ الْحِوَارِ الأَوَّلِ');
+  });
+
+  testWidgets('second dialogue saves in its own local record', (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: 'زَيْنَبُ: وَعَلَيْكُمُ السَّلَامُ',
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Диалог Б (ب)'));
+    await tester.pumpAndSettle();
+    expect(store.lastSlot, 2);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-save')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
+    await tester.pumpAndSettle();
+    expect(store.records.containsKey('1/book1-u1-d1_dialogue_2'), true);
+    expect(store.records.containsKey('1/book1-u1-d1'), false);
+  });
+
+  testWidgets('missing OCR lines cannot be certified as source accurate',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: '[Не распознана синяя реплика 2 — проверьте PDF]',
+      yellowDetected: true, detectedBlueLines: 2, detectedOrangeLines: 2,
+      blueLines: 1, orangeLines: 2, unreadableLines: 1,
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Синие реплики: 1 из 2'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-verified')),
+      200, scrollable: find.byType(Scrollable).first,
+    );
+    final flag = tester.widget<SwitchListTile>(
+      find.byKey(const ValueKey('original-dialogue-verified')),
+    );
+    expect(flag.onChanged, isNull);
+  });
+
+  testWidgets('double tap on PDF fragment zooms in and back', (tester) async {
+    final store = MemoryOriginalDialogueStore(scanned: 'السَّلَامُ عَلَيْكُمْ');
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    final viewer = find.byKey(const ValueKey('original-dialogue-pdf-zoom'));
+    await tester.ensureVisible(viewer);
+    final center = tester.getCenter(viewer);
+    await tester.tapAt(center);
+    await tester.pump(const Duration(milliseconds: 70));
+    await tester.tapAt(center);
+    await tester.pumpAndSettle();
+    expect(tester.widget<InteractiveViewer>(viewer)
+        .transformationController!.value.getMaxScaleOnAxis(), greaterThan(1.5));
+    await tester.tapAt(center);
+    await tester.pump(const Duration(milliseconds: 70));
+    await tester.tapAt(center);
+    await tester.pumpAndSettle();
+    expect(tester.widget<InteractiveViewer>(viewer)
+        .transformationController!.value.getMaxScaleOnAxis(), closeTo(1, .02));
+  });
 }
