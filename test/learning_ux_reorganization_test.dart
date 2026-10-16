@@ -113,7 +113,9 @@ void main() {
       home: Scaffold(body: PracticeCenterScreen(state: state)),
     ));
     await tester.pumpAndSettle();
-    for (final group in ['Слова', 'Письмо и грамматика',
+    expect(find.byKey(const ValueKey('practice-grammar-entry')),
+        findsOneWidget);
+    for (final group in ['Слова', 'Письмо',
         'Слушаю и говорю', 'Проверяю']) {
       final target = find.text(group);
       await tester.scrollUntilVisible(target, 190,
