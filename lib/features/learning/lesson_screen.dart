@@ -373,8 +373,8 @@ class _LessonScreenState extends State<LessonScreen>
           ),
           const SizedBox(height: 8),
           const Text(
-            'Откройте собственный учебник и сохраните сверенные '
-            'арабские реплики только на этом телефоне.',
+            'Выберите диалог на странице личного PDF и сохраните '
+            'его исходное изображение без распознавания текста.',
             style: TextStyle(fontSize: 12),
           ),
           const SizedBox(height: 16),
