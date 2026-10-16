@@ -90,4 +90,5 @@ flutter {
 // the native app-private PdfRenderer service.
 dependencies {
     implementation("com.github.adaptech-cz.Tesseract4Android:tesseract4android:4.9.0")
+    testImplementation("junit:junit:4.13.2")
 }
