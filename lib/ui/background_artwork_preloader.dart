@@ -40,6 +40,13 @@ class _BackgroundArtworkPreloaderState
     _scheduled = true;
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
+      if (widget.imageLoader != null) {
+        // Widget tests use a deterministic callback rather than enqueuing
+        // Priority.idle work, which can starve the fake-async test scheduler.
+        // Production still preloads only when the real scheduler is idle.
+        unawaited(_warmSequentially());
+        return;
+      }
       SchedulerBinding.instance.scheduleTask<void>(
         () {
           if (mounted) unawaited(_warmSequentially());
