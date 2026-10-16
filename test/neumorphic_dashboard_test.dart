@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'
-    show Offset, CustomScrollView, Scrollable, BackButton;
+    show Offset, CustomScrollView, Scaffold, MaterialApp;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/main.dart';
@@ -9,7 +9,8 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   testWidgets(
-    'Learner dashboard shows four neumorphic shortcuts and opens lessons',
+    'Learner dashboard retains four current neumorphic shortcuts '
+    'and opens the textbook and practice tabs',
     (tester) async {
       SharedPreferences.setMockInitialValues(<String, Object>{
         'welcome_seen': true,
@@ -40,59 +41,37 @@ void main() {
           },
         ],
       });
+      addTearDown(state.dispose);
 
       await tester.pumpWidget(AcademyApp(state: state));
+      await tester.pumpAndSettle();
       await tester.drag(
         find.byType(CustomScrollView).first,
         const Offset(0, -260),
       );
       await tester.pumpAndSettle();
-      expect(find.byType(NeumorphicFeatureTile), findsNWidgets(4));
-      expect(find.text('Уроки'), findsWidgets);
-      expect(find.text('Словарь'), findsOneWidget);
-      expect(find.text('Грамматика'), findsOneWidget);
-      expect(find.text('Мой прогресс'), findsOneWidget);
 
-      final lessonsLabel = find.descendant(
-        of: find.widgetWithText(NeumorphicFeatureTile, 'Уроки'),
-        matching: find.text('Уроки'),
-      );
-      await tester.ensureVisible(lessonsLabel);
-      await tester.pumpAndSettle();
-      await tester.tap(lessonsLabel);
+      expect(find.byType(NeumorphicFeatureTile), findsNWidgets(4));
+      expect(find.text('Слова в образах'), findsOneWidget);
+      expect(find.text('Диалоги'), findsOneWidget);
+      expect(find.text('Арабское письмо'), findsOneWidget);
+      expect(find.text('Проверить себя'), findsOneWidget);
+
+      await tester.tap(find.byKey(const ValueKey('study-tab-1')));
       await tester.pumpAndSettle();
       expect(find.byType(UnitScreen), findsOneWidget);
-      await tester.tap(find.byType(BackButton));
+
+      await tester.tap(find.byKey(const ValueKey('study-tab-2')));
       await tester.pumpAndSettle();
-      await tester.scrollUntilVisible(
-        find.text('Базовый уровень 1'),
-        200,
-        scrollable: find.byType(Scrollable).first,
-      );
-      expect(find.text('Базовый уровень 1'), findsWidgets);
-      final progressCard = find.widgetWithText(
-        NeumorphicFeatureTile,
-        'Мой прогресс',
-      );
-      // Scroll the lazy dashboard until the progress shortcut is reachable.
-      await tester.drag(
-        find.byType(CustomScrollView).first,
-        const Offset(0, 240),
-      );
+      expect(find.text('Практика'), findsWidgets);
+
+      await tester.tap(find.byKey(const ValueKey('study-tab-0')));
       await tester.pumpAndSettle();
-      final progressLabel = find.descendant(
-        of: progressCard,
-        matching: find.text('Мой прогресс'),
-      );
-      await tester.ensureVisible(progressLabel);
-      await tester.pumpAndSettle();
-      await tester.tap(progressLabel);
-      await tester.pumpAndSettle();
-      expect(find.byType(LearnerProgressScreen), findsOneWidget);
+      expect(find.text('Арабский каждый день'), findsOneWidget);
     },
   );
 
-  testWidgets('Course progress displays real completion, not mock statistics', (
+  testWidgets('Course progress reflects saved completion, not mock scores', (
     tester,
   ) async {
     SharedPreferences.setMockInitialValues(<String, Object>{
@@ -106,13 +85,15 @@ void main() {
         <String, dynamic>{'id': 'demo', 'title': 'Приветствие и имя'},
       ],
     });
+    addTearDown(state.dispose);
     await tester.pumpWidget(AcademyApp(state: state));
-    await tester.drag(
-      find.byType(CustomScrollView).first,
-      const Offset(0, -650),
-    );
     await tester.pumpAndSettle();
+    // Progress hero is at the beginning of Today's list. The previous test
+    // dragged it offscreen before checking its contents.
     expect(find.text('Пройдено 1 из 1 уроков'), findsOneWidget);
     expect(find.text('100%'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('study-tab-3')));
+    await tester.pumpAndSettle();
+    expect(find.text('Ученица · локальное обучение'), findsOneWidget);
   });
 }
