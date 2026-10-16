@@ -1,7 +1,7 @@
 name: Bayna v25 original PDF visual dialogue checks
 on:
   push:
-    branches: [codex/bayna-v25-yellow-dialogue-blue-orange-ocr]
+    branches: [codex/bayna-v25-dialogue-selector-ocr-zoom]
 permissions:
   contents: read
 concurrency:
