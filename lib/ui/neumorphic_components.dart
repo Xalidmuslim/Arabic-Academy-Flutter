@@ -281,9 +281,16 @@ class NeumorphicCourseHero extends StatelessWidget {
                       borderRadius: BorderRadius.circular(17),
                     ),
                   ),
-                  child: const Text(
+                  child: Text(
                     'Продолжить',
-                    style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+                    // Match the non-inheriting Material text style at both
+                    // ends of the day/night transition. A plain TextStyle
+                    // (inherit:true) produced a theme lerp exception and
+                    // overflow in the real theme-switch regression test.
+                    style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                 ),
               ),
