@@ -76,7 +76,6 @@ class _OriginalPdfZoomImageState extends State<OriginalPdfZoomImage> {
 
   @override
   void dispose() {
-    if (_locked) widget.onScrollLockChanged?.call(false);
     _zoom.removeListener(_onTransform);
     _zoom.dispose();
     super.dispose();
