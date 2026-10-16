@@ -88,6 +88,42 @@ class PdfTextExtraction {
   final String text;
 }
 
+/// One unaltered strip of the user's original PDF, kept in memory only.
+/// The OCR text alongside it is a hypothesis, not an editorial correction.
+class DialogueLineSample {
+  const DialogueLineSample({
+    required this.text,
+    required this.color,
+    required this.ordinal,
+    required this.imagePng,
+  });
+
+  final String text;
+  final String color;
+  final int ordinal;
+  final Uint8List imagePng;
+
+  static DialogueLineSample? fromNative(Object? item) {
+    if (item is! Map ||
+        (item['color'] != 'blue' && item['color'] != 'orange') ||
+        item['text'] is! String ||
+        item['ordinal'] is! int ||
+        (item['ordinal'] as int) < 1 ||
+        (item['ordinal'] as int) > 1000 ||
+        item['image_png'] is! Uint8List) {
+      return null;
+    }
+    final png = item['image_png'] as Uint8List;
+    if (png.isEmpty || png.length > 5 * 1024 * 1024) return null;
+    return DialogueLineSample(
+      text: item['text'] as String,
+      color: item['color'] as String,
+      ordinal: item['ordinal'] as int,
+      imagePng: png,
+    );
+  }
+}
+
 /// A selected block of dialogue; it is NOT authoritative until user verified.
 class DialogueOcrResult extends PdfTextExtraction {
   const DialogueOcrResult(
@@ -104,6 +140,7 @@ class DialogueOcrResult extends PdfTextExtraction {
     this.detectedBlueLines = 0,
     this.detectedOrangeLines = 0,
     this.unreadableLines = 0,
+    this.lineSamples = const [],
   });
 
   final int pageIndex;
@@ -117,6 +154,7 @@ class DialogueOcrResult extends PdfTextExtraction {
   final int detectedBlueLines;
   final int detectedOrangeLines;
   final int unreadableLines;
+  final List<DialogueLineSample> lineSamples;
 }
 
 /// Optional visual feature keeps existing test stores and lesson data compatible.
@@ -304,6 +342,14 @@ class OnDeviceDialogueStore implements OriginalDialogueStore, DialogueArtworkSto
     if (yellow != null && yellow is! bool) {
       throw const FormatException('Invalid yellow panel confidence');
     }
+    final nativeSamples = result?['line_samples'];
+    final samples = <DialogueLineSample>[];
+    if (nativeSamples is List) {
+      for (final item in nativeSamples.take(32)) {
+        final sample = DialogueLineSample.fromNative(item);
+        if (sample != null) samples.add(sample);
+      }
+    }
     return DialogueOcrResult(
       status,
       result?['text']?.toString() ?? '',
@@ -319,6 +365,7 @@ class OnDeviceDialogueStore implements OriginalDialogueStore, DialogueArtworkSto
           ? result!['detected_orange_lines'] as int : 0,
       unreadableLines: result?['unreadable_lines'] is int
           ? result!['unreadable_lines'] as int : 0,
+      lineSamples: samples,
       crop: DialogueCrop.fromJson(result?['crop']),
       imagePng: result?['image_png'] is Uint8List
           ? result!['image_png'] as Uint8List
