@@ -21,7 +21,7 @@ import java.io.File
  * must be checked by the owner before it is marked as source-accurate.
  */
 internal object ArabicPdfOcr {
-    private const val MODEL_BYTES = 1432056L
+    private const val MODEL_BYTES = 12603724L
     private const val MODEL_ASSET = "tessdata/ara.traineddata"
 
     private fun modelDirectory(context: Context): File {
