@@ -15,6 +15,7 @@ import 'words_hub_screen.dart';
 import 'illustrated_dictionary_screen.dart';
 import 'situations_screen.dart';
 import 'handwriting_screen.dart';
+import 'library_screens.dart' show GrammarScreen;
 
 /// A single practice hub: no extra main navigation tabs or decorative noise.
 class PracticeCenterScreen extends StatelessWidget {
@@ -186,6 +187,26 @@ class PracticeCenterScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 10),
+          Panel(
+            padding: EdgeInsets.zero,
+            child: ListTile(
+              key: const ValueKey('practice-grammar-entry'),
+              leading: const Icon(Icons.menu_book_outlined,
+                  color: DesignTokens.deepOlive, size: 30),
+              title: const Text('Грамматика',
+                  style: TextStyle(fontWeight: FontWeight.w800)),
+              subtitle: const Text(
+                'Правила, арабские примеры, таблицы и упражнения'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute<void>(
+                  builder: (_) => GrammarScreen(state: state),
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(height: 10),
           for (final group in <
               (String, String, IconData, List<PracticeMode>)>[
             ('Слова', 'Викторина, рисунки и пропуски',
@@ -193,7 +214,7 @@ class PracticeCenterScreen extends StatelessWidget {
                   PracticeMode.quiz, PracticeMode.illustrations,
                   PracticeMode.missingWord,
                 ]),
-            ('Письмо и грамматика', 'Построение фраз и буквы',
+            ('Письмо', 'Построение фраз и буквы',
                 Icons.edit_note_outlined, [PracticeMode.sentence]),
             ('Слушаю и говорю', 'Диктант, реплики и произношение',
                 Icons.headphones_outlined, [
@@ -231,7 +252,7 @@ class PracticeCenterScreen extends StatelessWidget {
                           onTap: () => mode == PracticeMode.exam
                               ? _exam(context) : _open(context, mode),
                         ),
-                    if (group.$1 == 'Письмо и грамматика')
+                    if (group.$1 == 'Письмо')
                       ListTile(
                         dense: true,
                         key: const ValueKey('handwriting-entry'),
