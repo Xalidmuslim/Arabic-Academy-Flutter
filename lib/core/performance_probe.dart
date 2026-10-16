@@ -30,14 +30,15 @@ abstract final class PerformanceProbe {
       // Emit a bounded rolling report rather than unlimited frame history.
       if (uiUs.length < 120) return;
 
-      final statsUi = _percentiles(uiUs);
-      final statsRaster = _percentiles(rasterUs);
       final over60Hz = List.generate(uiUs.length, (i) =>
           uiUs[i] > 16667 || rasterUs[i] > 16667)
           .where((slow) => slow).length;
       final over120Hz = List.generate(uiUs.length, (i) =>
           uiUs[i] > 8333 || rasterUs[i] > 8333)
           .where((slow) => slow).length;
+      // Percentile sorting must happen after paired per-frame budget checks.
+      final statsUi = _percentiles(uiUs);
+      final statsRaster = _percentiles(rasterUs);
       developer.log(
         'frames=${uiUs.length} '
         'ui_p50_ms=${(statsUi.$1 / 1000).toStringAsFixed(2)} '
