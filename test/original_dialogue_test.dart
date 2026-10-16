@@ -156,6 +156,10 @@ void main() {
     ));
     await tester.pumpAndSettle();
     expect(find.textContaining('Страница 30'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.textContaining('Проверено вами по PDF'), 150,
+      scrollable: find.byType(Scrollable).first, alignment: 0.3,
+    );
     expect(find.textContaining('Проверено вами по PDF'), findsOneWidget);
     expect(find.text('السَّلَامُ عَلَيْكُمْ'), findsOneWidget);
     await tester.scrollUntilVisible(
@@ -351,8 +355,9 @@ void main() {
 
     await tester.scrollUntilVisible(
       find.byKey(const ValueKey('original-dialogue-save')),
-      180, scrollable: find.byType(Scrollable).first,
+      180, scrollable: find.byType(Scrollable).first, alignment: 0.15,
     );
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
     await tester.pumpAndSettle();
     expect(store.records['1/book1-u1-d1']!.crop, isNotNull);
@@ -466,14 +471,18 @@ void main() {
       find.byKey(const ValueKey('original-dialogue-editor')),
       'تَمَّ تَصْحِيحُ الْحِوَارِ الأَوَّلِ',
     );
-    await tester.ensureVisible(
-      find.byKey(const ValueKey('original-dialogue-selector')));
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-selector')),
+      -180, scrollable: find.byType(Scrollable).first, alignment: 0.2,
+    );
     await tester.tap(find.text('Диалог Б (ب)'));
     await tester.pumpAndSettle();
     expect(store.lastSlot, 2);
     expect(store.ocrCalls, 2);
-    await tester.ensureVisible(
-      find.byKey(const ValueKey('original-dialogue-selector')));
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-selector')),
+      -180, scrollable: find.byType(Scrollable).first, alignment: 0.2,
+    );
     await tester.tap(find.text('Диалог А (أ)'));
     await tester.pumpAndSettle();
     expect(store.ocrCalls, 2);
@@ -532,7 +541,8 @@ void main() {
     expect(flag.onChanged, isNull);
   });
 
-  testWidgets('double tap on PDF fragment zooms in and back', (tester) async {
+  testWidgets('PDF zoom controls enlarge and reset without broken gestures',
+      (tester) async {
     final store = MemoryOriginalDialogueStore(scanned: 'السَّلَامُ عَلَيْكُمْ');
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
@@ -541,17 +551,13 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
     final viewer = find.byKey(const ValueKey('original-dialogue-pdf-zoom'));
-    await tester.ensureVisible(viewer);
-    final center = tester.getCenter(viewer);
-    await tester.tapAt(center);
-    await tester.pump(const Duration(milliseconds: 70));
-    await tester.tapAt(center);
+    await tester.scrollUntilVisible(viewer, 160,
+        scrollable: find.byType(Scrollable).first, alignment: 0.25);
+    await tester.tap(find.byKey(const ValueKey('original-pdf-zoom-in')));
     await tester.pumpAndSettle();
     expect(tester.widget<InteractiveViewer>(viewer)
         .transformationController!.value.getMaxScaleOnAxis(), greaterThan(1.5));
-    await tester.tapAt(center);
-    await tester.pump(const Duration(milliseconds: 70));
-    await tester.tapAt(center);
+    await tester.tap(find.byKey(const ValueKey('original-pdf-zoom-reset')));
     await tester.pumpAndSettle();
     expect(tester.widget<InteractiveViewer>(viewer)
         .transformationController!.value.getMaxScaleOnAxis(), closeTo(1, .02));
