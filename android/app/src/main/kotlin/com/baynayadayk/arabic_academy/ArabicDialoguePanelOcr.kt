@@ -3,6 +3,7 @@ package com.example.arabic_academy
 import android.graphics.Bitmap
 import android.graphics.Color
 import android.graphics.Rect
+import java.io.ByteArrayOutputStream
 import com.googlecode.tesseract.android.TessBaseAPI
 import kotlin.math.max
 import kotlin.math.min
@@ -14,6 +15,13 @@ import kotlin.math.min
  * The local PDF pixels remain the only authoritative vocalized source.
  */
 internal object ArabicDialoguePanelOcr {
+    data class LineSample(
+        val text: String,
+        val color: String,
+        val ordinal: Int,
+        val image: ByteArray,
+    )
+
     data class Result(
         val text: String,
         val detectedBlue: Int,
@@ -21,6 +29,7 @@ internal object ArabicDialoguePanelOcr {
         val recognizedBlue: Int,
         val recognizedOrange: Int,
         val unreadable: Int,
+        val samples: List<LineSample>,
     )
 
     private enum class Ink { BLUE, ORANGE }
@@ -162,74 +171,164 @@ internal object ArabicDialoguePanelOcr {
 
     private val arabicLetter = Regex("[\u0621-\u064A]")
     private val diacritics = Regex("[\u064B-\u065F\u0670]")
-    private val garbage = Regex("[0-9A-Za-z\uFFFD]")
-    private fun rank(text: String): Double {
+    private val garbage = Regex("[0-9A-Za-z\u0660-\u0669\uFFFD]")
+
+    // Length alone is not quality. Older versions frequently picked a long,
+    // nonsensical Arabic hypothesis with stray 5/7 digits.
+    private fun rank(text: String, confidence: Int, band: Band): Double {
         val letters = arabicLetter.findAll(text).count()
         if (letters < 3) return -1000.0
-        return letters * 2.0 + diacritics.findAll(text).count() * .7 -
-            garbage.findAll(text).count() * 8.0
+        val numericNoise = garbage.findAll(text).count()
+        val accents = diacritics.findAll(text).count()
+        val widthBasedMin = max(3, (band.right - band.left) / 105)
+        return confidence.coerceIn(0, 100) * 0.65 +
+            min(letters, 70) * .55 +
+            min(accents, 30) * .34 -
+            numericNoise * 18.0 -
+            max(0, widthBasedMin - letters) * 7.0
+    }
+
+    private fun lineBounds(rect: Rect, band: Band): Rect {
+        // More vertical breathing room protects dots and tashkil above words.
+        val padY = max(12, rect.height() / 70)
+        val padX = max(14, rect.width() / 38)
+        return Rect(
+            (band.left - padX).coerceAtLeast(rect.left),
+            (rect.top + band.top - padY).coerceAtLeast(rect.top),
+            (band.right + padX + 1).coerceAtMost(rect.right),
+            (rect.top + band.bottom + padY + 1).coerceAtMost(rect.bottom),
+        )
     }
 
     private fun readLine(
         tess: TessBaseAPI, bitmap: Bitmap, pixels: IntArray,
         rect: Rect, band: Band,
     ): String {
-        val padY = max(8, rect.height() / 90)
-        val padX = max(12, rect.width() / 45)
-        val left = (band.left - padX).coerceAtLeast(rect.left)
-        val right = (band.right + padX + 1).coerceAtMost(rect.right)
-        val top = (band.top - padY).coerceAtLeast(0)
-        val bottom = (band.bottom + padY + 1).coerceAtMost(rect.height())
-        val width = right - left
-        val height = bottom - top
-        if (width < 20 || height < 10) return ""
-
-        // A normal-color crop often reads Arabic better than a strict binary
-        // mask. Compare it with color-isolated ink, keeping the best candidate.
+        val bounds = lineBounds(rect, band)
+        val width = bounds.width()
+        val height = bounds.height()
+        if (width < 30 || height < 14) return ""
         val original = Bitmap.createBitmap(
-            bitmap, left, rect.top + top, width, height
+            bitmap, bounds.left, bounds.top, width, height
         )
-        val isolated = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
-        val filtered = IntArray(width * height) { Color.WHITE }
-        for (y in top until bottom) {
-            for (x in left until right) {
-                if (ink(pixels[y * bitmap.width + x]) == band.type) {
-                    filtered[(y - top) * width + x - left] = Color.BLACK
-                }
+        // Preserve faint antialiased ochre letter stems and tashkeel, which
+        // become disconnected after the hard, two-tone v25 ink mask.
+        val contrast = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+        val grayscale = IntArray(width * height)
+        val bg = IntArray(3)
+        val probeY = arrayOf(2, height / 2, height - 3)
+        val probeX = arrayOf(2, width / 2, width - 3)
+        // Pick the brightest sampled paper rather than assuming fixed yellow.
+        var lightest = -1
+        for (y in probeY) for (x in probeX) {
+            val c = original.getPixel(x.coerceIn(0, width - 1),
+                y.coerceIn(0, height - 1))
+            val l = Color.red(c) + Color.green(c) + Color.blue(c)
+            if (l > lightest) {
+                lightest = l
+                bg[0] = Color.red(c)
+                bg[1] = Color.green(c)
+                bg[2] = Color.blue(c)
             }
         }
-        isolated.setPixels(filtered, 0, width, 0, 0, width, height)
+        val source = IntArray(width * height)
+        original.getPixels(source, 0, width, 0, 0, width, height)
+        for (i in source.indices) {
+            val p = source[i]
+            val r = Color.red(p)
+            val g = Color.green(p)
+            val b = Color.blue(p)
+            val dark = if (band.type == Ink.ORANGE) {
+                // Ochre on yellow: green channel usually separates most.
+                val greenDrop = (bg[1] - g).coerceAtLeast(0)
+                val redDrop = (bg[0] - r).coerceAtLeast(0)
+                val orangeHue = r > g + 7 && g > b + 6
+                if (orangeHue || ink(p) == Ink.ORANGE) {
+                    (greenDrop * 1.65 + redDrop * .38)
+                        .toInt().coerceIn(0, 255)
+                } else 0
+            } else {
+                // Muted blue becomes visible using complementary chroma.
+                val redDrop = (bg[0] - r).coerceAtLeast(0)
+                val blueTint = b >= r + 5 || ink(p) == Ink.BLUE
+                if (blueTint) (redDrop * 1.5).toInt().coerceIn(0, 255)
+                else 0
+            }
+            // Continuous grayscale (not binary) retains thin vocalization.
+            val inkStrength = (dark - 9).coerceAtLeast(0)
+            val gray = (255 - inkStrength * 1.65).toInt().coerceIn(0, 255)
+            grayscale[i] = Color.rgb(gray, gray, gray)
+        }
+        contrast.setPixels(grayscale, 0, width, 0, 0, width, height)
         var best = ""
-        var bestRank = -1000.0
+        var bestScore = -1000.0
         try {
-            for (source in listOf(original, isolated)) {
-                val enlarged = Bitmap.createScaledBitmap(
-                    source, width * 2, height * 2, true
+            // Colored original, color-enhanced text on white, and a
+            // high-resolution rerender are independent recognition views.
+            for (sourceBitmap in listOf(contrast, original)) {
+                val margin = max(12, height / 3)
+                val padded = Bitmap.createBitmap(
+                    width + 2 * margin, height + 2 * margin,
+                    Bitmap.Config.ARGB_8888
                 )
                 try {
-                    tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_SINGLE_LINE)
-                    tess.setImage(enlarged)
-                    val text = ArabicDialogueRegion.onlyDialogueLines(
-                        tess.getUTF8Text().orEmpty()
-                    ).replace("\n", " ").trim()
-                    val score = rank(text)
-                    if (score > bestRank) {
-                        best = text
-                        bestRank = score
+                    padded.eraseColor(Color.WHITE)
+                    android.graphics.Canvas(padded).drawBitmap(
+                        sourceBitmap, margin.toFloat(), margin.toFloat(), null
+                    )
+                    val factor = if (height < 65) 3 else 2
+                    val enlarged = Bitmap.createScaledBitmap(
+                        padded, padded.width * factor, padded.height * factor,
+                        true
+                    )
+                    try {
+                        // PSM_SINGLE_LINE keeps one speech turn independent.
+                        tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_SINGLE_LINE)
+                        tess.setImage(enlarged)
+                        val candidate = ArabicDialogueRegion.onlyDialogueLines(
+                            tess.getUTF8Text().orEmpty()
+                        ).replace("\n", " ").trim()
+                        val score = rank(candidate, tess.meanConfidence(), band)
+                        if (score > bestScore) {
+                            best = candidate
+                            bestScore = score
+                        }
+                    } finally {
+                        enlarged.recycle()
                     }
                 } finally {
-                    enlarged.recycle()
+                    padded.recycle()
                 }
             }
         } finally {
             original.recycle()
-            isolated.recycle()
+            contrast.recycle()
         }
-        return if (bestRank >= 6.0) best else ""
+        // Do not call a collection of random glyphs a recognized reply.
+        return if (bestScore >= 21 && garbage.findAll(best).count() <= 1) {
+            best
+        } else ""
+    }
+
+    /** Exact scan pixels of a single line for side-by-side human verification. */
+    private fun preview(bitmap: Bitmap, rect: Rect, band: Band): ByteArray {
+        val selected = lineBounds(rect, band)
+        val cut = Bitmap.createBitmap(
+            bitmap, selected.left, selected.top,
+            selected.width(), selected.height()
+        )
+        try {
+            return ByteArrayOutputStream().use { out ->
+                check(cut.compress(Bitmap.CompressFormat.PNG, 100, out))
+                out.toByteArray()
+            }
+        } finally {
+            cut.recycle()
+        }
     }
 
     fun recognize(tess: TessBaseAPI, bitmap: Bitmap, rect: Rect): Result {
-        if (rect.isEmpty()) return Result("", 0, 0, 0, 0, 0)
+        if (rect.isEmpty()) return Result("", 0, 0, 0, 0, 0, emptyList())
         val w = bitmap.width
         val pixels = IntArray(w * rect.height())
         bitmap.getPixels(pixels, 0, w, 0, rect.top, w, rect.height())
@@ -243,19 +342,26 @@ internal object ArabicDialoguePanelOcr {
         var orangeRead = 0
         var unreadable = 0
         val ordered = mutableListOf<String>()
+        val samples = mutableListOf<LineSample>()
         for (band in lines) {
             val ordinal = if (band.type == Ink.BLUE) ++blueFound else ++orangeFound
             val text = readLine(tess, bitmap, pixels, rect, band)
             if (text.isBlank()) {
                 unreadable++
                 val label = if (band.type == Ink.BLUE) "синяя" else "оранжевая"
-                ordered.add("[Не распознана $label реплика $ordinal — проверьте PDF]")
+                // Bidirectional isolate keeps the Russian warning intact in
+                // Flutter's RTL Arabic editor. No invented Arabic syllables.
+                ordered.add("[\u2066Не распознана $label реплика $ordinal — проверьте PDF\u2069]")
             } else {
                 if (band.type == Ink.BLUE) blueRead++ else orangeRead++
                 ordered.add(text)
             }
+            samples.add(LineSample(
+                text, if (band.type == Ink.BLUE) "blue" else "orange",
+                ordinal, preview(bitmap, rect, band)
+            ))
         }
         return Result(ordered.joinToString("\n").take(100000),
-            blueFound, orangeFound, blueRead, orangeRead, unreadable)
+            blueFound, orangeFound, blueRead, orangeRead, unreadable, samples)
     }
 }
