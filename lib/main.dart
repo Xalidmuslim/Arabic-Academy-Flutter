@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'app.dart';
 import 'core/academy_state.dart';
 import 'core/bundled_catalog.dart';
+import 'core/performance_probe.dart';
 
 export 'app.dart';
 export 'core/academy_state.dart';
