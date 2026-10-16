@@ -10,6 +10,27 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 const catalog = <String, dynamic>{
+  'grammar_topics': [
+    {
+      'id': 'pronouns',
+      'title': 'Личные местоимения',
+      'theory': 'أَنَا — я, أَنْتَ — ты (м. р.), أَنْتِ — ты (ж. р.).',
+      'examples': [
+        {'ar': 'أَنَا طَالِبٌ', 'ru': 'Я ученик'},
+      ],
+      'exercises': [
+        {
+          'id': 'g-pronouns',
+          'kind': 'singleChoice',
+          'prompt': 'Как сказать «я»?',
+          'options': ['أَنْتَ', 'أَنَا'],
+          'correct': 1,
+          'explanation': 'أَنَا — я',
+          'config': {'maxAttempts': 3, 'randomizeOptions': false, 'points': 1},
+        },
+      ],
+    },
+  ],
   'modules': [
     {'id': 'u1', 'title': 'Первый раздел'},
     {'id': 'u2', 'title': 'Второй раздел'},
@@ -150,6 +171,29 @@ void main() {
     expect(model.attempts, hasLength(1));
     expect(find.byKey(const ValueKey('practice-next-question')), findsOneWidget);
     expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('grammar is directly available from Practice with real rules',
+      (tester) async {
+    final model = await state();
+    addTearDown(model.dispose);
+    await tester.pumpWidget(MaterialApp(
+      home: Scaffold(body: PracticeCenterScreen(state: model)),
+    ));
+    await tester.pumpAndSettle();
+    final entry = find.byKey(const ValueKey('practice-grammar-entry'));
+    expect(entry, findsOneWidget);
+    await tester.ensureVisible(entry);
+    await tester.tap(entry);
+    await tester.pumpAndSettle();
+    expect(find.text('Грамматика'), findsOneWidget);
+    expect(find.text('Тем: 1'), findsOneWidget);
+    expect(find.text('Личные местоимения'), findsOneWidget);
+    await tester.tap(find.text('Личные местоимения'));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('أَنَا — я'), findsOneWidget);
+    expect(find.text('Примеры'), findsWidgets);
+    expect(find.text('Упражнения'), findsWidgets);
   });
 
   testWidgets('unified word hub keeps precise search and semantic images',
