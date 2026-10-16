@@ -14,10 +14,15 @@ class BackgroundArtworkPreloader extends StatefulWidget {
     super.key,
     required this.artworkPaths,
     required this.child,
+    this.imageLoader,
   });
 
   final List<String> artworkPaths;
   final Widget child;
+
+  /// Injected only by widget tests to avoid real image-codec work in the
+  /// fake-async test binding. Production uses Flutter's precacheImage.
+  final Future<void> Function(BuildContext context, String path)? imageLoader;
 
   @override
   State<BackgroundArtworkPreloader> createState() =>
@@ -50,13 +55,17 @@ class _BackgroundArtworkPreloaderState
     for (final path in widget.artworkPaths.take(2)) {
       if (!mounted) return;
       try {
-        await precacheImage(
-          AssetImage(path),
-          context,
-          onError: (error, stackTrace) {
-            // Missing optional illustration must not block the reader.
-          },
-        );
+        if (widget.imageLoader != null) {
+          await widget.imageLoader!(context, path);
+        } else {
+          await precacheImage(
+            AssetImage(path),
+            context,
+            onError: (error, stackTrace) {
+              // Missing optional illustration must not block the reader.
+            },
+          );
+        }
       } catch (_) {
         // Opportunistic cache work is never a startup requirement.
       }
