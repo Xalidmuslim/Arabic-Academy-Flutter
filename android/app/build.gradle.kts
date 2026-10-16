@@ -68,6 +68,15 @@ android {
 
     buildTypes {
         release {
+            // R8 shrinks and optimizes Java/Kotlin code; the Android resource
+            // shrinker removes unreachable resources from the release package.
+            // Keep native OCR JNI bindings and Flutter plugin rules intact.
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
             signingConfig = signingConfigs.getByName(if (ownerSigningFile.exists()) "ownerRelease" else "debug")
         }
     }
