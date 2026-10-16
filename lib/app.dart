@@ -33,7 +33,7 @@ _AppPresentation _readPresentation(AcademyState state) {
     russianFont: settings['russianFont'] as String? ?? 'Manrope',
     arabicFont: settings['arabicFont'] as String? ?? 'NotoNaskhArabic',
     russianScale: (settings['russianScale'] as num? ?? 1)
-        .toDouble().clamp(0.85, 1.6),
+        .toDouble().clamp(0.85, 1.6).toDouble(),
     reduceMotion: settings['reduceMotion'] == true,
   );
 }
