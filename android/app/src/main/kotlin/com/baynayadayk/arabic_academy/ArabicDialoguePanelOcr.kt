@@ -260,12 +260,30 @@ internal object ArabicDialoguePanelOcr {
             grayscale[i] = Color.rgb(gray, gray, gray)
         }
         contrast.setPixels(grayscale, 0, width, 0, 0, width, height)
+
+        // v25's blue segmentation recovered lines that v26's smooth paper
+        // suppression sometimes misses. Keep the binary approach as a third
+        // *independent* OCR candidate, without touching the source preview.
+        val isolated = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+        val mono = IntArray(width * height) { Color.WHITE }
+        for (i in source.indices) {
+            val color = source[i]
+            val matchingInk = ink(color) == band.type
+            if (matchingInk) mono[i] = Color.BLACK
+        }
+        isolated.setPixels(mono, 0, width, 0, 0, width, height)
         var best = ""
         var bestScore = -1000.0
         try {
-            // Colored original, color-enhanced text on white, and a
-            // high-resolution rerender are independent recognition views.
-            for (sourceBitmap in listOf(contrast, original)) {
+            // Blend v25's crisp blue-glyph extraction with the newer
+            // grayscale variant that preserves light orange vowel marks.
+            // Selection uses the result's own confidence and Arabic signal.
+            val sources = if (band.type == Ink.BLUE) {
+                listOf(isolated, contrast, original)
+            } else {
+                listOf(contrast, original, isolated)
+            }
+            for (sourceBitmap in sources) {
                 val margin = max(12, height / 3)
                 val padded = Bitmap.createBitmap(
                     width + 2 * margin, height + 2 * margin,
@@ -289,6 +307,9 @@ internal object ArabicDialoguePanelOcr {
                             tess.getUTF8Text().orEmpty()
                         ).replace("\n", " ").trim()
                         val score = rank(candidate, tess.meanConfidence(), band)
+                        // Reject digits or random ASCII even when native
+                        // confidence looks deceptively high.
+                        if (garbage.containsMatchIn(candidate)) continue
                         if (score > bestScore) {
                             best = candidate
                             bestScore = score
@@ -303,9 +324,12 @@ internal object ArabicDialoguePanelOcr {
         } finally {
             original.recycle()
             contrast.recycle()
+            isolated.recycle()
         }
-        // Do not call a collection of random glyphs a recognized reply.
-        return if (bestScore >= 21 && garbage.findAll(best).count() <= 1) {
+        // A stricter threshold for orange avoids guessing a pale source;
+        // blue's additional crisp pass benefits from a small recovery margin.
+        val minimum = if (band.type == Ink.BLUE) 18.0 else 20.0
+        return if (bestScore >= minimum && !garbage.containsMatchIn(best)) {
             best
         } else ""
     }
