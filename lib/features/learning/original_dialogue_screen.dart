@@ -329,6 +329,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       _originalPng = null;
       _crop = null;
       _editingCrop = false;
+      _zoomLocked = false;
     });
     try {
       // The native engine analyzes text-line positions, separates dialogues
@@ -351,12 +352,21 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
           _source = 'ocr_arabic';
           _editing = true;
           if (data.yellowDetected == true) {
-            final incomplete = data.blueLines == 0 || data.orangeLines == 0;
+            final detectedBlue = data.detectedBlueLines == 0
+                ? data.blueLines : data.detectedBlueLines;
+            final detectedOrange = data.detectedOrangeLines == 0
+                ? data.orangeLines : data.detectedOrangeLines;
+            final incomplete = data.unreadableLines > 0 ||
+                data.blueLines == 0 || data.orangeLines == 0 ||
+                detectedBlue > data.blueLines ||
+                detectedOrange > data.orangeLines;
             _message = 'Жёлтая область диалога выделена без фотографии. '
-                'Синие реплики: ${data.blueLines}, '
-                'оранжевые: ${data.orangeLines}. '
-                '${incomplete ? "Один из цветов распознан не полностью. " : ""}'
-                'Сверьте пропущенные слова и огласовки с оригинальным PDF.';
+                'Синие реплики: ${data.blueLines} из $detectedBlue, '
+                'оранжевые: ${data.orangeLines} из $detectedOrange. '
+                '${incomplete ? "Распознавание не полностью завершено: "
+                "пропущенные строки помечены. " : ""}'
+                'OCR не гарантирует правильных огласовок — '
+                'сверьте каждую реплику с оригинальным PDF.';
           } else if (data.yellowDetected == false) {
             _message = 'Граница жёлтого фона не определена надёжно. '
                 'Обрезана только текстовая колонка, без изображения. '
@@ -728,11 +738,13 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 key: const ValueKey('original-dialogue-verified'),
                 contentPadding: EdgeInsets.zero,
                 title: const Text('Сверено со страницей PDF'),
-                subtitle: const Text(
-                  'Отмечайте только после проверки огласовок и реплик.',
-                ),
+                subtitle: Text(_transcript.text.contains('[Не распознана')
+                    ? 'Сначала восстановите все пропущенные реплики по PDF.'
+                    : 'Отмечайте только после проверки огласовок и реплик.'),
                 value: _verified,
-                onChanged: (value) => setState(() => _verified = value),
+                onChanged: _transcript.text.contains('[Не распознана')
+                    ? null
+                    : (value) => setState(() => _verified = value),
               ),
               FilledButton.icon(
                 key: const ValueKey('original-dialogue-save'),
