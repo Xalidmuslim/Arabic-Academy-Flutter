@@ -56,7 +56,7 @@ jobs:
           done
           printf 'Running %d of %d test files on shard %s\n' \
             "${#selected[@]}" "${#all_tests[@]}" "$SHARD"
-          flutter test --no-pub --reporter expanded --timeout 90s "${selected[@]}"
+          flutter test --no-pub --concurrency=1 --reporter expanded --timeout 90s "${selected[@]}"
 
   build-android:
     needs: [analyze, flutter-regression]
