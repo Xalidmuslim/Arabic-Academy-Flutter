@@ -670,4 +670,30 @@ void main() {
   });
 
 
+  testWidgets('source controls become compact after extracting one dialogue',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: 'خَالِدٌ: السَّلَامُ عَلَيْكُمْ',
+      yellowDetected: true,
+      blueLines: 2,
+      detectedBlueLines: 4,
+      orangeLines: 3,
+      detectedOrangeLines: 4,
+      unreadableLines: 3,
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    expect(find.text('Открыть PDF · выбрать страницу'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    expect(find.text('Страница PDF'), findsOneWidget);
+    expect(find.text('Повторить OCR'), findsOneWidget);
+    expect(find.text('Открыть PDF · выбрать страницу'), findsNothing);
+    expect(find.textContaining('Синие реплики: 2 из 4'), findsOneWidget);
+    expect(find.textContaining('оранжевые: 3 из 4'), findsOneWidget);
+    expect(find.textContaining('Сверьте огласовки по PDF'), findsOneWidget);
+  });
+
 }
