@@ -56,7 +56,26 @@ jobs:
           done
           printf 'Running %d of %d test files on shard %s\n' \
             "${#selected[@]}" "${#all_tests[@]}" "$SHARD"
-          flutter test --no-pub --concurrency=1 --reporter expanded --timeout 90s "${selected[@]}"
+          failures=0
+          for file in "${selected[@]}"; do
+            echo "::group::Test ${file}"
+            # One test source per flutter process bounds memory accumulation
+            # and identifies hangs without disabling or skipping any suite.
+            if timeout --signal=TERM --kill-after=10s 240s \
+              flutter test --no-pub --concurrency=1 --reporter expanded \
+                --timeout 90s "$file"; then
+              echo "PASS $file"
+            else
+              result=$?
+              echo "::error file=${file}::Flutter test failed or timed out (exit $result)"
+              failures=$((failures + 1))
+            fi
+            echo "::endgroup::"
+          done
+          if (( failures > 0 )); then
+            echo "::error::${failures} Flutter test file(s) failed on shard ${SHARD}"
+            exit 1
+          fi
 
   build-android:
     needs: [analyze, flutter-regression]
