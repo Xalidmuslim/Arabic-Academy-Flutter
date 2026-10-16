@@ -63,6 +63,7 @@ class SettingsScreen extends StatelessWidget {
           DropdownButtonFormField<String>(
             key: ValueKey('appearance-${state.settings['appearance'] ?? 'system'}'),
             isDense: true,
+            isExpanded: true,
             initialValue: state.settings['appearance'] as String? ?? 'system',
             items: [
               DropdownMenuItem(value: 'system',
