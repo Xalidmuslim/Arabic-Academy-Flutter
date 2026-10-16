@@ -1,0 +1,102 @@
+name: Bayna v30 Full Flutter Performance Verification and R8 APK
+on:
+  push:
+    branches:
+      - codex/bayna-v30-full-flutter-performance
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bayna-v30-performance-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  analyze:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Locked dependency and static analysis
+        run: |
+          flutter pub get --enforce-lockfile
+          git diff --exit-code -- pubspec.lock
+          flutter analyze --no-pub
+          python3 scripts/verify_assets.py
+          python3 scripts/verify_standalone_study_art.py
+          bash -n scripts/profile_android_performance.sh
+
+  flutter-regression:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 22
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Install locked dependencies
+        run: flutter pub get --enforce-lockfile
+      - name: All Flutter tests — deterministic shard ${{ matrix.shard }} of 8
+        env:
+          SHARD: ${{ matrix.shard }}
+        shell: bash
+        run: |
+          mapfile -t all_tests < <(find test -maxdepth 1 -name '*_test.dart' | sort)
+          selected=()
+          for index in "${!all_tests[@]}"; do
+            if (( index % 8 == SHARD )); then
+              selected+=("${all_tests[$index]}")
+            fi
+          done
+          printf 'Running %d of %d test files on shard %s\n' \
+            "${#selected[@]}" "${#all_tests[@]}" "$SHARD"
+          flutter test --no-pub --reporter expanded --timeout 90s "${selected[@]}"
+
+  build-android:
+    needs: [analyze, flutter-regression]
+    runs-on: ubuntu-22.04
+    timeout-minutes: 55
+    env:
+      GRADLE_OPTS: -Dorg.gradle.project.kotlin.compiler.execution.strategy=in-process
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00
+        with: {distribution: temurin, java-version: '17', cache: gradle}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Prepare offline assets and development signing
+        run: |
+          bash scripts/prepare_android_ci.sh
+          bash scripts/prepare_arabic_ocr.sh
+          bash scripts/prepare_signing.sh --mode development
+          flutter pub get --enforce-lockfile
+          git diff --exit-code -- pubspec.lock
+          python3 scripts/verify_assets.py
+      - name: Compile Flutter AOT + Android R8 ARM64 release
+        run: flutter build apk --release --target-platform android-arm64
+      - name: Verify R8 mapping, resource shrink, signature and ABI
+        run: |
+          test -s build/app/outputs/mapping/release/mapping.txt
+          grep -q 'isMinifyEnabled = true' android/app/build.gradle.kts
+          grep -q 'isShrinkResources = true' android/app/build.gradle.kts
+          unzip -Z1 build/app/outputs/flutter-apk/app-release.apk | grep -q '^lib/arm64-v8a/libflutter.so$'
+          python3 scripts/verify_android_artifacts.py --mode development \
+            --apksigner "$ANDROID_HOME/build-tools/36.0.0/apksigner" \
+            --certificate-sha256 "$(cat build/signing/certificate.sha256)" \
+            build/app/outputs/flutter-apk/app-release.apk
+          sha256sum build/app/outputs/flutter-apk/app-release.apk
+          stat -c 'APK bytes: %s' build/app/outputs/flutter-apk/app-release.apk
+      - name: Publish verified ARM64 development-signed APK
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: bayna-v30-arm64-r8-development-signed
+          path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+          retention-days: 14
