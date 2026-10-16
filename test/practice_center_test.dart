@@ -160,7 +160,10 @@ void main() {
       home: Scaffold(body: PracticeCenterScreen(state: model)),
     ));
     await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const ValueKey('practice-mode-quiz')));
+    final quiz = find.byKey(const ValueKey('practice-mode-quiz'));
+    await tester.ensureVisible(quiz);
+    await tester.pumpAndSettle();
+    await tester.tap(quiz);
     await tester.pumpAndSettle();
     expect(find.textContaining('Викторина'), findsWidgets);
     await tester.tap(find.byKey(const ValueKey('practice-answer-0')));
