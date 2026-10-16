@@ -178,12 +178,17 @@ class AcademyState extends ChangeNotifier {
   List<dynamic> get lessons => catalog['lessons'] as List? ?? [];
   List<Map<String, dynamic>> get published =>
       teacherLessons.where((x) => x['published'] == true).toList();
-  List<Map<String, dynamic>> get allLessons => [
-    ...lessons.map((x) => Map<String, dynamic>.from(x as Map)),
-    ...published
-        .where((x) => temporaryLocalLessonAccess || x['free'] != false)
-        .map(asLesson),
-  ];
+  // The catalog is immutable during a session. The old getter cloned every
+  // lesson on *each build*, often many times per frame while navigating.
+  // Invalidate after persisted mutations so author-edited materials stay live.
+  List<Map<String, dynamic>>? _allLessonsSnapshot;
+  List<Map<String, dynamic>> get allLessons =>
+      _allLessonsSnapshot ??= [
+        ...lessons.map((x) => Map<String, dynamic>.from(x as Map)),
+        ...published
+            .where((x) => temporaryLocalLessonAccess || x['free'] != false)
+            .map(asLesson),
+      ];
 
   /// Preserve old editor fields while presenting a full lesson contract.
   static Map<String, dynamic> asLesson(Map<String, dynamic> value) => {
@@ -230,6 +235,7 @@ class AcademyState extends ChangeNotifier {
         throw StateError('Не удалось сохранить данные. Повторите действие.');
       }
       _document = next;
+      _allLessonsSnapshot = null;
       if (_isDemo) {
         await prefs.setStringList('completed', completed.toList());
         if (!_legacyCorrupt) {
