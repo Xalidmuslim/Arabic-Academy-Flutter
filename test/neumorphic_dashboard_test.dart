@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'
-    show Offset, CustomScrollView, Scaffold, MaterialApp;
+    show Offset, CustomScrollView;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/main.dart';
