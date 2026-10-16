@@ -101,6 +101,9 @@ class DialogueOcrResult extends PdfTextExtraction {
     this.yellowDetected,
     this.blueLines = 0,
     this.orangeLines = 0,
+    this.detectedBlueLines = 0,
+    this.detectedOrangeLines = 0,
+    this.unreadableLines = 0,
   });
 
   final int pageIndex;
@@ -111,6 +114,9 @@ class DialogueOcrResult extends PdfTextExtraction {
   final bool? yellowDetected;
   final int blueLines;
   final int orangeLines;
+  final int detectedBlueLines;
+  final int detectedOrangeLines;
+  final int unreadableLines;
 }
 
 /// Optional visual feature keeps existing test stores and lesson data compatible.
@@ -285,7 +291,10 @@ class OnDeviceDialogueStore implements OriginalDialogueStore, DialogueArtworkSto
     if (groupCount != null && (groupCount is! int || groupCount < 0)) {
       throw const FormatException('Invalid dialogue section count');
     }
-    for (final key in ['blue_lines', 'orange_lines']) {
+    for (final key in [
+      'blue_lines', 'orange_lines', 'detected_blue_lines',
+      'detected_orange_lines', 'unreadable_lines',
+    ]) {
       final value = result?[key];
       if (value != null && (value is! int || value < 0 || value > 1000)) {
         throw const FormatException('Invalid color-separated OCR line count');
@@ -304,6 +313,12 @@ class OnDeviceDialogueStore implements OriginalDialogueStore, DialogueArtworkSto
       yellowDetected: yellow is bool ? yellow : null,
       blueLines: result?['blue_lines'] is int ? result!['blue_lines'] as int : 0,
       orangeLines: result?['orange_lines'] is int ? result!['orange_lines'] as int : 0,
+      detectedBlueLines: result?['detected_blue_lines'] is int
+          ? result!['detected_blue_lines'] as int : 0,
+      detectedOrangeLines: result?['detected_orange_lines'] is int
+          ? result!['detected_orange_lines'] as int : 0,
+      unreadableLines: result?['unreadable_lines'] is int
+          ? result!['unreadable_lines'] as int : 0,
       crop: DialogueCrop.fromJson(result?['crop']),
       imagePng: result?['image_png'] is Uint8List
           ? result!['image_png'] as Uint8List
