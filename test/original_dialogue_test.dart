@@ -158,9 +158,13 @@ void main() {
     expect(find.textContaining('Страница 30'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.textContaining('Проверено вами по PDF'), 150,
-      scrollable: find.byType(Scrollable).first, alignment: 0.3,
+      scrollable: find.byType(Scrollable).first,
     );
     expect(find.textContaining('Проверено вами по PDF'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('السَّلَامُ عَلَيْكُمْ'), 140,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('السَّلَامُ عَلَيْكُمْ'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('وَعَلَيْكُمُ السَّلَامُ'),
@@ -355,7 +359,7 @@ void main() {
 
     await tester.scrollUntilVisible(
       find.byKey(const ValueKey('original-dialogue-save')),
-      180, scrollable: find.byType(Scrollable).first, alignment: 0.15,
+      180, scrollable: find.byType(Scrollable).first,
     );
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
@@ -473,7 +477,7 @@ void main() {
     );
     await tester.scrollUntilVisible(
       find.byKey(const ValueKey('original-dialogue-selector')),
-      -180, scrollable: find.byType(Scrollable).first, alignment: 0.2,
+      -180, scrollable: find.byType(Scrollable).first,
     );
     await tester.tap(find.text('Диалог Б (ب)'));
     await tester.pumpAndSettle();
@@ -481,7 +485,7 @@ void main() {
     expect(store.ocrCalls, 2);
     await tester.scrollUntilVisible(
       find.byKey(const ValueKey('original-dialogue-selector')),
-      -180, scrollable: find.byType(Scrollable).first, alignment: 0.2,
+      -180, scrollable: find.byType(Scrollable).first,
     );
     await tester.tap(find.text('Диалог А (أ)'));
     await tester.pumpAndSettle();
@@ -511,6 +515,8 @@ void main() {
       find.byKey(const ValueKey('original-dialogue-save')),
       180, scrollable: find.byType(Scrollable).first,
     );
+    await tester.drag(find.byType(ListView), const Offset(0, -160));
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
     await tester.pumpAndSettle();
     expect(store.records.containsKey('1/book1-u1-d1_dialogue_2'), true);
@@ -552,7 +558,7 @@ void main() {
     await tester.pumpAndSettle();
     final viewer = find.byKey(const ValueKey('original-dialogue-pdf-zoom'));
     await tester.scrollUntilVisible(viewer, 160,
-        scrollable: find.byType(Scrollable).first, alignment: 0.25);
+        scrollable: find.byType(Scrollable).first);
     await tester.tap(find.byKey(const ValueKey('original-pdf-zoom-in')));
     await tester.pumpAndSettle();
     expect(tester.widget<InteractiveViewer>(viewer)
