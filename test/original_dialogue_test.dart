@@ -87,8 +87,10 @@ const lesson = <String, dynamic>{
 };
 
 Future<void> scrollTo(
-  WidgetTester tester, Finder target, {double step = 150},
-) async {
+  WidgetTester tester,
+  Finder target, {
+  double step = 150,
+}) async {
   await tester.scrollUntilVisible(
     target, step, scrollable: find.byType(Scrollable).first,
   );
