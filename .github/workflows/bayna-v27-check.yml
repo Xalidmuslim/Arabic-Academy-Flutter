@@ -1,7 +1,7 @@
 name: Bayna v27 original PDF visual dialogue checks
 on:
   push:
-    branches: [codex/bayna-v27-arabic-ocr-contrast-review]
+    branches: [codex/bayna-v27-ocr-recovery-compact-review]
 permissions:
   contents: read
 concurrency:
