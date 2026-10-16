@@ -21,7 +21,11 @@ export 'ui/components.dart';
 /// Paint the first Flutter frame immediately; never keep the Android system
 /// splash on screen while waiting for preferences or bundled JSON assets.
 void main() {
+  final stopwatch = PerformanceProbe.enabled ? (Stopwatch()..start()) : null;
   WidgetsFlutterBinding.ensureInitialized();
+  if (stopwatch != null) {
+    PerformanceProbe.attach(WidgetsBinding.instance, stopwatch);
+  }
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
