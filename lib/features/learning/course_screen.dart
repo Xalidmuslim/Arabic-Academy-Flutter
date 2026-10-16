@@ -82,6 +82,8 @@ class _UnitScreenState extends State<UnitScreen> {
             )
             .toList();
         return CustomScrollView(
+          key: PageStorageKey<String>(
+              'unit-scroll-${widget.unitId ?? "all"}'),
           slivers: [
             SliverPadding(
               padding: const EdgeInsets.fromLTRB(18, 10, 18, 0),
