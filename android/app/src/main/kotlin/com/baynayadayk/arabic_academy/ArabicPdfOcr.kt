@@ -266,6 +266,16 @@ internal object ArabicPdfOcr {
                                 "detected_blue_lines" to lines.detectedBlue,
                                 "detected_orange_lines" to lines.detectedOrange,
                                 "unreadable_lines" to lines.unreadable,
+                                // Exact per-line PDF pixels and OCR hypotheses,
+                                // for local visual review. Never upload scans.
+                                "line_samples" to lines.samples.map { sample ->
+                                    mapOf(
+                                        "text" to sample.text,
+                                        "color" to sample.color,
+                                        "ordinal" to sample.ordinal,
+                                        "image_png" to sample.image,
+                                    )
+                                },
                                 "review_required" to true,
                                 "method" to "offline_ink_line_preserving_arabic_ocr_v25"
                             )
