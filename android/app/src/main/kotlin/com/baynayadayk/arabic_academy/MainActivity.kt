@@ -28,6 +28,13 @@ class MainActivity : FlutterActivity() {
     private var reminderPermissionResult: MethodChannel.Result? = null
     private val reminderPermissionRequest = 9127
 
+    override fun onResume() {
+        super.onResume()
+        // Request up to 120 Hz only when a same-resolution mode is supported.
+        // Android may cap it; never fake, interpolate or throttle frames.
+        AdaptiveRefreshRate.apply(this)
+    }
+
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<out String>,
