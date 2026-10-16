@@ -102,6 +102,7 @@ class _OriginalDialogueDraft {
     required this.source,
     required this.crop,
     required this.originalPng,
+    required this.lineSamples,
     required this.editing,
     required this.editingCrop,
     required this.hadStoredText,
@@ -113,6 +114,7 @@ class _OriginalDialogueDraft {
   final String source;
   final DialogueCrop? crop;
   final Uint8List? originalPng;
+  final List<DialogueLineSample> lineSamples;
   final bool editing;
   final bool editingCrop;
   final bool hadStoredText;
@@ -161,6 +163,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
   bool _verified = false;
   bool _hadStoredText = false;
   Uint8List? _originalPng;
+  List<DialogueLineSample> _lineSamples = const [];
   DialogueCrop? _crop;
   bool _editingCrop = false;
   String _source = 'manual';
@@ -275,6 +278,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
     _drafts[_dialogueSlot] = _OriginalDialogueDraft(
       page: _page, text: _transcript.text, verified: _verified,
       source: _source, crop: _crop, originalPng: _originalPng,
+      lineSamples: _lineSamples,
       editing: _editing, editingCrop: _editingCrop,
       hadStoredText: _hadStoredText, message: _message,
     );
@@ -301,6 +305,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         _transcript.text = draft?.text ?? saved?.text ?? '';
         _crop = draft?.crop ?? saved?.crop;
         _originalPng = preview;
+        _lineSamples = draft?.lineSamples ?? const [];
         _verified = draft?.verified ?? saved?.verified ?? false;
         _source = draft?.source ?? saved?.source ?? 'manual';
         _editing = draft?.editing ?? false;
@@ -327,6 +332,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       _message = null;
       _error = null;
       _originalPng = null;
+      _lineSamples = const [];
       _crop = null;
       _editingCrop = false;
       _zoomLocked = false;
@@ -342,6 +348,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         _busy = false;
         _crop = data.crop;
         _originalPng = data.imagePng;
+        _lineSamples = data.lineSamples;
         if (data.crop != null) _page = data.pageIndex;
         if (data.status == 'ocr' && data.text.trim().isNotEmpty) {
           if (_page != data.pageIndex) {
@@ -694,6 +701,72 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 icon: const Icon(Icons.save_outlined),
                 label: const Text('Сохранить фрагмент PDF'),
               ),
+            if (_lineSamples.isNotEmpty) ...[
+              const SizedBox(height: 10),
+              ExpansionTile(
+                key: const ValueKey('original-dialogue-line-review'),
+                initiallyExpanded: false,
+                tilePadding: const EdgeInsets.symmetric(horizontal: 6),
+                title: Text(
+                  'Сверка по строкам PDF · ${_lineSamples.length}',
+                  style: Theme.of(context).textTheme.titleMedium,
+                ),
+                subtitle: const Text(
+                  'Исходные изображения без OCR-искажений — проверьте слова и огласовки',
+                  style: TextStyle(fontSize: 12),
+                ),
+                children: [
+                  for (var i = 0; i < _lineSamples.length; i++) ...[
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 10),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          Row(
+                            children: [
+                              Icon(Icons.image_outlined,
+                                  size: 17,
+                                  color: _lineSamples[i].color == 'blue'
+                                      ? const Color(0xFF536A8F)
+                                      : const Color(0xFFB17C45)),
+                              const SizedBox(width: 6),
+                              Expanded(
+                                child: Text(
+                                  '${i + 1}. ${_lineSamples[i].color == 'blue' ? 'Синяя' : 'Оранжевая'} '
+                                  'реплика · оригинал PDF',
+                                  style: const TextStyle(fontSize: 13),
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 4),
+                          Container(
+                            key: ValueKey('original-dialogue-line-source-$i'),
+                            padding: const EdgeInsets.all(4),
+                            decoration: BoxDecoration(
+                              color: const Color(0xFFFCF7D5),
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Image.memory(
+                              _lineSamples[i].imagePng,
+                              height: 66,
+                              fit: BoxFit.contain,
+                              alignment: Alignment.centerRight,
+                              gaplessPlayback: true,
+                            ),
+                          ),
+                          if (_lineSamples[i].text.trim().isEmpty)
+                            const Text(
+                              'OCR не прочитал эту реплику. Исправьте её по изображению.',
+                              style: TextStyle(fontSize: 12),
+                            ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ],
             const SizedBox(height: 20),
             Row(
               children: [
@@ -738,11 +811,11 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                 key: const ValueKey('original-dialogue-verified'),
                 contentPadding: EdgeInsets.zero,
                 title: const Text('Сверено со страницей PDF'),
-                subtitle: Text(_transcript.text.contains('[Не распознана')
+                subtitle: Text(_transcript.text.contains('Не распознана')
                     ? 'Сначала восстановите все пропущенные реплики по PDF.'
                     : 'Отмечайте только после проверки огласовок и реплик.'),
                 value: _verified,
-                onChanged: _transcript.text.contains('[Не распознана')
+                onChanged: _transcript.text.contains('Не распознана')
                     ? null
                     : (value) => setState(() => _verified = value),
               ),
