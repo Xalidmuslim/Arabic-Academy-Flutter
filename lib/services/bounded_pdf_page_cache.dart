@@ -1,4 +1,3 @@
-import 'dart:collection';
 import 'dart:typed_data';
 
 /// Bounded LRU for original-resolution PDF PNG pages.
@@ -18,7 +17,7 @@ class BoundedPdfPageCache {
   final Future<Uint8List> Function(int page) _render;
   final int maximumPages;
   final int maximumBytes;
-  final _entries = LinkedHashMap<int, Future<Uint8List>>();
+  final _entries = <int, Future<Uint8List>>{};
   final _resolvedSizes = <int, int>{};
   int _epoch = 0;
 
@@ -40,7 +39,9 @@ class BoundedPdfPageCache {
     _trim();
     request.then<void>((bytes) {
       if (epoch != _epoch ||
-          !identical(_entries[index], request)) return;
+          !identical(_entries[index], request)) {
+        return;
+      }
       _resolvedSizes[index] = bytes.lengthInBytes;
       _trim();
     }, onError: (Object error, StackTrace stack) {
