@@ -281,4 +281,44 @@ void main() {
     expect(find.text('Диалог из оригинального PDF'), findsOneWidget);
     expect(store.renders, 1);
   });
+
+  testWidgets('source PDF dialogue can be collapsed and expanded without a '
+      'new PDF read or loss of animation', (tester) async {
+    final store = VisualDialogueStore();
+    store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
+      pageIndex: 23, text: '', verified: false, source: 'manual',
+      crop: DialogueCrop(.52, .2, .94, .72),
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: Scaffold(
+        body: OriginalDialoguePdfPreview(lesson: lesson, store: store),
+      ),
+    ));
+    await tester.pumpAndSettle();
+
+    final toggle = find.byKey(const ValueKey('lesson-original-dialogue-toggle'));
+    expect(toggle, findsOneWidget);
+    expect(find.byKey(const ValueKey('lesson-original-pdf-fragment')),
+        findsOneWidget);
+    expect(store.renders, 1);
+    expect(tester.widget<IconButton>(toggle).tooltip,
+        'Скрыть оригинальный диалог');
+
+    await tester.tap(toggle);
+    await tester.pumpAndSettle();
+    expect(find.text('Диалог из оригинального PDF'), findsOneWidget);
+    expect(find.byKey(const ValueKey('lesson-original-pdf-fragment')),
+        findsNothing);
+    expect(tester.widget<IconButton>(toggle).tooltip,
+        'Показать оригинальный диалог');
+
+    await tester.tap(toggle);
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('lesson-original-pdf-fragment')),
+        findsOneWidget);
+    expect(find.byKey(const ValueKey('lesson-original-pdf-zoom')),
+        findsOneWidget);
+    expect(store.renders, 1,
+        reason: 'reopening the panel reuses the loaded original PDF pixels');
+  });
 }
