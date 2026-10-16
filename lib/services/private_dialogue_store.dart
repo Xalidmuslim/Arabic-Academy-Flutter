@@ -311,15 +311,15 @@ class OnDeviceDialogueStore implements OriginalDialogueStore, DialogueArtworkSto
           pageIndex: pageIndex, autoSelected: false, detectedBlocks: 0);
     }
     final result = await _native.invokeMapMethod<String, dynamic>(
-      'ocrArabicDialogue', {
+      'findOriginalDialogue', {
         'part': part,
         'page': pageIndex,
         'dialogueSlot': dialogueSlot,
       },
     );
     final status = result?['status']?.toString() ?? 'empty';
-    if (!const ['ocr', 'empty', 'missing'].contains(status)) {
-      throw const FormatException('Unknown automatic dialogue OCR status');
+    if (!const ['image', 'empty', 'missing'].contains(status)) {
+      throw const FormatException('Unknown original PDF dialogue status');
     }
     final actualPage = result?['page_index'];
     if (actualPage is! int || actualPage < 0 || actualPage > 10000) {
