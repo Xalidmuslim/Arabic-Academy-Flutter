@@ -9,6 +9,7 @@ import '../../ui/components.dart';
 import '../../ui/fitted_study_artwork.dart';
 import '../../ui/study_art_asset.dart';
 import 'textbook_reader_screen.dart';
+import 'original_pdf_zoom_image.dart';
 
 /// Inline original scan preview for the lesson's primary Dialogue stage.
 /// Shows only a fragment previously saved by this learner from their PDF.
@@ -96,6 +97,31 @@ class _OriginalDialoguePdfPreviewState
   }
 }
 
+class _OriginalDialogueDraft {
+  const _OriginalDialogueDraft({
+    required this.page,
+    required this.text,
+    required this.verified,
+    required this.source,
+    required this.crop,
+    required this.originalPng,
+    required this.editing,
+    required this.editingCrop,
+    required this.hadStoredText,
+    this.message,
+  });
+  final int page;
+  final String text;
+  final bool verified;
+  final String source;
+  final DialogueCrop? crop;
+  final Uint8List? originalPng;
+  final bool editing;
+  final bool editingCrop;
+  final bool hadStoredText;
+  final String? message;
+}
+
 /// A private companion to a reader-owned PDF. The bundled editorial dialog is
 /// deliberately NOT used as the original or silently substituted for it.
 class OriginalDialogueScreen extends StatefulWidget {
@@ -118,6 +144,19 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
   late int _page;
   late final int _part;
   late final String _lessonId;
+  late final int _defaultSlot;
+  int _dialogueSlot = 1;
+  final Map<int, _OriginalDialogueDraft> _drafts = {};
+  bool _zoomLocked = false;
+
+  String _recordId(int slot) {
+    if (slot == _defaultSlot) return _lessonId;
+    final safeBase = _lessonId.length > 60
+        ? _lessonId.substring(0, 60)
+        : _lessonId;
+    return '${safeBase}_dialogue_$slot';
+  }
+
 
   bool _busy = true;
   bool _bookReady = false;
@@ -140,13 +179,15 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         ? (widget.lesson['pdf_page'] as int).clamp(0, 10000).toInt()
         : 22;
     _lessonId = (widget.lesson['id'] as String?) ?? 'unknown';
+    _defaultSlot = widget.lesson['lesson_order'] == 2 ? 2 : 1;
+    _dialogueSlot = _defaultSlot;
     unawaited(_loadLocal());
   }
 
   Future<void> _loadLocal() async {
     try {
       final hasBook = await _store.hasImportedPdf(_part);
-      final saved = await _store.load(_part, _lessonId);
+      final saved = await _store.load(_part, _recordId(_dialogueSlot));
       Uint8List? preview;
       if (hasBook && saved?.crop != null && _store is DialogueArtworkStore) {
         try {
@@ -192,9 +233,10 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
     );
     if (!mounted) return;
     final available = await _store.hasImportedPdf(_part);
-    final storedAfter = await _store.load(_part, _lessonId);
+    final storedAfter = await _store.load(_part, _recordId(_dialogueSlot));
     if (!mounted) return;
     setState(() {
+      if (storedAfter == null) _drafts.clear();
       _bookReady = available;
       final wasReplaced = _hadStoredText && storedAfter == null;
       _hadStoredText = storedAfter != null;
@@ -245,7 +287,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       // The native engine analyzes text-line positions, separates dialogues
       // from illustrations and instructions, then OCRs ONLY the chosen block.
       // The second conversation may share the earlier PDF page with the first.
-      final slot = widget.lesson['lesson_order'] == 2 ? 2 : 1;
+      final slot = _dialogueSlot;
       final data = await _store.recognizeDialogue(_part, _page, slot);
       if (!mounted) return;
       setState(() {
@@ -349,7 +391,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
       _error = null;
     });
     try {
-      await _store.save(_part, _lessonId, SavedOriginalDialogue(
+      await _store.save(_part, _recordId(_dialogueSlot), SavedOriginalDialogue(
         pageIndex: _page,
         text: _transcript.text.trim(),
         verified: _verified,
@@ -361,6 +403,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         _busy = false;
         _editing = false;
         _hadStoredText = true;
+        _drafts.remove(_dialogueSlot);
         _message = _crop == null
             ? 'Текст сохранён только на этом телефоне.'
             : 'Фрагмент PDF и текст сохранены только на этом телефоне.';
