@@ -13,6 +13,31 @@ import 'ui/background_artwork_preloader.dart';
 import 'ui/study_art_asset.dart';
 import 'features/learning/home_screen.dart';
 
+// Only settings that affect the MaterialApp theme, locale or inherited
+// typography may rebuild the app shell. Lesson completion, answer saves,
+// notes and progress updates must rebuild their own listeners, not routes.
+typedef _AppPresentation = ({
+  String appearance,
+  String language,
+  String russianFont,
+  String arabicFont,
+  double russianScale,
+  bool reduceMotion,
+});
+
+_AppPresentation _readPresentation(AcademyState state) {
+  final settings = state.settings;
+  return (
+    appearance: settings['appearance'] as String? ?? 'system',
+    language: settings['language'] as String? ?? 'ru',
+    russianFont: settings['russianFont'] as String? ?? 'Manrope',
+    arabicFont: settings['arabicFont'] as String? ?? 'NotoNaskhArabic',
+    russianScale: (settings['russianScale'] as num? ?? 1)
+        .toDouble().clamp(0.85, 1.6),
+    reduceMotion: settings['reduceMotion'] == true,
+  );
+}
+
 class AcademyApp extends StatefulWidget {
   const AcademyApp({super.key, required this.state, this.backend});
   final AcademyState state;
@@ -25,6 +50,24 @@ class _AcademyAppState extends State<AcademyApp> {
   late final BackendService _backend = widget.backend ?? BackendService();
   late final PurchaseService _purchases = PurchaseService(_backend);
   final _navigatorKey = GlobalKey<NavigatorState>();
+  late final ValueNotifier<_AppPresentation> _presentation =
+      ValueNotifier(_readPresentation(widget.state));
+
+  void _onAcademyStateChanged() {
+    final next = _readPresentation(widget.state);
+    if (_presentation.value != next) _presentation.value = next;
+  }
+
+  @override
+  void didUpdateWidget(covariant AcademyApp oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (!identical(oldWidget.state, widget.state)) {
+      oldWidget.state.removeListener(_onAcademyStateChanged);
+      widget.state.addListener(_onAcademyStateChanged);
+      _onAcademyStateChanged();
+    }
+  }
+
   late final List<String> _nextArtworkToWarm = _collectNextArtwork();
 
   List<String> _collectNextArtwork() {
@@ -63,6 +106,7 @@ class _AcademyAppState extends State<AcademyApp> {
   void initState() {
     super.initState();
     _welcomeSeen = widget.state.prefs.getBool('welcome_seen') == true;
+    widget.state.addListener(_onAcademyStateChanged);
     _backend.addListener(_connectStore);
     // Local learning paints immediately; optional online setup never gates it.
     WidgetsBinding.instance.addPostFrameCallback(
@@ -88,6 +132,8 @@ class _AcademyAppState extends State<AcademyApp> {
   @override
   void dispose() {
     _backend.removeListener(_connectStore);
+    widget.state.removeListener(_onAcademyStateChanged);
+    _presentation.dispose();
     _purchases.dispose();
     _selectedTab.dispose();
     _teacherMode.dispose();
@@ -99,25 +145,25 @@ class _AcademyAppState extends State<AcademyApp> {
   }
 
   @override
-  Widget build(BuildContext context) => AnimatedBuilder(
-    animation: widget.state,
-    builder: (context, _) => MaterialApp(
+  Widget build(BuildContext context) => ValueListenableBuilder<_AppPresentation>(
+    valueListenable: _presentation,
+    builder: (context, presentation, _) => MaterialApp(
       title: 'Байна Ядайк',
       debugShowCheckedModeBanner: false,
       navigatorKey: _navigatorKey,
       navigatorObservers: [_routeObserver],
       theme: academyTheme(
         dark: false,
-        latinFont: widget.state.settings['russianFont'] as String? ?? 'Manrope'),
+        latinFont: presentation.russianFont),
       darkTheme: academyTheme(
         dark: true,
         latinFont: widget.state.settings['russianFont'] as String? ?? 'Manrope'),
-      themeMode: switch (widget.state.settings['appearance']) {
+      themeMode: switch (presentation.appearance) {
         'light' => ThemeMode.light,
         'dark' => ThemeMode.dark,
         _ => ThemeMode.system,
       },
-      locale: Locale(widget.state.settings['language'] as String? ?? 'ru'),
+      locale: Locale(presentation.language),
       supportedLocales: const [Locale('ru'), Locale('ar')],
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
@@ -139,14 +185,14 @@ class _AcademyAppState extends State<AcademyApp> {
             systemNavigationBarIconBrightness: dark ? Brightness.light : Brightness.dark,
           ),
           child: ReadingFontScope(
-            arabicFamily: widget.state.settings['arabicFont'] as String? ?? 'NotoNaskhArabic',
+            arabicFamily: presentation.arabicFont,
             child: PurchaseScope(
           service: _purchases,
           child: MediaQuery(
             data: media.copyWith(
               disableAnimations:
                   media.disableAnimations ||
-                  widget.state.settings['reduceMotion'] == true,
+                  presentation.reduceMotion,
               textScaler: _CombinedTextScaler(media.textScaler, size),
             ),
             child: _welcomeSeen
