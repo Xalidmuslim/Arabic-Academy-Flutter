@@ -77,12 +77,9 @@ class _OriginalDialoguePdfPreviewState
                 color: const Color(0xFFFCF7D5),
                 borderRadius: BorderRadius.circular(16),
               ),
-              child: InteractiveViewer(
-                key: const ValueKey('lesson-original-pdf-zoom'),
-                minScale: 1,
-                maxScale: 6,
-                boundaryMargin: const EdgeInsets.all(18),
-                child: Center(child: Image.memory(bytes, fit: BoxFit.contain)),
+              child: OriginalPdfZoomImage(
+                image: bytes,
+                viewerKey: const ValueKey('lesson-original-pdf-zoom'),
               ),
             ),
             const SizedBox(height: 6),
@@ -499,6 +496,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
         title: const Text('Оригинальный диалог'),
       ),
       body: ListView(
+        physics: _zoomLocked
+            ? const NeverScrollableScrollPhysics()
+            : const ClampingScrollPhysics(),
         padding: const EdgeInsets.fromLTRB(18, 12, 18, 150),
         children: [
           if (illustration != null && _originalPng == null)
@@ -510,7 +510,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
               ),
             ),
           Text(
-            'Диалог ${widget.lesson['lesson_order'] ?? 1}',
+            'Диалог ${_dialogueSlot == 1 ? "А (أ)" : "Б (ب)"}',
             style: Theme.of(context).textTheme.titleLarge,
           ),
           const SizedBox(height: 8),
@@ -525,7 +525,26 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
               children: [
                 Text('Книга 1 · часть $_part',
                     style: Theme.of(context).textTheme.titleMedium),
-                const SizedBox(height: 5),
+                const SizedBox(height: 12),
+                const Text('Выберите диалог с этой страницы',
+                    style: TextStyle(fontSize: 13)),
+                const SizedBox(height: 6),
+                SegmentedButton<int>(
+                  key: const ValueKey('original-dialogue-selector'),
+                  segments: const [
+                    ButtonSegment<int>(
+                      value: 1, label: Text('Диалог А (أ)'),
+                    ),
+                    ButtonSegment<int>(
+                      value: 2, label: Text('Диалог Б (ب)'),
+                    ),
+                  ],
+                  selected: {_dialogueSlot},
+                  showSelectedIcon: false,
+                  onSelectionChanged: _busy
+                      ? null : (values) => _switchDialogue(values.first),
+                ),
+                const SizedBox(height: 9),
                 Text(
                   'Страница ${_page + 1} · '
                   '${_bookReady ? 'PDF загружен' : 'PDF не загружен'}',
@@ -600,20 +619,19 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                   color: const Color(0xFFFCF7D5),
                   borderRadius: BorderRadius.circular(16),
                 ),
-                child: InteractiveViewer(
-                  key: const ValueKey('original-dialogue-pdf-zoom'),
-                  minScale: 1,
-                  maxScale: 6,
-                  boundaryMargin: const EdgeInsets.all(18),
-                  child: Center(
-                    child: Image.memory(_originalPng!,
-                        fit: BoxFit.contain, gaplessPlayback: true),
-                  ),
+                child: OriginalPdfZoomImage(
+                  image: _originalPng!,
+                  viewerKey: const ValueKey('original-dialogue-pdf-zoom'),
+                  onScrollLockChanged: (locked) {
+                    if (mounted && _zoomLocked != locked) {
+                      setState(() => _zoomLocked = locked);
+                    }
+                  },
                 ),
               ),
               const SizedBox(height: 6),
-              const Text('Фрагмент из вашего PDF. Увеличивайте двумя '
-                  'пальцами. Проверьте границы и огласовки.',
+              const Text('Увеличение двумя пальцами, двойное касание — масштаб или сброс. '
+                  'Проверьте слова и огласовки по PDF.',
                   style: TextStyle(fontSize: 12)),
             ] else
               const Text('Нажмите «Найти и распознать только диалог» '
