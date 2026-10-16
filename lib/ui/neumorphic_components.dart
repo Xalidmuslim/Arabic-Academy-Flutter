@@ -274,6 +274,13 @@ class NeumorphicCourseHero extends StatelessWidget {
                 child: FilledButton(
                   onPressed: onContinue,
                   style: FilledButton.styleFrom(
+                    // Set the actual Material button text style, not only
+                    // its child Text: AnimatedDefaultTextStyle otherwise
+                    // interpolates inherited and non-inherited styles.
+                    textStyle: Theme.of(context).textTheme.labelLarge?.copyWith(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w700,
+                    ),
                     backgroundColor: Theme.of(context).colorScheme.primary,
                     foregroundColor: Theme.of(context).colorScheme.onPrimary,
                     padding: const EdgeInsets.symmetric(horizontal: 13),
@@ -281,10 +288,7 @@ class NeumorphicCourseHero extends StatelessWidget {
                       borderRadius: BorderRadius.circular(17),
                     ),
                   ),
-                  child: const Text(
-                    'Продолжить',
-                    style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
-                  ),
+                  child: const Text('Продолжить'),
                 ),
               ),
             ],

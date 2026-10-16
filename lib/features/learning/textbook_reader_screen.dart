@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:async';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
@@ -6,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../../services/private_dialogue_store.dart';
+import '../../services/bounded_pdf_page_cache.dart';
 
 /// The scanned book is NEVER checked into the public repository or bundled
 /// into the distributed APK. The reader opens a private copy the user picks
@@ -61,7 +63,10 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
   double _scale = 1;
   bool _fitWidth = false;
   Size _viewportSize = Size.zero;
-  final Map<int, Future<Uint8List>> _pageCache = {};
+  late final BoundedPdfPageCache _pageCache =
+      BoundedPdfPageCache(render: _renderUncached);
+  int _prefetchEpoch = 0;
+  int _pageDirection = 1;
   int _page = 0;
   int _pageCount = 0;
   bool _busy = true;
@@ -123,6 +128,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     if (!mounted) {
       return;
     }
+    ++_prefetchEpoch;
     _pageCache.clear();
     setState(() {
       _hasBook = true;
@@ -132,6 +138,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
       _page = widget.initialPage.clamp(0, count - 1).toInt();
     });
     _zoom.value = Matrix4.identity();
+    _scheduleNeighborPrefetch();
   }
 
   Future<void> _importFile() async {
@@ -224,17 +231,35 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
     }
   }
 
-  Future<Uint8List> _render(int page) =>
-      _pageCache.putIfAbsent(page, () async {
-        final data = await _native.invokeMethod<Uint8List>('render', {
-          'page': page,
-          'width': 1150,
-        });
-        if (data == null || data.isEmpty) {
-          throw const FormatException('Не удалось отрисовать страницу');
-        }
-        return data;
-      });
+  Future<Uint8List> _render(int page) => _pageCache.page(page);
+
+  Future<Uint8List> _renderUncached(int page) async {
+    final data = await _native.invokeMethod<Uint8List>('render', {
+      'page': page,
+      'width': 1150,
+    });
+    if (data == null || data.isEmpty) {
+      throw const FormatException('Не удалось отрисовать страницу');
+    }
+    return data;
+  }
+
+  // Prefetch only the likely next page, after the user stops paging.
+  // The native PdfRenderer uses a single worker; speculative work must
+  // never overtake the visible page on its queue.
+  void _scheduleNeighborPrefetch() {
+    final epoch = ++_prefetchEpoch;
+    Future<void>.delayed(const Duration(milliseconds: 240), () async {
+      if (!mounted || !_hasBook || _busy || epoch != _prefetchEpoch) return;
+      final next = _page + _pageDirection;
+      if (next < 0 || next >= _pageCount) return;
+      try {
+        await _render(next);
+      } catch (_) {
+        // Background page failure does not interrupt reading.
+      }
+    });
+  }
 
   // Passive observation of swipes keeps Android system Back and pinch intact.
   void _pointerDown(PointerDownEvent e) {
@@ -278,8 +303,8 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
 
   void _onZoomChanged() {
     final next = _zoom.value.getMaxScaleOnAxis();
-    if ((next - _scale).abs() > 0.02 && mounted) {
-      setState(() => _scale = next);
+    if ((next - _scale).abs() > 0.02) {
+      _scale = next; // Only the zoom toolbar repaints via its own listener.
     }
   }
 
@@ -297,9 +322,14 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
 
   void _goToPage(int page) {
     if (page < 0 || page >= _pageCount || page == _page) return;
+    _pageDirection = page > _page ? 1 : -1;
+    ++_prefetchEpoch;
     _zoom.value = Matrix4.identity();
     setState(() => _page = page);
-    _pageCache.removeWhere((key, _) => (key - page).abs() > 2);
+    _pageCache.keepNear(page);
+    // Queue the visible frame first, before any speculative raster work.
+    _render(page);
+    _scheduleNeighborPrefetch();
   }
 
   void _showChapters() {
@@ -333,6 +363,7 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
 
   @override
   void dispose() {
+    ++_prefetchEpoch;
     _pageCache.clear();
     _zoom.removeListener(_onZoomChanged);
     _zoom.dispose();
@@ -430,36 +461,45 @@ class _TextbookReaderScreenState extends State<TextbookReaderScreen> {
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              IconButton(
-                                key: const ValueKey('pdf-zoom-out'),
-                                tooltip: 'Уменьшить масштаб',
-                                onPressed: _scale <= 1.01 ? null : () => _setZoom(_scale / 1.5),
-                                icon: const Icon(Icons.remove_circle_outline),
-                              ),
-                              Text('${_scale.toStringAsFixed(1)}×'),
-                              IconButton(
-                                key: const ValueKey('pdf-zoom-in'),
-                                tooltip: 'Увеличить масштаб',
-                                onPressed: _scale >= 4.99 ? null : () => _setZoom(_scale * 1.5),
-                                icon: const Icon(Icons.add_circle_outline),
-                              ),
-                              TextButton(
-                                key: const ValueKey('pdf-fit-width'),
-                                onPressed: () {
-                                  _zoom.value = Matrix4.identity();
-                                  setState(() => _fitWidth = !_fitWidth);
-                                },
-                                child: Text(_fitWidth ? 'Вся страница' : 'По ширине'),
-                              ),
-                              IconButton(
-                                tooltip: 'Сбросить масштаб',
-                                onPressed: () => _setZoom(1),
-                                icon: const Icon(Icons.center_focus_strong_outlined),
-                              ),
-                            ],
+                          AnimatedBuilder(
+                            animation: _zoom,
+                            builder: (context, _) {
+                              final scale = _zoom.value.getMaxScaleOnAxis();
+                              return Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  IconButton(
+                                    key: const ValueKey('pdf-zoom-out'),
+                                    tooltip: 'Уменьшить масштаб',
+                                    onPressed: scale <= 1.01
+                                        ? null : () => _setZoom(scale / 1.5),
+                                    icon: const Icon(Icons.remove_circle_outline),
+                                  ),
+                                  Text('${scale.toStringAsFixed(1)}×'),
+                                  IconButton(
+                                    key: const ValueKey('pdf-zoom-in'),
+                                    tooltip: 'Увеличить масштаб',
+                                    onPressed: scale >= 4.99
+                                        ? null : () => _setZoom(scale * 1.5),
+                                    icon: const Icon(Icons.add_circle_outline),
+                                  ),
+                                  TextButton(
+                                    key: const ValueKey('pdf-fit-width'),
+                                    onPressed: () {
+                                      _zoom.value = Matrix4.identity();
+                                      setState(() => _fitWidth = !_fitWidth);
+                                    },
+                                    child: Text(_fitWidth
+                                        ? 'Вся страница' : 'По ширине'),
+                                  ),
+                                  IconButton(
+                                    tooltip: 'Сбросить масштаб',
+                                    onPressed: () => _setZoom(1),
+                                    icon: const Icon(Icons.center_focus_strong_outlined),
+                                  ),
+                                ],
+                              );
+                            },
                           ),
                           Row(
                         children: [

@@ -431,7 +431,7 @@ void main() {
       );
       expect(
         calls.singleWhere((call) => call.method == 'setSpeechRate').arguments,
-        0.7,
+        0.65, // Current device speech policy clamps speed to the 0.65 maximum.
       );
       final style = tester.widget<Text>(find.text('أَنَا')).style!;
       expect(style.fontSize, 32);
@@ -443,7 +443,7 @@ void main() {
       );
       await settle(tester);
       expect(calls.any((call) => call.method == 'speak'), isFalse);
-      expect(find.textContaining('Установите арабский голос'), findsOneWidget);
+      expect(find.textContaining('Арабский голос не установлен'), findsOneWidget);
     },
   );
 

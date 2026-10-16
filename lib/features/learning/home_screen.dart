@@ -160,7 +160,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _setTab(int tab, {bool remember = true}) {
     if (tab < 0 || tab > 3 || tab == _tab) return;
-    if (remember) _tabHistory.add(_tab);
+    if (remember) {
+      _tabHistory.add(_tab);
+      // Tab histories are navigation breadcrumbs, not an unbounded log.
+      if (_tabHistory.length > 32) _tabHistory.removeAt(0);
+    }
     setState(() => _tab = tab);
     if (widget.navigationTab != null && widget.navigationTab!.value != tab) {
       widget.navigationTab!.value = tab;
