@@ -31,6 +31,7 @@ class MemoryOriginalDialogueStore
     this.detectedBlueLines = 0,
     this.detectedOrangeLines = 0,
     this.unreadableLines = 0,
+    this.lineSamples = const [],
   });
   final bool? yellowDetected;
   final int blueLines;
@@ -38,6 +39,7 @@ class MemoryOriginalDialogueStore
   final int detectedBlueLines;
   final int detectedOrangeLines;
   final int unreadableLines;
+  final List<DialogueLineSample> lineSamples;
   int? lastSlot;
   bool pdfPresent;
   String extracted;
@@ -92,6 +94,7 @@ class MemoryOriginalDialogueStore
       detectedBlueLines: detectedBlueLines,
       detectedOrangeLines: detectedOrangeLines,
       unreadableLines: unreadableLines,
+      lineSamples: lineSamples,
     );
   }
 
@@ -576,4 +579,95 @@ void main() {
     expect(tester.widget<InteractiveViewer>(viewer)
         .transformationController!.value.getMaxScaleOnAxis(), closeTo(1, .02));
   });
+  test('native PDF source-line samples require valid color and image data', () {
+    final sample = DialogueLineSample.fromNative({
+      'text': 'السَّلَامُ عَلَيْكُمْ',
+      'color': 'blue',
+      'ordinal': 1,
+      'image_png': MemoryOriginalDialogueStore.tinyPng,
+    });
+    expect(sample, isNotNull);
+    expect(sample!.text, contains('السَّلَامُ'));
+    expect(sample.color, 'blue');
+    expect(DialogueLineSample.fromNative({
+      'text': 'abc', 'color': 'purple', 'ordinal': 1,
+      'image_png': MemoryOriginalDialogueStore.tinyPng,
+    }), isNull);
+    expect(DialogueLineSample.fromNative({
+      'text': 'abc', 'color': 'orange', 'ordinal': 1,
+      'image_png': Uint8List(0),
+    }), isNull);
+  });
+
+  testWidgets('unmodified PDF line strips can be compared with Arabic OCR',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: 'خَوْلَةُ: السَّلَامُ عَلَيْكُمْ',
+      yellowDetected: true,
+      blueLines: 1,
+      orangeLines: 0,
+      detectedBlueLines: 1,
+      detectedOrangeLines: 1,
+      unreadableLines: 1,
+      lineSamples: [
+        DialogueLineSample(
+          text: 'خَوْلَةُ: السَّلَامُ عَلَيْكُمْ',
+          color: 'blue', ordinal: 1,
+          imagePng: MemoryOriginalDialogueStore.tinyPng,
+        ),
+        DialogueLineSample(
+          text: '', color: 'orange', ordinal: 1,
+          imagePng: MemoryOriginalDialogueStore.tinyPng,
+        ),
+      ],
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-line-review')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
+    expect(find.textContaining('Сверка по строкам PDF · 2'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-line-review')));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-line-source-1')),
+      180, scrollable: find.byType(Scrollable).first,
+    );
+    expect(find.byKey(const ValueKey('original-dialogue-line-source-0')),
+        findsOneWidget);
+    expect(find.byKey(const ValueKey('original-dialogue-line-source-1')),
+        findsOneWidget);
+    expect(find.textContaining('OCR не прочитал эту реплику'), findsOneWidget);
+  });
+
+  testWidgets('RTL-isolated missing OCR lines disable false verified flag',
+      (tester) async {
+    final store = MemoryOriginalDialogueStore(
+      scanned: '[\u2066Не распознана оранжевая реплика 2 — проверьте PDF\u2069]',
+      yellowDetected: true,
+      detectedOrangeLines: 2,
+      orangeLines: 1,
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('original-dialogue-verified')),
+      220, scrollable: find.byType(Scrollable).first,
+    );
+    final flag = tester.widget<SwitchListTile>(
+      find.byKey(const ValueKey('original-dialogue-verified')),
+    );
+    expect(flag.onChanged, isNull);
+  });
+
+
 }
