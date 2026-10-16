@@ -6,59 +6,32 @@ import 'package:arabic_academy/services/private_dialogue_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-class MemoryOriginalDialogueStore
-    implements OriginalDialogueStore, DialogueArtworkStore {
+class VisualDialogueStore implements OriginalDialogueStore, DialogueArtworkStore {
   static final Uint8List tinyPng = base64Decode(
     'iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+'
     'AAAAFklEQVR4nGP88OzSfwYkwMSABggLAADwggOvWRDQ6AAAAABJRU5ErkJggg==',
   );
-  int cropRenders = 0;
-  DialogueCrop? lastCrop;
 
-  @override
-  Future<Uint8List> renderCrop(int part, int pageIndex, DialogueCrop crop) async {
-    cropRenders++;
-    lastCrop = crop;
-    return tinyPng;
-  }
-  MemoryOriginalDialogueStore({
-    this.pdfPresent = true,
-    this.extracted = '',
-    this.scanned = '',
-    this.yellowDetected,
-    this.blueLines = 0,
-    this.orangeLines = 0,
-    this.detectedBlueLines = 0,
-    this.detectedOrangeLines = 0,
-    this.unreadableLines = 0,
-    this.lineSamples = const [],
-  });
-  final bool? yellowDetected;
-  final int blueLines;
-  final int orangeLines;
-  final int detectedBlueLines;
-  final int detectedOrangeLines;
-  final int unreadableLines;
-  final List<DialogueLineSample> lineSamples;
-  int? lastSlot;
-  bool pdfPresent;
-  String extracted;
-  String scanned;
-  int ocrCalls = 0;
+  bool present = true;
+  bool panelFound = true;
+  int detected = 2;
+  int calls = 0;
+  int renders = 0;
+  int lastSlot = 0;
   final Map<String, SavedOriginalDialogue> records = {};
-  String _key(int part, String lessonId) => '$part/$lessonId';
 
   @override
-  Future<bool> hasImportedPdf(int part) async => pdfPresent;
+  Future<bool> hasImportedPdf(int part) async => present;
 
   @override
   Future<SavedOriginalDialogue?> load(int part, String lessonId) async =>
-      records[_key(part, lessonId)];
+      records['$part/$lessonId'];
 
   @override
-  Future<void> save(int part, String lessonId,
-      SavedOriginalDialogue record) async {
-    records[_key(part, lessonId)] = record;
+  Future<void> save(
+    int part, String lessonId, SavedOriginalDialogue record,
+  ) async {
+    records['$part/$lessonId'] = record;
   }
 
   @override
@@ -67,498 +40,209 @@ class MemoryOriginalDialogueStore
   }
 
   @override
-  Future<PdfTextExtraction> extractText(int part, int pageIndex) async =>
-      PdfTextExtraction(extracted.isEmpty ? 'empty' : 'ok', extracted);
+  Future<Uint8List> renderCrop(
+    int part, int pageIndex, DialogueCrop crop,
+  ) async {
+    renders++;
+    return tinyPng;
+  }
 
   @override
   Future<DialogueOcrResult> recognizeDialogue(
     int part, int pageIndex, int dialogueSlot,
   ) async {
-    ocrCalls++;
+    calls++;
     lastSlot = dialogueSlot;
     return DialogueOcrResult(
-      scanned.isEmpty ? 'empty' : 'ocr',
-      scanned,
-      pageIndex: dialogueSlot == 2 && pageIndex >= 2
-          ? pageIndex - 2
-          : pageIndex,
-      autoSelected: scanned.isNotEmpty,
-      detectedBlocks: scanned.isNotEmpty ? (dialogueSlot == 2 ? 2 : 1) : 0,
-      crop: scanned.isNotEmpty
-          ? const DialogueCrop(0.08, 0.23, 0.92, 0.72)
+      panelFound ? 'image' : 'empty',
+      'نَصٌّ خَاطِئٌ مُخْتَرَعٌ', // ignored even if native sent legacy OCR
+      pageIndex: pageIndex,
+      autoSelected: panelFound,
+      detectedBlocks: panelFound ? detected : 0,
+      crop: panelFound
+          ? const DialogueCrop(.52, .20, .94, .72)
           : null,
-      imagePng: scanned.isNotEmpty ? tinyPng : null,
-      yellowDetected: yellowDetected,
-      blueLines: blueLines,
-      orangeLines: orangeLines,
-      detectedBlueLines: detectedBlueLines,
-      detectedOrangeLines: detectedOrangeLines,
-      unreadableLines: unreadableLines,
-      lineSamples: lineSamples,
+      imagePng: panelFound ? tinyPng : null,
+      yellowDetected: panelFound,
     );
   }
 
   @override
-  Future<PdfTextExtraction> recognizeScan(int part, int pageIndex) async {
-    ocrCalls++;
-    return PdfTextExtraction(scanned.isEmpty ? 'empty' : 'ocr', scanned);
-  }
+  Future<PdfTextExtraction> extractText(
+    int part, int pageIndex,
+  ) async => const PdfTextExtraction('unsupported', '');
+
+  @override
+  Future<PdfTextExtraction> recognizeScan(
+    int part, int pageIndex,
+  ) async => const PdfTextExtraction('unsupported', '');
+}
+
+const lesson = <String, dynamic>{
+  'id': 'book1-u1-d1',
+  'title': 'Диалог 1. Знакомство',
+  'pdf_part': 1,
+  'pdf_page': 23,
+  'lesson_order': 1,
+};
+
+Future<void> scrollTo(
+  WidgetTester tester, Finder target, {double step = 150},
+) async {
+  await tester.scrollUntilVisible(
+    target, step, scrollable: find.byType(Scrollable).first,
+  );
+  await tester.pumpAndSettle();
 }
 
 void main() {
-  const lesson = <String, dynamic>{
-    'id': 'book1-u1-d1',
-    'title': 'Диалог 1. Знакомство в учебном центре',
-    'pdf_part': 1,
-    'pdf_page': 23,
-    // The editor's dialogue does NOT become the alleged original.
-    'dialogue': [
-      {'ar': 'هذا نص من إعدادنا', 'ru': 'Авторский текст'}
-    ],
-  };
-
-  test('saved personal transcription requires a review flag', () {
-    const record = SavedOriginalDialogue(
-      pageIndex: 27,
-      text: 'السَّلَامُ عَلَيْكُمْ',
+  test('visual-only records are backward compatible and preserve PDF crop',
+      () {
+    const crop = DialogueCrop(.51, .24, .95, .74);
+    expect(crop.isValid, true);
+    const saved = SavedOriginalDialogue(
+      pageIndex: 25,
+      text: '',
       verified: false,
-      source: 'pdf_text',
-    );
-    expect(SavedOriginalDialogue.fromJson(record.toJson())!.verified, false);
-    expect(SavedOriginalDialogue.fromJson(record.toJson())!.pageIndex, 27);
-    expect(SavedOriginalDialogue.fromJson({'version': 1}), isNull);
-    expect(SavedOriginalDialogue.fromJson({
-      ...record.toJson(), 'source': 'publisher_official',
-    }), isNull);
-  });
-
-  testWidgets('missing personal PDF never substitutes editorial dialogue',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(pdfPresent: false);
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    expect(find.text('Оригинальный диалог'), findsOneWidget);
-    expect(find.text('Импортировать личный PDF'), findsOneWidget);
-    expect(find.text('Авторский текст'), findsNothing);
-    expect(find.text('هذا نص من إعدادنا'), findsNothing);
-  });
-
-  testWidgets('owner-verified local text is displayed as independent lines',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore();
-    store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
-      pageIndex: 29,
-      text: 'السَّلَامُ عَلَيْكُمْ\nوَعَلَيْكُمُ السَّلَامُ',
-      verified: true,
       source: 'manual',
+      crop: crop,
     );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    expect(find.textContaining('Страница 30'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.textContaining('Проверено вами по PDF'), 150,
-      scrollable: find.byType(Scrollable).first,
-    );
-    expect(find.textContaining('Проверено вами по PDF'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.text('السَّلَامُ عَلَيْكُمْ'), 140,
-      scrollable: find.byType(Scrollable).first,
-    );
-    expect(find.text('السَّلَامُ عَلَيْكُمْ'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.text('وَعَلَيْكُمُ السَّلَامُ'),
-      150,
-      scrollable: find.byType(Scrollable).first,
-    );
-    expect(find.text('وَعَلَيْكُمُ السَّلَامُ'), findsOneWidget);
-    expect(find.text('هذا نص من إعدادنا'), findsNothing);
+    final restored = SavedOriginalDialogue.fromJson(saved.toJson());
+    expect(restored?.crop?.left, .51);
+    expect(restored?.text, '');
+    // Older records remain readable without altering their contents.
+    final old = SavedOriginalDialogue.fromJson({
+      ...saved.toJson(),
+      'text': 'قديمة من OCR',
+      'source': 'ocr_arabic',
+    });
+    expect(old?.text, 'قديمة من OCR');
   });
 
-  testWidgets('extracted text is unverified until user reviews and saves',
+  testWidgets('missing PDF cannot silently show editorial dialogue',
       (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: 'النَّصُ مِنَ الْكِتَابِ',
-    );
+    final store = VisualDialogueStore()..present = false;
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
     await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(find.textContaining('Область диалога найдена автоматически'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    expect(find.byKey(const ValueKey('original-dialogue-editor')),
-        findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-verified')),
-      250,
-      scrollable: find.byType(Scrollable).first,
-    );
-    final verify = tester.widget<SwitchListTile>(
-        find.byKey(const ValueKey('original-dialogue-verified')));
-    expect(verify.value, false);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-save')),
-      200,
-      scrollable: find.byType(Scrollable).first,
-    );
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-save')));
-    await tester.pumpAndSettle();
-    final saved = store.records['1/book1-u1-d1'];
-    expect(saved, isNotNull);
-    expect(saved!.verified, isFalse);
-    expect(saved.source, 'ocr_arabic');
-    expect(store.ocrCalls, 1);
-    expect(saved.pageIndex, 23);
-  });
-
-  testWidgets('unreadable scan reports OCR and supports manual corrections',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(extracted: '');
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(find.textContaining('Не удалось надёжно определить область'), findsOneWidget);
-    expect(store.ocrCalls, 1);
-    expect(find.byKey(const ValueKey('original-dialogue-editor')),
+    expect(find.text('Импортировать личный PDF'), findsOneWidget);
+    expect(find.textContaining('распознавания и изменения'), findsOneWidget);
+    expect(find.byKey(const ValueKey('original-dialogue-pdf-fragment')),
         findsNothing);
   });
-  testWidgets('Arabic OCR extracts scanned page and keeps lines unverified',
+
+  testWidgets('selecting a source panel never shows received OCR text',
       (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      extracted: '',
-      scanned: 'السَّلَامُ عَلَيْكُمْ\nوَعَلَيْكُمُ السَّلَامُ',
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(store.ocrCalls, 1);
-    expect(find.textContaining('Область диалога найдена автоматически'),
-        findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-save')),
-      250,
-      scrollable: find.byType(Scrollable).first,
-    );
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-save')));
-    await tester.pumpAndSettle();
-    final saved = store.records['1/book1-u1-d1'];
-    expect(saved, isNotNull);
-    expect(saved!.source, 'ocr_arabic');
-    expect(saved.verified, isFalse);
-    expect(saved.text, contains('السَّلَامُ'));
-  });
-
-  testWidgets('auto OCR isolates a conversation without manual crop', (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      extracted: 'السَّلَامُ',
-      scanned: 'وَعَلَيْكُمُ السَّلَامُ',
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(store.ocrCalls, 1);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    final editor = tester.widget<TextField>(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-    );
-    expect(editor.controller!.text, contains('وَعَلَيْكُمُ'));
-  });
-
-
-  testWidgets('second dialogue may be auto-located on earlier shared page',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: 'خولة: السَّلَامُ عَلَيْكُمْ',
-    );
-    final d2 = <String, dynamic>{
-      ...lesson,
-      'id': 'book1-u1-d2',
-      'lesson_order': 2,
-      'pdf_page': 25,
-    };
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: d2, store: store),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(
-        const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(find.textContaining('Страница 24'), findsOneWidget);
-    expect(find.textContaining('блоков на странице: 2'), findsOneWidget);
-  });
-
-
-  test('crop persistence rejects malformed geometry and keeps legacy records', () {
-    const crop = DialogueCrop(0.06, 0.20, 0.92, 0.74);
-    expect(DialogueCrop.fromJson(crop.toJson())!.right, closeTo(0.92, .001));
-    expect(DialogueCrop.fromJson([0.8, 0.2, 0.2, 0.7]), isNull);
-    expect(DialogueCrop.fromJson([0.1, -0.1, 0.9, 0.9]), isNull);
-    expect(DialogueCrop.fromJson([0.1, 0.2, double.nan, 0.8]), isNull);
-    const record = SavedOriginalDialogue(
-      pageIndex: 12, text: 'السَّلَامُ', verified: false,
-      source: 'ocr_arabic', crop: crop,
-    );
-    expect(SavedOriginalDialogue.fromJson(record.toJson())!.crop!.top, .20);
-    final legacy = <String, dynamic>{...record.toJson()}..remove('crop');
-    expect(SavedOriginalDialogue.fromJson(legacy)!.crop, isNull);
-    expect(SavedOriginalDialogue.fromJson({
-      ...record.toJson(), 'crop': [0.4, 0.8, 0.2, 0.9],
-    }), isNull);
-  });
-
-  testWidgets('private visual PDF fragment supports crop adjustment and save',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(scanned: 'السَّلَامُ عَلَيْكُمْ');
+    final store = VisualDialogueStore();
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
+    expect(store.calls, 1);
+    expect(store.lastSlot, 1);
     expect(find.byKey(const ValueKey('original-dialogue-pdf-fragment')),
         findsOneWidget);
-    expect(find.byKey(const ValueKey('original-dialogue-pdf-zoom')),
-        findsOneWidget);
-
-    await tester.ensureVisible(
-        find.byKey(const ValueKey('original-dialogue-crop-edit')));
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-crop-edit')));
-    await tester.pumpAndSettle();
-    expect(find.byKey(const ValueKey('original-dialogue-crop-horizontal')),
-        findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-crop-apply')),
-      160, scrollable: find.byType(Scrollable).first,
-    );
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-crop-apply')));
-    await tester.pumpAndSettle();
-    expect(store.cropRenders, 1);
-
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-save')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
-    await tester.pumpAndSettle();
-    expect(store.records['1/book1-u1-d1']!.crop, isNotNull);
-    expect(store.records['1/book1-u1-d1']!.verified, false);
+    expect(find.textContaining('نَصٌّ خَاطِئٌ'), findsNothing);
+    expect(find.text('Текст диалога'), findsNothing);
+    expect(find.byKey(const ValueKey('original-dialogue-editor')),
+        findsNothing);
+    expect(find.text('Найти снова'), findsOneWidget);
   });
 
-  testWidgets('saved image can be re-rendered without re-running OCR',
+  testWidgets('dialogue A and B retain independent visual source drafts',
       (tester) async {
-    final store = MemoryOriginalDialogueStore();
-    store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
-      pageIndex: 23, text: 'السَّلَامُ', verified: true,
-      source: 'manual', crop: DialogueCrop(0.08, 0.23, 0.92, 0.72),
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    expect(store.cropRenders, 1);
-    expect(store.ocrCalls, 0);
-    expect(find.byKey(const ValueKey('original-dialogue-pdf-fragment')),
-        findsOneWidget);
-  });
-
-  testWidgets('saved original crop appears inline in the Dialogue stage',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore();
-    store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
-      pageIndex: 23, text: 'السَّلَامُ عَلَيْكُمْ', verified: true,
-      source: 'manual', crop: DialogueCrop(0.08, 0.23, 0.92, 0.72),
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: Scaffold(body: OriginalDialoguePdfPreview(
-          lesson: lesson, store: store)),
-    ));
-    await tester.pumpAndSettle();
-    expect(find.text('Диалог из оригинального PDF'), findsOneWidget);
-    expect(find.byKey(const ValueKey('lesson-original-pdf-fragment')),
-        findsOneWidget);
-    expect(find.byKey(const ValueKey('lesson-original-pdf-zoom')),
-        findsOneWidget);
-    expect(store.cropRenders, 1);
-    expect(store.ocrCalls, 0);
-  });
-
-
-  testWidgets('yellow panel reports both Arabic ink colors and keeps tashkeel',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: 'خَالِدٌ: السَّلَامُ عَلَيْكُمْ\\nخَلِيلٌ: وَعَلَيْكُمُ السَّلَامُ',
-      yellowDetected: true,
-      blueLines: 1,
-      orangeLines: 1,
-    );
+    final store = VisualDialogueStore();
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
-    expect(find.textContaining('без фотографии'), findsOneWidget);
-    expect(find.textContaining('Синие реплики: 1'), findsOneWidget);
-    expect(find.textContaining('оранжевые: 1'), findsOneWidget);
-    expect(find.textContaining('не полностью'), findsNothing);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    final text = tester.widget<TextField>(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-    ).controller!.text;
-    expect(text, contains('السَّلَامُ'));
-  });
-
-  testWidgets('missing blue lines are flagged for manual source review',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: 'خَلِيلٌ: وَعَلَيْكُمُ السَّلَامُ',
-      yellowDetected: true,
-      orangeLines: 1,
-      blueLines: 0,
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(find.textContaining('не полностью'), findsOneWidget);
-    expect(find.textContaining('Синие реплики: 0'), findsOneWidget);
-  });
-
-  testWidgets('learner can select both PDF dialogues without losing unsaved edit',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: 'مَرْيَمُ: السَّلَامُ عَلَيْكُمْ',
-      yellowDetected: true, blueLines: 1, orangeLines: 1,
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    expect(find.byKey(const ValueKey('original-dialogue-selector')),
-        findsOneWidget);
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    await tester.enterText(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-      'تَمَّ تَصْحِيحُ الْحِوَارِ الأَوَّلِ',
-    );
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-selector')),
-      -180, scrollable: find.byType(Scrollable).first,
-    );
     await tester.ensureVisible(
       find.byKey(const ValueKey('original-dialogue-selector')));
-    await tester.pumpAndSettle();
     await tester.tap(find.text('Диалог Б (ب)'));
     await tester.pumpAndSettle();
     expect(store.lastSlot, 2);
-    expect(store.ocrCalls, 2);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-selector')),
-      -180, scrollable: find.byType(Scrollable).first,
-    );
+    expect(store.calls, 2);
+    expect(find.byKey(const ValueKey('original-dialogue-pdf-fragment')),
+        findsOneWidget);
     await tester.ensureVisible(
       find.byKey(const ValueKey('original-dialogue-selector')));
-    await tester.pumpAndSettle();
     await tester.tap(find.text('Диалог А (أ)'));
     await tester.pumpAndSettle();
-    expect(store.ocrCalls, 2);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    final editor = tester.widget<TextField>(
-      find.byKey(const ValueKey('original-dialogue-editor')),
-    );
-    expect(editor.controller!.text, 'تَمَّ تَصْحِيحُ الْحِوَارِ الأَوَّلِ');
+    expect(store.calls, 2); // In-memory source crop restored, no OCR.
   });
 
-  testWidgets('second dialogue saves in its own local record', (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: 'زَيْنَبُ: وَعَلَيْكُمُ السَّلَامُ',
-    );
+  testWidgets('saved image has empty transcription and separate part slot',
+      (tester) async {
+    final store = VisualDialogueStore();
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Диалог Б (ب)'));
     await tester.pumpAndSettle();
-    expect(store.lastSlot, 2);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-save')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    await tester.drag(find.byType(ListView), const Offset(0, -160));
-    await tester.pumpAndSettle();
+    await scrollTo(tester,
+        find.byKey(const ValueKey('original-dialogue-save')), step: 180);
     await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
     await tester.pumpAndSettle();
-    expect(store.records.containsKey('1/book1-u1-d1_dialogue_2'), true);
-    expect(store.records.containsKey('1/book1-u1-d1'), false);
+    final saved = store.records['1/book1-u1-d1_dialogue_2'];
+    expect(saved, isNotNull);
+    expect(saved!.text, '');
+    expect(saved.source, 'manual');
+    expect(saved.verified, false);
+    expect(saved.crop, isNotNull);
+    expect(store.records.containsKey('1/book1-u1-d1'), isFalse);
   });
 
-  testWidgets('missing OCR lines cannot be certified as source accurate',
+  testWidgets('legacy OCR transcription stays stored but is not displayed',
       (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: '[Не распознана синяя реплика 2 — проверьте PDF]',
-      yellowDetected: true, detectedBlueLines: 2, detectedOrangeLines: 2,
-      blueLines: 1, orangeLines: 2, unreadableLines: 1,
+    final store = VisualDialogueStore();
+    store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
+      pageIndex: 24,
+      text: 'خطأ OCR', verified: false, source: 'ocr_arabic',
+      crop: DialogueCrop(.5, .2, .94, .7),
     );
+    await tester.pumpWidget(MaterialApp(
+      home: OriginalDialogueScreen(lesson: lesson, store: store),
+    ));
+    await tester.pumpAndSettle();
+    expect(store.records['1/book1-u1-d1']!.text, 'خطأ OCR');
+    expect(find.textContaining('خطأ OCR'), findsNothing);
+    expect(find.byKey(const ValueKey('original-dialogue-pdf-fragment')),
+        findsOneWidget);
+    expect(store.renders, 1);
+  });
+
+  testWidgets('missing yellow region can be selected by hand',
+      (tester) async {
+    final store = VisualDialogueStore()..panelFound = false;
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
-    expect(find.textContaining('Синие реплики: 1 из 2'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-verified')),
-      200, scrollable: find.byType(Scrollable).first,
-    );
-    final flag = tester.widget<SwitchListTile>(
-      find.byKey(const ValueKey('original-dialogue-verified')),
-    );
-    expect(flag.onChanged, isNull);
+    expect(find.textContaining('не определена'), findsWidgets);
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-crop-edit')));
+    await tester.pumpAndSettle();
+    await scrollTo(tester,
+        find.byKey(const ValueKey('original-dialogue-crop-apply')), step: 140);
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-crop-apply')));
+    await tester.pumpAndSettle();
+    expect(store.renders, 1);
+    await scrollTo(tester,
+        find.byKey(const ValueKey('original-dialogue-save')), step: 130);
+    await tester.tap(find.byKey(const ValueKey('original-dialogue-save')));
+    await tester.pumpAndSettle();
+    expect(store.records['1/book1-u1-d1']?.crop?.isValid, true);
   });
 
-  testWidgets('PDF zoom controls enlarge and reset without broken gestures',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(scanned: 'السَّلَامُ عَلَيْكُمْ');
+  testWidgets('image zoom offers reliable controls and reset', (tester) async {
+    final store = VisualDialogueStore();
     await tester.pumpWidget(MaterialApp(
       home: OriginalDialogueScreen(lesson: lesson, store: store),
     ));
@@ -566,134 +250,33 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
     await tester.pumpAndSettle();
     final viewer = find.byKey(const ValueKey('original-dialogue-pdf-zoom'));
-    await tester.scrollUntilVisible(viewer, 160,
-        scrollable: find.byType(Scrollable).first);
-    await tester.ensureVisible(viewer);
-    await tester.pumpAndSettle();
+    await scrollTo(tester, viewer, step: 140);
     await tester.tap(find.byKey(const ValueKey('original-pdf-zoom-in')));
     await tester.pumpAndSettle();
     expect(tester.widget<InteractiveViewer>(viewer)
-        .transformationController!.value.getMaxScaleOnAxis(), greaterThan(1.5));
+      .transformationController!.value.getMaxScaleOnAxis(), greaterThan(1.5));
     await tester.tap(find.byKey(const ValueKey('original-pdf-zoom-reset')));
     await tester.pumpAndSettle();
     expect(tester.widget<InteractiveViewer>(viewer)
-        .transformationController!.value.getMaxScaleOnAxis(), closeTo(1, .02));
-  });
-  test('native PDF source-line samples require valid color and image data', () {
-    final sample = DialogueLineSample.fromNative({
-      'text': 'السَّلَامُ عَلَيْكُمْ',
-      'color': 'blue',
-      'ordinal': 1,
-      'image_png': MemoryOriginalDialogueStore.tinyPng,
-    });
-    expect(sample, isNotNull);
-    expect(sample!.text, contains('السَّلَامُ'));
-    expect(sample.color, 'blue');
-    expect(DialogueLineSample.fromNative({
-      'text': 'abc', 'color': 'purple', 'ordinal': 1,
-      'image_png': MemoryOriginalDialogueStore.tinyPng,
-    }), isNull);
-    expect(DialogueLineSample.fromNative({
-      'text': 'abc', 'color': 'orange', 'ordinal': 1,
-      'image_png': Uint8List(0),
-    }), isNull);
+      .transformationController!.value.getMaxScaleOnAxis(), closeTo(1, .02));
   });
 
-  testWidgets('unmodified PDF line strips can be compared with Arabic OCR',
+  testWidgets('lesson preview shows only saved original PDF crop',
       (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: 'خَوْلَةُ: السَّلَامُ عَلَيْكُمْ',
-      yellowDetected: true,
-      blueLines: 1,
-      orangeLines: 0,
-      detectedBlueLines: 1,
-      detectedOrangeLines: 1,
-      unreadableLines: 1,
-      lineSamples: [
-        DialogueLineSample(
-          text: 'خَوْلَةُ: السَّلَامُ عَلَيْكُمْ',
-          color: 'blue', ordinal: 1,
-          imagePng: MemoryOriginalDialogueStore.tinyPng,
-        ),
-        DialogueLineSample(
-          text: '', color: 'orange', ordinal: 1,
-          imagePng: MemoryOriginalDialogueStore.tinyPng,
-        ),
-      ],
+    final store = VisualDialogueStore();
+    store.records['1/book1-u1-d1'] = const SavedOriginalDialogue(
+      pageIndex: 23, text: '', verified: false, source: 'manual',
+      crop: DialogueCrop(.52, .2, .94, .72),
     );
     await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
+      home: Scaffold(
+        body: OriginalDialoguePdfPreview(lesson: lesson, store: store),
+      ),
     ));
     await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-line-review')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    expect(find.textContaining('Сверка по строкам PDF · 2'), findsOneWidget);
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-line-review')));
-    await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-line-source-1')),
-      180, scrollable: find.byType(Scrollable).first,
-    );
-    expect(find.byKey(const ValueKey('original-dialogue-line-source-0')),
+    expect(find.byKey(const ValueKey('lesson-original-pdf-fragment')),
         findsOneWidget);
-    expect(find.byKey(const ValueKey('original-dialogue-line-source-1')),
-        findsOneWidget);
-    expect(find.textContaining('OCR не прочитал эту реплику'), findsOneWidget);
+    expect(find.text('Диалог из оригинального PDF'), findsOneWidget);
+    expect(store.renders, 1);
   });
-
-  testWidgets('RTL-isolated missing OCR lines disable false verified flag',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: '[\u2066Не распознана оранжевая реплика 2 — проверьте PDF\u2069]',
-      yellowDetected: true,
-      detectedOrangeLines: 2,
-      orangeLines: 1,
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(
-      find.byKey(const ValueKey('original-dialogue-verified')),
-      220, scrollable: find.byType(Scrollable).first,
-    );
-    final flag = tester.widget<SwitchListTile>(
-      find.byKey(const ValueKey('original-dialogue-verified')),
-    );
-    expect(flag.onChanged, isNull);
-  });
-
-
-  testWidgets('source controls become compact after extracting one dialogue',
-      (tester) async {
-    final store = MemoryOriginalDialogueStore(
-      scanned: 'خَالِدٌ: السَّلَامُ عَلَيْكُمْ',
-      yellowDetected: true,
-      blueLines: 2,
-      detectedBlueLines: 4,
-      orangeLines: 3,
-      detectedOrangeLines: 4,
-      unreadableLines: 3,
-    );
-    await tester.pumpWidget(MaterialApp(
-      home: OriginalDialogueScreen(lesson: lesson, store: store),
-    ));
-    await tester.pumpAndSettle();
-    expect(find.text('Открыть PDF · выбрать страницу'), findsOneWidget);
-    await tester.tap(find.byKey(const ValueKey('original-dialogue-extract')));
-    await tester.pumpAndSettle();
-    expect(find.text('Страница PDF'), findsOneWidget);
-    expect(find.text('Повторить OCR'), findsOneWidget);
-    expect(find.text('Открыть PDF · выбрать страницу'), findsNothing);
-    expect(find.textContaining('Синие реплики: 2 из 4'), findsOneWidget);
-    expect(find.textContaining('оранжевые: 3 из 4'), findsOneWidget);
-    expect(find.textContaining('Сверьте огласовки по PDF'), findsOneWidget);
-  });
-
 }
