@@ -443,7 +443,7 @@ void main() {
       );
       await settle(tester);
       expect(calls.any((call) => call.method == 'speak'), isFalse);
-      expect(find.textContaining('Установите арабский голос'), findsOneWidget);
+      expect(find.textContaining('Арабский голос не установлен'), findsOneWidget);
     },
   );
 
