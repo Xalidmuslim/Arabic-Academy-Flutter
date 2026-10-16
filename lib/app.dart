@@ -9,6 +9,8 @@ import 'ui/purchase_scope.dart';
 import 'ui/appearance_theme.dart';
 import 'ui/floating_navigation.dart';
 import 'ui/welcome_screen.dart';
+import 'ui/background_artwork_preloader.dart';
+import 'ui/study_art_asset.dart';
 import 'features/learning/home_screen.dart';
 
 class AcademyApp extends StatefulWidget {
@@ -23,6 +25,26 @@ class _AcademyAppState extends State<AcademyApp> {
   late final BackendService _backend = widget.backend ?? BackendService();
   late final PurchaseService _purchases = PurchaseService(_backend);
   final _navigatorKey = GlobalKey<NavigatorState>();
+  late final List<String> _nextArtworkToWarm = _collectNextArtwork();
+
+  List<String> _collectNextArtwork() {
+    final paths = <String>{};
+    for (final source in [
+      widget.state.catalog['lessons'],
+      widget.state.catalog['modules'],
+    ]) {
+      if (source is! List) continue;
+      for (final item in source) {
+        if (item is! Map) continue;
+        final image = StudyArtAsset.valid(
+          item['dialogue_illustration_asset'] ?? item['illustration_asset'],
+        );
+        if (image != null) paths.add(image);
+        if (paths.length >= 2) return paths.toList(growable: false);
+      }
+    }
+    return paths.toList(growable: false);
+  }
   final _selectedTab = ValueNotifier<int>(0);
   late final _teacherMode = ValueNotifier<bool>(
     widget.state.prefs.getBool('demo_role_teacher') == true,
@@ -128,7 +150,9 @@ class _AcademyAppState extends State<AcademyApp> {
               textScaler: _CombinedTextScaler(media.textScaler, size),
             ),
             child: _welcomeSeen
-                ? ColoredBox(
+                ? BackgroundArtworkPreloader(
+                    artworkPaths: _nextArtworkToWarm,
+                    child: ColoredBox(
                     color: Theme.of(context).scaffoldBackgroundColor,
                     child: Stack(
                     // Let pages paint behind the pill: the outside of the
@@ -160,7 +184,8 @@ class _AcademyAppState extends State<AcademyApp> {
                             : const SizedBox.shrink(),
                       ),
                     ],
-                  ))
+                  )),
+                  )
                 : child!,
           ),
         )));
