@@ -1,7 +1,7 @@
 name: Bayna v26 original PDF visual dialogue checks
 on:
   push:
-    branches: [codex/bayna-v26-dialogue-selector-ocr-zoom]
+    branches: [codex/bayna-v26-arabic-ocr-contrast-review]
 permissions:
   contents: read
 concurrency:
