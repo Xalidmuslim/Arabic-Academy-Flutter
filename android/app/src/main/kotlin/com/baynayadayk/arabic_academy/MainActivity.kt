@@ -180,7 +180,7 @@ class MainActivity : FlutterActivity() {
                                 val png = ArabicPdfCrop.render(this@MainActivity, part, page, crop)
                                 runOnUiThread { result.success(png) }
                             }
-                            "ocrArabicDialogue" -> {
+                            "findOriginalDialogue" -> {
                                 val part = call.argument<Int>("part") ?: 1
                                 val page = call.argument<Int>("page") ?: 0
                                 val slot = call.argument<Int>("dialogueSlot") ?: 1
