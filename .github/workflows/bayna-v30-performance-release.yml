@@ -24,6 +24,7 @@ jobs:
           flutter pub get --enforce-lockfile
           git diff --exit-code -- pubspec.lock
           flutter analyze --no-pub
+          python3 scripts/verify_performance_contract.py
           python3 scripts/verify_assets.py
           python3 scripts/verify_standalone_study_art.py
           bash -n scripts/profile_android_performance.sh
@@ -97,6 +98,7 @@ jobs:
           bash scripts/prepare_signing.sh --mode development
           flutter pub get --enforce-lockfile
           git diff --exit-code -- pubspec.lock
+          python3 scripts/verify_performance_contract.py
           python3 scripts/verify_assets.py
       - name: Compile Flutter AOT + Android R8 ARM64 release
         run: flutter build apk --release --target-platform android-arm64 --split-per-abi
