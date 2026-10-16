@@ -233,7 +233,7 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
     final storedAfter = await _store.load(_part, _recordId(_dialogueSlot));
     if (!mounted) return;
     setState(() {
-      if (storedAfter == null) _drafts.clear();
+      if (_hadStoredText && storedAfter == null) _drafts.clear();
       _bookReady = available;
       final wasReplaced = _hadStoredText && storedAfter == null;
       _hadStoredText = storedAfter != null;
