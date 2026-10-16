@@ -28,6 +28,7 @@ jobs:
           python3 scripts/verify_assets.py
           python3 scripts/verify_standalone_study_art.py
           bash -n scripts/profile_android_performance.sh
+          bash -n scripts/check_120hz_device.sh
 
   flutter-regression:
     runs-on: ubuntu-22.04
