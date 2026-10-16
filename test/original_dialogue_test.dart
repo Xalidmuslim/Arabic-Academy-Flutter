@@ -479,6 +479,9 @@ void main() {
       find.byKey(const ValueKey('original-dialogue-selector')),
       -180, scrollable: find.byType(Scrollable).first,
     );
+    await tester.ensureVisible(
+      find.byKey(const ValueKey('original-dialogue-selector')));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Диалог Б (ب)'));
     await tester.pumpAndSettle();
     expect(store.lastSlot, 2);
@@ -487,6 +490,9 @@ void main() {
       find.byKey(const ValueKey('original-dialogue-selector')),
       -180, scrollable: find.byType(Scrollable).first,
     );
+    await tester.ensureVisible(
+      find.byKey(const ValueKey('original-dialogue-selector')));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Диалог А (أ)'));
     await tester.pumpAndSettle();
     expect(store.ocrCalls, 2);
@@ -559,6 +565,8 @@ void main() {
     final viewer = find.byKey(const ValueKey('original-dialogue-pdf-zoom'));
     await tester.scrollUntilVisible(viewer, 160,
         scrollable: find.byType(Scrollable).first);
+    await tester.ensureVisible(viewer);
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('original-pdf-zoom-in')));
     await tester.pumpAndSettle();
     expect(tester.widget<InteractiveViewer>(viewer)
