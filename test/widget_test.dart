@@ -34,6 +34,7 @@ void main() {
     await tester.tap(find.text('Начать обучение'));
     await tester.pumpAndSettle();
     expect(find.text('Арабский каждый день'), findsOneWidget);
-    expect(find.byIcon(Icons.swap_horiz_rounded), findsOneWidget);
+    expect(find.byKey(const ValueKey('home-switch-role')), findsOneWidget);
+    expect(find.byIcon(Icons.switch_account_outlined), findsOneWidget);
   });
 }
