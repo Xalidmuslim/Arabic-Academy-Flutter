@@ -1,4 +1,7 @@
 import 'dart:convert';
+import 'dart:typed_data';
+
+import 'package:flutter/foundation.dart' show compute;
 
 import 'package:flutter/services.dart';
 
@@ -14,16 +17,35 @@ Future<Map<String, dynamic>> loadBundledAcademyCatalog() async {
     'grammar': 'assets/content/grammar.json',
   };
 
-  final entries = await Future.wait(
+  // Fetch assets concurrently and parse/merge in ONE worker isolate.
+  // Flutter can keep animating its first loading frame without five separate
+  // JSON parsing/merging passes contending with UI frame scheduling.
+  final assets = await Future.wait(
     sources.entries.map((source) async {
-      final decoded = jsonDecode(await rootBundle.loadString(source.value));
-      if (decoded is! Map<String, dynamic>) {
-        throw FormatException('Invalid bundled catalog: ${source.value}');
-      }
-      return MapEntry(source.key, decoded);
+      final bytes = await rootBundle.load(source.value);
+      return MapEntry(source.key, Uint8List.sublistView(bytes));
     }),
   );
-  final documents = Map<String, Map<String, dynamic>>.fromEntries(entries);
+  return compute<Map<String, Uint8List>, Map<String, dynamic>>(
+    _decodeAndMergeCatalog,
+    Map<String, Uint8List>.fromEntries(assets),
+    debugLabel: 'bayna-catalog-background-decode',
+  );
+}
+
+/// Runs on a Dart worker isolate on Android. No BuildContext, platform
+/// channels or Flutter bindings can be accessed from this function.
+Map<String, dynamic> _decodeAndMergeCatalog(
+  Map<String, Uint8List> assets,
+) {
+  final documents = <String, Map<String, dynamic>>{};
+  for (final entry in assets.entries) {
+    final decoded = jsonDecode(utf8.decode(entry.value));
+    if (decoded is! Map<String, dynamic>) {
+      throw FormatException('Invalid bundled catalog: ${entry.key}');
+    }
+    documents[entry.key] = decoded;
+  }
   final catalog = Map<String, dynamic>.from(documents['level']!);
   final original = documents['original']!;
   final book = documents['book']!;
