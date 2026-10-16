@@ -116,186 +116,74 @@ internal object ArabicPdfOcr {
     }
 
     /**
-     * Auto-detect the relevant conversation on a scan before the final OCR.
-     *
-     * Detects Arabic text-line bounding boxes, separates independent dialogue
-     * blocks by vertical whitespace, and restricts the second OCR pass to the
-     * selected block. A d2 page hint can be two pages later than the first
-     * scan containing both (a)/(b) conversations; in this case also inspect
-     * the earlier page and choose its second block if identified.
-     *
-     * This is heuristic layout analysis, NOT a source-accuracy guarantee.
+     * Only locate/crop the ORIGINAL yellow PDF dialogue; no transcription.
+     * Scanned Arabic words and diacritics remain identical to the source.
      */
     fun recognizeDialogue(
-        context: Context,
-        part: Int,
-        pageIndex: Int,
-        dialogueSlot: Int,
+        context: Context, part: Int, pageIndex: Int, dialogueSlot: Int,
     ): Map<String, Any> {
-        require(part == 1 || part == 2) { "Invalid book part" }
-        require(pageIndex >= 0) { "Invalid page index" }
-        require(dialogueSlot in 1..2) { "Invalid dialogue slot" }
+        require(part in 1..2) { "Invalid book part" }
+        require(pageIndex >= 0) { "Invalid PDF page" }
+        require(dialogueSlot in 1..2) { "Invalid dialogue number" }
         val privateFolder = File(context.filesDir, "private_textbooks").canonicalFile
         val pdf = File(privateFolder, "student_book_1_part_${part}.pdf").canonicalFile
-        require(pdf.parentFile == privateFolder) { "Invalid book location" }
+        require(pdf.parentFile == privateFolder) { "Invalid PDF location" }
         if (!pdf.isFile) {
             return mapOf("status" to "missing", "text" to "", "page_index" to pageIndex)
         }
-        require(pdf.length() in 5L..(400L * 1024 * 1024)) { "Invalid PDF size" }
-
-        val root = modelDirectory(context)
-        val tess = TessBaseAPI()
-        try {
-            check(tess.init(root.absolutePath, "ara")) {
-                "Unable to initialize offline Arabic OCR engine"
-            }
-            return ParcelFileDescriptor.open(
-                pdf, ParcelFileDescriptor.MODE_READ_ONLY
-            ).use { descriptor ->
-                PdfRenderer(descriptor).use { renderer ->
-                    require(pageIndex < renderer.pageCount) {
-                        "PDF page index out of range"
-                    }
-                    // The page explicitly selected by the learner comes
-                    // FIRST. Only if dialogue (ب) is not on that page, try
-                    // the legacy earlier-page lesson hint.
-                    val indexes = if (dialogueSlot == 2 && pageIndex >= 2) {
-                        listOf(pageIndex, pageIndex - 2)
-                    } else {
-                        listOf(pageIndex)
-                    }
-                    for (candidateIndex in indexes) {
-                        val bitmap = renderer.openPage(candidateIndex).use { page ->
-                            val scale = minOf(2300.0 / page.width, 3300.0 / page.height)
-                            val width = (page.width * scale).toInt().coerceAtLeast(480)
-                            val height = (page.height * scale).toInt().coerceAtLeast(480)
-                            Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
-                                .also { image ->
-                                    Canvas(image).drawColor(Color.WHITE)
-                                    page.render(
-                                        image, null, null,
-                                        PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY
-                                    )
-                                }
-                        }
-                        try {
-                            val panels = ArabicDialoguePanelOcr.findPanels(bitmap)
-                            var selected: Rect? = null
-                            var detectedGroups = panels.size
-                            if (panels.size >= dialogueSlot) {
-                                // Independent background regions identify (أ)
-                                // and (ب) even when neither is read by OCR.
-                                selected = panels[dialogueSlot - 1]
-                            } else if (panels.isNotEmpty()) {
-                                // Do not re-use (أ) as the requested (ب).
-                                continue
-                            } else {
-                                // Older grayscale/white editions: retain the
-                                // previous OCR-layout fallback, also bounded
-                                // to exactly one dialogue.
-                                tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_AUTO)
-                                tess.setImage(bitmap)
-                                tess.getUTF8Text()
-                                val lines = mutableListOf<ArabicDialogueRegion.Line>()
-                                val iterator = tess.getResultIterator()
-                                if (iterator != null) {
-                                    try {
-                                        iterator.begin()
-                                        do {
-                                            val line = iterator.getUTF8Text(
-                                                TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
-                                            )?.trim().orEmpty()
-                                            val box = iterator.getBoundingRect(
-                                                TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
-                                            )
-                                            val confidence = iterator.confidence(
-                                                TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
-                                            )
-                                            if (line.isNotEmpty() && box != null) {
-                                                lines.add(ArabicDialogueRegion.Line(
-                                                    line, box, confidence
-                                                ))
-                                            }
-                                        } while (iterator.next(
-                                            TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
-                                        ))
-                                    } finally {
-                                        iterator.delete()
-                                    }
-                                }
-                                val fallback = ArabicDialogueRegion.choose(
-                                    lines, bitmap.width, bitmap.height, dialogueSlot
-                                )
-                                detectedGroups = fallback.groupsOnPage
-                                if (detectedGroups >= dialogueSlot) {
-                                    selected = fallback.crop
-                                }
+        require(pdf.length() in 5L..(400L * 1024 * 1024)) { "Invalid private PDF" }
+        return ParcelFileDescriptor.open(pdf, ParcelFileDescriptor.MODE_READ_ONLY).use {
+            descriptor ->
+            PdfRenderer(descriptor).use { renderer ->
+                require(pageIndex < renderer.pageCount) { "PDF page out of range" }
+                val candidates = if (dialogueSlot == 2 && pageIndex >= 2) {
+                    listOf(pageIndex, pageIndex - 2)
+                } else listOf(pageIndex)
+                for (index in candidates) {
+                    val bitmap = renderer.openPage(index).use { page ->
+                        val scale = minOf(2300.0 / page.width, 3300.0 / page.height)
+                        val width = (page.width * scale).toInt().coerceAtLeast(480)
+                        val height = (page.height * scale).toInt().coerceAtLeast(480)
+                        Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+                            .also { pixels ->
+                                Canvas(pixels).drawColor(Color.WHITE)
+                                page.render(pixels, null, null,
+                                    PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY)
                             }
-                            val region = selected ?: continue
-                            // Never return the first dialogue as the second,
-                            // including when falling back to a previous page.
-                            val visual = ArabicPdfCrop.fromDetectedText(bitmap, region)
-                            val lines = ArabicDialoguePanelOcr.recognize(
-                                tess, bitmap, visual.rect
-                            )
-                            val visualCount = lines.detectedBlue + lines.detectedOrange
-                            val text = if (visualCount > 0) {
-                                // Keep explicit markers for unreadable lines.
-                                // Never claim a partial 4/8 transcript is full.
-                                lines.text
-                            } else {
-                                tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_SINGLE_BLOCK)
-                                tess.setImage(bitmap)
-                                tess.setRectangle(region)
-                                ArabicDialogueRegion.onlyDialogueLines(
-                                    tess.getUTF8Text().orEmpty()
-                                )
-                            }
-                            return@use mapOf(
-                                "status" to (if (text.isBlank()) "empty" else "ocr"),
-                                "text" to text,
-                                "page_index" to candidateIndex,
-                                "dialogue_slot" to dialogueSlot,
-                                "auto_selected" to true,
-                                "detected_blocks" to detectedGroups,
-                                "crop" to visual.coordinates,
-                                "image_png" to visual.imagePng,
-                                "yellow_detected" to visual.yellowDetected,
-                                "blue_lines" to lines.recognizedBlue,
-                                "orange_lines" to lines.recognizedOrange,
-                                "detected_blue_lines" to lines.detectedBlue,
-                                "detected_orange_lines" to lines.detectedOrange,
-                                "unreadable_lines" to lines.unreadable,
-                                // Exact per-line PDF pixels and OCR hypotheses,
-                                // for local visual review. Never upload scans.
-                                "line_samples" to lines.samples.map { sample ->
-                                    mapOf(
-                                        "text" to sample.text,
-                                        "color" to sample.color,
-                                        "ordinal" to sample.ordinal,
-                                        "image_png" to sample.image,
-                                    )
-                                },
-                                "review_required" to true,
-                                "method" to "offline_ink_line_preserving_arabic_ocr_v25"
-                            )
-                        } finally {
-                            bitmap.recycle()
-                        }
                     }
-                    mapOf(
-                        "status" to "empty",
-                        "text" to "",
-                        "page_index" to pageIndex,
-                        "auto_selected" to false,
-                        "detected_blocks" to 0,
-                        "review_required" to true,
-                    )
+                    try {
+                        val panels = ArabicDialoguePanelOcr.findPanels(bitmap)
+                        if (panels.size < dialogueSlot) continue
+                        val visual = ArabicPdfCrop.fromDetectedText(
+                            bitmap, panels[dialogueSlot - 1]
+                        )
+                        return@use mapOf(
+                            "status" to "image",
+                            "text" to "",
+                            "page_index" to index,
+                            "dialogue_slot" to dialogueSlot,
+                            "auto_selected" to true,
+                            "detected_blocks" to panels.size,
+                            "crop" to visual.coordinates,
+                            "image_png" to visual.imagePng,
+                            "yellow_detected" to visual.yellowDetected,
+                            "review_required" to true,
+                            "method" to "original_pdf_visual_crop_no_ocr"
+                        )
+                    } finally {
+                        bitmap.recycle()
+                    }
                 }
+                mapOf(
+                    "status" to "empty",
+                    "text" to "",
+                    "page_index" to pageIndex,
+                    "auto_selected" to false,
+                    "detected_blocks" to 0,
+                    "review_required" to true,
+                    "method" to "original_pdf_visual_crop_no_ocr"
+                )
             }
-        } finally {
-            tess.recycle()
         }
     }
-
 }
