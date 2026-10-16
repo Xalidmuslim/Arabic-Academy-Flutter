@@ -247,14 +247,14 @@ class ArtworkHeroLayer extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Positioned.fill(
     child: IgnorePointer(
-      child: Opacity(
-        opacity: 0.25,
-        child: Image.asset(
-          PremiumArt.hero,
-          fit: BoxFit.cover,
-          cacheWidth: 900,
-          excludeFromSemantics: true,
-        ),
+      // Apply alpha in the image painter instead of allocating a separate
+      // Opacity compositing layer over this full-screen background.
+      child: Image.asset(
+        PremiumArt.hero,
+        fit: BoxFit.cover,
+        cacheWidth: 900,
+        opacity: const AlwaysStoppedAnimation<double>(0.25),
+        excludeFromSemantics: true,
       ),
     ),
   );
