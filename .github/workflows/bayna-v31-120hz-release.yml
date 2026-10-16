@@ -101,12 +101,15 @@ jobs:
           git diff --exit-code -- pubspec.lock
           python3 scripts/verify_performance_contract.py
           python3 scripts/verify_assets.py
-      - name: Test native 120 Hz / 90 Hz / power saver fallback
-        run: |
-          cd android
-          ./gradlew :app:testReleaseUnitTest --no-daemon
       - name: Compile Flutter AOT + Android R8 ARM64 release
         run: flutter build apk --release --target-platform android-arm64 --split-per-abi
+      - name: Test native 120 Hz / 90 Hz / power saver fallback
+        run: |
+          # The Flutter build first generates the RELEASE registrant,
+          # excluding integration_test (a dev-only plugin). Running Gradle
+          # directly before it can compile the wrong plugin registrant.
+          cd android
+          ./gradlew :app:testReleaseUnitTest --no-daemon
       - name: Verify R8 mapping, resource shrink, signature and ABI
         run: |
           set -euo pipefail
