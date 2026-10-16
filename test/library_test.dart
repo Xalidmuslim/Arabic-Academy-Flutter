@@ -431,7 +431,7 @@ void main() {
       );
       expect(
         calls.singleWhere((call) => call.method == 'setSpeechRate').arguments,
-        0.7,
+        0.65, // Current device speech policy clamps speed to the 0.65 maximum.
       );
       final style = tester.widget<Text>(find.text('أَنَا')).style!;
       expect(style.fontSize, 32);
