@@ -273,6 +273,56 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
     }
   }
 
+  Future<void> _switchDialogue(int nextSlot) async {
+    if (_busy || nextSlot == _dialogueSlot || nextSlot < 1 || nextSlot > 2) return;
+    _drafts[_dialogueSlot] = _OriginalDialogueDraft(
+      page: _page, text: _transcript.text, verified: _verified,
+      source: _source, crop: _crop, originalPng: _originalPng,
+      editing: _editing, editingCrop: _editingCrop,
+      hadStoredText: _hadStoredText, message: _message,
+    );
+    final pageHint = _page;
+    setState(() { _busy = true; _error = null; _zoomLocked = false; });
+    try {
+      final draft = _drafts[nextSlot];
+      final saved = draft == null
+          ? await _store.load(_part, _recordId(nextSlot)) : null;
+      Uint8List? preview = draft?.originalPng;
+      if (draft == null && saved?.crop != null && _bookReady &&
+          _store is DialogueArtworkStore) {
+        try {
+          preview = await (_store as DialogueArtworkStore)
+              .renderCrop(_part, saved!.pageIndex, saved.crop!);
+        } catch (_) {
+          // Keep text available if the local source PDF was replaced.
+        }
+      }
+      if (!mounted) return;
+      setState(() {
+        _dialogueSlot = nextSlot;
+        _page = draft?.page ?? saved?.pageIndex ?? pageHint;
+        _transcript.text = draft?.text ?? saved?.text ?? '';
+        _crop = draft?.crop ?? saved?.crop;
+        _originalPng = preview;
+        _verified = draft?.verified ?? saved?.verified ?? false;
+        _source = draft?.source ?? saved?.source ?? 'manual';
+        _editing = draft?.editing ?? false;
+        _editingCrop = draft?.editingCrop ?? false;
+        _hadStoredText = draft?.hadStoredText ?? (saved != null);
+        _message = draft?.message ?? (saved != null
+            ? 'Загружен сохранённый диалог ${nextSlot == 1 ? "А" : "Б"}.'
+            : 'Выбран диалог ${nextSlot == 1 ? "А" : "Б"}. Ищем его на странице.');
+        _busy = false;
+      });
+      if (draft == null && saved == null && _bookReady) await _extract();
+    } catch (error) {
+      if (!mounted) return;
+      setState(() {
+        _busy = false;
+        _error = 'Не удалось переключить диалог: $error';
+      });
+    }
+  }
   Future<void> _extract() async {
     if (_busy || !_bookReady) return;
     setState(() {
