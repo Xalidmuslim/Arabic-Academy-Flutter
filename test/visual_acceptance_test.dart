@@ -256,9 +256,12 @@ void main() {
           await _settle(tester);
           drainExceptions();
           if (name == 'localteacher') {
-            await tester.tap(find.byType(PopupMenuButton<bool>));
+            // v29 uses a bottom sheet rather than the old PopupMenuButton.
+            final switcher = find.byKey(const ValueKey('home-switch-role'));
+            await tester.ensureVisible(switcher);
+            await tester.tap(switcher);
             await _settle(tester);
-            await tester.tap(find.byType(PopupMenuItem<bool>).last);
+            await tester.tap(find.text('Учительница').last);
             await _settle(tester);
           } else if (name == 'dictionary-detail') {
             final target = find.byKey(
