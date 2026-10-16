@@ -70,8 +70,8 @@ class _OriginalPdfZoomImageState extends State<OriginalPdfZoomImage> {
     const factor = 2.25;
     final position = _doubleTapPosition;
     _zoom.value = Matrix4.identity()
-      ..translate(-position.dx * (factor - 1), -position.dy * (factor - 1))
-      ..scale(factor);
+      ..translateByDouble(-position.dx * (factor - 1), -position.dy * (factor - 1), 0, 1)
+      ..scaleByDouble(factor, factor, 1, 1);
   }
 
   @override
