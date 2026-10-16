@@ -2,7 +2,7 @@ name: Bayna v25 original PDF dialogue crops Android APK
 on:
   push:
     branches:
-      - codex/bayna-v25-yellow-dialogue-blue-orange-ocr
+      - codex/bayna-v25-dialogue-selector-ocr-zoom
   workflow_dispatch:
 permissions:
   contents: read
