@@ -370,10 +370,9 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
             _message = 'Жёлтая область диалога выделена без фотографии. '
                 'Синие реплики: ${data.blueLines} из $detectedBlue, '
                 'оранжевые: ${data.orangeLines} из $detectedOrange. '
-                '${incomplete ? "Распознавание не полностью завершено: "
-                "пропущенные строки помечены. " : ""}'
-                'OCR не гарантирует правильных огласовок — '
-                'сверьте каждую реплику с оригинальным PDF.';
+                '${incomplete ? "Распознавание не полностью завершено. "
+                "Проверьте пропуски ниже. " : ""}'
+                'Сверьте огласовки по PDF.';
           } else if (data.yellowDetected == false) {
             _message = 'Граница жёлтого фона не определена надёжно. '
                 'Обрезана только текстовая колонка, без изображения. '
@@ -568,29 +567,57 @@ class _OriginalDialogueScreenState extends State<OriginalDialogueScreen> {
                   key: const ValueKey('original-dialogue-source-page'),
                 ),
                 const SizedBox(height: 6),
-                const Text(
-                  'Начальная страница указана ориентировочно. '
-                  'Найдите настоящий диалог в книге и подтвердите страницу.',
-                  style: TextStyle(fontSize: 12),
-                ),
-                const SizedBox(height: 12),
-                FilledButton.icon(
-                  key: const ValueKey('original-dialogue-open-pdf'),
-                  onPressed: _busy
-                      ? null
-                      : () => _openPdf(choosePage: true),
-                  icon: const Icon(Icons.picture_as_pdf_outlined),
-                  label: Text(_bookReady
-                      ? 'Открыть PDF · выбрать страницу'
-                      : 'Импортировать личный PDF'),
-                ),
-                if (_bookReady) ...[
+                if (_originalPng == null) ...[
+                  const Text(
+                    'Начальная страница указана ориентировочно. '
+                    'Найдите настоящий диалог в книге и подтвердите страницу.',
+                    style: TextStyle(fontSize: 12),
+                  ),
+                  const SizedBox(height: 12),
+                  FilledButton.icon(
+                    key: const ValueKey('original-dialogue-open-pdf'),
+                    onPressed: _busy
+                        ? null
+                        : () => _openPdf(choosePage: true),
+                    icon: const Icon(Icons.picture_as_pdf_outlined),
+                    label: Text(_bookReady
+                        ? 'Открыть PDF · выбрать страницу'
+                        : 'Импортировать личный PDF'),
+                  ),
+                  if (_bookReady) ...[
+                    const SizedBox(height: 8),
+                    OutlinedButton.icon(
+                      key: const ValueKey('original-dialogue-extract'),
+                      onPressed: _busy ? null : _extract,
+                      icon: const Icon(Icons.text_snippet_outlined),
+                      label: const Text('Найти и распознать только диалог'),
+                    ),
+                  ],
+                ] else if (_bookReady) ...[
                   const SizedBox(height: 8),
-                  OutlinedButton.icon(
-                    key: const ValueKey('original-dialogue-extract'),
-                    onPressed: _busy ? null : _extract,
-                    icon: const Icon(Icons.text_snippet_outlined),
-                    label: const Text('Найти и распознать только диалог'),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: OutlinedButton.icon(
+                          key: const ValueKey('original-dialogue-open-pdf'),
+                          onPressed: _busy
+                              ? null
+                              : () => _openPdf(choosePage: true),
+                          icon: const Icon(Icons.picture_as_pdf_outlined,
+                              size: 18),
+                          label: const Text('Страница PDF'),
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: OutlinedButton.icon(
+                          key: const ValueKey('original-dialogue-extract'),
+                          onPressed: _busy ? null : _extract,
+                          icon: const Icon(Icons.refresh, size: 18),
+                          label: const Text('Повторить OCR'),
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ],
