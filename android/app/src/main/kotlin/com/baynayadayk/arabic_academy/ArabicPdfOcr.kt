@@ -156,10 +156,11 @@ internal object ArabicPdfOcr {
                     require(pageIndex < renderer.pageCount) {
                         "PDF page index out of range"
                     }
-                    // Only one previous page is checked for a second dialogue.
-                    // We never upload or index an entire textbook.
+                    // The page explicitly selected by the learner comes
+                    // FIRST. Only if dialogue (ب) is not on that page, try
+                    // the legacy earlier-page lesson hint.
                     val indexes = if (dialogueSlot == 2 && pageIndex >= 2) {
-                        listOf(pageIndex - 2, pageIndex)
+                        listOf(pageIndex, pageIndex - 2)
                     } else {
                         listOf(pageIndex)
                     }
@@ -168,98 +169,105 @@ internal object ArabicPdfOcr {
                             val scale = minOf(2300.0 / page.width, 3300.0 / page.height)
                             val width = (page.width * scale).toInt().coerceAtLeast(480)
                             val height = (page.height * scale).toInt().coerceAtLeast(480)
-                            Bitmap.createBitmap(
-                                width, height, Bitmap.Config.ARGB_8888
-                            ).also { image ->
-                                Canvas(image).drawColor(Color.WHITE)
-                                page.render(
-                                    image, null, null,
-                                    PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY
-                                )
-                            }
+                            Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+                                .also { image ->
+                                    Canvas(image).drawColor(Color.WHITE)
+                                    page.render(
+                                        image, null, null,
+                                        PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY
+                                    )
+                                }
                         }
                         try {
-                            tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_AUTO)
-                            tess.setImage(bitmap)
-                            // Recognition must occur before iterating text-line boxes.
-                            tess.getUTF8Text()
-                            val lines = mutableListOf<ArabicDialogueRegion.Line>()
-                            val iterator = tess.getResultIterator()
-                            if (iterator != null) {
-                                try {
-                                    iterator.begin()
-                                    do {
-                                        val text = iterator.getUTF8Text(
-                                            TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
-                                        )?.trim().orEmpty()
-                                        val box = iterator.getBoundingRect(
-                                            TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
-                                        )
-                                        val confidence = iterator.confidence(
-                                            TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
-                                        )
-                                        if (text.isNotEmpty() && box != null) {
-                                            lines.add(
-                                                ArabicDialogueRegion.Line(text, box, confidence)
+                            val panels = ArabicDialoguePanelOcr.findPanels(bitmap)
+                            var selected: Rect? = null
+                            var detectedGroups = panels.size
+                            if (panels.size >= dialogueSlot) {
+                                // Independent background regions identify (أ)
+                                // and (ب) even when neither is read by OCR.
+                                selected = panels[dialogueSlot - 1]
+                            } else if (panels.isNotEmpty()) {
+                                // Do not re-use (أ) as the requested (ب).
+                                continue
+                            } else {
+                                // Older grayscale/white editions: retain the
+                                // previous OCR-layout fallback, also bounded
+                                // to exactly one dialogue.
+                                tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_AUTO)
+                                tess.setImage(bitmap)
+                                tess.getUTF8Text()
+                                val lines = mutableListOf<ArabicDialogueRegion.Line>()
+                                val iterator = tess.getResultIterator()
+                                if (iterator != null) {
+                                    try {
+                                        iterator.begin()
+                                        do {
+                                            val line = iterator.getUTF8Text(
+                                                TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
+                                            )?.trim().orEmpty()
+                                            val box = iterator.getBoundingRect(
+                                                TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
                                             )
-                                        }
-                                    } while (iterator.next(
-                                        TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
-                                    ))
-                                } finally {
-                                    iterator.delete()
+                                            val confidence = iterator.confidence(
+                                                TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
+                                            )
+                                            if (line.isNotEmpty() && box != null) {
+                                                lines.add(ArabicDialogueRegion.Line(
+                                                    line, box, confidence
+                                                ))
+                                            }
+                                        } while (iterator.next(
+                                            TessBaseAPI.PageIteratorLevel.RIL_TEXTLINE
+                                        ))
+                                    } finally {
+                                        iterator.delete()
+                                    }
+                                }
+                                val fallback = ArabicDialogueRegion.choose(
+                                    lines, bitmap.width, bitmap.height, dialogueSlot
+                                )
+                                detectedGroups = fallback.groupsOnPage
+                                if (detectedGroups >= dialogueSlot) {
+                                    selected = fallback.crop
                                 }
                             }
-                            val selection = ArabicDialogueRegion.choose(
-                                lines, bitmap.width, bitmap.height, dialogueSlot
-                            )
-                            val region = selection.crop ?: continue
-                            // Do not confuse the first dialogue on a previous
-                            // page with the requested second one.
-                            if (candidateIndex != pageIndex &&
-                                selection.groupsOnPage < 2) {
-                                continue
-                            }
-                            tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_SINGLE_BLOCK)
-                            tess.setRectangle(region)
-                            val broadText = ArabicDialogueRegion.onlyDialogueLines(
-                                tess.getUTF8Text().orEmpty()
-                            )
-                            // First preserve the actual source pixels. This is
-                            // the cream-yellow text panel only, not its photo.
+                            val region = selected ?: continue
+                            // Never return the first dialogue as the second,
+                            // including when falling back to a previous page.
                             val visual = ArabicPdfCrop.fromDetectedText(bitmap, region)
-                            // Next isolate muted blue and orange glyph pixels.
-                            // Segment rows independently of page-level Tesseract
-                            // text-line boxes, which often drop the blue prompts.
-                            val colored = ArabicDialogueColors.recognizeBothColors(
+                            val lines = ArabicDialoguePanelOcr.recognize(
                                 tess, bitmap, visual.rect
                             )
-                            val combinedText = if (colored.blueLines > 0 &&
-                                colored.orangeLines > 0) {
-                                colored.text
-                            } else if (colored.text.isBlank()) {
-                                broadText
+                            val visualCount = lines.detectedBlue + lines.detectedOrange
+                            val text = if (visualCount > 0) {
+                                // Keep explicit markers for unreadable lines.
+                                // Never claim a partial 4/8 transcript is full.
+                                lines.text
                             } else {
-                                // Keep colored lines when standard OCR sees fewer
-                                // lines; otherwise retain its unmasked fallback.
-                                val coloredCount = colored.text.lines().size
-                                val broadCount = broadText.lines().size
-                                if (broadCount > coloredCount) broadText
-                                else colored.text
+                                tess.setPageSegMode(TessBaseAPI.PageSegMode.PSM_SINGLE_BLOCK)
+                                tess.setImage(bitmap)
+                                tess.setRectangle(region)
+                                ArabicDialogueRegion.onlyDialogueLines(
+                                    tess.getUTF8Text().orEmpty()
+                                )
                             }
                             return@use mapOf(
-                                "status" to (if (combinedText.isBlank()) "empty" else "ocr"),
-                                "text" to combinedText,
+                                "status" to (if (text.isBlank()) "empty" else "ocr"),
+                                "text" to text,
                                 "page_index" to candidateIndex,
+                                "dialogue_slot" to dialogueSlot,
                                 "auto_selected" to true,
-                                "detected_blocks" to selection.groupsOnPage,
+                                "detected_blocks" to detectedGroups,
                                 "crop" to visual.coordinates,
                                 "image_png" to visual.imagePng,
                                 "yellow_detected" to visual.yellowDetected,
-                                "blue_lines" to colored.blueLines,
-                                "orange_lines" to colored.orangeLines,
+                                "blue_lines" to lines.recognizedBlue,
+                                "orange_lines" to lines.recognizedOrange,
+                                "detected_blue_lines" to lines.detectedBlue,
+                                "detected_orange_lines" to lines.detectedOrange,
+                                "unreadable_lines" to lines.unreadable,
                                 "review_required" to true,
-                                "method" to "tesseract_arabic_color_separated_dialogue"
+                                "method" to "offline_ink_line_preserving_arabic_ocr_v25"
                             )
                         } finally {
                             bitmap.recycle()
