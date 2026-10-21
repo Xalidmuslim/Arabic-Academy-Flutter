@@ -11,6 +11,8 @@ import '../../services/backend_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../../ui/neumorphic_components.dart';
+import '../../ui/home_course_hero.dart';
+import '../../ui/home_quick_action.dart';
 import '../../ui/premium_art.dart';
 import '../integrations/live_sessions_screen.dart';
 import '../integrations/phone_auth_screen.dart';
@@ -311,7 +313,12 @@ class _HomeScreenState extends State<HomeScreen> {
             centerTitle: false,
             title: Text(
               _teacherLayout ? 'Учительница' : 'Байна Ядайк',
-              style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800),
+              style: TextStyle(
+                fontFamily: !_teacherLayout && _tab == 0 ? 'serif' : null,
+                fontSize: !_teacherLayout && _tab == 0 ? 25 : 21,
+                color: Theme.of(context).colorScheme.onSurface,
+                fontWeight: FontWeight.w800,
+              ),
             ),
             actions: [
               if (_tab == 0 && !_backend.isAuthenticated)
@@ -509,6 +516,26 @@ class _HomeScreenState extends State<HomeScreen> {
             ));
     final oneColumn = MediaQuery.sizeOf(context).width < 340 ||
         MediaQuery.textScalerOf(context).scale(1) > 1.45;
+    final quickOneColumn = MediaQuery.sizeOf(context).width < 345 ||
+        MediaQuery.textScalerOf(context).scale(1) > 1.3;
+    final reviewTile = HomeQuickActionTile(
+      key: const ValueKey('home-review-card'),
+      title: words.words.isEmpty
+          ? 'На сегодня всё повторено'
+          : 'Повторить ${words.words.length} слов',
+      subtitle: 'К повторению: ${words.due}\nНовых доступно: ${words.newWords}',
+      image: 'assets/artwork/home_quick/review.webp',
+      onTap: () => _open(VocabularyPracticeScreen(state: state)),
+    );
+    final nextTile = HomeQuickActionTile(
+      key: const ValueKey('home-next-card'),
+      title: 'Что изучить дальше',
+      subtitle: today.weakSkill == null
+          ? 'Продолжить урок и закрепить слова'
+          : 'Особое внимание: ${LearningInsights.skillLabels[today.weakSkill] ?? 'повторение'}',
+      image: 'assets/artwork/home_quick/next.webp',
+      onTap: () => _setTab(2),
+    );
     return CustomScrollView(
       key: const PageStorageKey<String>('today-scroll-position'),
       slivers: [
@@ -522,10 +549,16 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Арабский каждый день',
-                    style: Theme.of(context).textTheme.titleLarge),
+                    style: TextStyle(
+                      fontFamily: 'serif',
+                      fontSize: 25,
+                      fontWeight: FontWeight.w700,
+                      color: Theme.of(context).colorScheme.onSurface,
+                    )),
                   Text('МОЁ ОБУЧЕНИЕ',
                     style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant,
-                      fontSize: 11, letterSpacing: 0.4)),
+                      fontSize: 10, fontWeight: FontWeight.w700,
+                      letterSpacing: 3.0)),
                 ],
               )),
               IconButton(
@@ -538,58 +571,36 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ]),
             const SizedBox(height: 6),
-            NeumorphicCourseHero(
+            HomeCourseHero(
               progress: analytics.progress,
               completed: analytics.completedLessons,
               total: analytics.totalLessons,
+              nextLessonTitle: next?['title']?.toString(),
               onContinue: () {
                 if (next != null) _lesson(context, next);
               },
             ),
-            if (next != null)
-              Padding(
-                padding: const EdgeInsets.only(top: 6),
-                child: Text('Следующий урок: ${next['title'] ?? ''}',
-                  maxLines: 2, overflow: TextOverflow.ellipsis,
-                  style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant,
-                    fontSize: 12)),
-              ),
             const SizedBox(height: 15),
-            Text('Сегодня', style: Theme.of(context).textTheme.titleMedium),
-            const SizedBox(height: 8),
-            Panel(
-              padding: EdgeInsets.zero,
-              child: ListTile(
-                key: const ValueKey('daily-vocabulary-entry'),
-                leading: const Icon(Icons.style_outlined, size: 32,
-                  color: DesignTokens.deepOlive),
-                title: Text(words.words.isEmpty
-                    ? 'На сегодня всё повторено'
-                    : 'Повторить ${words.words.length} слов',
-                  style: const TextStyle(fontWeight: FontWeight.w800)),
-                subtitle: Text('К повторению: ${words.due} · '
-                  'Новых доступно: ${words.newWords}',
-                  style: const TextStyle(fontSize: 12)),
-                trailing: const Icon(Icons.chevron_right),
-                onTap: () => _open(VocabularyPracticeScreen(state: state)),
+            Text('Сегодня', style: TextStyle(
+              fontFamily: 'serif',
+              fontSize: 25,
+              fontWeight: FontWeight.w700,
+              color: Theme.of(context).colorScheme.onSurface,
+            )),
+            const SizedBox(height: 10),
+            if (quickOneColumn) ...[
+              reviewTile,
+              const SizedBox(height: 10),
+              nextTile,
+            ] else
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Expanded(child: reviewTile),
+                  const SizedBox(width: 10),
+                  Expanded(child: nextTile),
+                ],
               ),
-            ),
-            const SizedBox(height: 8),
-            Panel(
-              padding: EdgeInsets.zero,
-              child: ListTile(
-                leading: const Icon(Icons.tips_and_updates_outlined,
-                  color: DesignTokens.deepOlive, size: 30),
-                title: const Text('Что изучить дальше',
-                  style: TextStyle(fontWeight: FontWeight.w700)),
-                subtitle: Text(today.weakSkill == null
-                    ? 'Продолжить урок и закрепить слова'
-                    : 'Особое внимание: ${LearningInsights.skillLabels[today.weakSkill] ?? "повторение"}',
-                  maxLines: 2),
-                trailing: const Icon(Icons.chevron_right),
-                onTap: () => _setTab(2),
-              ),
-            ),
           ],
         )),
       ),
@@ -634,34 +645,6 @@ class _HomeScreenState extends State<HomeScreen> {
         sliver: SliverToBoxAdapter(child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            SectionTitle('Мой учебный путь'),
-            Panel(child: Row(children: [
-              for (final phase in <
-                  (String, IconData, VoidCallback)>[
-                ('Изучаю', Icons.menu_book_outlined,
-                    () => _setTab(1)),
-                ('Практикую', Icons.edit_note_outlined,
-                    () => _setTab(2)),
-                ('Проверяю', Icons.fact_check_outlined,
-                    () => _setTab(2)),
-                ('Повторяю', Icons.repeat_outlined,
-                    () => _open(WordsHubScreen(state: state))),
-              ])
-                Expanded(child: InkWell(
-                  onTap: phase.$3,
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 6),
-                    child: Column(children: [
-                      Icon(phase.$2, color: DesignTokens.deepOlive, size: 23),
-                      const SizedBox(height: 5),
-                      Text(phase.$1, maxLines: 1,
-                        textAlign: TextAlign.center,
-                        style: const TextStyle(fontSize: 10)),
-                    ]),
-                  ),
-                )),
-            ])),
-            const SizedBox(height: 12),
             Panel(padding: EdgeInsets.zero, child: ListTile(
               key: const ValueKey('home-study-calendar'),
               leading: const Icon(Icons.calendar_month_outlined,

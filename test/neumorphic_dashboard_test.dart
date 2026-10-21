@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart'
-    show Offset, CustomScrollView, ValueKey;
+    show Color, Offset, CustomScrollView, ValueKey;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/main.dart';
 import 'package:arabic_academy/ui/neumorphic_components.dart';
+import 'package:arabic_academy/ui/home_quick_action.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -96,4 +97,37 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Ученица · локальное обучение'), findsOneWidget);
   });
+  testWidgets('Two quick actions use sage frames and separate transparent 3D icons',
+      (tester) async {
+    SharedPreferences.setMockInitialValues(<String, Object>{
+      'welcome_seen': true,
+    });
+    final prefs = await SharedPreferences.getInstance();
+    final state = AcademyState(prefs, <String, dynamic>{
+      'modules': <dynamic>[],
+      'lessons': <dynamic>[
+        <String, dynamic>{'id': 'demo', 'title': 'Приветствие'},
+      ],
+    });
+    addTearDown(state.dispose);
+    await tester.pumpWidget(AcademyApp(state: state));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(HomeQuickActionTile), findsNWidgets(2));
+    expect(find.byKey(const ValueKey('home-review-card')), findsOneWidget);
+    expect(find.byKey(const ValueKey('home-next-card')), findsOneWidget);
+    final review = tester.widget<HomeQuickActionTile>(
+      find.byKey(const ValueKey('home-review-card')),
+    );
+    final next = tester.widget<HomeQuickActionTile>(
+      find.byKey(const ValueKey('home-next-card')),
+    );
+    expect(review.image, 'assets/artwork/home_quick/review.webp');
+    expect(next.image, 'assets/artwork/home_quick/next.webp');
+    expect(HomeQuickActionTile.sageBorder, const Color(0xFFC7D7C1));
+    expect(find.text('Мой учебный путь'), findsNothing);
+    expect(find.byKey(const ValueKey('home-continue-button')), findsOneWidget);
+    expect(find.byKey(const ValueKey('home-next-lesson')), findsOneWidget);
+  });
+
 }
