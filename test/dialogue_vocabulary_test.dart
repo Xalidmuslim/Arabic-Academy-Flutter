@@ -82,8 +82,7 @@ void main() {
         for (final token in DialogueVocabulary.dialogueWords(
             (line as Map)['ar'] as String)) {
           expect(known.contains(DialogueVocabulary.normalize(token)), isTrue,
-              reason: 'Missing translation in ' + lesson['id'].toString() +
-                  ': ' + token);
+              reason: 'Missing translation in ${lesson['id']}: $token');
         }
       }
     }
