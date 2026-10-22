@@ -101,7 +101,8 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
       milliseconds: MediaQuery.disableAnimationsOf(context) ? 0 : 135,
     ),
     curve: Curves.easeOutCubic,
-    child: NeumorphicSurface(
+    child: RepaintBoundary(
+      child: NeumorphicSurface(
       padding: EdgeInsets.zero,
       radius: 21,
       emphasized: true,
@@ -161,6 +162,7 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
             ),
           ),
         ),
+      ),
       ),
     ),
   );

@@ -30,9 +30,17 @@ class MainActivity : FlutterActivity() {
 
     override fun onResume() {
         super.onResume()
-        // Request up to 120 Hz only when a same-resolution mode is supported.
-        // Android may cap it; never fake, interpolate or throttle frames.
+        // Window + Flutter Surface native 120 Hz preference. Actual delivery
+        // remains subject to device settings, supported modes and GPU load.
         AdaptiveRefreshRate.apply(this)
+    }
+
+    override fun onWindowFocusChanged(hasFocus: Boolean) {
+        super.onWindowFocusChanged(hasFocus)
+        if (hasFocus) {
+            // FlutterSurfaceView may be created after Activity.onResume.
+            AdaptiveRefreshRate.apply(this)
+        }
     }
 
     override fun onRequestPermissionsResult(

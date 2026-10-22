@@ -31,7 +31,8 @@ class FittedStudyArtwork extends StatelessWidget {
     final imageHeight = height ?? size;
     final base = imageWidth < imageHeight ? imageWidth : imageHeight;
 
-    return SizedBox(
+    return RepaintBoundary(
+      child: SizedBox(
       key: const ValueKey('fitted-study-artwork'),
       width: imageWidth,
       height: imageHeight,
@@ -82,6 +83,7 @@ class FittedStudyArtwork extends StatelessWidget {
             ),
           ),
         ],
+      ),
       ),
     );
   }
