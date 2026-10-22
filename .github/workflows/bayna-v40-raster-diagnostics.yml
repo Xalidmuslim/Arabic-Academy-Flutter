@@ -88,6 +88,27 @@ jobs:
           bash scripts/prepare_signing.sh --mode development
           flutter pub get --enforce-lockfile
           git diff --exit-code -- pubspec.lock
+      - name: Keep diagnostic installation separate from learner data
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          gradle = Path('android/app/build.gradle.kts')
+          source = gradle.read_text()
+          original = 'applicationId = "com.example.arabic_academy"'
+          assert source.count(original) == 1, 'Unexpected Android application ID'
+          gradle.write_text(source.replace(
+              original,
+              'applicationId = "com.example.arabic_academy.diagnostic"',
+          ))
+          manifest = Path('android/app/src/main/AndroidManifest.xml')
+          source = manifest.read_text()
+          original = 'android:label="Байна Ядайк"'
+          assert source.count(original) == 1, 'Unexpected launcher title'
+          manifest.write_text(source.replace(
+              original, 'android:label="Байна Ядайк Диагностика"',
+          ))
+          print('Side-by-side diagnostic package and launcher label applied in CI only.')
+          PY
       - name: Prepare frameless icon
         run: |
           python3 -m pip install --disable-pip-version-check Pillow==11.3.0
@@ -104,10 +125,15 @@ jobs:
             --apksigner "$ANDROID_HOME/build-tools/36.0.0/apksigner" \
             --certificate-sha256 "$(cat build/signing/certificate.sha256)" \
             build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+      - name: Check diagnostic package identity
+        run: |
+          "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging \
+            build/app/outputs/flutter-apk/app-arm64-v8a-release.apk \
+            | grep -F "package: name='com.example.arabic_academy.diagnostic'"
       - name: Publish v40 diagnostic APK
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: bayna-v40-raster-diagnostics-arm64-apk
+          name: bayna-v40-side-by-side-raster-arm64-apk
           path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           if-no-files-found: error
           retention-days: 14
