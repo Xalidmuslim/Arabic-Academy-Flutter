@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: bayna-v41-dialogue-diagnosis
+  group: bayna-v41-final-frame-compare
   cancel-in-progress: true
 jobs:
   focused-quality:
