@@ -48,7 +48,7 @@ void main() {
       await tester.pumpAndSettle();
       await tester.drag(
         find.byType(CustomScrollView).first,
-        const Offset(0, -260),
+        const Offset(0, -440),
       );
       await tester.pumpAndSettle();
 
