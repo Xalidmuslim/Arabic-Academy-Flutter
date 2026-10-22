@@ -30,7 +30,13 @@ REQUIRED = {
     "lib/ui/background_artwork_preloader.dart": (
         "addPostFrameCallback",
         "Priority.idle",
-        "artworkPaths.take(2)",
+        # v37 replaces the original fixed 2-image batch with a bounded
+        # configurable batch. Check the upper bound AND idle/scroll safety,
+        # not the obsolete v29 literal which now incorrectly fails v37.
+        "widget.artworkPaths.take(",
+        "widget.maxImages.clamp(0, 9).toInt()",
+        "while (mounted && _scrolling)",
+        "_pauseTimer?.cancel()",
     ),
     "lib/features/learning/textbook_reader_screen.dart": (
         "BoundedPdfPageCache(",
