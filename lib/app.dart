@@ -118,9 +118,13 @@ class _AcademyAppState extends State<AcademyApp> {
     // Wait for the route's actual reverse transition to finish. Updating the
     // root tab while Settings/Reader is fading out makes two backgrounds
     // change at once, which looks like a double jump.
-    Route<dynamic>? leaving;
+    TransitionRoute<dynamic>? leaving;
     navigator.popUntil((route) {
-      if (!route.isFirst) leaving ??= route;
+      // Capture the last removed route (nearest to Home) when there are
+      // multiple nested screens, not the topmost route that finishes first.
+      if (!route.isFirst && route is TransitionRoute<dynamic>) {
+        leaving = route;
+      }
       return route.isFirst;
     });
     final poppedRoute = leaving;
@@ -189,11 +193,6 @@ class _AcademyAppState extends State<AcademyApp> {
       ).copyWith(pageTransitionsTheme: const PageTransitionsTheme(
         builders: {
           TargetPlatform.android: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.iOS: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.linux: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.macOS: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.windows: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.fuchsia: MedicineFadePageTransitionsBuilder(),
         },
       )),
       darkTheme: academyTheme(
@@ -202,11 +201,6 @@ class _AcademyAppState extends State<AcademyApp> {
       ).copyWith(pageTransitionsTheme: const PageTransitionsTheme(
         builders: {
           TargetPlatform.android: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.iOS: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.linux: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.macOS: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.windows: MedicineFadePageTransitionsBuilder(),
-          TargetPlatform.fuchsia: MedicineFadePageTransitionsBuilder(),
         },
       )),
       themeMode: switch (presentation.appearance) {

@@ -259,7 +259,14 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _open(Widget page) =>
       Navigator.push(context, MedicineSmoothMotion.route(
-          context, builder: (_) => page));
+        context,
+        // Content-heavy reader/settings views remain fade-only. Short
+        // navigation to vocabulary, dialogues and exercises uses a tiny slide.
+        shift: page is WordsHubScreen ||
+            page is SituationsScreen ||
+            page is PracticeSessionScreen,
+        builder: (_) => page,
+      ));
   void _lesson(BuildContext context, Map<String, dynamic> lesson) =>
       Navigator.push(
         context,
