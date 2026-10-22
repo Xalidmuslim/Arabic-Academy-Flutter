@@ -37,4 +37,24 @@ void main() {
         reason: 'do not sacrifice the transparent 3D silhouette blur');
     expect(find.byType(RepaintBoundary), findsWidgets);
   });
+  testWidgets('diagnostic shadow A/B leaves original artwork intact',
+      (tester) async {
+    await tester.pumpWidget(const MaterialApp(
+      home: Scaffold(
+        body: FittedStudyArtwork(
+          image: AssetImage('assets/artwork/lessons.webp'),
+          size: 88,
+          blurSilhouette: false,
+        ),
+      ),
+    ));
+    await tester.pump();
+    expect(find.byType(ImageFiltered), findsNothing,
+        reason: 'diagnostic comparison can remove only expensive blur');
+    expect(find.byKey(const ValueKey('fitted-study-image')), findsOneWidget,
+        reason: 'the original 3D illustration must always remain visible');
+    expect(find.byType(Image), findsNWidgets(2),
+        reason: 'silhouette still exists; user can isolate blur cost');
+  });
+
 }
