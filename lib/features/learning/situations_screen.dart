@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
+import '../../core/performance_probe.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import '../../ui/fitted_study_artwork.dart';
@@ -15,6 +16,26 @@ class SituationsScreen extends StatelessWidget {
   const SituationsScreen({super.key, required this.state});
   final AcademyState state;
 
+  /// The diagnostic toggle updates only visible illustrated cards, avoiding
+  /// a full catalog rebuild. Ordinary releases retain the blurred 3D relief.
+  Widget _artwork(String path, String? format) {
+    final width = format == 'square' ? 218.0 :
+        format == 'four_by_three' ? 280.0 : 295.0;
+    final height = format == 'square' ? 218.0 :
+        format == 'four_by_three' ? 210.0 : 166.0;
+    Widget image(bool blur) => FittedStudyArtwork(
+      image: AssetImage(path),
+      width: width,
+      height: height,
+      blurSilhouette: blur,
+    );
+    if (!PerformanceProbe.enabled) return image(true);
+    return ValueListenableBuilder<bool>(
+      valueListenable: PerformanceProbe.silhouetteBlurEnabled,
+      builder: (context, blur, _) => image(blur),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final lessons = state.allLessons.where((lesson) {
@@ -23,7 +44,22 @@ class SituationsScreen extends StatelessWidget {
           .where((row) => (row['ar']?.toString() ?? '').isNotEmpty).length >= 2;
     }).toList();
     return Scaffold(
-      appBar: AppBar(title: const Text('Разговорные ситуации')),
+      appBar: AppBar(
+        title: const Text('Разговорные ситуации'),
+        actions: [
+          if (PerformanceProbe.enabled)
+            ValueListenableBuilder<bool>(
+              valueListenable: PerformanceProbe.silhouetteBlurEnabled,
+              builder: (context, blur, _) => IconButton(
+                icon: Icon(blur ? Icons.blur_on : Icons.blur_off),
+                tooltip: blur
+                    ? 'GPU-тест: выключить размытие 3D-тени'
+                    : 'GPU-тест: вернуть размытие 3D-тени',
+                onPressed: PerformanceProbe.toggleSilhouetteBlur,
+              ),
+            ),
+        ],
+      ),
       body: ListView.builder(
         key: const PageStorageKey<String>('situations-dialogue-scroll'),
         padding: const EdgeInsets.fromLTRB(18, 14, 18, 150),
@@ -68,18 +104,9 @@ class SituationsScreen extends StatelessWidget {
                       case final imagePath?) ...[
                     const SizedBox(height: 8),
                     Center(
-                      child: FittedStudyArtwork(
-                        image: AssetImage(imagePath),
-                        width: lesson['dialogue_illustration_format'] == 'square'
-                            ? 218
-                            : lesson['dialogue_illustration_format'] == 'four_by_three'
-                                ? 280
-                                : 295,
-                        height: lesson['dialogue_illustration_format'] == 'square'
-                            ? 218
-                            : lesson['dialogue_illustration_format'] == 'four_by_three'
-                                ? 210
-                                : 166,
+                      child: _artwork(
+                        imagePath,
+                        lesson['dialogue_illustration_format'] as String?,
                       ),
                     ),
                   ],
