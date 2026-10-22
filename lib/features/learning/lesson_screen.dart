@@ -279,21 +279,14 @@ class _LessonScreenState extends State<LessonScreen>
     ),
   );
 
-  Widget _reading() => ListView(
-    key: ValueKey(_stage),
-    padding: const EdgeInsets.fromLTRB(18, 14, 18, 142),
-    children: [
-      if (_stage == 1) ...[
-        const SectionTitle('Новые слова'),
-        if (_words.isEmpty)
-          const EmptyState(
-            title: 'Словарь урока пуст',
-            message: 'В этом материале слова ещё не добавлены.',
-          ),
-        ..._words.asMap().entries.map((entry) {
-          final word = entry.value as Map;
-          final key = vocabularyKey(id, entry.key, entry.value as Map);
-          return Padding(
+
+  // Virtualized vocabulary: expanded dialogue dictionaries can contain
+  // hundreds of inflected forms. The former ListView(children: [..._words])
+  // allocated every card and illustration at once before scrolling.
+  Widget _wordCard(int index) {
+    final word = _words[index] as Map;
+    final key = vocabularyKey(id, index, word);
+    return Padding(
             padding: const EdgeInsets.only(bottom: 12),
             child: Panel(
               child: Column(
@@ -340,37 +333,87 @@ class _LessonScreenState extends State<LessonScreen>
               ),
             ),
           );
-        }),
-        if (_words.isNotEmpty)
-          OutlinedButton.icon(
-            icon: const Icon(Icons.psychology_alt_outlined),
-            onPressed: () => Navigator.push(
-              context,
-              MaterialPageRoute<void>(
-                builder: (_) => VocabularyPracticeScreen(
-                  state: widget.state, lessonId: id),
+
+  }
+
+  Widget _vocabularyReading() => CustomScrollView(
+    key: const ValueKey('lesson-vocabulary-lazy-scroll'),
+    slivers: [
+      SliverPadding(
+        padding: const EdgeInsets.fromLTRB(18, 14, 18, 0),
+        sliver: SliverToBoxAdapter(child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            const SectionTitle('Новые слова'),
+            if (_words.isEmpty)
+              const EmptyState(
+                title: 'Словарь урока пуст',
+                message: 'В этом материале слова ещё не добавлены.',
               ),
-            ),
-            label: const Text('Закрепить слова этого урока'),
-          ),
-        if (_words.isNotEmpty)
-          Padding(
-            padding: const EdgeInsets.only(top: 9),
-            child: FilledButton.icon(
-              key: const ValueKey('lesson-intensive-workout'),
-              icon: const Icon(Icons.auto_awesome_outlined),
-              label: const Text('Разные упражнения по словам и диалогу'),
-              onPressed: () => Navigator.push(context,
-                MaterialPageRoute<void>(builder: (_) =>
-                    PracticeSessionScreen(
-                      state: widget.state,
-                      mode: PracticeMode.intensive,
-                      lessonId: id,
-                    )),
+          ],
+        )),
+      ),
+      SliverPadding(
+        padding: const EdgeInsets.symmetric(horizontal: 18),
+        sliver: SliverList.builder(
+          itemCount: _words.length,
+          itemBuilder: (_, index) => _wordCard(index),
+        ),
+      ),
+      SliverPadding(
+        padding: const EdgeInsets.fromLTRB(18, 0, 18, 0),
+        sliver: SliverToBoxAdapter(child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            if (_words.isNotEmpty)
+              OutlinedButton.icon(
+                icon: const Icon(Icons.psychology_alt_outlined),
+                onPressed: () => Navigator.push(context,
+                  MaterialPageRoute<void>(
+                    builder: (_) => VocabularyPracticeScreen(
+                      state: widget.state, lessonId: id),
+                  ),
+                ),
+                label: const Text('Закрепить слова этого урока'),
               ),
+            if (_words.isNotEmpty)
+              Padding(
+                padding: const EdgeInsets.only(top: 9),
+                child: FilledButton.icon(
+                  key: const ValueKey('lesson-intensive-workout'),
+                  icon: const Icon(Icons.auto_awesome_outlined),
+                  label: const Text('Разные упражнения по словам и диалогу'),
+                  onPressed: () => Navigator.push(context,
+                    MaterialPageRoute<void>(builder: (_) =>
+                        PracticeSessionScreen(
+                          state: widget.state,
+                          mode: PracticeMode.intensive,
+                          lessonId: id,
+                        )),
+                  ),
+                ),
+              ),
+            const SizedBox(height: 16),
+            FilledButton.icon(
+              icon: const Icon(Icons.arrow_forward),
+              onPressed: () => setState(
+                () => _stage = _nextReadingStage(_stage)),
+              label: const Text('Далее'),
             ),
-          ),
-      ] else if (_stage == 2) ...[
+          ],
+        )),
+      ),
+      const SliverToBoxAdapter(child: SizedBox(height: 142)),
+    ],
+  );
+
+  Widget _reading() => _stage == 1
+      ? _vocabularyReading()
+      : ListView(
+    key: ValueKey(_stage),
+    padding: const EdgeInsets.fromLTRB(18, 14, 18, 142),
+    children: [
+      if (_stage == 2) ...[
         if (widget.lesson['pdf_page'] is int) ...[
           OriginalDialoguePdfPreview(
             key: ValueKey('lesson-original-pdf-preview-$_pdfPreviewRevision'),

@@ -36,6 +36,17 @@ class BackgroundArtworkPreloader extends StatefulWidget {
 class _BackgroundArtworkPreloaderState
     extends State<BackgroundArtworkPreloader> {
   bool _scheduled = false;
+  bool _scrolling = false;
+
+  bool _onScroll(ScrollNotification notification) {
+    if (notification is ScrollStartNotification) {
+      _scrolling = true;
+    } else if (notification is ScrollEndNotification) {
+      _scrolling = false;
+    }
+    // Let other scroll listeners and floating navigation work as before.
+    return false;
+  }
 
   @override
   void didChangeDependencies() {
@@ -62,9 +73,16 @@ class _BackgroundArtworkPreloaderState
   }
 
   Future<void> _warmSequentially() async {
-    // 2 images max: avoid a burst of large textures or unnecessary GPU work.
+    // Defer every remaining decode if the user is actively scrolling.
+    // The previous 4-image cap omitted three high-resolution home tiles,
+    // causing first-scroll decodes. Keep a bounded sequential warmup.
     for (final path in widget.artworkPaths.take(
-      widget.maxImages.clamp(0, 6).toInt())) {
+      widget.maxImages.clamp(0, 9).toInt())) {
+      if (!mounted) return;
+      // Never schedule the next image decode during a vertical fling.
+      while (mounted && _scrolling) {
+        await Future<void>.delayed(const Duration(milliseconds: 140));
+      }
       if (!mounted) return;
       try {
         if (widget.imageLoader != null) {
@@ -87,5 +105,8 @@ class _BackgroundArtworkPreloaderState
   }
 
   @override
-  Widget build(BuildContext context) => widget.child;
+  Widget build(BuildContext context) => NotificationListener<ScrollNotification>(
+    onNotification: _onScroll,
+    child: widget.child,
+  );
 }

@@ -79,6 +79,9 @@ class _AcademyAppState extends State<AcademyApp> {
       'assets/artwork/home_quick/review.webp',
       'assets/artwork/home_quick/next.webp',
       'assets/artwork/vocabulary.webp',
+      'assets/artwork/lessons.webp',
+      'assets/artwork/progress.webp',
+      'assets/artwork/exercises.webp',
     };
     for (final source in [
       widget.state.catalog['lessons'],
@@ -91,7 +94,7 @@ class _AcademyAppState extends State<AcademyApp> {
           item['dialogue_illustration_asset'] ?? item['illustration_asset'],
         );
         if (image != null) paths.add(image);
-        if (paths.length >= 6) return paths.toList(growable: false);
+        if (paths.length >= 7) return paths.toList(growable: false);
       }
     }
     return paths.toList(growable: false);
@@ -243,7 +246,7 @@ class _AcademyAppState extends State<AcademyApp> {
             child: _welcomeSeen
                 ? BackgroundArtworkPreloader(
                     artworkPaths: _nextArtworkToWarm,
-                    maxImages: 4,
+                    maxImages: 7,
                     child: ColoredBox(
                     color: Theme.of(context).scaffoldBackgroundColor,
                     child: Stack(
