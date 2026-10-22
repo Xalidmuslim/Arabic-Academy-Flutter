@@ -3,6 +3,28 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  testWidgets('closing a screen cancels pending image warmup without leaked timers',
+      (tester) async {
+    final seen = <String>[];
+    await tester.pumpWidget(MaterialApp(
+      home: BackgroundArtworkPreloader(
+        maxImages: 7,
+        artworkPaths: const [
+          'assets/artwork/vocabulary.webp',
+          'assets/artwork/lessons.webp',
+          'assets/artwork/progress.webp',
+        ],
+        imageLoader: (context, path) async { seen.add(path); },
+        child: const Scaffold(body: Text('Слова')),
+      ),
+    ));
+    await tester.pump();
+    expect(seen, isNotEmpty);
+    await tester.pumpWidget(const MaterialApp(home: SizedBox.shrink()));
+    await tester.pump();
+    expect(tester.takeException(), isNull);
+  });
+
   test('home preloader uses the same resized cache keys as cards', () {
     expect(BackgroundArtworkPreloader.cacheWidthFor(
       'assets/artwork/home_quick/course.webp'), 256);
