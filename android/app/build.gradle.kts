@@ -89,6 +89,6 @@ flutter {
 // Tesseract5 + Leptonica OCR, no cloud API and no access to private PDFs beyond
 // the native app-private PdfRenderer service.
 dependencies {
-    implementation("com.github.adaptech-cz.Tesseract4Android:tesseract4android:4.9.0")
+    implementation("cz.adaptech.tesseract4android:tesseract4android:4.9.0")
     testImplementation("junit:junit:4.13.2")
 }
