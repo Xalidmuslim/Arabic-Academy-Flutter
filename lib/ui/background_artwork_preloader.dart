@@ -51,6 +51,29 @@ class _BackgroundArtworkPreloaderState
     extends State<BackgroundArtworkPreloader> {
   bool _scheduled = false;
   bool _scrolling = false;
+  Timer? _pauseTimer;
+  Completer<void>? _pauseCompleter;
+
+  Future<void> _pause(Duration duration) {
+    final completed = Completer<void>();
+    _pauseCompleter = completed;
+    _pauseTimer = Timer(duration, () {
+      _pauseTimer = null;
+      _pauseCompleter = null;
+      if (!completed.isCompleted) completed.complete();
+    });
+    return completed.future;
+  }
+
+  @override
+  void dispose() {
+    // Cancel pending image-preload work when the learner leaves the screen.
+    // An orphaned Future.delayed timer also fails Flutter widget test teardown.
+    _pauseTimer?.cancel();
+    final sleeper = _pauseCompleter;
+    if (sleeper != null && !sleeper.isCompleted) sleeper.complete();
+    super.dispose();
+  }
 
   bool _onScroll(ScrollNotification notification) {
     if (notification is ScrollStartNotification) {
@@ -95,7 +118,7 @@ class _BackgroundArtworkPreloaderState
       if (!mounted) return;
       // Never schedule the next image decode during a vertical fling.
       while (mounted && _scrolling) {
-        await Future<void>.delayed(const Duration(milliseconds: 140));
+        await _pause(const Duration(milliseconds: 140));
       }
       if (!mounted) return;
       try {
@@ -118,7 +141,7 @@ class _BackgroundArtworkPreloaderState
         // Opportunistic cache work is never a startup requirement.
       }
       // Leave time for gestures/navigation before attempting another decode.
-      await Future<void>.delayed(const Duration(milliseconds: 120));
+      await _pause(const Duration(milliseconds: 120));
     }
   }
 
