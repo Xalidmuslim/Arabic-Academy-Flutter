@@ -31,7 +31,7 @@ jobs:
       - name: Focused UI tests
         run: |
           flutter analyze --no-pub
-          flutter test --no-pub test/neumorphic_dashboard_test.dart test/matte_depth_test.dart test/dialogue_vocabulary_test.dart test/vocabulary_practice_test.dart test/intensive_vocabulary_test.dart test/intensive_workout_screen_test.dart test/medicine_smooth_motion_test.dart test/background_artwork_preloader_test.dart test/app_shell_performance_test.dart test/navigation_stress_test.dart test/navigation_back_test.dart
+          flutter test --no-pub --concurrency=2 --reporter=expanded test/neumorphic_dashboard_test.dart test/matte_depth_test.dart test/dialogue_vocabulary_test.dart test/vocabulary_practice_test.dart test/intensive_vocabulary_test.dart test/intensive_workout_screen_test.dart test/medicine_smooth_motion_test.dart test/background_artwork_preloader_test.dart test/app_shell_performance_test.dart test/navigation_stress_test.dart test/navigation_back_test.dart
 
       - name: Compile ARM64 release APK
         run: flutter build apk --release --target-platform android-arm64 --split-per-abi
