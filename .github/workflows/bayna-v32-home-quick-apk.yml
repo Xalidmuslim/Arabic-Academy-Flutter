@@ -46,4 +46,4 @@ jobs:
       - name: Focused UI tests
         run: |
           flutter analyze --no-pub
-          flutter test --no-pub test/neumorphic_dashboard_test.dart test/matte_depth_test.dart test/dialogue_vocabulary_test.dart test/vocabulary_practice_test.dart
+          flutter test --no-pub test/neumorphic_dashboard_test.dart test/matte_depth_test.dart test/dialogue_vocabulary_test.dart test/vocabulary_practice_test.dart test/intensive_vocabulary_test.dart test/intensive_workout_screen_test.dart

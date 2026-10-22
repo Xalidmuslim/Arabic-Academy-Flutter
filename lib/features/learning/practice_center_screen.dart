@@ -170,6 +170,21 @@ class PracticeCenterScreen extends StatelessWidget {
                   fontSize: 12, color: DesignTokens.secondary)),
             ],
           )),
+          const SizedBox(height: 10),
+          Panel(padding: EdgeInsets.zero, child: ListTile(
+            key: const ValueKey('practice-intensive-entry'),
+            leading: const Icon(Icons.auto_awesome_outlined,
+                color: DesignTokens.deepOlive, size: 29),
+            title: const Text('Интенсивная тренировка',
+                style: TextStyle(fontWeight: FontWeight.w800)),
+            subtitle: const Text(
+              'Пары, аудио, письмо, слова, предложения и диалоги'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => Navigator.push(context, MaterialPageRoute<void>(
+              builder: (_) => PracticeSessionScreen(
+                state: state, mode: PracticeMode.intensive),
+            )),
+          )),
           SectionTitle(tr(context, 'Тренировка навыков')),
           Panel(
             padding: EdgeInsets.zero,
@@ -313,6 +328,11 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
   final _text = TextEditingController();
   String? _selected;
   final List<int> _ordered = [];
+  final Set<int> _matched = <int>{};
+  final Set<String> _reviewedWords = <String>{};
+  int? _pairAr;
+  int? _pairRu;
+  bool _pairMistake = false;
   int _index = 0;
   int _successes = 0;
   int _incorrect = 0;
@@ -328,7 +348,8 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
     _questions = PracticeGenerator.build(
       widget.state, widget.mode,
       lessonId: widget.lessonId, moduleId: widget.moduleId,
-      limit: widget.mode == PracticeMode.exam ? 12 : 10,
+      limit: widget.mode == PracticeMode.intensive ? 30
+          : widget.mode == PracticeMode.exam ? 12 : 10,
     );
   }
 
@@ -342,13 +363,15 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
   PracticeQuestion get _current => _questions[_index];
 
   Future<void> _speak(PracticeQuestion question) => guardedAction(context, () =>
-      ArabicSpeech.speak(question.answer,
+      ArabicSpeech.speak(question.mode == PracticeMode.listen
+          ? question.word : question.answer,
         speed: (widget.state.settings['audioSpeed'] as num? ?? 0.5)
             .toDouble().clamp(0.2, 0.8),
       ));
 
   String get _answer {
     final q = _current;
+    if (q.mode == PracticeMode.matching) return 'all-matched';
     if (q.usesOrder) {
       return _ordered.map((index) => q.tokens[index]).join(' ');
     }
@@ -356,6 +379,9 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
   }
 
   bool get _canCheck {
+    if (_current.mode == PracticeMode.matching) {
+      return _matched.length == _current.pairs.length;
+    }
     if (_current.usesOrder) return _ordered.length == _current.tokens.length;
     return _answer.trim().isNotEmpty;
   }
@@ -364,7 +390,9 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
     if (_busy || _checked || (!skip && !_canCheck)) return;
     final q = _current;
     final response = skip ? '' : _answer;
-    final correct = !skip && !_showHint && (q.usesOrder
+    final correct = !skip && !_showHint && (q.mode == PracticeMode.matching
+        ? _matched.length == q.pairs.length && !_pairMistake
+        : q.usesOrder
         ? List.generate(q.tokens.length, (i) => i)
             .asMap().entries.every((item) => _ordered[item.key] == item.value)
         : q.usesChoices
@@ -388,6 +416,16 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
         status: correct ? 'correct' : 'incorrect',
         points: correct ? 1 : 0,
       );
+      if (widget.mode == PracticeMode.intensive) {
+        final marker = q.id.indexOf('word:');
+        if (marker >= 0) {
+          final wordId = q.id.substring(marker);
+          if (_reviewedWords.add(wordId)) {
+            await widget.state.reviewWord(wordId, correct,
+                confidence: correct ? 4 : 0);
+          }
+        }
+      }
       if (!mounted) return;
       setState(() {
         _checked = true;
@@ -437,11 +475,35 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
       _index++;
       _selected = null;
       _ordered.clear();
+      _matched.clear();
+      _pairAr = null;
+      _pairRu = null;
+      _pairMistake = false;
       _text.clear();
       _showHint = false;
       _checked = false;
       _wasCorrect = false;
       _feedback = '';
+    });
+  }
+
+  void _selectPair({required bool arabic, required int index}) {
+    if (_checked || _busy || _matched.contains(index)) return;
+    setState(() {
+      if (arabic) {
+        _pairAr = index;
+      } else {
+        _pairRu = index;
+      }
+      if (_pairAr != null && _pairRu != null) {
+        if (_pairAr == _pairRu) {
+          _matched.add(index);
+        } else {
+          _pairMistake = true;
+        }
+        _pairAr = null;
+        _pairRu = null;
+      }
     });
   }
 
@@ -466,7 +528,14 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
             children: [
               if (q.mode == PracticeMode.illustrations)
                 _illustration(q.word)
-              else if (q.mode == PracticeMode.dictation) ...[
+              else if (q.mode == PracticeMode.matching)
+                const Text('Соедините каждое слово с переводом.',
+                    textAlign: TextAlign.center)
+              else if (q.mode == PracticeMode.restoreDialogue)
+                const Text('Восстановите ход разговора.',
+                    textAlign: TextAlign.center)
+              else if (q.mode == PracticeMode.dictation ||
+                  q.mode == PracticeMode.listen) ...[
                 Center(child: IconButton.filledTonal(
                   key: const ValueKey('session-play-audio'),
                   tooltip: 'Прослушать оригинальную фразу',
@@ -477,12 +546,18 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 12,
                     color: DesignTokens.secondary)),
-                if (_showHint || _checked) _arabic(q.answer, size: 22),
+                if (_showHint || _checked)
+                  _arabic(q.mode == PracticeMode.listen
+                      ? q.word : q.answer, size: 22),
               ] else if (q.mode == PracticeMode.missingWord ||
                   q.mode == PracticeMode.dialogue)
                 _arabic(q.reference)
-              else if (q.mode == PracticeMode.sentence)
-                Text(q.translation, textAlign: TextAlign.center,
+              else if (q.mode == PracticeMode.sentence ||
+                  q.mode == PracticeMode.reverseQuiz ||
+                  q.mode == PracticeMode.recall)
+                Text(q.mode == PracticeMode.sentence
+                    ? q.translation : q.reference,
+                    textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.bodyLarge)
               else
                 _arabic(q.reference),
@@ -494,7 +569,52 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
           ),
         ),
         const SizedBox(height: 14),
-        if (q.usesOrder) ...[
+        if (q.mode == PracticeMode.matching) ...[
+          Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Expanded(child: Column(children: [
+              for (var i = 0; i < q.pairs.length; i++)
+                Padding(padding: const EdgeInsets.only(bottom: 8),
+                  child: OutlinedButton(
+                    key: ValueKey('intensive-arabic-$i'),
+                    onPressed: !enable || _matched.contains(i) ? null
+                        : () => _selectPair(arabic: true, index: i),
+                    style: OutlinedButton.styleFrom(
+                      minimumSize: const Size.fromHeight(68),
+                      backgroundColor: _matched.contains(i)
+                          ? const Color(0xFFE5EAD7)
+                          : _pairAr == i ? DesignTokens.beige
+                              : DesignTokens.cardSurface),
+                    child: _arabic(q.pairs[i].ar, size: 20),
+                  )),
+            ])),
+            const SizedBox(width: 10),
+            Expanded(child: Column(children: [
+              for (var i = q.pairs.length - 1; i >= 0; i--)
+                Padding(padding: const EdgeInsets.only(bottom: 8),
+                  child: OutlinedButton(
+                    key: ValueKey('intensive-translation-$i'),
+                    onPressed: !enable || _matched.contains(i) ? null
+                        : () => _selectPair(arabic: false, index: i),
+                    style: OutlinedButton.styleFrom(
+                      minimumSize: const Size.fromHeight(68),
+                      backgroundColor: _matched.contains(i)
+                          ? const Color(0xFFE5EAD7)
+                          : _pairRu == i ? DesignTokens.beige
+                              : DesignTokens.cardSurface),
+                    child: Text(q.pairs[i].ru,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(fontSize: 12)),
+                  )),
+            ])),
+          ]),
+          Text('${_matched.length} из ${q.pairs.length} пар',
+              textAlign: TextAlign.center,
+              style: const TextStyle(color: DesignTokens.secondary)),
+          if (_pairMistake)
+            const Text('Был неверный выбор — повторим эти пары.',
+              textAlign: TextAlign.center,
+              style: TextStyle(color: DesignTokens.secondary)),
+        ] else if (q.usesOrder) ...[
           const Text('Собранное предложение'),
           const SizedBox(height: 7),
           Container(
@@ -549,7 +669,8 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
                 child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8),
                   child: q.mode == PracticeMode.dialogue ||
-                          q.mode == PracticeMode.illustrations
+                          q.mode == PracticeMode.illustrations ||
+                          q.mode == PracticeMode.reverseQuiz
                       ? _arabic(option, size: 23)
                       : Text(option, textAlign: TextAlign.center),
                 ),
@@ -567,11 +688,14 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
             decoration: InputDecoration(
               labelText: q.mode == PracticeMode.dictation
                   ? 'Напишите услышанную фразу'
-                  : 'Введите пропущенное слово',
+                  : q.mode == PracticeMode.recall
+                      ? 'Напишите арабское слово'
+                      : 'Введите пропущенное слово',
               helperText: 'Огласовки необязательны. Буквы и хамза важны.',
             ),
           ),
-        if (q.mode == PracticeMode.dictation && !_checked)
+        if ((q.mode == PracticeMode.dictation ||
+            q.mode == PracticeMode.listen) && !_checked)
           TextButton(
             onPressed: () => setState(() => _showHint = true),
             child: const Text('Не слышно? Показать фразу для тренировки'),
@@ -604,8 +728,11 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
                     style: Theme.of(context).textTheme.titleMedium)),
                 ]),
                 const SizedBox(height: 12),
-                _arabic(q.mode == PracticeMode.illustrations
-                    ? q.word : q.answer),
+                q.mode == PracticeMode.matching
+                    ? const Text('Все пары найдены')
+                    : _arabic(q.mode == PracticeMode.illustrations ||
+                        q.mode == PracticeMode.listen
+                        ? q.word : q.answer),
                 if (q.translation.isNotEmpty)
                   Text(q.translation, textAlign: TextAlign.center),
                 const SizedBox(height: 8),
@@ -722,5 +849,11 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
     PracticeMode.dialogue => 'Диалог',
     PracticeMode.exam => 'Контрольная',
     PracticeMode.mistakes => 'Мои ошибки',
+    PracticeMode.reverseQuiz => 'Русский → арабский',
+    PracticeMode.listen => 'Аудирование',
+    PracticeMode.recall => 'Без подсказок',
+    PracticeMode.matching => 'Найди пару',
+    PracticeMode.restoreDialogue => 'Порядок реплик',
+    PracticeMode.intensive => 'Интенсивная тренировка',
   };
 }

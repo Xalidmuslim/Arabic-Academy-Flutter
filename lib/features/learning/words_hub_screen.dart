@@ -5,6 +5,8 @@ import '../../core/app_strings.dart';
 import '../../core/practice_generator.dart';
 import '../../core/speech.dart';
 import '../../core/vocabulary_practice.dart';
+import '../../core/practice_generator.dart';
+import 'practice_center_screen.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'illustrated_dictionary_screen.dart';
@@ -35,6 +37,13 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
     builder: (_) => VocabularyPracticeScreen(
       state: widget.state, lessonId: widget.lessonId),
   ));
+
+  void _intensive() => Navigator.push(context,
+      MaterialPageRoute<void>(builder: (_) => PracticeSessionScreen(
+        state: widget.state,
+        mode: PracticeMode.intensive,
+        lessonId: widget.lessonId,
+      )));
 
   Future<void> _speak(String arabic) => guardedAction(context,
       () => ArabicSpeech.speak(arabic));
@@ -126,6 +135,15 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                   ),
                 ),
                 const SizedBox(height: 12),
+                if (_phase == 'learn') ...[
+                  FilledButton.icon(
+                    key: const ValueKey('words-intensive-workout'),
+                    onPressed: _intensive,
+                    icon: const Icon(Icons.auto_awesome_outlined),
+                    label: const Text('Тренировать слова и диалоги'),
+                  ),
+                  const SizedBox(height: 10),
+                ],
                 if (_phase == 'learn')
                   TextField(
                     key: const ValueKey('words-unified-search'),

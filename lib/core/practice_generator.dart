@@ -4,7 +4,7 @@ import '../features/exercises/arabic_normalization.dart';
 
 /// A practice question has provenance in a real catalog lesson. Exercises are
 /// deterministic so that mistakes can be revisited after restarting the app.
-enum PracticeMode { quiz, illustrations, sentence, missingWord, dictation, dialogue, exam, mistakes }
+enum PracticeMode { quiz, illustrations, sentence, missingWord, dictation, dialogue, exam, mistakes, reverseQuiz, listen, recall, matching, restoreDialogue, intensive }
 
 class PracticeQuestion {
   const PracticeQuestion({
@@ -19,6 +19,7 @@ class PracticeQuestion {
     this.tokens = const [],
     this.word = '',
     this.translation = '',
+    this.pairs = const [],
   });
   final String id;
   final String lessonId;
@@ -31,9 +32,11 @@ class PracticeQuestion {
   final List<String> tokens;
   final String word;
   final String translation;
+  final List<({String ar, String ru})> pairs;
 
   bool get usesChoices => options.length >= 2;
-  bool get usesOrder => mode == PracticeMode.sentence;
+  bool get usesOrder => mode == PracticeMode.sentence ||
+      mode == PracticeMode.restoreDialogue;
   bool get usesSpeech => mode == PracticeMode.dictation;
 }
 
@@ -67,6 +70,51 @@ abstract final class PracticeGenerator {
     int limit = 12,
   }) {
     if (limit <= 0) return [];
+    if (mode == PracticeMode.intensive) {
+      // Mix genuine authored learning material across several different
+      // retrieval formats. Never synthesize arbitrary incorrect Arabic.
+      final types = <PracticeMode>[
+        PracticeMode.matching,
+        PracticeMode.quiz,
+        PracticeMode.reverseQuiz,
+        PracticeMode.listen,
+        PracticeMode.recall,
+        PracticeMode.illustrations,
+        PracticeMode.sentence,
+        PracticeMode.missingWord,
+        PracticeMode.dialogue,
+        PracticeMode.restoreDialogue,
+        PracticeMode.dictation,
+      ];
+      final grouped = <PracticeMode, List<PracticeQuestion>>{
+        for (final type in types)
+          type: build(state, type, lessonId: lessonId,
+              moduleId: moduleId, limit: 80),
+      };
+      // Review history rotates the starting point between sessions without
+      // changing the stable question ID or its source.
+      final offset = state.attempts.length;
+      for (final items in grouped.values) {
+        if (items.length > 1) {
+          final first = offset % items.length;
+          final rotated = [...items.skip(first), ...items.take(first)];
+          items..clear()..addAll(rotated);
+        }
+      }
+      final questions = <PracticeQuestion>[];
+      final seen = <String>{};
+      while (questions.length < limit && grouped.values.any(
+          (items) => items.isNotEmpty)) {
+        for (final type in types) {
+          final items = grouped[type]!;
+          if (items.isEmpty || questions.length >= limit) continue;
+          final next = items.removeAt(0);
+          if (seen.add(next.id)) questions.add(next);
+        }
+      }
+      return questions;
+    }
+
     if (mode == PracticeMode.exam) {
       final sequence = <PracticeQuestion>[];
       for (final kind in [
@@ -121,6 +169,11 @@ abstract final class PracticeGenerator {
         PracticeMode.missingWord,
         PracticeMode.dictation,
         PracticeMode.dialogue,
+        PracticeMode.reverseQuiz,
+        PracticeMode.listen,
+        PracticeMode.recall,
+        PracticeMode.matching,
+        PracticeMode.restoreDialogue,
       ]) {
         source.addAll(build(state, kind, lessonId: lessonId, moduleId: moduleId, limit: 300));
       }
@@ -131,7 +184,45 @@ abstract final class PracticeGenerator {
         .where((lesson) => moduleId == null || lesson['module_id'] == moduleId)
         .toList();
     final results = <PracticeQuestion>[];
-    if (mode == PracticeMode.quiz || mode == PracticeMode.illustrations) {
+
+    if (mode == PracticeMode.matching) {
+      for (final lesson in catalog) {
+        final id = _text(lesson['id']);
+        if (id.isEmpty) continue;
+        final source = VocabularyPractice.words(state, lessonId: id);
+        final selected = <VocabularyPracticeWord>[];
+        final arabic = <String>{};
+        final russian = <String>{};
+        for (final word in source) {
+          if (arabic.add(word.ar) && russian.add(word.ru)) {
+            selected.add(word);
+          }
+        }
+        // Three or four independently verified pairs per round.
+        for (var start = 0; start + 3 <= selected.length; start += 4) {
+          final group = selected.skip(start).take(4).toList();
+          if (group.length < 3) break;
+          results.add(PracticeQuestion(
+            id: 'practice:matching:$id:$start',
+            lessonId: id, lessonTitle: _text(lesson['title']),
+            mode: mode,
+            prompt: 'Соедините арабские слова с переводами',
+            answer: 'all-matched',
+            pairs: [
+              for (final word in group) (ar: word.ar, ru: word.ru),
+            ],
+          ));
+          if (results.length >= limit) return results;
+        }
+      }
+      return results;
+    }
+
+    if (mode == PracticeMode.quiz ||
+        mode == PracticeMode.illustrations ||
+        mode == PracticeMode.reverseQuiz ||
+        mode == PracticeMode.listen ||
+        mode == PracticeMode.recall) {
       final allowedIds = catalog.map((lesson) => lesson['id']).toSet();
       final words = VocabularyPractice.words(state, lessonId: lessonId)
           .where((word) => allowedIds.contains(word.lessonId)).toList();
@@ -140,26 +231,33 @@ abstract final class PracticeGenerator {
           IllustratedTerm.hasIllustration(word.ar)).toList();
       for (final term in terms) {
         final illustration = mode == PracticeMode.illustrations;
-        final candidate = VocabularyPractice.options(
+        final arabicAnswer = illustration ||
+            mode == PracticeMode.reverseQuiz;
+        final typed = mode == PracticeMode.recall;
+        final candidate = typed ? <String>[] : VocabularyPractice.options(
           correct: term,
           all: illustration ? terms : words,
-          type: illustration
-              ? VocabularyChallenge.russianToArabic
+          type: arabicAnswer ? VocabularyChallenge.russianToArabic
               : VocabularyChallenge.arabicToRussian,
         );
-        if (candidate.length < 2) continue;
+        if (!typed && candidate.length < 2) continue;
         results.add(PracticeQuestion(
           id: 'practice:${mode.name}:${term.id}',
           lessonId: term.lessonId,
           lessonTitle: term.lessonTitle,
           mode: mode,
-          prompt: illustration
-              ? 'Узнайте предмет по иллюстрации'
-              : 'Выберите перевод арабского слова',
+          prompt: switch (mode) {
+            PracticeMode.illustrations => 'Узнайте предмет по иллюстрации',
+            PracticeMode.reverseQuiz => 'Найдите арабское слово',
+            PracticeMode.listen => 'Послушайте и выберите перевод',
+            PracticeMode.recall => 'Напишите слово по-арабски без подсказок',
+            _ => 'Выберите перевод арабского слова',
+          },
           word: term.ar,
-          answer: illustration ? term.ar : term.ru,
+          answer: arabicAnswer || typed ? term.ar : term.ru,
           translation: term.ru,
-          reference: term.ar,
+          reference: mode == PracticeMode.reverseQuiz ||
+              mode == PracticeMode.recall ? term.ru : term.ar,
           options: candidate,
         ));
         if (results.length >= limit) break;
@@ -181,6 +279,23 @@ abstract final class PracticeGenerator {
         final ru = utterance(_text(row['ru']));
         if (ar.isNotEmpty && ru.isNotEmpty) {
           utterances.add((index: i, ar: ar, ru: ru));
+        }
+      }
+      if (mode == PracticeMode.restoreDialogue &&
+          utterances.length >= 3) {
+        for (var start = 0; start + 3 <= utterances.length; start += 4) {
+          final lines = utterances.skip(start).take(4).toList();
+          final tokens = lines.map((line) => line.ar).toList();
+          results.add(PracticeQuestion(
+            id: 'practice:restoreDialogue:$lessonIdValue:$start',
+            lessonId: lessonIdValue,
+            lessonTitle: name,
+            mode: mode,
+            prompt: 'Восстановите порядок реплик диалога',
+            answer: tokens.join('\n'),
+            reference: '', tokens: tokens,
+          ));
+          if (results.length >= limit) return results;
         }
       }
       for (var j = 0; j < utterances.length; j++) {

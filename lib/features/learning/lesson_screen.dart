@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../core/academy_state.dart';
 import '../../core/vocabulary_key.dart';
 import '../../core/practice_generator.dart';
+import 'practice_center_screen.dart';
 import '../../core/speech.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
@@ -351,6 +352,23 @@ class _LessonScreenState extends State<LessonScreen>
               ),
             ),
             label: const Text('Закрепить слова этого урока'),
+          ),
+        if (_words.isNotEmpty)
+          Padding(
+            padding: const EdgeInsets.only(top: 9),
+            child: FilledButton.icon(
+              key: const ValueKey('lesson-intensive-workout'),
+              icon: const Icon(Icons.auto_awesome_outlined),
+              label: const Text('Разные упражнения по словам и диалогу'),
+              onPressed: () => Navigator.push(context,
+                MaterialPageRoute<void>(builder: (_) =>
+                    PracticeSessionScreen(
+                      state: widget.state,
+                      mode: PracticeMode.intensive,
+                      lessonId: id,
+                    )),
+              ),
+            ),
           ),
       ] else if (_stage == 2) ...[
         if (widget.lesson['pdf_page'] is int) ...[
