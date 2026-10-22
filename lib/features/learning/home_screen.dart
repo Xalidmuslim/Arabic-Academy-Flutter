@@ -6,6 +6,7 @@ import '../../core/app_strings.dart';
 import '../../core/study_analytics.dart';
 import '../../core/learning_insights.dart';
 import '../../core/vocabulary_practice.dart';
+import '../../core/practice_generator.dart';
 import '../../core/learning_sync.dart';
 import '../../services/backend_service.dart';
 import '../../ui/components.dart';
@@ -33,7 +34,6 @@ import 'practice_center_screen.dart';
 import 'demo_showcase_screen.dart';
 import 'words_hub_screen.dart';
 import 'situations_screen.dart';
-import 'handwriting_screen.dart';
 import 'study_calendar_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -625,10 +625,13 @@ class _HomeScreenState extends State<HomeScreen> {
               onTap: () => _open(SituationsScreen(state: state)),
             ),
             NeumorphicFeatureTile(
-              title: 'Арабское письмо',
-              subtitle: 'Буквы, формы и обводка',
-              image: 'assets/artwork/grammar.webp',
-              onTap: () => _open(HandwritingScreen(state: state)),
+              key: const ValueKey('home-intensive-entry'),
+              title: 'Интенсивная тренировка',
+              titleMaxLines: 2,
+              subtitle: 'Слова · Аудио · Диалоги',
+              image: 'assets/artwork/progress.webp',
+              onTap: () => _open(PracticeSessionScreen(
+                state: state, mode: PracticeMode.intensive)),
             ),
             NeumorphicFeatureTile(
               key: const ValueKey('home-practice-entry'),

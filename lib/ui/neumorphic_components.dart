@@ -78,9 +78,11 @@ class NeumorphicFeatureTile extends StatefulWidget {
     required this.subtitle,
     required this.image,
     required this.onTap,
+    this.titleMaxLines = 1,
   });
 
   final String title;
+  final int titleMaxLines;
   final String subtitle;
   final String image;
   final VoidCallback onTap;
@@ -135,7 +137,7 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
                 const SizedBox(height: 3),
                 Text(
                   widget.title,
-                  maxLines: 1,
+                  maxLines: widget.titleMaxLines,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
                     color: Theme.of(context).colorScheme.onSurface,

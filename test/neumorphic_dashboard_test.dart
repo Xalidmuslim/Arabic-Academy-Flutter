@@ -6,6 +6,7 @@ import 'package:arabic_academy/main.dart';
 import 'package:arabic_academy/ui/neumorphic_components.dart';
 import 'package:arabic_academy/ui/home_quick_action.dart';
 import 'package:arabic_academy/ui/home_course_hero.dart';
+import 'package:arabic_academy/features/learning/practice_center_screen.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -56,7 +57,12 @@ void main() {
       expect(find.byType(NeumorphicFeatureTile), findsNWidgets(4));
       expect(find.text('Слова в образах'), findsOneWidget);
       expect(find.text('Диалоги'), findsOneWidget);
-      expect(find.text('Арабское письмо'), findsOneWidget);
+      expect(find.text('Интенсивная тренировка'), findsOneWidget);
+      expect(find.text('Арабское письмо'), findsNothing);
+      final intensive = tester.widget<NeumorphicFeatureTile>(
+          find.byKey(const ValueKey('home-intensive-entry')));
+      expect(intensive.titleMaxLines, 2);
+      expect(intensive.image, 'assets/artwork/progress.webp');
       expect(find.text('Проверить себя'), findsOneWidget);
 
       await tester.tap(find.byKey(const ValueKey('study-tab-1')));
@@ -78,6 +84,37 @@ void main() {
       expect(find.text('Арабский каждый день'), findsOneWidget);
     },
   );
+
+  testWidgets('Dashboard intensive card opens mixed practice instead of handwriting',
+      (tester) async {
+    SharedPreferences.setMockInitialValues(<String, Object>{'welcome_seen': true});
+    final prefs = await SharedPreferences.getInstance();
+    final state = AcademyState(prefs, <String, dynamic>{
+      'modules': <dynamic>[],
+      'lessons': <dynamic>[
+        <String, dynamic>{
+          'id': 'demo', 'title': 'Слова',
+          'vocabulary': <dynamic>[
+            <String, String>{'ar': 'كِتَابٌ', 'ru': 'Книга'},
+            <String, String>{'ar': 'قَلَمٌ', 'ru': 'Ручка'},
+          ],
+        },
+      ],
+    });
+    addTearDown(state.dispose);
+    await tester.pumpWidget(AcademyApp(state: state));
+    await tester.pumpAndSettle();
+    await tester.drag(find.byType(CustomScrollView).first, const Offset(0, -440));
+    await tester.pumpAndSettle();
+    final card = find.byKey(const ValueKey('home-intensive-entry'));
+    expect(card, findsOneWidget);
+    expect(find.text('Арабское письмо'), findsNothing);
+    await tester.ensureVisible(card);
+    await tester.tap(card);
+    await tester.pumpAndSettle();
+    expect(find.byType(PracticeSessionScreen), findsOneWidget);
+    expect(find.textContaining('Тренировка · Интенсивная тренировка'), findsOneWidget);
+  });
 
   testWidgets('Course progress reflects saved completion, not mock scores', (
     tester,

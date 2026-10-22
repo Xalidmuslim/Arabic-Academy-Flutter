@@ -4,7 +4,7 @@ import '../features/exercises/arabic_normalization.dart';
 
 /// A practice question has provenance in a real catalog lesson. Exercises are
 /// deterministic so that mistakes can be revisited after restarting the app.
-enum PracticeMode { quiz, illustrations, sentence, missingWord, dictation, dialogue, exam, mistakes, reverseQuiz, listen, recall, matching, restoreDialogue, intensive }
+enum PracticeMode { quiz, illustrations, sentence, missingWord, dictation, dialogue, exam, mistakes, reverseQuiz, listen, recall, matching, restoreDialogue, intensive, findError }
 
 class PracticeQuestion {
   const PracticeQuestion({
@@ -82,6 +82,7 @@ abstract final class PracticeGenerator {
         PracticeMode.illustrations,
         PracticeMode.sentence,
         PracticeMode.missingWord,
+        PracticeMode.findError,
         PracticeMode.dialogue,
         PracticeMode.restoreDialogue,
         PracticeMode.dictation,
@@ -174,6 +175,7 @@ abstract final class PracticeGenerator {
         PracticeMode.recall,
         PracticeMode.matching,
         PracticeMode.restoreDialogue,
+        PracticeMode.findError,
       ]) {
         source.addAll(build(state, kind, lessonId: lessonId, moduleId: moduleId, limit: 300));
       }
@@ -322,6 +324,48 @@ abstract final class PracticeGenerator {
             mode: mode, prompt: 'Вставьте пропущенное арабское слово',
             answer: missing, reference: visible.join(' '),
             translation: row.ru, word: row.ar,
+          ));
+        } else if (mode == PracticeMode.findError &&
+            tokens.length >= 3 && tokens.length <= 12) {
+          // Deliberately replace exactly one word in an existing utterance.
+          // Both the original and the distractor are real course vocabulary;
+          // no invented Arabic sentence is presented as the source text.
+          final sourceWords = VocabularyPractice.words(state,
+              lessonId: lessonIdValue);
+          final normalizedTokens = tokens.map(normalize).toSet();
+          String? replacement;
+          var changedIndex = -1;
+          for (var i = 0; i < tokens.length; i++) {
+            if (normalize(tokens[i]).isEmpty) continue;
+            for (final vocab in sourceWords) {
+              if (vocab.ar.trim().contains(' ')) continue;
+              if (!normalizedTokens.contains(normalize(vocab.ar))) {
+                replacement = vocab.ar;
+                changedIndex = i;
+                break;
+              }
+            }
+            if (replacement != null) break;
+          }
+          if (replacement == null || changedIndex < 0) continue;
+          final altered = [...tokens]..[changedIndex] = replacement;
+          final seen = <String>{};
+          final candidates = <String>[
+            for (final token in altered)
+              if (seen.add(normalize(token))) token,
+          ];
+          if (candidates.length < 2) continue;
+          results.add(PracticeQuestion(
+            id: id,
+            lessonId: lessonIdValue,
+            lessonTitle: name,
+            mode: mode,
+            prompt: 'Найдите слово, заменённое в исходном диалоге',
+            answer: replacement,
+            word: tokens[changedIndex],
+            reference: altered.join(' '),
+            translation: row.ru,
+            options: candidates,
           ));
         } else if (mode == PracticeMode.dictation &&
             row.ar.length <= 180) {

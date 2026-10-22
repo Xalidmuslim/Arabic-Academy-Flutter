@@ -53,6 +53,10 @@ abstract final class PracticeFeedback {
         return 'Для «${question.word}» в словаре урока '
             'указан ответ «${question.answer}». '
             'Повторите слово и его значение.';
+      case PracticeMode.findError:
+        return 'Подменённое слово: «${question.answer}». '
+            'В оригинальной реплике стояло «${question.word}». '
+            'Сравните фразу с исходным диалогом.';
       case PracticeMode.dialogue:
         return 'В исходном диалоге после «${question.reference}» '
             'следует реплика «${question.answer}». '

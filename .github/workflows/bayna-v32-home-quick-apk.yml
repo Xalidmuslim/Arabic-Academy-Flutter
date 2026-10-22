@@ -1,4 +1,4 @@
-name: Bayna v32 fast sage home APK
+name: Bayna v34 intensive practice APK
 on:
   push:
     branches: [codex/bayna-v32-home-sage-redesign]
@@ -44,7 +44,7 @@ jobs:
       - name: Upload Android APK
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: bayna-v32-sage-home-arm64-apk
+          name: bayna-v34-intensive-home-arm64-apk
           path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           if-no-files-found: error
           retention-days: 14

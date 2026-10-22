@@ -14,7 +14,6 @@ import 'vocabulary_practice_screen.dart';
 import 'words_hub_screen.dart';
 import 'illustrated_dictionary_screen.dart';
 import 'situations_screen.dart';
-import 'handwriting_screen.dart';
 import 'library_screens.dart' show GrammarScreen;
 
 /// A single practice hub: no extra main navigation tabs or decorative noise.
@@ -34,6 +33,8 @@ class PracticeCenterScreen extends StatelessWidget {
         'Слушайте и пишите по-арабски', Icons.headphones_outlined),
     (PracticeMode.dialogue, 'Диалог по ролям',
         'Выберите следующую реплику', Icons.forum_outlined),
+    (PracticeMode.findError, 'Найди ошибку',
+        'Найдите подменённое слово в предложении', Icons.find_replace_outlined),
     (PracticeMode.exam, 'Контрольная работа',
         'Проверка после раздела', Icons.assignment_turned_in_outlined),
     (PracticeMode.mistakes, 'Работа над ошибками',
@@ -224,12 +225,12 @@ class PracticeCenterScreen extends StatelessWidget {
           const SizedBox(height: 10),
           for (final group in <
               (String, String, IconData, List<PracticeMode>)>[
-            ('Слова', 'Викторина, рисунки и пропуски',
+            ('Слова', 'Перевод, картинки, ошибки и пропуски',
                 Icons.style_outlined, [
                   PracticeMode.quiz, PracticeMode.illustrations,
-                  PracticeMode.missingWord,
+                  PracticeMode.missingWord, PracticeMode.findError,
                 ]),
-            ('Письмо', 'Построение фраз и буквы',
+            ('Фразы', 'Собирайте предложения из диалогов',
                 Icons.edit_note_outlined, [PracticeMode.sentence]),
             ('Слушаю и говорю', 'Диктант, реплики и произношение',
                 Icons.headphones_outlined, [
@@ -267,17 +268,6 @@ class PracticeCenterScreen extends StatelessWidget {
                           onTap: () => mode == PracticeMode.exam
                               ? _exam(context) : _open(context, mode),
                         ),
-                    if (group.$1 == 'Письмо')
-                      ListTile(
-                        dense: true,
-                        key: const ValueKey('handwriting-entry'),
-                        title: const Text('Письмо пальцем'),
-                        subtitle: const Text('Арабские буквы и формы'),
-                        trailing: const Icon(Icons.chevron_right),
-                        onTap: () => Navigator.push(context, MaterialPageRoute<void>(
-                          builder: (_) => HandwritingScreen(state: state),
-                        )),
-                      ),
                     if (group.$1 == 'Слушаю и говорю') ...[
                       ListTile(
                         dense: true,
@@ -553,7 +543,8 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
                   _arabic(q.mode == PracticeMode.listen
                       ? q.word : q.answer, size: 22),
               ] else if (q.mode == PracticeMode.missingWord ||
-                  q.mode == PracticeMode.dialogue)
+                  q.mode == PracticeMode.dialogue ||
+                  q.mode == PracticeMode.findError)
                 _arabic(q.reference)
               else if (q.mode == PracticeMode.sentence ||
                   q.mode == PracticeMode.reverseQuiz ||
@@ -673,7 +664,8 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
                   padding: const EdgeInsets.symmetric(vertical: 8),
                   child: q.mode == PracticeMode.dialogue ||
                           q.mode == PracticeMode.illustrations ||
-                          q.mode == PracticeMode.reverseQuiz
+                          q.mode == PracticeMode.reverseQuiz ||
+                          q.mode == PracticeMode.findError
                       ? _arabic(option, size: 23)
                       : Text(option, textAlign: TextAlign.center),
                 ),
@@ -734,7 +726,8 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
                 q.mode == PracticeMode.matching
                     ? const Text('Все пары найдены')
                     : _arabic(q.mode == PracticeMode.illustrations ||
-                        q.mode == PracticeMode.listen
+                        q.mode == PracticeMode.listen ||
+                        q.mode == PracticeMode.findError
                         ? q.word : q.answer),
                 if (q.translation.isNotEmpty)
                   Text(q.translation, textAlign: TextAlign.center),
@@ -858,5 +851,6 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
     PracticeMode.matching => 'Найди пару',
     PracticeMode.restoreDialogue => 'Порядок реплик',
     PracticeMode.intensive => 'Интенсивная тренировка',
+    PracticeMode.findError => 'Найди ошибку',
   };
 }

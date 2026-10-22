@@ -53,6 +53,27 @@ void main() {
     expect(questions.map((q) => q.id).toSet(), hasLength(questions.length));
   });
 
+  test('Find-error mode replaces exactly one word from a real dialogue',
+      () async {
+    SharedPreferences.setMockInitialValues({});
+    final state = AcademyState(await SharedPreferences.getInstance(), _catalog);
+    addTearDown(state.dispose);
+    final questions = PracticeGenerator.build(
+      state, PracticeMode.findError, lessonId: 'study-1');
+    expect(questions, isNotEmpty);
+    final q = questions.first;
+    expect(q.options, contains(q.answer));
+    expect(q.word, isNotEmpty);
+    expect(q.word, isNot(equals(q.answer)));
+    expect(q.reference, contains(q.answer));
+    expect(q.reference, isNot(contains(q.word)));
+    expect(q.options, hasLength(q.options.toSet().length));
+    expect(q.lessonId, 'study-1');
+    expect(PracticeGenerator.build(state, PracticeMode.intensive,
+      lessonId: 'study-1', limit: 36).map((item) => item.mode),
+      contains(PracticeMode.findError));
+  });
+
   test('Matching uses real unique pairs, with no fabricated translations',
       () async {
     SharedPreferences.setMockInitialValues({});
