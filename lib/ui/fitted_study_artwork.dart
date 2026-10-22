@@ -15,6 +15,7 @@ class FittedStudyArtwork extends StatelessWidget {
     this.width,
     this.height,
     this.semanticLabel,
+    this.blurSilhouette = true,
   });
 
   final ImageProvider image;
@@ -22,6 +23,8 @@ class FittedStudyArtwork extends StatelessWidget {
   final double? width;
   final double? height;
   final String? semanticLabel;
+  /// Diagnostic A/B only. Ordinary releases retain the exact soft shadow.
+  final bool blurSilhouette;
 
   @override
   Widget build(BuildContext context) {
@@ -40,6 +43,18 @@ class FittedStudyArtwork extends StatelessWidget {
       null,
       image,
     );
+    final silhouette = ColorFiltered(
+      colorFilter: ColorFilter.mode(
+        colors.shadow.withValues(alpha: dark ? .26 : .17),
+        BlendMode.srcIn,
+      ),
+      child: Image(
+        image: sizedImage,
+        fit: BoxFit.contain,
+        excludeFromSemantics: true,
+        errorBuilder: (_, __, ___) => const SizedBox.shrink(),
+      ),
+    );
 
     return RepaintBoundary(
       child: SizedBox(
@@ -55,24 +70,15 @@ class FittedStudyArtwork extends StatelessWidget {
             padding: EdgeInsets.all(base * .045),
             child: Transform.translate(
               offset: Offset(0, base * .036),
-              child: ImageFiltered(
-                imageFilter: ui.ImageFilter.blur(
-                  sigmaX: base * .025,
-                  sigmaY: base * .025,
-                ),
-                child: ColorFiltered(
-                  colorFilter: ColorFilter.mode(
-                    colors.shadow.withValues(alpha: dark ? .26 : .17),
-                    BlendMode.srcIn,
-                  ),
-                  child: Image(
-                    image: sizedImage,
-                    fit: BoxFit.contain,
-                    excludeFromSemantics: true,
-                    errorBuilder: (_, __, ___) => const SizedBox.shrink(),
-                  ),
-                ),
-              ),
+              child: blurSilhouette
+                  ? ImageFiltered(
+                      imageFilter: ui.ImageFilter.blur(
+                        sigmaX: base * .025,
+                        sigmaY: base * .025,
+                      ),
+                      child: silhouette,
+                    )
+                  : silhouette,
             ),
           ),
           Padding(

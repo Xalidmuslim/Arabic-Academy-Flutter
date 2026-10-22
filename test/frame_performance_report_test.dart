@@ -25,4 +25,16 @@ void main() {
     expect(ui, [14000, 1000, 9000]);
     expect(raster, [2000, 3000, 4000]);
   });
+  test('GPU A/B toggle discards stale pre-toggle frame report', () {
+    final initial = PerformanceProbe.silhouetteBlurEnabled.value;
+    PerformanceProbe.lastReport.value = FramePerformanceReport.fromMicros(
+      [1000, 12000], [19000, 22000],
+    );
+    PerformanceProbe.toggleSilhouetteBlur();
+    expect(PerformanceProbe.silhouetteBlurEnabled.value, !initial);
+    expect(PerformanceProbe.lastReport.value, isNull);
+    PerformanceProbe.toggleSilhouetteBlur();
+    expect(PerformanceProbe.silhouetteBlurEnabled.value, initial);
+  });
+
 }
