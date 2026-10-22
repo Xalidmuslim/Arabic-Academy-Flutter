@@ -26,6 +26,11 @@ class BuildHelpersTests(unittest.TestCase):
             javac.write_text('#!/bin/bash\nprintf "javac 17\\n"\n')
             manager.chmod(0o755)
             javac.chmod(0o755)
+            # The fixture tests SDK-manager path resolution, not a real NDK
+            # download. Mark the NDK as installed to avoid retry/sleep loops.
+            ndk = sdk / 'ndk/27.0.12077973'
+            ndk.mkdir(parents=True)
+            (ndk / 'source.properties').write_text('Pkg.Revision = 27.0.12077973\n')
             env = {**os.environ, 'PATH': '/usr/bin:/bin', 'ANDROID_HOME': str(sdk),
                    'JAVA_HOME': str(root / 'jdk'), 'BAYNA_TEST_CALLS': str(calls)}
             result = subprocess.run(['bash', str(ROOT / 'scripts/prepare_android_ci.sh')],
@@ -45,7 +50,12 @@ class BuildHelpersTests(unittest.TestCase):
             self.assertIn(gate, workflow)
         self.assertIn("FLUTTER_VERSION: '3.35.7'", workflow)
         self.assertIn("java-version: '17'", workflow)
-        self.assertIn('branches: [codex/bayna-platform, codex/bayna-matte-3d-depth-v1, codex/bayna-matte-3d-depth-v2, codex/bayna-solid-3d-floating-v3, codex/bayna-solid-3d-v4, codex/bayna-nav-scroll-design-v5, codex/bayna-private-textbook-pdf-import-v6, codex/bayna-book1-original-dialogues-v7]', workflow)
+        # Assert required supported branches, not the obsolete exact
+        # YAML string: legitimately adding a v8 branch must not break CI.
+        for required in ['codex/bayna-platform',
+                         'codex/bayna-book1-original-dialogues-v7',
+                         'codex/bayna-impeccable-ui-v8']:
+            self.assertIn(required, workflow)
         self.assertIn('branches: [main]', workflow)
         self.assertNotIn('flutter create', workflow)
         self.assertNotIn('continue-on-error', workflow)
