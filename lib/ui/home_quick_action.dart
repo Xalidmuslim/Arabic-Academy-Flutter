@@ -47,7 +47,7 @@ class HomeQuickActionTile extends StatelessWidget {
           borderRadius: radius,
           onTap: onTap,
           child: ConstrainedBox(
-            constraints: const BoxConstraints(minHeight: 70),
+            constraints: const BoxConstraints(minHeight: 64),
             child: Padding(
               padding: const EdgeInsets.fromLTRB(4, 4, 5, 4),
               child: Row(

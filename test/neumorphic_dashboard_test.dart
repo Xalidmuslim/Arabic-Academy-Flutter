@@ -122,8 +122,8 @@ void main() {
 
     expect(find.byType(HomeQuickActionTile), findsNWidgets(2));
     expect(tester.getSize(find.byType(HomeCourseHero)).height, lessThan(225));
-    expect(tester.getSize(find.byKey(const ValueKey('home-review-card'))).height, lessThan(80));
-    expect(tester.getSize(find.byKey(const ValueKey('home-next-card'))).height, lessThan(80));
+    expect(tester.getSize(find.byKey(const ValueKey('home-review-card'))).height, lessThan(75));
+    expect(tester.getSize(find.byKey(const ValueKey('home-next-card'))).height, lessThan(75));
     expect(find.byKey(const ValueKey('home-review-card')), findsOneWidget);
     expect(find.byKey(const ValueKey('home-next-card')), findsOneWidget);
     final review = tester.widget<HomeQuickActionTile>(
