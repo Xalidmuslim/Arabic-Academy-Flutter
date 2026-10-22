@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: bayna-v40-raster
+  group: bayna-v40-raster-fast-gates
   cancel-in-progress: true
 jobs:
   flutter-quality:
