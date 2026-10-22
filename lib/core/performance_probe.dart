@@ -64,6 +64,18 @@ abstract final class PerformanceProbe {
   static final ValueNotifier<FramePerformanceReport?> lastReport =
       ValueNotifier<FramePerformanceReport?>(null);
 
+  /// Temporarily compare the cost of the silhouette Gaussian blur.
+  /// Enabled by default. The app's normal appearance is unchanged.
+  static final ValueNotifier<bool> silhouetteBlurEnabled =
+      ValueNotifier<bool>(true);
+
+  static int _sampleVersion = 0;
+  static void toggleSilhouetteBlur() {
+    silhouetteBlurEnabled.value = !silhouetteBlurEnabled.value;
+    _sampleVersion++;
+    lastReport.value = null;
+  }
+
   static void attach(WidgetsBinding binding, Stopwatch sinceMain) {
     if (!enabled) return;
     binding.waitUntilFirstFrameRasterized.then((_) {
@@ -75,7 +87,13 @@ abstract final class PerformanceProbe {
 
     final uiUs = <int>[];
     final rasterUs = <int>[];
+    var observedVersion = _sampleVersion;
     binding.addTimingsCallback((timings) {
+      if (observedVersion != _sampleVersion) {
+        uiUs.clear();
+        rasterUs.clear();
+        observedVersion = _sampleVersion;
+      }
       for (final timing in timings) {
         uiUs.add(timing.buildDuration.inMicroseconds);
         rasterUs.add(timing.rasterDuration.inMicroseconds);
