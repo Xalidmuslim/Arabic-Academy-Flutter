@@ -10,6 +10,12 @@ void main() {
 
   testWidgets('Intensive matching accepts actual pairs and records one attempt',
       (tester) async {
+    // Match cards are in a vertically scrolling activity. Give the test
+    // viewport space so tapping a pair does not collide with the AppBar.
+    tester.view.physicalSize = const Size(800, 1600);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
     SharedPreferences.setMockInitialValues({});
     final state = AcademyState(
       await SharedPreferences.getInstance(),
@@ -48,10 +54,9 @@ void main() {
 
     for (var i = 0; i < 4; i++) {
       final arabic = find.byKey(ValueKey('intensive-arabic-$i'));
-      await tester.ensureVisible(arabic);
       await tester.tap(arabic);
+      await tester.pump();
       final russian = find.byKey(ValueKey('intensive-translation-$i'));
-      await tester.ensureVisible(russian);
       await tester.tap(russian);
       await tester.pump();
     }
