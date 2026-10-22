@@ -61,7 +61,26 @@ class _UnitScreenState extends State<UnitScreen> {
     body: AnimatedBuilder(
       animation: widget.state,
       builder: (context, _) {
-        final lessons = widget.state.allLessons
+        // Index the lesson count and completion once per state change.
+        // Lazy unit tiles can then render in O(1), even while flinging.
+        final catalog = widget.state.allLessons;
+        final completedIds = widget.state.completed;
+        final unitProgress = <String, ({int total, int done})>{};
+        if (widget.unitId == null &&
+            _filter != 'Избранное' &&
+            _filter != 'Завершённые') {
+          for (final lesson in catalog) {
+            final moduleId = lesson['module_id'] ?? 'u1';
+            if (moduleId is! String) continue;
+            final previous = unitProgress[moduleId];
+            unitProgress[moduleId] = (
+              total: (previous?.total ?? 0) + 1,
+              done: (previous?.done ?? 0) +
+                  (completedIds.contains(lesson['id']) ? 1 : 0),
+            );
+          }
+        }
+        final lessons = catalog
             .where(
               (lesson) =>
                   widget.unitId == null ||
@@ -78,7 +97,7 @@ class _UnitScreenState extends State<UnitScreen> {
                         'lesson:${lesson['id']}',
                       )) &&
                   (_filter != 'Завершённые' ||
-                      widget.state.completed.contains(lesson['id'])),
+                      completedIds.contains(lesson['id'])),
             )
             .toList();
         return CustomScrollView(
@@ -233,12 +252,9 @@ class _UnitScreenState extends State<UnitScreen> {
                     ])) {
                       return const SizedBox.shrink();
                     }
-                    final unitLessons = widget.state.allLessons
-                        .where((x) => (x['module_id'] ?? 'u1') == unit['id'])
-                        .toList();
-                    final done = unitLessons
-                        .where((x) => widget.state.completed.contains(x['id']))
-                        .length;
+                    final progress = unitProgress[unit['id']];
+                    final unitTotal = progress?.total ?? 0;
+                    final done = progress?.done ?? 0;
                     final free = unit['access_default'] == 'free';
                     final isOpen = free || AcademyState.temporaryLocalLessonAccess;
                     return Padding(
@@ -293,9 +309,9 @@ class _UnitScreenState extends State<UnitScreen> {
                                       ),
                                       const SizedBox(height: 5),
                                       Text(
-                                        unitLessons.isEmpty
+                                        unitTotal == 0
                                             ? 'Каталог · материалы не импортированы'
-                                            : '${unitLessons.length} уроков · Начальный',
+                                            : '${unitTotal} уроков · Начальный',
                                         style: Theme.of(
                                           context,
                                         ).textTheme.bodySmall,
@@ -303,19 +319,19 @@ class _UnitScreenState extends State<UnitScreen> {
                                       const SizedBox(height: 5),
                                       Text(
                                         isOpen
-                                            ? unitLessons.isEmpty
+                                            ? unitTotal == 0
                                                 ? 'Раздел открыт · материалы готовятся'
-                                                : 'Открыто · $done/${unitLessons.length}'
+                                                : 'Открыто · $done/${unitTotal}'
                                             : 'Доступ после серверного подтверждения',
                                         style: const TextStyle(
                                           fontSize: 11,
                                           color: DesignTokens.olive,
                                         ),
                                       ),
-                                      if (unitLessons.isNotEmpty) ...[
+                                      if (unitTotal > 0) ...[
                                         const SizedBox(height: 7),
                                         LinearProgressIndicator(
-                                          value: done / unitLessons.length,
+                                          value: done / unitTotal,
                                           color: DesignTokens.olive,
                                           backgroundColor: DesignTokens.beige,
                                           minHeight: 4,
@@ -383,7 +399,7 @@ class _UnitScreenState extends State<UnitScreen> {
                             size: 19,
                           ),
                           trailing: Icon(
-                            widget.state.completed.contains(lesson['id'])
+                            completedIds.contains(lesson['id'])
                                 ? Icons.check_circle
                                 : Icons.chevron_right,
                             color: DesignTokens.olive,
