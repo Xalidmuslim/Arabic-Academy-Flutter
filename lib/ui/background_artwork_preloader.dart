@@ -24,6 +24,20 @@ class BackgroundArtworkPreloader extends StatefulWidget {
   /// Bounded priority queue; no artwork decoding on the first UI frame.
   final int maxImages;
 
+  // Must exactly match cacheWidth used by Image.asset in the home widgets.
+  // Precache of a raw AssetImage has a *different cache key* than a
+  // resized Image.asset, wasting a full-resolution decode and GPU memory.
+  static int cacheWidthFor(String path) => switch (path) {
+    'assets/artwork/home_quick/course.webp' => 256,
+    'assets/artwork/home_quick/review.webp' ||
+    'assets/artwork/home_quick/next.webp' => 144,
+    'assets/artwork/vocabulary.webp' ||
+    'assets/artwork/lessons.webp' ||
+    'assets/artwork/progress.webp' ||
+    'assets/artwork/exercises.webp' => 360,
+    _ => 360,
+  };
+
   /// Injected only by widget tests to avoid real image-codec work in the
   /// fake-async test binding. Production uses Flutter's precacheImage.
   final Future<void> Function(BuildContext context, String path)? imageLoader;
@@ -89,7 +103,11 @@ class _BackgroundArtworkPreloaderState
           await widget.imageLoader!(context, path);
         } else {
           await precacheImage(
-            AssetImage(path),
+            ResizeImage.resizeIfNeeded(
+              BackgroundArtworkPreloader.cacheWidthFor(path),
+              null,
+              AssetImage(path),
+            ),
             context,
             onError: (error, stackTrace) {
               // Missing optional illustration must not block the reader.

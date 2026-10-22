@@ -3,6 +3,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  test('home preloader uses the same resized cache keys as cards', () {
+    expect(BackgroundArtworkPreloader.cacheWidthFor(
+      'assets/artwork/home_quick/course.webp'), 256);
+    expect(BackgroundArtworkPreloader.cacheWidthFor(
+      'assets/artwork/home_quick/review.webp'), 144);
+    expect(BackgroundArtworkPreloader.cacheWidthFor(
+      'assets/artwork/home_quick/next.webp'), 144);
+    for (final name in ['vocabulary', 'lessons', 'progress', 'exercises']) {
+      expect(BackgroundArtworkPreloader.cacheWidthFor(
+        'assets/artwork/$name.webp'), 360);
+    }
+  });
+
   testWidgets('background image warmup never delays the first interactive '
       'screen or changes layout', (tester) async {
     var taps = 0;
