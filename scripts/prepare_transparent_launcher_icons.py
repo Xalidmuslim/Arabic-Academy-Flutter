@@ -39,7 +39,9 @@ def silhouette_mask(image: Image.Image) -> Image.Image:
     if valid_rows < height // 3:
         raise ValueError("Cannot identify original green icon; refusing to crop")
     mask = mask.resize((width, height), Image.Resampling.LANCZOS)
-    return mask.filter(ImageFilter.GaussianBlur(max(0.3, width * 0.65 / 192)))
+    feathered = mask.filter(ImageFilter.GaussianBlur(max(0.3, width * 0.65 / 192)))
+    # Remove subpixel alpha noise from Lanczos resampling outside the tile.
+    return feathered.point(lambda alpha: 0 if alpha < 8 else alpha)
 
 
 def clean_icon(path: Path, expected_size: int) -> None:
