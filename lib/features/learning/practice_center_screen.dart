@@ -420,7 +420,10 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
         final marker = q.id.indexOf('word:');
         if (marker >= 0) {
           final wordId = q.id.substring(marker);
-          if (_reviewedWords.add(wordId)) {
+          final previous = widget.state.reviews[wordId];
+          if (_reviewedWords.add(wordId) &&
+              (previous is! Map ||
+                  VocabularyPractice.isDue(previous, DateTime.now()))) {
             await widget.state.reviewWord(wordId, correct,
                 confidence: correct ? 4 : 0);
           }

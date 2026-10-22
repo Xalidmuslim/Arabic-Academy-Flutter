@@ -1,6 +1,7 @@
 import 'dialogue_vocab_gloss_a.dart';
 import 'dialogue_vocab_gloss_b.dart';
 import 'dialogue_vocab_gloss_c.dart';
+import 'dialogue_vocab_gloss_d.dart';
 
 /// Expand existing authored vocabulary with individually glossed words that
 /// actually occur in the Arabic dialogues. Original entries and their review
@@ -13,6 +14,7 @@ abstract final class DialogueVocabulary {
     ...dialogueGlossA,
     ...dialogueGlossB,
     ...dialogueGlossC,
+    ...dialogueGlossD,
   };
 
   static final _speaker = RegExp(r'^[^:：\n]{0,36}[:：]\s*');
@@ -38,6 +40,9 @@ abstract final class DialogueVocabulary {
     final key = normalize(arabic);
     // A preposition (عَلَى) and the proper name Ali (عَلِيّ) otherwise
     // collapse to the same normalized spelling.
+    if (key == 'جدة') {
+      return arabic.contains('جِ') ? 'Джидда' : 'бабушка';
+    }
     if (key == 'علي') {
       return arabic.contains('ى') ? 'на; над' : 'Али';
     }

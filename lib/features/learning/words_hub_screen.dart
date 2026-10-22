@@ -5,7 +5,6 @@ import '../../core/app_strings.dart';
 import '../../core/practice_generator.dart';
 import '../../core/speech.dart';
 import '../../core/vocabulary_practice.dart';
-import '../../core/practice_generator.dart';
 import 'practice_center_screen.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';

@@ -28,6 +28,11 @@ jobs:
           flutter pub get --enforce-lockfile
           git diff --exit-code -- pubspec.lock
           python3 scripts/verify_assets.py
+      - name: Focused UI tests
+        run: |
+          flutter analyze --no-pub
+          flutter test --no-pub test/neumorphic_dashboard_test.dart test/matte_depth_test.dart test/dialogue_vocabulary_test.dart test/vocabulary_practice_test.dart test/intensive_vocabulary_test.dart test/intensive_workout_screen_test.dart
+
       - name: Compile ARM64 release APK
         run: flutter build apk --release --target-platform android-arm64 --split-per-abi
       - name: Verify APK certificate and contents
@@ -43,7 +48,3 @@ jobs:
           path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           if-no-files-found: error
           retention-days: 14
-      - name: Focused UI tests
-        run: |
-          flutter analyze --no-pub
-          flutter test --no-pub test/neumorphic_dashboard_test.dart test/matte_depth_test.dart test/dialogue_vocabulary_test.dart test/vocabulary_practice_test.dart test/intensive_vocabulary_test.dart test/intensive_workout_screen_test.dart
