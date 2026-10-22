@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/main.dart';
 import 'package:arabic_academy/ui/neumorphic_components.dart';
 import 'package:arabic_academy/ui/home_quick_action.dart';
+import 'package:arabic_academy/ui/home_course_hero.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -61,6 +62,8 @@ void main() {
       await tester.tap(find.byKey(const ValueKey('study-tab-1')));
       await tester.pumpAndSettle();
       expect(find.byType(UnitScreen), findsOneWidget);
+      expect(tester.getSize(find.byKey(const ValueKey('private-pdf-textbook-entry-1'))).height, lessThan(84));
+      expect(tester.getSize(find.byKey(const ValueKey('private-pdf-textbook-entry-2'))).height, lessThan(84));
 
       await tester.tap(find.byKey(const ValueKey('study-tab-2')));
       await tester.pumpAndSettle();
@@ -114,6 +117,9 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.byType(HomeQuickActionTile), findsNWidgets(2));
+    expect(tester.getSize(find.byType(HomeCourseHero)).height, lessThan(225));
+    expect(tester.getSize(find.byKey(const ValueKey('home-review-card'))).height, lessThan(98));
+    expect(tester.getSize(find.byKey(const ValueKey('home-next-card'))).height, lessThan(98));
     expect(find.byKey(const ValueKey('home-review-card')), findsOneWidget);
     expect(find.byKey(const ValueKey('home-next-card')), findsOneWidget);
     final review = tester.widget<HomeQuickActionTile>(

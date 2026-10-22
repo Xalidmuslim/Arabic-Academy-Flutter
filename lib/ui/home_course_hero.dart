@@ -25,7 +25,7 @@ class HomeCourseHero extends StatelessWidget {
     final theme = Theme.of(context);
     final value = progress.clamp(0.0, 1.0).toDouble();
     return NeumorphicSurface(
-      padding: const EdgeInsets.fromLTRB(13, 14, 13, 13),
+      padding: const EdgeInsets.fromLTRB(12, 10, 12, 10),
       emphasized: true,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -33,12 +33,12 @@ class HomeCourseHero extends StatelessWidget {
           Row(
             children: [
               SizedBox(
-                width: 82,
-                height: 105,
+                width: 74,
+                height: 80,
                 child: Image.asset(
-                  'assets/artwork/hero.webp',
+                  'assets/artwork/home_quick/course.webp',
                   fit: BoxFit.contain,
-                  cacheWidth: 280,
+                  cacheWidth: 256,
                   filterQuality: FilterQuality.medium,
                   errorBuilder: (_, __, ___) => const Icon(
                     Icons.auto_stories_rounded,
@@ -47,7 +47,7 @@ class HomeCourseHero extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(width: 9),
+              const SizedBox(width: 7),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -68,7 +68,7 @@ class HomeCourseHero extends StatelessWidget {
                         fontFamily: 'serif',
                         color: theme.colorScheme.onSurface,
                         fontWeight: FontWeight.w700,
-                        fontSize: 18,
+                        fontSize: 16.5,
                         height: 1.12,
                       ),
                     ),
@@ -87,15 +87,15 @@ class HomeCourseHero extends StatelessWidget {
               ),
               const SizedBox(width: 8),
               SizedBox(
-                width: 47,
-                height: 47,
+                width: 42,
+                height: 42,
                 child: Stack(
                   alignment: Alignment.center,
                   children: [
                     SizedBox.expand(
                       child: CircularProgressIndicator(
                         value: value,
-                        strokeWidth: 5,
+                        strokeWidth: 4,
                         strokeCap: StrokeCap.round,
                         color: theme.colorScheme.primary,
                         backgroundColor:
@@ -115,19 +115,19 @@ class HomeCourseHero extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 6),
+          const SizedBox(height: 4),
           ClipRRect(
             borderRadius: BorderRadius.circular(8),
             child: LinearProgressIndicator(
               value: value,
-              minHeight: 8,
+              minHeight: 6,
               color: theme.colorScheme.primary,
               backgroundColor: theme.colorScheme.surfaceContainerHighest,
             ),
           ),
-          const SizedBox(height: 11),
+          const SizedBox(height: 7),
           SizedBox(
-            height: 46,
+            height: 44,
             child: FilledButton(
               key: const ValueKey('home-continue-button'),
               onPressed: onContinue,
@@ -156,13 +156,13 @@ class HomeCourseHero extends StatelessWidget {
             ),
           ),
           if (nextLessonTitle != null && nextLessonTitle!.isNotEmpty) ...[
-            const SizedBox(height: 12),
+            const SizedBox(height: 7),
             Divider(height: 1, color: theme.dividerColor.withValues(alpha: 0.55)),
             InkWell(
               key: const ValueKey('home-next-lesson'),
               onTap: onContinue,
               child: Padding(
-                padding: const EdgeInsets.only(top: 10, bottom: 2),
+                padding: const EdgeInsets.only(top: 6, bottom: 0),
                 child: Row(
                   children: [
                     Icon(Icons.menu_book_outlined,

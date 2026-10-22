@@ -139,20 +139,30 @@ class _UnitScreenState extends State<UnitScreen> {
                       for (final part in widget.unitId == null
                           ? const [1, 2] : [_textbookPart])
                         Padding(
-                          padding: const EdgeInsets.only(bottom: 10),
+                          padding: const EdgeInsets.only(bottom: 6),
                           child: Panel(
                             padding: EdgeInsets.zero,
                             child: ListTile(
+                              dense: true,
+                              visualDensity: const VisualDensity(vertical: -4),
+                              minVerticalPadding: 0,
+                              contentPadding: const EdgeInsets.symmetric(horizontal: 12),
                               key: ValueKey('private-pdf-textbook-entry-$part'),
-                              leading: const Icon(Icons.picture_as_pdf_outlined),
+                              leading: const Icon(Icons.picture_as_pdf_outlined, size: 23),
                               title: Text(
                                 'Оригинальный учебник · Часть $part',
-                                style: const TextStyle(fontWeight: FontWeight.w700),
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: const TextStyle(fontSize: 13.5, fontWeight: FontWeight.w700),
                               ),
                               subtitle: Text(part == 1
-                                  ? 'Разделы 1–8 · 282 страницы · импорт PDF с телефона'
-                                  : 'Разделы 9–16 · 284 страницы · импорт PDF с телефона'),
-                              trailing: const Icon(Icons.chevron_right),
+                                  ? 'Разделы 1–8 · 282 стр. · импорт PDF'
+                                  : 'Разделы 9–16 · 284 стр. · импорт PDF',
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: const TextStyle(fontSize: 10.5),
+                              ),
+                              trailing: const Icon(Icons.chevron_right, size: 19),
                               onTap: () => Navigator.push(
                                 context,
                                 MaterialPageRoute(
