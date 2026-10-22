@@ -1,0 +1,97 @@
+name: Bayna v41 Dialogue GPU Diagnosis
+on:
+  push:
+    branches: [codex/bayna-v41-dialogue-scroll-raster-2026-10-23]
+permissions:
+  contents: read
+concurrency:
+  group: bayna-v41-dialogue-diagnosis
+  cancel-in-progress: true
+jobs:
+  focused-quality:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Verify protected performance contracts
+        run: |
+          python3 scripts/verify_performance_contract.py
+          python3 scripts/verify_assets.py
+          python3 scripts/verify_native_config.py
+      - name: Resolve frozen Flutter dependencies
+        run: |
+          flutter pub get --enforce-lockfile
+          git diff --exit-code -- pubspec.lock
+      - name: Dart analyzer
+        run: flutter analyze --no-pub
+      - name: Targeted dialogue scroll, artwork and measurement tests
+        run: |
+          flutter test --no-pub --concurrency=1 --timeout=100s \
+            test/situations_lazy_scroll_test.dart \
+            test/fitted_artwork_decode_test.dart \
+            test/frame_performance_report_test.dart \
+            test/frame_diagnostics_overlay_test.dart \
+            test/scroll_isolation_test.dart
+  android-diagnostic:
+    needs: focused-quality
+    runs-on: ubuntu-22.04
+    timeout-minutes: 55
+    env:
+      GRADLE_OPTS: -Dorg.gradle.project.kotlin.compiler.execution.strategy=in-process
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00
+        with: {distribution: temurin, java-version: '17', cache: gradle}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Prepare Android and development signing
+        run: |
+          bash scripts/prepare_android_ci.sh
+          bash scripts/prepare_arabic_ocr.sh
+          bash scripts/prepare_signing.sh --mode development
+          flutter pub get --enforce-lockfile
+          git diff --exit-code -- pubspec.lock
+      - name: Preserve learner data with unique diagnostic package
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          gradle = Path('android/app/build.gradle.kts')
+          content = gradle.read_text()
+          token = 'applicationId = "com.example.arabic_academy"'
+          assert content.count(token) == 1
+          gradle.write_text(content.replace(token, 'applicationId = "com.example.arabic_academy.raster41"'))
+          manifest = Path('android/app/src/main/AndroidManifest.xml')
+          content = manifest.read_text()
+          token = 'android:label="Байна Ядайк"'
+          assert content.count(token) == 1
+          manifest.write_text(content.replace(token, 'android:label="Байна Ядайк GPU тест"'))
+          PY
+      - name: Preserve transparent launcher
+        run: |
+          python3 -m pip install --disable-pip-version-check Pillow==11.3.0
+          python3 scripts/test_transparent_launcher_icons.py
+          python3 scripts/prepare_transparent_launcher_icons.py
+      - name: Compile release ARM64 with on-screen GPU timings
+        run: |
+          flutter build apk --release --target-platform android-arm64 \
+            --split-per-abi --dart-define=BAYNA_PERF_DIAGNOSTICS=true
+      - name: Verify APK signature, contents and distinct identity
+        run: |
+          python3 scripts/verify_android_artifacts.py --mode development \
+            --apksigner "$ANDROID_HOME/build-tools/36.0.0/apksigner" \
+            --certificate-sha256 "$(cat build/signing/certificate.sha256)" \
+            build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging \
+            build/app/outputs/flutter-apk/app-arm64-v8a-release.apk \
+            | grep -F "package: name='com.example.arabic_academy.raster41'"
+      - name: Upload v41 side-by-side diagnostic
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: bayna-v41-dialogue-gpu-diagnostics-arm64
+          path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          if-no-files-found: error
+          retention-days: 14
