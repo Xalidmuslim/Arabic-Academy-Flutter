@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'
-    show Color, Offset, Size, CustomScrollView, ValueKey;
+    show Color, Offset, Size, CustomScrollView, Scrollable, ValueKey;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/main.dart';
@@ -87,6 +87,12 @@ void main() {
 
   testWidgets('Dashboard intensive card opens mixed practice instead of handwriting',
       (tester) async {
+    // Treat a missed tap as an actual failure, not a successful test with a
+    // warning. This regresses when the tile is below the viewport/behind nav.
+    final fatalBefore = WidgetController.hitTestWarningShouldBeFatal;
+    WidgetController.hitTestWarningShouldBeFatal = true;
+    addTearDown(() =>
+        WidgetController.hitTestWarningShouldBeFatal = fatalBefore);
     // The learner uses a tall phone viewport, not Flutter's 800x600 test
     // default. Ensure the floating bottom bar does not cover the tile.
     tester.view.physicalSize = const Size(800, 1600);
@@ -115,7 +121,10 @@ void main() {
     final card = find.byKey(const ValueKey('home-intensive-entry'));
     expect(card, findsOneWidget);
     expect(find.text('Арабское письмо'), findsNothing);
-    await tester.ensureVisible(card);
+    // Center the lazy grid tile inside its scrollable viewport; simply
+    // finding the widget does not prove it is unobstructed and hittable.
+    await Scrollable.ensureVisible(tester.element(card), alignment: 0.5);
+    await tester.pumpAndSettle();
     await tester.tap(card);
     await tester.pumpAndSettle();
     expect(find.byType(PracticeSessionScreen), findsOneWidget);
