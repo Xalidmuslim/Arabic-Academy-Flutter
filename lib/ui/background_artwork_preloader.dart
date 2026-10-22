@@ -15,10 +15,14 @@ class BackgroundArtworkPreloader extends StatefulWidget {
     required this.artworkPaths,
     required this.child,
     this.imageLoader,
+    this.maxImages = 2,
   });
 
   final List<String> artworkPaths;
   final Widget child;
+
+  /// Bounded priority queue; no artwork decoding on the first UI frame.
+  final int maxImages;
 
   /// Injected only by widget tests to avoid real image-codec work in the
   /// fake-async test binding. Production uses Flutter's precacheImage.
@@ -59,7 +63,8 @@ class _BackgroundArtworkPreloaderState
 
   Future<void> _warmSequentially() async {
     // 2 images max: avoid a burst of large textures or unnecessary GPU work.
-    for (final path in widget.artworkPaths.take(2)) {
+    for (final path in widget.artworkPaths.take(
+      widget.maxImages.clamp(0, 6).toInt())) {
       if (!mounted) return;
       try {
         if (widget.imageLoader != null) {

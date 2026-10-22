@@ -14,6 +14,7 @@ import '../../ui/design_tokens.dart';
 import '../../ui/neumorphic_components.dart';
 import '../../ui/home_course_hero.dart';
 import '../../ui/home_quick_action.dart';
+import '../../ui/medicine_smooth_motion.dart';
 import '../../ui/premium_art.dart';
 import '../integrations/live_sessions_screen.dart';
 import '../integrations/phone_auth_screen.dart';
@@ -257,11 +258,13 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _open(Widget page) =>
-      Navigator.push(context, MaterialPageRoute(builder: (_) => page));
+      Navigator.push(context, MedicineSmoothMotion.route(
+          context, builder: (_) => page));
   void _lesson(BuildContext context, Map<String, dynamic> lesson) =>
       Navigator.push(
         context,
-        MaterialPageRoute(
+        MedicineSmoothMotion.route(
+          context,
           builder: (_) =>
               LessonScreen(state: state, lesson: lesson, backend: _backend),
         ),
@@ -404,14 +407,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 }
                 if ([ServerRole.teacher, ServerRole.admin]
                     .contains(snapshot.data)) {
-                  return _onlineTeacherPage();
+                  return _motionTab(_onlineTeacherPage());
                 }
-                return _page();
+                return _motionTab(_page());
               },
             );
           }
-          if (_demoTeacher) return _demoTeacherPage();
-          return _page();
+          if (_demoTeacher) return _motionTab(_demoTeacherPage());
+          return _motionTab(_page());
         },
       ),
     )),
@@ -451,6 +454,11 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
     ),
     ),
+  );
+
+  Widget _motionTab(Widget page) => MedicineTabSwitcher(
+    tabKey: '${_teacherLayout ? 'teacher' : 'student'}-$_tab',
+    child: page,
   );
 
   Widget _demoTeacherPage() => switch (_tab) {

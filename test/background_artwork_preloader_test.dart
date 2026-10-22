@@ -43,4 +43,40 @@ void main() {
     expect(find.text('Продолжить'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
+  testWidgets('idle preloading prioritizes four home images without blocking taps',
+      (tester) async {
+    final seen = <String>[];
+    var presses = 0;
+    await tester.pumpWidget(MaterialApp(
+      home: BackgroundArtworkPreloader(
+        maxImages: 4,
+        artworkPaths: const [
+          'assets/artwork/home_quick/course.webp',
+          'assets/artwork/home_quick/review.webp',
+          'assets/artwork/home_quick/next.webp',
+          'assets/artwork/vocabulary.webp',
+          'assets/artwork/unused.webp',
+        ],
+        imageLoader: (context, path) async => seen.add(path),
+        child: Scaffold(body: TextButton(
+          onPressed: () => presses++,
+          child: const Text('Главный экран'),
+        )),
+      ),
+    ));
+    expect(find.text('Главный экран'), findsOneWidget);
+    await tester.tap(find.text('Главный экран'));
+    expect(presses, 1);
+    for (var i = 0; i < 8; i++) {
+      await tester.pump(const Duration(milliseconds: 160));
+    }
+    expect(seen, [
+      'assets/artwork/home_quick/course.webp',
+      'assets/artwork/home_quick/review.webp',
+      'assets/artwork/home_quick/next.webp',
+      'assets/artwork/vocabulary.webp',
+    ]);
+    expect(tester.takeException(), isNull);
+  });
+
 }

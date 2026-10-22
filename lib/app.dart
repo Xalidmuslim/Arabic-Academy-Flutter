@@ -11,6 +11,7 @@ import 'ui/floating_navigation.dart';
 import 'ui/welcome_screen.dart';
 import 'ui/background_artwork_preloader.dart';
 import 'ui/study_art_asset.dart';
+import 'ui/medicine_smooth_motion.dart';
 import 'features/learning/home_screen.dart';
 
 // Only settings that affect the MaterialApp theme, locale or inherited
@@ -71,7 +72,14 @@ class _AcademyAppState extends State<AcademyApp> {
   late final List<String> _nextArtworkToWarm = _collectNextArtwork();
 
   List<String> _collectNextArtwork() {
-    final paths = <String>{};
+    // The immediately visible hero and high-priority cards come before
+    // optional lesson art. These images decode in background after first frame.
+    final paths = <String>{
+      'assets/artwork/home_quick/course.webp',
+      'assets/artwork/home_quick/review.webp',
+      'assets/artwork/home_quick/next.webp',
+      'assets/artwork/vocabulary.webp',
+    };
     for (final source in [
       widget.state.catalog['lessons'],
       widget.state.catalog['modules'],
@@ -83,12 +91,13 @@ class _AcademyAppState extends State<AcademyApp> {
           item['dialogue_illustration_asset'] ?? item['illustration_asset'],
         );
         if (image != null) paths.add(image);
-        if (paths.length >= 2) return paths.toList(growable: false);
+        if (paths.length >= 6) return paths.toList(growable: false);
       }
     }
     return paths.toList(growable: false);
   }
   final _selectedTab = ValueNotifier<int>(0);
+  int _tabChangeGeneration = 0;
   late final _teacherMode = ValueNotifier<bool>(
     widget.state.prefs.getBool('demo_role_teacher') == true,
   );
@@ -99,8 +108,30 @@ class _AcademyAppState extends State<AcademyApp> {
   late bool _welcomeSeen;
 
   void _selectTab(int index) {
-    _selectedTab.value = index;
-    _navigatorKey.currentState?.popUntil((route) => route.isFirst);
+    final generation = ++_tabChangeGeneration;
+    final navigator = _navigatorKey.currentState;
+    if (navigator == null || !navigator.canPop()) {
+      _selectedTab.value = index;
+      return;
+    }
+
+    // Wait for the route's actual reverse transition to finish. Updating the
+    // root tab while Settings/Reader is fading out makes two backgrounds
+    // change at once, which looks like a double jump.
+    Route<dynamic>? leaving;
+    navigator.popUntil((route) {
+      if (!route.isFirst) leaving ??= route;
+      return route.isFirst;
+    });
+    final poppedRoute = leaving;
+    if (poppedRoute == null) {
+      _selectedTab.value = index;
+      return;
+    }
+    unawaited(poppedRoute.completed.then((_) {
+      if (!mounted || generation != _tabChangeGeneration) return;
+      _selectedTab.value = index;
+    }));
   }
   @override
   void initState() {
@@ -154,10 +185,30 @@ class _AcademyAppState extends State<AcademyApp> {
       navigatorObservers: [_routeObserver],
       theme: academyTheme(
         dark: false,
-        latinFont: presentation.russianFont),
+        latinFont: presentation.russianFont,
+      ).copyWith(pageTransitionsTheme: const PageTransitionsTheme(
+        builders: {
+          TargetPlatform.android: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.iOS: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.linux: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.macOS: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.windows: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.fuchsia: MedicineFadePageTransitionsBuilder(),
+        },
+      )),
       darkTheme: academyTheme(
         dark: true,
-        latinFont: widget.state.settings['russianFont'] as String? ?? 'Manrope'),
+        latinFont: presentation.russianFont,
+      ).copyWith(pageTransitionsTheme: const PageTransitionsTheme(
+        builders: {
+          TargetPlatform.android: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.iOS: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.linux: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.macOS: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.windows: MedicineFadePageTransitionsBuilder(),
+          TargetPlatform.fuchsia: MedicineFadePageTransitionsBuilder(),
+        },
+      )),
       themeMode: switch (presentation.appearance) {
         'light' => ThemeMode.light,
         'dark' => ThemeMode.dark,
@@ -198,6 +249,7 @@ class _AcademyAppState extends State<AcademyApp> {
             child: _welcomeSeen
                 ? BackgroundArtworkPreloader(
                     artworkPaths: _nextArtworkToWarm,
+                    maxImages: 4,
                     child: ColoredBox(
                     color: Theme.of(context).scaffoldBackgroundColor,
                     child: Stack(
