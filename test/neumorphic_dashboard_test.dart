@@ -71,6 +71,10 @@ void main() {
 
       await tester.tap(find.byKey(const ValueKey('study-tab-0')));
       await tester.pumpAndSettle();
+      // The dashboard intentionally restores its previous scroll position.
+      // Scroll to the top before asserting on the lazy header text.
+      await tester.drag(find.byType(CustomScrollView).first, const Offset(0, 1200));
+      await tester.pumpAndSettle();
       expect(find.text('Арабский каждый день'), findsOneWidget);
     },
   );
