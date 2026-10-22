@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'
-    show Color, Offset, CustomScrollView, ValueKey;
+    show Color, Offset, Size, CustomScrollView, ValueKey;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/main.dart';
@@ -87,6 +87,12 @@ void main() {
 
   testWidgets('Dashboard intensive card opens mixed practice instead of handwriting',
       (tester) async {
+    // The learner uses a tall phone viewport, not Flutter's 800x600 test
+    // default. Ensure the floating bottom bar does not cover the tile.
+    tester.view.physicalSize = const Size(800, 1600);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
     SharedPreferences.setMockInitialValues(<String, Object>{'welcome_seen': true});
     final prefs = await SharedPreferences.getInstance();
     final state = AcademyState(prefs, <String, dynamic>{
