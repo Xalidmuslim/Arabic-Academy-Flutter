@@ -311,7 +311,7 @@ class _UnitScreenState extends State<UnitScreen> {
                                       Text(
                                         unitTotal == 0
                                             ? 'Каталог · материалы не импортированы'
-                                            : '${unitTotal} уроков · Начальный',
+                                            : '$unitTotal уроков · Начальный',
                                         style: Theme.of(
                                           context,
                                         ).textTheme.bodySmall,
@@ -321,7 +321,7 @@ class _UnitScreenState extends State<UnitScreen> {
                                         isOpen
                                             ? unitTotal == 0
                                                 ? 'Раздел открыт · материалы готовятся'
-                                                : 'Открыто · $done/${unitTotal}'
+                                                : 'Открыто · $done/$unitTotal'
                                             : 'Доступ после серверного подтверждения',
                                         style: const TextStyle(
                                           fontSize: 11,
