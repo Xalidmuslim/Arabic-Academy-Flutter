@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'core/academy_state.dart';
+import 'core/performance_probe.dart';
+import 'ui/frame_diagnostics_overlay.dart';
 import 'services/backend_service.dart';
 import 'services/purchase_service.dart';
 import 'ui/purchase_scope.dart';
@@ -182,6 +184,16 @@ class _AcademyAppState extends State<AcademyApp> {
     super.dispose();
   }
 
+  // Release builds retain the original tree: no overlay and no listeners.
+  // Dedicated diagnostic builds overlay measured timings without touching
+  // scrolling/pointer hit tests or altering the approved 3D visuals.
+  Widget _withFrameDiagnostics(Widget content) => PerformanceProbe.enabled
+      ? Stack(
+          fit: StackFit.expand,
+          children: [content, const FrameDiagnosticsOverlay()],
+        )
+      : content;
+
   @override
   Widget build(BuildContext context) => ValueListenableBuilder<_AppPresentation>(
     valueListenable: _presentation,
@@ -243,7 +255,7 @@ class _AcademyAppState extends State<AcademyApp> {
                   presentation.reduceMotion,
               textScaler: _CombinedTextScaler(media.textScaler, size),
             ),
-            child: _welcomeSeen
+            child: _withFrameDiagnostics(_welcomeSeen
                 ? BackgroundArtworkPreloader(
                     artworkPaths: _nextArtworkToWarm,
                     maxImages: 7,
@@ -281,7 +293,7 @@ class _AcademyAppState extends State<AcademyApp> {
                     ],
                   )),
                   )
-                : child!,
+                : child!),
           ),
         )));
       },

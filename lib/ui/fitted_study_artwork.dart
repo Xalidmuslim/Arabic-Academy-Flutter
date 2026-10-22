@@ -30,6 +30,16 @@ class FittedStudyArtwork extends StatelessWidget {
     final imageWidth = width ?? size;
     final imageHeight = height ?? size;
     final base = imageWidth < imageHeight ? imageWidth : imageHeight;
+    // Both the subject and its alpha-shaped shadow must share a single
+    // image-cache key. Decoding the full original WebP twice per visible
+    // scrolling tile wastes raster bandwidth and texture memory.
+    final decodeWidth =
+        (imageWidth * MediaQuery.devicePixelRatioOf(context)).ceil();
+    final sizedImage = ResizeImage.resizeIfNeeded(
+      decodeWidth,
+      null,
+      image,
+    );
 
     return RepaintBoundary(
       child: SizedBox(
@@ -56,7 +66,7 @@ class FittedStudyArtwork extends StatelessWidget {
                     BlendMode.srcIn,
                   ),
                   child: Image(
-                    image: image,
+                    image: sizedImage,
                     fit: BoxFit.contain,
                     excludeFromSemantics: true,
                     errorBuilder: (_, __, ___) => const SizedBox.shrink(),
@@ -69,7 +79,7 @@ class FittedStudyArtwork extends StatelessWidget {
             padding: EdgeInsets.all(base * .025),
             child: Image(
               key: const ValueKey('fitted-study-image'),
-              image: image,
+              image: sizedImage,
               fit: BoxFit.contain,
               filterQuality: FilterQuality.medium,
               semanticLabel: semanticLabel,

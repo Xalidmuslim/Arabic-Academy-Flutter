@@ -1,62 +1,100 @@
 import 'dart:developer' as developer;
 import 'package:flutter/widgets.dart';
 
+/// Immutable stats for one bounded sample of Flutter frame timings.
+/// Durations do not establish delivered FPS; they identify which thread
+/// exceeded the 8.33ms budget of a 120 Hz display.
+@immutable
+class FramePerformanceReport {
+  const FramePerformanceReport({
+    required this.frameCount,
+    required this.uiP50Ms,
+    required this.uiP95Ms,
+    required this.rasterP50Ms,
+    required this.rasterP95Ms,
+    required this.over60Budget,
+    required this.over120Budget,
+  });
+
+  final int frameCount;
+  final double uiP50Ms;
+  final double uiP95Ms;
+  final double rasterP50Ms;
+  final double rasterP95Ms;
+  final int over60Budget;
+  final int over120Budget;
+
+  static FramePerformanceReport fromMicros(
+    List<int> uiMicros,
+    List<int> rasterMicros,
+  ) {
+    if (uiMicros.isEmpty || uiMicros.length != rasterMicros.length) {
+      throw ArgumentError('Requires paired nonempty UI and raster samples');
+    }
+    final ui = List<int>.of(uiMicros)..sort();
+    final raster = List<int>.of(rasterMicros)..sort();
+    int percentile(List<int> sorted, double factor) =>
+        sorted[((sorted.length - 1) * factor).round()];
+    var above60 = 0;
+    var above120 = 0;
+    for (var i = 0; i < uiMicros.length; i++) {
+      if (uiMicros[i] > 16667 || rasterMicros[i] > 16667) above60++;
+      if (uiMicros[i] > 8333 || rasterMicros[i] > 8333) above120++;
+    }
+    return FramePerformanceReport(
+      frameCount: uiMicros.length,
+      uiP50Ms: percentile(ui, .50) / 1000,
+      uiP95Ms: percentile(ui, .95) / 1000,
+      rasterP50Ms: percentile(raster, .50) / 1000,
+      rasterP95Ms: percentile(raster, .95) / 1000,
+      over60Budget: above60,
+      over120Budget: above120,
+    );
+  }
+}
+
 /// Opt-in metrics only. Ordinary release users incur zero frame callbacks.
 ///
-/// Launch a profile APK with --dart-define=BAYNA_PERF_DIAGNOSTICS=true.
-/// Android "am start -W" includes native work; this probe separately records
-/// elapsed time from Dart main() to the first rasterized Flutter frame.
-/// Timings are real Flutter UI/raster frame timings, not inferred FPS.
+/// Build with --dart-define=BAYNA_PERF_DIAGNOSTICS=true.
+/// These timings are measured build/raster work, NOT a measured display FPS.
 abstract final class PerformanceProbe {
   static const enabled =
       bool.fromEnvironment('BAYNA_PERF_DIAGNOSTICS', defaultValue: false);
 
+  static final ValueNotifier<FramePerformanceReport?> lastReport =
+      ValueNotifier<FramePerformanceReport?>(null);
+
   static void attach(WidgetsBinding binding, Stopwatch sinceMain) {
     if (!enabled) return;
-
     binding.waitUntilFirstFrameRasterized.then((_) {
-      developer.log('first_flutter_raster_ms=${sinceMain.elapsedMilliseconds}',
-          name: 'BaynaPerf');
+      developer.log(
+        'first_flutter_raster_ms=${sinceMain.elapsedMilliseconds}',
+        name: 'BaynaPerf',
+      );
     });
 
     final uiUs = <int>[];
     final rasterUs = <int>[];
-
     binding.addTimingsCallback((timings) {
       for (final timing in timings) {
         uiUs.add(timing.buildDuration.inMicroseconds);
         rasterUs.add(timing.rasterDuration.inMicroseconds);
       }
-      // Emit a bounded rolling report rather than unlimited frame history.
       if (uiUs.length < 120) return;
-
-      final over60Hz = List.generate(uiUs.length, (i) =>
-          uiUs[i] > 16667 || rasterUs[i] > 16667)
-          .where((slow) => slow).length;
-      final over120Hz = List.generate(uiUs.length, (i) =>
-          uiUs[i] > 8333 || rasterUs[i] > 8333)
-          .where((slow) => slow).length;
-      // Percentile sorting must happen after paired per-frame budget checks.
-      final statsUi = _percentiles(uiUs);
-      final statsRaster = _percentiles(rasterUs);
+      final report = FramePerformanceReport.fromMicros(uiUs, rasterUs);
+      lastReport.value = report;
       developer.log(
-        'frames=${uiUs.length} '
-        'ui_p50_ms=${(statsUi.$1 / 1000).toStringAsFixed(2)} '
-        'ui_p95_ms=${(statsUi.$2 / 1000).toStringAsFixed(2)} '
-        'raster_p50_ms=${(statsRaster.$1 / 1000).toStringAsFixed(2)} '
-        'raster_p95_ms=${(statsRaster.$2 / 1000).toStringAsFixed(2)} '
-        'over_60hz_budget=$over60Hz over_120hz_budget=$over120Hz',
+        'frames=${report.frameCount} '
+        'ui_p50_ms=${report.uiP50Ms.toStringAsFixed(2)} '
+        'ui_p95_ms=${report.uiP95Ms.toStringAsFixed(2)} '
+        'raster_p50_ms=${report.rasterP50Ms.toStringAsFixed(2)} '
+        'raster_p95_ms=${report.rasterP95Ms.toStringAsFixed(2)} '
+        'over_60hz_budget=${report.over60Budget} '
+        'over_120hz_budget=${report.over120Budget}',
         name: 'BaynaPerf',
       );
       uiUs.clear();
       rasterUs.clear();
     });
-  }
-
-  static (int, int) _percentiles(List<int> values) {
-    values.sort();
-    final p50 = ((values.length - 1) * .50).round();
-    final p95 = ((values.length - 1) * .95).round();
-    return (values[p50], values[p95]);
   }
 }
