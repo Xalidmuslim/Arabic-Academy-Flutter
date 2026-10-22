@@ -1,5 +1,4 @@
 import 'dart:developer' as developer;
-import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
 /// Immutable stats for one bounded sample of Flutter frame timings.
