@@ -1,4 +1,5 @@
 import 'adaptive_review.dart';
+import 'dialogue_vocabulary.dart';
 import 'dart:convert';
 import 'dart:math';
 
@@ -184,10 +185,11 @@ class AcademyState extends ChangeNotifier {
   List<Map<String, dynamic>>? _allLessonsSnapshot;
   List<Map<String, dynamic>> get allLessons =>
       _allLessonsSnapshot ??= [
-        ...lessons.map((x) => Map<String, dynamic>.from(x as Map)),
+        ...lessons.map((x) => DialogueVocabulary.expand(
+          Map<String, dynamic>.from(x as Map))),
         ...published
             .where((x) => temporaryLocalLessonAccess || x['free'] != false)
-            .map(asLesson),
+            .map((x) => DialogueVocabulary.expand(asLesson(x))),
       ];
 
   /// Preserve old editor fields while presenting a full lesson contract.

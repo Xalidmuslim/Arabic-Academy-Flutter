@@ -523,7 +523,7 @@ class _HomeScreenState extends State<HomeScreen> {
       title: words.words.isEmpty
           ? 'На сегодня всё повторено'
           : 'Повторить ${words.words.length} слов',
-      subtitle: 'К повторению: ${words.due}\nНовых доступно: ${words.newWords}',
+      subtitle: 'Повторить: ${words.due} · Новых: ${words.newWords}',
       image: 'assets/artwork/home_quick/review.webp',
       onTap: () => _open(VocabularyPracticeScreen(state: state)),
     );
@@ -540,7 +540,7 @@ class _HomeScreenState extends State<HomeScreen> {
       key: const PageStorageKey<String>('today-scroll-position'),
       slivers: [
       SliverPadding(
-        padding: const EdgeInsets.fromLTRB(18, 9, 18, 12),
+        padding: const EdgeInsets.fromLTRB(18, 9, 18, 5),
         sliver: SliverToBoxAdapter(child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -587,10 +587,10 @@ class _HomeScreenState extends State<HomeScreen> {
               fontWeight: FontWeight.w700,
               color: Theme.of(context).colorScheme.onSurface,
             )),
-            const SizedBox(height: 10),
+            const SizedBox(height: 5),
             if (quickOneColumn) ...[
               reviewTile,
-              const SizedBox(height: 10),
+              const SizedBox(height: 6),
               nextTile,
             ] else
               Row(

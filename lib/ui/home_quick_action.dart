@@ -47,14 +47,14 @@ class HomeQuickActionTile extends StatelessWidget {
           borderRadius: radius,
           onTap: onTap,
           child: ConstrainedBox(
-            constraints: const BoxConstraints(minHeight: 84),
+            constraints: const BoxConstraints(minHeight: 70),
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(5, 6, 6, 6),
+              padding: const EdgeInsets.fromLTRB(4, 4, 5, 4),
               child: Row(
                 children: [
                   SizedBox(
-                    width: 42,
-                    height: 52,
+                    width: 35,
+                    height: 42,
                     child: Image.asset(
                       image,
                       fit: BoxFit.contain,
@@ -79,7 +79,7 @@ class HomeQuickActionTile extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             color: theme.colorScheme.onSurface,
-                            fontSize: 11.3,
+                            fontSize: 10.8,
                             height: 1.13,
                             fontWeight: FontWeight.w800,
                           ),
@@ -87,11 +87,11 @@ class HomeQuickActionTile extends StatelessWidget {
                         const SizedBox(height: 3),
                         Text(
                           subtitle,
-                          maxLines: 3,
+                          maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             color: theme.colorScheme.onSurfaceVariant,
-                            fontSize: 9.5,
+                            fontSize: 9.2,
                             height: 1.18,
                           ),
                         ),
