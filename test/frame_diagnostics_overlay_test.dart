@@ -6,6 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   testWidgets('diagnostic panel is noninteractive and shows UI/GPU p95',
       (tester) async {
+    PerformanceProbe.setShadowMode(ShadowComparisonMode.all);
     PerformanceProbe.lastReport.value = FramePerformanceReport.fromMicros(
       [for (var i = 0; i < 120; i++) 4500],
       [for (var i = 0; i < 120; i++) 11700],
@@ -32,10 +33,10 @@ void main() {
     expect(find.textContaining('Экран Flutter'), findsOneWidget);
     expect(find.textContaining('>8,3мс'), findsOneWidget);
     expect(find.textContaining('>16,7мс'), findsOneWidget);
-    expect(find.textContaining('Тени карточек и рисунков: ВКЛ'), findsOneWidget);
+    expect(find.textContaining('Карточки ВКЛ · Рисунки ВКЛ'), findsOneWidget);
     PerformanceProbe.toggleSilhouetteBlur();
     await tester.pump();
-    expect(find.textContaining('Тени карточек и рисунков: ВЫКЛ'), findsOneWidget);
+    expect(find.textContaining('Карточки ВЫКЛ · Рисунки ВЫКЛ'), findsOneWidget);
     PerformanceProbe.toggleSilhouetteBlur();
     await tester.pump();
     expect(find.byType(IgnorePointer), findsWidgets);
