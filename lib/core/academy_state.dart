@@ -221,12 +221,16 @@ class AcademyState extends ChangeNotifier {
         );
       }
     }
-    await _change((_) {});
+    // No mutation is necessary during initialization: _ensureFields() has
+    // already normalized the in-memory workspace in the constructor. Avoid a
+    // synchronous JSON encode+decode deep clone on the cold-start UI isolate.
+    await _change((_) {}, snapshotAlreadyNormalized: true);
   }
 
   Future<void> _change(
     void Function(Map<String, dynamic>) mutation, {
     bool invalidatesLessons = false,
+    bool snapshotAlreadyNormalized = false,
   }) {
     final operation = _writes.catchError((Object _) {}).then((_) async {
       if (_blocked) {
@@ -234,7 +238,11 @@ class AcademyState extends ChangeNotifier {
           'Сохранение заблокировано: сначала восстановите повреждённые данные.',
         );
       }
-      final next = jsonDecode(jsonEncode(_document)) as Map<String, dynamic>;
+      // Every real edit retains transactional copy-on-write semantics;
+      // initialization's guaranteed no-op reuses the already validated map.
+      final next = snapshotAlreadyNormalized
+          ? _document
+          : jsonDecode(jsonEncode(_document)) as Map<String, dynamic>;
       mutation(next);
       if (!await prefs.setString(namespace, jsonEncode(next))) {
         throw StateError('Не удалось сохранить данные. Повторите действие.');
