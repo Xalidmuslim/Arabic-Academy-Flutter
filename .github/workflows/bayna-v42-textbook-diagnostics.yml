@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: bayna-v42-textbook-red-test
+  group: bayna-v42-textbook-final-gpu-a-b
   cancel-in-progress: true
 jobs:
   focused-quality:
