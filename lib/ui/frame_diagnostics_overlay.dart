@@ -37,13 +37,13 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
                 ),
                 child: Text(
                   report == null
-                    ? 'Экран Flutter $rate Гц · прокрути 120 кадров\\n'
+                    ? 'Экран Flutter $rate Гц · прокрути 120 кадров\n'
                       'Тени карточек и рисунков: ${blur ? "ВКЛ" : "ВЫКЛ"}'
                     : 'Экран Flutter $rate Гц · >8,3мс '
-                      '${report.over120Budget}/${report.frameCount}\\n'
+                      '${report.over120Budget}/${report.frameCount}\n'
                       'UI p95 ${report.uiP95Ms.toStringAsFixed(1)} мс · '
                       'GPU p95 ${report.rasterP95Ms.toStringAsFixed(1)} мс '
-                      '· >16,7мс ${report.over60Budget}\\n'
+                      '· >16,7мс ${report.over60Budget}\n'
                       'Тени карточек и рисунков: ${blur ? "ВКЛ" : "ВЫКЛ"}',
                   textAlign: TextAlign.center,
                   style: const TextStyle(
