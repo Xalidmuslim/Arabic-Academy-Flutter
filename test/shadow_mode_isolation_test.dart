@@ -25,7 +25,7 @@ void main() {
       PerformanceProbe.setShadowMode(ShadowComparisonMode.all);
     });
     PerformanceProbe.setShadowMode(ShadowComparisonMode.all);
-    await tester.pumpWidget(const MaterialApp(
+    await tester.pumpWidget(MaterialApp(
       home: Scaffold(body: NeumorphicSurface(
         child: ValueListenableBuilder<bool>(
           valueListenable: PerformanceProbe.silhouetteBlurEnabled,
