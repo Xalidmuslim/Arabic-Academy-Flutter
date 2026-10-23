@@ -17,7 +17,9 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
         child: Center(
           child: ValueListenableBuilder<FramePerformanceReport?>(
             valueListenable: PerformanceProbe.lastReport,
-            builder: (context, report, _) => DecoratedBox(
+            builder: (context, report, _) => ValueListenableBuilder<bool>(
+              valueListenable: PerformanceProbe.silhouetteBlurEnabled,
+              builder: (context, blur, _) => DecoratedBox(
               decoration: BoxDecoration(
                 color: const Color(0xE31F2925),
                 borderRadius: BorderRadius.circular(9),
@@ -29,10 +31,11 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
                 ),
                 child: Text(
                   report == null
-                    ? 'Диагностика · прокрути экран (120 кадров)'
+                    ? 'Тень ${blur ? "ВКЛ" : "ВЫКЛ"} · прокрути экран (120 кадров)'
                     : '120 Гц: медленных ${report.over120Budget}/${report.frameCount}\n'
                       'UI p95 ${report.uiP95Ms.toStringAsFixed(1)} мс · '
-                      'GPU p95 ${report.rasterP95Ms.toStringAsFixed(1)} мс',
+                      'GPU p95 ${report.rasterP95Ms.toStringAsFixed(1)} мс\n'
+                      'Тень ${blur ? "ВКЛ" : "ВЫКЛ"} · сравни при одинаковой прокрутке',
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                     fontSize: 11,
@@ -42,6 +45,7 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
                   ),
                 ),
               ),
+            ),
             ),
           ),
         ),
