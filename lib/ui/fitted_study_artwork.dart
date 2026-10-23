@@ -56,8 +56,11 @@ class FittedStudyArtwork extends StatelessWidget {
       ),
     );
 
-    return RepaintBoundary(
-      child: SizedBox(
+    // v29 drew the immutable artwork directly inside its sliver's existing
+    // child repaint boundary. A second one per illustration adds a composited
+    // layer and can consume GPU raster-cache memory while scrolling.
+    // Keep full-quality subject, shared decode and Gaussian silhouette.
+    return SizedBox(
       key: const ValueKey('fitted-study-artwork'),
       width: imageWidth,
       height: imageHeight,
@@ -99,7 +102,6 @@ class FittedStudyArtwork extends StatelessWidget {
             ),
           ),
         ],
-      ),
       ),
     );
   }
