@@ -40,6 +40,13 @@ jobs:
             test/scroll_isolation_test.dart \
             test/progress_immutable_catalog_cache_test.dart \
             test/navigation_back_test.dart
+      - name: Verify diagnostic flag actually affects live cards
+        run: |
+          flutter test --no-pub --timeout=120s \
+            --dart-define=BAYNA_PERF_DIAGNOSTICS=true \
+            test/card_shadow_raster_ab_test.dart \
+            test/frame_diagnostics_overlay_test.dart \
+            test/course_unit_gpu_shadow_test.dart
   full-regressions:
     runs-on: ubuntu-22.04
     timeout-minutes: 45
