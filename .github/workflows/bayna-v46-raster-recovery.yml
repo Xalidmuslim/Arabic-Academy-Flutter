@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: bayna-v46-render-recovery-final
+  group: bayna-v46-v29-clean-regression
   cancel-in-progress: true
 jobs:
   quality:
@@ -36,7 +36,8 @@ jobs:
             test/fitted_artwork_decode_test.dart \
             test/course_unit_gpu_shadow_test.dart \
             test/v29_raster_layer_recovery_test.dart \
-            test/matte_depth_test.dart
+            test/matte_depth_test.dart \
+            test/scroll_isolation_test.dart
   full-regressions:
     runs-on: ubuntu-22.04
     timeout-minutes: 40
