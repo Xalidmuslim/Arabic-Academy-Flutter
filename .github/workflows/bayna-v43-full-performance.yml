@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: bayna-v43-delivery-gates-20261023
+  group: bayna-v43-delivery-final-r2
   cancel-in-progress: true
 jobs:
   focused-quality:
