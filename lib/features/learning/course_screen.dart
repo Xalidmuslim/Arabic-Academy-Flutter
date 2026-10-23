@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/academy_state.dart';
+import '../../core/performance_probe.dart';
 import '../../core/arabic.dart';
 import '../../core/app_strings.dart';
 import '../../services/backend_service.dart';
@@ -30,6 +31,24 @@ class _UnitScreenState extends State<UnitScreen> {
     super.dispose();
   }
 
+  // Only visible unit artwork listens to the diagnostic A/B flag.
+  // Normal releases continue to show identical blurred 3D silhouettes.
+  Widget _unitArtwork(Map unit) {
+    final unitId = unit['id'] as String;
+    final path = unit['illustration_asset'] as String?;
+    Widget render(bool blur) => CourseUnitArt(
+      unitId: unitId,
+      size: 88,
+      imageAsset: path,
+      blurSilhouette: blur,
+    );
+    if (!PerformanceProbe.enabled) return render(true);
+    return ValueListenableBuilder<bool>(
+      valueListenable: PerformanceProbe.silhouetteBlurEnabled,
+      builder: (context, blur, _) => render(blur),
+    );
+  }
+
   int get _textbookStartPage => const <String, int>{
     'u01': 22, 'u02': 48, 'u03': 76, 'u04': 102,
     'u05': 130, 'u06': 156, 'u07': 184, 'u08': 210,
@@ -48,6 +67,17 @@ class _UnitScreenState extends State<UnitScreen> {
     appBar: AppBar(
       title: Text(tr(context, 'Уроки')),
       actions: [
+        if (PerformanceProbe.enabled && widget.unitId == null)
+          ValueListenableBuilder<bool>(
+            valueListenable: PerformanceProbe.silhouetteBlurEnabled,
+            builder: (context, blur, _) => IconButton(
+              icon: Icon(blur ? Icons.blur_on : Icons.blur_off),
+              tooltip: blur
+                  ? 'GPU-тест: отключить размытие 3D-тени'
+                  : 'GPU-тест: включить размытие 3D-тени',
+              onPressed: PerformanceProbe.toggleSilhouetteBlur,
+            ),
+          ),
         IconButton(
           tooltip: 'Очистить поиск',
           icon: const Icon(Icons.search),
@@ -290,11 +320,7 @@ class _UnitScreenState extends State<UnitScreen> {
                             padding: const EdgeInsets.all(12),
                             child: Row(
                               children: [
-                                CourseUnitArt(
-                                  unitId: unit['id'] as String,
-                                  size: 88,
-                                  imageAsset: unit['illustration_asset'] as String?,
-                                ),
+                                _unitArtwork(unit),
                                 const SizedBox(width: 12),
                                 Expanded(
                                   child: Column(
