@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: bayna-v43-final-review-20261023
+  group: bayna-v43-delivery-gates-20261023
   cancel-in-progress: true
 jobs:
   focused-quality:
@@ -39,7 +39,10 @@ jobs:
             test/scroll_isolation_test.dart \
             test/pdf_page_cache_test.dart \
             test/pdf_zoom_test.dart \
-            test/background_artwork_preloader_test.dart
+            test/background_artwork_preloader_test.dart \
+            test/neumorphic_dashboard_test.dart \
+            test/practice_center_test.dart \
+            test/learning_ux_reorganization_test.dart
   full-regressions:
     runs-on: ubuntu-22.04
     timeout-minutes: 45
