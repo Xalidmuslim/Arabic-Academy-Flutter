@@ -13,8 +13,7 @@ void main() {
 
   testWidgets('release uses pre-blurred alpha mask rather than an expensive '
       'live GPU blur while keeping the original 3D illustration', (tester) async {
-    expect(staticMode, isTrue,
-        reason: 'run with --dart-define=BAYNA_STATIC_SHADOW_ASSETS=true');
+    if (!staticMode) return; // Exercised by the dedicated release-mode gate.
     await rootBundle.load(mask); // The build must package the generated mask.
     await tester.pumpWidget(const MaterialApp(
       home: Scaffold(body: FittedStudyArtwork(
