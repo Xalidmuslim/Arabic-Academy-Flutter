@@ -54,12 +54,14 @@ class FittedStudyArtwork extends StatelessWidget {
       defaultValue: false,
     );
     String? shadowAsset;
+    // Fields are not type-promoted in Dart; capture the image provider locally.
+    final source = image;
     if (usePreparedMasks &&
-        image is AssetImage &&
-        image.assetName.startsWith('assets/artwork/') &&
-        image.assetName.endsWith('.webp') &&
-        !image.assetName.contains('/shadow_cache/')) {
-      final subpath = image.assetName.substring('assets/artwork/'.length);
+        source is AssetImage &&
+        source.assetName.startsWith('assets/artwork/') &&
+        source.assetName.endsWith('.webp') &&
+        !source.assetName.contains('/shadow_cache/')) {
+      final subpath = source.assetName.substring('assets/artwork/'.length);
       shadowAsset = 'assets/artwork/shadow_cache/'
           '${subpath.substring(0, subpath.length - 5).replaceAll('/', '__')}.png';
     }
