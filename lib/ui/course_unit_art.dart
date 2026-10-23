@@ -6,10 +6,18 @@ import 'study_art_asset.dart';
 /// separately generated, unit-specific 3D scene is not bundled. Never rotates
 /// unrelated 3D feature art through the lesson catalog.
 class CourseUnitArt extends StatelessWidget {
-  const CourseUnitArt({super.key, required this.unitId, this.size = 78, this.imageAsset});
+  const CourseUnitArt({
+    super.key,
+    required this.unitId,
+    this.size = 78,
+    this.imageAsset,
+    this.blurSilhouette = true,
+  });
   final String unitId;
   final double size;
   final String? imageAsset;
+  /// Diagnostic A/B option; the default preserves the approved 3D design.
+  final bool blurSilhouette;
 
   static IconData iconFor(String unitId) => switch (unitId) {
     'u1' => Icons.waving_hand_rounded,
@@ -39,6 +47,7 @@ class CourseUnitArt extends StatelessWidget {
         image: AssetImage(verified),
         size: size,
         semanticLabel: 'Иллюстрация раздела $unitId',
+        blurSilhouette: blurSilhouette,
       );
     }
     final scheme = Theme.of(context).colorScheme;

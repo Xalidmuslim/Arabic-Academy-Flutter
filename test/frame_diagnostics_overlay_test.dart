@@ -30,6 +30,12 @@ void main() {
     expect(find.textContaining('UI p95'), findsOneWidget);
     expect(find.textContaining('GPU p95'), findsOneWidget);
     expect(find.textContaining('120 Гц'), findsOneWidget);
+    expect(find.textContaining('Тень ВКЛ'), findsOneWidget);
+    PerformanceProbe.toggleSilhouetteBlur();
+    await tester.pump();
+    expect(find.textContaining('Тень ВЫКЛ'), findsOneWidget);
+    PerformanceProbe.toggleSilhouetteBlur();
+    await tester.pump();
     expect(find.byType(IgnorePointer), findsWidgets);
     await tester.tap(find.text('Tap target'));
     expect(tapped, isTrue);
