@@ -8,7 +8,13 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
   const FrameDiagnosticsOverlay({super.key});
 
   @override
-  Widget build(BuildContext context) => Positioned(
+  Widget build(BuildContext context) {
+    // Engine reported Hz, not measured delivered FPS. The former fixed
+    // "120 Hz" header was just a comparison against an 8.33 ms budget.
+    final refresh = View.of(context).display.refreshRate;
+    final rate = refresh.isFinite && refresh > 0
+        ? refresh.toStringAsFixed(0) : '—';
+    return Positioned(
     left: 8,
     right: 8,
     top: 4,
@@ -31,11 +37,14 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
                 ),
                 child: Text(
                   report == null
-                    ? 'Тень ${blur ? "ВКЛ" : "ВЫКЛ"} · прокрути экран (120 кадров)'
-                    : '120 Гц: медленных ${report.over120Budget}/${report.frameCount}\n'
+                    ? 'Экран Flutter $rate Гц · прокрути 120 кадров\\n'
+                      'Тени карточек и рисунков: ${blur ? "ВКЛ" : "ВЫКЛ"}'
+                    : 'Экран Flutter $rate Гц · >8,3мс '
+                      '${report.over120Budget}/${report.frameCount}\\n'
                       'UI p95 ${report.uiP95Ms.toStringAsFixed(1)} мс · '
-                      'GPU p95 ${report.rasterP95Ms.toStringAsFixed(1)} мс\n'
-                      'Тень ${blur ? "ВКЛ" : "ВЫКЛ"} · сравни при одинаковой прокрутке',
+                      'GPU p95 ${report.rasterP95Ms.toStringAsFixed(1)} мс '
+                      '· >16,7мс ${report.over60Budget}\\n'
+                      'Тени карточек и рисунков: ${blur ? "ВКЛ" : "ВЫКЛ"}',
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                     fontSize: 11,
@@ -52,4 +61,5 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
       ),
     ),
   );
+  }
 }
