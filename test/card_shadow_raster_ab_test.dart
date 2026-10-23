@@ -44,4 +44,32 @@ void main() {
     PerformanceProbe.toggleSilhouetteBlur();
     expect(PerformanceProbe.silhouetteBlurEnabled.value, before);
   });
+  testWidgets('in diagnostic builds a single toggle removes and restores '
+      'shadow layers on an existing visible card', (tester) async {
+    if (!PerformanceProbe.enabled) return;
+    if (!PerformanceProbe.silhouetteBlurEnabled.value) {
+      PerformanceProbe.toggleSilhouetteBlur();
+    }
+    addTearDown(() {
+      if (!PerformanceProbe.silhouetteBlurEnabled.value) {
+        PerformanceProbe.toggleSilhouetteBlur();
+      }
+    });
+    await tester.pumpWidget(const MaterialApp(
+      home: Scaffold(body: NeumorphicSurface(child: Text('Учебник'))),
+    ));
+    BoxDecoration decoration() => tester.widget<DecoratedBox>(
+      find.byKey(const ValueKey('matte-3d-surface')),
+    ).decoration as BoxDecoration;
+    expect(decoration().boxShadow, hasLength(2));
+    PerformanceProbe.toggleSilhouetteBlur();
+    await tester.pump();
+    expect(decoration().boxShadow, isEmpty);
+    expect(decoration().color, const Color(0xFFFBF7EF));
+    expect(find.text('Учебник'), findsOneWidget);
+    PerformanceProbe.toggleSilhouetteBlur();
+    await tester.pump();
+    expect(decoration().boxShadow, hasLength(2));
+  });
+
 }
