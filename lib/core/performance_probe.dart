@@ -64,7 +64,8 @@ abstract final class PerformanceProbe {
   static final ValueNotifier<FramePerformanceReport?> lastReport =
       ValueNotifier<FramePerformanceReport?>(null);
 
-  /// Temporarily compare the cost of the silhouette Gaussian blur.
+  /// Diagnostic-only GPU A/B: compare silhouette Gaussian blur AND matte
+  /// card box-shadows, without modifying the normal approved rendering.
   /// Enabled by default. The app's normal appearance is unchanged.
   static final ValueNotifier<bool> silhouetteBlurEnabled =
       ValueNotifier<bool>(true);
