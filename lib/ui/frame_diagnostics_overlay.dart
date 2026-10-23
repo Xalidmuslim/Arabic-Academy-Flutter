@@ -23,9 +23,9 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
         child: Center(
           child: ValueListenableBuilder<FramePerformanceReport?>(
             valueListenable: PerformanceProbe.lastReport,
-            builder: (context, report, _) => ValueListenableBuilder<bool>(
-              valueListenable: PerformanceProbe.silhouetteBlurEnabled,
-              builder: (context, blur, _) => DecoratedBox(
+            builder: (context, report, _) => ValueListenableBuilder<ShadowComparisonMode>(
+              valueListenable: PerformanceProbe.shadowComparisonMode,
+              builder: (context, mode, _) => DecoratedBox(
               decoration: BoxDecoration(
                 color: const Color(0xE31F2925),
                 borderRadius: BorderRadius.circular(9),
@@ -38,13 +38,13 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
                 child: Text(
                   report == null
                     ? 'Экран Flutter $rate Гц · прокрути 120 кадров\n'
-                      'Тени карточек и рисунков: ${blur ? "ВКЛ" : "ВЫКЛ"}'
+                      '${mode.label}'
                     : 'Экран Flutter $rate Гц · >8,3мс '
                       '${report.over120Budget}/${report.frameCount}\n'
                       'UI p95 ${report.uiP95Ms.toStringAsFixed(1)} мс · '
                       'GPU p95 ${report.rasterP95Ms.toStringAsFixed(1)} мс '
                       '· >16,7мс ${report.over60Budget}\n'
-                      'Тени карточек и рисунков: ${blur ? "ВКЛ" : "ВЫКЛ"}',
+                      '${mode.label}',
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                     fontSize: 11,
