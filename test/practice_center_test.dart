@@ -163,9 +163,13 @@ void main() {
     // The quiz belongs to an ExpansionTile lower in the scroll view; the
     // expanded child is not mounted until its owner enters the viewport.
     final wordsGroup = find.byKey(const ValueKey('practice-group-Слова'));
-    expect(wordsGroup, findsOneWidget);
-    await tester.ensureVisible(wordsGroup);
+    await tester.scrollUntilVisible(
+      wordsGroup,
+      180,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.pumpAndSettle();
+    expect(wordsGroup, findsOneWidget);
     final quiz = find.byKey(const ValueKey('practice-mode-quiz'));
     expect(quiz, findsOneWidget);
     await tester.ensureVisible(quiz);
