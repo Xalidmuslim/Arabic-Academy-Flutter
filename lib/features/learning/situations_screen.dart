@@ -48,14 +48,13 @@ class SituationsScreen extends StatelessWidget {
         title: const Text('Разговорные ситуации'),
         actions: [
           if (PerformanceProbe.enabled)
-            ValueListenableBuilder<bool>(
-              valueListenable: PerformanceProbe.silhouetteBlurEnabled,
-              builder: (context, blur, _) => IconButton(
-                icon: Icon(blur ? Icons.blur_on : Icons.blur_off),
-                tooltip: blur
-                    ? 'GPU-тест: убрать тени карточек и рисунков'
-                    : 'GPU-тест: вернуть тени карточек и рисунков',
-                onPressed: PerformanceProbe.toggleSilhouetteBlur,
+            ValueListenableBuilder<ShadowComparisonMode>(
+              valueListenable: PerformanceProbe.shadowComparisonMode,
+              builder: (context, mode, _) => IconButton(
+                icon: Icon(mode == ShadowComparisonMode.all
+                    ? Icons.blur_on : Icons.tune),
+                tooltip: 'GPU-тест: ${mode.label}. Нажми для следующего режима',
+                onPressed: PerformanceProbe.cycleShadowMode,
               ),
             ),
         ],
