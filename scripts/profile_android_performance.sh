@@ -7,8 +7,10 @@
 set -euo pipefail
 
 ADB="${ADB:-adb}"
-PACKAGE="com.example.arabic_academy"
-ACTIVITY="$PACKAGE/.MainActivity"
+# Explicitly support side-by-side development APKs without touching production.
+PACKAGE="${PACKAGE:-com.example.arabic_academy}"
+ACTIVITY="${ACTIVITY:-com.example.arabic_academy.MainActivity}"
+COMPONENT="$PACKAGE/$ACTIVITY"
 REPORT_DIR="${REPORT_DIR:-build/performance}"
 mkdir -p "$REPORT_DIR"
 COLD="$REPORT_DIR/cold_start_ms.txt"
@@ -32,7 +34,7 @@ printf 'Device: %s | Android: %s | Type: %s\n' "$MODEL" "$VERSION" "$KIND" |
 time_launch() {
   local result_file="$1"
   local output
-  output=$("$ADB" shell am start -W -n "$ACTIVITY")
+  output=$("$ADB" shell am start -W -n "$COMPONENT")
   printf '%s\n' "$output" > "$result_file"
   local elapsed
   elapsed=$(printf '%s\n' "$output" |
@@ -59,6 +61,18 @@ report_samples() {
       }'
   fi
 }
+
+# This is an OS launch-time benchmark, not Flutter first-raster timing.
+# Ensure the requested package is actually installed before writing reports.
+"$ADB" shell pm path "$PACKAGE" | grep -q '^package:' || {
+  echo "ERROR: requested package $PACKAGE is not installed." >&2
+  exit 3
+}
+printf 'Package: %s | Activity: %s\n' "$PACKAGE" "$ACTIVITY" |
+  tee "$REPORT_DIR/identity.txt"
+# The device's display policy is diagnostic context; these dumpsys fields
+# alone do not prove Flutter renders at the maximum display refresh rate.
+"$ADB" shell dumpsys display > "$REPORT_DIR/display_modes.txt" || true
 
 echo "Cold launches (force-stop process; preserve app data):"
 for i in 1 2 3 4 5; do
