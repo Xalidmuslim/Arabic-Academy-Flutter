@@ -29,11 +29,13 @@ void main() {
     ));
     expect(find.textContaining('UI p95'), findsOneWidget);
     expect(find.textContaining('GPU p95'), findsOneWidget);
-    expect(find.textContaining('120 Гц'), findsOneWidget);
-    expect(find.textContaining('Тень ВКЛ'), findsOneWidget);
+    expect(find.textContaining('Экран Flutter'), findsOneWidget);
+    expect(find.textContaining('>8,3мс'), findsOneWidget);
+    expect(find.textContaining('>16,7мс'), findsOneWidget);
+    expect(find.textContaining('Тени карточек и рисунков: ВКЛ'), findsOneWidget);
     PerformanceProbe.toggleSilhouetteBlur();
     await tester.pump();
-    expect(find.textContaining('Тень ВЫКЛ'), findsOneWidget);
+    expect(find.textContaining('Тени карточек и рисунков: ВЫКЛ'), findsOneWidget);
     PerformanceProbe.toggleSilhouetteBlur();
     await tester.pump();
     expect(find.byType(IgnorePointer), findsWidgets);
