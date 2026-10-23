@@ -1,7 +1,7 @@
 name: arabic_academy
 description: 'Bayna Yadayk: native Arabic learning, teacher tools and secure platform integrations.'
 publish_to: none
-version: 0.46.0+46
+version: 0.47.0+47
 environment:
   sdk: '>=3.9.0 <4.0.0'
 dependencies:
@@ -34,6 +34,7 @@ flutter:
     - assets/content/level1.json
     - assets/artwork/
     - assets/artwork/lesson_generated/
+    - assets/artwork/shadow_cache/
     - assets/artwork/home_quick/
     - assets/content/grammar.json
     - assets/content/original_lessons.json
