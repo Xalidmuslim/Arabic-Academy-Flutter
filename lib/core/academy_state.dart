@@ -224,7 +224,10 @@ class AcademyState extends ChangeNotifier {
     await _change((_) {});
   }
 
-  Future<void> _change(void Function(Map<String, dynamic>) mutation) {
+  Future<void> _change(
+    void Function(Map<String, dynamic>) mutation, {
+    bool invalidatesLessons = false,
+  }) {
     final operation = _writes.catchError((Object _) {}).then((_) async {
       if (_blocked) {
         throw StateError(
@@ -237,7 +240,9 @@ class AcademyState extends ChangeNotifier {
         throw StateError('Не удалось сохранить данные. Повторите действие.');
       }
       _document = next;
-      _allLessonsSnapshot = null;
+      // Only teacher lesson mutations affect the expanded lesson catalog.
+      // Progress, audio settings and navigation keep the immutable snapshot.
+      if (invalidatesLessons) _allLessonsSnapshot = null;
       if (_isDemo) {
         await prefs.setStringList('completed', completed.toList());
         if (!_legacyCorrupt) {
@@ -292,7 +297,7 @@ class AcademyState extends ChangeNotifier {
     } else {
       list[index] = updated;
     }
-  });
+  }, invalidatesLessons: true);
 
   Future<void> remove(String id) => _change((doc) {
     final lessons = doc['teacher_lessons'] as List;
@@ -305,7 +310,7 @@ class AcademyState extends ChangeNotifier {
       });
       lessons.removeWhere((x) => x['id'] == id);
     }
-  });
+  }, invalidatesLessons: true);
 
   Future<void> restoreLesson(String id) => _change((doc) {
     final archived = doc['archived_lessons'] as List;
@@ -316,7 +321,7 @@ class AcademyState extends ChangeNotifier {
     }
     (doc['teacher_lessons'] as List).add(found.first);
     archived.removeWhere((x) => x['id'] == id);
-  });
+  }, invalidatesLessons: true);
 
   Future<void> copyLesson(Map<String, dynamic> source) => save({
     ...source,
@@ -337,7 +342,7 @@ class AcademyState extends ChangeNotifier {
           .indexOf(a['id'] as String)
           .compareTo(ids.indexOf(b['id'] as String)),
     );
-  });
+  }, invalidatesLessons: true);
 
   Future<void> setSetting(String key, dynamic value) async {
     await _change((doc) => (doc['settings'] as Map)[key] = value);
