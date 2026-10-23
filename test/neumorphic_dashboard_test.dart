@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'
-    show Color, Offset, Size, CustomScrollView, Scrollable, ValueKey;
+    show Color, Offset, Size, CustomScrollView, InkWell, Scrollable, ValueKey;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:arabic_academy/main.dart';
@@ -121,11 +121,15 @@ void main() {
     final card = find.byKey(const ValueKey('home-intensive-entry'));
     expect(card, findsOneWidget);
     expect(find.text('Арабское письмо'), findsNothing);
-    // Center the lazy grid tile inside its scrollable viewport; simply
-    // finding the widget does not prove it is unobstructed and hittable.
-    await Scrollable.ensureVisible(tester.element(card), alignment: 0.5);
+    // On a tall screen the center of a large grid tile can overlap another
+    // sliver after restoration. Anchor its leading edge away from the floating
+    // navigation and tap inside the visible InkWell instead of the outer
+    // AnimatedScale render box. The navigation assertions below catch misses.
+    await Scrollable.ensureVisible(tester.element(card), alignment: 0.12);
     await tester.pumpAndSettle();
-    await tester.tap(card);
+    final target = find.descendant(of: card, matching: find.byType(InkWell));
+    expect(target, findsOneWidget);
+    await tester.tap(target);
     await tester.pumpAndSettle();
     expect(find.byType(PracticeSessionScreen), findsOneWidget);
     expect(find.textContaining('Тренировка · Интенсивная тренировка'), findsOneWidget);

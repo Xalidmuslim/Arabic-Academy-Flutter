@@ -1,0 +1,127 @@
+name: Bayna v43 Full Flutter Performance Audit
+on:
+  push:
+    branches: [codex/bayna-v43-full-performance-audit-2026-10-23]
+permissions:
+  contents: read
+concurrency:
+  group: bayna-v43-delivery-final-r2
+  cancel-in-progress: true
+jobs:
+  focused-quality:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Performance and content invariants
+        run: |
+          python3 scripts/verify_performance_contract.py
+          python3 scripts/verify_assets.py
+          python3 scripts/verify_native_config.py
+          bash -n scripts/profile_android_performance.sh
+          python3 -m unittest discover -s scripts/tests -v
+      - name: Resolve frozen dependencies
+        run: |
+          flutter pub get --enforce-lockfile
+          git diff --exit-code -- pubspec.lock
+      - name: Static analysis
+        run: flutter analyze --no-pub
+      - name: Focused state, app shell, reader and navigation tests
+        run: |
+          flutter test --no-pub --concurrency=2 --timeout=120s \
+            test/progress_immutable_catalog_cache_test.dart \
+            test/state_lesson_cache_test.dart \
+            test/app_shell_performance_test.dart \
+            test/unit_catalog_progress_test.dart \
+            test/scroll_isolation_test.dart \
+            test/pdf_page_cache_test.dart \
+            test/pdf_zoom_test.dart \
+            test/background_artwork_preloader_test.dart \
+            test/neumorphic_dashboard_test.dart \
+            test/practice_center_test.dart \
+            test/learning_ux_reorganization_test.dart
+  full-regressions:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Locked dependencies
+        run: flutter pub get --enforce-lockfile
+      - name: Run ALL widget and unit tests, four deterministic shards
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: |
+          mapfile -t test_files < <(find test -type f -name '*_test.dart' | sort | awk -v shard="$SHARD" '(NR-1)%4 == shard')
+          test "${#test_files[@]}" -gt 0
+          printf 'Shard %s runs %d files\n' "$SHARD" "${#test_files[@]}"
+          flutter test --no-pub --concurrency=2 --timeout=120s "${test_files[@]}"
+  release-arm64:
+    needs: focused-quality
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    env:
+      GRADLE_OPTS: -Dorg.gradle.project.kotlin.compiler.execution.strategy=in-process
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00
+        with: {distribution: temurin, java-version: '17', cache: gradle}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Prepare private resources and test signing
+        run: |
+          bash scripts/prepare_android_ci.sh
+          bash scripts/prepare_arabic_ocr.sh
+          bash scripts/prepare_signing.sh --mode development
+          flutter pub get --enforce-lockfile
+          git diff --exit-code -- pubspec.lock
+      - name: Prevent changing the user's installed learning progress
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          gradle = Path('android/app/build.gradle.kts')
+          source = gradle.read_text()
+          token = 'applicationId = "com.example.arabic_academy"'
+          assert source.count(token) == 1
+          gradle.write_text(source.replace(token, 'applicationId = "com.example.arabic_academy.perf43"'))
+          manifest = Path('android/app/src/main/AndroidManifest.xml')
+          source = manifest.read_text()
+          token = 'android:label="Байна Ядайк"'
+          assert source.count(token) == 1
+          manifest.write_text(source.replace(token, 'android:label="Байна Ядайк Perf 43"'))
+          PY
+      - name: Prepare approved frameless app icon
+        run: |
+          python3 -m pip install --disable-pip-version-check Pillow==11.3.0
+          python3 scripts/test_transparent_launcher_icons.py
+          python3 scripts/prepare_transparent_launcher_icons.py
+      - name: Build AOT ARM64 Release with GPU instrumentation
+        run: |
+          flutter build apk --release --target-platform android-arm64 \
+            --split-per-abi --dart-define=BAYNA_PERF_DIAGNOSTICS=true
+      - name: Verify original assets, R8 ABI and APK signing
+        run: |
+          python3 scripts/verify_android_artifacts.py --mode development \
+            --apksigner "$ANDROID_HOME/build-tools/36.0.0/apksigner" \
+            --certificate-sha256 "$(cat build/signing/certificate.sha256)" \
+            build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging \
+            build/app/outputs/flutter-apk/app-arm64-v8a-release.apk \
+            | grep -F "package: name='com.example.arabic_academy.perf43'"
+      - name: Publish v43 Release ARM64 development APK
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: bayna-v43-performance-arm64-development
+          path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          if-no-files-found: error
+          retention-days: 14

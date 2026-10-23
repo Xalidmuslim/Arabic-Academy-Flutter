@@ -39,8 +39,8 @@ void main() {
     expect(identical(before, tester.widget<MaterialApp>(material)), isTrue,
         reason: 'progress updates should repaint relevant leaf widgets only');
     expect(model.lastLessonId, 'lesson-15');
-    expect(identical(lessonList, model.allLessons), isFalse,
-        reason: 'persisted lesson edits must invalidate cached catalog view');
+    expect(identical(lessonList, model.allLessons), isTrue,
+        reason: 'visiting a lesson changes progress, not authored lesson data');
 
     await model.setSetting('appearance', 'dark');
     await tester.pumpAndSettle();

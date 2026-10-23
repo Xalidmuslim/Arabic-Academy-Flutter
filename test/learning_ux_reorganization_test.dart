@@ -115,7 +115,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('practice-grammar-entry')),
         findsOneWidget);
-    for (final group in ['Слова', 'Письмо',
+    for (final group in ['Слова', 'Фразы',
         'Слушаю и говорю', 'Проверяю']) {
       final target = find.text(group);
       await tester.scrollUntilVisible(target, 190,
