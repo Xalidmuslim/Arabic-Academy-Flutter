@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'design_tokens.dart';
+import '../core/performance_probe.dart';
 
 /// Shared, deliberately lightweight soft-matte visual language.
 /// Solid warm relief with a real exposed edge, no gradient or backdrop blur.
@@ -22,6 +23,7 @@ class NeumorphicSurface extends StatelessWidget {
     this.padding = const EdgeInsets.all(14),
     this.radius = 22,
     this.emphasized = false,
+    this.debugShadowsEnabled,
   });
 
   final Widget child;
@@ -29,18 +31,21 @@ class NeumorphicSurface extends StatelessWidget {
   final double radius;
   /// Stronger lighting is reserved for main interactive cards.
   final bool emphasized;
+  /// A/B only: omit the raster-intensive shadows while keeping card geometry,
+  /// palette and contents identical. Never used in normal production builds.
+  final bool? debugShadowsEnabled;
 
   @override
   Widget build(BuildContext context) {
     final dark = Theme.of(context).brightness == Brightness.dark;
-    return DecoratedBox(
+    Widget render(bool shadowsEnabled) => DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
       decoration: BoxDecoration(
         color: dark ? const Color(0xFF29372E) : DesignTokens.cardSurface,
         borderRadius: BorderRadius.circular(radius),
         // A soft pale highlight, not the dark outline that flattened v8.
         border: Border.all(color: dark ? const Color(0xFF405747) : DesignTokens.cardHighlight, width: 0.8),
-        boxShadow: dark ? const [
+        boxShadow: !shadowsEnabled ? const <BoxShadow>[] : dark ? const [
           BoxShadow(color: Color(0x55000000), offset: Offset(0, 6), blurRadius: 16),
         ] : emphasized ? const [
           BoxShadow(color: Color(0x2C58473B), offset: Offset(0, 5), blurRadius: 12, spreadRadius: -3),
@@ -67,6 +72,17 @@ class NeumorphicSurface extends StatelessWidget {
         type: MaterialType.transparency,
         child: Padding(padding: padding, child: child),
       ),
+    );
+
+    // A release has precisely the same tree and approved 3D lighting as v43.
+    // Diagnostic APKs use one scoped, listenable flag for both the 3D artwork
+    // silhouette and the card's two/three soft BoxShadow layers. Previously
+    // the toggle was a no-op on lesson lists, causing misleading comparisons.
+    if (debugShadowsEnabled case final bool force) return render(force);
+    if (!PerformanceProbe.enabled) return render(true);
+    return ValueListenableBuilder<bool>(
+      valueListenable: PerformanceProbe.silhouetteBlurEnabled,
+      builder: (context, enabled, _) => render(enabled),
     );
   }
 }
