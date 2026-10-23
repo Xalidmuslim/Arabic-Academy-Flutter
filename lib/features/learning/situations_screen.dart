@@ -53,8 +53,8 @@ class SituationsScreen extends StatelessWidget {
               builder: (context, blur, _) => IconButton(
                 icon: Icon(blur ? Icons.blur_on : Icons.blur_off),
                 tooltip: blur
-                    ? 'GPU-тест: выключить размытие 3D-тени'
-                    : 'GPU-тест: вернуть размытие 3D-тени',
+                    ? 'GPU-тест: убрать тени карточек и рисунков'
+                    : 'GPU-тест: вернуть тени карточек и рисунков',
                 onPressed: PerformanceProbe.toggleSilhouetteBlur,
               ),
             ),
