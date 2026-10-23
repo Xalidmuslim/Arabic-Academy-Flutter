@@ -53,6 +53,29 @@ class FramePerformanceReport {
   }
 }
 
+/// Diagnostic comparison modes. These do not affect production appearance.
+enum ShadowComparisonMode {
+  all,
+  noCardShadows,
+  noArtworkShadow,
+  none;
+
+  bool get cardsEnabled =>
+      this == ShadowComparisonMode.all ||
+      this == ShadowComparisonMode.noArtworkShadow;
+
+  bool get artworkEnabled =>
+      this == ShadowComparisonMode.all ||
+      this == ShadowComparisonMode.noCardShadows;
+
+  String get label => switch (this) {
+    ShadowComparisonMode.all => 'Карточки ВКЛ · Рисунки ВКЛ',
+    ShadowComparisonMode.noCardShadows => 'Карточки ВЫКЛ · Рисунки ВКЛ',
+    ShadowComparisonMode.noArtworkShadow => 'Карточки ВКЛ · Рисунки ВЫКЛ',
+    ShadowComparisonMode.none => 'Карточки ВЫКЛ · Рисунки ВЫКЛ',
+  };
+}
+
 /// Opt-in metrics only. Ordinary release users incur zero frame callbacks.
 ///
 /// Build with --dart-define=BAYNA_PERF_DIAGNOSTICS=true.
@@ -70,12 +93,32 @@ abstract final class PerformanceProbe {
   static final ValueNotifier<bool> silhouetteBlurEnabled =
       ValueNotifier<bool>(true);
 
+  /// A single mode source controls the expensive card and illustration layers.
+  /// The older boolean remains for existing illustration listeners and tests.
+  static final ValueNotifier<ShadowComparisonMode> shadowComparisonMode =
+      ValueNotifier<ShadowComparisonMode>(ShadowComparisonMode.all);
+
   static int _sampleVersion = 0;
-  static void toggleSilhouetteBlur() {
-    silhouetteBlurEnabled.value = !silhouetteBlurEnabled.value;
+
+  static void setShadowMode(ShadowComparisonMode mode) {
+    shadowComparisonMode.value = mode;
+    silhouetteBlurEnabled.value = mode.artworkEnabled;
     _sampleVersion++;
     lastReport.value = null;
   }
+
+  static void cycleShadowMode() {
+    final values = ShadowComparisonMode.values;
+    final next = (shadowComparisonMode.value.index + 1) % values.length;
+    setShadowMode(values[next]);
+  }
+
+  /// Backward-compatible ON/OFF test path for earlier diagnostic assertions.
+  static void toggleSilhouetteBlur() => setShadowMode(
+    shadowComparisonMode.value == ShadowComparisonMode.all
+        ? ShadowComparisonMode.none
+        : ShadowComparisonMode.all,
+  );
 
   static void attach(WidgetsBinding binding, Stopwatch sinceMain) {
     if (!enabled) return;

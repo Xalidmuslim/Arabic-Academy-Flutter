@@ -80,9 +80,9 @@ class NeumorphicSurface extends StatelessWidget {
     // the toggle was a no-op on lesson lists, causing misleading comparisons.
     if (debugShadowsEnabled case final bool force) return render(force);
     if (!PerformanceProbe.enabled) return render(true);
-    return ValueListenableBuilder<bool>(
-      valueListenable: PerformanceProbe.silhouetteBlurEnabled,
-      builder: (context, enabled, _) => render(enabled),
+    return ValueListenableBuilder<ShadowComparisonMode>(
+      valueListenable: PerformanceProbe.shadowComparisonMode,
+      builder: (context, mode, _) => render(mode.cardsEnabled),
     );
   }
 }
