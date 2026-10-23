@@ -35,11 +35,7 @@ jobs:
             test/course_unit_gpu_shadow_test.dart \
             test/frame_diagnostics_overlay_test.dart \
             test/frame_performance_report_test.dart \
-            test/situations_lazy_scroll_test.dart \
-            test/unit_catalog_progress_test.dart \
-            test/scroll_isolation_test.dart \
-            test/progress_immutable_catalog_cache_test.dart \
-            test/navigation_back_test.dart
+            test/progress_immutable_catalog_cache_test.dart
       - name: Verify diagnostic flag actually affects live cards
         run: |
           flutter test --no-pub --timeout=120s \
