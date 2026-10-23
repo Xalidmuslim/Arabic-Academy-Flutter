@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: bayna-v46-raster-recovery-ci
+  group: bayna-v46-render-recovery-final
   cancel-in-progress: true
 jobs:
   quality:
@@ -37,6 +37,27 @@ jobs:
             test/course_unit_gpu_shadow_test.dart \
             test/v29_raster_layer_recovery_test.dart \
             test/matte_depth_test.dart
+  full-regressions:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - name: Resolve locked Flutter packages
+        run: flutter pub get --enforce-lockfile
+      - name: Run all unit/widget tests including navigation, RTL and PDF
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: |
+          mapfile -t cases < <(find test -type f -name '*_test.dart' | sort | awk -v shard="$SHARD" '(NR-1)%4 == shard')
+          test "${#cases[@]}" -gt 0
+          flutter test --no-pub --concurrency=2 --timeout=120s "${cases[@]}"
   android-arm64:
     needs: quality
     runs-on: ubuntu-22.04
@@ -54,7 +75,7 @@ jobs:
           bash scripts/prepare_arabic_ocr.sh
           bash scripts/prepare_signing.sh --mode development
           flutter pub get --enforce-lockfile
-      - name: Install as separate package from production and v44
+      - name: Install independently from production and v45
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -90,7 +111,7 @@ jobs:
       - name: Upload v46 Android APK
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: bayna-v46-shadow-isolation-arm64
+          name: bayna-v46-v29-render-recovery-arm64
           path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           if-no-files-found: error
           retention-days: 14
