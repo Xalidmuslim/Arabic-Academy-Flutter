@@ -117,8 +117,9 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
       milliseconds: MediaQuery.disableAnimationsOf(context) ? 0 : 135,
     ),
     curve: Curves.easeOutCubic,
-    child: RepaintBoundary(
-      child: NeumorphicSurface(
+    // The surrounding SliverGrid already bounds repainting of each card;
+    // avoid an additional compositing layer for every animated tile.
+    child: NeumorphicSurface(
       padding: EdgeInsets.zero,
       radius: 21,
       emphasized: true,
@@ -178,7 +179,6 @@ class _NeumorphicFeatureTileState extends State<NeumorphicFeatureTile> {
             ),
           ),
         ),
-      ),
       ),
     ),
   );
