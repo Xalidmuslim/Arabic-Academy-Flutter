@@ -67,14 +67,14 @@ class _UnitScreenState extends State<UnitScreen> {
     appBar: AppBar(
       title: Text(tr(context, 'Уроки')),
       actions: [
-        if (PerformanceProbe.enabled && widget.unitId == null)
+        if (PerformanceProbe.enabled)
           ValueListenableBuilder<bool>(
             valueListenable: PerformanceProbe.silhouetteBlurEnabled,
             builder: (context, blur, _) => IconButton(
               icon: Icon(blur ? Icons.blur_on : Icons.blur_off),
               tooltip: blur
-                  ? 'GPU-тест: отключить размытие 3D-тени'
-                  : 'GPU-тест: включить размытие 3D-тени',
+                  ? 'GPU-тест: отключить тени карточек и рисунков'
+                  : 'GPU-тест: включить тени карточек и рисунков',
               onPressed: PerformanceProbe.toggleSilhouetteBlur,
             ),
           ),
