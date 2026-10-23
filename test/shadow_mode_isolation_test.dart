@@ -27,9 +27,13 @@ void main() {
     PerformanceProbe.setShadowMode(ShadowComparisonMode.all);
     await tester.pumpWidget(const MaterialApp(
       home: Scaffold(body: NeumorphicSurface(
-        child: FittedStudyArtwork(
-          image: AssetImage('assets/artwork/lessons.webp'),
-          size: 88,
+        child: ValueListenableBuilder<bool>(
+          valueListenable: PerformanceProbe.silhouetteBlurEnabled,
+          builder: (context, enabled, _) => FittedStudyArtwork(
+            image: const AssetImage('assets/artwork/lessons.webp'),
+            size: 88,
+            blurSilhouette: enabled,
+          ),
         ),
       )),
     ));
