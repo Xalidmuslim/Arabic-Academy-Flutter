@@ -27,8 +27,8 @@ void main() {
 
     final paths = find.byType(Image).evaluate().map((element) {
       final provider = (element.widget as Image).image;
-      if (provider is ResizeImage && provider.image is AssetImage) {
-        return (provider.image as AssetImage).assetName;
+      if (provider is ResizeImage && provider.imageProvider is AssetImage) {
+        return (provider.imageProvider as AssetImage).assetName;
       }
       return provider is AssetImage ? provider.assetName : '';
     }).toList();
