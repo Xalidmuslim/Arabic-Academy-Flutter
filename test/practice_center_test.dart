@@ -160,7 +160,14 @@ void main() {
       home: Scaffold(body: PracticeCenterScreen(state: model)),
     ));
     await tester.pumpAndSettle();
+    // The quiz belongs to an ExpansionTile lower in the scroll view; the
+    // expanded child is not mounted until its owner enters the viewport.
+    final wordsGroup = find.byKey(const ValueKey('practice-group-Слова'));
+    expect(wordsGroup, findsOneWidget);
+    await tester.ensureVisible(wordsGroup);
+    await tester.pumpAndSettle();
     final quiz = find.byKey(const ValueKey('practice-mode-quiz'));
+    expect(quiz, findsOneWidget);
     await tester.ensureVisible(quiz);
     await tester.pumpAndSettle();
     await tester.tap(quiz);
