@@ -958,7 +958,23 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 19,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 19
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ]
     },
     {
       "id": "demo_new1",
@@ -1292,7 +1308,23 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 16,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 16
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ]
     },
     {
       "id": "level1_topic1_018",
@@ -10723,6 +10755,1086 @@
         }
       ],
       "sources": []
+    },
+    {
+      "id": "l1u8_001",
+      "arabic": "شَرِكَةٌ",
+      "meaning_ar": "مُؤَسَّسَةٌ يَعْمَلُ فِيهَا نَاسٌ لِتَقْدِيمِ خِدْمَةٍ أَوْ بَيْعِ مُنْتَجٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَرِكَاتٌ"
+      ],
+      "collocations": [
+        "شَرِكَةٌ كَبِيرَةٌ"
+      ],
+      "examples_ar": [
+        "يَعْمَلُ أَبِي فِي شَرِكَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_002",
+      "arabic": "مُسْتَشْفًى",
+      "meaning_ar": "مَكَانٌ يُعَالَجُ فِيهِ الْمَرْضَى وَيَعْمَلُ فِيهِ الْأَطِبَّاءُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسْتَشْفَيَاتٌ"
+      ],
+      "collocations": [
+        "مُسْتَشْفَى الْمَدِينَةِ"
+      ],
+      "examples_ar": [
+        "يَعْمَلُ الطَّبِيبُ فِي الْمُسْتَشْفَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_003",
+      "arabic": "مَشْفًى",
+      "meaning_ar": "مَكَانٌ يُعَالَجُ فِيهِ الْمَرِيضُ وَيَحْصُلُ عَلَى الرِّعَايَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَشَافٍ"
+      ],
+      "collocations": [
+        "مَشْفَى الْأَطْفَالِ"
+      ],
+      "examples_ar": [
+        "نَقَلُوا الْمَرِيضَ إِلَى الْمَشْفَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_004",
+      "arabic": "سَاعَةٌ",
+      "meaning_ar": "وَحْدَةٌ مِنَ الزَّمَنِ تَتَكَوَّنُ مِنْ سِتِّينَ دَقِيقَةً.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَاعَاتٌ"
+      ],
+      "collocations": [
+        "سَاعَةُ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "أَعْمَلُ ثَمَانِيَ سَاعَاتٍ فِي الْيَوْمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_005",
+      "arabic": "صَيْدَلِيٌّ",
+      "meaning_ar": "شَخْصٌ يَدْرُسُ الْأَدْوِيَةَ وَيُعِدُّهَا أَوْ يَصْرِفُهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَيَادِلَةٌ"
+      ],
+      "collocations": [
+        "صَيْدَلِيٌّ مَاهِرٌ"
+      ],
+      "examples_ar": [
+        "سَيَعْمَلُ أَخِي صَيْدَلِيًّا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_006",
+      "arabic": "صَيْدَلِيَّةٌ",
+      "meaning_ar": "مَكَانٌ تُبَاعُ فِيهِ الْأَدْوِيَةُ وَيَعْمَلُ فِيهِ الصَّيْدَلِيُّ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَيْدَلِيَّاتٌ"
+      ],
+      "collocations": [
+        "صَيْدَلِيَّةٌ قَرِيبَةٌ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَيْتُ الدَّوَاءَ مِنَ الصَّيْدَلِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_007",
+      "arabic": "طَيَّارٌ",
+      "meaning_ar": "شَخْصٌ يَقُودُ الطَّائِرَةَ أَثْنَاءَ السَّفَرِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طَيَّارُونَ"
+      ],
+      "collocations": [
+        "طَيَّارُ الطَّائِرَةِ"
+      ],
+      "examples_ar": [
+        "أُرِيدُ أَنْ أَصِيرَ طَيَّارًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_008",
+      "arabic": "مِهْنَةٌ",
+      "meaning_ar": "عَمَلٌ يَتَعَلَّمُهُ الشَّخْصُ وَيُمَارِسُهُ لِكَسْبِ الرِّزْقِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مِهَنٌ"
+      ],
+      "collocations": [
+        "مِهْنَةُ الطِّبِّ"
+      ],
+      "examples_ar": [
+        "مَا مِهْنَتُكَ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_009",
+      "arabic": "مَرْحَلَةٌ",
+      "meaning_ar": "جُزْءٌ مِنْ سِلْسِلَةٍ مِنَ الْأَعْمَالِ أَوِ الْأَوْقَاتِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاحِلُ"
+      ],
+      "collocations": [
+        "الْمَرْحَلَةُ الِابْتِدَائِيَّةُ"
+      ],
+      "examples_ar": [
+        "أُدَرِّسُ فِي الْمَرْحَلَةِ الِابْتِدَائِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_010",
+      "arabic": "طِفْلٌ",
+      "meaning_ar": "إِنْسَانٌ صَغِيرٌ فِي السِّنِّ لَمْ يَبْلُغْ سِنَّ الرُّشْدِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطْفَالٌ"
+      ],
+      "collocations": [
+        "طِفْلٌ صَغِيرٌ"
+      ],
+      "examples_ar": [
+        "يَلْعَبُ الْأَطْفَالُ فِي الْحَدِيقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_013",
+      "arabic": "مُمَرِّضٌ",
+      "meaning_ar": "شَخْصٌ يُسَاعِدُ الْمَرْضَى فِي الْعِلَاجِ وَالرِّعَايَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُمَرِّضُونَ"
+      ],
+      "collocations": [
+        "مُمَرِّضُ الْمُسْتَشْفَى"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ الْمُمَرِّضُ الطَّبِيبَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_014",
+      "arabic": "مُمَرِّضَةٌ",
+      "meaning_ar": "اِمْرَأَةٌ تُسَاعِدُ الْمَرْضَى فِي الْمُسْتَشْفَى.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُمَرِّضَاتٌ"
+      ],
+      "collocations": [
+        "مُمَرِّضَةٌ مَاهِرَةٌ"
+      ],
+      "examples_ar": [
+        "تَعْمَلُ أُخْتِي مُمَرِّضَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_015",
+      "arabic": "هَنْدَسَةٌ",
+      "meaning_ar": "عِلْمٌ يُسْتَعْمَلُ لِتَصْمِيمِ الْمَبَانِي وَالْآلَاتِ وَحَلِّ الْمَشْكِلَاتِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كُلِّيَّةُ الْهَنْدَسَةِ"
+      ],
+      "examples_ar": [
+        "يَدْرُسُ أَخِي الْهَنْدَسَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_016",
+      "arabic": "صَيْدَلَةٌ",
+      "meaning_ar": "عِلْمٌ يَهْتَمُّ بِالْأَدْوِيَةِ وَطُرُقِ إِعْدَادِهَا وَاسْتِعْمَالِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كُلِّيَّةُ الصَّيْدَلَةِ"
+      ],
+      "examples_ar": [
+        "تَدْرُسُ أُخْتِي الصَّيْدَلَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_017",
+      "arabic": "تَمْرِيضٌ",
+      "meaning_ar": "عَمَلٌ يَهْتَمُّ بِرِعَايَةِ الْمَرْضَى وَمُسَاعَدَتِهِمْ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كُلِّيَّةُ التَّمْرِيضِ"
+      ],
+      "examples_ar": [
+        "تَدْرُسُ نُورَةُ التَّمْرِيضَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_018",
+      "arabic": "طَيَرَانٌ",
+      "meaning_ar": "حَرَكَةُ الطَّائِرِ أَوِ الطَّائِرَةِ فِي السَّمَاءِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كُلِّيَّةُ الطَّيَرَانِ"
+      ],
+      "examples_ar": [
+        "أُرِيدُ أَنْ أَدْرُسَ الطَّيَرَانَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_019",
+      "arabic": "اِبْتِدَائِيٌّ",
+      "meaning_ar": "مَا كَانَ فِي أَوَّلِ مَرْحَلَةٍ مِنَ التَّعْلِيمِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ اِبْتِدَائِيَّةٌ"
+      ],
+      "collocations": [
+        "التَّعْلِيمُ الِابْتِدَائِيُّ"
+      ],
+      "examples_ar": [
+        "أَدْرُسُ فِي الْمَرْحَلَةِ الِابْتِدَائِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_020",
+      "arabic": "مُتَوَسِّطٌ",
+      "meaning_ar": "مَا كَانَ بَيْنَ الْأَوَّلِ وَالْأَخِيرِ فِي الْمَرْتَبَةِ أَوِ الْمِقْدَارِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَوَسِّطَةٌ"
+      ],
+      "collocations": [
+        "الْمَرْحَلَةُ الْمُتَوَسِّطَةُ"
+      ],
+      "examples_ar": [
+        "أُدَرِّسُ فِي الْمَرْحَلَةِ الْمُتَوَسِّطَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_021",
+      "arabic": "هَنْدَسَ",
+      "meaning_ar": "صَمَّمَ شَيْئًا بِاسْتِعْمَالِ الْحِسَابِ وَالْعِلْمِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُهَنْدِسُ"
+      ],
+      "collocations": [
+        "هَنْدَسَ الْمَبْنَى"
+      ],
+      "examples_ar": [
+        "هَنْدَسَ الرَّجُلُ الْمَشْرُوعَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_022",
+      "arabic": "أَحَبَّ",
+      "meaning_ar": "شَعَرَ بِالْمَحَبَّةِ نَحْوَ شَخْصٍ أَوْ شَيْءٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُحِبُّ"
+      ],
+      "collocations": [
+        "أَحَبَّ عَمَلَهُ"
+      ],
+      "examples_ar": [
+        "أُحِبُّ عَمَلِي كَثِيرًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_023",
+      "arabic": "مَرِضَ",
+      "meaning_ar": "أَصَابَهُ مَرَضٌ فَلَمْ يَكُنْ بِصِحَّةٍ جَيِّدَةٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَمْرَضُ"
+      ],
+      "collocations": [
+        "مَرِضَ الطِّفْلُ"
+      ],
+      "examples_ar": [
+        "مَرِضَ أَخِي فَذَهَبَ إِلَى الطَّبِيبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_024",
+      "arabic": "طَارَ",
+      "meaning_ar": "تَحَرَّكَ فِي الْهَوَاءِ بِجَنَاحَيْنِ أَوْ بِوَسِيلَةِ طَيَرَانٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَطِيرُ"
+      ],
+      "collocations": [
+        "طَارَ فِي السَّمَاءِ"
+      ],
+      "examples_ar": [
+        "طَارَتِ الطَّائِرَةُ فَوْقَ الْبَحْرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_025",
+      "arabic": "رَبَّى",
+      "meaning_ar": "عَلَّمَ صَغِيرًا وَرَعَاهُ حَتَّى يَكْبُرَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُرَبِّي"
+      ],
+      "collocations": [
+        "رَبَّى أَوْلَادَهُ"
+      ],
+      "examples_ar": [
+        "تُرَبِّي الْأُمُّ أَطْفَالَهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_026",
+      "arabic": "دَرَسَ",
+      "meaning_ar": "قَرَأَ وَتَعَلَّمَ لِيَفْهَمَ عِلْمًا أَوْ مَوْضُوعًا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَدْرُسُ"
+      ],
+      "collocations": [
+        "دَرَسَ الطِّبَّ"
+      ],
+      "examples_ar": [
+        "أَدْرُسُ الطِّبَّ فِي الْجَامِعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_027",
+      "arabic": "دَرَّسَ",
+      "meaning_ar": "شَرَحَ دُرُوسًا لِطُلَّابٍ وَسَاعَدَهُمْ عَلَى الْفَهْمِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُدَرِّسُ"
+      ],
+      "collocations": [
+        "دَرَّسَ الْعَرَبِيَّةَ"
+      ],
+      "examples_ar": [
+        "تُدَرِّسُ أُخْتِي اللُّغَةَ الْعَرَبِيَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_028",
+      "arabic": "أَيْضًا",
+      "meaning_ar": "كَلِمَةٌ نَسْتَعْمِلُهَا لِإِضَافَةِ شَيْءٍ إِلَى مَا ذُكِرَ قَبْلَهُ.",
+      "grammar": [
+        "ظَرْفٌ"
+      ],
+      "collocations": [
+        "أَنَا أَيْضًا"
+      ],
+      "examples_ar": [
+        "أُحِبُّ الدِّرَاسَةَ أَيْضًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u8_029",
+      "arabic": "وَظِيفَةٌ",
+      "meaning_ar": "عَمَلٌ يَقُومُ بِهِ شَخْصٌ بِصِفَةٍ مُنْتَظَمَةٍ مُقَابِلَ أَجْرٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَظَائِفُ"
+      ],
+      "collocations": [
+        "وَظِيفَةٌ جَدِيدَةٌ"
+      ],
+      "examples_ar": [
+        "وَجَدْتُ وَظِيفَةً فِي الْمُسْتَشْفَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter8_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6851/",
+        "book": 1,
+        "chapter": 8,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "order_note": "curated education and work glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6851/",
+          "book": 1,
+          "chapter": 8,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "order_note": "curated education and work glossary"
+        }
+      ],
+      "sources": []
     }
   ],
   "corpus_progress": {
@@ -10747,7 +11859,9 @@
     "level1_sixth_chapter_indexed": 33,
     "level1_sixth_chapter_official_glossary_checked": false,
     "level1_seventh_chapter_indexed": 32,
-    "level1_seventh_chapter_official_glossary_checked": false
+    "level1_seventh_chapter_official_glossary_checked": false,
+    "level1_eighth_chapter_indexed": 29,
+    "level1_eighth_chapter_official_glossary_checked": false
   },
   "source_notes": {
     "verified_official_count": 3325,
