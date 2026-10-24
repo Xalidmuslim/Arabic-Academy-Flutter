@@ -62,4 +62,20 @@ void main() {
     final prefs = await SharedPreferences.getInstance();
     expect(prefs.getString('dictionary_theme_v2'), 'dark');
   });
+  testWidgets('Family chapter filter shows only its entries', (tester) async {
+    final first = Word('only1', 'تَحِيَّةٌ', 'كَلِمَةٌ لِلسَّلَامِ',
+        const [], const [], const ['اِسْمٌ'], const [], const [], '',
+        const [], bookNumber: 1, chapterNumber: 1, chapterOrder: 1);
+    final second = Word('only2', 'وَالِدٌ', 'أَبٌ لِطِفْلٍ',
+        const [], const [], const ['اِسْمٌ'], const [], const [], '',
+        const [], bookNumber: 1, chapterNumber: 2, chapterOrder: 1);
+    await tester.pumpWidget(DictionaryApp(previewWords: [first, second]));
+    await tester.pumpAndSettle();
+    expect(find.byType(WordTile), findsNWidgets(2));
+    await tester.tap(find.text('Книга 1 · Тема 2').first);
+    await tester.pumpAndSettle();
+    expect(find.byType(WordTile), findsOneWidget);
+    expect(find.text('وَالِدٌ'), findsWidgets);
+  });
+
 }
