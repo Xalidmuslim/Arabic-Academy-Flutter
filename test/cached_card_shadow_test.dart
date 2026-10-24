@@ -73,6 +73,12 @@ void main() {
         ),
       )),
     ));
+    // MaterialApp animates inherited theme changes; wait for the actual
+    // dark ThemeData before inspecting the selected shadow asset.
+    await tester.pumpAndSettle();
+    expect(Theme.of(tester.element(
+      find.byKey(const ValueKey('matte-3d-surface')),
+    )).brightness, Brightness.dark);
     expect(surface(tester).boxShadow, hasLength(cached ? 0 : 1));
     if (cached) {
       final image = tester.widget<Image>(
