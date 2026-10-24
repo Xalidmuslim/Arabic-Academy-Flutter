@@ -1,0 +1,2347 @@
+{
+  "schema_version": 1,
+  "dataset_status": "initial_lesson_one_based_on_independent_vocabulary_list_original_arabic_definitions",
+  "entries": [
+    {
+      "id": "demo0",
+      "arabic": "كَبِيرٌ",
+      "meaning_ar": "شَيْءٌ عَظِيمُ الْحَجْمِ أَوِ الْمِسَاحَةِ.",
+      "antonyms": [
+        "صَغِيرٌ"
+      ],
+      "synonyms": [
+        "ضَخْمٌ"
+      ],
+      "collocations": [
+        "بَيْتٌ كَبِيرٌ"
+      ],
+      "examples_ar": [
+        "هَذَا بَيْتٌ كَبِيرٌ.",
+        "جَدِّي رَجُلٌ كَبِيرٌ فِي السِّنِّ.",
+        "هَذِهِ مَسْؤُولِيَّةٌ كَبِيرَةٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ كَبِيرَةٌ؛ أَكْبَرُ"
+      ],
+      "usage_note_ar": "يَدُلُّ عَلَى الْحَجْمِ أَوِ السِّنِّ أَوِ الْأَهَمِّيَّةِ.",
+      "additional_meanings_ar": [
+        "شَخْصٌ مُتَقَدِّمٌ فِي السِّنِّ.",
+        "أَمْرٌ عَظِيمُ الْقَدْرِ أَوِ الْأَهَمِّيَّةِ."
+      ]
+    },
+    {
+      "id": "demo1",
+      "arabic": "بَيْتٌ",
+      "meaning_ar": "مَبْنًى يَسْكُنُ فِيهِ النَّاسُ، وَيَنَامُونَ فِيهِ، وَيَعِيشُونَ مَعَ أُسَرِهِمْ.",
+      "antonyms": [],
+      "synonyms": [
+        "مَنْزِلٌ",
+        "دَارٌ"
+      ],
+      "collocations": [
+        "بَيْتٌ جَمِيلٌ"
+      ],
+      "examples_ar": [
+        "أَسْكُنُ مَعَ أُسْرَتِي فِي بَيْتٍ جَمِيلٍ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بُيُوتٌ"
+      ],
+      "usage_note_ar": "يُقَالُ «بَيْتٌ» لِلْمَكَانِ الَّذِي يَسْكُنُ فِيهِ النَّاسُ.",
+      "additional_meanings_ar": [
+        "جُزْءٌ مِنَ الشِّعْرِ يَتَكَوَّنُ مِنْ شَطْرَيْنِ."
+      ]
+    },
+    {
+      "id": "demo2",
+      "arabic": "كِتَابٌ",
+      "meaning_ar": "صَفَحَاتٌ مَكْتُوبَةٌ أَوْ مَطْبُوعَةٌ نَقْرَؤُهَا لِنَتَعَلَّمَ.",
+      "antonyms": [],
+      "synonyms": [
+        "مُؤَلَّفٌ"
+      ],
+      "collocations": [
+        "كِتَابٌ مُفِيدٌ"
+      ],
+      "examples_ar": [
+        "فَتَحْتُ الْكِتَابَ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُتُبٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 9
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 9,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo3",
+      "arabic": "بَابٌ",
+      "meaning_ar": "مَدْخَلٌ لَهُ شَيْءٌ يُفْتَحُ وَيُغْلَقُ.",
+      "antonyms": [],
+      "synonyms": [],
+      "collocations": [
+        "بَابُ الْبَيْتِ"
+      ],
+      "examples_ar": [
+        "فَتَحْتُ الْبَابَ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَبْوَابٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo4",
+      "arabic": "مُدَرِّسَةٌ",
+      "meaning_ar": "امْرَأَةٌ تُعَلِّمُ الطُّلَّابَ وَتَشْرَحُ لَهُمُ الدُّرُوسَ.",
+      "antonyms": [],
+      "synonyms": [
+        "مُعَلِّمَةٌ"
+      ],
+      "collocations": [
+        "مُدَرِّسَةُ الْعَرَبِيَّةِ"
+      ],
+      "examples_ar": [
+        "مُدَرِّسَتِي تَشْرَحُ الدَّرْسَ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُدَرِّسَاتٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 13
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 13,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo5",
+      "arabic": "جَامِعَةٌ",
+      "meaning_ar": "مَكَانٌ يَتَعَلَّمُ فِيهِ الطُّلَّابُ الْعُلُومَ الْعُلْيَا.",
+      "antonyms": [],
+      "synonyms": [],
+      "collocations": [
+        "طَالِبُ الْجَامِعَةِ"
+      ],
+      "examples_ar": [
+        "أَدْرُسُ فِي الْجَامِعَةِ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَامِعَاتٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo6",
+      "arabic": "مُدَرِّسٌ",
+      "meaning_ar": "شَخْصٌ يَشْرَحُ الدُّرُوسَ وَيُعَلِّمُ الطُّلَّابَ.",
+      "antonyms": [],
+      "synonyms": [
+        "مُعَلِّمٌ"
+      ],
+      "collocations": [
+        "مُدَرِّسُ الْعَرَبِيَّةِ"
+      ],
+      "examples_ar": [
+        "الْمُدَرِّسُ يَشْرَحُ الدَّرْسَ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُدَرِّسُونَ؛ الْمُؤَنَّثُ مُدَرِّسَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 12
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 12,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo7",
+      "arabic": "طَالِبٌ",
+      "meaning_ar": "شَخْصٌ يَدْرُسُ وَيَتَعَلَّمُ فِي مَدْرَسَةٍ أَوْ جَامِعَةٍ.",
+      "antonyms": [],
+      "synonyms": [
+        "مُتَعَلِّمٌ"
+      ],
+      "collocations": [
+        "طَالِبٌ مُجْتَهِدٌ"
+      ],
+      "examples_ar": [
+        "أَنَا طَالِبٌ فِي الْجَامِعَةِ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طُلَّابٌ؛ الْمُؤَنَّثُ طَالِبَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 8
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 8,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo8",
+      "arabic": "دَرْسٌ",
+      "meaning_ar": "مَوْضُوعٌ يَشْرَحُهُ الْمُدَرِّسُ لِلطُّلَّابِ.",
+      "antonyms": [],
+      "synonyms": [],
+      "collocations": [
+        "دَرْسٌ جَدِيدٌ"
+      ],
+      "examples_ar": [
+        "فَهِمْتُ الدَّرْسَ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دُرُوسٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 21
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 21,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo9",
+      "arabic": "كَلِمَةٌ",
+      "meaning_ar": "لَفْظٌ لَهُ مَعْنًى نَسْتَعْمِلُهُ فِي الْكَلَامِ.",
+      "antonyms": [],
+      "synonyms": [
+        "لَفْظٌ"
+      ],
+      "collocations": [
+        "كَلِمَةٌ جَدِيدَةٌ"
+      ],
+      "examples_ar": [
+        "مَا مَعْنَى هَذِهِ الْكَلِمَةِ؟"
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَلِمَاتٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 31
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 31,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo10",
+      "arabic": "لُغَةٌ",
+      "meaning_ar": "أَصْوَاتٌ وَكَلِمَاتٌ يَسْتَعْمِلُهَا النَّاسُ لِلتَّفَاهُمِ.",
+      "antonyms": [],
+      "synonyms": [
+        "لِسَانٌ"
+      ],
+      "collocations": [
+        "اللُّغَةُ الْعَرَبِيَّةُ"
+      ],
+      "examples_ar": [
+        "أَتَعَلَّمُ اللُّغَةَ الْعَرَبِيَّةَ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لُغَاتٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 11
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 11,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo11",
+      "arabic": "صَدِيقٌ",
+      "meaning_ar": "شَخْصٌ نُحِبُّهُ وَنَثِقُ بِهِ وَنُحِبُّ الْجُلُوسَ مَعَهُ.",
+      "antonyms": [
+        "عَدُوٌّ"
+      ],
+      "synonyms": [
+        "رَفِيقٌ"
+      ],
+      "collocations": [
+        "صَدِيقٌ قَدِيمٌ"
+      ],
+      "examples_ar": [
+        "ذَهَبْتُ مَعَ صَدِيقِي."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَصْدِقَاءُ؛ الْمُؤَنَّثُ صَدِيقَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 17
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 17,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo12",
+      "arabic": "أُسْرَةٌ",
+      "meaning_ar": "أَشْخَاصٌ تَرْبِطُهُمْ عَلَاقَةُ قَرَابَةٍ.",
+      "antonyms": [],
+      "synonyms": [
+        "عَائِلَةٌ"
+      ],
+      "collocations": [
+        "أُسْرَةٌ كَبِيرَةٌ"
+      ],
+      "examples_ar": [
+        "أُحِبُّ أُسْرَتِي."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أُسَرٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo13",
+      "arabic": "أَبٌ",
+      "meaning_ar": "الرَّجُلُ الَّذِي لَهُ أَبْنَاءٌ أَوْ بَنَاتٌ.",
+      "antonyms": [],
+      "synonyms": [
+        "وَالِدٌ"
+      ],
+      "collocations": [
+        "أَبُو الطِّفْلِ"
+      ],
+      "examples_ar": [
+        "أَبِي طَبِيبٌ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ آبَاءٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo14",
+      "arabic": "أُمٌّ",
+      "meaning_ar": "الْمَرْأَةُ الَّتِي لَهَا أَبْنَاءٌ أَوْ بَنَاتٌ.",
+      "antonyms": [],
+      "synonyms": [
+        "وَالِدَةٌ"
+      ],
+      "collocations": [
+        "أُمُّ الطِّفْلِ"
+      ],
+      "examples_ar": [
+        "أُمِّي مُعَلِّمَةٌ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أُمَّهَاتٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo15",
+      "arabic": "أَخٌ",
+      "meaning_ar": "وَلَدٌ يَشْتَرِكُ مَعَكَ فِي أَبٍ أَوْ أُمٍّ.",
+      "antonyms": [],
+      "synonyms": [],
+      "collocations": [
+        "الْأَخُ الْأَكْبَرُ"
+      ],
+      "examples_ar": [
+        "أَخِي يَدْرُسُ فِي الْمَدْرَسَةِ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِخْوَةٌ"
+      ],
+      "usage_note_ar": "قَدْ يُسْتَعْمَلُ لِلصَّدِيقِ الْقَرِيبِ.",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 14
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 14,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo16",
+      "arabic": "أُخْتٌ",
+      "meaning_ar": "بِنْتٌ تَشْتَرِكُ مَعَكَ فِي أَبٍ أَوْ أُمٍّ.",
+      "antonyms": [],
+      "synonyms": [],
+      "collocations": [
+        "أُخْتٌ صَغِيرَةٌ"
+      ],
+      "examples_ar": [
+        "أُخْتِي طَالِبَةٌ."
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَخَوَاتٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 15
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 15,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo17",
+      "arabic": "صَغِيرٌ",
+      "meaning_ar": "قَلِيلُ الْحَجْمِ أَوِ السِّنِّ.",
+      "antonyms": [
+        "كَبِيرٌ"
+      ],
+      "synonyms": [],
+      "collocations": [
+        "طِفْلٌ صَغِيرٌ"
+      ],
+      "examples_ar": [
+        "هَذَا بَيْتٌ صَغِيرٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ صَغِيرَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo18",
+      "arabic": "جَدِيدٌ",
+      "meaning_ar": "مَا لَمْ يَمْضِ عَلَيْهِ زَمَنٌ طَوِيلٌ.",
+      "antonyms": [
+        "قَدِيمٌ"
+      ],
+      "synonyms": [
+        "حَدِيثٌ"
+      ],
+      "collocations": [
+        "كِتَابٌ جَدِيدٌ"
+      ],
+      "examples_ar": [
+        "اشْتَرَيْتُ كِتَابًا جَدِيدًا."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ جَدِيدَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo19",
+      "arabic": "قَدِيمٌ",
+      "meaning_ar": "مَا مَرَّ عَلَيْهِ زَمَنٌ طَوِيلٌ.",
+      "antonyms": [
+        "جَدِيدٌ"
+      ],
+      "synonyms": [],
+      "collocations": [
+        "بَيْتٌ قَدِيمٌ"
+      ],
+      "examples_ar": [
+        "هَذَا بَيْتٌ قَدِيمٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ قَدِيمَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo20",
+      "arabic": "قَرِيبٌ",
+      "meaning_ar": "مَا لَيْسَ بَعِيدًا فِي الْمَكَانِ أَوِ الزَّمَانِ.",
+      "antonyms": [
+        "بَعِيدٌ"
+      ],
+      "synonyms": [],
+      "collocations": [
+        "مَكَانٌ قَرِيبٌ"
+      ],
+      "examples_ar": [
+        "الْمَدْرَسَةُ قَرِيبَةٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ قَرِيبَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo21",
+      "arabic": "بَعِيدٌ",
+      "meaning_ar": "مَا تَفْصِلُهُ مَسَافَةٌ كَبِيرَةٌ.",
+      "antonyms": [
+        "قَرِيبٌ"
+      ],
+      "synonyms": [
+        "نَاءٍ"
+      ],
+      "collocations": [
+        "مَكَانٌ بَعِيدٌ"
+      ],
+      "examples_ar": [
+        "الْمَدِينَةُ بَعِيدَةٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ بَعِيدَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo22",
+      "arabic": "سَهْلٌ",
+      "meaning_ar": "مَا لَا يَحْتَاجُ إِلَى جُهْدٍ كَبِيرٍ.",
+      "antonyms": [
+        "صَعْبٌ"
+      ],
+      "synonyms": [
+        "يَسِيرٌ"
+      ],
+      "collocations": [
+        "دَرْسٌ سَهْلٌ"
+      ],
+      "examples_ar": [
+        "هَذَا السُّؤَالُ سَهْلٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ سَهْلَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo23",
+      "arabic": "صَعْبٌ",
+      "meaning_ar": "مَا يَحْتَاجُ إِلَى جُهْدٍ كَبِيرٍ.",
+      "antonyms": [
+        "سَهْلٌ"
+      ],
+      "synonyms": [
+        "عَسِيرٌ"
+      ],
+      "collocations": [
+        "دَرْسٌ صَعْبٌ"
+      ],
+      "examples_ar": [
+        "هَذَا الدَّرْسُ صَعْبٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ صَعْبَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo24",
+      "arabic": "طَوِيلٌ",
+      "meaning_ar": "مَا لَهُ طُولٌ كَبِيرٌ.",
+      "antonyms": [
+        "قَصِيرٌ"
+      ],
+      "synonyms": [
+        "مُمْتَدٌّ"
+      ],
+      "collocations": [
+        "طَرِيقٌ طَوِيلٌ"
+      ],
+      "examples_ar": [
+        "الطَّرِيقُ طَوِيلٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ طَوِيلَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo25",
+      "arabic": "قَصِيرٌ",
+      "meaning_ar": "مَا لَهُ طُولٌ قَلِيلٌ.",
+      "antonyms": [
+        "طَوِيلٌ"
+      ],
+      "synonyms": [],
+      "collocations": [
+        "طَرِيقٌ قَصِيرٌ"
+      ],
+      "examples_ar": [
+        "الطَّرِيقُ قَصِيرٌ."
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ قَصِيرَةٌ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo26",
+      "arabic": "ذَهَبَ",
+      "meaning_ar": "انْتَقَلَ مِنْ مَكَانٍ إِلَى مَكَانٍ آخَرَ.",
+      "antonyms": [
+        "رَجَعَ"
+      ],
+      "synonyms": [
+        "اِنْطَلَقَ"
+      ],
+      "collocations": [
+        "ذَهَبَ إِلَى الْمَدْرَسَةِ"
+      ],
+      "examples_ar": [
+        "ذَهَبْتُ إِلَى الْمَكْتَبَةِ."
+      ],
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَذْهَبُ؛ الْأَمْرُ اِذْهَبْ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo27",
+      "arabic": "رَجَعَ",
+      "meaning_ar": "عَادَ إِلَى مَكَانٍ كَانَ فِيهِ مِنْ قَبْلُ.",
+      "antonyms": [
+        "ذَهَبَ"
+      ],
+      "synonyms": [
+        "عَادَ"
+      ],
+      "collocations": [
+        "رَجَعَ إِلَى الْبَيْتِ"
+      ],
+      "examples_ar": [
+        "رَجَعَ الطَّالِبُ إِلَى الْبَيْتِ."
+      ],
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَرْجِعُ؛ الْأَمْرُ اِرْجِعْ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo28",
+      "arabic": "دَخَلَ",
+      "meaning_ar": "ذَهَبَ إِلَى دَاخِلِ مَكَانٍ.",
+      "antonyms": [
+        "خَرَجَ"
+      ],
+      "synonyms": [
+        "وَلَجَ"
+      ],
+      "collocations": [
+        "دَخَلَ الْغُرْفَةَ"
+      ],
+      "examples_ar": [
+        "دَخَلَ الْمُعَلِّمُ الْفَصْلَ."
+      ],
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَدْخُلُ؛ الْأَمْرُ اُدْخُلْ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo29",
+      "arabic": "خَرَجَ",
+      "meaning_ar": "انْتَقَلَ مِنْ دَاخِلِ مَكَانٍ إِلَى خَارِجِهِ.",
+      "antonyms": [
+        "دَخَلَ"
+      ],
+      "synonyms": [],
+      "collocations": [
+        "خَرَجَ مِنَ الْبَيْتِ"
+      ],
+      "examples_ar": [
+        "خَرَجَ الطَّالِبُ مِنَ الْفَصْلِ."
+      ],
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَخْرُجُ؛ الْأَمْرُ اُخْرُجْ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo30",
+      "arabic": "كَتَبَ",
+      "meaning_ar": "اسْتَعْمَلَ الْقَلَمَ أَوْ لَوْحَةَ الْمَفَاتِيحِ لِتَسْجِيلِ الْكَلِمَاتِ وَالْجُمَلِ.",
+      "antonyms": [],
+      "synonyms": [
+        "دَوَّنَ"
+      ],
+      "collocations": [
+        "كَتَبَ رِسَالَةً"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ جُمْلَةً جَدِيدَةً."
+      ],
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَكْتُبُ؛ الْأَمْرُ اُكْتُبْ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo31",
+      "arabic": "قَرَأَ",
+      "meaning_ar": "نَظَرَ إِلَى كَلَامٍ مَكْتُوبٍ لِيَفْهَمَهُ أَوْ يَنْطِقَ بِهِ.",
+      "antonyms": [],
+      "synonyms": [
+        "تَلَا"
+      ],
+      "collocations": [
+        "قَرَأَ الْكِتَابَ"
+      ],
+      "examples_ar": [
+        "قَرَأْتُ النَّصَّ بِصَوْتٍ عَالٍ."
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَقْرَأُ؛ الْأَمْرُ اِقْرَأْ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 43
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 43,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo32",
+      "arabic": "تَعَلَّمَ",
+      "meaning_ar": "حَصَلَ عَلَى مَعْرِفَةٍ أَوْ مَهَارَةٍ جَدِيدَةٍ.",
+      "antonyms": [],
+      "synonyms": [
+        "دَرَسَ"
+      ],
+      "collocations": [
+        "تَعَلَّمَ الْعَرَبِيَّةَ"
+      ],
+      "examples_ar": [
+        "أَتَعَلَّمُ الْعَرَبِيَّةَ."
+      ],
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَعَلَّمُ؛ الْأَمْرُ تَعَلَّمْ"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo_new0",
+      "arabic": "طَبِيبٌ",
+      "meaning_ar": "شَخْصٌ يَفْحَصُ الْمَرْضَى وَيُعَالِجُهُمْ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطِبَّاءُ؛ الْمُؤَنَّثُ طَبِيبَةٌ"
+      ],
+      "collocations": [
+        "طَبِيبُ الْأَطْفَالِ"
+      ],
+      "examples_ar": [
+        "ذَهَبَ الْمَرِيضُ إِلَى الطَّبِيبِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 19
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 19,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "demo_new1",
+      "arabic": "مِفْتَاحٌ",
+      "meaning_ar": "أَدَاةٌ نَسْتَعْمِلُهَا لِفَتْحِ الْبَابِ وَإِغْلَاقِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَفَاتِيحُ"
+      ],
+      "collocations": [
+        "مِفْتَاحُ الْبَابِ",
+        "مِفْتَاحُ السَّيَّارَةِ"
+      ],
+      "examples_ar": [
+        "أَيْنَ مِفْتَاحُ الْبَيْتِ؟"
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ أَيْضًا فِي قَوْلِنَا «مِفْتَاحُ النَّجَاحِ» لِلدَّلَالَةِ عَلَى السَّبَبِ الْمُهِمِّ.",
+      "additional_meanings_ar": [
+        "شَيْءٌ يُسَاعِدُ عَلَى الْوُصُولِ إِلَى أَمْرٍ أَوْ فَهْمِهِ."
+      ]
+    },
+    {
+      "id": "demo_new2",
+      "arabic": "مَطْبَخٌ",
+      "meaning_ar": "غُرْفَةٌ فِي الْبَيْتِ نُعِدُّ فِيهَا الطَّعَامَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَطَابِخُ"
+      ],
+      "collocations": [
+        "مَطْبَخٌ نَظِيفٌ"
+      ],
+      "examples_ar": [
+        "تُعِدُّ أُمِّي الطَّعَامَ فِي الْمَطْبَخِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "demo_new3",
+      "arabic": "جَائِعٌ",
+      "meaning_ar": "شَخْصٌ يُرِيدُ أَنْ يَأْكُلَ الطَّعَامَ لِأَنَّهُ يَشْعُرُ بِالْجُوعِ.",
+      "synonyms": [],
+      "antonyms": [
+        "شَبْعَانُ"
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ جَائِعَةٌ؛ الْجَمْعُ جِيَاعٌ"
+      ],
+      "collocations": [
+        "طِفْلٌ جَائِعٌ"
+      ],
+      "examples_ar": [
+        "أَنَا جَائِعٌ وَأُرِيدُ أَنْ آكُلَ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": []
+    },
+    {
+      "id": "level1_topic1_001",
+      "arabic": "تَحِيَّةٌ",
+      "meaning_ar": "كَلَامٌ نُرَحِّبُ بِهِ بِشَخْصٍ عِنْدَ لِقَائِهِ.",
+      "synonyms": [
+        "سَلَامٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَحِيَّاتٌ"
+      ],
+      "collocations": [
+        "تَحِيَّةُ السَّلَامِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْمُدَرِّسُ بِالتَّحِيَّةِ."
+      ],
+      "usage_note_ar": "مِنَ التَّحِيَّاتِ قَوْلُ «السَّلَامُ عَلَيْكُمْ».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 1
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 1,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_002",
+      "arabic": "تَعَارُفٌ",
+      "meaning_ar": "مَعْرِفَةُ النَّاسِ بَعْضِهِمْ بَعْضًا بَعْدَ اللِّقَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "مَصْدَرٌ لِلْفِعْلِ تَعَارَفَ"
+      ],
+      "collocations": [
+        "حِوَارُ التَّعَارُفِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ التَّعَارُفُ بَيْنَ الطُّلَّابِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 2
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 2,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_003",
+      "arabic": "اِسْمٌ",
+      "meaning_ar": "كَلِمَةٌ نُعَرِّفُ بِهَا شَخْصًا أَوْ شَيْئًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَسْمَاءٌ"
+      ],
+      "collocations": [
+        "اِسْمُ الطَّالِبِ"
+      ],
+      "examples_ar": [
+        "اِسْمِي أَحْمَدُ."
+      ],
+      "usage_note_ar": "فِي النَّحْوِ الِاسْمُ نَوْعٌ مِنْ أَنْوَاعِ الْكَلِمَةِ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 3
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 3,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_004",
+      "arabic": "حَالٌ",
+      "meaning_ar": "الْوَضْعُ الَّذِي يَكُونُ عَلَيْهِ الشَّخْصُ أَوِ الشَّيْءُ.",
+      "synonyms": [
+        "وَضْعٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحْوَالٌ"
+      ],
+      "collocations": [
+        "كَيْفَ الْحَالُ؟"
+      ],
+      "examples_ar": [
+        "سَأَلَنِي عَنْ حَالِي."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلسُّؤَالِ عَنِ الصِّحَّةِ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 4
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 4,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_005",
+      "arabic": "خَيْرٌ",
+      "meaning_ar": "مَا فِيهِ نَفْعٌ وَصَلَاحٌ.",
+      "synonyms": [
+        "نَفْعٌ"
+      ],
+      "antonyms": [
+        "شَرٌّ"
+      ],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَمَلُ الْخَيْرِ"
+      ],
+      "examples_ar": [
+        "أَنَا بِخَيْرٍ، الْحَمْدُ لِلَّهِ."
+      ],
+      "usage_note_ar": "تَأْتِي فِي جَوَابِ سُؤَالِ «كَيْفَ حَالُكَ؟».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 5
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 5,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_006",
+      "arabic": "بَلَدٌ",
+      "meaning_ar": "مَكَانٌ يَعِيشُ فِيهِ النَّاسُ وَلَهُ اسْمٌ وَحُدُودٌ.",
+      "synonyms": [
+        "وَطَنٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بِلَادٌ وَبُلْدَانٌ"
+      ],
+      "collocations": [
+        "بَلَدٌ جَمِيلٌ"
+      ],
+      "examples_ar": [
+        "مِنْ أَيِّ بَلَدٍ أَنْتَ؟"
+      ],
+      "usage_note_ar": "قَدْ تَدُلُّ عَلَى دَوْلَةٍ أَوْ مَدِينَةٍ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 6
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 6,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_007",
+      "arabic": "جِنْسِيَّةٌ",
+      "meaning_ar": "انْتِمَاءُ شَخْصٍ إِلَى دَوْلَةٍ مُعَيَّنَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جِنْسِيَّاتٌ"
+      ],
+      "collocations": [
+        "الْجِنْسِيَّةُ الْمِصْرِيَّةُ"
+      ],
+      "examples_ar": [
+        "مَا جِنْسِيَّتُكَ؟"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 7
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 7,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_010",
+      "arabic": "وَحْدَةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الْكِتَابِ يَضُمُّ دُرُوسًا عَنْ مَوْضُوعٍ وَاحِدٍ.",
+      "synonyms": [
+        "جُزْءٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَحَدَاتٌ"
+      ],
+      "collocations": [
+        "الْوَحْدَةُ الْأُولَى"
+      ],
+      "examples_ar": [
+        "دَرَسْنَا الْوَحْدَةَ الْأُولَى."
+      ],
+      "usage_note_ar": "قَدْ تَعْنِي شَيْئًا وَاحِدًا.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 10
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 10,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_016",
+      "arabic": "مُهَنْدِسٌ",
+      "meaning_ar": "شَخْصٌ دَرَسَ الْهَنْدَسَةَ وَيَخْطِّطُ لِبِنَاءِ الْأَشْيَاءِ أَوْ صُنْعِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُهَنْدِسُونَ؛ الْمُؤَنَّثُ مُهَنْدِسَةٌ"
+      ],
+      "collocations": [
+        "مُهَنْدِسُ بِنَاءٍ"
+      ],
+      "examples_ar": [
+        "أَخِي مُهَنْدِسٌ يَعْمَلُ فِي شَرِكَةٍ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 16
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 16,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_018",
+      "arabic": "صَدِيقَةٌ",
+      "meaning_ar": "بِنْتٌ أَوِ امْرَأَةٌ نُحِبُّهَا وَنَثِقُ بِهَا.",
+      "synonyms": [
+        "رَفِيقَةٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَدِيقَاتٌ"
+      ],
+      "collocations": [
+        "صَدِيقَةٌ مُخْلِصَةٌ"
+      ],
+      "examples_ar": [
+        "هَذِهِ صَدِيقَتِي."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 18
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 18,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_020",
+      "arabic": "تَدْرِيبٌ",
+      "meaning_ar": "عَمَلٌ نُكَرِّرُهُ لِنَتَعَلَّمَ شَيْئًا وَنُحَسِّنَ مَهَارَتَنَا.",
+      "synonyms": [
+        "تَمْرِينٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَدْرِيبَاتٌ"
+      ],
+      "collocations": [
+        "تَدْرِيبُ الْمُفْرَدَاتِ"
+      ],
+      "examples_ar": [
+        "أَكْمَلْتُ التَّدْرِيبَ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 20
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 20,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_022",
+      "arabic": "عَدَدٌ",
+      "meaning_ar": "مِقْدَارٌ نَعْرِفُهُ بِالْعَدِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْدَادٌ"
+      ],
+      "collocations": [
+        "عَدَدُ الطُّلَّابِ"
+      ],
+      "examples_ar": [
+        "عَدَدُ الطُّلَّابِ عِشْرُونَ."
+      ],
+      "usage_note_ar": "الْعَدَدُ لِلْكَمِّيَّةِ، وَالرَّقْمُ رَمْزٌ لِكِتَابَتِهَا.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 22
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 22,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_023",
+      "arabic": "صُورَةٌ",
+      "meaning_ar": "شَكْلٌ نَرَاهُ عَلَى وَرَقَةٍ أَوْ شَاشَةٍ وَيُشْبِهُ شَيْئًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صُوَرٌ"
+      ],
+      "collocations": [
+        "صُورَةُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "هَذِهِ صُورَةٌ جَمِيلَةٌ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 23
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 23,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_024",
+      "arabic": "جَوَابٌ",
+      "meaning_ar": "كَلَامٌ نَقُولُهُ أَوْ نَكْتُبُهُ لِلرَّدِّ عَلَى سُؤَالٍ.",
+      "synonyms": [
+        "إِجَابَةٌ"
+      ],
+      "antonyms": [
+        "سُؤَالٌ"
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَجْوِبَةٌ"
+      ],
+      "collocations": [
+        "جَوَابٌ صَحِيحٌ"
+      ],
+      "examples_ar": [
+        "كَتَبْتُ جَوَابَ السُّؤَالِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 24
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 24,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_025",
+      "arabic": "سُؤَالٌ",
+      "meaning_ar": "كَلَامٌ نَطْلُبُ بِهِ مَعْلُومَةً.",
+      "synonyms": [
+        "اسْتِفْهَامٌ"
+      ],
+      "antonyms": [
+        "جَوَابٌ"
+      ],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَسْئِلَةٌ"
+      ],
+      "collocations": [
+        "سُؤَالٌ سَهْلٌ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الطَّالِبُ سُؤَالًا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 25
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 25,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_026",
+      "arabic": "مِثَالٌ",
+      "meaning_ar": "شَيْءٌ نَذْكُرُهُ لِنُوَضِّحَ بِهِ فِكْرَةً أَوْ قَاعِدَةً.",
+      "synonyms": [
+        "نَمُوذَجٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَمْثِلَةٌ"
+      ],
+      "collocations": [
+        "مِثَالٌ وَاضِحٌ"
+      ],
+      "examples_ar": [
+        "أَعْطَانَا الْمُدَرِّسُ مِثَالًا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 26
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 26,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_027",
+      "arabic": "زَمِيلٌ",
+      "meaning_ar": "شَخْصٌ يَدْرُسُ أَوْ يَعْمَلُ مَعَكَ فِي الْمَكَانِ نَفْسِهِ.",
+      "synonyms": [
+        "رَفِيقٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ زُمَلَاءُ؛ الْمُؤَنَّثُ زَمِيلَةٌ"
+      ],
+      "collocations": [
+        "زَمِيلُ الدِّرَاسَةِ"
+      ],
+      "examples_ar": [
+        "زَمِيلِي يَجْلِسُ بِجَانِبِي."
+      ],
+      "usage_note_ar": "لَيْسَ كُلُّ زَمِيلٍ صَدِيقًا.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 27
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 27,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_028",
+      "arabic": "رَقْمٌ",
+      "meaning_ar": "رَمْزٌ نَكْتُبُ بِهِ الْعَدَدَ، مِثْلُ ١ وَ٢ وَ٣.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَرْقَامٌ"
+      ],
+      "collocations": [
+        "رَقْمُ الْهَاتِفِ"
+      ],
+      "examples_ar": [
+        "اُكْتُبْ رَقْمَ الصَّفْحَةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 28
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 28,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_029",
+      "arabic": "جُمْلَةٌ",
+      "meaning_ar": "كَلِمَاتٌ مُرَتَّبَةٌ تُعْطِي مَعْنًى مُفِيدًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جُمَلٌ"
+      ],
+      "collocations": [
+        "جُمْلَةٌ مُفِيدَةٌ"
+      ],
+      "examples_ar": [
+        "اُكْتُبْ جُمْلَةً بِهَذِهِ الْكَلِمَةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 29
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 29,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_030",
+      "arabic": "عَلَامَةٌ",
+      "meaning_ar": "شَيْءٌ نَعْرِفُ بِهِ أَمْرًا أَوْ نُمَيِّزُ بِهِ شَيْئًا.",
+      "synonyms": [
+        "إِشَارَةٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَلَامَاتٌ"
+      ],
+      "collocations": [
+        "عَلَامَةُ السُّؤَالِ"
+      ],
+      "examples_ar": [
+        "ضَعْ عَلَامَةَ السُّؤَالِ."
+      ],
+      "usage_note_ar": "قَدْ تَعْنِي دَرَجَةَ الطَّالِبِ فِي الِامْتِحَانِ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 30
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 30,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_032",
+      "arabic": "نَظَرَ",
+      "meaning_ar": "وَجَّهَ عَيْنَيْهِ نَحْوَ شَيْءٍ لِيَرَاهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَنْظُرُ؛ الْأَمْرُ اُنْظُرْ"
+      ],
+      "collocations": [
+        "نَظَرَ إِلَى الصُّورَةِ"
+      ],
+      "examples_ar": [
+        "نَظَرَ الطَّالِبُ إِلَى السَّبُّورَةِ."
+      ],
+      "usage_note_ar": "يَأْتِي مَعَ «إِلَى».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 32
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 32,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_033",
+      "arabic": "اِسْتَمَعَ",
+      "meaning_ar": "أَصْغَى إِلَى كَلَامٍ أَوْ صَوْتٍ بِانْتِبَاهٍ.",
+      "synonyms": [
+        "أَصْغَى"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَسْتَمِعُ؛ الْأَمْرُ اِسْتَمِعْ"
+      ],
+      "collocations": [
+        "اِسْتَمَعَ إِلَى الدَّرْسِ"
+      ],
+      "examples_ar": [
+        "اِسْتَمَعْتُ إِلَى الْمُدَرِّسِ."
+      ],
+      "usage_note_ar": "يَأْتِي غَالِبًا مَعَ «إِلَى».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 33
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 33,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_034",
+      "arabic": "أَعَادَ",
+      "meaning_ar": "فَعَلَ الشَّيْءَ مَرَّةً أُخْرَى.",
+      "synonyms": [
+        "كَرَّرَ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُعِيدُ؛ الْأَمْرُ أَعِدْ"
+      ],
+      "collocations": [
+        "أَعَادَ السُّؤَالَ"
+      ],
+      "examples_ar": [
+        "أَعَادَ الْمُدَرِّسُ الشَّرْحَ."
+      ],
+      "usage_note_ar": "قَدْ يَعْنِي أَيْضًا إِرْجَاعَ الشَّيْءِ إِلَى مَكَانِهِ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 34
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 34,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_035",
+      "arabic": "أَشَارَ",
+      "meaning_ar": "حَرَّكَ يَدَهُ لِيَدُلَّ عَلَى شَيْءٍ.",
+      "synonyms": [
+        "دَلَّ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُشِيرُ؛ الْأَمْرُ أَشِرْ"
+      ],
+      "collocations": [
+        "أَشَارَ إِلَى الصُّورَةِ"
+      ],
+      "examples_ar": [
+        "أَشَارَ الطَّالِبُ إِلَى الْبَابِ."
+      ],
+      "usage_note_ar": "يَأْتِي مَعَ «إِلَى».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 35
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 35,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_036",
+      "arabic": "وَضَعَ",
+      "meaning_ar": "جَعَلَ الشَّيْءَ فِي مَكَانٍ مُعَيَّنٍ.",
+      "synonyms": [
+        "جَعَلَ"
+      ],
+      "antonyms": [
+        "رَفَعَ"
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَضَعُ؛ الْأَمْرُ ضَعْ"
+      ],
+      "collocations": [
+        "وَضَعَ الْكِتَابَ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْكِتَابَ عَلَى الطَّاوِلَةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 36
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 36,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_037",
+      "arabic": "سَمِعَ",
+      "meaning_ar": "وَصَلَ الصَّوْتُ إِلَى أُذُنَيْهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَسْمَعُ؛ الْأَمْرُ اِسْمَعْ"
+      ],
+      "collocations": [
+        "سَمِعَ صَوْتًا"
+      ],
+      "examples_ar": [
+        "سَمِعْتُ صَوْتَ الْأَذَانِ."
+      ],
+      "usage_note_ar": "السَّمَاعُ قَدْ يَحْدُثُ بِلَا قَصْدٍ، وَالِاسْتِمَاعُ فِيهِ انْتِبَاهٌ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 37
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 37,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_038",
+      "arabic": "قَالَ",
+      "meaning_ar": "نَطَقَ بِكَلَامٍ لِيُخْبِرَ غَيْرَهُ بِشَيْءٍ.",
+      "synonyms": [
+        "تَكَلَّمَ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَقُولُ؛ الْأَمْرُ قُلْ"
+      ],
+      "collocations": [
+        "قَالَ الْحَقَّ"
+      ],
+      "examples_ar": [
+        "قَالَ الْمُدَرِّسُ: اِفْتَحُوا الْكِتَابَ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 38
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 38,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_039",
+      "arabic": "رَتَّبَ",
+      "meaning_ar": "جَعَلَ الْأَشْيَاءَ فِي نِظَامٍ مُعَيَّنٍ.",
+      "synonyms": [
+        "نَظَّمَ"
+      ],
+      "antonyms": [
+        "بَعْثَرَ"
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُرَتِّبُ؛ الْأَمْرُ رَتِّبْ"
+      ],
+      "collocations": [
+        "رَتَّبَ الْكَلِمَاتِ"
+      ],
+      "examples_ar": [
+        "رَتَّبْتُ الْكُتُبَ عَلَى الرَّفِّ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 39
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 39,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_040",
+      "arabic": "تَبَادَلَ",
+      "meaning_ar": "أَعْطَى كُلُّ وَاحِدٍ مِنْ شَخْصَيْنِ شَيْئًا لِلْآخَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَتَبَادَلُ؛ الْأَمْرُ تَبَادَلْ"
+      ],
+      "collocations": [
+        "تَبَادَلَ التَّحِيَّةَ"
+      ],
+      "examples_ar": [
+        "تَبَادَلَ الطَّالِبَانِ الْأَسْئِلَةَ."
+      ],
+      "usage_note_ar": "يَحْدُثُ بَيْنَ طَرَفَيْنِ أَوْ أَكْثَرَ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 40
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 40,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_041",
+      "arabic": "سَأَلَ",
+      "meaning_ar": "طَلَبَ مَعْلُومَةً مِنْ شَخْصٍ آخَرَ.",
+      "synonyms": [
+        "اِسْتَفْسَرَ"
+      ],
+      "antonyms": [
+        "أَجَابَ"
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَسْأَلُ؛ الْأَمْرُ اِسْأَلْ"
+      ],
+      "collocations": [
+        "سَأَلَ سُؤَالًا"
+      ],
+      "examples_ar": [
+        "سَأَلَتِ الطَّالِبَةُ مُدَرِّسَهَا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 41
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 41,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_042",
+      "arabic": "أَجَابَ",
+      "meaning_ar": "قَالَ كَلَامًا لِلرَّدِّ عَلَى سُؤَالٍ.",
+      "synonyms": [
+        "رَدَّ"
+      ],
+      "antonyms": [
+        "سَأَلَ"
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُجِيبُ؛ الْأَمْرُ أَجِبْ"
+      ],
+      "collocations": [
+        "أَجَابَ عَنِ السُّؤَالِ"
+      ],
+      "examples_ar": [
+        "أَجَابَ الطَّالِبُ عَنِ السُّؤَالِ."
+      ],
+      "usage_note_ar": "يَأْتِي مَعَ «عَنْ».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 42
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 42,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_044",
+      "arabic": "مَرَّ",
+      "meaning_ar": "انْتَقَلَ بِجَانِ مَكَانٍ ثُمَّ تَجَاوَزَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَمُرُّ؛ الْأَمْرُ مُرَّ"
+      ],
+      "collocations": [
+        "مَرَّ بِالْمَدْرَسَةِ"
+      ],
+      "examples_ar": [
+        "مَرَرْتُ بِالْمَكْتَبَةِ."
+      ],
+      "usage_note_ar": "يَأْتِي غَالِبًا مَعَ «بِـ».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 44
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 44,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_045",
+      "arabic": "نَسَخَ",
+      "meaning_ar": "كَتَبَ نَصًّا مِثْلَ نَصٍّ آخَرَ.",
+      "synonyms": [
+        "نَقَلَ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَنْسَخُ؛ الْأَمْرُ اِنْسَخْ"
+      ],
+      "collocations": [
+        "نَسَخَ الْجُمْلَةَ"
+      ],
+      "examples_ar": [
+        "نَسَخَ الطَّالِبُ الْجُمْلَةَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْكِتَابَةِ وَلِلْمَلَفَّاتِ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 45
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 45,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_047",
+      "arabic": "سَلَّمَ",
+      "meaning_ar": "حَيَّا شَخْصًا بِكَلَامِ السَّلَامِ.",
+      "synonyms": [
+        "حَيَّا"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُسَلِّمُ؛ الْأَمْرُ سَلِّمْ"
+      ],
+      "collocations": [
+        "سَلَّمَ عَلَى صَدِيقِهِ"
+      ],
+      "examples_ar": [
+        "سَلَّمْتُ عَلَى الْمُدَرِّسِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ أَيْضًا بِمَعْنَى إِعْطَاءِ شَيْءٍ لِشَخْصٍ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 47
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 47,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_048",
+      "arabic": "هَذَا",
+      "meaning_ar": "كَلِمَةٌ نُشِيرُ بِهَا إِلَى شَيْءٍ مُذَكَّرٍ قَرِيبٍ.",
+      "synonyms": [],
+      "antonyms": [
+        "ذَلِكَ"
+      ],
+      "grammar": [
+        "اِسْمُ إِشَارَةٍ لِلْمُفْرَدِ الْمُذَكَّرِ"
+      ],
+      "collocations": [
+        "هَذَا كِتَابٌ"
+      ],
+      "examples_ar": [
+        "هَذَا أَخِي."
+      ],
+      "usage_note_ar": "لِلْمُذَكَّرِ الْقَرِيبِ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 48
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 48,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_049",
+      "arabic": "هَذِهِ",
+      "meaning_ar": "كَلِمَةٌ نُشِيرُ بِهَا إِلَى شَيْءٍ مُؤَنَّثٍ قَرِيبٍ.",
+      "synonyms": [],
+      "antonyms": [
+        "تِلْكَ"
+      ],
+      "grammar": [
+        "اِسْمُ إِشَارَةٍ لِلْمُفْرَدِ الْمُؤَنَّثِ"
+      ],
+      "collocations": [
+        "هَذِهِ طَالِبَةٌ"
+      ],
+      "examples_ar": [
+        "هَذِهِ أُخْتِي."
+      ],
+      "usage_note_ar": "لِلْمُؤَنَّثِ الْقَرِيبِ.",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 49
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 49,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_050",
+      "arabic": "هُوَ",
+      "meaning_ar": "كَلِمَةٌ نَذْكُرُهَا بَدَلًا مِنِ اسْمِ شَخْصٍ مُذَكَّرٍ غَائِبٍ.",
+      "synonyms": [],
+      "antonyms": [
+        "هِيَ"
+      ],
+      "grammar": [
+        "ضَمِيرٌ مُنْفَصِلٌ لِلْغَائِبِ الْمُذَكَّرِ"
+      ],
+      "collocations": [
+        "هُوَ طَالِبٌ"
+      ],
+      "examples_ar": [
+        "أَحْمَدُ طَبِيبٌ وَهُوَ يَعْمَلُ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 50
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 50,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_051",
+      "arabic": "هِيَ",
+      "meaning_ar": "كَلِمَةٌ نَذْكُرُهَا بَدَلًا مِنِ اسْمِ شَخْصٍ مُؤَنَّثٍ غَائِبَةٍ.",
+      "synonyms": [],
+      "antonyms": [
+        "هُوَ"
+      ],
+      "grammar": [
+        "ضَمِيرٌ مُنْفَصِلٌ لِلْغَائِبَةِ الْمُؤَنَّثَةِ"
+      ],
+      "collocations": [
+        "هِيَ مُدَرِّسَةٌ"
+      ],
+      "examples_ar": [
+        "فَاطِمَةُ طَبِيبَةٌ وَهِيَ تَعْمَلُ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 51
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 51,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_052",
+      "arabic": "أَنْتَ",
+      "meaning_ar": "كَلِمَةٌ نُخَاطِبُ بِهَا رَجُلًا أَوْ وَلَدًا وَاحِدًا.",
+      "synonyms": [],
+      "antonyms": [
+        "أَنْتِ"
+      ],
+      "grammar": [
+        "ضَمِيرٌ مُنْفَصِلٌ لِلْمُخَاطَبِ الْمُذَكَّرِ"
+      ],
+      "collocations": [
+        "أَنْتَ طَالِبٌ"
+      ],
+      "examples_ar": [
+        "مِنْ أَيْنَ أَنْتَ؟"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 52
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 52,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_053",
+      "arabic": "مَا اسْمُكَ؟",
+      "meaning_ar": "سُؤَالٌ نَطْلُبُ بِهِ أَنْ يُخْبِرَنَا الشَّخْصُ عَنْ اسْمِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "تَرْكِيبُ اسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "مَا اسْمُكَ يَا صَدِيقِي؟"
+      ],
+      "examples_ar": [
+        "مَا اسْمُكَ؟ اِسْمِي أَحْمَدُ."
+      ],
+      "usage_note_ar": "لِلْمُؤَنَّثِ «مَا اسْمُكِ؟».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 53
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 53,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_054",
+      "arabic": "كَيْفَ حَالُكَ؟",
+      "meaning_ar": "سُؤَالٌ نَسْأَلُ بِهِ الشَّخْصَ عَنْ صِحَّتِهِ وَأَحْوَالِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "تَرْكِيبُ اسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "كَيْفَ حَالُكَ الْيَوْمَ؟"
+      ],
+      "examples_ar": [
+        "كَيْفَ حَالُكَ؟ أَنَا بِخَيْرٍ."
+      ],
+      "usage_note_ar": "لِلْمُؤَنَّثِ «كَيْفَ حَالُكِ؟».",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 54
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 54,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_055",
+      "arabic": "تُرْكِيَا",
+      "meaning_ar": "دَوْلَةٌ تَقَعُ بَيْنَ آسِيَا وَأُورُوبَّا وَعَاصِمَتُهَا أَنْقَرَةُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ دَوْلَةٍ"
+      ],
+      "collocations": [
+        "دَوْلَةُ تُرْكِيَا"
+      ],
+      "examples_ar": [
+        "صَدِيقِي مِنْ تُرْكِيَا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 55
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 55,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_056",
+      "arabic": "مِصْرُ",
+      "meaning_ar": "دَوْلَةٌ عَرَبِيَّةٌ فِي شَمَالِ شَرْقِ أَفْرِيقِيَا وَعَاصِمَتُهَا الْقَاهِرَةُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ دَوْلَةٍ"
+      ],
+      "collocations": [
+        "جُمْهُورِيَّةُ مِصْرَ"
+      ],
+      "examples_ar": [
+        "أَنَا مِنْ مِصْرَ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 56
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 56,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_057",
+      "arabic": "سُورِيَا",
+      "meaning_ar": "دَوْلَةٌ عَرَبِيَّةٌ فِي غَرْبِ آسِيَا وَعَاصِمَتُهَا دِمَشْقُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ دَوْلَةٍ"
+      ],
+      "collocations": [
+        "دَوْلَةُ سُورِيَا"
+      ],
+      "examples_ar": [
+        "صَدِيقِي مِنْ سُورِيَا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 57
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 57,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "level1_topic1_058",
+      "arabic": "بَاكِسْتَانُ",
+      "meaning_ar": "دَوْلَةٌ فِي جَنُوبِ آسِيَا وَعَاصِمَتُهَا إِسْلَامُ آبَادَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ دَوْلَةٍ"
+      ],
+      "collocations": [
+        "دَوْلَةُ بَاكِسْتَانَ"
+      ],
+      "examples_ar": [
+        "الطَّالِبُ مِنْ بَاكِسْتَانَ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "sources": [],
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 58
+      },
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 58,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+    },
+    {
+      "id": "ch1_46",
+      "arabic": "تَعَارَفَ",
+      "meaning_ar": "عَرَفَ كُلُّ وَاحِدٍ مِنْ شَخْصَيْنِ الْآخَرَ بَعْدَ اللِّقَاءِ.",
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَتَعَارَفُ؛ الْأَمْرُ تَعَارَفْ"
+      ],
+      "collocations": [
+        "تَعَارَفَ الطُّلَّابُ"
+      ],
+      "examples_ar": [
+        "تَعَارَفَ الْأَصْدِقَاءُ فِي الْمَدْرَسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 46,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 46
+      }
+    },
+    {
+      "id": "ch1_59",
+      "arabic": "تُرْكِيٌّ",
+      "meaning_ar": "شَخْصٌ مِنْ تُرْكِيَا أَوْ شَيْءٌ يَتَعَلَّقُ بِهَا.",
+      "grammar": [
+        "صِفَةُ نِسْبَةٍ؛ الْمُؤَنَّثُ تُرْكِيَّةٌ"
+      ],
+      "collocations": [
+        "طَالِبٌ تُرْكِيٌّ"
+      ],
+      "examples_ar": [
+        "هَذَا زَمِيلِي وَهُوَ تُرْكِيٌّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 59,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 59
+      }
+    },
+    {
+      "id": "ch1_60",
+      "arabic": "مِصْرِيٌّ",
+      "meaning_ar": "شَخْصٌ مِنْ مِصْرَ أَوْ شَيْءٌ يَتَعَلَّقُ بِهَا.",
+      "grammar": [
+        "صِفَةُ نِسْبَةٍ؛ الْمُؤَنَّثُ مِصْرِيَّةٌ"
+      ],
+      "collocations": [
+        "طَبِيبٌ مِصْرِيٌّ"
+      ],
+      "examples_ar": [
+        "الْمُدَرِّسُ مِصْرِيٌّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 60,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 60
+      }
+    },
+    {
+      "id": "ch1_61",
+      "arabic": "سُورِيٌّ",
+      "meaning_ar": "شَخْصٌ مِنْ سُورِيَا أَوْ شَيْءٌ يَتَعَلَّقُ بِهَا.",
+      "grammar": [
+        "صِفَةُ نِسْبَةٍ؛ الْمُؤَنَّثُ سُورِيَّةٌ"
+      ],
+      "collocations": [
+        "صَدِيقٌ سُورِيٌّ"
+      ],
+      "examples_ar": [
+        "زَمِيلِي سُورِيٌّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 61,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 61
+      }
+    },
+    {
+      "id": "ch1_62",
+      "arabic": "بَاكِسْتَانِيٌّ",
+      "meaning_ar": "شَخْصٌ مِنْ بَاكِسْتَانَ أَوْ شَيْءٌ يَتَعَلَّقُ بِهَا.",
+      "grammar": [
+        "صِفَةُ نِسْبَةٍ؛ الْمُؤَنَّثُ بَاكِسْتَانِيَّةٌ"
+      ],
+      "collocations": [
+        "طَالِبٌ بَاكِسْتَانِيٌّ"
+      ],
+      "examples_ar": [
+        "هَذَا الطَّالِبُ بَاكِسْتَانِيٌّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter1_secondary",
+      "source_chapter_number": 1,
+      "source_chapter_order": 62,
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_reference": {
+        "book": 1,
+        "chapter": 1,
+        "index": 62
+      }
+    }
+  ],
+  "corpus_progress": {
+    "level1_first_chapter_indexed": 62,
+    "level1_first_chapter_unverified_official_glossary": true,
+    "level1_first_chapter_last_updated": "2026-10-24",
+    "target_series_levels": 4,
+    "target_series_books": 8
+  },
+  "source_notes": {
+    "verified_official_count": 3325,
+    "chapter1_items": 62,
+    "chapter1_source": "https://arabvocab.com/book/1/chapter/1/intro",
+    "primary_book_glossary_not_yet_collated": true,
+    "chapter1_source_status": "Independent practice vocabulary, not directly verified against the official printed glossary",
+    "counts_already_may_differ_from_official_due_to_lemmas_and_inflections": true
+  }
+}
