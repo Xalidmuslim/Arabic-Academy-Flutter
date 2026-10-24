@@ -102,7 +102,7 @@ class NeumorphicSurface extends StatelessWidget {
             top: -shadowMargin,
             bottom: -shadowMargin,
             child: Image.asset(
-              'assets/artwork/shadow_cache/card__${name}_${tone}.png',
+              'assets/artwork/shadow_cache/card__${name}_$tone.png',
               key: const ValueKey('cached-card-shadow'),
               fit: BoxFit.fill,
               centerSlice: Rect.fromLTWH(
