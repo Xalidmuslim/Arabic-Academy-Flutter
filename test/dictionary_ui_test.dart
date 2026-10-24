@@ -35,7 +35,7 @@ void main() {
     expect(offsetBefore, greaterThan(0));
     await tester.tap(find.byType(WordTile).first);
     await tester.pumpAndSettle();
-    expect(find.text('1. Значения слова'), findsOneWidget);
+    expect(find.text('Значения слова'), findsOneWidget);
     await tester.pageBack();
     await tester.pumpAndSettle();
     final controllerAfter = tester.widget<CustomScrollView>(scrollingList)
@@ -48,7 +48,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.binding.handlePopRoute();
     await tester.pumpAndSettle();
-    expect(find.text('Арабско-арабский словарь'), findsOneWidget);
+    expect(find.text('АРАБО-АРАБСКИЙ СЛОВАРЬ'), findsOneWidget);
   });
 
   testWidgets('Reading settings are persisted', (tester) async {
