@@ -14521,6 +14521,15 @@
           "index": 32,
           "official_end_glossary_checked": false,
           "order_note": "curated text, weather terms and independent unit glossary"
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
         }
       ],
       "sources": []
@@ -15650,6 +15659,15 @@
           "index": 21,
           "official_end_glossary_checked": false,
           "order_note": "curated location and people glossary"
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
         }
       ],
       "sources": []
@@ -18130,6 +18148,15 @@
           "index": 1,
           "official_end_glossary_checked": false,
           "order_note": "curated pilgrimage vocabulary list"
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
         }
       ],
       "sources": []
@@ -20573,6 +20600,726 @@
         }
       ],
       "sources": []
+    },
+    {
+      "id": "l1u16_001",
+      "arabic": "عِيدٌ",
+      "meaning_ar": "يَوْمٌ يَفْرَحُ فِيهِ النَّاسُ بِمُنَاسَبَةٍ مَعْرُوفَةٍ وَيَجْتَمِعُونَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْيَادٌ"
+      ],
+      "collocations": [
+        "عِيدُ الْفِطْرِ"
+      ],
+      "examples_ar": [
+        "نَزُورُ الْأَقَارِبَ فِي الْعِيدِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_002",
+      "arabic": "فَقِيرٌ",
+      "meaning_ar": "شَخْصٌ لَا يَمْلِكُ مَا يَكْفِيهِ لِحَاجَاتِهِ الْأَسَاسِيَّةِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْجَمْعُ فُقَرَاءُ"
+      ],
+      "collocations": [
+        "مُسَاعَدَةُ الْفَقِيرِ"
+      ],
+      "examples_ar": [
+        "نُسَاعِدُ الْفُقَرَاءَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_003",
+      "arabic": "صَاعٌ",
+      "meaning_ar": "مِكْيَالٌ شَرْعِيٌّ قَدِيمٌ يُقَاسُ بِهِ مِقْدَارٌ مِنَ الطَّعَامِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَصْوَاعٌ"
+      ],
+      "collocations": [
+        "صَاعٌ مِنَ التَّمْرِ"
+      ],
+      "examples_ar": [
+        "أَخْرَجَ الرَّجُلُ صَاعًا مِنَ الطَّعَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_004",
+      "arabic": "شَخْصٌ",
+      "meaning_ar": "إِنْسَانٌ وَاحِدٌ نَتَحَدَّثُ عَنْهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْخَاصٌ"
+      ],
+      "collocations": [
+        "شَخْصٌ طَيِّبٌ"
+      ],
+      "examples_ar": [
+        "هَذَا شَخْصٌ جَيِّدٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_005",
+      "arabic": "عَاصِمَةٌ",
+      "meaning_ar": "الْمَدِينَةُ الَّتِي تَكُونُ مَرْكَزًا لِحُكُومَةِ الدَّوْلَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَوَاصِمُ"
+      ],
+      "collocations": [
+        "عَاصِمَةُ الْبَلَدِ"
+      ],
+      "examples_ar": [
+        "زُرْنَا الْعَاصِمَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_006",
+      "arabic": "مَتْحَفٌ",
+      "meaning_ar": "مَكَانٌ تُعْرَضُ فِيهِ أَشْيَاءُ قَدِيمَةٌ أَوْ فَنِّيَّةٌ لِيَرَاهَا النَّاسُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَتَاحِفُ"
+      ],
+      "collocations": [
+        "مَتْحَفٌ وَطَنِيٌّ"
+      ],
+      "examples_ar": [
+        "ذَهَبْنَا إِلَى الْمَتْحَفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_007",
+      "arabic": "جَبَلٌ",
+      "meaning_ar": "أَرْضٌ مُرْتَفِعَةٌ كَثِيرًا عَمَّا حَوْلَهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جِبَالٌ"
+      ],
+      "collocations": [
+        "جَبَلٌ عَالٍ"
+      ],
+      "examples_ar": [
+        "تَسَلَّقْنَا الْجَبَلَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_008",
+      "arabic": "فَرِيقٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ النَّاسِ يَعْمَلُونَ أَوْ يَلْعَبُونَ مَعًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فِرَقٌ"
+      ],
+      "collocations": [
+        "فَرِيقُ الرِّحْلَةِ"
+      ],
+      "examples_ar": [
+        "نَحْنُ فَرِيقٌ وَاحِدٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_009",
+      "arabic": "جَوَّالٌ",
+      "meaning_ar": "شَخْصٌ يُحِبُّ الرِّحْلَاتِ وَالتَّنَقُّلَ وَالْكَشْفَ عَنْ الْأَمَاكِنِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَوَّالَةٌ"
+      ],
+      "collocations": [
+        "فَرِيقُ الْجَوَّالَةِ"
+      ],
+      "examples_ar": [
+        "ذَهَبَ الْجَوَّالَةُ إِلَى الْجِبَالِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_010",
+      "arabic": "مَزْرَعَةٌ",
+      "meaning_ar": "مَكَانٌ تُزْرَعُ فِيهِ النَّبَاتَاتُ وَقَدْ تُرَبَّى فِيهِ الْحَيَوَانَاتُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَزَارِعُ"
+      ],
+      "collocations": [
+        "مَزْرَعَةُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "أُسَاعِدُ وَالِدِي فِي الْمَزْرَعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_011",
+      "arabic": "أُضْحِيَّةٌ",
+      "meaning_ar": "حَيَوَانٌ يُذْبَحُ لِلَّهِ فِي أَيَّامِ عِيدِ الْأَضْحَى بِشُرُوطٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَضَاحٍ"
+      ],
+      "collocations": [
+        "ذَبْحُ الْأُضْحِيَّةِ"
+      ],
+      "examples_ar": [
+        "تُوَزَّعُ لُحُومُ الْأُضْحِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_012",
+      "arabic": "أَضْحَى",
+      "meaning_ar": "عِيدٌ لِلْمُسْلِمِينَ يَأْتِي فِي شَهْرِ ذِي الْحِجَّةِ.",
+      "grammar": [
+        "اِسْمٌ فِي تَرْكِيبِ عِيدِ الْأَضْحَى"
+      ],
+      "collocations": [
+        "عِيدُ الْأَضْحَى"
+      ],
+      "examples_ar": [
+        "نُصَلِّي صَلَاةَ عِيدِ الْأَضْحَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_013",
+      "arabic": "أَسْلَمَ",
+      "meaning_ar": "دَخَلَ فِي دِينِ الْإِسْلَامِ وَأَقَرَّ بِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُسْلِمُ"
+      ],
+      "collocations": [
+        "أَسْلَمَ الرَّجُلُ"
+      ],
+      "examples_ar": [
+        "أَسْلَمَ الرَّجُلُ وَتَعَلَّمَ الصَّلَاةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_014",
+      "arabic": "أَفْطَرَ",
+      "meaning_ar": "أَنْهَى صِيَامَهُ بِتَنَاوُلِ الطَّعَامِ أَوِ الشَّرَابِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُفْطِرُ"
+      ],
+      "collocations": [
+        "أَفْطَرَ عِنْدَ الْمَغْرِبِ"
+      ],
+      "examples_ar": [
+        "أَفْطَرْنَا عِنْدَ الْمَغْرِبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_015",
+      "arabic": "زَكَّى",
+      "meaning_ar": "أَخْرَجَ الزَّكَاةَ أَوْ طَهَّرَ الشَّيْءَ وَأَصْلَحَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُزَكِّي"
+      ],
+      "collocations": [
+        "زَكَّى مَالَهُ"
+      ],
+      "examples_ar": [
+        "زَكَّى الرَّجُلُ مَالَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_016",
+      "arabic": "اِقْتَرَبَ",
+      "meaning_ar": "صَارَ قَرِيبًا مِنْ شَيْءٍ فِي الْمَكَانِ أَوِ الزَّمَانِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَقْتَرِبُ"
+      ],
+      "collocations": [
+        "اِقْتَرَبَ الْعِيدُ"
+      ],
+      "examples_ar": [
+        "اِقْتَرَبَتِ الْعُطْلَةُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_017",
+      "arabic": "جَالَ",
+      "meaning_ar": "اِنْتَقَلَ فِي مَكَانٍ وَزَارَ أَجْزَاءَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَجُولُ"
+      ],
+      "collocations": [
+        "جَالَ فِي الْمَدِينَةِ"
+      ],
+      "examples_ar": [
+        "جُلْنَا فِي الْمَتْحَفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u16_019",
+      "arabic": "عَطَّلَ",
+      "meaning_ar": "أَوْقَفَ عَمَلَ شَيْءٍ أَوْ مَنَحَ وَقْتًا لِلرَّاحَةِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُعَطِّلُ"
+      ],
+      "collocations": [
+        "عَطَّلَ الدِّرَاسَةَ"
+      ],
+      "examples_ar": [
+        "عَطَّلَتِ الْمَدْرَسَةُ الدِّرَاسَةَ يَوْمًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter16_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6867/",
+        "book": 1,
+        "chapter": 16,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "order_note": "curated holiday and summer vacation glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6867/",
+          "book": 1,
+          "chapter": 16,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "order_note": "curated holiday and summer vacation glossary"
+        }
+      ],
+      "sources": []
     }
   ],
   "corpus_progress": {
@@ -20613,7 +21360,9 @@
     "level1_fourteenth_chapter_indexed": 24,
     "level1_fourteenth_chapter_official_glossary_checked": false,
     "level1_fifteenth_chapter_indexed": 38,
-    "level1_fifteenth_chapter_official_glossary_checked": false
+    "level1_fifteenth_chapter_official_glossary_checked": false,
+    "level1_sixteenth_chapter_indexed": 21,
+    "level1_sixteenth_chapter_official_glossary_checked": false
   },
   "source_notes": {
     "verified_official_count": 3325,
