@@ -1,0 +1,16 @@
+name: Dictionary content validation only
+on:
+  push:
+    branches: ["codex/bayna-dictionary-demo-apk-20261024"]
+    paths:
+      - "assets/data/entries.json"
+      - "tools/validate_dictionary.py"
+      - ".github/workflows/dictionary-content-check.yml"
+  workflow_dispatch:
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Arabic dictionary without Flutter or Android
+        run: python3 tools/validate_dictionary.py
