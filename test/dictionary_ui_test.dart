@@ -71,7 +71,8 @@ void main() {
         const [], bookNumber: 1, chapterNumber: 2, chapterOrder: 1);
     await tester.pumpWidget(DictionaryApp(previewWords: [first, second]));
     await tester.pumpAndSettle();
-    expect(find.byType(WordTile), findsNWidgets(2));
+    expect(find.text('2 слов'), findsOneWidget);
+    await tester.ensureVisible(find.text('Книга 1 · Тема 2').first);
     await tester.tap(find.text('Книга 1 · Тема 2').first);
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
