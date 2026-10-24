@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "files": [
+    "assets/data/entries.json"
+  ],
+  "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
+}
