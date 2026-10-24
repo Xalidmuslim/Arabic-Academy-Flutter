@@ -54,7 +54,12 @@ void main() {
     await tester.pump();
     expect(decoration().boxShadow, hasLength(2));
     expect(find.byType(ImageFiltered), findsNothing,
-        reason: 'second comparison isolates only the silhouette filter');
+        reason: 'second comparison removes the complete artwork shadow');
+    expect(find.descendant(
+      of: find.byType(FittedStudyArtwork),
+      matching: find.byType(Image),
+    ), findsOneWidget,
+        reason: 'artwork OFF keeps the subject without a tinted duplicate');
 
     PerformanceProbe.setShadowMode(ShadowComparisonMode.none);
     await tester.pump();
