@@ -183,7 +183,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 const SizedBox(height: 12),
-                Text('Найдено слов: ' + shown.length.toString(),
+                Text('Найдено слов: ${shown.length}',
                   style: const TextStyle(fontWeight: FontWeight.w600)),
                 const SizedBox(height: 5),
                 const Text('Демонстрационная версия: 33 статьи',
