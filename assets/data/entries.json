@@ -16828,6 +16828,16 @@
           "index": 20,
           "official_end_glossary_checked": false,
           "order_note": "curated hobby lexicon"
+        },
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
         }
       ],
       "sources": []
@@ -21320,6 +21330,3450 @@
         }
       ],
       "sources": []
+    },
+    {
+      "id": "l2u01_001",
+      "arabic": "عِنَايَةٌ",
+      "meaning_ar": "اِهْتِمَامٌ بِالشَّخْصِ أَوِ الشَّيْءِ وَالْعَمَلُ عَلَى حِفْظِهِ وَحِمَايَتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عِنَايَاتٌ"
+      ],
+      "collocations": [
+        "الْعِنَايَةُ بِالصِّحَّةِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الصِّحَّةُ إِلَى عِنَايَةٍ مُسْتَمِرَّةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_002",
+      "arabic": "صِحَّةٌ",
+      "meaning_ar": "حَالَةٌ يَكُونُ فِيهَا الْجِسْمُ وَالْعَقْلُ بِخَيْرٍ وَدُونَ مَرَضٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صِحَّةٌ جَيِّدَةٌ"
+      ],
+      "examples_ar": [
+        "الطَّعَامُ الْمُفِيدُ يُسَاعِدُ عَلَى حِفْظِ الصِّحَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_003",
+      "arabic": "شِفَاءٌ",
+      "meaning_ar": "زَوَالُ الْمَرَضِ وَرُجُوعُ الْإِنْسَانِ إِلَى صِحَّتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُرْعَةُ الشِّفَاءِ"
+      ],
+      "examples_ar": [
+        "نَسْأَلُ اللَّهَ الشِّفَاءَ لِلْمَرِيضِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_004",
+      "arabic": "رِعَايَةٌ",
+      "meaning_ar": "مُسَاعَدَةُ شَخْصٍ وَتَوْفِيرُ مَا يَحْتَاجُ إِلَيْهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رِعَايَةٌ طِبِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْمَرِيضُ إِلَى رِعَايَةٍ طِبِّيَّةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_005",
+      "arabic": "مَعِدَةٌ",
+      "meaning_ar": "عُضْوٌ فِي الْبَطْنِ يَسْتَقْبِلُ الطَّعَامَ وَيُسَاعِدُ عَلَى هَضْمِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَعِدَاتٌ"
+      ],
+      "collocations": [
+        "أَلَمُ الْمَعِدَةِ"
+      ],
+      "examples_ar": [
+        "شَعَرَ الرَّجُلُ بِأَلَمٍ فِي مَعِدَتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_006",
+      "arabic": "مَرَضٌ",
+      "meaning_ar": "تَغَيُّرٌ غَيْرُ طَبِيعِيٍّ يُؤَثِّرُ فِي صِحَّةِ الْإِنْسَانِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَمْرَاضٌ"
+      ],
+      "collocations": [
+        "مَرَضٌ مُعْدٍ"
+      ],
+      "examples_ar": [
+        "قَدْ يَحْتَاجُ الْمَرَضُ إِلَى عِلَاجٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_008",
+      "arabic": "عِلَاجٌ",
+      "meaning_ar": "وَسِيلَةٌ أَوْ عَمَلٌ يُسْتَعْمَلُ لِتَخْفِيفِ الْمَرَضِ أَوْ إِزَالَتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عِلَاجَاتٌ"
+      ],
+      "collocations": [
+        "خُطَّةُ الْعِلَاجِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّبِيبُ الْعِلَاجَ الْمُنَاسِبَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_009",
+      "arabic": "تَشْخِيصٌ",
+      "meaning_ar": "تَحْدِيدُ نَوْعِ الْمَرَضِ بِالْفَحْصِ وَمَعْرِفَةِ أَعْرَاضِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَشْخِيصُ الْمَرَضِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ التَّشْخِيصُ إِلَى فَحْصٍ دَقِيقٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_010",
+      "arabic": "إِصَابَةٌ",
+      "meaning_ar": "ضَرَرٌ يَلْحَقُ بِالْجِسْمِ بِسَبَبِ حَادِثٍ أَوْ مَرَضٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِصَابَاتٌ"
+      ],
+      "collocations": [
+        "إِصَابَةٌ خَفِيفَةٌ"
+      ],
+      "examples_ar": [
+        "تَعَرَّضَ اللَّاعِبُ لِإِصَابَةٍ فِي قَدَمِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_011",
+      "arabic": "شَكْوَى",
+      "meaning_ar": "كَلامٌ يُخْبِرُ فِيهِ الشَّخْصُ عَنْ أَلَمٍ أَوْ مُشْكِلَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَكَاوَى"
+      ],
+      "collocations": [
+        "شَكْوَى الْمَرِيضِ"
+      ],
+      "examples_ar": [
+        "اِسْتَمَعَ الطَّبِيبُ إِلَى شَكْوَى الْمَرِيضِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_012",
+      "arabic": "عِيَادَةٌ",
+      "meaning_ar": "مَكَانٌ يَفْحَصُ فِيهِ الطَّبِيبُ الْمَرْضَى وَيُعَالِجُهُمْ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عِيَادَاتٌ"
+      ],
+      "collocations": [
+        "عِيَادَةُ الْأَسْنَانِ"
+      ],
+      "examples_ar": [
+        "ذَهَبْتُ إِلَى عِيَادَةِ الطَّبِيبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_013",
+      "arabic": "مُسْتَوْصَفٌ",
+      "meaning_ar": "مَرْكَزٌ صِحِّيٌّ تُقَدَّمُ فِيهِ خَدَمَاتٌ طِبِّيَّةٌ أَسَاسِيَّةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسْتَوْصَفَاتٌ"
+      ],
+      "collocations": [
+        "الْمُسْتَوْصَفُ الْقَرِيبُ"
+      ],
+      "examples_ar": [
+        "فَتَحَ الْمُسْتَوْصَفُ أَبْوَابَهُ صَبَاحًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_014",
+      "arabic": "قُرْصٌ",
+      "meaning_ar": "قِطْعَةٌ صَغِيرَةٌ صُلْبَةٌ مِنَ الدَّوَاءِ يَتَنَاوَلُهَا الْمَرِيضُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَقْرَاصٌ"
+      ],
+      "collocations": [
+        "قُرْصُ دَوَاءٍ"
+      ],
+      "examples_ar": [
+        "أَخَذَ الْمَرِيضُ قُرْصًا بِإِرْشَادِ الطَّبِيبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_015",
+      "arabic": "جُرْعَةٌ",
+      "meaning_ar": "مِقْدَارٌ مُحَدَّدٌ مِنَ الدَّوَاءِ يُؤْخَذُ فِي مَرَّةٍ وَاحِدَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جُرَعٌ"
+      ],
+      "collocations": [
+        "جُرْعَةُ الدَّوَاءِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّبِيبُ جُرْعَةَ الدَّوَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_016",
+      "arabic": "وَصْفَةٌ",
+      "meaning_ar": "تَعْلِيمَاتٌ يَكْتُبُهَا الطَّبِيبُ لِلْمَرِيضِ عَنِ الدَّوَاءِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَصَفَاتٌ"
+      ],
+      "collocations": [
+        "وَصْفَةٌ طِبِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَرِيضُ الْوَصْفَةَ إِلَى الصَّيْدَلِيِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_017",
+      "arabic": "تَحْلِيلٌ",
+      "meaning_ar": "فَحْصٌ لِعَيِّنَةٍ مِنَ الدَّمِ أَوْ غَيْرِهِ لِمَعْرِفَةِ مَا فِيهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَحَالِيلُ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الدَّمِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتْ نَتِيجَةُ التَّحْلِيلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_018",
+      "arabic": "فَحْصٌ",
+      "meaning_ar": "نَظَرٌ دَقِيقٌ فِي الشَّيْءِ لِمَعْرِفَةِ حَالَتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فُحُوصٌ"
+      ],
+      "collocations": [
+        "فَحْصٌ طِبِّيٌّ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الطَّبِيبُ فَحْصًا لِلْمَرِيضِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_019",
+      "arabic": "مِقْيَاسٌ",
+      "meaning_ar": "أَدَاةٌ نَسْتَعْمِلُهَا لِمَعْرِفَةِ مِقْدَارِ شَيْءٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَايِيسُ"
+      ],
+      "collocations": [
+        "مِقْيَاسُ الْحَرَارَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْمُمَرِّضَةُ مِقْيَاسَ الْحَرَارَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_020",
+      "arabic": "مَنَاعَةٌ",
+      "meaning_ar": "قُدْرَةُ الْجِسْمِ عَلَى مُقَاوَمَةِ الْمِيكْرُوبَاتِ وَالْأَمْرَاضِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قُوَّةُ الْمَنَاعَةِ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ التَّغْذِيَةُ الْجَيِّدَةُ عَلَى صِحَّةِ الْجِسْمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_021",
+      "arabic": "وِقَايَةٌ",
+      "meaning_ar": "حِمَايَةُ الْإِنْسَانِ مِنَ الْمَرَضِ أَوِ الْخَطَرِ قَبْلَ وُقُوعِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْوِقَايَةُ مِنَ الْمَرَضِ"
+      ],
+      "examples_ar": [
+        "غَسْلُ الْيَدَيْنِ وَسِيلَةٌ مِنْ وَسَائِلِ الْوِقَايَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_022",
+      "arabic": "عَدْوَى",
+      "meaning_ar": "اِنْتِقَالُ مَرَضٍ مِنْ شَخْصٍ أَوْ مَصْدَرٍ إِلَى غَيْرِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اِنْتِقَالُ الْعَدْوَى"
+      ],
+      "examples_ar": [
+        "تَنْتَقِلُ بَعْضُ الْأَمْرَاضِ بِالْعَدْوَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_023",
+      "arabic": "جُرْثُومَةٌ",
+      "meaning_ar": "كَائِنٌ صَغِيرٌ جِدًّا لَا يُرَى بِالْعَيْنِ الْمُجَرَّدَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَرَاثِيمُ"
+      ],
+      "collocations": [
+        "جُرْثُومَةٌ ضَارَّةٌ"
+      ],
+      "examples_ar": [
+        "تَنْتَقِلُ بَعْضُ الْجَرَاثِيمِ عَبْرَ الْيَدَيْنِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_024",
+      "arabic": "فَيْرُوسٌ",
+      "meaning_ar": "جِسْمٌ دَقِيقٌ يَتَكَاثَرُ دَاخِلَ خَلَايَا الْكَائِنَاتِ الْحَيَّةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَيْرُوسَاتٌ"
+      ],
+      "collocations": [
+        "فَيْرُوسٌ مُعْدٍ"
+      ],
+      "examples_ar": [
+        "قَدْ يُسَبِّبُ الْفَيْرُوسُ مَرَضًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_025",
+      "arabic": "تَغْذِيَةٌ",
+      "meaning_ar": "تَنَاوُلُ الطَّعَامِ الَّذِي يَحْتَاجُ إِلَيْهِ الْجِسْمُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَغْذِيَةٌ سَلِيمَةٌ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ التَّغْذِيَةُ السَّلِيمَةُ عَلَى النُّمُوِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_026",
+      "arabic": "نَظَافَةٌ",
+      "meaning_ar": "خُلُوُّ الْجِسْمِ أَوِ الْمَكَانِ مِنَ الْأَوْسَاخِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَظَافَةُ الْجِسْمِ"
+      ],
+      "examples_ar": [
+        "نُحَافِظُ عَلَى نَظَافَةِ الْمَنْزِلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_027",
+      "arabic": "خُضْرَوَاتٌ",
+      "meaning_ar": "نَبَاتَاتٌ نَأْكُلُ أَوْرَاقَهَا أَوْ جُذُورَهَا أَوْ ثِمَارَهَا.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ"
+      ],
+      "collocations": [
+        "خُضْرَوَاتٌ طَازَجَةٌ"
+      ],
+      "examples_ar": [
+        "نَأْكُلُ الْخُضْرَوَاتِ مَعَ الطَّعَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_028",
+      "arabic": "بُرُوتِينٌ",
+      "meaning_ar": "مَادَّةٌ غِذَائِيَّةٌ يَحْتَاجُ إِلَيْهَا الْجِسْمُ لِبِنَاءِ أَنْسِجَتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَصَادِرُ الْبُرُوتِينِ"
+      ],
+      "examples_ar": [
+        "يَحْتَوِي الْبَيْضُ عَلَى الْبُرُوتِينِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_029",
+      "arabic": "دُهُونٌ",
+      "meaning_ar": "مَوَادُّ غِذَائِيَّةٌ تَمْنَحُ الْجِسْمَ طَاقَةً وَتَدْخُلُ فِي بِنَاءِ خَلَايَاهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْمُفْرَدُ دُهْنٌ"
+      ],
+      "collocations": [
+        "دُهُونٌ غِذَائِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تُوجَدُ الدُّهُونُ فِي بَعْضِ الْأَطْعِمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_030",
+      "arabic": "سُعَالٌ",
+      "meaning_ar": "خُرُوجُ الْهَوَاءِ مِنَ الصَّدْرِ بِقُوَّةٍ وَصَوْتٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُعَالٌ شَدِيدٌ"
+      ],
+      "examples_ar": [
+        "عِنْدَ الطِّفْلِ سُعَالٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_031",
+      "arabic": "حُمَّى",
+      "meaning_ar": "اِرْتِفَاعُ دَرَجَةِ حَرَارَةِ الْجِسْمِ فَوْقَ الْمُعْتَادِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حُمَّى شَدِيدَةٌ"
+      ],
+      "examples_ar": [
+        "شَعَرَ الْمَرِيضُ بِالْحُمَّى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_032",
+      "arabic": "دَوْخَةٌ",
+      "meaning_ar": "شُعُورٌ بِعَدَمِ التَّوَازُنِ أَوْ بِأَنَّ الْأَشْيَاءَ تَدُورُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دَوْخَةٌ مُفَاجِئَةٌ"
+      ],
+      "examples_ar": [
+        "شَعَرَ الرَّجُلُ بِدَوْخَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_033",
+      "arabic": "إِسْعَافٌ",
+      "meaning_ar": "مُسَاعَدَةٌ سَرِيعَةٌ تُقَدَّمُ لِلْمُصَابِ أَوِ الْمَرِيضِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِسْعَافَاتٌ"
+      ],
+      "collocations": [
+        "الْإِسْعَافُ الْأَوَّلِيُّ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُمَرِّضُ إِسْعَافًا أَوَّلِيًّا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_034",
+      "arabic": "طَوَارِئُ",
+      "meaning_ar": "حَوَادِثُ مُفَاجِئَةٌ تَحْتَاجُ إِلَى مُسَاعَدَةٍ سَرِيعَةٍ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ"
+      ],
+      "collocations": [
+        "قِسْمُ الطَّوَارِئِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْمُصَابُ إِلَى قِسْمِ الطَّوَارِئِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_035",
+      "arabic": "عَالَجَ",
+      "meaning_ar": "قَدَّمَ عِلَاجًا لِلْمَرِيضِ لِيُسَاعِدَهُ عَلَى التَّعَافِي.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُعَالِجُ"
+      ],
+      "collocations": [
+        "عَالَجَ الْمَرِيضَ"
+      ],
+      "examples_ar": [
+        "عَالَجَ الطَّبِيبُ الطِّفْلَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_036",
+      "arabic": "دَاوَى",
+      "meaning_ar": "اسْتَعْمَلَ دَوَاءً أَوْ وَسِيلَةً لِعِلَاجِ الْمَرَضِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُدَاوِي"
+      ],
+      "collocations": [
+        "دَاوَى الْجُرْحَ"
+      ],
+      "examples_ar": [
+        "دَاوَى الطَّبِيبُ الْجُرْحَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_037",
+      "arabic": "شَكَا",
+      "meaning_ar": "أَخْبَرَ شَخْصًا بِمَا يُؤْلِمُهُ أَوْ يُزْعِجُهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَشْكُو"
+      ],
+      "collocations": [
+        "شَكَا مِنَ الْأَلَمِ"
+      ],
+      "examples_ar": [
+        "شَكَا الْمَرِيضُ مِنْ أَلَمٍ فِي رَأْسِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 37,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 37,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_038",
+      "arabic": "اِشْتَكَى",
+      "meaning_ar": "تَحَدَّثَ عَنْ أَلَمٍ أَوْ مُشْكِلَةٍ يُعَانِي مِنْهَا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَشْتَكِي"
+      ],
+      "collocations": [
+        "اِشْتَكَى مِنَ الْحُمَّى"
+      ],
+      "examples_ar": [
+        "اِشْتَكَى الطِّفْلُ مِنْ أَلَمٍ فِي بَطْنِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 38,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 38,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_039",
+      "arabic": "وَقَى",
+      "meaning_ar": "حَمَى شَخْصًا أَوْ شَيْئًا مِنَ الضَّرَرِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَقِي"
+      ],
+      "collocations": [
+        "وَقَى مِنَ الْمَرَضِ"
+      ],
+      "examples_ar": [
+        "تَقِي الْنَّظَافَةُ مِنْ بَعْضِ الْأَمْرَاضِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 39,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 39,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_040",
+      "arabic": "اِهْتَمَّ",
+      "meaning_ar": "أَعْطَى شَيْئًا عِنَايَتَهُ وَحَاوَلَ حِفْظَهُ وَتَحْسِينَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَهْتَمُّ"
+      ],
+      "collocations": [
+        "اِهْتَمَّ بِالصِّحَّةِ"
+      ],
+      "examples_ar": [
+        "يَهْتَمُّ الطَّبِيبُ بِصِحَّةِ الْمَرِيضِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 40,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 40,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_041",
+      "arabic": "اِنْتَبَهَ",
+      "meaning_ar": "رَكَّزَ عَقْلَهُ عَلَى شَيْءٍ وَلَاحَظَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَنْتَبِهُ"
+      ],
+      "collocations": [
+        "اِنْتَبَهَ إِلَى الصِّحَّةِ"
+      ],
+      "examples_ar": [
+        "اِنْتَبَهَ الرَّجُلُ إِلَى أَعْرَاضِ الْمَرَضِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 41,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 41,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_042",
+      "arabic": "تَعَافَى",
+      "meaning_ar": "عَادَ إِلَى صِحَّتِهِ بَعْدَ مَرَضٍ أَوْ إِصَابَةٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَعَافَى"
+      ],
+      "collocations": [
+        "تَعَافَى مِنَ الْمَرَضِ"
+      ],
+      "examples_ar": [
+        "تَعَافَى الْمَرِيضُ بَعْدَ الْعِلَاجِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 42,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 42,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u01_043",
+      "arabic": "نَقَصَ",
+      "meaning_ar": "أَصْبَحَ أَقَلَّ مِقْدَارًا أَوْ عَدَدًا مِنْ قَبْلُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَنْقُصُ"
+      ],
+      "collocations": [
+        "نَقَصَ الْوَزْنُ"
+      ],
+      "examples_ar": [
+        "نَقَصَ وَزْنُهُ بَعْدَ مَرَضِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 1,
+        "index": 43,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 1,
+          "index": 43,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_001",
+      "arabic": "تَرْوِيحٌ",
+      "meaning_ar": "عَمَلٌ يُدْخِلُ السُّرُورَ عَلَى النَّفْسِ وَيُخَفِّفُ التَّعَبَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّرْوِيحُ عَنِ النَّفْسِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْإِنْسَانُ إِلَى التَّرْوِيحِ بَعْدَ الْعَمَلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_002",
+      "arabic": "تَسْلِيَةٌ",
+      "meaning_ar": "نَشَاطٌ يُمْتِعُ الْإِنْسَانَ فِي وَقْتِ فَرَاغِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَسَائِلُ التَّسْلِيَةِ"
+      ],
+      "examples_ar": [
+        "الْقِرَاءَةُ مِنْ وَسَائِلِ التَّسْلِيَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_003",
+      "arabic": "رَاحَةٌ",
+      "meaning_ar": "تَوَقُّفٌ عَنِ الْجُهْدِ يَشْعُرُ مَعَهُ الْإِنْسَانُ بِالْهُدُوءِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الرَّاحَةِ"
+      ],
+      "examples_ar": [
+        "أَحْتَاجُ إِلَى الرَّاحَةِ بَعْدَ الدِّرَاسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_004",
+      "arabic": "فَرَاغٌ",
+      "meaning_ar": "وَقْتٌ لَا يَكُونُ فِيهِ الْإِنْسَانُ مَشْغُولًا بِعَمَلٍ وَاجِبٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الْفَرَاغِ"
+      ],
+      "examples_ar": [
+        "أَقْرَأُ فِي وَقْتِ الْفَرَاغِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_005",
+      "arabic": "نَشَاطٌ",
+      "meaning_ar": "عَمَلٌ يَقُومُ بِهِ الْإِنْسَانُ بِحَرَكَةٍ وَهِمَّةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَنْشِطَةٌ"
+      ],
+      "collocations": [
+        "نَشَاطٌ رِيَاضِيٌّ"
+      ],
+      "examples_ar": [
+        "تُنَظِّمُ الْمَدْرَسَةُ أَنْشِطَةً مُتَنَوِّعَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_006",
+      "arabic": "نُزْهَةٌ",
+      "meaning_ar": "خُرُوجٌ إِلَى مَكَانٍ جَمِيلٍ لِلرَّاحَةِ وَالِاسْتِمْتَاعِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُزَهٌ"
+      ],
+      "collocations": [
+        "نُزْهَةٌ عَائِلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "خَرَجْنَا فِي نُزْهَةٍ إِلَى الْحَدِيقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_007",
+      "arabic": "مُتْعَةٌ",
+      "meaning_ar": "شُعُورٌ بِالسُّرُورِ عِنْدَ فِعْلِ شَيْءٍ مَحْبُوبٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُتْعَةُ الْقِرَاءَةِ"
+      ],
+      "examples_ar": [
+        "وَجَدْتُ مُتْعَةً فِي تَعَلُّمِ اللُّغَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_008",
+      "arabic": "مُتَنَزَّهٌ",
+      "meaning_ar": "مَكَانٌ مَفْتُوحٌ فِيهِ أَشْجَارٌ وَمَمَرَّاتٌ لِرَاحَةِ الزَّائِرِينَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُتَنَزَّهَاتٌ"
+      ],
+      "collocations": [
+        "مُتَنَزَّهٌ عَامٌّ"
+      ],
+      "examples_ar": [
+        "ذَهَبْنَا إِلَى الْمُتَنَزَّهِ يَوْمَ الْجُمُعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_009",
+      "arabic": "حَدِيقَةٌ",
+      "meaning_ar": "مَكَانٌ تُزْرَعُ فِيهِ الْأَشْجَارُ وَالْأَزْهَارُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَدَائِقُ"
+      ],
+      "collocations": [
+        "حَدِيقَةٌ عَامَّةٌ"
+      ],
+      "examples_ar": [
+        "يَلْعَبُ الْأَطْفَالُ فِي الْحَدِيقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_010",
+      "arabic": "مَلْعَبٌ",
+      "meaning_ar": "مَكَانٌ مُخَصَّصٌ لِمُمَارَسَةِ الْأَلْعَابِ وَالرِّيَاضَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَلَاعِبُ"
+      ],
+      "collocations": [
+        "مَلْعَبُ كُرَةِ الْقَدَمِ"
+      ],
+      "examples_ar": [
+        "اِجْتَمَعَ اللَّاعِبُونَ فِي الْمَلْعَبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_011",
+      "arabic": "مُبَارَاةٌ",
+      "meaning_ar": "مُنَافَسَةٌ رِيَاضِيَّةٌ بَيْنَ لَاعِبَيْنِ أَوْ فَرِيقَيْنِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُبَارَيَاتٌ"
+      ],
+      "collocations": [
+        "مُبَارَاةٌ نِهَائِيَّةٌ"
+      ],
+      "examples_ar": [
+        "شَاهَدْنَا مُبَارَاةً مُثِيرَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_012",
+      "arabic": "مُشَجِّعٌ",
+      "meaning_ar": "شَخْصٌ يُظْهِرُ تَأْيِيدَهُ لِفَرِيقٍ أَوْ لَاعِبٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُشَجِّعُونَ"
+      ],
+      "collocations": [
+        "مُشَجِّعُ الْفَرِيقِ"
+      ],
+      "examples_ar": [
+        "شَجَّعَ الْمُشَجِّعُونَ فَرِيقَهُمْ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_013",
+      "arabic": "لَاعِبٌ",
+      "meaning_ar": "شَخْصٌ يَشْتَرِكُ فِي لُعْبَةٍ أَوْ رِيَاضَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لَاعِبُونَ"
+      ],
+      "collocations": [
+        "لَاعِبُ كُرَةٍ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ اللَّاعِبُ هَدَفًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_014",
+      "arabic": "هَدَفٌ",
+      "meaning_ar": "مَا يُحَاوِلُ الْإِنْسَانُ أَنْ يَصِلَ إِلَيْهِ، أَوْ نُقْطَةٌ فِي لُعْبَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَهْدَافٌ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ هَدَفٍ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَرِيقُ هَدَفًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_015",
+      "arabic": "تَسْجِيلٌ",
+      "meaning_ar": "إِثْبَاتُ مَعْلُومَةٍ أَوْ حَدَثٍ بِالْكِتَابَةِ أَوْ بِوَسِيلَةٍ أُخْرَى.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ النِّقَاطِ"
+      ],
+      "examples_ar": [
+        "تَمَّ تَسْجِيلُ الْهَدَفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_016",
+      "arabic": "فَوْزٌ",
+      "meaning_ar": "الْحُصُولُ عَلَى النَّجَاحِ فِي مُنَافَسَةٍ أَوْ مُبَارَاةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْفَوْزُ بِالْمُبَارَاةِ"
+      ],
+      "examples_ar": [
+        "فَرِحَ الْفَرِيقُ بِالْفَوْزِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_017",
+      "arabic": "خَسَارَةٌ",
+      "meaning_ar": "عَدَمُ الْفَوْزِ فِي مُنَافَسَةٍ أَوْ ضَيَاعُ شَيْءٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَسَائِرُ"
+      ],
+      "collocations": [
+        "خَسَارَةُ الْمُبَارَاةِ"
+      ],
+      "examples_ar": [
+        "تَقَبَّلَ الْفَرِيقُ الْخَسَارَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_018",
+      "arabic": "سِبَاحَةٌ",
+      "meaning_ar": "الْحَرَكَةُ فِي الْمَاءِ بِاسْتِعْمَالِ الْيَدَيْنِ وَالرِّجْلَيْنِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَعَلُّمُ السِّبَاحَةِ"
+      ],
+      "examples_ar": [
+        "أَتَعَلَّمُ السِّبَاحَةَ فِي الْمَسْبَحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_019",
+      "arabic": "صَيْدٌ",
+      "meaning_ar": "الْبَحْثُ عَنْ حَيَوَانٍ وَالْإِمْسَاكُ بِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صَيْدُ السَّمَكِ"
+      ],
+      "examples_ar": [
+        "يُحِبُّ جَدِّي صَيْدَ السَّمَكِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_020",
+      "arabic": "رَسْمٌ",
+      "meaning_ar": "صُنْعُ صُورَةٍ بِالْقَلَمِ أَوِ الْأَلْوَانِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رُسُومٌ"
+      ],
+      "collocations": [
+        "رَسْمُ الْمَنْظَرِ"
+      ],
+      "examples_ar": [
+        "أَخْتِي تُحِبُّ الرَّسْمَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_021",
+      "arabic": "تَصْوِيرٌ",
+      "meaning_ar": "صُنْعُ صُورَةٍ بِالْكَامِيرَا أَوْ بِأَدَاةٍ مُشَابِهَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّصْوِيرُ الْفُوتُوغْرَافِيُّ"
+      ],
+      "examples_ar": [
+        "أُحِبُّ تَصْوِيرَ الطَّبِيعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_022",
+      "arabic": "كَامِيرَا",
+      "meaning_ar": "جِهَازٌ نَسْتَعْمِلُهُ لِالْتِقَاطِ الصُّوَرِ وَتَسْجِيلِ الْفِيدْيُو.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَامِيرَاتٌ"
+      ],
+      "collocations": [
+        "كَامِيرَا صَغِيرَةٌ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَيْتُ كَامِيرَا جَدِيدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_023",
+      "arabic": "نَادٍ",
+      "meaning_ar": "مَكَانٌ يَجْتَمِعُ فِيهِ أُنَاسٌ لِمُمَارَسَةِ أَنْشِطَةٍ مُشْتَرَكَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَنْدِيَةٌ"
+      ],
+      "collocations": [
+        "نَادٍ رِيَاضِيٌّ"
+      ],
+      "examples_ar": [
+        "يَذْهَبُ صَدِيقِي إِلَى النَّادِي."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_024",
+      "arabic": "جُمْهُورٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ النَّاسِ تُشَاهِدُ حَدَثًا أَوْ تَسْتَمِعُ إِلَيْهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَمَاهِيرُ"
+      ],
+      "collocations": [
+        "جُمْهُورُ الْمُبَارَاةِ"
+      ],
+      "examples_ar": [
+        "صَفَّقَ الْجُمْهُورُ لِلَّاعِبِينَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_025",
+      "arabic": "مُنَافَسَةٌ",
+      "meaning_ar": "مُحَاوَلَةُ شَخْصَيْنِ أَوْ فَرِيقَيْنِ الْفَوْزَ فِي عَمَلٍ وَاحِدٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَافَسَاتٌ"
+      ],
+      "collocations": [
+        "مُنَافَسَةٌ رِيَاضِيَّةٌ"
+      ],
+      "examples_ar": [
+        "كَانَتِ الْمُنَافَسَةُ قَوِيَّةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_026",
+      "arabic": "جَرْيٌ",
+      "meaning_ar": "الْحَرَكَةُ السَّرِيعَةُ بِالْقَدَمَيْنِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِبَاقُ الْجَرْيِ"
+      ],
+      "examples_ar": [
+        "أُمَارِسُ الْجَرْيَ فِي الصَّبَاحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_027",
+      "arabic": "سِيَاحَةٌ",
+      "meaning_ar": "السَّفَرُ إِلَى أَمَاكِنَ مُخْتَلِفَةٍ لِلزِّيَارَةِ وَالْمَعْرِفَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "السِّيَاحَةُ الدَّاخِلِيَّةُ"
+      ],
+      "examples_ar": [
+        "أُحِبُّ السِّيَاحَةَ فِي الْبِلَادِ الْجَمِيلَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_028",
+      "arabic": "حَفْلَةٌ",
+      "meaning_ar": "اجْتِمَاعٌ يُقَامُ لِلِاحْتِفَالِ بِمُنَاسَبَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَفَلَاتٌ"
+      ],
+      "collocations": [
+        "حَفْلَةُ النَّجَاحِ"
+      ],
+      "examples_ar": [
+        "حَضَرْنَا حَفْلَةً فِي الْمَدْرَسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_029",
+      "arabic": "فَازَ",
+      "meaning_ar": "تَغَلَّبَ عَلَى غَيْرِهِ فِي مُنَافَسَةٍ أَوْ حَصَلَ عَلَى جَائِزَةٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَفُوزُ"
+      ],
+      "collocations": [
+        "فَازَ بِالْمُبَارَاةِ"
+      ],
+      "examples_ar": [
+        "فَازَ فَرِيقُنَا بِالْمُبَارَاةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_030",
+      "arabic": "خَسِرَ",
+      "meaning_ar": "لَمْ يَفُزْ فِي مُنَافَسَةٍ أَوْ ضَاعَ مِنْهُ شَيْءٌ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَخْسَرُ"
+      ],
+      "collocations": [
+        "خَسِرَ الْمُبَارَاةَ"
+      ],
+      "examples_ar": [
+        "خَسِرَ الْفَرِيقُ مُبَارَاةً وَاحِدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_031",
+      "arabic": "شَجَّعَ",
+      "meaning_ar": "أَعْطَى شَخْصًا حَمَاسًا وَدَعَمًا لِيَسْتَمِرَّ فِي عَمَلِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُشَجِّعُ"
+      ],
+      "collocations": [
+        "شَجَّعَ اللَّاعِبَ"
+      ],
+      "examples_ar": [
+        "شَجَّعَ الْأَبُ ابْنَهُ عَلَى التَّعَلُّمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_032",
+      "arabic": "تَنَزَّهَ",
+      "meaning_ar": "خَرَجَ لِيَتَمَشَّى وَيَسْتَمْتِعَ بِالْمَكَانِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَنَزَّهُ"
+      ],
+      "collocations": [
+        "تَنَزَّهَ فِي الْحَدِيقَةِ"
+      ],
+      "examples_ar": [
+        "تَنَزَّهَتِ الْأُسْرَةُ فِي الْمُتَنَزَّهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_033",
+      "arabic": "اِسْتَمْتَعَ",
+      "meaning_ar": "شَعَرَ بِالْمُتْعَةِ وَالسُّرُورِ عِنْدَ الْقِيَامِ بِشَيْءٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَسْتَمْتِعُ"
+      ],
+      "collocations": [
+        "اِسْتَمْتَعَ بِالرِّحْلَةِ"
+      ],
+      "examples_ar": [
+        "اِسْتَمْتَعْنَا بِاللَّعِبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_034",
+      "arabic": "اِشْتَرَكَ",
+      "meaning_ar": "دَخَلَ مَعَ غَيْرِهِ فِي عَمَلٍ أَوْ نَشَاطٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَشْتَرِكُ"
+      ],
+      "collocations": [
+        "اِشْتَرَكَ فِي الْمُسَابَقَةِ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَكَ الطَّالِبُ فِي السِّبَاقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_035",
+      "arabic": "سَابَقَ",
+      "meaning_ar": "حَاوَلَ أَنْ يَسْبِقَ غَيْرَهُ فِي الْجَرْيِ أَوْ غَيْرِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُسَابِقُ"
+      ],
+      "collocations": [
+        "سَابَقَ صَدِيقَهُ"
+      ],
+      "examples_ar": [
+        "سَابَقَ أَحْمَدُ صَدِيقَهُ فِي الْجَرْيِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_036",
+      "arabic": "تَصَوَّرَ",
+      "meaning_ar": "تَخَيَّلَ شَيْئًا فِي عَقْلِهِ أَوْ الْتَقَطَ لِنَفْسِهِ صُورَةً.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَصَوَّرُ"
+      ],
+      "collocations": [
+        "تَصَوَّرَ الْمَنْظَرَ"
+      ],
+      "examples_ar": [
+        "تَصَوَّرْتُ الْمَكَانَ قَبْلَ زِيَارَتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_037",
+      "arabic": "اِحْتَفَلَ",
+      "meaning_ar": "اجْتَمَعَ مَعَ غَيْرِهِ لِلْفَرَحِ بِمُنَاسَبَةٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَحْتَفِلُ"
+      ],
+      "collocations": [
+        "اِحْتَفَلَ بِالنَّجَاحِ"
+      ],
+      "examples_ar": [
+        "اِحْتَفَلْنَا بِالنَّجَاحِ فِي الْمَدْرَسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 37,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 37,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_038",
+      "arabic": "تَمَشَّى",
+      "meaning_ar": "سَارَ عَلَى قَدَمَيْهِ بِهُدُوءٍ لِلرَّاحَةِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَمَشَّى"
+      ],
+      "collocations": [
+        "تَمَشَّى عَلَى الشَّاطِئِ"
+      ],
+      "examples_ar": [
+        "تَمَشَّيْنَا فِي الْحَدِيقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 38,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 38,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_039",
+      "arabic": "تَعَاوَنَ",
+      "meaning_ar": "عَمِلَ مَعَ غَيْرِهِ لِتَحْقِيقِ هَدَفٍ مُشْتَرَكٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَعَاوَنُ"
+      ],
+      "collocations": [
+        "تَعَاوَنَ مَعَ الْفَرِيقِ"
+      ],
+      "examples_ar": [
+        "تَعَاوَنَ اللَّاعِبُونَ لِلْفَوْزِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 39,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 39,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u02_040",
+      "arabic": "نَظَّمَ",
+      "meaning_ar": "رَتَّبَ الْأَشْيَاءَ أَوِ الْأَعْمَالَ فِي نِظَامٍ وَاضِحٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُنَظِّمُ"
+      ],
+      "collocations": [
+        "نَظَّمَ الْمُسَابَقَةَ"
+      ],
+      "examples_ar": [
+        "نَظَّمَ النَّادِي مُسَابَقَةً رِيَاضِيَّةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 2,
+        "index": 40,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 2,
+          "index": 40,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        }
+      ]
     }
   ],
   "corpus_progress": {
@@ -21362,7 +24816,12 @@
     "level1_fifteenth_chapter_indexed": 38,
     "level1_fifteenth_chapter_official_glossary_checked": false,
     "level1_sixteenth_chapter_indexed": 21,
-    "level1_sixteenth_chapter_official_glossary_checked": false
+    "level1_sixteenth_chapter_official_glossary_checked": false,
+    "level2_draft_topics": {
+      "1": "العناية بالصحة",
+      "2": "الترويح عن النفس"
+    },
+    "level2_official_glossary_checked": false
   },
   "source_notes": {
     "verified_official_count": 3325,
