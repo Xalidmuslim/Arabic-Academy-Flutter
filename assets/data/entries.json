@@ -15041,6 +15041,15 @@
           "index": 6,
           "official_end_glossary_checked": false,
           "order_note": "curated location and people glossary"
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
         }
       ],
       "sources": []
@@ -17164,6 +17173,926 @@
         }
       ],
       "sources": []
+    },
+    {
+      "id": "l1u13_001",
+      "arabic": "حَجْزٌ",
+      "meaning_ar": "اتِّفَاقٌ مُسْبَقٌ لِلْحُصُولِ عَلَى مَقْعَدٍ أَوْ غُرْفَةٍ أَوْ خِدْمَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُجُوزَاتٌ"
+      ],
+      "collocations": [
+        "حَجْزُ الطَّائِرَةِ"
+      ],
+      "examples_ar": [
+        "أُرِيدُ تَأْكِيدَ الْحَجْزِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_002",
+      "arabic": "مُوَظَّفٌ",
+      "meaning_ar": "شَخْصٌ يَعْمَلُ فِي مُؤَسَّسَةٍ مُقَابِلَ رَاتِبٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُوَظَّفُونَ"
+      ],
+      "collocations": [
+        "مُوَظَّفُ الْمَطَارِ"
+      ],
+      "examples_ar": [
+        "سَأَلْتُ الْمُوَظَّفَ عَنِ الرِّحْلَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_003",
+      "arabic": "تَذْكِرَةٌ",
+      "meaning_ar": "وَثِيقَةٌ تَسْمَحُ لِشَخْصٍ بِرُكُوبِ وَسِيلَةِ نَقْلٍ أَوْ دُخُولِ مَكَانٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَذَاكِرُ"
+      ],
+      "collocations": [
+        "تَذْكِرَةُ السَّفَرِ"
+      ],
+      "examples_ar": [
+        "هَذِهِ تَذْكِرَتِي."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_004",
+      "arabic": "تَأْشِيرَةٌ",
+      "meaning_ar": "إِذْنٌ رَسْمِيٌّ يَسْمَحُ لِشَخْصٍ بِدُخُولِ بَلَدٍ أَوِ الْخُرُوجِ مِنْهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَأْشِيرَاتٌ"
+      ],
+      "collocations": [
+        "تَأْشِيرَةُ الدُّخُولِ"
+      ],
+      "examples_ar": [
+        "أَيْنَ تَأْشِيرَةُ السَّفَرِ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_005",
+      "arabic": "حَقِيبَةٌ",
+      "meaning_ar": "شَيْءٌ نَضَعُ فِيهِ الْمَلَابِسَ وَالْأَشْيَاءَ وَنَحْمِلُهُ مَعَنَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَقَائِبُ"
+      ],
+      "collocations": [
+        "حَقِيبَةُ السَّفَرِ"
+      ],
+      "examples_ar": [
+        "فَقَدْتُ حَقِيبَتِي فِي الْمَطَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_006",
+      "arabic": "لَوْنٌ",
+      "meaning_ar": "صِفَةٌ نَرَاهَا بِالْعَيْنِ وَنُمَيِّزُ بِهَا الْأَشْيَاءَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْوَانٌ"
+      ],
+      "collocations": [
+        "لَوْنُ الْحَقِيبَةِ"
+      ],
+      "examples_ar": [
+        "مَا لَوْنُ حَقِيبَتِكَ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_007",
+      "arabic": "فُنْدُقٌ",
+      "meaning_ar": "مَبْنًى فِيهِ غُرَفٌ يَسْكُنُ فِيهَا الْمُسَافِرُونَ مُقَابِلَ مَالٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَنَادِقُ"
+      ],
+      "collocations": [
+        "غُرْفَةُ الْفُنْدُقِ"
+      ],
+      "examples_ar": [
+        "سَأُقِيمُ فِي فُنْدُقٍ قَرِيبٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_008",
+      "arabic": "ضَابِطٌ",
+      "meaning_ar": "شَخْصٌ يَعْمَلُ فِي جِهَةٍ أَمْنِيَّةٍ أَوْ عَسْكَرِيَّةٍ بِرُتْبَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ضُبَّاطٌ"
+      ],
+      "collocations": [
+        "ضَابِطُ الْجَوَازَاتِ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الضَّابِطُ جَوَازَ السَّفَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_009",
+      "arabic": "مُسَافِرٌ",
+      "meaning_ar": "شَخْصٌ يَنْتَقِلُ مِنْ بَلَدٍ إِلَى بَلَدٍ أَوْ مِنْ مَدِينَةٍ إِلَى أُخْرَى.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسَافِرُونَ"
+      ],
+      "collocations": [
+        "مُسَافِرٌ قَادِمٌ"
+      ],
+      "examples_ar": [
+        "الْمُسَافِرُ فِي الْمَطَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_011",
+      "arabic": "أَكَّدَ",
+      "meaning_ar": "جَعَلَ الْأَمْرَ مَضْمُونًا أَوْ بَيَّنَ صِحَّتَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُؤَكِّدُ"
+      ],
+      "collocations": [
+        "أَكَّدَ الْحَجْزَ"
+      ],
+      "examples_ar": [
+        "أُرِيدُ أَنْ أُؤَكِّدَ حَجْزِي."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_012",
+      "arabic": "حَجَزَ",
+      "meaning_ar": "خَصَّصَ مَقْعَدًا أَوْ غُرْفَةً لِنَفْسِهِ قَبْلَ الْوَقْتِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَحْجِزُ"
+      ],
+      "collocations": [
+        "حَجَزَ تَذْكِرَةً"
+      ],
+      "examples_ar": [
+        "حَجَزْتُ تَذْكِرَةَ سَفَرٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_013",
+      "arabic": "غَادَرَ",
+      "meaning_ar": "تَرَكَ مَكَانًا وَذَهَبَ إِلَى مَكَانٍ آخَرَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُغَادِرُ"
+      ],
+      "collocations": [
+        "غَادَرَ الْمَطَارَ"
+      ],
+      "examples_ar": [
+        "تُغَادِرُ الطَّائِرَةُ صَبَاحًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_014",
+      "arabic": "قَدِمَ",
+      "meaning_ar": "جَاءَ مِنْ مَكَانٍ بَعِيدٍ إِلَى مَكَانٍ آخَرَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَقْدَمُ"
+      ],
+      "collocations": [
+        "قَدِمَ مِنَ السَّفَرِ"
+      ],
+      "examples_ar": [
+        "قَدِمَ صَدِيقِي مِنْ مَالِيزِيَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_015",
+      "arabic": "أَقَامَ",
+      "meaning_ar": "بَقِيَ فِي مَكَانٍ مُدَّةً مِنَ الزَّمَنِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُقِيمُ"
+      ],
+      "collocations": [
+        "أَقَامَ فِي فُنْدُقٍ"
+      ],
+      "examples_ar": [
+        "سَأُقِيمُ هُنَا ثَلَاثَةَ أَيَّامٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_016",
+      "arabic": "قَبِلَ",
+      "meaning_ar": "وَافَقَ عَلَى شَيْءٍ أَوْ رَضِيَ بِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَقْبَلُ"
+      ],
+      "collocations": [
+        "قَبِلَ الطَّلَبَ"
+      ],
+      "examples_ar": [
+        "قَبِلَ الْمُوَظَّفُ الطَّلَبَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_017",
+      "arabic": "فَقَدَ",
+      "meaning_ar": "لَمْ يَعُدْ يَعْرِفُ مَكَانَ شَيْءٍ كَانَ عِنْدَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَفْقِدُ"
+      ],
+      "collocations": [
+        "فَقَدَ الْحَقِيبَةَ"
+      ],
+      "examples_ar": [
+        "فَقَدْتُ حَقِيبَتِي."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_018",
+      "arabic": "فَتَحَ",
+      "meaning_ar": "جَعَلَ الْبَابَ أَوِ الشَّيْءَ غَيْرَ مُغْلَقٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَفْتَحُ"
+      ],
+      "collocations": [
+        "فَتَحَ الْحَقِيبَةَ"
+      ],
+      "examples_ar": [
+        "اِفْتَحِ الْحَقِيبَةَ مِنْ فَضْلِكَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_019",
+      "arabic": "تَوْظِيفٌ",
+      "meaning_ar": "إِعْطَاءُ شَخْصٍ عَمَلًا فِي مُؤَسَّسَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طَلَبُ التَّوْظِيفِ"
+      ],
+      "examples_ar": [
+        "يَبْحَثُ عَنْ فُرْصَةِ تَوْظِيفٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_020",
+      "arabic": "تَأْكِيدٌ",
+      "meaning_ar": "جَعْلُ الْأَمْرِ ثَابِتًا أَوْ بَيَانُ صِحَّتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَأْكِيدُ الْحَجْزِ"
+      ],
+      "examples_ar": [
+        "أَحْتَاجُ إِلَى تَأْكِيدِ الْحَجْزِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_021",
+      "arabic": "إِقَامَةٌ",
+      "meaning_ar": "الْبَقَاءُ فِي مَكَانٍ مُدَّةً مِنَ الزَّمَنِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِقَامَةٌ طَيِّبَةٌ"
+      ],
+      "examples_ar": [
+        "أَتَمَنَّى لَكَ إِقَامَةً طَيِّبَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_022",
+      "arabic": "دُخُولٌ",
+      "meaning_ar": "الِانْتِقَالُ مِنْ خَارِجِ مَكَانٍ إِلَى دَاخِلِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَأْشِيرَةُ الدُّخُولِ"
+      ],
+      "examples_ar": [
+        "هَذِهِ تَأْشِيرَةُ الدُّخُولِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_023",
+      "arabic": "خُرُوجٌ",
+      "meaning_ar": "الِانْتِقَالُ مِنْ دَاخِلِ مَكَانٍ إِلَى خَارِجِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَأْشِيرَةُ الْخُرُوجِ"
+      ],
+      "examples_ar": [
+        "مَتَى مَوْعِدُ الْخُرُوجِ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u13_024",
+      "arabic": "قَادِمٌ",
+      "meaning_ar": "شَخْصٌ آتٍ مِنْ مَكَانٍ آخَرَ.",
+      "grammar": [
+        "اِسْمُ فَاعِلٍ؛ الْمُؤَنَّثُ قَادِمَةٌ"
+      ],
+      "collocations": [
+        "مُسَافِرٌ قَادِمٌ"
+      ],
+      "examples_ar": [
+        "أَنَا قَادِمٌ مِنَ الْمَدِينَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter13_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6861/",
+        "book": 1,
+        "chapter": 13,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "order_note": "curated travel vocabulary selection"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6861/",
+          "book": 1,
+          "chapter": 13,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "order_note": "curated travel vocabulary selection"
+        }
+      ],
+      "sources": []
     }
   ],
   "corpus_progress": {
@@ -17198,7 +18127,9 @@
     "level1_eleventh_chapter_indexed": 30,
     "level1_eleventh_chapter_official_glossary_checked": false,
     "level1_twelfth_chapter_indexed": 29,
-    "level1_twelfth_chapter_official_glossary_checked": false
+    "level1_twelfth_chapter_official_glossary_checked": false,
+    "level1_thirteenth_chapter_indexed": 24,
+    "level1_thirteenth_chapter_official_glossary_checked": false
   },
   "source_notes": {
     "verified_official_count": 3325,
