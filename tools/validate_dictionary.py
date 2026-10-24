@@ -48,7 +48,7 @@ def validate() -> dict:
         for text in lexical:
             assert not INVALID_SCRIPT.search(text), f"Unexpected Latin/Cyrillic in {word}: {text}"
         # Newly authored complete lesson cards must have practical examples.
-        if str(wid).startswith("l1u"):
+        if str(wid).startswith(("l1u", "l2u")):
             assert item["grammar"], f"No grammar: {word}"
             assert item["collocations"], f"No collocation: {word}"
             assert item["examples_ar"], f"No example: {word}"
@@ -60,7 +60,7 @@ def validate() -> dict:
         for ref in refs:
             assert isinstance(ref, dict), f"Bad ref for {word}"
             book, chapter, index = ref.get("book"), ref.get("chapter"), ref.get("index")
-            assert book == 1 and isinstance(chapter, int) and 1 <= chapter <= 16, f"Bad chapter for {word}"
+            assert isinstance(book, int) and 1 <= book <= 4 and isinstance(chapter, int) and 1 <= chapter <= 16, f"Bad level/chapter for {word}"
             assert isinstance(index, int) and index >= 1, f"Bad index for {word}"
             key = (book, chapter)
             assert index not in positions[key], (
@@ -74,7 +74,7 @@ def validate() -> dict:
     for (book, chapter), values in sorted(positions.items()):
         assert sorted(values) == list(range(1, len(values) + 1)), (
             f"Non-contiguous indices in book {book} chapter {chapter}")
-    assert set(positions) == {(1, c) for c in range(1, 17)}, (
+    assert {(1, c) for c in range(1, 17)}.issubset(set(positions)), (
         "Not all 16 level-one unit lists are represented")
     return {
         "entries": len(entries),
