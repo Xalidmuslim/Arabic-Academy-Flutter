@@ -593,7 +593,18 @@
         "صِفَةٌ؛ الْمُؤَنَّثُ قَرِيبَةٌ"
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ]
     },
     {
       "id": "demo21",
@@ -615,7 +626,18 @@
         "صِفَةٌ؛ الْمُؤَنَّثُ بَعِيدَةٌ"
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ]
     },
     {
       "id": "demo22",
@@ -1789,7 +1811,23 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 37,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 37
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ]
     },
     {
       "id": "level1_topic1_038",
@@ -3536,6 +3574,15 @@
           "chapter": 2,
           "index": 31,
           "official_end_glossary_checked": false
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
         }
       ],
       "sources": []
@@ -8377,6 +8424,1166 @@
       ],
       "source_group": "book1_chapter5_secondary",
       "sources": []
+    },
+    {
+      "id": "l1u6_001",
+      "arabic": "لَيْلٌ",
+      "meaning_ar": "الْوَقْتُ الَّذِي تَغِيبُ فِيهِ الشَّمْسُ وَيَحِلُّ الظَّلَامُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لَيَالٍ"
+      ],
+      "collocations": [
+        "فِي اللَّيْلِ"
+      ],
+      "examples_ar": [
+        "أَنَامُ فِي اللَّيْلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_002",
+      "arabic": "جَانِبٌ",
+      "meaning_ar": "النَّاحِيَةُ الْقَرِيبَةُ مِنْ شَيْءٍ أَوْ شَخْصٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَوَانِبُ"
+      ],
+      "collocations": [
+        "بِجَانِبِ السَّرِيرِ"
+      ],
+      "examples_ar": [
+        "وَضَعْتُ الْمُنَبِّهَ بِجَانِبِي."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_003",
+      "arabic": "فِكْرَةٌ",
+      "meaning_ar": "مَعْنًى يَخْطُرُ فِي الْعَقْلِ وَيُمكِنُ أَنْ نَعْمَلَ بِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَفْكَارٌ"
+      ],
+      "collocations": [
+        "فِكْرَةٌ طَيِّبَةٌ"
+      ],
+      "examples_ar": [
+        "هَذِهِ فِكْرَةٌ جَيِّدَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_004",
+      "arabic": "طَيِّبٌ",
+      "meaning_ar": "مَا كَانَ حَسَنًا أَوْ نَافِعًا أَوْ ذَا رَائِحَةٍ جَمِيلَةٍ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ طَيِّبَةٌ"
+      ],
+      "collocations": [
+        "رَجُلٌ طَيِّبٌ"
+      ],
+      "examples_ar": [
+        "هَذَا طَعَامٌ طَيِّبٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_005",
+      "arabic": "طَيِّبَةٌ",
+      "meaning_ar": "مُؤَنَّثُ «طَيِّبٍ»، وَتَدُلُّ عَلَى الْحُسْنِ أَوِ الْخَيْرِ.",
+      "grammar": [
+        "صِفَةٌ مُؤَنَّثَةٌ"
+      ],
+      "collocations": [
+        "فِكْرَةٌ طَيِّبَةٌ"
+      ],
+      "examples_ar": [
+        "هَذِهِ فِكْرَةٌ طَيِّبَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_006",
+      "arabic": "طَائِرَةٌ",
+      "meaning_ar": "وَسِيلَةُ نَقْلٍ تَطِيرُ فِي السَّمَاءِ وَتَحْمِلُ النَّاسَ أَوِ الْأَشْيَاءَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طَائِرَاتٌ"
+      ],
+      "collocations": [
+        "رِحْلَةٌ بِالطَّائِرَةِ"
+      ],
+      "examples_ar": [
+        "أَرْكَبُ الطَّائِرَةَ إِلَى الْمَدِينَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_007",
+      "arabic": "مَرِيضٌ",
+      "meaning_ar": "شَخْصٌ أَصَابَهُ مَرَضٌ وَيَحْتَاجُ إِلَى الرَّاحَةِ أَوِ الْعِلَاجِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْجَمْعُ مَرْضَى؛ الْمُؤَنَّثُ مَرِيضَةٌ"
+      ],
+      "collocations": [
+        "رَجُلٌ مَرِيضٌ"
+      ],
+      "examples_ar": [
+        "الطِّفْلُ مَرِيضٌ الْيَوْمَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_008",
+      "arabic": "صَحِيحٌ",
+      "meaning_ar": "مَا كَانَ مُوَافِقًا لِلْحَقِيقَةِ أَوْ خَالِيًا مِنَ الْخَطَإِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ صَحِيحَةٌ"
+      ],
+      "collocations": [
+        "جَوَابٌ صَحِيحٌ"
+      ],
+      "examples_ar": [
+        "جَوَابُكَ صَحِيحٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_012",
+      "arabic": "اِسْتَطَاعَ",
+      "meaning_ar": "كَانَ قَادِرًا عَلَى فِعْلِ شَيْءٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَسْتَطِيعُ"
+      ],
+      "collocations": [
+        "اِسْتَطَاعَ الْعَمَلَ"
+      ],
+      "examples_ar": [
+        "لَا أَسْتَطِيعُ الِاسْتِيقَاظَ مُبَكِّرًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_013",
+      "arabic": "نَبَّهَ",
+      "meaning_ar": "جَعَلَ شَخْصًا يَنْتَبِهُ إِلَى شَيْءٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُنَبِّهُ"
+      ],
+      "collocations": [
+        "نَبَّهَ صَدِيقَهُ"
+      ],
+      "examples_ar": [
+        "نَبَّهَ الْمُعَلِّمُ الطَّالِبَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_014",
+      "arabic": "جَزَى",
+      "meaning_ar": "أَعْطَى شَخْصًا جَزَاءً مُقَابِلَ عَمَلِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَجْزِي"
+      ],
+      "collocations": [
+        "جَزَاهُ خَيْرًا"
+      ],
+      "examples_ar": [
+        "جَزَاكَ اللَّهُ خَيْرًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_015",
+      "arabic": "صَلَحَ",
+      "meaning_ar": "أَصْبَحَ جَيِّدًا وَزَالَ عَنْهُ الْفَسَادُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَصْلُحُ"
+      ],
+      "collocations": [
+        "صَلَحَ الْأَمْرُ"
+      ],
+      "examples_ar": [
+        "صَلَحَ الْجِهَازُ بَعْدَ إِصْلَاحِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_016",
+      "arabic": "رَكِبَ",
+      "meaning_ar": "صَعِدَ إِلَى وَسِيلَةِ نَقْلٍ لِيَنْتَقِلَ بِهَا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَرْكَبُ"
+      ],
+      "collocations": [
+        "رَكِبَ الطَّائِرَةَ"
+      ],
+      "examples_ar": [
+        "أَرْكَبُ الْحَافِلَةَ إِلَى الْمَسْجِدِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_017",
+      "arabic": "صَدَقَ",
+      "meaning_ar": "قَالَ الْحَقَّ وَلَمْ يَكْذِبْ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَصْدُقُ"
+      ],
+      "collocations": [
+        "صَدَقَ فِي كَلَامِهِ"
+      ],
+      "examples_ar": [
+        "صَدَقَ الطَّالِبُ فِي جَوَابِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_018",
+      "arabic": "صَبَرَ",
+      "meaning_ar": "تَحَمَّلَ الْمَشَقَّةَ دُونَ أَنْ يَجْزَعَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَصْبِرُ"
+      ],
+      "collocations": [
+        "صَبَرَ عَلَى الْأَلَمِ"
+      ],
+      "examples_ar": [
+        "صَبَرَ الْمَرِيضُ عَلَى مَرَضِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_019",
+      "arabic": "اِنْتَظَرَ",
+      "meaning_ar": "بَقِيَ فِي مَكَانٍ أَوْ وَقْتٍ حَتَّى يَحْضُرَ شَخْصٌ أَوْ يَحْدُثَ شَيْءٌ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَنْتَظِرُ"
+      ],
+      "collocations": [
+        "اِنْتَظَرَ الْحَافِلَةَ"
+      ],
+      "examples_ar": [
+        "اِنْتَظَرْتُ صَدِيقِي عِنْدَ الْمَسْجِدِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_020",
+      "arabic": "كَسِلَ",
+      "meaning_ar": "قَلَّ نَشَاطُهُ وَلَمْ يُرِدْ أَنْ يَعْمَلَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَكْسَلُ"
+      ],
+      "collocations": [
+        "كَسِلَ عَنِ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "كَسِلَ الطَّالِبُ عَنِ الدِّرَاسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_021",
+      "arabic": "فَجْرٌ",
+      "meaning_ar": "بِدَايَةُ ظُهُورِ ضَوْءِ الصَّبَاحِ قَبْلَ طُلُوعِ الشَّمْسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الْفَجْرِ"
+      ],
+      "examples_ar": [
+        "أُصَلِّي الْفَجْرَ فِي الْمَسْجِدِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_022",
+      "arabic": "ظُهْرٌ",
+      "meaning_ar": "وَقْتٌ فِي وَسَطِ النَّهَارِ بَعْدَ زَوَالِ الشَّمْسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صَلَاةُ الظُّهْرِ"
+      ],
+      "examples_ar": [
+        "أُصَلِّي الظُّهْرَ بَعْدَ دُخُولِ وَقْتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_023",
+      "arabic": "عَصْرٌ",
+      "meaning_ar": "وَقْتٌ مِنَ النَّهَارِ بَعْدَ الظُّهْرِ وَقَبْلَ غُرُوبِ الشَّمْسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صَلَاةُ الْعَصْرِ"
+      ],
+      "examples_ar": [
+        "نَجْتَمِعُ بَعْدَ الْعَصْرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_024",
+      "arabic": "مَغْرِبٌ",
+      "meaning_ar": "وَقْتُ غُرُوبِ الشَّمْسِ وَدُخُولِ اللَّيْلِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صَلَاةُ الْمَغْرِبِ"
+      ],
+      "examples_ar": [
+        "أُفْطِرُ عِنْدَ الْمَغْرِبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_025",
+      "arabic": "عِشَاءٌ",
+      "meaning_ar": "وَقْتٌ مِنَ اللَّيْلِ، وَيَأْتِي بَعْدَ غِيَابِ الشَّفَقِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صَلَاةُ الْعِشَاءِ"
+      ],
+      "examples_ar": [
+        "أُصَلِّي الْعِشَاءَ قَبْلَ النَّوْمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_026",
+      "arabic": "مُنَبِّهٌ",
+      "meaning_ar": "جِهَازٌ يُصْدِرُ صَوْتًا فِي وَقْتٍ مُحَدَّدٍ لِيُوقِظَ النَّائِمَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَبِّهَاتٌ"
+      ],
+      "collocations": [
+        "سَاعَةٌ مُنَبِّهَةٌ"
+      ],
+      "examples_ar": [
+        "وَضَعْتُ الْمُنَبِّهَ قُرْبَ السَّرِيرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_027",
+      "arabic": "كَسْلَانُ",
+      "meaning_ar": "شَخْصٌ لَا يُحِبُّ بَذْلَ الْجُهْدِ وَيَتَأَخَّرُ عَنِ الْعَمَلِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ كَسْلَى"
+      ],
+      "collocations": [
+        "رَجُلٌ كَسْلَانُ"
+      ],
+      "examples_ar": [
+        "لَا تَكُنْ كَسْلَانَ فِي الدِّرَاسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_028",
+      "arabic": "نَشِيطٌ",
+      "meaning_ar": "شَخْصٌ يَعْمَلُ بِهِمَّةٍ وَحَيَوِيَّةٍ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ نَشِيطَةٌ"
+      ],
+      "collocations": [
+        "طَالِبٌ نَشِيطٌ"
+      ],
+      "examples_ar": [
+        "هَذَا الطَّالِبُ نَشِيطٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_029",
+      "arabic": "خَطَأٌ",
+      "meaning_ar": "شَيْءٌ غَيْرُ صَحِيحٍ فِي الْكَلَامِ أَوِ الْعَمَلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَخْطَاءٌ"
+      ],
+      "collocations": [
+        "جَوَابٌ خَطَأٌ"
+      ],
+      "examples_ar": [
+        "فِي هَذِهِ الْجُمْلَةِ خَطَأٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_030",
+      "arabic": "بِلَالٌ",
+      "meaning_ar": "اِسْمُ رَجُلٍ يَسْتَعْمِلُهُ النَّاسُ لِلتَّسْمِيَةِ.",
+      "grammar": [
+        "عَلَمٌ مُذَكَّرٌ"
+      ],
+      "collocations": [
+        "مَسْجِدُ بِلَالٍ"
+      ],
+      "examples_ar": [
+        "أُصَلِّي فِي مَسْجِدِ بِلَالٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_031",
+      "arabic": "مَكَّةُ",
+      "meaning_ar": "مَدِينَةٌ فِي الْمَمْلَكَةِ الْعَرَبِيَّةِ السُّعُودِيَّةِ فِيهَا الْمَسْجِدُ الْحَرَامُ.",
+      "grammar": [
+        "عَلَمُ مَدِينَةٍ"
+      ],
+      "collocations": [
+        "السَّفَرُ إِلَى مَكَّةَ"
+      ],
+      "examples_ar": [
+        "سَافَرَتِ الْأُسْرَةُ إِلَى مَكَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u6_032",
+      "arabic": "الْمَدِينَةُ",
+      "meaning_ar": "مَدِينَةٌ فِي الْمَمْلَكَةِ الْعَرَبِيَّةِ السُّعُودِيَّةِ فِيهَا الْمَسْجِدُ النَّبَوِيُّ.",
+      "grammar": [
+        "عَلَمُ مَدِينَةٍ"
+      ],
+      "collocations": [
+        "الْمَسْجِدُ النَّبَوِيُّ"
+      ],
+      "examples_ar": [
+        "سَافَرْنَا إِلَى الْمَدِينَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter6_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6846/",
+        "book": 1,
+        "chapter": 6,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "order_note": "curated noun verb prayer terms order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6846/",
+          "book": 1,
+          "chapter": 6,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "order_note": "curated noun verb prayer terms order"
+        }
+      ],
+      "sources": []
     }
   ],
   "corpus_progress": {
@@ -8397,7 +9604,9 @@
     "level1_fourth_chapter_source": "independent_secondary_unit_glossary",
     "level1_fourth_chapter_official_glossary_checked": false,
     "level1_fifth_chapter_indexed": 37,
-    "level1_fifth_chapter_official_glossary_checked": false
+    "level1_fifth_chapter_official_glossary_checked": false,
+    "level1_sixth_chapter_indexed": 33,
+    "level1_sixth_chapter_official_glossary_checked": false
   },
   "source_notes": {
     "verified_official_count": 3325,
