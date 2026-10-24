@@ -35,17 +35,29 @@ class NeumorphicSurface extends StatelessWidget {
   /// palette and contents identical. Never used in normal production builds.
   final bool? debugShadowsEnabled;
 
+  // Explicit opt-in: preserve original live BoxShadow lighting in every
+  // production build until same-device A/B and visual parity are approved.
+  static const bool _cachedCardShadows = bool.fromEnvironment(
+    'BAYNA_CACHED_CARD_SHADOWS',
+    defaultValue: false,
+  );
+
   @override
   Widget build(BuildContext context) {
     final dark = Theme.of(context).brightness == Brightness.dark;
-    Widget render(bool shadowsEnabled) => DecoratedBox(
+    Widget render(bool shadowsEnabled) {
+      // Only the approved 21/22-radius cards have matching cached textures;
+      // arbitrary radii still use the exact original shadows.
+      final cached = _cachedCardShadows && shadowsEnabled &&
+          (radius == 21 || radius == 22);
+      final surface = DecoratedBox(
       key: const ValueKey('matte-3d-surface'),
       decoration: BoxDecoration(
         color: dark ? const Color(0xFF29372E) : DesignTokens.cardSurface,
         borderRadius: BorderRadius.circular(radius),
         // A soft pale highlight, not the dark outline that flattened v8.
         border: Border.all(color: dark ? const Color(0xFF405747) : DesignTokens.cardHighlight, width: 0.8),
-        boxShadow: !shadowsEnabled ? const <BoxShadow>[] : dark ? const [
+        boxShadow: (!shadowsEnabled || cached) ? const <BoxShadow>[] : dark ? const [
           BoxShadow(color: Color(0x55000000), offset: Offset(0, 6), blurRadius: 16),
         ] : emphasized ? const [
           BoxShadow(color: Color(0x2C58473B), offset: Offset(0, 5), blurRadius: 12, spreadRadius: -3),
@@ -73,6 +85,37 @@ class NeumorphicSurface extends StatelessWidget {
         child: Padding(padding: padding, child: child),
       ),
     );
+
+      if (!cached) return surface;
+      // Nine-slice PNGs replace repeated GPU Gaussian shadow painting with
+      // one small cached texture draw, without changing foreground geometry.
+      // A two-pixel middle segment stretches horizontally and vertically.
+      const shadowMargin = 56.0;
+      final name = emphasized ? 'emphasized' : 'regular';
+      final tone = dark ? 'dark' : 'light';
+      return Stack(
+        clipBehavior: Clip.none,
+        children: [
+          Positioned.fill(
+            left: -shadowMargin,
+            right: -shadowMargin,
+            top: -shadowMargin,
+            bottom: -shadowMargin,
+            child: Image.asset(
+              'assets/artwork/shadow_cache/card__${name}_${tone}.png',
+              key: const ValueKey('cached-card-shadow'),
+              fit: BoxFit.fill,
+              centerSlice: Rect.fromLTWH(
+                shadowMargin + radius, shadowMargin + radius, 2, 2,
+              ),
+              filterQuality: FilterQuality.low,
+              excludeFromSemantics: true,
+            ),
+          ),
+          surface,
+        ],
+      );
+    }
 
     // A release has precisely the same tree and approved 3D lighting as v43.
     // Diagnostic APKs use one scoped, listenable flag for both the 3D artwork
