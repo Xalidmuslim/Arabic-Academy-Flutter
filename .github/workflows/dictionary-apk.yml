@@ -26,17 +26,20 @@ jobs:
         run: flutter test
       - name: Build release ARM64 APK
         run: flutter build apk --release --target-platform android-arm64
-      - name: Publish APK as direct branch download
-        run: |
-          mkdir -p dist
-          cp build/app/outputs/flutter-apk/app-release.apk dist/bayna-dictionary-demo.apk
-          test -s dist/bayna-dictionary-demo.apk
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/bayna-dictionary-demo.apk
-          git commit -m "build: dictionary APK [skip ci]"
-          git push
       - uses: actions/upload-artifact@v4
         with:
           name: bayna-dictionary-demo-apk
           path: build/app/outputs/flutter-apk/app-release.apk
+      - name: Publish direct APK link
+        run: |
+          mkdir -p dist
+          cp build/app/outputs/flutter-apk/app-release.apk /tmp/bayna-dictionary-built.apk
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
+          cp /tmp/bayna-dictionary-built.apk dist/bayna-dictionary-demo.apk
+          test -s dist/bayna-dictionary-demo.apk
+          git add dist/bayna-dictionary-demo.apk
+          git diff --cached --quiet || git commit -m "build: dictionary APK [skip ci]"
+          git push origin "HEAD:$GITHUB_REF_NAME"
