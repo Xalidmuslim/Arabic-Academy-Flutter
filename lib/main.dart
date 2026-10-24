@@ -315,8 +315,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             maxLines: 2, overflow: TextOverflow.ellipsis,
                             style: const TextStyle(fontSize: 15, height: 1.5)),
                           if (word.bookNumber != null)
-                            Text('Книга ' + word.bookNumber.toString() +
-                              ' · Тема ' + word.chapterNumber.toString(),
+                            Text('Книга ${word.bookNumber} · Тема ${word.chapterNumber}',
                               style: const TextStyle(fontSize: 11,
                                 color: Colors.blueGrey)),
                         ],
