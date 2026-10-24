@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: bayna-v51-shadow-perimeter
+  group: bayna-v51-shadow-perimeter-${{ github.sha }}
   cancel-in-progress: false
 jobs:
   quality:
