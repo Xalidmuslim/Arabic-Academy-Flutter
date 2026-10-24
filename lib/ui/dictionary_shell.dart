@@ -122,7 +122,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   final tts = FlutterTts();
   Set<String> favorites = {}, bookmarks = {};
   int tab = 0;
-  bool chapterOnly = false;
+  int? selectedChapter;
 
   Future<List<Word>> loadWords() async {
     final p = await SharedPreferences.getInstance();
@@ -265,10 +265,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 
   Widget dictionaryTab(List<Word> all) {
     final q = normalizeArabic(search.text);
-    final visible = sortWordsByBookOrder(all.where((w) =>
-      (q.isEmpty || normalizeArabic(w.arabic).contains(q) ||
-        normalizeArabic(w.meaning).contains(q)) &&
-      (!chapterOnly || (w.bookNumber == 1 && w.chapterNumber == 1))));
+    final matching = all.where((w) =>
+      q.isEmpty || normalizeArabic(w.arabic).contains(q) ||
+      normalizeArabic(w.meaning).contains(q));
+    final visible = selectedChapter == null
+        ? sortWordsByBookOrder(matching)
+        : filterWordsByChapter(matching, 1, selectedChapter!);
     return CustomScrollView(
       key: const Key('dictionary-scroll-list'),
       controller: wordScroll,
@@ -317,11 +319,14 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             const SizedBox(height: 5),
             Wrap(spacing: 8, children: [
               FilterChip(label: const Text('Все слова'),
-                selected: !chapterOnly,
-                onSelected: (_) => setState(() => chapterOnly = false)),
+                selected: selectedChapter == null,
+                onSelected: (_) => setState(() => selectedChapter = null)),
               FilterChip(label: const Text('Книга 1 · Тема 1'),
-                selected: chapterOnly,
-                onSelected: (_) => setState(() => chapterOnly = true)),
+                selected: selectedChapter == 1,
+                onSelected: (_) => setState(() => selectedChapter = 1)),
+              FilterChip(label: const Text('Книга 1 · Тема 2'),
+                selected: selectedChapter == 2,
+                onSelected: (_) => setState(() => selectedChapter = 2)),
             ]),
             const Text('Учебный список пока проходит сверку.',
               style: TextStyle(color: muted, fontSize: 11)),
