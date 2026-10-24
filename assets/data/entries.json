@@ -336,7 +336,23 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 11,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 11
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ]
     },
     {
       "id": "demo11",
@@ -1661,7 +1677,23 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 32,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 32
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ]
     },
     {
       "id": "level1_topic1_033",
@@ -5820,6 +5852,15 @@
           "index": 5,
           "official_end_glossary_checked": false,
           "order_note": "curated author order from secondary lesson glossary"
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
         }
       ],
       "source_group": "book1_chapter4_secondary",
@@ -6860,6 +6901,15 @@
           "index": 34,
           "official_end_glossary_checked": false,
           "order_note": "curated author order from secondary lesson glossary"
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
         }
       ],
       "source_group": "book1_chapter4_secondary",
@@ -6900,6 +6950,15 @@
           "index": 35,
           "official_end_glossary_checked": false,
           "order_note": "curated author order from secondary lesson glossary"
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
         }
       ],
       "source_group": "book1_chapter4_secondary",
@@ -9584,6 +9643,1086 @@
         }
       ],
       "sources": []
+    },
+    {
+      "id": "l1u7_001",
+      "arabic": "لَوْحَةٌ",
+      "meaning_ar": "سَطْحٌ نَكْتُبُ عَلَيْهِ أَوْ نَعْرِضُ عَلَيْهِ مَعْلُومَاتٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لَوْحَاتٌ"
+      ],
+      "collocations": [
+        "اللَّوْحَةُ الدِّرَاسِيَّةُ"
+      ],
+      "examples_ar": [
+        "يَكْتُبُ الْمُعَلِّمُ عَلَى اللَّوْحَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_002",
+      "arabic": "لَوْحٌ",
+      "meaning_ar": "قِطْعَةٌ مُسْتَوِيَةٌ مِنْ خَشَبٍ أَوْ مَادَّةٍ أُخْرَى.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْوَاحٌ"
+      ],
+      "collocations": [
+        "لَوْحٌ خَشَبِيٌّ"
+      ],
+      "examples_ar": [
+        "هَذَا لَوْحٌ كَبِيرٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_003",
+      "arabic": "جَدْوَلٌ",
+      "meaning_ar": "قَائِمَةٌ مُرَتَّبَةٌ تَجْمَعُ مَوَاعِيدَ أَوْ مَعْلُومَاتٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَدَاوِلُ"
+      ],
+      "collocations": [
+        "الْجَدْوَلُ الدِّرَاسِيُّ"
+      ],
+      "examples_ar": [
+        "اُنْظُرْ إِلَى الْجَدْوَلِ الدِّرَاسِيِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_004",
+      "arabic": "دِرَاسَةٌ",
+      "meaning_ar": "تَعَلُّمُ الْعُلُومِ وَالْمَعَارِفِ بِالْقِرَاءَةِ وَالْفَهْمِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دِرَاسَاتٌ"
+      ],
+      "collocations": [
+        "سَاعَاتُ الدِّرَاسَةِ"
+      ],
+      "examples_ar": [
+        "تَبْدَأُ الدِّرَاسَةُ فِي الصَّبَاحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_006",
+      "arabic": "مَادَّةٌ",
+      "meaning_ar": "مَوْضُوعٌ يَدْرُسُهُ الطَّالِبُ فِي الْمَدْرَسَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَادُّ"
+      ],
+      "collocations": [
+        "مَادَّةُ الرِّيَاضِيَّاتِ"
+      ],
+      "examples_ar": [
+        "أُحِبُّ مَادَّةَ الْعَرَبِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_007",
+      "arabic": "ثَقَافَةٌ",
+      "meaning_ar": "مَعَارِفُ النَّاسِ وَعَادَاتُهُمْ وَأَفْكَارُهُمْ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثَقَافَاتٌ"
+      ],
+      "collocations": [
+        "الثَّقَافَةُ الْإِسْلَامِيَّةُ"
+      ],
+      "examples_ar": [
+        "نَدْرُسُ الثَّقَافَةَ الْإِسْلَامِيَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_009",
+      "arabic": "عِلْمٌ",
+      "meaning_ar": "مَعْرِفَةٌ نَحْصُلُ عَلَيْهَا بِالتَّعَلُّمِ وَالْبَحْثِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُلُومٌ"
+      ],
+      "collocations": [
+        "طَلَبُ الْعِلْمِ"
+      ],
+      "examples_ar": [
+        "أَتَعَلَّمُ عُلُومًا جَدِيدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_010",
+      "arabic": "حَاسُوبٌ",
+      "meaning_ar": "جِهَازٌ إِلِكْتُرُونِيٌّ نَسْتَخْدِمُهُ لِلْكِتَابَةِ وَالْحِسَابِ وَتَخْزِينِ الْمَعْلُومَاتِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَوَاسِيبُ"
+      ],
+      "collocations": [
+        "جِهَازُ الْحَاسُوبِ"
+      ],
+      "examples_ar": [
+        "أَكْتُبُ الْوَاجِبَ عَلَى الْحَاسُوبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_011",
+      "arabic": "اِخْتِبَارٌ",
+      "meaning_ar": "أَسْئِلَةٌ أَوْ مَهَامُّ نَعْرِفُ بِهَا مِقْدَارَ فَهْمِ الطَّالِبِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اِخْتِبَارَاتٌ"
+      ],
+      "collocations": [
+        "اِخْتِبَارٌ نِهَائِيٌّ"
+      ],
+      "examples_ar": [
+        "سَيَبْدَأُ الِاخْتِبَارُ غَدًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_012",
+      "arabic": "حِصَّةٌ",
+      "meaning_ar": "وَقْتٌ مُحَدَّدٌ مِنَ الدِّرَاسَةِ لِمَادَّةٍ وَاحِدَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حِصَصٌ"
+      ],
+      "collocations": [
+        "الْحِصَّةُ الْأُولَى"
+      ],
+      "examples_ar": [
+        "عِنْدَنَا سِتُّ حِصَصٍ الْيَوْمَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_013",
+      "arabic": "صَفٌّ",
+      "meaning_ar": "مَكَانٌ يَجْلِسُ فِيهِ الطُّلَّابُ لِلدِّرَاسَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صُفُوفٌ"
+      ],
+      "collocations": [
+        "صَفُّ اللُّغَةِ"
+      ],
+      "examples_ar": [
+        "دَخَلَ الْمُعَلِّمُ الصَّفَّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_014",
+      "arabic": "كُلِّيَّةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الْجَامِعَةِ يُعَلِّمُ مَجْمُوعَةً مُحَدَّدَةً مِنَ التَّخَصُّصَاتِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُلِّيَّاتٌ"
+      ],
+      "collocations": [
+        "كُلِّيَّةُ الطِّبِّ"
+      ],
+      "examples_ar": [
+        "أَدْرُسُ فِي كُلِّيَّةِ الطِّبِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_015",
+      "arabic": "مَكْتَبَةٌ",
+      "meaning_ar": "مَكَانٌ تُوجَدُ فِيهِ كُتُبٌ كَثِيرَةٌ لِلْقِرَاءَةِ أَوِ الِاسْتِعَارَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَكْتَبَاتٌ"
+      ],
+      "collocations": [
+        "مَكْتَبَةُ الْجَامِعَةِ"
+      ],
+      "examples_ar": [
+        "أَقْرَأُ فِي الْمَكْتَبَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_016",
+      "arabic": "مُخْتَبَرٌ",
+      "meaning_ar": "غُرْفَةٌ فِيهَا أَدَوَاتٌ لِلتَّجَارِبِ الْعِلْمِيَّةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخْتَبَرَاتٌ"
+      ],
+      "collocations": [
+        "مُخْتَبَرُ الْعُلُومِ"
+      ],
+      "examples_ar": [
+        "نَذْهَبُ إِلَى الْمُخْتَبَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_017",
+      "arabic": "رِيَاضِيَّاتٌ",
+      "meaning_ar": "عِلْمٌ يَدْرُسُ الْأَعْدَادَ وَالْحِسَابَ وَالْأَشْكَالَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَادَّةُ الرِّيَاضِيَّاتِ"
+      ],
+      "examples_ar": [
+        "عِنْدَنَا دَرْسُ رِيَاضِيَّاتٍ الْيَوْمَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_018",
+      "arabic": "تَرْبِيَةٌ",
+      "meaning_ar": "عَمَلِيَّةُ تَعْلِيمِ الْإِنْسَانِ وَتَنْشِئَتِهِ عَلَى سُلُوكٍ حَسَنٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كُلِّيَّةُ التَّرْبِيَةِ"
+      ],
+      "examples_ar": [
+        "تَدْرُسُ أُخْتِي فِي كُلِّيَّةِ التَّرْبِيَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_019",
+      "arabic": "طِبٌّ",
+      "meaning_ar": "عِلْمٌ يَدْرُسُ الْأَمْرَاضَ وَطُرُقَ عِلَاجِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كُلِّيَّةُ الطِّبِّ"
+      ],
+      "examples_ar": [
+        "يَدْرُسُ أَخِي الطِّبَّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_021",
+      "arabic": "اِسْتِرَاحَةٌ",
+      "meaning_ar": "وَقْتٌ يَتَوَقَّفُ فِيهِ الْإِنْسَانُ عَنِ الْعَمَلِ لِيَرْتَاحَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اِسْتِرَاحَاتٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الِاسْتِرَاحَةِ"
+      ],
+      "examples_ar": [
+        "أَذْهَبُ إِلَى الْمَكْتَبَةِ فِي الِاسْتِرَاحَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_023",
+      "arabic": "بَدَأَ",
+      "meaning_ar": "شَرَعَ فِي عَمَلٍ أَوْ دَرْسٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَبْدَأُ"
+      ],
+      "collocations": [
+        "بَدَأَ الدَّرْسَ"
+      ],
+      "examples_ar": [
+        "يَبْدَأُ الدَّرْسُ فِي السَّابِعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_024",
+      "arabic": "اِنْتَهَى",
+      "meaning_ar": "وَصَلَ إِلَى آخِرِ الشَّيْءِ وَتَوَقَّفَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَنْتَهِي"
+      ],
+      "collocations": [
+        "اِنْتَهَى الدَّرْسُ"
+      ],
+      "examples_ar": [
+        "يَنْتَهِي الْيَوْمُ الدِّرَاسِيُّ ظُهْرًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_025",
+      "arabic": "جَاءَ",
+      "meaning_ar": "وَصَلَ مِنْ مَكَانٍ آخَرَ إِلَى هُنَا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَجِيءُ"
+      ],
+      "collocations": [
+        "جَاءَ الْمُعَلِّمُ"
+      ],
+      "examples_ar": [
+        "جَاءَ الْمُعَلِّمُ إِلَى الصَّفِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_026",
+      "arabic": "كَانَ",
+      "meaning_ar": "فِعْلٌ يَرْبِطُ بَيْنَ الشَّيْءِ وَصِفَتِهِ أَوْ حَالِهِ فِي زَمَنٍ مَاضٍ.",
+      "grammar": [
+        "فِعْلٌ نَاقِصٌ؛ الْمُضَارِعُ يَكُونُ"
+      ],
+      "collocations": [
+        "كَانَ طَالِبًا"
+      ],
+      "examples_ar": [
+        "كَانَ الْجَوُّ جَمِيلًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_027",
+      "arabic": "اِسْتَرَاحَ",
+      "meaning_ar": "تَوَقَّفَ عَنِ الْجُهْدِ فَتْرَةً لِيَسْتَعِيدَ نَشَاطَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَسْتَرِيحُ"
+      ],
+      "collocations": [
+        "اِسْتَرَاحَ بَعْدَ الدَّرْسِ"
+      ],
+      "examples_ar": [
+        "أَسْتَرِيحُ بَعْدَ الدِّرَاسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_028",
+      "arabic": "اِخْتَبَرَ",
+      "meaning_ar": "سَأَلَ شَخْصًا أَسْئِلَةً لِيَعْرِفَ مَا تَعَلَّمَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَخْتَبِرُ"
+      ],
+      "collocations": [
+        "اِخْتَبَرَ الطُّلَّابَ"
+      ],
+      "examples_ar": [
+        "اِخْتَبَرَ الْمُعَلِّمُ الطُّلَّابَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_029",
+      "arabic": "فِي",
+      "meaning_ar": "حَرْفٌ يَدُلُّ عَلَى وُجُودِ شَيْءٍ دَاخِلَ مَكَانٍ أَوْ زَمَنٍ.",
+      "grammar": [
+        "حَرْفُ جَرٍّ"
+      ],
+      "collocations": [
+        "فِي الْمَدْرَسَةِ"
+      ],
+      "examples_ar": [
+        "أَنَا فِي الصَّفِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_030",
+      "arabic": "شَعْبَانُ",
+      "meaning_ar": "شَهْرٌ مِنْ شُهُورِ السَّنَةِ الْهِجْرِيَّةِ يَأْتِي قَبْلَ رَمَضَانَ.",
+      "grammar": [
+        "اِسْمُ شَهْرٍ"
+      ],
+      "collocations": [
+        "شَهْرُ شَعْبَانَ"
+      ],
+      "examples_ar": [
+        "نَدْرُسُ فِي شَهْرِ شَعْبَانَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u7_031",
+      "arabic": "رَمَضَانُ",
+      "meaning_ar": "شَهْرٌ مِنْ شُهُورِ السَّنَةِ الْهِجْرِيَّةِ يَصُومُ فِيهِ الْمُسْلِمُونَ.",
+      "grammar": [
+        "اِسْمُ شَهْرٍ"
+      ],
+      "collocations": [
+        "شَهْرُ رَمَضَانَ"
+      ],
+      "examples_ar": [
+        "نَصُومُ فِي شَهْرِ رَمَضَانَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter7_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6849/",
+        "book": 1,
+        "chapter": 7,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "order_note": "curated independent glossary vocabulary order"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6849/",
+          "book": 1,
+          "chapter": 7,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "order_note": "curated independent glossary vocabulary order"
+        }
+      ],
+      "sources": []
     }
   ],
   "corpus_progress": {
@@ -9606,7 +10745,9 @@
     "level1_fifth_chapter_indexed": 37,
     "level1_fifth_chapter_official_glossary_checked": false,
     "level1_sixth_chapter_indexed": 33,
-    "level1_sixth_chapter_official_glossary_checked": false
+    "level1_sixth_chapter_official_glossary_checked": false,
+    "level1_seventh_chapter_indexed": 32,
+    "level1_seventh_chapter_official_glossary_checked": false
   },
   "source_notes": {
     "verified_official_count": 3325,
