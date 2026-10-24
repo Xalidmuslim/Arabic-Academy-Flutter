@@ -62,7 +62,7 @@ void main() {
           'assets/artwork/shadow_cache/card__emphasized_light.png');
     }
 
-    await tester.pumpWidget(const MaterialApp(
+    await tester.pumpWidget(MaterialApp(
       themeMode: ThemeMode.dark,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
