@@ -56,4 +56,16 @@ void main() {
     expect(sortWordsByBookOrder(words).map((w) => w.id).toList(), ['b', 'a']);
   });
 
+  test('Homographs with different vowel patterns stay separate', () {
+    const source = '{"entries":['
+      '{"id":"noun","arabic":"تَعَارُفٌ","meaning_ar":"مَعْرِفَةٌ",'
+      '"synonyms":[],"antonyms":[],"grammar":["مَصْدَرٌ"],'
+      '"collocations":[],"examples_ar":[]},'
+      '{"id":"verb","arabic":"تَعَارَفَ","meaning_ar":"عَرَفَ",'
+      '"synonyms":[],"antonyms":[],"grammar":["فِعْلٌ"],'
+      '"collocations":[],"examples_ar":[]}]}';
+    final words = decodeWords(source);
+    expect(findWordForToken('تَعَارُفٍ', words)?.id, 'noun');
+    expect(findWordForToken('تَعَارَفَ', words)?.id, 'verb');
+  });
 }
