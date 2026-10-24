@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'design_tokens.dart';
+import 'cached_card_shadow.dart';
 import '../core/performance_probe.dart';
 
 /// Shared, deliberately lightweight soft-matte visual language.
@@ -87,10 +88,10 @@ class NeumorphicSurface extends StatelessWidget {
     );
 
       if (!cached) return surface;
-      // Nine-slice PNGs replace repeated GPU Gaussian shadow painting with
-      // one small cached texture draw, without changing foreground geometry.
-      // A two-pixel middle segment stretches horizontally and vertically.
-      const shadowMargin = 56.0;
+      // Reuse v50's pre-blurred texture, but draw only its visible perimeter.
+      // ImageNine expands to nine Impeller draws, including a covered centre;
+      // CachedCardShadow batches the eight outer patches into one mesh.
+      const shadowMargin = CachedCardShadow.margin;
       final name = emphasized ? 'emphasized' : 'regular';
       final tone = dark ? 'dark' : 'light';
       return Stack(
@@ -101,15 +102,12 @@ class NeumorphicSurface extends StatelessWidget {
             right: -shadowMargin,
             top: -shadowMargin,
             bottom: -shadowMargin,
-            child: Image.asset(
-              'assets/artwork/shadow_cache/card__${name}_$tone.png',
-              key: const ValueKey('cached-card-shadow'),
-              fit: BoxFit.fill,
-              centerSlice: Rect.fromLTWH(
-                shadowMargin + radius, shadowMargin + radius, 2, 2,
+            child: CachedCardShadow(
+              image: AssetImage(
+                'assets/artwork/shadow_cache/card__${name}_$tone.png',
               ),
-              filterQuality: FilterQuality.low,
-              excludeFromSemantics: true,
+              key: const ValueKey('cached-card-shadow'),
+              radius: radius,
             ),
           ),
           surface,

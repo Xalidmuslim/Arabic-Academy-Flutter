@@ -1,6 +1,5 @@
 import 'package:arabic_academy/ui/neumorphic_components.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -40,6 +39,14 @@ void main() {
     expect(paint.maskFilter, isNull);
     expect(paint.imageFilter, isNull);
     expect(paint.shader, isNotNull);
+    final firstMesh = calls.singleWhere((call) =>
+        call.memberName == #drawVertices).positionalArguments.first;
+    canvas.invocations.clear();
+    box.paint(TestRecordingPaintingContext(canvas), Offset.zero);
+    expect(canvas.invocations.singleWhere((call) =>
+        call.invocation.memberName == #drawVertices)
+        .invocation.positionalArguments.first, same(firstMesh),
+        reason: 'scroll repaints reuse geometry instead of allocating a mesh');
     expect(find.text('Диалог 1'), findsOneWidget);
   });
 }

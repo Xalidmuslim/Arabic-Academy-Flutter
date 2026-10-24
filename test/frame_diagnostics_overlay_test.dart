@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('diagnostic panel is noninteractive and shows UI/GPU p95',
+  testWidgets('diagnostic panel is noninteractive and shows UI/raster p95',
       (tester) async {
     PerformanceProbe.setShadowMode(ShadowComparisonMode.all);
     PerformanceProbe.lastReport.value = FramePerformanceReport.fromMicros(
@@ -29,7 +29,7 @@ void main() {
       ),
     ));
     expect(find.textContaining('UI p95'), findsOneWidget);
-    expect(find.textContaining('GPU p95'), findsOneWidget);
+    expect(find.textContaining('Raster p95'), findsOneWidget);
     expect(find.textContaining('Экран Flutter'), findsOneWidget);
     expect(find.textContaining('>8,3мс'), findsOneWidget);
     expect(find.textContaining('>16,7мс'), findsOneWidget);

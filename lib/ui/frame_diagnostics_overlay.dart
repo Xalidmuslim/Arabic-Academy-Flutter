@@ -9,6 +9,8 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const buildLabel = String.fromEnvironment('BAYNA_PERF_BUILD_LABEL');
+    const prefix = buildLabel == '' ? '' : '$buildLabel · ';
     // Engine reported Hz, not measured delivered FPS. The former fixed
     // "120 Hz" header was just a comparison against an 8.33 ms budget.
     final refresh = View.of(context).display.refreshRate;
@@ -38,19 +40,20 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
                 child: Text(
                   report == null
                     ? 'Экран Flutter $rate Гц · прокрути 120 кадров\n'
-                      '${mode.label}'
+                      '$prefix${mode.label}'
                     : 'Экран Flutter $rate Гц · >8,3мс '
                       '${report.over120Budget}/${report.frameCount}\n'
                       'UI p95 ${report.uiP95Ms.toStringAsFixed(1)} мс · '
-                      'GPU p95 ${report.rasterP95Ms.toStringAsFixed(1)} мс '
+                      'Raster p95 ${report.rasterP95Ms.toStringAsFixed(1)} мс '
                       '· >16,7мс ${report.over60Budget}\n'
-                      '${mode.label}',
+                      '$prefix${mode.label}',
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                     fontSize: 11,
                     height: 1.25,
                     fontWeight: FontWeight.w600,
                     color: Colors.white,
+                    decoration: TextDecoration.none,
                   ),
                 ),
               ),

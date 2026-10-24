@@ -1,4 +1,5 @@
 import 'package:arabic_academy/core/performance_probe.dart';
+import 'package:arabic_academy/ui/cached_card_shadow.dart';
 import 'package:arabic_academy/ui/neumorphic_components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -32,9 +33,8 @@ void main() {
       expect(decoration.boxShadow, isEmpty,
           reason: 'opt-in must avoid all runtime BoxShadow blur draws');
       expect(image, findsOneWidget);
-      final widget = tester.widget<Image>(image);
-      expect(widget.centerSlice, isNotNull);
-      expect(widget.fit, BoxFit.fill);
+      final widget = tester.widget<CachedCardShadow>(image);
+      expect(widget.radius, 22);
       expect((widget.image as AssetImage).assetName,
           'assets/artwork/shadow_cache/card__regular_light.png');
     } else {
@@ -56,7 +56,7 @@ void main() {
     ));
     expect(surface(tester).boxShadow, hasLength(cached ? 0 : 3));
     if (cached) {
-      final image = tester.widget<Image>(
+      final image = tester.widget<CachedCardShadow>(
           find.byKey(const ValueKey('cached-card-shadow')));
       expect((image.image as AssetImage).assetName,
           'assets/artwork/shadow_cache/card__emphasized_light.png');
@@ -81,7 +81,7 @@ void main() {
     )).brightness, Brightness.dark);
     expect(surface(tester).boxShadow, hasLength(cached ? 0 : 1));
     if (cached) {
-      final image = tester.widget<Image>(
+      final image = tester.widget<CachedCardShadow>(
           find.byKey(const ValueKey('cached-card-shadow')));
       expect((image.image as AssetImage).assetName,
           'assets/artwork/shadow_cache/card__emphasized_dark.png');
