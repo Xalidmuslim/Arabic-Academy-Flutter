@@ -46,6 +46,10 @@ def generate() -> int:
     # masks for assets that no longer exist.
     expected = set(names)
     for orphan in TARGET.glob("*.png"):
+        # These cache entries are generated independently by the optional
+        # cached-card shadow build step. Never delete them during art preblur.
+        if orphan.name.startswith("card__"):
+            continue
         if orphan.name not in expected:
             orphan.unlink()
     for image in sources:
