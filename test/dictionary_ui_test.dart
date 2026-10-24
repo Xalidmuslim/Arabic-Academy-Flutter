@@ -79,4 +79,22 @@ void main() {
     expect(find.text('وَالِدٌ'), findsWidgets);
   });
 
+  testWidgets('Housing chapter filter selects only its entries', (tester) async {
+    final family = Word('family', 'وَالِدٌ', 'أَبٌ',
+      const [], const [], const ['اِسْمٌ'], const [], const [], '',
+      const [], bookNumber: 1, chapterNumber: 2, chapterOrder: 1);
+    final housing = Word('housing', 'شَقَّةٌ', 'جُزْءٌ مِنْ مَبْنًى',
+      const [], const [], const ['اِسْمٌ'], const [], const [], '',
+      const [], bookNumber: 1, chapterNumber: 3, chapterOrder: 5);
+    await tester.pumpWidget(DictionaryApp(previewWords: [family, housing]));
+    await tester.pumpAndSettle();
+    expect(find.text('2 слов'), findsOneWidget);
+    await tester.ensureVisible(find.text('Книга 1 · Тема 3').first);
+    await tester.tap(find.text('Книга 1 · Тема 3').first);
+    await tester.pumpAndSettle();
+    expect(find.text('1 слов'), findsOneWidget);
+    expect(find.byType(WordTile), findsOneWidget);
+    expect(find.text('شَقَّةٌ'), findsWidgets);
+  });
+
 }
