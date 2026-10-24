@@ -42,7 +42,7 @@ void main() {
     final root = jsonDecode(await File('assets/data/entries.json').readAsString())
         as Map<String, dynamic>;
     final entries = (root['entries'] as List<dynamic>).cast<Map<String, dynamic>>();
-    final shared = entries.firstWhere((e) => e['arabic'] == 'أُسْرَةٌ');
+    final shared = entries.firstWhere((e) => e['arabic'] == 'صُورَةٌ');
     final refs = (shared['book_references'] as List<dynamic>)
         .cast<Map<String, dynamic>>();
     expect(refs.any((r) => r['chapter'] == 1), true);
