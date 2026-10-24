@@ -3,8 +3,8 @@ on:
   push:
     branches: ["codex/bayna-dictionary-demo-apk-20261024"]
     paths:
-      - "assets/data/entries.json"
-      - "tools/validate_dictionary.py"
+      - "assets/data/**"
+      - "tools/**"
       - ".github/workflows/dictionary-content-check.yml"
   workflow_dispatch:
 jobs:
@@ -13,4 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate Arabic dictionary without Flutter or Android
-        run: python3 tools/validate_dictionary.py
+        run: |
+          python3 -m unittest discover -s tools -p "test_*.py"
+          python3 tools/validate_dictionary.py
