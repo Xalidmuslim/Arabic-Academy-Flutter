@@ -29,12 +29,17 @@ void main() {
         },
       ],
     });
+    addTearDown(state.dispose);
+    debugPrint('welcome test: mount');
     await tester.pumpWidget(AcademyApp(state: state));
     expect(find.text('Начать обучение'), findsOneWidget);
+    debugPrint('welcome test: tap start');
     await tester.tap(find.text('Начать обучение'));
+    debugPrint('welcome test: settle');
     await tester.pumpAndSettle();
+    debugPrint('welcome test: verify dashboard');
     expect(find.text('Арабский каждый день'), findsOneWidget);
     expect(find.byKey(const ValueKey('home-switch-role')), findsOneWidget);
     expect(find.byIcon(Icons.switch_account_outlined), findsOneWidget);
-  });
+  }, timeout: const Timeout(Duration(seconds: 30)));
 }

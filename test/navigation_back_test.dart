@@ -19,6 +19,8 @@ void main() {
       'modules': <dynamic>[],
       'lessons': <dynamic>[],
     });
+    addTearDown(state.dispose);
+    debugPrint('back test: mount');
     await tester.pumpWidget(AcademyApp(state: state));
     await tester.pump();
     expect(find.byType(FloatingStudyNavigation), findsOneWidget);
@@ -37,15 +39,19 @@ void main() {
     await tester.pump();
     expect(find.text('Ученица · локальное обучение'), findsOneWidget);
 
+    debugPrint('back test: return home');
     await tester.binding.handlePopRoute();
     await tester.pump();
     expect(find.text('Арабский каждый день'), findsOneWidget);
 
+    debugPrint('back test: request confirmation');
     await tester.binding.handlePopRoute();
+    debugPrint('back test: settle confirmation');
     await tester.pumpAndSettle();
     expect(find.text('Выйти из приложения?'), findsOneWidget);
     await tester.tap(find.text('Отмена'));
+    debugPrint('back test: settle cancellation');
     await tester.pumpAndSettle();
     expect(find.text('Выйти из приложения?'), findsNothing);
-  });
+  }, timeout: const Timeout(Duration(seconds: 30)));
 }
