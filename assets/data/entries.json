@@ -27,6 +27,17 @@
       "additional_meanings_ar": [
         "شَخْصٌ مُتَقَدِّمٌ فِي السِّنِّ.",
         "أَمْرٌ عَظِيمُ الْقَدْرِ أَوِ الْأَهَمِّيَّةِ."
+      ],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
       ]
     },
     {
@@ -90,7 +101,23 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 9,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 9
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ]
     },
     {
       "id": "demo3",
@@ -696,7 +723,18 @@
         "فِعْلٌ؛ الْمُضَارِعُ يَذْهَبُ؛ الْأَمْرُ اِذْهَبْ"
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ]
     },
     {
       "id": "demo27",
@@ -5539,6 +5577,1326 @@
         }
       ],
       "sources": []
+    },
+    {
+      "id": "l1u4_001",
+      "arabic": "صَلَاةٌ",
+      "meaning_ar": "عِبَادَةٌ لِلَّهِ لَهَا أَقْوَالٌ وَحَرَكَاتٌ مَعْلُومَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَلَوَاتٌ"
+      ],
+      "collocations": [
+        "صَلَاةُ الْفَجْرِ"
+      ],
+      "examples_ar": [
+        "أُؤَدِّي الصَّلَاةَ فِي الْمَسْجِدِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_002",
+      "arabic": "مَدْرَسَةٌ",
+      "meaning_ar": "مَكَانٌ يَتَعَلَّمُ فِيهِ الْأَطْفَالُ وَالطُّلَّابُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَدَارِسُ"
+      ],
+      "collocations": [
+        "مَدْرَسَةٌ قَرِيبَةٌ"
+      ],
+      "examples_ar": [
+        "أَذْهَبُ إِلَى الْمَدْرَسَةِ صَبَاحًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_003",
+      "arabic": "سَيَّارَةٌ",
+      "meaning_ar": "وَسِيلَةُ نَقْلٍ تَسِيرُ عَلَى الطَّرِيقِ بِأَرْبَعِ عَجَلَاتٍ غَالِبًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَيَّارَاتٌ"
+      ],
+      "collocations": [
+        "سَيَّارَةٌ جَدِيدَةٌ"
+      ],
+      "examples_ar": [
+        "يَذْهَبُ أَبِي بِالسَّيَّارَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_004",
+      "arabic": "حَافِلَةٌ",
+      "meaning_ar": "سَيَّارَةٌ كَبِيرَةٌ تَحْمِلُ عَدَدًا كَبِيرًا مِنَ الرُّكَّابِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَافِلَاتٌ"
+      ],
+      "collocations": [
+        "حَافِلَةُ الْمَدْرَسَةِ"
+      ],
+      "examples_ar": [
+        "أَرْكَبُ الْحَافِلَةَ كُلَّ صَبَاحٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_005",
+      "arabic": "عُطْلَةٌ",
+      "meaning_ar": "وَقْتٌ يَتَوَقَّفُ فِيهِ الْعَمَلُ أَوِ الدِّرَاسَةُ لِلرَّاحَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُطَلٌ"
+      ],
+      "collocations": [
+        "عُطْلَةُ الْأُسْبُوعِ"
+      ],
+      "examples_ar": [
+        "أَبْقَى فِي الْبَيْتِ يَوْمَ الْعُطْلَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_006",
+      "arabic": "عَمَلٌ",
+      "meaning_ar": "نَشَاطٌ يَقُومُ بِهِ الْإِنْسَانُ لِيُحَقِّقَ هَدَفًا أَوْ يَكْسِبَ رِزْقًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْمَالٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "يَبْدَأُ عَمَلُ أَبِي صَبَاحًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_007",
+      "arabic": "لِبَاسٌ",
+      "meaning_ar": "مَا يَلْبَسُهُ الْإِنْسَانُ لِسَتْرِ جَسَدِهِ وَحِمَايَتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْبِسَةٌ"
+      ],
+      "collocations": [
+        "لِبَاسٌ نَظِيفٌ"
+      ],
+      "examples_ar": [
+        "هَذَا لِبَاسٌ جَدِيدٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_008",
+      "arabic": "طَبَقٌ",
+      "meaning_ar": "إِنَاءٌ مُسَطَّحٌ نَضَعُ فِيهِ الطَّعَامَ لِنَأْكُلَ مِنْهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطْبَاقٌ"
+      ],
+      "collocations": [
+        "طَبَقُ الطَّعَامِ"
+      ],
+      "examples_ar": [
+        "أَغْسِلُ الْأَطْبَاقَ بَعْدَ الْغَدَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_009",
+      "arabic": "صَحِيفَةٌ",
+      "meaning_ar": "أَوْرَاقٌ مَطْبُوعَةٌ فِيهَا أَخْبَارٌ وَمَقَالَاتٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صُحُفٌ"
+      ],
+      "collocations": [
+        "صَحِيفَةُ الْيَوْمِ"
+      ],
+      "examples_ar": [
+        "يَقْرَأُ جَدِّي الصَّحِيفَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_012",
+      "arabic": "اِسْتَيْقَظَ",
+      "meaning_ar": "خَرَجَ مِنَ النَّوْمِ وَصَارَ مُنْتَبِهًا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَسْتَيْقِظُ"
+      ],
+      "collocations": [
+        "اِسْتَيْقَظَ مُبَكِّرًا"
+      ],
+      "examples_ar": [
+        "أَسْتَيْقِظُ عِنْدَ الْفَجْرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_013",
+      "arabic": "فَعَلَ",
+      "meaning_ar": "قَامَ بِعَمَلٍ أَوْ أَنْجَزَ شَيْئًا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَفْعَلُ"
+      ],
+      "collocations": [
+        "فَعَلَ خَيْرًا"
+      ],
+      "examples_ar": [
+        "مَاذَا تَفْعَلُ بَعْدَ الصَّلَاةِ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_015",
+      "arabic": "عَمِلَ",
+      "meaning_ar": "قَامَ بِمَهَمَّةٍ أَوْ مَارَسَ مِهْنَةً.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَعْمَلُ"
+      ],
+      "collocations": [
+        "عَمِلَ فِي شَرِكَةٍ"
+      ],
+      "examples_ar": [
+        "أَعْمَلُ فِي الْمُسْتَشْفَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_016",
+      "arabic": "كَنَسَ",
+      "meaning_ar": "جَمَعَ الْغُبَارَ وَالْأَوْسَاخَ مِنَ الْأَرْضِ بِمِكْنَسَةٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَكْنُسُ"
+      ],
+      "collocations": [
+        "كَنَسَ الْغُرْفَةَ"
+      ],
+      "examples_ar": [
+        "أَكْنُسُ غُرْفَةَ الْجُلُوسِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_017",
+      "arabic": "غَسَلَ",
+      "meaning_ar": "نَظَّفَ شَيْئًا بِالْمَاءِ وَمَا يُسَاعِدُ عَلَى التَّنْظِيفِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَغْسِلُ"
+      ],
+      "collocations": [
+        "غَسَلَ الْمَلَابِسَ"
+      ],
+      "examples_ar": [
+        "تَغْسِلُ أُخْتِي الْمَلَابِسَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_018",
+      "arabic": "كَوَى",
+      "meaning_ar": "جَعَلَ الْمَلَابِسَ مُسْتَوِيَةً بِمِكْوَاةٍ سَاخِنَةٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَكْوِي"
+      ],
+      "collocations": [
+        "كَوَى الْقَمِيصَ"
+      ],
+      "examples_ar": [
+        "تَكْوِي أُمِّي الْمَلَابِسَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_019",
+      "arabic": "نَاوَلَ",
+      "meaning_ar": "أَعْطَى شَيْئًا لِشَخْصٍ بِمَدِّ يَدِهِ إِلَيْهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُنَاوِلُ"
+      ],
+      "collocations": [
+        "نَاوَلَ الْكِتَابَ"
+      ],
+      "examples_ar": [
+        "نَاوِلْنِي الْكِتَابَ مِنْ فَضْلِكَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_020",
+      "arabic": "تَنَاوَلَ",
+      "meaning_ar": "أَخَذَ شَيْئًا وَاسْتَعْمَلَهُ أَوْ أَكَلَ طَعَامًا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَنَاوَلُ"
+      ],
+      "collocations": [
+        "تَنَاوَلَ الْفُطُورَ"
+      ],
+      "examples_ar": [
+        "أَتَنَاوَلُ الْفُطُورَ فِي السَّابِعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_021",
+      "arabic": "بَكَّرَ",
+      "meaning_ar": "فَعَلَ شَيْئًا فِي وَقْتٍ مُبَكِّرٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُبَكِّرُ"
+      ],
+      "collocations": [
+        "بَكَّرَ فِي الْخُرُوجِ"
+      ],
+      "examples_ar": [
+        "بَكَّرَ أَبِي فِي الذَّهَابِ إِلَى الْعَمَلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_022",
+      "arabic": "أَخَّرَ",
+      "meaning_ar": "جَعَلَ حُدُوثَ شَيْءٍ فِي وَقْتٍ مُتَأَخِّرٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُؤَخِّرُ"
+      ],
+      "collocations": [
+        "أَخَّرَ الْمَوْعِدَ"
+      ],
+      "examples_ar": [
+        "أَخَّرَ الْمُدَرِّسُ الدَّرْسَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_023",
+      "arabic": "تَأَخَّرَ",
+      "meaning_ar": "وَصَلَ أَوْ حَدَثَ بَعْدَ الْوَقْتِ الْمُنَاسِبِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَأَخَّرُ"
+      ],
+      "collocations": [
+        "تَأَخَّرَ عَنِ الدَّرْسِ"
+      ],
+      "examples_ar": [
+        "تَأَخَّرَ الطَّالِبُ عَنِ الْمَدْرَسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_024",
+      "arabic": "مَتَى",
+      "meaning_ar": "كَلِمَةٌ نَسْأَلُ بِهَا عَنْ وَقْتِ حُدُوثِ شَيْءٍ.",
+      "grammar": [
+        "اِسْمُ اِسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "مَتَى تَسْتَيْقِظُ؟"
+      ],
+      "examples_ar": [
+        "مَتَى تَذْهَبُ إِلَى الْمَدْرَسَةِ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_025",
+      "arabic": "كَيْفَ",
+      "meaning_ar": "كَلِمَةٌ نَسْأَلُ بِهَا عَنِ الْحَالِ أَوِ الطَّرِيقَةِ.",
+      "grammar": [
+        "اِسْمُ اِسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "كَيْفَ حَالُكَ؟"
+      ],
+      "examples_ar": [
+        "كَيْفَ تَذْهَبُ إِلَى الْعَمَلِ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_026",
+      "arabic": "لِمَاذَا",
+      "meaning_ar": "كَلِمَةٌ نَسْأَلُ بِهَا عَنْ سَبَبِ وُقُوعِ شَيْءٍ.",
+      "grammar": [
+        "اِسْمُ اِسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "لِمَاذَا تَأَخَّرْتَ؟"
+      ],
+      "examples_ar": [
+        "لِمَاذَا تَذْهَبُ مُبَكِّرًا؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_027",
+      "arabic": "مَنْ",
+      "meaning_ar": "كَلِمَةٌ نَسْأَلُ بِهَا عَنْ شَخْصٍ.",
+      "grammar": [
+        "اِسْمُ اِسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "مَنْ هَذَا؟"
+      ],
+      "examples_ar": [
+        "مَنْ يَغْسِلُ الْأَطْبَاقَ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_028",
+      "arabic": "هَلْ",
+      "meaning_ar": "أَدَاةٌ نَسْأَلُ بِهَا سُؤَالًا جَوَابُهُ نَعَمْ أَوْ لَا.",
+      "grammar": [
+        "حَرْفُ اِسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "هَلْ تَسْتَيْقِظُ؟"
+      ],
+      "examples_ar": [
+        "هَلْ تَذْهَبُ إِلَى الْمَدْرَسَةِ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_029",
+      "arabic": "مَاذَا",
+      "meaning_ar": "كَلِمَةٌ نَسْأَلُ بِهَا عَنِ الشَّيْءِ أَوِ الْعَمَلِ.",
+      "grammar": [
+        "اِسْمُ اِسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "مَاذَا تَفْعَلُ؟"
+      ],
+      "examples_ar": [
+        "مَاذَا تَقْرَأُ فِي الصَّبَاحِ؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_030",
+      "arabic": "مَا",
+      "meaning_ar": "كَلِمَةٌ تُسْتَعْمَلُ لِلسُّؤَالِ عَنْ شَيْءٍ أَوْ نَفْيِهِ بِحَسَبِ السِّيَاقِ.",
+      "grammar": [
+        "اِسْمُ اِسْتِفْهَامٍ أَوْ أَدَاةُ نَفْيٍ"
+      ],
+      "collocations": [
+        "مَا اسْمُكَ؟"
+      ],
+      "examples_ar": [
+        "مَا هَذَا؟"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_031",
+      "arabic": "يَا",
+      "meaning_ar": "حَرْفٌ نُنَادِي بِهِ شَخْصًا أَوْ نَلْفِتُ بِهِ اِنْتِبَاهَهُ.",
+      "grammar": [
+        "حَرْفُ نِدَاءٍ"
+      ],
+      "collocations": [
+        "يَا أَحْمَدُ"
+      ],
+      "examples_ar": [
+        "يَا أَحْمَدُ، تَعَالَ هُنَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_032",
+      "arabic": "مِنْ",
+      "meaning_ar": "حَرْفٌ يَدُلُّ عَلَى الْبِدَايَةِ أَوِ الْمَصْدَرِ بِحَسَبِ الْجُمْلَةِ.",
+      "grammar": [
+        "حَرْفُ جَرٍّ"
+      ],
+      "collocations": [
+        "مِنَ الْبَيْتِ"
+      ],
+      "examples_ar": [
+        "خَرَجْتُ مِنَ الْبَيْتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_033",
+      "arabic": "إِلَى",
+      "meaning_ar": "حَرْفٌ يَدُلُّ عَلَى الْغَايَةِ أَوِ الْمَكَانِ الَّذِي نَتَّجِهُ نَحْوَهُ.",
+      "grammar": [
+        "حَرْفُ جَرٍّ"
+      ],
+      "collocations": [
+        "إِلَى الْمَدْرَسَةِ"
+      ],
+      "examples_ar": [
+        "ذَهَبْتُ إِلَى الْمَدْرَسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_034",
+      "arabic": "صَبَاحٌ",
+      "meaning_ar": "وَقْتٌ مِنَ الْيَوْمِ يَبْدَأُ بِطُلُوعِ النَّهَارِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَبَاحَاتٌ"
+      ],
+      "collocations": [
+        "فِي الصَّبَاحِ"
+      ],
+      "examples_ar": [
+        "أَقْرَأُ الْقُرْآنَ صَبَاحًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_035",
+      "arabic": "مُبَكِّرٌ",
+      "meaning_ar": "مَا كَانَ فِي أَوَّلِ الْوَقْتِ أَوْ قَبْلَ الْمُعْتَادِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُبَكِّرَةٌ"
+      ],
+      "collocations": [
+        "وَقْتٌ مُبَكِّرٌ"
+      ],
+      "examples_ar": [
+        "أَسْتَيْقِظُ مُبَكِّرًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
+    },
+    {
+      "id": "l1u4_036",
+      "arabic": "مُتَأَخِّرٌ",
+      "meaning_ar": "مَا كَانَ بَعْدَ الْوَقْتِ الْمُعْتَادِ أَوِ الْمُحَدَّدِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَأَخِّرَةٌ"
+      ],
+      "collocations": [
+        "وَقْتٌ مُتَأَخِّرٌ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الطَّالِبُ مُتَأَخِّرًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6842/",
+        "book": 1,
+        "chapter": 4,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "order_note": "curated author order from secondary lesson glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6842/",
+          "book": 1,
+          "chapter": 4,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "order_note": "curated author order from secondary lesson glossary"
+        }
+      ],
+      "source_group": "book1_chapter4_secondary",
+      "sources": []
     }
   ],
   "corpus_progress": {
@@ -5554,7 +6912,10 @@
     "level1_third_chapter_indexed": 52,
     "level1_third_chapter_source": "independent_secondary_unit_glossary",
     "level1_third_chapter_official_glossary_checked": false,
-    "level1_third_chapter_last_updated": "2026-10-25"
+    "level1_third_chapter_last_updated": "2026-10-25",
+    "level1_fourth_chapter_indexed": 36,
+    "level1_fourth_chapter_source": "independent_secondary_unit_glossary",
+    "level1_fourth_chapter_official_glossary_checked": false
   },
   "source_notes": {
     "verified_official_count": 3325,
