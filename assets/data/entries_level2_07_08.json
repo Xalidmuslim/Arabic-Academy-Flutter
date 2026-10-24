@@ -1,0 +1,2988 @@
+{
+  "schema_version": 2,
+  "source_status": "topic_candidate_not_officially_collated",
+  "entries": [
+    {
+      "id": "l2u07_001",
+      "arabic": "لِسَانٌ",
+      "meaning_ar": "عُضْوٌ فِي الْفَمِ يُسَاعِدُ عَلَى النُّطْقِ، وَيَأْتِي أَيْضًا بِمَعْنَى اللُّغَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْسِنَةٌ"
+      ],
+      "collocations": [
+        "اللِّسَانُ الْعَرَبِيُّ"
+      ],
+      "examples_ar": [
+        "أَتَعَلَّمُ اللِّسَانَ الْعَرَبِيَّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_002",
+      "arabic": "لَهْجَةٌ",
+      "meaning_ar": "طَرِيقَةٌ خَاصَّةٌ فِي نُطْقِ لُغَةٍ وَاسْتِعْمَالِ كَلِمَاتِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لَهَجَاتٌ"
+      ],
+      "collocations": [
+        "لَهْجَةٌ مَحَلِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَخْتَلِفُ اللَّهَجَاتُ بَيْنَ الْبِلَادِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_003",
+      "arabic": "حَرْفٌ",
+      "meaning_ar": "رَمْزٌ يُمَثِّلُ صَوْتًا فِي الْكِتَابَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُرُوفٌ"
+      ],
+      "collocations": [
+        "حُرُوفُ الْهِجَاءِ"
+      ],
+      "examples_ar": [
+        "أَكْتُبُ الْحُرُوفَ الْعَرَبِيَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_004",
+      "arabic": "صَوْتٌ",
+      "meaning_ar": "مَا نَسْمَعُهُ بِالْأُذُنِ وَنُمَيِّزُ بِهِ الْكَلَامَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَصْوَاتٌ"
+      ],
+      "collocations": [
+        "صَوْتُ الْحَرْفِ"
+      ],
+      "examples_ar": [
+        "يَسْمَعُ الطَّالِبُ صَوْتَ الْمُعَلِّمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_005",
+      "arabic": "نُطْقٌ",
+      "meaning_ar": "إِخْرَاجُ الْحُرُوفِ وَالْكَلِمَاتِ مِنَ الْفَمِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "النُّطْقُ الصَّحِيحُ"
+      ],
+      "examples_ar": [
+        "يَتَحَسَّنُ النُّطْقُ بِالتَّدْرِيبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_006",
+      "arabic": "مُفْرَدَةٌ",
+      "meaning_ar": "كَلِمَةٌ وَاحِدَةٌ مِنْ كَلِمَاتِ اللُّغَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُفْرَدَاتٌ"
+      ],
+      "collocations": [
+        "مُفْرَدَاتٌ جَدِيدَةٌ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمْتُ مُفْرَدَةً جَدِيدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_007",
+      "arabic": "نَحْوٌ",
+      "meaning_ar": "عِلْمٌ يَدْرُسُ تَرْكِيبَ الْجُمْلَةِ وَوَظَائِفَ الْكَلِمَاتِ فِيهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قَوَاعِدُ النَّحْوِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمْتُ قَاعِدَةً فِي النَّحْوِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_008",
+      "arabic": "صَرْفٌ",
+      "meaning_ar": "عِلْمٌ يَدْرُسُ بِنَاءَ الْكَلِمَةِ وَتَغَيُّرَ صِيَغِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عِلْمُ الصَّرْفِ"
+      ],
+      "examples_ar": [
+        "دَرَسْنَا صِيَغَ الْأَفْعَالِ فِي الصَّرْفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_009",
+      "arabic": "إِعْرَابٌ",
+      "meaning_ar": "بَيَانُ وَظِيفَةِ الْكَلِمَةِ فِي الْجُمْلَةِ وَحَرَكَةِ آخِرِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِعْرَابُ الْجُمْلَةِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ إِعْرَابَ الْفَاعِلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_010",
+      "arabic": "فِعْلٌ",
+      "meaning_ar": "كَلِمَةٌ تَدُلُّ عَلَى حُدُوثِ عَمَلٍ فِي زَمَنٍ مُعَيَّنٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَفْعَالٌ"
+      ],
+      "collocations": [
+        "فِعْلٌ مَاضٍ"
+      ],
+      "examples_ar": [
+        "«كَتَبَ» فِعْلٌ مَاضٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_011",
+      "arabic": "فَاعِلٌ",
+      "meaning_ar": "اِسْمٌ يَدُلُّ عَلَى مَنْ قَامَ بِالْفِعْلِ فِي الْجُمْلَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَاعِلُونَ"
+      ],
+      "collocations": [
+        "الْفَاعِلُ الْمَرْفُوعُ"
+      ],
+      "examples_ar": [
+        "«أَحْمَدُ» فَاعِلٌ فِي «كَتَبَ أَحْمَدُ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_012",
+      "arabic": "مَفْعُولٌ",
+      "meaning_ar": "اِسْمٌ يَقَعُ عَلَيْهِ عَمَلُ الْفِعْلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَفْعُولَاتٌ"
+      ],
+      "collocations": [
+        "الْمَفْعُولُ بِهِ"
+      ],
+      "examples_ar": [
+        "«كِتَابًا» مَفْعُولٌ بِهِ فِي «قَرَأَ كِتَابًا»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_013",
+      "arabic": "مُبْتَدَأٌ",
+      "meaning_ar": "اِسْمٌ مَرْفُوعٌ تَبْدَأُ بِهِ الْجُمْلَةُ الِاسْمِيَّةُ غَالِبًا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمُبْتَدَأُ وَالْخَبَرُ"
+      ],
+      "examples_ar": [
+        "«الْبَيْتُ» مُبْتَدَأٌ فِي «الْبَيْتُ جَمِيلٌ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_014",
+      "arabic": "خَبَرٌ",
+      "meaning_ar": "كَلِمَةٌ أَوْ تَرْكِيبٌ يُكْمِلُ مَعْنَى الْمُبْتَدَأِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَخْبَارٌ"
+      ],
+      "collocations": [
+        "خَبَرُ الْمُبْتَدَأِ"
+      ],
+      "examples_ar": [
+        "«جَمِيلٌ» خَبَرٌ فِي «الْبَيْتُ جَمِيلٌ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_015",
+      "arabic": "جَمْعٌ",
+      "meaning_ar": "صِيغَةٌ تَدُلُّ عَلَى ثَلَاثَةٍ أَوْ أَكْثَرَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جُمُوعٌ"
+      ],
+      "collocations": [
+        "جَمْعُ التَّكْسِيرِ"
+      ],
+      "examples_ar": [
+        "«كُتُبٌ» جَمْعُ «كِتَابٍ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_016",
+      "arabic": "مُفْرَدٌ",
+      "meaning_ar": "صِيغَةٌ تَدُلُّ عَلَى شَيْءٍ وَاحِدٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُفْرَدَاتٌ"
+      ],
+      "collocations": [
+        "اِسْمٌ مُفْرَدٌ"
+      ],
+      "examples_ar": [
+        "«قَلَمٌ» اِسْمٌ مُفْرَدٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_017",
+      "arabic": "مُثَنًّى",
+      "meaning_ar": "صِيغَةٌ لُغَوِيَّةٌ تَدُلُّ عَلَى اثْنَيْنِ أَوِ اثْنَتَيْنِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صِيغَةُ الْمُثَنَّى"
+      ],
+      "examples_ar": [
+        "«قَلَمَانِ» مُثَنًّى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_018",
+      "arabic": "تَعْبِيرٌ",
+      "meaning_ar": "اسْتِخْدَامُ الْكَلِمَاتِ لِإِيصَالِ فِكْرَةٍ أَوْ شُعُورٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَعْبِيرَاتٌ"
+      ],
+      "collocations": [
+        "التَّعْبِيرُ الشَّفَهِيُّ"
+      ],
+      "examples_ar": [
+        "أَتَدَرَّبُ عَلَى التَّعْبِيرِ بِالْعَرَبِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_019",
+      "arabic": "مَعْنًى",
+      "meaning_ar": "الْفِكْرَةُ الَّتِي تَدُلُّ عَلَيْهَا كَلِمَةٌ أَوْ جُمْلَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَعَانٍ"
+      ],
+      "collocations": [
+        "مَعْنَى الْكَلِمَةِ"
+      ],
+      "examples_ar": [
+        "بَحَثْتُ عَنْ مَعْنَى الْكَلِمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_020",
+      "arabic": "دَلَالَةٌ",
+      "meaning_ar": "مَا تُشِيرُ إِلَيْهِ كَلِمَةٌ أَوْ عَلَامَةٌ مِنْ مَعْنًى.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دَلَالَاتٌ"
+      ],
+      "collocations": [
+        "دَلَالَةُ اللَّفْظِ"
+      ],
+      "examples_ar": [
+        "تَخْتَلِفُ الدَّلَالَةُ بِحَسَبِ السِّيَاقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_021",
+      "arabic": "سِيَاقٌ",
+      "meaning_ar": "الْكَلَامُ الَّذِي يَأْتِي قَبْلَ الْكَلِمَةِ وَبَعْدَهَا وَيُوَضِّحُ مَعْنَاهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سِيَاقَاتٌ"
+      ],
+      "collocations": [
+        "سِيَاقُ الْجُمْلَةِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ السِّيَاقُ عَلَى الْفَهْمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_022",
+      "arabic": "تَرْجَمَةٌ",
+      "meaning_ar": "نَقْلُ مَعْنَى الْكَلَامِ مِنْ لُغَةٍ إِلَى لُغَةٍ أُخْرَى.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَرْجَمَاتٌ"
+      ],
+      "collocations": [
+        "التَّرْجَمَةُ الْمَكْتُوبَةُ"
+      ],
+      "examples_ar": [
+        "أَقْرَأُ الْعَرَبِيَّةَ دُونَ تَرْجَمَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_023",
+      "arabic": "مَخْرَجٌ",
+      "meaning_ar": "مَوْضِعٌ مِنَ الْفَمِ أَوِ الْحَلْقِ يَخْرُجُ مِنْهُ صَوْتُ الْحَرْفِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَخَارِجُ"
+      ],
+      "collocations": [
+        "مَخَارِجُ الْحُرُوفِ"
+      ],
+      "examples_ar": [
+        "نَدْرُسُ مَخَارِجَ الْحُرُوفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_024",
+      "arabic": "حَرَكَةٌ",
+      "meaning_ar": "عَلَامَةٌ صَغِيرَةٌ عَلَى الْحَرْفِ تُبَيِّنُ طَرِيقَةَ نُطْقِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَرَكَاتٌ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الضَّمِّ"
+      ],
+      "examples_ar": [
+        "ضَعْ حَرَكَةً فَوْقَ الْحَرْفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_025",
+      "arabic": "شَدَّةٌ",
+      "meaning_ar": "عَلَامَةٌ تُوضَعُ فَوْقَ الْحَرْفِ لِلدَّلَالَةِ عَلَى تَضْعِيفِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَدَّاتٌ"
+      ],
+      "collocations": [
+        "عَلَامَةُ الشَّدَّةِ"
+      ],
+      "examples_ar": [
+        "فِي كَلِمَةِ «مُدَرِّسٌ» شَدَّةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_026",
+      "arabic": "تَنْوِينٌ",
+      "meaning_ar": "نُونٌ سَاكِنَةٌ تُنْطَقُ آخِرَ الِاسْمِ وَلَا تُكْتَبُ حَرْفًا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَنْوِينُ الضَّمِّ"
+      ],
+      "examples_ar": [
+        "فِي «بَيْتٌ» تَنْوِينُ ضَمٍّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_027",
+      "arabic": "فَصَاحَةٌ",
+      "meaning_ar": "سَلَامَةُ الْكَلَامِ وَوُضُوحُهُ وَحُسْنُ أَلْفَاظِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فَصَاحَةُ اللِّسَانِ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ الْقِرَاءَةُ عَلَى الْفَصَاحَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_028",
+      "arabic": "بَلَاغَةٌ",
+      "meaning_ar": "اسْتِعْمَالُ الْكَلَامِ الْمُنَاسِبِ لِلْمَقَامِ بِصُورَةٍ جَمِيلَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عِلْمُ الْبَلَاغَةِ"
+      ],
+      "examples_ar": [
+        "يَدْرُسُ الطَّالِبُ الْبَلَاغَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_029",
+      "arabic": "اسْتِمَاعٌ",
+      "meaning_ar": "الْإِصْغَاءُ إِلَى الْأَصْوَاتِ بِقَصْدِ فَهْمِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَهَارَةُ الِاسْتِمَاعِ"
+      ],
+      "examples_ar": [
+        "أَتَدَرَّبُ عَلَى الِاسْتِمَاعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_030",
+      "arabic": "مُحَادَثَةٌ",
+      "meaning_ar": "تَبَادُلُ الْكَلَامِ بَيْنَ شَخْصَيْنِ أَوْ أَكْثَرَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُحَادَثَاتٌ"
+      ],
+      "collocations": [
+        "مُحَادَثَةٌ بِالْعَرَبِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَحَدَّثْنَا بِالْعَرَبِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_031",
+      "arabic": "نَطَقَ",
+      "meaning_ar": "أَخْرَجَ حَرْفًا أَوْ كَلِمَةً بِلِسَانِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَنْطِقُ"
+      ],
+      "collocations": [
+        "نَطَقَ الْحَرْفَ"
+      ],
+      "examples_ar": [
+        "نَطَقَ الْمُعَلِّمُ الْكَلِمَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_032",
+      "arabic": "تَرْجَمَ",
+      "meaning_ar": "نَقَلَ مَعْنَى كَلَامٍ إِلَى لُغَةٍ أُخْرَى.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُتَرْجِمُ"
+      ],
+      "collocations": [
+        "تَرْجَمَ النَّصَّ"
+      ],
+      "examples_ar": [
+        "تَرْجَمَ الطَّالِبُ جُمْلَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_033",
+      "arabic": "أَعْرَبَ",
+      "meaning_ar": "بَيَّنَ مَوْقِعَ الْكَلِمَةِ وَعَلَامَةَ إِعْرَابِهَا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُعْرِبُ"
+      ],
+      "collocations": [
+        "أَعْرَبَ الْجُمْلَةَ"
+      ],
+      "examples_ar": [
+        "أَعْرَبَ الْمُعَلِّمُ الْجُمْلَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_034",
+      "arabic": "صَرَّفَ",
+      "meaning_ar": "غَيَّرَ صِيغَةَ الْفِعْلِ أَوِ الِاسْمِ بِحَسَبِ الْقَاعِدَةِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُصَرِّفُ"
+      ],
+      "collocations": [
+        "صَرَّفَ الْفِعْلَ"
+      ],
+      "examples_ar": [
+        "صَرَّفْنَا الْفِعْلَ مَعَ الضَّمَائِرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_035",
+      "arabic": "فَسَّرَ",
+      "meaning_ar": "وَضَّحَ مَعْنَى الْكَلَامِ بِأَلْفَاظٍ أُخْرَى.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُفَسِّرُ"
+      ],
+      "collocations": [
+        "فَسَّرَ الْمَعْنَى"
+      ],
+      "examples_ar": [
+        "فَسَّرَ الْمُعَلِّمُ الْكَلِمَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_036",
+      "arabic": "ضَبَطَ",
+      "meaning_ar": "جَعَلَ الْكَلِمَةَ صَحِيحَةَ الشَّكْلِ وَالْحَرَكَاتِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَضْبِطُ"
+      ],
+      "collocations": [
+        "ضَبَطَ الْحُرُوفَ"
+      ],
+      "examples_ar": [
+        "ضَبَطْتُ الْكَلِمَةَ بِالْحَرَكَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u07_037",
+      "arabic": "كَتَبَ",
+      "meaning_ar": "رَسَمَ الْحُرُوفَ وَالْكَلِمَاتِ بِالْقَلَمِ أَوِ الْحَاسُوبِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَكْتُبُ"
+      ],
+      "collocations": [
+        "كَتَبَ جُمْلَةً"
+      ],
+      "examples_ar": [
+        "كَتَبْتُ جُمْلَةً جَدِيدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 7,
+        "index": 37,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 7,
+          "index": 37,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_001",
+      "arabic": "جَائِزَةٌ",
+      "meaning_ar": "شَيْءٌ يُقَدَّمُ لِشَخْصٍ تَقْدِيرًا لِنَجَاحِهِ أَوْ جُهْدِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَوَائِزُ"
+      ],
+      "collocations": [
+        "جَائِزَةٌ عِلْمِيَّةٌ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الْفَائِزُ عَلَى جَائِزَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_002",
+      "arabic": "مِيدَالِيَّةٌ",
+      "meaning_ar": "قِطْعَةٌ تُقَدَّمُ لِلْفَائِزِ فِي مُنَافَسَةٍ أَوْ تَكْرِيمٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مِيدَالِيَّاتٌ"
+      ],
+      "collocations": [
+        "مِيدَالِيَّةٌ ذَهَبِيَّةٌ"
+      ],
+      "examples_ar": [
+        "فَازَتْ بِمِيدَالِيَّةٍ ذَهَبِيَّةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_003",
+      "arabic": "كَأْسٌ",
+      "meaning_ar": "إِنَاءٌ لِلشُّرْبِ، وَقَدْ يُقَدَّمُ شَكْلٌ مِنْهُ جَائِزَةً.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُؤُوسٌ"
+      ],
+      "collocations": [
+        "كَأْسُ الْبُطُولَةِ"
+      ],
+      "examples_ar": [
+        "رَفَعَ الْفَرِيقُ كَأْسَ الْبُطُولَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_004",
+      "arabic": "مُسَابَقَةٌ",
+      "meaning_ar": "نَشَاطٌ يَتَنَافَسُ فِيهِ أَشْخَاصٌ لِلْفَوْزِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسَابَقَاتٌ"
+      ],
+      "collocations": [
+        "مُسَابَقَةٌ ثَقَافِيَّةٌ"
+      ],
+      "examples_ar": [
+        "شَارَكْتُ فِي مُسَابَقَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_005",
+      "arabic": "مُتَسَابِقٌ",
+      "meaning_ar": "شَخْصٌ يَدْخُلُ مُسَابَقَةً وَيُحَاوِلُ الْفَوْزَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُتَسَابِقُونَ"
+      ],
+      "collocations": [
+        "مُتَسَابِقٌ مَاهِرٌ"
+      ],
+      "examples_ar": [
+        "اِسْتَعَدَّ الْمُتَسَابِقُ لِلِاخْتِبَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_006",
+      "arabic": "فَائِزٌ",
+      "meaning_ar": "شَخْصٌ نَجَحَ فِي مُسَابَقَةٍ أَوْ حَصَلَ عَلَى جَائِزَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَائِزُونَ"
+      ],
+      "collocations": [
+        "الْفَائِزُ الْأَوَّلُ"
+      ],
+      "examples_ar": [
+        "كَرَّمَتِ الْمَدْرَسَةُ الْفَائِزَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_007",
+      "arabic": "إِنْجَازٌ",
+      "meaning_ar": "عَمَلٌ تَمَّ بِالنَّجَاحِ بَعْدَ جُهْدٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِنْجَازَاتٌ"
+      ],
+      "collocations": [
+        "إِنْجَازٌ كَبِيرٌ"
+      ],
+      "examples_ar": [
+        "كَانَ هَذَا إِنْجَازًا مُهِمًّا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_008",
+      "arabic": "لَجْنَةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ النَّاسِ لَهُمْ مَهَمَّةٌ مُشْتَرَكَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لِجَانٌ"
+      ],
+      "collocations": [
+        "لَجْنَةُ التَّحْكِيمِ"
+      ],
+      "examples_ar": [
+        "اجْتَمَعَتْ لَجْنَةُ التَّحْكِيمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_009",
+      "arabic": "حَكَمٌ",
+      "meaning_ar": "شَخْصٌ يُطَبِّقُ الْقَوَاعِدَ وَيَفْصِلُ بَيْنَ الْمُتَنَافِسِينَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُكَّامٌ"
+      ],
+      "collocations": [
+        "حَكَمُ الْمُبَارَاةِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ الْحَكَمُ النَّتِيجَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_010",
+      "arabic": "تَحْكِيمٌ",
+      "meaning_ar": "تَقْيِيمُ الْمُتَنَافِسِينَ بِحَسَبِ قَوَاعِدَ مَعْرُوفَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نِظَامُ التَّحْكِيمِ"
+      ],
+      "examples_ar": [
+        "كَانَ التَّحْكِيمُ عَادِلًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_011",
+      "arabic": "مِعْيَارٌ",
+      "meaning_ar": "قَاعِدَةٌ نَقِيسُ بِهَا جَوْدَةَ شَيْءٍ أَوْ مُسْتَوَاهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَعَايِيرُ"
+      ],
+      "collocations": [
+        "مَعَايِيرُ النَّجَاحِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ اللَّجْنَةُ مَعَايِيرَ وَاضِحَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_012",
+      "arabic": "تَقْدِيرٌ",
+      "meaning_ar": "إِظْهَارُ الْاحْتِرَامِ لِشَخْصٍ وَعَمَلِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "شَهَادَةُ تَقْدِيرٍ"
+      ],
+      "examples_ar": [
+        "تَسَلَّمَتِ الطَّالِبَةُ شَهَادَةَ تَقْدِيرٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_013",
+      "arabic": "تَكْرِيمٌ",
+      "meaning_ar": "تَقْدِيمُ شُكْرٍ أَوْ جَائِزَةٍ لِشَخْصٍ عَلَى عَمَلِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَفْلُ التَّكْرِيمِ"
+      ],
+      "examples_ar": [
+        "أُقِيمَ حَفْلٌ لِتَكْرِيمِ الْفَائِزِينَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_014",
+      "arabic": "مَوْهِبَةٌ",
+      "meaning_ar": "قُدْرَةٌ خَاصَّةٌ عِنْدَ شَخْصٍ فِي عِلْمٍ أَوْ فَنٍّ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَاهِبُ"
+      ],
+      "collocations": [
+        "مَوْهِبَةٌ فَنِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "لَدَى الطَّالِبِ مَوْهِبَةٌ فِي الرَّسْمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_015",
+      "arabic": "مَوْهُوبٌ",
+      "meaning_ar": "شَخْصٌ لَهُ قُدْرَةٌ مُمَيَّزَةٌ فِي مَجَالٍ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَوْهُوبَةٌ"
+      ],
+      "collocations": [
+        "طَالِبٌ مَوْهُوبٌ"
+      ],
+      "examples_ar": [
+        "الطَّالِبُ مَوْهُوبٌ فِي الْخَطِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_016",
+      "arabic": "جُهْدٌ",
+      "meaning_ar": "طَاقَةٌ يَبْذُلُهَا الْإِنْسَانُ فِي عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جُهُودٌ"
+      ],
+      "collocations": [
+        "بَذْلُ الْجُهْدِ"
+      ],
+      "examples_ar": [
+        "بَذَلَ الْفَرِيقُ جُهْدًا كَبِيرًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_017",
+      "arabic": "جَدَارَةٌ",
+      "meaning_ar": "أَنْ يَكُونَ الْإِنْسَانُ أَهْلًا لِلْفَوْزِ بِسَبَبِ عَمَلِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْفَوْزُ عَنْ جَدَارَةٍ"
+      ],
+      "examples_ar": [
+        "نَالَ الْجَائِزَةَ عَنْ جَدَارَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_018",
+      "arabic": "اسْتِحْقَاقٌ",
+      "meaning_ar": "أَنْ يَكُونَ الشَّخْصُ أَهْلًا لِشَيْءٍ بِحَسَبِ عَمَلِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اسْتِحْقَاقُ الْجَائِزَةِ"
+      ],
+      "examples_ar": [
+        "ثَبَتَ اسْتِحْقَاقُهُ لِلْجَائِزَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_019",
+      "arabic": "قُدْوَةٌ",
+      "meaning_ar": "شَخْصٌ يَتَّبِعُ غَيْرُهُ سُلُوكَهُ الْحَسَنَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُدْوَاتٌ"
+      ],
+      "collocations": [
+        "قُدْوَةٌ حَسَنَةٌ"
+      ],
+      "examples_ar": [
+        "الْمُعَلِّمُ قُدْوَةٌ لِلطُّلَّابِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_020",
+      "arabic": "بُطُولَةٌ",
+      "meaning_ar": "مُنَافَسَةٌ كَبِيرَةٌ بَيْنَ أَفْرَادٍ أَوْ فِرَقٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بُطُولَاتٌ"
+      ],
+      "collocations": [
+        "بُطُولَةُ كُرَةِ الْقَدَمِ"
+      ],
+      "examples_ar": [
+        "فَازَ فَرِيقُنَا بِالْبُطُولَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_021",
+      "arabic": "مَرْتَبَةٌ",
+      "meaning_ar": "مَوْضِعُ شَخْصٍ فِي تَرْتِيبٍ بَيْنَ الْمُتَنَافِسِينَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاتِبُ"
+      ],
+      "collocations": [
+        "الْمَرْتَبَةُ الْأُولَى"
+      ],
+      "examples_ar": [
+        "حَصَلَ عَلَى الْمَرْتَبَةِ الْأُولَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_022",
+      "arabic": "تَرْشِيحٌ",
+      "meaning_ar": "اخْتِيَارُ شَخْصٍ لِلْمُنَافَسَةِ عَلَى جَائِزَةٍ أَوْ مَنْصِبٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَرْشِيحُ الْفَائِزِينَ"
+      ],
+      "examples_ar": [
+        "تَمَّ تَرْشِيحُ ثَلَاثَةِ طُلَّابٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_023",
+      "arabic": "تَفَوَّقَ",
+      "meaning_ar": "وَصَلَ إِلَى مُسْتَوًى أَعْلَى مِنْ غَيْرِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَفَوَّقُ"
+      ],
+      "collocations": [
+        "تَفَوَّقَ فِي الدِّرَاسَةِ"
+      ],
+      "examples_ar": [
+        "تَفَوَّقَ الطَّالِبُ فِي الْعَرَبِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_024",
+      "arabic": "كَرَّمَ",
+      "meaning_ar": "أَظْهَرَ احْتِرَامَهُ لِشَخْصٍ وَشَكَرَهُ أَوْ قَدَّمَ لَهُ جَائِزَةً.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُكَرِّمُ"
+      ],
+      "collocations": [
+        "كَرَّمَ الْفَائِزَ"
+      ],
+      "examples_ar": [
+        "كَرَّمَ الْمُدِيرُ الْفَائِزِينَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_025",
+      "arabic": "هَنَّأَ",
+      "meaning_ar": "قَالَ لِشَخْصٍ كَلَامًا جَمِيلًا بِمُنَاسَبَةِ نَجَاحِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُهَنِّئُ"
+      ],
+      "collocations": [
+        "هَنَّأَ بِالنَّجَاحِ"
+      ],
+      "examples_ar": [
+        "هَنَّأْتُ صَدِيقِي بِالنَّجَاحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_026",
+      "arabic": "صَفَّقَ",
+      "meaning_ar": "ضَرَبَ كَفًّا بِكَفٍّ لِإِظْهَارِ الْإِعْجَابِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُصَفِّقُ"
+      ],
+      "collocations": [
+        "صَفَّقَ لِلْفَائِزِ"
+      ],
+      "examples_ar": [
+        "صَفَّقَ الْجُمْهُورُ لِلْفَرِيقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_027",
+      "arabic": "شَارَكَ",
+      "meaning_ar": "دَخَلَ مَعَ غَيْرِهِ فِي نَشَاطٍ أَوْ عَمَلٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُشَارِكُ"
+      ],
+      "collocations": [
+        "شَارَكَ فِي الْمُسَابَقَةِ"
+      ],
+      "examples_ar": [
+        "شَارَكْتُ فِي الْمُسَابَقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_028",
+      "arabic": "اجْتَهَدَ",
+      "meaning_ar": "بَذَلَ الْجُهْدَ وَالْوَقْتَ لِإِنْجَازِ عَمَلٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَجْتَهِدُ"
+      ],
+      "collocations": [
+        "اجْتَهَدَ فِي الدِّرَاسَةِ"
+      ],
+      "examples_ar": [
+        "اجْتَهَدْتُ فِي الدِّرَاسَةِ فَنَجَحْتُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_029",
+      "arabic": "أَعْلَنَ",
+      "meaning_ar": "أَخْبَرَ النَّاسَ بِشَيْءٍ لِيَعْرِفُوهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُعْلِنُ"
+      ],
+      "collocations": [
+        "أَعْلَنَ النَّتَائِجَ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ الْمُدِيرُ النَّتَائِجَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_030",
+      "arabic": "تَسَلَّمَ",
+      "meaning_ar": "أَخَذَ شَيْئًا سَلَّمَهُ إِلَيْهِ شَخْصٌ آخَرُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَسَلَّمُ"
+      ],
+      "collocations": [
+        "تَسَلَّمَ الْجَائِزَةَ"
+      ],
+      "examples_ar": [
+        "تَسَلَّمَ الطَّالِبُ الْجَائِزَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_031",
+      "arabic": "وَزَّعَ",
+      "meaning_ar": "قَسَّمَ الْأَشْيَاءَ وَأَعْطَى كُلَّ شَخْصٍ نَصِيبًا مِنْهَا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُوَزِّعُ"
+      ],
+      "collocations": [
+        "وَزَّعَ الْجَوَائِزَ"
+      ],
+      "examples_ar": [
+        "وَزَّعَ الْمُعَلِّمُ الْجَوَائِزَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_032",
+      "arabic": "أَنْجَزَ",
+      "meaning_ar": "أَتَمَّ عَمَلًا وَحَقَّقَ نَتِيجَتَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُنْجِزُ"
+      ],
+      "collocations": [
+        "أَنْجَزَ الْمَشْرُوعَ"
+      ],
+      "examples_ar": [
+        "أَنْجَزْنَا الْمَشْرُوعَ فِي الْوَقْتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_033",
+      "arabic": "تَرَشَّحَ",
+      "meaning_ar": "دَخَلَ فِي اخْتِيَارٍ لِلْفَوْزِ بِجَائِزَةٍ أَوْ مَنْصِبٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَرَشَّحُ"
+      ],
+      "collocations": [
+        "تَرَشَّحَ لِلْجَائِزَةِ"
+      ],
+      "examples_ar": [
+        "تَرَشَّحَ الطَّالِبُ لِلْجَائِزَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l2u08_034",
+      "arabic": "اسْتَحَقَّ",
+      "meaning_ar": "كَانَ جَدِيرًا بِشَيْءٍ بِسَبَبِ عَمَلِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَسْتَحِقُّ"
+      ],
+      "collocations": [
+        "اسْتَحَقَّ الْفَوْزَ"
+      ],
+      "examples_ar": [
+        "اسْتَحَقَّتِ الْفَائِزَةُ التَّكْرِيمَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 1,
+        "chapter": 8,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 1,
+          "chapter": 8,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Independent learner explanations; topical candidate awaiting print collation"
+        }
+      ],
+      "sources": []
+    }
+  ]
+}
