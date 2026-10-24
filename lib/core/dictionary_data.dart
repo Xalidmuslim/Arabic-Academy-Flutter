@@ -3,10 +3,30 @@ import 'dart:convert';
 class Word {
   const Word(this.id, this.arabic, this.meaning, this.synonyms, this.antonyms,
       this.grammar, this.collocations, this.examples, this.usage, this.additionalMeanings,
-      {this.bookNumber, this.chapterNumber, this.chapterOrder});
+      {this.bookNumber, this.chapterNumber, this.chapterOrder,
+      this.bookReferences = const []});
   final String id, arabic, meaning, usage;
   final List<String> synonyms, antonyms, grammar, collocations, examples, additionalMeanings;
   final int? bookNumber, chapterNumber, chapterOrder;
+  final List<Map<String, dynamic>> bookReferences;
+
+  bool isInChapter(int book, int chapter) {
+    if (bookReferences.isNotEmpty) {
+      return bookReferences.any((ref) =>
+          ref['book'] == book && ref['chapter'] == chapter);
+    }
+    return bookNumber == book && chapterNumber == chapter;
+  }
+
+  int? chapterOrderFor(int book, int chapter) {
+    for (final ref in bookReferences) {
+      if (ref['book'] == book && ref['chapter'] == chapter) {
+        return ref['index'] as int?;
+      }
+    }
+    return isInChapter(book, chapter) ? chapterOrder : null;
+  }
+
 
   factory Word.fromJson(Map<String, dynamic> json) {
     List<String> strings(String key) =>
@@ -25,6 +45,8 @@ class Word {
       bookNumber: (json['book_reference'] as Map<String, dynamic>?)?['book'] as int?,
       chapterNumber: (json['book_reference'] as Map<String, dynamic>?)?['chapter'] as int?,
       chapterOrder: (json['book_reference'] as Map<String, dynamic>?)?['index'] as int?,
+      bookReferences: (json['book_references'] as List<dynamic>? ?? const [])
+        .map((ref) => Map<String, dynamic>.from(ref as Map)).toList(),
     );
   }
 }
@@ -47,6 +69,15 @@ List<Word> sortWordsByBookOrder(Iterable<Word> words) {
     if (chapter != 0) return chapter;
     return (a.chapterOrder ?? 999).compareTo(b.chapterOrder ?? 999);
   });
+  return result;
+}
+
+List<Word> filterWordsByChapter(
+    Iterable<Word> words, int book, int chapter) {
+  final result = words.where((w) => w.isInChapter(book, chapter)).toList();
+  result.sort((a, b) =>
+    (a.chapterOrderFor(book, chapter) ?? 999).compareTo(
+      b.chapterOrderFor(book, chapter) ?? 999));
   return result;
 }
 
