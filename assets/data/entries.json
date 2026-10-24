@@ -338,7 +338,17 @@
         "اِسْمٌ؛ الْجَمْعُ أُسَرٌ"
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 1,
+          "official_end_glossary_checked": false
+        }
+      ]
     },
     {
       "id": "demo13",
@@ -358,7 +368,17 @@
         "اِسْمٌ؛ الْجَمْعُ آبَاءٌ"
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 10,
+          "official_end_glossary_checked": false
+        }
+      ]
     },
     {
       "id": "demo14",
@@ -378,7 +398,17 @@
         "اِسْمٌ؛ الْجَمْعُ أُمَّهَاتٌ"
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 11,
+          "official_end_glossary_checked": false
+        }
+      ]
     },
     {
       "id": "demo15",
@@ -757,7 +787,22 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 43,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 43
+        },
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 35,
+          "official_end_glossary_checked": false
+        }
+      ]
     },
     {
       "id": "demo32",
@@ -1243,7 +1288,22 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 23,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 23
+        },
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 2,
+          "official_end_glossary_checked": false
+        }
+      ]
     },
     {
       "id": "level1_topic1_024",
@@ -2327,6 +2387,1178 @@
         "chapter": 1,
         "index": 62
       }
+    },
+    {
+      "id": "l1u2_003",
+      "arabic": "وَالِدٌ",
+      "meaning_ar": "رَجُلٌ لَهُ ابْنٌ أَوِ ابْنَةٌ، وَهُوَ أَبُوهُمَا.",
+      "synonyms": [
+        "أَبٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَالِدُونَ"
+      ],
+      "collocations": [
+        "وَالِدِي الْعَزِيزُ"
+      ],
+      "examples_ar": [
+        "هَذَا وَالِدِي، وَهُوَ مُهَنْدِسٌ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَبِ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 3,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 3,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_004",
+      "arabic": "وَالِدَةٌ",
+      "meaning_ar": "اِمْرَأَةٌ لَهَا ابْنٌ أَوِ ابْنَةٌ، وَهِيَ أُمُّهُمَا.",
+      "synonyms": [
+        "أُمٌّ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَالِدَاتٌ"
+      ],
+      "collocations": [
+        "وَالِدَتِي الْكَرِيمَةُ"
+      ],
+      "examples_ar": [
+        "وَالِدَتِي طَبِيبَةٌ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلْأُمِّ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 4,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 4,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_005",
+      "arabic": "سَعِيدٌ",
+      "meaning_ar": "شَخْصٌ يَشْعُرُ بِالْفَرَحِ وَالسُّرُورِ.",
+      "synonyms": [
+        "فَرِحٌ"
+      ],
+      "antonyms": [
+        "حَزِينٌ"
+      ],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ سَعِيدَةٌ"
+      ],
+      "collocations": [
+        "رَجُلٌ سَعِيدٌ"
+      ],
+      "examples_ar": [
+        "أَنَا سَعِيدٌ بِلِقَائِكَ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ أَيْضًا اسْمًا لِلرِّجَالِ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 5,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 5,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_006",
+      "arabic": "مُعَلِّمٌ",
+      "meaning_ar": "شَخْصٌ يُسَاعِدُ الطُّلَّابَ عَلَى تَعَلُّمِ الْمَعْرِفَةِ وَالْمَهَارَاتِ.",
+      "synonyms": [
+        "مُدَرِّسٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُعَلِّمُونَ؛ الْمُؤَنَّثُ مُعَلِّمَةٌ"
+      ],
+      "collocations": [
+        "مُعَلِّمُ الْمَدْرَسَةِ"
+      ],
+      "examples_ar": [
+        "يَشْرَحُ الْمُعَلِّمُ الدَّرْسَ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 6,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 6,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_007",
+      "arabic": "مُعَلِّمَةٌ",
+      "meaning_ar": "اِمْرَأَةٌ تُعَلِّمُ الطُّلَّابَ وَتُسَاعِدُهُمْ عَلَى الْفَهْمِ.",
+      "synonyms": [
+        "مُدَرِّسَةٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُعَلِّمَاتٌ؛ الْمُذَكَّرُ مُعَلِّمٌ"
+      ],
+      "collocations": [
+        "مُعَلِّمَةُ الْعَرَبِيَّةِ"
+      ],
+      "examples_ar": [
+        "مُعَلِّمَتِي تَشْرَحُ الدَّرْسَ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 7,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 7,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_008",
+      "arabic": "جَدٌّ",
+      "meaning_ar": "أَبُ الْأَبِ أَوْ أَبُ الْأُمِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَجْدَادٌ"
+      ],
+      "collocations": [
+        "جَدِّي الْكَبِيرُ"
+      ],
+      "examples_ar": [
+        "يَحْكِي جَدِّي قِصَّةً جَمِيلَةً."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 8,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 8,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_009",
+      "arabic": "جَدَّةٌ",
+      "meaning_ar": "أُمُّ الْأَبِ أَوْ أُمُّ الْأُمِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَدَّاتٌ"
+      ],
+      "collocations": [
+        "جَدَّتِي الْحَنُونُ"
+      ],
+      "examples_ar": [
+        "تَزُورُنَا جَدَّتِي كُلَّ أُسْبُوعٍ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 9,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 9,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_012",
+      "arabic": "عَمٌّ",
+      "meaning_ar": "أَخُو الْأَبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْمَامٌ"
+      ],
+      "collocations": [
+        "عَمِّي الْكَبِيرُ"
+      ],
+      "examples_ar": [
+        "عَمِّي يَسْكُنُ فِي مَدِينَةٍ أُخْرَى."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْخَالِ الَّذِي هُوَ أَخُو الْأُمِّ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 12,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 12,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_013",
+      "arabic": "عَمَّةٌ",
+      "meaning_ar": "أُخْتُ الْأَبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَمَّاتٌ"
+      ],
+      "collocations": [
+        "عَمَّتِي الْعَزِيزَةُ"
+      ],
+      "examples_ar": [
+        "زَارَتْنَا عَمَّتِي أَمْسِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 13,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 13,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_014",
+      "arabic": "خَالٌ",
+      "meaning_ar": "أَخُو الْأُمِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَخْوَالٌ"
+      ],
+      "collocations": [
+        "خَالِي الطَّيِّبُ"
+      ],
+      "examples_ar": [
+        "يَعِيشُ خَالِي مَعَ أُسْرَتِهِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْعَمِّ الَّذِي هُوَ أَخُو الْأَبِ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 14,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 14,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_015",
+      "arabic": "خَالَةٌ",
+      "meaning_ar": "أُخْتُ الْأُمِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَالَاتٌ"
+      ],
+      "collocations": [
+        "خَالَتِي الْكَرِيمَةُ"
+      ],
+      "examples_ar": [
+        "زُرْتُ خَالَتِي يَوْمَ الْجُمُعَةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 15,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 15,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_016",
+      "arabic": "اِبْنٌ",
+      "meaning_ar": "وَلَدٌ ذَكَرٌ لِأَبٍ أَوْ أُمٍّ.",
+      "synonyms": [
+        "وَلَدٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَبْنَاءٌ"
+      ],
+      "collocations": [
+        "اِبْنُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "هَذَا ابْنِي الصَّغِيرُ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 16,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 16,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_017",
+      "arabic": "بِنْتٌ",
+      "meaning_ar": "وَلَدٌ مُؤَنَّثٌ لِأَبٍ أَوْ أُمٍّ.",
+      "synonyms": [
+        "اِبْنَةٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَنَاتٌ"
+      ],
+      "collocations": [
+        "بِنْتٌ صَغِيرَةٌ"
+      ],
+      "examples_ar": [
+        "هَذِهِ بِنْتِي."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 17,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 17,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_018",
+      "arabic": "حَفِيدٌ",
+      "meaning_ar": "اِبْنُ الِابْنِ أَوِ الْبِنْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحْفَادٌ"
+      ],
+      "collocations": [
+        "حَفِيدٌ صَغِيرٌ"
+      ],
+      "examples_ar": [
+        "يَلْعَبُ الْجَدُّ مَعَ حَفِيدِهِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 18,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 18,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_019",
+      "arabic": "حَفِيدَةٌ",
+      "meaning_ar": "بِنْتُ الِابْنِ أَوِ الْبِنْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَفِيدَاتٌ"
+      ],
+      "collocations": [
+        "حَفِيدَةٌ صَغِيرَةٌ"
+      ],
+      "examples_ar": [
+        "تُحِبُّ الْجَدَّةُ حَفِيدَتَهَا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 19,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 19,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_020",
+      "arabic": "سِبْطٌ",
+      "meaning_ar": "اِبْنُ الْبِنْتِ، وَيُقَالُ أَيْضًا لِبَعْضِ الْأَحْفَادِ.",
+      "synonyms": [
+        "حَفِيدٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَسْبَاطٌ"
+      ],
+      "collocations": [
+        "سِبْطُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "زَارَ السِّبْطُ جَدَّهُ."
+      ],
+      "usage_note_ar": "يَرِدُ خُصُوصًا فِي بَعْضِ سِيَاقَاتِ النَّسَبِ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 20,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 20,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_021",
+      "arabic": "صِهْرٌ",
+      "meaning_ar": "شَخْصٌ تَرْبِطُهُ بِالْأُسْرَةِ قَرَابَةٌ بِسَبَبِ الزَّوَاجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَصْهَارٌ"
+      ],
+      "collocations": [
+        "قَرَابَةُ الصِّهْرِ"
+      ],
+      "examples_ar": [
+        "تَعَرَّفْتُ إِلَى صِهْرِي فِي الْعِيدِ."
+      ],
+      "usage_note_ar": "مَعْنَاهُ يَتَعَلَّقُ بِالْقَرَابَةِ عَنْ طَرِيقِ الزَّوَاجِ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 21,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 21,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_022",
+      "arabic": "كَنَّةٌ",
+      "meaning_ar": "زَوْجَةُ الِابْنِ بِالنِّسْبَةِ إِلَى أَبِيهِ وَأُمِّهِ.",
+      "synonyms": [
+        "زَوْجَةُ الِابْنِ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَنَائِنُ"
+      ],
+      "collocations": [
+        "كَنَّةُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "رَحَّبَتِ الْجَدَّةُ بِكَنَّتِهَا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 22,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 22,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_023",
+      "arabic": "شَجَرَةٌ",
+      "meaning_ar": "نَبَاتٌ كَبِيرٌ لَهُ جِذْعٌ وَأَغْصَانٌ وَأَوْرَاقٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْجَارٌ"
+      ],
+      "collocations": [
+        "شَجَرَةُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ شَجَرَةَ أُسْرَتِهِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ «شَجَرَةُ الْأُسْرَةِ» لِرَسْمٍ يُوَضِّحُ الْأَقَارِبَ.",
+      "additional_meanings_ar": [
+        "رَسْمٌ يُوَضِّحُ صِلَاتِ الْقَرَابَةِ بَيْنَ أَفْرَادِ الْأُسْرَةِ."
+      ],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 23,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 23,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_024",
+      "arabic": "وَلَدٌ",
+      "meaning_ar": "طِفْلٌ أَوْ شَخْصٌ مِنْ أَبْنَاءِ الْأُسْرَةِ.",
+      "synonyms": [
+        "اِبْنٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَوْلَادٌ"
+      ],
+      "collocations": [
+        "وَلَدٌ صَغِيرٌ"
+      ],
+      "examples_ar": [
+        "يَلْعَبُ الْوَلَدُ فِي الْحَدِيقَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَدُلُّ عَلَى الِابْنِ خَاصَّةً أَوْ عَلَى الْأَوْلَادِ عَامَّةً.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 24,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 24,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_025",
+      "arabic": "أَذَانٌ",
+      "meaning_ar": "نِدَاءٌ يُعْلِنُ بِهِ الْمُؤَذِّنُ دُخُولَ وَقْتِ الصَّلَاةِ.",
+      "synonyms": [
+        "نِدَاءُ الصَّلَاةِ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَذَانَاتٌ"
+      ],
+      "collocations": [
+        "أَذَانُ الْفَجْرِ"
+      ],
+      "examples_ar": [
+        "سَمِعْنَا أَذَانَ الْمَغْرِبِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 25,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 25,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_026",
+      "arabic": "حَمَّامٌ",
+      "meaning_ar": "مَكَانٌ فِي الْبَيْتِ يُسْتَعْمَلُ لِلِاغْتِسَالِ وَقَضَاءِ الْحَاجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَمَّامَاتٌ"
+      ],
+      "collocations": [
+        "حَمَّامُ الْبَيْتِ"
+      ],
+      "examples_ar": [
+        "ذَهَبَ الطِّفْلُ إِلَى الْحَمَّامِ."
+      ],
+      "usage_note_ar": "لَا يُخْلَطُ بَيْنَ «حَمَّامٌ» وَ«حَمَامٌ».",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 26,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 26,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_027",
+      "arabic": "غُرْفَةٌ",
+      "meaning_ar": "جُزْءٌ مِنْ بَيْتٍ أَوْ مَبْنًى تُحِيطُ بِهِ جُدْرَانٌ.",
+      "synonyms": [
+        "حُجْرَةٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ غُرَفٌ"
+      ],
+      "collocations": [
+        "غُرْفَةُ النَّوْمِ"
+      ],
+      "examples_ar": [
+        "يَقْرَأُ سَعِيدٌ فِي غُرْفَتِهِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 27,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 27,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_028",
+      "arabic": "مُصَلًّى",
+      "meaning_ar": "مَكَانٌ مُخَصَّصٌ لِأَدَاءِ الصَّلَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ مَكَانٍ"
+      ],
+      "collocations": [
+        "مُصَلَّى الْمَدْرَسَةِ"
+      ],
+      "examples_ar": [
+        "صَلَّتِ الْأُسْرَةُ فِي الْمُصَلَّى."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ غُرْفَةً أَوْ سَاحَةً تُؤَدَّى فِيهَا الصَّلَاةُ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 28,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 28,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_029",
+      "arabic": "مِعْطَفٌ",
+      "meaning_ar": "لِبَاسٌ نَرْتَدِيهِ فَوْقَ الْمَلَابِسِ لِنَحْتَمِيَ مِنَ الْبَرْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَعَاطِفُ"
+      ],
+      "collocations": [
+        "مِعْطَفٌ شِتَوِيٌّ"
+      ],
+      "examples_ar": [
+        "لَبِسَ أَحْمَدُ مِعْطَفَهُ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 29,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 29,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_030",
+      "arabic": "نَظَّارَةٌ",
+      "meaning_ar": "شَيْءٌ يُوضَعُ عَلَى الْعَيْنَيْنِ لِتَحْسِينِ الرُّؤْيَةِ أَوْ لِحِمَايَتِهِمَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَظَّارَاتٌ"
+      ],
+      "collocations": [
+        "نَظَّارَةٌ طِبِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَيْنَ نَظَّارَتِي يَا أَبِي؟"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 30,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 30,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_031",
+      "arabic": "مَسْجِدٌ",
+      "meaning_ar": "مَكَانٌ يَجْتَمِعُ فِيهِ الْمُسْلِمُونَ لِأَدَاءِ الصَّلَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسَاجِدُ"
+      ],
+      "collocations": [
+        "مَسْجِدُ الْحَيِّ"
+      ],
+      "examples_ar": [
+        "ذَهَبْنَا إِلَى الْمَسْجِدِ لِصَلَاةِ الظُّهْرِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 31,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 31,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_032",
+      "arabic": "جَامِعٌ",
+      "meaning_ar": "مَسْجِدٌ كَبِيرٌ تُقَامُ فِيهِ صَلَاةُ الْجُمُعَةِ.",
+      "synonyms": [
+        "مَسْجِدٌ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَوَامِعُ"
+      ],
+      "collocations": [
+        "الْجَامِعُ الْكَبِيرُ"
+      ],
+      "examples_ar": [
+        "صَلَّيْنَا الْجُمُعَةَ فِي الْجَامِعِ."
+      ],
+      "usage_note_ar": "لِلْكَلِمَةِ مَعَانٍ أُخْرَى بِحَسَبِ السِّيَاقِ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 32,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 32,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_034",
+      "arabic": "تَوَضَّأَ",
+      "meaning_ar": "غَسَلَ أَعْضَاءً مَعْرُوفَةً مِنْ جَسَدِهِ لِيَسْتَعِدَّ لِلصَّلَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَتَوَضَّأُ؛ الْمَصْدَرُ وُضُوءٌ"
+      ],
+      "collocations": [
+        "تَوَضَّأَ لِلصَّلَاةِ"
+      ],
+      "examples_ar": [
+        "تَوَضَّأَ سَعْدٌ قَبْلَ الصَّلَاةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 34,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 34,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u2_036",
+      "arabic": "صَلَّى",
+      "meaning_ar": "أَدَّى الصَّلَاةَ بِأَقْوَالِهَا وَأَفْعَالِهَا الْمَعْرُوفَةِ.",
+      "synonyms": [
+        "أَدَّى الصَّلَاةَ"
+      ],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُصَلِّي؛ الْمَصْدَرُ صَلَاةٌ"
+      ],
+      "collocations": [
+        "صَلَّى الْفَجْرَ"
+      ],
+      "examples_ar": [
+        "صَلَّى سَعِيدٌ فِي الْمَسْجِدِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter2_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_vocabulary_glossary",
+        "source_url": "https://www.isalkini.com/6837/",
+        "book": 1,
+        "chapter": 2,
+        "index": 36,
+        "official_end_glossary_checked": false
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_vocabulary_glossary",
+          "source_url": "https://www.isalkini.com/6837/",
+          "book": 1,
+          "chapter": 2,
+          "index": 36,
+          "official_end_glossary_checked": false
+        }
+      ],
+      "sources": []
     }
   ],
   "corpus_progress": {
@@ -2334,7 +3566,11 @@
     "level1_first_chapter_unverified_official_glossary": true,
     "level1_first_chapter_last_updated": "2026-10-24",
     "target_series_levels": 4,
-    "target_series_books": 8
+    "target_series_books": 8,
+    "level1_second_chapter_indexed": 36,
+    "level1_second_chapter_source": "independent_secondary_vocabulary_glossary",
+    "level1_second_chapter_unverified_official_glossary": true,
+    "level1_second_chapter_last_updated": "2026-10-25"
   },
   "source_notes": {
     "verified_official_count": 3325,
