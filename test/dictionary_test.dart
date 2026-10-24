@@ -68,4 +68,30 @@ void main() {
     expect(findWordForToken('تَعَارُفٍ', words)?.id, 'noun');
     expect(findWordForToken('تَعَارَفَ', words)?.id, 'verb');
   });
+  test('A lemma may appear in both chapter 1 and chapter 2', () {
+    const source = '{"entries":[{"id":"a","arabic":"أُسْرَةٌ",'
+        '"meaning_ar":"مَجْمُوعَةٌ مِنَ الْأَقَارِبِ",'
+        '"synonyms":[],"antonyms":[],"grammar":[],"collocations":[],'
+        '"examples_ar":[],"book_reference":{"book":1,"chapter":1,"index":10},'
+        '"book_references":[{"book":1,"chapter":1,"index":10},'
+        '{"book":1,"chapter":2,"index":1}]}]}';
+    final words = decodeWords(source);
+    expect(words.single.isInChapter(1, 1), isTrue);
+    expect(words.single.isInChapter(1, 2), isTrue);
+    expect(words.single.chapterOrderFor(1, 2), 1);
+    expect(filterWordsByChapter(words, 1, 2).length, 1);
+  });
+
+  test('Chapter two preserves lesson order independently', () {
+    const source = '{"entries":['
+      '{"id":"a","arabic":"جَدٌّ","meaning_ar":"أَبُ الْأَبِ",'
+      '"synonyms":[],"antonyms":[],"grammar":[],"collocations":[],'
+      '"examples_ar":[],"book_references":[{"book":1,"chapter":2,"index":9}]},'
+      '{"id":"b","arabic":"جَدَّةٌ","meaning_ar":"أُمُّ الْأُمِّ",'
+      '"synonyms":[],"antonyms":[],"grammar":[],"collocations":[],'
+      '"examples_ar":[],"book_references":[{"book":1,"chapter":2,"index":3}]}]}';
+    final words = decodeWords(source);
+    expect(filterWordsByChapter(words, 1, 2).map((w) => w.id).toList(), ['b', 'a']);
+  });
+
 }
