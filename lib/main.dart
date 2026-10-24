@@ -16,9 +16,11 @@ void main() {
 
 class Word {
   const Word(this.id, this.arabic, this.meaning, this.synonyms, this.antonyms,
-      this.grammar, this.collocations, this.examples, this.usage, this.additionalMeanings);
+      this.grammar, this.collocations, this.examples, this.usage, this.additionalMeanings,
+      {this.bookNumber, this.chapterNumber, this.chapterOrder});
   final String id, arabic, meaning, usage;
   final List<String> synonyms, antonyms, grammar, collocations, examples, additionalMeanings;
+  final int? bookNumber, chapterNumber, chapterOrder;
 
   factory Word.fromJson(Map<String, dynamic> json) {
     List<String> strings(String key) =>
@@ -34,6 +36,9 @@ class Word {
       strings('examples_ar'),
       (json['usage_note_ar'] as String?) ?? '',
       strings('additional_meanings_ar'),
+      bookNumber: (json['book_reference'] as Map<String, dynamic>?)?['book'] as int?,
+      chapterNumber: (json['book_reference'] as Map<String, dynamic>?)?['chapter'] as int?,
+      chapterOrder: (json['book_reference'] as Map<String, dynamic>?)?['index'] as int?,
     );
   }
 }
@@ -43,6 +48,20 @@ List<Word> decodeWords(String jsonText) {
   return (object['entries'] as List<dynamic>)
       .map((dynamic item) => Word.fromJson(item as Map<String, dynamic>))
       .toList();
+}
+
+List<Word> sortWordsByBookOrder(Iterable<Word> words) {
+  final result = words.toList();
+  result.sort((a, b) {
+    final aBook = a.bookNumber ?? 999;
+    final bBook = b.bookNumber ?? 999;
+    final first = aBook.compareTo(bBook);
+    if (first != 0) return first;
+    final chapter = (a.chapterNumber ?? 999).compareTo(b.chapterNumber ?? 999);
+    if (chapter != 0) return chapter;
+    return (a.chapterOrder ?? 999).compareTo(b.chapterOrder ?? 999);
+  });
+  return result;
 }
 
 String normalizeArabic(String text) {
@@ -127,6 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
   late final Future<List<Word>> future = load();
   Set<String> favorites = <String>{};
   bool onlyFavorites = false;
+  bool chapterOneOnly = false;
 
   Future<List<Word>> load() async {
     final prefs = await SharedPreferences.getInstance();
@@ -216,11 +236,12 @@ class _HomeScreenState extends State<HomeScreen> {
             return const Center(child: CircularProgressIndicator());
           }
           final q = normalizeArabic(search.text);
-          final shown = snapshot.data!.where((word) =>
+          final shown = sortWordsByBookOrder(snapshot.data!.where((word) =>
             (q.isEmpty ||
              normalizeArabic(word.arabic).contains(q) ||
              normalizeArabic(word.meaning).contains(q)) &&
-            (!onlyFavorites || favorites.contains(word.id))).toList();
+            (!onlyFavorites || favorites.contains(word.id)) &&
+            (!chapterOneOnly || (word.bookNumber == 1 && word.chapterNumber == 1))));
 
           return CustomScrollView(slivers: [
             SliverToBoxAdapter(child: Padding(
@@ -248,8 +269,23 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text('Найдено слов: ${shown.length}',
                   style: const TextStyle(fontWeight: FontWeight.w600)),
                 const SizedBox(height: 5),
-                const Text('Демонстрационная версия: 33 статьи',
+                const Text('Первая тема: 62 слова из дополнительного списка. '
+                  'Словари издательства ещё не сверены.',
                   style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
+                const SizedBox(height: 12),
+                Row(children: [
+                  FilterChip(
+                    label: const Text('Все слова'),
+                    selected: !chapterOneOnly,
+                    onSelected: (_) => setState(() => chapterOneOnly = false),
+                  ),
+                  const SizedBox(width: 8),
+                  FilterChip(
+                    label: const Text('Книга 1 · Тема 1'),
+                    selected: chapterOneOnly,
+                    onSelected: (_) => setState(() => chapterOneOnly = true),
+                  ),
+                ]),
               ]),
             )),
             SliverList.builder(
@@ -272,9 +308,19 @@ class _HomeScreenState extends State<HomeScreen> {
                       title: Text(word.arabic, textDirection: TextDirection.rtl,
                         style: const TextStyle(fontSize: 23,
                           fontWeight: FontWeight.bold, color: ink)),
-                      subtitle: Text(word.meaning, textDirection: TextDirection.rtl,
-                        maxLines: 2, overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(fontSize: 15, height: 1.5)),
+                      subtitle: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          Text(word.meaning, textDirection: TextDirection.rtl,
+                            maxLines: 2, overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(fontSize: 15, height: 1.5)),
+                          if (word.bookNumber != null)
+                            Text('Книга ' + word.bookNumber.toString() +
+                              ' · Тема ' + word.chapterNumber.toString(),
+                              style: const TextStyle(fontSize: 11,
+                                color: Colors.blueGrey)),
+                        ],
+                      ),
                       trailing: Icon(favorites.contains(word.id)
                         ? Icons.bookmark : Icons.chevron_right, color: teal),
                       onTap: () { openWord(context, word, snapshot.data!); },
