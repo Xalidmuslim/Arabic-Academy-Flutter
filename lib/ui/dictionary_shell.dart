@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -126,8 +127,14 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 
   Future<List<Word>> loadWords() async {
     final p = await SharedPreferences.getInstance();
-    final words = widget.previewWords ??
-      decodeWords(await rootBundle.loadString('assets/data/entries.json'));
+    final manifest = widget.previewWords == null
+        ? jsonDecode(await rootBundle.loadString(
+            'assets/data/corpus_manifest.json')) as Map<String, dynamic>
+        : null;
+    final files = (manifest?['files'] as List<dynamic>? ?? const []);
+    final texts = await Future.wait(files.map(
+        (file) => rootBundle.loadString(file as String)));
+    final words = widget.previewWords ?? decodeAndMergeCorpora(texts);
     if (mounted) {
       setState(() {
       favorites = p.getStringList('dictionary_favorites')?.toSet() ?? {};
