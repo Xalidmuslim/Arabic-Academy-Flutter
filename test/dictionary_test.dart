@@ -40,4 +40,20 @@ void main() {
     expect(findWordForToken('مَجْهُولٌ', words), isNull);
   });
 
+
+  test('Chapter reference survives parsing and supports ordered browsing', () {
+    const source = '{"entries":[{"id":"a","arabic":"تَحِيَّةٌ",'
+        '"meaning_ar":"كَلِمَةٌ نَقُولُهَا","synonyms":[],"antonyms":[],'
+        '"grammar":[],"collocations":[],"examples_ar":[],'
+        '"book_reference":{"book":1,"chapter":1,"index":5}},'
+        '{"id":"b","arabic":"اِسْمٌ","meaning_ar":"كَلِمَةٌ",'
+        '"synonyms":[],"antonyms":[],"grammar":[],"collocations":[],'
+        '"examples_ar":[],"book_reference":{"book":1,"chapter":1,"index":3}}]}';
+    final words = decodeWords(source);
+    expect(words.first.bookNumber, 1);
+    expect(words.first.chapterNumber, 1);
+    expect(words.first.chapterOrder, 5);
+    expect(sortWordsByBookOrder(words).map((w) => w.id).toList(), ['b', 'a']);
+  });
+
 }
