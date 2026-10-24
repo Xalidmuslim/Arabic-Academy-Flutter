@@ -90,8 +90,11 @@ class FittedStudyArtwork extends StatelessWidget {
     );
     // Decoding the pre-blurred mask is a standard image texture draw. No
     // repeated Gaussian blur or duplicate tinted WebP texture on raster frames.
+    // OFF is diagnostic-only: remove the whole shadow draw. Keeping a
+    // tinted but unblurred duplicate would contaminate the GPU A/B test.
+    // Normal releases still render the original approved 3D silhouette.
     final shadow = !blurSilhouette
-        ? silhouette
+        ? const SizedBox.shrink()
         : shadowProvider != null
             ? Image(
                 image: shadowProvider,

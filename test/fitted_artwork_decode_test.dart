@@ -53,8 +53,16 @@ void main() {
         reason: 'diagnostic comparison can remove only expensive blur');
     expect(find.byKey(const ValueKey('fitted-study-image')), findsOneWidget,
         reason: 'the original 3D illustration must always remain visible');
-    expect(find.byType(Image), findsNWidgets(2),
-        reason: 'silhouette still exists; user can isolate blur cost');
+    expect(find.descendant(
+      of: find.byType(FittedStudyArtwork),
+      matching: find.byType(Image),
+    ), findsOneWidget,
+        reason: 'OFF must remove the tinted shadow duplicate, not just the blur');
+    expect(find.descendant(
+      of: find.byType(FittedStudyArtwork),
+      matching: find.byType(ColorFiltered),
+    ), findsNothing,
+        reason: 'OFF must not pay for a shadow color filter');
   });
 
 }
