@@ -58,6 +58,59 @@ List<Word> decodeWords(String jsonText) {
       .toList();
 }
 
+/// Load separate UTF-8 lexicon chunks, merging repeated headwords safely.
+/// Existing IDs and earlier definitions take precedence so saved favorites survive.
+/// Fully vocalized noun/verb homographs remain distinct.
+List<Word> decodeAndMergeCorpora(List<String> jsonTexts) {
+  final combined = <Map<String, dynamic>>[];
+  final byHeadword = <String, Map<String, dynamic>>{};
+  List<Map<String, dynamic>> references(Map<String, dynamic> entry) {
+    final refs = entry['book_references'] as List<dynamic>?;
+    if (refs != null) {
+      return refs.map((r) => Map<String, dynamic>.from(r as Map)).toList();
+    }
+    final ref = entry['book_reference'];
+    return ref == null ? [] : [Map<String, dynamic>.from(ref as Map)];
+  }
+  for (final text in jsonTexts) {
+    final decoded = jsonDecode(text) as Map<String, dynamic>;
+    for (final raw in decoded['entries'] as List<dynamic>) {
+      final entry = Map<String, dynamic>.from(raw as Map);
+      final headword = entry['arabic'] as String;
+      final earlier = byHeadword[headword];
+      if (earlier == null) {
+        byHeadword[headword] = entry;
+        combined.add(entry);
+      } else {
+        final refs = references(earlier);
+        for (final ref in references(entry)) {
+          if (!refs.any((r) =>
+              r['book'] == ref['book'] &&
+              r['chapter'] == ref['chapter'])) {
+            refs.add(ref);
+          }
+        }
+        earlier['book_references'] = refs;
+        for (final key in <String>[
+          'synonyms', 'antonyms', 'grammar', 'collocations',
+          'examples_ar', 'additional_meanings_ar',
+        ]) {
+          final current = earlier[key] as List<dynamic>?;
+          if ((current == null || current.isEmpty) &&
+              entry[key] is List && (entry[key] as List).isNotEmpty) {
+            earlier[key] = entry[key];
+          }
+        }
+        if ((earlier['usage_note_ar'] as String? ?? '').isEmpty &&
+            (entry['usage_note_ar'] as String? ?? '').isNotEmpty) {
+          earlier['usage_note_ar'] = entry['usage_note_ar'];
+        }
+      }
+    }
+  }
+  return combined.map(Word.fromJson).toList();
+}
+
 List<Word> sortWordsByBookOrder(Iterable<Word> words) {
   final result = words.toList();
   result.sort((a, b) {
