@@ -7,7 +7,8 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-DATA = Path(__file__).resolve().parents[1] / "assets/data/entries.json"
+ROOT = Path(__file__).resolve().parents[1]
+MANIFEST = ROOT / "assets/data/corpus_manifest.json"
 LEXICAL_ARRAYS = (
     "synonyms", "antonyms", "grammar", "collocations",
     "examples_ar", "additional_meanings_ar",
@@ -17,8 +18,52 @@ ARABIC_LETTER = re.compile(r"[\u0621-\u064A]")
 CASE_ENDINGS = re.compile(r"[\u064B-\u065F\u0670\u06D6-\u06ED]+$")
 
 
+def load_corpus() -> dict:
+    """Read the manifest in a stable order, preserving the first headword ID."""
+    doc = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    chunks = doc.get("files")
+    assert isinstance(chunks, list) and chunks, "Empty corpus manifest"
+    entries = []
+    by_headword = {}
+
+    def references(entry):
+        refs = entry.get("book_references")
+        if refs is not None:
+            return [dict(ref) for ref in refs]
+        return [dict(entry["book_reference"])] if entry.get("book_reference") else []
+
+    for filename in chunks:
+        assert isinstance(filename, str) and filename, "Invalid corpus chunk path"
+        path = Path(filename)
+        if not path.is_absolute():
+            path = ROOT / path
+        assert path.is_file(), f"Missing corpus chunk: {filename}"
+        part = json.loads(path.read_text(encoding="utf-8"))
+        for raw in part.get("entries", []):
+            entry = dict(raw)
+            word = entry["arabic"]
+            existing = by_headword.get(word)
+            if existing is None:
+                by_headword[word] = entry
+                entries.append(entry)
+            else:
+                refs = references(existing)
+                for ref in references(entry):
+                    if not any(r["book"] == ref["book"] and
+                               r["chapter"] == ref["chapter"] for r in refs):
+                        refs.append(ref)
+                existing["book_references"] = refs
+                for field in LEXICAL_ARRAYS:
+                    if not existing.get(field) and entry.get(field):
+                        existing[field] = entry[field]
+                if not existing.get("usage_note_ar") and entry.get("usage_note_ar"):
+                    existing["usage_note_ar"] = entry["usage_note_ar"]
+
+    return {"entries": entries, "files": chunks}
+
+
 def validate() -> dict:
-    root = json.loads(DATA.read_text(encoding="utf-8"))
+    root = load_corpus()
     entries = root.get("entries")
     assert isinstance(entries, list) and entries, "Missing entries"
     ids: set[str] = set()
