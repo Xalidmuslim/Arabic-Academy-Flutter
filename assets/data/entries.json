@@ -4805,6 +4805,16 @@
           "index": 29,
           "official_end_glossary_checked": false,
           "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        },
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
         }
       ],
       "sources": []
@@ -15668,6 +15678,16 @@
           "index": 20,
           "official_end_glossary_checked": false,
           "order_note": "curated holiday and summer vacation glossary"
+        },
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 49,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
         }
       ],
       "sources": []
@@ -23932,6 +23952,16 @@
           "index": 20,
           "official_end_glossary_checked": false,
           "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
+        },
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 37,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
         }
       ]
     },
@@ -24774,6 +24804,3702 @@
           "attribution_note": "Original Arabic definitions; topic alignment only; not independently verified against print glossary"
         }
       ]
+    },
+    {
+      "id": "l2u03_001",
+      "arabic": "زَوَاجٌ",
+      "meaning_ar": "عَقْدٌ يَجْمَعُ بَيْنَ رَجُلٍ وَامْرَأَةٍ لِتَكْوِينِ أُسْرَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَقْدُ الزَّوَاجِ"
+      ],
+      "examples_ar": [
+        "يُرِيدُ أَخِي الزَّوَاجَ بَعْدَ الدِّرَاسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_002",
+      "arabic": "زَوْجٌ",
+      "meaning_ar": "رَجُلٌ تَرْبِطُهُ بِامْرَأَةٍ عَلَاقَةُ زَوَاجٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَزْوَاجٌ"
+      ],
+      "collocations": [
+        "الزَّوْجُ الصَّالِحُ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ الزَّوْجُ أُسْرَتَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_003",
+      "arabic": "زَوْجَةٌ",
+      "meaning_ar": "اِمْرَأَةٌ تَرْبِطُهَا بِرَجُلٍ عَلَاقَةُ زَوَاجٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ زَوْجَاتٌ"
+      ],
+      "collocations": [
+        "الزَّوْجَةُ الصَّالِحَةُ"
+      ],
+      "examples_ar": [
+        "تَتَعَاوَنُ الزَّوْجَةُ مَعَ زَوْجِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_004",
+      "arabic": "خِطْبَةٌ",
+      "meaning_ar": "طَلَبُ الزَّوَاجِ مِنِ امْرَأَةٍ قَبْلَ إِتْمَامِ الْعَقْدِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَرْحَلَةُ الْخِطْبَةِ"
+      ],
+      "examples_ar": [
+        "تَكَلَّمَتِ الْأُسْرَتَانِ عَنِ الْخِطْبَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_005",
+      "arabic": "خَاطِبٌ",
+      "meaning_ar": "رَجُلٌ يَطْلُبُ الزَّوَاجَ مِنِ امْرَأَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطَّابٌ"
+      ],
+      "collocations": [
+        "خَاطِبٌ جَادٌّ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الْخَاطِبُ عَنِ الْأُسْرَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_006",
+      "arabic": "مَخْطُوبَةٌ",
+      "meaning_ar": "امْرَأَةٌ طَلَبَ رَجُلٌ الزَّوَاجَ مِنْهَا وَوَافَقَتْ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَخْطُوبَاتٌ"
+      ],
+      "collocations": [
+        "فَتَاةٌ مَخْطُوبَةٌ"
+      ],
+      "examples_ar": [
+        "تَتَحَدَّثُ الْمَخْطُوبَةُ مَعَ أُسْرَتِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_007",
+      "arabic": "عَرُوسٌ",
+      "meaning_ar": "اِمْرَأَةٌ تَتَزَوَّجُ أَوْ تَزَوَّجَتْ حَدِيثًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَرَائِسُ"
+      ],
+      "collocations": [
+        "الْعَرُوسُ الْجَدِيدَةُ"
+      ],
+      "examples_ar": [
+        "فَرِحَتِ الْعَرُوسُ بِيَوْمِ زَوَاجِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_008",
+      "arabic": "عَرِيسٌ",
+      "meaning_ar": "رَجُلٌ يَتَزَوَّجُ أَوْ تَزَوَّجَ حَدِيثًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُرْسَانٌ"
+      ],
+      "collocations": [
+        "الْعَرِيسُ الْجَدِيدُ"
+      ],
+      "examples_ar": [
+        "اِسْتَقْبَلَ الْعَرِيسُ الضُّيُوفَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_009",
+      "arabic": "مَهْرٌ",
+      "meaning_ar": "مَالٌ أَوْ شَيْءٌ يَلْتَزِمُ الزَّوْجُ بِتَقْدِيمِهِ لِزَوْجَتِهِ عِنْدَ الزَّوَاجِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُهُورٌ"
+      ],
+      "collocations": [
+        "مَهْرُ الزَّوْجَةِ"
+      ],
+      "examples_ar": [
+        "اتَّفَقَتِ الْأُسْرَتَانِ عَلَى الْمَهْرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_010",
+      "arabic": "عَقْدٌ",
+      "meaning_ar": "اتِّفَاقٌ بَيْنَ طَرَفَيْنِ يَتَرَتَّبُ عَلَيْهِ حُقُوقٌ وَوَاجِبَاتٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُقُودٌ"
+      ],
+      "collocations": [
+        "عَقْدُ الزَّوَاجِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الرَّجُلُ الْعَقْدَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_011",
+      "arabic": "دَعْوَةٌ",
+      "meaning_ar": "طَلَبُ حُضُورِ شَخْصٍ إِلَى مَكَانٍ أَوْ مُنَاسَبَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دَعَوَاتٌ"
+      ],
+      "collocations": [
+        "دَعْوَةُ الْأَقَارِبِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلْنَا دَعْوَةً لِلضُّيُوفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_012",
+      "arabic": "عَلَاقَةٌ",
+      "meaning_ar": "صِلَةٌ تَرْبِطُ بَيْنَ شَخْصَيْنِ أَوْ أَكْثَرَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَلَاقَاتٌ"
+      ],
+      "collocations": [
+        "عَلَاقَةٌ طَيِّبَةٌ"
+      ],
+      "examples_ar": [
+        "بَيْنَ الْجَارَيْنِ عَلَاقَةٌ طَيِّبَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_013",
+      "arabic": "مَوَدَّةٌ",
+      "meaning_ar": "مَحَبَّةٌ ظَاهِرَةٌ فِي الْمُعَامَلَةِ وَالِاهْتِمَامِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمَوَدَّةُ وَالرَّحْمَةُ"
+      ],
+      "examples_ar": [
+        "تَزِيدُ الْمَوَدَّةُ بِالْكَلَامِ الطَّيِّبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_014",
+      "arabic": "رَحْمَةٌ",
+      "meaning_ar": "رِقَّةٌ فِي الْقَلْبِ تَدْفَعُ إِلَى الْإِحْسَانِ وَالْمُسَاعَدَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَحْمَةٌ بِالْأَطْفَالِ"
+      ],
+      "examples_ar": [
+        "يَتَعَامَلُ الْأَبَوَانِ مَعَ أَطْفَالِهِمَا بِالرَّحْمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_015",
+      "arabic": "تَفَاهُمٌ",
+      "meaning_ar": "قُدْرَةُ شَخْصَيْنِ عَلَى فَهْمِ بَعْضِهِمَا وَالِاتِّفَاقِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّفَاهُمُ بَيْنَ الزَّوْجَيْنِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْبَيْتُ إِلَى التَّفَاهُمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_016",
+      "arabic": "خِلَافٌ",
+      "meaning_ar": "عَدَمُ اتِّفَاقٍ بَيْنَ شَخْصَيْنِ فِي الرَّأْيِ أَوِ الْعَمَلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خِلَافَاتٌ"
+      ],
+      "collocations": [
+        "خِلَافٌ بَسِيطٌ"
+      ],
+      "examples_ar": [
+        "حَلَّ الزَّوْجَانِ الْخِلَافَ بِالْحِوَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_017",
+      "arabic": "تَعَاوُنٌ",
+      "meaning_ar": "اشْتِرَاكُ النَّاسِ فِي عَمَلٍ وَمُسَاعَدَةُ بَعْضِهِمْ بَعْضًا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّعَاوُنُ الْأُسَرِيُّ"
+      ],
+      "examples_ar": [
+        "التَّعَاوُنُ يُسَهِّلُ أَعْمَالَ الْبَيْتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_018",
+      "arabic": "مَسْؤُولِيَّةٌ",
+      "meaning_ar": "عَمَلٌ أَوْ وَاجِبٌ عَلَى الشَّخْصِ أَنْ يَقُومَ بِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسْؤُولِيَّاتٌ"
+      ],
+      "collocations": [
+        "مَسْؤُولِيَّةُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "رِعَايَةُ الْأَطْفَالِ مَسْؤُولِيَّةٌ كَبِيرَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_019",
+      "arabic": "نَفَقَةٌ",
+      "meaning_ar": "مَالٌ يُنْفَقُ عَلَى حَاجَاتِ الْأُسْرَةِ مِنْ طَعَامٍ وَمَسْكَنٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَفَقَاتٌ"
+      ],
+      "collocations": [
+        "نَفَقَةُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "يَنْظُرُ الْأَبُ فِي نَفَقَاتِ الْبَيْتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_021",
+      "arabic": "حَقٌّ",
+      "meaning_ar": "أَمْرٌ يَسْتَحِقُّهُ الشَّخْصُ وَيَجِبُ أَنْ يُحْتَرَمَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُقُوقٌ"
+      ],
+      "collocations": [
+        "حُقُوقُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "لِكُلِّ فَرْدٍ فِي الْأُسْرَةِ حُقُوقٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_022",
+      "arabic": "وَاجِبٌ",
+      "meaning_ar": "عَمَلٌ يَنْبَغِي لِلْإِنْسَانِ أَنْ يُؤَدِّيَهُ لِأَنَّهُ مَطْلُوبٌ مِنْهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَاجِبَاتٌ"
+      ],
+      "collocations": [
+        "وَاجِبَاتُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "يُؤَدِّي الْأَبُ وَاجِبَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_023",
+      "arabic": "حَيَاةٌ",
+      "meaning_ar": "الْحَالَةُ الَّتِي يَعِيشُ فِيهَا الْإِنْسَانُ وَيَعْمَلُ وَيَتَحَرَّكُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَيَوَاتٌ"
+      ],
+      "collocations": [
+        "الْحَيَاةُ الزَّوْجِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْحَيَاةُ الْأُسَرِيَّةُ إِلَى صَبْرٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_024",
+      "arabic": "قَرَارٌ",
+      "meaning_ar": "اخْتِيَارٌ يَتَّخِذُهُ الشَّخْصُ بَعْدَ التَّفْكِيرِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قَرَارَاتٌ"
+      ],
+      "collocations": [
+        "اتِّخَاذُ قَرَارٍ"
+      ],
+      "examples_ar": [
+        "اتَّخَذَ الزَّوْجَانِ قَرَارًا مُشْتَرَكًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_025",
+      "arabic": "طَلَاقٌ",
+      "meaning_ar": "إِنْهَاءُ عَلَاقَةِ الزَّوَاجِ بِحُكْمِ الشَّرْعِ أَوِ النِّظَامِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وُقُوعُ الطَّلَاقِ"
+      ],
+      "examples_ar": [
+        "يَبْحَثُ الزَّوْجَانِ عَنْ حَلٍّ قَبْلَ الطَّلَاقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_026",
+      "arabic": "صُلْحٌ",
+      "meaning_ar": "إِنْهَاءُ الْخِلَافِ وَالْعَوْدَةُ إِلَى الْوِفَاقِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِصْلَاحُ ذَاتِ الْبَيْنِ"
+      ],
+      "examples_ar": [
+        "سَعَى الْكِبَارُ إِلَى الصُّلْحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_027",
+      "arabic": "انْفِصَالٌ",
+      "meaning_ar": "ابْتِعَادُ شَيْئَيْنِ أَوْ شَخْصَيْنِ بَعْدَ اتِّصَالِهِمَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِانْفِصَالُ بَيْنَ الزَّوْجَيْنِ"
+      ],
+      "examples_ar": [
+        "تَحَدَّثَا عَنِ الِانْفِصَالِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_028",
+      "arabic": "اِلْتِزَامٌ",
+      "meaning_ar": "الْمُوَاظَبَةُ عَلَى أَمْرٍ وَالْوَفَاءُ بِمَا يَجِبُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِالْتِزَامُ بِالْوَعْدِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الزَّوَاجُ إِلَى الِالْتِزَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_029",
+      "arabic": "اِحْتِرَامٌ",
+      "meaning_ar": "مُعَامَلَةُ شَخْصٍ بِتَقْدِيرٍ وَأَدَبٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِاحْتِرَامُ الْمُتَبَادَلُ"
+      ],
+      "examples_ar": [
+        "يُحَافِظُ الزَّوْجَانِ عَلَى الِاحْتِرَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_030",
+      "arabic": "وَفَاءٌ",
+      "meaning_ar": "الثَّبَاتُ عَلَى الْعَهْدِ وَعَدَمُ نَقْضِ الْوَعْدِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْوَفَاءُ بِالْعَهْدِ"
+      ],
+      "examples_ar": [
+        "يُحِبُّ النَّاسُ الشَّخْصَ الْوَفِيَّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_031",
+      "arabic": "شَرِيكٌ",
+      "meaning_ar": "شَخْصٌ يَشْتَرِكُ مَعَ غَيْرِهِ فِي عَمَلٍ أَوْ حَيَاةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شُرَكَاءُ"
+      ],
+      "collocations": [
+        "شَرِيكُ الْحَيَاةِ"
+      ],
+      "examples_ar": [
+        "يَتَحَمَّلُ كُلُّ شَرِيكٍ مَسْؤُولِيَّتَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_032",
+      "arabic": "مُنَاسَبَةٌ",
+      "meaning_ar": "حَدَثٌ يَجْتَمِعُ النَّاسُ مِنْ أَجْلِهِ لِلتَّذَكُّرِ أَوِ الْفَرَحِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَاسَبَاتٌ"
+      ],
+      "collocations": [
+        "مُنَاسَبَةٌ سَعِيدَةٌ"
+      ],
+      "examples_ar": [
+        "حَضَرَ الْأَقَارِبُ الْمُنَاسَبَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_033",
+      "arabic": "زَوَّجَ",
+      "meaning_ar": "جَعَلَ شَخْصًا يَتَزَوَّجُ وَأَتَمَّ لَهُ الزَّوَاجَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُزَوِّجُ"
+      ],
+      "collocations": [
+        "زَوَّجَ ابْنَتَهُ"
+      ],
+      "examples_ar": [
+        "زَوَّجَ الْأَبُ ابْنَتَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_034",
+      "arabic": "خَطَبَ",
+      "meaning_ar": "طَلَبَ امْرَأَةً لِلزَّوَاجِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَخْطُبُ"
+      ],
+      "collocations": [
+        "خَطَبَ الْفَتَاةَ"
+      ],
+      "examples_ar": [
+        "خَطَبَ الشَّابُّ فَتَاةً مِنْ أُسْرَةٍ مَعْرُوفَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ «خَطَبَ فِي النَّاسِ» أَيْ أَلْقَى خُطْبَةً.",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_035",
+      "arabic": "تَفَاهَمَ",
+      "meaning_ar": "فَهِمَ كُلُّ شَخْصٍ رَأْيَ الْآخَرِ وَتَعَامَلَ مَعَهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَفَاهَمُ"
+      ],
+      "collocations": [
+        "تَفَاهَمَ مَعَ زَوْجَتِهِ"
+      ],
+      "examples_ar": [
+        "تَفَاهَمَ الزَّوْجَانِ بِهُدُوءٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_036",
+      "arabic": "تَشَاوَرَ",
+      "meaning_ar": "تَبَادَلَ الرَّأْيَ مَعَ شَخْصٍ قَبْلَ اتِّخَاذِ قَرَارٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَشَاوَرُ"
+      ],
+      "collocations": [
+        "تَشَاوَرَ فِي الْأَمْرِ"
+      ],
+      "examples_ar": [
+        "تَشَاوَرَتِ الْأُسْرَةُ فِي أَمْرِ السَّفَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_037",
+      "arabic": "اخْتَلَفَ",
+      "meaning_ar": "لَمْ يَتَّفِقْ مَعَ غَيْرِهِ فِي الرَّأْيِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَخْتَلِفُ"
+      ],
+      "collocations": [
+        "اِخْتَلَفَ فِي الرَّأْيِ"
+      ],
+      "examples_ar": [
+        "اِخْتَلَفَ الصَّدِيقَانِ ثُمَّ تَصَالَحَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 37,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 37,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_038",
+      "arabic": "اتَّفَقَ",
+      "meaning_ar": "وَافَقَ شَخْصًا آخَرَ عَلَى رَأْيٍ أَوْ قَرَارٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَّفِقُ"
+      ],
+      "collocations": [
+        "اتَّفَقَ عَلَى الْمَوْعِدِ"
+      ],
+      "examples_ar": [
+        "اتَّفَقَ الزَّوْجَانِ عَلَى الْقَرَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 38,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 38,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_039",
+      "arabic": "تَحَمَّلَ",
+      "meaning_ar": "قَبِلَ مَسْؤُولِيَّةً أَوْ صَبَرَ عَلَى صُعُوبَةٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَحَمَّلُ"
+      ],
+      "collocations": [
+        "تَحَمَّلَ الْمَسْؤُولِيَّةَ"
+      ],
+      "examples_ar": [
+        "تَحَمَّلَ الرَّجُلُ مَسْؤُولِيَّةَ الْأُسْرَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 39,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 39,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_040",
+      "arabic": "تَصَالَحَ",
+      "meaning_ar": "أَنْهَى خِلَافًا مَعَ شَخْصٍ وَعَادَ إِلَى الْوِفَاقِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَصَالَحُ"
+      ],
+      "collocations": [
+        "تَصَالَحَ مَعَ صَدِيقِهِ"
+      ],
+      "examples_ar": [
+        "تَصَالَحَ الزَّوْجَانِ بَعْدَ الْحِوَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 40,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 40,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_041",
+      "arabic": "أَنْفَقَ",
+      "meaning_ar": "صَرَفَ مَالًا لِشِرَاءِ شَيْءٍ أَوْ لِرِعَايَةِ شَخْصٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُنْفِقُ"
+      ],
+      "collocations": [
+        "أَنْفَقَ عَلَى الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "يُنْفِقُ الْأَبُ عَلَى بَيْتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 41,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 41,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u03_042",
+      "arabic": "تَرَبَّى",
+      "meaning_ar": "نَشَأَ وَتَعَلَّمَ الْعَادَاتِ وَالْأَخْلَاقَ فِي أُسْرَةٍ أَوْ مَكَانٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَرَبَّى"
+      ],
+      "collocations": [
+        "تَرَبَّى فِي أُسْرَةٍ"
+      ],
+      "examples_ar": [
+        "تَرَبَّى الطِّفْلُ عَلَى الْأَدَبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 3,
+        "index": 42,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 3,
+          "index": 42,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_001",
+      "arabic": "بَلَدِيَّةٌ",
+      "meaning_ar": "مُؤَسَّسَةٌ تَهْتَمُّ بِخِدْمَاتِ الْمَدِينَةِ وَنَظَافَتِهَا وَتَنْظِيمِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَلَدِيَّاتٌ"
+      ],
+      "collocations": [
+        "بَلَدِيَّةُ الْمَدِينَةِ"
+      ],
+      "examples_ar": [
+        "أَصْلَحَتِ الْبَلَدِيَّةُ الطَّرِيقَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_002",
+      "arabic": "شَارِعٌ",
+      "meaning_ar": "طَرِيقٌ فِي الْمَدِينَةِ تَمْشِي فِيهِ السَّيَّارَاتُ وَالنَّاسُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَوَارِعُ"
+      ],
+      "collocations": [
+        "شَارِعٌ رَئِيسِيٌّ"
+      ],
+      "examples_ar": [
+        "يَسْكُنُ أَخِي فِي شَارِعٍ هَادِئٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_003",
+      "arabic": "رَصِيفٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الطَّرِيقِ مُخَصَّصٌ لِمَشْيِ النَّاسِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَرْصِفَةٌ"
+      ],
+      "collocations": [
+        "رَصِيفُ الْمُشَاةِ"
+      ],
+      "examples_ar": [
+        "يَمْشِي الطِّفْلُ عَلَى الرَّصِيفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_004",
+      "arabic": "إِشَارَةٌ",
+      "meaning_ar": "عَلَامَةٌ تُوَضِّحُ مَعْنًى أَوْ تُوَجِّهُ إِلَى عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِشَارَاتٌ"
+      ],
+      "collocations": [
+        "إِشَارَةُ الْمُرُورِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفَ السَّائِقُ عِنْدَ الْإِشَارَةِ الْحَمْرَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_005",
+      "arabic": "مُرُورٌ",
+      "meaning_ar": "حَرَكَةُ السَّيَّارَاتِ وَالنَّاسِ عَلَى الطُّرُقِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قَوَاعِدُ الْمُرُورِ"
+      ],
+      "examples_ar": [
+        "يَنْبَغِي احْتِرَامُ قَوَاعِدِ الْمُرُورِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_006",
+      "arabic": "تَقَاطُعٌ",
+      "meaning_ar": "مَكَانٌ يَلْتَقِي فِيهِ طَرِيقَانِ أَوْ أَكْثَرُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَاطُعَاتٌ"
+      ],
+      "collocations": [
+        "تَقَاطُعُ الطُّرُقِ"
+      ],
+      "examples_ar": [
+        "وَقَفْنَا عِنْدَ تَقَاطُعِ الطُّرُقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_007",
+      "arabic": "مَمَرٌّ",
+      "meaning_ar": "طَرِيقٌ ضَيِّقٌ يُسْتَعْمَلُ لِلْمُرُورِ بَيْنَ مَكَانَيْنِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَمَرَّاتٌ"
+      ],
+      "collocations": [
+        "مَمَرُّ الْمُشَاةِ"
+      ],
+      "examples_ar": [
+        "عَبَرَ النَّاسُ مَمَرَّ الْمُشَاةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_008",
+      "arabic": "جِسْرٌ",
+      "meaning_ar": "بِنَاءٌ يَمْتَدُّ فَوْقَ نَهْرٍ أَوْ طَرِيقٍ لِيَمُرَّ النَّاسُ عَلَيْهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جُسُورٌ"
+      ],
+      "collocations": [
+        "جِسْرٌ طَوِيلٌ"
+      ],
+      "examples_ar": [
+        "عَبَرَ الْقِطَارُ الْجِسْرَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_009",
+      "arabic": "نَفَقٌ",
+      "meaning_ar": "طَرِيقٌ تَحْتَ الْأَرْضِ أَوْ جَبَلٍ يَمُرُّ مِنْهُ النَّاسُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَنْفَاقٌ"
+      ],
+      "collocations": [
+        "نَفَقٌ تَحْتَ الْأَرْضِ"
+      ],
+      "examples_ar": [
+        "تَمُرُّ السَّيَّارَاتُ فِي النَّفَقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_010",
+      "arabic": "حَارَةٌ",
+      "meaning_ar": "جُزْءٌ صَغِيرٌ مِنَ الْمَدِينَةِ فِيهِ بُيُوتٌ وَشَوَارِعُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَارَاتٌ"
+      ],
+      "collocations": [
+        "حَارَةٌ قَدِيمَةٌ"
+      ],
+      "examples_ar": [
+        "نَعْرِفُ كُلَّ جِيرَانِنَا فِي الْحَارَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_011",
+      "arabic": "بِنَايَةٌ",
+      "meaning_ar": "مَبْنًى يَتَكَوَّنُ مِنْ طَوَابِقَ وَغُرَفٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بِنَايَاتٌ"
+      ],
+      "collocations": [
+        "بِنَايَةٌ سَكَنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تُوجَدُ فِي الْحَيِّ بِنَايَاتٌ جَدِيدَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_012",
+      "arabic": "عِمَارَةٌ",
+      "meaning_ar": "مَبْنًى كَبِيرٌ تَكُونُ فِيهِ شُقَقٌ أَوْ مَكَاتِبُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عِمَارَاتٌ"
+      ],
+      "collocations": [
+        "عِمَارَةٌ سَكَنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَسْكُنُ فِي عِمَارَةٍ مِنْ سِتَّةِ أَدْوَارٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_013",
+      "arabic": "مَرْكَزٌ",
+      "meaning_ar": "مَكَانٌ تُقَدَّمُ فِيهِ خِدْمَةٌ أَوْ تُنَظَّمُ فِيهِ أَعْمَالٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاكِزُ"
+      ],
+      "collocations": [
+        "مَرْكَزٌ تِجَارِيٌّ"
+      ],
+      "examples_ar": [
+        "نَذْهَبُ إِلَى الْمَرْكَزِ التِّجَارِيِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_014",
+      "arabic": "مَحَطَّةٌ",
+      "meaning_ar": "مَكَانٌ تَقِفُ فِيهِ وَسَائِلُ النَّقْلِ لِيَرْكَبَ النَّاسُ أَوْ يَنْزِلُوا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَحَطَّاتٌ"
+      ],
+      "collocations": [
+        "مَحَطَّةُ الْقِطَارِ"
+      ],
+      "examples_ar": [
+        "اِنْتَظَرْتُ فِي مَحَطَّةِ الْحَافِلَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_015",
+      "arabic": "مِتْرُو",
+      "meaning_ar": "قِطَارٌ لِنَقْلِ الرُّكَّابِ فِي الْمَدِينَةِ وَقَدْ يَسِيرُ تَحْتَ الْأَرْضِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَحَطَّةُ الْمِتْرُو"
+      ],
+      "examples_ar": [
+        "رَكِبْتُ الْمِتْرُو إِلَى الْجَامِعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_016",
+      "arabic": "مَكْتَبٌ",
+      "meaning_ar": "مَكَانٌ يَجْلِسُ فِيهِ شَخْصٌ لِلْكِتَابَةِ أَوْ إِنْجَازِ الْعَمَلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَكَاتِبُ"
+      ],
+      "collocations": [
+        "مَكْتَبُ الْمُدِيرِ"
+      ],
+      "examples_ar": [
+        "يَعْمَلُ أَخِي فِي مَكْتَبٍ كَبِيرٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_017",
+      "arabic": "مُؤَسَّسَةٌ",
+      "meaning_ar": "جِهَةٌ لَهَا نِظَامٌ وَتَقُومُ بِعَمَلٍ مُحَدَّدٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُؤَسَّسَاتٌ"
+      ],
+      "collocations": [
+        "مُؤَسَّسَةٌ تَعْلِيمِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تُقَدِّمُ الْمُؤَسَّسَةُ خِدْمَاتٍ لِلسُّكَّانِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_018",
+      "arabic": "صَرَّافٌ",
+      "meaning_ar": "شَخْصٌ يُبَدِّلُ نُقُودَ بَلَدٍ بِنُقُودِ بَلَدٍ آخَرَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَرَّافُونَ"
+      ],
+      "collocations": [
+        "مَكْتَبُ الصَّرَّافِ"
+      ],
+      "examples_ar": [
+        "سَأَلْتُ الصَّرَّافَ عَنْ سِعْرِ الصَّرْفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_019",
+      "arabic": "مَصْرِفٌ",
+      "meaning_ar": "مُؤَسَّسَةٌ تُحَافِظُ عَلَى الْأَمْوَالِ وَتُقَدِّمُ خَدَمَاتٍ مَالِيَّةً.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَصَارِفُ"
+      ],
+      "collocations": [
+        "حِسَابٌ فِي الْمَصْرِفِ"
+      ],
+      "examples_ar": [
+        "فَتَحْتُ حِسَابًا فِي الْمَصْرِفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_020",
+      "arabic": "بَرِيدٌ",
+      "meaning_ar": "نِظَامٌ لِإِرْسَالِ الرَّسَائِلِ وَالطُّرُودِ إِلَى النَّاسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَكْتَبُ الْبَرِيدِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلْتُ الرِّسَالَةَ بِالْبَرِيدِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_021",
+      "arabic": "رِسَالَةٌ",
+      "meaning_ar": "كَلامٌ مَكْتُوبٌ يُرْسِلُهُ شَخْصٌ إِلَى شَخْصٍ آخَرَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رَسَائِلُ"
+      ],
+      "collocations": [
+        "رِسَالَةٌ قَصِيرَةٌ"
+      ],
+      "examples_ar": [
+        "كَتَبْتُ رِسَالَةً إِلَى صَدِيقِي."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_022",
+      "arabic": "سَائِقٌ",
+      "meaning_ar": "شَخْصٌ يَقُودُ سَيَّارَةً أَوْ وَسِيلَةَ نَقْلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَائِقُونَ"
+      ],
+      "collocations": [
+        "سَائِقُ الْحَافِلَةِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفَ السَّائِقُ عِنْدَ الْإِشَارَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_023",
+      "arabic": "رَاكِبٌ",
+      "meaning_ar": "شَخْصٌ يَجْلِسُ فِي وَسِيلَةِ نَقْلٍ لِيَنْتَقِلَ بِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رُكَّابٌ"
+      ],
+      "collocations": [
+        "رَاكِبُ الْقِطَارِ"
+      ],
+      "examples_ar": [
+        "نَزَلَ الرُّكَّابُ فِي الْمَحَطَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_024",
+      "arabic": "طَرِيقٌ",
+      "meaning_ar": "مَكَانٌ مُمَهَّدٌ يَسِيرُ عَلَيْهِ النَّاسُ أَوِ السَّيَّارَاتُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طُرُقٌ"
+      ],
+      "collocations": [
+        "طَرِيقٌ رَئِيسِيٌّ"
+      ],
+      "examples_ar": [
+        "هَذَا الطَّرِيقُ يُؤَدِّي إِلَى الْمَطَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_025",
+      "arabic": "زِحَامٌ",
+      "meaning_ar": "وُجُودُ عَدَدٍ كَبِيرٍ مِنَ النَّاسِ أَوِ السَّيَّارَاتِ فِي مَكَانٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "زِحَامُ السَّيَّارَاتِ"
+      ],
+      "examples_ar": [
+        "يَزْدَادُ الزِّحَامُ فِي الصَّبَاحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_026",
+      "arabic": "نَقْلٌ",
+      "meaning_ar": "تَحْرِيكُ شَخْصٍ أَوْ شَيْءٍ مِنْ مَكَانٍ إِلَى آخَرَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَسَائِلُ النَّقْلِ"
+      ],
+      "examples_ar": [
+        "تَسْتَعْمِلُ الْمَدِينَةُ وَسَائِلَ نَقْلٍ مُتَنَوِّعَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_027",
+      "arabic": "مُوَاصَلَاتٌ",
+      "meaning_ar": "وَسَائِلُ يَسْتَعْمِلُهَا النَّاسُ لِلِانْتِقَالِ بَيْنَ الْأَمَاكِنِ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ"
+      ],
+      "collocations": [
+        "الْمُوَاصَلَاتُ الْعَامَّةُ"
+      ],
+      "examples_ar": [
+        "أَسْتَعْمِلُ الْمُوَاصَلَاتِ الْعَامَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_028",
+      "arabic": "ضَاحِيَةٌ",
+      "meaning_ar": "مِنْطَقَةٌ سَكَنِيَّةٌ تَقَعُ قُرْبَ حُدُودِ الْمَدِينَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ضَوَاحٍ"
+      ],
+      "collocations": [
+        "ضَاحِيَةٌ هَادِئَةٌ"
+      ],
+      "examples_ar": [
+        "تَسْكُنُ أُسْرَتِي فِي ضَاحِيَةٍ هَادِئَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_029",
+      "arabic": "مُجَمَّعٌ",
+      "meaning_ar": "مَكَانٌ تَجْتَمِعُ فِيهِ مَبَانٍ أَوْ مَحَلَّاتٌ مُتَعَدِّدَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُجَمَّعَاتٌ"
+      ],
+      "collocations": [
+        "مُجَمَّعٌ تِجَارِيٌّ"
+      ],
+      "examples_ar": [
+        "تُوجَدُ مَحَلَّاتٌ كَثِيرَةٌ فِي الْمُجَمَّعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_030",
+      "arabic": "مَيْدَانٌ",
+      "meaning_ar": "مَكَانٌ وَاسِعٌ مَفْتُوحٌ فِي الْمَدِينَةِ يَجْتَمِعُ فِيهِ النَّاسُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَيَادِينُ"
+      ],
+      "collocations": [
+        "مَيْدَانٌ رَئِيسِيٌّ"
+      ],
+      "examples_ar": [
+        "يَقَعُ الْمَيْدَانُ فِي وَسَطِ الْمَدِينَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_031",
+      "arabic": "إِيجَارٌ",
+      "meaning_ar": "مَالٌ يُدْفَعُ مُقَابِلَ اسْتِعْمَالِ بَيْتٍ أَوْ شَيْءٍ مُدَّةً مُعَيَّنَةً.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِيجَارُ الشَّقَّةِ"
+      ],
+      "examples_ar": [
+        "دَفَعْتُ إِيجَارَ الشَّقَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_032",
+      "arabic": "مَصْنَعٌ",
+      "meaning_ar": "مَكَانٌ تُصْنَعُ فِيهِ الْمُنْتَجَاتُ بِالْآلَاتِ وَالْعَمَلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَصَانِعُ"
+      ],
+      "collocations": [
+        "مَصْنَعُ السَّيَّارَاتِ"
+      ],
+      "examples_ar": [
+        "يَعْمَلُ عَمِّي فِي مَصْنَعٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_033",
+      "arabic": "نَافُورَةٌ",
+      "meaning_ar": "مَكَانٌ أَوْ جِهَازٌ يَدْفَعُ الْمَاءَ إِلَى أَعْلَى لِلزِّينَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَوَافِيرُ"
+      ],
+      "collocations": [
+        "نَافُورَةُ الْمَيْدَانِ"
+      ],
+      "examples_ar": [
+        "فِي وَسَطِ الْمَيْدَانِ نَافُورَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_034",
+      "arabic": "مَسْرَحٌ",
+      "meaning_ar": "مَكَانٌ تُقَدَّمُ فِيهِ الْعُرُوضُ أَمَامَ الْجُمْهُورِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسَارِحُ"
+      ],
+      "collocations": [
+        "مَسْرَحُ الْمَدْرَسَةِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطُّلَّابُ عَرْضًا فِي الْمَسْرَحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_035",
+      "arabic": "مَتْجَرٌ",
+      "meaning_ar": "مَكَانٌ تُبَاعُ فِيهِ السِّلَعُ لِلنَّاسِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَتَاجِرُ"
+      ],
+      "collocations": [
+        "مَتْجَرُ الْمَلَابِسِ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَيْتُ الْقَمِيصَ مِنَ الْمَتْجَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_036",
+      "arabic": "أُجْرَةٌ",
+      "meaning_ar": "مَالٌ يُدْفَعُ مُقَابِلَ عَمَلٍ أَوْ خِدْمَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أُجُورٌ"
+      ],
+      "collocations": [
+        "أُجْرَةُ السَّيَّارَةِ"
+      ],
+      "examples_ar": [
+        "دَفَعَ الرَّاكِبُ الْأُجْرَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_038",
+      "arabic": "ضَوْءٌ",
+      "meaning_ar": "مَا نَرَى بِهِ الْأَشْيَاءَ وَيُضِيءُ الْمَكَانَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَضْوَاءٌ"
+      ],
+      "collocations": [
+        "ضَوْءُ الشَّارِعِ"
+      ],
+      "examples_ar": [
+        "أَضْوَاءُ الشَّارِعِ مُضِيئَةٌ لَيْلًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 38,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 38,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_039",
+      "arabic": "سُكَّانٌ",
+      "meaning_ar": "النَّاسُ الَّذِينَ يَعِيشُونَ فِي مَكَانٍ مُعَيَّنٍ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ؛ الْمُفْرَدُ سَاكِنٌ"
+      ],
+      "collocations": [
+        "سُكَّانُ الْمَدِينَةِ"
+      ],
+      "examples_ar": [
+        "يَزْدَادُ عَدَدُ سُكَّانِ الْمَدِينَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 39,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 39,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_040",
+      "arabic": "عَبَرَ",
+      "meaning_ar": "انْتَقَلَ مِنْ جَانِبٍ إِلَى جَانِبٍ آخَرَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَعْبُرُ"
+      ],
+      "collocations": [
+        "عَبَرَ الشَّارِعَ"
+      ],
+      "examples_ar": [
+        "عَبَرَ الطَّالِبُ الشَّارِعَ مِنَ الْمَمَرِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 40,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 40,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_041",
+      "arabic": "وَصَلَ",
+      "meaning_ar": "بَلَغَ مَكَانًا كَانَ يَتَّجِهُ إِلَيْهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَصِلُ"
+      ],
+      "collocations": [
+        "وَصَلَ إِلَى الْمَحَطَّةِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْقِطَارُ إِلَى الْمَحَطَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 41,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 41,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_042",
+      "arabic": "اسْتَخْدَمَ",
+      "meaning_ar": "جَعَلَ شَيْئًا وَسِيلَةً لِإِنْجَازِ عَمَلٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَسْتَخْدِمُ"
+      ],
+      "collocations": [
+        "اِسْتَخْدَمَ الْمِتْرُو"
+      ],
+      "examples_ar": [
+        "أَسْتَخْدِمُ الْحَاسُوبَ فِي الْعَمَلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 42,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 42,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_043",
+      "arabic": "تَجَوَّلَ",
+      "meaning_ar": "سَارَ فِي أَمَاكِنَ مُخْتَلِفَةٍ لِيَتَعَرَّفَ عَلَيْهَا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَجَوَّلُ"
+      ],
+      "collocations": [
+        "تَجَوَّلَ فِي الْمَدِينَةِ"
+      ],
+      "examples_ar": [
+        "تَجَوَّلْنَا فِي الشَّوَارِعِ الْقَدِيمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 43,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 43,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_044",
+      "arabic": "انْطَلَقَ",
+      "meaning_ar": "بَدَأَ الْحَرَكَةَ أَوِ السَّيْرَ مِنْ مَكَانٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَنْطَلِقُ"
+      ],
+      "collocations": [
+        "انْطَلَقَ الْقِطَارُ"
+      ],
+      "examples_ar": [
+        "انْطَلَقَتِ الْحَافِلَةُ فِي الصَّبَاحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 44,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 44,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_045",
+      "arabic": "تَوَقَّفَ",
+      "meaning_ar": "كَفَّ عَنِ الْحَرَكَةِ أَوِ الْعَمَلِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَوَقَّفُ"
+      ],
+      "collocations": [
+        "تَوَقَّفَ عِنْدَ الْإِشَارَةِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفَتِ السَّيَّارَةُ عِنْدَ الْإِشَارَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 45,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 45,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_046",
+      "arabic": "بَنَى",
+      "meaning_ar": "أَقَامَ بَيْتًا أَوْ مَبْنًى بِجَمْعِ مَوَادِّ الْبِنَاءِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَبْنِي"
+      ],
+      "collocations": [
+        "بَنَى الْجِسْرَ"
+      ],
+      "examples_ar": [
+        "بَنَتِ الْبَلَدِيَّةُ جِسْرًا جَدِيدًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 46,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 46,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_047",
+      "arabic": "أَصْلَحَ",
+      "meaning_ar": "جَعَلَ شَيْئًا تَالِفًا يَعْمَلُ أَوْ يَكُونُ جَيِّدًا مِنْ جَدِيدٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُصْلِحُ"
+      ],
+      "collocations": [
+        "أَصْلَحَ الطَّرِيقَ"
+      ],
+      "examples_ar": [
+        "أَصْلَحَ الْعُمَّالُ الرَّصِيفَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 47,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 47,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
+    },
+    {
+      "id": "l2u04_048",
+      "arabic": "وَجَّهَ",
+      "meaning_ar": "أَرْشَدَ شَخْصًا إِلَى الطَّرِيقِ أَوِ الْعَمَلِ الصَّحِيحِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُوَجِّهُ"
+      ],
+      "collocations": [
+        "وَجَّهَ الْمُرُورَ"
+      ],
+      "examples_ar": [
+        "وَجَّهَ الشُّرْطِيُّ السَّيَّارَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "sources": [],
+      "source_group": "level2_topic_curated_unverified",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+        "book": 2,
+        "part": 1,
+        "chapter": 4,
+        "index": 48,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/65822/1/Thesis-Muh.%20Muhollis.pdf",
+          "book": 2,
+          "part": 1,
+          "chapter": 4,
+          "index": 48,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Topic alignment from academic curriculum reference; candidate lexemes, not verified printed glossary"
+        }
+      ]
     }
   ],
   "corpus_progress": {
@@ -24819,7 +28545,9 @@
     "level1_sixteenth_chapter_official_glossary_checked": false,
     "level2_draft_topics": {
       "1": "العناية بالصحة",
-      "2": "الترويح عن النفس"
+      "2": "الترويح عن النفس",
+      "3": "الحياة الزوجية",
+      "4": "الحياة في المدينة"
     },
     "level2_official_glossary_checked": false
   },
