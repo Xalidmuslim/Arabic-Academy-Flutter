@@ -1,0 +1,25 @@
+name: Bayna v51 Shadow Perimeter
+on:
+  push:
+    branches: [codex/bayna-v51-shadow-perimeter-20261025]
+permissions:
+  contents: read
+concurrency:
+  group: bayna-v51-shadow-perimeter
+  cancel-in-progress: false
+jobs:
+  shadow-regression:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - run: |
+          python3 -m pip install --disable-pip-version-check Pillow==11.3.0
+          python3 scripts/generate_cached_card_shadows.py
+          flutter pub get --enforce-lockfile
+          flutter test --no-pub --timeout=120s \
+            --dart-define=BAYNA_CACHED_CARD_SHADOWS=true \
+            test/card_shadow_draw_work_test.dart
