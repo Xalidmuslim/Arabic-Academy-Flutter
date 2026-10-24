@@ -1,5 +1,7 @@
 """Corpus extension regression: second level must not overwrite level one."""
 import json
+
+from validate_dictionary import load_corpus
 import unittest
 from pathlib import Path
 
@@ -7,7 +9,7 @@ DB = Path(__file__).resolve().parents[1] / "assets" / "data" / "entries.json"
 
 class SecondLevelContentTests(unittest.TestCase):
     def test_level2_topic_entries_have_complete_arabic_cards(self):
-        data = json.loads(DB.read_text(encoding="utf-8"))
+        data = load_corpus()
         items = data["entries"]
         level2_refs = {}
         for item in items:
