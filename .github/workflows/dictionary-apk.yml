@@ -1,8 +1,6 @@
 name: Dictionary APK build
+# APK builds are deliberately manual until the complete dictionary is reviewed.
 on:
-  push:
-    branches: ["codex/bayna-dictionary-demo-apk-20261024"]
-    paths: ["lib/**", "assets/**", "pubspec.yaml", "test/**", ".github/workflows/dictionary-apk.yml"]
   workflow_dispatch:
 jobs:
   build-apk:
