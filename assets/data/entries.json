@@ -50,6 +50,17 @@
       "usage_note_ar": "يُقَالُ «بَيْتٌ» لِلْمَكَانِ الَّذِي يَسْكُنُ فِيهِ النَّاسُ.",
       "additional_meanings_ar": [
         "جُزْءٌ مِنَ الشِّعْرِ يَتَكَوَّنُ مِنْ شَطْرَيْنِ."
+      ],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
       ]
     },
     {
@@ -144,7 +155,18 @@
         "اِسْمٌ؛ الْجَمْعُ جَامِعَاتٌ"
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ]
     },
     {
       "id": "demo6",
@@ -718,7 +740,18 @@
         "فِعْلٌ؛ الْمُضَارِعُ يَدْخُلُ؛ الْأَمْرُ اُدْخُلْ"
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ]
     },
     {
       "id": "demo29",
@@ -888,7 +921,18 @@
         "تُعِدُّ أُمِّي الطَّعَامَ فِي الْمَطْبَخِ."
       ],
       "usage_note_ar": "",
-      "additional_meanings_ar": []
+      "additional_meanings_ar": [],
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ]
     },
     {
       "id": "demo_new3",
@@ -1455,7 +1499,23 @@
       "source_group": "book1_chapter1_secondary",
       "source_chapter_number": 1,
       "source_chapter_order": 28,
-      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book"
+      "source_verification": "secondary_vocabulary_list_not_verified_in_official_book",
+      "book_references": [
+        {
+          "book": 1,
+          "chapter": 1,
+          "index": 28
+        },
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ]
     },
     {
       "id": "level1_topic1_029",
@@ -3599,6 +3659,1886 @@
         }
       ],
       "sources": []
+    },
+    {
+      "id": "l1u3_001",
+      "arabic": "حَيٌّ",
+      "meaning_ar": "جُزْءٌ مِنَ الْمَدِينَةِ فِيهِ بُيُوتٌ وَشَوَارِعُ يَسْكُنُ فِيهَا النَّاسُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحْيَاءٌ"
+      ],
+      "collocations": [
+        "حَيُّ الْمَطَارِ"
+      ],
+      "examples_ar": [
+        "أَسْكُنُ فِي حَيٍّ قَرِيبٍ مِنَ الْجَامِعَةِ."
+      ],
+      "usage_note_ar": "مِنْ مَعَانِيهِ أَيْضًا «لَيْسَ مَيِّتًا»، وَهُنَا يَدُلُّ عَلَى مَنْطِقَةٍ سَكَنِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_002",
+      "arabic": "مَطَارٌ",
+      "meaning_ar": "مَكَانٌ تَهْبِطُ فِيهِ الطَّائِرَاتُ وَتُقْلِعُ مِنْهُ، وَيَسَافِرُ مِنْهُ النَّاسُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَطَارَاتٌ"
+      ],
+      "collocations": [
+        "مَطَارُ الْمَدِينَةِ"
+      ],
+      "examples_ar": [
+        "يَقَعُ الْمَطَارُ بِالْقُرْبِ مِنْ بَيْتِنَا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_005",
+      "arabic": "شَقَّةٌ",
+      "meaning_ar": "جُزْءٌ مِنْ مَبْنًى فِيهِ غُرَفٌ يَسْكُنُ فِيهَا شَخْصٌ أَوْ أُسْرَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شُقَقٌ"
+      ],
+      "collocations": [
+        "شَقَّةٌ لِلْإِيجَارِ"
+      ],
+      "examples_ar": [
+        "أُرِيدُ شَقَّةً فِي الدَّوْرِ الثَّانِي."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_007",
+      "arabic": "جَمِيلٌ",
+      "meaning_ar": "شَيْءٌ يُعْجِبُ النَّاسَ لِحُسْنِ شَكْلِهِ أَوْ صِفَاتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ جَمِيلَةٌ؛ الْجَمْعُ جَمِيلُونَ"
+      ],
+      "collocations": [
+        "بَيْتٌ جَمِيلٌ"
+      ],
+      "examples_ar": [
+        "هَذَا بَيْتٌ جَمِيلٌ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_008",
+      "arabic": "جَمِيلَةٌ",
+      "meaning_ar": "شَيْءٌ مُؤَنَّثٌ يُعْجِبُ النَّاسَ لِحُسْنِ شَكْلِهِ أَوْ صِفَاتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "صِفَةٌ مُؤَنَّثَةٌ؛ الْمُذَكَّرُ جَمِيلٌ"
+      ],
+      "collocations": [
+        "شَقَّةٌ جَمِيلَةٌ"
+      ],
+      "examples_ar": [
+        "هَذِهِ شَقَّةٌ جَمِيلَةٌ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_009",
+      "arabic": "فَضْلٌ",
+      "meaning_ar": "خَيْرٌ وَإِحْسَانٌ يُقَدِّمُهُ شَخْصٌ إِلَى غَيْرِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَفْضَالٌ"
+      ],
+      "collocations": [
+        "مِنْ فَضْلِكَ"
+      ],
+      "examples_ar": [
+        "أُرِيدُ غُرْفَةً، مِنْ فَضْلِكَ."
+      ],
+      "usage_note_ar": "فِي عِبَارَةِ «مِنْ فَضْلِكَ» نَطْلُبُ الشَّيْءَ بِأَدَبٍ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_010",
+      "arabic": "دَوْرٌ",
+      "meaning_ar": "مُسْتَوًى مِنْ مُسْتَوَيَاتِ مَبْنًى فِيهِ غُرَفٌ أَوْ شُقَقٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَدْوَارٌ"
+      ],
+      "collocations": [
+        "الدَّوْرُ الْخَامِسُ"
+      ],
+      "examples_ar": [
+        "تَقَعُ شَقَّتُنَا فِي الدَّوْرِ الْخَامِسِ."
+      ],
+      "usage_note_ar": "لِلْكَلِمَةِ مَعَانٍ أُخْرَى، مِثْلُ الدَّوْرِ فِي الْعَمَلِ أَوِ اللَّعِبِ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_011",
+      "arabic": "خِدْمَةٌ",
+      "meaning_ar": "عَمَلٌ يَقُومُ بِهِ شَخْصٌ لِيُسَاعِدَ غَيْرَهُ أَوْ يَقْضِيَ حَاجَتَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خِدْمَاتٌ"
+      ],
+      "collocations": [
+        "أَيُّ خِدْمَةٍ؟"
+      ],
+      "examples_ar": [
+        "قَالَ الْبَائِعُ: أَيُّ خِدْمَةٍ؟"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_012",
+      "arabic": "أَثَاثٌ",
+      "meaning_ar": "أَشْيَاءُ نَضَعُهَا فِي الْبَيْتِ وَنَسْتَعْمِلُهَا، مِثْلُ السَّرِيرِ وَالْأَرِيكَةِ وَالْمَائِدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ جَمْعٍ"
+      ],
+      "collocations": [
+        "أَثَاثُ الْبَيْتِ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَيْنَا أَثَاثًا جَدِيدًا لِلشَّقَّةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_013",
+      "arabic": "سَرِيرٌ",
+      "meaning_ar": "قِطْعَةٌ مِنَ الْأَثَاثِ يَنَامُ عَلَيْهَا الْإِنْسَانُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَسِرَّةٌ"
+      ],
+      "collocations": [
+        "سَرِيرُ النَّوْمِ"
+      ],
+      "examples_ar": [
+        "فِي غُرْفَتِي سَرِيرٌ وَخِزَانَةٌ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_014",
+      "arabic": "سِتَارَةٌ",
+      "meaning_ar": "قِطْعَةٌ مِنَ الْقُمَاشِ نُعَلِّقُهَا عَلَى النَّافِذَةِ لِحَجْبِ الضَّوْءِ أَوِ النَّظَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَتَائِرُ"
+      ],
+      "collocations": [
+        "سِتَارَةُ النَّافِذَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعْنَا سِتَارَةً جَدِيدَةً عَلَى النَّافِذَةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_015",
+      "arabic": "أَرِيكَةٌ",
+      "meaning_ar": "مَقْعَدٌ طَوِيلٌ يَجْلِسُ عَلَيْهِ شَخْصَانِ أَوْ أَكْثَرُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَرَائِكُ"
+      ],
+      "collocations": [
+        "أَرِيكَةٌ مُرِيحَةٌ"
+      ],
+      "examples_ar": [
+        "تُوجَدُ أَرِيكَةٌ فِي غُرْفَةِ الْجُلُوسِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_016",
+      "arabic": "سَجَّادَةٌ",
+      "meaning_ar": "قِطْعَةٌ مِنْ نَسِيجٍ نَفْرُشُهَا عَلَى الْأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَجَّادَاتٌ"
+      ],
+      "collocations": [
+        "سَجَّادَةُ الْغُرْفَةِ"
+      ],
+      "examples_ar": [
+        "فَرَشْنَا سَجَّادَةً فِي غُرْفَةِ الْجُلُوسِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_018",
+      "arabic": "فُرْنٌ",
+      "meaning_ar": "جِهَازٌ نَسْتَعْمِلُهُ لِطَبْخِ الطَّعَامِ أَوْ خَبْزِهِ بِالْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَفْرَانٌ"
+      ],
+      "collocations": [
+        "فُرْنُ الْمَطْبَخِ"
+      ],
+      "examples_ar": [
+        "خَبَزَتْ أُمِّي الْخُبْزَ فِي الْفُرْنِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_019",
+      "arabic": "ثَلَّاجَةٌ",
+      "meaning_ar": "جِهَازٌ يُبَرِّدُ الطَّعَامَ وَالشَّرَابَ وَيُحَافِظُ عَلَيْهِمَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثَلَّاجَاتٌ"
+      ],
+      "collocations": [
+        "ثَلَّاجَةُ الْمَطْبَخِ"
+      ],
+      "examples_ar": [
+        "وَضَعْتُ الْمَاءَ فِي الثَّلَّاجَةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_020",
+      "arabic": "سَخَّانٌ",
+      "meaning_ar": "جِهَازٌ يَرْفَعُ دَرَجَةَ حَرَارَةِ الْمَاءِ أَوِ الْهَوَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَخَّانَاتٌ"
+      ],
+      "collocations": [
+        "سَخَّانُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "فِي الْحَمَّامِ سَخَّانٌ لِلْمَاءِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_021",
+      "arabic": "مِرْآةٌ",
+      "meaning_ar": "شَيْءٌ مِنْ زُجَاجٍ خَاصٍّ نَرَى فِيهِ صُورَةَ وُجُوهِنَا وَأَجْسَامِنَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَايَا"
+      ],
+      "collocations": [
+        "مِرْآةُ الْحَمَّامِ"
+      ],
+      "examples_ar": [
+        "نَظَرْتُ فِي الْمِرْآةِ قَبْلَ الْخُرُوجِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_022",
+      "arabic": "شَيْءٌ",
+      "meaning_ar": "اِسْمٌ نَسْتَعْمِلُهُ لِلدَّلَالَةِ عَلَى أَمْرٍ أَوْ جِسْمٍ دُونَ تَسْمِيَتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْيَاءُ"
+      ],
+      "collocations": [
+        "شَيْءٌ آخَرُ"
+      ],
+      "examples_ar": [
+        "هَلْ تُرِيدُ شَيْئًا آخَرَ؟"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_023",
+      "arabic": "آخَرُ",
+      "meaning_ar": "وَاحِدٌ غَيْرُ الَّذِي ذُكِرَ أَوَّلًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ أُخْرَى"
+      ],
+      "collocations": [
+        "شَيْءٌ آخَرُ"
+      ],
+      "examples_ar": [
+        "أُرِيدُ كِتَابًا آخَرَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ بَعْدَ الِاسْمِ الَّذِي يَصِفُهُ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_024",
+      "arabic": "يَوْمٌ",
+      "meaning_ar": "وَقْتٌ يَشْمَلُ النَّهَارَ وَاللَّيْلَ، وَمُدَّتُهُ أَرْبَعٌ وَعِشْرُونَ سَاعَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَيَّامٌ"
+      ],
+      "collocations": [
+        "يَوْمُ الْجُمُعَةِ"
+      ],
+      "examples_ar": [
+        "نَذْهَبُ إِلَى الْجَامِعَةِ كُلَّ يَوْمٍ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_025",
+      "arabic": "أُسْبُوعٌ",
+      "meaning_ar": "مُدَّةٌ مِنَ الزَّمَنِ فِيهَا سَبْعَةُ أَيَّامٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَسَابِيعُ"
+      ],
+      "collocations": [
+        "أُسْبُوعٌ كَامِلٌ"
+      ],
+      "examples_ar": [
+        "سَأَنْتَقِلُ إِلَى الْبَيْتِ بَعْدَ أُسْبُوعٍ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_026",
+      "arabic": "شَهْرٌ",
+      "meaning_ar": "مُدَّةٌ مِنَ الزَّمَنِ فِيهَا نَحْوُ ثَلَاثِينَ يَوْمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْهُرٌ وَشُهُورٌ"
+      ],
+      "collocations": [
+        "شَهْرُ رَمَضَانَ"
+      ],
+      "examples_ar": [
+        "سَأَسْكُنُ هُنَا شَهْرًا وَاحِدًا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_027",
+      "arabic": "سَنَةٌ",
+      "meaning_ar": "مُدَّةٌ مِنَ الزَّمَنِ تَسَاوِي اِثْنَيْ عَشَرَ شَهْرًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَنَوَاتٌ"
+      ],
+      "collocations": [
+        "سَنَةٌ جَدِيدَةٌ"
+      ],
+      "examples_ar": [
+        "سَكَنْتُ فِي هَذَا الْحَيِّ سَنَةً كَامِلَةً."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_028",
+      "arabic": "عَامٌ",
+      "meaning_ar": "مُدَّةٌ مِنَ الزَّمَنِ تَسَاوِي اِثْنَيْ عَشَرَ شَهْرًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْوَامٌ"
+      ],
+      "collocations": [
+        "عَامٌ جَدِيدٌ"
+      ],
+      "examples_ar": [
+        "أَقَمْنَا فِي هَذَا الْبَيْتِ عَامًا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_029",
+      "arabic": "سَكَنَ",
+      "meaning_ar": "عَاشَ فِي بَيْتٍ أَوْ مَكَانٍ وَاتَّخَذَهُ مَحَلًّا لِلْإِقَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَسْكُنُ؛ الْأَمْرُ اُسْكُنْ"
+      ],
+      "collocations": [
+        "سَكَنَ فِي شَقَّةٍ"
+      ],
+      "examples_ar": [
+        "أَيْنَ تَسْكُنُ؟ أَسْكُنُ فِي حَيِّ الْمَطَارِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_030",
+      "arabic": "اِسْتَأْجَرَ",
+      "meaning_ar": "دَفَعَ مَالًا لِيَسْتَعْمِلَ بَيْتًا أَوْ شَيْئًا مُدَّةً مَعْلُومَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَسْتَأْجِرُ؛ الْمَصْدَرُ اِسْتِئْجَارٌ"
+      ],
+      "collocations": [
+        "اِسْتَأْجَرَ شَقَّةً"
+      ],
+      "examples_ar": [
+        "اِسْتَأْجَرْنَا شَقَّةً قُرْبَ الْجَامِعَةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_031",
+      "arabic": "أَجَّرَ",
+      "meaning_ar": "سَمَحَ لِشَخْصٍ بِاسْتِعْمَالِ بَيْتٍ أَوْ شَيْءٍ مُقَابِلَ مَالٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُؤَجِّرُ؛ الْمَصْدَرُ تَأْجِيرٌ"
+      ],
+      "collocations": [
+        "أَجَّرَ الشَّقَّةَ"
+      ],
+      "examples_ar": [
+        "أَجَّرَ الرَّجُلُ شَقَّتَهُ لِأُسْرَةٍ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_032",
+      "arabic": "أَرَادَ",
+      "meaning_ar": "طَلَبَ شَيْئًا أَوْ رَغِبَ فِي الْحُصُولِ عَلَيْهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُرِيدُ؛ الْمَصْدَرُ إِرَادَةٌ"
+      ],
+      "collocations": [
+        "أَرَادَ شَقَّةً"
+      ],
+      "examples_ar": [
+        "أُرِيدُ غُرْفَةً، مِنْ فَضْلِكَ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_033",
+      "arabic": "شَاهَدَ",
+      "meaning_ar": "نَظَرَ إِلَى شَيْءٍ وَرَآهُ بِعَيْنَيْهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يُشَاهِدُ؛ الْمَصْدَرُ مُشَاهَدَةٌ"
+      ],
+      "collocations": [
+        "شَاهَدَ الشَّقَّةَ"
+      ],
+      "examples_ar": [
+        "أُرِيدُ مُشَاهَدَةَ الشَّقَّةِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_034",
+      "arabic": "رَأَى",
+      "meaning_ar": "أَدْرَكَ شَيْئًا بِعَيْنَيْهِ وَنَظَرَ إِلَيْهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَرَى؛ الْمَصْدَرُ رُؤْيَةٌ"
+      ],
+      "collocations": [
+        "رَأَى الْبَيْتَ"
+      ],
+      "examples_ar": [
+        "رَأَيْتُ الْمِرْآةَ فِي الْحَمَّامِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_035",
+      "arabic": "تَفَضَّلَ",
+      "meaning_ar": "تَقَدَّمَ أَوْ قَبِلَ الدُّعْوَةَ بِأَدَبٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَتَفَضَّلُ؛ الْأَمْرُ تَفَضَّلْ"
+      ],
+      "collocations": [
+        "تَفَضَّلْ بِالدُّخُولِ"
+      ],
+      "examples_ar": [
+        "قَالَ الْمُؤَجِّرُ: تَفَضَّلْ، اُدْخُلْ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ صِيغَةُ الْأَمْرِ لِلتَّرْحِيبِ وَالدَّعْوَةِ.",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_037",
+      "arabic": "اِشْتَرَى",
+      "meaning_ar": "دَفَعَ مَالًا لِيَحْصُلَ عَلَى شَيْءٍ يُرِيدُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَشْتَرِي؛ الْمَصْدَرُ شِرَاءٌ"
+      ],
+      "collocations": [
+        "اِشْتَرَى أَثَاثًا"
+      ],
+      "examples_ar": [
+        "اِشْتَرَيْنَا سَرِيرًا وَأَرِيكَةً."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 37,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 37,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_038",
+      "arabic": "بَاعَ",
+      "meaning_ar": "أَعْطَى شَيْئًا لِشَخْصٍ وَأَخَذَ مِنْهُ مَالًا مُقَابِلَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَبِيعُ؛ الْمَصْدَرُ بَيْعٌ"
+      ],
+      "collocations": [
+        "بَاعَ السَّرِيرَ"
+      ],
+      "examples_ar": [
+        "بَاعَ التَّاجِرُ أَثَاثًا جَدِيدًا."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 38,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 38,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_039",
+      "arabic": "خَدَمَ",
+      "meaning_ar": "قَامَ بِعَمَلٍ لِيُسَاعِدَ شَخْصًا آخَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَخْدِمُ؛ الْمَصْدَرُ خِدْمَةٌ"
+      ],
+      "collocations": [
+        "خَدَمَ الزَّبُونَ"
+      ],
+      "examples_ar": [
+        "يَخْدِمُ الْبَائِعُ الزَّبَائِنَ فِي الْمَحَلِّ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 39,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 39,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_040",
+      "arabic": "نَامَ",
+      "meaning_ar": "أَغْمَضَ عَيْنَيْهِ وَارْتَاحَ جَسَدُهُ فَتْرَةً مِنَ الزَّمَنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَنَامُ؛ الْمَصْدَرُ نَوْمٌ"
+      ],
+      "collocations": [
+        "نَامَ عَلَى السَّرِيرِ"
+      ],
+      "examples_ar": [
+        "نَامَ الطِّفْلُ فِي غُرْفَةِ النَّوْمِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 40,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 40,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_041",
+      "arabic": "جَلَسَ",
+      "meaning_ar": "وَضَعَ جَسَدَهُ عَلَى كُرْسِيٍّ أَوْ مَقْعَدٍ وَتَوَقَّفَ عَنِ الْوُقُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَجْلِسُ؛ الْمَصْدَرُ جُلُوسٌ"
+      ],
+      "collocations": [
+        "جَلَسَ عَلَى الْأَرِيكَةِ"
+      ],
+      "examples_ar": [
+        "جَلَسْنَا فِي غُرْفَةِ الْجُلُوسِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 41,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 41,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_042",
+      "arabic": "طَبَخَ",
+      "meaning_ar": "أَعَدَّ الطَّعَامَ بِاسْتِعْمَالِ الْحَرَارَةِ لِيَصْلُحَ لِلْأَكْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ يَطْبُخُ؛ الْمَصْدَرُ طَبْخٌ"
+      ],
+      "collocations": [
+        "طَبَخَ الطَّعَامَ"
+      ],
+      "examples_ar": [
+        "طَبَخَتْ أُمِّي الطَّعَامَ فِي الْمَطْبَخِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 42,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 42,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_043",
+      "arabic": "كَمْ",
+      "meaning_ar": "كَلِمَةٌ نَسْأَلُ بِهَا عَنْ عَدَدِ الْأَشْيَاءِ أَوْ مِقْدَارِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ اِسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "كَمْ غُرْفَةً؟"
+      ],
+      "examples_ar": [
+        "كَمْ غُرْفَةً فِي الشَّقَّةِ؟"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 43,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 43,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_044",
+      "arabic": "أَيٌّ",
+      "meaning_ar": "كَلِمَةٌ نَسْأَلُ بِهَا عَنْ وَاحِدٍ مُعَيَّنٍ مِنْ بَيْنِ أَشْيَاءَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ اِسْتِفْهَامٍ"
+      ],
+      "collocations": [
+        "فِي أَيِّ دَوْرٍ؟"
+      ],
+      "examples_ar": [
+        "فِي أَيِّ دَوْرٍ تَسْكُنُ؟"
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 44,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 44,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_045",
+      "arabic": "لَدَى",
+      "meaning_ar": "كَلِمَةٌ تَدُلُّ عَلَى وُجُودِ شَيْءٍ عِنْدَ شَخْصٍ أَوْ فِي مَكَانٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "ظَرْفٌ؛ لَدَيَّ، لَدَيْكَ، لَدَيْنَا"
+      ],
+      "collocations": [
+        "لَدَيْنَا شَقَّةٌ"
+      ],
+      "examples_ar": [
+        "لَدَيْنَا شَقَّةٌ جَمِيلَةٌ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 45,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 45,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_046",
+      "arabic": "السَّبْتُ",
+      "meaning_ar": "يَوْمٌ مِنْ أَيَّامِ الْأُسْبُوعِ، يَأْتِي بَعْدَ الْجُمُعَةِ وَقَبْلَ الْأَحَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ يَوْمٍ"
+      ],
+      "collocations": [
+        "يَوْمُ السَّبْتِ"
+      ],
+      "examples_ar": [
+        "نَزُورُ جَدَّتَنَا يَوْمَ السَّبْتِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 46,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 46,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_047",
+      "arabic": "الْأَحَدُ",
+      "meaning_ar": "يَوْمٌ مِنْ أَيَّامِ الْأُسْبُوعِ، يَأْتِي بَعْدَ السَّبْتِ وَقَبْلَ الِاثْنَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ يَوْمٍ"
+      ],
+      "collocations": [
+        "يَوْمُ الْأَحَدِ"
+      ],
+      "examples_ar": [
+        "أَذْهَبُ إِلَى الْمَدْرَسَةِ يَوْمَ الْأَحَدِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 47,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 47,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_048",
+      "arabic": "الِاثْنَيْنِ",
+      "meaning_ar": "يَوْمٌ مِنْ أَيَّامِ الْأُسْبُوعِ، يَأْتِي بَعْدَ الْأَحَدِ وَقَبْلَ الثُّلَاثَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ يَوْمٍ"
+      ],
+      "collocations": [
+        "يَوْمُ الِاثْنَيْنِ"
+      ],
+      "examples_ar": [
+        "أَدْرُسُ يَوْمَ الِاثْنَيْنِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 48,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 48,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_049",
+      "arabic": "الثُّلَاثَاءُ",
+      "meaning_ar": "يَوْمٌ مِنْ أَيَّامِ الْأُسْبُوعِ، يَأْتِي بَعْدَ الِاثْنَيْنِ وَقَبْلَ الْأَرْبِعَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ يَوْمٍ"
+      ],
+      "collocations": [
+        "يَوْمُ الثُّلَاثَاءِ"
+      ],
+      "examples_ar": [
+        "نَذْهَبُ إِلَى السُّوقِ يَوْمَ الثُّلَاثَاءِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 49,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 49,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_050",
+      "arabic": "الْأَرْبِعَاءُ",
+      "meaning_ar": "يَوْمٌ مِنْ أَيَّامِ الْأُسْبُوعِ، يَأْتِي بَعْدَ الثُّلَاثَاءِ وَقَبْلَ الْخَمِيسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ يَوْمٍ"
+      ],
+      "collocations": [
+        "يَوْمُ الْأَرْبِعَاءِ"
+      ],
+      "examples_ar": [
+        "أَعْمَلُ فِي الْبَيْتِ يَوْمَ الْأَرْبِعَاءِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 50,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 50,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_051",
+      "arabic": "الْخَمِيسُ",
+      "meaning_ar": "يَوْمٌ مِنْ أَيَّامِ الْأُسْبُوعِ، يَأْتِي بَعْدَ الْأَرْبِعَاءِ وَقَبْلَ الْجُمُعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ يَوْمٍ"
+      ],
+      "collocations": [
+        "يَوْمُ الْخَمِيسِ"
+      ],
+      "examples_ar": [
+        "سَنُشَاهِدُ الشَّقَّةَ يَوْمَ الْخَمِيسِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 51,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 51,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l1u3_052",
+      "arabic": "الْجُمُعَةُ",
+      "meaning_ar": "يَوْمٌ مِنْ أَيَّامِ الْأُسْبُوعِ، يَأْتِي بَعْدَ الْخَمِيسِ وَقَبْلَ السَّبْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "grammar": [
+        "اِسْمُ يَوْمٍ"
+      ],
+      "collocations": [
+        "يَوْمُ الْجُمُعَةِ"
+      ],
+      "examples_ar": [
+        "نُصَلِّي صَلَاةَ الْجُمُعَةِ فِي الْمَسْجِدِ."
+      ],
+      "usage_note_ar": "",
+      "additional_meanings_ar": [],
+      "source_group": "book1_chapter3_secondary",
+      "book_reference": {
+        "source_type": "independent_secondary_unit_glossary",
+        "source_url": "https://www.isalkini.com/6840/",
+        "book": 1,
+        "chapter": 3,
+        "index": 52,
+        "official_end_glossary_checked": false,
+        "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+      },
+      "book_references": [
+        {
+          "source_type": "independent_secondary_unit_glossary",
+          "source_url": "https://www.isalkini.com/6840/",
+          "book": 1,
+          "chapter": 3,
+          "index": 52,
+          "official_end_glossary_checked": false,
+          "order_note": "custom ordering of nouns, verbs, particles and weekdays from secondary unit source"
+        }
+      ],
+      "sources": []
     }
   ],
   "corpus_progress": {
@@ -3610,7 +5550,11 @@
     "level1_second_chapter_indexed": 36,
     "level1_second_chapter_source": "independent_secondary_vocabulary_glossary",
     "level1_second_chapter_unverified_official_glossary": true,
-    "level1_second_chapter_last_updated": "2026-10-25"
+    "level1_second_chapter_last_updated": "2026-10-25",
+    "level1_third_chapter_indexed": 52,
+    "level1_third_chapter_source": "independent_secondary_unit_glossary",
+    "level1_third_chapter_official_glossary_checked": false,
+    "level1_third_chapter_last_updated": "2026-10-25"
   },
   "source_notes": {
     "verified_official_count": 3325,
