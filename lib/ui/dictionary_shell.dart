@@ -128,10 +128,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     final p = await SharedPreferences.getInstance();
     final words = widget.previewWords ??
       decodeWords(await rootBundle.loadString('assets/data/entries.json'));
-    if (mounted) setState(() {
+    if (mounted) {
+      setState(() {
       favorites = p.getStringList('dictionary_favorites')?.toSet() ?? {};
       bookmarks = p.getStringList('dictionary_bookmarks_v2')?.toSet() ?? {};
-    });
+      });
+    }
     return words;
   }
 
@@ -240,10 +242,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         body: FutureBuilder<List<Word>>(
           future: future,
           builder: (context, snap) {
-            if (snap.hasError) return const Center(
-              child: Text('Не удалось загрузить словарь'));
-            if (!snap.hasData) return const Center(
-              child: CircularProgressIndicator());
+            if (snap.hasError) {
+              return const Center(child: Text('Не удалось загрузить словарь'));
+            }
+            if (!snap.hasData) {
+              return const Center(child: CircularProgressIndicator());
+            }
             final all = snap.data!;
             return IndexedStack(index: tab, children: [
               dictionaryTab(all),
