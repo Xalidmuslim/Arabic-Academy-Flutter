@@ -1,49 +1,19 @@
-name: arabic_academy
-description: 'Bayna Yadayk: native Arabic learning, teacher tools and secure platform integrations.'
+name: bayna_dictionary
+description: A standalone offline Arabic-Arabic dictionary demo
 publish_to: none
-version: 0.47.0+47
+version: 0.1.0+1
 environment:
   sdk: '>=3.9.0 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
-  shared_preferences: ^2.3.2
-  video_player: ^2.9.2
-  supabase_flutter: ^2.18.3
-  file_picker: ^10.3.3
-  record: ^6.1.2
-  just_audio: ^0.10.5
-  path_provider: ^2.1.5
-  in_app_purchase: ^3.2.3
-  livekit_client: ^2.5.0
-  firebase_core: ^4.2.0
-  firebase_messaging: ^16.0.3
   flutter_tts: ^4.2.5
-  flutter_secure_storage: ^9.2.4
+  shared_preferences: ^2.3.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
-  integration_test:
-    sdk: flutter
 flutter:
   uses-material-design: true
   assets:
-    - assets/content/level1.json
-    - assets/artwork/
-    - assets/artwork/lesson_generated/
-    - assets/artwork/shadow_cache/
-    - assets/artwork/home_quick/
-    - assets/content/grammar.json
-    - assets/content/original_lessons.json
-    - assets/content/book1_original_dialogues.json
-    - assets/content/book1_part2_editorial.json
-  fonts:
-    - family: Manrope
-      fonts:
-        - asset: assets/fonts/Manrope.ttf
-    - family: NotoNaskhArabic
-      fonts:
-        - asset: assets/fonts/NotoNaskhArabic.ttf
+    - assets/data/entries.json

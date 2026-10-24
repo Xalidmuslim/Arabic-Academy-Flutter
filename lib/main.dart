@@ -1,148 +1,328 @@
-import 'dart:async';
+import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'app.dart';
-import 'core/academy_state.dart';
-import 'core/bundled_catalog.dart';
-import 'core/performance_probe.dart';
+const paper = Color(0xFFF5F4EF);
+const teal = Color(0xFF236D67);
+const ink = Color(0xFF19302F);
 
-export 'app.dart';
-export 'core/academy_state.dart';
-export 'features/learning/home_screen.dart';
-export 'features/learning/course_screen.dart';
-export 'features/learning/lesson_screen.dart';
-export 'features/learning/progress_screen.dart';
-export 'features/teacher/teacher_editor.dart';
-export 'ui/components.dart';
-
-/// Paint the first Flutter frame immediately; never keep the Android system
-/// splash on screen while waiting for preferences or bundled JSON assets.
 void main() {
-  final stopwatch = PerformanceProbe.enabled ? (Stopwatch()..start()) : null;
   WidgetsFlutterBinding.ensureInitialized();
-  if (stopwatch != null) {
-    PerformanceProbe.attach(WidgetsBinding.instance, stopwatch);
-  }
-  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
-  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-    statusBarColor: Colors.transparent,
-    systemNavigationBarColor: Colors.transparent,
-    systemNavigationBarContrastEnforced: false,
-    statusBarIconBrightness: Brightness.dark,
-    systemNavigationBarIconBrightness: Brightness.dark,
-  ));
-  runApp(const AcademyBootstrap());
+  runApp(const BaynaDictionary());
 }
 
-class AcademyBootstrap extends StatefulWidget {
-  const AcademyBootstrap({super.key, this.loader});
+class Word {
+  const Word(this.id, this.arabic, this.meaning, this.synonyms, this.antonyms,
+      this.grammar, this.collocations, this.examples, this.usage);
+  final String id, arabic, meaning, usage;
+  final List<String> synonyms, antonyms, grammar, collocations, examples;
 
-  /// Injectable so startup error/retry states are tested without Android.
-  final Future<AcademyState> Function()? loader;
+  factory Word.fromJson(Map<String, dynamic> json) {
+    List<String> strings(String key) =>
+        ((json[key] as List<dynamic>?) ?? const []).cast<String>();
+    return Word(
+      json['id'] as String,
+      json['arabic'] as String,
+      json['meaning_ar'] as String,
+      strings('synonyms'),
+      strings('antonyms'),
+      strings('grammar'),
+      strings('collocations'),
+      strings('examples_ar'),
+      (json['usage_note_ar'] as String?) ?? '',
+    );
+  }
+}
+
+List<Word> decodeWords(String jsonText) {
+  final object = jsonDecode(jsonText) as Map<String, dynamic>;
+  return (object['entries'] as List<dynamic>)
+      .map((dynamic item) => Word.fromJson(item as Map<String, dynamic>))
+      .toList();
+}
+
+String normalizeArabic(String text) {
+  return text.toLowerCase()
+      .replaceAll(RegExp(r'[\u064B-\u065F\u0670\u06D6-\u06ED\u0640]'), '')
+      .replaceAll(RegExp(r'[إأٱآ]'), 'ا')
+      .replaceAll('ى', 'ي').trim();
+}
+
+class BaynaDictionary extends StatelessWidget {
+  const BaynaDictionary({super.key});
 
   @override
-  State<AcademyBootstrap> createState() => _AcademyBootstrapState();
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Словарь Байна Ядайк',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        useMaterial3: true,
+        scaffoldBackgroundColor: paper,
+        colorScheme: ColorScheme.fromSeed(seedColor: teal),
+        appBarTheme: const AppBarTheme(backgroundColor: paper, foregroundColor: ink),
+        inputDecorationTheme: InputDecorationTheme(
+          filled: true,
+          fillColor: Colors.white,
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(16), borderSide: BorderSide.none),
+        ),
+      ),
+      home: const HomeScreen(),
+    );
+  }
 }
 
-class _AcademyBootstrapState extends State<AcademyBootstrap> {
-  late Future<AcademyState> _loading;
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  final search = TextEditingController();
+  final tts = FlutterTts();
+  late final Future<List<Word>> future = load();
+  Set<String> favorites = <String>{};
+  bool onlyFavorites = false;
+
+  Future<List<Word>> load() async {
+    final prefs = await SharedPreferences.getInstance();
+    favorites = prefs.getStringList('dictionary_favorites')?.toSet() ?? {};
+    final content = await rootBundle.loadString('assets/data/entries.json');
+    if (mounted) setState(() {});
+    return decodeWords(content);
+  }
+
+  Future<void> speak(String word) async {
+    await tts.setLanguage('ar-SA');
+    await tts.setSpeechRate(0.42);
+    await tts.speak(word);
+  }
+
+  Future<void> toggleFavorite(String id) async {
+    setState(() {
+      if (!favorites.add(id)) favorites.remove(id);
+    });
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList('dictionary_favorites', favorites.toList());
+  }
 
   @override
   void initState() {
     super.initState();
-    _loading = _loadState();
+    search.addListener(refresh);
   }
 
-  Future<AcademyState> _loadState() async {
-    if (widget.loader != null) {
-      return widget.loader!();
-    }
-    try {
-      final resources = await Future.wait<Object>([
-        SharedPreferences.getInstance(),
-        loadBundledAcademyCatalog(),
-      ]).timeout(const Duration(seconds: 25));
-      final state = AcademyState(
-        resources[0] as SharedPreferences,
-        resources[1] as Map<String, dynamic>,
-      );
-      await state.initialize().timeout(const Duration(seconds: 25));
-      return state;
-    } catch (error, trace) {
-      FlutterError.reportError(FlutterErrorDetails(
-        exception: error,
-        stack: trace,
-        library: 'Bayna startup',
-      ));
-      rethrow;
-    }
-  }
-
-  void _retry() {
-    setState(() {
-      _loading = _loadState();
-    });
+  void refresh() {
+    if (mounted) setState(() {});
   }
 
   @override
-  Widget build(BuildContext context) => FutureBuilder<AcademyState>(
-    future: _loading,
-    builder: (context, snapshot) {
-      if (snapshot.hasData) {
-        return AcademyApp(state: snapshot.requireData);
-      }
-      return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Байна Ядайк',
-        theme: ThemeData(
-          useMaterial3: true,
-          scaffoldBackgroundColor: const Color(0xFFF8F4E8),
-          colorSchemeSeed: const Color(0xFF566B44),
-        ),
-        home: Scaffold(
-          body: SafeArea(
-            child: Center(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24),
-                child: snapshot.hasError
-                    ? Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          const Icon(Icons.error_outline, size: 42),
-                          const SizedBox(height: 18),
-                          const Text(
-                            'Не удалось загрузить учебные материалы.',
-                            textAlign: TextAlign.center,
-                          ),
-                          const SizedBox(height: 14),
-                          const Text(
-                            'Данные приложения не удалены. '
-                            'Попробуйте повторить запуск.',
-                            textAlign: TextAlign.center,
-                          ),
-                          const SizedBox(height: 22),
-                          FilledButton(
-                            onPressed: _retry,
-                            child: const Text('Повторить запуск'),
-                          ),
-                        ],
-                      )
-                    : const Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          CircularProgressIndicator(),
-                          SizedBox(height: 18),
-                          Text('Загрузка учебных материалов…'),
-                        ],
-                      ),
-              ),
-            ),
+  void dispose() {
+    search.removeListener(refresh);
+    search.dispose();
+    tts.stop();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Словарь Байна Ядайк',
+          style: TextStyle(fontSize: 19, fontWeight: FontWeight.w700)),
+        actions: [
+          IconButton(
+            tooltip: 'Избранное',
+            icon: Icon(onlyFavorites ? Icons.bookmark : Icons.bookmark_outline),
+            onPressed: () => setState(() => onlyFavorites = !onlyFavorites),
           ),
+        ],
+      ),
+      body: FutureBuilder<List<Word>>(
+        future: future,
+        builder: (context, snapshot) {
+          if (snapshot.hasError) {
+            return const Center(child: Text('Не удалось загрузить словарь'));
+          }
+          if (!snapshot.hasData) {
+            return const Center(child: CircularProgressIndicator());
+          }
+          final q = normalizeArabic(search.text);
+          final shown = snapshot.data!.where((word) =>
+            (q.isEmpty ||
+             normalizeArabic(word.arabic).contains(q) ||
+             normalizeArabic(word.meaning).contains(q)) &&
+            (!onlyFavorites || favorites.contains(word.id))).toList();
+
+          return CustomScrollView(slivers: [
+            SliverToBoxAdapter(child: Padding(
+              padding: const EdgeInsets.fromLTRB(18, 12, 18, 16),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                const Text('Арабско-арабский словарь',
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w800,
+                    color: ink)),
+                const SizedBox(height: 6),
+                const Text('7 разделов · Арабские объяснения',
+                  style: TextStyle(color: Colors.blueGrey)),
+                const SizedBox(height: 16),
+                TextField(
+                  controller: search,
+                  textDirection: TextDirection.rtl,
+                  decoration: InputDecoration(
+                    prefixIcon: const Icon(Icons.search),
+                    hintText: 'Поиск на арабском',
+                    suffixIcon: search.text.isEmpty ? null : IconButton(
+                      tooltip: 'Очистить', icon: const Icon(Icons.close),
+                      onPressed: search.clear),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                Text('Найдено слов: ' + shown.length.toString(),
+                  style: const TextStyle(fontWeight: FontWeight.w600)),
+                const SizedBox(height: 5),
+                const Text('Демонстрационная версия: 33 статьи',
+                  style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
+              ]),
+            )),
+            SliverList.builder(
+              itemCount: shown.length,
+              itemBuilder: (context, index) {
+                final word = shown[index];
+                return Padding(
+                  padding: const EdgeInsets.fromLTRB(18, 0, 18, 10),
+                  child: Material(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(18),
+                    child: ListTile(
+                      contentPadding: const EdgeInsets.symmetric(horizontal: 12,
+                        vertical: 6),
+                      leading: IconButton(
+                        tooltip: 'Произнести',
+                        icon: const Icon(Icons.volume_up_outlined, color: teal),
+                        onPressed: () { speak(word.arabic); },
+                      ),
+                      title: Text(word.arabic, textDirection: TextDirection.rtl,
+                        style: const TextStyle(fontSize: 23,
+                          fontWeight: FontWeight.bold, color: ink)),
+                      subtitle: Text(word.meaning, textDirection: TextDirection.rtl,
+                        maxLines: 2, overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(fontSize: 15, height: 1.5)),
+                      trailing: Icon(favorites.contains(word.id)
+                        ? Icons.bookmark : Icons.chevron_right, color: teal),
+                      onTap: () {
+                        Navigator.push<void>(context, MaterialPageRoute<void>(
+                          builder: (_) => WordScreen(
+                            word: word,
+                            saved: favorites.contains(word.id),
+                            onSound: () { speak(word.arabic); },
+                            onToggle: () => toggleFavorite(word.id),
+                          ),
+                        ));
+                      },
+                    ),
+                  ),
+                );
+              },
+            ),
+          ]);
+        },
+      ),
+    );
+  }
+}
+
+class WordScreen extends StatefulWidget {
+  const WordScreen({
+    super.key,
+    required this.word,
+    required this.saved,
+    required this.onSound,
+    required this.onToggle,
+  });
+  final Word word;
+  final bool saved;
+  final VoidCallback onSound;
+  final Future<void> Function() onToggle;
+
+  @override
+  State<WordScreen> createState() => _WordScreenState();
+}
+
+class _WordScreenState extends State<WordScreen> {
+  late bool saved = widget.saved;
+
+  Widget section(String title, List<String> content) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: 13),
+      padding: const EdgeInsets.all(17),
+      decoration: BoxDecoration(
+        color: Colors.white, borderRadius: BorderRadius.circular(20)),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        Text(title, style: const TextStyle(fontSize: 15,
+          fontWeight: FontWeight.w800, color: teal)),
+        const SizedBox(height: 10),
+        if (content.isEmpty) const Text('Нет данных',
+          style: TextStyle(color: Colors.grey))
+        else for (final phrase in content) Padding(
+          padding: const EdgeInsets.only(bottom: 5),
+          child: Text(phrase, textDirection: TextDirection.rtl,
+            style: const TextStyle(fontSize: 22, height: 1.85, color: ink)),
         ),
-      );
-    },
-  );
+      ]),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final word = widget.word;
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Карточка слова'),
+        actions: [
+          IconButton(
+            tooltip: 'Избранное',
+            icon: Icon(saved ? Icons.bookmark : Icons.bookmark_border),
+            onPressed: () async {
+              await widget.onToggle();
+              if (mounted) setState(() => saved = !saved);
+            },
+          ),
+        ],
+      ),
+      body: ListView(padding: const EdgeInsets.fromLTRB(17, 10, 17, 28), children: [
+        Container(
+          padding: const EdgeInsets.all(25),
+          decoration: BoxDecoration(
+            color: const Color(0xFFE6EFEB),
+            borderRadius: BorderRadius.circular(25)),
+          child: Column(children: [
+            Text(word.arabic, textDirection: TextDirection.rtl,
+              style: const TextStyle(fontSize: 42, height: 1.8,
+                fontWeight: FontWeight.w700, color: ink)),
+            const SizedBox(height: 12),
+            FilledButton.icon(
+              onPressed: widget.onSound,
+              icon: const Icon(Icons.volume_up_outlined),
+              label: const Text('Слушать'),
+            ),
+          ]),
+        ),
+        const SizedBox(height: 16),
+        section('1. Значения слова', [word.meaning]),
+        section('2. Синонимы', word.synonyms),
+        section('3. Антонимы', word.antonyms),
+        section('4. Грамматика', word.grammar),
+        section('5. Словосочетания', word.collocations),
+        section('6. Примеры в предложениях', word.examples),
+        section('7. Особенности употребления',
+          word.usage.isEmpty ? [] : [word.usage]),
+      ]),
+    );
+  }
 }
