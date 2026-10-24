@@ -94,4 +94,31 @@ void main() {
     expect(filterWordsByChapter(words, 1, 2).map((w) => w.id).toList(), ['b', 'a']);
   });
 
+  test('Multiple data chunks merge the same vocalized lemma without losing chapter refs', () {
+    const first = '{"entries":[{"id":"old","arabic":"عِلْمٌ",'
+        '"meaning_ar":"مَعْرِفَةٌ مُفِيدَةٌ","synonyms":[],"antonyms":[],'
+        '"grammar":["اِسْمٌ"],"collocations":[],"examples_ar":[],'
+        '"book_references":[{"book":1,"chapter":7,"index":1}]}]}';
+    const second = '{"entries":[{"id":"new","arabic":"عِلْمٌ",'
+        '"meaning_ar":"مَعْرِفَةٌ","synonyms":[],"antonyms":[],'
+        '"grammar":["اِسْمٌ"],"collocations":[],"examples_ar":[],'
+        '"book_references":[{"book":2,"chapter":7,"index":3}]}]}';
+    final words = decodeAndMergeCorpora([first, second]);
+    expect(words.length, 1);
+    expect(words.single.id, 'old');
+    expect(words.single.meaning, 'مَعْرِفَةٌ مُفِيدَةٌ');
+    expect(words.single.isInChapter(1, 7), true);
+    expect(words.single.isInChapter(2, 7), true);
+    expect(words.single.chapterOrderFor(2, 7), 3);
+  });
+  test('Separate vowelled homographs remain distinct across corpus chunks', () {
+    const first = '{"entries":[{"id":"noun","arabic":"وَلَدٌ",'
+        '"meaning_ar":"صَبِيٌّ","synonyms":[],"antonyms":[],'
+        '"grammar":["اِسْمٌ"],"collocations":[],"examples_ar":[]}]}';
+    const second = '{"entries":[{"id":"verb","arabic":"وَلَدَ",'
+        '"meaning_ar":"أَنْجَبَ","synonyms":[],"antonyms":[],'
+        '"grammar":["فِعْلٌ"],"collocations":[],"examples_ar":[]}]}';
+    expect(decodeAndMergeCorpora([first, second]).length, 2);
+  });
+
 }
