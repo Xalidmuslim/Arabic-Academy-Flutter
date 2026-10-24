@@ -11,6 +11,15 @@ void main() {
   testWidgets('root tab back gesture returns home, then requests confirmation', (
     tester,
   ) async {
+    // FakeAsync repeatedly drains Timer.run while a route animation is active.
+    // The real scheduler defers Priority.idle tasks to a later event-loop turn;
+    // a fake clock cannot reach that next frame if the idle task keeps retrying.
+    // Let queued work run in these navigation tests; the preloader's own tests
+    // separately verify production deferral and scroll pausing.
+    final schedulingBefore = tester.binding.schedulingStrategy;
+    tester.binding.schedulingStrategy =
+        ({required priority, required scheduler}) => true;
+    addTearDown(() => tester.binding.schedulingStrategy = schedulingBefore);
     SharedPreferences.setMockInitialValues(<String, Object>{
       'welcome_seen': true,
     });
@@ -20,7 +29,6 @@ void main() {
       'lessons': <dynamic>[],
     });
     addTearDown(state.dispose);
-    debugPrint('back test: mount');
     await tester.pumpWidget(AcademyApp(state: state));
     await tester.pump();
     expect(find.byType(FloatingStudyNavigation), findsOneWidget);
@@ -39,18 +47,14 @@ void main() {
     await tester.pump();
     expect(find.text('Ученица · локальное обучение'), findsOneWidget);
 
-    debugPrint('back test: return home');
     await tester.binding.handlePopRoute();
     await tester.pump();
     expect(find.text('Арабский каждый день'), findsOneWidget);
 
-    debugPrint('back test: request confirmation');
     await tester.binding.handlePopRoute();
-    debugPrint('back test: settle confirmation');
     await tester.pumpAndSettle();
     expect(find.text('Выйти из приложения?'), findsOneWidget);
     await tester.tap(find.text('Отмена'));
-    debugPrint('back test: settle cancellation');
     await tester.pumpAndSettle();
     expect(find.text('Выйти из приложения?'), findsNothing);
   }, timeout: const Timeout(Duration(seconds: 30)));
