@@ -27,3 +27,15 @@
 ## Working protocol
 
 When the user asks for a design/feature change, **implement it on top of all existing performance improvements**. In the PR summary explicitly state: “Performance contract: preserved / intentionally modified with evidence”, along with testing limitations. Keep these instructions with the repository so future agents see them before changing code.
+
+## Automatic Android Development Skills
+
+For **every** new Android/Flutter development task in this repository, read the applicable local skill instructions in `.agents/skills/` before changing application code. These skills complement the project invariants above and never override them.
+
+- `android-recon/SKILL.md`: inspect current branch/HEAD, relevant source, routes, data, build configuration and baseline before edits.
+- `android-design/SKILL.md`: apply approved visual references; preserve matte 3D graphics, source images, typography and icons.
+- `android-test/SKILL.md`: reproduce bugs, add regression coverage and verify actual test/build results.
+- `android-diff/SKILL.md`: compare code, UI, functionality and APK before/after without losing previous optimization or content.
+- `android-performance/SKILL.md`: diagnose scroll/refresh pacing using Flutter UI/raster metrics, 8.33 ms 120 Hz budget, device traces and controlled A/B experiments.
+
+Choose only the relevant skills for the current task; do not apply them mechanically or mistake skill installation for performance optimization. Preserve this repository's Flutter stack, user data, private PDFs, lesson order and all previously working features. Prefer minimal, testable changes on a separate branch. Claim 120 FPS only after repeatable real-device measurements, not from display refresh rate or successful CI alone.
