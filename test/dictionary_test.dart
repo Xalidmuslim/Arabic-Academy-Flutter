@@ -18,4 +18,26 @@ void main() {
     expect(words.first.meaning, 'مَبْنًى');
     expect(words.first.synonyms, isEmpty);
   });
+
+  test('Separate Arabic definitions are parsed without losing senses', () {
+    const source = '{"entries":[{"id":"1","arabic":"كَبِيرٌ",'
+        '"meaning_ar":"عَظِيمُ الْحَجْمِ","additional_meanings_ar":["مُتَقَدِّمٌ فِي السِّنِّ"],'
+        '"synonyms":[],"antonyms":[],"grammar":[],"collocations":[],'
+        '"examples_ar":[],"usage_note_ar":""}]}';
+    final parsed = decodeWords(source);
+    expect(parsed.first.additionalMeanings.length, 1);
+    expect(parsed.first.additionalMeanings.single, 'مُتَقَدِّمٌ فِي السِّنِّ');
+  });
+
+  test('Tapping a diacritized or definite noun opens its entry', () {
+    const source = '{"entries":[{"id":"1","arabic":"بَيْتٌ",'
+        '"meaning_ar":"مَبْنًى","synonyms":[],"antonyms":[],'
+        '"grammar":[],"collocations":[],"examples_ar":[]}]}';
+    final words = decodeWords(source);
+    expect(findWordForToken('بَيْتٍ', words)?.id, '1');
+    expect(findWordForToken('الْبَيْتِ،', words)?.id, '1');
+    expect(findWordForToken('وَبَيْتٍ', words)?.id, '1');
+    expect(findWordForToken('مَجْهُولٌ', words), isNull);
+  });
+
 }
