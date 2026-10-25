@@ -96,10 +96,13 @@ List<Word> decodeAndMergeCorpora(List<String> jsonTexts) {
           'examples_ar', 'additional_meanings_ar',
         ]) {
           final current = earlier[key] as List<dynamic>?;
-          if ((current == null || current.isEmpty) &&
-              entry[key] is List && (entry[key] as List).isNotEmpty) {
-            earlier[key] = entry[key];
+          final incoming = entry[key] as List<dynamic>?;
+          if (incoming == null || incoming.isEmpty) continue;
+          final merged = <dynamic>[...?current];
+          for (final value in incoming) {
+            if (!merged.contains(value)) merged.add(value);
           }
+          earlier[key] = merged;
         }
         if ((earlier['usage_note_ar'] as String? ?? '').isEmpty &&
             (entry['usage_note_ar'] as String? ?? '').isNotEmpty) {
