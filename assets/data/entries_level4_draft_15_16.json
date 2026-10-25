@@ -1,0 +1,2110 @@
+{
+  "schema_version": 2,
+  "source_status": "self_authored_candidate_not_official_level4_glossary",
+  "editorial_themes": {
+    "15": "Инфраструктура и городская среда",
+    "16": "Межкультурные отношения и диалог"
+  },
+  "entries": [
+    {
+      "id": "l4u15_001",
+      "arabic": "بِنْيَةٌ تَحْتِيَّةٌ",
+      "meaning_ar": "الطُّرُقُ وَالشَّبَكَاتُ وَالْمَرَافِقُ الْأَسَاسِيَّةُ الَّتِي يَعْتَمِدُ عَلَيْهَا الْمُجْتَمَعُ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَطْوِيرُ الْبِنْيَةِ التَّحْتِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْمَدِينَةُ إِلَى بِنْيَةٍ تَحْتِيَّةٍ جَيِّدَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_002",
+      "arabic": "تَخْطِيطٌ عُمْرَانِيٌّ",
+      "meaning_ar": "تَنْظِيمُ اسْتِخْدَامِ الْأَرْضِ وَالطُّرُقِ وَالْمَبَانِي فِي الْمَدِينَةِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّخْطِيطِ الْعُمْرَانِيِّ"
+      ],
+      "examples_ar": [
+        "يَضَعُ الْمُهَنْدِسُونَ خُطَّةً لِلتَّخْطِيطِ الْعُمْرَانِيِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_003",
+      "arabic": "كَثَافَةٌ سُكَّانِيَّةٌ",
+      "meaning_ar": "عَدَدُ النَّاسِ الَّذِينَ يَعِيشُونَ فِي مِسَاحَةٍ مُحَدَّدَةٍ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْكَثَافَةُ السُّكَّانِيَّةُ الْعَالِيَةُ"
+      ],
+      "examples_ar": [
+        "تَزِيدُ الْكَثَافَةُ السُّكَّانِيَّةُ فِي الْمَرْكَزِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_004",
+      "arabic": "ضَاحِيَةٌ",
+      "meaning_ar": "مِنْطَقَةٌ سَكَنِيَّةٌ تَقَعُ خَارِجَ وَسَطِ الْمَدِينَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ضَوَاحٍ"
+      ],
+      "collocations": [
+        "ضَاحِيَةٌ سَكَنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "يَسْكُنُ الْأُسْتَاذُ فِي ضَاحِيَةٍ هَادِئَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_005",
+      "arabic": "مَرْفَقٌ",
+      "meaning_ar": "مَكَانٌ أَوْ خِدْمَةٌ تُخَصَّصُ لِحَاجَةِ النَّاسِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَافِقُ"
+      ],
+      "collocations": [
+        "الْمَرَافِقُ الْعَامَّةُ"
+      ],
+      "examples_ar": [
+        "تَضُمُّ الْمَدِينَةُ مَرَافِقَ كَثِيرَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_006",
+      "arabic": "مُوَاصَلَاتٌ",
+      "meaning_ar": "وَسَائِلُ يَنْتَقِلُ بِهَا النَّاسُ مِنْ مَكَانٍ إِلَى آخَرَ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ"
+      ],
+      "collocations": [
+        "شَبَكَةُ الْمُوَاصَلَاتِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْمَدِينَةُ إِلَى مُوَاصَلَاتٍ مُنَظَّمَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_007",
+      "arabic": "نَقْلٌ عَامٌّ",
+      "meaning_ar": "خِدْمَةٌ تَسْمَحُ لِلنَّاسِ بِالسَّفَرِ فِي مَرْكَبَاتٍ مُشْتَرَكَةٍ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَسَائِلُ النَّقْلِ الْعَامِّ"
+      ],
+      "examples_ar": [
+        "يُقَلِّلُ النَّقْلُ الْعَامُّ عَدَدَ السَّيَّارَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_008",
+      "arabic": "اِزْدِحَامٌ",
+      "meaning_ar": "اجْتِمَاعُ أَعْدَادٍ كَبِيرَةٍ مِنَ النَّاسِ أَوِ الْمَرْكَبَاتِ فِي مَكَانٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِازْدِحَامُ الْمُرُورِيُّ"
+      ],
+      "examples_ar": [
+        "يَتَأَخَّرُ الْعُمَّالُ بِسَبَبِ الِازْدِحَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_009",
+      "arabic": "تَقَاطُعٌ",
+      "meaning_ar": "مَكَانٌ يَلْتَقِي فِيهِ طَرِيقَانِ أَوْ أَكْثَرُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَاطُعَاتٌ"
+      ],
+      "collocations": [
+        "تَقَاطُعُ الطُّرُقِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفَ السَّائِقُ عِنْدَ التَّقَاطُعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_010",
+      "arabic": "جِسْرٌ",
+      "meaning_ar": "بِنَاءٌ يَمْتَدُّ فَوْقَ نَهْرٍ أَوْ طَرِيقٍ لِلْعُبُورِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جُسُورٌ"
+      ],
+      "collocations": [
+        "جِسْرٌ لِلْمُشَاةِ"
+      ],
+      "examples_ar": [
+        "عَبَرْنَا الْجِسْرَ إِلَى الضِّفَّةِ الْأُخْرَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_011",
+      "arabic": "نَفَقٌ",
+      "meaning_ar": "مَمَرٌّ يُبْنَى تَحْتَ الْأَرْضِ أَوْ جَبَلٍ لِلْعُبُورِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَنْفَاقٌ"
+      ],
+      "collocations": [
+        "نَفَقٌ لِلسَّيَّارَاتِ"
+      ],
+      "examples_ar": [
+        "مَرَّ الْقِطَارُ فِي النَّفَقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_012",
+      "arabic": "صَرْفٌ صِحِّيٌّ",
+      "meaning_ar": "شَبَكَةٌ تَجْمَعُ الْمِيَاهَ الْمُسْتَعْمَلَةَ وَتَنْقُلُهَا لِلْمُعَالَجَةِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَبَكَةُ الصَّرْفِ الصِّحِّيِّ"
+      ],
+      "examples_ar": [
+        "تُطَوِّرُ الْمَدِينَةُ شَبَكَةَ الصَّرْفِ الصِّحِّيِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_013",
+      "arabic": "تَصْرِيفٌ",
+      "meaning_ar": "تَوْجِيهُ الْمَاءِ أَوْ غَيْرِهِ إِلَى مَجْرًى مُخَصَّصٍ لَهُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَصْرِيفُ مِيَاهِ الْأَمْطَارِ"
+      ],
+      "examples_ar": [
+        "مَنَعَ التَّصْرِيفُ الْجَيِّدُ تَجَمُّعَ الْمَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_014",
+      "arabic": "مَحَطَّةُ مُعَالَجَةٍ",
+      "meaning_ar": "مَكَانٌ تُنَقَّى فِيهِ الْمِيَاهُ مِنَ الْمُلَوِّثَاتِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَحَطَّةُ مُعَالَجَةِ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "زَارَ الطُّلَّابُ مَحَطَّةَ الْمُعَالَجَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_015",
+      "arabic": "تَوْرِيدٌ",
+      "meaning_ar": "تَقْدِيمُ الْمَوَادِّ وَالْبَضَائِعِ لِلْجِهَةِ الَّتِي تَحْتَاجُ إِلَيْهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَوْرِيدُ الْمَوَادِّ"
+      ],
+      "examples_ar": [
+        "تَأَخَّرَ تَوْرِيدُ الْمَوَادِّ إِلَى الْمَشْرُوعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_016",
+      "arabic": "مَقَاوَلٌ",
+      "meaning_ar": "شَخْصٌ أَوْ شَرِكَةٌ تَتَعَهَّدُ بِتَنْفِيذِ عَمَلٍ مُقَابِلَ مَالٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُقَاوِلُونَ"
+      ],
+      "collocations": [
+        "مُقَاوِلُ الْبِنَاءِ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ الْمُقَاوِلُ الْمَشْرُوعَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_017",
+      "arabic": "مُنَاقَصَةٌ",
+      "meaning_ar": "إِجْرَاءٌ تَطْلُبُ فِيهِ جِهَةٌ عُرُوضَ أَسْعَارٍ لِتَنْفِيذِ عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَاقَصَاتٌ"
+      ],
+      "collocations": [
+        "طَرْحُ مُنَاقَصَةٍ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الْبَلَدِيَّةُ مُنَاقَصَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_018",
+      "arabic": "مُخَطَّطٌ",
+      "meaning_ar": "رَسْمٌ يُوَضِّحُ شَكْلَ بِنَاءٍ أَوْ تَرْتِيبَ عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخَطَّطَاتٌ"
+      ],
+      "collocations": [
+        "مُخَطَّطُ الْمَبْنَى"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُهَنْدِسُ الْمُخَطَّطَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_019",
+      "arabic": "صِيَانَةٌ",
+      "meaning_ar": "فَحْصُ الْآلَاتِ وَالْمَبَانِي وَإِصْلَاحُ مَا تَلِفَ مِنْهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الصِّيَانَةُ الدَّوْرِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْجُسُورُ إِلَى صِيَانَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_020",
+      "arabic": "اِسْتِهْلَاكٌ",
+      "meaning_ar": "اسْتِخْدَامُ الْمَوَارِدِ فِي الْعَمَلِ أَوِ الْحَيَاةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ الِاسْتِهْلَاكِ"
+      ],
+      "examples_ar": [
+        "تُقَيِّمُ الْمَدِينَةُ اسْتِهْلَاكَ الْمَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_021",
+      "arabic": "تَوْسِعَةٌ",
+      "meaning_ar": "إِضَافَةُ مَسَاحَةٍ أَوْ قُدْرَةٍ إِلَى شَيْءٍ قَائِمٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَوْسِعَةُ الطَّرِيقِ"
+      ],
+      "examples_ar": [
+        "بَدَأَتْ أَعْمَالُ تَوْسِعَةِ الطَّرِيقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_022",
+      "arabic": "مَسَارُ دَرَّاجَاتٍ",
+      "meaning_ar": "طَرِيقٌ مُخَصَّصٌ لِمَنْ يَقُودُونَ الدَّرَّاجَاتِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِنْشَاءُ مَسَارِ الدَّرَّاجَاتِ"
+      ],
+      "examples_ar": [
+        "أَنْشَأَتِ الْبَلَدِيَّةُ مَسَارًا لِلدَّرَّاجَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_023",
+      "arabic": "مَمَرُّ مُشَاةٍ",
+      "meaning_ar": "جُزْءٌ مِنَ الطَّرِيقِ مُخَصَّصٌ لِعُبُورِ النَّاسِ سَيْرًا.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِخْدَامُ مَمَرِّ الْمُشَاةِ"
+      ],
+      "examples_ar": [
+        "عَبَرَ الطِّفْلُ مِنْ مَمَرِّ الْمُشَاةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_024",
+      "arabic": "مِرْفَقُ طَوَارِئَ",
+      "meaning_ar": "خِدْمَةٌ تُقَدَّمُ بِسُرْعَةٍ عِنْدَ وُقُوعِ حَادِثٍ أَوْ خَطَرٍ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَدَمَاتُ الطَّوَارِئِ"
+      ],
+      "examples_ar": [
+        "اتَّصَلَ السَّائِقُ بِخَدَمَاتِ الطَّوَارِئِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u15_025",
+      "arabic": "سَعَةٌ",
+      "meaning_ar": "الْمِقْدَارُ الَّذِي يَتَّسِعُ لَهُ مَكَانٌ أَوْ جِهَازٌ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سَعَةُ الطَّرِيقِ"
+      ],
+      "examples_ar": [
+        "تَزْدَادُ سَعَةُ الطَّرِيقِ بَعْدَ التَّوْسِعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 15,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 15,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_001",
+      "arabic": "تَعَايُشٌ",
+      "meaning_ar": "عَيْشُ جَمَاعَاتٍ مُخْتَلِفَةٍ مَعًا بِسَلَامٍ وَاحْتِرَامٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّعَايُشُ السِّلْمِيُّ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ التَّعَايُشُ إِلَى الْحِوَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_002",
+      "arabic": "تَعَارُفٌ",
+      "meaning_ar": "مَعْرِفَةُ أَشْخَاصٍ بَعْضِهِمْ بَعْضًا بَعْدَ اللِّقَاءِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّعَارُفُ بَيْنَ الثَّقَافَاتِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ التَّعَارُفُ عَلَى التَّفَاهُمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_003",
+      "arabic": "تَفَاهُمٌ",
+      "meaning_ar": "فَهْمُ أَفْكَارِ الْآخَرِينَ وَالْوُصُولُ إِلَى مَعْنًى مُشْتَرَكٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّفَاهُمُ الْمُتَبَادَلُ"
+      ],
+      "examples_ar": [
+        "زَادَ التَّفَاهُمُ بَعْدَ النِّقَاشِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_004",
+      "arabic": "حِوَارٌ",
+      "meaning_ar": "تَبَادُلُ الْآرَاءِ وَالْكَلَامِ لِفَهْمِ مَوْضُوعٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حِوَارَاتٌ"
+      ],
+      "collocations": [
+        "الْحِوَارُ الثَّقَافِيُّ"
+      ],
+      "examples_ar": [
+        "دَارَ حِوَارٌ بَيْنَ الطُّلَّابِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_005",
+      "arabic": "اِخْتِلَافٌ",
+      "meaning_ar": "عَدَمُ تَسَاوِي شَيْئَيْنِ فِي رَأْيٍ أَوْ صِفَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "احْتِرَامُ الِاخْتِلَافِ"
+      ],
+      "examples_ar": [
+        "لَا يَمْنَعُ الِاخْتِلَافُ مِنَ التَّعَاوُنِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_006",
+      "arabic": "تَعَصُّبٌ",
+      "meaning_ar": "تَمَسُّكٌ بِالانْتِمَاءِ أَوِ الرَّأْيِ مَعَ رَفْضِ إِنْصَافِ الْآخَرِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَفْضُ التَّعَصُّبِ"
+      ],
+      "examples_ar": [
+        "يُضْعِفُ التَّعَصُّبُ الْعَلَاقَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_007",
+      "arabic": "تَسَامُحٌ",
+      "meaning_ar": "قَبُولُ الِاخْتِلَافِ وَتَرْكُ إِيذَاءِ الْآخَرِينَ بِسَبَبِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّسَامُحُ بَيْنَ النَّاسِ"
+      ],
+      "examples_ar": [
+        "يُسَاهِمُ التَّسَامُحُ فِي السَّلَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_008",
+      "arabic": "اِحْتِرَامٌ",
+      "meaning_ar": "مُعَامَلَةُ شَخْصٍ بِأَدَبٍ وَتَقْدِيرٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِاحْتِرَامُ الْمُتَبَادَلُ"
+      ],
+      "examples_ar": [
+        "يَسْتَمِعُ الْمُتَحَاوِرُونَ بِاحْتِرَامٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_009",
+      "arabic": "وَسَاطَةٌ",
+      "meaning_ar": "مُسَاعَدَةُ شَخْصٍ مُحَايِدٍ لِطَرَفَيْنِ مُخْتَلِفَيْنِ عَلَى الِاتِّفَاقِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْوَسَاطَةُ فِي النِّزَاعِ"
+      ],
+      "examples_ar": [
+        "سَاعَدَتِ الْوَسَاطَةُ عَلَى إِنْهَاءِ الْخِلَافِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_010",
+      "arabic": "تَسْوِيَةٌ",
+      "meaning_ar": "اتِّفَاقٌ يُنْهِي النِّزَاعَ بَيْنَ طَرَفَيْنِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَسْوِيَاتٌ"
+      ],
+      "collocations": [
+        "تَسْوِيَةُ الْخِلَافِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الطَّرَفَانِ إِلَى تَسْوِيَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_011",
+      "arabic": "مُصَالَحَةٌ",
+      "meaning_ar": "عَوْدَةُ الْعَلَاقَةِ الطَّيِّبَةِ بَعْدَ خِلَافٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمُصَالَحَةُ بَيْنَ الْجِيرَانِ"
+      ],
+      "examples_ar": [
+        "تَحَقَّقَتِ الْمُصَالَحَةُ بِالْحِوَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_012",
+      "arabic": "إِنْصَافٌ",
+      "meaning_ar": "إِعْطَاءُ كُلِّ طَرَفٍ حَقَّهُ دُونَ مَيْلٍ غَيْرِ عَادِلٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْإِنْصَافُ فِي الْحُكْمِ"
+      ],
+      "examples_ar": [
+        "يَنْبَغِي الْإِنْصَافُ بَيْنَ الْمُخْتَلِفِينَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_013",
+      "arabic": "مُحَايَدَةٌ",
+      "meaning_ar": "عَدَمُ الِانْحِيَازِ إِلَى طَرَفٍ دُونَ سَبَبٍ عَادِلٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمُحَايَدَةُ فِي النِّقَاشِ"
+      ],
+      "examples_ar": [
+        "يَحْرِصُ الْوَسِيطُ عَلَى الْمُحَايَدَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_014",
+      "arabic": "إِصْغَاءٌ",
+      "meaning_ar": "الِاسْتِمَاعُ بِانْتِبَاهٍ دُونَ مُقَاطَعَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْإِصْغَاءُ لِلْآخَرِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ الْإِصْغَاءُ عَلَى فَهْمِ الْمُشْكِلَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_015",
+      "arabic": "تَوَاصُلٌ",
+      "meaning_ar": "تَبَادُلُ الْكَلَامِ وَالْمَعْلُومَاتِ بَيْنَ أَشْخَاصٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّوَاصُلُ بَيْنَ الثَّقَافَاتِ"
+      ],
+      "examples_ar": [
+        "يُحَسِّنُ التَّوَاصُلُ الْعَلَاقَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_016",
+      "arabic": "ثَقَافَةٌ",
+      "meaning_ar": "مَا تَعْرِفُهُ جَمَاعَةٌ وَتَعْتَادُهُ مِنْ أَفْكَارٍ وَفُنُونٍ وَسُلُوكٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثَقَافَاتٌ"
+      ],
+      "collocations": [
+        "تَنَوُّعُ الثَّقَافَاتِ"
+      ],
+      "examples_ar": [
+        "نَتَعَلَّمُ مِنْ ثَقَافَاتٍ مُتَعَدِّدَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_017",
+      "arabic": "هُوِيَّةٌ",
+      "meaning_ar": "صِفَاتٌ وَرَوَابِطُ تَجْعَلُ الشَّخْصَ أَوِ الْجَمَاعَةَ مُمَيَّزَيْنِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ هُوِيَّاتٌ"
+      ],
+      "collocations": [
+        "الْهُوِيَّةُ الثَّقَافِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَحْتَرِمُ الْمَدْرَسَةُ هُوِيَّاتِ الطُّلَّابِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_018",
+      "arabic": "تَنَوُّعٌ",
+      "meaning_ar": "وُجُودُ أَنْوَاعٍ أَوْ صِفَاتٍ مُخْتَلِفَةٍ فِي مَجْمُوعَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّنَوُّعُ الثَّقَافِيُّ"
+      ],
+      "examples_ar": [
+        "يَزِيدُ التَّنَوُّعُ مِنْ فُرَصِ التَّعَلُّمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_019",
+      "arabic": "مُشْتَرَكٌ",
+      "meaning_ar": "مَا يَنْتَمِي إِلَى طَرَفَيْنِ أَوْ أَكْثَرَ أَوْ يَتَّفِقُونَ عَلَيْهِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُشْتَرَكَةٌ"
+      ],
+      "collocations": [
+        "هَدَفٌ مُشْتَرَكٌ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الطَّرَفَانِ هَدَفًا مُشْتَرَكًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_020",
+      "arabic": "تَعَاوُنٌ",
+      "meaning_ar": "قِيَامُ أَشْخَاصٍ بِعَمَلٍ مَعًا لِتَحْقِيقِ هَدَفٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّعَاوُنُ الدَّوْلِيُّ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ التَّعَاوُنُ عَلَى حَلِّ الْمُشْكِلَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_021",
+      "arabic": "تَضَامُنٌ",
+      "meaning_ar": "وُقُوفُ النَّاسِ مَعًا لِمُسَاعَدَةِ بَعْضِهِمْ بَعْضًا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّضَامُنُ الْإِنْسَانِيُّ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ التَّضَامُنُ بَعْدَ الْأَزْمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_022",
+      "arabic": "سَلَامٌ",
+      "meaning_ar": "حَالَةٌ يَأْمَنُ فِيهَا النَّاسُ مِنَ الْعُنْفِ وَالْحَرْبِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بِنَاءُ السَّلَامِ"
+      ],
+      "examples_ar": [
+        "تَتَعَاوَنُ الْجَمَاعَاتُ لِبِنَاءِ السَّلَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_023",
+      "arabic": "نِزَاعٌ",
+      "meaning_ar": "خِلَافٌ شَدِيدٌ بَيْنَ طَرَفَيْنِ أَوْ أَكْثَرَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نِزَاعَاتٌ"
+      ],
+      "collocations": [
+        "حَلُّ النِّزَاعِ"
+      ],
+      "examples_ar": [
+        "انْتَهَى النِّزَاعُ بَعْدَ الْوِسَاطَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_024",
+      "arabic": "تَفَاوُضٌ",
+      "meaning_ar": "حِوَارٌ بَيْنَ أَطْرَافٍ لِلوُصُولِ إِلَى اتِّفَاقٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جَلْسَةُ تَفَاوُضٍ"
+      ],
+      "examples_ar": [
+        "اسْتَمَرَّ التَّفَاوُضُ يَوْمَيْنِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u16_025",
+      "arabic": "تَسَاوٍ",
+      "meaning_ar": "وُجُودُ نَفْسِ الْمِقْدَارِ أَوِ الْمَرْتَبَةِ بَيْنَ شَيْئَيْنِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّسَاوِي فِي الْفُرَصِ"
+      ],
+      "examples_ar": [
+        "يَطْلُبُ الْمُشَارِكُونَ تَسَاوِيَ الْفُرَصِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 16,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 16,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Fourth-level learner dictionary independent provisional thematic set; official textbook chapters not checked."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    }
+  ]
+}
