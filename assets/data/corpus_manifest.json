@@ -48,7 +48,11 @@
     "assets/data/entries_verbs_home_20261025.json",
     "assets/data/entries_verbs_learning_20261025.json",
     "assets/data/entries_verbs_social_20261025.json",
-    "assets/data/entries_verbs_nature_20261025.json"
+    "assets/data/entries_verbs_nature_20261025.json",
+    "assets/data/entries_adjectives_character_20261025.json",
+    "assets/data/entries_adjectives_cognition_20261025.json",
+    "assets/data/entries_adjectives_material_20261025.json",
+    "assets/data/entries_adjectives_context_20261025.json"
   ],
   "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
 }
