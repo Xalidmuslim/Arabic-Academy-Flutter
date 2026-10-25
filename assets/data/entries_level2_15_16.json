@@ -1,0 +1,3198 @@
+{
+  "schema_version": 2,
+  "source_status": "topic_candidate_not_officially_collated",
+  "entries": [
+    {
+      "id": "l2u15_001",
+      "arabic": "تَلَوُّثٌ",
+      "meaning_ar": "دُخُولُ مَوَادَّ ضَارَّةٍ إِلَى الْهَوَاءِ أَوِ الْمَاءِ أَوِ التُّرْبَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَلَوُّثُ الْبِيئَةِ"
+      ],
+      "examples_ar": [
+        "تَلَوُّثُ الْهَوَاءِ يُضِرُّ بِصِحَّةِ النَّاسِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_002",
+      "arabic": "بِيئَةٌ",
+      "meaning_ar": "الْأَمَاكِنُ وَالظُّرُوفُ الطَّبِيعِيَّةُ الَّتِي تَعِيشُ فِيهَا الْكَائِنَاتُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بِيئَاتٌ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْبِيئَةِ"
+      ],
+      "examples_ar": [
+        "نُسَاعِدُ عَلَى حِمَايَةِ الْبِيئَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_003",
+      "arabic": "تُرْبَةٌ",
+      "meaning_ar": "الطَّبَقَةُ الْعُلْوِيَّةُ مِنَ الْأَرْضِ الَّتِي تَنْمُو فِيهَا النَّبَاتَاتُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تُرْبَةٌ خِصْبَةٌ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الزِّرَاعَةُ إِلَى تُرْبَةٍ جَيِّدَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_004",
+      "arabic": "دُخَانٌ",
+      "meaning_ar": "غَازَاتٌ وَجُزَيْئَاتٌ تَخْرُجُ مِنَ الْحَرِيقِ أَوِ الِاحْتِرَاقِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دُخَانُ الْمَصَانِعِ"
+      ],
+      "examples_ar": [
+        "يَرْتَفِعُ الدُّخَانُ مِنَ الْمَصْنَعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_005",
+      "arabic": "عَادِمٌ",
+      "meaning_ar": "غَازَاتٌ تَخْرُجُ مِنَ الْمُحَرِّكِ بَعْدَ احْتِرَاقِ الْوَقُودِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَادِمُ السَّيَّارَاتِ"
+      ],
+      "examples_ar": [
+        "تُسَبِّبُ عَوَادِمُ السَّيَّارَاتِ تَلَوُّثًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_006",
+      "arabic": "نُفَايَاتٌ",
+      "meaning_ar": "بَقَايَا أَشْيَاءَ لَا يَحْتَاجُ إِلَيْهَا النَّاسُ وَيَتَخَلَّصُونَ مِنْهَا.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ"
+      ],
+      "collocations": [
+        "النُّفَايَاتُ الْمَنْزِلِيَّةُ"
+      ],
+      "examples_ar": [
+        "نَضَعُ النُّفَايَاتِ فِي الْحَاوِيَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_007",
+      "arabic": "مُخَلَّفَاتٌ",
+      "meaning_ar": "مَوَادُّ تَبْقَى بَعْدَ الِاسْتِعْمَالِ أَوِ الصِّنَاعَةِ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ"
+      ],
+      "collocations": [
+        "مُخَلَّفَاتُ الْمَصْنَعِ"
+      ],
+      "examples_ar": [
+        "يَجِبُ مُعَالَجَةُ مُخَلَّفَاتِ الْمَصَانِعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_008",
+      "arabic": "حَاوِيَةٌ",
+      "meaning_ar": "وِعَاءٌ كَبِيرٌ لِحِفْظِ الْأَشْيَاءِ أَوْ جَمْعِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَاوِيَاتٌ"
+      ],
+      "collocations": [
+        "حَاوِيَةُ النُّفَايَاتِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْعَامِلُ النُّفَايَاتِ فِي الْحَاوِيَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_009",
+      "arabic": "مَحْمِيَّةٌ",
+      "meaning_ar": "مِنْطَقَةٌ طَبِيعِيَّةٌ تُحْمَى فِيهَا الْحَيَوَانَاتُ وَالنَّبَاتَاتُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَحْمِيَّاتٌ"
+      ],
+      "collocations": [
+        "مَحْمِيَّةٌ طَبِيعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "زُرْنَا مَحْمِيَّةً طَبِيعِيَّةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_010",
+      "arabic": "مُنَاخٌ",
+      "meaning_ar": "الْحَالَةُ الْمُعْتَادَةُ لِلْجَوِّ فِي مِنْطَقَةٍ خِلَالَ سَنَوَاتٍ طَوِيلَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَغَيُّرُ الْمُنَاخِ"
+      ],
+      "examples_ar": [
+        "يَخْتَلِفُ الْمُنَاخُ مِنْ مَكَانٍ إِلَى آخَرَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_011",
+      "arabic": "احْتِبَاسٌ",
+      "meaning_ar": "بَقَاءُ شَيْءٍ دَاخِلَ مَكَانٍ وَعَدَمُ خُرُوجِهِ بِسُهُولَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِاحْتِبَاسُ الْحَرَارِيُّ"
+      ],
+      "examples_ar": [
+        "تَزِيدُ بَعْضُ الْغَازَاتِ مِنَ الِاحْتِبَاسِ الْحَرَارِيِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_012",
+      "arabic": "انْبِعَاثٌ",
+      "meaning_ar": "خُرُوجُ غَازٍ أَوْ دُخَانٍ مِنْ مَصْدَرٍ إِلَى الْهَوَاءِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ انْبِعَاثَاتٌ"
+      ],
+      "collocations": [
+        "انْبِعَاثُ الْغَازَاتِ"
+      ],
+      "examples_ar": [
+        "نُرِيدُ تَقْلِيلَ انْبِعَاثَاتِ الْمَصَانِعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_013",
+      "arabic": "غَازٌ",
+      "meaning_ar": "مَادَّةٌ تَنْتَشِرُ فِي الْهَوَاءِ وَلَا تَمْلِكُ شَكْلًا ثَابِتًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ غَازَاتٌ"
+      ],
+      "collocations": [
+        "غَازٌ طَبِيعِيٌّ"
+      ],
+      "examples_ar": [
+        "يُسْتَعْمَلُ الْغَازُ فِي الطَّهْيِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_014",
+      "arabic": "أُكْسِجِينٌ",
+      "meaning_ar": "غَازٌ فِي الْهَوَاءِ يَحْتَاجُ إِلَيْهِ الْإِنْسَانُ لِلتَّنَفُّسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "غَازُ الْأُكْسِجِينِ"
+      ],
+      "examples_ar": [
+        "نَحْتَاجُ إِلَى الْأُكْسِجِينِ لِنَتَنَفَّسَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_015",
+      "arabic": "كَرْبُونٌ",
+      "meaning_ar": "عُنْصُرٌ كِيمِيَائِيٌّ يَدْخُلُ فِي تَرْكِيبِ مَوَادَّ كَثِيرَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "ثَانِي أُكْسِيدِ الْكَرْبُونِ"
+      ],
+      "examples_ar": [
+        "يَدْخُلُ الْكَرْبُونُ فِي تَرْكِيبِ الْخَشَبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_016",
+      "arabic": "مَادَّةٌ",
+      "meaning_ar": "شَيْءٌ لَهُ كُتْلَةٌ وَيَشْغَلُ مَكَانًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَادُّ"
+      ],
+      "collocations": [
+        "مَادَّةٌ ضَارَّةٌ"
+      ],
+      "examples_ar": [
+        "يَجِبُ إِبْعَادُ الْمَوَادِّ الضَّارَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_017",
+      "arabic": "سَامٌّ",
+      "meaning_ar": "مَا يُمْكِنُ أَنْ يُؤْذِيَ الْجِسْمَ أَوْ يُسَبِّبَ التَّسَمُّمَ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ سَامَّةٌ"
+      ],
+      "collocations": [
+        "غَازٌ سَامٌّ"
+      ],
+      "examples_ar": [
+        "بَعْضُ الْغَازَاتِ سَامَّةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_018",
+      "arabic": "ضَارٌّ",
+      "meaning_ar": "مَا يُسَبِّبُ أَذًى أَوْ مَرَضًا أَوْ خَسَارَةً.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ ضَارَّةٌ"
+      ],
+      "collocations": [
+        "مَادَّةٌ ضَارَّةٌ"
+      ],
+      "examples_ar": [
+        "التَّدْخِينُ ضَارٌّ بِالصِّحَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_019",
+      "arabic": "خَطِيرٌ",
+      "meaning_ar": "مَا يُمْكِنُ أَنْ يُسَبِّبَ ضَرَرًا كَبِيرًا.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ خَطِيرَةٌ"
+      ],
+      "collocations": [
+        "تَلَوُّثٌ خَطِيرٌ"
+      ],
+      "examples_ar": [
+        "بَعْضُ الْمُلَوِّثَاتِ خَطِيرَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_020",
+      "arabic": "حَرِيقٌ",
+      "meaning_ar": "اشْتِعَالُ النَّارِ فِي مَكَانٍ أَوْ شَيْءٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَرَائِقُ"
+      ],
+      "collocations": [
+        "حَرِيقُ الْغَابَةِ"
+      ],
+      "examples_ar": [
+        "تَسَبَّبَ الْجَفَافُ فِي حَرِيقٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_021",
+      "arabic": "غَابَةٌ",
+      "meaning_ar": "أَرْضٌ وَاسِعَةٌ تَنْبُتُ فِيهَا أَشْجَارٌ كَثِيرَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ غَابَاتٌ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْغَابَةِ"
+      ],
+      "examples_ar": [
+        "تَعِيشُ حَيَوَانَاتٌ فِي الْغَابَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_022",
+      "arabic": "جَفَافٌ",
+      "meaning_ar": "حَالَةٌ يَقِلُّ فِيهَا الْمَاءُ أَوِ الْمَطَرُ فَتَجِفُّ الْأَرْضُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جَفَافُ الْأَرْضِ"
+      ],
+      "examples_ar": [
+        "تَضَرَّرَتِ الزُّرُوعُ بِسَبَبِ الْجَفَافِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_023",
+      "arabic": "فَيْضَانٌ",
+      "meaning_ar": "ارْتِفَاعُ الْمَاءِ وَخُرُوجُهُ عَنْ مَجْرَاهُ الْمُعْتَادِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَيْضَانَاتٌ"
+      ],
+      "collocations": [
+        "فَيْضَانُ النَّهْرِ"
+      ],
+      "examples_ar": [
+        "غَمَرَ الْفَيْضَانُ بَعْضَ الْحُقُولِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_024",
+      "arabic": "تَصْحُّرٌ",
+      "meaning_ar": "تَحَوُّلُ أَرْضٍ خِصْبَةٍ إِلَى أَرْضٍ قَلِيلَةِ النَّبَاتِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُكَافَحَةُ التَّصَحُّرِ"
+      ],
+      "examples_ar": [
+        "يُهَدِّدُ التَّصَحُّرُ الْأَرَاضِيَ الزِّرَاعِيَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_025",
+      "arabic": "تَدْوِيرٌ",
+      "meaning_ar": "اسْتِخْدَامُ بَقَايَا الْمَوَادِّ لِصُنْعِ أَشْيَاءَ جَدِيدَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِعَادَةُ التَّدْوِيرِ"
+      ],
+      "examples_ar": [
+        "نَفْصِلُ الْوَرَقَ لِإِعَادَةِ تَدْوِيرِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_026",
+      "arabic": "مُعَالَجَةٌ",
+      "meaning_ar": "الْعَمَلُ عَلَى تَغْيِيرِ حَالَةِ شَيْءٍ لِإِصْلَاحِهِ أَوْ تَنْقِيَتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُعَالَجَةُ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "تُعَالَجُ الْمِيَاهُ قَبْلَ اسْتِعْمَالِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_027",
+      "arabic": "مِلَوِّثٌ",
+      "meaning_ar": "مَادَّةٌ أَوْ شَيْءٌ يَجْعَلُ الْبِيئَةَ غَيْرَ نَظِيفَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُلَوِّثَاتٌ"
+      ],
+      "collocations": [
+        "مُلَوِّثَاتُ الْهَوَاءِ"
+      ],
+      "examples_ar": [
+        "يَجِبُ تَقْلِيلُ الْمُلَوِّثَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_028",
+      "arabic": "تَنَقَّى",
+      "meaning_ar": "أَصْبَحَ أَكْثَرَ نَقَاءً بَعْدَ إِزَالَةِ الشَّوَائِبِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَنَقَّى"
+      ],
+      "collocations": [
+        "تَنَقَّى الْمَاءُ"
+      ],
+      "examples_ar": [
+        "تَنَقَّى الْمَاءُ بَعْدَ الْمُعَالَجَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_029",
+      "arabic": "لَوَّثَ",
+      "meaning_ar": "أَدْخَلَ الْأَوْسَاخَ أَوِ الْمَوَادَّ الضَّارَّةَ فِي شَيْءٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُلَوِّثُ"
+      ],
+      "collocations": [
+        "لَوَّثَ الْمَاءَ"
+      ],
+      "examples_ar": [
+        "لَوَّثَتِ النُّفَايَاتُ النَّهْرَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_030",
+      "arabic": "تَسَبَّبَ",
+      "meaning_ar": "كَانَ سَبَبًا فِي وُقُوعِ شَيْءٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتَسَبَّبُ"
+      ],
+      "collocations": [
+        "تَسَبَّبَ فِي الْخَطَرِ"
+      ],
+      "examples_ar": [
+        "تَسَبَّبَ الدُّخَانُ فِي تَلَوُّثِ الْهَوَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_031",
+      "arabic": "حَمَى",
+      "meaning_ar": "مَنَعَ الضَّرَرَ عَنْ شَخْصٍ أَوْ شَيْءٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَحْمِي"
+      ],
+      "collocations": [
+        "حَمَى الْبِيئَةَ"
+      ],
+      "examples_ar": [
+        "يَحْمِي الْغَابَاتَ مُتَطَوِّعُونَ كَثِيرُونَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_032",
+      "arabic": "قَلَّلَ",
+      "meaning_ar": "جَعَلَ كَمِّيَّةَ شَيْءٍ أَوْ عَدَدَهُ أَقَلَّ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُقَلِّلُ"
+      ],
+      "collocations": [
+        "قَلَّلَ النُّفَايَاتِ"
+      ],
+      "examples_ar": [
+        "نُقَلِّلُ اسْتِعْمَالَ الْبَلَاسْتِيكِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_033",
+      "arabic": "أَعَادَ",
+      "meaning_ar": "فَعَلَ شَيْئًا مَرَّةً أُخْرَى أَوْ رَدَّهُ إِلَى مَكَانِهِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُعِيدُ"
+      ],
+      "collocations": [
+        "أَعَادَ التَّدْوِيرَ"
+      ],
+      "examples_ar": [
+        "أَعَدْنَا اسْتِخْدَامَ الْعُلْبَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_034",
+      "arabic": "تَلَفَ",
+      "meaning_ar": "فَسَدَ وَأَصْبَحَ غَيْرَ صَالِحٍ لِلِاسْتِعْمَالِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَتْلَفُ"
+      ],
+      "collocations": [
+        "تَلَفَ الْغِذَاءُ"
+      ],
+      "examples_ar": [
+        "تَلَفَ الطَّعَامُ بِسَبَبِ الْحَرِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_035",
+      "arabic": "أَضَرَّ",
+      "meaning_ar": "سَبَّبَ أَذًى أَوْ نَقْصًا فِي صِحَّةِ شَيْءٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُضِرُّ"
+      ],
+      "collocations": [
+        "أَضَرَّ بِالْبِيئَةِ"
+      ],
+      "examples_ar": [
+        "أَضَرَّ التَّلَوُّثُ بِالنَّبَاتَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u15_036",
+      "arabic": "حَافَظَ",
+      "meaning_ar": "عَمِلَ عَلَى بَقَاءِ شَيْءٍ سَلِيمًا أَوْ نَظِيفًا.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُحَافِظُ"
+      ],
+      "collocations": [
+        "حَافَظَ عَلَى الْبِيئَةِ"
+      ],
+      "examples_ar": [
+        "نُحَافِظُ عَلَى الْمَوَارِدِ الطَّبِيعِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 15,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 15,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_001",
+      "arabic": "طَاقَةٌ",
+      "meaning_ar": "الْقُدْرَةُ عَلَى إِحْدَاثِ حَرَكَةٍ أَوْ حَرَارَةٍ أَوْ عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طَاقَاتٌ"
+      ],
+      "collocations": [
+        "مَصَادِرُ الطَّاقَةِ"
+      ],
+      "examples_ar": [
+        "نَسْتَعْمِلُ الطَّاقَةَ فِي الْبَيْتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_002",
+      "arabic": "كَهربَاءٌ",
+      "meaning_ar": "نَوْعٌ مِنَ الطَّاقَةِ يَسْتَعْمِلُهُ النَّاسُ لِتَشْغِيلِ الْأَجْهِزَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الطَّاقَةُ الْكَهْرَبَائِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَعْمَلُ الْمِصْبَاحَةُ بِالْكَهْرَبَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_003",
+      "arabic": "تَيَّارٌ",
+      "meaning_ar": "حَرَكَةٌ مُنْتَظِمَةٌ لِلْمَاءِ أَوِ الْكَهْرَبَاءِ أَوِ الْهَوَاءِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَيَّارَاتٌ"
+      ],
+      "collocations": [
+        "التَّيَّارُ الْكَهْرَبَائِيُّ"
+      ],
+      "examples_ar": [
+        "انْقَطَعَ التَّيَّارُ الْكَهْرَبَائِيُّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_004",
+      "arabic": "وَقُودٌ",
+      "meaning_ar": "مَادَّةٌ تُحْرَقُ لِلْحُصُولِ عَلَى الْحَرَارَةِ أَوِ الطَّاقَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَقُودُ السَّيَّارَاتِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْحَافِلَةُ إِلَى الْوَقُودِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_005",
+      "arabic": "بِنْزِينٌ",
+      "meaning_ar": "وَقُودٌ سَائِلٌ يُسْتَعْمَلُ فِي مُحَرِّكَاتِ بَعْضِ السَّيَّارَاتِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَحَطَّةُ الْبِنْزِينِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفْنَا لِشِرَاءِ الْبِنْزِينِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_006",
+      "arabic": "فَحْمٌ",
+      "meaning_ar": "مَادَّةٌ سَوْدَاءُ تُسْتَعْمَلُ وَقُودًا لِإِنْتَاجِ الْحَرَارَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِنْجَمُ الْفَحْمِ"
+      ],
+      "examples_ar": [
+        "يُسْتَخْدَمُ الْفَحْمُ فِي بَعْضِ الْمَصَانِعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_007",
+      "arabic": "شَمْسِيٌّ",
+      "meaning_ar": "مَا كَانَ مُتَعَلِّقًا بِالشَّمْسِ أَوْ مُسْتَمَدًّا مِنْهَا.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ شَمْسِيَّةٌ"
+      ],
+      "collocations": [
+        "الطَّاقَةُ الشَّمْسِيَّةُ"
+      ],
+      "examples_ar": [
+        "تُوَلِّدُ الْأَلْوَاحُ الشَّمْسِيَّةُ الْكَهْرَبَاءَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_008",
+      "arabic": "رِيَاحٌ",
+      "meaning_ar": "هَوَاءٌ يَتَحَرَّكُ مِنْ مَكَانٍ إِلَى آخَرَ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ؛ الْمُفْرَدُ رِيحٌ"
+      ],
+      "collocations": [
+        "طَاقَةُ الرِّيَاحِ"
+      ],
+      "examples_ar": [
+        "تَدُورُ التُّورْبِينَاتُ بِالرِّيَاحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_009",
+      "arabic": "تُورْبِينٌ",
+      "meaning_ar": "جِهَازٌ يَدُورُ بِقُوَّةِ الْهَوَاءِ أَوِ الْمَاءِ أَوِ الْبُخَارِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تُورْبِينَاتٌ"
+      ],
+      "collocations": [
+        "تُورْبِينُ الرِّيَاحِ"
+      ],
+      "examples_ar": [
+        "يُوَلِّدُ التُّورْبِينُ الْكَهْرَبَاءَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_010",
+      "arabic": "مُوَلِّدٌ",
+      "meaning_ar": "جِهَازٌ يَحَوِّلُ طَاقَةً إِلَى طَاقَةٍ كَهْرَبَائِيَّةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُوَلِّدَاتٌ"
+      ],
+      "collocations": [
+        "مُوَلِّدُ الْكَهْرَبَاءِ"
+      ],
+      "examples_ar": [
+        "يَعْمَلُ الْمُوَلِّدُ عِنْدَ انْقِطَاعِ الْكَهْرَبَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_011",
+      "arabic": "بَطَّارِيَّةٌ",
+      "meaning_ar": "جِهَازٌ يَخْزُنُ طَاقَةً وَيُعْطِيهَا لِلْأَجْهِزَةِ عِنْدَ الْحَاجَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَطَّارِيَّاتٌ"
+      ],
+      "collocations": [
+        "بَطَّارِيَّةُ الْهَاتِفِ"
+      ],
+      "examples_ar": [
+        "شَحَنْتُ بَطَّارِيَّةَ الْهَاتِفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_012",
+      "arabic": "شَحْنٌ",
+      "meaning_ar": "نَقْلُ الْبَضَائِعِ أَوْ تَزْوِيدُ الْبَطَّارِيَّةِ بِالطَّاقَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "شَحْنُ الْبَطَّارِيَّةِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْهَاتِفُ إِلَى الشَّحْنِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_013",
+      "arabic": "جِهَازٌ",
+      "meaning_ar": "آلَةٌ لَهَا أَجْزَاءٌ تَعْمَلُ مَعًا لِتَأْدِيَةِ مَهَمَّةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَجْهِزَةٌ"
+      ],
+      "collocations": [
+        "جِهَازٌ كَهْرَبَائِيٌّ"
+      ],
+      "examples_ar": [
+        "يَعْمَلُ الْجِهَازُ بِالْكَهْرَبَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_014",
+      "arabic": "آلَةٌ",
+      "meaning_ar": "شَيْءٌ صَنَعَهُ الْإِنْسَانُ لِيُسَاعِدَهُ عَلَى الْعَمَلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ آلَاتٌ"
+      ],
+      "collocations": [
+        "آلَةٌ صِنَاعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَسْتَعْمِلُ الْمَصَانِعُ آلَاتٍ كَبِيرَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_015",
+      "arabic": "مُحَرِّكٌ",
+      "meaning_ar": "جِهَازٌ يُحَوِّلُ الطَّاقَةَ إِلَى حَرَكَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُحَرِّكَاتٌ"
+      ],
+      "collocations": [
+        "مُحَرِّكُ السَّيَّارَةِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْمُحَرِّكُ إِلَى صِيَانَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_016",
+      "arabic": "مِصْبَاحٌ",
+      "meaning_ar": "جِهَازٌ يُصْدِرُ الضَّوْءَ لِإِنَارَةِ الْمَكَانِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَصَابِيحُ"
+      ],
+      "collocations": [
+        "مِصْبَاحٌ كَهْرَبَائِيٌّ"
+      ],
+      "examples_ar": [
+        "أَضَأْتُ الْمِصْبَاحَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_017",
+      "arabic": "إِضَاءَةٌ",
+      "meaning_ar": "جَعْلُ الْمَكَانِ مُنِيرًا بِاسْتِعْمَالِ الضَّوْءِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِضَاءَةُ الْغُرْفَةِ"
+      ],
+      "examples_ar": [
+        "إِضَاءَةُ الْمَكْتَبِ جَيِّدَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_018",
+      "arabic": "تَقْنِيَةٌ",
+      "meaning_ar": "طُرُقٌ وَأَدَوَاتٌ تَعْتَمِدُ عَلَى الْعِلْمِ لِحَلِّ الْمُشْكِلَاتِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقْنِيَاتٌ"
+      ],
+      "collocations": [
+        "التَّقْنِيَةُ الْحَدِيثَةُ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُنَا التَّقْنِيَةُ فِي الْعَمَلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_019",
+      "arabic": "اِخْتِرَاعٌ",
+      "meaning_ar": "صُنْعُ شَيْءٍ جَدِيدٍ لَمْ يَكُنْ مَعْرُوفًا بِهَذَا الشَّكْلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اِخْتِرَاعَاتٌ"
+      ],
+      "collocations": [
+        "اِخْتِرَاعٌ جَدِيدٌ"
+      ],
+      "examples_ar": [
+        "سَاعَدَ الِاخْتِرَاعُ عَلَى تَسْهِيلِ الْحَيَاةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_020",
+      "arabic": "مُخْتَرِعٌ",
+      "meaning_ar": "شَخْصٌ يُوَجِدُ جِهَازًا أَوْ طَرِيقَةً جَدِيدَةً.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخْتَرِعُونَ"
+      ],
+      "collocations": [
+        "مُخْتَرِعٌ مَاهِرٌ"
+      ],
+      "examples_ar": [
+        "صَمَّمَ الْمُخْتَرِعُ آلَةً جَدِيدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_021",
+      "arabic": "ابْتِكَارٌ",
+      "meaning_ar": "إِيجَادُ فِكْرَةٍ أَوْ وَسِيلَةٍ جَدِيدَةٍ وَمُفِيدَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ابْتِكَارَاتٌ"
+      ],
+      "collocations": [
+        "ابْتِكَارٌ تِقْنِيٌّ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الِابْتِكَارُ إِلَى تَجْرِبَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_022",
+      "arabic": "كَهْرَبَائِيٌّ",
+      "meaning_ar": "مَا كَانَ يَعْمَلُ بِالْكَهْرَبَاءِ أَوْ يَتَعَلَّقُ بِهَا.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ كَهْرَبَائِيَّةٌ"
+      ],
+      "collocations": [
+        "جِهَازٌ كَهْرَبَائِيٌّ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَيْتُ جِهَازًا كَهْرَبَائِيًّا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_023",
+      "arabic": "مُتَجَدِّدٌ",
+      "meaning_ar": "مَا يَتَكَوَّنُ مِنْ جَدِيدٍ وَيُمْكِنُ الِاسْتِفَادَةُ مِنْهُ مُرَارًا.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَجَدِّدَةٌ"
+      ],
+      "collocations": [
+        "طَاقَةٌ مُتَجَدِّدَةٌ"
+      ],
+      "examples_ar": [
+        "الشَّمْسُ مَصْدَرٌ لِطَاقَةٍ مُتَجَدِّدَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_024",
+      "arabic": "اسْتِهْلَاكٌ",
+      "meaning_ar": "اسْتِعْمَالُ شَيْءٍ أَوْ إِنْفَاقُهُ لِلِاسْتِفَادَةِ مِنْهُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اسْتِهْلَاكُ الْكَهْرَبَاءِ"
+      ],
+      "examples_ar": [
+        "يَجِبُ تَقْلِيلُ اسْتِهْلَاكِ الطَّاقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_025",
+      "arabic": "تَوْفِيرٌ",
+      "meaning_ar": "الِاحْتِفَاظُ بِجُزْءٍ مِنَ الْمَالِ أَوِ الطَّاقَةِ وَعَدَمُ إِهْدَارِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَوْفِيرُ الطَّاقَةِ"
+      ],
+      "examples_ar": [
+        "نُطْفِئُ الْمَصَابِيحَ لِتَوْفِيرِ الطَّاقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_026",
+      "arabic": "كِفَاءَةٌ",
+      "meaning_ar": "الْقُدْرَةُ عَلَى إِنْجَازِ عَمَلٍ جَيِّدٍ بِأَقَلِّ هَدْرٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كَفَاءَةُ الطَّاقَةِ"
+      ],
+      "examples_ar": [
+        "هَذَا الْجِهَازُ عَالِي الْكِفَاءَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_027",
+      "arabic": "صِيَانَةٌ",
+      "meaning_ar": "فَحْصُ الْجِهَازِ وَإِصْلَاحُهُ لِيَسْتَمِرَّ فِي الْعَمَلِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صِيَانَةُ الْأَجْهِزَةِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْآلَاتُ إِلَى صِيَانَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_028",
+      "arabic": "مَحَطَّةٌ",
+      "meaning_ar": "مَكَانٌ تُنْتَجُ فِيهِ الْكَهْرَبَاءُ أَوْ تُقَدَّمُ فِيهِ خِدْمَاتُ النَّقْلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَحَطَّاتٌ"
+      ],
+      "collocations": [
+        "مَحَطَّةُ تَوْلِيدِ الْكَهْرَبَاءِ"
+      ],
+      "examples_ar": [
+        "تُوَلِّدُ الْمَحَطَّةُ الطَّاقَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_029",
+      "arabic": "لَوْحٌ",
+      "meaning_ar": "قِطْعَةٌ مُسَطَّحَةٌ مِنْ مَادَّةٍ تُسْتَعْمَلُ لِغَرَضٍ مُعَيَّنٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْوَاحٌ"
+      ],
+      "collocations": [
+        "لَوْحٌ شَمْسِيٌّ"
+      ],
+      "examples_ar": [
+        "وَضَعْنَا الْأَلْوَاحَ الشَّمْسِيَّةَ عَلَى السَّطْحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_030",
+      "arabic": "دَائِرَةٌ",
+      "meaning_ar": "مَسَارٌ مُغْلَقٌ يَمُرُّ فِيهِ التَّيَّارُ الْكَهْرَبَائِيُّ، أَوْ شَكْلٌ مُسْتَدِيرٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دَوَائِرُ"
+      ],
+      "collocations": [
+        "دَائِرَةٌ كَهْرَبَائِيَّةٌ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُهَنْدِسُ الدَّائِرَةَ الْكَهْرَبَائِيَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_031",
+      "arabic": "سِلْكٌ",
+      "meaning_ar": "خَيْطٌ طَوِيلٌ رَفِيعٌ مِنْ مَعْدِنٍ يُسْتَعْمَلُ لِنَقْلِ الْكَهْرَبَاءِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَسْلَاكٌ"
+      ],
+      "collocations": [
+        "سِلْكٌ كَهْرَبَائِيٌّ"
+      ],
+      "examples_ar": [
+        "يَرْبِطُ السِّلْكُ الْجِهَازَ بِالطَّاقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_032",
+      "arabic": "مُفْتَاحٌ",
+      "meaning_ar": "أَدَاةٌ لِفَتْحِ الْبَابِ، وَقَدْ تَكُونُ زِرًّا لِتَشْغِيلِ الْكَهْرَبَاءِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَفَاتِيحُ"
+      ],
+      "collocations": [
+        "مُفْتَاحُ الْإِضَاءَةِ"
+      ],
+      "examples_ar": [
+        "ضَغَطْتُ مُفْتَاحَ الْإِضَاءَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_033",
+      "arabic": "شَحَنَ",
+      "meaning_ar": "مَلَأَ الْبَطَّارِيَّةَ بِالطَّاقَةِ أَوْ نَقَلَ الْبَضَائِعَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَشْحَنُ"
+      ],
+      "collocations": [
+        "شَحَنَ الْبَطَّارِيَّةَ"
+      ],
+      "examples_ar": [
+        "شَحَنْتُ هَاتِفِي لَيْلًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_034",
+      "arabic": "وَلَّدَ",
+      "meaning_ar": "أَنْتَجَ شَيْئًا مِنْ مَصْدَرٍ أَوْ عَمَلِيَّةٍ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُوَلِّدُ"
+      ],
+      "collocations": [
+        "وَلَّدَ الْكَهْرَبَاءَ"
+      ],
+      "examples_ar": [
+        "تُوَلِّدُ الْمَحَطَّةُ الْكَهْرَبَاءَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_035",
+      "arabic": "شَغَّلَ",
+      "meaning_ar": "جَعَلَ الْجِهَازَ أَوِ الْآلَةَ تَبْدَأُ الْعَمَلَ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُشَغِّلُ"
+      ],
+      "collocations": [
+        "شَغَّلَ الْجِهَازَ"
+      ],
+      "examples_ar": [
+        "شَغَّلْتُ الْحَاسُوبَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_036",
+      "arabic": "أَطْفَأَ",
+      "meaning_ar": "أَوْقَفَ النَّارَ أَوِ الْمِصْبَاحَ عَنِ الِاشْتِعَالِ أَوِ الْإِضَاءَةِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُطْفِئُ"
+      ],
+      "collocations": [
+        "أَطْفَأَ الْمِصْبَاحَ"
+      ],
+      "examples_ar": [
+        "أَطْفَأْتُ الْمِصْبَاحَ قَبْلَ النَّوْمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_037",
+      "arabic": "اِنْقَطَعَ",
+      "meaning_ar": "تَوَقَّفَ عَنِ الِاسْتِمْرَارِ أَوِ الِاتِّصَالِ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَنْقَطِعُ"
+      ],
+      "collocations": [
+        "اِنْقَطَعَتِ الْكَهْرَبَاءُ"
+      ],
+      "examples_ar": [
+        "اِنْقَطَعَ التَّيَّارُ لِسَاعَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 37,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 37,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_038",
+      "arabic": "وَفَّرَ",
+      "meaning_ar": "حَفِظَ جُزْءًا مِنْ مَالٍ أَوْ طَاقَةٍ وَلَمْ يُضَيِّعْهُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يُوَفِّرُ"
+      ],
+      "collocations": [
+        "وَفَّرَ الْكَهْرَبَاءَ"
+      ],
+      "examples_ar": [
+        "نُوَفِّرُ الطَّاقَةَ بِإِطْفَاءِ الْمَصَابِيحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 38,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 38,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_039",
+      "arabic": "اِسْتَهْلَكَ",
+      "meaning_ar": "اسْتَعْمَلَ مَادَّةً أَوْ طَاقَةً حَتَّى نَقَصَتْ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَسْتَهْلِكُ"
+      ],
+      "collocations": [
+        "اسْتَهْلَكَ الْوَقُودَ"
+      ],
+      "examples_ar": [
+        "تَسْتَهْلِكُ السَّيَّارَةُ الْوَقُودَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 39,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 39,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    },
+    {
+      "id": "l2u16_040",
+      "arabic": "اِخْتَرَعَ",
+      "meaning_ar": "صَنَعَ شَيْئًا جَدِيدًا لَمْ يَكُنْ مَوْجُودًا مِنْ قَبْلُ.",
+      "grammar": [
+        "فِعْلٌ؛ الْمُضَارِعُ يَخْتَرِعُ"
+      ],
+      "collocations": [
+        "اِخْتَرَعَ جِهَازًا"
+      ],
+      "examples_ar": [
+        "اخْتَرَعَ الْعَالِمُ جِهَازًا مُفِيدًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "curated_topic_candidate_unverified",
+        "source_url": "https://arabvocab.com/book/2",
+        "book": 2,
+        "part": 2,
+        "chapter": 16,
+        "index": 40,
+        "official_end_glossary_checked": false,
+        "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+      },
+      "book_references": [
+        {
+          "source_type": "curated_topic_candidate_unverified",
+          "source_url": "https://arabvocab.com/book/2",
+          "book": 2,
+          "part": 2,
+          "chapter": 16,
+          "index": 40,
+          "official_end_glossary_checked": false,
+          "attribution_note": "Original pedagogical Arabic definitions, candidate terms, not collated with official glossary"
+        }
+      ],
+      "source_group": "level2_topic_curated_unverified",
+      "sources": []
+    }
+  ]
+}
