@@ -14,7 +14,8 @@ class FrameDiagnosticsOverlay extends StatelessWidget {
     return Positioned(
       left: 8,
       right: 8,
-      top: 4,
+      // Keep the AppBar controls visible for the input A/B comparison.
+      top: kToolbarHeight + 4,
       child: SafeArea(
         child: IgnorePointer(
           child: Center(
