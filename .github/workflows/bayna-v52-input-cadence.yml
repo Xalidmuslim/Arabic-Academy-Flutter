@@ -1,0 +1,19 @@
+name: Bayna v52 Touch and Frame Cadence
+on:
+  push:
+    branches: [codex/bayna-v52-input-cadence-20261025]
+permissions:
+  contents: read
+jobs:
+  timing-regression:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {persist-credentials: false}
+      - uses: subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e
+        with: {flutter-version: '3.35.7', channel: stable, cache: true}
+      - run: |
+          flutter pub get --enforce-lockfile
+          flutter test --no-pub --dart-define=BAYNA_PERF_DIAGNOSTICS=true \
+            test/scroll_timing_isolation_test.dart
