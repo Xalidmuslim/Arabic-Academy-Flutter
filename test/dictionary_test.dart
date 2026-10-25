@@ -111,6 +111,31 @@ void main() {
     expect(words.single.isInChapter(2, 7), true);
     expect(words.single.chapterOrderFor(2, 7), 3);
   });
+  test('Later corpus updates append distinct senses without overwriting earlier ones', () {
+    const first = '{"entries":[{"id":"original","arabic":"بَيْتٌ",'
+        '"meaning_ar":"مَسْكَنٌ يَعِيشُ فِيهِ النَّاسُ.",'
+        '"synonyms":[],"antonyms":[],"grammar":["اِسْمٌ"],'
+        '"collocations":["بَيْتٌ جَمِيلٌ"],'
+        '"examples_ar":["هَذَا بَيْتٌ وَاسِعٌ."],'
+        '"additional_meanings_ar":["أَسْرَةٌ تَعِيشُ فِي الْمَنْزِلِ."]}]}';
+    const supplement = '{"entries":[{"id":"supplement","arabic":"بَيْتٌ",'
+        '"meaning_ar":"مَسْكَنٌ","synonyms":[],"antonyms":[],'
+        '"grammar":["اِسْمٌ"],'
+        '"collocations":["بَيْتٌ مِنَ الشِّعْرِ"],'
+        '"examples_ar":["حَفِظْتُ بَيْتًا مِنَ الشِّعْرِ."],'
+        '"additional_meanings_ar":["أَسْرَةٌ تَعِيشُ فِي الْمَنْزِلِ.",'
+        '"جُمْلَةٌ شِعْرِيَّةٌ تَتَكَوَّنُ مِنْ شَطْرَيْنِ."],'
+        '"usage_note_ar":"بَيْتُ الشِّعْرِ جَمْعُهُ أَبْيَاتٌ."}]}';
+    final words = decodeAndMergeCorpora([first, supplement]);
+    expect(words.single.id, 'original');
+    expect(words.single.meaning, 'مَسْكَنٌ يَعِيشُ فِيهِ النَّاسُ.');
+    expect(words.single.additionalMeanings.length, 2);
+    expect(words.single.examples.length, 2);
+    expect(words.single.collocations.length, 2);
+    expect(words.single.grammar.length, 1);
+    expect(words.single.usage, 'بَيْتُ الشِّعْرِ جَمْعُهُ أَبْيَاتٌ.');
+  });
+
   test('Separate vowelled homographs remain distinct across corpus chunks', () {
     const first = '{"entries":[{"id":"noun","arabic":"وَلَدٌ",'
         '"meaning_ar":"صَبِيٌّ","synonyms":[],"antonyms":[],'
