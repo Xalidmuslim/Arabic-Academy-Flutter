@@ -27,10 +27,10 @@ class DescriptiveAdjectiveBatchTest(unittest.TestCase):
             chunk = json.loads((ROOT / name).read_text(encoding="utf-8"))
             self.assertEqual(chunk["schema_version"], 3)
             self.assertEqual(chunk["source_status"], "independent_adjective_lexicon_not_textbook_collated")
-            self.assertGreaterEqual(len(chunk["entries"]), 55, name)
+            self.assertGreaterEqual(len(chunk["entries"]), 90, name)
             all_cards.extend(chunk["entries"])
 
-        self.assertGreaterEqual(len(all_cards), 280)
+        self.assertGreaterEqual(len(all_cards), 470)
         self.assertEqual(len(all_cards), len({e["id"] for e in all_cards}))
         self.assertEqual(len(all_cards), len({e["arabic"] for e in all_cards}))
 
@@ -44,6 +44,9 @@ class DescriptiveAdjectiveBatchTest(unittest.TestCase):
             self.assertTrue(entry["grammar"], word)
             self.assertIn("صِفَةٌ", " ".join(entry["grammar"]), word)
             self.assertIn("الْمُؤَنَّثُ", " ".join(entry["grammar"]), word)
+            feminine = " ".join(entry["grammar"]).split("الْمُؤَنَّثُ", 1)[1].strip()
+            self.assertRegex(feminine, DIACRITIC)
+            self.assertNotEqual(feminine, word)
             for name in ("grammar", "collocations", "examples_ar", "additional_meanings_ar", "synonyms", "antonyms"):
                 self.assertIsInstance(entry[name], list, word)
             self.assertEqual(entry["book_references"], [], word)
