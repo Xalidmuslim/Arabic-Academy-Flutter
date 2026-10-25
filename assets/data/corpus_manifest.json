@@ -23,7 +23,9 @@
     "assets/data/entries_level4_draft_11_12.json",
     "assets/data/entries_level4_draft_13_14.json",
     "assets/data/entries_level4_draft_15_16.json",
-    "assets/data/entries_editorial_enrichment_l4.json"
+    "assets/data/entries_editorial_enrichment_l4.json",
+    "assets/data/entries_advanced_research_editing_20261025.json",
+    "assets/data/entries_advanced_verbs_20261025.json"
   ],
   "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
 }
