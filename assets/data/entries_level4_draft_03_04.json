@@ -1,0 +1,2992 @@
+{
+  "schema_version": 2,
+  "source_status": "editorial_themes_not_official_units",
+  "draft_theme_titles": {
+    "3": "التقنية والإعلام",
+    "4": "الاقتصاد والموارد"
+  },
+  "entries": [
+    {
+      "id": "l4draft03_001",
+      "arabic": "رَقْمَنَةٌ",
+      "meaning_ar": "تَحْوِيلُ الْمَعْلُومَاتِ وَالْأَعْمَالِ إِلَى أَشْكَالٍ تَعْمَلُ بِهَا الْأَنْظِمَةُ الْإِلِكْتُرُونِيَّةُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَقْمَنَةُ الْوَثَائِقِ"
+      ],
+      "examples_ar": [
+        "سَاعَدَتِ الرَّقْمَنَةُ عَلَى تَسْهِيلِ الْخَدَمَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_002",
+      "arabic": "خَوَارِزْمِيَّةٌ",
+      "meaning_ar": "خُطُوَاتٌ مُحَدَّدَةٌ وَمُرَتَّبَةٌ لِحَلِّ مُشْكِلَةٍ أَوْ تَنْفِيذِ عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَوَارِزْمِيَّاتٌ"
+      ],
+      "collocations": [
+        "خَوَارِزْمِيَّةُ الْبَحْثِ"
+      ],
+      "examples_ar": [
+        "تَتَّبِعُ الْخَوَارِزْمِيَّةُ خُطُوَاتٍ وَاضِحَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_003",
+      "arabic": "بَرْمَجِيَّاتٌ",
+      "meaning_ar": "بَرَامِجُ وَتَعْلِيمَاتٌ تَجْعَلُ الْحَاسُوبَ يَقُومُ بِأَعْمَالٍ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ؛ الْمُفْرَدُ بَرْمَجِيَّةٌ"
+      ],
+      "collocations": [
+        "تَطْوِيرُ الْبَرْمَجِيَّاتِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْبَرْمَجِيَّاتُ إِلَى اخْتِبَارٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_004",
+      "arabic": "تَطْبِيقٌ",
+      "meaning_ar": "بَرْنَامَجٌ يُنَفِّذُ وَظَائِفَ مُعَيَّنَةً عَلَى جِهَازٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَطْبِيقَاتٌ"
+      ],
+      "collocations": [
+        "تَطْبِيقٌ تَعْلِيمِيٌّ"
+      ],
+      "examples_ar": [
+        "يَسْتَعْمِلُ الطُّلَّابُ تَطْبِيقًا لِلتَّعَلُّمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_005",
+      "arabic": "وَاجِهَةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ النِّظَامِ يَتَفَاعَلُ مَعَهُ الْمُسْتَخْدِمُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَاجِهَاتٌ"
+      ],
+      "collocations": [
+        "وَاجِهَةُ الْمُسْتَخْدِمِ"
+      ],
+      "examples_ar": [
+        "صَمَّمَ الْفَرِيقُ وَاجِهَةً وَاضِحَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_006",
+      "arabic": "مُسْتَخْدِمٌ",
+      "meaning_ar": "شَخْصٌ يَسْتَعْمِلُ جِهَازًا أَوْ خِدْمَةً أَوْ بَرْنَامَجًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسْتَخْدِمُونَ"
+      ],
+      "collocations": [
+        "تَجْرِبَةُ الْمُسْتَخْدِمِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْمُسْتَخْدِمُ إِلَى تَعْلِيمَاتٍ بَسِيطَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_007",
+      "arabic": "تَفَاعُلٌ",
+      "meaning_ar": "اسْتِجَابَةُ شَيْءٍ لِفِعْلِ شَيْءٍ آخَرَ وَالتَّأْثِيرُ الْمُتَبَادَلُ بَيْنَهُمَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّفَاعُلُ مَعَ التَّطْبِيقِ"
+      ],
+      "examples_ar": [
+        "أَصْبَحَ التَّفَاعُلُ مَعَ الْوَاجِهَةِ أَسْهَلَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_008",
+      "arabic": "بَيَانَاتٌ",
+      "meaning_ar": "مَعْلُومَاتٌ يُمْكِنُ جَمْعُهَا وَحِفْظُهَا وَمُعَالَجَتُهَا.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ؛ الْمُفْرَدُ بَيَانٌ"
+      ],
+      "collocations": [
+        "قَاعِدَةُ الْبَيَانَاتِ"
+      ],
+      "examples_ar": [
+        "تُحْفَظُ الْبَيَانَاتُ فِي النِّظَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_009",
+      "arabic": "قَاعِدَةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مُنَظَّمَةٌ تُخَزَّنُ فِيهَا الْمَعْلُومَاتُ عِنْدَ اقْتِرَانِهَا بِالْبَيَانَاتِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قَوَاعِدُ"
+      ],
+      "collocations": [
+        "قَاعِدَةُ بَيَانَاتٍ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ قَاعِدَةُ الْبَيَانَاتِ عَلَى الْبَحْثِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_010",
+      "arabic": "خَادِمٌ",
+      "meaning_ar": "حَاسُوبٌ أَوْ نِظَامٌ يُقَدِّمُ خِدْمَاتٍ لِأَجْهِزَةٍ أُخْرَى عَبْرَ شَبَكَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَوَادِمُ"
+      ],
+      "collocations": [
+        "خَادِمُ الْمَوْقِعِ"
+      ],
+      "examples_ar": [
+        "يُرْسِلُ الْخَادِمُ الْمَعْلُومَاتِ عِنْدَ الطَّلَبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_011",
+      "arabic": "مُتَصَفِّحٌ",
+      "meaning_ar": "بَرْنَامَجٌ يَسْمَحُ بِفَتْحِ صَفَحَاتِ الْوِيبِ وَعَرْضِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُتَصَفِّحَاتٌ"
+      ],
+      "collocations": [
+        "مُتَصَفِّحُ الْوِيبِ"
+      ],
+      "examples_ar": [
+        "فَتَحَتِ الطَّالِبَةُ الْمُتَصَفِّحَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_012",
+      "arabic": "شِفْرَةٌ",
+      "meaning_ar": "رُمُوزٌ أَوْ تَعْلِيمَاتٌ تُكْتَبُ بِنِظَامٍ خَاصٍّ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شِفْرَاتٌ"
+      ],
+      "collocations": [
+        "شِفْرَةُ الْبَرْنَامَجِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُبَرْمِجُ الشِّفْرَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_013",
+      "arabic": "تَشْفِيرٌ",
+      "meaning_ar": "تَحْوِيلُ الْمَعْلُومَاتِ إِلَى صُورَةٍ لَا تُفْهَمُ إِلَّا بِوَسِيلَةِ فَكِّهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَشْفِيرُ الرَّسَائِلِ"
+      ],
+      "examples_ar": [
+        "يَحْمِي التَّشْفِيرُ الْمَعْلُومَاتِ أَثْنَاءَ النَّقْلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_014",
+      "arabic": "خُصُوصِيَّةٌ",
+      "meaning_ar": "قُدْرَةُ الشَّخْصِ عَلَى التَّحَكُّمِ فِي مَعْلُومَاتِهِ الشَّخْصِيَّةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْخُصُوصِيَّةِ"
+      ],
+      "examples_ar": [
+        "يَحْرِصُ الْمُسْتَخْدِمُ عَلَى خُصُوصِيَّتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_015",
+      "arabic": "صَلَاحِيَّةٌ",
+      "meaning_ar": "إِذْنٌ يَسْمَحُ لِشَخْصٍ أَوْ بَرْنَامَجٍ بِفِعْلِ شَيْءٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَلَاحِيَّاتٌ"
+      ],
+      "collocations": [
+        "صَلَاحِيَّاتُ الْوُصُولِ"
+      ],
+      "examples_ar": [
+        "مَنَحَ الْمُدِيرُ صَلَاحِيَّةَ الْقِرَاءَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_016",
+      "arabic": "مُصَادَقَةٌ",
+      "meaning_ar": "التَّحَقُّقُ مِنْ هُوِيَّةِ الشَّخْصِ أَوِ الْجِهَازِ قَبْلَ السَّمَاحِ لَهُ بِالْدُّخُولِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمُصَادَقَةُ الثُّنَائِيَّةُ"
+      ],
+      "examples_ar": [
+        "يَطْلُبُ النِّظَامُ الْمُصَادَقَةَ عِنْدَ الدُّخُولِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_017",
+      "arabic": "تَحَقُّقٌ",
+      "meaning_ar": "الْفَحْصُ لِلتَّأَكُّدِ مِنْ صِحَّةِ الْمَعْلُومَةِ أَوِ الْهُوِيَّةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّحَقُّقُ مِنَ الْهُوِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَجْرِي الْمُؤَسَّسَةُ تَحَقُّقًا مِنَ الْبَيَانَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_018",
+      "arabic": "ثَغْرَةٌ",
+      "meaning_ar": "نُقْطَةُ ضَعْفٍ فِي نِظَامٍ يُمْكِنُ أَنْ تُسْتَغَلَّ لِإِحْدَاثِ ضَرَرٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثَغَرَاتٌ"
+      ],
+      "collocations": [
+        "ثَغْرَةٌ أَمْنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَصْلَحَ الْمُطَوِّرُ ثَغْرَةً فِي التَّطْبِيقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_019",
+      "arabic": "اخْتِبَارٌ",
+      "meaning_ar": "عَمَلٌ يُقَاسُ بِهِ مَدَى صِحَّةِ شَيْءٍ أَوْ كَفَاءَتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اخْتِبَارَاتٌ"
+      ],
+      "collocations": [
+        "اخْتِبَارُ الْبَرْنَامَجِ"
+      ],
+      "examples_ar": [
+        "اجْتَازَ التَّطْبِيقُ الِاخْتِبَارَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_020",
+      "arabic": "عُطْلٌ",
+      "meaning_ar": "خَلَلٌ يَمْنَعُ جِهَازًا أَوْ نِظَامًا مِنَ الْعَمَلِ كَمَا يَنْبَغِي.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْطَالٌ"
+      ],
+      "collocations": [
+        "عُطْلٌ تِقْنِيٌّ"
+      ],
+      "examples_ar": [
+        "سَبَّبَ الْعُطْلُ تَوَقُّفَ الْخِدْمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_021",
+      "arabic": "صِيَانَةٌ",
+      "meaning_ar": "فَحْصُ الْجِهَازِ وَإِصْلَاحُهِ لِلْمُحَافَظَةِ عَلَى عَمَلِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الصِّيَانَةُ الدَّوْرِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَجْرِي الشَّرِكَةُ صِيَانَةً لِلْخَوَادِمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_022",
+      "arabic": "تَحْدِيثٌ",
+      "meaning_ar": "إِضَافَةُ تَغْيِيرَاتٍ لِتَصْحِيحِ شَيْءٍ أَوْ تَحْسِينِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْدِيثُ الْبَرْنَامَجِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَ الْفَرِيقُ تَحْدِيثًا جَدِيدًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_023",
+      "arabic": "تَحْسِينٌ",
+      "meaning_ar": "جَعْلُ الشَّيْءِ أَكْثَرَ جَوْدَةً أَوْ فَائِدَةً.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْسِينُ الْأَدَاءِ"
+      ],
+      "examples_ar": [
+        "أَدَّى التَّعْدِيلُ إِلَى تَحْسِينِ السُّرْعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_024",
+      "arabic": "أَدَاءٌ",
+      "meaning_ar": "الطَّرِيقَةُ الَّتِي يُنَفِّذُ بِهَا جِهَازٌ أَوْ شَخْصٌ عَمَلًا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْأَدَاءِ"
+      ],
+      "examples_ar": [
+        "تَحَسَّنَ أَدَاءُ النِّظَامِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_025",
+      "arabic": "كَمُونٌ",
+      "meaning_ar": "مُدَّةُ التَّأَخُّرِ بَيْنَ إِرْسَالِ طَلَبٍ وَوُصُولِ الِاسْتِجَابَةِ فِي نِظَامٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "زَمَنُ الْكُمُونِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَ زَمَنُ الْكُمُونِ بَعْدَ التَّحْسِينِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_026",
+      "arabic": "اسْتِجَابَةٌ",
+      "meaning_ar": "الْعَمَلُ أَوِ الْجَوَابُ الَّذِي يَحْدُثُ بَعْدَ طَلَبٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اسْتِجَابَاتٌ"
+      ],
+      "collocations": [
+        "سُرْعَةُ الِاسْتِجَابَةِ"
+      ],
+      "examples_ar": [
+        "تَأَخَّرَتِ اسْتِجَابَةُ الْخَادِمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_027",
+      "arabic": "اتِّصَالٌ",
+      "meaning_ar": "رَابِطَةٌ تَسْمَحُ بِتَبَادُلِ الْمَعْلُومَاتِ بَيْنَ طَرَفَيْنِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اتِّصَالَاتٌ"
+      ],
+      "collocations": [
+        "اتِّصَالٌ مُشَفَّرٌ"
+      ],
+      "examples_ar": [
+        "انْقَطَعَ الِاتِّصَالُ بِالْخَادِمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_028",
+      "arabic": "نَشْرٌ",
+      "meaning_ar": "جَعْلُ كَلَامٍ أَوْ بَرْنَامَجٍ مُتَاحًا لِلنَّاسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَشْرُ التَّطْبِيقِ"
+      ],
+      "examples_ar": [
+        "تَمَّ نَشْرُ الْبَرْنَامَجِ بَعْدَ اخْتِبَارِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_029",
+      "arabic": "مُحْتَوًى",
+      "meaning_ar": "مَا يَشْمَلُهُ كِتَابٌ أَوْ مَوْقِعٌ أَوْ بَرْنَامَجٌ مِنْ مَعْلُومَاتٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُحْتَوًى تَعْلِيمِيٌّ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَوْقِعُ مُحْتَوًى مُفِيدًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_030",
+      "arabic": "مَصْدَرٌ",
+      "meaning_ar": "مَكَانٌ أَوْ شَيْءٌ تَأْتِي مِنْهُ مَعْلُومَةٌ أَوْ مَادَّةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَصَادِرُ"
+      ],
+      "collocations": [
+        "مَصْدَرُ الْمَعْلُومَاتِ"
+      ],
+      "examples_ar": [
+        "تَحَقَّقْ مِنْ مَصْدَرِ الْخَبَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_031",
+      "arabic": "إِشَاعَةٌ",
+      "meaning_ar": "خَبَرٌ يَنْتَشِرُ بَيْنَ النَّاسِ دُونَ التَّأَكُّدِ مِنْ صِحَّتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِشَاعَاتٌ"
+      ],
+      "collocations": [
+        "نَشْرُ الْإِشَاعَاتِ"
+      ],
+      "examples_ar": [
+        "تَجَنَّبَ الْمُعَلِّمُ نَقْلَ الْإِشَاعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_032",
+      "arabic": "تَضْلِيلٌ",
+      "meaning_ar": "تَقْدِيمُ مَعْلُومَاتٍ كَاذِبَةٍ أَوْ نَاقِصَةٍ بِقَصْدِ إِضْلَالِ النَّاسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّضْلِيلُ الْإِعْلَامِيُّ"
+      ],
+      "examples_ar": [
+        "يَجِبُ التَّحَقُّقُ مِنَ الْأَخْبَارِ لِتَجَنُّبِ التَّضْلِيلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_033",
+      "arabic": "تَدْقِيقٌ",
+      "meaning_ar": "فَحْصُ التَّفَاصِيلِ بِعِنَايَةٍ لِاكْتِشَافِ الْأَخْطَاءِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَدْقِيقُ الْمَعْلُومَاتِ"
+      ],
+      "examples_ar": [
+        "يَسْبِقُ التَّدْقِيقُ نَشْرَ التَّقْرِيرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_034",
+      "arabic": "مُتَابَعَةٌ",
+      "meaning_ar": "الِاسْتِمْرَارُ فِي مُرَاقَبَةِ الْعَمَلِ وَمَعْرِفَةِ تَطَوُّرِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُتَابَعَةُ التَّغْيِيرَاتِ"
+      ],
+      "examples_ar": [
+        "تَسْتَمِرُّ مُتَابَعَةُ الْعَمَلِ بَعْدَ النَّشْرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft03_035",
+      "arabic": "تَصَفُّحٌ",
+      "meaning_ar": "انْتِقَالُ الْمُسْتَخْدِمِ بَيْنَ صَفَحَاتٍ لِقِرَاءَتِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَصَفُّحُ الْمَوْقِعِ"
+      ],
+      "examples_ar": [
+        "أَصْبَحَ تَصَفُّحُ الْمَوْقِعِ أَسْرَعَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 3,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 3,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_001",
+      "arabic": "اقْتِصَادٌ",
+      "meaning_ar": "نِظَامُ إِنْتَاجِ الْمَوَارِدِ وَالسِّلَعِ وَتَوْزِيعِهَا وَاسْتِهْلَاكِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْاقْتِصَادُ الْمَحَلِّيُّ"
+      ],
+      "examples_ar": [
+        "تَأَثَّرَ الْاقْتِصَادُ بِتَغَيُّرِ الْأَسْعَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_002",
+      "arabic": "تَضَخُّمٌ",
+      "meaning_ar": "ارْتِفَاعٌ عَامٌّ وَمُسْتَمِرٌّ فِي أَسْعَارِ السِّلَعِ وَالْخَدَمَاتِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ التَّضَخُّمِ"
+      ],
+      "examples_ar": [
+        "أَدَّى التَّضَخُّمُ إِلَى زِيَادَةِ تَكَالِيفِ الْمَعِيشَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_003",
+      "arabic": "رُكُودٌ",
+      "meaning_ar": "فَتْرَةٌ يَضْعُفُ فِيهَا الْإِنْتَاجُ وَالتِّجَارَةُ وَالنَّشَاطُ الْاقْتِصَادِيُّ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الرُّكُودُ الْاقْتِصَادِيُّ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَتِ الْمَبِيعَاتُ أَثْنَاءَ الرُّكُودِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_004",
+      "arabic": "نُمُوٌّ",
+      "meaning_ar": "زِيَادَةٌ فِي الْحَجْمِ أَوِ الْقِيمَةِ أَوِ الْقُدْرَةِ مَعَ الْوَقْتِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "النُّمُوُّ الْاقْتِصَادِيُّ"
+      ],
+      "examples_ar": [
+        "سَاعَدَ الِاسْتِثْمَارُ عَلَى النُّمُوِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_005",
+      "arabic": "اسْتِثْمَارٌ",
+      "meaning_ar": "تَوْظِيفُ الْمَالِ فِي أَعْمَالٍ يُرْجَى مِنْهَا عَائِدٌ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِاسْتِثْمَارُ فِي التَّعْلِيمِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْمَشَارِيعُ إِلَى اسْتِثْمَارٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_006",
+      "arabic": "رَأْسُمَالٌ",
+      "meaning_ar": "الْمَالُ أَوِ الْأُصُولُ الَّتِي تُسْتَخْدَمُ لِبَدْءِ مَشْرُوعٍ وَتَشْغِيلِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رُؤُوسُ أَمْوَالٍ"
+      ],
+      "collocations": [
+        "رَأْسُمَالُ الشَّرِكَةِ"
+      ],
+      "examples_ar": [
+        "خَصَّصَ صَاحِبُ الْمَشْرُوعِ رَأْسُمَالًا لِلْبِدَايَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_007",
+      "arabic": "عَائِدٌ",
+      "meaning_ar": "مَا يَرْجِعُ إِلَى الشَّخْصِ مِنْ مَالٍ أَوْ مَنْفَعَةٍ بَعْدَ عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَوَائِدُ"
+      ],
+      "collocations": [
+        "الْعَائِدُ عَلَى الِاسْتِثْمَارِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُحَاسِبُ الْعَائِدَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_008",
+      "arabic": "مُوَازَنَةٌ",
+      "meaning_ar": "خُطَّةٌ تُحَدِّدُ الْإِيرَادَاتِ وَالنَّفَقَاتِ خِلَالَ فَتْرَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُوَازَنَةُ الْمُؤَسَّسَةِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّتِ الْإِدَارَةُ مُوَازَنَةً جَدِيدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_009",
+      "arabic": "إِيرَادٌ",
+      "meaning_ar": "مَالٌ تَحْصُلُ عَلَيْهِ مُؤَسَّسَةٌ مِنْ أَنْشِطَتِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِيرَادَاتٌ"
+      ],
+      "collocations": [
+        "إِيرَادَاتُ الشَّرِكَةِ"
+      ],
+      "examples_ar": [
+        "زَادَتْ إِيرَادَاتُ الْمَشْرُوعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_010",
+      "arabic": "نَفَقَةٌ",
+      "meaning_ar": "مَالٌ يُصْرَفُ لِشِرَاءِ شَيْءٍ أَوْ تَقْدِيمِ خِدْمَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَفَقَاتٌ"
+      ],
+      "collocations": [
+        "النَّفَقَاتُ الشَّهْرِيَّةُ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُحَاسِبُ النَّفَقَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_011",
+      "arabic": "تَكْلِفَةٌ",
+      "meaning_ar": "مِقْدَارُ الْمَالِ اللَّازِمِ لِصُنْعِ شَيْءٍ أَوْ شِرَائِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَكَالِيفُ"
+      ],
+      "collocations": [
+        "تَكْلِفَةُ الْإِنْتَاجِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَتْ تَكْلِفَةُ الْمَشْرُوعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_012",
+      "arabic": "دَيْنٌ",
+      "meaning_ar": "مَالٌ يَجِبُ عَلَى شَخْصٍ أَنْ يُعِيدَهُ إِلَى مَنْ أَقْرَضَهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دُيُونٌ"
+      ],
+      "collocations": [
+        "سَدَادُ الدَّيْنِ"
+      ],
+      "examples_ar": [
+        "سَدَّدَ الرَّجُلُ دَيْنَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_013",
+      "arabic": "قَرْضٌ",
+      "meaning_ar": "مَالٌ يَأْخُذُهُ شَخْصٌ عَلَى أَنْ يَرُدَّ بَدَلَهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُرُوضٌ"
+      ],
+      "collocations": [
+        "طَلَبُ قَرْضٍ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الْمَشْرُوعُ عَلَى قَرْضٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_014",
+      "arabic": "ادِّخَارٌ",
+      "meaning_ar": "الِاحْتِفَاظُ بِجُزْءٍ مِنَ الْمَالِ لِلِاسْتِعْمَالِ فِي الْمُسْتَقْبَلِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "ادِّخَارُ الْمَالِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ الِادِّخَارُ عَلَى تَجَنُّبِ بَعْضِ الْمُشْكِلَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_015",
+      "arabic": "اسْتِهْلَاكٌ",
+      "meaning_ar": "اسْتِخْدَامُ السِّلَعِ وَالْخَدَمَاتِ لِتَلْبِيَةِ الْحَاجَاتِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِاسْتِهْلَاكُ الْيَوْمِيُّ"
+      ],
+      "examples_ar": [
+        "يَخْتَلِفُ الِاسْتِهْلَاكُ بَيْنَ الْأُسَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_016",
+      "arabic": "إِهْدَارٌ",
+      "meaning_ar": "تَضْيِيعُ مَالٍ أَوْ مَوَارِدَ دُونَ فَائِدَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِهْدَارُ الْمَوَارِدِ"
+      ],
+      "examples_ar": [
+        "نُحَاوِلُ مَنْعَ إِهْدَارِ الْمَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_017",
+      "arabic": "اسْتِدَامَةٌ",
+      "meaning_ar": "الْمُحَافَظَةُ عَلَى الْمَوَارِدِ وَاسْتِعْمَالُهَا بِحَيْثُ تَنْفَعُ الْأَجْيَالَ الْقَادِمَةَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِاسْتِدَامَةُ الْبِيئِيَّةُ"
+      ],
+      "examples_ar": [
+        "تُشَجِّعُ الْخُطَّةُ عَلَى الِاسْتِدَامَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_018",
+      "arabic": "تَنْمِيَةٌ",
+      "meaning_ar": "زِيَادَةُ قُدْرَةِ الْمُجْتَمَعِ وَمَوَارِدِهِ وَتَحْسِينُ حَيَاتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّنْمِيَةُ الْمُسْتَدَامَةُ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ التَّنْمِيَةُ إِلَى تَخْطِيطٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_019",
+      "arabic": "مَوَارِدُ",
+      "meaning_ar": "أَشْيَاءُ يَسْتَفِيدُ مِنْهَا النَّاسُ فِي الْإِنْتَاجِ وَالْمَعِيشَةِ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ؛ الْمُفْرَدُ مَوْرِدٌ"
+      ],
+      "collocations": [
+        "الْمَوَارِدُ الطَّبِيعِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَحْرِصُ الدَّوْلَةُ عَلَى حِفْظِ مَوَارِدِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_020",
+      "arabic": "اسْتِنْزَافٌ",
+      "meaning_ar": "اسْتِهْلَاكُ مَوْرِدٍ بِسُرْعَةٍ حَتَّى يَقِلَّ أَوْ يَنْفَدَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اسْتِنْزَافُ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "يُهَدِّدُ الِاسْتِنْزَافُ الْمَخْزُونَ الْمَائِيَّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_021",
+      "arabic": "نُدْرَةٌ",
+      "meaning_ar": "قِلَّةُ وُجُودِ شَيْءٍ بِالْمُقَارَنَةِ مَعَ الْحَاجَةِ إِلَيْهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نُدْرَةُ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "تُعَانِي بَعْضُ الْمَنَاطِقِ مِنْ نُدْرَةِ الْمَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_022",
+      "arabic": "وَفْرَةٌ",
+      "meaning_ar": "وُجُودُ شَيْءٍ بِكَمِّيَّةٍ كَبِيرَةٍ تَزِيدُ عَلَى الْحَاجَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَفْرَةُ الْمَحَاصِيلِ"
+      ],
+      "examples_ar": [
+        "أَدَّتِ الْأَمْطَارُ إِلَى وَفْرَةِ الْمِيَاهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_023",
+      "arabic": "مُنَاخٌ",
+      "meaning_ar": "حَالَةُ الْجَوِّ الْمُعْتَادَةُ فِي مَكَانٍ خِلَالَ زَمَنٍ طَوِيلٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَغَيُّرُ الْمُنَاخِ"
+      ],
+      "examples_ar": [
+        "تَخْتَلِفُ النُّظُمُ الزِّرَاعِيَّةُ بِاخْتِلَافِ الْمُنَاخِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_024",
+      "arabic": "انْبِعَاثٌ",
+      "meaning_ar": "خُرُوجُ غَازَاتٍ أَوْ مَوَادَّ إِلَى الْهَوَاءِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ انْبِعَاثَاتٌ"
+      ],
+      "collocations": [
+        "انْبِعَاثَاتُ الْمَصَانِعِ"
+      ],
+      "examples_ar": [
+        "يَسْعَى الْمَصْنَعُ إِلَى تَقْلِيلِ الِانْبِعَاثَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_025",
+      "arabic": "تَلَوُّثٌ",
+      "meaning_ar": "وُصُولُ مَوَادَّ ضَارَّةٍ إِلَى الْبِيئَةِ فَتُغَيِّرُ صِفَاتِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُكَافَحَةُ التَّلَوُّثِ"
+      ],
+      "examples_ar": [
+        "يُؤْذِي التَّلَوُّثُ الْإِنْسَانَ وَالطَّبِيعَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_026",
+      "arabic": "مُعَالَجَةٌ",
+      "meaning_ar": "الْقِيَامُ بِخُطُوَاتٍ لِإِزَالَةِ مُشْكِلَةٍ أَوْ تَنْقِيَةِ مَادَّةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُعَالَجَةُ النُّفَايَاتِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْمُخَلَّفَاتُ إِلَى مُعَالَجَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_027",
+      "arabic": "تَدْوِيرٌ",
+      "meaning_ar": "تَحْوِيلُ الْمَوَادِّ الْمُسْتَعْمَلَةِ إِلَى مُنْتَجَاتٍ جَدِيدَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِعَادَةُ التَّدْوِيرِ"
+      ],
+      "examples_ar": [
+        "يُسَاهِمُ التَّدْوِيرُ فِي تَقْلِيلِ النُّفَايَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_028",
+      "arabic": "كَفَاءَةٌ",
+      "meaning_ar": "الْقُدْرَةُ عَلَى إِنْجَازِ عَمَلٍ جَيِّدٍ بِقَلِيلٍ مِنَ الْهَدْرِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كَفَاءَةُ اسْتِخْدَامِ الطَّاقَةِ"
+      ],
+      "examples_ar": [
+        "زَادَتْ كَفَاءَةُ الْجِهَازِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_029",
+      "arabic": "مَرْدُودٌ",
+      "meaning_ar": "نَتِيجَةٌ أَوْ عَائِدٌ يَنْتُجُ مِنْ عَمَلٍ أَوِ اسْتِثْمَارٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمَرْدُودُ الْاقْتِصَادِيُّ"
+      ],
+      "examples_ar": [
+        "يَتَأَثَّرُ الْمَرْدُودُ بِالتَّكَالِيفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_030",
+      "arabic": "حَوْكَمَةٌ",
+      "meaning_ar": "قَوَاعِدُ وَإِجْرَاءَاتٌ تُنَظِّمُ إِدَارَةَ الْمُؤَسَّسَةِ وَمُرَاقَبَتَهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَوْكَمَةُ الْمُؤَسَّسَاتِ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ الْحَوْكَمَةُ عَلَى وُضُوحِ الْقَرَارَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_031",
+      "arabic": "مُخَاطَرَةٌ",
+      "meaning_ar": "احْتِمَالُ حُدُوثِ خَسَارَةٍ أَوْ ضَرَرٍ عِنْدَ اتِّخَاذِ قَرَارٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخَاطَرَاتٌ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْمُخَاطَرَاتِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُدِيرُ الْمُخَاطَرَةَ قَبْلَ الِاسْتِثْمَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_032",
+      "arabic": "تَنَوُّعٌ",
+      "meaning_ar": "اخْتِلَافُ أَنْوَاعِ الْمَوَارِدِ أَوِ الْأَنْشِطَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَنَوُّعُ مَصَادِرِ الدَّخْلِ"
+      ],
+      "examples_ar": [
+        "يُقَلِّلُ التَّنَوُّعُ بَعْضَ الْمَخَاطِرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_033",
+      "arabic": "مُرُونَةٌ",
+      "meaning_ar": "الْقُدْرَةُ عَلَى التَّكَيُّفِ مَعَ التَّغْيِيرِ دُونَ تَوَقُّفٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُرُونَةُ الِاقْتِصَادِ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ الْمُرُونَةُ عَلَى مُوَاجَهَةِ الْأَزْمَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_034",
+      "arabic": "أَزْمَةٌ",
+      "meaning_ar": "حَالَةٌ صَعْبَةٌ وَحَادَّةٌ تَحْتَاجُ إِلَى قَرَارٍ سَرِيعٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَزَمَاتٌ"
+      ],
+      "collocations": [
+        "أَزْمَةٌ اقْتِصَادِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَعَاوَنَ الْفَرِيقُ لِمُعَالَجَةِ الْأَزْمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_035",
+      "arabic": "انْتِعَاشٌ",
+      "meaning_ar": "عَوْدَةُ النَّشَاطِ إِلَى الِاقْتِصَادِ بَعْدَ فَتْرَةِ ضَعْفٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِانْتِعَاشُ الْاقْتِصَادِيُّ"
+      ],
+      "examples_ar": [
+        "بَدَأَتِ الْأَسْوَاقُ مَرْحَلَةَ انْتِعَاشٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 35,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 35,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft04_036",
+      "arabic": "مُعَدَّلٌ",
+      "meaning_ar": "قِيمَةٌ حِسَابِيَّةٌ تُسْتَعْمَلُ لِقِيَاسِ تَغَيُّرٍ أَوْ مُتَوَسِّطٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُعَدَّلَاتٌ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ النُّمُوِّ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْبَاحِثُ مُعَدَّلَاتِ النُّمُوِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 4,
+        "index": 36,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 4,
+          "index": 36,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently authored thematic candidate for level four; chapter number and word selection NOT verified in publisher book."
+        }
+      ],
+      "sources": []
+    }
+  ]
+}
