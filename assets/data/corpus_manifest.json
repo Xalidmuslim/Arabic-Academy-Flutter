@@ -40,7 +40,11 @@
     "assets/data/entries_advanced_astronomy_20261025.json",
     "assets/data/entries_practical_crafts_20261025.json",
     "assets/data/entries_practical_textiles_20261025.json",
-    "assets/data/entries_practical_home_20261025.json"
+    "assets/data/entries_practical_home_20261025.json",
+    "assets/data/entries_daily_education_20261025.json",
+    "assets/data/entries_daily_travel_20261025.json",
+    "assets/data/entries_daily_food_20261025.json",
+    "assets/data/entries_daily_society_20261025.json"
   ],
   "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
 }
