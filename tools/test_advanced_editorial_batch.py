@@ -7,6 +7,7 @@ from validate_dictionary import ROOT, load_corpus
 FILES = [
     "assets/data/entries_advanced_methodology_20261025.json",
     "assets/data/entries_advanced_communication_20261025.json",
+    "assets/data/entries_advanced_arabic_linguistics_20261025.json",
 ]
 
 class AdvancedEditorialBatchTests(unittest.TestCase):
