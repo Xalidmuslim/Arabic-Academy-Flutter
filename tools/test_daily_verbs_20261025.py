@@ -27,6 +27,7 @@ class VerbLexiconTests(unittest.TestCase):
         self.assertGreaterEqual(len(entries), 220)
         self.assertEqual(len({e["arabic"] for e in entries}), len(entries))
         self.assertEqual(len({e["id"] for e in entries}), len(entries))
+        self.assertGreaterEqual(sum(bool(e["additional_meanings_ar"]) for e in entries), 50)
         for e in entries:
             self.assertTrue(re.search(r"[\u064b-\u0652]", e["arabic"]), e["arabic"])
             self.assertGreaterEqual(len(e["meaning_ar"]), 32, e["arabic"])
