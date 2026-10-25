@@ -3,7 +3,7 @@ import unittest
 from validate_dictionary import load_corpus
 
 class ThirdLevelCorpusTests(unittest.TestCase):
-    def test_chapters_one_to_four_have_worked_examples(self):
+    def test_chapters_one_to_eight_have_worked_examples(self):
         data = load_corpus()
         groups = {}
         for entry in data["entries"]:
@@ -20,8 +20,8 @@ class ThirdLevelCorpusTests(unittest.TestCase):
                 self.assertTrue(entry["grammar"], entry["arabic"])
                 self.assertTrue(entry["collocations"], entry["arabic"])
                 self.assertTrue(entry["examples_ar"], entry["arabic"])
-        self.assertTrue({1, 2, 3, 4}.issubset(groups.keys()))
-        for ch in range(1, 5):
+        self.assertTrue(set(range(1, 9)).issubset(groups.keys()))
+        for ch in range(1, 9):
             self.assertGreaterEqual(len(groups[ch]), 20, ch)
             self.assertEqual(sorted(groups[ch]), list(range(1, len(groups[ch])+1)))
 if __name__ == "__main__":
