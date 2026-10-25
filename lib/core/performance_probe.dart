@@ -135,6 +135,11 @@ abstract final class PerformanceProbe {
   static int get _frameTime =>
       _binding?.currentSystemFrameTimeStamp.inMicroseconds ?? 0;
 
+  static void cancelScroll() {
+    _scrolling = false;
+    resetSample();
+  }
+
   static void resetSample() {
     if (enabled && _binding != null) unawaited(_stopNative(publish: false));
     _generation++;
@@ -178,7 +183,9 @@ abstract final class PerformanceProbe {
     try {
       final result = await _native.invokeMapMethod<String, dynamic>('stop');
       if (!publish || generation != _generation || result == null ||
-          result['session'] != generation) return;
+          result['session'] != generation) {
+        return;
+      }
       final hz = (result['hz'] as num?)?.toDouble();
       if (hz != null && hz.isFinite && hz > 0) nativeVsyncHz.value = hz;
     } on MissingPluginException {

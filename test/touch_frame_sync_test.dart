@@ -16,7 +16,7 @@ void main() {
   ui.PointerData point(WidgetTester tester, Duration epoch, int micros,
       ui.PointerChange change, double x, double y, {int device = 1}) =>
       ui.PointerData(
-        viewId: tester.view.viewId, device: device,
+        viewId: tester.view.viewId, device: device, pointerIdentifier: device,
         kind: ui.PointerDeviceKind.touch, change: change,
         timeStamp: epoch + Duration(microseconds: micros),
         physicalX: x, physicalY: y,

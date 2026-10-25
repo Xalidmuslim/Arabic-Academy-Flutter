@@ -113,6 +113,7 @@ class _AcademyAppState extends State<AcademyApp> {
   late bool _welcomeSeen;
 
   void _selectTab(int index) {
+    if (PerformanceProbe.enabled) PerformanceProbe.cancelScroll();
     final generation = ++_tabChangeGeneration;
     final navigator = _navigatorKey.currentState;
     if (navigator == null || !navigator.canPop()) {
@@ -340,10 +341,12 @@ class _FloatingNavRouteObserver extends NavigatorObserver {
   _FloatingNavRouteObserver(this.onVisibilityChanged);
   final ValueChanged<bool> onVisibilityChanged;
 
-  void _update(Route<dynamic>? top) =>
-      // Keep the floating bar across pushed screens; only modal overlays
-      // (dialogs / sheets) must be above and unobstructed by navigation.
-      onVisibilityChanged(top == null || top is! PopupRoute);
+  void _update(Route<dynamic>? top) {
+    if (PerformanceProbe.enabled) PerformanceProbe.cancelScroll();
+    // Keep the floating bar across pushed screens; only modal overlays
+    // (dialogs / sheets) must be above and unobstructed by navigation.
+    onVisibilityChanged(top == null || top is! PopupRoute);
+  }
 
   @override
   void didPush(Route<dynamic> route, Route<dynamic>? previousRoute) {
