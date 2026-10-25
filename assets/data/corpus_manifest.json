@@ -14,7 +14,9 @@
     "assets/data/entries_level3_09_10.json",
     "assets/data/entries_level3_11_12.json",
     "assets/data/entries_level3_13_14.json",
-    "assets/data/entries_level3_15_16.json"
+    "assets/data/entries_level3_15_16.json",
+    "assets/data/entries_level4_draft_01_02.json",
+    "assets/data/entries_level4_draft_03_04.json"
   ],
   "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
 }
