@@ -1,0 +1,2110 @@
+{
+  "schema_version": 2,
+  "source_status": "self_authored_candidate_not_official_level4_glossary",
+  "editorial_themes": {
+    "13": "Медиаграмотность",
+    "14": "Предпринимательство и инновации"
+  },
+  "entries": [
+    {
+      "id": "l4u13_001",
+      "arabic": "مَصْدَاقِيَّةٌ",
+      "meaning_ar": "صِفَةٌ تَدُلُّ عَلَى أَنَّ الْمَعْلُومَةَ أَوِ الْجِهَةَ جَدِيرَةٌ بِالثِّقَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَصْدَاقِيَّةُ الْمَصْدَرِ"
+      ],
+      "examples_ar": [
+        "يَفْحَصُ الْقَارِئُ مَصْدَاقِيَّةَ الْخَبَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_002",
+      "arabic": "تَحَرٍّ",
+      "meaning_ar": "بَحْثٌ دَقِيقٌ لِلتَّأَكُّدِ مِنْ حَقِيقَةِ أَمْرٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّحَرِّي عَنِ الْأَخْبَارِ"
+      ],
+      "examples_ar": [
+        "يَتَطَلَّبُ الْعَمَلُ الصَّحَفِيُّ التَّحَرِّيَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_003",
+      "arabic": "إِشَاعَةٌ",
+      "meaning_ar": "خَبَرٌ يَنْتَشِرُ بَيْنَ النَّاسِ مِنْ دُونِ دَلِيلٍ كَافٍ عَلَى صِحَّتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِشَاعَاتٌ"
+      ],
+      "collocations": [
+        "نَشْرُ الْإِشَاعَاتِ"
+      ],
+      "examples_ar": [
+        "لَا تَنْقُلِ الْإِشَاعَةَ قَبْلَ التَّحَقُّقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_004",
+      "arabic": "تَضْلِيلٌ",
+      "meaning_ar": "تَقْدِيمُ مَعْلُومَاتٍ خَاطِئَةٍ أَوْ نَاقِصَةٍ لِدَفْعِ النَّاسِ إِلَى فَهْمٍ غَيْرِ صَحِيحٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّضْلِيلُ الْإِعْلَامِيُّ"
+      ],
+      "examples_ar": [
+        "قَدْ يُؤَدِّي التَّضْلِيلُ إِلَى قَرَارَاتٍ خَاطِئَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_005",
+      "arabic": "تَحَيُّزٌ",
+      "meaning_ar": "مَيْلٌ إِلَى رَأْيٍ أَوْ جَانِبٍ يَجْعَلُ الْحُكْمَ غَيْرَ مُنْصِفٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّحَيُّزُ فِي التَّقْرِيرِ"
+      ],
+      "examples_ar": [
+        "يُحَاوِلُ الْبَاحِثُ تَجَنُّبَ التَّحَيُّزِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_006",
+      "arabic": "مَوْضُوعِيَّةٌ",
+      "meaning_ar": "الِاعْتِمَادُ عَلَى الْأَدِلَّةِ بَدَلًا مِنَ الْمَشَاعِرِ الشَّخْصِيَّةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمَوْضُوعِيَّةُ فِي التَّحْلِيلِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الدِّرَاسَةُ إِلَى الْمَوْضُوعِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_007",
+      "arabic": "تَحْقِيقٌ صَحَفِيٌّ",
+      "meaning_ar": "بَحْثٌ فِي قَضِيَّةٍ يَجْمَعُ فِيهِ الصَّحَفِيُّ الْمَعْلُومَاتِ وَيُرَاجِعُ الْأَدِلَّةَ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَشْرُ التَّحْقِيقِ الصَّحَفِيِّ"
+      ],
+      "examples_ar": [
+        "كَشَفَ التَّحْقِيقُ الصَّحَفِيُّ مَعْلُومَاتٍ جَدِيدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_008",
+      "arabic": "تَصْرِيحٌ",
+      "meaning_ar": "كَلامٌ رَسْمِيٌّ يُعْلِنُهُ شَخْصٌ أَوْ جِهَةٌ لِلنَّاسِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَصْرِيحَاتٌ"
+      ],
+      "collocations": [
+        "تَصْرِيحٌ رَسْمِيٌّ"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الْجِهَةُ تَصْرِيحًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_009",
+      "arabic": "مُتَحَدِّثٌ",
+      "meaning_ar": "شَخْصٌ يَتَكَلَّمُ بِاسْمِ جِهَةٍ أَوْ يُقَدِّمُ كَلَامًا لِلْجُمْهُورِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُتَحَدِّثُونَ"
+      ],
+      "collocations": [
+        "مُتَحَدِّثٌ رَسْمِيٌّ"
+      ],
+      "examples_ar": [
+        "أَجَابَ الْمُتَحَدِّثُ عَنِ الْأَسْئِلَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_010",
+      "arabic": "تَغْطِيَةٌ",
+      "meaning_ar": "جَمْعُ الْأَخْبَارِ عَنْ حَدَثٍ وَنَقْلُهَا إِلَى النَّاسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّغْطِيَةُ الْإِعْلَامِيَّةُ"
+      ],
+      "examples_ar": [
+        "اسْتَمَرَّتِ التَّغْطِيَةُ طُولَ الْيَوْمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_011",
+      "arabic": "مُرَاسِلٌ",
+      "meaning_ar": "صَحَفِيٌّ يَنْقُلُ الْأَخْبَارَ مِنْ مَكَانِ الْحَدَثِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُرَاسِلُونَ"
+      ],
+      "collocations": [
+        "مُرَاسِلُ الْقَنَاةِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُرَاسِلُ تَقْرِيرًا مِنَ الْمَدِينَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_012",
+      "arabic": "مُنَاقَشَةٌ",
+      "meaning_ar": "تَبَادُلُ الْآرَاءِ وَالْأَدِلَّةِ فِي مَوْضُوعٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَاقَشَاتٌ"
+      ],
+      "collocations": [
+        "مُنَاقَشَةٌ عَلَنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "جَرَتْ مُنَاقَشَةٌ هَادِئَةٌ بَيْنَ الطُّلَّابِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_013",
+      "arabic": "مُنَاظَرَةٌ",
+      "meaning_ar": "حِوَارٌ مُنَظَّمٌ يَعْرِضُ فِيهِ طَرَفَانِ حُجَجَهُمَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَاظَرَاتٌ"
+      ],
+      "collocations": [
+        "مُنَاظَرَةٌ عِلْمِيَّةٌ"
+      ],
+      "examples_ar": [
+        "شَاهَدْتُ مُنَاظَرَةً عَنْ التَّعْلِيمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_014",
+      "arabic": "حُجَّةٌ",
+      "meaning_ar": "دَلِيلٌ يُقَدَّمُ لِلدِّفَاعِ عَنْ رَأْيٍ أَوْ إِثْبَاتِ أَمْرٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُجَجٌ"
+      ],
+      "collocations": [
+        "حُجَّةٌ مَنْطِقِيَّةٌ"
+      ],
+      "examples_ar": [
+        "دَعَمَ الْمُحَاضِرُ رَأْيَهُ بِحُجَّةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_015",
+      "arabic": "اِسْتِنْتَاجٌ",
+      "meaning_ar": "نَتِيجَةٌ يَصِلُ إِلَيْهَا الْعَقْلُ بَعْدَ فَحْصِ الْمَعْلُومَاتِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اسْتِنْتَاجَاتٌ"
+      ],
+      "collocations": [
+        "اسْتِنْتَاجٌ صَحِيحٌ"
+      ],
+      "examples_ar": [
+        "تَوَصَّلَ الْبَاحِثُ إِلَى اسْتِنْتَاجٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_016",
+      "arabic": "مُغَالَطَةٌ",
+      "meaning_ar": "خَطَأٌ فِي الِاسْتِدْلَالِ يَجْعَلُ الْحُجَّةَ تَبْدُو صَحِيحَةً وَهِيَ لَيْسَتْ كَذَلِكَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُغَالَطَاتٌ"
+      ],
+      "collocations": [
+        "مُغَالَطَةٌ مَنْطِقِيَّةٌ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الطَّالِبُ مُغَالَطَةً فِي النِّقَاشِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_017",
+      "arabic": "اِقْتِبَاسٌ",
+      "meaning_ar": "نَقْلُ كَلَامٍ مِنْ مَصْدَرٍ آخَرَ مَعَ بَيَانِ صَاحِبِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اقْتِبَاسٌ مِنْ كِتَابٍ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْبَاحِثُ اقْتِبَاسًا قَصِيرًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_018",
+      "arabic": "إِحَالَةٌ",
+      "meaning_ar": "إِشَارَةٌ إِلَى مَصْدَرٍ أَوْ مَكَانٍ لِلرُّجُوعِ إِلَيْهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِحَالَاتٌ"
+      ],
+      "collocations": [
+        "إِحَالَةٌ إِلَى الْمَرْجِعِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْكَاتِبُ إِحَالَةً فِي الْهَامِشِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_019",
+      "arabic": "تَوْثِيقٌ",
+      "meaning_ar": "ذِكْرُ الْمَصَادِرِ وَحِفْظُ الْأَدِلَّةِ لِيُمْكِنَ التَّأَكُّدُ مِنْهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَوْثِيقُ الْمَعْلُومَاتِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْبَحْثُ إِلَى تَوْثِيقٍ دَقِيقٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_020",
+      "arabic": "تَدَاوُلٌ",
+      "meaning_ar": "نَقْلُ الْكَلَامِ أَوِ الْمَعْلُومَاتِ بَيْنَ النَّاسِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَدَاوُلُ الْأَخْبَارِ"
+      ],
+      "examples_ar": [
+        "زَادَ تَدَاوُلُ الْخَبَرِ فِي الْمَجْمُوعَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_021",
+      "arabic": "خَوَارِزْمِيَّةٌ",
+      "meaning_ar": "خُطُوَاتٌ مُرَتَّبَةٌ تَنْفِّذُهَا الْآلَةُ أَوِ الْإِنْسَانُ لِحَلِّ مُشْكِلَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَوَارِزْمِيَّاتٌ"
+      ],
+      "collocations": [
+        "خَوَارِزْمِيَّةُ التَّرْتِيبِ"
+      ],
+      "examples_ar": [
+        "تُرَتِّبُ الْخَوَارِزْمِيَّةُ النَّتَائِجَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_022",
+      "arabic": "تَوْصِيَةٌ",
+      "meaning_ar": "رَأْيٌ أَوْ اقْتِرَاحٌ يُقَدَّمُ لِمُسَاعَدَةِ شَخْصٍ عَلَى الِاخْتِيَارِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَوْصِيَاتٌ"
+      ],
+      "collocations": [
+        "تَوْصِيَةُ الْمُحَرِّرِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْخَبِيرُ تَوْصِيَةً مُفِيدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_023",
+      "arabic": "تَصْحِيحٌ",
+      "meaning_ar": "إِزَالَةُ الْخَطَإِ وَوَضْعُ الْمَعْلُومَةِ الصَّحِيحَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَشْرُ تَصْحِيحٍ"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الصَّحِيفَةُ تَصْحِيحًا لِلْخَبَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_024",
+      "arabic": "سِيَاقٌ",
+      "meaning_ar": "الْأَحْدَاثُ وَالْكَلَامُ الْمُحِيطُ بِمَعْلُومَةٍ وَيُسَاعِدُ عَلَى فَهْمِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِيَاقُ الْخَبَرِ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَ مَعْنَى الْجُمْلَةِ بَعْدَ مَعْرِفَةِ سِيَاقِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u13_025",
+      "arabic": "مُتَلَقٍّ",
+      "meaning_ar": "شَخْصٌ تَصِلُ إِلَيْهِ رِسَالَةٌ أَوْ مَعْلُومَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُتَلَقُّونَ"
+      ],
+      "collocations": [
+        "مُتَلَقِّي الرِّسَالَةِ"
+      ],
+      "examples_ar": [
+        "يُفَكِّرُ الْكَاتِبُ فِي الْمُتَلَقِّي قَبْلَ النَّشْرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 13,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 13,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_001",
+      "arabic": "رِيَادَةٌ",
+      "meaning_ar": "الْقِيَامُ بِمَشْرُوعٍ جَدِيدٍ مَعَ تَحَمُّلِ الْمَسْؤُولِيَّةِ وَالْمُخَاطَرَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رِيَادَةُ الْأَعْمَالِ"
+      ],
+      "examples_ar": [
+        "تَجْذِبُ رِيَادَةُ الْأَعْمَالِ الشَّبَابَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_002",
+      "arabic": "رَائِدُ أَعْمَالٍ",
+      "meaning_ar": "شَخْصٌ يُؤَسِّسُ مَشْرُوعًا وَيَسْعَى لِتَطْوِيرِهِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَائِدُ أَعْمَالٍ نَاشِئٌ"
+      ],
+      "examples_ar": [
+        "عَرَضَ رَائِدُ الْأَعْمَالِ فِكْرَتَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_003",
+      "arabic": "شَرِكَةٌ نَاشِئَةٌ",
+      "meaning_ar": "مُؤَسَّسَةٌ جَدِيدَةٌ تَبْحَثُ عَنْ طَرِيقَةِ نُمُوٍّ قَابِلَةٍ لِلتَّكْرَارِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَأْسِيسُ شَرِكَةٍ نَاشِئَةٍ"
+      ],
+      "examples_ar": [
+        "حَصَلَتِ الشَّرِكَةُ النَّاشِئَةُ عَلَى تَمْوِيلٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_004",
+      "arabic": "نَمُوذَجُ عَمَلٍ",
+      "meaning_ar": "خُطَّةٌ تُوَضِّحُ كَيْفَ تُقَدِّمُ الْمُؤَسَّسَةُ قِيمَةً وَتَحْصُلُ عَلَى إِيرَادَاتٍ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَطْوِيرُ نَمُوذَجِ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الْفَرِيقُ نَمُوذَجَ الْعَمَلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_005",
+      "arabic": "مُبَادَرَةٌ",
+      "meaning_ar": "عَمَلٌ يَبْدَؤُهُ شَخْصٌ لِحَلِّ مُشْكِلَةٍ أَوْ تَحْقِيقِ هَدَفٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُبَادَرَاتٌ"
+      ],
+      "collocations": [
+        "مُبَادَرَةٌ مُجْتَمَعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَطْلَقَ الشَّبَابُ مُبَادَرَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_006",
+      "arabic": "اِبْتِكَارٌ",
+      "meaning_ar": "تَطْوِيرُ فِكْرَةٍ جَدِيدَةٍ وَمُفِيدَةٍ إِلَى شَيْءٍ قَابِلٍ لِلِاسْتِخْدَامِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "ثَقَافَةُ الِابْتِكَارِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الِابْتِكَارُ إِلَى تَجْرِبَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_007",
+      "arabic": "نَمُوذَجٌ أَوَّلِيٌّ",
+      "meaning_ar": "صُورَةٌ أُولَى مِنْ مُنْتَجٍ تُصْنَعُ لِاخْتِبَارِ الْفِكْرَةِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِبَارُ النَّمُوذَجِ الْأَوَّلِيِّ"
+      ],
+      "examples_ar": [
+        "عَرَضَ الْمُهَنْدِسُ نَمُوذَجًا أَوَّلِيًّا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_008",
+      "arabic": "تَجْرِبَةٌ",
+      "meaning_ar": "اخْتِبَارٌ لِفِكْرَةٍ أَوْ طَرِيقَةٍ لِمَعْرِفَةِ نَتِيجَتِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَجَارِبُ"
+      ],
+      "collocations": [
+        "إِجْرَاءُ تَجْرِبَةٍ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الْفَرِيقُ تَجْرِبَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_009",
+      "arabic": "فَرَضِيَّةٌ",
+      "meaning_ar": "تَفْسِيرٌ أَوْ تَوَقُّعٌ مَبْدَئِيٌّ يَحْتَاجُ إِلَى الِاخْتِبَارِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَرَضِيَّاتٌ"
+      ],
+      "collocations": [
+        "اخْتِبَارُ الْفَرَضِيَّةِ"
+      ],
+      "examples_ar": [
+        "لَمْ تُؤَكِّدِ النَّتَائِجُ الْفَرَضِيَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_010",
+      "arabic": "جَدْوَى",
+      "meaning_ar": "إِمْكَانُ تَنْفِيذِ مَشْرُوعٍ وَتَحْقِيقِ مَنْفَعَةٍ مِنْهُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْجَدْوَى"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ الْفَرِيقُ دِرَاسَةَ الْجَدْوَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_011",
+      "arabic": "حَاضِنَةٌ",
+      "meaning_ar": "جِهَةٌ تُسَاعِدُ الْمَشَارِيعَ الْجَدِيدَةَ بِالْمَكَانِ وَالْإِرْشَادِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَاضِنَاتٌ"
+      ],
+      "collocations": [
+        "حَاضِنَةُ الْأَعْمَالِ"
+      ],
+      "examples_ar": [
+        "انْضَمَّ الْمَشْرُوعُ إِلَى حَاضِنَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_012",
+      "arabic": "مُسَرِّعَةٌ",
+      "meaning_ar": "بَرْنَامَجٌ يُسَاعِدُ شَرِكَاتٍ نَاشِئَةً عَلَى النُّمُوِّ فِي مُدَّةٍ قَصِيرَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسَرِّعَاتٌ"
+      ],
+      "collocations": [
+        "مُسَرِّعَةُ الْأَعْمَالِ"
+      ],
+      "examples_ar": [
+        "قَبِلَتِ الْمُسَرِّعَةُ مَشْرُوعًا جَدِيدًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_013",
+      "arabic": "تَمْوِيلٌ",
+      "meaning_ar": "تَقْدِيمُ الْمَالِ لِلْمَشْرُوعِ لِبَدْءِ الْعَمَلِ أَوْ تَوْسِيعِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَمْوِيلُ الْمَشْرُوعِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الْفَرِيقُ عَنْ تَمْوِيلٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_014",
+      "arabic": "مُسْتَثْمِرٌ",
+      "meaning_ar": "شَخْصٌ يَضَعُ مَالًا فِي مَشْرُوعٍ لِلْحُصُولِ عَلَى عَائِدٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسْتَثْمِرُونَ"
+      ],
+      "collocations": [
+        "مُسْتَثْمِرٌ جَدِيدٌ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُسْتَثْمِرُ الْخُطَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_015",
+      "arabic": "حِصَّةٌ",
+      "meaning_ar": "جُزْءٌ مُحَدَّدٌ مِنْ شَيْءٍ أَوْ مِلْكِيَّةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حِصَصٌ"
+      ],
+      "collocations": [
+        "حِصَّةٌ فِي الشَّرِكَةِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الْمُسْتَثْمِرُ حِصَّةً فِي الشَّرِكَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_016",
+      "arabic": "تَوَسُّعٌ",
+      "meaning_ar": "زِيَادَةُ حَجْمِ الْعَمَلِ أَوْ وُصُولِهِ إِلَى أَمَاكِنَ جَدِيدَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّوَسُّعِ"
+      ],
+      "examples_ar": [
+        "تُخَطِّطُ الشَّرِكَةُ لِلتَّوَسُّعِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_017",
+      "arabic": "قِيمَةٌ مُضَافَةٌ",
+      "meaning_ar": "فَائِدَةٌ جَدِيدَةٌ يُقَدِّمُهَا مُنْتَجٌ أَوْ خِدْمَةٌ لِلْمُسْتَفِيدِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَلْقُ قِيمَةٍ مُضَافَةٍ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُنْتَجُ قِيمَةً مُضَافَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_018",
+      "arabic": "مِيْزَةٌ تَنَافُسِيَّةٌ",
+      "meaning_ar": "صِفَةٌ تَجْعَلُ الْمُؤَسَّسَةَ أَفْضَلَ مِنْ غَيْرِهَا فِي جَانِبٍ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِيزَةٌ تَنَافُسِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تُعَدُّ سُرْعَةُ الْخِدْمَةِ مِيزَةً تَنَافُسِيَّةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_019",
+      "arabic": "عَمِيلٌ",
+      "meaning_ar": "شَخْصٌ يَشْتَرِي سِلْعَةً أَوْ يَسْتَفِيدُ مِنْ خِدْمَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُمَلَاءُ"
+      ],
+      "collocations": [
+        "رِضَا الْعَمِيلِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَعَ الْفَرِيقُ إِلَى اقْتِرَاحِ الْعَمِيلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_020",
+      "arabic": "شَرِيحَةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ الْعُمَلَاءِ لَهُمْ حَاجَاتٌ أَوْ صِفَاتٌ مُشْتَرَكَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَرَائِحُ"
+      ],
+      "collocations": [
+        "شَرِيحَةُ الْعُمَلَاءِ"
+      ],
+      "examples_ar": [
+        "يُصَمَّمُ الْمُنْتَجُ لِشَرِيحَةٍ مُعَيَّنَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_021",
+      "arabic": "تَسْوِيقٌ",
+      "meaning_ar": "عَرْضُ الْمُنْتَجِ وَالتَّعْرِيفُ بِهِ لِجَذْبِ الْمُشْتَرِينَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّسْوِيقِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْفَرِيقُ خُطَّةَ تَسْوِيقٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_022",
+      "arabic": "تَغْذِيَةٌ رَاجِعَةٌ",
+      "meaning_ar": "آرَاءٌ وَمُلَاحَظَاتٌ تُقَدَّمُ بَعْدَ تَجْرِبَةِ مُنْتَجٍ لِتَحْسِينِهِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَمْعُ التَّغْذِيَةِ الرَّاجِعَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَفَادَ الْفَرِيقُ مِنَ التَّغْذِيَةِ الرَّاجِعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_023",
+      "arabic": "مُؤَشِّرٌ",
+      "meaning_ar": "عَدَدٌ أَوْ عَلَامَةٌ تُبَيِّنُ حَالَةَ شَيْءٍ أَوْ تَغَيُّرَهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُؤَشِّرَاتٌ"
+      ],
+      "collocations": [
+        "مُؤَشِّرُ الْأَدَاءِ"
+      ],
+      "examples_ar": [
+        "يُرَاقِبُ الْمُدِيرُ مُؤَشِّرَاتِ الْأَدَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_024",
+      "arabic": "مَرْحَلَةٌ",
+      "meaning_ar": "جُزْءٌ مِنْ عَمَلٍ أَوْ مُدَّةٍ لَهُ خُطُوَاتٌ مُعَيَّنَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاحِلُ"
+      ],
+      "collocations": [
+        "مَرْحَلَةُ التَّجْرِبَةِ"
+      ],
+      "examples_ar": [
+        "انْتَقَلَ الْمَشْرُوعُ إِلَى مَرْحَلَةٍ جَدِيدَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u14_025",
+      "arabic": "مُخَاطَرَةٌ",
+      "meaning_ar": "احْتِمَالُ حُدُوثِ أَمْرٍ غَيْرِ مَرْغُوبٍ فِيهِ أَثْنَاءَ الْعَمَلِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخَاطَرَاتٌ"
+      ],
+      "collocations": [
+        "إِدَارَةُ الْمُخَاطَرَاتِ"
+      ],
+      "examples_ar": [
+        "يَضَعُ الْفَرِيقُ خُطَّةً لِلْمُخَاطَرَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 14,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 14,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent Arabic-Arabic definitions; not official student-book vocabulary or verified unit title."
+        }
+      ],
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    }
+  ]
+}
