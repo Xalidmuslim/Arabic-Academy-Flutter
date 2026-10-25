@@ -1,5 +1,12 @@
+import 'dart:async';
 import 'dart:developer' as developer;
+import 'dart:ui' as ui;
+
+import 'package:flutter/gestures.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+
+import 'scroll_frame_sample.dart';
 
 /// Immutable stats for one bounded sample of Flutter frame timings.
 /// Durations do not establish delivered FPS; they identify which thread
@@ -14,6 +21,7 @@ class FramePerformanceReport {
     required this.rasterP95Ms,
     required this.over60Budget,
     required this.over120Budget,
+    this.cadence,
   });
 
   final int frameCount;
@@ -23,11 +31,13 @@ class FramePerformanceReport {
   final double rasterP95Ms;
   final int over60Budget;
   final int over120Budget;
+  final FrameCadence? cadence;
 
   static FramePerformanceReport fromMicros(
     List<int> uiMicros,
-    List<int> rasterMicros,
-  ) {
+    List<int> rasterMicros, {
+    FrameCadence? cadence,
+  }) {
     if (uiMicros.isEmpty || uiMicros.length != rasterMicros.length) {
       throw ArgumentError('Requires paired nonempty UI and raster samples');
     }
@@ -49,6 +59,7 @@ class FramePerformanceReport {
       rasterP95Ms: percentile(raster, .95) / 1000,
       over60Budget: above60,
       over120Budget: above120,
+      cadence: cadence,
     );
   }
 }
@@ -86,42 +97,101 @@ abstract final class PerformanceProbe {
 
   static final ValueNotifier<FramePerformanceReport?> lastReport =
       ValueNotifier<FramePerformanceReport?>(null);
-
-  /// Diagnostic-only GPU A/B: compare silhouette Gaussian blur AND matte
-  /// card box-shadows, without modifying the normal approved rendering.
-  /// Enabled by default. The app's normal appearance is unchanged.
-  static final ValueNotifier<bool> silhouetteBlurEnabled =
-      ValueNotifier<bool>(true);
-
-  /// A single mode source controls the expensive card and illustration layers.
-  /// The older boolean remains for existing illustration listeners and tests.
+  static final ValueNotifier<double?> nativeVsyncHz = ValueNotifier(null);
+  static final ValueNotifier<bool> touchResampling = ValueNotifier(false);
+  static final ValueNotifier<bool> silhouetteBlurEnabled = ValueNotifier(true);
   static final ValueNotifier<ShadowComparisonMode> shadowComparisonMode =
-      ValueNotifier<ShadowComparisonMode>(ShadowComparisonMode.all);
+      ValueNotifier(ShadowComparisonMode.all);
 
-  static int _sampleVersion = 0;
+  static const _native = MethodChannel('bayna.scroll_cadence');
+  static final _scrollFrames = ScrollFrameSample();
+  static WidgetsBinding? _binding;
+  static bool _scrolling = false;
+  static int _generation = 0;
 
   static void setShadowMode(ShadowComparisonMode mode) {
     shadowComparisonMode.value = mode;
     silhouetteBlurEnabled.value = mode.artworkEnabled;
-    _sampleVersion++;
-    lastReport.value = null;
+    resetSample();
   }
 
   static void cycleShadowMode() {
     final values = ShadowComparisonMode.values;
-    final next = (shadowComparisonMode.value.index + 1) % values.length;
-    setShadowMode(values[next]);
+    setShadowMode(values[(shadowComparisonMode.value.index + 1) % values.length]);
   }
 
-  /// Backward-compatible ON/OFF test path for earlier diagnostic assertions.
   static void toggleSilhouetteBlur() => setShadowMode(
     shadowComparisonMode.value == ShadowComparisonMode.all
-        ? ShadowComparisonMode.none
-        : ShadowComparisonMode.all,
+        ? ShadowComparisonMode.none : ShadowComparisonMode.all,
   );
 
-  static void attach(WidgetsBinding binding, Stopwatch sinceMain) {
-    if (!enabled) return;
+  static void toggleTouchResampling() {
+    final binding = GestureBinding.instance;
+    binding.resamplingEnabled = !binding.resamplingEnabled;
+    touchResampling.value = binding.resamplingEnabled;
+    resetSample();
+  }
+
+  static int get _frameTime =>
+      _binding?.currentSystemFrameTimeStamp.inMicroseconds ?? 0;
+
+  static void resetSample() {
+    if (enabled && _binding != null) unawaited(_stopNative(publish: false));
+    _generation++;
+    _scrollFrames.clear();
+    lastReport.value = null;
+    nativeVsyncHz.value = null;
+    if (enabled && _scrolling && _binding != null) {
+      _scrollFrames.begin(_frameTime);
+      unawaited(_startNative());
+    }
+  }
+
+  /// Observe a gesture/fling without consuming notifications or changing it.
+  /// Reset on every new scroll; mode changes also invalidate in-flight batches.
+  static bool onScrollNotification(ScrollNotification notification) {
+    if (!enabled || notification.depth != 0) return false;
+    _binding ??= WidgetsBinding.instance;
+    if (notification is ScrollStartNotification) {
+      _scrolling = true;
+      resetSample();
+    } else if (notification is ScrollEndNotification && _scrolling) {
+      _scrolling = false;
+      _scrollFrames.end(_frameTime);
+      unawaited(_stopNative());
+    }
+    return false;
+  }
+
+  static Future<void> _startNative() async {
+    try {
+      await _native.invokeMethod<void>('start', {'session': _generation});
+    } on MissingPluginException {
+      // Non-Android platforms and widget tests have no native probe.
+    } on PlatformException {
+      // Optional diagnostics never block a gesture.
+    }
+  }
+
+  static Future<void> _stopNative({bool publish = true}) async {
+    final generation = _generation;
+    try {
+      final result = await _native.invokeMapMethod<String, dynamic>('stop');
+      if (!publish || generation != _generation || result == null ||
+          result['session'] != generation) return;
+      final hz = (result['hz'] as num?)?.toDouble();
+      if (hz != null && hz.isFinite && hz > 0) nativeVsyncHz.value = hz;
+    } on MissingPluginException {
+      // Optional diagnostics are unavailable in Flutter widget tests.
+    } on PlatformException {
+      // A disposed Android activity must not fail scrolling.
+    }
+  }
+
+  static VoidCallback attach(WidgetsBinding binding, Stopwatch sinceMain) {
+    if (!enabled) return () {};
+    _binding = binding;
+    touchResampling.value = GestureBinding.instance.resamplingEnabled;
     binding.waitUntilFirstFrameRasterized.then((_) {
       developer.log(
         'first_flutter_raster_ms=${sinceMain.elapsedMilliseconds}',
@@ -129,34 +199,29 @@ abstract final class PerformanceProbe {
       );
     });
 
-    final uiUs = <int>[];
-    final rasterUs = <int>[];
-    var observedVersion = _sampleVersion;
-    binding.addTimingsCallback((timings) {
-      if (observedVersion != _sampleVersion) {
-        uiUs.clear();
-        rasterUs.clear();
-        observedVersion = _sampleVersion;
-      }
-      for (final timing in timings) {
-        uiUs.add(timing.buildDuration.inMicroseconds);
-        rasterUs.add(timing.rasterDuration.inMicroseconds);
-      }
-      if (uiUs.length < 120) return;
-      final report = FramePerformanceReport.fromMicros(uiUs, rasterUs);
+    void onTimings(List<ui.FrameTiming> timings) {
+      if (!_scrollFrames.add(timings) || _scrollFrames.count < 24) return;
+      final report = FramePerformanceReport.fromMicros(
+        _scrollFrames.uiMicros, _scrollFrames.rasterMicros,
+        cadence: _scrollFrames.cadence,
+      );
       lastReport.value = report;
       developer.log(
-        'frames=${report.frameCount} '
-        'ui_p50_ms=${report.uiP50Ms.toStringAsFixed(2)} '
+        'scroll_frames=${report.frameCount} '
         'ui_p95_ms=${report.uiP95Ms.toStringAsFixed(2)} '
-        'raster_p50_ms=${report.rasterP50Ms.toStringAsFixed(2)} '
         'raster_p95_ms=${report.rasterP95Ms.toStringAsFixed(2)} '
-        'over_60hz_budget=${report.over60Budget} '
+        'produced_fps=${report.cadence?.framesPerSecond.toStringAsFixed(1)} '
+        'interval_p95_ms=${report.cadence?.intervalP95Ms.toStringAsFixed(2)} '
         'over_120hz_budget=${report.over120Budget}',
         name: 'BaynaPerf',
       );
-      uiUs.clear();
-      rasterUs.clear();
-    });
+    }
+    binding.addTimingsCallback(onTimings);
+    return () {
+      binding.removeTimingsCallback(onTimings);
+      _scrolling = false;
+      _scrollFrames.clear();
+      _binding = null;
+    };
   }
 }

@@ -5,6 +5,8 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Rect
 import android.os.Build
+import android.view.SurfaceHolder
+import io.flutter.embedding.android.FlutterSurfaceView
 import android.Manifest
 import android.content.pm.PackageManager
 import android.graphics.pdf.PdfRenderer
@@ -23,10 +25,31 @@ import java.util.concurrent.Executors
  */
 class MainActivity : FlutterActivity() {
     private val readerExecutor = Executors.newSingleThreadExecutor()
+    private val scrollVsyncProbe = ScrollVsyncProbe()
     private var descriptor: ParcelFileDescriptor? = null
     private var renderer: PdfRenderer? = null
     private var reminderPermissionResult: MethodChannel.Result? = null
     private val reminderPermissionRequest = 9127
+
+    override fun onFlutterSurfaceViewCreated(view: FlutterSurfaceView) {
+        super.onFlutterSurfaceViewCreated(view)
+        view.holder.addCallback(object : SurfaceHolder.Callback {
+            override fun surfaceCreated(holder: SurfaceHolder) {
+                AdaptiveRefreshRate.surfaceReady(this@MainActivity, holder.surface)
+            }
+            override fun surfaceChanged(
+                holder: SurfaceHolder, format: Int, width: Int, height: Int,
+            ) = Unit
+            override fun surfaceDestroyed(holder: SurfaceHolder) {
+                AdaptiveRefreshRate.forgetSurface(holder.surface)
+            }
+        })
+    }
+
+    override fun onPause() {
+        scrollVsyncProbe.stop()
+        super.onPause()
+    }
 
     override fun onResume() {
         super.onResume()
@@ -69,6 +92,18 @@ class MainActivity : FlutterActivity() {
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "bayna.scroll_cadence")
+            .setMethodCallHandler { call, result ->
+                when (call.method) {
+                    "start" -> {
+                        val id = call.argument<Number>("session")?.toLong() ?: 0L
+                        scrollVsyncProbe.start(id)
+                        result.success(null)
+                    }
+                    "stop" -> result.success(scrollVsyncProbe.stop())
+                    else -> result.notImplemented()
+                }
+            }
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger,
             "bayna.study_reminders").setMethodCallHandler { call, result ->
             try {
@@ -272,6 +307,7 @@ class MainActivity : FlutterActivity() {
     }
 
     override fun onDestroy() {
+        scrollVsyncProbe.stop()
         readerExecutor.execute { closeReader() }
         readerExecutor.shutdown()
         super.onDestroy()

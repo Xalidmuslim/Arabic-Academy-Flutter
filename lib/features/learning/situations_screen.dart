@@ -48,6 +48,15 @@ class SituationsScreen extends StatelessWidget {
         title: const Text('Разговорные ситуации'),
         actions: [
           if (PerformanceProbe.enabled)
+            ValueListenableBuilder<bool>(
+              valueListenable: PerformanceProbe.touchResampling,
+              builder: (context, sync, _) => IconButton(
+                icon: Icon(sync ? Icons.touch_app : Icons.pan_tool_alt),
+                tooltip: 'Синхронизация касания: ${sync ? 'ВКЛ' : 'ВЫКЛ'}',
+                onPressed: PerformanceProbe.toggleTouchResampling,
+              ),
+            ),
+          if (PerformanceProbe.enabled)
             ValueListenableBuilder<ShadowComparisonMode>(
               valueListenable: PerformanceProbe.shadowComparisonMode,
               builder: (context, mode, _) => IconButton(

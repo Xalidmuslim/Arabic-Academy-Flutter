@@ -188,9 +188,12 @@ class _AcademyAppState extends State<AcademyApp> {
   // Dedicated diagnostic builds overlay measured timings without touching
   // scrolling/pointer hit tests or altering the approved 3D visuals.
   Widget _withFrameDiagnostics(Widget content) => PerformanceProbe.enabled
-      ? Stack(
-          fit: StackFit.expand,
-          children: [content, const FrameDiagnosticsOverlay()],
+      ? NotificationListener<ScrollNotification>(
+          onNotification: PerformanceProbe.onScrollNotification,
+          child: Stack(
+            fit: StackFit.expand,
+            children: [content, const FrameDiagnosticsOverlay()],
+          ),
         )
       : content;
 

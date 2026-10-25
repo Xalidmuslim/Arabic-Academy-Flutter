@@ -10,6 +10,7 @@ import android.view.SurfaceView
 import android.view.View
 import android.view.ViewGroup
 import kotlin.math.abs
+import java.util.WeakHashMap
 
 /**
  * Window-level preference for a device's supported 90/120 Hz display mode.
@@ -20,6 +21,16 @@ import kotlin.math.abs
  */
 internal object AdaptiveRefreshRate {
     private const val TAG = "BaynaRefreshRate"
+    private val appliedRates = WeakHashMap<Surface, Float>()
+
+    fun surfaceReady(activity: Activity, surface: Surface) {
+        appliedRates.remove(surface)
+        apply(activity)
+    }
+
+    fun forgetSurface(surface: Surface) {
+        appliedRates.remove(surface)
+    }
 
     @Suppress("DEPRECATION")
     fun apply(activity: Activity) {
@@ -95,16 +106,22 @@ internal object AdaptiveRefreshRate {
         activity.window.decorView.post {
             val target = findFlutterSurface(activity.window.decorView) ?: return@post
             val surface = target.holder.surface
-            if (!surface.isValid) return@post
+            if (!surface.isValid || appliedRates[surface] == rateHz) return@post
             try {
                 // A Surface hint complements the window preference and lets
                 // Android schedule Flutter's actual scroll frames at 90/120Hz.
                 // Never force a mode switch that is not seamless.
-                surface.setFrameRate(
-                    rateHz,
-                    Surface.FRAME_RATE_COMPATIBILITY_DEFAULT,
-                    Surface.CHANGE_FRAME_RATE_ONLY_IF_SEAMLESS,
-                )
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                    surface.setFrameRate(
+                        rateHz,
+                        Surface.FRAME_RATE_COMPATIBILITY_DEFAULT,
+                        Surface.CHANGE_FRAME_RATE_ONLY_IF_SEAMLESS,
+                    )
+                } else {
+                    // Android 11 has only the two-argument overload.
+                    surface.setFrameRate(rateHz, Surface.FRAME_RATE_COMPATIBILITY_DEFAULT)
+                }
+                appliedRates[surface] = rateHz
                 Log.i(TAG, "flutterSurfaceRequestedHz=$rateHz")
             } catch (error: IllegalArgumentException) {
                 Log.w(TAG, "Frame rate hint rejected by this display", error)
