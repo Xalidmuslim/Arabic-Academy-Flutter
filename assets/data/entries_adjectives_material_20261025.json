@@ -1,0 +1,2338 @@
+{
+  "schema_version": 3,
+  "source_status": "independent_adjective_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "ind_adjective_material_20261025_001",
+      "arabic": "صُلْبٌ",
+      "meaning_ar": "شَدِيدُ التَّمَاسُكِ يَصْعُبُ ضَغْطُهُ أَوْ تَغْيِيرُ شَكْلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ صُلْبَةٌ"
+      ],
+      "collocations": [
+        "جِسْمٌ صُلْبٌ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْعَامِلُ لَوْحًا صُلْبًا."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ الصِّفَةُ لِلْمَوَادِّ وَالْأَجْسَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_002",
+      "arabic": "لَيِّنٌ",
+      "meaning_ar": "سَهْلُ الثَّنْيِ أَوِ الضَّغْطِ وَلَيْسَ شَدِيدَ الْقَسَاوَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ لَيِّنَةٌ"
+      ],
+      "collocations": [
+        "قُمَاشٌ لَيِّنٌ"
+      ],
+      "examples_ar": [
+        "اِخْتَارَتِ الْأُمُّ وِسَادَةً لَيِّنَةً."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلْكَلَامِ وَالْطَّبْعِ الرَّقِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_003",
+      "arabic": "قَاسٍ",
+      "meaning_ar": "شَدِيدُ الصَّلَابَةِ أَوْ خَالٍ مِنَ اللِّينِ وَالرِّفْقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ قَاسِيَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ قَاسٍ"
+      ],
+      "examples_ar": [
+        "لَمْ يَرْتَحِ الطِّفْلُ عَلَى الْمَقْعَدِ الْقَاسِي."
+      ],
+      "usage_note_ar": "يَرِدُ مَجَازًا لِلشَّخْصِ الشَّدِيدِ الْغِلْظَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_004",
+      "arabic": "نَاعِمٌ",
+      "meaning_ar": "قَلِيلُ الْخُشُونَةِ مَلْمَسُهُ لَطِيفٌ عِنْدَ لَمْسِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ نَاعِمَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ نَاعِمٌ"
+      ],
+      "examples_ar": [
+        "لَمَسَتِ الْفَتَاةُ قُمَاشًا نَاعِمًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْمَادَّةِ وَالصَّوْتِ وَالْمَظْهَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_005",
+      "arabic": "خَشِنٌ",
+      "meaning_ar": "غَيْرُ أَمْلَسَ وَفِيهِ بُرُوزٌ صَغِيرٌ يَجْعَلُ مَلْمَسَهُ قَاسِيًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ خَشِنَةٌ"
+      ],
+      "collocations": [
+        "قُمَاشٌ خَشِنٌ"
+      ],
+      "examples_ar": [
+        "كَانَ سَطْحُ الْحَجَرِ خَشِنًا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَجَازًا لِلْكَلَامِ وَالطَّبْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_006",
+      "arabic": "أَمْلَسُ",
+      "meaning_ar": "مُسْتَوِي السَّطْحِ تَقْرِيبًا وَلَا تَظْهَرُ عَلَيْهِ نُتُوءاتٌ بَارِزَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَلْسَاءُ"
+      ],
+      "collocations": [
+        "حَجَرٌ أَمْلَسُ"
+      ],
+      "examples_ar": [
+        "مَرَّرَ الطِّفْلُ يَدَهُ عَلَى الْحَجَرِ الأَمْلَسِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ مَلْسَاءُ وَلَيْسَ أَمْلَسَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_007",
+      "arabic": "مُحَبَّبٌ",
+      "meaning_ar": "يَحْتَوِي سَطْحُهُ عَلَى حُبَيْبَاتٍ صَغِيرَةٍ مَحْسُوسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُحَبَّبَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ مُحَبَّبٌ"
+      ],
+      "examples_ar": [
+        "اِخْتَارَ الْعَامِلُ دِهَانًا مُحَبَّبًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْمَوَادِّ وَالطِّلَاءِ ذِي الْحُبَيْبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_008",
+      "arabic": "مُجَعَّدٌ",
+      "meaning_ar": "فِيهِ تَمَوُّجَاتٌ وَالْتِوَاءَاتٌ صَغِيرَةٌ وَلَيْسَ مُسْتَقِيمًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُجَعَّدَةٌ"
+      ],
+      "collocations": [
+        "شَعْرٌ مُجَعَّدٌ"
+      ],
+      "examples_ar": [
+        "كَانَ لِلصَّبِيِّ شَعْرٌ مُجَعَّدٌ."
+      ],
+      "usage_note_ar": "يَرِدُ لِلشَّعْرِ وَالْقُمَاشِ وَالْوَرَقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_009",
+      "arabic": "مَجْعُودٌ",
+      "meaning_ar": "فِيهِ تَجَاعِيدُ وَطَيَّاتٌ ظَاهِرَةٌ بِسَبَبِ عُمْرٍ أَوْ ثَنْيٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَجْعُودَةٌ"
+      ],
+      "collocations": [
+        "جِلْدٌ مَجْعُودٌ"
+      ],
+      "examples_ar": [
+        "بَدَا الْقُمَاشُ مَجْعُودًا بَعْدَ التَّخْزِينِ."
+      ],
+      "usage_note_ar": "تَشْتَرِكُ مَعَ مُجَعَّدٍ فِي بَعْضِ الْمَعَانِي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_010",
+      "arabic": "مُتَجَعِّدٌ",
+      "meaning_ar": "ظَهَرَتْ عَلَيْهِ تَجَاعِيدُ أَوْ تَمَوُّجَاتٌ بَعْدَ أَنْ كَانَ مَمْدُودًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَجَعِّدَةٌ"
+      ],
+      "collocations": [
+        "وَرَقٌ مُتَجَعِّدٌ"
+      ],
+      "examples_ar": [
+        "أَلْقَى الْوَلَدُ الْوَرَقَ الْمُتَجَعِّدَ."
+      ],
+      "usage_note_ar": "يَصِفُ حَالَةً نَاتِجَةً عَنْ تَغَيُّرِ السَّطْحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_011",
+      "arabic": "مَطْوِيٌّ",
+      "meaning_ar": "ثُنِيَ بَعْضُهُ عَلَى بَعْضٍ لِتَقْلِيلِ مَسَاحَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَطْوِيَّةٌ"
+      ],
+      "collocations": [
+        "قُمَاشٌ مَطْوِيٌّ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْأُمُّ الْمَلَابِسَ الْمَطْوِيَّةَ."
+      ],
+      "usage_note_ar": "هُوَ اسْمُ الْمَفْعُولِ مِنْ فِعْلِ طَوَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_012",
+      "arabic": "مَمْدُودٌ",
+      "meaning_ar": "بُسِطَ عَلَى طُولِهِ وَقُلِّلَ مَا فِيهِ مِنَ الِانْثِنَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَمْدُودَةٌ"
+      ],
+      "collocations": [
+        "حَبْلٌ مَمْدُودٌ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْعَامِلُ حَبْلًا مَمْدُودًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْخُطُوطِ وَالأَجْسَامِ وَالْأَوْقَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_013",
+      "arabic": "مَشْدُودٌ",
+      "meaning_ar": "تَعَرَّضَ لِقُوَّةِ سَحْبٍ تَجْعَلُهُ مُحْكَمًا أَوْ غَيْرَ مُتَرَاخٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَشْدُودَةٌ"
+      ],
+      "collocations": [
+        "حَبْلٌ مَشْدُودٌ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْعَامِلُ مِنَ الْحَبْلِ الْمَشْدُودِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَحْبَالِ وَالْأَقْمِشَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_014",
+      "arabic": "مُتَرَاخٍ",
+      "meaning_ar": "غَيْرُ مَشْدُودٍ بِالْقَدْرِ الْكَافِي وَيَتَدَلَّى أَوْ يَلِينُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَرَاخِيَةٌ"
+      ],
+      "collocations": [
+        "حَبْلٌ مُتَرَاخٍ"
+      ],
+      "examples_ar": [
+        "أَعَادَ الْعَامِلُ شَدَّ الْحَبْلِ الْمُتَرَاخِي."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ أَيْضًا لِقِلَّةِ الِانْضِبَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_015",
+      "arabic": "مُرْتَخٍ",
+      "meaning_ar": "فَقَدَ الشِّدَّةَ أَوِ التَّوَتُّرَ فَصَارَ أَقَلَّ تَمَاسُكًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُرْتَخِيَةٌ"
+      ],
+      "collocations": [
+        "خَيْطٌ مُرْتَخٍ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الْخَيَّاطُ خَيْطًا مُرْتَخِيًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْخُيُوطِ وَالْعَضَلَاتِ وَالْأَجْسَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_016",
+      "arabic": "هَشٌّ",
+      "meaning_ar": "سَهْلُ التَّكَسُّرِ عِنْدَ الضَّغْطِ أَوِ السُّقُوطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ هَشَّةٌ"
+      ],
+      "collocations": [
+        "زُجَاجٌ هَشٌّ"
+      ],
+      "examples_ar": [
+        "حَمَلَ الْعَامِلُ الْإِنَاءَ الْهَشَّ بِحَذَرٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ اللَّيِّنِ الَّذِي يَنْثَنِي دُونَ كَسْرٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_017",
+      "arabic": "مُتِينٌ",
+      "meaning_ar": "قَوِيُّ التَّرْكِيبِ وَصَعْبُ التَّمَزُّقِ أَوِ التَّلَفِ بِالِاسْتِعْمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَتِينَةٌ"
+      ],
+      "collocations": [
+        "حَبْلٌ مَتِينٌ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَى الْعَامِلُ حَبْلًا مَتِينًا."
+      ],
+      "usage_note_ar": "تَرِدُ فِي الْأَدَوَاتِ وَالأَقْمِشَةِ وَالْبِنَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_018",
+      "arabic": "ضَعِيفٌ",
+      "meaning_ar": "قَلِيلُ الْقُوَّةِ أَوِ الْقُدْرَةِ عَلَى مُقَاوَمَةِ الضَّغْطِ أَوِ الْجُهْدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ ضَعِيفَةٌ"
+      ],
+      "collocations": [
+        "خَيْطٌ ضَعِيفٌ"
+      ],
+      "examples_ar": [
+        "انْقَطَعَ الْخَيْطُ الضَّعِيفُ بِسُرْعَةٍ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلرَّأْيِ وَالدَّلِيلِ وَالصِّحَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_019",
+      "arabic": "قَوِيٌّ",
+      "meaning_ar": "يَمْلِكُ قُدْرَةً كَبِيرَةً عَلَى الْحَمْلِ أَوِ التَّأْثِيرِ أَوِ الْمُقَاوَمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ قَوِيَّةٌ"
+      ],
+      "collocations": [
+        "جِدَارٌ قَوِيٌّ"
+      ],
+      "examples_ar": [
+        "بَنَى الْعَامِلُ جِدَارًا قَوِيًّا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْجِسْمِ وَالْحُجَّةِ وَالْمَشَاعِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_020",
+      "arabic": "ثَقِيلٌ",
+      "meaning_ar": "كَبِيرُ الْوَزْنِ بِحَيْثُ يَحْتَاجُ حَمْلُهُ إِلَى جُهْدٍ أَكْبَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ ثَقِيلَةٌ"
+      ],
+      "collocations": [
+        "صُنْدُوقٌ ثَقِيلٌ"
+      ],
+      "examples_ar": [
+        "حَمَلَ الرَّجُلُ الصُّنْدُوقَ الثَّقِيلَ بِمُسَاعَدَةٍ."
+      ],
+      "usage_note_ar": "يَأْتِي مَجَازًا لِمَا يَصْعُبُ تَحَمُّلُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_021",
+      "arabic": "خَفِيفٌ",
+      "meaning_ar": "قَلِيلُ الْوَزْنِ وَيَسْهُلُ حَمْلُهُ أَوْ تَحْرِيكُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ خَفِيفَةٌ"
+      ],
+      "collocations": [
+        "حَقِيبَةٌ خَفِيفَةٌ"
+      ],
+      "examples_ar": [
+        "اِخْتَارَ الْمُسَافِرُ حَقِيبَةً خَفِيفَةً."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلْأَصْوَاتِ وَالطَّعَامِ وَالْحَرَكَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_022",
+      "arabic": "كَثِيفٌ",
+      "meaning_ar": "تَتَقَارَبُ أَجْزَاؤُهُ أَوْ يَكْثُرُ وُجُودُهُ فِي مَسَاحَةٍ صَغِيرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ كَثِيفَةٌ"
+      ],
+      "collocations": [
+        "ضَبَابٌ كَثِيفٌ"
+      ],
+      "examples_ar": [
+        "غَطَّى ضَبَابٌ كَثِيفٌ الطَّرِيقَ."
+      ],
+      "usage_note_ar": "يَصِفُ الضَّبَابَ وَالشَّعْرَ وَالْمَوَادَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_023",
+      "arabic": "مُخَلْخَلٌ",
+      "meaning_ar": "تَتَبَاعَدُ أَجْزَاؤُهُ أَوْ يَقِلُّ فِيهِ التَّرَاصُّ وَالضَّغْطُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُخَلْخَلَةٌ"
+      ],
+      "collocations": [
+        "هَوَاءٌ مُخَلْخَلٌ"
+      ],
+      "examples_ar": [
+        "اِحْتَوَى الْإِنَاءُ عَلَى هَوَاءٍ مُخَلْخَلٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي وَصْفِ الْهَوَاءِ وَالتَّرْكِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_024",
+      "arabic": "مُسَامِيٌّ",
+      "meaning_ar": "فِيهِ فَتَحَاتٌ دَقِيقَةٌ يَنْفُذُ مِنْهَا الْمَاءُ أَوِ الْهَوَاءُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُسَامِيَّةٌ"
+      ],
+      "collocations": [
+        "مَادَّةٌ مُسَامِيَّةٌ"
+      ],
+      "examples_ar": [
+        "امْتَصَّتِ الْإِسْفِنْجَةُ الْمُسَامِيَّةُ الْمَاءَ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِوُجُودِ الْمَسَامِّ الصَّغِيرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_025",
+      "arabic": "مَصْمَتٌ",
+      "meaning_ar": "لَا يَحْتَوِي دَاخِلُهُ عَلَى تَجْوِيفٍ أَوْ فَرَاغٍ كَبِيرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَصْمَتَةٌ"
+      ],
+      "collocations": [
+        "قِطْعَةٌ مَصْمَتَةٌ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْعَامِلُ قِطْعَةَ خَشَبٍ مَصْمَتَةً."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْمُجَوَّفَ فِي وَصْفِ الْأَجْسَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_026",
+      "arabic": "مُجَوَّفٌ",
+      "meaning_ar": "لَهُ فَرَاغٌ أَوْ تَجْوِيفٌ فِي دَاخِلِهِ وَلَيْسَ مَصْمَتًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُجَوَّفَةٌ"
+      ],
+      "collocations": [
+        "أُنْبُوبٌ مُجَوَّفٌ"
+      ],
+      "examples_ar": [
+        "كَانَ الْأُنْبُوبُ مُجَوَّفًا مِنَ الدَّاخِلِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَنَابِيبِ وَالْعِظَامِ وَالْأَشْيَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_027",
+      "arabic": "مُفَرَّغٌ",
+      "meaning_ar": "أُزِيلَ مَا فِي دَاخِلِهِ أَوْ صُنِعَتْ فِيهِ فَتَحَاتٌ وَفَرَاغَاتٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُفَرَّغَةٌ"
+      ],
+      "collocations": [
+        "شَكْلٌ مُفَرَّغٌ"
+      ],
+      "examples_ar": [
+        "صَنَعَ الْعَامِلُ زُخْرُفَةً مُفَرَّغَةً."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْأَوَانِي وَالزَّخَارِفِ وَالْقَوَالِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_028",
+      "arabic": "مُثَقَّبٌ",
+      "meaning_ar": "فِيهِ ثُقُوبٌ صُنِعَتْ لِلتَّهْوِيَةِ أَوِ التَّصْفِيَةِ أَوْ غَيْرِهِمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُثَقَّبَةٌ"
+      ],
+      "collocations": [
+        "لَوْحٌ مُثَقَّبٌ"
+      ],
+      "examples_ar": [
+        "اِسْتَعْمَلَ لَوْحًا مُثَقَّبًا لِلتَّهْوِيَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَوْرَاقِ وَالْمَعَادِنِ وَالأَدَوَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_029",
+      "arabic": "مَشْقُوقٌ",
+      "meaning_ar": "فِيهِ شَقٌّ طَوِيلٌ نَتَجَ عَنْ قَطْعٍ أَوْ ضَغْطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَشْقُوقَةٌ"
+      ],
+      "collocations": [
+        "خَشَبٌ مَشْقُوقٌ"
+      ],
+      "examples_ar": [
+        "اسْتَبْدَلَ الْعَامِلُ اللَّوْحَ الْمَشْقُوقَ."
+      ],
+      "usage_note_ar": "هُوَ اسْمُ الْمَفْعُولِ مِنْ فِعْلِ شَقَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_030",
+      "arabic": "مُتَصَدِّعٌ",
+      "meaning_ar": "ظَهَرَتْ فِيهِ شُقُوقٌ تُضْعِفُ تَمَاسُكَهُ أَوْ مَظْهَرَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَصَدِّعَةٌ"
+      ],
+      "collocations": [
+        "جِدَارٌ مُتَصَدِّعٌ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْعَامِلُ الْجِدَارَ الْمُتَصَدِّعَ."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْمَبَانِي وَالصُّخُورِ وَالْأَجْسَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_031",
+      "arabic": "مَكْسُورٌ",
+      "meaning_ar": "انْفَصَلَ بَعْضُهُ عَنْ بَعْضٍ أَوْ فَقَدَ سَلَامَةَ شَكْلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَكْسُورَةٌ"
+      ],
+      "collocations": [
+        "زُجَاجٌ مَكْسُورٌ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْعَامِلُ الزُّجَاجَ الْمَكْسُورَ بِحَذَرٍ."
+      ],
+      "usage_note_ar": "يَتَعَلَّقُ بِأَثَرِ الْكَسْرِ فِي الْجِسْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_032",
+      "arabic": "مَخْدُوشٌ",
+      "meaning_ar": "ظَهَرَ عَلَى سَطْحِهِ خَطٌّ رَفِيعٌ أَوْ أَثَرٌ نَاتِجٌ عَنْ حَكٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَخْدُوشَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ مَخْدُوشٌ"
+      ],
+      "examples_ar": [
+        "رَأَى الرَّجُلُ زُجَاجًا مَخْدُوشًا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْخُدُوشُ عَنِ الشُّقُوقِ الْعَمِيقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_033",
+      "arabic": "مُتَآكِلٌ",
+      "meaning_ar": "نَقَصَتْ أَجْزَاؤُهُ تَدْرِيجِيًّا بِسَبَبِ الِاحْتِكَاكِ أَوِ الْمَوَادِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَآكِلَةٌ"
+      ],
+      "collocations": [
+        "مِسْمَارٌ مُتَآكِلٌ"
+      ],
+      "examples_ar": [
+        "اسْتَبْدَلَ الْعَامِلُ الْقِطْعَةَ الْمُتَآكِلَةَ."
+      ],
+      "usage_note_ar": "يَصِفُ أَثَرَ التَّآكُلِ مَعَ مُرُورِ الْوَقْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_034",
+      "arabic": "صَدِئٌ",
+      "meaning_ar": "ظَهَرَ عَلَيْهِ صَدَأٌ بِسَبَبِ تَأَثُّرِ الْمَعْدِنِ بِالرُّطُوبَةِ وَالْهَوَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ صَدِئَةٌ"
+      ],
+      "collocations": [
+        "حَدِيدٌ صَدِئٌ"
+      ],
+      "examples_ar": [
+        "أَزَالَ الْعَامِلُ الْمِسْمَارَ الصَّدِئَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ خَاصَّةً مَعَ الْحَدِيدِ وَالْفُولَاذِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_035",
+      "arabic": "لَامِعٌ",
+      "meaning_ar": "يَعْكِسُ الضَّوْءَ بِوُضُوحٍ فَيَبْدُو بَرَّاقًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ لَامِعَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ لَامِعٌ"
+      ],
+      "examples_ar": [
+        "كَانَ السَّطْحُ اللَّامِعُ يَعْكِسُ الضَّوْءَ."
+      ],
+      "usage_note_ar": "يُقَابِلُ غَيْرَ اللَّامِعِ فِي وَصْفِ التَّشْطِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_036",
+      "arabic": "مَطْفِيٌّ",
+      "meaning_ar": "قَلِيلُ اللَّمَعَانِ وَلَا يَعْكِسُ الضَّوْءَ بِصُورَةٍ بَرَّاقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَطْفِيَّةٌ"
+      ],
+      "collocations": [
+        "طِلَاءٌ مَطْفِيٌّ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْمُصَمِّمُ طِلَاءً مَطْفِيًّا."
+      ],
+      "usage_note_ar": "يَرِدُ فِي وَصْفِ الدِّهَانَاتِ وَتَشْطِيبِ السُّطُوحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_037",
+      "arabic": "بَرَّاقٌ",
+      "meaning_ar": "شَدِيدُ اللَّمَعَانِ تَظْهَرُ مِنْهُ إِضَاءَةٌ أَوْ انْعِكَاسَاتٌ قَوِيَّةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ بَرَّاقَةٌ"
+      ],
+      "collocations": [
+        "مَعْدِنٌ بَرَّاقٌ"
+      ],
+      "examples_ar": [
+        "تَلَأْلَأَ الْمَعْدِنُ الْبَرَّاقُ فِي الشَّمْسِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْمَعَادِنِ وَالْأَنْوَارِ وَالزِّينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_038",
+      "arabic": "شَفَّافٌ",
+      "meaning_ar": "يَمُرُّ الضَّوْءُ مِنْ خِلَالِهِ فَتُرَى الْأَشْيَاءُ وَرَاءَهُ بِوُضُوحٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ شَفَّافَةٌ"
+      ],
+      "collocations": [
+        "زُجَاجٌ شَفَّافٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ النَّبَاتَ فِي إِنَاءٍ شَفَّافٍ."
+      ],
+      "usage_note_ar": "يَرِدُ مَجَازًا لِلْوُضُوحِ فِي الْمُعَامَلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_039",
+      "arabic": "مُعْتِمٌ",
+      "meaning_ar": "يَمْنَعُ الضَّوْءَ مِنَ الْمُرُورِ بِصُورَةٍ تَسْمَحُ بِرُؤْيَةِ مَا وَرَاءَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُعْتِمَةٌ"
+      ],
+      "collocations": [
+        "سِتَارٌ مُعْتِمٌ"
+      ],
+      "examples_ar": [
+        "مَنَعَ السِّتَارُ الْمُعْتِمُ دُخُولَ الضَّوْءِ."
+      ],
+      "usage_note_ar": "يَرِدُ فِي وَصْفِ السُّطُوحِ وَالأَغْطِيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_040",
+      "arabic": "مُلَوَّنٌ",
+      "meaning_ar": "لَهُ لَوْنٌ وَاحِدٌ أَوْ أَلْوَانٌ مُتَعَدِّدَةٌ ظَاهِرَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُلَوَّنَةٌ"
+      ],
+      "collocations": [
+        "وَرَقٌ مُلَوَّنٌ"
+      ],
+      "examples_ar": [
+        "صَنَعَ الْأَطْفَالُ أَشْكَالًا مِنْ وَرَقٍ مُلَوَّنٍ."
+      ],
+      "usage_note_ar": "هُوَ اسْمُ الْمَفْعُولِ مِنْ فِعْلِ لَوَّنَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_041",
+      "arabic": "بَاهِتٌ",
+      "meaning_ar": "قَلِيلُ الْقُوَّةِ فِي اللَّوْنِ أَوِ الظُّهُورِ بِسَبَبِ قِدَمٍ أَوْ ضَعْفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ بَاهِتَةٌ"
+      ],
+      "collocations": [
+        "لَوْنٌ بَاهِتٌ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَ لَوْنُ الْقُمَاشِ وَصَارَ بَاهِتًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْأَلْوَانِ وَالصُّوَرِ وَالْأَنْوَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_042",
+      "arabic": "زَاهٍ",
+      "meaning_ar": "شَدِيدُ الْوُضُوحِ وَالْجَمَالِ فِي اللَّوْنِ أَوِ الْمَظْهَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ زَاهِيَةٌ"
+      ],
+      "collocations": [
+        "لَوْنٌ زَاهٍ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الرَّسَّامُ أَلْوَانًا زَاهِيَةً."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْأَلْوَانِ الْقَوِيَّةِ وَالْمَشَاهِدِ الْجَمِيلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_043",
+      "arabic": "دَاكِنٌ",
+      "meaning_ar": "قَرِيبٌ مِنَ السَّوَادِ أَوْ قَلِيلُ النُّورِ فِي دَرَجَةِ اللَّوْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ دَاكِنَةٌ"
+      ],
+      "collocations": [
+        "أَزْرَقُ دَاكِنٌ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى ثَوْبًا أَزْرَقَ دَاكِنًا."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْفَاتِحَ فِي دَرَجَةِ الْأَلْوَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_044",
+      "arabic": "فَاتِحٌ",
+      "meaning_ar": "قَرِيبٌ مِنَ الْبَيَاضِ وَأَقَلُّ غَمَقًا مِنْ دَرَجَاتِ اللَّوْنِ الأُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ فَاتِحَةٌ"
+      ],
+      "collocations": [
+        "أَخْضَرُ فَاتِحٌ"
+      ],
+      "examples_ar": [
+        "اخْتَارَتِ الْفَتَاةُ قُمَاشًا أَخْضَرَ فَاتِحًا."
+      ],
+      "usage_note_ar": "يَرِدُ هُنَا فِي سِيَاقِ دَرَجَاتِ الْأَلْوَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_045",
+      "arabic": "مُتَدَرِّجٌ",
+      "meaning_ar": "يَتَغَيَّرُ فِي اللَّوْنِ أَوِ الْقُوَّةِ بِخُطُوَاتٍ مُتَتَابِعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَدَرِّجَةٌ"
+      ],
+      "collocations": [
+        "لَوْنٌ مُتَدَرِّجٌ"
+      ],
+      "examples_ar": [
+        "صَمَّمَ الرَّسَّامُ خَلْفِيَّةً مُتَدَرِّجَةً."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْأَلْوَانِ وَالْمَسْتَوَيَاتِ وَالْخُطُوَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_046",
+      "arabic": "مُتَجَانِسٌ",
+      "meaning_ar": "تَتَشَابَهُ أَجْزَاؤُهُ فِي الْخَصَائِصِ وَلَا تَخْتَلِفُ اخْتِلَافًا بَارِزًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَجَانِسَةٌ"
+      ],
+      "collocations": [
+        "خَلِيطٌ مُتَجَانِسٌ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الطَّاهِي عَلَى خَلِيطٍ مُتَجَانِسٍ."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْخَلَائِطِ وَالْجَمَاعَاتِ وَالْمَوَادِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_047",
+      "arabic": "مُتَبَايِنٌ",
+      "meaning_ar": "تَظْهَرُ بَيْنَ أَجْزَائِهِ أَوْ أَنْوَاعِهِ فُرُوقٌ وَاضِحَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَبَايِنَةٌ"
+      ],
+      "collocations": [
+        "أَلْوَانٌ مُتَبَايِنَةٌ"
+      ],
+      "examples_ar": [
+        "اِخْتَارَ الْمُصَمِّمُ أَلْوَانًا مُتَبَايِنَةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ عِنْدَ الْمُقَارَنَةِ بَيْنَ خَصَائِصَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_048",
+      "arabic": "مُتَنَاظِرٌ",
+      "meaning_ar": "يَتَقَابَلُ جُزْآنِ مِنْهُ فِي الشَّكْلِ أَوِ الْمَوْضِعِ بِانْتِظَامٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَنَاظِرَةٌ"
+      ],
+      "collocations": [
+        "شَكْلٌ مُتَنَاظِرٌ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ شَكْلًا مُتَنَاظِرًا."
+      ],
+      "usage_note_ar": "يَرِدُ فِي الْهَنْدَسَةِ وَالتَّصْمِيمِ وَالطَّبِيعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_049",
+      "arabic": "مُسْتَقِيمٌ",
+      "meaning_ar": "يَمْتَدُّ فِي اتِّجَاهٍ وَاحِدٍ دُونَ انْحِنَاءٍ أَوِ اعْوِجَاجٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُسْتَقِيمَةٌ"
+      ],
+      "collocations": [
+        "خَطٌّ مُسْتَقِيمٌ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطِّفْلُ خَطًّا مُسْتَقِيمًا."
+      ],
+      "usage_note_ar": "يَرِدُ مَجَازًا لِلصِّدْقِ وَالِاسْتِقَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_050",
+      "arabic": "مُنْحَنٍ",
+      "meaning_ar": "غَيْرُ مُسْتَقِيمٍ وَيَمِيلُ عَلَى شَكْلِ قَوْسٍ أَوْ اِنْثِنَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُنْحَنِيَةٌ"
+      ],
+      "collocations": [
+        "خَطٌّ مُنْحَنٍ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْمُهَنْدِسُ خَطًّا مُنْحَنِيًا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْخُطُوطِ وَالْأَجْسَامِ وَالظُّهُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_051",
+      "arabic": "مُتَعَرِّجٌ",
+      "meaning_ar": "يَتَغَيَّرُ اتِّجَاهُهُ مَرَّاتٍ وَلَا يَمْتَدُّ عَلَى خَطٍّ وَاحِدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَعَرِّجَةٌ"
+      ],
+      "collocations": [
+        "طَرِيقٌ مُتَعَرِّجٌ"
+      ],
+      "examples_ar": [
+        "قَادَ السَّائِقُ فِي طَرِيقٍ مُتَعَرِّجٍ."
+      ],
+      "usage_note_ar": "يَرِدُ لِلطُّرُقِ وَالأَنْهَارِ وَالْخُطُوطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_052",
+      "arabic": "مُسَطَّحٌ",
+      "meaning_ar": "مُمْتَدٌّ عَلَى سَطْحٍ وَاحِدٍ وَلَا تَظْهَرُ عَلَيْهِ ارْتِفَاعَاتٌ كَبِيرَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُسَطَّحَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ مُسَطَّحٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْعَامِلُ اللَّوْحَ عَلَى أَرْضٍ مُسَطَّحَةٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْهَنْدَسَةِ وَالْبِنَاءِ وَالْجُغْرَافِيَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_053",
+      "arabic": "مُحَدَّبٌ",
+      "meaning_ar": "بَارِزٌ إِلَى الْخَارِجِ عَلَى شَكْلِ قَوْسٍ أَوْ نِصْفِ كُرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُحَدَّبَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ مُحَدَّبٌ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُهَنْدِسُ السَّطْحَ الْمُحَدَّبَ."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْمُقَعَّرَ فِي وَصْفِ السُّطُوحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_054",
+      "arabic": "مُقَعَّرٌ",
+      "meaning_ar": "غَائِرٌ نَحْوَ الدَّاخِلِ عَلَى شَكْلِ قَوْسٍ أَوْ حُفْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُقَعَّرَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ مُقَعَّرٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْأُمُّ الطَّعَامَ فِي إِنَاءٍ مُقَعَّرٍ."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْمُحَدَّبَ فِي وَصْفِ السُّطُوحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_055",
+      "arabic": "كُرَوِيٌّ",
+      "meaning_ar": "يَتَّخِذُ شَكْلَ الْكُرَةِ أَوْ يَتَعَلَّقُ بِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ كُرَوِيَّةٌ"
+      ],
+      "collocations": [
+        "جِسْمٌ كُرَوِيٌّ"
+      ],
+      "examples_ar": [
+        "صَنَعَ الطِّفْلُ شَكْلًا كُرَوِيًّا مِنَ الطِّينِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْهَنْدَسَةِ وَوَصْفِ الأَجْسَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_056",
+      "arabic": "أُسْطُوَانِيٌّ",
+      "meaning_ar": "لَهُ شَكْلُ أُسْطُوَانَةٍ بِقَاعِدَتَيْنِ دَائِرِيَّتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ أُسْطُوَانِيَّةٌ"
+      ],
+      "collocations": [
+        "وِعَاءٌ أُسْطُوَانِيٌّ"
+      ],
+      "examples_ar": [
+        "صَنَعَ الْعَامِلُ قِطْعَةً أُسْطُوَانِيَّةً."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي وَصْفِ الْأَوَانِي وَالأَجْزَاءِ الْهَنْدَسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_057",
+      "arabic": "مَخْرُوطِيٌّ",
+      "meaning_ar": "يَتَّخِذُ شَكْلًا عَرِيضًا عِنْدَ الْقَاعِدَةِ وَضَيِّقًا عِنْدَ الْقِمَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَخْرُوطِيَّةٌ"
+      ],
+      "collocations": [
+        "شَكْلٌ مَخْرُوطِيٌّ"
+      ],
+      "examples_ar": [
+        "رَسَمَتِ الطَّالِبَةُ مِجْسَمًا مَخْرُوطِيًّا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْهَنْدَسَةِ وَتَصْمِيمِ الأَشْيَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_058",
+      "arabic": "مُكَعَّبٌ",
+      "meaning_ar": "لَهُ سِتَّةُ أَوْجُهٍ مُرَبَّعَةٍ مُتَسَاوِيَةٍ فِي الْمِجَسَّمَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُكَعَّبَةٌ"
+      ],
+      "collocations": [
+        "شَكْلٌ مُكَعَّبٌ"
+      ],
+      "examples_ar": [
+        "بَنَى الطِّفْلُ مُجَسَّمًا مُكَعَّبًا."
+      ],
+      "usage_note_ar": "هُوَ وَصْفٌ هَنْدَسِيٌّ لِجِسْمٍ ثُلَاثِيِّ الأَبْعَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_059",
+      "arabic": "مُسْتَطِيلٌ",
+      "meaning_ar": "لَهُ أَرْبَعَةُ أَضْلَاعٍ وَزَوَايَاهُ قَائِمَةٌ فِي الشَّكْلِ الْمُسَطَّحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُسْتَطِيلَةٌ"
+      ],
+      "collocations": [
+        "شَكْلٌ مُسْتَطِيلٌ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطِّفْلُ نَافِذَةً مُسْتَطِيلَةً."
+      ],
+      "usage_note_ar": "يَتَعَلَّقُ بِالشَّكْلِ الْهَنْدَسِيِّ ذِي الزَّوَايَا الْقَائِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_060",
+      "arabic": "مُرَبَّعٌ",
+      "meaning_ar": "لَهُ أَرْبَعَةُ أَضْلَاعٍ مُتَسَاوِيَةٍ وَأَرْبَعُ زَوَايَا قَائِمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُرَبَّعَةٌ"
+      ],
+      "collocations": [
+        "شَكْلٌ مُرَبَّعٌ"
+      ],
+      "examples_ar": [
+        "قَصَّتِ الْفَتَاةُ وَرَقَةً مُرَبَّعَةً."
+      ],
+      "usage_note_ar": "يُخَالِفُ الْمُسْتَطِيلَ الْعَامَّ فِي تَسَاوِي الأَضْلَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_061",
+      "arabic": "مُثَلَّثٌ",
+      "meaning_ar": "لَهُ ثَلَاثَةُ أَضْلَاعٍ وَثَلَاثُ زَوَايَا فِي الْمُسْتَوَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُثَلَّثَةٌ"
+      ],
+      "collocations": [
+        "شَكْلٌ مُثَلَّثٌ"
+      ],
+      "examples_ar": [
+        "رَسَمَتِ الطَّالِبَةُ لَافِتَةً مُثَلَّثَةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَشْكَالِ وَاللَّافِتَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_062",
+      "arabic": "بَيْضَوِيٌّ",
+      "meaning_ar": "لَهُ شَكْلٌ مُسْتَدِيرٌ مَمْدُودٌ يُشْبِهُ الْبَيْضَةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ بَيْضَوِيَّةٌ"
+      ],
+      "collocations": [
+        "شَكْلٌ بَيْضَوِيٌّ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْمُصَمِّمُ مِرْآةً بَيْضَوِيَّةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْوَصْفِ الْهَنْدَسِيِّ وَالتَّصْمِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_063",
+      "arabic": "دَائِرِيٌّ",
+      "meaning_ar": "لَهُ شَكْلُ الدَّائِرَةِ أَوْ يَسِيرُ فِي مَسَارٍ يُشْبِهُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ دَائِرِيَّةٌ"
+      ],
+      "collocations": [
+        "طَاوِلَةٌ دَائِرِيَّةٌ"
+      ],
+      "examples_ar": [
+        "جَلَسُوا حَوْلَ طَاوِلَةٍ دَائِرِيَّةٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَشْكَالِ وَالْحَرَكَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_064",
+      "arabic": "مُتَعَامِدٌ",
+      "meaning_ar": "يَتَقَاطَعُ مَعَ خَطٍّ آخَرَ بِزَاوِيَةٍ قَائِمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَعَامِدَةٌ"
+      ],
+      "collocations": [
+        "خَطَّانِ مُتَعَامِدَانِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ خَطَّيْنِ مُتَعَامِدَيْنِ."
+      ],
+      "usage_note_ar": "يَخْتَصُّ بِالزَّاوِيَةِ الْقَائِمَةِ فِي الْهَنْدَسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_065",
+      "arabic": "مُتَوَازٍ",
+      "meaning_ar": "يَمْتَدُّ بِجَانِبِ خَطٍّ آخَرَ دُونَ أَنْ يَلْتَقِيَا فِي الْمُسْتَوَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَوَازِيَةٌ"
+      ],
+      "collocations": [
+        "خَطَّانِ مُتَوَازِيَانِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْمُهَنْدِسُ خَطَّيْنِ مُتَوَازِيَيْنِ."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْخُطُوطِ وَالْمَسَارَاتِ الْمُتَقَابِلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_066",
+      "arabic": "مَائِلٌ",
+      "meaning_ar": "غَيْرُ عَمُودِيٍّ أَوْ أُفُقِيٍّ وَيَنْحَرِفُ عَنْ الْوَضْعِ الْمُسْتَقِيمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَائِلَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ مَائِلٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْعَامِلُ لَوْحًا مَائِلًا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ أَيْضًا لِلْمَيْلِ إِلَى رَأْيٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_067",
+      "arabic": "أُفُقِيٌّ",
+      "meaning_ar": "يَمْتَدُّ فِي اتِّجَاهٍ مُوَازٍ لِسَطْحِ الْأَرْضِ تَقْرِيبًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ أُفُقِيَّةٌ"
+      ],
+      "collocations": [
+        "خَطٌّ أُفُقِيٌّ"
+      ],
+      "examples_ar": [
+        "رَسَمَتِ الطَّالِبَةُ خَطًّا أُفُقِيًّا."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْعَمُودِيَّ فِي وَصْفِ الِاتِّجَاهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_068",
+      "arabic": "عَمُودِيٌّ",
+      "meaning_ar": "يَمْتَدُّ إِلَى الْأَعْلَى وَالْأَسْفَلِ وَيُشَكِّلُ زَاوِيَةً قَائِمَةً مَعَ الْأُفُقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ عَمُودِيَّةٌ"
+      ],
+      "collocations": [
+        "خَطٌّ عَمُودِيٌّ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْمُهَنْدِسُ خَطًّا عَمُودِيًّا."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْأُفُقِيَّ فِي الْخُطُوطِ وَالْجُدْرَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_069",
+      "arabic": "مُتَمَوِّجٌ",
+      "meaning_ar": "يَتَغَيَّرُ شَكْلُهُ إِلَى ارْتِفَاعَاتٍ وَانْخِفَاضَاتٍ مُتَتَابِعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَمَوِّجَةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ مُتَمَوِّجٌ"
+      ],
+      "examples_ar": [
+        "اِخْتَارَ الْمُصَمِّمُ خَطًّا مُتَمَوِّجًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْمَاءِ وَالشَّعْرِ وَالْأَسْطُحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_070",
+      "arabic": "مُسَنَّنٌ",
+      "meaning_ar": "لَهُ أَطْرَافٌ أَوْ أَسْنَانٌ صَغِيرَةٌ مُتَتَابِعَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُسَنَّنَةٌ"
+      ],
+      "collocations": [
+        "حَافَّةٌ مُسَنَّنَةٌ"
+      ],
+      "examples_ar": [
+        "اِسْتَعْمَلَ الْعَامِلُ أَدَاةً مُسَنَّنَةً."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْحَوَافِّ وَالْعَجَلَاتِ وَالْأَدَوَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_071",
+      "arabic": "حَادٌّ",
+      "meaning_ar": "لَهُ طَرَفٌ قَاطِعٌ أَوْ شَدِيدُ الْقُوَّةِ فِي أَثَرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ حَادَّةٌ"
+      ],
+      "collocations": [
+        "نَصْلٌ حَادٌّ"
+      ],
+      "examples_ar": [
+        "حَفِظَ الْعَامِلُ الأَدَاةَ الْحَادَّةَ فِي غِمْدِهَا."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلصَّوْتِ وَالرَّائِحَةِ وَالْخِلَافِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_072",
+      "arabic": "كَالٌّ",
+      "meaning_ar": "فَقَدَ حِدَّتَهُ فَلَمْ يَعُدْ يَقْطَعُ بِسُهُولَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ كَالَّةٌ"
+      ],
+      "collocations": [
+        "نَصْلٌ كَالٌّ"
+      ],
+      "examples_ar": [
+        "اسْتَبْدَلَ الْعَامِلُ النَّصْلَ الْكَالَّ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلشَّفْرَاتِ وَالأَدَوَاتِ الْقَاطِعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_073",
+      "arabic": "مُدَبَّبٌ",
+      "meaning_ar": "يَنْتَهِي بِرَأْسٍ دَقِيقٍ حَادٍّ أَوْ مُتَنَاقِصِ الْعَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُدَبَّبَةٌ"
+      ],
+      "collocations": [
+        "رَأْسٌ مُدَبَّبٌ"
+      ],
+      "examples_ar": [
+        "كَانَ لِلْقَلَمِ رَأْسٌ مُدَبَّبٌ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَقْلَامِ وَالأَدَوَاتِ وَالأَشْكَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_074",
+      "arabic": "مُسْتَدِيرٌ",
+      "meaning_ar": "لَهُ شَكْلٌ قَرِيبٌ مِنَ الدَّائِرَةِ دُونَ زَوَايَا بَارِزَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُسْتَدِيرَةٌ"
+      ],
+      "collocations": [
+        "حَجَرٌ مُسْتَدِيرٌ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الطِّفْلُ حَجَرًا مُسْتَدِيرًا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْوُجُوهِ وَالأَشْيَاءِ وَالْحَوَافِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_075",
+      "arabic": "مُعَطَّرٌ",
+      "meaning_ar": "أُضِيفَتْ إِلَيْهِ مَادَّةٌ طَيِّبَةُ الرَّائِحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُعَطَّرَةٌ"
+      ],
+      "collocations": [
+        "قُمَاشٌ مُعَطَّرٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْأُمُّ صَابُونًا مُعَطَّرًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْمُنْتَجَاتِ الَّتِي أُضِيفَ إِلَيْهَا عِطْرٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_076",
+      "arabic": "عَطِرٌ",
+      "meaning_ar": "تَصْدُرُ مِنْهُ رَائِحَةٌ طَيِّبَةٌ وَمُحَبَّبَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ عَطِرَةٌ"
+      ],
+      "collocations": [
+        "زَهْرَةٌ عَطِرَةٌ"
+      ],
+      "examples_ar": [
+        "فَاحَتْ رَائِحَةُ الزُّهُورِ الْعَطِرَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلرَّوَائِحِ الطَّيِّبَةِ فِي الطَّبِيعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_077",
+      "arabic": "نَتِنٌ",
+      "meaning_ar": "تَصْدُرُ مِنْهُ رَائِحَةٌ كَرِيهَةٌ تُنَفِّرُ النَّاسَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ نَتِنَةٌ"
+      ],
+      "collocations": [
+        "مَاءٌ نَتِنٌ"
+      ],
+      "examples_ar": [
+        "تَجَنَّبَ الْعَامِلُ الْمَاءَ النَّتِنَ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالرَّائِحَةِ الْكَريهَةِ لَا بِاللَّوْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_078",
+      "arabic": "مُتَعَفِّنٌ",
+      "meaning_ar": "أَصَابَهُ الْفَسَادُ فَتَغَيَّرَتْ رَائِحَتُهُ أَوْ قِوَامُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَعَفِّنَةٌ"
+      ],
+      "collocations": [
+        "طَعَامٌ مُتَعَفِّنٌ"
+      ],
+      "examples_ar": [
+        "رَمَى الْعَامِلُ الطَّعَامَ الْمُتَعَفِّنَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْمَوَادِّ الْعُضْوِيَّةِ الْفَاسِدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_079",
+      "arabic": "طَازَجٌ",
+      "meaning_ar": "قَرِيبُ الْعَهْدِ بِالْحَصَادِ أَوِ الْإِعْدَادِ وَلَمْ يَفْقِدْ نَضَارَتَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ طَازَجَةٌ"
+      ],
+      "collocations": [
+        "خُضْرَوَاتٌ طَازَجَةٌ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَتِ الْأُمُّ خُضْرَوَاتٍ طَازَجَةً."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْأَطْعِمَةِ وَالْهَوَاءِ وَالأَخْبَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_080",
+      "arabic": "بَائِتٌ",
+      "meaning_ar": "مَضَى عَلَى إِعْدَادِهِ وَقْتٌ وَلَمْ يَعُدْ طَازَجًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ بَائِتَةٌ"
+      ],
+      "collocations": [
+        "خُبْزٌ بَائِتٌ"
+      ],
+      "examples_ar": [
+        "لَمْ يُفَضِّلِ الطِّفْلُ الْخُبْزَ الْبَائِتَ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي الْبَيَاتُ أَنَّ الطَّعَامَ فَاسِدٌ بِالضَّرُورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_081",
+      "arabic": "نَاضِجٌ",
+      "meaning_ar": "بَلَغَ مَرْحَلَةً مُنَاسِبَةً مِنَ النُّمُوِّ أَوِ الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ نَاضِجَةٌ"
+      ],
+      "collocations": [
+        "ثَمَرٌ نَاضِجٌ"
+      ],
+      "examples_ar": [
+        "قَطَفَ الْفَلَّاحُ ثِمَارًا نَاضِجَةً."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِعَقْلِ الْإِنْسَانِ وَخِبْرَتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_082",
+      "arabic": "نِيءٌ",
+      "meaning_ar": "لَمْ يُطْبَخْ وَلَمْ يَتَعَرَّضْ لِحَرَارَةٍ تَجْعَلُهُ نَاضِجًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ نِيئَةٌ"
+      ],
+      "collocations": [
+        "لَحْمٌ نِيءٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّبَّاخُ اللَّحْمَ النِّيئَ فِي الْقِدْرِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ خَاصَّةً لِلْأَطْعِمَةِ غَيْرِ الْمَطْبُوخَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_083",
+      "arabic": "مُقْرْمِشٌ",
+      "meaning_ar": "يُصْدِرُ صَوْتًا خَفِيفًا عِنْدَ الْعَضِّ لِجَفَافِهِ وَتَمَاسُكِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُقْرْمِشَةٌ"
+      ],
+      "collocations": [
+        "خُبْزٌ مُقْرْمِشٌ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الطَّبَّاخُ خُبْزًا مُقْرْمِشًا."
+      ],
+      "usage_note_ar": "يَصِفُ قِوَامَ بَعْضِ الْأَطْعِمَةِ بَعْدَ الطَّهْيِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_084",
+      "arabic": "طَرِيٌّ",
+      "meaning_ar": "لَيِّنٌ وَرَطْبٌ وَلَمْ يَيْبَسْ أَوْ يَفْقِدْ نَضَارَتَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ طَرِيَّةٌ"
+      ],
+      "collocations": [
+        "خُبْزٌ طَرِيٌّ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَى الْوَلَدُ خُبْزًا طَرِيًّا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْخُبْزِ وَالْفَوَاكِهِ وَالْمَوَادِّ اللَّيِّنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_085",
+      "arabic": "يَابِسٌ",
+      "meaning_ar": "فَقَدَ رُطُوبَتَهُ وَصَارَ جَافًّا أَوْ شَدِيدَ التَّمَاسُكِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ يَابِسَةٌ"
+      ],
+      "collocations": [
+        "خُبْزٌ يَابِسٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّبَّاخُ الْخُبْزَ الْيَابِسَ جَانِبًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْأَطْعِمَةِ وَالنَّبَاتِ وَالأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_086",
+      "arabic": "رَطْبٌ",
+      "meaning_ar": "فِيهِ قَدْرٌ مِنَ الْمَاءِ أَوِ الْبَلَلِ وَلَيْسَ جَافًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ رَطْبَةٌ"
+      ],
+      "collocations": [
+        "قُمَاشٌ رَطْبٌ"
+      ],
+      "examples_ar": [
+        "تَرَكَ الْعَامِلُ الْقُمَاشَ الرَّطْبَ لِيَجِفَّ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِهَوَاءِ الْمَكَانِ وَالتُّرْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_087",
+      "arabic": "جَافٌّ",
+      "meaning_ar": "قَلِيلُ الْمَاءِ أَوْ خَالٍ مِنَ الرُّطُوبَةِ الظَّاهِرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ جَافَّةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ جَافٌّ"
+      ],
+      "examples_ar": [
+        "أَعَادَ الْعَامِلُ الْأَدَاةَ بَعْدَ أَنْ صَارَتْ جَافَّةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَجَازًا لِلْكَلَامِ الْخَالِي مِنَ الْعَاطِفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_088",
+      "arabic": "مَبْلُولٌ",
+      "meaning_ar": "أَصَابَهُ مَاءٌ أَوْ سَائِلٌ حَتَّى صَارَ رَطْبًا بِوُضُوحٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مَبْلُولَةٌ"
+      ],
+      "collocations": [
+        "ثَوْبٌ مَبْلُولٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْوَلَدُ الثَّوْبَ الْمَبْلُولَ لِيَجِفَّ."
+      ],
+      "usage_note_ar": "يَصِفُ الشَّيْءَ الَّذِي أَصَابَهُ الْمَاءُ مُبَاشَرَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_089",
+      "arabic": "مُشْبَعٌ",
+      "meaning_ar": "امْتَلَأَ بِمَادَّةٍ أَوْ بَلَغَ حَدًّا لَا يَسْتَوْعِبُ بَعْدَهُ مَزِيدًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُشْبَعَةٌ"
+      ],
+      "collocations": [
+        "إِسْفِنْجَةٌ مُشْبَعَةٌ"
+      ],
+      "examples_ar": [
+        "أَخْرَجَ الْعَامِلُ الْإِسْفِنْجَةَ الْمُشْبَعَةَ بِالْمَاءِ."
+      ],
+      "usage_note_ar": "يَتَعَدَّى بِالْبَاءِ لِبَيَانِ الْمَادَّةِ الْمُمْتَلَأِ بِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_090",
+      "arabic": "قَابِلٌ",
+      "meaning_ar": "يَصْلُحُ لِفِعْلٍ أَوْ عَمَلِيَّةٍ مَا وَيُمْكِنُ أَنْ يَتَأَثَّرَ بِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ قَابِلَةٌ"
+      ],
+      "collocations": [
+        "مَادَّةٌ قَابِلَةٌ لِلْمَدِّ"
+      ],
+      "examples_ar": [
+        "هَذِهِ الْمَادَّةُ قَابِلَةٌ لِلتَّشْكِيلِ."
+      ],
+      "usage_note_ar": "يَتَعَدَّى بِاللَّامِ لِذِكْرِ الْعَمَلِيَّةِ الْمُمْكِنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_091",
+      "arabic": "مُقَاوِمٌ",
+      "meaning_ar": "يَحْتَمِلُ تَأْثِيرَ شَيْءٍ وَيُقَلِّلُ مِنْ ضَرَرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُقَاوِمَةٌ"
+      ],
+      "collocations": [
+        "قُمَاشٌ مُقَاوِمٌ لِلْمَاءِ"
+      ],
+      "examples_ar": [
+        "اِشْتَرَى الْعَامِلُ قُمَاشًا مُقَاوِمًا لِلْبَلَلِ."
+      ],
+      "usage_note_ar": "يَتَعَدَّى بِاللَّامِ لِلْمَؤَثِّرِ الَّذِي يُقَاوِمُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_092",
+      "arabic": "عَازِلٌ",
+      "meaning_ar": "يَمْنَعُ أَوْ يُقَلِّلُ انْتِقَالَ الْحَرَارَةِ أَوِ الصَّوْتِ أَوِ الْكَهْرَبَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ عَازِلَةٌ"
+      ],
+      "collocations": [
+        "مَادَّةٌ عَازِلَةٌ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْعَامِلُ طَبَقَةً عَازِلَةً لِلْحَرَارَةِ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ نَوْعِيَّةُ الْعَزْلِ بِحَسَبِ الْمُؤَثِّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_093",
+      "arabic": "مُوَصِّلٌ",
+      "meaning_ar": "يَسْمَحُ بِانْتِقَالِ الْكَهْرَبَاءِ أَوِ الْحَرَارَةِ عَبْرَ مَادَّتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُوَصِّلَةٌ"
+      ],
+      "collocations": [
+        "مَعْدِنٌ مُوَصِّلٌ"
+      ],
+      "examples_ar": [
+        "يُعَدُّ النُّحَاسُ مَادَّةً مُوَصِّلَةً لِلْكَهْرَبَاءِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمَادَّةِ الْعَازِلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_094",
+      "arabic": "مُلْتَصِقٌ",
+      "meaning_ar": "مُتَّصِلٌ بِسَطْحٍ آخَرَ بِقُوَّةٍ حَتَّى يَصْعُبَ فَصْلُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُلْتَصِقَةٌ"
+      ],
+      "collocations": [
+        "شَرِيطٌ مُلْتَصِقٌ"
+      ],
+      "examples_ar": [
+        "بَقِيَ الشَّرِيطُ مُلْتَصِقًا بِالْحَائِطِ."
+      ],
+      "usage_note_ar": "يَتَعَدَّى بِالْبَاءِ إِلَى السَّطْحِ الْمُتَّصَلِ بِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_095",
+      "arabic": "مُنْفَصِلٌ",
+      "meaning_ar": "غَيْرُ مُتَّصِلٍ بِشَيْءٍ آخَرَ أَوْ لَمْ يَعُدْ جُزْءًا مِنْهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُنْفَصِلَةٌ"
+      ],
+      "collocations": [
+        "جُزْءٌ مُنْفَصِلٌ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْعَامِلُ قِطْعَةً مُنْفَصِلَةً عَنِ الْآلَةِ."
+      ],
+      "usage_note_ar": "يَتَعَدَّى بِعَنْ لِبَيَانِ الشَّيْءِ الْمُفَارَقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_096",
+      "arabic": "مُتَّصِلٌ",
+      "meaning_ar": "يَرْتَبِطُ بِشَيْءٍ آخَرَ مِنْ غَيْرِ انْقِطَاعٍ ظَاهِرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَّصِلَةٌ"
+      ],
+      "collocations": [
+        "سِلْكٌ مُتَّصِلٌ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْعَامِلُ مِنَ السِّلْكِ الْمُتَّصِلِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَجْزَاءِ وَالتَّوَاصُلِ وَالْوَقْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_097",
+      "arabic": "مُحْكَمٌ",
+      "meaning_ar": "مُتْقَنُ الصُّنْعِ وَمُثَبَّتٌ بِقُوَّةٍ بِحَيْثُ لَا يَتَفَكَّكُ بِسُهُولَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُحْكَمَةٌ"
+      ],
+      "collocations": [
+        "إِغْلَاقٌ مُحْكَمٌ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْعَامِلُ مِنْ إِغْلَاقٍ مُحْكَمٍ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلنَّصِّ الْوَاضِحِ الْمُنْضَبِطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_098",
+      "arabic": "مُفْكَكٌ",
+      "meaning_ar": "فُصِلَتْ أَجْزَاؤُهُ عَنْ بَعْضِهَا لِلْإِصْلَاحِ أَوِ النَّقْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُفْكَكَةٌ"
+      ],
+      "collocations": [
+        "جِهَازٌ مُفْكَكٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْعَامِلُ الْجِهَازَ الْمُفْكَكَ فِي صُنْدُوقٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ مُفَكَّكٍ فِي بَعْضِ الِاسْتِعْمَالَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_099",
+      "arabic": "مُرَكَّبٌ",
+      "meaning_ar": "مُؤَلَّفٌ مِنْ جُزْأَيْنِ أَوْ أَكْثَرَ جُمِعَتْ مَعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُرَكَّبَةٌ"
+      ],
+      "collocations": [
+        "جِهَازٌ مُرَكَّبٌ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْعَامِلُ مِنْ سَلَامَةِ الْجِهَازِ الْمُرَكَّبِ."
+      ],
+      "usage_note_ar": "يَرِدُ فِي اللُّغَةِ وَالْكِيمِيَاءِ وَالصِّنَاعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_100",
+      "arabic": "مُفْرَدٌ",
+      "meaning_ar": "وَاحِدٌ غَيْرُ مُقْتَرِنٍ بِغَيْرِهِ أَوْ لَيْسَ جَمْعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُفْرَدَةٌ"
+      ],
+      "collocations": [
+        "اسْمٌ مُفْرَدٌ"
+      ],
+      "examples_ar": [
+        "مَيَّزَ الطَّالِبُ الِاسْمَ الْمُفْرَدَ مِنَ الْجَمْعِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي النَّحْوِ وَالْوَصْفِ الْعَامِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_101",
+      "arabic": "مُتَكَرِّرٌ",
+      "meaning_ar": "يَحْدُثُ أَوْ يَظْهَرُ مَرَّاتٍ عِدَّةً عَلَى نَحْوٍ مُشَابِهٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَكَرِّرَةٌ"
+      ],
+      "collocations": [
+        "نَمَطٌ مُتَكَرِّرٌ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الْمُهَنْدِسُ خَطَأً مُتَكَرِّرًا."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْأَشْكَالِ وَالأَحْدَاثِ وَالْمُشْكِلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_102",
+      "arabic": "مُتَطَابِقٌ",
+      "meaning_ar": "يُوَافِقُ شَيْئًا آخَرَ فِي الشَّكْلِ أَوِ الْقِيَاسِ دُونَ فَرْقٍ مَلْحُوظٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَطَابِقَةٌ"
+      ],
+      "collocations": [
+        "قِطْعَتَانِ مُتَطَابِقَتَانِ"
+      ],
+      "examples_ar": [
+        "صَنَعَ الْعَامِلُ قِطْعَتَيْنِ مُتَطَابِقَتَيْنِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْهَنْدَسَةِ وَالْقِيَاسِ وَالْمُقَارَنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_103",
+      "arabic": "مُتَشَابِهٌ",
+      "meaning_ar": "يَشْتَرِكُ مَعَ غَيْرِهِ فِي صِفَاتٍ وَلَا يَلْزَمُ أَنْ يَتَطَابَقَا تَمَامًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَشَابِهَةٌ"
+      ],
+      "collocations": [
+        "شَكْلَانِ مُتَشَابِهَانِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَتِ الْفَتَاةُ قِطَعًا مُتَشَابِهَةً."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّطَابُقِ التَّامِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_104",
+      "arabic": "مُخْتَلِفٌ",
+      "meaning_ar": "لَا يُوَافِقُ غَيْرَهُ فِي صِفَةٍ أَوْ حَجْمٍ أَوْ نَوْعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُخْتَلِفَةٌ"
+      ],
+      "collocations": [
+        "أَحْجَامٌ مُخْتَلِفَةٌ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْعَامِلُ قِطَعًا مُخْتَلِفَةً."
+      ],
+      "usage_note_ar": "يَرِدُ فِي الْمُقَارَنَةِ بَيْنَ الأَشْيَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_105",
+      "arabic": "مُتَقَارِبٌ",
+      "meaning_ar": "يَكُونُ قَرِيبًا مِنْ غَيْرِهِ فِي الْمَكَانِ أَوِ الْحَجْمِ أَوِ الْمِقْدَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَقَارِبَةٌ"
+      ],
+      "collocations": [
+        "مَقَاسَاتٌ مُتَقَارِبَةٌ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْمُهَنْدِسُ قِيَمًا مُتَقَارِبَةً."
+      ],
+      "usage_note_ar": "يَتَعَلَّقُ بِالْمَسَافَاتِ وَالدَّرَجَاتِ وَالأَشْكَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "ind_adjective_material_20261025_106",
+      "arabic": "مُتَبَاعِدٌ",
+      "meaning_ar": "يَقَعُ عَلَى مَسَافَةٍ كَبِيرَةٍ مِنْ غَيْرِهِ أَوْ يَخْتَلِفُ عَنْهُ كَثِيرًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُتَبَاعِدَةٌ"
+      ],
+      "collocations": [
+        "نُقَاطٌ مُتَبَاعِدَةٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْعَامِلُ عَلَامَاتٍ مُتَبَاعِدَةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمَكَانِ وَالزَّمَنِ وَالْمُقَارَنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independent_adjective_lexicon_unverified",
+      "editorial_level_hint": 2
+    }
+  ]
+}
