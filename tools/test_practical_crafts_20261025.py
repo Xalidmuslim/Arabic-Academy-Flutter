@@ -32,7 +32,10 @@ class PracticalCraftCorpusTests(unittest.TestCase):
             self.assertEqual(item["editorial_level_hint"], 4)
             for key in ("synonyms", "antonyms", "additional_meanings_ar"):
                 self.assertIsInstance(item[key], list)
-            self.assertFalse(re.search(r"[A-Za-zА-Яа-яЁё]", str(item)), item["arabic"])
+            arabic_fields = [item["arabic"], item["meaning_ar"], item["usage_note_ar"]]
+            for key in ("grammar", "collocations", "examples_ar", "additional_meanings_ar"):
+                arabic_fields.extend(item[key])
+            self.assertFalse(re.search(r"[A-Za-zА-Яа-яЁё]", " ".join(arabic_fields)), item["arabic"])
             extra += bool(item["additional_meanings_ar"])
             verbs += any(v.startswith("فِعْلٌ") for v in item["grammar"])
         self.assertGreaterEqual(extra, 15)
