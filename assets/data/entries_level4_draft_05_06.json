@@ -1,0 +1,2824 @@
+{
+  "schema_version": 2,
+  "source_status": "editorial_themes_not_official_units",
+  "draft_theme_titles": {
+    "5": "الصحة والطب",
+    "6": "القانون والحقوق"
+  },
+  "entries": [
+    {
+      "id": "l4draft05_001",
+      "arabic": "تَشْخِيصٌ",
+      "meaning_ar": "تَحْدِيدُ نَوْعِ الْمَرَضِ بَعْدَ فَحْصِ الْمَرِيضِ وَأَعْرَاضِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّشْخِيصُ الطِّبِّيُّ"
+      ],
+      "examples_ar": [
+        "سَاعَدَ الْفَحْصُ عَلَى التَّشْخِيصِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_002",
+      "arabic": "عَرَضٌ",
+      "meaning_ar": "عَلَامَةٌ يَشْعُرُ بِهَا الْمَرِيضُ وَقَدْ تَدُلُّ عَلَى مَرَضٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْرَاضٌ"
+      ],
+      "collocations": [
+        "أَعْرَاضُ الْمَرَضِ"
+      ],
+      "examples_ar": [
+        "وَصَفَ الْمَرِيضُ أَعْرَاضَهُ لِلطَّبِيبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_003",
+      "arabic": "عَدْوَى",
+      "meaning_ar": "انْتِقَالُ مُسَبِّبِ الْمَرَضِ مِنْ كَائِنٍ أَوْ مَصْدَرٍ إِلَى آخَرَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "انْتِقَالُ الْعَدْوَى"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ غَسْلُ الْيَدَيْنِ عَلَى تَقْلِيلِ الْعَدْوَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_004",
+      "arabic": "الْتِهَابٌ",
+      "meaning_ar": "اسْتِجَابَةٌ فِي الْجِسْمِ تَحْدُثُ بِسَبَبِ إِصَابَةٍ أَوْ مَرَضٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ الْتِهَابَاتٌ"
+      ],
+      "collocations": [
+        "الْتِهَابُ الْحَلْقِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّبِيبُ مَوْضِعَ الِالْتِهَابِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_005",
+      "arabic": "مَنَاعَةٌ",
+      "meaning_ar": "قُدْرَةُ الْجِسْمِ عَلَى مُقَاوَمَةِ الْجَرَاثِيمِ وَالْأَمْرَاضِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمَنَاعَةُ الطَّبِيعِيَّةُ"
+      ],
+      "examples_ar": [
+        "يَحْمِي جِهَازُ الْمَنَاعَةِ الْجِسْمَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_006",
+      "arabic": "وِقَايَةٌ",
+      "meaning_ar": "اتِّخَاذُ خُطُوَاتٍ لِمَنْعِ وُقُوعِ الْمَرَضِ أَوِ الضَّرَرِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْوِقَايَةُ مِنَ الْمَرَضِ"
+      ],
+      "examples_ar": [
+        "الْوِقَايَةُ أَفْضَلُ مِنَ الْعِلَاجِ فِي حَالَاتٍ كَثِيرَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_007",
+      "arabic": "لِقَاحٌ",
+      "meaning_ar": "مُسْتَحْضَرٌ يُعْطَى لِلْجِسْمِ لِيُسَاعِدَ مَنَاعَتَهُ عَلَى مُقَاوَمَةِ مَرَضٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لِقَاحَاتٌ"
+      ],
+      "collocations": [
+        "تَلَقِّي اللِّقَاحِ"
+      ],
+      "examples_ar": [
+        "يَسْأَلُ الْمَرِيضُ الطَّبِيبَ عَنِ اللِّقَاحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_008",
+      "arabic": "مُضَاعَفَةٌ",
+      "meaning_ar": "مُشْكِلَةٌ صِحِّيَّةٌ إِضَافِيَّةٌ تَحْدُثُ بِسَبَبِ مَرَضٍ أَوْ عِلَاجٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُضَاعَفَاتٌ"
+      ],
+      "collocations": [
+        "مُضَاعَفَاتُ الْمَرَضِ"
+      ],
+      "examples_ar": [
+        "يُرَاقِبُ الطَّبِيبُ الْمُضَاعَفَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_009",
+      "arabic": "تَعَافٍ",
+      "meaning_ar": "عَوْدَةُ الْإِنْسَانِ إِلَى صِحَّتِهِ بَعْدَ الْمَرَضِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَرْحَلَةُ التَّعَافِي"
+      ],
+      "examples_ar": [
+        "احْتَاجَ الْمَرِيضُ إِلَى وَقْتٍ لِلتَّعَافِي."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_010",
+      "arabic": "تَأْهِيلٌ",
+      "meaning_ar": "تَدْرِيبُ شَخْصٍ لِيَسْتَعِيدَ قُدْرَتَهُ عَلَى الْحَرَكَةِ أَوِ الْعَمَلِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِعَادَةُ التَّأْهِيلِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْمَرِيضُ بَرْنَامَجَ التَّأْهِيلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_011",
+      "arabic": "إِصَابَةٌ",
+      "meaning_ar": "ضَرَرٌ يَقَعُ لِجُزْءٍ مِنَ الْجِسْمِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِصَابَاتٌ"
+      ],
+      "collocations": [
+        "إِصَابَةٌ رِيَاضِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى اللَّاعِبُ عِلَاجًا لِلْإِصَابَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_012",
+      "arabic": "حَادٌّ",
+      "meaning_ar": "مَا بَدَأَ بِسُرْعَةٍ أَوْ كَانَ شَدِيدًا فِي وَصْفِ الْأَلَمِ أَوِ الْمَرَضِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ حَادَّةٌ"
+      ],
+      "collocations": [
+        "أَلَمٌ حَادٌّ"
+      ],
+      "examples_ar": [
+        "شَعَرَ الْمَرِيضُ بِأَلَمٍ حَادٍّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_013",
+      "arabic": "مُزْمِنٌ",
+      "meaning_ar": "مَرَضٌ أَوْ أَلَمٌ يَسْتَمِرُّ فَتْرَةً طَوِيلَةً.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُزْمِنَةٌ"
+      ],
+      "collocations": [
+        "مَرَضٌ مُزْمِنٌ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْمَرَضُ الْمُزْمِنُ إِلَى مُتَابَعَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_014",
+      "arabic": "طَارِئٌ",
+      "meaning_ar": "حَدَثٌ يُفَاجِئُ النَّاسَ وَيَحْتَاجُ إِلَى تَصَرُّفٍ سَرِيعٍ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ طَارِئَةٌ"
+      ],
+      "collocations": [
+        "حَالَةٌ طَارِئَةٌ"
+      ],
+      "examples_ar": [
+        "اسْتَقْبَلَ الْمُسْتَشْفَى حَالَةً طَارِئَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_015",
+      "arabic": "إِسْعَافٌ",
+      "meaning_ar": "مُسَاعَدَةٌ طِبِّيَّةٌ سَرِيعَةٌ تُقَدَّمُ لِلْمُصَابِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْإِسْعَافُ الْأَوَّلِيُّ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُسْعِفُ إِسْعَافًا لِلْمُصَابِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_016",
+      "arabic": "إِجْهَادٌ",
+      "meaning_ar": "حَالَةٌ مِنَ التَّعَبِ الشَّدِيدِ بِسَبَبِ جُهْدٍ بَدَنِيٍّ أَوْ نَفْسِيٍّ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْإِجْهَادُ الْبَدَنِيُّ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الشَّخْصُ إِلَى الرَّاحَةِ بَعْدَ الْإِجْهَادِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_017",
+      "arabic": "وَصْفَةٌ",
+      "meaning_ar": "تَعْلِيمَاتٌ يَكْتُبُهَا الطَّبِيبُ بِشَأْنِ دَوَاءٍ أَوْ عِلَاجٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَصَفَاتٌ"
+      ],
+      "collocations": [
+        "وَصْفَةٌ طِبِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الصَّيْدَلِيُّ الْوَصْفَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_018",
+      "arabic": "جُرْعَةٌ",
+      "meaning_ar": "كَمِّيَّةٌ مُحَدَّدَةٌ مِنْ دَوَاءٍ تُؤْخَذُ فِي مَرَّةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جُرَعٌ"
+      ],
+      "collocations": [
+        "جُرْعَةُ الدَّوَاءِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّبِيبُ جُرْعَةَ الدَّوَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_019",
+      "arabic": "مُرَاقَبَةٌ",
+      "meaning_ar": "مُتَابَعَةُ حَالَةٍ لِمُلَاحَظَةِ أَيِّ تَغَيُّرٍ فِيهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُرَاقَبَةُ الْحَالَةِ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الْحَالَةُ إِلَى مُرَاقَبَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_020",
+      "arabic": "فَحْصٌ",
+      "meaning_ar": "النَّظَرُ بِدِقَّةٍ إِلَى الْجِسْمِ أَوِ الشَّيْءِ لِمَعْرِفَةِ حَالَتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فُحُوصٌ"
+      ],
+      "collocations": [
+        "فَحْصٌ طِبِّيٌّ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الطَّبِيبُ فَحْصًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_021",
+      "arabic": "تَحْلِيلٌ",
+      "meaning_ar": "فَحْصُ عَيِّنَةٍ أَوْ مَعْلُومَاتٍ لِمَعْرِفَةِ مُكَوِّنَاتِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الدَّمِ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الطَّبِيبُ تَحْلِيلًا لِلدَّمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_022",
+      "arabic": "عَيِّنَةٌ",
+      "meaning_ar": "جُزْءٌ صَغِيرٌ يُؤْخَذُ مِنْ مَادَّةٍ أَوْ مِنَ الْجِسْمِ لِلْفَحْصِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَيِّنَاتٌ"
+      ],
+      "collocations": [
+        "عَيِّنَةُ الدَّمِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلُوا الْعَيِّنَةَ إِلَى الْمُخْتَبَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_023",
+      "arabic": "مُخْتَبَرٌ",
+      "meaning_ar": "مَكَانٌ فِيهِ أَجْهِزَةٌ تُسْتَعْمَلُ لِلْفَحْصِ وَالتَّجَارِبِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخْتَبَرَاتٌ"
+      ],
+      "collocations": [
+        "مُخْتَبَرُ التَّحَالِيلِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَ الْمُخْتَبَرُ النَّتِيجَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_024",
+      "arabic": "مُسْتَشْفًى",
+      "meaning_ar": "مَكَانٌ تُقَدَّمُ فِيهِ خَدَمَاتٌ طِبِّيَّةٌ لِلْمَرْضَى.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسْتَشْفَيَاتٌ"
+      ],
+      "collocations": [
+        "مُسْتَشْفًى عَامٌّ"
+      ],
+      "examples_ar": [
+        "نُقِلَ الْمَرِيضُ إِلَى الْمُسْتَشْفَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_025",
+      "arabic": "عِيَادَةٌ",
+      "meaning_ar": "مَكَانٌ يَفْحَصُ فِيهِ الطَّبِيبُ الْمَرْضَى وَيُعَالِجُهُمْ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عِيَادَاتٌ"
+      ],
+      "collocations": [
+        "عِيَادَةُ الطَّبِيبِ"
+      ],
+      "examples_ar": [
+        "حَجَزَ الْمَرِيضُ مَوْعِدًا فِي الْعِيَادَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_026",
+      "arabic": "تَغْذِيَةٌ",
+      "meaning_ar": "حُصُولُ الْجِسْمِ عَلَى الْمَوَادِّ الَّتِي يَحْتَاجُ إِلَيْهَا مِنَ الطَّعَامِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّغْذِيَةُ السَّلِيمَةُ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ التَّغْذِيَةُ الْجَيِّدَةُ عَلَى النُّمُوِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_027",
+      "arabic": "نَقْصٌ",
+      "meaning_ar": "حَالَةٌ تَكُونُ فِيهَا كَمِّيَّةُ الشَّيْءِ أَقَلَّ مِنَ الْمَطْلُوبِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَقْصُ الْفِيتَامِينَاتِ"
+      ],
+      "examples_ar": [
+        "قَدْ يُؤَثِّرُ النَّقْصُ فِي صِحَّةِ الْجِسْمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_028",
+      "arabic": "فِيتَامِينٌ",
+      "meaning_ar": "مَادَّةٌ يَحْتَاجُ إِلَيْهَا الْجِسْمُ بِمَقَادِيرَ صَغِيرَةٍ لِوَظَائِفِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فِيتَامِينَاتٌ"
+      ],
+      "collocations": [
+        "فِيتَامِينُ دَالٍ"
+      ],
+      "examples_ar": [
+        "تَحْتَوِي أَغْذِيَةٌ مُخْتَلِفَةٌ عَلَى فِيتَامِينَاتٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_029",
+      "arabic": "مُتَابَعَةٌ",
+      "meaning_ar": "فَحْصُ الْحَالَةِ مَرَّاتٍ مُتَعَدِّدَةً لِمَعْرِفَةِ تَطَوُّرِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُتَابَعَةُ الْعِلَاجِ"
+      ],
+      "examples_ar": [
+        "عَادَ الْمَرِيضُ لِلْمُتَابَعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_030",
+      "arabic": "تَجَاوُبٌ",
+      "meaning_ar": "اسْتِجَابَةُ الشَّخْصِ أَوِ الْجِسْمِ لِتَأْثِيرٍ أَوْ عِلَاجٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّجَاوُبُ مَعَ الْعِلَاجِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الطَّبِيبُ تَجَاوُبًا مَعَ الْعِلَاجِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_031",
+      "arabic": "مُسْكِّنٌ",
+      "meaning_ar": "دَوَاءٌ يُسْتَعْمَلُ لِتَخْفِيفِ الْأَلَمِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسَكِّنَاتٌ"
+      ],
+      "collocations": [
+        "مُسَكِّنُ الْأَلَمِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الْمَرِيضُ عَنْ مُسَكِّنٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_032",
+      "arabic": "حَسَاسِيَّةٌ",
+      "meaning_ar": "اسْتِجَابَةٌ زَائِدَةٌ مِنَ الْجِسْمِ لِمَادَّةٍ قَدْ لَا تَضُرُّ غَيْرَهُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَسَاسِيَّةُ الطَّعَامِ"
+      ],
+      "examples_ar": [
+        "أَخْبَرَ الْمَرِيضُ الطَّبِيبَ بِحَسَاسِيَّتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_033",
+      "arabic": "تَحَسُّنٌ",
+      "meaning_ar": "انْتِقَالُ الْحَالَةِ مِنْ وَضْعٍ صَعْبٍ إِلَى وَضْعٍ أَفْضَلَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحَسُّنُ الصِّحَّةِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ تَحَسُّنٌ فِي حَالَةِ الْمَرِيضِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft05_034",
+      "arabic": "انْتِكَاسَةٌ",
+      "meaning_ar": "عَوْدَةُ الْمَرَضِ أَوِ التَّدَهْوُرِ بَعْدَ تَحَسُّنٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ انْتِكَاسَاتٌ"
+      ],
+      "collocations": [
+        "انْتِكَاسَةٌ صِحِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى الْمَرِيضُ رِعَايَةً بَعْدَ الِانْتِكَاسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 5,
+        "index": 34,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 5,
+          "index": 34,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_001",
+      "arabic": "تَشْرِيعٌ",
+      "meaning_ar": "وَضْعُ قَوَاعِدَ مُلْزِمَةٍ تُنَظِّمُ حَيَاةَ النَّاسِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَشْرِيعَاتٌ"
+      ],
+      "collocations": [
+        "التَّشْرِيعُ الْقَانُونِيُّ"
+      ],
+      "examples_ar": [
+        "يُنَاقِشُ الْمَجْلِسُ تَشْرِيعًا جَدِيدًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_002",
+      "arabic": "لَائِحَةٌ",
+      "meaning_ar": "مَجْمُوعَةُ قَوَاعِدَ مُفَصَّلَةٍ تُنَظِّمُ عَمَلَ مُؤَسَّسَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لَوَائِحُ"
+      ],
+      "collocations": [
+        "اللَّائِحَةُ التَّنْظِيمِيَّةُ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُوَظَّفُ اللَّائِحَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_003",
+      "arabic": "مَادَّةٌ",
+      "meaning_ar": "جُزْءٌ مُرَقَّمٌ مِنْ قَانُونٍ يَتَضَمَّنُ حُكْمًا مُعَيَّنًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَادُّ"
+      ],
+      "collocations": [
+        "مَادَّةٌ قَانُونِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تُوَضِّحُ الْمَادَّةُ حُقُوقَ الْمُتَعَاقِدَيْنِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_004",
+      "arabic": "نَصٌّ",
+      "meaning_ar": "كَلَامٌ مَكْتُوبٌ يُحَدِّدُ قَاعِدَةً أَوْ مَعْنًى.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُصُوصٌ"
+      ],
+      "collocations": [
+        "نَصٌّ قَانُونِيٌّ"
+      ],
+      "examples_ar": [
+        "اسْتَنَدَ الْمُحَامِي إِلَى نَصٍّ وَاضِحٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_005",
+      "arabic": "عَقْدٌ",
+      "meaning_ar": "اتِّفَاقٌ بَيْنَ طَرَفَيْنِ يُنْشِئُ حُقُوقًا وَالْتِزَامَاتٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُقُودٌ"
+      ],
+      "collocations": [
+        "تَوْقِيعُ الْعَقْدِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُتَعَاقِدَانِ شُرُوطَ الْعَقْدِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_006",
+      "arabic": "الْتِزَامٌ",
+      "meaning_ar": "وَاجِبٌ يَتَعَهَّدُ شَخْصٌ بِأَدَائِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ الْتِزَامَاتٌ"
+      ],
+      "collocations": [
+        "الِالْتِزَامُ بِالْعَقْدِ"
+      ],
+      "examples_ar": [
+        "نَفَّذَتِ الشَّرِكَةُ الْتِزَامَاتِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_007",
+      "arabic": "مُخَالَفَةٌ",
+      "meaning_ar": "عَمَلٌ يَتَجَاوَزُ قَاعِدَةً أَوْ نِظَامًا مُعْتَمَدًا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخَالَفَاتٌ"
+      ],
+      "collocations": [
+        "مُخَالَفَةُ النِّظَامِ"
+      ],
+      "examples_ar": [
+        "سُجِّلَتْ مُخَالَفَةٌ عَلَى الْمُؤَسَّسَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_008",
+      "arabic": "جَزَاءٌ",
+      "meaning_ar": "نَتِيجَةٌ أَوْ عُقُوبَةٌ تُرَتَّبُ عَلَى عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَزَاءَاتٌ"
+      ],
+      "collocations": [
+        "الْجَزَاءُ الْقَانُونِيُّ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ النِّظَامُ جَزَاءَ الْمُخَالَفَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_009",
+      "arabic": "حُكْمٌ",
+      "meaning_ar": "قَرَارٌ يُصْدِرُهُ الْقَاضِي بَعْدَ النَّظَرِ فِي قَضِيَّةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحْكَامٌ"
+      ],
+      "collocations": [
+        "إِصْدَارُ الْحُكْمِ"
+      ],
+      "examples_ar": [
+        "صَدَرَ الْحُكْمُ بَعْدَ الْمُحَاكَمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_010",
+      "arabic": "قَضَاءٌ",
+      "meaning_ar": "جِهَازٌ يَفْصِلُ فِي النِّزَاعَاتِ وَيُطَبِّقُ الْقَوَانِينَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اسْتِقْلَالُ الْقَضَاءِ"
+      ],
+      "examples_ar": [
+        "يَحْتَاجُ الْمُجْتَمَعُ إِلَى قَضَاءٍ عَادِلٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_011",
+      "arabic": "دَعْوَى",
+      "meaning_ar": "طَلَبٌ رَسْمِيٌّ يُقَدَّمُ إِلَى الْمَحْكَمَةِ لِحِمَايَةِ حَقٍّ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دَعَاوَى"
+      ],
+      "collocations": [
+        "رَفْعُ دَعْوَى"
+      ],
+      "examples_ar": [
+        "رَفَعَ الْمُوَاطِنُ دَعْوَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_012",
+      "arabic": "خُصُومَةٌ",
+      "meaning_ar": "نِزَاعٌ بَيْنَ طَرَفَيْنِ يَطْلُبُ كُلٌّ مِنْهُمَا حَقَّهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُصُومَاتٌ"
+      ],
+      "collocations": [
+        "خُصُومَةٌ قَضَائِيَّةٌ"
+      ],
+      "examples_ar": [
+        "انْتَهَتِ الْخُصُومَةُ بِالصُّلْحِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_013",
+      "arabic": "مُدَّعٍ",
+      "meaning_ar": "شَخْصٌ يُقَدِّمُ طَلَبًا إِلَى الْقَضَاءِ لِلْمُطَالَبَةِ بِحَقٍّ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُدَّعُونَ"
+      ],
+      "collocations": [
+        "أَقْوَالُ الْمُدَّعِي"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُدَّعِي أَدِلَّتَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_014",
+      "arabic": "مُدَّعًى عَلَيْهِ",
+      "meaning_ar": "الطَّرَفُ الَّذِي تُوَجَّهُ إِلَيْهِ الْمُطَالَبَةُ فِي الدَّعْوَى.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُقُوقُ الْمُدَّعَى عَلَيْهِ"
+      ],
+      "examples_ar": [
+        "حَضَرَ الْمُدَّعَى عَلَيْهِ الْجَلْسَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_015",
+      "arabic": "بَيِّنَةٌ",
+      "meaning_ar": "دَلِيلٌ يُوَضِّحُ الْحَقِيقَةَ وَيُسَاعِدُ عَلَى إِثْبَاتِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَيِّنَاتٌ"
+      ],
+      "collocations": [
+        "الْبَيِّنَةُ الْقَاطِعَةُ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الْقَاضِي بَيِّنَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_016",
+      "arabic": "شَهَادَةٌ",
+      "meaning_ar": "كَلامٌ يُقَدِّمُهُ شَخْصٌ عَمَّا عَلِمَهُ مِنْ وَقَائِعَ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَهَادَاتٌ"
+      ],
+      "collocations": [
+        "شَهَادَةُ الشَّاهِدِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَعَ الْقَاضِي إِلَى الشَّهَادَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_017",
+      "arabic": "إِثْبَاتٌ",
+      "meaning_ar": "تَقْدِيمُ أَدِلَّةٍ تَدُلُّ عَلَى صِحَّةِ أَمْرٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِثْبَاتُ الْحَقِّ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الدَّعْوَى إِلَى الْإِثْبَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_018",
+      "arabic": "تَسْوِيَةٌ",
+      "meaning_ar": "حَلُّ النِّزَاعِ بِاتِّفَاقٍ بَيْنَ الْأَطْرَافِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَسْوِيَاتٌ"
+      ],
+      "collocations": [
+        "تَسْوِيَةُ النِّزَاعِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الطَّرَفَانِ إِلَى تَسْوِيَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_019",
+      "arabic": "تَحْكِيمٌ",
+      "meaning_ar": "إِحَالَةُ نِزَاعٍ إِلَى شَخْصٍ أَوْ هَيْئَةٍ يَتَّفِقُ عَلَيْهَا الطَّرَفَانِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "هَيْئَةُ التَّحْكِيمِ"
+      ],
+      "examples_ar": [
+        "اتَّفَقَ الطَّرَفَانِ عَلَى التَّحْكِيمِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_020",
+      "arabic": "اسْتِئْنَافٌ",
+      "meaning_ar": "طَلَبُ إِعَادَةِ النَّظَرِ فِي حُكْمٍ أَمَامَ جِهَةٍ قَضَائِيَّةٍ أَعْلَى.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اسْتِئْنَافُ الْحُكْمِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُحَامِي اسْتِئْنَافًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_021",
+      "arabic": "تَنْفِيذٌ",
+      "meaning_ar": "تَحْوِيلُ الْقَرَارِ أَوِ الْحُكْمِ إِلَى عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ الْحُكْمِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ تَنْفِيذُ الْقَرَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_022",
+      "arabic": "مُهْلَةٌ",
+      "meaning_ar": "فَتْرَةٌ مُحَدَّدَةٌ تُعْطَى لِإِنْجَازِ أَمْرٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُهَلٌ"
+      ],
+      "collocations": [
+        "مُهْلَةٌ قَانُونِيَّةٌ"
+      ],
+      "examples_ar": [
+        "مَنَحَتِ الْجِهَةُ مُهْلَةً لِلرَّدِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_023",
+      "arabic": "اخْتِصَاصٌ",
+      "meaning_ar": "نِطَاقُ الْعَمَلِ أَوِ السُّلْطَةِ الَّذِي تَتَوَلَّاهُ جِهَةٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اخْتِصَاصَاتٌ"
+      ],
+      "collocations": [
+        "اخْتِصَاصُ الْمَحْكَمَةِ"
+      ],
+      "examples_ar": [
+        "تَحَقَّقَ الْمُحَامِي مِنِ اخْتِصَاصِ الْمَحْكَمَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_024",
+      "arabic": "إِجْرَاءٌ",
+      "meaning_ar": "خُطْوَةٌ رَسْمِيَّةٌ تَتَّبِعُهَا جِهَةٌ لِتَنْفِيذِ أَمْرٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِجْرَاءَاتٌ"
+      ],
+      "collocations": [
+        "الْإِجْرَاءَاتُ الْقَانُونِيَّةُ"
+      ],
+      "examples_ar": [
+        "اتَّبَعَ الْمُوَظَّفُ الْإِجْرَاءَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_025",
+      "arabic": "تَفْوِيضٌ",
+      "meaning_ar": "مَنْحُ شَخْصٍ سُلْطَةَ الْقِيَامِ بِعَمَلٍ نِيَابَةً عَنْ غَيْرِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَفْوِيضُ الصَّلَاحِيَّاتِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَ الْمُدِيرُ تَفْوِيضًا مَكْتُوبًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_026",
+      "arabic": "وَكَالَةٌ",
+      "meaning_ar": "إِذْنٌ لِشَخْصٍ لِيَتَصَرَّفَ نِيَابَةً عَنْ آخَرَ فِي أَمْرٍ مُحَدَّدٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَكَالَاتٌ"
+      ],
+      "collocations": [
+        "وَكَالَةٌ قَانُونِيَّةٌ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُحَامِي وَكَالَتَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 26,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 26,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_027",
+      "arabic": "مُسْتَنَدٌ",
+      "meaning_ar": "وَثِيقَةٌ مَكْتُوبَةٌ تُسْتَخْدَمُ لِتَوْثِيقِ مَعْلُومَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسْتَنَدَاتٌ"
+      ],
+      "collocations": [
+        "الْمُسْتَنَدَاتُ الرَّسْمِيَّةُ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُوَاطِنُ الْمُسْتَنَدَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 27,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 27,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_028",
+      "arabic": "وَثِيقَةٌ",
+      "meaning_ar": "وَرَقَةٌ أَوْ سِجِلٌّ يَحْمِلُ مَعْلُومَاتٍ مُعْتَمَدَةً.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَثَائِقُ"
+      ],
+      "collocations": [
+        "وَثِيقَةٌ رَسْمِيَّةٌ"
+      ],
+      "examples_ar": [
+        "احْتَفَظَ الرَّجُلُ بِالْوَثِيقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 28,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 28,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_029",
+      "arabic": "مُوَاقَفَةٌ",
+      "meaning_ar": "قَبُولُ شَخْصٍ أَوْ جِهَةٍ لِطَلَبٍ أَوْ قَرَارٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمُوَافَقَةُ الرَّسْمِيَّةُ"
+      ],
+      "examples_ar": [
+        "حَصَلَتِ الشَّرِكَةُ عَلَى الْمُوَافَقَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 29,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 29,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_030",
+      "arabic": "تَرْخِيصٌ",
+      "meaning_ar": "إِذْنٌ رَسْمِيٌّ بِمُمَارَسَةِ نَشَاطٍ أَوِ اسْتِخْدَامِ شَيْءٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَرَاخِيصُ"
+      ],
+      "collocations": [
+        "تَرْخِيصُ النَّشَاطِ"
+      ],
+      "examples_ar": [
+        "جَدَّدَ صَاحِبُ الْمَحَلِّ التَّرْخِيصَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 30,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 30,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_031",
+      "arabic": "مَشْرُوعِيَّةٌ",
+      "meaning_ar": "مُوَافَقَةُ الْعَمَلِ أَوِ الْقَرَارِ لِلْقَوَاعِدِ وَالْقَوَانِينِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَشْرُوعِيَّةُ الْقَرَارِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الْقَاضِي مَشْرُوعِيَّةَ الْإِجْرَاءِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 31,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 31,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_032",
+      "arabic": "مُسَاءَلَةٌ",
+      "meaning_ar": "مُطَالَبَةُ الْمَسْؤُولِ بِتَوْضِيحِ أَعْمَالِهِ وَقَرَارَاتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمُسَاءَلَةُ الْقَانُونِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَخْضَعُ الْإِدَارَةُ لِلْمُسَاءَلَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 32,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 32,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "l4draft06_033",
+      "arabic": "مُسْتَحَقٌّ",
+      "meaning_ar": "مَالٌ أَوْ حَقٌّ وَجَبَ دَفْعُهُ أَوْ أَدَاؤُهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسْتَحَقَّاتٌ"
+      ],
+      "collocations": [
+        "الْمُسْتَحَقَّاتُ الْمَالِيَّةُ"
+      ],
+      "examples_ar": [
+        "طَالَبَ الْعَامِلُ بِمُسْتَحَقَّاتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "source_group": "level4_independent_editorial_draft",
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 1,
+        "chapter": 6,
+        "index": 33,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+      },
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 1,
+          "chapter": 6,
+          "index": 33,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independently drafted learner explanations; this is NOT the publisher's official unit wordlist"
+        }
+      ],
+      "sources": []
+    }
+  ]
+}
