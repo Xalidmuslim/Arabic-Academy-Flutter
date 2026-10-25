@@ -54,8 +54,12 @@ def load_corpus() -> dict:
                         refs.append(ref)
                 existing["book_references"] = refs
                 for field in LEXICAL_ARRAYS:
-                    if not existing.get(field) and entry.get(field):
-                        existing[field] = entry[field]
+                    previous = list(existing.get(field) or [])
+                    for value in entry.get(field) or []:
+                        if value not in previous:
+                            previous.append(value)
+                    if previous:
+                        existing[field] = previous
                 if not existing.get("usage_note_ar") and entry.get("usage_note_ar"):
                     existing["usage_note_ar"] = entry["usage_note_ar"]
 
