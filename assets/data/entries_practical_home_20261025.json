@@ -1,0 +1,622 @@
+{
+  "schema_version": 3,
+  "source_status": "original_home_lexicon_not_collated_with_textbook",
+  "entries": [
+    {
+      "id": "editorial_home_20261025_001",
+      "arabic": "مِكْنَسَةٌ",
+      "meaning_ar": "أَدَاةٌ تُسْتَعْمَلُ لِجَمْعِ الْغُبَارِ وَالْأَوْسَاخِ مِنَ الْأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِكْنَسَةُ الْبَيْتِ"
+      ],
+      "examples_ar": [
+        "اِسْتَعْمَلَتِ الْأُمُّ الْمِكْنَسَةَ لِتَنْظِيفِ الْغُرْفَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_002",
+      "arabic": "مِمْسَحَةٌ",
+      "meaning_ar": "أَدَاةٌ يُمْسَحُ بِهَا الْأَرْضُ أَوْ سَطْحٌ آخَرُ لِإِزَالَةِ الْمَاءِ وَالْوَسَخِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِمْسَحَةُ الْأَرْضِ"
+      ],
+      "examples_ar": [
+        "مَسَحَ الْعَامِلُ الْأَرْضَ بِالْمِمْسَحَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_003",
+      "arabic": "دَلْوٌ",
+      "meaning_ar": "إِنَاءٌ لَهُ مِقْبَضٌ يُحْمَلُ فِيهِ الْمَاءُ أَوْ غَيْرُهُ مِنَ الْمَوَادِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دَلْوُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "مَلَأَ الرَّجُلُ الدَّلْوَ بِالْمَاءِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_004",
+      "arabic": "إِسْفِنْجَةٌ",
+      "meaning_ar": "قِطْعَةٌ لَيِّنَةٌ مَسَامِيَّةٌ تَمْتَصُّ الْمَاءَ وَتُسْتَعْمَلُ فِي التَّنْظِيفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِسْفِنْجَةُ التَّنْظِيفِ"
+      ],
+      "examples_ar": [
+        "غَسَلَتِ الصَّحْنَ بِإِسْفِنْجَةٍ نَاعِمَةٍ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_005",
+      "arabic": "مِنْشَفَةٌ",
+      "meaning_ar": "قِطْعَةٌ مِنَ الْقُمَاشِ تُمْتَصُّ بِهَا الرُّطُوبَةُ مِنَ الْيَدَيْنِ أَوِ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِنْشَفَةُ الْيَدَيْنِ"
+      ],
+      "examples_ar": [
+        "جَفَّفَ يَدَيْهِ بِمِنْشَفَةٍ نَظِيفَةٍ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_006",
+      "arabic": "وِسَادَةٌ",
+      "meaning_ar": "شَيْءٌ لَيِّنٌ يُوضَعُ تَحْتَ الرَّأْسِ عِنْدَ النَّوْمِ أَوْ يُسْتَنَدُ إِلَيْهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وِسَادَةُ النَّوْمِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ رَأْسَهُ عَلَى الْوِسَادَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_007",
+      "arabic": "مِصْبَاحٌ",
+      "meaning_ar": "أَدَاةٌ تُصْدِرُ الضَّوْءَ لِإِضَاءَةِ مَكَانٍ مُظْلِمٍ أَوْ ضَعِيفِ الْإِضَاءَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِصْبَاحُ الْغُرْفَةِ"
+      ],
+      "examples_ar": [
+        "أَضَاءَ الْمِصْبَاحَ عِنْدَ الْمَسَاءِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_008",
+      "arabic": "مِفْتَاحٌ",
+      "meaning_ar": "أَدَاةٌ تُسْتَعْمَلُ لِفَتْحِ قُفْلٍ أَوْ تَشْغِيلِ جِهَازٍ بِحَسَبِ نَوْعِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِفْتَاحُ الْبَابِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمِفْتَاحَ فِي الْقُفْلِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_009",
+      "arabic": "قُفْلٌ",
+      "meaning_ar": "جِهَازٌ يُثَبَّتُ عَلَى بَابٍ أَوْ صُنْدُوقٍ لِمَنْعِ فَتْحِهِ دُونَ إِذْنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قُفْلُ الْبَابِ"
+      ],
+      "examples_ar": [
+        "أَغْلَقَ الْبَابَ بِالْقُفْلِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_010",
+      "arabic": "مِقْبَضٌ",
+      "meaning_ar": "جُزْءٌ مِنْ شَيْءٍ يُمْسَكُ بِالْيَدِ لِفَتْحِهِ أَوْ حَمْلِهِ أَوْ تَحْرِيكِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِقْبَضُ الْبَابِ"
+      ],
+      "examples_ar": [
+        "أَمْسَكَ مِقْبَضَ الْبَابِ وَفَتَحَهُ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_011",
+      "arabic": "رَفٌّ",
+      "meaning_ar": "لَوْحٌ أُفُقِيٌّ يُثَبَّتُ عَلَى جِدَارٍ أَوْ دَاخِلَ خِزَانَةٍ لِوَضْعِ الْأَشْيَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَفُّ الْكُتُبِ"
+      ],
+      "examples_ar": [
+        "رَتَّبَ الْكُتُبَ عَلَى الرَّفِّ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_012",
+      "arabic": "سُلَّمٌ",
+      "meaning_ar": "أَدَاةٌ ذَاتُ دَرَجَاتٍ يُصْعَدُ عَلَيْهَا لِلْوُصُولِ إِلَى مَوْضِعٍ مُرْتَفِعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُلَّمٌ خَشَبِيٌّ"
+      ],
+      "examples_ar": [
+        "صَعِدَ الْعَامِلُ السُّلَّمَ بِحَذَرٍ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_013",
+      "arabic": "سَجَّادَةٌ",
+      "meaning_ar": "قِطْعَةٌ مِنْ نَسِيجٍ تُفْرَشُ عَلَى الْأَرْضِ لِلزِّينَةِ أَوِ الْجُلُوسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سَجَّادَةُ الْغُرْفَةِ"
+      ],
+      "examples_ar": [
+        "فَرَشَتِ الْأُمُّ السَّجَّادَةَ فِي الْغُرْفَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_014",
+      "arabic": "سِتَارَةٌ",
+      "meaning_ar": "قِطْعَةٌ مِنْ قُمَاشٍ تُعَلَّقُ عَلَى نَافِذَةٍ أَوْ فَتْحَةٍ لِحَجْبِ الضَّوْءِ أَوِ النَّظَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِتَارَةُ النَّافِذَةِ"
+      ],
+      "examples_ar": [
+        "أَغْلَقَتِ السِّتَارَةَ قَبْلَ النَّوْمِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_015",
+      "arabic": "مِرْآةٌ",
+      "meaning_ar": "سَطْحٌ أَمْلَسُ يَعْكِسُ صُوَرَ الْأَشْيَاءِ الْوَاقِعَةِ أَمَامَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِرْآةُ الْحَمَّامِ"
+      ],
+      "examples_ar": [
+        "نَظَرَ فِي الْمِرْآةِ قَبْلَ الْخُرُوجِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_016",
+      "arabic": "مِغْسَلَةٌ",
+      "meaning_ar": "حَوْضٌ مُثَبَّتٌ يَجْرِي إِلَيْهِ الْمَاءُ لِغَسْلِ الْيَدَيْنِ أَوِ الْأَوَانِي.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِغْسَلَةُ الْمَطْبَخِ"
+      ],
+      "examples_ar": [
+        "غَسَلَ يَدَيْهِ فِي الْمِغْسَلَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_017",
+      "arabic": "صُنْبُورٌ",
+      "meaning_ar": "أَدَاةٌ تُرَكَّبُ عَلَى أُنْبُوبِ الْمَاءِ لِفَتْحِ جَرَيَانِهِ وَإِغْلَاقِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صُنْبُورُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "أَغْلَقَ الصُّنْبُورَ بَعْدَ الْغَسْلِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_018",
+      "arabic": "مِصْفَاةٌ",
+      "meaning_ar": "أَدَاةٌ ذَاتُ ثُقُوبٍ صَغِيرَةٍ تُفْصَلُ بِهَا الْمَوَادُّ الصُّلْبَةُ عَنِ السَّائِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِصْفَاةُ الشَّايِ"
+      ],
+      "examples_ar": [
+        "صَفَّى الشَّايَ بِالْمِصْفَاةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_019",
+      "arabic": "قِدْرٌ",
+      "meaning_ar": "إِنَاءٌ عَمِيقٌ يُوضَعُ عَلَى النَّارِ أَوِ الْمَوْقِدِ لِطَبْخِ الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِدْرُ الطَّعَامِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْخُضْرَوَاتِ فِي الْقِدْرِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_020",
+      "arabic": "مِقْلَاةٌ",
+      "meaning_ar": "إِنَاءٌ لَهُ قَاعٌ عَرِيضٌ يُسْتَعْمَلُ لِقَلْيِ الطَّعَامِ عَلَى الْمَوْقِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِقْلَاةُ الْبَيْضِ"
+      ],
+      "examples_ar": [
+        "سَخَّنَ الزَّيْتَ فِي الْمِقْلَاةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_021",
+      "arabic": "مِغْرَفَةٌ",
+      "meaning_ar": "أَدَاةٌ لَهَا مِقْبَضٌ وَطَرَفٌ مُقَعَّرٌ تُؤْخَذُ بِهَا السَّوَائِلُ وَالْأَطْعِمَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِغْرَفَةُ الْحَسَاءِ"
+      ],
+      "examples_ar": [
+        "سَكَبَ الْحَسَاءَ بِالْمِغْرَفَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_022",
+      "arabic": "لَوْحٌ",
+      "meaning_ar": "قِطْعَةٌ مُسَطَّحَةٌ مِنْ خَشَبٍ أَوْ مَادَّةٍ أُخْرَى تُسْتَعْمَلُ فِي أَعْمَالٍ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "لَوْحُ التَّقْطِيعِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْخُضْرَوَاتِ عَلَى اللَّوْحِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_023",
+      "arabic": "مَوْقِدٌ",
+      "meaning_ar": "جِهَازٌ أَوْ مَكَانٌ تُوَلَّدُ فِيهِ الْحَرَارَةُ لِلطَّبْخِ أَوِ التَّدْفِئَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَوْقِدُ الْمَطْبَخِ"
+      ],
+      "examples_ar": [
+        "أَطْفَأَ الْمَوْقِدَ بَعْدَ الطَّبْخِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_024",
+      "arabic": "ثَلَّاجَةٌ",
+      "meaning_ar": "جِهَازٌ يَحْفَظُ الطَّعَامَ وَالشَّرَابَ فِي دَرَجَةِ حَرَارَةٍ مُنْخَفِضَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بَابُ الثَّلَّاجَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْحَلِيبَ فِي الثَّلَّاجَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_025",
+      "arabic": "فُرْنٌ",
+      "meaning_ar": "جِهَازٌ مُغْلَقٌ تُسَخَّنُ فِيهِ الْأَطْعِمَةُ لِلْخَبْزِ أَوِ الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فُرْنُ الْمَطْبَخِ"
+      ],
+      "examples_ar": [
+        "خَبَزَتِ الْأُمُّ الْخُبْزَ فِي الْفُرْنِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_026",
+      "arabic": "غِطَاءٌ",
+      "meaning_ar": "شَيْءٌ يُوضَعُ فَوْقَ شَيْءٍ آخَرَ لِسَتْرِهِ أَوْ حِمَايَتِهِ أَوْ إِغْلَاقِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "غِطَاءُ الْقِدْرِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْغِطَاءَ عَلَى الْقِدْرِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_027",
+      "arabic": "سَلَّةٌ",
+      "meaning_ar": "وِعَاءٌ يُصْنَعُ مِنْ مَوَادَّ مُتَنَوِّعَةٍ وَيُسْتَعْمَلُ لِجَمْعِ الْأَشْيَاءِ وَحَمْلِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سَلَّةُ الْمَلَابِسِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمَلَابِسَ فِي السَّلَّةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    },
+    {
+      "id": "editorial_home_20261025_028",
+      "arabic": "مِكْنَسَةٌ كَهْرَبَائِيَّةٌ",
+      "meaning_ar": "جِهَازٌ يَسْحَبُ الْغُبَارَ وَالْأَوْسَاخَ بِتَيَّارِ هَوَاءٍ إِلَى وِعَاءٍ دَاخِلِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَشْغِيلُ الْمِكْنَسَةِ"
+      ],
+      "examples_ar": [
+        "شَغَّلَ الْمِكْنَسَةَ الْكَهْرَبَائِيَّةَ لِتَنْظِيفِ السَّجَّادَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ اسْتِعْمَالُ هَذِهِ الْكَلِمَةِ بِحَسَبِ السِّيَاقِ وَنَوْعِ الشَّيْءِ الْمَوْصُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_practical_arabic_lexicon",
+      "editorial_level_hint": 1
+    }
+  ]
+}
