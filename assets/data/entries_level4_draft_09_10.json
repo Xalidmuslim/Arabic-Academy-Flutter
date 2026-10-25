@@ -1,0 +1,2110 @@
+{
+  "schema_version": 2,
+  "source_status": "self_authored_candidate_not_official_level4_glossary",
+  "editorial_themes": {
+    "9": "Цифровая безопасность",
+    "10": "Экономика и финансовая грамотность"
+  },
+  "entries": [
+    {
+      "id": "l4u09_001",
+      "arabic": "تَحَقُّقٌ",
+      "meaning_ar": "التَّأَكُّدُ مِنْ أَنَّ الْمَعْلُومَةَ صَحِيحَةٌ بِالْأَدِلَّةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْتَّحَقُّقُ مِنَ الْهُوِيَّةِ"
+      ],
+      "examples_ar": [
+        "يَطْلُبُ الْمَوْقِعُ التَّحَقُّقَ مِنَ الْهُوِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_002",
+      "arabic": "تَشْفِيرٌ",
+      "meaning_ar": "تَحْوِيلُ الْمَعْلُومَاتِ إِلَى رُمُوزٍ لَا يَفْهَمُهَا إِلَّا مَنْ يَمْلِكُ مِفْتَاحَهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَشْفِيرُ الْبَيَانَاتِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ التَّشْفِيرُ عَلَى حِمَايَةِ الرَّسَائِلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_003",
+      "arabic": "اخْتِرَاقٌ",
+      "meaning_ar": "دُخُولٌ إِلَى نِظَامٍ دُونَ إِذْنٍ أَوْ تَجَاوُزُ حِمَايَتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اخْتِرَاقُ الْحِسَابِ"
+      ],
+      "examples_ar": [
+        "أَبْلَغَ الْمُسْتَخْدِمُ عَنْ مُحَاوَلَةِ اخْتِرَاقٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_004",
+      "arabic": "خُصُوصِيَّةٌ",
+      "meaning_ar": "حَقُّ الشَّخْصِ فِي تَحْدِيدِ مَنْ يَطَّلِعُ عَلَى مَعْلُومَاتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْخُصُوصِيَّةِ"
+      ],
+      "examples_ar": [
+        "يَحْرِصُ الْمُسْتَخْدِمُ عَلَى خُصُوصِيَّتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_005",
+      "arabic": "هُوِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ الْمَعْلُومَاتِ الَّتِي تُمَيِّزُ شَخْصًا عَنْ غَيْرِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ هُوِيَّاتٌ"
+      ],
+      "collocations": [
+        "الْهُوِيَّةُ الرَّقْمِيَّةُ"
+      ],
+      "examples_ar": [
+        "يَجِبُ حِفْظُ بَيَانَاتِ الْهُوِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_006",
+      "arabic": "صَلَاحِيَّةٌ",
+      "meaning_ar": "إِذْنٌ يُعْطَى لِشَخْصٍ لِلدُّخُولِ إِلَى مَعْلُومَاتٍ أَوْ أَدَاءِ عَمَلٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَلَاحِيَّاتٌ"
+      ],
+      "collocations": [
+        "صَلَاحِيَّةُ الْوُصُولِ"
+      ],
+      "examples_ar": [
+        "لَا تَمْلِكُ هَذِهِ الْحِسَابَاتُ الصَّلَاحِيَّةَ نَفْسَهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_007",
+      "arabic": "مُصَادَقَةٌ",
+      "meaning_ar": "خُطْوَةٌ تَثْبُتُ فِيهَا هُوِيَّةُ الْمُسْتَخْدِمِ قَبْلَ الدُّخُولِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمُصَادَقَةُ بِالْخُطْوَتَيْنِ"
+      ],
+      "examples_ar": [
+        "تُضِيفُ الْمُصَادَقَةُ حِمَايَةً لِلْحِسَابِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_008",
+      "arabic": "كَلِمَةُ مُرُورٍ",
+      "meaning_ar": "رُمُوزٌ سِرِّيَّةٌ يَسْتَعْمِلُهَا الشَّخْصُ لِلدُّخُولِ إِلَى حِسَابِهِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "كَلِمَةُ مُرُورٍ قَوِيَّةٌ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ كَلِمَةَ مُرُورٍ طَوِيلَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_009",
+      "arabic": "بَصْمَةٌ",
+      "meaning_ar": "عَلَامَةٌ مُخْتَلِفَةٌ لِكُلِّ شَخْصٍ تُؤْخَذُ مِنْ إِصْبَعِهِ أَوْ غَيْرِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَصَمَاتٌ"
+      ],
+      "collocations": [
+        "بَصْمَةُ الْإِصْبَعِ"
+      ],
+      "examples_ar": [
+        "فَتَحَ الْهَاتِفَ بِبَصْمَتِهِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_010",
+      "arabic": "بَيَانَاتٌ",
+      "meaning_ar": "مَعْلُومَاتٌ تُجْمَعُ وَتُحْفَظُ لِاسْتِخْدَامِهَا فِي عَمَلٍ.",
+      "grammar": [
+        "اِسْمُ جَمْعٍ"
+      ],
+      "collocations": [
+        "قَاعِدَةُ الْبَيَانَاتِ"
+      ],
+      "examples_ar": [
+        "تَحْفَظُ الْمُؤَسَّسَةُ بَيَانَاتِهَا بِعِنَايَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_011",
+      "arabic": "تَسَرُّبٌ",
+      "meaning_ar": "خُرُوجُ شَيْءٍ مِنْ مَكَانِهِ دُونَ قَصْدٍ أَوْ إِذْنٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَسَرُّبُ الْبَيَانَاتِ"
+      ],
+      "examples_ar": [
+        "اكتَشَفَ الْمُهَنْدِسُ تَسَرُّبًا لِلْمَعْلُومَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_012",
+      "arabic": "اِحْتِيَالٌ",
+      "meaning_ar": "خِدَاعُ شَخْصٍ لِلْحُصُولِ عَلَى مَالِهِ أَوْ مَعْلُومَاتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الِاحْتِيَالُ الْإِلِكْتُرُونِيُّ"
+      ],
+      "examples_ar": [
+        "تَحْذَرُ الشَّرِكَةُ مِنَ الِاحْتِيَالِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_013",
+      "arabic": "مُحْتَالٌ",
+      "meaning_ar": "شَخْصٌ يَخْدَعُ غَيْرَهُ لِيَأْخُذَ مَا لَا يَحِقُّ لَهُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُحْتَالُونَ"
+      ],
+      "collocations": [
+        "رِسَالَةُ الْمُحْتَالِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُحْتَالُ رِسَالَةً كَاذِبَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_014",
+      "arabic": "اِنْتِحَالٌ",
+      "meaning_ar": "ادِّعَاءُ شَخْصٍ أَنَّهُ شَخْصٌ آخَرُ أَوْ أَنَّ عَمَلَ غَيْرِهِ لَهُ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اِنْتِحَالُ الشَّخْصِيَّةِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ النِّظَامُ مُحَاوَلَةَ انْتِحَالٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_015",
+      "arabic": "بَرْمَجِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ تَعْلِيمَاتٍ يَنْفِّذُهَا الْحَاسُوبُ لِأَدَاءِ مَهَمَّةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَرْمَجِيَّاتٌ"
+      ],
+      "collocations": [
+        "بَرْمَجِيَّةُ الْحِمَايَةِ"
+      ],
+      "examples_ar": [
+        "حَدَّثَ الْمُهَنْدِسُ الْبَرْمَجِيَّةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_016",
+      "arabic": "ثَغْرَةٌ",
+      "meaning_ar": "نُقْطَةُ ضَعْفٍ فِي نِظَامٍ تَسْمَحُ بِتَجَاوُزِ حِمَايَتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثَغَرَاتٌ"
+      ],
+      "collocations": [
+        "ثَغْرَةٌ أَمْنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَصْلَحَ الْمُطَوِّرُ ثَغْرَةً فِي التَّطْبِيقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_017",
+      "arabic": "جِدَارٌ نَارِيٌّ",
+      "meaning_ar": "نِظَامٌ يُرَاقِبُ اتِّصَالَاتِ الشَّبَكَةِ وَيَمْنَعُ بَعْضَ غَيْرِ الْمَسْمُوحِ بِهِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادُ الْجِدَارِ النَّارِيِّ"
+      ],
+      "examples_ar": [
+        "يَحْمِي الْجِدَارُ النَّارِيُّ الشَّبَكَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_018",
+      "arabic": "تَحْدِيثٌ",
+      "meaning_ar": "إِضَافَةُ إِصْلَاحَاتٍ وَتَغْيِيرَاتٍ لِجَعْلِ النِّظَامِ أَفْضَلَ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْدِيثُ النِّظَامِ"
+      ],
+      "examples_ar": [
+        "يُثَبِّتُ الْمُسْتَخْدِمُ التَّحْدِيثَ الْجَدِيدَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_019",
+      "arabic": "نُسْخَةٌ احْتِيَاطِيَّةٌ",
+      "meaning_ar": "صُورَةٌ مِنَ الْمَلَفَّاتِ تُحْفَظُ لِاسْتِعَادَتِهَا عِنْدَ ضَيَاعِ الْأَصْلِ.",
+      "grammar": [
+        "تَرْكِيبٌ اِسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِفْظُ نُسْخَةٍ احْتِيَاطِيَّةٍ"
+      ],
+      "examples_ar": [
+        "أَنْشَأْتُ نُسْخَةً احْتِيَاطِيَّةً لِلْمَلَفَّاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_020",
+      "arabic": "اِسْتِعَادَةٌ",
+      "meaning_ar": "إِرْجَاعُ شَيْءٍ بَعْدَ فَقْدِهِ أَوْ حَذْفِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اِسْتِعَادَةُ الْمَلَفَّاتِ"
+      ],
+      "examples_ar": [
+        "نَجَحَتْ عَمَلِيَّةُ اسْتِعَادَةِ الْبَيَانَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_021",
+      "arabic": "تَصَيُّدٌ",
+      "meaning_ar": "مُحَاوَلَةُ خِدَاعِ شَخْصٍ بِرِسَالَةٍ مُزَيَّفَةٍ لِلْحُصُولِ عَلَى مَعْلُومَاتِهِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رِسَالَةُ تَصَيُّدٍ"
+      ],
+      "examples_ar": [
+        "حَذَفَ الْمُوَظَّفُ رِسَالَةَ تَصَيُّدٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_022",
+      "arabic": "تَنْبِيهٌ",
+      "meaning_ar": "إِشَارَةٌ أَوْ رِسَالَةٌ تُعْلِمُ الشَّخْصَ بِأَمْرٍ مُهِمٍّ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَنْبِيهَاتٌ"
+      ],
+      "collocations": [
+        "تَنْبِيهٌ أَمْنِيٌّ"
+      ],
+      "examples_ar": [
+        "وَصَلَ تَنْبِيهٌ عَنْ دُخُولٍ غَيْرِ مَعْرُوفٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_023",
+      "arabic": "وُصُولٌ",
+      "meaning_ar": "بُلُوغُ شَخْصٍ إِلَى مَكَانٍ أَوْ بَيَانَاتٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَقُّ الْوُصُولِ"
+      ],
+      "examples_ar": [
+        "يَقْتَصِرُ الْوُصُولُ عَلَى الْمُوَظَّفِينَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_024",
+      "arabic": "اِمْتِيَازٌ",
+      "meaning_ar": "حَقٌّ خَاصٌّ يُعْطَى لِشَخْصٍ دُونَ جَمِيعِ النَّاسِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ امْتِيَازَاتٌ"
+      ],
+      "collocations": [
+        "امْتِيَازَاتُ الْمُدِيرِ"
+      ],
+      "examples_ar": [
+        "قَلَّلَ الْمُدِيرُ امْتِيَازَاتِ الْحِسَابِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u09_025",
+      "arabic": "تَدْقِيقٌ",
+      "meaning_ar": "فَحْصٌ دَقِيقٌ لِلتَّأَكُّدِ مِنْ صِحَّةِ شَيْءٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَدْقِيقُ السِّجِلَّاتِ"
+      ],
+      "examples_ar": [
+        "أَجْرَتِ الْفِرْقَةُ تَدْقِيقًا أَمْنِيًّا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 9,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 9,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_001",
+      "arabic": "مِيزَانِيَّةٌ",
+      "meaning_ar": "خُطَّةٌ تُبَيِّنُ الْمَالَ الْمُتَوَقَّعَ دُخُولُهُ وَالْمَالَ الَّذِي سَيُنْفَقُ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مِيزَانِيَّاتٌ"
+      ],
+      "collocations": [
+        "مِيزَانِيَّةُ الْمَشْرُوعِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُدِيرُ مِيزَانِيَّةً لِلسَّنَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 1,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 1,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_002",
+      "arabic": "إِيرَادٌ",
+      "meaning_ar": "مَالٌ يَدْخُلُ إِلَى الشَّرِكَةِ أَوِ الدَّوْلَةِ مِنْ عَمَلِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِيرَادَاتٌ"
+      ],
+      "collocations": [
+        "إِيرَادَاتُ الْمَبِيعَاتِ"
+      ],
+      "examples_ar": [
+        "زَادَتْ إِيرَادَاتُ الْمَتْجَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 2,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 2,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_003",
+      "arabic": "نَفَقَةٌ",
+      "meaning_ar": "مَالٌ يُصْرَفُ عَلَى حَاجَةٍ أَوْ خِدْمَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَفَقَاتٌ"
+      ],
+      "collocations": [
+        "نَفَقَاتُ الْأُسْرَةِ"
+      ],
+      "examples_ar": [
+        "تُرَاجِعُ الْأُسْرَةُ نَفَقَاتِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 3,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 3,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_004",
+      "arabic": "مَصْرُوفٌ",
+      "meaning_ar": "مَالٌ يُدْفَعُ لِشِرَاءِ شَيْءٍ أَوْ أَدَاءِ خِدْمَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَصْرُوفَاتٌ"
+      ],
+      "collocations": [
+        "الْمَصْرُوفَاتُ الشَّهْرِيَّةُ"
+      ],
+      "examples_ar": [
+        "قَلَّلَتِ الشَّرِكَةُ مَصْرُوفَاتِهَا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 4,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 4,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_005",
+      "arabic": "فَائِضٌ",
+      "meaning_ar": "مِقْدَارٌ يَبْقَى بَعْدَ تَغْطِيَةِ الْحَاجَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فَائِضُ الْمِيزَانِيَّةِ"
+      ],
+      "examples_ar": [
+        "بَقِيَ فَائِضٌ بَعْدَ سَدَادِ النَّفَقَاتِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 5,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 5,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_006",
+      "arabic": "عَجْزٌ",
+      "meaning_ar": "نَقْصٌ يَحْدُثُ عِنْدَمَا تَزِيدُ النَّفَقَاتُ عَلَى الْمَوَارِدِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَجْزُ الْمِيزَانِيَّةِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ عَجْزٌ فِي الْمِيزَانِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 6,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 6,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_007",
+      "arabic": "أَصْلٌ",
+      "meaning_ar": "شَيْءٌ لَهُ قِيمَةٌ تَمْلِكُهُ مُؤَسَّسَةٌ أَوْ شَخْصٌ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أُصُولٌ"
+      ],
+      "collocations": [
+        "أُصُولُ الشَّرِكَةِ"
+      ],
+      "examples_ar": [
+        "تَمْتَلِكُ الشَّرِكَةُ أُصُولًا مُتَعَدِّدَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 7,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 7,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_008",
+      "arabic": "خَصْمٌ",
+      "meaning_ar": "نَقْصٌ مِنَ السِّعْرِ أَوْ مَبْلَغٌ يُطْرَحُ مِنَ الْقِيمَةِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُصُومٌ"
+      ],
+      "collocations": [
+        "خَصْمٌ مِنَ السِّعْرِ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الْمُشْتَرِي عَلَى خَصْمٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 8,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 8,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_009",
+      "arabic": "دَيْنٌ",
+      "meaning_ar": "مَالٌ يَجِبُ عَلَى شَخْصٍ أَنْ يَرُدَّهُ إِلَى غَيْرِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دُيُونٌ"
+      ],
+      "collocations": [
+        "سَدَادُ الدَّيْنِ"
+      ],
+      "examples_ar": [
+        "سَدَّدَ الرَّجُلُ دَيْنَهُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 9,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 9,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_010",
+      "arabic": "قَرْضٌ",
+      "meaning_ar": "مَالٌ يُعْطَى لِشَخْصٍ عَلَى أَنْ يُعِيدَهُ بَعْدَ مُدَّةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُرُوضٌ"
+      ],
+      "collocations": [
+        "قَرْضٌ حَسَنٌ"
+      ],
+      "examples_ar": [
+        "اسْتَعَانَ التَّاجِرُ بِقَرْضٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 10,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 10,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_011",
+      "arabic": "ضَمَانٌ",
+      "meaning_ar": "تَعَهُّدٌ بِتَحَمُّلِ مَسْؤُولِيَّةٍ أَوْ بِإِصْلَاحِ شَيْءٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "ضَمَانُ الْمُنْتَجِ"
+      ],
+      "examples_ar": [
+        "يَشْمَلُ الْجِهَازُ ضَمَانًا لِسَنَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 11,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 11,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_012",
+      "arabic": "عَائِدٌ",
+      "meaning_ar": "مَالٌ أَوْ مَنْفَعَةٌ تَنْتُجُ مِنْ عَمَلٍ أَوْ اسْتِثْمَارٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَوَائِدُ"
+      ],
+      "collocations": [
+        "عَائِدُ الِاسْتِثْمَارِ"
+      ],
+      "examples_ar": [
+        "حَقَّقَ الْمَشْرُوعُ عَائِدًا جَيِّدًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 12,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 12,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_013",
+      "arabic": "رِبْحٌ",
+      "meaning_ar": "مَالٌ يَبْقَى بَعْدَ طَرْحِ تَكَالِيفِ الْعَمَلِ مِنْ إِيرَادَاتِهِ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَرْبَاحٌ"
+      ],
+      "collocations": [
+        "صَافِي الرِّبْحِ"
+      ],
+      "examples_ar": [
+        "حَقَّقَ الْمَتْجَرُ رِبْحًا."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 13,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 13,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_014",
+      "arabic": "خَسَارَةٌ",
+      "meaning_ar": "نَقْصٌ فِي الْمَالِ أَوْ فَقْدُ مَنْفَعَةٍ مُتَوَقَّعَةٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَسَائِرُ"
+      ],
+      "collocations": [
+        "خَسَارَةٌ مَالِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَجَنَّبَ الْمَشْرُوعُ خَسَارَةً كَبِيرَةً."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 14,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 14,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_015",
+      "arabic": "سِيُولَةٌ",
+      "meaning_ar": "مَالٌ مُتَاحٌ لِلدَّفْعِ بِسُرْعَةٍ عِنْدَ الْحَاجَةِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "السُّيُولَةُ الْمَالِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَحْتَاجُ الشَّرِكَةُ إِلَى سُيُولَةٍ لِدَفْعِ الرَّوَاتِبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 15,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 15,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_016",
+      "arabic": "تَضَخُّمٌ",
+      "meaning_ar": "زِيَادَةٌ عَامَّةٌ فِي أَسْعَارِ السِّلَعِ وَالْخَدَمَاتِ مَعَ الْوَقْتِ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ التَّضَخُّمِ"
+      ],
+      "examples_ar": [
+        "يُؤَثِّرُ التَّضَخُّمُ فِي الْقُدْرَةِ الشِّرَائِيَّةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 16,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 16,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_017",
+      "arabic": "رُكُودٌ",
+      "meaning_ar": "ضَعْفٌ مُسْتَمِرٌّ فِي النَّشَاطِ الِاقْتِصَادِيِّ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الرُّكُودُ الِاقْتِصَادِيُّ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَتِ الْمَبِيعَاتُ أَثْنَاءَ الرُّكُودِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 17,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 17,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_018",
+      "arabic": "تَنَمِّيَةٌ",
+      "meaning_ar": "عَمَلٌ يُحَسِّنُ الْقُدْرَاتِ وَالْمَوَارِدَ بِصُورَةٍ مُنَظَّمَةٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّنْمِيَةُ الْمُسْتَدَامَةُ"
+      ],
+      "examples_ar": [
+        "تُسَاهِمُ الْمَشَارِيعُ فِي التَّنْمِيَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 18,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 18,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_019",
+      "arabic": "مُسْتَدَامٌ",
+      "meaning_ar": "مَا يُمْكِنُ اسْتِمْرَارُهُ دُونَ اسْتِنْفَادِ الْمَوَارِدِ.",
+      "grammar": [
+        "صِفَةٌ؛ الْمُؤَنَّثُ مُسْتَدَامَةٌ"
+      ],
+      "collocations": [
+        "نُمُوٌّ مُسْتَدَامٌ"
+      ],
+      "examples_ar": [
+        "تَبْحَثُ الْمَدِينَةُ عَنْ حُلُولٍ مُسْتَدَامَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 19,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 19,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_020",
+      "arabic": "اسْتِثْمَارٌ",
+      "meaning_ar": "تَوْجِيهُ الْمَالِ إِلَى مَشْرُوعٍ لِتَحْقِيقِ عَائِدٍ مُسْتَقْبَلِيٍّ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خُطَّةُ الِاسْتِثْمَارِ"
+      ],
+      "examples_ar": [
+        "يَدْرُسُ التَّاجِرُ فُرَصَ الِاسْتِثْمَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 20,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 20,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_021",
+      "arabic": "مُخَاطَرَةٌ",
+      "meaning_ar": "احْتِمَالُ وُقُوعِ خَسَارَةٍ أَوْ ضَرَرٍ عِنْدَ اتِّخَاذِ قَرَارٍ.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخَاطَرَاتٌ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْمُخَاطَرَةِ"
+      ],
+      "examples_ar": [
+        "يُقَيِّمُ الْمُدِيرُ الْمُخَاطَرَاتِ قَبْلَ الْقَرَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 21,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 21,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_022",
+      "arabic": "جَدْوَى",
+      "meaning_ar": "مَنْفَعَةُ مَشْرُوعٍ وَإِمْكَانُ تَنْفِيذِهِ بِنَجَاحٍ.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْجَدْوَى"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْفَرِيقُ دِرَاسَةَ جَدْوَى."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 22,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 22,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_023",
+      "arabic": "مُنَافَسَةٌ",
+      "meaning_ar": "مُحَاوَلَةُ أَطْرَافٍ تَحْقِيقَ نَتِيجَةٍ أَفْضَلَ مِنْ غَيْرِهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْمُنَافَسَةُ فِي السُّوقِ"
+      ],
+      "examples_ar": [
+        "زَادَتِ الْمُنَافَسَةُ بَيْنَ الْمَتَاجِرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 23,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 23,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_024",
+      "arabic": "احْتِكَارٌ",
+      "meaning_ar": "سَيْطَرَةُ جِهَةٍ عَلَى بَيْعِ سِلْعَةٍ وَمَنْعُ الْمُنَافَسَةِ فِيهَا.",
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "احْتِكَارُ السِّلْعَةِ"
+      ],
+      "examples_ar": [
+        "تَمْنَعُ الْأَنْظِمَةُ بَعْضَ صُوَرِ الِاحْتِكَارِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 24,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 24,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    },
+    {
+      "id": "l4u10_025",
+      "arabic": "ضَرِيبَةٌ",
+      "meaning_ar": "مَالٌ تَفْرِضُهُ الدَّوْلَةُ وَتَجْمَعُهُ لِتَمْوِيلِ خَدَمَاتِهَا.",
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ضَرَائِبُ"
+      ],
+      "collocations": [
+        "ضَرِيبَةُ الْمَبِيعَاتِ"
+      ],
+      "examples_ar": [
+        "دَفَعَتِ الشَّرِكَةُ الضَّرِيبَةَ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "additional_meanings_ar": [],
+      "usage_note_ar": "",
+      "book_references": [
+        {
+          "source_type": "original_editorial_theme_unverified",
+          "book": 4,
+          "part": 2,
+          "chapter": 10,
+          "index": 25,
+          "official_end_glossary_checked": false,
+          "chapter_title_not_verified": true,
+          "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+        }
+      ],
+      "book_reference": {
+        "source_type": "original_editorial_theme_unverified",
+        "book": 4,
+        "part": 2,
+        "chapter": 10,
+        "index": 25,
+        "official_end_glossary_checked": false,
+        "chapter_title_not_verified": true,
+        "attribution_note": "Independent learner explanations. Neither unit title nor headword presence checked with official level 4 books."
+      },
+      "source_group": "level4_editorial_draft_unverified",
+      "sources": []
+    }
+  ]
+}
