@@ -53,6 +53,17 @@ def load_corpus() -> dict:
                                r["chapter"] == ref["chapter"] for r in refs):
                         refs.append(ref)
                 existing["book_references"] = refs
+                # Each chunk may define an independent contextual meaning of
+                # the same headword. Keep the first definition primary, but
+                # retain later distinct primary definitions as secondary senses.
+                incoming_meaning = entry.get("meaning_ar")
+                if (isinstance(incoming_meaning, str)
+                        and incoming_meaning
+                        and incoming_meaning != existing.get("meaning_ar")):
+                    senses = list(existing.get("additional_meanings_ar") or [])
+                    if incoming_meaning not in senses:
+                        senses.append(incoming_meaning)
+                    existing["additional_meanings_ar"] = senses
                 for field in LEXICAL_ARRAYS:
                     previous = list(existing.get(field) or [])
                     for value in entry.get(field) or []:
