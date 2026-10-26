@@ -1,0 +1,94 @@
+name: Bayna Yadayk reference QA (manual, no APK rebuild)
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: 'Main Bayna Flutter source branch containing the images'
+        required: true
+        default: 'codex/bayna-v52-input-cadence-20261025'
+        type: string
+      reference:
+        description: 'Approved full-resolution reference PNG in source branch'
+        required: true
+        default: 'visual-qa/reference/home.png'
+        type: string
+      actual:
+        description: 'Actual screenshot PNG in source branch, same screen and resolution'
+        required: true
+        default: 'visual-qa/actual/home.png'
+        type: string
+      tolerance:
+        description: 'Ignored channel delta 0-255'
+        default: '2'
+        required: true
+        type: string
+      max_changed_percent:
+        description: 'Maximum changed pixels percentage (0..100)'
+        default: '0.5'
+        required: true
+        type: string
+      mask:
+        description: 'Optional JSON mask path, at most 20 percent'
+        default: ''
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Read selected Bayna source branch, not main prototype
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref }}
+          persist-credentials: false
+      - name: Read pinned tested AI-Council visual comparator
+        uses: actions/checkout@v4
+        with:
+          repository: Xalidmuslim/AI-Council
+          ref: bc3ba3e60014fb790a689c3f90f96b6a558a2daf
+          path: _reference_qa_tool
+          persist-credentials: false
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install pixel comparator dependencies
+        run: python -m pip install -r _reference_qa_tool/requirements-visual-qa.txt
+      - name: Check Bayna performance safeguards without modifying code
+        run: python3 scripts/verify_performance_contract.py
+      - name: Compare reference and app screenshot, no resizing
+        env:
+          REFERENCE: ${{ inputs.reference }}
+          ACTUAL: ${{ inputs.actual }}
+          TOLERANCE: ${{ inputs.tolerance }}
+          MAX_CHANGED: ${{ inputs.max_changed_percent }}
+          MASK_FILE: ${{ inputs.mask }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          args=("$REFERENCE" "$ACTUAL" --out-dir visual-qa-report
+                --tolerance "$TOLERANCE" --max-changed-percent "$MAX_CHANGED")
+          if [[ -n "$MASK_FILE" ]]; then args+=(--mask "$MASK_FILE"); fi
+          python _reference_qa_tool/tools/reference_qa.py "${args[@]}"
+      - name: Record comparison result
+        if: always()
+        shell: bash
+        run: |
+          if [[ -f visual-qa-report/summary.md ]]; then
+            cat visual-qa-report/summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'QA did not run or failed before producing a report; read logs.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Save pixel difference report even if comparison fails
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bayna-reference-qa-report
+          path: visual-qa-report/
+          if-no-files-found: warn
+          retention-days: 14
