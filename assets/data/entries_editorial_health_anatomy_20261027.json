@@ -1,0 +1,4032 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_health_anatomy_20261027_001",
+      "arabic": "جِهَازٌ عَصَبِيٌّ",
+      "meaning_ar": "مَنْظُومَةُ أَعْضَاءٍ وَخَلَايَا تَنْقُلُ الإِشَارَاتِ وَتُنَسِّقُ وَظَائِفَ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظَائِفُ الْجِهَازِ"
+      ],
+      "examples_ar": [
+        "يَدْرُسُ الطَّالِبُ الْجِهَازَ الْعَصَبِيَّ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الدِّمَاغَ وَالنُّخَاعَ وَالأَعْصَابَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_002",
+      "arabic": "جِهَازٌ دَوْرِيٌّ",
+      "meaning_ar": "مَنْظُومَةٌ تَنْقُلُ الدَّمَ بَيْنَ الْقَلْبِ وَأَنْسِجَةِ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الدَّوْرَةُ الدَّمَوِيَّةُ"
+      ],
+      "examples_ar": [
+        "يَنْقُلُ الْجِهَازُ الدَّوْرِيُّ الأُكْسِجِينَ إِلَى الْأَعْضَاءِ."
+      ],
+      "usage_note_ar": "يَضُمُّ الْقَلْبَ وَالأَوْعِيَةَ الدَّمَوِيَّةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_003",
+      "arabic": "جِهَازٌ تَنَفُّسِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ أَعْضَاءٍ تُسَاعِدُ عَلَى دُخُولِ الْهَوَاءِ وَتَبَادُلِ الْغَازَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ الرِّئَتَيْنِ"
+      ],
+      "examples_ar": [
+        "يَزْدَادُ عَمَلُ الْجِهَازِ التَّنَفُّسِيِّ مَعَ الْجُهْدِ."
+      ],
+      "usage_note_ar": "يَتَضَمَّنُ الْأَنْفَ وَالْقَصَبَةَ وَالرِّئَتَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_004",
+      "arabic": "جِهَازٌ هَضْمِيٌّ",
+      "meaning_ar": "مَنْظُومَةُ أَعْضَاءٍ تُفَتِّتُ الطَّعَامَ وَتَمْتَصُّ الْمُغَذِّيَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ الْهَضْمِ"
+      ],
+      "examples_ar": [
+        "يَمُرُّ الطَّعَامُ بِالْمَعِدَةِ وَالأَمْعَاءِ."
+      ],
+      "usage_note_ar": "يَضُمُّ أَعْضَاءً مُسَاعِدَةً كَالْكَبِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_005",
+      "arabic": "جِهَازٌ بَوْلِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ أَعْضَاءٍ تُنَقِّي الدَّمَ وَتُخْرِجُ الْفَضَلَاتِ مَعَ الْبَوْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظَائِفُ الْكُلْيَتَيْنِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ الْجِهَازُ الْبَوْلِيُّ عَلَى تَنْظِيمِ الْمَاءِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْكُلْيَتَيْنِ وَالْحَالِبَيْنِ وَالْمَثَانَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_006",
+      "arabic": "جِهَازٌ لِمْفَاوِيٌّ",
+      "meaning_ar": "مَنْظُومَةُ أَوْعِيَةٍ وَعُقَدٍ تُسَاهِمُ فِي إِعَادَةِ السَّوَائِلِ وَالدِّفَاعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الأَوْعِيَةُ اللِّمْفَاوِيَّةُ"
+      ],
+      "examples_ar": [
+        "يَنْقُلُ الْجِهَازُ اللِّمْفَاوِيُّ السَّائِلَ اللِّمْفِيَّ."
+      ],
+      "usage_note_ar": "يَتَعَاوَنُ مَعَ الْجِهَازِ الْمَنَاعِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_007",
+      "arabic": "جِهَازٌ مَنَاعِيٌّ",
+      "meaning_ar": "خَلَايَا وَأَعْضَاءٌ تُسَاهِمُ فِي حِمَايَةِ الْجِسْمِ مِنَ الْعَوَامِلِ الْمُمْرِضَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اسْتِجَابَةٌ مَنَاعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "يَتَعَرَّفُ الْجِهَازُ الْمَنَاعِيُّ إِلَى أَجْسَامٍ غَرِيبَةٍ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِيهِ حَالَةُ الْجِسْمِ وَمُسَبِّبَاتُ الْعَدْوَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_008",
+      "arabic": "جِهَازٌ غُدِّيٌّ",
+      "meaning_ar": "مَنْظُومَةُ غُدَدٍ تُفْرِزُ هَرْمُونَاتٍ تُنَظِّمُ وَظَائِفَ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الْغُدَدُ الصَّمَّاءُ"
+      ],
+      "examples_ar": [
+        "تُسَاهِمُ الْغُدَدُ فِي تَنْظِيمِ النُّمُوِّ."
+      ],
+      "usage_note_ar": "تَصِلُ الْهَرْمُونَاتُ إِلَى أَعْضَاءَ بَعِيدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_009",
+      "arabic": "جِهَازٌ عَضَلِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ الْعَضَلَاتِ الَّتِي تُحَرِّكُ الْجِسْمَ وَتُثَبِّتُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الْعَضَلَاتُ الْهَيْكَلِيَّةُ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الرَّجُلُ عَضَلَاتِ سَاقِهِ لِلْمَشْيِ."
+      ],
+      "usage_note_ar": "تَعْمَلُ أَنْوَاعُ الْعَضَلَاتِ بِطُرُقٍ مُخْتَلِفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_010",
+      "arabic": "جِهَازٌ هَيْكَلِيٌّ",
+      "meaning_ar": "مَنْظُومَةُ الْعِظَامِ وَالْمَفَاصِلِ الَّتِي تَدْعَمُ الْجِسْمَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بِنْيَةُ الْهَيْكَلِ"
+      ],
+      "examples_ar": [
+        "يَحْمِي الْقَفَصُ الصَّدْرِيُّ أَعْضَاءً دَاخِلِيَّةً."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي الْحِمَايَةِ وَالْحَرَكَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_011",
+      "arabic": "دِمَاغٌ",
+      "meaning_ar": "عُضْوٌ عَصَبِيٌّ فِي الْجُمْجُمَةِ يُنَظِّمُ الإِدْرَاكَ وَالْحَرَكَةَ وَوَظَائِفَ كَثِيرَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَشَاطُ الدِّمَاغِ"
+      ],
+      "examples_ar": [
+        "يُعَالِجُ الدِّمَاغُ الْمَعْلُومَاتِ الْحِسِّيَّةَ."
+      ],
+      "usage_note_ar": "تَتَعَاوَنُ مَنَاطِقُهُ فِي الْوَظَائِفِ الْمُعَقَّدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_012",
+      "arabic": "قِشْرَةٌ دِمَاغِيَّةٌ",
+      "meaning_ar": "طَبَقَةٌ خَارِجِيَّةٌ مِنَ الدِّمَاغِ تُسَاهِمُ فِي الْإِدْرَاكِ وَالْحَرَكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَنَاطِقُ الْقِشْرَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ نَشَاطَ الْقِشْرَةِ الدِّمَاغِيَّةِ."
+      ],
+      "usage_note_ar": "لَهَا مَنَاطِقُ مُتَخَصِّصَةٌ وَمُتَرَابِطَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_013",
+      "arabic": "مُخَيْخٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الدِّمَاغِ يُسَاهِمُ فِي التَّوَازُنِ وَتَنْسِيقِ الْحَرَكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ الْمُخَيْخِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ دَوْرَ الْمُخَيْخِ."
+      ],
+      "usage_note_ar": "يَتَعَاوَنُ مَعَ مَنَاطِقَ عَصَبِيَّةٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_014",
+      "arabic": "جِذْعُ الدِّمَاغِ",
+      "meaning_ar": "جُزْءٌ يَرْبِطُ الدِّمَاغَ بِالنُّخَاعِ الشَّوْكِيِّ وَيُنَظِّمُ وَظَائِفَ حَيَوِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَرَاكِزُ الْجِذْعِ"
+      ],
+      "examples_ar": [
+        "يُسَاهِمُ جِذْعُ الدِّمَاغِ فِي تَنْظِيمِ التَّنَفُّسِ."
+      ],
+      "usage_note_ar": "يَمُرُّ فِيهِ كَثِيرٌ مِنَ الْمَسَارَاتِ الْعَصَبِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_015",
+      "arabic": "نُخَاعٌ شَوْكِيٌّ",
+      "meaning_ar": "حَبْلٌ مِنَ النَّسِيجِ الْعَصَبِيِّ يَنْقُلُ الْإِشَارَاتِ بَيْنَ الدِّمَاغِ وَالْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حِمَايَةُ النُّخَاعِ"
+      ],
+      "examples_ar": [
+        "يَمْرُّ النُّخَاعُ الشَّوْكِيُّ دَاخِلَ الْعَمُودِ الْفَقَرِيِّ."
+      ],
+      "usage_note_ar": "يُسَاهِمُ أَيْضًا فِي بَعْضِ الْمُنْعَكَسَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_016",
+      "arabic": "خَلِيَّةٌ عَصَبِيَّةٌ",
+      "meaning_ar": "خَلِيَّةٌ مُتَخَصِّصَةٌ تَنْقُلُ الْإِشَارَاتِ الْكَهْرُوكِيمِيَائِيَّةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اتِّصَالُ الْخَلَايَا"
+      ],
+      "examples_ar": [
+        "تَنْقُلُ الْخَلَايَا الْعَصَبِيَّةُ الْمَعْلُومَاتِ."
+      ],
+      "usage_note_ar": "تَتَّصِلُ بِالْمَشَابِكِ الْعَصَبِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_017",
+      "arabic": "مَشْبَكٌ عَصَبِيٌّ",
+      "meaning_ar": "مَوْضِعُ اتِّصَالٍ بَيْنَ خَلِيَّتَيْنِ تَنْتَقِلُ فِيهِ الْإِشَارَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَقْلُ الْإِشَارَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ الْمَشْبَكَ الْعَصَبِيَّ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ كِيمِيَائِيًّا أَوْ كَهْرَبَائِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_018",
+      "arabic": "نَاقِلٌ عَصَبِيٌّ",
+      "meaning_ar": "مَادَّةٌ كِيمِيَائِيَّةٌ تَنْقُلُ الْإِشَارَةَ بَيْنَ خَلَايَا عَصَبِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِفْرَازُ النَّاقِلِ"
+      ],
+      "examples_ar": [
+        "يُفْرَزُ النَّاقِلُ عِنْدَ بَعْضِ الْمَشَابِكِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ آثَارُهُ بِحَسَبِ الْمُسْتَقْبِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_019",
+      "arabic": "عَصَبٌ حِسِّيٌّ",
+      "meaning_ar": "عَصَبٌ يَنْقُلُ مَعْلُومَاتٍ مِنَ الْجِسْمِ إِلَى الْجِهَازِ الْعَصَبِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِشَارَةٌ حِسِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْعَصَبُ الْإِحْسَاسَ بِاللَّمْسِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْعَصَبِ الْحَرَكِيِّ فِي اتِّجَاهِ الإِشَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_020",
+      "arabic": "عَصَبٌ حَرَكِيٌّ",
+      "meaning_ar": "عَصَبٌ يَنْقُلُ أَوَامِرَ مِنَ الْجِهَازِ الْعَصَبِيِّ إِلَى الْعَضَلَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "أَمْرٌ حَرَكِيٌّ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْعَصَبُ إِشَارَةً إِلَى الْعَضَلَةِ."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي تَنْفِيذِ الْحَرَكَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_021",
+      "arabic": "مُنْعَكَسٌ عَصَبِيٌّ",
+      "meaning_ar": "اسْتِجَابَةٌ سَرِيعَةٌ تَحْدُثُ عِنْدَ مُنَبِّهٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَوْسُ الْمُنْعَكَسِ"
+      ],
+      "examples_ar": [
+        "سَحَبَ الطِّفْلُ يَدَهُ عِنْدَ لَمْسِ السَّاخِنِ."
+      ],
+      "usage_note_ar": "لَا يَحْتَاجُ بَعْضُهُ إِلَى قَرَارٍ وَاعٍ مُسْبَقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_022",
+      "arabic": "قَلْبٌ",
+      "meaning_ar": "عُضْوٌ عَضَلِيٌّ يَضُخُّ الدَّمَ فِي الأَوْعِيَةِ وَيُحَافِظُ عَلَى الدَّوَرَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَبْضُ الْقَلْبِ"
+      ],
+      "examples_ar": [
+        "يَزْدَادُ نَبْضُ الْقَلْبِ أَثْنَاءَ الْجَرْيِ."
+      ],
+      "usage_note_ar": "يَحْوِي حُجُرَاتٍ وَصِمَامَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_023",
+      "arabic": "أُذَيْنٌ أَيْمَنُ",
+      "meaning_ar": "حُجْرَةٌ عُلْوِيَّةٌ مِنَ الْقَلْبِ تَسْتَقْبِلُ الدَّمَ الْعَائِدَ مِنَ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "امْتِلَاءُ الْأُذَيْنِ"
+      ],
+      "examples_ar": [
+        "يَصِلُ الدَّمُ الْوَرِيدِيُّ إِلَى الأُذَيْنِ الأَيْمَنِ."
+      ],
+      "usage_note_ar": "يُنْقَلُ مِنْهُ الدَّمُ إِلَى الْبُطَيْنِ الأَيْمَنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_024",
+      "arabic": "أُذَيْنٌ أَيْسَرُ",
+      "meaning_ar": "حُجْرَةٌ عُلْوِيَّةٌ مِنَ الْقَلْبِ تَسْتَقْبِلُ الدَّمَ الْعَائِدَ مِنَ الرِّئَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "امْتِلَاءُ الْأُذَيْنِ"
+      ],
+      "examples_ar": [
+        "يَصِلُ الدَّمُ مِنَ الرِّئَتَيْنِ إِلَى الأُذَيْنِ الأَيْسَرِ."
+      ],
+      "usage_note_ar": "يَنْقُلُ الدَّمَ إِلَى الْبُطَيْنِ الأَيْسَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_025",
+      "arabic": "بُطَيْنٌ أَيْمَنُ",
+      "meaning_ar": "حُجْرَةٌ سُفْلِيَّةٌ فِي الْقَلْبِ تَضُخُّ الدَّمَ نَحْوَ الرِّئَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "انْقِبَاضُ الْبُطَيْنِ"
+      ],
+      "examples_ar": [
+        "يَدْفَعُ الْبُطَيْنُ الأَيْمَنُ الدَّمَ إِلَى الشِّرْيَانِ الرِّئَوِيِّ."
+      ],
+      "usage_note_ar": "يَعْمَلُ بِضَغْطٍ أَقَلَّ مِنَ الْبُطَيْنِ الأَيْسَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_026",
+      "arabic": "بُطَيْنٌ أَيْسَرُ",
+      "meaning_ar": "حُجْرَةٌ سُفْلِيَّةٌ مِنَ الْقَلْبِ تَضُخُّ الدَّمَ إِلَى شَرَايِينِ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جِدَارُ الْبُطَيْنِ"
+      ],
+      "examples_ar": [
+        "يَدْفَعُ الْبُطَيْنُ الأَيْسَرُ الدَّمَ إِلَى الأَبْهَرِ."
+      ],
+      "usage_note_ar": "لَهُ جِدَارٌ عَضَلِيٌّ سَمِيكٌ نِسْبِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_027",
+      "arabic": "صِمَامٌ قَلْبِيٌّ",
+      "meaning_ar": "تَرْكِيبٌ فِي الْقَلْبِ يُنَظِّمُ اتِّجَاهَ تَدَفُّقِ الدَّمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "فَتْحُ الصِّمَامِ"
+      ],
+      "examples_ar": [
+        "يُغْلِقُ الصِّمَامُ عِنْدَ اخْتِلَافِ الضَّغْطِ."
+      ],
+      "usage_note_ar": "يُقَلِّلُ رُجُوعَ الدَّمِ فِي الِاتِّجَاهِ الْعَكْسِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_028",
+      "arabic": "شِرْيَانٌ",
+      "meaning_ar": "وِعَاءٌ دَمَوِيٌّ يَنْقُلُ الدَّمَ بَعِيدًا عَنِ الْقَلْبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جِدَارُ الشِّرْيَانِ"
+      ],
+      "examples_ar": [
+        "يَمُرُّ الدَّمُ فِي الشَّرَايِينِ إِلَى الأَنْسِجَةِ."
+      ],
+      "usage_note_ar": "لَيْسَ كُلُّ شِرْيَانٍ حَامِلًا لِدَمٍ غَنِيٍّ بِالأُكْسِجِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_029",
+      "arabic": "وَرِيدٌ",
+      "meaning_ar": "وِعَاءٌ دَمَوِيٌّ يَنْقُلُ الدَّمَ عَائِدًا نَحْوَ الْقَلْبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "صِمَامَاتُ الأَوْرِدَةِ"
+      ],
+      "examples_ar": [
+        "يَعُودُ الدَّمُ إِلَى الْقَلْبِ عَبْرَ الأَوْرِدَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْتَوِي بَعْضُهَا عَلَى صِمَامَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_030",
+      "arabic": "شُعَيْرَةٌ دَمَوِيَّةٌ",
+      "meaning_ar": "وِعَاءٌ صَغِيرٌ جِدًّا يَحْدُثُ عَبْرَهُ تَبَادُلُ الْمَوَادِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "شَبَكَةُ الشُّعَيْرَاتِ"
+      ],
+      "examples_ar": [
+        "انْتَقَلَ الأُكْسِجِينُ مِنَ الشُّعَيْرَاتِ إِلَى الْخَلَايَا."
+      ],
+      "usage_note_ar": "جِدَارُهَا رَقِيقٌ لِتَسْهِيلِ التَّبَادُلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_031",
+      "arabic": "دَوْرَةٌ رِئَوِيَّةٌ",
+      "meaning_ar": "مَسَارُ الدَّمِ بَيْنَ الْقَلْبِ وَالرِّئَتَيْنِ لِتَبَادُلِ الْغَازَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الدَّوْرَةُ الصُّغْرَى"
+      ],
+      "examples_ar": [
+        "يَتَجَدَّدُ الأُكْسِجِينُ فِي الدَّمِ بِالرِّئَتَيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الدَّوْرَةِ الْجِهَازِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_032",
+      "arabic": "دَوْرَةٌ جِهَازِيَّةٌ",
+      "meaning_ar": "مَسَارُ الدَّمِ بَيْنَ الْقَلْبِ وَأَعْضَاءِ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الدَّوْرَةُ الْكُبْرَى"
+      ],
+      "examples_ar": [
+        "يُوَزِّعُ الْقَلْبُ الدَّمَ عَلَى الْجِسْمِ."
+      ],
+      "usage_note_ar": "تَنْقُلُ الْمُغَذِّيَاتِ وَتَجْمَعُ الْفَضَلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_033",
+      "arabic": "ضَغْطٌ انْقِبَاضِيٌّ",
+      "meaning_ar": "أَعْلَى قِيمَةٍ تَقْرِيبِيَّةٍ لِضَغْطِ الشَّرَايِينِ أَثْنَاءَ انْقِبَاضِ الْقَلْبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قِيَاسُ الضَّغْطِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْجِهَازُ الضَّغْطَ الِانْقِبَاضِيَّ."
+      ],
+      "usage_note_ar": "يُكْتَبُ عَادَةً قَبْلَ الضَّغْطِ الِانْبِسَاطِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_034",
+      "arabic": "ضَغْطٌ انْبِسَاطِيٌّ",
+      "meaning_ar": "قِيمَةُ ضَغْطِ الشَّرَايِينِ أَثْنَاءَ اسْتِرْخَاءِ الْقَلْبِ بَيْنَ النَّبَضَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الضَّغْطُ الأَدْنَى"
+      ],
+      "examples_ar": [
+        "قَاسَتِ الْمُمَرِّضَةُ الضَّغْطَ الِانْبِسَاطِيَّ."
+      ],
+      "usage_note_ar": "تُقْرَأُ مَعَ الْقِيمَةِ الِانْقِبَاضِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_035",
+      "arabic": "نَبْضٌ شِرْيَانِيٌّ",
+      "meaning_ar": "تَمَدُّدٌ إِيقَاعِيٌّ فِي الشَّرَايِينِ نَاتِجٌ عَنْ ضَرْبَاتِ الْقَلْبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قِيَاسُ النَّبْضِ"
+      ],
+      "examples_ar": [
+        "قَاسَتِ الْمُمَرِّضَةُ النَّبْضَ فِي الْمِعْصَمِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ بِحَسَبِ النَّشَاطِ وَالْحَالَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_036",
+      "arabic": "قَصَبَةٌ هَوَائِيَّةٌ",
+      "meaning_ar": "أُنْبُوبٌ يَمُرُّ عَبْرَهُ الْهَوَاءُ مِنَ الْحَنْجَرَةِ إِلَى الشُّعَبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جِدَارُ الْقَصَبَةِ"
+      ],
+      "examples_ar": [
+        "يَمُرُّ الْهَوَاءُ عَبْرَ الْقَصَبَةِ الْهَوَائِيَّةِ."
+      ],
+      "usage_note_ar": "تَدْعَمُهَا غَضَارِيفُ تَحْفَظُ انْفِتَاحَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_037",
+      "arabic": "شُعْبَةٌ هَوَائِيَّةٌ",
+      "meaning_ar": "فَرْعٌ مِنَ الْمَسَالِكِ التَّنَفُّسِيَّةِ يَنْقُلُ الْهَوَاءَ إِلَى الرِّئَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَفَرُّعُ الشُّعَبِ"
+      ],
+      "examples_ar": [
+        "تَتَفَرَّعُ الشُّعَبُ دَاخِلَ الرِّئَتَيْنِ."
+      ],
+      "usage_note_ar": "تَنْتَهِي إِلَى مَسَالِكَ أَصْغَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_038",
+      "arabic": "حُوَيْصِلَةٌ هَوَائِيَّةٌ",
+      "meaning_ar": "كِيسٌ صَغِيرٌ فِي الرِّئَةِ يَحْدُثُ عَبْرَهُ تَبَادُلُ الْغَازَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جِدَارُ الْحُوَيْصِلَةِ"
+      ],
+      "examples_ar": [
+        "انْتَقَلَ الأُكْسِجِينُ إِلَى الدَّمِ مِنَ الْحُوَيْصِلَةِ."
+      ],
+      "usage_note_ar": "تُحِيطُ بِهَا شَعَيْرَاتٌ دَمَوِيَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_039",
+      "arabic": "حِجَابٌ حَاجِزٌ",
+      "meaning_ar": "عَضَلَةٌ تُفْصِلُ الصَّدْرَ عَنِ الْبَطْنِ وَتُسَاعِدُ عَلَى التَّنَفُّسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْحِجَابِ"
+      ],
+      "examples_ar": [
+        "انْقَبَضَ الْحِجَابُ الْحَاجِزُ عِنْدَ الشَّهِيقِ."
+      ],
+      "usage_note_ar": "يُنْخَفِضُ عِنْدَ الِانْقِبَاضِ لِيَتَّسِعَ الصَّدْرُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_040",
+      "arabic": "شَهِيقٌ",
+      "meaning_ar": "دُخُولُ الْهَوَاءِ إِلَى الرِّئَتَيْنِ بِفِعْلِ حَرَكَةِ عَضَلَاتِ التَّنَفُّسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "شَهِيقٌ عَمِيقٌ"
+      ],
+      "examples_ar": [
+        "أَخَذَ الْمَرِيضُ شَهِيقًا هَادِئًا."
+      ],
+      "usage_note_ar": "يُقَابِلُهُ الزَّفِيرُ عِنْدَ خُرُوجِ الْهَوَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_041",
+      "arabic": "زَفِيرٌ",
+      "meaning_ar": "خُرُوجُ الْهَوَاءِ مِنَ الرِّئَتَيْنِ أَثْنَاءَ عَمَلِيَّةِ التَّنَفُّسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "زَفِيرٌ بَطِيءٌ"
+      ],
+      "examples_ar": [
+        "أَطْلَقَ الرَّجُلُ زَفِيرًا بَعْدَ الشَّهِيقِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْدُثُ بِاسْتِرْخَاءِ عَضَلَاتِ التَّنَفُّسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_042",
+      "arabic": "تَبَادُلُ الْغَازَاتِ",
+      "meaning_ar": "انْتِقَالُ الأُكْسِجِينِ وَثَانِي أُكْسِيدِ الْكَرْبُونِ بَيْنَ الْهَوَاءِ وَالدَّمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَبَادُلٌ رِئَوِيٌّ"
+      ],
+      "examples_ar": [
+        "يَحْدُثُ تَبَادُلُ الْغَازَاتِ فِي الْحُوَيْصِلَاتِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى فُرُوقِ التَّرْكِيزِ وَالضَّغْطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_043",
+      "arabic": "هَيْمُوغْلُوبِينٌ",
+      "meaning_ar": "بُرُوتِينٌ دَاخِلَ كُرَيَّاتِ الدَّمِ الْحَمْرَاءِ يَحْمِلُ الأُكْسِجِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نِسْبَةُ الْهَيْمُوغْلُوبِينِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمَخْبَرُ مُسْتَوَى الْهَيْمُوغْلُوبِينِ."
+      ],
+      "usage_note_ar": "يَحْتَوِي عَلَى الْحَدِيدِ فِي تَرْكِيبِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_044",
+      "arabic": "كُرَيَّةٌ حَمْرَاءُ",
+      "meaning_ar": "خَلِيَّةٌ دَمَوِيَّةٌ تُسَاعِدُ عَلَى نَقْلِ الأُكْسِجِينِ فِي الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَدَدُ الْكُرَيَّاتِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمَخْبَرُ عَدَدَ كُرَيَّاتِ الدَّمِ الْحَمْرَاءِ."
+      ],
+      "usage_note_ar": "تُصْنَعُ أَسَاسًا فِي نُخَاعِ الْعَظْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_045",
+      "arabic": "كُرَيَّةٌ بَيْضَاءُ",
+      "meaning_ar": "خَلِيَّةٌ دَمَوِيَّةٌ تُسَاهِمُ فِي الدِّفَاعِ الْمَنَاعِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَدَدُ الْكُرَيَّاتِ"
+      ],
+      "examples_ar": [
+        "تَزِيدُ بَعْضُ أَنْوَاعِ الْكُرَيَّاتِ أَثْنَاءَ الْعَدْوَى."
+      ],
+      "usage_note_ar": "تَشْمَلُ خَلَايَا مُتَنَوِّعَةَ الْوَظَائِفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_046",
+      "arabic": "صُفَيْحَةٌ دَمَوِيَّةٌ",
+      "meaning_ar": "جُزْءٌ خَلَوِيٌّ يُسَاهِمُ فِي تَكَوُّنِ الْجُلْطَةِ عِنْدَ النَّزِيفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَدَدُ الصُّفَيْحَاتِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمَخْبَرُ صُفَيْحَاتِ الدَّمِ."
+      ],
+      "usage_note_ar": "تَعْمَلُ مَعَ عَوَامِلِ التَّخَثُّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_047",
+      "arabic": "بِلَازْمَا الدَّمِ",
+      "meaning_ar": "السَّائِلُ الَّذِي تَسْبَحُ فِيهِ خَلَايَا الدَّمِ وَمُكَوِّنَاتُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بُرُوتِينَاتُ الْبِلَازْمَا"
+      ],
+      "examples_ar": [
+        "تَنْقُلُ الْبِلَازْمَا مَوَادَّ مُذَابَةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ مَصْلِ الدَّمِ فِي بَعْضِ الْمُكَوِّنَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_048",
+      "arabic": "نُخَاعُ الْعَظْمِ",
+      "meaning_ar": "نَسِيجٌ لَيِّنٌ دَاخِلَ الْعِظَامِ يُنْتِجُ خَلَايَا دَمَوِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "خَلَايَا النُّخَاعِ"
+      ],
+      "examples_ar": [
+        "يُنْتِجُ نُخَاعُ الْعَظْمِ كُرَيَّاتِ الدَّمِ."
+      ],
+      "usage_note_ar": "لَهُ أَنْوَاعٌ تَخْتَلِفُ بِالْعُمْرِ وَالْمَوْضِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_049",
+      "arabic": "عُقْدَةٌ لِمْفَاوِيَّةٌ",
+      "meaning_ar": "تَرْكِيبٌ صَغِيرٌ يُرَشِّحُ السَّائِلَ اللِّمْفِيَّ وَيَضُمُّ خَلَايَا مَنَاعِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "فَحْصُ الْعُقَدِ"
+      ],
+      "examples_ar": [
+        "تَضَخَّمَتْ عُقْدَةٌ لِمْفَاوِيَّةٌ أَثْنَاءَ عَدْوَى."
+      ],
+      "usage_note_ar": "تُوجَدُ فِي مَوَاقِعَ مُخْتَلِفَةٍ مِنَ الْجِسْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_050",
+      "arabic": "طِحَالٌ",
+      "meaning_ar": "عُضْوٌ يُسَاعِدُ عَلَى تَرْشِيحِ الدَّمِ وَالِاسْتِجَابَةِ الْمَنَاعِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ الطِّحَالِ"
+      ],
+      "examples_ar": [
+        "يَقَعُ الطِّحَالُ فِي الْجِهَةِ الْيُسْرَى مِنَ الْبَطْنِ."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي التَّعَامُلِ مَعَ بَعْضِ الْخَلَايَا الْقَدِيمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_051",
+      "arabic": "غُدَّةٌ زَعْتَرِيَّةٌ",
+      "meaning_ar": "عُضْوٌ لِمْفَاوِيٌّ يُسَاعِدُ فِي نُضْجِ أَنْوَاعٍ مِنَ الْخَلَايَا الْمَنَاعِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نُمُوُّ الْغُدَّةِ"
+      ],
+      "examples_ar": [
+        "يَكُونُ نَشَاطُ الْغُدَّةِ الزَّعْتَرِيَّةِ كَبِيرًا فِي الطُّفُولَةِ."
+      ],
+      "usage_note_ar": "يَقَعُ فِي الْجُزْءِ الْعُلْوِيِّ مِنَ الصَّدْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_052",
+      "arabic": "لَوْزَةٌ حَلْقِيَّةٌ",
+      "meaning_ar": "نَسِيجٌ لِمْفَاوِيٌّ فِي الْحَلْقِ يُشَارِكُ فِي الدِّفَاعِ الْمَنَاعِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الْتِهَابُ اللَّوْزَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّبِيبُ اللَّوْزَتَيْنِ."
+      ],
+      "usage_note_ar": "تُسَاهِمُ فِي مُوَاجَهَةِ بَعْضِ الْجَرَاثِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_053",
+      "arabic": "مَرِيءٌ",
+      "meaning_ar": "أُنْبُوبٌ عَضَلِيٌّ يَنْقُلُ الطَّعَامَ مِنَ الْبُلْعُومِ إِلَى الْمَعِدَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْمَرِيءِ"
+      ],
+      "examples_ar": [
+        "مَرَّ الطَّعَامُ عَبْرَ الْمَرِيءِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ حَرَكَاتٍ عَضَلِيَّةً مُنَظَّمَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_054",
+      "arabic": "مَعِدَةٌ",
+      "meaning_ar": "عُضْوٌ عَضَلِيٌّ يَخْزُنُ الطَّعَامَ مُؤَقَّتًا وَيَمْزُجُهُ بِعُصَارَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بِطَانَةُ الْمَعِدَةِ"
+      ],
+      "examples_ar": [
+        "يَبْدَأُ هَضْمُ بَعْضِ الْبُرُوتِينَاتِ فِي الْمَعِدَةِ."
+      ],
+      "usage_note_ar": "تَفْرِزُ حِمْضًا وَإِنْزِيمَاتٍ هَضْمِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_055",
+      "arabic": "أَمْعَاءٌ دَقِيقَةٌ",
+      "meaning_ar": "جُزْءٌ طَوِيلٌ مِنَ الْجِهَازِ الْهَضْمِيِّ يَحْدُثُ فِيهِ مُعْظَمُ الِامْتِصَاصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بِطَانَةُ الْأَمْعَاءِ"
+      ],
+      "examples_ar": [
+        "تُمْتَصُّ مُغَذِّيَاتٌ كَثِيرَةٌ فِي الْأَمْعَاءِ الدَّقِيقَةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الزُّغَابَاتُ عَلَى زِيَادَةِ سَطْحِ الِامْتِصَاصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_056",
+      "arabic": "أَمْعَاءٌ غَلِيظَةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الْقَنَاةِ الْهَضْمِيَّةِ يَمْتَصُّ الْمَاءَ وَيُشَكِّلُ الْبُرَازَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْقَوْلُونِ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ الْأَمْعَاءُ الْغَلِيظَةُ فِي تَنْظِيمِ الْفَضَلَاتِ."
+      ],
+      "usage_note_ar": "تَحْتَوِي عَلَى كَائِنَاتٍ مِجْهَرِيَّةٍ كَثِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_057",
+      "arabic": "زُغَابَةٌ مَعَوِيَّةٌ",
+      "meaning_ar": "نُتُوءٌ دَقِيقٌ فِي بِطَانَةِ الْأَمْعَاءِ يَزِيدُ سَطْحَ الِامْتِصَاصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "زُغَابَاتُ الْأَمْعَاءِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ صُورَةَ الزُّغَابَاتِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى نَقْلِ الْمُغَذِّيَاتِ إِلَى الدَّمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_058",
+      "arabic": "كَبِدٌ",
+      "meaning_ar": "عُضْوٌ يَشْتَرِكُ فِي الْأَيْضِ وَتَخْزِينِ مَوَادَّ وَإِنْتَاجِ الصَّفْرَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظَائِفُ الْكَبِدِ"
+      ],
+      "examples_ar": [
+        "يُسَاهِمُ الْكَبِدُ فِي مُعَالَجَةِ الْمُغَذِّيَاتِ."
+      ],
+      "usage_note_ar": "لَهُ أَدْوَارٌ مُتَعَدِّدَةٌ فِي تَنْظِيمِ الْجِسْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_059",
+      "arabic": "مَرَارَةٌ",
+      "meaning_ar": "كِيسٌ صَغِيرٌ يُخَزِّنُ الْعُصَارَةَ الصَّفْرَاوِيَّةَ تَحْتَ الْكَبِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حَصَاةُ الْمَرَارَةِ"
+      ],
+      "examples_ar": [
+        "تُفْرِغُ الْمَرَارَةُ الصَّفْرَاءَ بَعْدَ الطَّعَامِ."
+      ],
+      "usage_note_ar": "تُسَاهِمُ الصَّفْرَاءُ فِي هَضْمِ الدُّهُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_060",
+      "arabic": "بَنْكِرِيَاسٌ",
+      "meaning_ar": "غُدَّةٌ تُفْرِزُ إِنْزِيمَاتٍ هَضْمِيَّةً وَهَرْمُونَاتٍ تُنَظِّمُ السُّكَّرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ الْبَنْكِرِيَاسِ"
+      ],
+      "examples_ar": [
+        "يُفْرِزُ الْبَنْكِرِيَاسُ الْإِنْسُولِينَ."
+      ],
+      "usage_note_ar": "يَجْمَعُ بَيْنَ وَظَائِفَ هَضْمِيَّةٍ وَهَرْمُونِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_061",
+      "arabic": "إِنْسُولِينٌ",
+      "meaning_ar": "هَرْمُونٌ يُسَاعِدُ عَلَى تَنْظِيمِ مُسْتَوَى الْغُلُوكُوزِ فِي الدَّمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِفْرَازُ الْإِنْسُولِينِ"
+      ],
+      "examples_ar": [
+        "تُفْرِزُ خَلَايَا الْبَنْكِرِيَاسِ الْإِنْسُولِينَ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي اسْتِعْمَالِ الْخَلَايَا لِلسُّكَّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_062",
+      "arabic": "غُلُوكُوزٌ",
+      "meaning_ar": "سُكَّرٌ بَسِيطٌ تَسْتَعْمِلُهُ خَلَايَا الْجِسْمِ مَصْدَرًا لِلطَّاقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُسْتَوَى الْغُلُوكُوزِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمَخْبَرُ الْغُلُوكُوزَ فِي الدَّمِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْغِذَاءِ وَالْهَرْمُونَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_063",
+      "arabic": "كُلْيَةٌ",
+      "meaning_ar": "عُضْوٌ يُرَشِّحُ الدَّمَ وَيُسَاهِمُ فِي تَنْظِيمِ الْمَاءِ وَالأَمْلَاحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ الْكُلْيَةِ"
+      ],
+      "examples_ar": [
+        "تُخْرِجُ الْكُلْيَةُ بَعْضَ الْفَضَلَاتِ مَعَ الْبَوْلِ."
+      ],
+      "usage_note_ar": "لِلْإِنْسَانِ كُلْيَتَانِ فِي الْغَالِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_064",
+      "arabic": "نَفْرُونٌ",
+      "meaning_ar": "وَحْدَةٌ دَقِيقَةٌ فِي الْكُلْيَةِ تُرَشِّحُ السَّوَائِلَ وَتُعِيدُ امْتِصَاصَ بَعْضِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَرْكِيبُ النَّفْرُونِ"
+      ],
+      "examples_ar": [
+        "يُوَضِّحُ الرَّسْمُ عَمَلَ النَّفْرُونِ."
+      ],
+      "usage_note_ar": "تَحْتَوِي الْكُلْيَةُ عَلَى عَدَدٍ كَبِيرٍ مِنْهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_065",
+      "arabic": "كُبَيْبَةٌ كُلَوِيَّةٌ",
+      "meaning_ar": "شَبَكَةٌ مِنَ الشُّعَيْرَاتِ فِي النَّفْرُونِ يَبْدَأُ فِيهَا التَّرْشِيحُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَرْشِيحُ الْكُبَيْبَةِ"
+      ],
+      "examples_ar": [
+        "تَعْمَلُ الْكُبَيْبَةُ عَلَى فَصْلِ بَعْضِ مَوَادِّ الدَّمِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِغِشَاءٍ يُنَظِّمُ التَّرْشِيحَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_066",
+      "arabic": "حَالِبٌ",
+      "meaning_ar": "أُنْبُوبٌ يَنْقُلُ الْبَوْلَ مِنَ الْكُلْيَةِ إِلَى الْمَثَانَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْحَالِبِ"
+      ],
+      "examples_ar": [
+        "يَنْتَقِلُ الْبَوْلُ عَبْرَ الْحَالِبِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الِانْقِبَاضَاتُ الْعَضَلِيَّةُ فِي النَّقْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_067",
+      "arabic": "مَثَانَةٌ بَوْلِيَّةٌ",
+      "meaning_ar": "عُضْوٌ عَضَلِيٌّ يَخْزُنُ الْبَوْلَ مُؤَقَّتًا حَتَّى خُرُوجِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "امْتِلَاءُ الْمَثَانَةِ"
+      ],
+      "examples_ar": [
+        "تَتَّسِعُ الْمَثَانَةُ مَعَ تَجَمُّعِ الْبَوْلِ."
+      ],
+      "usage_note_ar": "تَنْظِّمُ أَعْصَابٌ وَعَضَلَاتٌ إِفْرَاغَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_068",
+      "arabic": "غُدَّةٌ دَرَقِيَّةٌ",
+      "meaning_ar": "غُدَّةٌ فِي الْعُنُقِ تُفْرِزُ هَرْمُونَاتٍ تُؤَثِّرُ فِي الْأَيْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "هَرْمُونُ الدَّرَقِيَّةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّبِيبُ وَظِيفَةَ الْغُدَّةِ الدَّرَقِيَّةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِمُسْتَوَيَاتِ الْيُودِ وَتَنْظِيمِ الْهَرْمُونَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_069",
+      "arabic": "غُدَّةٌ نُخَامِيَّةٌ",
+      "meaning_ar": "غُدَّةٌ صَغِيرَةٌ أَسْفَلَ الدِّمَاغِ تُنَظِّمُ أَنْشِطَةً هَرْمُونِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "هَرْمُونَاتُ النُّخَامِيَّةِ"
+      ],
+      "examples_ar": [
+        "تُسَاهِمُ النُّخَامِيَّةُ فِي تَنْظِيمِ النُّمُوِّ."
+      ],
+      "usage_note_ar": "تَتَلَقَّى إِشَارَاتٍ مِنْ مَنَاطِقَ دِمَاغِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_070",
+      "arabic": "غُدَّةٌ كَظْرِيَّةٌ",
+      "meaning_ar": "غُدَّةٌ فَوْقَ الْكُلْيَةِ تُفْرِزُ هَرْمُونَاتٍ لِلتَّوَازُنِ وَالِاسْتِجَابَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الْغُدَدُ الْكَظْرِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَسْتَجِيبُ الْغُدَّةُ الْكَظْرِيَّةُ لِلْإِجْهَادِ."
+      ],
+      "usage_note_ar": "تَنْتُجُ هَرْمُونَاتٍ مُتَعَدِّدَةَ الْوَظَائِفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_071",
+      "arabic": "هَرْمُونٌ",
+      "meaning_ar": "مَادَّةٌ كِيمِيَائِيَّةٌ تُفْرَزُ لِلتَّأْثِيرِ فِي خَلَايَا وَأَعْضَاءَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِفْرَازُ الْهَرْمُونِ"
+      ],
+      "examples_ar": [
+        "تَتَغَيَّرُ مُسْتَوَيَاتُ الْهَرْمُونَاتِ خِلَالَ النَّهَارِ."
+      ],
+      "usage_note_ar": "تَعْمَلُ بِالِارْتِبَاطِ بِمُسْتَقْبِلَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_072",
+      "arabic": "مُسْتَقْبِلٌ خَلَوِيٌّ",
+      "meaning_ar": "بُرُوتِينٌ يَتَعَرَّفُ إِلَى مَادَّةٍ مُعَيَّنَةٍ وَيُحَرِّكُ اسْتِجَابَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "ارْتِبَاطُ الْمُسْتَقْبِلِ"
+      ],
+      "examples_ar": [
+        "ارْتَبَطَ الْهَرْمُونُ بِالْمُسْتَقْبِلِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْخَلَايَا فِي أَنْوَاعِ مُسْتَقْبِلَاتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_073",
+      "arabic": "أَيْضٌ",
+      "meaning_ar": "مَجْمُوعَةُ التَّفَاعُلَاتِ الْكِيمِيَائِيَّةِ الَّتِي تُحَافِظُ عَلَى حَيَاةِ الْخَلَايَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ الأَيْضِ"
+      ],
+      "examples_ar": [
+        "تَسْتَعْمِلُ الْخَلَايَا الْغِذَاءَ فِي عَمَلِيَّاتِ الأَيْضِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ بِنَاءَ الْمُرَكَّبَاتِ وَتَحْلِيلَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_074",
+      "arabic": "إِنْزِيمٌ",
+      "meaning_ar": "بُرُوتِينٌ أَوْ جُزَيْءٌ يُسَرِّعُ تَفَاعُلًا كِيمِيَائِيًّا دُونَ أَنْ يُسْتَهْلَكَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَشَاطُ الْإِنْزِيمِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ الْإِنْزِيمُ عَلَى هَضْمِ الطَّعَامِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ فَعَالِيَّتُهُ بِالْحَرَارَةِ وَالْوَسَطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_075",
+      "arabic": "خَلِيَّةٌ جِذْعِيَّةٌ",
+      "meaning_ar": "خَلِيَّةٌ قَادِرَةٌ عَلَى الِانْقِسَامِ وَإِنْتَاجِ خَلَايَا أَكْثَرَ تَخَصُّصًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَمَايُزُ الْخَلَايَا"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ نُمُوَّ الْخَلَايَا الْجِذْعِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهَا فِي مَدَى قُدْرَتِهَا عَلَى التَّمَايُزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_076",
+      "arabic": "غِشَاءٌ خَلَوِيٌّ",
+      "meaning_ar": "حَاجِزٌ رَقِيقٌ يُحِيطُ بِالْخَلِيَّةِ وَيُنَظِّمُ مُرُورَ الْمَوَادِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَفَاذِيَّةُ الْغِشَاءِ"
+      ],
+      "examples_ar": [
+        "يَحْفَظُ الْغِشَاءُ الْخَلَوِيُّ مَكَوِّنَاتِ الْخَلِيَّةِ."
+      ],
+      "usage_note_ar": "يَتَكَوَّنُ مِنْ دُهُونٍ وَبُرُوتِينَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_077",
+      "arabic": "نَوَاةٌ خَلَوِيَّةٌ",
+      "meaning_ar": "بِنْيَةٌ تَحْتَوِي عَلَى مُعْظَمِ الْمَادَّةِ الْوِرَاثِيَّةِ فِي الْخَلِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "غِلَافُ النَّوَاةِ"
+      ],
+      "examples_ar": [
+        "يُوجَدُ الْحَمْضُ النَّوَوِيُّ فِي نَوَاةِ الْخَلِيَّةِ."
+      ],
+      "usage_note_ar": "لَيْسَتْ كُلُّ الْخَلَايَا مُمْتَلِكَةً لِنَوَاةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_078",
+      "arabic": "مِيتُوكُونْدْرِيَا",
+      "meaning_ar": "عُضَيَّةٌ خَلَوِيَّةٌ تُسَاهِمُ فِي إِنْتَاجِ الطَّاقَةِ بِطُرُقٍ حَيَوِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ الْمِيتُوكُونْدْرِيَا"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ الْمِيتُوكُونْدْرِيَا عَلَى إِنْتَاجِ الطَّاقَةِ."
+      ],
+      "usage_note_ar": "لَهَا مَادَّةٌ وِرَاثِيَّةٌ خَاصَّةٌ بِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_079",
+      "arabic": "رِيبُوسُومٌ",
+      "meaning_ar": "عُضَيَّةٌ دَقِيقَةٌ تَجْمَعُ الْأَحْمَاضَ الْأَمِينِيَّةَ لِصُنْعِ الْبُرُوتِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَمَلُ الرِّيبُوسُومِ"
+      ],
+      "examples_ar": [
+        "يَصْنَعُ الرِّيبُوسُومُ سِلْسِلَةً بُرُوتِينِيَّةً."
+      ],
+      "usage_note_ar": "يَتَلَقَّى تَعْلِيمَاتٍ مِنَ الْحَمْضِ الرِّيبِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_080",
+      "arabic": "حَمْضٌ نَوَوِيٌّ",
+      "meaning_ar": "جُزَيْءٌ حَيَوِيٌّ يَحْفَظُ أَوْ يَنْقُلُ مَعْلُومَاتٍ وِرَاثِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بِنْيَةُ الْحَمْضِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَرْكِيبَ الْحَمْضِ النَّوَوِيِّ."
+      ],
+      "usage_note_ar": "يَشْمَلُ أَنْوَاعًا مُخْتَلِفَةً فِي الْخَلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_081",
+      "arabic": "مُورِّثَةٌ",
+      "meaning_ar": "مَقْطَعٌ مِنَ الْمَادَّةِ الْوِرَاثِيَّةِ يَحْمِلُ تَعْلِيمَاتٍ لِوَظِيفَةٍ حَيَوِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَعْبِيرُ الْمُورِّثَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ مُورِّثَةً تُؤَثِّرُ فِي النُّمُوِّ."
+      ],
+      "usage_note_ar": "قَدْ تَتَفَاعَلُ مُورِّثَاتٌ عَدِيدَةٌ فِي الصِّفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_082",
+      "arabic": "صِبْغِيٌّ",
+      "meaning_ar": "بِنْيَةٌ خَلَوِيَّةٌ تَحْمِلُ الْحَمْضَ النَّوَوِيَّ وَالْبُرُوتِينَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَدَدُ الصِّبْغِيَّاتِ"
+      ],
+      "examples_ar": [
+        "تَحْتَوِي خَلَايَا الْإِنْسَانِ الْجَسَدِيَّةُ غَالِبًا عَلَى سِتَّةٍ وَأَرْبَعِينَ صِبْغِيًّا."
+      ],
+      "usage_note_ar": "يُسَمَّى أَيْضًا كُرُومُوسُومًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_083",
+      "arabic": "طَفْرَةٌ وِرَاثِيَّةٌ",
+      "meaning_ar": "تَغَيُّرٌ يَحْدُثُ فِي تَرْتِيبِ الْمَادَّةِ الْوِرَاثِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الطَّفْرَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْبَاحِثُ طَفْرَةً فِي الْمُورِّثَةِ."
+      ],
+      "usage_note_ar": "لَيْسَتْ كُلُّ الطَّفْرَاتِ مُسَبِّبَةً لِمَرَضٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_084",
+      "arabic": "انْقِسَامٌ خَلَوِيٌّ",
+      "meaning_ar": "عَمَلِيَّةٌ تَنْقَسِمُ فِيهَا خَلِيَّةٌ لِتُكَوِّنَ خَلَايَا جَدِيدَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ الِانْقِسَامِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ انْقِسَامَ خَلِيَّةٍ بِالْمِجْهَرِ."
+      ],
+      "usage_note_ar": "لَهُ أَنْوَاعٌ مُتَعَدِّدَةٌ بِحَسَبِ الْوَظِيفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_085",
+      "arabic": "انْقِسَامٌ مُتَسَاوٍ",
+      "meaning_ar": "انْقِسَامٌ يَنْتُجُ عَنْهُ خَلِيَّتَانِ تَحْمِلَانِ نُسَخًا مُتَقَارِبَةً مِنَ الْمَادَّةِ الْوِرَاثِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ الِانْقِسَامِ"
+      ],
+      "examples_ar": [
+        "تَكَاثَرَتِ الْخَلَايَا بِالِانْقِسَامِ الْمُتَسَاوِي."
+      ],
+      "usage_note_ar": "يَدْخُلُ فِي النُّمُوِّ وَإِصْلَاحِ الأَنْسِجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_086",
+      "arabic": "انْقِسَامٌ مُنَصِّفٌ",
+      "meaning_ar": "انْقِسَامٌ خَلَوِيٌّ يُقَلِّلُ عَدَدَ الصِّبْغِيَّاتِ لِإِنْتَاجِ خَلَايَا تَكَاثُرِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ التَّنْصِيفِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ الِانْقِسَامَ الْمُنَصِّفَ."
+      ],
+      "usage_note_ar": "يَسْهَمُ فِي تَنَوُّعِ الْمَادَّةِ الْوِرَاثِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_087",
+      "arabic": "نَسِيجٌ طِلَائِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ خَلَايَا تُغَطِّي الأَسْطُحَ وَتُبَطِّنُ الأَعْضَاءَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بِطَانَةُ الْأَمْعَاءِ"
+      ],
+      "examples_ar": [
+        "يُغَطِّي النَّسِيجُ الطِّلَائِيُّ سَطْحَ الْجِلْدِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ شَكْلُهُ بِحَسَبِ الْمَوْضِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_088",
+      "arabic": "نَسِيجٌ ضَامٌّ",
+      "meaning_ar": "نَسِيجٌ يَرْبِطُ أَجْزَاءَ الْجِسْمِ وَيَدْعَمُهَا بِالْأَلْيَافِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "أَلْيَافُ النَّسِيجِ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ الأَوْتَارُ عَلَى رَبْطِ الْعَضَلَاتِ بِالْعِظَامِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ أَنْوَاعًا كَالْغَضْرُوفِ وَالْعَظْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_089",
+      "arabic": "نَسِيجٌ عَضَلِيٌّ",
+      "meaning_ar": "نَسِيجٌ يَتَكَوَّنُ مِنْ خَلَايَا تَقْدِرُ عَلَى الِانْقِبَاضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الْأَلْيَافُ الْعَضَلِيَّةُ"
+      ],
+      "examples_ar": [
+        "انْقَبَضَ النَّسِيجُ الْعَضَلِيُّ لِتَحْرِيكِ الْمِفْصَلِ."
+      ],
+      "usage_note_ar": "لَهُ أَنْوَاعٌ هَيْكَلِيَّةٌ وَمَلْسَاءُ وَقَلْبِيَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_090",
+      "arabic": "غَضْرُوفٌ",
+      "meaning_ar": "نَسِيجٌ ضَامٌّ مَرِنٌ يُخَفِّفُ الِاحْتِكَاكَ وَيَدْعَمُ أَجْزَاءَ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "غَضْرُوفُ الْمِفْصَلِ"
+      ],
+      "examples_ar": [
+        "يُغَطِّي الْغَضْرُوفُ نِهَايَاتِ بَعْضِ الْعِظَامِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ بِالْمَوْضِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_091",
+      "arabic": "وَتَرٌ",
+      "meaning_ar": "حَبْلٌ قَوِيٌّ مِنْ نَسِيجٍ ضَامٍّ يَرْبِطُ الْعَضَلَةَ بِالْعَظْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَتَرُ الْعَقِبِ"
+      ],
+      "examples_ar": [
+        "يَنْقُلُ الْوَتَرُ قُوَّةَ الْعَضَلَةِ إِلَى الْعَظْمِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الرِّبَاطِ الْوَاصِلِ بَيْنَ الْعِظَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_092",
+      "arabic": "رِبَاطٌ مِفْصَلِيٌّ",
+      "meaning_ar": "شَرِيطٌ مِنْ نَسِيجٍ ضَامٍّ يُثَبِّتُ الْعِظَامَ عِنْدَ الْمِفْصَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "رِبَاطُ الرُّكْبَةِ"
+      ],
+      "examples_ar": [
+        "يُسَاهِمُ الرِّبَاطُ فِي اسْتِقْرَارِ الْمِفْصَلِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَضَرَّرُ عِنْدَ التِوَاءٍ شَدِيدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_093",
+      "arabic": "مِفْصَلٌ زَلِيلِيٌّ",
+      "meaning_ar": "مِفْصَلٌ يَحْتَوِي عَلَى سَائِلٍ يُسَهِّلُ حَرَكَةَ الْعِظَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَجْوِيفُ الْمِفْصَلِ"
+      ],
+      "examples_ar": [
+        "تَحَرَّكَ مِفْصَلُ الرُّكْبَةِ بِسَلَاسَةٍ."
+      ],
+      "usage_note_ar": "تَحِيطُ بِهِ مَحْفَظَةٌ مِفْصَلِيَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_094",
+      "arabic": "سَائِلٌ زَلِيلِيٌّ",
+      "meaning_ar": "سَائِلٌ دَاخِلَ بَعْضِ الْمَفَاصِلِ يُقَلِّلُ الِاحْتِكَاكَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "لُزُوجَةُ السَّائِلِ"
+      ],
+      "examples_ar": [
+        "يُسَهِّلُ السَّائِلُ الزَّلِيلِيُّ حَرَكَةَ الْمِفْصَلِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ خَصَائِصُهُ مَعَ الْحَالَاتِ الْمَرَضِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_095",
+      "arabic": "فَقْرَةٌ",
+      "meaning_ar": "عَظْمَةٌ مِنْ سِلْسِلَةِ الْعَمُودِ الْفَقَرِيِّ تُسَاهِمُ فِي دَعْمِ الظَّهْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "فَقْرَةٌ قَطَنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَتَرَاصُّ الْفَقَرَاتُ لِتَكْوِينِ الْعَمُودِ."
+      ],
+      "usage_note_ar": "تَحْمِي مَمَرَّ النُّخَاعِ الشَّوْكِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_096",
+      "arabic": "قُرْصٌ بَيْنَ الْفَقَرَاتِ",
+      "meaning_ar": "تَرْكِيبٌ مَرِنٌ يَقَعُ بَيْنَ فَقَرَتَيْنِ وَيُسَاعِدُ عَلَى امْتِصَاصِ الصَّدْمَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قُرْصُ الْعَمُودِ"
+      ],
+      "examples_ar": [
+        "يَقَعُ الْقُرْصُ بَيْنَ فَقَرَاتِ الظَّهْرِ."
+      ],
+      "usage_note_ar": "يَحْتَوِي عَلَى طَبَقَاتٍ مُخْتَلِفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_097",
+      "arabic": "نَخَاعٌ أَصْفَرُ",
+      "meaning_ar": "نَوْعٌ مِنْ نُخَاعِ الْعَظْمِ يَحْتَوِي عَلَى نِسْبَةٍ عَالِيَةٍ مِنَ الدُّهُونِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نُخَاعُ الْعَظْمِ"
+      ],
+      "examples_ar": [
+        "يُوجَدُ النُّخَاعُ الأَصْفَرُ فِي بَعْضِ تَجَاوِيفِ الْعِظَامِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ النُّخَاعِ الأَحْمَرِ فِي الوَظِيفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_098",
+      "arabic": "نُخَاعٌ أَحْمَرُ",
+      "meaning_ar": "نَسِيجٌ دَاخِلَ الْعِظَامِ يُنْتِجُ خَلَايَا الدَّمِ الْجَدِيدَةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ النُّخَاعِ"
+      ],
+      "examples_ar": [
+        "يُنْتِجُ النُّخَاعُ الأَحْمَرُ كُرَيَّاتِ الدَّمِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ تَوْزِيعُهُ مَعَ الْعُمْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_099",
+      "arabic": "جِلْدَةٌ",
+      "meaning_ar": "طَبَقَةٌ خَارِجِيَّةٌ تَحْمِي الْجِسْمَ مِنَ الْبِيئَةِ وَفَقْدِ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَبَقَاتُ الْجِلْدِ"
+      ],
+      "examples_ar": [
+        "يَحْمِي الْجِلْدُ الْجِسْمَ مِنْ مُؤَثِّرَاتٍ خَارِجِيَّةٍ."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي الْإِحْسَاسِ وَتَنْظِيمِ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_100",
+      "arabic": "بَشَرَةٌ",
+      "meaning_ar": "الطَّبَقَةُ الْخَارِجِيَّةُ مِنَ الْجِلْدِ الَّتِي تُشَكِّلُ حَاجِزًا وَاقِيًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "خَلَايَا الْبَشَرَةِ"
+      ],
+      "examples_ar": [
+        "تَتَجَدَّدُ خَلَايَا الْبَشَرَةِ بِاسْتِمْرَارٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الأَدَمَةِ الأَعْمَقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_101",
+      "arabic": "أَدَمَةٌ",
+      "meaning_ar": "طَبَقَةٌ مِنَ الْجِلْدِ تَقَعُ تَحْتَ الْبَشَرَةِ وَتَحْتَوِي عَلَى أَوْعِيَةٍ وَأَعْصَابٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "أَلْيَافُ الأَدَمَةِ"
+      ],
+      "examples_ar": [
+        "تَحْتَوِي الأَدَمَةُ عَلَى أَلْيَافٍ مُرِنَةٍ."
+      ],
+      "usage_note_ar": "تُسَاهِمُ فِي قُوَّةِ الْجِلْدِ وَحِسِّهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_102",
+      "arabic": "غُدَّةٌ عَرَقِيَّةٌ",
+      "meaning_ar": "غُدَّةٌ فِي الْجِلْدِ تُفْرِزُ سَائِلًا لِتَبْرِيدِ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِفْرَازُ الْعَرَقِ"
+      ],
+      "examples_ar": [
+        "زَادَ نَشَاطُ الْغُدَدِ الْعَرَقِيَّةِ مَعَ الْحَرَارَةِ."
+      ],
+      "usage_note_ar": "تُسَاهِمُ فِي تَنْظِيمِ دَرَجَةِ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_103",
+      "arabic": "غُدَّةٌ دُهْنِيَّةٌ",
+      "meaning_ar": "غُدَّةٌ جِلْدِيَّةٌ تُفْرِزُ مَادَّةً دُهْنِيَّةً تَرْطِبُ الْجِلْدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِفْرَازُ الدُّهْنِ"
+      ],
+      "examples_ar": [
+        "تُوجَدُ الْغُدَدُ الدُّهْنِيَّةُ قُرْبَ بُصَيْلَاتِ الشَّعْرِ."
+      ],
+      "usage_note_ar": "قَدْ يَزْدَادُ نَشَاطُهَا فِي بَعْضِ الْمَرَاحِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_104",
+      "arabic": "بُصَيْلَةُ شَعْرٍ",
+      "meaning_ar": "تَرْكِيبٌ فِي الْجِلْدِ يَنْشَأُ مِنْهُ الشَّعْرُ وَيَنْمُو.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جِذْرُ الشَّعْرِ"
+      ],
+      "examples_ar": [
+        "تُغَذِّي الأَوْعِيَةُ الدَّمَوِيَّةُ بُصَيْلَةَ الشَّعْرِ."
+      ],
+      "usage_note_ar": "تَمُرُّ بِمَرَاحِلَ مِنَ النُّمُوِّ وَالرَّاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_105",
+      "arabic": "شَبَكِيَّةُ الْعَيْنِ",
+      "meaning_ar": "طَبَقَةٌ حَسَّاسَةٌ لِلضَّوْءِ فِي مُؤَخِّرَةِ الْعَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "خَلَايَا الشَّبَكِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَسْتَقْبِلُ الشَّبَكِيَّةُ الصُّورَةَ الضَّوْئِيَّةَ."
+      ],
+      "usage_note_ar": "تُحَوِّلُ الضَّوْءَ إِلَى إِشَارَاتٍ عَصَبِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_106",
+      "arabic": "عَدَسَةُ الْعَيْنِ",
+      "meaning_ar": "تَرْكِيبٌ شَفَّافٌ يَتَغَيَّرُ شَكْلُهُ لِتَرْكِيزِ الضَّوْءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَكَيُّفُ الْعَدَسَةِ"
+      ],
+      "examples_ar": [
+        "تُسَاعِدُ الْعَدَسَةُ عَلَى رُؤْيَةِ الْأَشْيَاءِ."
+      ],
+      "usage_note_ar": "تَقَعُ خَلْفَ الْقُزَحِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_107",
+      "arabic": "قَرْنِيَّةٌ",
+      "meaning_ar": "سَطْحٌ شَفَّافٌ فِي مُقَدِّمَةِ الْعَيْنِ يُسَاهِمُ فِي كَسْرِ الضَّوْءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "انْحِنَاءُ الْقَرْنِيَّةِ"
+      ],
+      "examples_ar": [
+        "يَمُرُّ الضَّوْءُ عَبْرَ الْقَرْنِيَّةِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَرْطِيبٍ وَحِمَايَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_108",
+      "arabic": "قُزَحِيَّةٌ",
+      "meaning_ar": "الْجُزْءُ الْمُلَوَّنُ مِنَ الْعَيْنِ الَّذِي يُنَظِّمُ حَجْمَ الْحَدَقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "لَوْنُ الْقُزَحِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَضِيقُ الْحَدَقَةُ عِنْدَ الضَّوْءِ الْقَوِيِّ."
+      ],
+      "usage_note_ar": "تَسْتَعْمِلُ عَضَلَاتٍ صَغِيرَةً لِلتَّحَكُّمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_109",
+      "arabic": "حَدَقَةٌ",
+      "meaning_ar": "فَتْحَةٌ فِي وَسَطِ الْقُزَحِيَّةِ يَدْخُلُ مِنْهَا الضَّوْءُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اتِّسَاعُ الْحَدَقَةِ"
+      ],
+      "examples_ar": [
+        "اتَّسَعَتِ الْحَدَقَةُ فِي الظَّلَامِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِيهَا الضَّوْءُ وَبَعْضُ الْمُؤَثِّرَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_110",
+      "arabic": "عَصَبٌ بَصَرِيٌّ",
+      "meaning_ar": "عَصَبٌ يَنْقُلُ الإِشَارَاتِ الْبَصَرِيَّةَ مِنَ الْعَيْنِ إِلَى الدِّمَاغِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَسَارُ الْعَصَبِ"
+      ],
+      "examples_ar": [
+        "تُنْقَلُ الْمَعْلُومَاتُ عَبْرَ الْعَصَبِ الْبَصَرِيِّ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالشَّبَكِيَّةِ وَالْمَرَاكِزِ الْبَصَرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_111",
+      "arabic": "طَبْلَةُ الْأُذُنِ",
+      "meaning_ar": "غِشَاءٌ رَقِيقٌ يَهْتَزُّ عِنْدَ وُصُولِ الْمَوْجَاتِ الصَّوْتِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اهْتِزَازُ الطَّبْلَةِ"
+      ],
+      "examples_ar": [
+        "تَنْقُلُ الطَّبْلَةُ الِاهْتِزَازَ إِلَى عُظَيْمَاتِ السَّمْعِ."
+      ],
+      "usage_note_ar": "تَفْصِلُ بَيْنَ الأُذُنِ الْخَارِجِيَّةِ وَالْوُسْطَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_112",
+      "arabic": "قَوْقَعَةُ الْأُذُنِ",
+      "meaning_ar": "جُزْءٌ حَلَزُونِيٌّ فِي الأُذُنِ الدَّاخِلِيَّةِ يُحَوِّلُ الِاهْتِزَازَ إِلَى إِشَارَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "خَلَايَا الْقَوْقَعَةِ"
+      ],
+      "examples_ar": [
+        "تُسَاهِمُ الْقَوْقَعَةُ فِي تَمْيِيزِ الأَصْوَاتِ."
+      ],
+      "usage_note_ar": "تَحْتَوِي عَلَى خَلَايَا حِسِّيَّةٍ دَقِيقَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_113",
+      "arabic": "عَصَبٌ سَمْعِيٌّ",
+      "meaning_ar": "أَلْيَافٌ عَصَبِيَّةٌ تَنْقُلُ مَعْلُومَاتِ الصَّوْتِ إِلَى الدِّمَاغِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَقْلُ الصَّوْتِ"
+      ],
+      "examples_ar": [
+        "تَصِلُ الْإِشَارَاتُ السَّمْعِيَّةُ إِلَى الدِّمَاغِ."
+      ],
+      "usage_note_ar": "يَتَعَاوَنُ مَعَ مَسَارَاتِ التَّوَازُنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_114",
+      "arabic": "دَهْلِيزُ الْأُذُنِ",
+      "meaning_ar": "جُزْءٌ مِنَ الأُذُنِ الدَّاخِلِيَّةِ يَسْهَمُ فِي الإِحْسَاسِ بِوَضْعِ الرَّأْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ الدَّهْلِيزِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ الدَّهْلِيزُ عَلَى الْحِفَاظِ عَلَى التَّوَازُنِ."
+      ],
+      "usage_note_ar": "يَعْمَلُ مَعَ الْقَنَوَاتِ نِصْفِ الدَّائِرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_115",
+      "arabic": "قَنَاةٌ نِصْفُ دَائِرِيَّةٍ",
+      "meaning_ar": "قَنَاةٌ فِي الأُذُنِ الدَّاخِلِيَّةِ تَكْشِفُ حَرَكَةَ دَوَرَانِ الرَّأْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَنَوَاتُ التَّوَازُنِ"
+      ],
+      "examples_ar": [
+        "تَكْشِفُ الْقَنَوَاتُ حَرَكَةَ الرَّأْسِ."
+      ],
+      "usage_note_ar": "تَحْتَوِي عَلَى سَائِلٍ وَخَلَايَا حِسِّيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_116",
+      "arabic": "مِجْهَرٌ ضَوْئِيٌّ",
+      "meaning_ar": "جِهَازٌ يَسْتَعْمِلُ الضَّوْءَ وَالْعَدَسَاتِ لِتَكْبِيرِ أَجْسَامٍ صَغِيرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَدَسَةُ الْمِجْهَرِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّالِبُ خَلَايَا تَحْتَ الْمِجْهَرِ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ دِقَّتُهُ بِخَصَائِصِ الْبَصَرِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_117",
+      "arabic": "عَيِّنَةٌ مِخْبَرِيَّةٌ",
+      "meaning_ar": "جُزْءٌ صَغِيرٌ مِنْ مَادَّةٍ يُجْمَعُ لِلْفَحْصِ أَوِ التَّحْلِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جَمْعُ الْعَيِّنَةِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمَخْبَرُ الْعَيِّنَةَ لِلتَّحْلِيلِ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ النَّتِيجَةُ عَلَى صِحَّةِ الْجَمْعِ وَالْحِفْظِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_118",
+      "arabic": "مِصْلُ الدَّمِ",
+      "meaning_ar": "السَّائِلُ الَّذِي يَبْقَى بَعْدَ تَجَلُّطِ الدَّمِ وَإِزَالَةِ الْجُلْطَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْمِصْلِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمَخْبَرُ مَكَوِّنَاتِ مِصْلِ الدَّمِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْبِلَازْمَا بِغِيَابِ بَعْضِ عَوَامِلِ التَّخَثُّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_119",
+      "arabic": "مَزْرَعَةٌ مِيكْرُوبِيَّةٌ",
+      "meaning_ar": "نَمْوُ كَائِنَاتٍ مِجْهَرِيَّةٍ فِي وَسَطٍ مُخَصَّصٍ لِلْفَحْصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَحْضِيرُ الْمَزْرَعَةِ"
+      ],
+      "examples_ar": [
+        "زَرَعَ الْمَخْبَرُ الْعَيِّنَةَ فِي وَسَطٍ مُنَاسِبٍ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلتَّعَرُّفِ إِلَى بَعْضِ الْكَائِنَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_120",
+      "arabic": "عَدْوَى بَكْتِيرِيَّةٌ",
+      "meaning_ar": "دُخُولُ بَكْتِيرْيَا مُسَبِّبَةٍ لِلْمَرَضِ إِلَى الْجِسْمِ وَتَكَاثُرُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُسَبِّبُ الْعَدْوَى"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّبِيبُ سَبَبَ الْعَدْوَى."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْعَدْوَى الْفَيْرُوسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_121",
+      "arabic": "عَدْوَى فَيْرُوسِيَّةٌ",
+      "meaning_ar": "إِصَابَةٌ تَنْشَأُ عَنْ دُخُولِ فَيْرُوسٍ إِلَى خَلَايَا الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "انْتِقَالُ الْعَدْوَى"
+      ],
+      "examples_ar": [
+        "وَجَّهَ الطَّبِيبُ الْمَرِيضَ إِلَى الْفَحْصِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طُرُقُ الِانْتِقَالِ بِحَسَبِ الْفَيْرُوسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_122",
+      "arabic": "فَتْرَةُ حَضَانَةٍ",
+      "meaning_ar": "الْمُدَّةُ بَيْنَ التَّعَرُّضِ لِعَامِلٍ مُمْرِضٍ وَظُهُورِ الأَعْرَاضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طُولُ الْحَضَانَةِ"
+      ],
+      "examples_ar": [
+        "تَخْتَلِفُ فَتْرَةُ الْحَضَانَةِ بَيْنَ الأَمْرَاضِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْدُثُ الْعَدْوَى قَبْلَ ظُهُورِ أَعْرَاضٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_123",
+      "arabic": "حَامِلٌ لِلْمَرَضِ",
+      "meaning_ar": "شَخْصٌ يَحْمِلُ عَامِلًا مُمْرِضًا وَقَدْ لَا تَظْهَرُ عَلَيْهِ أَعْرَاضٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حَامِلٌ بِدُونِ أَعْرَاضٍ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَحْصُ حَمْلَ الْعَامِلِ الْمُمْرِضِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي غِيَابُ الأَعْرَاضِ دَائِمًا غِيَابَ الْعَدْوَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_124",
+      "arabic": "اسْتِجَابَةٌ الْتِهَابِيَّةٌ",
+      "meaning_ar": "تَفَاعُلٌ دِفَاعِيٌّ يَحْدُثُ فِي الأَنْسِجَةِ عِنْدَ إِصَابَةٍ أَوْ تَهَيُّجٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَلَامَاتُ الِالْتِهَابِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ احْمِرَارٌ حَوْلَ مَوْضِعِ الْجُرْحِ."
+      ],
+      "usage_note_ar": "قَدْ تَشْمَلُ الْحَرَارَةَ وَالِانْتِفَاخَ وَالأَلَمَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_125",
+      "arabic": "تَوَرُّمٌ",
+      "meaning_ar": "زِيَادَةُ حَجْمِ نَسِيجٍ بِسَبَبِ تَجَمُّعِ سَائِلٍ أَوِ الْتِهَابٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَوَرُّمُ الْمِفْصَلِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الطَّبِيبُ تَوَرُّمًا فِي الْكَاحِلِ."
+      ],
+      "usage_note_ar": "لَهُ أَسْبَابٌ مُخْتَلِفَةٌ تَحْتَاجُ إِلَى تَشْخِيصٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_126",
+      "arabic": "وَذَمَةٌ",
+      "meaning_ar": "تَجَمُّعُ سَائِلٍ زَائِدٍ فِي الْأَنْسِجَةِ يُؤَدِّي إِلَى انْتِفَاخٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَذَمَةُ السَّاقِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّبِيبُ وَذَمَةً فِي الْقَدَمِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِحَالَاتٍ مُتَعَدِّدَةٍ وَلَا تُشَخَّصُ مِنَ الشَّكْلِ وَحْدَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_127",
+      "arabic": "حُمَّى",
+      "meaning_ar": "ارْتِفَاعُ دَرَجَةِ حَرَارَةِ الْجِسْمِ عَنْ مُسْتَوًى مُعْتَادٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْحُمَّى"
+      ],
+      "examples_ar": [
+        "قَاسَتِ الأُمُّ حَرَارَةَ الطِّفْلِ."
+      ],
+      "usage_note_ar": "تُعَدُّ عَرَضًا وَلَيْسَتْ مَرَضًا وَاحِدًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_128",
+      "arabic": "وَجَعٌ مَوْضِعِيٌّ",
+      "meaning_ar": "شُعُورٌ بِالأَلَمِ فِي مَنْطِقَةٍ مُحَدَّدَةٍ مِنَ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَوْضِعُ الْوَجَعِ"
+      ],
+      "examples_ar": [
+        "وَصَفَ الْمَرِيضُ وَجَعًا فِي كَتِفِهِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الأَلَمِ الْمُنْتَشِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_129",
+      "arabic": "أَلَمٌ مُزْمِنٌ",
+      "meaning_ar": "أَلَمٌ يَسْتَمِرُّ لِمُدَّةٍ طَوِيلَةٍ أَوْ يَتَكَرَّرُ بِصُورَةٍ مُسْتَمِرَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِدَارَةُ الأَلَمِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الْمَرِيضُ الأَلَمَ الْمُزْمِنَ مَعَ الطَّبِيبِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَقْيِيمِ أَسْبَابِهِ وَأَثَرِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_130",
+      "arabic": "أَلَمٌ حَادٌّ",
+      "meaning_ar": "أَلَمٌ يَظْهَرُ بِصُورَةٍ مُفَاجِئَةٍ أَوْ يَرْتَبِطُ بِإِصَابَةٍ قَصِيرَةِ الْمُدَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "أَلَمٌ شَدِيدٌ"
+      ],
+      "examples_ar": [
+        "وَصَفَ الْمَرِيضُ أَلَمًا حَادًّا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الأَلَمِ الْمُزْمِنِ فِي الْمُدَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_131",
+      "arabic": "عَرَضٌ مَرَضِيٌّ",
+      "meaning_ar": "تَغَيُّرٌ يَشْعُرُ بِهِ الشَّخْصُ وَقَدْ يَدُلُّ عَلَى حَالَةٍ صِحِّيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَصْفُ الأَعْرَاضِ"
+      ],
+      "examples_ar": [
+        "وَصَفَ الْمَرِيضُ أَعْرَاضَهُ بِالتَّفْصِيلِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْعَلَامَةِ الَّتِي يَلْحَظُهَا الْفَاحِصُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_132",
+      "arabic": "عَلَامَةٌ سَرِيرِيَّةٌ",
+      "meaning_ar": "مُؤَشِّرٌ يُلَاحِظُهُ الْمُخْتَصُّ أَثْنَاءَ الْفَحْصِ الطِّبِّيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَلَامَاتُ الْفَحْصِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الطَّبِيبُ عَلَامَةً سَرِيرِيَّةً."
+      ],
+      "usage_note_ar": "تُقَيَّمُ مَعَ تَارِيخِ الْمَرَضِ وَالأَعْرَاضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_133",
+      "arabic": "تَشْخِيصٌ تَفْرِيقِيٌّ",
+      "meaning_ar": "مُقَارَنَةُ أَسْبَابٍ مَرَضِيَّةٍ مُحْتَمَلَةٍ لِلْأَعْرَاضِ نَفْسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَائِمَةُ الْاحْتِمَالَاتِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّبِيبُ تَشْخِيصًا تَفْرِيقِيًّا."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ فَحْصًا وَقَرَائِنَ مُنَاسِبَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_134",
+      "arabic": "تَارِيخٌ مَرَضِيٌّ",
+      "meaning_ar": "مَعْلُومَاتٌ عَنِ الْحَالَاتِ السَّابِقَةِ وَالأَعْرَاضِ وَالأَدْوِيَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "أَخْذُ التَّارِيخِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الطَّبِيبُ عَنْ التَّارِيخِ الْمَرَضِيِّ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ سِيَاقِ الْأَعْرَاضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_135",
+      "arabic": "فَحْصٌ سَرِيرِيٌّ",
+      "meaning_ar": "تَقْيِيمٌ مُبَاشِرٌ يَجْرِيهِ الْمُخْتَصُّ لِمُلاحَظَةِ حَالَةِ الْمَرِيضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِجْرَاءُ الْفَحْصِ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الطَّبِيبُ فَحْصًا سَرِيرِيًّا."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْمُلَاحَظَةَ وَالْجَسَّ وَغَيْرَهُمَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_136",
+      "arabic": "جَسٌّ طِبِّيٌّ",
+      "meaning_ar": "فَحْصُ جُزْءٍ مِنَ الْجِسْمِ بِاسْتِخْدَامِ الْيَدِ لِتَقْيِيمِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جَسُّ الْبَطْنِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّبِيبُ الْبَطْنَ بِالْجَسِّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْفَحْصِ بِالسَّمَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_137",
+      "arabic": "تَسَمُّعٌ",
+      "meaning_ar": "الِاسْتِمَاعُ إِلَى أَصْوَاتِ الْجِسْمِ بِأَدَاةٍ طِبِّيَّةٍ أَوْ بِدُونِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَسَمُّعُ الرِّئَتَيْنِ"
+      ],
+      "examples_ar": [
+        "تَسَمَّعَ الطَّبِيبُ صَوْتَ التَّنَفُّسِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ غَالِبًا سَمَّاعَةً طِبِّيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_138",
+      "arabic": "قَرْعٌ طِبِّيٌّ",
+      "meaning_ar": "الطَّرْقُ الْخَفِيفُ عَلَى سَطْحِ الْجِسْمِ لِتَقْيِيمِ الصَّوْتِ النَّاتِجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَرْعُ الصَّدْرِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الطَّبِيبُ الْقَرْعَ فِي الْفَحْصِ."
+      ],
+      "usage_note_ar": "يُقَدِّمُ مُؤَشِّرَاتٍ عَنْ بَعْضِ الأَنْسِجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_139",
+      "arabic": "سَمَّاعَةٌ طِبِّيَّةٌ",
+      "meaning_ar": "أَدَاةٌ تُكَبِّرُ أَصْوَاتَ الْقَلْبِ وَالرِّئَتَيْنِ عِنْدَ الْفَحْصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اسْتِعْمَالُ السَّمَّاعَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّبِيبُ السَّمَّاعَةَ عَلَى الصَّدْرِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلتَّسَمُّعِ وَلَيْسَ لِقِيَاسِ الضَّغْطِ وَحْدَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_140",
+      "arabic": "مِقْيَاسُ تَشَبُّعٍ",
+      "meaning_ar": "جِهَازٌ يُقَدِّرُ نِسْبَةَ تَشَبُّعِ الْهَيْمُوغْلُوبِينِ بِالأُكْسِجِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مِقْيَاسُ الأُصْبُعِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْمُمَرِّضَةُ الْجِهَازَ عَلَى الْأُصْبُعِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ دِقَّتُهُ بِبَعْضِ الظُّرُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_141",
+      "arabic": "جِهَازُ قِيَاسِ الضَّغْطِ",
+      "meaning_ar": "أَدَاةٌ تُقَدِّرُ الضَّغْطَ الدَّمَوِيَّ بِوَسِيلَةٍ يَدَوِيَّةٍ أَوْ آليَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الضَّغْطِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَتِ الْمُمَرِّضَةُ قِرَاءَةَ الْجِهَازِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ وَضْعُ الْجِسْمِ فِي الْقِيَاسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_142",
+      "arabic": "مِقْيَاسُ حَرَارَةٍ",
+      "meaning_ar": "جِهَازٌ يُسْتَعْمَلُ لِمَعْرِفَةِ دَرَجَةِ حَرَارَةِ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْحَرَارَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَتِ الأُمُّ حَرَارَةَ الطِّفْلِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طُرُقُ الْقِيَاسِ وَدِقَّتُهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_143",
+      "arabic": "تَصْوِيرٌ بِالأَشِعَّةِ",
+      "meaning_ar": "فَحْصٌ يُنْتِجُ صُوَرًا لِدَاخِلِ الْجِسْمِ بِوَسِيلَةٍ إِشْعَاعِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "صُورَةُ الْعِظَامِ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الطَّبِيبُ تَصْوِيرًا لِلصَّدْرِ."
+      ],
+      "usage_note_ar": "تَتَخَذُ الْفُحُوصُ أَشْكَالًا مُخْتَلِفَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_144",
+      "arabic": "تَصْوِيرٌ مَقْطَعِيٌّ",
+      "meaning_ar": "فَحْصٌ يُنْتِجُ صُوَرًا لِطَبَقَاتِ الْجِسْمِ بِأَشِعَّةٍ وَحِسَابَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "صُورَةٌ مَقْطَعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الطَّبِيبُ تَصْوِيرًا مَقْطَعِيًّا."
+      ],
+      "usage_note_ar": "تُحَدَّدُ مُلَاءَمَتُهُ بِحَسَبِ الْحَالَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_145",
+      "arabic": "تَصْوِيرٌ بِالرَّنِينِ الْمَغْنَاطِيسِيِّ",
+      "meaning_ar": "فَحْصٌ يَسْتَخْدِمُ الْمَجَالَ الْمَغْنَاطِيسِيَّ لِصُنْعِ صُوَرٍ لِلْأَنْسِجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "صُورَةُ الرَّنِينِ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الْمَرِيضُ فَحْصَ الرَّنِينِ."
+      ],
+      "usage_note_ar": "لَا يَسْتَعْمِلُ أَشِعَّةً سِينِيَّةً مُؤَيِّنَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_146",
+      "arabic": "مَوْجَاتٌ فَوْقَ صَوْتِيَّةٌ",
+      "meaning_ar": "مَوْجَاتٌ صَوْتِيَّةٌ عَالِيَةُ التَّرَدُّدِ تُسْتَعْمَلُ لِتَصْوِيرِ الْأَنْسِجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "فَحْصُ الْمَوْجَاتِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّبِيبُ صُورَةً فَوْقَ صَوْتِيَّةٍ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي التَّشْخِيصِ دُونَ أَشِعَّةٍ مُؤَيِّنَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_147",
+      "arabic": "خُزْعَةٌ",
+      "meaning_ar": "عَيِّنَةٌ مِنْ نَسِيجٍ تُؤْخَذُ لِفَحْصِهَا مِخْبَرِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْخُزْعَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمَخْبَرُ الْعَيِّنَةَ النَّسِيجِيَّةَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طَرِيقَةُ أَخْذِهَا بِحَسَبِ الْمَوْضِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_148",
+      "arabic": "تَحْلِيلٌ نَسِيجِيٌّ",
+      "meaning_ar": "فَحْصُ خَلَايَا وَأَنْسِجَةٍ بِالْمِجْهَرِ لِمَعْرِفَةِ تَرْكِيبِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "فَحْصُ الشَّرِيحَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُخْتَصُّ خُزْعَةً تَحْتَ الْمِجْهَرِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَحْضِيرِ الشَّرَائِحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_149",
+      "arabic": "مُعْتَمَدٌ مِخْبَرِيٌّ",
+      "meaning_ar": "وَصْفٌ لِمَخْبَرٍ اجْتَازَ شُرُوطَ جَوْدَةٍ وَفْقَ جِهَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَخْبَرٌ مُعْتَمَدٌ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الطَّبِيبُ الْعَيِّنَةَ إِلَى مَخْبَرٍ مُعْتَمَدٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْمَعَايِيرُ بِحَسَبِ نَوْعِ الِاعْتِمَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_150",
+      "arabic": "مُرَاجَعَةٌ دَوَائِيَّةٌ",
+      "meaning_ar": "فَحْصُ الأَدْوِيَةِ الَّتِي يَتَنَاوَلُهَا الْمَرِيضُ لِتَقْيِيمِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَائِمَةُ الأَدْوِيَةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الصَّيْدَلَانِيُّ أَدْوِيَةَ الْمَرِيضِ."
+      ],
+      "usage_note_ar": "تَهْدِفُ إِلَى كَشْفِ التَّكْرَارِ وَالتَّدَاخُلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_151",
+      "arabic": "تَدَاخُلٌ دَوَائِيٌّ",
+      "meaning_ar": "تَأْثِيرٌ يَحْدُثُ عِنْدَ اسْتِعْمَالِ دَوَاءَيْنِ أَوْ مَوَادَّ مَعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُرَاقَبَةُ التَّدَاخُلِ"
+      ],
+      "examples_ar": [
+        "حَذَّرَ الصَّيْدَلَانِيُّ مِنْ تَدَاخُلٍ دَوَائِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ يُغَيِّرُ الْفَعَالِيَّةَ أَوْ يَزِيدُ الْآثَارَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_152",
+      "arabic": "أَثَرٌ جَانِبِيٌّ",
+      "meaning_ar": "اسْتِجَابَةٌ غَيْرُ مَقْصُودَةٍ قَدْ تَحْدُثُ مَعَ دَوَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُرَاقَبَةُ الْأَثَرِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمَرِيضُ الْآثَارَ الْجَانِبِيَّةَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ فِي الشِّدَّةِ وَالِاحْتِمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_153",
+      "arabic": "جُرْعَةٌ دَوَائِيَّةٌ",
+      "meaning_ar": "كَمِّيَّةٌ مُحَدَّدَةٌ مِنْ دَوَاءٍ تُؤْخَذُ وَفْقَ تَعْلِيمَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مِقْدَارُ الْجُرْعَةِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّبِيبُ الْجُرْعَةَ فِي الْوَصْفَةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ الْمِقْدَارُ بِحَسَبِ الْحَالَةِ وَالدَّوَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_154",
+      "arabic": "وَصْفَةٌ طِبِّيَّةٌ",
+      "meaning_ar": "وَثِيقَةٌ يُحَدِّدُ فِيهَا الْمُخْتَصُّ دَوَاءً وَطَرِيقَةَ اسْتِعْمَالِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "صَرْفُ الْوَصْفَةِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَرِيضُ الْوَصْفَةَ لِلصَّيْدَلِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْضَعُ لِقَوَاعِدَ تَخْتَلِفُ بَيْنَ الْبِلَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_155",
+      "arabic": "مَادَّةٌ فَعَّالَةٌ",
+      "meaning_ar": "مُرَكَّبٌ يَتَوَلَّى التَّأْثِيرَ الْعِلَاجِيَّ الأَسَاسِيَّ فِي الدَّوَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اسْمُ الْمَادَّةِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الصَّيْدَلَانِيُّ الْمَادَّةَ الْفَعَّالَةَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْمَوَادِّ الْمُسَاعِدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_156",
+      "arabic": "مَادَّةٌ مُسَاعِدَةٌ",
+      "meaning_ar": "مُكَوِّنٌ دَوَائِيٌّ يُسَاعِدُ فِي صِنَاعَةِ الدَّوَاءِ دُونَ أَنْ يَكُونَ الأَصْلَ فِي فَعْلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَائِمَةُ الْمُكَوِّنَاتِ"
+      ],
+      "examples_ar": [
+        "تَحْتَوِي الْحَبَّةُ عَلَى مَوَادَّ مُسَاعِدَةٍ."
+      ],
+      "usage_note_ar": "قَدْ تُؤَثِّرُ فِي الشَّكْلِ وَالثَّبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_157",
+      "arabic": "كَبْسُولَةٌ دَوَائِيَّةٌ",
+      "meaning_ar": "غِلَافٌ صَغِيرٌ يَحْتَوِي عَلَى دَوَاءٍ مُعَدٍّ لِلْبَلْعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَنَاوُلُ الْكَبْسُولَةِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الْمَرِيضُ عَنْ طَرِيقَةِ تَنَاوُلِ الْكَبْسُولَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ الْقُرْصِ فِي التَّرْكِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_158",
+      "arabic": "قُرْصٌ دَوَائِيٌّ",
+      "meaning_ar": "شَكْلٌ صُلْبٌ مُضْغُوطٌ يَحْتَوِي عَلَى جُرْعَةٍ مِنْ دَوَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قُرْصٌ مَغْلَفٌ"
+      ],
+      "examples_ar": [
+        "صَرَفَ الصَّيْدَلَانِيُّ أَقْرَاصًا لِلْمَرِيضِ."
+      ],
+      "usage_note_ar": "لَا تُسْحَقُ بَعْضُ الأَقْرَاصِ بِغَيْرِ إِرْشَادٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_159",
+      "arabic": "شَرَابٌ دَوَائِيٌّ",
+      "meaning_ar": "مُسْتَحْضَرٌ سَائِلٌ يَحْتَوِي عَلَى دَوَاءٍ لِلْتَّنَاوُلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مِلْعَقَةُ قِيَاسٍ"
+      ],
+      "examples_ar": [
+        "قَاسَتِ الأُمُّ الْمِقْدَارَ بِأَدَاةِ قِيَاسٍ."
+      ],
+      "usage_note_ar": "يَجِبُ مُرَاعَاةُ التَّرْكِيزِ وَالْجُرْعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_160",
+      "arabic": "مَرْهَمٌ",
+      "meaning_ar": "مُسْتَحْضَرٌ دُهْنِيٌّ يُوْضَعُ عَلَى الْجِلْدِ لِغَرَضٍ عِلَاجِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَضْعُ الْمَرْهَمِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمَرِيضُ الْمَرْهَمَ وَفْقَ التَّعْلِيمَاتِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمَحْلُولِ السَّائِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_161",
+      "arabic": "لُصَاقَةٌ دَوَائِيَّةٌ",
+      "meaning_ar": "شَرِيطٌ يُوْضَعُ عَلَى الْجِلْدِ وَيُطْلِقُ دَوَاءً بِمُعَدَّلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَبْدِيلُ اللُّصَاقَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمَرِيضُ اللُّصَاقَةَ فِي مَوْضِعِهَا."
+      ],
+      "usage_note_ar": "لَهَا تَعْلِيمَاتُ اسْتِعْمَالٍ خَاصَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_162",
+      "arabic": "مَحْلُولٌ وَرِيدِيٌّ",
+      "meaning_ar": "سَائِلٌ مُعَدٌّ لِلْإِعْطَاءِ عَبْرَ الْوَرِيدِ تَحْتَ إِشْرَافٍ طِبِّيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَسْرِيبُ الْمَحْلُولِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَتِ الْمُمَرِّضَةُ تَدَفُّقَ الْمَحْلُولِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ بِحَسَبِ الْحَاجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_163",
+      "arabic": "قُنْيَةٌ وَرِيدِيَّةٌ",
+      "meaning_ar": "أُنْبُوبٌ طِبِّيٌّ صَغِيرٌ يُثَبَّتُ فِي وَرِيدٍ لِلْوُصُولِ إِلَيْهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَثْبِيتُ الْقُنْيَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَتِ الْمُمَرِّضَةُ مَوْضِعَ الْقُنْيَةِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ نَظَافَةً وَمُرَاقَبَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_164",
+      "arabic": "حَقْنَةٌ عَضَلِيَّةٌ",
+      "meaning_ar": "طَرِيقَةُ إِعْطَاءِ دَوَاءٍ دَاخِلَ نَسِيجٍ عَضَلِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِعْطَاءُ الْحَقْنَةِ"
+      ],
+      "examples_ar": [
+        "أَعْطَى الْمُخْتَصُّ حَقْنَةً عَضَلِيَّةً."
+      ],
+      "usage_note_ar": "يُحَدَّدُ الْمَوْضِعُ وَالدَّوَاءُ بِشُرُوطٍ طِبِّيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_165",
+      "arabic": "حَقْنَةٌ تَحْتَ الْجِلْدِ",
+      "meaning_ar": "طَرِيقَةُ إِعْطَاءِ دَوَاءٍ فِي الطَّبَقَةِ الدُّهْنِيَّةِ تَحْتَ الْجِلْدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِعْطَاءُ الدَّوَاءِ"
+      ],
+      "examples_ar": [
+        "شَرَحَتِ الْمُمَرِّضَةُ طَرِيقَةَ الْحَقْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْحَقْنَةِ الْعَضَلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_166",
+      "arabic": "خُطَّةٌ عِلَاجِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ إِجْرَاءَاتٍ يُحَدِّدُهَا الْمُخْتَصُّ لِلتَّعَامُلِ مَعَ الْحَالَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ الْخُطَّةِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الطَّبِيبُ الْخُطَّةَ الْعِلَاجِيَّةَ مَعَ الْمَرِيضِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ بِحَسَبِ الِاسْتِجَابَةِ وَالْفُحُوصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_167",
+      "arabic": "إِعَادَةُ تَأْهِيلٍ",
+      "meaning_ar": "بَرْنَامَجٌ يَهْدِفُ إِلَى اسْتِعَادَةِ قُدْرَاتٍ تَأَثَّرَتْ بِإِصَابَةٍ أَوْ مَرَضٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بَرْنَامَجُ التَّأْهِيلِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْمَرِيضُ إِعَادَةَ تَأْهِيلٍ بَعْدَ الْجِرَاحَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَشْمَلُ التَّمَارِينَ وَالتَّدْرِيبَ الْوَظِيفِيَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_168",
+      "arabic": "عِلَاجٌ طَبِيعِيٌّ",
+      "meaning_ar": "تَخَصُّصٌ يَسْتَعْمِلُ الْحَرَكَةَ وَالتَّمْرِينَ وَوَسَائِلَ أُخْرَى لِتَحْسِينِ الْوَظِيفَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جَلْسَةُ الْعِلَاجِ"
+      ],
+      "examples_ar": [
+        "حَضَرَ الْمَرِيضُ جَلْسَةَ عِلَاجٍ طَبِيعِيٍّ."
+      ],
+      "usage_note_ar": "تُحَدَّدُ التَّمَارِينُ بِحَسَبِ التَّقْيِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_169",
+      "arabic": "عِلَاجٌ وَظِيفِيٌّ",
+      "meaning_ar": "تَخَصُّصٌ يُسَاعِدُ الشَّخْصَ عَلَى أَدَاءِ أَنْشِطَةِ حَيَاتِهِ الْيَوْمِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَدْرِيبُ الْأَنْشِطَةِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ الْمَرِيضُ مَهَارَاتٍ فِي الْعِلَاجِ الْوَظِيفِيِّ."
+      ],
+      "usage_note_ar": "يَهْتَمُّ بِالِاسْتِقْلَالِيَّةِ فِي الْحَيَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_170",
+      "arabic": "إِسْعَافٌ أَوَّلِيٌّ",
+      "meaning_ar": "مُسَاعَدَةٌ عَاجِلَةٌ تُقَدَّمُ عِنْدَ الْإِصَابَةِ قَبْلَ وُصُولِ الرِّعَايَةِ الْمُتَخَصِّصَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حَقِيبَةُ الْإِسْعَافِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى الْمُوَظَّفُ تَدْرِيبًا عَلَى الْإِسْعَافِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى السَّلَامَةِ وَتَقْيِيمِ الْحَالَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_171",
+      "arabic": "فَرْزٌ طِبِّيٌّ",
+      "meaning_ar": "تَرْتِيبُ الْمَرْضَى بِحَسَبِ دَرَجَةِ الْحَاجَةِ إِلَى الرِّعَايَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "فَرْزُ الطَّوَارِئِ"
+      ],
+      "examples_ar": [
+        "قَيَّمَ الْفَرِيقُ الْحَالَاتِ عِنْدَ الدُّخُولِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ عِنْدَ زِيَادَةِ الْحَالَاتِ وَالطَّوَارِئِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_172",
+      "arabic": "مُرَاقَبَةٌ حَيَوِيَّةٌ",
+      "meaning_ar": "مُتَابَعَةُ قِيَمٍ مِثْلَ النَّبْضِ وَالضَّغْطِ وَالتَّنَفُّسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "شَاشَةُ الْمُرَاقَبَةِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَتِ الْمُمَرِّضَةُ الْعَلَامَاتِ الْحَيَوِيَّةَ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى اكْتِشَافِ التَّغَيُّرَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_173",
+      "arabic": "عَلَامَاتٌ حَيَوِيَّةٌ",
+      "meaning_ar": "قِيَاسَاتٌ أَسَاسِيَّةٌ تَدُلُّ عَلَى وَظَائِفَ فِسْيُولُوجِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الْعَلَامَاتِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُمَرِّضُ النَّبْضَ وَالضَّغْطَ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الْحَرَارَةَ وَالتَّنَفُّسَ وَغَيْرَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_174",
+      "arabic": "مُعَدَّلُ التَّنَفُّسِ",
+      "meaning_ar": "عَدَدُ دَوَرَاتِ الشَّهِيقِ وَالزَّفِيرِ خِلَالَ دَقِيقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّنَفُّسِ"
+      ],
+      "examples_ar": [
+        "عَدَّتِ الْمُمَرِّضَةُ أَنْفَاسَ الْمَرِيضِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ بِالْعُمْرِ وَالنَّشَاطِ وَالْحَالَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_175",
+      "arabic": "مُعَدَّلُ الْقَلْبِ",
+      "meaning_ar": "عَدَدُ ضَرْبَاتِ الْقَلْبِ خِلَالَ وَحْدَةٍ مِنَ الزَّمَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قِيَاسُ النَّبْضِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ مُعَدَّلُ الْقَلْبِ أَثْنَاءَ الْجَرْيِ."
+      ],
+      "usage_note_ar": "يُقَاسُ غَالِبًا بِالضَّرَبَاتِ فِي الدَّقِيقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_176",
+      "arabic": "مِقْيَاسُ الْأَلَمِ",
+      "meaning_ar": "أَدَاةٌ لِتَقْدِيرِ شِدَّةِ الأَلَمِ مِنْ خِلَالِ أَرْقَامٍ أَوْ وَصْفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْأَلَمِ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الطَّبِيبُ مِنَ الْمَرِيضِ تَقْدِيرَ الأَلَمِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ الْمُخْتَصُّ النَّتِيجَةَ مَعَ الْفَحْصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_177",
+      "arabic": "جِهَازُ الْمُنَاعَةِ الْفِطْرِيَّةِ",
+      "meaning_ar": "خُطُّ دِفَاعٍ سَرِيعٌ يَتَعَرَّفُ إِلَى أَنْماطٍ عَامَّةٍ مِنَ الْمُؤْذِيَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اسْتِجَابَةٌ فِطْرِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَتَحَرَّكُ خَلَايَا مَنَاعِيَّةٌ مُبَكِّرًا عِنْدَ الْعَدْوَى."
+      ],
+      "usage_note_ar": "لَا يَحْتَاجُ إِلَى تَعَرُّضٍ سَابِقٍ مَحْدُودٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_178",
+      "arabic": "مَنَاعَةٌ مُكْتَسَبَةٌ",
+      "meaning_ar": "اسْتِجَابَةٌ مَنَاعِيَّةٌ مُتَخَصِّصَةٌ قَدْ تَحْفَظُ ذَاكِرَةً لِلْعَامِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "ذَاكِرَةٌ مَنَاعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "اسْتَجَابَ الْجِسْمُ لِلْعَامِلِ بَعْدَ التَّعَرُّضِ السَّابِقِ."
+      ],
+      "usage_note_ar": "تَسْتَعْمِلُ خَلَايَا لِمْفَاوِيَّةً مُتَخَصِّصَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_179",
+      "arabic": "جِسْمٌ مُضَادٌّ",
+      "meaning_ar": "بُرُوتِينٌ مَنَاعِيٌّ يَرْتَبِطُ بِهَدَفٍ مُحَدَّدٍ مِثْلَ جُزْءٍ مِنْ جُرْثُومَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قِيَاسُ الأَجْسَامِ الْمُضَادَّةِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَحْصُ أَجْسَامًا مُضَادَّةً."
+      ],
+      "usage_note_ar": "تُصْنَعُ بِوَاسِطَةِ خَلَايَا مَنَاعِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_180",
+      "arabic": "مُسْتَضَدٌّ",
+      "meaning_ar": "مَادَّةٌ أَوْ جُزْءٌ تَتَعَرَّفُ إِلَيْهِ مَكَوِّنَاتٌ مَنَاعِيَّةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "التَّعَرُّفُ إِلَى الْمُسْتَضَدِّ"
+      ],
+      "examples_ar": [
+        "ارْتَبَطَ الْجِسْمُ الْمُضَادُّ بِالْمُسْتَضَدِّ."
+      ],
+      "usage_note_ar": "لَا يَكُونُ كُلُّ مُسْتَضَدٍّ مُسَبِّبًا لِمَرَضٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_181",
+      "arabic": "تَحْصِينٌ",
+      "meaning_ar": "إِجْرَاءٌ يُقَصَدُ بِهِ إِكْسَابُ الْجِسْمِ حِمَايَةً مِنْ مَرَضٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بَرْنَامَجُ التَّحْصِينِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى الطِّفْلُ لِقَاحًا وَفْقَ جَدْوَلِهِ."
+      ],
+      "usage_note_ar": "تُحَدَّدُ جَدَاوِلُهُ بِحَسَبِ الْبَلَدِ وَالْعُمْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_182",
+      "arabic": "لِقَاحٌ",
+      "meaning_ar": "مُسْتَحْضَرٌ يُدَرِّبُ الْجِهَازَ الْمَنَاعِيَّ عَلَى التَّعَرُّفِ إِلَى عَامِلٍ مُمْرِضٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِعْطَاءُ اللِّقَاحِ"
+      ],
+      "examples_ar": [
+        "سَأَلَتِ الأُمُّ الطَّبِيبَ عَنْ مَوْعِدِ اللِّقَاحِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ أَنْوَاعُهُ وَجَدَاوِلُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_health_anatomy_20261027_183",
+      "arabic": "مَنَاعَةُ الْقَطِيعِ",
+      "meaning_ar": "انْخِفَاضُ انْتِقَالِ عَدْوَى عِنْدَ وُجُودِ حِمَايَةٍ كَافِيَةٍ فِي مَجْمُوعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "انْتِقَالُ الْعَدْوَى"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُخْتَصُّ فِكْرَةَ مَنَاعَةِ الْقَطِيعِ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ عَلَى الْمَرَضِ وَفَاعِلِيَّةِ الْحِمَايَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_health_anatomy_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
