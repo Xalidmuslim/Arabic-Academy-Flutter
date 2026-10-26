@@ -1,0 +1,2734 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_law_civics_20261027_001",
+      "arabic": "دُسْتُورٌ",
+      "meaning_ar": "وَثِيقَةٌ أَسَاسِيَّةٌ تُنَظِّمُ سُلُطَاتِ الدَّوْلَةِ وَحُقُوقَ الأَفْرَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَصُّ الدُّسْتُورِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ مَبَادِئَ الدُّسْتُورِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طُرُقُ تَعْدِيلِهِ بَيْنَ الدُّوَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_002",
+      "arabic": "سِيَادَةُ الْقَانُونِ",
+      "meaning_ar": "مَبْدَأٌ يَقْضِي بِخُضُوعِ الْجَمِيعِ لِلْقَوَاعِدِ الْقَانُونِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "احْتِرَامُ الْقَانُونِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الطُّلَّابُ مَبْدَأَ سِيَادَةِ الْقَانُونِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالْمُسَاءَلَةِ وَالْإِجْرَاءَاتِ الْعَادِلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_003",
+      "arabic": "مَبْدَأُ الْمَشْرُوعِيَّةِ",
+      "meaning_ar": "قَاعِدَةٌ تُلْزِمُ السُّلُطَاتِ بِالْعَمَلِ ضِمْنَ حُدُودِ الْقَانُونِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "رِعَايَةُ الْمَشْرُوعِيَّةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْقَاضِي مَشْرُوعِيَّةَ الْقَرَارِ."
+      ],
+      "usage_note_ar": "يَحُدُّ مِنَ التَّصَرُّفِ دُونَ سَنَدٍ نِظَامِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_004",
+      "arabic": "فَصْلُ السُّلُطَاتِ",
+      "meaning_ar": "تَوْزِيعُ وَظَائِفِ التَّشْرِيعِ وَالتَّنْفِيذِ وَالْقَضَاءِ بَيْنَ جِهَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَبْدَأُ الْفَصْلِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ فَصْلَ السُّلُطَاتِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ تَطْبِيقُهُ بَيْنَ النُّظُمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_005",
+      "arabic": "سُلْطَةٌ تَشْرِيعِيَّةٌ",
+      "meaning_ar": "جِهَةٌ تَتَوَلَّى سَنَّ الْقَوَانِينِ أَوْ مُرَاجَعَتَهَا وَفْقَ النِّظَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اخْتِصَاصُ السُّلْطَةِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الْمَجْلِسُ مَشْرُوعَ قَانُونٍ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ هَيَاكِلُهَا بَيْنَ الْبِلَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_006",
+      "arabic": "سُلْطَةٌ تَنْفِيذِيَّةٌ",
+      "meaning_ar": "جِهَاتٌ تُدِيرُ الشُّؤُونَ الْعَامَّةَ وَتُنَفِّذُ الْقَوَانِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَسْؤُولِيَّةُ التَّنْفِيذِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الْجِهَةُ التَّنْفِيذِيَّةُ قَرَارًا."
+      ],
+      "usage_note_ar": "تَخْضَعُ لِرَقَابَةٍ وَفْقَ الدُّسْتُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_007",
+      "arabic": "سُلْطَةٌ قَضَائِيَّةٌ",
+      "meaning_ar": "جِهَاتٌ تَفْصِلُ فِي الْمُنَازَعَاتِ وَتُطَبِّقُ الْقَوَانِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اسْتِقْلَالُ الْقَضَاءِ"
+      ],
+      "examples_ar": [
+        "نَظَرَتِ الْمَحْكَمَةُ فِي النِّزَاعِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دَرَجَاتُ الْمَحَاكِمِ وَاخْتِصَاصَاتُهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_008",
+      "arabic": "مَشْرُوعُ قَانُونٍ",
+      "meaning_ar": "نَصٌّ مُقْتَرَحٌ يُعْرَضُ لِلْمُنَاقَشَةِ قَبْلَ إِقْرَارِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُنَاقَشَةُ الْمَشْرُوعِ"
+      ],
+      "examples_ar": [
+        "أَحَالَ الْمَجْلِسُ الْمَشْرُوعَ إِلَى لَجْنَةٍ."
+      ],
+      "usage_note_ar": "لَا يَصْبِحُ قَانُونًا مُلْزِمًا بِمُجَرَّدِ تَقْدِيمِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_009",
+      "arabic": "تَشْرِيعٌ",
+      "meaning_ar": "سَنُّ قَوَاعِدَ عَامَّةٍ تَحْكُمُ سُلُوكَ النَّاسِ وَالْمُؤَسَّسَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "سَنُّ التَّشْرِيعِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الْبَاحِثُونَ آثَارَ التَّشْرِيعِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ قَوَانِينَ وَأَنْظِمَةً وَفْقَ الْبِلَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_010",
+      "arabic": "لَائِحَةٌ تَنْفِيذِيَّةٌ",
+      "meaning_ar": "قَوَاعِدُ تَفْصِيلِيَّةٌ تُوَضِّحُ كَيْفِيَّةَ تَطْبِيقِ قَانُونٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "أَحْكَامُ اللَّائِحَةِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الْوِزَارَةُ لَائِحَةً تَنْفِيذِيَّةً."
+      ],
+      "usage_note_ar": "لَا يَنْبَغِي أَنْ تُخَالِفَ النَّصَّ الأَعْلَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_011",
+      "arabic": "قَرَارٌ إِدَارِيٌّ",
+      "meaning_ar": "تَصَرُّفٌ تُصْدِرُهُ جِهَةٌ إِدَارِيَّةٌ لِإِحْدَاثِ أَثَرٍ قَانُونِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَبْلِيغُ الْقَرَارِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى الْمُوَظَّفُ قَرَارًا إِدَارِيًّا."
+      ],
+      "usage_note_ar": "قَدْ يَقْبَلُ الطَّعْنَ وَفْقَ النِّظَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_012",
+      "arabic": "اخْتِصَاصٌ إِدَارِيٌّ",
+      "meaning_ar": "صَلَاحِيَّةٌ تُخَوِّلُ جِهَةً اتِّخَاذَ قَرَارَاتٍ فِي مَجَالٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حُدُودُ الِاخْتِصَاصِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمَحَامِي اخْتِصَاصَ الْجِهَةِ."
+      ],
+      "usage_note_ar": "يُحَدِّدُهُ الْقَانُونُ أَوِ التَّنْظِيمُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_013",
+      "arabic": "إِجْرَاءٌ إِدَارِيٌّ",
+      "meaning_ar": "خُطْوَةٌ رَسْمِيَّةٌ تَتَّبِعُهَا جِهَةٌ عَامَّةٌ لِإِنْجَازِ عَمَلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اسْتِكْمَالُ الْإِجْرَاءِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُتَعَامِلُ الْمُسْتَنَدَاتِ الْمَطْلُوبَةَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْخُطُوَاتُ وَالْمُدَدُ بِحَسَبِ الْخِدْمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_014",
+      "arabic": "مُعَامَلَةٌ رَسْمِيَّةٌ",
+      "meaning_ar": "طَلَبٌ أَوْ إِجْرَاءٌ يُسَجَّلُ لَدَى مُؤَسَّسَةٍ عَامَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُتَابَعَةُ الْمُعَامَلَةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُوَاطِنُ حَالَةَ مُعَامَلَتِهِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْتَاجُ إِلَى رَقْمٍ لِلتَّتَبُّعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_015",
+      "arabic": "نَفَاذُ الْقَانُونِ",
+      "meaning_ar": "بِدَايَةُ الْوَقْتِ الَّذِي تُصْبِحُ فِيهِ أَحْكَامُ قَانُونٍ مُطَبَّقَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَارِيخُ النَّفَاذِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ النَّصُّ مَوْعِدَ نَفَاذِ الْقَانُونِ."
+      ],
+      "usage_note_ar": "قَدْ يَخْتَلِفُ عَنْ تَارِيخِ إِصْدَارِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_016",
+      "arabic": "نَشْرٌ رَسْمِيٌّ",
+      "meaning_ar": "إِعْلَانُ نَصٍّ قَانُونِيٍّ فِي وَسِيلَةٍ مُعْتَمَدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جَرِيدَةٌ رَسْمِيَّةٌ"
+      ],
+      "examples_ar": [
+        "نُشِرَ النِّظَامُ فِي الْجَرِيدَةِ الرَّسْمِيَّةِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ أَحْيَانًا بِمَوْعِدِ النَّفَاذِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_017",
+      "arabic": "إِلْغَاءُ تَشْرِيعٍ",
+      "meaning_ar": "إِنْهَاءُ سَرَيَانِ قَاعِدَةٍ قَانُونِيَّةٍ بِنَصٍّ لَاحِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِلْغَاءُ الْمَادَّةِ"
+      ],
+      "examples_ar": [
+        "أُلْغِيَ الْحُكْمُ السَّابِقُ بِنِظَامٍ جَدِيدٍ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ كُلِّيًّا أَوْ جُزْئِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_018",
+      "arabic": "تَعْدِيلٌ تَشْرِيعِيٌّ",
+      "meaning_ar": "تَغْيِيرٌ رَسْمِيٌّ فِي بَعْضِ أَحْكَامِ قَانُونٍ مَوْجُودٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَشْرُوعُ التَّعْدِيلِ"
+      ],
+      "examples_ar": [
+        "أُقِرَّ تَعْدِيلٌ تَشْرِيعِيٌّ لِلْمَادَّةِ."
+      ],
+      "usage_note_ar": "يُرَاجَعُ النَّصُّ الْحَدِيثُ لِفَهْمِ الْحُكْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_019",
+      "arabic": "حَقٌّ مَدَنِيٌّ",
+      "meaning_ar": "مَصْلَحَةٌ أَوْ صَلَاحِيَّةٌ يَحْمِيهَا الْقَانُونُ لِلشَّخْصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْحُقُوقِ"
+      ],
+      "examples_ar": [
+        "طَالَبَ الشَّخْصُ بِحَقِّهِ الْمَدَنِيِّ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ الْحُقُوقُ وَسُبُلُ حِمَايَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_020",
+      "arabic": "وَاجِبٌ قَانُونِيٌّ",
+      "meaning_ar": "الْتِزَامٌ يَفْرِضُهُ النِّظَامُ عَلَى شَخْصٍ أَوْ مُؤَسَّسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الِالْتِزَامُ بِالْوَاجِبِ"
+      ],
+      "examples_ar": [
+        "أَدَّتِ الشَّرِكَةُ وَاجِبَهَا الْقَانُونِيَّ."
+      ],
+      "usage_note_ar": "يَتْرَتَّبُ عَلَى مُخَالَفَتِهِ أَثَرٌ بِحَسَبِ الْحَالَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_021",
+      "arabic": "مَسْؤُولِيَّةٌ مَدَنِيَّةٌ",
+      "meaning_ar": "الْتِزَامٌ قَانُونِيٌّ بِإِصْلَاحِ ضَرَرٍ أَوْ تَعْوِيضِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "دَعْوَى الْمَسْؤُولِيَّةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْقَاضِي عَنَاصِرَ الْمَسْؤُولِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْمَسْؤُولِيَّةِ الْجِنَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_022",
+      "arabic": "مَسْؤُولِيَّةٌ جِنَائِيَّةٌ",
+      "meaning_ar": "تَبِعَةٌ قَانُونِيَّةٌ قَدْ تَنْشَأُ عَنْ فِعْلٍ يُجَرِّمُهُ الْقَانُونُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "أَرْكَانُ الْمَسْؤُولِيَّةِ"
+      ],
+      "examples_ar": [
+        "بَحَثَتِ الْمَحْكَمَةُ تَوَفُّرَ الأَرْكَانِ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ بِحَسَبِ النِّظَامِ الْجِنَائِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_023",
+      "arabic": "خَطَأٌ مِهْنِيٌّ",
+      "meaning_ar": "تَصَرُّفٌ لَا يَسْتَوْفِي مُسْتَوَى الْعِنَايَةِ الْمَطْلُوبَةِ مِهْنِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْخَطَإِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْخَبِيرُ احْتِمَالَ وُقُوعِ خَطَإٍ مِهْنِيٍّ."
+      ],
+      "usage_note_ar": "لَا يَكْفِي وُقُوعُ ضَرَرٍ وَحْدَهُ دَائِمًا لِلْإِثْبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_024",
+      "arabic": "تَعْوِيضٌ مَالِيٌّ",
+      "meaning_ar": "مَبْلَغٌ يُدْفَعُ لِجَبْرِ ضَرَرٍ وَفْقَ حُكْمٍ أَوِ اتِّفَاقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ التَّعْوِيضِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُتَضَرِّرُ طَلَبًا لِلتَّعْوِيضِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ تَقْدِيرُهُ بِحَسَبِ الأَدِلَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_025",
+      "arabic": "عِلَّةٌ قَانُونِيَّةٌ",
+      "meaning_ar": "سَبَبٌ أَوْ وَصْفٌ يَرْتَبِطُ بِتَطْبِيقِ حُكْمٍ فِي سِيَاقٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بَيَانُ الْعِلَّةِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الْفَقِيهُ الْعِلَّةَ الْمُؤَثِّرَةَ فِي الْحُكْمِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ الْمَعْنَى بَيْنَ الْفِقْهِ وَالْقَانُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_026",
+      "arabic": "تَفْسِيرٌ قَانُونِيٌّ",
+      "meaning_ar": "بَيَانُ مَعْنَى نَصٍّ تَشْرِيعِيٍّ وَتَحْدِيدُ نِطَاقِ تَطْبِيقِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَفْسِيرُ النَّصِّ"
+      ],
+      "examples_ar": [
+        "اخْتَلَفَ الْبَاحِثُونَ فِي تَفْسِيرِ الْمَادَّةِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ قَوَاعِدَ لِلُّغَةِ وَالسِّيَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_027",
+      "arabic": "نَصٌّ آمِرٌ",
+      "meaning_ar": "قَاعِدَةٌ قَانُونِيَّةٌ لَا يَجُوزُ لِلْأَطْرَافِ الِاتِّفَاقُ عَلَى مُخَالَفَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَاعِدَةٌ آمِرَةٌ"
+      ],
+      "examples_ar": [
+        "رَفَضَ الْقَاضِي شَرْطًا يُخَالِفُ نَصًّا آمِرًا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ النَّصِّ الْمُكَمِّلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_028",
+      "arabic": "نَصٌّ مُكَمِّلٌ",
+      "meaning_ar": "قَاعِدَةٌ تَسْرِي مَا لَمْ يَتَّفِقِ الأَطْرَافُ عَلَى خِلَافِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَطْبِيقُ النَّصِّ"
+      ],
+      "examples_ar": [
+        "اسْتَنَدَ الْقَاضِي إِلَى الْحُكْمِ الْمُكَمِّلِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي بَعْضِ أَحْكَامِ الْعُقُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_029",
+      "arabic": "عَقْدٌ مَدَنِيٌّ",
+      "meaning_ar": "اتِّفَاقٌ يَنْشَأُ عَنْهُ الْتِزَامٌ أَوْ حَقٌّ بَيْنَ أَطْرَافٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "بُنُودُ الْعَقْدِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الطَّرَفَانِ عَقْدًا مَدَنِيًّا."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ آثَارُهُ وَفْقَ الْقَانُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_030",
+      "arabic": "أَهْلِيَّةُ التَّعَاقُدِ",
+      "meaning_ar": "قُدْرَةُ الشَّخْصِ الْقَانُونِيَّةُ عَلَى إِبْرَامِ اتِّفَاقٍ مُلْزِمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "شُرُوطُ الأَهْلِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَحَقَّقَ الْمُحَامِي مِنْ أَهْلِيَّةِ الطَّرَفَيْنِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِالسِّنِّ وَالْحَالَةِ الْقَانُونِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_031",
+      "arabic": "رِضَا تَعَاقُدِيٌّ",
+      "meaning_ar": "مُوَافَقَةٌ مُعْتَبَرَةٌ مِنَ الطَّرَفَيْنِ عَلَى أَسَاسِيَّاتِ الِاتِّفَاقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَحَقُّقُ الرِّضَا"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْقَاضِي وُجُودَ الرِّضَا فِي الْعَقْدِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَأَثَّرُ بِالْإِكْرَاهِ أَوِ التَّدْلِيسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_032",
+      "arabic": "إِيجَابٌ تَعَاقُدِيٌّ",
+      "meaning_ar": "عَرْضٌ مُحَدَّدٌ لِإِبْرَامِ عَقْدٍ بِشُرُوطٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ الْإِيجَابِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْبَائِعُ عَرْضًا مُحَدَّدًا لِلشِّرَاءِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الدَّعْوَةِ الْعَامَّةِ لِلتَّفَاوُضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_033",
+      "arabic": "قَبُولٌ تَعَاقُدِيٌّ",
+      "meaning_ar": "مُوَافَقَةٌ عَلَى إِيجَابٍ تَنْعَقِدُ بِهَا الْمُعَامَلَةُ وَفْقَ شُرُوطِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِرْسَالُ الْقَبُولِ"
+      ],
+      "examples_ar": [
+        "قَبِلَ الْمُشْتَرِي الشُّرُوطَ دُونَ تَعْدِيلٍ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ صِحَّتُهُ بِالنِّظَامِ وَالْمُدَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_034",
+      "arabic": "شَرْطٌ جَزَائِيٌّ",
+      "meaning_ar": "بَنْدٌ يَحْدِّدُ أَثَرَ التَّأَخُّرِ أَوْ الْإِخْلَالِ بِالِالْتِزَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَطْبِيقُ الشَّرْطِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الطَّرَفَانِ الشَّرْطَ الْجَزَائِيَّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ ضَوَابِطُهُ وَمَشْرُوعِيَّتُهُ بَيْنَ الأَنْظِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_035",
+      "arabic": "إِخْلَالٌ بِالْعَقْدِ",
+      "meaning_ar": "عَدَمُ تَنْفِيذِ الْتِزَامٍ اتَّفَقَ عَلَيْهِ الأَطْرَافُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِثْبَاتُ الْإِخْلَالِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الشَّرِيكُ دَلِيلًا عَلَى الْإِخْلَالِ."
+      ],
+      "usage_note_ar": "يَتَرَتَّبُ عَلَيْهِ أَثَرٌ بِحَسَبِ الشُّرُوطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_036",
+      "arabic": "فَسْخُ الْعَقْدِ",
+      "meaning_ar": "إِنْهَاءُ الرَّابِطَةِ الْعَقْدِيَّةِ لِسَبَبٍ مُعْتَبَرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ الْفَسْخِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُشْتَرِي طَلَبًا لِفَسْخِ الْعَقْدِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ آثَارُهُ عَنِ الْإِنْهَاءِ الْمُسْتَقْبَلِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_037",
+      "arabic": "إِنْهَاءٌ تَعَاقُدِيٌّ",
+      "meaning_ar": "تَوَقُّفُ الْتِزَامَاتٍ عَقْدِيَّةٍ وَفْقَ اتِّفَاقٍ أَوْ نَصٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِشْعَارُ الْإِنْهَاءِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُؤَجِّرُ إِشْعَارًا رَسْمِيًّا."
+      ],
+      "usage_note_ar": "قَدْ يَحْتَاجُ إِلَى مُهْلَةٍ مَحْدُودَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_038",
+      "arabic": "بُطْلَانُ الْعَقْدِ",
+      "meaning_ar": "حَالَةٌ لَا يُرَتِّبُ فِيهَا الِاتِّفَاقُ آثَارَهُ الْمَقْصُودَةَ لِخَلَلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "دَعْوَى الْبُطْلَانِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْقَاضِي سَبَبَ بُطْلَانِ الْعَقْدِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْحَالَاتُ بِحَسَبِ الْقَانُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_039",
+      "arabic": "عِبْءُ الْإِثْبَاتِ",
+      "meaning_ar": "مَسْؤُولِيَّةُ تَقْدِيمِ الأَدِلَّةِ الَّتِي تَدْعَمُ ادِّعَاءً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَوْزِيعُ الْعِبْءِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَتِ الْمَحْكَمَةُ عِبْءَ الْإِثْبَاتِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ بَيْنَ أَنْوَاعِ الدَّعَاوَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_040",
+      "arabic": "قَرِينَةٌ قَانُونِيَّةٌ",
+      "meaning_ar": "اسْتِنْتَاجٌ يُقَرِّرُهُ الْقَانُونُ عِنْدَ تَوَفُّرِ وَاقِعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "دَحْضُ الْقَرِينَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَنَدَ الْقَاضِي إِلَى قَرِينَةٍ قَانُونِيَّةٍ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ قَابِلَةً لِإِثْبَاتِ الْعَكْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_041",
+      "arabic": "دَلِيلٌ كِتَابِيٌّ",
+      "meaning_ar": "وَثِيقَةٌ مَكْتُوبَةٌ تُسْتَخْدَمُ لِدَعْمِ وَاقِعَةٍ قَانُونِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ الدَّلِيلِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُدَّعِي عَقْدًا مَوَقَّعًا."
+      ],
+      "usage_note_ar": "تُقَيَّمُ قُوَّتُهُ وَفْقَ قَوَاعِدِ الْإِثْبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_042",
+      "arabic": "شَهَادَةُ شَاهِدٍ",
+      "meaning_ar": "أَقْوَالُ شَخْصٍ عَمَّا عَلِمَهُ أَوْ رَآهُ فِي وَاقِعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "سَمَاعُ الشَّهَادَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَعَتِ الْمَحْكَمَةُ إِلَى الشَّاهِدِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ ضَوَابِطُ قَبُولِهَا بَيْنَ الْقَضَايَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_043",
+      "arabic": "خِبْرَةٌ قَضَائِيَّةٌ",
+      "meaning_ar": "رَأْيٌ فَنِّيٌّ يُقَدِّمُهُ مُتَخَصِّصٌ لِمُسَاعَدَةِ الْمَحْكَمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْرِيرُ الْخَبِيرِ"
+      ],
+      "examples_ar": [
+        "طَلَبَتِ الْمَحْكَمَةُ خِبْرَةً هَنْدَسِيَّةً."
+      ],
+      "usage_note_ar": "لَا تَحُلُّ مَكَانَ صَلَاحِيَّةِ الْقَاضِي فِي الْفَصْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_044",
+      "arabic": "مُحْضَرُ جَلْسَةٍ",
+      "meaning_ar": "وَثِيقَةٌ تُثْبِتُ مَا جَرَى فِي جَلْسَةٍ رَسْمِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَدْوِينُ الْمَحْضَرِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الْكَاتِبُ مَحْضَرَ الْجَلْسَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمَحَاكِمِ وَالْمَجَالِسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_045",
+      "arabic": "جَلْسَةُ اسْتِمَاعٍ",
+      "meaning_ar": "مَوْعِدٌ رَسْمِيٌّ لِسَمَاعِ أَقْوَالٍ أَوْ عَرْضِ أَدِلَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَوْعِدُ الْجَلْسَةِ"
+      ],
+      "examples_ar": [
+        "حَضَرَ الأَطْرَافُ جَلْسَةَ اسْتِمَاعٍ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ قَضَائِيَّةً أَوْ إِدَارِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_046",
+      "arabic": "مُدَّعٍ",
+      "meaning_ar": "شَخْصٌ يَرْفَعُ دَعْوًى أَوْ يُقَدِّمُ طَلَبًا أَمَامَ جِهَةٍ قَضَائِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "ادِّعَاءُ الْمُدَّعِي"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُدَّعِي مُسْتَنَدَاتِهِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ وَضْعُهُ بِحَسَبِ نَوْعِ الْقَضِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_047",
+      "arabic": "مُدَّعًى عَلَيْهِ",
+      "meaning_ar": "شَخْصٌ تُوَجَّهُ إِلَيْهِ مُطَالَبَةٌ فِي دَعْوَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "رَدُّ الْمُدَّعَى عَلَيْهِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُدَّعَى عَلَيْهِ دِفَاعَهُ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمُتَّهَمِ فِي الدَّعَاوَى الْجِنَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_048",
+      "arabic": "مُتَّهَمٌ",
+      "meaning_ar": "شَخْصٌ تُنْسَبُ إِلَيْهِ وَاقِعَةٌ جِنَائِيَّةٌ قَبْلَ الْفَصْلِ فِيهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حُقُوقُ الْمُتَّهَمِ"
+      ],
+      "examples_ar": [
+        "مَثَلَ الْمُتَّهَمُ أَمَامَ الْمَحْكَمَةِ."
+      ],
+      "usage_note_ar": "الِاتِّهَامُ لَا يَعْنِي ثُبُوتَ الْإِدَانَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_049",
+      "arabic": "قَرِينَةُ الْبَرَاءَةِ",
+      "meaning_ar": "مَبْدَأٌ يَقْضِي بِعَدَمِ اعْتِبَارِ الشَّخْصِ مُذْنِبًا قَبْلَ إِثْبَاتِ ذَلِكَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْبَرَاءَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَنَدَ الدِّفَاعُ إِلَى قَرِينَةِ الْبَرَاءَةِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِضَمَانَاتِ الْمُحَاكَمَةِ الْعَادِلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_050",
+      "arabic": "حَقُّ الدِّفَاعِ",
+      "meaning_ar": "حَقٌّ يُتِيحُ لِلشَّخْصِ عَرْضَ أَقْوَالِهِ وَأَدِلَّتِهِ وَالِاعْتِرَاضَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُمَارَسَةُ الدِّفَاعِ"
+      ],
+      "examples_ar": [
+        "مَنَحَتِ الْمَحْكَمَةُ الطَّرَفَ فُرْصَةً لِلرَّدِّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ تَفَاصِيلُهُ وَفْقَ الْإِجْرَاءَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_051",
+      "arabic": "تَوْكِيلٌ قَضَائِيٌّ",
+      "meaning_ar": "تَفْوِيضُ شَخْصٍ لِتَمْثِيلِ آخَرَ فِي إِجْرَاءَاتٍ قَضَائِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَحْرِيرُ التَّوْكِيلِ"
+      ],
+      "examples_ar": [
+        "وَكَّلَ الرَّجُلُ مُحَامِيًا فِي الْقَضِيَّةِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ نِطَاقُهُ بِالْوَثِيقَةِ وَالْقَانُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_052",
+      "arabic": "مُرَافَعَةٌ",
+      "meaning_ar": "عَرْضُ حُجَجٍ وَطُلُبَاتٍ أَمَامَ الْمَحْكَمَةِ بِصُورَةٍ رَسْمِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُرَافَعَةُ الْمُحَامِي"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُحَامِي مُرَافَعَتَهُ فِي الْجَلْسَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ شَفَهِيَّةً أَوْ مَكْتُوبَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_053",
+      "arabic": "مُذَكِّرَةٌ قَضَائِيَّةٌ",
+      "meaning_ar": "وَثِيقَةٌ تَعْرِضُ طُلُبَاتِ طَرَفٍ وَحُجَجَهُ وَالأَدِلَّةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ الْمُذَكِّرَةِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُحَامِي مُذَكِّرَةً لِلْمَحْكَمَةِ."
+      ],
+      "usage_note_ar": "تُرَتَّبُ فِيهَا الْوَقَائِعُ وَالأَسَانِيدُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_054",
+      "arabic": "حُكْمٌ قَضَائِيٌّ",
+      "meaning_ar": "قَرَارٌ تُصْدِرُهُ مَحْكَمَةٌ لِلْفَصْلِ فِي نِزَاعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَسْبِيبُ الْحُكْمِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الْمَحْكَمَةُ حُكْمًا قَضَائِيًّا."
+      ],
+      "usage_note_ar": "قَدْ يَقْبَلُ الطَّعْنَ قَبْلَ صَيْرُورَتِهِ نِهَائِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_055",
+      "arabic": "تَسْبِيبُ الْحُكْمِ",
+      "meaning_ar": "بَيَانُ الأَسْبَابِ الْوَاقِعِيَّةِ وَالْقَانُونِيَّةِ الَّتِي بُنِيَ عَلَيْهَا الْحُكْمُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "أَسْبَابُ الْحُكْمِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُحَامِي تَسْبِيبَ الْحُكْمِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ مَنْطِقِ الْقَرَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_056",
+      "arabic": "حُكْمٌ ابْتِدَائِيٌّ",
+      "meaning_ar": "قَرَارٌ يَصْدُرُ مِنْ مَحْكَمَةِ الدَّرَجَةِ الأُولَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَصُّ الْحُكْمِ"
+      ],
+      "examples_ar": [
+        "طَعَنَ الْمُحَامِي فِي الْحُكْمِ الِابْتِدَائِيِّ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ قَابِلًا لِلِاسْتِئْنَافِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_057",
+      "arabic": "حُكْمٌ نِهَائِيٌّ",
+      "meaning_ar": "حُكْمٌ لَا يَبْقَى قَابِلًا لِطَرِيقِ طَعْنٍ عَادِيٍّ وَفْقَ النِّظَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اكْتِسَابُ النِّهَائِيَّةِ"
+      ],
+      "examples_ar": [
+        "أَصْبَحَ الْحُكْمُ نِهَائِيًّا بَعْدَ انْقِضَاءِ الْمُهْلَةِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي غِيَابَ كُلِّ طَرِيقٍ اسْتِثْنَائِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_058",
+      "arabic": "اسْتِئْنَافٌ",
+      "meaning_ar": "طَعْنٌ يَطْلُبُ مُرَاجَعَةَ حُكْمٍ أَمَامَ جِهَةٍ قَضَائِيَّةٍ أَعْلَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "لَائِحَةُ الِاسْتِئْنَافِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُحَامِي اسْتِئْنَافًا لِلْحُكْمِ."
+      ],
+      "usage_note_ar": "يَخْضَعُ لِمُهَلٍ وَشُرُوطٍ خَاصَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_059",
+      "arabic": "نَقْضٌ قَضَائِيٌّ",
+      "meaning_ar": "طَرِيقٌ لِلطَّعْنِ يَرْكِزُ عَلَى صِحَّةِ تَطْبِيقِ الْقَانُونِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ النَّقْضِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَتِ الْمَحْكَمَةُ الْعُلْيَا أَسْبَابَ الطَّعْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ صَلَاحِيَّاتُ جِهَتِهِ بَيْنَ الدُّوَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_060",
+      "arabic": "اعْتِرَاضٌ قَضَائِيٌّ",
+      "meaning_ar": "طَلَبٌ لِمُرَاجَعَةِ حُكْمٍ أَوْ إِجْرَاءٍ وَفْقَ طَرِيقٍ قَانُونِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُدَّةُ الِاعْتِرَاضِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الطَّرَفُ اعْتِرَاضَهُ فِي الْمُهْلَةِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ أَشْكَالُهُ بِحَسَبِ الْنِّظَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_061",
+      "arabic": "مُهْلَةٌ قَانُونِيَّةٌ",
+      "meaning_ar": "فَتْرَةٌ يُحَدِّدُهَا الْقَانُونُ لِلْقِيَامِ بِإِجْرَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "انْقِضَاءُ الْمُهْلَةِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُحَامِي الطَّعْنَ قَبْلَ انْتِهَاءِ الْمُهْلَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ حِسَابُهَا بِحَسَبِ الْإِجْرَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_062",
+      "arabic": "تَبْلِيغٌ قَضَائِيٌّ",
+      "meaning_ar": "إِيصَالُ إِشْعَارٍ رَسْمِيٍّ بِدَعْوَى أَوْ جَلْسَةٍ إِلَى صَاحِبِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "صِحَّةُ التَّبْلِيغِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى الطَّرَفُ تَبْلِيغًا بِمَوْعِدِ الْجَلْسَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَبْدَأُ مُهَلٌ بَعْدَ صِحَّةِ التَّبْلِيغِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_063",
+      "arabic": "مَوْطِنٌ قَانُونِيٌّ",
+      "meaning_ar": "عُنْوَانٌ يَعْتَمِدُهُ النِّظَامُ لِلْمُرَاسَلَاتِ وَالإِجْرَاءَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْمَوْطِنِ"
+      ],
+      "examples_ar": [
+        "أَثْبَتَ الشَّخْصُ مَوْطِنَهُ فِي الطَّلَبِ."
+      ],
+      "usage_note_ar": "قَدْ يَخْتَلِفُ عَنْ مَكَانِ الإِقَامَةِ الْفِعْلِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_064",
+      "arabic": "وَكَالَةٌ قَانُونِيَّةٌ",
+      "meaning_ar": "سُلْطَةٌ يُعْطِيهَا شَخْصٌ لِآخَرَ لِلْتَّصَرُّفِ بِاسْمِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نِطَاقُ الْوَكَالَةِ"
+      ],
+      "examples_ar": [
+        "أَبْرَمَ الْوَكِيلُ الْمُعَامَلَةَ بِالْوَكَالَةِ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ صَلَاحِيَّاتُهَا فِي الْمُسْتَنَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_065",
+      "arabic": "إِقْرَارٌ قَانُونِيٌّ",
+      "meaning_ar": "تَصْرِيحٌ مِنْ شَخْصٍ بِوَاقِعَةٍ قَدْ يَتَرَتَّبُ عَلَيْهَا أَثَرٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَوْثِيقُ الْإِقْرَارِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الطَّرَفُ إِقْرَارًا بِاسْتِلَامِ الْمَبْلَغِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ حُجِّيَّتُهُ بِحَسَبِ الْمَوْضُوعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_066",
+      "arabic": "إِبْرَاءٌ",
+      "meaning_ar": "إِسْقَاطُ حَقٍّ أَوْ دَيْنٍ عَنْ شَخْصٍ وَفْقَ ضَوَابِطَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَثِيقَةُ الْإِبْرَاءِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الدَّائِنُ إِبْرَاءً مِنْ بَعْضِ الدَّيْنِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى صِيغَةٍ وَاضِحَةٍ لِتَجَنُّبِ النِّزَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_067",
+      "arabic": "صُلْحٌ قَضَائِيٌّ",
+      "meaning_ar": "اتِّفَاقٌ لِإِنْهَاءِ نِزَاعٍ بِتَنَازُلَاتٍ مُتَبَادَلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَحْضَرُ الصُّلْحِ"
+      ],
+      "examples_ar": [
+        "اتَّفَقَ الطَّرَفَانِ عَلَى صُلْحٍ."
+      ],
+      "usage_note_ar": "قَدْ يُوَثَّقُ أَمَامَ الْمَحْكَمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_068",
+      "arabic": "وَسَاطَةٌ قَانُونِيَّةٌ",
+      "meaning_ar": "مُسَاعَدَةُ طَرَفٍ مُحَايِدٍ لِلْمُتَنَازِعِينَ فِي الْوُصُولِ إِلَى اتِّفَاقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جَلْسَةُ الْوَسَاطَةِ"
+      ],
+      "examples_ar": [
+        "شَارَكَ الطَّرَفَانِ فِي جَلْسَةِ وَسَاطَةٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ الْوَسِيطُ عَنِ الْقَاضِي فِي صَلَاحِيَّةِ الْفَصْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_069",
+      "arabic": "تَحْكِيمٌ",
+      "meaning_ar": "فَصْلٌ فِي نِزَاعٍ بِوَاسِطَةِ مُحَكَّمٍ بِمُقْتَضَى اتِّفَاقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اتِّفَاقُ التَّحْكِيمِ"
+      ],
+      "examples_ar": [
+        "أَحَالَ الطَّرَفَانِ النِّزَاعَ إِلَى التَّحْكِيمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ شُرُوطُ صِحَّتِهِ وَتَنْفِيذِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_070",
+      "arabic": "مُحَكَّمٌ",
+      "meaning_ar": "شَخْصٌ يَتَوَلَّى الْفَصْلَ فِي نِزَاعٍ عَنْ طَرِيقِ التَّحْكِيمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الْمُحَكَّمِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الطَّرَفَانِ مُحَكَّمًا مُسْتَقِلًّا."
+      ],
+      "usage_note_ar": "يُفْضَّلُ أَنْ تَتَوَافَرَ فِيهِ الْحِيَادِيَّةُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_071",
+      "arabic": "حَكَمٌ تَحْكِيمِيٌّ",
+      "meaning_ar": "قَرَارٌ يَصْدُرُ عَنْ هَيْئَةِ تَحْكِيمٍ لِحَسْمِ نِزَاعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ حُكْمِ التَّحْكِيمِ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الطَّرَفُ الِاعْتِرَافَ بِالْحُكْمِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْتَاجُ إِلَى إِجْرَاءَاتٍ لِلتَّنْفِيذِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_072",
+      "arabic": "تَنْفِيذٌ جَبْرِيٌّ",
+      "meaning_ar": "اسْتِعْمَالُ وَسَائِلَ قَانُونِيَّةٍ لِإِلْزَامِ الشَّخْصِ بِمَا حُكِمَ عَلَيْهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ التَّنْفِيذِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الدَّائِنُ طَلَبًا لِلتَّنْفِيذِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ سَنَدًا تَنْفِيذِيًّا صَالِحًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_073",
+      "arabic": "سَنَدٌ تَنْفِيذِيٌّ",
+      "meaning_ar": "وَثِيقَةٌ تُتِيحُ بَدْءَ إِجْرَاءَاتِ التَّنْفِيذِ وَفْقَ الْقَانُونِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "صِحَّةُ السَّنَدِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْقَاضِي السَّنَدَ التَّنْفِيذِيَّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ بَيْنَ الأَنْظِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_074",
+      "arabic": "حَجْزٌ تَنْفِيذِيٌّ",
+      "meaning_ar": "إِجْرَاءٌ يُقَيِّدُ التَّصَرُّفَ فِي مَالٍ لِاسْتِيفَاءِ حَقٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِيقَاعُ الْحَجْزِ"
+      ],
+      "examples_ar": [
+        "أَمَرَتِ الْجِهَةُ بِالْحَجْزِ عَلَى مَالٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْحَجْزِ التَّحَفُّظِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_075",
+      "arabic": "حَجْزٌ تَحَفُّظِيٌّ",
+      "meaning_ar": "إِجْرَاءٌ مُؤَقَّتٌ يُحَافِظُ عَلَى مَالٍ حَتَّى الْفَصْلِ فِي نِزَاعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ الْحَجْزِ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الدَّائِنُ حَجْزًا تَحَفُّظِيًّا."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ شُرُوطًا تَخْتَلِفُ بِحَسَبِ الْبَلَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_076",
+      "arabic": "إِعْسَارٌ",
+      "meaning_ar": "حَالَةٌ يَعْجِزُ فِيهَا الشَّخْصُ عَنْ سَدَادِ الْتِزَامَاتِهِ الْمَالِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِثْبَاتُ الْإِعْسَارِ"
+      ],
+      "examples_ar": [
+        "نَظَرَتِ الْمَحْكَمَةُ فِي طَلَبِ الْإِعْسَارِ."
+      ],
+      "usage_note_ar": "لَهُ آثَارٌ قَانُونِيَّةٌ تَخْتَلِفُ عَنْ الْإِفْلَاسِ التِّجَارِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_077",
+      "arabic": "إِفْلَاسٌ تِجَارِيٌّ",
+      "meaning_ar": "إِجْرَاءٌ قَانُونِيٌّ لِمُعَالَجَةِ تَعَثُّرِ تَاجِرٍ أَوْ شَرِكَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "إِجْرَاءَاتُ الْإِفْلَاسِ"
+      ],
+      "examples_ar": [
+        "تَقَدَّمَتِ الشَّرِكَةُ بِطَلَبٍ لِلْمَحْكَمَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَشْمَلُ إِعَادَةَ التَّنْظِيمِ أَوِ التَّصْفِيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_078",
+      "arabic": "تَصْفِيَةٌ قَضَائِيَّةٌ",
+      "meaning_ar": "بَيْعُ أُصُولٍ وَتَوْزِيعُ حَصِيلَتِهَا وَفْقَ إِجْرَاءٍ قَانُونِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّصْفِيَةِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْمُصَفِّي جَرْدَ أُصُولِ الشَّرِكَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَوْلَوِيَّةُ الدُّيُونِ حَسَبَ النِّظَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_079",
+      "arabic": "تَسْوِيَةٌ وُدِّيَّةٌ",
+      "meaning_ar": "اتِّفَاقٌ يَنْتَهِي بِهِ نِزَاعٌ دُونَ فَصْلٍ قَضَائِيٍّ نِهَائِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَرْضُ التَّسْوِيَةِ"
+      ],
+      "examples_ar": [
+        "قَبِلَ الطَّرَفَانِ تَسْوِيَةً وُدِّيَّةً."
+      ],
+      "usage_note_ar": "تُوَثَّقُ الشُّرُوطُ لِتَجَنُّبِ خِلَافٍ جَدِيدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_080",
+      "arabic": "سِجِلٌّ عَقَارِيٌّ",
+      "meaning_ar": "قَاعِدَةٌ رَسْمِيَّةٌ لِمَعْلُومَاتِ الْمِلْكِيَّةِ وَحُقُوقِ الْعَقَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَيْدُ الْمِلْكِيَّةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُشْتَرِي السِّجِلَّ الْعَقَارِيَّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ نِظَامُهُ بِحَسَبِ الْبَلَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_081",
+      "arabic": "صَكُّ مِلْكِيَّةٍ",
+      "meaning_ar": "وَثِيقَةٌ رَسْمِيَّةٌ تُثْبِتُ حَقًّا فِي عَقَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الصَّكِّ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْبَائِعُ صَكَّ الْمِلْكِيَّةِ."
+      ],
+      "usage_note_ar": "تَلْزَمُ مُرَاجَعَةُ الْقُيُودِ وَالْحُدُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_082",
+      "arabic": "حَقُّ انْتِفَاعٍ",
+      "meaning_ar": "حَقٌّ يُتِيحُ اسْتِعْمَالَ مَالٍ مَمْلُوكٍ لِلْغَيْرِ وَالِاسْتِفَادَةَ مِنْهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُدَّةُ الِانْتِفَاعِ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الطَّرَفُ عَلَى حَقِّ انْتِفَاعٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مِلْكِيَّةِ الْأَصْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_083",
+      "arabic": "حَقُّ ارْتِفَاقٍ",
+      "meaning_ar": "حَقٌّ مُقَرَّرٌ لِعَقَارٍ عَلَى عَقَارٍ آخَرَ لِمَنْفَعَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَمَرُّ الِارْتِفَاقِ"
+      ],
+      "examples_ar": [
+        "ثَبَتَ حَقُّ مَرُورٍ فِي الأَرْضِ الْمُجَاوِرَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ وَشُرُوطُهُ قَانُونِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_084",
+      "arabic": "رَهْنٌ عَقَارِيٌّ",
+      "meaning_ar": "ضَمَانٌ عَيْنِيٌّ عَلَى عَقَارٍ لِتَوْثِيقِ دَيْنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الرَّهْنِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الْمُقْتَرِضُ وَثِيقَةَ الرَّهْنِ."
+      ],
+      "usage_note_ar": "قَدْ يُقَيِّدُ التَّصَرُّفَ فِي الْعَقَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_085",
+      "arabic": "إِيجَارٌ تَجَارِيٌّ",
+      "meaning_ar": "عَقْدٌ يُتِيحُ اسْتِعْمَالَ عَقَارٍ لِنَشَاطٍ تِجَارِيٍّ بِمُقَابِلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "عَقْدُ الْإِيجَارِ"
+      ],
+      "examples_ar": [
+        "اسْتَأْجَرَ التَّاجِرُ مَحَلًّا جَدِيدًا."
+      ],
+      "usage_note_ar": "تَنْظِمُهُ شُرُوطٌ قَدْ تَخْتَلِفُ عَنْ السَّكَنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_086",
+      "arabic": "تَسْجِيلٌ تِجَارِيٌّ",
+      "meaning_ar": "إِجْرَاءٌ رَسْمِيٌّ لِإِثْبَاتِ بَيَانَاتِ النَّشَاطِ التِّجَارِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ التَّسْجِيلِ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ رَائِدُ الأَعْمَالِ تَسْجِيلَ مَنْشَأَتِهِ."
+      ],
+      "usage_note_ar": "يَلْزَمُ الِالْتِزَامُ بِالْقَوَاعِدِ الْمَحَلِّيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_087",
+      "arabic": "تَرْخِيصٌ مِهْنِيٌّ",
+      "meaning_ar": "مُوَافَقَةٌ رَسْمِيَّةٌ تُجِيزُ مُمَارَسَةَ نَشَاطٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَجْدِيدُ التَّرْخِيصِ"
+      ],
+      "examples_ar": [
+        "جَدَّدَتِ الشَّرِكَةُ تَرْخِيصَهَا الْمِهْنِيَّ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ شُرُوطُهُ بِحَسَبِ الْمِهْنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_088",
+      "arabic": "رَقَابَةٌ إِدَارِيَّةٌ",
+      "meaning_ar": "مُتَابَعَةُ جِهَةٍ لِمَدَى الِالْتِزَامِ بِالْقَوَاعِدِ وَالْقَرَارَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "جِهَةُ الرَّقَابَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُفَتِّشُ سِجِلَّاتِ الْمَنْشَأَةِ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ صَلَاحِيَّاتُهَا بِالْقَانُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_089",
+      "arabic": "تَفْتِيشٌ إِدَارِيٌّ",
+      "meaning_ar": "فَحْصٌ رَسْمِيٌّ لِمَكَانٍ أَوْ نَشَاطٍ لِلتَّأَكُّدِ مِنَ الِالْتِزَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَحْضَرُ التَّفْتِيشِ"
+      ],
+      "examples_ar": [
+        "زَارَ الْمُفَتِّشُ الْمَصْنَعَ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى أَسَاسٍ قَانُونِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_090",
+      "arabic": "مُخَالَفَةٌ إِدَارِيَّةٌ",
+      "meaning_ar": "تَصَرُّفٌ يُخَالِفُ لَائِحَةً أَوْ تَعْلِيمَةً رَسْمِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَحْضَرُ الْمُخَالَفَةِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُفَتِّشُ مُخَالَفَةً إِدَارِيَّةً."
+      ],
+      "usage_note_ar": "قَدْ تَسْتَتْبِعُ إِنْذَارًا أَوْ غَرَامَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_091",
+      "arabic": "غَرَامَةٌ إِدَارِيَّةٌ",
+      "meaning_ar": "مَبْلَغٌ مَالِيٌّ تَفْرِضُهُ جِهَةٌ عَلَى مُخَالَفَةٍ وَفْقَ النِّظَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "سَدَادُ الْغَرَامَةِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّتِ الشَّرِكَةُ إِشْعَارًا بِغَرَامَةٍ."
+      ],
+      "usage_note_ar": "يَتَوَافَرُ طَرِيقٌ لِلتَّظَلُّمِ فِي بَعْضِ الأَنْظِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_092",
+      "arabic": "تَظَلُّمٌ إِدَارِيٌّ",
+      "meaning_ar": "طَلَبٌ تُقَدِّمُهُ جِهَةٌ مُتَضَرِّرَةٌ لِمُرَاجَعَةِ قَرَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ التَّظَلُّمِ"
+      ],
+      "examples_ar": [
+        "اعْتَرَضَ التَّاجِرُ عَلَى الْقَرَارِ بِتَظَلُّمٍ."
+      ],
+      "usage_note_ar": "تَنْظِمُهُ مُدَدٌ وَإِجْرَاءَاتٌ خَاصَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_093",
+      "arabic": "حَقُّ الِاطِّلَاعِ",
+      "meaning_ar": "صَلَاحِيَّةٌ تَسْمَحُ بِمُرَاجَعَةِ مَعْلُومَاتٍ أَوْ مِلَفَّاتٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ الِاطِّلَاعِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُوَاطِنُ طَلَبًا لِلِاطِّلَاعِ عَلَى السِّجِلِّ."
+      ],
+      "usage_note_ar": "يُقَيَّدُ أَحْيَانًا بِحِمَايَةِ الْخُصُوصِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_094",
+      "arabic": "حِمَايَةُ الْبَيَانَاتِ",
+      "meaning_ar": "قَوَاعِدُ وَإِجْرَاءَاتٌ تَمْنَعُ الِاسْتِخْدَامَ غَيْرَ الْمُصَرَّحِ بِهِ لِلْمَعْلُومَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نِظَامُ الْحِمَايَةِ"
+      ],
+      "examples_ar": [
+        "حَدَّثَتِ الشَّرِكَةُ سِيَاسَةَ حِمَايَةِ الْبَيَانَاتِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ جَمْعَ الْمَعْلُومَاتِ وَحِفْظَهَا وَحَذْفَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_095",
+      "arabic": "مُوَافَقَةٌ مُسْتَنِيرَةٌ",
+      "meaning_ar": "رِضًا يُعْطَى بَعْدَ فَهْمِ طَبِيعَةِ الْإِجْرَاءِ وَمَخَاطِرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَمُوذَجُ الْمُوَافَقَةِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُشَارِكُ الشَّرْحَ قَبْلَ التَّوْقِيعِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي الطِّبِّ وَالْبُحُوثِ وَمَجَالَاتٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_096",
+      "arabic": "تَعَارُضُ مَصَالِحَ",
+      "meaning_ar": "حَالَةٌ قَدْ تُؤَثِّرُ فِيهَا مَنْفَعَةٌ خَاصَّةٌ عَلَى الْحُكْمِ الْمِهْنِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "الْإِفْصَاحُ عَنِ التَّعَارُضِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ الْعُضْوُ عَنْ تَعَارُضِ مَصَالِحَ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي كُلُّ تَعَارُضٍ حُصُولَ فَسَادٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_097",
+      "arabic": "إِفْصَاحٌ إِلْزَامِيٌّ",
+      "meaning_ar": "تَقْدِيمُ مَعْلُومَاتٍ يَشْتَرِطُ الْقَانُونُ إِعْلَانَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَمُوذَجُ الْإِفْصَاحِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَسْؤُولُ إِفْصَاحًا عَنْ مَصَالِحِهِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْمَعْلُومَاتُ الْمَطْلُوبَةُ حَسَبَ الْمَنْصِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_098",
+      "arabic": "شَفَافِيَّةٌ إِدَارِيَّةٌ",
+      "meaning_ar": "وُضُوحُ الْإِجْرَاءَاتِ وَالْقَرَارَاتِ وَإِمْكَانُ مُرَاجَعَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَعْزِيزُ الشَّفَافِيَّةِ"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الْجِهَةُ مَعَايِيرَ اخْتِيَارِ الْمُتَقَدِّمِينَ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى بِنَاءِ الثِّقَةِ وَالْمُسَاءَلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_099",
+      "arabic": "مُسَاءَلَةٌ مُؤَسَّسِيَّةٌ",
+      "meaning_ar": "آلِيَّةٌ لِمُرَاجَعَةِ تَصَرُّفَاتِ جِهَةٍ وَتَحْمِيلِهَا مَسْؤُولِيَّتَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نِظَامُ الْمُسَاءَلَةِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَتِ الْمُؤَسَّسَةُ تَقْرِيرًا عَنْ أَدَائِهَا."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِالصَّلَاحِيَّاتِ وَالْوَاجِبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_100",
+      "arabic": "حَوْكَمَةٌ مُؤَسَّسِيَّةٌ",
+      "meaning_ar": "قَوَاعِدُ تُنَظِّمُ الْقِيَادَةَ وَالرَّقَابَةَ وَاتِّخَاذَ الْقَرَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مَبَادِئُ الْحَوْكَمَةِ"
+      ],
+      "examples_ar": [
+        "أَصْلَحَتِ الشَّرِكَةُ نِظَامَ حَوْكَمَتِهَا."
+      ],
+      "usage_note_ar": "تُوَضِّحُ مَسْؤُولِيَّاتِ الْإِدَارَةِ وَالْمَلَّاكِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_101",
+      "arabic": "مَجْلِسُ إِدَارَةٍ",
+      "meaning_ar": "هَيْئَةٌ تَضَعُ تَوْجِيهَاتٍ وَتُرَاقِبُ إِدَارَةَ الْمُؤَسَّسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اجْتِمَاعُ الْمَجْلِسِ"
+      ],
+      "examples_ar": [
+        "صَوَّتَ مَجْلِسُ الْإِدَارَةِ عَلَى الْمِيزَانِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ صَلَاحِيَّاتُهُ بِحَسَبِ الْنِّظَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_102",
+      "arabic": "مَحْضَرُ قَرَارٍ",
+      "meaning_ar": "وَثِيقَةٌ تَثْبُتُ فِيهَا نَتِيجَةُ تَصْوِيتٍ أَوْ قَرَارٍ رَسْمِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اعْتِمَادُ الْمَحْضَرِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الْأَعْضَاءُ مَحْضَرَ الْقَرَارِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمَجَالِسِ وَالْلِّجَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_103",
+      "arabic": "نِصَابٌ قَانُونِيٌّ",
+      "meaning_ar": "الْحَدُّ الأَدْنَى مِنَ الْحُضُورِ أَوِ الأَصْوَاتِ لِصِحَّةِ الْقَرَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "اكْتِمَالُ النِّصَابِ"
+      ],
+      "examples_ar": [
+        "تَأَجَّلَ الِاجْتِمَاعُ لِعَدَمِ اكْتِمَالِ النِّصَابِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ بِالنِّظَامِ الأَسَاسِيِّ أَوِ الْقَانُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_104",
+      "arabic": "أَغْلَبِيَّةٌ بَسِيطَةٌ",
+      "meaning_ar": "عَدَدٌ مِنَ الأَصْوَاتِ يَفُوقُ نِصْفَ الأَصْوَاتِ الْمُعْتَبَرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حُصُولُ الأَغْلَبِيَّةِ"
+      ],
+      "examples_ar": [
+        "أُقِرَّ الْقَرَارُ بِأَغْلَبِيَّةٍ بَسِيطَةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الأَغْلَبِيَّةِ الْمُوَصَّفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_105",
+      "arabic": "أَغْلَبِيَّةٌ مُوَصَّفَةٌ",
+      "meaning_ar": "نِسْبَةُ أَصْوَاتٍ أَعْلَى مِنَ الأَغْلَبِيَّةِ الْبَسِيطَةِ تُشْتَرَطُ لِقَرَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "شَرْطُ التَّصْوِيتِ"
+      ],
+      "examples_ar": [
+        "احْتَاجَ تَعْدِيلُ النِّظَامِ إِلَى أَغْلَبِيَّةٍ مُوَصَّفَةٍ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ النِّسْبَةُ بِالْقَوَاعِدِ الْمُطَبَّقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_106",
+      "arabic": "تَصْوِيتٌ سِرِّيٌّ",
+      "meaning_ar": "إِدْلَاءٌ بِالصَّوْتِ دُونَ إِظْهَارِ اخْتِيَارِ الْمُصَوِّتِ لِلْآخَرِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "وَرَقَةُ التَّصْوِيتِ"
+      ],
+      "examples_ar": [
+        "أَجْرَتِ اللَّجْنَةُ تَصْوِيتًا سِرِّيًّا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِحِمَايَةِ حُرِّيَّةِ الِاخْتِيَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_107",
+      "arabic": "تَصْوِيتٌ عَلَنِيٌّ",
+      "meaning_ar": "إِدْلَاءٌ بِالْرَأْيِ بِطَرِيقَةٍ يَظْهَرُ فِيهَا اخْتِيَارُ الشَّخْصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَتِيجَةُ التَّصْوِيتِ"
+      ],
+      "examples_ar": [
+        "صَوَّتَ الْأَعْضَاءُ عَلَنًا فِي الْجَلْسَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الِاقْتِرَاعِ السِّرِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_108",
+      "arabic": "لَجْنَةُ تَحْقِيقٍ",
+      "meaning_ar": "مَجْمُوعَةٌ مُكَلَّفَةٌ بِجَمْعِ الْوَقَائِعِ وَدِرَاسَةِ حَادِثٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْرِيرُ اللَّجْنَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَعَتِ اللَّجْنَةُ إِلَى أَقْوَالِ الْمُوَظَّفِينَ."
+      ],
+      "usage_note_ar": "تَعْمَلُ بِصَلَاحِيَّاتٍ مُحَدَّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_109",
+      "arabic": "تَحْقِيقٌ إِدَارِيٌّ",
+      "meaning_ar": "إِجْرَاءٌ لِجَمْعِ الأَدِلَّةِ وَسَمَاعِ الأَقْوَالِ بِشَأْنِ مُخَالَفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَتَائِجُ التَّحْقِيقِ"
+      ],
+      "examples_ar": [
+        "فَتَحَتِ الْإِدَارَةُ تَحْقِيقًا فِي الْوَاقِعَةِ."
+      ],
+      "usage_note_ar": "يَجِبُ مُرَاعَاةُ ضَمَانَاتِ الْعَدَالَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_110",
+      "arabic": "جَزَاءٌ تَأْدِيبِيٌّ",
+      "meaning_ar": "عُقُوبَةٌ إِدَارِيَّةٌ تُفْرَضُ عَلَى مُخَالَفَةٍ لِلْوَاجِبَاتِ الْوَظِيفِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَرَارُ الْجَزَاءِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى الْمُوَظَّفُ إِنْذَارًا رَسْمِيًّا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دَرَجَاتُهُ بِحَسَبِ الْقَوَاعِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_111",
+      "arabic": "إِنْذَارٌ رَسْمِيٌّ",
+      "meaning_ar": "إِخْطَارٌ مَكْتُوبٌ يَطْلُبُ تَصْحِيحَ سُلُوكٍ أَوْ مُخَالَفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَلَقِّي الْإِنْذَارِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الْجِهَةُ إِنْذَارًا لِلْمَنْشَأَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَسْبِقُ اتِّخَاذَ إِجْرَاءٍ أَشَدَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_112",
+      "arabic": "تَعْلِيقُ التَّرْخِيصِ",
+      "meaning_ar": "إِيقَافُ سَرَيَانِ إِذْنٍ مُؤَقَّتًا لِسَبَبٍ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُدَّةُ التَّعْلِيقِ"
+      ],
+      "examples_ar": [
+        "عُلِّقَ التَّرْخِيصُ لِحِينِ تَصْحِيحِ الْمُخَالَفَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ إِلْغَاءِ التَّرْخِيصِ نِهَائِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_113",
+      "arabic": "سَحْبُ التَّرْخِيصِ",
+      "meaning_ar": "إِنْهَاءُ إِذْنٍ مُنِحَ لِمُمَارَسَةِ نَشَاطٍ بِقَرَارٍ رَسْمِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "قَرَارُ السَّحْبِ"
+      ],
+      "examples_ar": [
+        "سَحَبَتِ الْجِهَةُ التَّرْخِيصَ بَعْدَ التَّحْقِيقِ."
+      ],
+      "usage_note_ar": "يَخْضَعُ لِشُرُوطٍ قَانُونِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_114",
+      "arabic": "بَيَانٌ رَسْمِيٌّ",
+      "meaning_ar": "نَصٌّ تُصْدِرُهُ مُؤَسَّسَةٌ لِإِعْلَانِ مَعْلُومَاتٍ أَوْ مَوْقِفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "نَشْرُ الْبَيَانِ"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الْوِزَارَةُ بَيَانًا لِلْمُوَاطِنِينَ."
+      ],
+      "usage_note_ar": "يُفْضَّلُ الرُّجُوعُ إِلَى مَصْدَرِهِ الأَصْلِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_115",
+      "arabic": "طَلَبُ مَعْلُومَاتٍ",
+      "meaning_ar": "مُرَاسَلَةٌ تَطْلُبُ بَيَانَاتٍ أَوْ وَثَائِقَ مِنْ جِهَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ الطَّلَبِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْبَاحِثُ طَلَبَ مَعْلُومَاتٍ."
+      ],
+      "usage_note_ar": "قَدْ تَخْضَعُ الْإِجَابَةُ لِاسْتِثْنَاءَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_116",
+      "arabic": "حَقُّ الِاعْتِرَاضِ",
+      "meaning_ar": "صَلَاحِيَّةٌ تُمَكِّنُ الشَّخْصَ مِنْ مُنَازَعَةِ قَرَارٍ أَوْ إِجْرَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُمَارَسَةُ الْحَقِّ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الطَّرَفُ اعْتِرَاضَهُ كِتَابَةً."
+      ],
+      "usage_note_ar": "تُحَدِّدُ الْقَوَاعِدُ الْمُدَّةَ وَالْجِهَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_117",
+      "arabic": "مَصْلَحَةٌ عَامَّةٌ",
+      "meaning_ar": "مَنْفَعَةٌ تَتَعَلَّقُ بِالْمُجْتَمَعِ أَوْ بِجُزْءٍ كَبِيرٍ مِنْهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "خِدْمَةُ الْمَصْلَحَةِ"
+      ],
+      "examples_ar": [
+        "رَاعَى الْمَجْلِسُ الْمَصْلَحَةَ الْعَامَّةَ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ مُوَازَنَةً مَعَ الْحُقُوقِ الْفَرْدِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_118",
+      "arabic": "مَنْفَعَةٌ خَاصَّةٌ",
+      "meaning_ar": "فَائِدَةٌ تَعُودُ عَلَى شَخْصٍ أَوْ جِهَةٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْمَنْفَعَةِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الْمَجْلِسُ تَأْثِيرَ الْقَرَارِ فِي الأَفْرَادِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَفِقُ أَوْ تَتَعَارَضُ مَعَ الْمَصْلَحَةِ الْعَامَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_119",
+      "arabic": "رَأْيٌ اسْتِشَارِيٌّ",
+      "meaning_ar": "تَقْيِيمٌ غَيْرُ مُلْزِمٍ تُقَدِّمُهُ جِهَةٌ لِمُسَاعَدَةِ صَاحِبِ الْقَرَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ الرَّأْيِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْخَبِيرُ رَأْيًا اسْتِشَارِيًّا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْحُكْمِ الْمُلْزِمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_120",
+      "arabic": "فَتْوَى قَانُونِيَّةٌ",
+      "meaning_ar": "رَأْيٌ مُسَبَّبٌ فِي مَسْأَلَةٍ قَانُونِيَّةٍ تُقَدِّمُهُ جِهَةٌ مُخْتَصَّةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "طَلَبُ الْفَتْوَى"
+      ],
+      "examples_ar": [
+        "أَرْسَلَتِ الْإِدَارَةُ سُؤَالًا قَانُونِيًّا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ قُوَّتُهَا بِحَسَبِ النِّظَامِ وَالْجِهَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_121",
+      "arabic": "قَاعِدَةٌ إِجْرَائِيَّةٌ",
+      "meaning_ar": "نَصٌّ يُنَظِّمُ خُطُوَاتِ التَّقَاضِي أَوِ الْعَمَلِ الْإِدَارِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَطْبِيقُ الْإِجْرَاءِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُحَامِي الْقَاعِدَةَ الْإِجْرَائِيَّةَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْقَاعِدَةِ الْمَوْضُوعِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_122",
+      "arabic": "قَاعِدَةٌ مَوْضُوعِيَّةٌ",
+      "meaning_ar": "نَصٌّ يُحَدِّدُ حُقُوقًا وَوَاجِبَاتٍ بَدَلًا مِنْ تَنْظِيمِ الْإِجْرَاءَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "تَطْبِيقُ النَّصِّ"
+      ],
+      "examples_ar": [
+        "اسْتَنَدَ الْقَاضِي إِلَى قَاعِدَةٍ مَوْضُوعِيَّةٍ."
+      ],
+      "usage_note_ar": "تَتَعَلَّقُ بِأَصْلِ الْحَقِّ أَوِ الِالْتِزَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_123",
+      "arabic": "مَبْدَأُ التَّنَاسُبِ",
+      "meaning_ar": "قَاعِدَةٌ تَطْلُبُ أَلَّا يَتَجَاوَزَ الْإِجْرَاءُ مَا تَقْتَضِيهِ الْحَاجَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "مُلَاءَمَةُ الْقَرَارِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْقَاضِي تَنَاسُبَ الْإِجْرَاءِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَقْيِيمِ بَعْضِ الْقُيُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_law_civics_20261027_124",
+      "arabic": "ضَمَانَةٌ إِجْرَائِيَّةٌ",
+      "meaning_ar": "حِمَايَةٌ تَكْفُلُ لِلشَّخْصِ مُعَامَلَةً مُنْصِفَةً أَثْنَاءَ الْإِجْرَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ أَوْ تَرْكِيبٌ اسْمِيٌّ حَسَبَ الْمَدْخَلِ"
+      ],
+      "collocations": [
+        "حُقُوقُ الطَّرَفِ"
+      ],
+      "examples_ar": [
+        "نَصَّ الْقَانُونُ عَلَى ضَمَانَاتٍ إِجْرَائِيَّةٍ."
+      ],
+      "usage_note_ar": "تَشْمَلُ السَّمَاعَ وَالتَّبْلِيغَ فِي بَعْضِ الْحَالَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_law_civics_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
