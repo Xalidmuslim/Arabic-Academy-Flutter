@@ -1,0 +1,4956 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_astronomy_20261026_001",
+      "arabic": "عِلْمُ الْفَلَكِ",
+      "meaning_ar": "عِلْمٌ يَدْرُسُ الْأَجْرَامَ السَّمَاوِيَّةَ وَحَرَكَتَهَا وَخَصَائِصَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ عِلْمِ الْفَلَكِ"
+      ],
+      "examples_ar": [
+        "يَدْرُسُ الْبَاحِثُ حَرَكَةَ الْكَوَاكِبِ فِي عِلْمِ الْفَلَكِ."
+      ],
+      "usage_note_ar": "يَجْمَعُ بَيْنَ الرَّصْدِ وَالْفِيزِيَاءِ وَالرِّيَاضِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_002",
+      "arabic": "فَلَكِيٌّ",
+      "meaning_ar": "بَاحِثٌ أَوْ مُتَخَصِّصٌ يَدْرُسُ النُّجُومَ وَالْكَوَاكِبَ وَالْفَضَاءَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَلَكِيُّونَ"
+      ],
+      "collocations": [
+        "بَاحِثٌ فَلَكِيٌّ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَلَكِيُّ كَوْكَبًا بِالْمِقْرَابِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ أَيْضًا صِفَةً لِمَا يَتَعَلَّقُ بِالْفَلَكِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_003",
+      "arabic": "فَضَاءٌ",
+      "meaning_ar": "الِامْتِدَادُ الْوَاسِعُ الَّذِي تُوجَدُ فِيهِ الأَجْرَامُ وَتَنْتَقِلُ فِيهِ الْإِشَارَاتُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اسْتِكْشَافُ الْفَضَاءِ"
+      ],
+      "examples_ar": [
+        "أُرْسِلَتْ مَرْكَبَةٌ لِدِرَاسَةِ الْفَضَاءِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلْمَكَانِ الْخَالِي وَالسَّاحَةِ الْوَاسِعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_004",
+      "arabic": "فَضَاءٌ خَارِجِيٌّ",
+      "meaning_ar": "الْمِنْطَقَةُ الَّتِي تَمْتَدُّ بَعِيدًا عَنْ غِلَافِ الأَرْضِ الْجَوِّيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رِحْلَةٌ إِلَى الْفَضَاءِ"
+      ],
+      "examples_ar": [
+        "يَحْلُمُ الطِّفْلُ بِالسَّفَرِ إِلَى الْفَضَاءِ الْخَارِجِيِّ."
+      ],
+      "usage_note_ar": "لَا يَحْوِي هَوَاءً لِلتَّنَفُّسِ كَالْهَوَاءِ الْأَرْضِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_005",
+      "arabic": "كَوْنٌ",
+      "meaning_ar": "مَجْمُوعُ الْفَضَاءِ وَالزَّمَنِ وَالْمَادَّةِ وَالطَّاقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَكْوَانٌ"
+      ],
+      "collocations": [
+        "اتِّسَاعُ الْكَوْنِ"
+      ],
+      "examples_ar": [
+        "يَدْرُسُ الْعُلَمَاءُ تَارِيخَ الْكَوْنِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْفِيزِيَاءِ لِجَمِيعِ مَا يُمْكِنُ رَصْدُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_006",
+      "arabic": "كَوْنٌ مَرْصُودٌ",
+      "meaning_ar": "الْجُزْءُ مِنَ الْكَوْنِ الَّذِي يُمْكِنُ أَنْ تَصِلَنَا مِنْهُ إِشَارَاتٌ ضَوْئِيَّةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حُدُودُ الْكَوْنِ الْمَرْصُودِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ مَعْنَى الْكَوْنِ الْمَرْصُودِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي أَنَّهُ كُلُّ الْكَوْنِ بِالضَّرُورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_007",
+      "arabic": "مَجَرَّةٌ",
+      "meaning_ar": "تَجَمُّعٌ ضَخْمٌ مِنَ النُّجُومِ وَالْغَازِ وَالْغُبَارِ تَرْبِطُهُ الْجَاذِبِيَّةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَجَرَّاتٌ"
+      ],
+      "collocations": [
+        "مَجَرَّةٌ بَعِيدَةٌ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمِقْرَابُ مَجَرَّةً بَعِيدَةً."
+      ],
+      "usage_note_ar": "تَضُمُّ مَجَرَّاتٌ كَثِيرَةٌ مَادَّةً مُعْتِمَةً أَيْضًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_008",
+      "arabic": "دَرْبُ التَّبَّانَةِ",
+      "meaning_ar": "الْمَجَرَّةُ الَّتِي تَقَعُ فِيهَا الْمَجْمُوعَةُ الشَّمْسِيَّةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "أَذْرُعُ دَرْبِ التَّبَّانَةِ"
+      ],
+      "examples_ar": [
+        "تَنْتَمِي شَمْسُنَا إِلَى دَرْبِ التَّبَّانَةِ."
+      ],
+      "usage_note_ar": "تَظْهَرُ أَجْزَاءٌ مِنْهَا كَشَرِيطٍ مُضِيءٍ فِي السَّمَاءِ الدَّاكِنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_009",
+      "arabic": "مَجَرَّةٌ حَلْزُونِيَّةٌ",
+      "meaning_ar": "مَجَرَّةٌ لَهَا قُرْصٌ وَأَذْرُعٌ تَلْتَفُّ حَوْلَ مَرْكَزِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَجَرَّاتٌ حَلْزُونِيَّةٌ"
+      ],
+      "collocations": [
+        "أَذْرُعٌ حَلْزُونِيَّةٌ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَلَكِيُّ مَجَرَّةً حَلْزُونِيَّةً."
+      ],
+      "usage_note_ar": "تَتَفَاوَتُ الْمَجَرَّاتُ فِي وَضُوحِ الأَذْرُعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_010",
+      "arabic": "مَجَرَّةٌ إِهْلِيلَجِيَّةٌ",
+      "meaning_ar": "مَجَرَّةٌ تَبْدُو بِيضَوِيَّةً أَوْ قَرِيبَةً مِنَ الْكُرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَجَرَّاتٌ إِهْلِيلَجِيَّةٌ"
+      ],
+      "collocations": [
+        "مَجَرَّةٌ قَدِيمَةُ النُّجُومِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمِقْرَابُ مَجَرَّةً إِهْلِيلَجِيَّةً."
+      ],
+      "usage_note_ar": "تَكُونُ أَقَلَّ وُضُوحًا فِي الْأَذْرُعِ مِنَ الْحَلْزُونِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_011",
+      "arabic": "مَجَرَّةٌ غَيْرُ مُنْتَظِمَةٍ",
+      "meaning_ar": "مَجَرَّةٌ لَا تَمْتَلِكُ شَكْلًا حَلْزُونِيًّا أَوْ إِهْلِيلَجِيًّا وَاضِحًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَجَرَّاتٌ غَيْرُ مُنْتَظِمَةٍ"
+      ],
+      "collocations": [
+        "رَصْدُ مَجَرَّةٍ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَرِيقُ مَجَرَّةً غَيْرَ مُنْتَظِمَةٍ."
+      ],
+      "usage_note_ar": "قَدْ تَتَأَثَّرُ بِتَفَاعُلِهَا مَعَ مَجَرَّاتٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_012",
+      "arabic": "عُنْقُودٌ مَجَرِّيٌّ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ الْمَجَرَّاتِ تَرْتَبِطُ بِجَاذِبِيَّةٍ مُتَبَادَلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَنَاقِيدُ مَجَرِّيَّةٌ"
+      ],
+      "collocations": [
+        "عُنْقُودُ الْمَجَرَّاتِ"
+      ],
+      "examples_ar": [
+        "يَدْرُسُ الْعُلَمَاءُ مَجَرَّاتِ الْعُنْقُودِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ عُنْقُودِ النُّجُومِ دَاخِلَ مَجَرَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_013",
+      "arabic": "نَجْمٌ",
+      "meaning_ar": "جِسْمٌ فَلَكِيٌّ غَازِيٌّ يُشِعُّ الطَّاقَةَ نَتِيجَةَ تَفَاعُلَاتٍ فِي دَاخِلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُجُومٌ"
+      ],
+      "collocations": [
+        "نَجْمٌ سَاطِعٌ"
+      ],
+      "examples_ar": [
+        "رَأَى الطِّفْلُ نَجْمًا فِي السَّمَاءِ."
+      ],
+      "usage_note_ar": "تُعَدُّ الشَّمْسُ نَجْمًا قَرِيبًا مِنَ الأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_014",
+      "arabic": "الشَّمْسُ",
+      "meaning_ar": "النَّجْمُ الَّذِي تَدُورُ حَوْلَهُ الْأَرْضُ وَبَقِيَّةُ كَوَاكِبِ مَجْمُوعَتِنَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "ضَوْءُ الشَّمْسِ"
+      ],
+      "examples_ar": [
+        "أَشْرَقَتِ الشَّمْسُ فَوْقَ الْجَبَلِ."
+      ],
+      "usage_note_ar": "هِيَ مَصْدَرُ الضَّوْءِ وَالطَّاقَةِ الأَسَاسِيَّةِ لِلْأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_015",
+      "arabic": "نَجْمٌ قَزَمٌ",
+      "meaning_ar": "نَجْمٌ يُوصَفُ بِصِغَرِ الْحَجْمِ أَوْ ضَعْفِ اللَّمَعَانِ بِحَسَبِ تَصْنِيفِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُجُومٌ قَزَمَةٌ"
+      ],
+      "collocations": [
+        "نَجْمٌ صَغِيرٌ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ بَيْنَ أَنْوَاعِ النُّجُومِ الْقَزَمَةِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الِاسْمُ تَصْنِيفَاتٍ مُخْتَلِفَةً لَا تَتَطَابَقُ خَصَائِصُهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_016",
+      "arabic": "قَزَمٌ أَبْيَضُ",
+      "meaning_ar": "بَقِيَّةُ نَجْمٍ صَغِيرَةٌ وَشَدِيدَةُ الْكَثَافَةِ لَا يَحْدُثُ فِيهَا انْدِمَاجٌ مُسْتَمِرٌّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَقْزَامٌ بَيْضَاءُ"
+      ],
+      "collocations": [
+        "قَزَمٌ أَبْيَضُ بَعِيدٌ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ قَزَمًا أَبْيَضَ فِي السَّمَاءِ."
+      ],
+      "usage_note_ar": "يَتَكَوَّنُ عِنْدَ نِهَايَةِ حَيَاةِ بَعْضِ النُّجُومِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_017",
+      "arabic": "قَزَمٌ أَحْمَرُ",
+      "meaning_ar": "نَجْمٌ صَغِيرٌ نِسْبِيًّا وَمُنْخَفِضُ الْحَرَارَةِ وَاللَّمَعَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَقْزَامٌ حَمْرَاءُ"
+      ],
+      "collocations": [
+        "قَزَمٌ أَحْمَرُ قَرِيبٌ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْعُلَمَاءُ كَوَاكِبَ تَدُورُ حَوْلَ قَزَمٍ أَحْمَرَ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يَعِيشَ زَمَنًا طَوِيلًا جِدًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_018",
+      "arabic": "عِمْلَاقٌ أَحْمَرُ",
+      "meaning_ar": "نَجْمٌ مُتَضَخِّمٌ ذُو سَطْحٍ أَبْرَدَ نِسْبِيًّا مِنْ قَبْلُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَمَالِقَةٌ حَمْرَاءُ"
+      ],
+      "collocations": [
+        "مَرْحَلَةُ الْعِمْلَاقِ الأَحْمَرِ"
+      ],
+      "examples_ar": [
+        "تَحَوَّلَ النَّجْمُ فِي النَّمُوذَجِ إِلَى عِمْلَاقٍ أَحْمَرَ."
+      ],
+      "usage_note_ar": "يَمُرُّ بِهَا بَعْضُ النُّجُومِ فِي تَطَوُّرِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_019",
+      "arabic": "عِمْلَاقٌ أَزْرَقُ",
+      "meaning_ar": "نَجْمٌ ضَخْمٌ وَشَدِيدُ الْحَرَارَةِ يَشِعُّ ضَوْءًا كَثِيرًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَمَالِقَةٌ زُرْقَاءُ"
+      ],
+      "collocations": [
+        "نَجْمٌ أَزْرَقُ لَامِعٌ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَلَكِيُّ عِمْلَاقًا أَزْرَقَ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ أَلْوَانُ النُّجُومِ بِدَرَجَاتِ حَرَارَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_020",
+      "arabic": "نَجْمٌ نِيُوتْرُونِيٌّ",
+      "meaning_ar": "بَقِيَّةٌ نَجْمِيَّةٌ صَغِيرَةٌ شَدِيدَةُ الْكَثَافَةِ تَحْوِي نِيُوتْرُونَاتٍ كَثِيرَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُجُومٌ نِيُوتْرُونِيَّةٌ"
+      ],
+      "collocations": [
+        "نَجْمٌ شَدِيدُ الْكَثَافَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْعُلَمَاءُ دَوَرَانَ النَّجْمِ النِّيُوتْرُونِيِّ."
+      ],
+      "usage_note_ar": "قَدْ يَنْتُجُ عَنْ انْهِيَارِ نَوَاةِ نَجْمٍ ضَخْمٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_021",
+      "arabic": "نَجْمٌ نَابِضٌ",
+      "meaning_ar": "نَجْمٌ نِيُوتْرُونِيٌّ دَوَّارٌ تَصِلُ مِنْهُ نَبَضَاتٌ إِشْعَاعِيَّةٌ مُنْتَظِمَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُجُومٌ نَابِضَةٌ"
+      ],
+      "collocations": [
+        "نَبْضَاتُ النَّجْمِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمِقْرَابُ نَبْضَاتِ نَجْمٍ نَابِضٍ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ ظُهُورُ النَّبْضِ بِاتِّجَاهِ حُزَمِ الْإِشْعَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_022",
+      "arabic": "مُسْتَعِرٌ أَعْظَمُ",
+      "meaning_ar": "انْفِجَارٌ نَجْمِيٌّ شَدِيدُ اللَّمَعَانِ يَحْدُثُ فِي بَعْضِ مَرَاحِلِ التَّطَوُّرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسْتَعِرَّاتٌ عُظْمَى"
+      ],
+      "collocations": [
+        "انْفِجَارُ الْمُسْتَعِرِّ الأَعْظَمِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ ضَوْءَ مُسْتَعِرٍّ أَعْظَمَ."
+      ],
+      "usage_note_ar": "تَنْتُجُ عَنْهُ عَنَاصِرُ وَبَقَايَا نَجْمِيَّةٌ مُخْتَلِفَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_023",
+      "arabic": "سَدِيمٌ",
+      "meaning_ar": "سَحَابَةٌ بَيْنَ النُّجُومِ تَحْتَوِي عَلَى غَازٍ أَوْ غُبَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سُدُمٌ"
+      ],
+      "collocations": [
+        "سَدِيمٌ مُضِيءٌ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمِقْرَابُ سَدِيمًا مُلَوَّنًا."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ السُّدُمُ بِحَسَبِ مَصْدَرِ الضَّوْءِ وَالْمَادَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_024",
+      "arabic": "سَدِيمٌ كَوْكَبِيٌّ",
+      "meaning_ar": "غِلَافٌ غَازِيٌّ تَطْرُدُهُ بَعْضُ النُّجُومِ قُرْبَ نِهَايَةِ حَيَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سُدُمٌ كَوْكَبِيَّةٌ"
+      ],
+      "collocations": [
+        "سَدِيمٌ مُسْتَدِيرٌ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَلَكِيُّ سَدِيمًا كَوْكَبِيًّا."
+      ],
+      "usage_note_ar": "لَا يَعْنِي اسْمُهُ أَنَّهُ يَتَكَوَّنُ مِنْ كَوَاكِبَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_025",
+      "arabic": "سَحَابَةٌ جُزَيْئِيَّةٌ",
+      "meaning_ar": "تَجَمُّعٌ بَارِدٌ مِنْ غَازٍ وَغُبَارٍ تَوْجَدُ فِيهِ جُزَيْئَاتٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سُحُبٌ جُزَيْئِيَّةٌ"
+      ],
+      "collocations": [
+        "سَحَابَةٌ بَيْنَ النُّجُومِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْفَرِيقُ سَحَابَةً جُزَيْئِيَّةً."
+      ],
+      "usage_note_ar": "قَدْ تَتَكَوَّنُ فِيهَا نُجُومٌ جَدِيدَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_026",
+      "arabic": "تَكَوُّنُ النُّجُومِ",
+      "meaning_ar": "عَمَلِيَّةُ انْهِيَارِ غَازٍ وَغُبَارٍ تَحْتَ تَأْثِيرِ الْجَاذِبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِنْطَقَةُ تَكَوُّنِ النُّجُومِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمِقْرَابُ مَنْطِقَةً تَتَكَوَّنُ فِيهَا نُجُومٌ."
+      ],
+      "usage_note_ar": "تَجْرِي فِي سُحُبٍ بَيْنَ نَجْمِيَّةٍ غَالِبًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_027",
+      "arabic": "نَجْمٌ أَوَّلِيٌّ",
+      "meaning_ar": "جِسْمٌ يَتَكَوَّنُ مِنْ غَازٍ مُتَجَمِّعٍ قَبْلَ بَدْءِ الِانْدِمَاجِ النَّوَوِيِّ الْمُسْتَقِرِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُجُومٌ أَوَّلِيَّةٌ"
+      ],
+      "collocations": [
+        "مَرْحَلَةُ النَّجْمِ الأَوَّلِيِّ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ نَجْمًا أَوَّلِيًّا."
+      ],
+      "usage_note_ar": "يُعَدُّ مَرْحَلَةً مُبَكِّرَةً مِنْ حَيَاةِ النَّجْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_028",
+      "arabic": "انْدِمَاجٌ نَوَوِيٌّ",
+      "meaning_ar": "اتِّحَادُ نَوًى ذَرِّيَّةٍ خَفِيفَةٍ لِتَكْوِينِ نَوًى أَثْقَلَ مَعَ إِطْلَاقِ طَاقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "انْدِمَاجُ الْهَيْدْرُوجِينِ"
+      ],
+      "examples_ar": [
+        "يُوَلِّدُ الِانْدِمَاجُ طَاقَةً فِي قُلُوبِ النُّجُومِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الِانْشِطَارِ النَّوَوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_029",
+      "arabic": "هَيْدْرُوجِينٌ",
+      "meaning_ar": "أَخَفُّ الْعَنَاصِرِ الْكِيمِيَائِيَّةِ وَيَدْخُلُ فِي تَكْوِينِ النُّجُومِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "غَازُ الْهَيْدْرُوجِينِ"
+      ],
+      "examples_ar": [
+        "يَحْتَوِي النَّجْمُ عَلَى هَيْدْرُوجِينٍ كَثِيرٍ."
+      ],
+      "usage_note_ar": "يَكُونُ وَقُودًا لِلِانْدِمَاجِ فِي نُجُومٍ كَالشَّمْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_030",
+      "arabic": "هِلْيُومٌ",
+      "meaning_ar": "عُنْصُرٌ غَازِيٌّ خَفِيفٌ يَتَكَوَّنُ فِي بَعْضِ التَّفَاعُلَاتِ النَّوَوِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "هِلْيُومُ الشَّمْسِ"
+      ],
+      "examples_ar": [
+        "يَنْتُجُ الْهِلْيُومُ مِنَ انْدِمَاجِ الْهَيْدْرُوجِينِ."
+      ],
+      "usage_note_ar": "يُعَدُّ مِنَ الْعَنَاصِرِ الْوَافِرَةِ فِي الْكَوْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_031",
+      "arabic": "جَاذِبِيَّةٌ",
+      "meaning_ar": "تَأْثِيرٌ فِيزِيَائِيٌّ يَجْعَلُ الأَجْسَامَ ذَاتَ الْكُتْلَةِ تَتَجَاذَبُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جَاذِبِيَّةُ الأَرْضِ"
+      ],
+      "examples_ar": [
+        "تُبْقِي الْجَاذِبِيَّةُ الْقَمَرَ فِي مَدَارِهِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ أَيْضًا فِي الْحَيَاةِ بِمَعْنَى الْجَذْبِ الْمَعْنَوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_032",
+      "arabic": "مَادَّةٌ مُعْتِمَةٌ",
+      "meaning_ar": "مَادَّةٌ لَا تُرْصَدُ مُبَاشَرَةً بِالضَّوْءِ وَيُسْتَدَلُّ عَلَيْهَا مِنْ تَأْثِيرِهَا الْجَاذِبِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَوْزِيعُ الْمَادَّةِ الْمُعْتِمَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْعُلَمَاءُ حَرَكَةَ النُّجُومِ لِفَهْمِ الْمَادَّةِ الْمُعْتِمَةِ."
+      ],
+      "usage_note_ar": "تُسَمَّى أَيْضًا الْمَادَّةَ الْمُظْلِمَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_033",
+      "arabic": "طَاقَةٌ مُظْلِمَةٌ",
+      "meaning_ar": "تَسْمِيَةٌ لِمُكَوِّنٍ مُفْتَرَضٍ يُسْتَخْدَمُ لِتَفْسِيرِ تَسَارُعِ تَمَدُّدِ الْكَوْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَمَاذِجُ الطَّاقَةِ الْمُظْلِمَةِ"
+      ],
+      "examples_ar": [
+        "يَبْحَثُ الْعُلَمَاءُ فِي طَبِيعَةِ الطَّاقَةِ الْمُظْلِمَةِ."
+      ],
+      "usage_note_ar": "لَا تَزَالُ طَبِيعَتُهَا الْفِيزِيَائِيَّةُ غَيْرَ مَحْسُومَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_034",
+      "arabic": "ثُقْبٌ أَسْوَدُ",
+      "meaning_ar": "مَنْطِقَةٌ فِي الزَّمَكَانِ تَكُونُ جَاذِبِيَّتُهَا قَوِيَّةً جِدًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثُقُوبٌ سَوْدَاءُ"
+      ],
+      "collocations": [
+        "حَافَّةُ الثُّقْبِ الأَسْوَدِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْفَلَكِيُّ غَازًا يَدُورُ حَوْلَ ثُقْبٍ أَسْوَدَ."
+      ],
+      "usage_note_ar": "لَا يَسْتَطِيعُ الضَّوْءُ الْخُرُوجَ مِنْ دَاخِلِ أُفُقِ حَدَثِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_035",
+      "arabic": "أُفُقُ الْحَدَثِ",
+      "meaning_ar": "حَدٌّ حَوْلَ ثُقْبٍ أَسْوَدَ لَا تَعُودُ مِنْ دَاخِلِهِ إِشَارَةٌ إِلَى الْخَارِجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَدُّ أُفُقِ الْحَدَثِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْبَاحِثُ مَعْنَى أُفُقِ الْحَدَثِ."
+      ],
+      "usage_note_ar": "لَيْسَ سَطْحًا صُلْبًا مِثْلَ سَطْحِ الْكَوْكَبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_036",
+      "arabic": "قُرْصُ تَرَاكُمٍ",
+      "meaning_ar": "مَادَّةٌ غَازِيَّةٌ تَدُورُ فِي قُرْصٍ حَوْلَ جِسْمٍ فَلَكِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَقْرَاصُ تَرَاكُمٍ"
+      ],
+      "collocations": [
+        "قُرْصٌ حَوْلَ نَجْمٍ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْبَاحِثُ قُرْصَ تَرَاكُمٍ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ سَاخِنًا جِدًّا حَوْلَ الأَجْرَامِ الْمُدْمَجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_037",
+      "arabic": "كَوْكَبٌ",
+      "meaning_ar": "جِسْمٌ فَلَكِيٌّ يَدُورُ حَوْلَ نَجْمٍ وَلَا يُنْتِجُ ضَوْءَ النُّجُومِ بِنَفْسِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَوَاكِبُ"
+      ],
+      "collocations": [
+        "كَوْكَبٌ صَخْرِيٌّ"
+      ],
+      "examples_ar": [
+        "يَدُورُ كَوْكَبُ الأَرْضِ حَوْلَ الشَّمْسِ."
+      ],
+      "usage_note_ar": "لِتَصْنِيفِ الْكَوَاكِبِ شُرُوطٌ تَفْصِيلِيَّةٌ فِي عِلْمِ الْفَلَكِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_038",
+      "arabic": "مَجْمُوعَةٌ شَمْسِيَّةٌ",
+      "meaning_ar": "نِظَامٌ يَضُمُّ نَجْمًا وَالْأَجْرَامَ الَّتِي تَدُورُ حَوْلَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَجْمُوعَاتٌ شَمْسِيَّةٌ"
+      ],
+      "collocations": [
+        "كَوَاكِبُ الْمَجْمُوعَةِ الشَّمْسِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَضُمُّ مَجْمُوعَتُنَا الشَّمْسِيَّةُ ثَمَانِيَةَ كَوَاكِبَ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَيْضًا أَقْمَارًا وَكُوَيْكِبَاتٍ وَمُذَنَّبَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_039",
+      "arabic": "عُطَارِدُ",
+      "meaning_ar": "أَقْرَبُ كَوَاكِبِ الْمَجْمُوعَةِ الشَّمْسِيَّةِ إِلَى الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَدَارُ عُطَارِدَ"
+      ],
+      "examples_ar": [
+        "يُتِمُّ عُطَارِدُ دَوْرَتَهُ حَوْلَ الشَّمْسِ بِسُرْعَةٍ."
+      ],
+      "usage_note_ar": "لَا يَمْتَلِكُ غِلَافًا جَوِّيًّا كَثِيفًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_040",
+      "arabic": "الزُّهَرَةُ",
+      "meaning_ar": "كَوْكَبٌ صَخْرِيٌّ ذُو غِلَافٍ جَوِّيٍّ كَثِيفٍ وَسَطْحٍ شَدِيدِ الْحَرَارَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كَوْكَبُ الزُّهَرَةِ"
+      ],
+      "examples_ar": [
+        "تَظْهَرُ الزُّهَرَةُ سَاطِعَةً فِي أَوْقَاتٍ مُعَيَّنَةٍ."
+      ],
+      "usage_note_ar": "تُعْرَفُ فِي بَعْضِ السِّيَاقَاتِ بِنَجْمَةِ الصَّبَاحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_041",
+      "arabic": "الْأَرْضُ",
+      "meaning_ar": "الْكَوْكَبُ الَّذِي نَعِيشُ عَلَيْهِ وَتُغَطِّي الْمِيَاهُ جُزْءًا كَبِيرًا مِنْ سَطْحِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دَوَرَانُ الْأَرْضِ"
+      ],
+      "examples_ar": [
+        "تَدُورُ الْأَرْضُ حَوْلَ الشَّمْسِ."
+      ],
+      "usage_note_ar": "لَهَا غِلَافٌ جَوِّيٌّ وَقَمَرٌ طَبِيعِيٌّ وَاحِدٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_042",
+      "arabic": "الْمِرِّيخُ",
+      "meaning_ar": "كَوْكَبٌ صَخْرِيٌّ تَغْلِبُ عَلَى سَطْحِهِ دَرَجَاتُ الْحُمْرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سَطْحُ الْمِرِّيخِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمِسْبَارُ تَضَارِيسَ الْمِرِّيخِ."
+      ],
+      "usage_note_ar": "يُسَمَّى الْكَوْكَبَ الأَحْمَرَ لِلَوْنِ تُرْبَتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_043",
+      "arabic": "الْمُشْتَرِي",
+      "meaning_ar": "أَكْبَرُ كَوَاكِبِ الْمَجْمُوعَةِ الشَّمْسِيَّةِ وَهُوَ عِمْلَاقٌ غَازِيٌّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "أَقْمَارُ الْمُشْتَرِي"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الْفَلَكِيُّ أَقْمَارَ الْمُشْتَرِي بِالْمِقْرَابِ."
+      ],
+      "usage_note_ar": "تَشْتَهِرُ صُوَرُهُ بِبُقْعَةٍ حَمْرَاءَ كَبِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_044",
+      "arabic": "زُحَلُ",
+      "meaning_ar": "كَوْكَبٌ غَازِيٌّ عِمْلَاقٌ يَحِيطُ بِهِ نِظَامٌ بَارِزٌ مِنَ الْحَلَقَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَلَقَاتُ زُحَلَ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الطَّالِبُ زُحَلَ بِالْمِقْرَابِ."
+      ],
+      "usage_note_ar": "تَتَكَوَّنُ حَلَقَاتُهُ أَسَاسًا مِنْ جُسَيْمَاتٍ جَلِيدِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_045",
+      "arabic": "أُورَانُوسُ",
+      "meaning_ar": "كَوْكَبٌ جَلِيدِيٌّ عِمْلَاقٌ يَدُورُ حَوْلَ الشَّمْسِ بَعِيدًا عَنِ الْأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَدَارُ أُورَانُوسَ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ مَيْلَ مِحْوَرِ أُورَانُوسَ."
+      ],
+      "usage_note_ar": "يَمْتَازُ بِمَيْلٍ كَبِيرٍ فِي مِحْوَرِ دَوَرَانِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_046",
+      "arabic": "نَبْتُونُ",
+      "meaning_ar": "كَوْكَبٌ جَلِيدِيٌّ عِمْلَاقٌ يَقَعُ فِي الْجُزْءِ الْخَارِجِيِّ مِنَ الْمَجْمُوعَةِ الشَّمْسِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رِيَاحُ نَبْتُونَ"
+      ],
+      "examples_ar": [
+        "تُظْهِرُ الصُّوَرُ لَوْنًا أَزْرَقَ لِنَبْتُونَ."
+      ],
+      "usage_note_ar": "لَهُ غِلَافٌ جَوِّيٌّ وَرِيَاحٌ قَوِيَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_047",
+      "arabic": "كَوْكَبٌ قَزَمٌ",
+      "meaning_ar": "جِسْمٌ يَدُورُ حَوْلَ الشَّمْسِ وَيَكُونُ شِبْهَ كُرَوِيٍّ دُونَ أَنْ يُصَنَّفَ كَوْكَبًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَوَاكِبُ قَزَمَةٌ"
+      ],
+      "collocations": [
+        "كَوْكَبٌ قَزَمٌ بَعِيدٌ"
+      ],
+      "examples_ar": [
+        "يُعَدُّ بُلُوتُو كَوْكَبًا قَزَمًا."
+      ],
+      "usage_note_ar": "لَمْ يُخْلِ مَنْطِقَةَ مَدَارِهِ مِنَ الْأَجْرَامِ الْمُمَاثِلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_048",
+      "arabic": "بُلُوتُو",
+      "meaning_ar": "جِسْمٌ جَلِيدِيٌّ يَدُورُ بَعِيدًا عَنِ الشَّمْسِ وَيُصَنَّفُ كَوْكَبًا قَزَمًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَدَارُ بُلُوتُو"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ صُوَرَ بُلُوتُو."
+      ],
+      "usage_note_ar": "كَانَ يُعَدُّ كَوْكَبًا قَبْلَ تَغْيِيرِ التَّصْنِيفِ الْفَلَكِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_049",
+      "arabic": "كَوْكَبٌ صَخْرِيٌّ",
+      "meaning_ar": "كَوْكَبٌ يَتَكَوَّنُ أَسَاسًا مِنْ صُخُورٍ وَمَعَادِنَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَوَاكِبُ صَخْرِيَّةٌ"
+      ],
+      "collocations": [
+        "سَطْحٌ صَلْبٌ"
+      ],
+      "examples_ar": [
+        "الْأَرْضُ وَالْمِرِّيخُ مِنَ الْكَوَاكِبِ الصَّخْرِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْعَمَالِقَةِ الْغَازِيَّةِ فِي التَّرْكِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_050",
+      "arabic": "عِمْلَاقٌ غَازِيٌّ",
+      "meaning_ar": "كَوْكَبٌ ضَخْمٌ يَتَكَوَّنُ جُزْءٌ كَبِيرٌ مِنْهُ مِنْ غَازَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَمَالِقَةٌ غَازِيَّةٌ"
+      ],
+      "collocations": [
+        "كَوْكَبٌ غَازِيٌّ"
+      ],
+      "examples_ar": [
+        "يُعَدُّ الْمُشْتَرِي عِمْلَاقًا غَازِيًّا."
+      ],
+      "usage_note_ar": "لَا يَمْتَلِكُ سَطْحًا صَلْبًا وَاضِحًا كَالأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_051",
+      "arabic": "عِمْلَاقٌ جَلِيدِيٌّ",
+      "meaning_ar": "كَوْكَبٌ ضَخْمٌ يَحْتَوِي عَلَى مَوَادَّ طَيَّارَةٍ وَغَازَاتٍ كَثِيرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَمَالِقَةٌ جَلِيدِيَّةٌ"
+      ],
+      "collocations": [
+        "الْعَمَالِقَةُ الْجَلِيدِيَّةُ"
+      ],
+      "examples_ar": [
+        "يُنْسَبُ أُورَانُوسُ إِلَى الْعَمَالِقَةِ الْجَلِيدِيَّةِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ الِاسْمُ بِتَرْكِيبِ الدَّاخِلِ لَا بِسَطْحٍ مُتَجَمِّدٍ فَقَطْ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_052",
+      "arabic": "كَوْكَبٌ خَارِجِيٌّ",
+      "meaning_ar": "كَوْكَبٌ يَدُورُ حَوْلَ نَجْمٍ غَيْرِ الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَوَاكِبُ خَارِجِيَّةٌ"
+      ],
+      "collocations": [
+        "اكْتِشَافُ كَوْكَبٍ خَارِجِيٍّ"
+      ],
+      "examples_ar": [
+        "اكْتَشَفَ الْفَرِيقُ كَوْكَبًا خَارِجِيًّا."
+      ],
+      "usage_note_ar": "يُعْرَفُ أَيْضًا بِاسْمِ كَوْكَبٍ خَارِجَ الْمَجْمُوعَةِ الشَّمْسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_053",
+      "arabic": "كَوْكَبٌ عَابِرٌ",
+      "meaning_ar": "كَوْكَبٌ يَمُرُّ أَمَامَ قُرْصِ نَجْمِهِ مِنْ وَجْهَةِ نَظَرِ الرَّاصِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَوَاكِبُ عَابِرَةٌ"
+      ],
+      "collocations": [
+        "عُبُورُ الْكَوْكَبِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَرِيقُ عُبُورَ كَوْكَبٍ أَمَامَ نَجْمِهِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ كَشْفُهُ مِنْ انْخِفَاضِ ضَوْءِ النَّجْمِ قَلِيلًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_054",
+      "arabic": "مَنْطِقَةٌ صَالِحَةٌ لِلْحَيَاةِ",
+      "meaning_ar": "نِطَاقٌ حَوْلَ نَجْمٍ قَدْ يَسْمَحُ بِوُجُودِ مَاءٍ سَائِلٍ عَلَى سَطْحِ كَوْكَبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَنَاطِقُ صَالِحَةٌ لِلْحَيَاةِ"
+      ],
+      "collocations": [
+        "نِطَاقُ الْحَيَاةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ مَدَارَ الْكَوْكَبِ فِي الْمَنْطِقَةِ."
+      ],
+      "usage_note_ar": "الْمَوْقِعُ وَحْدَهُ لَا يُثْبِتُ وُجُودَ الْحَيَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_055",
+      "arabic": "غِلَافٌ جَوِّيٌّ",
+      "meaning_ar": "طَبَقَةٌ مِنَ الْغَازَاتِ تُحِيطُ بِكَوْكَبٍ أَوْ جِسْمٍ فَلَكِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَغْلِفَةٌ جَوِّيَّةٌ"
+      ],
+      "collocations": [
+        "غِلَافُ الْأَرْضِ الْجَوِّيُّ"
+      ],
+      "examples_ar": [
+        "يَحْتَفِظُ الْغِلَافُ الْجَوِّيُّ بِبَعْضِ الْحَرَارَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ كَثَافَتُهُ وَمُكَوِّنَاتُهُ بَيْنَ الْكَوَاكِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_056",
+      "arabic": "غِلَافٌ مَغْنَاطِيسِيٌّ",
+      "meaning_ar": "مَنْطِقَةٌ حَوْلَ كَوْكَبٍ تَتَأَثَّرُ بِمَجَالِهِ الْمَغْنَاطِيسِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَغْلِفَةٌ مَغْنَاطِيسِيَّةٌ"
+      ],
+      "collocations": [
+        "غِلَافُ الأَرْضِ الْمَغْنَاطِيسِيُّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْفَرِيقُ تَأْثِيرَ الشَّمْسِ فِي الْغِلَافِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَوْجِيهِ بَعْضِ الْجُسَيْمَاتِ الْمَشْحُونَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_057",
+      "arabic": "رِيَاحٌ شَمْسِيَّةٌ",
+      "meaning_ar": "تَدَفُّقٌ مِنَ الْجُسَيْمَاتِ الْمَشْحُونَةِ يَنْبَعِثُ مِنَ الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَأْثِيرُ الرِّيَاحِ الشَّمْسِيَّةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمِسْبَارُ الْجُسَيْمَاتِ فِي الرِّيَاحِ الشَّمْسِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ تُؤَثِّرُ فِي الْأَقْمَارِ الصِّنَاعِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_058",
+      "arabic": "تَوَهُّجٌ شَمْسِيٌّ",
+      "meaning_ar": "إِطْلَاقٌ مُفَاجِئٌ لِطَاقَةٍ كَبِيرَةٍ فِي الْغِلَافِ الْجَوِّيِّ لِلشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَوَهُّجَاتٌ شَمْسِيَّةٌ"
+      ],
+      "collocations": [
+        "رَصْدُ التَّوَهُّجِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَرِيقُ تَوَهُّجًا شَمْسِيًّا."
+      ],
+      "usage_note_ar": "قَدْ يَصْحَبُهُ إِشْعَاعٌ قَوِيٌّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_059",
+      "arabic": "بُقْعَةٌ شَمْسِيَّةٌ",
+      "meaning_ar": "مَنْطِقَةٌ أَبْرَدُ نِسْبِيًّا عَلَى سَطْحِ الشَّمْسِ تَرْتَبِطُ بِمَجَالٍ مَغْنَاطِيسِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بُقَعٌ شَمْسِيَّةٌ"
+      ],
+      "collocations": [
+        "عَدُّ الْبُقَعِ الشَّمْسِيَّةِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمَرْصَدُ بُقَعًا شَمْسِيَّةً."
+      ],
+      "usage_note_ar": "لَا يَجُوزُ النَّظَرُ إِلَى الشَّمْسِ دُونَ مُرَشِّحٍ مُخَصَّصٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_060",
+      "arabic": "إِكْلِيلُ الشَّمْسِ",
+      "meaning_ar": "الطَّبَقَةُ الْخَارِجِيَّةُ الْحَارَّةُ مِنَ الْغِلَافِ الْجَوِّيِّ لِلشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَصْدُ الإِكْلِيلِ"
+      ],
+      "examples_ar": [
+        "يَظْهَرُ إِكْلِيلُ الشَّمْسِ خِلَالَ بَعْضِ الْكُسُوفِ."
+      ],
+      "usage_note_ar": "يَمْتَدُّ إِلَى مَسَافَاتٍ بَعِيدَةٍ فِي الْفَضَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_061",
+      "arabic": "قَمَرٌ طَبِيعِيٌّ",
+      "meaning_ar": "جِسْمٌ فَلَكِيٌّ يَدُورُ حَوْلَ كَوْكَبٍ أَوْ جِسْمٍ أَكْبَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَقْمَارٌ طَبِيعِيَّةٌ"
+      ],
+      "collocations": [
+        "قَمَرُ الأَرْضِ"
+      ],
+      "examples_ar": [
+        "يَدُورُ الْقَمَرُ الطَّبِيعِيُّ حَوْلَ الْأَرْضِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْقَمَرِ الصِّنَاعِيِّ الَّذِي يَصْنَعُهُ الْإِنْسَانُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_062",
+      "arabic": "الْقَمَرُ",
+      "meaning_ar": "الْجِسْمُ الطَّبِيعِيُّ الَّذِي يَدُورُ حَوْلَ الْأَرْضِ وَيَعْكِسُ ضَوْءَ الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سَطْحُ الْقَمَرِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطِّفْلُ الْقَمَرَ فِي اللَّيْلِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ الْمَسَاحَةُ الْمُضِيئَةُ الظَّاهِرَةُ مِنْهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_063",
+      "arabic": "قَمَرٌ صِنَاعِيٌّ",
+      "meaning_ar": "جِهَازٌ صَنَعَهُ الْإِنْسَانُ لِيَدُورَ فِي مَدَارٍ حَوْلَ جِسْمٍ فَلَكِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَقْمَارٌ صِنَاعِيَّةٌ"
+      ],
+      "collocations": [
+        "قَمَرُ اتِّصَالَاتٍ"
+      ],
+      "examples_ar": [
+        "أُطْلِقَ قَمَرٌ صِنَاعِيٌّ لِلْأَرْصَادِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلِاتِّصَالِ وَالْمِلَاحَةِ وَالتَّصْوِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_064",
+      "arabic": "أَطْوَارُ الْقَمَرِ",
+      "meaning_ar": "الأَشْكَالُ الْمُخْتَلِفَةُ لِلْجُزْءِ الْمُنِيرِ مِنَ الْقَمَرِ كَمَا نَرَاهُ مِنَ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَتَبُّعُ الأَطْوَارِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ التِّلْمِيذُ أَطْوَارَ الْقَمَرِ."
+      ],
+      "usage_note_ar": "تَنْتُجُ عَنْ تَغَيُّرِ مَوْقِعِ الْقَمَرِ نِسْبَةً إِلَى الأَرْضِ وَالشَّمْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_065",
+      "arabic": "هِلالٌ",
+      "meaning_ar": "الشَّكْلُ الرَّقِيقُ الْمُنْحَنِي لِلْجُزْءِ الْمُضِيءِ مِنَ الْقَمَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَهِلَّةٌ"
+      ],
+      "collocations": [
+        "رُؤْيَةُ الْهِلالِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَرِيقُ الْهِلالَ بَعْدَ الْغُرُوبِ."
+      ],
+      "usage_note_ar": "يَظْهَرُ فِي بِدَايَةِ الدَّوْرَةِ الْقَمَرِيَّةِ وَنِهَايَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_066",
+      "arabic": "تَرْبِيعٌ أَوَّلُ",
+      "meaning_ar": "طَوْرٌ قَمَرِيٌّ يَظْهَرُ فِيهِ نِصْفُ الْقُرْصِ مُضِيئًا فِي النِّصْفِ الأَوَّلِ مِنَ الدَّوْرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طَوْرُ التَّرْبِيعِ الأَوَّلِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ نِصْفَ الْقَمَرِ مُنِيرًا."
+      ],
+      "usage_note_ar": "يَتْبَعُ الْهِلالَ الْمُتَزَايِدَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_067",
+      "arabic": "بَدْرٌ",
+      "meaning_ar": "طَوْرٌ يَبْدُو فِيهِ الْوَجْهُ الْمَرْئِيُّ مِنَ الْقَمَرِ مُضِيئًا تَقْرِيبًا بِأَكْمَلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بُدُورٌ"
+      ],
+      "collocations": [
+        "لَيْلَةُ الْبَدْرِ"
+      ],
+      "examples_ar": [
+        "أَضَاءَ الْبَدْرُ الطَّرِيقَ فِي اللَّيْلِ."
+      ],
+      "usage_note_ar": "يَحْدُثُ قَرِيبًا مِنْ وَسَطِ الشَّهْرِ الْقَمَرِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_068",
+      "arabic": "تَرْبِيعٌ أَخِيرٌ",
+      "meaning_ar": "طَوْرٌ يَبْدُو فِيهِ نِصْفُ الْقَمَرِ مُضِيئًا فِي النِّصْفِ الثَّانِي مِنَ الدَّوْرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طَوْرُ التَّرْبِيعِ الأَخِيرِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ التِّلْمِيذُ التَّرْبِيعَ الأَخِيرَ."
+      ],
+      "usage_note_ar": "يَسْبِقُ الْهِلالَ الْمُتَنَاقِصَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_069",
+      "arabic": "مِحَاقٌ",
+      "meaning_ar": "طَوْرٌ قَمَرِيٌّ يَكُونُ فِيهِ الْوَجْهُ الْمُضِيءُ مُتَّجِهًا أَسَاسًا بَعِيدًا عَنِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الْمِحَاقِ"
+      ],
+      "examples_ar": [
+        "لَا يَظْهَرُ الْقَمَرُ بِوُضُوحٍ عِنْدَ الْمِحَاقِ."
+      ],
+      "usage_note_ar": "يَحْدُثُ عِنْدَ اقْتِرَابِ الْقَمَرِ مِنِ اتِّجَاهِ الشَّمْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_070",
+      "arabic": "كُسُوفٌ شَمْسِيٌّ",
+      "meaning_ar": "حَدَثٌ يَحْجُبُ فِيهِ الْقَمَرُ جُزْءًا مِنْ قُرْصِ الشَّمْسِ أَوْ كُلَّهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُسُوفَاتٌ شَمْسِيَّةٌ"
+      ],
+      "collocations": [
+        "كُسُوفٌ كُلِّيٌّ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَرِيقُ الْكُسُوفَ بِأَدَوَاتٍ آمِنَةٍ."
+      ],
+      "usage_note_ar": "لَا يَجُوزُ مُشَاهَدَتُهُ بِالْعَيْنِ الْمُجَرَّدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_071",
+      "arabic": "خُسُوفٌ قَمَرِيٌّ",
+      "meaning_ar": "حَدَثٌ يَدْخُلُ فِيهِ الْقَمَرُ ظِلَّ الأَرْضِ فَيَقِلُّ ضَوْؤُهُ الظَّاهِرُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُسُوفَاتٌ قَمَرِيَّةٌ"
+      ],
+      "collocations": [
+        "خُسُوفٌ جُزْئِيٌّ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْأَطْفَالُ خُسُوفَ الْقَمَرِ."
+      ],
+      "usage_note_ar": "يَحْدُثُ عِنْدَ تَقَارُبِ خَطِّ الشَّمْسِ وَالأَرْضِ وَالْقَمَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_072",
+      "arabic": "كَسُوفٌ حَلَقِيٌّ",
+      "meaning_ar": "كُسُوفٌ تَبْقَى فِيهِ حَلْقَةٌ مُضِيئَةٌ مِنَ الشَّمْسِ حَوْلَ الْقَمَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُسُوفَاتٌ حَلَقِيَّةٌ"
+      ],
+      "collocations": [
+        "حَلْقَةٌ مُضِيئَةٌ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ شَكْلَ الْكُسُوفِ الْحَلَقِيِّ."
+      ],
+      "usage_note_ar": "يَحْدُثُ عِنْدَمَا يَبْدُو قُرْصُ الْقَمَرِ أَصْغَرَ مِنَ الشَّمْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_073",
+      "arabic": "ظِلٌّ فَلَكِيٌّ",
+      "meaning_ar": "مَنْطِقَةٌ يَحْجُبُ عَنْهَا جِسْمٌ فَلَكِيٌّ جُزْءًا مِنَ الضَّوْءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ظِلَالٌ فَلَكِيَّةٌ"
+      ],
+      "collocations": [
+        "مَخْرُوطُ الظِّلِّ"
+      ],
+      "examples_ar": [
+        "يَمُرُّ الْقَمَرُ بِظِلِّ الأَرْضِ فِي الْخُسُوفِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مَنْطِقَةُ الظِّلِّ التَّامِّ عَنِ شِبْهِ الظِّلِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_074",
+      "arabic": "شِبْهُ ظِلٍّ",
+      "meaning_ar": "مَنْطِقَةٌ يَصِلُهَا جُزْءٌ مِنَ الضَّوْءِ بِسَبَبِ حَجْبِ جُزْءٍ مِنْ مَصْدَرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خُسُوفٌ شِبْهُ ظِلِّيٍّ"
+      ],
+      "examples_ar": [
+        "عَبَرَ الْقَمَرُ مِنْطَقَةَ شِبْهِ الظِّلِّ."
+      ],
+      "usage_note_ar": "يَكُونُ التَّغَيُّرُ فِي ضَوْءِ الْقَمَرِ أَضْعَفَ مِنَ الْخُسُوفِ التَّامِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_075",
+      "arabic": "مَدَارٌ",
+      "meaning_ar": "مَسَارٌ يَتَّبِعُهُ جِسْمٌ تَحْتَ تَأْثِيرِ الْجَاذِبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَدَارَاتٌ"
+      ],
+      "collocations": [
+        "مَدَارُ الْقَمَرِ"
+      ],
+      "examples_ar": [
+        "يَدُورُ الْقَمَرُ فِي مَدَارٍ حَوْلَ الْأَرْضِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ إِهْلِيلَجِيًّا لَا دَائِرِيًّا تَمَامًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_076",
+      "arabic": "مَدَارٌ إِهْلِيلَجِيٌّ",
+      "meaning_ar": "مَسَارٌ بِيضَوِيُّ الشَّكْلِ يَدُورُ فِيهِ جِسْمٌ حَوْلَ آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَدَارَاتٌ إِهْلِيلَجِيَّةٌ"
+      ],
+      "collocations": [
+        "مَدَارُ كَوْكَبٍ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مَدَارًا إِهْلِيلَجِيًّا."
+      ],
+      "usage_note_ar": "يَقَعُ الْجِسْمُ الْمَرْكَزِيُّ فِي إِحْدَى الْبُؤْرَتَيْنِ تَقْرِيبًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_077",
+      "arabic": "مَدَارٌ دَائِرِيٌّ",
+      "meaning_ar": "مَسَارٌ يَكُونُ الْبُعْدُ فِيهِ عَنِ الْمَرْكَزِ ثَابِتًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَدَارَاتٌ دَائِرِيَّةٌ"
+      ],
+      "collocations": [
+        "مَدَارٌ مُنْتَظِمٌ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الْمُعَلِّمُ مَدَارًا دَائِرِيًّا فِي الْمِثَالِ."
+      ],
+      "usage_note_ar": "هُوَ حَالَةٌ خَاصَّةٌ مِنَ الْمَدَارِ الْإِهْلِيلَجِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_078",
+      "arabic": "مِحْوَرُ الدَّوَرَانِ",
+      "meaning_ar": "خَطٌّ تَخَيُّلِيٌّ يَدُورُ حَوْلَهُ الْجِسْمُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَحَاوِرُ الدَّوَرَانِ"
+      ],
+      "collocations": [
+        "مَيْلُ الْمِحْوَرِ"
+      ],
+      "examples_ar": [
+        "يَمِيلُ مِحْوَرُ دَوَرَانِ الْأَرْضِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ مَيْلُهُ عَلَى تَفْسِيرِ تَغَيُّرِ الْفُصُولِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_079",
+      "arabic": "دَوَرَانٌ مِحْوَرِيٌّ",
+      "meaning_ar": "حَرَكَةُ جِسْمٍ حَوْلَ مِحْوَرٍ يَمُرُّ مِنْ دَاخِلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دَوَرَانُ الْأَرْضِ"
+      ],
+      "examples_ar": [
+        "تُكْمِلُ الْأَرْضُ دَوْرَةً مِحْوَرِيَّةً كُلَّ يَوْمٍ تَقْرِيبًا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الدَّوَرَانِ حَوْلَ الشَّمْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_080",
+      "arabic": "ثَوْرَةٌ مَدَارِيَّةٌ",
+      "meaning_ar": "إِتْمَامُ جِسْمٍ دَوْرَةً كَامِلَةً حَوْلَ جِسْمٍ آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثَوْرَاتٌ مَدَارِيَّةٌ"
+      ],
+      "collocations": [
+        "إِتْمَامُ الدَّوْرَةِ"
+      ],
+      "examples_ar": [
+        "تَسْتَغْرِقُ ثَوْرَةُ الأَرْضِ حَوْلَ الشَّمْسِ سَنَةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي بَعْضِ النُّصُوصِ الْعِلْمِيَّةِ بِمَعْنَى الدَّوْرَةِ الْمَدَارِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_081",
+      "arabic": "فَتْرَةٌ مَدَارِيَّةٌ",
+      "meaning_ar": "الزَّمَنُ الَّذِي يَسْتَغْرِقُهُ جِسْمٌ لِإِكْمَالِ دَوْرَةٍ حَوْلَ آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتٌ مَدَارِيَّةٌ"
+      ],
+      "collocations": [
+        "فَتْرَةُ دَوَرَانٍ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ الْفَتْرَةَ الْمَدَارِيَّةَ لِلْقَمَرِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ بَيْنَ الْكَوَاكِبِ بِحَسَبِ الْمَدَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_082",
+      "arabic": "سُرْعَةٌ مَدَارِيَّةٌ",
+      "meaning_ar": "سُرْعَةُ جِسْمٍ فِي حَرَكَتِهِ عَلَى مَدَارِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سُرَعٌ مَدَارِيَّةٌ"
+      ],
+      "collocations": [
+        "زِيَادَةُ السُّرْعَةِ"
+      ],
+      "examples_ar": [
+        "تَتَغَيَّرُ سُرْعَةُ الْكَوْكَبِ عَلَى مَدَارِهِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْمَسَافَةِ وَالْجَاذِبِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_083",
+      "arabic": "حَضِيضٌ",
+      "meaning_ar": "أَقْرَبُ نُقْطَةٍ فِي مَدَارِ جِسْمٍ إِلَى جِسْمٍ مَرْكَزِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَضِيضَاتٌ"
+      ],
+      "collocations": [
+        "حَضِيضُ الْمَدَارِ"
+      ],
+      "examples_ar": [
+        "مَرَّ الْقَمَرُ بِالْحَضِيضِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ الِاسْمُ الْمُخَصَّصُ بِحَسَبِ الْجِسْمِ الْمَرْكَزِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_084",
+      "arabic": "أَوْجٌ",
+      "meaning_ar": "أَبْعَدُ نُقْطَةٍ فِي مَدَارِ جِسْمٍ عَنِ الْجِسْمِ الْمَرْكَزِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَوْجَاتٌ"
+      ],
+      "collocations": [
+        "أَوْجُ الْمَدَارِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْقَمَرُ إِلَى الأَوْجِ."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْحَضِيضَ فِي الْمَدَارِ الإِهْلِيلَجِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_085",
+      "arabic": "حَضِيضُ الشَّمْسِ",
+      "meaning_ar": "أَقْرَبُ نُقْطَةٍ يَصِلُ إِلَيْهَا جِسْمٌ فِي مَدَارِهِ حَوْلَ الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وُصُولُ الأَرْضِ إِلَى الْحَضِيضِ"
+      ],
+      "examples_ar": [
+        "تَقْتَرِبُ الأَرْضُ مِنَ الشَّمْسِ عِنْدَ الْحَضِيضِ."
+      ],
+      "usage_note_ar": "لَا يَكُونُ هُوَ السَّبَبَ الرَّئِيسِيَّ لِتَعَاقُبِ الْفُصُولِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_086",
+      "arabic": "أَوْجُ الشَّمْسِ",
+      "meaning_ar": "أَبْعَدُ نُقْطَةٍ يَصِلُ إِلَيْهَا جِسْمٌ فِي مَدَارِهِ حَوْلَ الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَوْعِدُ الأَوْجِ"
+      ],
+      "examples_ar": [
+        "تَبْعُدُ الأَرْضُ عَنِ الشَّمْسِ أَكْثَرَ عِنْدَ الأَوْجِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ مَسَافَةُ الْأَرْضِ خِلَالَ السَّنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_087",
+      "arabic": "مَيْلُ الْمَدَارِ",
+      "meaning_ar": "زَاوِيَةٌ بَيْنَ مُسْتَوَى مَدَارِ جِسْمٍ وَمُسْتَوًى مَرْجِعِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمَيْلِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْفَلَكِيُّ مَيْلَ الْمَدَارِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى وَصْفِ اتِّجَاهِ الْمَدَارِ فِي الْفَضَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_088",
+      "arabic": "مُسْتَوَى الْكَسُوفِ",
+      "meaning_ar": "مُسْتَوَى مَدَارِ الْأَرْضِ حَوْلَ الشَّمْسِ فِي الْوَصْفِ الْفَلَكِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَيْلُ مُسْتَوَى الْكَسُوفِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ مَدَارَ الْقَمَرِ بِمُسْتَوَى الْكَسُوفِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَرْجِعًا لِلْإِحْدَاثِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_089",
+      "arabic": "الْبُرُوجُ السَّمَاوِيَّةُ",
+      "meaning_ar": "مَنَاطِقُ مُعَرَّفَةٌ عَلَى امْتِدَادِ مَسَارِ الشَّمْسِ الظَّاهِرِ فِي السَّمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صُوَرُ الْبُرُوجِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ أَسْمَاءَ بَعْضِ الْبُرُوجِ السَّمَاوِيَّةِ."
+      ],
+      "usage_note_ar": "لَا تَعْنِي التَّسْمِيَاتُ صِحَّةَ التَّنْجِيمِ وَالتَّنَبُّؤِ بِالْغَيْبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_090",
+      "arabic": "كَوْكَبَةٌ",
+      "meaning_ar": "مِنْطَقَةٌ مُحَدَّدَةٌ مِنَ السَّمَاءِ تَرْتَبِطُ بِشَكْلٍ تَقْلِيدِيٍّ لِلنُّجُومِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَوْكَبَاتٌ"
+      ],
+      "collocations": [
+        "كَوْكَبَةُ الْجَبَّارِ"
+      ],
+      "examples_ar": [
+        "تَعَرَّفَ الطَّالِبُ إِلَى كَوْكَبَةٍ فِي السَّمَاءِ."
+      ],
+      "usage_note_ar": "النُّجُومُ فِي الْكَوْكَبَةِ لَيْسَتْ مُتَقَارِبَةً فِعْلًا دَائِمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_091",
+      "arabic": "كَوْكَبَةُ الْجَبَّارِ",
+      "meaning_ar": "مِنْطَقَةٌ سَمَاوِيَّةٌ مَعْرُوفَةٌ بِثَلَاثَةِ نُجُومٍ مُتَقَارِبَةٍ ظَاهِرِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حِزَامُ الْجَبَّارِ"
+      ],
+      "examples_ar": [
+        "تَعَرَّفَ الطَّالِبُ عَلَى حِزَامِ الْجَبَّارِ."
+      ],
+      "usage_note_ar": "تَكُونُ بَارِزَةً فِي سَمَاءِ الشِّتَاءِ بِبَعْضِ الْمَنَاطِقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_092",
+      "arabic": "كَوْكَبَةُ الدُّبِّ الْأَكْبَرِ",
+      "meaning_ar": "مِنْطَقَةٌ سَمَاوِيَّةٌ تَضُمُّ نُجُومًا تَشْكِيلِيَّةً مَعْرُوفَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نُجُومُ الدُّبِّ الْأَكْبَرِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ التِّلْمِيذُ عَنْ نُجُومِ الدُّبِّ الْأَكْبَرِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ بَعْضُ نُجُومِهَا عَلَى تَحْدِيدِ الشَّمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_093",
+      "arabic": "نَجْمُ الْقُطْبِ",
+      "meaning_ar": "نَجْمٌ يَقَعُ قُرْبَ اتِّجَاهِ الْقُطْبِ السَّمَاوِيِّ الشَّمَالِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الشَّمَالِ"
+      ],
+      "examples_ar": [
+        "اسْتَدَلَّ الرَّاحِلُ بِنَجْمِ الْقُطْبِ."
+      ],
+      "usage_note_ar": "يَبْدُو ثَابِتًا تَقْرِيبًا لِقُرْبِهِ مِنْ مِحْوَرِ الدَّوَرَانِ الظَّاهِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_094",
+      "arabic": "سِمَاكٌ أَعْزَلُ",
+      "meaning_ar": "نَجْمٌ لَامِعٌ يَقَعُ فِي كَوْكَبَةِ الْعَذْرَاءِ وَيُرْصَدُ مِنَ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَصْدُ السِّمَاكِ"
+      ],
+      "examples_ar": [
+        "أَشَارَ الْمُعَلِّمُ إِلَى السِّمَاكِ الأَعْزَلِ."
+      ],
+      "usage_note_ar": "هُوَ اسْمٌ تَقْلِيدِيٌّ لِنَجْمٍ مَعْرُوفٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_095",
+      "arabic": "الشِّعْرَى الْيَمَانِيَّةُ",
+      "meaning_ar": "نَجْمٌ شَدِيدُ اللَّمَعَانِ فِي سَمَاءِ اللَّيْلِ مِنْ كَوْكَبَةِ الْكَلْبِ الأَكْبَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَجْمُ الشِّعْرَى"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَلَكِيُّ الشِّعْرَى الْيَمَانِيَّةَ."
+      ],
+      "usage_note_ar": "هِيَ مِنْ أَسْطَعِ النُّجُومِ الظَّاهِرَةِ لِلْعَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_096",
+      "arabic": "السُّهَيْلُ",
+      "meaning_ar": "نَجْمٌ لَامِعٌ يَظْهَرُ فِي أَجْزَاءٍ مِنَ السَّمَاءِ الْجَنُوبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طُلُوعُ السُّهَيْلِ"
+      ],
+      "examples_ar": [
+        "تَحَدَّثَ الْجَدُّ عَنْ ظُهُورِ السُّهَيْلِ."
+      ],
+      "usage_note_ar": "عُرِفَ فِي التُّرَاثِ الْعَرَبِيِّ بِمَوَاقِيتِ ظُهُورِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_097",
+      "arabic": "الثُّرَيَّا",
+      "meaning_ar": "عُنْقُودٌ مَفْتُوحٌ مِنَ النُّجُومِ يُرَى فِي جِهَةِ كَوْكَبَةِ الثَّوْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نُجُومُ الثُّرَيَّا"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الْفَلَكِيُّ الثُّرَيَّا بِالْمِنْظَارِ."
+      ],
+      "usage_note_ar": "لَيْسَتْ نَجْمًا وَاحِدًا بَلْ مَجْمُوعَةَ نُجُومٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_098",
+      "arabic": "عُنْقُودٌ نَجْمِيٌّ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ النُّجُومِ تَشَكَّلَتْ قَرِيبًا مِنْ بَعْضِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَنَاقِيدُ نَجْمِيَّةٌ"
+      ],
+      "collocations": [
+        "عُنْقُودٌ مَفْتُوحٌ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمِقْرَابُ عُنْقُودًا نَجْمِيًّا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْعَنَاقِيدُ فِي الْعُمْرِ وَالْكَثَافَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_099",
+      "arabic": "عُنْقُودٌ كُرَوِيٌّ",
+      "meaning_ar": "تَجَمُّعٌ كَثِيفٌ وَقَرِيبٌ مِنَ الْكُرَةِ يَضُمُّ نُجُومًا كَثِيرَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَنَاقِيدُ كُرَوِيَّةٌ"
+      ],
+      "collocations": [
+        "عُنْقُودٌ قَدِيمٌ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْفَلَكِيُّ عُنْقُودًا كُرَوِيًّا."
+      ],
+      "usage_note_ar": "يُوجَدُ كَثِيرٌ مِنْهَا فِي هَالَاتِ الْمَجَرَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_100",
+      "arabic": "عُنْقُودٌ مَفْتُوحٌ",
+      "meaning_ar": "تَجَمُّعٌ نَجْمِيٌّ أَقَلُّ كَثَافَةً مِنَ الْعُنْقُودِ الْكُرَوِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَنَاقِيدُ مَفْتُوحَةٌ"
+      ],
+      "collocations": [
+        "عُنْقُودٌ فَتِيٌّ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ عُنْقُودًا مَفْتُوحًا."
+      ],
+      "usage_note_ar": "تَنْتَشِرُ أَمْثِلَتُهُ فِي أَقْرَاصِ الْمَجَرَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_101",
+      "arabic": "قَدْرٌ ظَاهِرِيٌّ",
+      "meaning_ar": "مِقْيَاسٌ عَدَدِيٌّ يَصِفُ سُطُوعَ جِسْمٍ فَلَكِيٍّ كَمَا يُرَى مِنَ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْقَدْرِ الظَّاهِرِيِّ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْفَلَكِيُّ الْقَدْرَ الظَّاهِرِيَّ لِنَجْمَيْنِ."
+      ],
+      "usage_note_ar": "الأَعْدَادُ الأَصْغَرُ تَدُلُّ عَلَى سُطُوعٍ أَكْبَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_102",
+      "arabic": "قَدْرٌ مُطْلَقٌ",
+      "meaning_ar": "مِقْيَاسٌ يَصِفُ سُطُوعَ جِسْمٍ فَلَكِيٍّ لَوْ وُضِعَ عَلَى مَسَافَةٍ مَرْجِعِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قَدْرُ النَّجْمِ الْمُطْلَقُ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْبَاحِثُ الْقَدْرَ الْمُطْلَقَ."
+      ],
+      "usage_note_ar": "يَسْمَحُ بِمُقَارَنَةِ اللَّمَعَانِ بَيْنَ النُّجُومِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_103",
+      "arabic": "لَمَعَانٌ",
+      "meaning_ar": "مِقْدَارُ الطَّاقَةِ الَّتِي يُصْدِرُهَا جِسْمٌ فِي وَقْتٍ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "لَمَعَانُ النَّجْمِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ لَمَعَانَ النَّجْمِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ السُّطُوعِ الظَّاهِرِ الَّذِي يَعْتَمِدُ عَلَى الْمَسَافَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_104",
+      "arabic": "سُطُوعٌ ظَاهِرِيٌّ",
+      "meaning_ar": "مِقْدَارُ الضَّوْءِ الَّذِي يَصِلُ إِلَى الرَّاصِدِ مِنْ جِسْمٍ فَلَكِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُطُوعُ كَوْكَبٍ"
+      ],
+      "examples_ar": [
+        "يَزْدَادُ سُطُوعُ بَعْضِ الْكَوَاكِبِ عِنْدَ اقْتِرَابِهَا."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى الْمَسَافَةِ وَالضَّوْءِ الصَّادِرِ أَوِ الْمُنْعَكِسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_105",
+      "arabic": "لَوْنُ النَّجْمِ",
+      "meaning_ar": "مَظْهَرُ الضَّوْءِ الْمَرْئِيِّ مِنَ النَّجْمِ وَيَرْتَبِطُ بِدَرَجَةِ حَرَارَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَجْمٌ أَزْرَقُ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ بَيْنَ أَلْوَانِ النُّجُومِ."
+      ],
+      "usage_note_ar": "تَكُونُ النُّجُومُ الأَزْرَقُ أَسْخَنَ عَادَةً مِنَ الْحَمْرَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_106",
+      "arabic": "طَيْفٌ ضَوْئِيٌّ",
+      "meaning_ar": "تَوْزِيعُ الضَّوْءِ عَلَى أَطْوَالِهِ الْمَوْجِيَّةِ أَوْ أَلْوَانِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطْيَافٌ ضَوْئِيَّةٌ"
+      ],
+      "collocations": [
+        "طَيْفُ النَّجْمِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْفَلَكِيُّ طَيْفَ النَّجْمِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِمَعْرِفَةِ تَرْكِيبِ الْغَازَاتِ وَحَرَارَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_107",
+      "arabic": "خَطٌّ طَيْفِيٌّ",
+      "meaning_ar": "مَعْلَمٌ ضَيِّقٌ فِي الطَّيْفِ يَنْتُجُ عَنْ امْتِصَاصِ أَوْ إِصْدَارِ ضَوْءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطُوطٌ طَيْفِيَّةٌ"
+      ],
+      "collocations": [
+        "خَطُّ الْهَيْدْرُوجِينِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْبَاحِثُ خَطًّا طَيْفِيًّا."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ مَوَاضِعُهُ لِلتَّعَرُّفِ إِلَى الْعَنَاصِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_108",
+      "arabic": "انْزِيَاحٌ أَحْمَرُ",
+      "meaning_ar": "زِيَادَةٌ فِي الطُّولِ الْمَوْجِيِّ لِلضَّوْءِ نَحْوَ الطَّرَفِ الأَحْمَرِ مِنَ الطَّيْفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ الِانْزِيَاحِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْعُلَمَاءُ انْزِيَاحَ ضَوْءِ الْمَجَرَّاتِ."
+      ],
+      "usage_note_ar": "قَدْ يَرْتَبِطُ بِالْحَرَكَةِ أَوْ بِتَمَدُّدِ الْفَضَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_109",
+      "arabic": "انْزِيَاحٌ أَزْرَقُ",
+      "meaning_ar": "نُقْصَانٌ فِي الطُّولِ الْمَوْجِيِّ لِلضَّوْءِ نَحْوَ الطَّرَفِ الأَزْرَقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "انْزِيَاحُ الطَّيْفِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ انْزِيَاحًا أَزْرَقَ."
+      ],
+      "usage_note_ar": "قَدْ يَدُلُّ عَلَى اقْتِرَابِ مَصْدَرِ الضَّوْءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_110",
+      "arabic": "تَأْثِيرُ دُوبْلَرَ",
+      "meaning_ar": "تَغَيُّرُ التَّرَدُّدِ الْمَرْصُودِ بِسَبَبِ حَرَكَةِ الْمَصْدَرِ أَوِ الرَّاصِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَأْثِيرُ دُوبْلَرَ فِي الضَّوْءِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ تَأْثِيرَ دُوبْلَرَ."
+      ],
+      "usage_note_ar": "يَظْهَرُ فِي الضَّوْءِ وَالصَّوْتِ وَأَنْوَاعٍ مِنَ الْمَوْجَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_111",
+      "arabic": "سَنَةٌ ضَوْئِيَّةٌ",
+      "meaning_ar": "مَسَافَةٌ يَقْطَعُهَا الضَّوْءُ فِي الْفَرَاغِ خِلَالَ سَنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَنَوَاتٌ ضَوْئِيَّةٌ"
+      ],
+      "collocations": [
+        "مَسَافَةٌ ضَوْئِيَّةٌ"
+      ],
+      "examples_ar": [
+        "يَبْعُدُ النَّجْمُ سَنَوَاتٍ ضَوْئِيَّةً عَنَّا."
+      ],
+      "usage_note_ar": "هِيَ وَحْدَةُ مَسَافَةٍ لَا وَحْدَةُ زَمَنٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_112",
+      "arabic": "وَحْدَةٌ فَلَكِيَّةٌ",
+      "meaning_ar": "مِقْيَاسُ مَسَافَةٍ يُسَاوِي تَقْرِيبًا مُتَوَسِّطَ بُعْدِ الأَرْضِ عَنِ الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَحَدَاتٌ فَلَكِيَّةٌ"
+      ],
+      "collocations": [
+        "مَسَافَةٌ بِالْوَحْدَةِ الْفَلَكِيَّةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ الْمَدَارَ بِالْوَحَدَاتِ الْفَلَكِيَّةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِمَسَافَاتِ الْمَجْمُوعَةِ الشَّمْسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_113",
+      "arabic": "فَرْسَخٌ فَلَكِيٌّ",
+      "meaning_ar": "وَحْدَةُ مَسَافَةٍ تُسْتَعْمَلُ فِي الْفَلَكِ لِقِيَاسِ بُعْدِ النُّجُومِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَرَاسِخُ فَلَكِيَّةٌ"
+      ],
+      "collocations": [
+        "مَسَافَةٌ بِالْفَرْسَخِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ الْمَسَافَةَ بِالْفَرْسَخِ الْفَلَكِيِّ."
+      ],
+      "usage_note_ar": "يُعَادِلُ نَحْوَ ثَلَاثِ سَنَوَاتٍ ضَوْئِيَّةٍ وَثُلْثٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_114",
+      "arabic": "تَزَايُحٌ مَنْظَرِيٌّ",
+      "meaning_ar": "تَغَيُّرُ الْمَوْقِعِ الظَّاهِرِ لِجِسْمٍ عِنْدَ النَّظَرِ إِلَيْهِ مِنْ مَوْضِعَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّزَايُحِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الْفَلَكِيُّ التَّزَايُحَ لِقِيَاسِ بُعْدِ نَجْمٍ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى خَطِّ أَسَاسٍ مَعْلُومٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_115",
+      "arabic": "مَسَافَةٌ فَلَكِيَّةٌ",
+      "meaning_ar": "بُعْدٌ بَيْنَ جِسْمَيْنِ سَمَاوِيَّيْنِ يُقَاسُ بِوَحَدَاتٍ مُنَاسِبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسَافَاتٌ فَلَكِيَّةٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمَسَافَةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْبَاحِثُ الْمَسَافَةَ الْفَلَكِيَّةَ."
+      ],
+      "usage_note_ar": "تُخْتَارُ وَحْدَةُ الْقِيَاسِ بِحَسَبِ مِقْدَارِ الْبُعْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_116",
+      "arabic": "مِقْرَابٌ",
+      "meaning_ar": "جِهَازٌ يَجْمَعُ الضَّوْءَ أَوْ إِشَارَاتٍ مِنْ أَجْرَامٍ بَعِيدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَارِيبُ"
+      ],
+      "collocations": [
+        "مِقْرَابٌ فَلَكِيٌّ"
+      ],
+      "examples_ar": [
+        "نَظَرَ الطَّالِبُ إِلَى الْقَمَرِ بِالْمِقْرَابِ."
+      ],
+      "usage_note_ar": "يُسَمَّى أَيْضًا تِلِسْكُوبًا فِي الِاسْتِعْمَالِ الْحَدِيثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_117",
+      "arabic": "مِقْرَابٌ بَصَرِيٌّ",
+      "meaning_ar": "جِهَازٌ يَجْمَعُ الضَّوْءَ الْمَرْئِيَّ لِرَصْدِ الْأَجْرَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَارِيبُ بَصَرِيَّةٌ"
+      ],
+      "collocations": [
+        "عَدَسَةُ الْمِقْرَابِ"
+      ],
+      "examples_ar": [
+        "وَجَّهَ الْفَلَكِيُّ الْمِقْرَابَ إِلَى الْقَمَرِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى عَدَسَاتٍ أَوْ مَرَايَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_118",
+      "arabic": "مِقْرَابٌ رَادِيَوِيٌّ",
+      "meaning_ar": "جِهَازٌ يَسْتَقْبِلُ مَوْجَاتٍ رَادِيَوِيَّةً قَادِمَةً مِنَ الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَارِيبُ رَادِيَوِيَّةٌ"
+      ],
+      "collocations": [
+        "هَوَائِيُّ الْمِقْرَابِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَرِيقُ مَصْدَرًا رَادِيَوِيًّا."
+      ],
+      "usage_note_ar": "يَكْشِفُ أَجْرَامًا لَا تُرَى بِالضَّوْءِ الْمَرْئِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_119",
+      "arabic": "مِقْرَابٌ فَضَائِيٌّ",
+      "meaning_ar": "مِقْرَابٌ يَعْمَلُ مِنْ خَارِجِ غِلَافِ الأَرْضِ الْجَوِّيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَارِيبُ فَضَائِيَّةٌ"
+      ],
+      "collocations": [
+        "صُوَرُ الْمِقْرَابِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمِقْرَابُ الْفَضَائِيُّ صُوَرًا بَعِيدَةً."
+      ],
+      "usage_note_ar": "يَتَجَنَّبُ بَعْضَ تَأْثِيرَاتِ الْغِلَافِ الْجَوِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_120",
+      "arabic": "مِنْظَارٌ فَلَكِيٌّ",
+      "meaning_ar": "أَدَاةٌ بَصَرِيَّةٌ تُكَبِّرُ مَشْهَدَ الأَجْرَامِ السَّمَاوِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَنَاظِيرُ فَلَكِيَّةٌ"
+      ],
+      "collocations": [
+        "مِنْظَارُ النُّجُومِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الطَّالِبُ الْمِنْظَارَ لِرُؤْيَةِ الْقَمَرِ."
+      ],
+      "usage_note_ar": "يَتَنَوَّعُ بَيْنَ مِقْرَابٍ وَمِنْظَارٍ ثُنَائِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_121",
+      "arabic": "عَدَسَةٌ شَيْئِيَّةٌ",
+      "meaning_ar": "الْعَدَسَةُ الْأَمَامِيَّةُ الَّتِي تَجْمَعُ الضَّوْءَ فِي بَعْضِ الْمَقَارِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَدَسَاتٌ شَيْئِيَّةٌ"
+      ],
+      "collocations": [
+        "عَدَسَةُ الْمِقْرَابِ"
+      ],
+      "examples_ar": [
+        "نَظَّفَ الْفَنِّيُّ الْعَدَسَةَ الشَّيْئِيَّةَ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي قُدْرَةِ الْجِهَازِ عَلَى جَمْعِ الضَّوْءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_122",
+      "arabic": "عَدَسَةٌ عَيْنِيَّةٌ",
+      "meaning_ar": "عَدَسَةٌ يَنْظُرُ مِنْ خِلَالِهَا الرَّاصِدُ فِي الْمِقْرَابِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَدَسَاتٌ عَيْنِيَّةٌ"
+      ],
+      "collocations": [
+        "تَبْدِيلُ الْعَدَسَةِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الطَّالِبُ الْعَدَسَةَ الْعَيْنِيَّةَ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي قُوَّةِ التَّكْبِيرِ وَمَجَالِ الرُّؤْيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_123",
+      "arabic": "مِرْآةٌ رَئِيسِيَّةٌ",
+      "meaning_ar": "مِرْآةٌ تَجْمَعُ الضَّوْءَ فِي الْمِقْرَابِ الْعَاكِسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَايَا رَئِيسِيَّةٌ"
+      ],
+      "collocations": [
+        "مِرْآةُ الْمِقْرَابِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْفَنِّيُّ سَطْحَ الْمِرْآةِ الرَّئِيسِيَّةِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ دِقَّةً عَالِيَةً فِي الشَّكْلِ وَالضَّبْطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_124",
+      "arabic": "بُعْدٌ بُؤْرِيٌّ",
+      "meaning_ar": "مَسَافَةٌ بَصَرِيَّةٌ تَرْتَبِطُ بِتَجْمِيعِ الأَشِعَّةِ فِي بُؤْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَبْعَادٌ بُؤْرِيَّةٌ"
+      ],
+      "collocations": [
+        "الْبُعْدُ الْبُؤْرِيُّ لِلْعَدَسَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْفَنِّيُّ الأَبْعَادَ الْبُؤْرِيَّةَ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي التَّكْبِيرِ وَمَجَالِ الرُّؤْيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_125",
+      "arabic": "فَتْحَةٌ بَصَرِيَّةٌ",
+      "meaning_ar": "حَجْمُ الْمَدْخَلِ الَّذِي يَمُرُّ مِنْهُ الضَّوْءُ إِلَى جِهَازٍ بَصَرِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَحَاتٌ بَصَرِيَّةٌ"
+      ],
+      "collocations": [
+        "قُطْرُ الْفَتْحَةِ"
+      ],
+      "examples_ar": [
+        "تَسْمَحُ فَتْحَةٌ كَبِيرَةٌ بِجَمْعِ ضَوْءٍ أَكْثَرَ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِوَصْفِ قُدْرَةِ جَمْعِ الضَّوْءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_126",
+      "arabic": "تَكْبِيرٌ بَصَرِيٌّ",
+      "meaning_ar": "زِيَادَةُ الْحَجْمِ الظَّاهِرِ لِلشَّيْءِ عِنْدَ النَّظَرِ بِعَدَسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قُوَّةُ التَّكْبِيرِ"
+      ],
+      "examples_ar": [
+        "جَرَّبَ الطَّالِبُ تَكْبِيرًا أَقَلَّ لِرُؤْيَةِ الْقَمَرِ."
+      ],
+      "usage_note_ar": "التَّكْبِيرُ الْعَالِي لَا يَعْنِي دَائِمًا صُورَةً أَوْضَحَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_127",
+      "arabic": "دِقَّةٌ زَاوِيَّةٌ",
+      "meaning_ar": "قُدْرَةُ جِهَازٍ عَلَى التَّمْيِيزِ بَيْنَ جِسْمَيْنِ مُتَقَارِبَيْنِ فِي السَّمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دِقَّةُ الْمِقْرَابِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْفَنِّيُّ الدِّقَّةَ الزَّاوِيَّةَ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْفَتْحَةِ وَالْغِلَافِ الْجَوِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_128",
+      "arabic": "مَجَالُ رُؤْيَةٍ",
+      "meaning_ar": "الْمَسَاحَةُ الزَّاوِيَّةُ الَّتِي يُمْكِنُ مُشَاهَدَتُهَا دَاخِلَ الْجِهَازِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَجَالَاتُ رُؤْيَةٍ"
+      ],
+      "collocations": [
+        "مَجَالٌ وَاسِعٌ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْفَلَكِيُّ عَدَسَةً بِمَجَالِ رُؤْيَةٍ وَاسِعٍ."
+      ],
+      "usage_note_ar": "يَضِيقُ غَالِبًا عِنْدَ زِيَادَةِ التَّكْبِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_129",
+      "arabic": "مَرْصَدٌ",
+      "meaning_ar": "مَكَانٌ أَوْ مُنْشَأَةٌ مُخَصَّصَةٌ لِرَصْدِ الْأَجْرَامِ وَالظَّوَاهِرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاصِدُ"
+      ],
+      "collocations": [
+        "مَرْصَدٌ فَلَكِيٌّ"
+      ],
+      "examples_ar": [
+        "زَارَ الطُّلَّابُ الْمَرْصَدَ لَيْلًا."
+      ],
+      "usage_note_ar": "تُخْتَارُ بَعْضُ مَوَاقِعِهِ بَعِيدًا عَنِ الإِضَاءَةِ الشَّدِيدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_130",
+      "arabic": "رَصْدٌ فَلَكِيٌّ",
+      "meaning_ar": "مُتَابَعَةُ الْأَجْرَامِ وَتَسْجِيلُ مَوَاقِعِهَا أَوْ ضَوْئِهَا بِأَدَوَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جَلْسَةُ رَصْدٍ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْفَرِيقُ الرَّصْدَ بَعْدَ الْغُرُوبِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ بَصَرِيًّا أَوْ رَادِيَوِيًّا أَوْ فَضَائِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_131",
+      "arabic": "خَرِيطَةُ السَّمَاءِ",
+      "meaning_ar": "رَسْمٌ يُبَيِّنُ مَوَاضِعَ النُّجُومِ وَالأَجْرَامِ فِي وَقْتٍ أَوْ مَوْقِعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَرَائِطُ السَّمَاءِ"
+      ],
+      "collocations": [
+        "خَرِيطَةٌ لَيْلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الطَّالِبُ خَرِيطَةَ السَّمَاءِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ الْمَوَاقِعُ الظَّاهِرَةُ بِحَسَبِ الْوَقْتِ وَالْمَكَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_132",
+      "arabic": "كُرَةٌ سَمَاوِيَّةٌ",
+      "meaning_ar": "نَمُوذَجٌ تَخَيُّلِيٌّ تُسْقَطُ عَلَيْهِ مَوَاقِعُ الْأَجْرَامِ فِي السَّمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُرَاتٌ سَمَاوِيَّةٌ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الْكُرَةِ السَّمَاوِيَّةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْمُعَلِّمُ كُرَةً سَمَاوِيَّةً."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِوَصْفِ الِاتِّجَاهَاتِ وَالإِحْدَاثِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_133",
+      "arabic": "قُطْبٌ سَمَاوِيٌّ",
+      "meaning_ar": "نُقْطَةٌ تَقْطَعُ فِيهَا جِهَةُ مِحْوَرِ الأَرْضِ الْمُمْتَدِّ الْكُرَةَ السَّمَاوِيَّةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَقْطَابٌ سَمَاوِيَّةٌ"
+      ],
+      "collocations": [
+        "الْقُطْبُ الشَّمَالِيُّ"
+      ],
+      "examples_ar": [
+        "يَقَعُ نَجْمُ الْقُطْبِ قُرْبَ الْقُطْبِ السَّمَاوِيِّ."
+      ],
+      "usage_note_ar": "لِلْكُرَةِ السَّمَاوِيَّةِ قُطْبَانِ ظَاهِرِيَّانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_134",
+      "arabic": "خَطُّ الِاسْتِوَاءِ السَّمَاوِيُّ",
+      "meaning_ar": "دَائِرَةٌ تَخَيُّلِيَّةٌ تُقَابِلُ امْتِدَادَ مُسْتَوَى خَطِّ اسْتِوَاءِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ خَطِّ الِاسْتِوَاءِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْفَلَكِيُّ خَطَّ الِاسْتِوَاءِ السَّمَاوِيَّ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَرْجِعًا لِلْإِحْدَاثِيَّاتِ السَّمَاوِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_135",
+      "arabic": "مَطْلَعٌ مُسْتَقِيمٌ",
+      "meaning_ar": "إِحْدَاثِيٌّ فَلَكِيٌّ يُشْبِهُ خَطَّ الطُّولِ عَلَى الْكُرَةِ السَّمَاوِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَطْلَعُ النَّجْمِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَلَكِيُّ الْمَطْلَعَ الْمُسْتَقِيمَ لِلنَّجْمِ."
+      ],
+      "usage_note_ar": "يُقَاسُ غَالِبًا بِالسَّاعَاتِ عَلَى الْكُرَةِ السَّمَاوِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_136",
+      "arabic": "مَيْلٌ سَمَاوِيٌّ",
+      "meaning_ar": "إِحْدَاثِيٌّ فَلَكِيٌّ يُشْبِهُ خَطَّ الْعَرْضِ عَلَى الْكُرَةِ السَّمَاوِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَيْلُ النَّجْمِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْفَلَكِيُّ الْمَيْلَ السَّمَاوِيَّ."
+      ],
+      "usage_note_ar": "يُقَاسُ بِالدَّرَجَاتِ شَمَالَ الِاسْتِوَاءِ السَّمَاوِيِّ أَوْ جَنُوبَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_137",
+      "arabic": "ارْتِفَاعٌ زَاوِيٌّ",
+      "meaning_ar": "الزَّاوِيَةُ بَيْنَ الْجِسْمِ الْمَرْصُودِ وَالْأُفُقِ الْمَحَلِّيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "ارْتِفَاعُ النَّجْمِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الرَّاصِدُ ارْتِفَاعَ الْقَمَرِ فَوْقَ الأُفُقِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الِارْتِفَاعِ عَنِ سَطْحِ الْبَحْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_138",
+      "arabic": "سَمْتٌ",
+      "meaning_ar": "زَاوِيَةٌ أُفُقِيَّةٌ تُحَدِّدُ اتِّجَاهَ جِسْمٍ نِسْبَةً إِلَى اتِّجَاهٍ مَرْجِعِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سُمُوتٌ"
+      ],
+      "collocations": [
+        "سَمْتُ النَّجْمِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ سَمْتَ الشَّمْسِ بِالْبُوصَلَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَعَ الِارْتِفَاعِ لِتَحْدِيدِ الْمَوْقِعِ الظَّاهِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_139",
+      "arabic": "أُفُقٌ",
+      "meaning_ar": "الْحَدُّ الظَّاهِرُ الَّذِي تَلْتَقِي عِنْدَهُ السَّمَاءُ بِالأَرْضِ أَوِ الْبَحْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ آفَاقٌ"
+      ],
+      "collocations": [
+        "خَطُّ الأُفُقِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ الْقَمَرُ قُرْبَ الأُفُقِ."
+      ],
+      "usage_note_ar": "يَرِدُ مَجَازًا لِمَجَالِ الْمَعْرِفَةِ أَوِ التَّوَقُّعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_140",
+      "arabic": "ذُرْوَةٌ سَمَاوِيَّةٌ",
+      "meaning_ar": "النُّقْطَةُ الَّتِي تَقَعُ عَمُودِيًّا فَوْقَ رَأْسِ الرَّاصِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نُقْطَةُ السَّمْتِ"
+      ],
+      "examples_ar": [
+        "رَفَعَ الطَّالِبُ رَأْسَهُ نَحْوَ الذُّرْوَةِ السَّمَاوِيَّةِ."
+      ],
+      "usage_note_ar": "تُسَمَّى أَيْضًا سَمْتَ الرَّأْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_141",
+      "arabic": "سَمْتُ الرَّأْسِ",
+      "meaning_ar": "النُّقْطَةُ الْمُتَخَيَّلَةُ فِي السَّمَاءِ الْوَاقِعَةُ مُبَاشَرَةً فَوْقَ الرَّاصِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْجِهَةُ الْعُلْيَا"
+      ],
+      "examples_ar": [
+        "يَقَعُ سَمْتُ الرَّأْسِ أَعْلَى الرَّاصِدِ تَمَامًا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ مَوْقِعُهُ بِاخْتِلَافِ مَكَانِ الرَّاصِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_142",
+      "arabic": "طُلُوعٌ",
+      "meaning_ar": "ظُهُورُ جِسْمٍ فَلَكِيٍّ فَوْقَ الأُفُقِ بِسَبَبِ الْحَرَكَةِ الظَّاهِرِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طُلُوعُ الشَّمْسِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الطَّالِبُ طُلُوعَ الْقَمَرِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِظُهُورِ الشَّيْءِ وَبِدَايَتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_143",
+      "arabic": "غُرُوبٌ",
+      "meaning_ar": "اخْتِفَاءُ جِسْمٍ فَلَكِيٍّ تَحْتَ الأُفُقِ كَمَا يَرَاهُ الرَّاصِدُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "غُرُوبُ الشَّمْسِ"
+      ],
+      "examples_ar": [
+        "جَلَسَتِ الْأُسْرَةُ تَنْتَظِرُ الْغُرُوبَ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ وَقْتُهُ بِحَسَبِ الْيَوْمِ وَالْمَكَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_144",
+      "arabic": "شُرُوقٌ",
+      "meaning_ar": "بِدَايَةُ ظُهُورِ قُرْصِ الشَّمْسِ فَوْقَ الأُفُقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الشُّرُوقِ"
+      ],
+      "examples_ar": [
+        "اسْتَيْقَظَ الرَّجُلُ قَبْلَ الشُّرُوقِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِمَوْقِعِ الرَّاصِدِ وَانْكِسَارِ الضَّوْءِ فِي الْجَوِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_145",
+      "arabic": "شَفَقٌ",
+      "meaning_ar": "ضَوْءٌ يَبْقَى فِي السَّمَاءِ بَعْدَ الْغُرُوبِ أَوْ قَبْلَ الشُّرُوقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "شَفَقُ الْمَسَاءِ"
+      ],
+      "examples_ar": [
+        "رَأَى الْمُسَافِرُ الشَّفَقَ فَوْقَ الأُفُقِ."
+      ],
+      "usage_note_ar": "يَنْتُجُ عَنْ تَشَتُّتِ ضَوْءِ الشَّمْسِ فِي الْجَوِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_146",
+      "arabic": "فَجْرٌ فَلَكِيٌّ",
+      "meaning_ar": "بِدَايَةُ مَرْحَلَةٍ مِنَ الشَّفَقِ الصَّبَاحِيِّ وَالشَّمْسُ تَحْتَ الأُفُقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الشَّفَقِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْفَلَكِيُّ تَغَيُّرَ ضَوْءِ السَّمَاءِ."
+      ],
+      "usage_note_ar": "لَهُ تَعْرِيفَاتٌ زَاوِيَّةٌ فِي التَّقَاوِيمِ الْفَلَكِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_147",
+      "arabic": "شَفَقٌ مَدَنِيٌّ",
+      "meaning_ar": "مَرْحَلَةٌ مِنَ الشَّفَقِ تَكُونُ الشَّمْسُ فِيهَا قَرِيبَةً مِنَ الأُفُقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "ضَوْءُ الشَّفَقِ الْمَدَنِيِّ"
+      ],
+      "examples_ar": [
+        "بَقِيَتِ السَّمَاءُ مُضِيئَةً خِلَالَ الشَّفَقِ الْمَدَنِيِّ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي مَوَاعِيدِ الْإِضَاءَةِ الطَّبِيعِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_148",
+      "arabic": "شَفَقٌ بَحْرِيٌّ",
+      "meaning_ar": "مَرْحَلَةٌ مِنَ الشَّفَقِ تَكُونُ الشَّمْسُ فِيهَا أَبْعَدَ عَنِ الأُفُقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نِهَايَةُ الشَّفَقِ الْبَحْرِيِّ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْمُسَافِرُ ظُهُورَ النُّجُومِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي الْمِلَاحَةِ وَالرَّصْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_149",
+      "arabic": "شَفَقٌ فَلَكِيٌّ",
+      "meaning_ar": "مَرْحَلَةٌ أَخِيرَةٌ مِنَ الشَّفَقِ قَبْلَ ظُلْمَةِ اللَّيْلِ الْفَلَكِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نِهَايَةُ الشَّفَقِ الْفَلَكِيِّ"
+      ],
+      "examples_ar": [
+        "انْتَظَرَ الرَّاصِدُ نِهَايَةَ الشَّفَقِ لِلْتَّصْوِيرِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِمَوْقِعِ الشَّمْسِ تَحْتَ الأُفُقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_150",
+      "arabic": "اعْتِدَالٌ رَبِيعِيٌّ",
+      "meaning_ar": "مَوْعِدٌ تَعْبُرُ فِيهِ الشَّمْسُ الظَّاهِرِيَّةُ خَطَّ الِاسْتِوَاءِ السَّمَاوِيَّ نَحْوَ الشَّمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَوْعِدُ الِاعْتِدَالِ الرَّبِيعِيِّ"
+      ],
+      "examples_ar": [
+        "يُبْدَأُ الرَّبِيعُ الْفَلَكِيُّ عِنْدَ الِاعْتِدَالِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ تَقْسِيمُ الْفُصُولِ بَيْنَ نِصْفَيِ الأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_151",
+      "arabic": "اعْتِدَالٌ خَرِيفِيٌّ",
+      "meaning_ar": "مَوْعِدٌ تَعْبُرُ فِيهِ الشَّمْسُ الظَّاهِرِيَّةُ خَطَّ الِاسْتِوَاءِ السَّمَاوِيَّ نَحْوَ الْجَنُوبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الْخَرِيفِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ مَوْعِدَ الِاعْتِدَالِ الْخَرِيفِيِّ."
+      ],
+      "usage_note_ar": "يَتَقَارَبُ طُولُ اللَّيْلِ وَالنَّهَارِ فِي هَذِهِ الْفَتْرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_152",
+      "arabic": "انْقِلَابٌ صَيْفِيٌّ",
+      "meaning_ar": "مَوْعِدٌ تَبْلُغُ فِيهِ الشَّمْسُ الظَّاهِرِيَّةُ أَقْصَى مَيْلٍ شَمَالِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الانْقِلَابُ الصَّيْفِيُّ"
+      ],
+      "examples_ar": [
+        "يَطُولُ النَّهَارُ فِي الشَّمَالِ عِنْدَ الِانْقِلَابِ الصَّيْفِيِّ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ الْفَصْلُ الْمُقَابِلُ فِي نِصْفِ الْأَرْضِ الْجَنُوبِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_153",
+      "arabic": "انْقِلَابٌ شِتَوِيٌّ",
+      "meaning_ar": "مَوْعِدٌ تَبْلُغُ فِيهِ الشَّمْسُ الظَّاهِرِيَّةُ أَقْصَى مَيْلٍ جَنُوبِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الانْقِلَابُ الشِّتَوِيُّ"
+      ],
+      "examples_ar": [
+        "يَقْصُرُ النَّهَارُ فِي الشَّمَالِ عِنْدَ الِانْقِلَابِ الشِّتَوِيِّ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِمَيْلِ مِحْوَرِ الأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_154",
+      "arabic": "فُصُولُ السَّنَةِ",
+      "meaning_ar": "أَجْزَاءُ السَّنَةِ الَّتِي تَخْتَلِفُ فِيهَا الْحَرَارَةُ وَطُولُ النَّهَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَعَاقُبُ الْفُصُولِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ سَبَبَ تَعَاقُبِ الْفُصُولِ."
+      ],
+      "usage_note_ar": "السَّبَبُ الأَسَاسِيُّ هُوَ مَيْلُ مِحْوَرِ الأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_155",
+      "arabic": "يَوْمٌ نَجْمِيٌّ",
+      "meaning_ar": "مُدَّةُ دَوَرَانِ الأَرْضِ بِالنِّسْبَةِ إِلَى النُّجُومِ الْبَعِيدَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَيَّامٌ نَجْمِيَّةٌ"
+      ],
+      "collocations": [
+        "طُولُ الْيَوْمِ النَّجْمِيِّ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْفَلَكِيُّ الْيَوْمَ النَّجْمِيَّ بِالشَّمْسِيِّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ قَلِيلًا عَنِ الْيَوْمِ الشَّمْسِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_156",
+      "arabic": "يَوْمٌ شَمْسِيٌّ",
+      "meaning_ar": "الزَّمَنُ بَيْنَ مَوْضِعَيْنِ مُتَتَالِيَيْنِ مُتَمَاثِلَيْنِ لِلشَّمْسِ فِي السَّمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَيَّامٌ شَمْسِيَّةٌ"
+      ],
+      "collocations": [
+        "مُتَوَسِّطُ الْيَوْمِ الشَّمْسِيِّ"
+      ],
+      "examples_ar": [
+        "يُقَسَّمُ الْيَوْمُ الْمُعْتَادُ إِلَى أَرْبَعٍ وَعِشْرِينَ سَاعَةً."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ قِيمَةٌ مُتَوَسِّطَةٌ فِي التَّوْقِيتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_157",
+      "arabic": "شَهْرٌ اقْتِرَانِيٌّ",
+      "meaning_ar": "مُدَّةٌ بَيْنَ طَوْرَيْنِ مُتَتَالِيَيْنِ مِثْلَ الْمِحَاقِ وَالْمِحَاقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْهُرٌ اقْتِرَانِيَّةٌ"
+      ],
+      "collocations": [
+        "دَوْرَةُ الأَطْوَارِ"
+      ],
+      "examples_ar": [
+        "يَسْتَغْرِقُ الشَّهْرُ الِاقْتِرَانِيُّ نَحْوَ تِسْعَةٍ وَعِشْرِينَ يَوْمًا وَنِصْفٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الشَّهْرِ النَّجْمِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_158",
+      "arabic": "شَهْرٌ نَجْمِيٌّ",
+      "meaning_ar": "الْمُدَّةُ الَّتِي يَسْتَغْرِقُهَا الْقَمَرُ لِلدَّوْرَةِ نِسْبَةً إِلَى النُّجُومِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْهُرٌ نَجْمِيَّةٌ"
+      ],
+      "collocations": [
+        "دَوْرَةُ الْقَمَرِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ الشَّهْرَ النَّجْمِيَّ بِالِاقْتِرَانِيِّ."
+      ],
+      "usage_note_ar": "هُوَ أَقْصَرُ مِنَ الشَّهْرِ الِاقْتِرَانِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_159",
+      "arabic": "تَقْوِيمٌ قَمَرِيٌّ",
+      "meaning_ar": "نِظَامُ تَارِيخٍ يَعْتَمِدُ فِي أَشْهُرِهِ عَلَى دَوْرَةِ الْقَمَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَاوِيمُ قَمَرِيَّةٌ"
+      ],
+      "collocations": [
+        "شَهْرٌ قَمَرِيٌّ"
+      ],
+      "examples_ar": [
+        "يَتَّبِعُ التَّقْوِيمُ الْهِجْرِيُّ الشُّهُورَ الْقَمَرِيَّةَ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ مَوَاعِيدُ الشُّهُورِ بِالنِّسْبَةِ لِلسَّنَةِ الشَّمْسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_160",
+      "arabic": "تَقْوِيمٌ شَمْسِيٌّ",
+      "meaning_ar": "نِظَامُ تَارِيخٍ يَرْبِطُ السَّنَةَ بِدَوْرَةِ الأَرْضِ حَوْلَ الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَاوِيمُ شَمْسِيَّةٌ"
+      ],
+      "collocations": [
+        "سَنَةٌ شَمْسِيَّةٌ"
+      ],
+      "examples_ar": [
+        "يَعْتَمِدُ التَّقْوِيمُ الْمِيلَادِيُّ عَلَى السَّنَةِ الشَّمْسِيَّةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَنْظِيمِ الْفُصُولِ وَالسَّنَوَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_161",
+      "arabic": "كُوَيْكِبٌ",
+      "meaning_ar": "جِسْمٌ صَخْرِيٌّ أَوْ مَعْدِنِيٌّ صَغِيرٌ يَدُورُ حَوْلَ الشَّمْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُوَيْكِبَاتٌ"
+      ],
+      "collocations": [
+        "مَدَارُ الْكُوَيْكِبِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْمِقْرَابُ كُوَيْكِبًا قَرِيبًا."
+      ],
+      "usage_note_ar": "تُوجَدُ كَوَيْكِبَاتٌ كَثِيرَةٌ فِي حِزَامٍ بَيْنَ الْمِرِّيخِ وَالْمُشْتَرِي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_162",
+      "arabic": "حِزَامُ الْكُوَيْكِبَاتِ",
+      "meaning_ar": "مِنْطَقَةٌ فِي الْمَجْمُوعَةِ الشَّمْسِيَّةِ تَدُورُ فِيهَا كُوَيْكِبَاتٌ كَثِيرَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حِزَامُ الْكَوَاكِبِ الصَّغِيرَةِ"
+      ],
+      "examples_ar": [
+        "تَقَعُ الْمِنْطَقَةُ بَيْنَ الْمِرِّيخِ وَالْمُشْتَرِي."
+      ],
+      "usage_note_ar": "لَا تُشَكِّلُ أَجْرَامُهُ جِدَارًا مُتَّصِلًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_163",
+      "arabic": "مُذَنَّبٌ",
+      "meaning_ar": "جِسْمٌ جَلِيدِيٌّ يَدُورُ حَوْلَ الشَّمْسِ وَقَدْ يُظْهِرُ ذَيْلًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُذَنَّبَاتٌ"
+      ],
+      "collocations": [
+        "ذَيْلُ الْمُذَنَّبِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الطَّالِبُ مُذَنَّبًا فِي السَّمَاءِ."
+      ],
+      "usage_note_ar": "يَنْشَأُ الذَّيْلُ عِنْدَ اقْتِرَابِهِ مِنَ الشَّمْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_164",
+      "arabic": "نَوَاةُ الْمُذَنَّبِ",
+      "meaning_ar": "الْجِسْمُ الصُّلْبُ الْجَلِيدِيُّ الَّذِي يَقَعُ فِي مَرْكَزِ الْمُذَنَّبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَوًى مُذَنَّبِيَّةٌ"
+      ],
+      "collocations": [
+        "حَجْمُ النَّوَاةِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمِسْبَارُ نَوَاةَ الْمُذَنَّبِ."
+      ],
+      "usage_note_ar": "تَحْتَوِي عَلَى جَلِيدٍ وَغُبَارٍ وَمَوَادَّ صَخْرِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_165",
+      "arabic": "ذَيْلُ مُذَنَّبٍ",
+      "meaning_ar": "امْتِدَادٌ مِنْ غَازٍ أَوْ غُبَارٍ يَظْهَرُ خَلْفَ الْمُذَنَّبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ذُيُولُ مُذَنَّبَاتٍ"
+      ],
+      "collocations": [
+        "ذَيْلٌ غُبَارِيٌّ"
+      ],
+      "examples_ar": [
+        "بَدَا ذَيْلُ الْمُذَنَّبِ طَوِيلًا فِي الصُّورَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَّجِهُ بَعِيدًا عَنِ الشَّمْسِ بِتَأْثِيرِ الرِّيَاحِ الشَّمْسِيَّةِ وَالضَّوْءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_166",
+      "arabic": "حِزَامُ كَايْبَرَ",
+      "meaning_ar": "مِنْطَقَةٌ بَعِيدَةٌ وَرَاءَ نَبْتُونَ تَحْتَوِي عَلَى أَجْرَامٍ جَلِيدِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "أَجْرَامُ حِزَامِ كَايْبَرَ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْعُلَمَاءُ أَجْرَامَ حِزَامِ كَايْبَرَ."
+      ],
+      "usage_note_ar": "يُعَدُّ مَصْدَرًا لِبَعْضِ الْمُذَنَّبَاتِ قَصِيرَةِ الدَّوْرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_167",
+      "arabic": "سَحَابَةُ أُورْتَ",
+      "meaning_ar": "مَنْطِقَةٌ مُفْتَرَضَةٌ بَعِيدَةٌ جِدًّا تَحْوِي أَجْرَامًا جَلِيدِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَمُوذَجُ سَحَابَةِ أُورْتَ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الْفَلَكِيُّ مَصْدَرَ الْمُذَنَّبَاتِ الطَّوِيلَةِ الدَّوْرَةِ."
+      ],
+      "usage_note_ar": "وُجُودُهَا يُسْتَدَلُّ عَلَيْهِ مِنْ حَرَكَةِ الْمُذَنَّبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_168",
+      "arabic": "شِهَابٌ",
+      "meaning_ar": "خَطٌّ مُضِيءٌ يَظْهَرُ عِنْدَ دُخُولِ جُسَيْمٍ فَضَائِيٍّ غِلَافَ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شُهُبٌ"
+      ],
+      "collocations": [
+        "رُؤْيَةُ شِهَابٍ"
+      ],
+      "examples_ar": [
+        "رَأَى الطِّفْلُ شِهَابًا فِي اللَّيْلِ."
+      ],
+      "usage_note_ar": "يَنْتُجُ الضَّوْءُ عَنْ تَسْخِينِ الْجَوِّ وَالْجُسَيْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_169",
+      "arabic": "نَيِزَكٌ",
+      "meaning_ar": "جُزْءٌ مِنْ جِسْمٍ فَضَائِيٍّ يَصِلُ إِلَى سَطْحِ كَوْكَبٍ أَوْ قَمَرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَيَازِكُ"
+      ],
+      "collocations": [
+        "حَجَرٌ نَيِزَكِيٌّ"
+      ],
+      "examples_ar": [
+        "عَثَرَ الْبَاحِثُ عَلَى نَيِزَكٍ فِي الصَّحْرَاءِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الشِّهَابِ الَّذِي نَرَى ضَوْءَهُ فِي الْجَوِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_170",
+      "arabic": "جُسَيْمٌ نَيِزَكِيٌّ",
+      "meaning_ar": "جِسْمٌ صَغِيرٌ مِنَ الصُّخُورِ أَوِ الْمَعَادِنِ يَسْبَحُ فِي الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جُسَيْمَاتٌ نَيِزَكِيَّةٌ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْجُسَيْمِ"
+      ],
+      "examples_ar": [
+        "دَخَلَ جُسَيْمٌ نَيِزَكِيٌّ الْغِلَافَ الْجَوِّيَّ."
+      ],
+      "usage_note_ar": "قَدْ يُنْتِجُ شِهَابًا عِنْدَ دُخُولِهِ الْجَوَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_171",
+      "arabic": "زَخَّةُ شُهُبٍ",
+      "meaning_ar": "حَدَثٌ يَظْهَرُ فِيهِ عَدَدٌ مِنَ الشُّهُبِ فِي فَتْرَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ زَخَّاتُ شُهُبٍ"
+      ],
+      "collocations": [
+        "لَيْلَةُ الشُّهُبِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْفَرِيقُ زَخَّةَ شُهُبٍ."
+      ],
+      "usage_note_ar": "تَتَكَرَّرُ بَعْضُ الزَّخَّاتِ سَنَوِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_172",
+      "arabic": "فُوَّهَةٌ صَدْمِيَّةٌ",
+      "meaning_ar": "حُفْرَةٌ تَنْشَأُ عِنْدَ ارْتِطَامِ جِسْمٍ سَرِيعٍ بِسَطْحِ كَوْكَبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فُوَّهَاتٌ صَدْمِيَّةٌ"
+      ],
+      "collocations": [
+        "فُوَّهَةُ الْقَمَرِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمِسْبَارُ فُوَّهَةً صَدْمِيَّةً."
+      ],
+      "usage_note_ar": "تَبْقَى آثَارُهَا وَاضِحَةً عَلَى الأَجْرَامِ قَلِيلَةِ التَّعْرِيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_173",
+      "arabic": "نَيِزَكٌ حَدِيدِيٌّ",
+      "meaning_ar": "نَيِزَكٌ يَتَكَوَّنُ أَسَاسًا مِنْ مَعَادِنَ حَدِيدِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَيَازِكُ حَدِيدِيَّةٌ"
+      ],
+      "collocations": [
+        "عَيِّنَةُ نَيِزَكٍ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْبَاحِثُ نَيِزَكًا حَدِيدِيًّا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ تَرْكِيبُهُ عَنِ النَّيَازِكِ الصَّخْرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_174",
+      "arabic": "نَيِزَكٌ صَخْرِيٌّ",
+      "meaning_ar": "نَيِزَكٌ يَحْتَوِي أَسَاسًا عَلَى مَعَادِنَ سِيلِيكَاتِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَيَازِكُ صَخْرِيَّةٌ"
+      ],
+      "collocations": [
+        "قِطْعَةٌ نَيِزَكِيَّةٌ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْعَالِمُ نَيِزَكًا صَخْرِيًّا."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَحْلِيلُهُ لِفَهْمِ تَكَوُّنِ الأَجْرَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_175",
+      "arabic": "مِسْبَارٌ فَضَائِيٌّ",
+      "meaning_ar": "مَرْكَبَةٌ غَيْرُ مَأْهُولَةٍ تُرْسَلُ لِجَمْعِ الْمَعْلُومَاتِ عَنْ الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسَابِيرُ فَضَائِيَّةٌ"
+      ],
+      "collocations": [
+        "مِسْبَارُ الْمِرِّيخِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمِسْبَارُ صُوَرًا مِنَ الْكَوْكَبِ."
+      ],
+      "usage_note_ar": "يَحْمِلُ أَجْهِزَةً لِلْقِيَاسِ وَالِاتِّصَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_176",
+      "arabic": "مَرْكَبَةٌ فَضَائِيَّةٌ",
+      "meaning_ar": "وَسِيلَةٌ مُصَمَّمَةٌ لِلسَّفَرِ أَوِ الْعَمَلِ خَارِجَ الْغِلَافِ الْجَوِّيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرْكَبَاتٌ فَضَائِيَّةٌ"
+      ],
+      "collocations": [
+        "إِطْلَاقُ الْمَرْكَبَةِ"
+      ],
+      "examples_ar": [
+        "انْطَلَقَتِ الْمَرْكَبَةُ الْفَضَائِيَّةُ نَحْوَ مَدَارِهَا."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ مَأْهُولَةً أَوْ آليَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_177",
+      "arabic": "صَارُوخُ إِطْلَاقٍ",
+      "meaning_ar": "مَرْكَبَةٌ دَافِعَةٌ تَنْقُلُ حُمُولَةً إِلَى الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَوَارِيخُ إِطْلَاقٍ"
+      ],
+      "collocations": [
+        "مَرْحَلَةُ الصَّارُوخِ"
+      ],
+      "examples_ar": [
+        "أَطْلَقَ الْفَرِيقُ الصَّارُوخَ مِنَ الْقَاعِدَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْتَوِي عَلَى مَرَاحِلَ مُنْفَصِلَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_178",
+      "arabic": "مَرْحَلَةُ صَارُوخٍ",
+      "meaning_ar": "جُزْءٌ مِنْ نِظَامِ الدَّفْعِ يُمْكِنُ فَصْلُهُ بَعْدَ انْتِهَاءِ وَقُودِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاحِلُ صَوَارِيخَ"
+      ],
+      "collocations": [
+        "فَصْلُ الْمَرْحَلَةِ"
+      ],
+      "examples_ar": [
+        "انْفَصَلَتِ الْمَرْحَلَةُ الأُولَى بَعْدَ الْإِطْلَاقِ."
+      ],
+      "usage_note_ar": "يُخَفِّفُ فَصْلُ الْمَرَاحِلِ الْكُتْلَةَ أَثْنَاءَ الرِّحْلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_179",
+      "arabic": "مُحَرِّكٌ صَارُوخِيٌّ",
+      "meaning_ar": "جِهَازٌ يَدْفَعُ الْغَازَ بِسُرْعَةٍ لِتَوْلِيدِ قُوَّةِ دَفْعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُحَرِّكَاتٌ صَارُوخِيَّةٌ"
+      ],
+      "collocations": [
+        "قُوَّةُ الْمُحَرِّكِ"
+      ],
+      "examples_ar": [
+        "شَغَّلَ الْمُهَنْدِسُ الْمُحَرِّكَ الصَّارُوخِيَّ."
+      ],
+      "usage_note_ar": "يَعْمَلُ بِمَبْدَإِ تَبَادُلِ الزَّخْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_180",
+      "arabic": "قُوَّةُ دَفْعٍ",
+      "meaning_ar": "قُوَّةٌ تَدْفَعُ مَرْكَبَةً إِلَى الأَمَامِ أَوْ تُغَيِّرُ حَرَكَتَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُوًى دَافِعَةٌ"
+      ],
+      "collocations": [
+        "قُوَّةُ دَفْعِ الصَّارُوخِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُهَنْدِسُ قُوَّةَ الدَّفْعِ."
+      ],
+      "usage_note_ar": "تُقَاسُ فِي الْفِيزِيَاءِ بِوَحْدَاتِ الْقُوَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_181",
+      "arabic": "حُمُولَةٌ فَضَائِيَّةٌ",
+      "meaning_ar": "جِهَازٌ أَوْ مَجْمُوعَةُ أَدَوَاتٍ يَحْمِلُهَا الصَّارُوخُ إِلَى الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُمُولَاتٌ فَضَائِيَّةٌ"
+      ],
+      "collocations": [
+        "حُمُولَةٌ عِلْمِيَّةٌ"
+      ],
+      "examples_ar": [
+        "وَصَلَتِ الْحُمُولَةُ الْفَضَائِيَّةُ إِلَى الْمَدَارِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَقْمَارًا صِنَاعِيَّةً وَمِسْبَارَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_182",
+      "arabic": "مِحَطَّةٌ فَضَائِيَّةٌ",
+      "meaning_ar": "مَنْشَأَةٌ تَدُورُ فِي الْفَضَاءِ وَيُمْكِنُ أَنْ يَعِيشَ فِيهَا رُوَّادٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَحَطَّاتٌ فَضَائِيَّةٌ"
+      ],
+      "collocations": [
+        "مِحَطَّةٌ مَدَارِيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الرُّوَّادُ تَجَارِبَ فِي الْمِحَطَّةِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى دَعْمِ الْحَيَاةِ وَالطَّاقَةِ وَالِاتِّصَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_183",
+      "arabic": "رَائِدُ فَضَاءٍ",
+      "meaning_ar": "شَخْصٌ مُدَرَّبٌ عَلَى الْعَمَلِ وَالسَّفَرِ فِي الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رُوَّادُ فَضَاءٍ"
+      ],
+      "collocations": [
+        "رَائِدٌ فِي الْمَدَارِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ رَائِدُ الْفَضَاءِ عَلَى اسْتِخْدَامِ الْمُعَدَّاتِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ عَمَلُهُ إِجْرَاءَاتٍ خَاصَّةً لِلسَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_184",
+      "arabic": "بَدْلَةُ فَضَاءٍ",
+      "meaning_ar": "مَلْبَسٌ خَاصٌّ يُوَفِّرُ لِلرَّائِدِ ضَغْطًا وَهَوَاءً وَحِمَايَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَدَلُ فَضَاءٍ"
+      ],
+      "collocations": [
+        "ارْتِدَاءُ الْبَدْلَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الرَّائِدُ بَدْلَةَ الْفَضَاءِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ بَدَلَاتٌ مُخْتَلِفَةٌ لِلْإِطْلَاقِ وَلِلْخُرُوجِ الْخَارِجِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_185",
+      "arabic": "سَيْرٌ فَضَائِيٌّ",
+      "meaning_ar": "نَشَاطٌ يَخْرُجُ فِيهِ الرَّائِدُ مِنَ الْمَرْكَبَةِ إِلَى الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُهِمَّةُ سَيْرٍ فَضَائِيٍّ"
+      ],
+      "examples_ar": [
+        "أَصْلَحَ الرَّائِدُ مُعَدَّاتٍ أَثْنَاءَ السَّيْرِ الْفَضَائِيِّ."
+      ],
+      "usage_note_ar": "يُجْرَى بِبَدْلَةٍ وَوَسَائِلِ أَمَانٍ مُخَصَّصَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_186",
+      "arabic": "انْعِدَامُ الْوَزْنِ",
+      "meaning_ar": "حَالَةٌ يَبْدُو فِيهَا الْجِسْمُ بِدُونِ وَزْنٍ ظَاهِرٍ أَثْنَاءَ السُّقُوطِ الْحُرِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَجْرِبَةُ انْعِدَامِ الْوَزْنِ"
+      ],
+      "examples_ar": [
+        "تَطْفُو الأَشْيَاءُ دَاخِلَ الْمِحَطَّةِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي غِيَابَ الْجَاذِبِيَّةِ تَمَامًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_187",
+      "arabic": "جَاذِبِيَّةٌ صُغْرَى",
+      "meaning_ar": "حَالَةٌ تَكُونُ فِيهَا التَّأْثِيرَاتُ الْوَزْنِيَّةُ الظَّاهِرَةُ ضَعِيفَةً جِدًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَجَارِبُ الْجَاذِبِيَّةِ الصُّغْرَى"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْعُلَمَاءُ سُلُوكَ الْمِيَاهِ فِي الْمِحَطَّةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي وَصْفِ تَجَارِبِ الْفَضَاءِ الْمَدَارِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_188",
+      "arabic": "مَدَارٌ أَرْضِيٌّ مُنْخَفِضٌ",
+      "meaning_ar": "مَدَارٌ قَرِيبٌ نِسْبِيًّا مِنْ سَطْحِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَدَارَاتٌ أَرْضِيَّةٌ مُنْخَفِضَةٌ"
+      ],
+      "collocations": [
+        "قَمَرٌ فِي مَدَارٍ مُنْخَفِضٍ"
+      ],
+      "examples_ar": [
+        "تَدُورُ الْمِحَطَّةُ فِي مَدَارٍ أَرْضِيٍّ مُنْخَفِضٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلِاتِّصَالِ وَالتَّصْوِيرِ وَالبَحْثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_189",
+      "arabic": "مَدَارٌ ثَابِتٌ بِالنِّسْبَةِ إِلَى الأَرْضِ",
+      "meaning_ar": "مَدَارٌ يَبْدُو فِيهِ الْقَمَرُ الصِّنَاعِيُّ ثَابِتًا فَوْقَ مَوْضِعٍ مِنْ خَطِّ الِاسْتِوَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَدَارَاتٌ ثَابِتَةٌ بِالنِّسْبَةِ إِلَى الأَرْضِ"
+      ],
+      "collocations": [
+        "قَمَرٌ ثَابِتٌ"
+      ],
+      "examples_ar": [
+        "يَسْتَخْدِمُ بَعْضُ أَقْمَارِ الْبَثِّ هَذَا الْمَدَارَ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ مُدَّةً مَدَارِيَّةً تُوَافِقُ دَوَرَانَ الأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_190",
+      "arabic": "اتِّصَالٌ فَضَائِيٌّ",
+      "meaning_ar": "تَبَادُلُ الْإِشَارَاتِ بَيْنَ مَرْكَبَةٍ فِي الْفَضَاءِ وَمَحَطَّةٍ أَرْضِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اتِّصَالَاتٌ فَضَائِيَّةٌ"
+      ],
+      "collocations": [
+        "إِشَارَةُ الْمِسْبَارِ"
+      ],
+      "examples_ar": [
+        "اسْتَقْبَلَ الْفَرِيقُ اتِّصَالًا مِنَ الْمِسْبَارِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ التَّأْخِيرُ بِالْمَسَافَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_191",
+      "arabic": "مَحَطَّةٌ أَرْضِيَّةٌ",
+      "meaning_ar": "مُنْشَأَةٌ تَسْتَقْبِلُ إِشَارَاتِ الْأَقْمَارِ وَتُرْسِلُ إِلَيْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَحَطَّاتٌ أَرْضِيَّةٌ"
+      ],
+      "collocations": [
+        "هَوَائِيُّ الْمَحَطَّةِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّتِ الْمَحَطَّةُ الأَرْضِيَّةُ بَيَانَاتِ الْقَمَرِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلتَّتَبُّعِ وَالْقِيَادَةِ وَالِاتِّصَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_192",
+      "arabic": "تَتَبُّعٌ مَدَارِيٌّ",
+      "meaning_ar": "مُرَاقَبَةُ مَوْقِعِ جِسْمٍ يَدُورُ فِي مَدَارٍ وَحَرَكَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَتَبُّعُ الْقَمَرِ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْمَهَنْدِسُ مَدَارَ الْقَمَرِ الصِّنَاعِيِّ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى الْقِيَاسَاتِ وَالْحِسَابَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_193",
+      "arabic": "حُطَامٌ فَضَائِيٌّ",
+      "meaning_ar": "قِطَعٌ صِنَاعِيَّةٌ مَتْرُوكَةٌ أَوْ مُعَطَّلَةٌ تَدُورُ فِي الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُرَاقَبَةُ الْحُطَامِ"
+      ],
+      "examples_ar": [
+        "يَتَتَبَّعُ الْفَرِيقُ الْحُطَامَ الْفَضَائِيَّ."
+      ],
+      "usage_note_ar": "قَدْ يُهَدِّدُ الْأَقْمَارَ وَالْمَرْكَبَاتِ الْعَامِلَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_194",
+      "arabic": "اصْطِدَامٌ مَدَارِيٌّ",
+      "meaning_ar": "تَلَاقِي جِسْمَيْنِ مُتَحَرِّكَيْنِ فِي الْفَضَاءِ عَلَى نَحْوٍ يُحْدِثُ ضَرَرًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اصْطِدَامَاتٌ مَدَارِيَّةٌ"
+      ],
+      "collocations": [
+        "خَطَرُ الِاصْطِدَامِ"
+      ],
+      "examples_ar": [
+        "عَدَّلَ الْفَرِيقُ مَدَارَ الْقَمَرِ لِتَجَنُّبِ اصْطِدَامٍ."
+      ],
+      "usage_note_ar": "تُؤْخَذُ الْحُطَامَاتُ فِي الْحُسْبَانِ عِنْدَ التَّخْطِيطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_195",
+      "arabic": "مُنَاوَرَةٌ مَدَارِيَّةٌ",
+      "meaning_ar": "تَغْيِيرٌ مَقْصُودٌ فِي سُرْعَةِ مَرْكَبَةٍ أَوِ اتِّجَاهِهَا لِتَعْدِيلِ مَدَارِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَاوَرَاتٌ مَدَارِيَّةٌ"
+      ],
+      "collocations": [
+        "مُنَاوَرَةُ تَصْحِيحٍ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الْفَرِيقُ مُنَاوَرَةً مَدَارِيَّةً."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ حِسَابَاتٍ دَقِيقَةً لِقُوَّةِ الدَّفْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_196",
+      "arabic": "إِعَادَةُ دُخُولٍ",
+      "meaning_ar": "عَوْدَةُ جِسْمٍ مِنَ الْفَضَاءِ إِلَى طَبَقَاتِ الْغِلَافِ الْجَوِّيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَرْحَلَةُ الْعَوْدَةِ"
+      ],
+      "examples_ar": [
+        "تَحَمَّلَتِ الْكَبْسُولَةُ حَرَارَةَ إِعَادَةِ الدُّخُولِ."
+      ],
+      "usage_note_ar": "تُوَلِّدُ السُّرْعَاتُ الْعَالِيَةُ تَسْخِينًا شَدِيدًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_197",
+      "arabic": "دِرْعٌ حَرَارِيٌّ",
+      "meaning_ar": "طَبَقَةٌ وَاقِيَةٌ تُقَلِّلُ انْتِقَالَ الْحَرَارَةِ إِلَى الْمَرْكَبَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دُرُوعٌ حَرَارِيَّةٌ"
+      ],
+      "collocations": [
+        "دِرْعُ الْكَبْسُولَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْفَرِيقُ الدِّرْعَ الْحَرَارِيَّ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ عِنْدَ الدُّخُولِ الْجَوِّيِّ وَفِي أَنْظِمَةٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_198",
+      "arabic": "كَبْسُولَةٌ فَضَائِيَّةٌ",
+      "meaning_ar": "مَرْكَبَةٌ صَغِيرَةٌ مُغْلَقَةٌ لِنَقْلِ رُوَّادٍ أَوْ أَجْهِزَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَبْسُولَاتٌ فَضَائِيَّةٌ"
+      ],
+      "collocations": [
+        "عَوْدَةُ الْكَبْسُولَةِ"
+      ],
+      "examples_ar": [
+        "هَبَطَتِ الْكَبْسُولَةُ بَعْدَ الرِّحْلَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَسْتَعْمِلُ مِظَلَّاتٍ أَوْ نُظُمَ دَفْعٍ لِلْهُبُوطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_199",
+      "arabic": "هُبُوطٌ قَمَرِيٌّ",
+      "meaning_ar": "وُصُولُ مَرْكَبَةٍ فَضَائِيَّةٍ إِلَى سَطْحِ الْقَمَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَهَمَّةُ الْهُبُوطِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَتِ الْمَرْكَبَةُ صُورًا بَعْدَ الْهُبُوطِ الْقَمَرِيِّ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ ضَبْطَ السُّرْعَةِ وَالِاتِّجَاهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_200",
+      "arabic": "مَرْكَبَةُ هُبُوطٍ",
+      "meaning_ar": "مَرْكَبَةٌ مُصَمَّمَةٌ لِلنُّزُولِ عَلَى سَطْحِ جِسْمٍ فَلَكِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرْكَبَاتُ هُبُوطٍ"
+      ],
+      "collocations": [
+        "مَرْكَبَةُ هُبُوطٍ قَمَرِيَّةٌ"
+      ],
+      "examples_ar": [
+        "انْفَصَلَتْ مَرْكَبَةُ الْهُبُوطِ عَنِ الْمِسْبَارِ."
+      ],
+      "usage_note_ar": "تَحْمِلُ أَجْهِزَةً لِلرَّصْدِ أَوِ التَّحْلِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_201",
+      "arabic": "مِرْكَبَةٌ جَوَّالَةٌ",
+      "meaning_ar": "آلَةٌ تَسِيرُ عَلَى سَطْحِ كَوْكَبٍ أَوْ قَمَرٍ لِجَمْعِ الْبَيَانَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرْكَبَاتٌ جَوَّالَةٌ"
+      ],
+      "collocations": [
+        "جَوَّالَةُ الْمِرِّيخِ"
+      ],
+      "examples_ar": [
+        "فَحَصَتِ الْجَوَّالَةُ صَخْرَةً عَلَى الْمِرِّيخِ."
+      ],
+      "usage_note_ar": "تَسْتَعْمِلُ عَجَلَاتٍ أَوْ وَسَائِلَ حَرَكَةٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_202",
+      "arabic": "عَيِّنَةٌ قَمَرِيَّةٌ",
+      "meaning_ar": "كَمِّيَّةٌ مِنْ تُرْبَةِ الْقَمَرِ أَوْ صُخُورِهِ تُجْمَعُ لِلْفَحْصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَيِّنَاتٌ قَمَرِيَّةٌ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْعَيِّنَةِ"
+      ],
+      "examples_ar": [
+        "حَلَّلَ الْبَاحِثُ عَيِّنَةً قَمَرِيَّةً."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِفَهْمِ تَارِيخِ سَطْحِ الْقَمَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_203",
+      "arabic": "تُرْبَةٌ قَمَرِيَّةٌ",
+      "meaning_ar": "مَوَادُّ دَقِيقَةٌ وَصُخُورٌ مُفَتَّتَةٌ تُغَطِّي جُزْءًا مِنْ سَطْحِ الْقَمَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "غُبَارُ الْقَمَرِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْمِسْبَارُ تُرْبَةً قَمَرِيَّةً."
+      ],
+      "usage_note_ar": "تَنْتُجُ مِنَ الِارْتِطَامَاتِ وَتَفَتُّتِ الصُّخُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_204",
+      "arabic": "رَصْدٌ بِالأَشِعَّةِ تَحْتَ الْحَمْرَاءِ",
+      "meaning_ar": "قِيَاسُ إِشْعَاعٍ ذِي أَطْوَالٍ مَوْجِيَّةٍ أَطْوَلَ مِنَ الضَّوْءِ الأَحْمَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "صُوَرٌ تَحْتَ حَمْرَاءَ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الْفَرِيقُ مِقْرَابًا تَحْتَ أَحْمَرَ."
+      ],
+      "usage_note_ar": "يَسْمَحُ بِدِرَاسَةِ الْغُبَارِ وَالأَجْرَامِ الْبَارِدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_205",
+      "arabic": "أَشِعَّةٌ فَوْقَ بَنَفْسَجِيَّةٍ",
+      "meaning_ar": "إِشْعَاعٌ كَهْرُومِغْنَاطِيسِيٌّ أَقْصَرُ مَوْجَةً مِنَ الضَّوْءِ الْبَنَفْسَجِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَصْدُ الأَشِعَّةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمِقْرَابُ الأَشِعَّةَ فَوْقَ الْبَنَفْسَجِيَّةِ."
+      ],
+      "usage_note_ar": "يُمْتَصُّ جُزْءٌ مِنْهَا فِي الْغِلَافِ الْجَوِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_206",
+      "arabic": "أَشِعَّةٌ سِينِيَّةٌ",
+      "meaning_ar": "إِشْعَاعٌ كَهْرُومِغْنَاطِيسِيٌّ عَالِي الطَّاقَةِ يُصْدِرُهُ بَعْضُ الأَجْرَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَصْدُ الأَشِعَّةِ السِّينِيَّةِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْمِقْرَابُ مَصْدَرًا لِلأَشِعَّةِ السِّينِيَّةِ."
+      ],
+      "usage_note_ar": "يُفِيدُ فِي دِرَاسَةِ الْغَازَاتِ الشَّدِيدَةِ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_207",
+      "arabic": "أَشِعَّةُ غَامَّا",
+      "meaning_ar": "إِشْعَاعٌ كَهْرُومِغْنَاطِيسِيٌّ شَدِيدُ الطَّاقَةِ يَصْدُرُ عَنْ ظَوَاهِرَ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "انْفِجَارُ أَشِعَّةِ غَامَّا"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْقَمَرُ الصِّنَاعِيُّ إِشْعَاعًا عَالِيَ الطَّاقَةِ."
+      ],
+      "usage_note_ar": "تُدْرَسُ مَصَادِرُهَا بِأَدَوَاتٍ خَاصَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_208",
+      "arabic": "انْفِجَارُ أَشِعَّةِ غَامَّا",
+      "meaning_ar": "وَمِيضٌ قَوِيٌّ وَقَصِيرٌ مِنَ الأَشِعَّةِ الْعَالِيَةِ الطَّاقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ انْفِجَارَاتُ أَشِعَّةِ غَامَّا"
+      ],
+      "collocations": [
+        "رَصْدُ الْوَمِيضِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمِسْبَارُ انْفِجَارًا لِأَشِعَّةِ غَامَّا."
+      ],
+      "usage_note_ar": "تَنْتُجُ بَعْضُهَا عَنْ ظَوَاهِرَ نَجْمِيَّةٍ عَنِيفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_209",
+      "arabic": "مَوْجَةٌ ثِقَالِيَّةٌ",
+      "meaning_ar": "اضْطِرَابٌ يَنْتَشِرُ فِي الزَّمَكَانِ بِسَبَبِ تَغَيُّرِ تَوْزِيعِ الْكُتَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوْجَاتٌ ثِقَالِيَّةٌ"
+      ],
+      "collocations": [
+        "رَصْدُ الْمَوْجَاتِ الثِّقَالِيَّةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمَرْصَدُ إِشَارَةَ مَوْجَةٍ ثِقَالِيَّةٍ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ تَنْتُجَ عَنْ انْدِمَاجِ أَجْرَامٍ شَدِيدَةِ الْكَثَافَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_210",
+      "arabic": "انْدِمَاجُ ثُقْبَيْنِ أَسْوَدَيْنِ",
+      "meaning_ar": "اتِّحَادُ ثُقْبَيْنِ أَسْوَدَيْنِ فِي نِهَايَةِ دَوَرَانِهِمَا حَوْلَ بَعْضِهِمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَوْجَاتُ الِانْدِمَاجِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْعُلَمَاءُ إِشَارَةً مِنِ انْدِمَاجِ ثُقْبَيْنِ."
+      ],
+      "usage_note_ar": "قَدْ يُطْلِقُ مَوْجَاتٍ ثِقَالِيَّةً قَوِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_211",
+      "arabic": "مَرْصَدُ مَوْجَاتٍ ثِقَالِيَّةٍ",
+      "meaning_ar": "جِهَازٌ حَسَّاسٌ يَقِيسُ تَغَيُّرَاتٍ ضَئِيلَةً فِي الْمَسَافَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاصِدُ مَوْجَاتٍ ثِقَالِيَّةٍ"
+      ],
+      "collocations": [
+        "رَصْدُ التَّمَوُّجَاتِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمَرْصَدُ إِشَارَةً قَصِيرَةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِدِرَاسَةِ الأَحْدَاثِ الْكَوْنِيَّةِ الْعَنِيفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_212",
+      "arabic": "الِانْفِجَارُ الْعَظِيمُ",
+      "meaning_ar": "نَمُوذَجٌ كَوْنِيٌّ يَصِفُ تَطَوُّرَ الْكَوْنِ مِنْ حَالَةٍ شَدِيدَةِ الْحَرَارَةِ وَالْكَثَافَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَمُوذَجُ الِانْفِجَارِ الْعَظِيمِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَمَدُّدَ الْكَوْنِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي انْفِجَارًا عَادِيًّا فِي فَضَاءٍ مَوْجُودٍ مُسْبَقًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_213",
+      "arabic": "تَمَدُّدُ الْكَوْنِ",
+      "meaning_ar": "زِيَادَةُ الْمَسَافَاتِ بَيْنَ مَجَرَّاتٍ بَعِيدَةٍ بِسَبَبِ تَغَيُّرِ مِقْيَاسِ الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ التَّمَدُّدِ"
+      ],
+      "examples_ar": [
+        "تُبْدِي الْمَجَرَّاتُ الْبَعِيدَةُ آثَارَ تَمَدُّدِ الْكَوْنِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي أَنَّ كُلَّ الأَجْسَامِ الْمُرْتَبِطَةِ تَتَّسِعُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_214",
+      "arabic": "خَلْفِيَّةٌ كَوْنِيَّةٌ مِيكْرَوِيَّةٌ",
+      "meaning_ar": "إِشْعَاعٌ ضَعِيفٌ يَمْلَأُ السَّمَاءَ وَيَحْمِلُ أَثَرًا مِنَ الْكَوْنِ الْمُبَكِّرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَصْدُ الْخَلْفِيَّةِ الْكَوْنِيَّةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْقَمَرُ الصِّنَاعِيُّ تَغَيُّرَاتٍ دَقِيقَةً فِي الْخَلْفِيَّةِ."
+      ],
+      "usage_note_ar": "تَكُونُ أَطْوَالُهَا الْمَوْجِيَّةُ فِي نِطَاقِ الْمِيكْرُوِيفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_215",
+      "arabic": "عُمْرُ الْكَوْنِ",
+      "meaning_ar": "الزَّمَنُ الْمُنْقَضِي مُنْذُ الْمَرْحَلَةِ الْمُبَكِّرَةِ الَّتِي يَصِفُهَا النَّمُوذَجُ الْكَوْنِيُّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ عُمْرِ الْكَوْنِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْعُلَمَاءُ تَقْدِيرَاتِ عُمْرِ الْكَوْنِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ التَّقْدِيرُ عَلَى الْمُشَاهَدَاتِ وَالنَّمَاذِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_216",
+      "arabic": "ثَابِتُ هَابِلَ",
+      "meaning_ar": "مِقْيَاسٌ يَرْتَبِطُ بِمُعَدَّلِ تَمَدُّدِ الْكَوْنِ فِي الزَّمَنِ الْحَالِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ ثَابِتِ هَابِلَ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الْبَاحِثُونَ اخْتِلَافَ قِيَاسَاتِ ثَابِتِ هَابِلَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طُرُقُ قِيَاسِهِ وَنِتَائِجُهَا فِي بَعْضِ الدِّرَاسَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_217",
+      "arabic": "عِلْمُ الْكَوْنِيَّاتِ",
+      "meaning_ar": "فَرْعٌ مِنَ الْفِيزِيَاءِ يَدْرُسُ بِنْيَةَ الْكَوْنِ وَتَارِيخَهُ وَتَطَوُّرَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بُحُوثُ الْكَوْنِيَّاتِ"
+      ],
+      "examples_ar": [
+        "تَسْتَعْمِلُ الْكَوْنِيَّاتُ نَمَاذِجَ رِيَاضِيَّةً وَرَصْدًا."
+      ],
+      "usage_note_ar": "يُعَالِجُ الْكَوْنَ عَلَى مَقَايِيسَ كَبِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_218",
+      "arabic": "تَنْجِيمٌ",
+      "meaning_ar": "مُمَارَسَةٌ تَرْبِطُ مَوَاقِعَ الأَجْرَامِ بِالْحَظِّ أَوْ مَصِيرِ النَّاسِ دُونَ دَلِيلٍ عِلْمِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُمَارَسَاتُ التَّنْجِيمِ"
+      ],
+      "examples_ar": [
+        "مَيَّزَ الْمُعَلِّمُ بَيْنَ الْفَلَكِ وَالتَّنْجِيمِ."
+      ],
+      "usage_note_ar": "لَيْسَ التَّنْجِيمُ عِلْمًا تَجْرِيبِيًّا مَوْثُوقًا لِلتَّنَبُّؤِ بِالْمُسْتَقْبَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_219",
+      "arabic": "تَلَوُّثٌ ضَوْئِيٌّ",
+      "meaning_ar": "انْتِشَارُ إِضَاءَةٍ صِنَاعِيَّةٍ زَائِدَةٍ تُقَلِّلُ ظُلْمَةَ السَّمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ التَّلَوُّثِ الضَّوْئِيِّ"
+      ],
+      "examples_ar": [
+        "سَافَرَ الرَّاصِدُ بَعِيدًا عَنِ الْمَدِينَةِ."
+      ],
+      "usage_note_ar": "يُصَعِّبُ رُؤْيَةَ النُّجُومِ الْخَافِتَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_220",
+      "arabic": "سَمَاءٌ مُظْلِمَةٌ",
+      "meaning_ar": "سَمَاءٌ لَيْلِيَّةٌ قَلِيلَةُ الإِضَاءَةِ الصِّنَاعِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَمَاوَاتٌ مُظْلِمَةٌ"
+      ],
+      "collocations": [
+        "رَصْدٌ فِي سَمَاءٍ مُظْلِمَةٍ"
+      ],
+      "examples_ar": [
+        "بَدَتِ النُّجُومُ أَوْضَحَ فِي السَّمَاءِ الْمُظْلِمَةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى رُؤْيَةِ أَجْرَامٍ خَافِتَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_221",
+      "arabic": "رُؤْيَةٌ فَلَكِيَّةٌ",
+      "meaning_ar": "مُشَاهَدَةُ جِسْمٍ سَمَاوِيٍّ مُبَاشَرَةً أَوْ بِأَدَاةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رُؤًى فَلَكِيَّةٌ"
+      ],
+      "collocations": [
+        "رُؤْيَةُ الْهِلالِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَرِيقُ نَتِيجَةَ الرُّؤْيَةِ الْفَلَكِيَّةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالطَّقْسِ وَالإِضَاءَةِ وَمَوْقِعِ الرَّاصِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_222",
+      "arabic": "تَصْوِيرٌ فَلَكِيٌّ",
+      "meaning_ar": "التِقَاطُ صُوَرٍ لِلنُّجُومِ وَالْأَجْرَامِ السَّمَاوِيَّةِ بِآلَاتِ التَّصْوِيرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَصْوِيرُ الْقَمَرِ"
+      ],
+      "examples_ar": [
+        "جَرَّبَ الطَّالِبُ التَّصْوِيرَ الْفَلَكِيَّ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَثْبِيتٍ وَتَعْرِيضٍ مُنَاسِبَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_223",
+      "arabic": "تَعْرِيضٌ طَوِيلٌ",
+      "meaning_ar": "فَتْحُ غَالِقِ الْكَامِيرَا مُدَّةً طَوِيلَةً لِجَمْعِ الضَّوْءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَعْرِيضَاتٌ طَوِيلَةٌ"
+      ],
+      "collocations": [
+        "تَعْرِيضُ النُّجُومِ"
+      ],
+      "examples_ar": [
+        "الْتَقَطَ الْمُصَوِّرُ صُورَةً بِتَعْرِيضٍ طَوِيلٍ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَثْبِيتٍ لِتَجَنُّبِ الِاهْتِزَازِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_224",
+      "arabic": "تَتَبُّعٌ نَجْمِيٌّ",
+      "meaning_ar": "تَحْرِيكُ جِهَازِ التَّصْوِيرِ لِمُوَافَقَةِ الْحَرَكَةِ الظَّاهِرَةِ لِلسَّمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جِهَازُ التَّتَبُّعِ"
+      ],
+      "examples_ar": [
+        "شَغَّلَ الْمُصَوِّرُ التَّتَبُّعَ النَّجْمِيَّ."
+      ],
+      "usage_note_ar": "يُقَلِّلُ ظُهُورَ النُّجُومِ كَخُطُوطٍ فِي الصُّوَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_astronomy_20261026_225",
+      "arabic": "مُنْتَصَفُ اللَّيْلِ الْفَلَكِيُّ",
+      "meaning_ar": "وَقْتٌ يَقَعُ قَرِيبًا مِنِ انْتِصَافِ الْمُدَّةِ بَيْنَ غُرُوبِ الشَّمْسِ وَشُرُوقِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حِسَابُ مُنْتَصَفِ اللَّيْلِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُتَدَرِّبُ مُنْتَصَفَ اللَّيْلِ بِالتَّقْوِيمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ التَّعْرِيفَاتُ بِحَسَبِ الْغَرَضِ وَالْمَنْهَجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_astronomy_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
