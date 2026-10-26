@@ -28,9 +28,9 @@ class IndependentNounVocabularyTest(unittest.TestCase):
             part=json.loads((ROOT/filename).read_text("utf-8"))
             self.assertEqual(part["schema_version"],3)
             self.assertEqual(part["source_status"],"independent_editorial_nouns_not_book_collated")
-            self.assertGreaterEqual(len(part["entries"]),85,filename)
+            self.assertGreaterEqual(len(part["entries"]),130,filename)
             entries+=part["entries"]
-        self.assertGreaterEqual(len(entries),650)
+        self.assertGreaterEqual(len(entries),1100)
         self.assertEqual(len(entries),len({item["arabic"] for item in entries}))
         self.assertEqual(len(entries),len({item["id"] for item in entries}))
         for entry in entries:
@@ -48,6 +48,10 @@ class IndependentNounVocabularyTest(unittest.TestCase):
             for field in ("grammar","collocations","examples_ar","additional_meanings_ar","synonyms","antonyms"):
                 arabic.extend(entry[field])
             self.assertIsNone(UNEXPECTED.search(" ".join(arabic)),lemma)
+        for lemma in ("جَفَافٌ", "مَعْدِنٌ", "جَذْرٌ", "عَامِلٌ", "وَسِيطٌ"):
+            articles = [entry for entry in entries if entry["arabic"] == lemma]
+            self.assertEqual(len(articles), 1, lemma)
+            self.assertTrue(articles[0]["additional_meanings_ar"], lemma)
         merged={entry["arabic"] for entry in load_corpus()["entries"]}
         self.assertTrue({entry["arabic"] for entry in entries}.issubset(merged))
 
