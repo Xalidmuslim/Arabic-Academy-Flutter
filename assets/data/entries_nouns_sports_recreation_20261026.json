@@ -1,0 +1,4802 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_sports_20261026_001",
+      "arabic": "رِيَاضَةٌ",
+      "meaning_ar": "نَشَاطٌ جَسَدِيٌّ يُمَارَسُ لِلصِّحَّةِ أَوِ التَّدْرِيبِ أَوِ الْمُنَافَسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رِيَاضَاتٌ"
+      ],
+      "collocations": [
+        "مُمَارَسَةُ الرِّيَاضَةِ"
+      ],
+      "examples_ar": [
+        "يُمَارِسُ الطَّالِبُ الرِّيَاضَةَ بَعْدَ الدِّرَاسَةِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَنْوَاعًا فَرْدِيَّةً وَجَمَاعِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_002",
+      "arabic": "رِيَاضِيٌّ",
+      "meaning_ar": "شَخْصٌ يَتَدَرَّبُ عَلَى نَشَاطٍ بَدَنِيٍّ وَيُمَارِسُهُ بِانْتِظَامٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رِيَاضِيُّونَ"
+      ],
+      "collocations": [
+        "رِيَاضِيٌّ مَاهِرٌ"
+      ],
+      "examples_ar": [
+        "يَحْرِصُ الرِّيَاضِيُّ عَلَى التَّدْرِيبِ الْمُنْتَظِمِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ رِيَاضِيَّةٌ؛ وَقَدْ يَصِفُ الْأَمْرَ الْمُتَعَلِّقَ بِالرِّيَاضَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_003",
+      "arabic": "لَاعِبٌ",
+      "meaning_ar": "شَخْصٌ يُشَارِكُ فِي لُعْبَةٍ أَوْ نَشَاطٍ رِيَاضِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لَاعِبُونَ"
+      ],
+      "collocations": [
+        "لَاعِبُ الْفَرِيقِ"
+      ],
+      "examples_ar": [
+        "أَحْرَزَ اللَّاعِبُ هَدَفًا فِي الْمُبَارَاةِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ لَاعِبَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_004",
+      "arabic": "فَرِيقٌ رِيَاضِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ لَاعِبِينَ يَتَعَاوَنُونَ لِلْمُنَافَسَةِ فِي لُعْبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فِرَقٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "فَرِيقٌ مَحَلِّيٌّ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الْفَرِيقُ قَبْلَ الْمُبَارَاةِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ أَدْوَارًا مُخْتَلِفَةً بِحَسَبِ اللُّعْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_005",
+      "arabic": "نَادٍ رِيَاضِيٌّ",
+      "meaning_ar": "مُؤَسَّسَةٌ تُنَظِّمُ تَدْرِيبَ اللَّاعِبِينَ وَالْأَنْشِطَةَ الرِّيَاضِيَّةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَنْدِيَةٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "نَادٍ لِلسِّبَاحَةِ"
+      ],
+      "examples_ar": [
+        "انْضَمَّ الطِّفْلُ إِلَى نَادٍ رِيَاضِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ يَضُمُّ فِرَقًا وَمَرَافِقَ مُتَعَدِّدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_006",
+      "arabic": "مُدَرِّبٌ",
+      "meaning_ar": "شَخْصٌ يُعَلِّمُ الْمَهَارَاتِ وَيُعِدُّ اللَّاعِبِينَ لِلتَّحَسُّنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُدَرِّبُونَ"
+      ],
+      "collocations": [
+        "مُدَرِّبُ الْفَرِيقِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُدَرِّبُ خُطَّةَ اللَّعِبِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ مُدَرِّبَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_007",
+      "arabic": "تَدْرِيبٌ بَدَنِيٌّ",
+      "meaning_ar": "تَمَارِينُ مُنَظَّمَةٌ لِتَحْسِينِ الْقُوَّةِ وَالْقُدْرَةِ عَلَى الْحَرَكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَدْرِيبَاتٌ بَدَنِيَّةٌ"
+      ],
+      "collocations": [
+        "حِصَّةُ تَدْرِيبٍ"
+      ],
+      "examples_ar": [
+        "بَدَأَ اللَّاعِبُ تَدْرِيبًا بَدَنِيًّا صَبَاحًا."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَدَرُّجًا وَرَاحَةً كَافِيَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_008",
+      "arabic": "تَمْرِينٌ رِيَاضِيٌّ",
+      "meaning_ar": "حَرَكَةٌ أَوْ سِلْسِلَةُ حَرَكَاتٍ تُؤَدَّى لِتَحْسِينِ مَهَارَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَمَارِينُ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "تَمْرِينٌ يَوْمِيٌّ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ الرِّيَاضِيُّ تَمْرِينَهُ بِهُدُوءٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ شِدَّتُهُ وَفْقَ الْهَدَفِ وَالْقُدْرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_009",
+      "arabic": "مُنَافَسَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "لِقَاءٌ يَتَنَافَسُ فِيهِ لَاعِبُونَ لِتَحْقِيقِ أَفْضَلِ نَتِيجَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَافَسَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "مُنَافَسَةٌ مَحَلِّيَّةٌ"
+      ],
+      "examples_ar": [
+        "شَارَكَتِ الطَّالِبَةُ فِي مُنَافَسَةٍ رِيَاضِيَّةٍ."
+      ],
+      "usage_note_ar": "تَخْضَعُ لِقَوَاعِدَ وَمَقَايِيسَ مُعَيَّنَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_010",
+      "arabic": "بُطُولَةٌ",
+      "meaning_ar": "مَجْمُوعَةُ مُبَارَيَاتٍ أَوْ مُسَابَقَاتٍ لِتَحْدِيدِ الْفَائِزِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بُطُولَاتٌ"
+      ],
+      "collocations": [
+        "بُطُولَةٌ مَدْرَسِيَّةٌ"
+      ],
+      "examples_ar": [
+        "فَازَ الْفَرِيقُ فِي الْبُطُولَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا بِمَعْنَى الشَّجَاعَةِ وَالْبَطُولَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_011",
+      "arabic": "مُبَارَاةٌ",
+      "meaning_ar": "لِقَاءٌ رِيَاضِيٌّ بَيْنَ طَرَفَيْنِ يَتَنَافَسَانِ وَفْقَ قَوَاعِدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُبَارَيَاتٌ"
+      ],
+      "collocations": [
+        "مُبَارَاةُ كُرَةِ قَدَمٍ"
+      ],
+      "examples_ar": [
+        "حَضَرَ الْجُمْهُورُ الْمُبَارَاةَ مَسَاءً."
+      ],
+      "usage_note_ar": "قَدْ تَنْتَهِي بِفَوْزٍ أَوْ تَعَادُلٍ وَفْقَ اللُّعْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_012",
+      "arabic": "جَوْلَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "مَرْحَلَةٌ مُحَدَّدَةٌ مِنْ مُنَافَسَةٍ أَوْ سِبَاقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَوْلَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "الْجَوْلَةُ الأَخِيرَةُ"
+      ],
+      "examples_ar": [
+        "تَأَهَّلَ الْفَرِيقُ إِلَى الْجَوْلَةِ الثَّانِيَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِزِيَارَةِ مَكَانٍ وَالتَّجَوُّلِ فِيهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_013",
+      "arabic": "شَوْطٌ",
+      "meaning_ar": "جُزْءٌ مِنْ مُبَارَاةٍ أَوْ سِبَاقٍ يُفْصَلُ عَنْ غَيْرِهِ بِوَقْتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْوَاطٌ"
+      ],
+      "collocations": [
+        "الشَّوْطُ الأَوَّلُ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَرِيقُ فِي الشَّوْطِ الثَّانِي."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ عَدَدُ الأَشْوَاطِ بِحَسَبِ اللُّعْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_014",
+      "arabic": "نَتِيجَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "حَصِيلَةُ الْأَهْدَافِ أَوِ النِّقَاطِ بَعْدَ الْمُنَافَسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَتَائِجُ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "نَتِيجَةُ الْمُبَارَاةِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتِ النَّتِيجَةُ عَلَى اللَّوْحَةِ."
+      ],
+      "usage_note_ar": "تُحْسَبُ بِطَرِيقَةٍ تَخْتَلِفُ مِنْ رِيَاضَةٍ إِلَى أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_015",
+      "arabic": "نُقْطَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "وَحْدَةٌ تُسْتَعْمَلُ لِحِسَابِ التَّقَدُّمِ أَوِ الْفَوْزِ فِي اللُّعْبَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نِقَاطٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "جَمْعُ النِّقَاطِ"
+      ],
+      "examples_ar": [
+        "حَصَلَ اللَّاعِبُ عَلَى نُقْطَةٍ إِضَافِيَّةٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ حِسَابُهَا بِحَسَبِ اللُّعْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_016",
+      "arabic": "تَرْتِيبُ الْفِرَقِ",
+      "meaning_ar": "مَوْقِعُ كُلِّ فَرِيقٍ فِي قَائِمَةٍ تُحَدَّدُ بِحَسَبِ النَّتَائِجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جَدْوَلُ التَّرْتِيبِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ الْفَرِيقُ إِلَى الْمَرْكَزِ الثَّانِي."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ خِلَالَ الْمَوْسِمِ وَفْقَ النَّتَائِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_017",
+      "arabic": "فَوْزٌ",
+      "meaning_ar": "تَحْقِيقُ نَتِيجَةٍ أَفْضَلَ مِنَ الْخَصْمِ فِي مُنَافَسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فَوْزٌ مُسْتَحَقٌّ"
+      ],
+      "examples_ar": [
+        "احْتَفَلَ الْفَرِيقُ بِالْفَوْزِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِتَحْقِيقِ النَّجَاحِ فِي أَمْرٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_018",
+      "arabic": "هَزِيمَةٌ",
+      "meaning_ar": "خَسَارَةُ مُنَافَسَةٍ أَوْ عَدَمُ تَحْقِيقِ الْفَوْزِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ هَزَائِمُ"
+      ],
+      "collocations": [
+        "هَزِيمَةٌ صَعْبَةٌ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ اللَّاعِبُونَ مِنَ الْهَزِيمَةِ."
+      ],
+      "usage_note_ar": "تُقَابِلُ الْفَوْزَ فِي الْمُسَابَقَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_019",
+      "arabic": "تَعَادُلٌ",
+      "meaning_ar": "تَسَاوِي نَتِيجَتَيْ طَرَفَيْنِ فِي مُبَارَاةٍ أَوْ مُنَافَسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَتِيجَةُ التَّعَادُلِ"
+      ],
+      "examples_ar": [
+        "انْتَهَتِ الْمُبَارَاةُ بِالتَّعَادُلِ."
+      ],
+      "usage_note_ar": "لَا تُجِيزُهُ جَمِيعُ الْأَلْعَابِ وَالنُّظُمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_020",
+      "arabic": "كَأْسٌ",
+      "meaning_ar": "إِنَاءٌ أَوْ جَائِزَةٌ تُقَدَّمُ لِلْفَائِزِ فِي الْمُنَافَسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُؤُوسٌ"
+      ],
+      "collocations": [
+        "رَفْعُ الْكَأْسِ"
+      ],
+      "examples_ar": [
+        "رَفَعَ الْقَائِدُ كَأْسَ الْبُطُولَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِإِنَاءِ الشُّرْبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_021",
+      "arabic": "مِيدَالِيَّةٌ",
+      "meaning_ar": "قِطْعَةٌ مَعْدِنِيَّةٌ تُقَدَّمُ جَائِزَةً لِلْمُتَفَوِّقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مِيدَالِيَّاتٌ"
+      ],
+      "collocations": [
+        "مِيدَالِيَّةٌ ذَهَبِيَّةٌ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الْعَدَّاءُ عَلَى مِيدَالِيَّةٍ."
+      ],
+      "usage_note_ar": "تَكُونُ ذَهَبِيَّةً أَوْ فِضِّيَّةً أَوْ بُرُونْزِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_022",
+      "arabic": "مَرْكَزٌ أَوَّلُ",
+      "meaning_ar": "أَعْلَى مَوْضِعٍ فِي تَرْتِيبِ الْمُتَنَافِسِينَ وَفْقَ النَّتَائِجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْحُصُولُ عَلَى الْمَرْكَزِ الأَوَّلِ"
+      ],
+      "examples_ar": [
+        "فَازَتِ الطَّالِبَةُ بِالْمَرْكَزِ الأَوَّلِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ بِالْوَقْتِ أَوِ النِّقَاطِ أَوِ الأَدَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_023",
+      "arabic": "تَتْوِيجٌ",
+      "meaning_ar": "تَكْرِيمُ الْفَائِزِ بِمَنْحِهِ كَأْسًا أَوْ لَقَبًا أَوْ جَائِزَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَفْلُ التَّتْوِيجِ"
+      ],
+      "examples_ar": [
+        "جَرَى تَتْوِيجُ الْفَرِيقِ بَعْدَ النِّهَائِيِّ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِوَضْعِ التَّاجِ عَلَى الرَّأْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_024",
+      "arabic": "مُشَجِّعٌ",
+      "meaning_ar": "شَخْصٌ يُسَانِدُ فَرِيقًا أَوْ لَاعِبًا بِالْحُضُورِ وَالتَّشْجِيعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُشَجِّعُونَ"
+      ],
+      "collocations": [
+        "جُمْهُورُ الْمُشَجِّعِينَ"
+      ],
+      "examples_ar": [
+        "صَفَّقَ الْمُشَجِّعُونَ لِلْفَرِيقِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ مُشَجِّعَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_025",
+      "arabic": "تَشْجِيعٌ",
+      "meaning_ar": "إِظْهَارُ الدَّعْمِ وَالْحَمَاسَةِ لِلَاعِبٍ أَوْ فَرِيقٍ أَثْنَاءَ الْمُنَافَسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَشْجِيعٌ جَمَاعِيٌّ"
+      ],
+      "examples_ar": [
+        "سَاعَدَ التَّشْجِيعُ الْفَرِيقَ عَلَى الْمُوَاصَلَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِتَقْوِيَةِ هِمَّةِ شَخْصٍ فِي الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_026",
+      "arabic": "هُتَافٌ",
+      "meaning_ar": "صَوْتٌ أَوْ عِبَارَةٌ يَرْدِّدُهَا الْجُمْهُورُ بِصَوْتٍ عَالٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ هُتَافَاتٌ"
+      ],
+      "collocations": [
+        "هُتَافُ الْجُمْهُورِ"
+      ],
+      "examples_ar": [
+        "سَمِعَ اللَّاعِبُونَ هُتَافَاتِ الْمُشَجِّعِينَ."
+      ],
+      "usage_note_ar": "يَرِدُ فِي الْمَلَاعِبِ وَالْمُنَاسَبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_027",
+      "arabic": "مُدَرَّجٌ رِيَاضِيٌّ",
+      "meaning_ar": "مَكَانٌ مُتَدَرِّجٌ يَجْلِسُ فِيهِ الْمُتَفَرِّجُونَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُدَرَّجَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "مُدَرَّجَاتُ الْمَلْعَبِ"
+      ],
+      "examples_ar": [
+        "امْتَلَأَتِ الْمُدَرَّجَاتُ بِالْجُمْهُورِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مَدْرَجِ الطَّائِرَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_028",
+      "arabic": "مُلْتَقًى رِيَاضِيٌّ",
+      "meaning_ar": "فَعَالِيَّةٌ يَجْتَمِعُ فِيهَا لَاعِبُونَ لِمُمَارَسَةِ أَنْشِطَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُلْتَقَيَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "مُلْتَقًى لِلشَّبَابِ"
+      ],
+      "examples_ar": [
+        "نَظَّمَ الْمَرْكَزُ مُلْتَقًى رِيَاضِيًّا."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ لِلتَّرْفِيهِ أَوِ التَّنَافُسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_029",
+      "arabic": "حَكَمٌ رِيَاضِيٌّ",
+      "meaning_ar": "شَخْصٌ يُشْرِفُ عَلَى تَطْبِيقِ الْقَوَاعِدِ فِي الْمُبَارَاةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُكَّامٌ رِيَاضِيُّونَ"
+      ],
+      "collocations": [
+        "حَكَمُ الْمُبَارَاةِ"
+      ],
+      "examples_ar": [
+        "أَطْلَقَ الْحَكَمُ صَافِرَةَ الْبِدَايَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ صَلَاحِيَّاتُهُ بِحَسَبِ اللُّعْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_030",
+      "arabic": "صَافِرَةٌ",
+      "meaning_ar": "أَدَاةٌ تُصْدِرُ صَوْتًا حَادًّا لِلتَّنْبِيهِ أَوْ إِيقَافِ اللَّعِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَافِرَاتٌ"
+      ],
+      "collocations": [
+        "صَافِرَةُ الْحَكَمِ"
+      ],
+      "examples_ar": [
+        "نَفَخَ الْحَكَمُ فِي الصَّافِرَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ أَيْضًا فِي الْإِنْقَاذِ وَالتَّدْرِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_031",
+      "arabic": "مُخَالَفَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "تَصَرُّفٌ يَخْرُجُ عَنْ قَوَاعِدِ اللُّعْبَةِ خِلَالَ الْمُنَافَسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخَالَفَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "مُخَالَفَةُ اللَّعِبِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ الْحَكَمُ عَنْ مُخَالَفَةٍ."
+      ],
+      "usage_note_ar": "قَدْ تُؤَدِّي إِلَى إِيقَافِ اللَّعِبِ أَوْ عُقُوبَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_032",
+      "arabic": "بِطَاقَةٌ صَفْرَاءُ",
+      "meaning_ar": "إِنْذَارٌ يُشْهِرُهُ الْحَكَمُ لِلَّاعِبِ فِي كُرَةِ الْقَدَمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بِطَاقَاتٌ صَفْرَاءُ"
+      ],
+      "collocations": [
+        "إِشْهَارُ الْبِطَاقَةِ"
+      ],
+      "examples_ar": [
+        "حَصَلَ اللَّاعِبُ عَلَى بِطَاقَةٍ صَفْرَاءَ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي نُظُمِ تَأْدِيبٍ رِيَاضِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_033",
+      "arabic": "بِطَاقَةٌ حَمْرَاءُ",
+      "meaning_ar": "عَلَامَةٌ يُشْهِرُهَا الْحَكَمُ لِطَرْدِ لَاعِبٍ مِنَ الْمُبَارَاةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بِطَاقَاتٌ حَمْرَاءُ"
+      ],
+      "collocations": [
+        "إِشْهَارُ الْبِطَاقَةِ الْحَمْرَاءِ"
+      ],
+      "examples_ar": [
+        "خَرَجَ اللَّاعِبُ بَعْدَ الْبِطَاقَةِ الْحَمْرَاءِ."
+      ],
+      "usage_note_ar": "تَرِدُ خَاصَّةً فِي كُرَةِ الْقَدَمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_034",
+      "arabic": "رَكْلَةُ جَزَاءٍ",
+      "meaning_ar": "فُرْصَةٌ لِتَسْدِيدِ الْكُرَةِ مِنْ نُقْطَةٍ مُحَدَّدَةٍ بِقَوَاعِدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رَكَلَاتُ جَزَاءٍ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ رَكْلَةِ جَزَاءٍ"
+      ],
+      "examples_ar": [
+        "سَدَّدَ اللَّاعِبُ رَكْلَةَ الْجَزَاءِ."
+      ],
+      "usage_note_ar": "تُحْتَسَبُ وَفْقَ قَوَاعِدِ كُرَةِ الْقَدَمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_035",
+      "arabic": "رَكْلَةٌ رُكْنِيَّةٌ",
+      "meaning_ar": "رَكْلَةٌ تَسْتَأْنِفُ اللَّعِبَ مِنْ زَاوِيَةِ الْمَلْعَبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رَكَلَاتٌ رُكْنِيَّةٌ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ الرُّكْنِيَّةِ"
+      ],
+      "examples_ar": [
+        "رَفَعَ اللَّاعِبُ الْكُرَةَ مِنَ الرُّكْنِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِخُرُوجِ الْكُرَةِ مِنْ خَطِّ الْمَرْمَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_036",
+      "arabic": "رَكْلَةٌ حُرَّةٌ",
+      "meaning_ar": "اسْتِئْنَافٌ لِلَّعِبِ بِتَسْدِيدِ الْكُرَةِ بَعْدَ مُخَالَفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رَكَلَاتٌ حُرَّةٌ"
+      ],
+      "collocations": [
+        "رَكْلَةٌ مُبَاشِرَةٌ"
+      ],
+      "examples_ar": [
+        "نَفَّذَ اللَّاعِبُ رَكْلَةً حُرَّةً."
+      ],
+      "usage_note_ar": "تَنْقَسِمُ إِلَى مُبَاشِرَةٍ وَغَيْرِ مُبَاشِرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_037",
+      "arabic": "تَسَلُّلٌ",
+      "meaning_ar": "مُخَالَفَةٌ تَتَعَلَّقُ بِمَوْقِعِ الْمُهَاجِمِ عِنْدَ لَعِبِ الْكُرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَالَةُ تَسَلُّلٍ"
+      ],
+      "examples_ar": [
+        "رَفَعَ الْحَكَمُ رَايَتَهُ لِلتَّسَلُّلِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلدُّخُولِ سِرًّا إِلَى مَكَانٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_038",
+      "arabic": "تَمْرِيرَةٌ",
+      "meaning_ar": "إِرْسَالُ الْكُرَةِ مِنْ لَاعِبٍ إِلَى لَاعِبٍ آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَمْرِيرَاتٌ"
+      ],
+      "collocations": [
+        "تَمْرِيرَةٌ دَقِيقَةٌ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ اللَّاعِبُ تَمْرِيرَةً إِلَى زَمِيلِهِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي كُرَةِ الْقَدَمِ وَالسَّلَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_039",
+      "arabic": "تَسْدِيدَةٌ",
+      "meaning_ar": "ضَرْبَةُ كُرَةٍ بِاتِّجَاهِ الْهَدَفِ أَوِ السَّلَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَسْدِيدَاتٌ"
+      ],
+      "collocations": [
+        "تَسْدِيدَةٌ قَوِيَّةٌ"
+      ],
+      "examples_ar": [
+        "سَدَّدَ اللَّاعِبُ الْكُرَةَ نَحْوَ الْمَرْمَى."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ دِقَّةً وَتَوْقِيتًا مُنَاسِبَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_040",
+      "arabic": "مُرَاوَغَةٌ",
+      "meaning_ar": "حَرَكَةٌ يُحَاوِلُ بِهَا اللَّاعِبُ تَجَاوُزَ مُنَافِسِهِ بِالْكُرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُرَاوَغَاتٌ"
+      ],
+      "collocations": [
+        "مُرَاوَغَةٌ نَاجِحَةٌ"
+      ],
+      "examples_ar": [
+        "تَجَاوَزَ اللَّاعِبُ الْمُدَافِعَ بِمُرَاوَغَةٍ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ عَلَى السُّرْعَةِ وَالْمَهَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_041",
+      "arabic": "مُهَاجِمٌ",
+      "meaning_ar": "لَاعِبٌ تَكُونُ مَهَمَّتُهُ الأَسَاسِيَّةُ صُنْعَ فُرَصِ التَّسْجِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُهَاجِمُونَ"
+      ],
+      "collocations": [
+        "مُهَاجِمُ الْفَرِيقِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُهَاجِمُ هَدَفًا جَمِيلًا."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلشَّخْصِ الَّذِي يَبْدَأُ الْهُجُومَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_042",
+      "arabic": "مُدَافِعٌ",
+      "meaning_ar": "لَاعِبٌ يَحْمِي الْمَرْمَى وَيَمْنَعُ هَجَمَاتِ الْخَصْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُدَافِعُونَ"
+      ],
+      "collocations": [
+        "مُدَافِعٌ قَوِيٌّ"
+      ],
+      "examples_ar": [
+        "أَبْعَدَ الْمُدَافِعُ الْكُرَةَ عَنِ الْمَرْمَى."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِمَنْ يَحْمِي رَأْيًا أَوْ شَخْصًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_043",
+      "arabic": "حَارِسُ مَرْمًى",
+      "meaning_ar": "لَاعِبٌ مُخَصَّصٌ لِمَنْعِ الْكُرَةِ مِنَ الدُّخُولِ فِي الْمَرْمَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُرَّاسُ مَرْمًى"
+      ],
+      "collocations": [
+        "حَارِسٌ مَاهِرٌ"
+      ],
+      "examples_ar": [
+        "تَصَدَّى الْحَارِسُ لِلتَّسْدِيدَةِ."
+      ],
+      "usage_note_ar": "لَهُ قَوَاعِدُ خَاصَّةٌ فِي بَعْضِ الْأَلْعَابِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_044",
+      "arabic": "مَرْمًى",
+      "meaning_ar": "مَكَانٌ مُحَدَّدٌ يَحَاوِلُ اللَّاعِبُونَ إِدْخَالَ الْكُرَةِ فِيهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَامٍ"
+      ],
+      "collocations": [
+        "شَبَكَةُ الْمَرْمَى"
+      ],
+      "examples_ar": [
+        "دَخَلَتِ الْكُرَةُ فِي الْمَرْمَى."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلْهَدَفِ وَالْغَايَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_045",
+      "arabic": "هَدَفٌ رِيَاضِيٌّ",
+      "meaning_ar": "نُقْطَةُ تَسْجِيلٍ تَنْتُجُ عَنْ دُخُولِ الْكُرَةِ فِي مَكَانٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَهْدَافٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "هَدَفُ الْفَوْزِ"
+      ],
+      "examples_ar": [
+        "أَحْرَزَ اللَّاعِبُ هَدَفَ الْفَوْزِ."
+      ],
+      "usage_note_ar": "يَرِدُ الْهَدَفُ أَيْضًا بِمَعْنَى الْغَايَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_046",
+      "arabic": "شَبَكَةُ مَرْمًى",
+      "meaning_ar": "نَسِيجٌ مَشْدُودٌ خَلْفَ الْمَرْمَى لِإِمْسَاكِ الْكُرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَبَكَاتُ مَرْمًى"
+      ],
+      "collocations": [
+        "شَبَكَةٌ قَوِيَّةٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْعُمَّالُ شَبَكَةً جَدِيدَةً."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي كُرَةِ الْقَدَمِ وَأَلْعَابٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_047",
+      "arabic": "عَارِضَةٌ",
+      "meaning_ar": "قَضِيبٌ أُفُقِيٌّ يُشَكِّلُ الْجُزْءَ الْعُلْوِيَّ مِنَ الْمَرْمَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَوَارِضُ"
+      ],
+      "collocations": [
+        "عَارِضَةُ الْمَرْمَى"
+      ],
+      "examples_ar": [
+        "اصْطَدَمَتِ الْكُرَةُ بِالْعَارِضَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِقَضِيبٍ يُسْتَعْمَلُ فِي الْبِنَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_048",
+      "arabic": "قَائِمٌ",
+      "meaning_ar": "عَمُودٌ يَقِفُ عَمُودِيًّا فِي جَانِبِ الْمَرْمَى أَوِ الْبِنَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قَوَائِمُ"
+      ],
+      "collocations": [
+        "قَائِمُ الْمَرْمَى"
+      ],
+      "examples_ar": [
+        "ارْتَدَّتِ الْكُرَةُ عَنِ الْقَائِمِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ مَعْنَاهُ بِحَسَبِ الْمَوْضِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_049",
+      "arabic": "مَلْعَبُ كُرَةِ قَدَمٍ",
+      "meaning_ar": "مَسَاحَةٌ مُحَدَّدَةٌ بِخُطُوطٍ لِإِقَامَةِ مُبَارَيَاتِ الْكُرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَلَاعِبُ كُرَةِ قَدَمٍ"
+      ],
+      "collocations": [
+        "أَرْضِيَّةُ الْمَلْعَبِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الْفَرِيقُ فِي مَلْعَبِ كُرَةِ الْقَدَمِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ أَرْضِيَّتُهُ طَبِيعِيَّةً أَوْ صِنَاعِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_050",
+      "arabic": "عُشْبٌ صِنَاعِيٌّ",
+      "meaning_ar": "مَادَّةٌ تُشْبِهُ الْحَشِيشَ الطَّبِيعِيَّ وَتُفْرَشُ عَلَى الْمَلَاعِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "أَرْضِيَّةُ عُشْبٍ صِنَاعِيٍّ"
+      ],
+      "examples_ar": [
+        "لَعِبَ الْأَطْفَالُ عَلَى الْعُشْبِ الصِّنَاعِيِّ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى صِيَانَةٍ وَتَنْظِيفٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_051",
+      "arabic": "مَنْطِقَةُ جَزَاءٍ",
+      "meaning_ar": "مَسَاحَةٌ مُحَدَّدَةٌ أَمَامَ الْمَرْمَى تُطَبَّقُ فِيهَا قَوَاعِدُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَنَاطِقُ جَزَاءٍ"
+      ],
+      "collocations": [
+        "حُدُودُ مَنْطِقَةِ الْجَزَاءِ"
+      ],
+      "examples_ar": [
+        "دَخَلَ الْمُهَاجِمُ مَنْطِقَةَ الْجَزَاءِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي احْتِسَابِ بَعْضِ الْمُخَالَفَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_052",
+      "arabic": "خَطُّ تَمَاسٍّ",
+      "meaning_ar": "خَطٌّ يُحَدِّدُ الْجَانِبَ الطُّولِيَّ لِمَلْعَبِ كُرَةِ الْقَدَمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطُوطُ تَمَاسٍّ"
+      ],
+      "collocations": [
+        "خُرُوجُ الْكُرَةِ"
+      ],
+      "examples_ar": [
+        "خَرَجَتِ الْكُرَةُ مِنْ خَطِّ التَّمَاسِّ."
+      ],
+      "usage_note_ar": "تُسْتَأْنَفُ الْمُبَارَاةُ بِرَمْيَةٍ وَفْقَ الْقَوَاعِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_053",
+      "arabic": "رَمْيَةُ تَمَاسٍّ",
+      "meaning_ar": "إِعَادَةُ الْكُرَةِ إِلَى اللَّعِبِ بِالْيَدَيْنِ مِنْ جَانِبِ الْمَلْعَبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رَمْيَاتُ تَمَاسٍّ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ رَمْيَةٍ"
+      ],
+      "examples_ar": [
+        "رَمَى اللَّاعِبُ الْكُرَةَ مِنْ خَطِّ التَّمَاسِّ."
+      ],
+      "usage_note_ar": "تَخُصُّ كُرَةَ الْقَدَمِ وَفْقَ قَوَاعِدِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_054",
+      "arabic": "وَسَطُ الْمَلْعَبِ",
+      "meaning_ar": "مَنْطِقَةٌ بَيْنَ جَانِبَيِ الْمَلْعَبِ تُسْتَعْمَلُ لِتَنْظِيمِ اللَّعِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "لَاعِبُ وَسَطٍ"
+      ],
+      "examples_ar": [
+        "نَقَلَ اللَّاعِبُ الْكُرَةَ مِنْ وَسَطِ الْمَلْعَبِ."
+      ],
+      "usage_note_ar": "يَرِدُ لِلْمَوْضِعِ وَلِمَهَامِّ بَعْضِ اللَّاعِبِينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_055",
+      "arabic": "خُطَّةُ لَعِبٍ",
+      "meaning_ar": "تَرْتِيبُ أَدْوَارِ اللَّاعِبِينَ وَحَرَكَاتِهِمْ أَثْنَاءَ الْمُبَارَاةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطَطُ لَعِبٍ"
+      ],
+      "collocations": [
+        "خُطَّةٌ دِفَاعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُدَرِّبُ خُطَّةَ اللَّعِبِ لِلْفَرِيقِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ بِحَسَبِ الْخَصْمِ وَالنَّتِيجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_056",
+      "arabic": "هُجُومٌ مُضَادٌّ",
+      "meaning_ar": "انْتِقَالٌ سَرِيعٌ مِنَ الدِّفَاعِ إِلَى مُحَاوَلَةِ التَّسْجِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ هُجُمَاتٌ مُضَادَّةٌ"
+      ],
+      "collocations": [
+        "هُجُومٌ مُضَادٌّ سَرِيعٌ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْفَرِيقُ هُجُومًا مُضَادًّا."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى السُّرْعَةِ وَالْمَسَاحَاتِ الْمُتَاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_057",
+      "arabic": "اسْتِحْوَاذٌ",
+      "meaning_ar": "سَيْطَرَةُ فَرِيقٍ عَلَى الْكُرَةِ لِمُدَّةٍ أَكْبَرَ مِنَ الْخَصْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نِسْبَةُ الِاسْتِحْوَاذِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ اسْتِحْوَاذُ الْفَرِيقِ عَلَى الْكُرَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِالْحُصُولِ عَلَى شَيْءٍ وَامْتِلَاكِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_058",
+      "arabic": "تَبْدِيلُ لَاعِبٍ",
+      "meaning_ar": "إِخْرَاجُ لَاعِبٍ وَإِدْخَالُ آخَرَ أَثْنَاءَ الْمُبَارَاةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَبْدِيلَاتُ لَاعِبِينَ"
+      ],
+      "collocations": [
+        "تَبْدِيلٌ اضْطِرَارِيٌّ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الْمُدَرِّبُ تَبْدِيلًا فِي الشَّوْطِ الثَّانِي."
+      ],
+      "usage_note_ar": "تَحْكُمُهُ قَوَاعِدُ اللُّعْبَةِ وَالْمُسَابَقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_059",
+      "arabic": "بَدِيلٌ رِيَاضِيٌّ",
+      "meaning_ar": "لَاعِبٌ يَنْتَظِرُ فُرْصَةَ الْمُشَارَكَةِ بَدَلًا مِنْ زَمِيلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بُدَلَاءُ رِيَاضِيُّونَ"
+      ],
+      "collocations": [
+        "مَقْعَدُ الْبُدَلَاءِ"
+      ],
+      "examples_ar": [
+        "دَخَلَ اللَّاعِبُ الْبَدِيلُ فِي الشَّوْطِ الأَخِيرِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَدَدُ الْبُدَلَاءِ بِحَسَبِ الْمُسَابَقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_060",
+      "arabic": "وَقْتٌ بَدَلُ ضَائِعٍ",
+      "meaning_ar": "دَقَائِقُ تُضَافُ إِلَى نِهَايَةِ الشَّوْطِ لِتَعْوِيضِ تَوَقُّفِ اللَّعِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دَقَائِقُ الْوَقْتِ الْمُضَافِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَرِيقُ فِي الْوَقْتِ بَدَلِ الضَّائِعِ."
+      ],
+      "usage_note_ar": "يُحْسَبُ وَفْقَ التَّوَقُّفَاتِ وَالْقَوَاعِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_061",
+      "arabic": "كُرَةُ سَلَّةٍ",
+      "meaning_ar": "رِيَاضَةٌ يَتَنَافَسُ فِيهَا فَرِيقَانِ لِإِدْخَالِ الْكُرَةِ فِي سَلَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُبَارَاةُ كُرَةِ سَلَّةٍ"
+      ],
+      "examples_ar": [
+        "لَعِبَ الطُّلَّابُ كُرَةَ السَّلَّةِ."
+      ],
+      "usage_note_ar": "تُحْسَبُ النِّقَاطُ بِحَسَبِ مَوْضِعِ التَّسْدِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_062",
+      "arabic": "سَلَّةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "حَلْقَةٌ مَعَ شَبَكَةٍ تُعَلَّقُ فَوْقَ الْمَلْعَبِ لِلتَّسْجِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سِلَالٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "سَلَّةُ الْمَلْعَبِ"
+      ],
+      "examples_ar": [
+        "دَخَلَتِ الْكُرَةُ فِي السَّلَّةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي لُعْبَةِ كُرَةِ السَّلَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_063",
+      "arabic": "مِرْمًى لِلسَّلَّةِ",
+      "meaning_ar": "هَدَفٌ مُرْتَفِعٌ يَحْتَوِي حَلْقَةً لِإِدْخَالِ الْكُرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَامٍ لِلسَّلَّةِ"
+      ],
+      "collocations": [
+        "حَلْقَةُ السَّلَّةِ"
+      ],
+      "examples_ar": [
+        "سَدَّدَ اللَّاعِبُ نَحْوَ الْحَلْقَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَحْدِيدِ مَكَانِ التَّسْجِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_064",
+      "arabic": "تَنْطِيطُ الْكُرَةِ",
+      "meaning_ar": "دَفْعُ الْكُرَةِ إِلَى الأَرْضِ مُتَكَرِّرًا أَثْنَاءَ الْحَرَكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَنْطِيطٌ مُنْتَظِمٌ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الطِّفْلُ عَلَى تَنْطِيطِ الْكُرَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ خَاصَّةً فِي كُرَةِ السَّلَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_065",
+      "arabic": "رَمْيَةٌ حُرَّةٌ",
+      "meaning_ar": "فُرْصَةُ تَسْجِيلٍ مِنْ مَوْضِعٍ ثَابِتٍ بَعْدَ مُخَالَفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رَمْيَاتٌ حُرَّةٌ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ رَمْيَةٍ حُرَّةٍ"
+      ],
+      "examples_ar": [
+        "أَحْرَزَ اللَّاعِبُ نُقْطَةً بِرَمْيَةٍ حُرَّةٍ."
+      ],
+      "usage_note_ar": "تَرِدُ فِي قَوَاعِدِ كُرَةِ السَّلَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_066",
+      "arabic": "رَمْيَةٌ ثُلَاثِيَّةٌ",
+      "meaning_ar": "تَسْدِيدَةٌ مِنْ خَارِجِ قَوْسٍ تُحْتَسَبُ بِثَلَاثِ نِقَاطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رَمْيَاتٌ ثُلَاثِيَّةٌ"
+      ],
+      "collocations": [
+        "تَسْدِيدُ ثَلَاثِ نِقَاطٍ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ اللَّاعِبُ رَمْيَةً ثُلَاثِيَّةً."
+      ],
+      "usage_note_ar": "تَخُصُّ كُرَةَ السَّلَّةِ وَفْقَ قَوَاعِدِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_067",
+      "arabic": "ارْتِدَادٌ رِيَاضِيٌّ",
+      "meaning_ar": "الْحُصُولُ عَلَى الْكُرَةِ بَعْدَ تَسْدِيدَةٍ لَمْ تَدْخُلِ السَّلَّةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ارْتِدَادَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "ارْتِدَادٌ دِفَاعِيٌّ"
+      ],
+      "examples_ar": [
+        "جَمَعَ اللَّاعِبُ عَدَدًا مِنَ الِارْتِدَادَاتِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِرُجُوعِ شَيْءٍ بَعْدَ اصْطِدَامٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_068",
+      "arabic": "حَاجِزٌ دِفَاعِيٌّ",
+      "meaning_ar": "وَضْعٌ يَحُولُ فِيهِ اللَّاعِبُ دُونَ مُرُورِ الْخَصْمِ أَوْ تَسْدِيدِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَوَاجِزُ دِفَاعِيَّةٌ"
+      ],
+      "collocations": [
+        "دِفَاعٌ قَوِيٌّ"
+      ],
+      "examples_ar": [
+        "مَنَعَ الْمُدَافِعُ التَّسْدِيدَ بِحَرَكَةٍ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ مُرَاعَاةَ قَوَاعِدِ الِاحْتِكَاكِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_069",
+      "arabic": "كُرَةُ طَائِرَةٍ",
+      "meaning_ar": "لُعْبَةٌ جَمَاعِيَّةٌ تُضْرَبُ فِيهَا الْكُرَةُ فَوْقَ شَبَكَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فَرِيقُ الْكُرَةِ الطَّائِرَةِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الطُّلَّابُ عَلَى الْكُرَةِ الطَّائِرَةِ."
+      ],
+      "usage_note_ar": "تُحْتَسَبُ فِيهَا النِّقَاطُ عِنْدَ فَوْزِ التَّبَادُلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_070",
+      "arabic": "إِرْسَالٌ رِيَاضِيٌّ",
+      "meaning_ar": "ضَرْبَةٌ تَبْدَأُ بِهَا النُّقْطَةُ فِي بَعْضِ أَلْعَابِ الْمَضْرَبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِرْسَالَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "إِرْسَالٌ قَوِيٌّ"
+      ],
+      "examples_ar": [
+        "أَدَّى اللَّاعِبُ إِرْسَالًا دَقِيقًا."
+      ],
+      "usage_note_ar": "يَرِدُ فِي التَّنِسِ وَالْكُرَةِ الطَّائِرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_071",
+      "arabic": "ضَرْبَةٌ سَاحِقَةٌ",
+      "meaning_ar": "ضَرْبَةُ كُرَةٍ بِقُوَّةٍ نَحْوَ أَرْضِ الْخَصْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ضَرَبَاتٌ سَاحِقَةٌ"
+      ],
+      "collocations": [
+        "ضَرْبَةٌ فَوْقَ الشَّبَكَةِ"
+      ],
+      "examples_ar": [
+        "نَفَّذَ اللَّاعِبُ ضَرْبَةً سَاحِقَةً."
+      ],
+      "usage_note_ar": "تَرِدُ فِي الْكُرَةِ الطَّائِرَةِ وَأَلْعَابٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_072",
+      "arabic": "حَائِطُ صَدٍّ",
+      "meaning_ar": "حَرَكَةٌ يَرْفَعُ فِيهَا اللَّاعِبُونَ أَيْدِيَهُمْ لِمَنْعِ الْكُرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حِيطَانُ صَدٍّ"
+      ],
+      "collocations": [
+        "حَائِطُ صَدٍّ مُزْدَوِجٌ"
+      ],
+      "examples_ar": [
+        "نَجَحَ الْفَرِيقُ فِي حَائِطِ الصَّدِّ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْكُرَةِ الطَّائِرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_073",
+      "arabic": "كُرَةُ يَدٍ",
+      "meaning_ar": "لُعْبَةٌ جَمَاعِيَّةٌ تُرْمَى فِيهَا الْكُرَةُ بِالْيَدِ نَحْوَ الْمَرْمَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُبَارَاةُ كُرَةِ يَدٍ"
+      ],
+      "examples_ar": [
+        "تَنَافَسَ الْفَرِيقَانِ فِي كُرَةِ الْيَدِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ قَوَاعِدُهَا عَنْ كُرَةِ الْقَدَمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_074",
+      "arabic": "تَنِسٌ",
+      "meaning_ar": "لُعْبَةٌ يُضْرَبُ فِيهَا الْكُرَةُ بِالْمَضْرَبِ فَوْقَ شَبَكَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَلْعَبُ التَّنِسِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ اللَّاعِبُ عَلَى التَّنِسِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ مُبَارَاتُهَا فَرْدِيَّةً أَوْ زَوْجِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_075",
+      "arabic": "مِضْرَبٌ",
+      "meaning_ar": "أَدَاةٌ لَهَا مِقْبَضٌ وَسَطْحٌ لِضَرْبِ الْكُرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَضَارِبُ"
+      ],
+      "collocations": [
+        "مِضْرَبُ التَّنِسِ"
+      ],
+      "examples_ar": [
+        "أَمْسَكَ اللَّاعِبُ بِالْمِضْرَبِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَشْكَالُهُ بِحَسَبِ اللُّعْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_076",
+      "arabic": "كُرَةُ تَنِسٍ",
+      "meaning_ar": "كُرَةٌ صَغِيرَةٌ مُصَمَّمَةٌ لِلَّعِبِ فِي مَلْعَبِ التَّنِسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كُرَاتُ تَنِسٍ"
+      ],
+      "collocations": [
+        "كُرَةٌ صَفْرَاءُ"
+      ],
+      "examples_ar": [
+        "ضَرَبَ اللَّاعِبُ كُرَةَ التَّنِسِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ كُرَاتِ الْأَلْعَابِ الأُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_077",
+      "arabic": "شَبَكَةُ تَنِسٍ",
+      "meaning_ar": "حَاجِزٌ مَشْدُودٌ يَفْصِلُ بَيْنَ طَرَفَيِ الْمَلْعَبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَبَكَاتُ تَنِسٍ"
+      ],
+      "collocations": [
+        "شَبَكَةُ الْمَلْعَبِ"
+      ],
+      "examples_ar": [
+        "مَرَّتِ الْكُرَةُ فَوْقَ الشَّبَكَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ ارْتِفَاعُهَا بِحَسَبِ اللُّعْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_078",
+      "arabic": "تَبَادُلُ ضَرَبَاتٍ",
+      "meaning_ar": "اسْتِمْرَارُ إِرْسَالِ الْكُرَةِ بَيْنَ اللَّاعِبَيْنِ دُونَ حَسْمِ النُّقْطَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَبَادُلٌ طَوِيلٌ"
+      ],
+      "examples_ar": [
+        "اسْتَمَرَّ تَبَادُلُ الضَّرَبَاتِ بَيْنَ اللَّاعِبَيْنِ."
+      ],
+      "usage_note_ar": "يَرِدُ فِي أَلْعَابِ الْمَضْرَبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_079",
+      "arabic": "شَوْطُ تَنِسٍ",
+      "meaning_ar": "مَجْمُوعَةُ نِقَاطٍ يُحْسَمُ بِهَا جُزْءٌ مِنْ مُبَارَاةِ التَّنِسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْوَاطُ تَنِسٍ"
+      ],
+      "collocations": [
+        "فَوْزٌ بِالشَّوْطِ"
+      ],
+      "examples_ar": [
+        "حَسَمَ اللَّاعِبُ الشَّوْطَ بَعْدَ تَنَافُسٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ الْمَجْمُوعَةِ الَّتِي تَضُمُّ أَشْوَاطًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_080",
+      "arabic": "مَجْمُوعَةُ تَنِسٍ",
+      "meaning_ar": "وَحْدَةٌ فِي مُبَارَاةِ التَّنِسِ تَتَكَوَّنُ مِنْ عِدَّةِ أَشْوَاطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَجْمُوعَاتُ تَنِسٍ"
+      ],
+      "collocations": [
+        "الْمَجْمُوعَةُ الثَّانِيَةُ"
+      ],
+      "examples_ar": [
+        "فَازَتِ اللَّاعِبَةُ بِالْمَجْمُوعَةِ الأُولَى."
+      ],
+      "usage_note_ar": "تُحْسَبُ بِقَوَاعِدَ تَخْتَلِفُ عَنِ النِّقَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_081",
+      "arabic": "رِيشَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "جِسْمٌ خَفِيفٌ يُضْرَبُ بِالْمِضْرَبِ فِي لُعْبَةِ الرِّيشَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رِيشَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "رِيشَةُ اللَّعِبِ"
+      ],
+      "examples_ar": [
+        "سَقَطَتِ الرِّيشَةُ قُرْبَ الشَّبَكَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ كُرَةِ التَّنِسِ فِي الشَّكْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_082",
+      "arabic": "تَنِسُ طَاوِلَةٍ",
+      "meaning_ar": "لُعْبَةٌ تُضْرَبُ فِيهَا كُرَةٌ صَغِيرَةٌ فَوْقَ طَاوِلَةٍ بِالْمِضْرَبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُبَارَاةُ تَنِسِ طَاوِلَةٍ"
+      ],
+      "examples_ar": [
+        "لَعِبَ الأَخَوَانِ تَنِسَ الطَّاوِلَةِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ سُرْعَةَ رَدِّ الْفِعْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_083",
+      "arabic": "سِبَاحَةٌ",
+      "meaning_ar": "حَرَكَةُ الْإِنْسَانِ فِي الْمَاءِ بِاسْتِخْدَامِ أَطْرَافِهِ وَجِسْمِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَعَلُّمُ السِّبَاحَةِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الطِّفْلُ عَلَى السِّبَاحَةِ مَعَ الْمُدَرِّبِ."
+      ],
+      "usage_note_ar": "تُعَدُّ رِيَاضَةً وَمَهَارَةً لِلسَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_084",
+      "arabic": "سَبَّاحٌ",
+      "meaning_ar": "شَخْصٌ يَتَحَرَّكُ فِي الْمَاءِ بِالسِّبَاحَةِ وَقَدْ يُنَافِسُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَبَّاحُونَ"
+      ],
+      "collocations": [
+        "سَبَّاحٌ سَرِيعٌ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ السَّبَّاحُ الطُّولَ الأَوَّلَ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ سَبَّاحَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_085",
+      "arabic": "مَسْبَحٌ",
+      "meaning_ar": "حَوْضٌ مُخَصَّصٌ لِلسِّبَاحَةِ وَالتَّدْرِيبِ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسَابِحُ"
+      ],
+      "collocations": [
+        "مَسْبَحٌ مُغَطًّى"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الأَطْفَالُ فِي الْمَسْبَحِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُرَاقَبَةِ السَّلَامَةِ وَنَظَافَةِ الْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_086",
+      "arabic": "مِسَارُ سِبَاحَةٍ",
+      "meaning_ar": "جُزْءٌ طُولِيٌّ مُحَدَّدٌ مِنَ الْمَسْبَحِ لِسِبَاحٍ وَاحِدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسَارَاتُ سِبَاحَةٍ"
+      ],
+      "collocations": [
+        "مِسَارُ السِّبَاقِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ السَّبَّاحُ مِنْ مَسَارِهِ."
+      ],
+      "usage_note_ar": "تَفْصِلُ بَيْنَ الْمَسَارَاتِ حَوَاجِزُ عَائِمَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_087",
+      "arabic": "نَظَّارَةُ سِبَاحَةٍ",
+      "meaning_ar": "أَدَاةٌ تُغَطِّي الْعَيْنَيْنِ لِتَحْمِيَهُمَا أَثْنَاءَ السِّبَاحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَظَّارَاتُ سِبَاحَةٍ"
+      ],
+      "collocations": [
+        "نَظَّارَةٌ مُحْكَمَةٌ"
+      ],
+      "examples_ar": [
+        "لَبِسَ السَّبَّاحُ النَّظَّارَةَ قَبْلَ النُّزُولِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى الرُّؤْيَةِ تَحْتَ الْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_088",
+      "arabic": "قُبَّعَةُ سِبَاحَةٍ",
+      "meaning_ar": "غِطَاءٌ خَفِيفٌ لِلرَّأْسِ يُلْبَسُ فِي الْمَسْبَحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُبَّعَاتُ سِبَاحَةٍ"
+      ],
+      "collocations": [
+        "قُبَّعَةٌ مَرِنَةٌ"
+      ],
+      "examples_ar": [
+        "ارْتَدَى السَّبَّاحُ قُبَّعَتَهُ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى جَمْعِ الشَّعْرِ أَثْنَاءَ السِّبَاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_089",
+      "arabic": "سِبَاحَةٌ حُرَّةٌ",
+      "meaning_ar": "أُسْلُوبٌ فِي السِّبَاحَةِ يُسْتَعْمَلُ فِيهِ غَالِبًا الزَّحْفُ عَلَى الْبَطْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِبَاقُ سِبَاحَةٍ حُرَّةٍ"
+      ],
+      "examples_ar": [
+        "فَازَ السَّبَّاحُ فِي السِّبَاقِ الْحُرِّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ قَوَاعِدُهَا عَنْ أَسَالِيبِ السِّبَاحَةِ الأُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_090",
+      "arabic": "سِبَاحَةُ الظَّهْرِ",
+      "meaning_ar": "أُسْلُوبٌ فِي السِّبَاحَةِ يَكُونُ وَجْهُ السَّبَّاحِ فِيهِ إِلَى أَعْلَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِبَاقُ الظَّهْرِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الطِّفْلُ عَلَى سِبَاحَةِ الظَّهْرِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ التَّوَازُنَ وَتَنْظِيمَ حَرَكَةِ الذِّرَاعَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_091",
+      "arabic": "سِبَاحَةُ الصَّدْرِ",
+      "meaning_ar": "أُسْلُوبٌ فِي السِّبَاحَةِ يَسْتَعْمِلُ حَرَكَاتٍ مُتَنَاسِقَةً لِلْأَطْرَافِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِبَاقُ الصَّدْرِ"
+      ],
+      "examples_ar": [
+        "أَتْقَنَ السَّبَّاحُ سِبَاحَةَ الصَّدْرِ."
+      ],
+      "usage_note_ar": "لَهَا قَوَاعِدُ تَحْكُمُ تَوْقِيتَ حَرَكَاتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_092",
+      "arabic": "سِبَاحَةُ الْفَرَاشَةِ",
+      "meaning_ar": "أُسْلُوبٌ تَتَحَرَّكُ فِيهِ الذِّرَاعَانِ مَعًا بِحَرَكَةٍ مُتَكَرِّرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِبَاقُ الْفَرَاشَةِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَتِ السَّبَّاحَةُ عَلَى سِبَاحَةِ الْفَرَاشَةِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَنَاسُقٍ وَقُوَّةٍ بَدَنِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_093",
+      "arabic": "غَوْصٌ",
+      "meaning_ar": "نُزُولُ شَخْصٍ تَحْتَ سَطْحِ الْمَاءِ لِلِاسْتِكْشَافِ أَوِ الرِّيَاضَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "غَوْصٌ بَحْرِيٌّ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ الطَّالِبُ أُسُسَ الْغَوْصِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَدْرِيبًا وَمُرَاعَاةَ السَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_094",
+      "arabic": "غَوَّاصٌ",
+      "meaning_ar": "شَخْصٌ يَسْبَحُ تَحْتَ سَطْحِ الْمَاءِ بِمُعَدَّاتٍ أَوْ دُونَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ غَوَّاصُونَ"
+      ],
+      "collocations": [
+        "غَوَّاصٌ مُحْتَرِفٌ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الْغَوَّاصُ أَسْمَاكًا قُرْبَ الشَّعْبِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ غَوَّاصَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_095",
+      "arabic": "زَعَانِفُ سِبَاحَةٍ",
+      "meaning_ar": "أَدَوَاتٌ تُلْبَسُ فِي الْقَدَمَيْنِ لِزِيَادَةِ الدَّفْعِ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "زَعَانِفُ الْغَوْصِ"
+      ],
+      "examples_ar": [
+        "ارْتَدَى الْغَوَّاصُ الزَّعَانِفَ قَبْلَ السِّبَاحَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي السِّبَاحَةِ وَالْغَوْصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_096",
+      "arabic": "طَوْقُ نَجَاةٍ",
+      "meaning_ar": "أَدَاةٌ عَائِمَةٌ تُسْتَعْمَلُ لِمُسَاعَدَةِ شَخْصٍ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطْوَاقُ نَجَاةٍ"
+      ],
+      "collocations": [
+        "طَوْقٌ بَرْتُقَالِيٌّ"
+      ],
+      "examples_ar": [
+        "أَلْقَى الْمُنْقِذُ طَوْقَ النَّجَاةِ."
+      ],
+      "usage_note_ar": "لَا يَحِلُّ مَحَلَّ تَعَلُّمِ السِّبَاحَةِ وَالْإِشْرَافِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_097",
+      "arabic": "مُنْقِذٌ",
+      "meaning_ar": "شَخْصٌ مُدَرَّبٌ عَلَى مُسَاعَدَةِ مَنْ يَتَعَرَّضُ لِخَطَرٍ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنْقِذُونَ"
+      ],
+      "collocations": [
+        "مُنْقِذُ الْمَسْبَحِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْمُنْقِذُ الأَطْفَالَ فِي الْمَسْبَحِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ مُنْقِذَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_098",
+      "arabic": "جَرْيٌ",
+      "meaning_ar": "حَرَكَةُ الْإِنْسَانِ بِسُرْعَةٍ عَلَى قَدَمَيْهِ أَسْرَعَ مِنَ الْمَشْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُمَارَسَةُ الْجَرْيِ"
+      ],
+      "examples_ar": [
+        "يَجْرِي الطَّالِبُ فِي الْحَدِيقَةِ صَبَاحًا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلصِّحَّةِ وَسِبَاقَاتِ الْعَدْوِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_099",
+      "arabic": "عَدْوٌ",
+      "meaning_ar": "جَرْيٌ سَرِيعٌ يُؤَدَّى فِي سِبَاقٍ أَوْ تَدْرِيبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِبَاقُ الْعَدْوِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الرِّيَاضِيُّ عَلَى الْعَدْوِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْجَرْيِ الْبَطِيءِ فِي الشِّدَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_100",
+      "arabic": "عَدَّاءٌ",
+      "meaning_ar": "شَخْصٌ يُمَارِسُ سِبَاقَاتِ الْجَرْيِ أَوْ يَتَدَرَّبُ عَلَيْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَدَّاؤُونَ"
+      ],
+      "collocations": [
+        "عَدَّاءٌ سَرِيعٌ"
+      ],
+      "examples_ar": [
+        "تَجَاوَزَ الْعَدَّاءُ خَطَّ النِّهَايَةِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ عَدَّاءَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_101",
+      "arabic": "مِضْمَارُ جَرْيٍ",
+      "meaning_ar": "مَسَارٌ مُخَصَّصٌ لِلْعَدْوِ وَسِبَاقَاتِ الْمِسَافَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَضَامِيرُ جَرْيٍ"
+      ],
+      "collocations": [
+        "مِضْمَارٌ دَائِرِيٌّ"
+      ],
+      "examples_ar": [
+        "رَكَضَ الطُّلَّابُ حَوْلَ الْمِضْمَارِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَطْوَالُهُ بِحَسَبِ الْمَرْفَقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_102",
+      "arabic": "خَطُّ الْبِدَايَةِ",
+      "meaning_ar": "عَلَامَةٌ تُحَدِّدُ مَوْضِعَ انْطِلَاقِ الْمُتَسَابِقِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطُوطُ الْبِدَايَةِ"
+      ],
+      "collocations": [
+        "الْوُقُوفُ عِنْدَ الْبِدَايَةِ"
+      ],
+      "examples_ar": [
+        "وَقَفَ الْعَدَّاؤُونَ عِنْدَ خَطِّ الْبِدَايَةِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالْقَوَاعِدِ الَّتِي تُنَظِّمُ الِانْطِلَاقَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_103",
+      "arabic": "خَطُّ النِّهَايَةِ",
+      "meaning_ar": "عَلَامَةٌ تُحَدِّدُ الْمَوْضِعَ الَّذِي يَنْتَهِي عِنْدَهُ السِّبَاقُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطُوطُ النِّهَايَةِ"
+      ],
+      "collocations": [
+        "عُبُورُ خَطِّ النِّهَايَةِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْعَدَّاءُ إِلَى خَطِّ النِّهَايَةِ."
+      ],
+      "usage_note_ar": "يُحْسَبُ الزَّمَنُ أَحْيَانًا عِنْدَ عُبُورِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_104",
+      "arabic": "سَبَاقُ سُرْعَةٍ",
+      "meaning_ar": "مُنَافَسَةٌ فِي الْعَدْوِ عَلَى مَسَافَةٍ قَصِيرَةٍ بِأَقْصَى سُرْعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سِبَاقَاتُ سُرْعَةٍ"
+      ],
+      "collocations": [
+        "سِبَاقُ الْمِئَةِ مِتْرٍ"
+      ],
+      "examples_ar": [
+        "فَازَ الْعَدَّاءُ فِي سِبَاقِ السُّرْعَةِ."
+      ],
+      "usage_note_ar": "تُحْسَمُ غَالِبًا بِفُرُوقِ زَمَنِيَّةٍ قَلِيلَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_105",
+      "arabic": "سَبَاقُ تَحَمُّلٍ",
+      "meaning_ar": "مُنَافَسَةٌ تَتَطَلَّبُ الِاسْتِمْرَارَ فِي الْجُهْدِ لِمُدَّةٍ طَوِيلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سِبَاقَاتُ تَحَمُّلٍ"
+      ],
+      "collocations": [
+        "سِبَاقُ مَسَافَاتٍ طَوِيلَةٍ"
+      ],
+      "examples_ar": [
+        "خَطَّطَ الرِّيَاضِيُّ لِسِبَاقِ التَّحَمُّلِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى تَوْزِيعِ الْجُهْدِ وَالْإِعْدَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_106",
+      "arabic": "مَارَاثُونٌ",
+      "meaning_ar": "سِبَاقُ جَرْيٍ طَوِيلِ الْمَسَافَةِ يُقَامُ فِي الطُّرُقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَارَاثُونَاتٌ"
+      ],
+      "collocations": [
+        "سِبَاقُ مَارَاثُونٍ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الْعَدَّاءُ لِلْمَارَاثُونِ."
+      ],
+      "usage_note_ar": "لَهُ مَسَافَةٌ مَعْرُوفَةٌ فِي الْمُسَابَقَاتِ الرَّسْمِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_107",
+      "arabic": "سِبَاقُ تَتَابُعٍ",
+      "meaning_ar": "مُنَافَسَةٌ يَتَعَاقَبُ فِيهَا أَعْضَاءُ فَرِيقٍ عَلَى إِكْمَالِ الْمَسَافَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سِبَاقَاتُ تَتَابُعٍ"
+      ],
+      "collocations": [
+        "فَرِيقُ التَّتَابُعِ"
+      ],
+      "examples_ar": [
+        "سَلَّمَ الْعَدَّاءُ الْعَصَا إِلَى زَمِيلِهِ."
+      ],
+      "usage_note_ar": "تَحْكُمُهُ قَوَاعِدُ التَّسْلِيمِ بَيْنَ اللَّاعِبِينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_108",
+      "arabic": "عَصَا التَّتَابُعِ",
+      "meaning_ar": "أَدَاةٌ قَصِيرَةٌ يَنْقُلُهَا الْعَدَّاؤُونَ فِي سِبَاقٍ جَمَاعِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عِصِيُّ التَّتَابُعِ"
+      ],
+      "collocations": [
+        "تَسْلِيمُ الْعَصَا"
+      ],
+      "examples_ar": [
+        "أَمْسَكَ الْعَدَّاءُ بِعَصَا التَّتَابُعِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَسْلِيمُهَا فِي مَوَاضِعَ مُحَدَّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_109",
+      "arabic": "قَفْزٌ طَوِيلٌ",
+      "meaning_ar": "مُسَابَقَةٌ يَحَاوِلُ فِيهَا اللَّاعِبُ الْوُثُوبَ إِلَى أَبْعَدِ مَسَافَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِبَاقُ الْقَفْزِ الطَّوِيلِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَتِ اللَّاعِبَةُ عَلَى الْقَفْزِ الطَّوِيلِ."
+      ],
+      "usage_note_ar": "يُقَاسُ الْإِنْجَازُ بِالْمَسَافَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_110",
+      "arabic": "قَفْزٌ عَالٍ",
+      "meaning_ar": "مُسَابَقَةٌ يَحَاوِلُ فِيهَا اللَّاعِبُ تَجَاوُزَ عَارِضَةٍ مُرْتَفِعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُسَابَقَةُ الْقَفْزِ الْعَالِي"
+      ],
+      "examples_ar": [
+        "تَجَاوَزَ اللَّاعِبُ الْعَارِضَةَ بِنَجَاحٍ."
+      ],
+      "usage_note_ar": "يُقَاسُ الْإِنْجَازُ بِالِارْتِفَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_111",
+      "arabic": "رَمْيُ رُمْحٍ",
+      "meaning_ar": "مُسَابَقَةٌ رِيَاضِيَّةٌ تُقَاسُ فِيهَا مَسَافَةُ قَذْفِ الرُّمْحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَدْرِيبُ رَمْيِ الرُّمْحِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ اللَّاعِبُ عَلَى رَمْيِ الرُّمْحِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى مِسَاحَةٍ آمِنَةٍ وَتَدْرِيبٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_112",
+      "arabic": "رَمْيُ قُرْصٍ",
+      "meaning_ar": "مُسَابَقَةٌ يَقْذِفُ فِيهَا اللَّاعِبُ قُرْصًا ثَقِيلًا لِمَسَافَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَمْيُ الْقُرْصِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْحَكَمُ مَسَافَةَ الرَّمْيِ."
+      ],
+      "usage_note_ar": "تَخْضَعُ لِشُرُوطِ تَنْفِيذٍ وَسَلَامَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_113",
+      "arabic": "رَمْيُ جُلَّةٍ",
+      "meaning_ar": "مُسَابَقَةٌ يَدْفَعُ فِيهَا الرِّيَاضِيُّ كُرَةً مَعْدِنِيَّةً ثَقِيلَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَدْرِيبُ دَفْعِ الْجُلَّةِ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ اللَّاعِبُ رَمْيَ الْجُلَّةِ."
+      ],
+      "usage_note_ar": "يُسَمَّى أَيْضًا دَفْعَ الْجُلَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_114",
+      "arabic": "جِمْبَازٌ",
+      "meaning_ar": "رِيَاضَةٌ تَشْمَلُ حَرَكَاتِ التَّوَازُنِ وَالْمَرُونَةِ وَالْقُوَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جِمْبَازٌ فَنِّيٌّ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَتِ الطَّالِبَةُ عَلَى الْجِمْبَازِ."
+      ],
+      "usage_note_ar": "تُؤَدَّى بِأَدَوَاتٍ أَوْ عَلَى الأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_115",
+      "arabic": "تَوَازُنٌ بَدَنِيٌّ",
+      "meaning_ar": "قُدْرَةُ الْإِنْسَانِ عَلَى الْحِفَاظِ عَلَى وَضْعِ جِسْمِهِ أَثْنَاءَ الْحَرَكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَمْرِينُ التَّوَازُنِ"
+      ],
+      "examples_ar": [
+        "وَقَفَ الطِّفْلُ عَلَى قَدَمٍ وَاحِدَةٍ."
+      ],
+      "usage_note_ar": "يَتَحَسَّنُ بِالْمُمَارَسَةِ وَالْإِدْرَاكِ الْحَرَكِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_116",
+      "arabic": "مَرُونَةٌ بَدَنِيَّةٌ",
+      "meaning_ar": "قُدْرَةُ الْمَفَاصِلِ وَالْعَضَلَاتِ عَلَى الْحَرَكَةِ فِي مَدًى مُنَاسِبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَدْرِيبُ الْمَرُونَةِ"
+      ],
+      "examples_ar": [
+        "مَارَسَتِ اللَّاعِبَةُ تَمَارِينَ الْمَرُونَةِ."
+      ],
+      "usage_note_ar": "يَلْزَمُ التَّدَرُّجُ وَعَدَمُ الْإِجْبَارِ عَلَى الْأَلَمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_117",
+      "arabic": "قُوَّةٌ عَضَلِيَّةٌ",
+      "meaning_ar": "قُدْرَةُ الْعَضَلَةِ عَلَى بَذْلِ جُهْدٍ لِدَفْعِ شَيْءٍ أَوْ سَحْبِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَمْرِينُ الْقُوَّةِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الرِّيَاضِيُّ عَلَى زِيَادَةِ الْقُوَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ التَّحَمُّلِ الْعَضَلِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_118",
+      "arabic": "تَحَمُّلٌ بَدَنِيٌّ",
+      "meaning_ar": "قُدْرَةُ الْجِسْمِ عَلَى الِاسْتِمْرَارِ فِي بَذْلِ الْجُهْدِ مُدَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَمْرِينُ التَّحَمُّلِ"
+      ],
+      "examples_ar": [
+        "زَادَ الرِّيَاضِيُّ مُدَّةَ جَرْيِهِ تَدْرِيجِيًّا."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالْلِّيَاقَةِ وَتَنْظِيمِ الْجُهْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_119",
+      "arabic": "لِيَاقَةٌ بَدَنِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ قُدُرَاتٍ جَسَدِيَّةٍ تُسَاعِدُ عَلَى الْحَرَكَةِ وَالنَّشَاطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْسِينُ اللِّيَاقَةِ"
+      ],
+      "examples_ar": [
+        "حَافَظَتِ الْأُسْرَةُ عَلَى لِيَاقَتِهَا بِالْمَشْيِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الْقُوَّةَ وَالتَّحَمُّلَ وَالْمَرُونَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_120",
+      "arabic": "إِحْمَاءٌ",
+      "meaning_ar": "حَرَكَاتٌ تَمْهِيدِيَّةٌ تُعِدُّ الْجِسْمَ لِلنَّشَاطِ الْبَدَنِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَمَارِينُ الْإِحْمَاءِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ اللَّاعِبُونَ الْإِحْمَاءَ قَبْلَ الْمُبَارَاةِ."
+      ],
+      "usage_note_ar": "تُؤَدَّى بِشِدَّةٍ تَدْرِيجِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_121",
+      "arabic": "تَهْدِئَةٌ بَدَنِيَّةٌ",
+      "meaning_ar": "حَرَكَاتٌ خَفِيفَةٌ تَأْتِي بَعْدَ التَّمْرِينِ لِخَفْضِ الْجُهْدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فَتْرَةُ التَّهْدِئَةِ"
+      ],
+      "examples_ar": [
+        "مَشَى اللَّاعِبُ بِبُطْءٍ بَعْدَ الْجَرْيِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ التَّوَقُّفِ الْمُفَاجِئِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_122",
+      "arabic": "إِطَالَةٌ عَضَلِيَّةٌ",
+      "meaning_ar": "حَرَكَةٌ تُوَسِّعُ مَدَى تَمَدُّدِ عَضَلَةٍ أَوْ مَفْصِلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِطَالَاتٌ عَضَلِيَّةٌ"
+      ],
+      "collocations": [
+        "تَمْرِينُ الْإِطَالَةِ"
+      ],
+      "examples_ar": [
+        "أَدَّى اللَّاعِبُ إِطَالَةً خَفِيفَةً."
+      ],
+      "usage_note_ar": "تُؤَدَّى دُونَ قُوَّةٍ تُسَبِّبُ أَلَمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_123",
+      "arabic": "مَدَى الْحَرَكَةِ",
+      "meaning_ar": "الْمَسَافَةُ أَوِ الزَّاوِيَةُ الَّتِي يَسْتَطِيعُ الْمَفْصِلُ الْحَرَكَةَ فِيهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْسِينُ مَدَى الْحَرَكَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُدَرِّبُ مَدَى حَرَكَةِ الْكَتِفِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ بِحَسَبِ الْمَفْصِلِ وَالشَّخْصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_124",
+      "arabic": "وَزْنٌ حُرٌّ",
+      "meaning_ar": "أَدَاةٌ ثَقِيلَةٌ تُمْسَكُ بِالْيَدِ لِتَدْرِيبِ الْعَضَلَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَوْزَانٌ حُرَّةٌ"
+      ],
+      "collocations": [
+        "تَدْرِيبٌ بِالأَوْزَانِ"
+      ],
+      "examples_ar": [
+        "حَمَلَ الرِّيَاضِيُّ وَزْنًا خَفِيفًا."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْأَثْقَالَ الْيَدَوِيَّةَ وَالْقَضْبَانَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_125",
+      "arabic": "دُمْبِلٌ",
+      "meaning_ar": "ثِقْلٌ صَغِيرٌ يُمْسَكُ بِيَدٍ وَاحِدَةٍ لِلتَّدْرِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دَمَابِلُ"
+      ],
+      "collocations": [
+        "دُمْبِلٌ خَفِيفٌ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَتِ الطَّالِبَةُ بِالدَّمَابِلِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَمَارِينِ الْقُوَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_126",
+      "arabic": "قَضِيبُ أَثْقَالٍ",
+      "meaning_ar": "عَصًا مَعْدِنِيَّةٌ تُثَبَّتُ عَلَيْهَا أَوْزَانٌ لِلتَّدْرِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُضْبَانُ أَثْقَالٍ"
+      ],
+      "collocations": [
+        "قَضِيبُ رَفْعِ أَثْقَالٍ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْمُدَرِّبُ الأَوْزَانَ عَلَى الْقَضِيبِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ اسْتِعْمَالُهُ طَرِيقَةً مُنَاسِبَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_127",
+      "arabic": "جِهَازُ مُقَاوَمَةٍ",
+      "meaning_ar": "مُعَدَّةٌ رِيَاضِيَّةٌ تَسْتَعْمِلُ وَزْنًا أَوْ شَدًّا لِتَدْرِيبِ الْعَضَلَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَجْهِزَةُ مُقَاوَمَةٍ"
+      ],
+      "collocations": [
+        "جِهَازُ تَدْرِيبٍ"
+      ],
+      "examples_ar": [
+        "ضَبَطَ الْمُدَرِّبُ الْجِهَازَ لِلْمُبْتَدِئِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي الصَّالَاتِ الرِّيَاضِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_128",
+      "arabic": "صَالَةُ رِيَاضَةٍ",
+      "meaning_ar": "مَكَانٌ مُجَهَّزٌ بِأَدَوَاتٍ وَمَسَاحَاتٍ لِلتَّدْرِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَالَاتُ رِيَاضَةٍ"
+      ],
+      "collocations": [
+        "صَالَةٌ مُجَهَّزَةٌ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الشَّابُّ فِي صَالَةِ الرِّيَاضَةِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَنْشِطَةَ الْقُوَّةِ وَاللِّيَاقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_129",
+      "arabic": "جِهَازُ مَشْيٍ",
+      "meaning_ar": "آلَةٌ رِيَاضِيَّةٌ تُحَرِّكُ سَطْحًا لِلْمَشْيِ أَوِ الْجَرْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَجْهِزَةُ مَشْيٍ"
+      ],
+      "collocations": [
+        "جِهَازُ الْمَشْيِ الْكَهْرَبَائِيُّ"
+      ],
+      "examples_ar": [
+        "مَشَى الرَّجُلُ عَلَى جِهَازِ الْمَشْيِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ دَاخِلَ الْمَنَازِلِ وَالصَّالَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_130",
+      "arabic": "دَرَّاجَةٌ ثَابِتَةٌ",
+      "meaning_ar": "جِهَازٌ رِيَاضِيٌّ يُحَاكِي دَوَسَ الدَّرَّاجَةِ دُونَ انْتِقَالٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دَرَّاجَاتٌ ثَابِتَةٌ"
+      ],
+      "collocations": [
+        "دَرَّاجَةُ التَّمْرِينِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الْوَالِدُ عَلَى دَرَّاجَةٍ ثَابِتَةٍ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَمَارِينِ التَّحَمُّلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_131",
+      "arabic": "حَبْلُ قَفْزٍ",
+      "meaning_ar": "حَبْلٌ يُدَارُ حَوْلَ الْجِسْمِ لِيَقْفِزَ الشَّخْصُ فَوْقَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حِبَالُ قَفْزٍ"
+      ],
+      "collocations": [
+        "تَمْرِينُ حَبْلِ الْقَفْزِ"
+      ],
+      "examples_ar": [
+        "قَفَزَ الطِّفْلُ بِالْحَبْلِ فِي السَّاحَةِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُهُ الرِّيَاضِيُّونَ لِتَحْسِينِ التَّنْسِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_132",
+      "arabic": "بِسَاطُ تَمَارِينٍ",
+      "meaning_ar": "سَطْحٌ لَيِّنٌ يُفْرَشُ عَلَى الْأَرْضِ لِلتَّدْرِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بُسُطُ تَمَارِينٍ"
+      ],
+      "collocations": [
+        "بِسَاطٌ مُضَادٌّ لِلِانْزِلَاقِ"
+      ],
+      "examples_ar": [
+        "فَرَشَتِ الطَّالِبَةُ بِسَاطَ التَّمَارِينِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْإِطَالَةِ وَالْتَّمَارِينِ الأَرْضِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_133",
+      "arabic": "ضَغْطٌ أَرْضِيٌّ",
+      "meaning_ar": "تَمْرِينٌ يَرْفَعُ فِيهِ الشَّخْصُ جِسْمَهُ بِذِرَاعَيْهِ مِنَ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَمْرِينُ الضَّغْطِ"
+      ],
+      "examples_ar": [
+        "أَدَّى الشَّابُّ عَشْرَ حَرَكَاتِ ضَغْطٍ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَدْرِيبِ عَضَلَاتِ الْجِذْعِ وَالذِّرَاعَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_134",
+      "arabic": "قُرْفُصَاءُ",
+      "meaning_ar": "وَضْعٌ يَنْثَنِي فِيهِ الشَّخْصُ بِالرُّكْبَتَيْنِ مَعَ خَفْضِ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَمْرِينُ الْقُرْفُصَاءِ"
+      ],
+      "examples_ar": [
+        "أَدَّى الرِّيَاضِيُّ تَمْرِينَ الْقُرْفُصَاءِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَحَكُّمٍ فِي الْوَضْعِ وَالْحَرَكَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_135",
+      "arabic": "عَقَلَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "قَضِيبٌ أُفُقِيٌّ يَتَعَلَّقُ بِهِ الشَّخْصُ لِرَفْعِ جِسْمِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَقَلَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "تَمْرِينُ الْعَقَلَةِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّقَ الشَّابُّ بِالْقَضِيبِ لِلْتَّدْرِيبِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَقْوِيَةِ الظَّهْرِ وَالذِّرَاعَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_136",
+      "arabic": "لِيَاقَةٌ قَلْبِيَّةٌ",
+      "meaning_ar": "قُدْرَةُ الْقَلْبِ وَالرِّئَتَيْنِ عَلَى دَعْمِ الْجُهْدِ الْبَدَنِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَدْرِيبُ اللِّيَاقَةِ الْقَلْبِيَّةِ"
+      ],
+      "examples_ar": [
+        "حَسَّنَتِ الْمُمَارَسَةُ الْمُنْتَظِمَةُ لِيَاقَتَهُ."
+      ],
+      "usage_note_ar": "تُقَاسُ بِطُرُقٍ مُخْتَلِفَةٍ لَدَى الْمُخْتَصِّينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_137",
+      "arabic": "نَبْضٌ رِيَاضِيٌّ",
+      "meaning_ar": "عَدَدُ ضَرَبَاتِ الْقَلْبِ الَّتِي تُقَاسُ أَثْنَاءَ التَّدْرِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُرَاقَبَةُ النَّبْضِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الرِّيَاضِيُّ نَبْضَهُ بَعْدَ الْجَرْيِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ بِحَسَبِ شِدَّةِ النَّشَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_138",
+      "arabic": "عَدَّادُ خُطُوَاتٍ",
+      "meaning_ar": "جِهَازٌ أَوْ تَطْبِيقٌ يُقَدِّرُ عَدَدَ الْخُطُوَاتِ أَثْنَاءَ الْمَشْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَدَّادَاتُ خُطُوَاتٍ"
+      ],
+      "collocations": [
+        "عَدَّادُ الْمَشْيِ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الرَّجُلُ عَدَدَ خُطُوَاتِهِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دِقَّتُهُ بِحَسَبِ الْجِهَازِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_139",
+      "arabic": "سَاعَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "جِهَازٌ يُلْبَسُ فِي الْمِعْصَمِ لِمُتَابَعَةِ النَّشَاطِ وَالْوَقْتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَاعَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "سَاعَةٌ ذَكِيَّةٌ"
+      ],
+      "examples_ar": [
+        "قَاسَتِ السَّاعَةُ مُدَّةَ الْجَرْيِ."
+      ],
+      "usage_note_ar": "تُظْهِرُ بَعْضُهَا النَّبْضَ وَالْمَسَافَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_140",
+      "arabic": "سَعْيٌ رِيَاضِيٌّ",
+      "meaning_ar": "جُهْدٌ يَبْذُلُهُ الشَّخْصُ لِبُلُوغِ هَدَفٍ فِي التَّدْرِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سَعْيٌ نَحْوَ الْهَدَفِ"
+      ],
+      "examples_ar": [
+        "وَاصَلَ اللَّاعِبُ سَعْيَهُ لِتَحْسِينِ نَتِيجَتِهِ."
+      ],
+      "usage_note_ar": "يَرِدُ السَّعْيُ أَيْضًا لِلْمَشْيِ وَالْجِدِّ فِي الطَّلَبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_141",
+      "arabic": "تَعَبٌ عَضَلِيٌّ",
+      "meaning_ar": "إِحْسَاسٌ بِصُعُوبَةِ مُوَاصَلَةِ الْجُهْدِ بَعْدَ تَدْرِيبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَعَبٌ بَعْدَ الْجَرْيِ"
+      ],
+      "examples_ar": [
+        "اسْتَرَاحَ الرِّيَاضِيُّ بَعْدَ أَنْ شَعَرَ بِالتَّعَبِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَأَثَّرُ بِالْمُدَّةِ وَشِدَّةِ النَّشَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_142",
+      "arabic": "رَاحَةٌ بَيْنَ الْجَوْلَاتِ",
+      "meaning_ar": "فَتْرَةٌ يَتَوَقَّفُ فِيهَا الرِّيَاضِيُّ قَلِيلًا بَيْنَ مَجْمُوعَاتِ التَّمْرِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُدَّةُ الرَّاحَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَرَاحَ اللَّاعِبُ دَقِيقَةً بَيْنَ التَّمَارِينِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مُدَّتُهَا وَفْقَ نَوْعِ التَّدْرِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_143",
+      "arabic": "إِجْهَادٌ بَدَنِيٌّ",
+      "meaning_ar": "حَالَةٌ مِنَ التَّعَبِ تَنْتُجُ عَنْ بَذْلِ جُهْدٍ شَدِيدٍ أَوْ مُتَكَرِّرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَجَنُّبُ الْإِجْهَادِ"
+      ],
+      "examples_ar": [
+        "قَلَّلَ اللَّاعِبُ التَّدْرِيبَ عِنْدَ التَّعَبِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُوَازَنَةِ النَّشَاطِ وَالرَّاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_144",
+      "arabic": "إِصَابَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "ضَرَرٌ يَقَعُ لِلْجِسْمِ أَثْنَاءَ التَّدْرِيبِ أَوِ اللَّعِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِصَابَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "وِقَايَةٌ مِنَ الْإِصَابَاتِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفَ اللَّاعِبُ بَعْدَ إِصَابَةٍ."
+      ],
+      "usage_note_ar": "قَدْ تُصِيبُ الْعَضَلَاتِ أَوِ الْمَفَاصِلَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_145",
+      "arabic": "مُعَالِجٌ رِيَاضِيٌّ",
+      "meaning_ar": "مُخْتَصٌّ يُسَاعِدُ فِي تَقْيِيمِ إِصَابَاتِ اللَّاعِبِينَ وَتَأْهِيلِهِمْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُعَالِجُونَ رِيَاضِيُّونَ"
+      ],
+      "collocations": [
+        "جَلْسَةُ تَأْهِيلٍ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْمُعَالِجُ تَعَافِيَ اللَّاعِبِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ اخْتِصَاصُهُ وَفْقَ التَّأْهِيلِ الْمِهْنِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_146",
+      "arabic": "تَأْهِيلٌ رِيَاضِيٌّ",
+      "meaning_ar": "بَرْنَامَجٌ مُتَدَرِّجٌ لِاسْتِعَادَةِ الْحَرَكَةِ وَالْقُوَّةِ بَعْدَ إِصَابَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّأْهِيلِ"
+      ],
+      "examples_ar": [
+        "عَادَ اللَّاعِبُ إِلَى التَّدْرِيبِ بَعْدَ التَّأْهِيلِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُتَابَعَةِ مُخْتَصٍّ عِنْدَ الْإِصَابَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_147",
+      "arabic": "تَنَفُّسٌ مُنْتَظِمٌ",
+      "meaning_ar": "إِدْخَالُ الْهَوَاءِ وَإِخْرَاجُهُ بِإِيقَاعٍ مُنَاسِبٍ لِلْجُهْدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَنْظِيمُ التَّنَفُّسِ"
+      ],
+      "examples_ar": [
+        "حَافَظَ الْعَدَّاءُ عَلَى تَنَفُّسٍ مُنْتَظِمٍ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ مَعَ السُّرْعَةِ وَالْمَجْهُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_148",
+      "arabic": "مَاءُ الشُّرْبِ لِلرِّيَاضِيِّ",
+      "meaning_ar": "مَاءٌ يَتَنَاوَلُهُ الْمُتَدَرِّبُ لِتَعْوِيضِ الْفَاقِدِ مِنَ السَّوَائِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "زُجَاجَةُ مَاءٍ"
+      ],
+      "examples_ar": [
+        "شَرِبَ اللَّاعِبُ مَاءً بَعْدَ التَّمْرِينِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْحَاجَةُ إِلَيْهِ بِحَسَبِ الْجُهْدِ وَالْجَوِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_149",
+      "arabic": "مَشْيٌ سَرِيعٌ",
+      "meaning_ar": "مُرُورُ الشَّخْصِ عَلَى قَدَمَيْهِ بِوَتِيرَةٍ أَسْرَعَ مِنَ الْمُعْتَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُمَارَسَةُ الْمَشْيِ السَّرِيعِ"
+      ],
+      "examples_ar": [
+        "مَشَتِ الْأُسْرَةُ نِصْفَ سَاعَةٍ."
+      ],
+      "usage_note_ar": "يُمْكِنُ مُمَارَسَتُهُ فِي الْحَدَائِقِ وَالطُّرُقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_150",
+      "arabic": "رِحْلَةُ مَشْيٍ",
+      "meaning_ar": "خُرُوجٌ عَلَى الْأَقْدَامِ فِي طَرِيقٍ طَوِيلٍ أَوْ طَبِيعِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رِحْلَاتُ مَشْيٍ"
+      ],
+      "collocations": [
+        "رِحْلَةٌ جَبَلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "خَرَجَ الْأَصْدِقَاءُ فِي رِحْلَةِ مَشْيٍ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَخْطِيطِ الْمَسَارِ وَالْوَقْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_151",
+      "arabic": "تَسَلُّقٌ",
+      "meaning_ar": "صُعُودُ جَبَلٍ أَوْ جِدَارٍ بِاسْتِخْدَامِ الْأَيْدِي وَالأَقْدَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَسَلُّقُ الْجِبَالِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الْفَرِيقُ عَلَى التَّسَلُّقِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مَعْرِفَةِ الْمَخَاطِرِ وَالْمُعَدَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_152",
+      "arabic": "مُتَسَلِّقٌ",
+      "meaning_ar": "شَخْصٌ يَصْعَدُ الْجِبَالَ أَوِ الْجُدْرَانَ فِي رِيَاضَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُتَسَلِّقُونَ"
+      ],
+      "collocations": [
+        "مُتَسَلِّقٌ خَبِيرٌ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْمُتَسَلِّقُ الْحَبْلَ بِعِنَايَةٍ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ مُتَسَلِّقَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_153",
+      "arabic": "حَبْلُ تَسَلُّقٍ",
+      "meaning_ar": "حَبْلٌ خَاصٌّ يُسْتَعْمَلُ لِلتَّأْمِينِ أَثْنَاءَ الصُّعُودِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حِبَالُ تَسَلُّقٍ"
+      ],
+      "collocations": [
+        "حَبْلٌ مُخَصَّصٌ لِلتَّسَلُّقِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُدَرِّبُ حَبْلَ التَّسَلُّقِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ مُعَدَّاتٍ مُلَائِمَةً وَمُرَاقَبَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_154",
+      "arabic": "خُطَّافُ تَسَلُّقٍ",
+      "meaning_ar": "قِطْعَةٌ مَعْدِنِيَّةٌ تُسْتَعْمَلُ لِرَبْطِ الْحَبْلِ بِالْمُعَدَّاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَطَّافَاتُ تَسَلُّقٍ"
+      ],
+      "collocations": [
+        "فَحْصُ الْخُطَّافِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْمُتَسَلِّقُ الْخُطَّافَ فِي الْحِزَامِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى اخْتِيَارٍ مُنَاسِبٍ لِلْغَرَضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_155",
+      "arabic": "حِزَامُ تَسَلُّقٍ",
+      "meaning_ar": "مُعَدَّةٌ تُلْبَسُ حَوْلَ الْجِسْمِ لِرَبْطِهِ بِحَبْلِ الأَمَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحْزِمَةُ تَسَلُّقٍ"
+      ],
+      "collocations": [
+        "حِزَامٌ مُحْكَمٌ"
+      ],
+      "examples_ar": [
+        "ضَبَطَ الْمُتَسَلِّقُ حِزَامَهُ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَثْبِيتًا صَحِيحًا وَفْقَ التَّعْلِيمَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_156",
+      "arabic": "مَسَارُ مُشَاةٍ",
+      "meaning_ar": "طَرِيقٌ مُخَصَّصٌ لِلْمَشْيِ فِي الْحَدَائِقِ أَوِ الطَّبِيعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسَارَاتُ مُشَاةٍ"
+      ],
+      "collocations": [
+        "مَسَارٌ جَبَلِيٌّ"
+      ],
+      "examples_ar": [
+        "اتَّبَعَ الْمُتَنَزِّهُونَ مَسَارَ الْمُشَاةِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْتَاجُ إِلَى إِشَارَاتٍ وَتَجْهِيزَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_157",
+      "arabic": "خُرُوجٌ لِلطَّبِيعَةِ",
+      "meaning_ar": "رِحْلَةٌ قَصِيرَةٌ إِلَى حَدِيقَةٍ أَوْ غَابَةٍ لِلرَّاحَةِ وَالْمَشْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نُزْهَةٌ فِي الْغَابَةِ"
+      ],
+      "examples_ar": [
+        "خَرَجَتِ الْأُسْرَةُ إِلَى الطَّبِيعَةِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالتَّرْفِيهِ وَالْهَوَاءِ الطَّلْقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_158",
+      "arabic": "تَخْيِيمٌ",
+      "meaning_ar": "إِقَامَةٌ مُؤَقَّتَةٌ فِي الْخَارِجِ بِاسْتِعْمَالِ خَيْمَةٍ أَوْ مَأْوًى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رِحْلَةُ تَخْيِيمٍ"
+      ],
+      "examples_ar": [
+        "نَصَبَ الْأَصْدِقَاءُ خَيْمَةً قُرْبَ الْجَبَلِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُرَاعَاةِ الْبِيئَةِ وَالسَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_159",
+      "arabic": "خَيْمَةٌ",
+      "meaning_ar": "مَأْوًى خَفِيفٌ يُنْصَبُ مِنْ قُمَاشٍ أَوْ مَادَّةٍ مَرِنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خِيَامٌ"
+      ],
+      "collocations": [
+        "خَيْمَةُ رِحْلَةٍ"
+      ],
+      "examples_ar": [
+        "نَصَبَتِ الْأُسْرَةُ الْخَيْمَةَ فِي الْمُخَيَّمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَحْجَامُهَا وَقُدْرَتُهَا عَلَى مُقَاوَمَةِ الْمَطَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_160",
+      "arabic": "كِيسُ نَوْمٍ",
+      "meaning_ar": "غِلَافٌ مُبَطَّنٌ يَنَامُ دَاخِلَهُ الشَّخْصُ أَثْنَاءَ التَّخْيِيمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَكْيَاسُ نَوْمٍ"
+      ],
+      "collocations": [
+        "كِيسُ نَوْمٍ دَافِئٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُسَافِرُ كِيسَ النَّوْمِ فِي الْخَيْمَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ دِفْؤُهُ بِحَسَبِ الْمَادَّةِ وَالدَّرَجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_161",
+      "arabic": "مِصْبَاحُ تَخْيِيمٍ",
+      "meaning_ar": "مَصْدَرُ ضَوْءٍ يُحْمَلُ لِلِاسْتِعْمَالِ فِي الْخَارِجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَصَابِيحُ تَخْيِيمٍ"
+      ],
+      "collocations": [
+        "مِصْبَاحٌ مَحْمُولٌ"
+      ],
+      "examples_ar": [
+        "أَضَاءَ الْأَبُ الْخَيْمَةَ بِالْمِصْبَاحِ."
+      ],
+      "usage_note_ar": "يَعْمَلُ بِالْبَطَّارِيَّةِ أَوْ بِوَسِيلَةٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_162",
+      "arabic": "حَقِيبَةُ ظَهْرٍ",
+      "meaning_ar": "حَقِيبَةٌ تُحْمَلُ عَلَى الْكَتِفَيْنِ لِنَقْلِ الْأَغْرَاضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَقَائِبُ ظَهْرٍ"
+      ],
+      "collocations": [
+        "حَقِيبَةٌ خَفِيفَةٌ"
+      ],
+      "examples_ar": [
+        "حَمَلَ الْمُتَنَزِّهُ حَقِيبَةَ الظَّهْرِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي الْمَدْرَسَةِ وَالسَّفَرِ وَالتَّخْيِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_163",
+      "arabic": "مِعْطَفٌ مَطَرِيٌّ",
+      "meaning_ar": "مَلْبَسٌ يُسَاعِدُ عَلَى حِمَايَةِ الْجِسْمِ مِنَ الْمَطَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَعَاطِفُ مَطَرِيَّةٌ"
+      ],
+      "collocations": [
+        "مِعْطَفٌ مُقَاوِمٌ لِلْمَاءِ"
+      ],
+      "examples_ar": [
+        "ارْتَدَى الْمُسَافِرُ الْمِعْطَفَ قَبْلَ الْمَطَرِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دَرَجَةُ حِمَايَتِهِ بِحَسَبِ الْمَادَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_164",
+      "arabic": "حِذَاءُ مَشْيٍ",
+      "meaning_ar": "حِذَاءٌ يُصَمَّمُ لِرَاحَةِ الْقَدَمِ أَثْنَاءَ السَّيْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحْذِيَةُ مَشْيٍ"
+      ],
+      "collocations": [
+        "حِذَاءٌ مُرِيحٌ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْمُتَنَزِّهُ حِذَاءَ مَشْيٍ مُنَاسِبًا."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ بِحَسَبِ الطَّرِيقِ وَالْمَسَافَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_165",
+      "arabic": "رِيَاضَةُ رُكُوبِ الْخَيْلِ",
+      "meaning_ar": "مُمَارَسَةُ التَّحَكُّمِ فِي الْخَيْلِ وَالسَّيْرِ بِهَا أَوِ التَّنَافُسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَعَلُّمُ رُكُوبِ الْخَيْلِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الطِّفْلُ عَلَى رُكُوبِ الْخَيْلِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَشْكَالًا مِنَ الرِّيَاضَةِ وَالتَّرْفِيهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_166",
+      "arabic": "فَارِسٌ",
+      "meaning_ar": "شَخْصٌ يَرْكَبُ الْخَيْلَ وَيُحْسِنُ التَّعَامُلَ مَعَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فُرْسَانٌ"
+      ],
+      "collocations": [
+        "فَارِسٌ مَاهِرٌ"
+      ],
+      "examples_ar": [
+        "قَفَزَ الْفَارِسُ بِالْحِصَانِ فَوْقَ الْحَاجِزِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلْمُحَارِبِ الرَّاكِبِ قَدِيمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_167",
+      "arabic": "سَرْجٌ",
+      "meaning_ar": "مَقْعَدٌ يُثَبَّتُ عَلَى ظَهْرِ الْحِصَانِ لِيَجْلِسَ عَلَيْهِ الرَّاكِبُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سُرُوجٌ"
+      ],
+      "collocations": [
+        "سَرْجُ الْحِصَانِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْفَارِسُ السَّرْجَ قَبْلَ الرُّكُوبِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُهُ الرَّاكِبُ لِلتَّوَازُنِ وَالْجُلُوسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_168",
+      "arabic": "لِجَامٌ",
+      "meaning_ar": "أَدَاةٌ تُوْضَعُ عَلَى رَأْسِ الْفَرَسِ لِتَوْجِيهِهِ بِالْعِنَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لُجُمٌ"
+      ],
+      "collocations": [
+        "لِجَامُ الْحِصَانِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْفَارِسُ اللِّجَامَ قَبْلَ السَّيْرِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى ضَبْطٍ لَا يُؤْذِي الْحَيَوَانَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_169",
+      "arabic": "عِنَانٌ",
+      "meaning_ar": "سَيْرٌ يُمْسِكُ بِهِ الْفَارِسُ لِتَوْجِيهِ الْحِصَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعِنَّةٌ"
+      ],
+      "collocations": [
+        "إِمْسَاكُ الْعِنَانِ"
+      ],
+      "examples_ar": [
+        "أَمْسَكَ الْفَارِسُ بِعِنَانِ الْفَرَسِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا مَجَازًا لِلْقِيَادَةِ وَالتَّحَكُّمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_170",
+      "arabic": "قَفْزُ الْحَوَاجِزِ",
+      "meaning_ar": "رِيَاضَةٌ يَتَجَاوَزُ فِيهَا الْحِصَانُ عَوَائِقَ بِقِيَادَةِ الْفَارِسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُسَابَقَةُ الْحَوَاجِزِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الْفَارِسُ عَلَى قَفْزِ الْحَوَاجِزِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَنْسِيقًا بَيْنَ الْفَارِسِ وَالْحِصَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_171",
+      "arabic": "رَمْيُ السِّهَامِ",
+      "meaning_ar": "رِيَاضَةٌ تُسَدَّدُ فِيهَا السِّهَامُ مِنْ قَوْسٍ نَحْوَ هَدَفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَيْدَانُ رَمْيِ السِّهَامِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الشَّابُّ عَلَى الرَّمْيِ فِي الْمَيْدَانِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى قَوَاعِدَ دَقِيقَةٍ لِلسَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_172",
+      "arabic": "قَوْسٌ رِيَاضِيٌّ",
+      "meaning_ar": "أَدَاةٌ مَرِنَةٌ مَشْدُودَةٌ بِوَتَرٍ لِإِطْلَاقِ السَّهْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَقْوَاسٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "قَوْسُ التَّدْرِيبِ"
+      ],
+      "examples_ar": [
+        "أَمْسَكَ الرَّامِي بِالْقَوْسِ بِثَبَاتٍ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ مُسَاحَةً آمِنَةً وَتَدْرِيبًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_173",
+      "arabic": "سَهْمٌ رِيَاضِيٌّ",
+      "meaning_ar": "قَضِيبٌ مُسْتَقِيمٌ لَهُ رَأْسٌ وَيُطْلَقُ مِنَ الْقَوْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سِهَامٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "سَهْمُ الْهَدَفِ"
+      ],
+      "examples_ar": [
+        "أَصَابَ السَّهْمُ وَسَطَ الْهَدَفِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الرِّيَاضَةِ وَالصَّيْدِ قَدِيمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_174",
+      "arabic": "لَوْحُ تَصْوِيبٍ",
+      "meaning_ar": "سَطْحٌ تُرْسَمُ عَلَيْهِ دَوَائِرُ لِقِيَاسِ دِقَّةِ الرَّمْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْوَاحُ تَصْوِيبٍ"
+      ],
+      "collocations": [
+        "لَوْحُ الْهَدَفِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْمُدَرِّبُ لَوْحَ التَّصْوِيبِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ النَّجَاحُ بِمَوْضِعِ الْإِصَابَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_175",
+      "arabic": "مَلْعَبُ أَطْفَالٍ",
+      "meaning_ar": "مَكَانٌ مُخَصَّصٌ لِلْأَلْعَابِ الْحَرَكِيَّةِ لِلصِّغَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَلَاعِبُ أَطْفَالٍ"
+      ],
+      "collocations": [
+        "مَلْعَبٌ آمِنٌ"
+      ],
+      "examples_ar": [
+        "لَعِبَ الأَطْفَالُ فِي الْمَلْعَبِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى صِيَانَةٍ وَتَجْهِيزَاتٍ مُنَاسِبَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_176",
+      "arabic": "أُرْجُوحَةٌ",
+      "meaning_ar": "مَقْعَدٌ مُعَلَّقٌ يَتَحَرَّكُ إِلَى الأَمَامِ وَالْخَلْفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَرَاجِيحُ"
+      ],
+      "collocations": [
+        "أُرْجُوحَةُ الْحَدِيقَةِ"
+      ],
+      "examples_ar": [
+        "جَلَسَ الطِّفْلُ عَلَى الأُرْجُوحَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلَّعِبِ وَالتَّرْفِيهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_177",
+      "arabic": "زَحْلِيقَةٌ",
+      "meaning_ar": "لُعْبَةٌ ذَاتُ سَطْحٍ مَائِلٍ يَنْزَلِقُ عَلَيْهِ الأَطْفَالُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ زَحَالِيقُ"
+      ],
+      "collocations": [
+        "زَحْلِيقَةٌ صَغِيرَةٌ"
+      ],
+      "examples_ar": [
+        "نَزَلَ الطِّفْلُ عَلَى الزَّحْلِيقَةِ."
+      ],
+      "usage_note_ar": "يَنْبَغِي أَنْ تَكُونَ مُنَاسِبَةً لِعُمْرِ الطِّفْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_178",
+      "arabic": "مِرْجَاحَةٌ",
+      "meaning_ar": "لُعْبَةٌ تَتَحَرَّكُ صُعُودًا وَهُبُوطًا بَيْنَ طَرَفَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاجِيحُ"
+      ],
+      "collocations": [
+        "مِرْجَاحَةُ الْأَطْفَالِ"
+      ],
+      "examples_ar": [
+        "تَنَاوَبَ الطِّفْلَانِ عَلَى الْمِرْجَاحَةِ."
+      ],
+      "usage_note_ar": "تُسَمَّى فِي بَعْضِ الْبِلَادِ أُرْجُوحَةَ التَّوَازُنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_179",
+      "arabic": "تَزَحْلُقٌ",
+      "meaning_ar": "حَرَكَةُ الْإِنْسَانِ عَلَى سَطْحٍ أَمْلَسَ بِأَدَاةٍ أَوْ بِغَيْرِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّزَحْلُقُ عَلَى الْجَلِيدِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الشَّابُّ عَلَى التَّزَحْلُقِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ عَلَى الْجَلِيدِ أَوِ الْعَجَلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_180",
+      "arabic": "حِذَاءُ تَزَحْلُقٍ",
+      "meaning_ar": "حِذَاءٌ مُجَهَّزٌ بِعَجَلَاتٍ أَوْ شَفْرَةٍ لِلحَرَكَةِ عَلَى سَطْحٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحْذِيَةُ تَزَحْلُقٍ"
+      ],
+      "collocations": [
+        "حِذَاءٌ بِعَجَلَاتٍ"
+      ],
+      "examples_ar": [
+        "لَبِسَ الطِّفْلُ حِذَاءَ التَّزَحْلُقِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ حَسَبَ الْمَلْعَبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_181",
+      "arabic": "لَوْحُ تَزَحْلُقٍ",
+      "meaning_ar": "لَوْحٌ ذُو عَجَلَاتٍ يَرْكَبُهُ الشَّخْصُ لِلتَّنَقُّلِ وَاللَّعِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْوَاحُ تَزَحْلُقٍ"
+      ],
+      "collocations": [
+        "لَوْحٌ صَغِيرٌ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الطِّفْلُ عَلَى لَوْحِ التَّزَحْلُقِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى خُوذَةٍ وَمَكَانٍ مُنَاسِبٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_182",
+      "arabic": "رِيَاضَةُ الدَّرَّاجَاتِ",
+      "meaning_ar": "مُنَافَسَةٌ أَوْ تَدْرِيبٌ يَعْتَمِدُ عَلَى رُكُوبِ الدَّرَّاجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سَبَاقُ الدَّرَّاجَاتِ"
+      ],
+      "examples_ar": [
+        "شَارَكَتِ الطَّالِبَةُ فِي سِبَاقِ الدَّرَّاجَاتِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الطُّرُقَ وَالْمَسَارَاتِ الْجَبَلِيَّةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_183",
+      "arabic": "خُوذَةُ دَرَّاجَةٍ",
+      "meaning_ar": "وِسَادَةٌ صُلْبَةٌ تُلْبَسُ عَلَى الرَّأْسِ لِتَقْلِيلِ ضَرَرِ السُّقُوطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُوَذُ دَرَّاجَاتٍ"
+      ],
+      "collocations": [
+        "ارْتِدَاءُ الْخُوذَةِ"
+      ],
+      "examples_ar": [
+        "لَبِسَ الرَّاكِبُ خُوذَةَ الدَّرَّاجَةِ."
+      ],
+      "usage_note_ar": "يَنْبَغِي أَنْ تَكُونَ مُلَائِمَةً لِحَجْمِ الرَّأْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_184",
+      "arabic": "مَسَارُ دَرَّاجَاتٍ",
+      "meaning_ar": "طَرِيقٌ أَوْ جُزْءٌ مِنْهُ يُخَصَّصُ لِرُكُوبِ الدَّرَّاجَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَسَارَاتُ دَرَّاجَاتٍ"
+      ],
+      "collocations": [
+        "مَسَارٌ آمِنٌ"
+      ],
+      "examples_ar": [
+        "سَارَ الرَّاكِبُ فِي مَسَارِ الدَّرَّاجَاتِ."
+      ],
+      "usage_note_ar": "يُحَدَّدُ بِعَلَامَاتٍ لِتَنْظِيمِ الْحَرَكَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_185",
+      "arabic": "رِيَاضَةٌ جَمَاعِيَّةٌ",
+      "meaning_ar": "لُعْبَةٌ يَتَعَاوَنُ فِيهَا أَفْرَادُ فَرِيقٍ وَاحِدٍ لِلْفَوْزِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رِيَاضَاتٌ جَمَاعِيَّةٌ"
+      ],
+      "collocations": [
+        "كُرَةٌ جَمَاعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "فَضَّلَ الطِّفْلُ الرِّيَاضَاتِ الْجَمَاعِيَّةَ."
+      ],
+      "usage_note_ar": "تُطَوِّرُ الْتَّنْسِيقَ وَالْعَمَلَ الْمُشْتَرَكَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_186",
+      "arabic": "رِيَاضَةٌ فَرْدِيَّةٌ",
+      "meaning_ar": "نَشَاطٌ يُنَافِسُ فِيهِ الشَّخْصُ بِأَدَائِهِ الْخَاصِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رِيَاضَاتٌ فَرْدِيَّةٌ"
+      ],
+      "collocations": [
+        "مُنَافَسَةٌ فَرْدِيَّةٌ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الطَّالِبُ رِيَاضَةً فَرْدِيَّةً."
+      ],
+      "usage_note_ar": "قَدْ تَتِمُّ تَدْرِيبَاتُهَا ضِمْنَ فَرِيقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_187",
+      "arabic": "هِوَايَةٌ",
+      "meaning_ar": "نَشَاطٌ يَخْتَارُهُ الشَّخْصُ فِي وَقْتِ فَرَاغِهِ لِلْمُتْعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ هِوَايَاتٌ"
+      ],
+      "collocations": [
+        "هِوَايَةٌ مُفِيدَةٌ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الطِّفْلُ هِوَايَةَ السِّبَاحَةِ."
+      ],
+      "usage_note_ar": "لَا يَلْزَمُ أَنْ تَكُونَ مُسَابَقَةً أَوْ عَمَلًا مَأْجُورًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_188",
+      "arabic": "وَقْتُ فَرَاغٍ",
+      "meaning_ar": "الزَّمَنُ الَّذِي لَا يَكُونُ مَشْغُولًا بِالْوَاجِبَاتِ الأَسَاسِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اسْتِغْلَالُ وَقْتِ الْفَرَاغِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الطِّفْلُ قِصَّةً فِي وَقْتِ فَرَاغِهِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَخْصِيصُهُ لِلرَّاحَةِ وَالْهَوَايَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_189",
+      "arabic": "تَرْفِيهٌ",
+      "meaning_ar": "أَنْشِطَةٌ تُقَدَّمُ لِلْمُتْعَةِ وَالرَّاحَةِ بَعْدَ الْعَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَرْكَزُ تَرْفِيهٍ"
+      ],
+      "examples_ar": [
+        "خَرَجَتِ الْأُسْرَةُ إِلَى الْحَدِيقَةِ لِلتَّرْفِيهِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْأَلْعَابَ وَالرِّحْلَاتِ وَالْعُرُوضَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_190",
+      "arabic": "نُزْهَةٌ",
+      "meaning_ar": "خُرُوجٌ إِلَى مَكَانٍ مُفْتُوحٍ لِلتَّمَتُّعِ بِالْوَقْتِ وَالطَّبِيعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُزَهٌ"
+      ],
+      "collocations": [
+        "نُزْهَةٌ عَائِلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "خَرَجَتِ الْأُسْرَةُ فِي نُزْهَةٍ إِلَى الْوَادِي."
+      ],
+      "usage_note_ar": "تَرِدُ لِلرَّاحَةِ وَالتَّجَوُّلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_191",
+      "arabic": "لُعْبَةٌ لَوْحِيَّةٌ",
+      "meaning_ar": "لُعْبَةٌ تُلْعَبُ عَلَى لَوْحٍ بِقِطَعٍ وَقَوَاعِدَ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْعَابٌ لَوْحِيَّةٌ"
+      ],
+      "collocations": [
+        "لُعْبَةٌ عَائِلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "لَعِبَ الأَطْفَالُ لُعْبَةً لَوْحِيَّةً."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَلْعَابَ التَّخْطِيطِ وَالْحَظِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_192",
+      "arabic": "شَطْرَنْجٌ",
+      "meaning_ar": "لُعْبَةٌ ذِهْنِيَّةٌ بَيْنَ شَخْصَيْنِ عَلَى لَوْحٍ ذِي خَانَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُبَارَاةُ شَطْرَنْجٍ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ الطِّفْلُ قَوَاعِدَ الشَّطْرَنْجِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ التَّخْطِيطَ وَتَوَقُّعَ حَرَكَاتِ الْخَصْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_193",
+      "arabic": "رُقْعَةُ شَطْرَنْجٍ",
+      "meaning_ar": "لَوْحٌ مُقَسَّمٌ إِلَى خَانَاتٍ مُتَبَادِلَةِ اللَّوْنِ لِلَّعِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رُقَعُ شَطْرَنْجٍ"
+      ],
+      "collocations": [
+        "رُقْعَةٌ مُرَبَّعَةٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطِّفْلُ الْقِطَعَ عَلَى الرُّقْعَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ مَعَ قِطَعِ الشَّطْرَنْجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_194",
+      "arabic": "قِطْعَةُ شَطْرَنْجٍ",
+      "meaning_ar": "مُجَسَّمٌ صَغِيرٌ يَتَحَرَّكُ عَلَى الرُّقْعَةِ وَفْقَ قَاعِدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قِطَعُ شَطْرَنْجٍ"
+      ],
+      "collocations": [
+        "تَحْرِيكُ الْقِطْعَةِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ اللَّاعِبُ قِطْعَةً إِلَى خَانَةٍ جَدِيدَةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْقِطَعُ فِي طَرِيقَةِ حَرَكَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_195",
+      "arabic": "مَلِكُ الشَّطْرَنْجِ",
+      "meaning_ar": "قِطْعَةٌ رَئِيسِيَّةٌ يَجِبُ حِمَايَتُهَا مِنَ الْكَشْمَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُلُوكُ الشَّطْرَنْجِ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْمَلِكِ"
+      ],
+      "examples_ar": [
+        "حَرَّكَ اللَّاعِبُ الْمَلِكَ إِلَى خَانَةٍ آمِنَةٍ."
+      ],
+      "usage_note_ar": "يَنْتَهِي اللَّعِبُ بِالْمَاتِ فِي نِظَامِ الشَّطْرَنْجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_196",
+      "arabic": "وَزِيرُ الشَّطْرَنْجِ",
+      "meaning_ar": "قِطْعَةٌ قَوِيَّةٌ تَتَحَرَّكُ فِي خُطُوطٍ مُسْتَقِيمَةٍ وَمَائِلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وُزَرَاءُ الشَّطْرَنْجِ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْوَزِيرِ"
+      ],
+      "examples_ar": [
+        "حَمَى اللَّاعِبُ وَزِيرَهُ قَبْلَ الْهُجُومِ."
+      ],
+      "usage_note_ar": "تُسَمَّى فِي بَعْضِ الْبِلَادِ الْمَلِكَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_197",
+      "arabic": "بَيْدَقٌ",
+      "meaning_ar": "قِطْعَةٌ صَغِيرَةٌ فِي الشَّطْرَنْجِ لَهَا قَوَاعِدُ حَرَكَةٍ خَاصَّةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَيَادِقُ"
+      ],
+      "collocations": [
+        "تَقَدُّمُ الْبَيْدَقِ"
+      ],
+      "examples_ar": [
+        "حَرَّكَ اللَّاعِبُ بَيْدَقًا إِلَى الأَمَامِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَحَوَّلُ عِنْدَ وُصُولِهِ إِلَى الصَّفِّ الأَخِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_198",
+      "arabic": "كَشْ مَلِكٍ",
+      "meaning_ar": "حَالَةٌ يَكُونُ فِيهَا مَلِكُ الشَّطْرَنْجِ مُهَدَّدًا بِالأَخْذِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِعْلَانُ الْكَشِّ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ اللَّاعِبُ عَنْ كَشِّ الْمَلِكِ."
+      ],
+      "usage_note_ar": "يَجِبُ دَفْعُ التَّهْدِيدِ فِي النَّقْلَةِ التَّالِيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_199",
+      "arabic": "كَشْ مَاتٌ",
+      "meaning_ar": "وَضْعٌ لَا يَسْتَطِيعُ فِيهِ الْمَلِكُ الْمُهَدَّدُ الْهُرُوبَ مِنَ الْخَطَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْفَوْزُ بِالْمَاتِ"
+      ],
+      "examples_ar": [
+        "حَقَّقَ اللَّاعِبُ كَشْ مَاتٍ بَعْدَ خُطَّةٍ."
+      ],
+      "usage_note_ar": "يَنْهِي الْمُبَارَاةَ بِفَوْزِ الطَّرَفِ الآخَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_200",
+      "arabic": "لُعْبَةُ أَحْجِيَةٍ",
+      "meaning_ar": "نَشَاطٌ يَطْلُبُ حَلَّ لُغْزٍ أَوْ تَرْتِيبَ قِطَعٍ بِالتَّفْكِيرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْعَابُ أَحَاجِيَ"
+      ],
+      "collocations": [
+        "لُعْبَةٌ ذِهْنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "حَلَّ الطِّفْلُ أُحْجِيَةً جَدِيدَةً."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى مُمَارَسَةِ الِانْتِبَاهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_201",
+      "arabic": "أُحْجِيَةٌ",
+      "meaning_ar": "سُؤَالٌ أَوْ مُشْكِلَةٌ تُقَدَّمُ بِصُورَةٍ تَحْتَاجُ إِلَى تَفْكِيرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحَاجِي"
+      ],
+      "collocations": [
+        "حَلُّ الأُحْجِيَةِ"
+      ],
+      "examples_ar": [
+        "تَعَاوَنَ الْأَخَوَانِ لِحَلِّ الأُحْجِيَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا بِمَعْنَى اللُّغْزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_202",
+      "arabic": "لُغْزٌ",
+      "meaning_ar": "سُؤَالٌ غَامِضٌ يَحْتَاجُ إِلَى اسْتِدْلَالٍ لِمَعْرِفَةِ الْحَلِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْغَازٌ"
+      ],
+      "collocations": [
+        "لُغْزٌ صَعْبٌ"
+      ],
+      "examples_ar": [
+        "فَكَّرَ الطِّفْلُ فِي حَلِّ اللُّغْزِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْمُتْعَةِ وَتَنْمِيَةِ التَّفْكِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_203",
+      "arabic": "مُسَابَقَةُ مَعْرِفَةٍ",
+      "meaning_ar": "مُنَافَسَةٌ يُجِيبُ فِيهَا الْمُشَارِكُونَ عَنْ أَسْئِلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسَابَقَاتُ مَعْرِفَةٍ"
+      ],
+      "collocations": [
+        "مُسَابَقَةٌ مَدْرَسِيَّةٌ"
+      ],
+      "examples_ar": [
+        "فَازَ الْفَرِيقُ فِي مُسَابَقَةِ الْمَعْرِفَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ الْمُبَارَيَاتِ الْبَدَنِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_204",
+      "arabic": "لُعْبَةُ ذَاكِرَةٍ",
+      "meaning_ar": "نَشَاطٌ يَتَطَلَّبُ تَذَكُّرَ صُوَرٍ أَوْ كَلِمَاتٍ أَوْ أَمَاكِنَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْعَابُ ذَاكِرَةٍ"
+      ],
+      "collocations": [
+        "لُعْبَةُ بِطَاقَاتٍ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الأَطْفَالُ عَلَى لُعْبَةِ الذَّاكِرَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي التَّعْلِيمِ وَالتَّرْفِيهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_205",
+      "arabic": "لُعْبَةُ تَعَاوُنٍ",
+      "meaning_ar": "نَشَاطٌ يَتَعَاوَنُ فِيهِ الْمُشَارِكُونَ لِتَحْقِيقِ هَدَفٍ مُشْتَرَكٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْعَابُ تَعَاوُنٍ"
+      ],
+      "collocations": [
+        "لُعْبَةٌ جَمَاعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "سَاعَدَ الأَطْفَالُ بَعْضُهُمْ بَعْضًا لِلْفَوْزِ."
+      ],
+      "usage_note_ar": "لَا يَكُونُ الْمُشَارِكُونَ خُصُومًا دَائِمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_206",
+      "arabic": "لُعْبَةُ فِرَقٍ",
+      "meaning_ar": "مُنَافَسَةٌ تُقَسَّمُ فِيهَا الْمَجْمُوعَةُ إِلَى فِرَقٍ مُتَنَافِسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْعَابُ فِرَقٍ"
+      ],
+      "collocations": [
+        "لُعْبَةٌ مَدْرَسِيَّةٌ"
+      ],
+      "examples_ar": [
+        "قَسَّمَ الْمُعَلِّمُ الطُّلَّابَ إِلَى فِرَقٍ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَلْعَابًا فِكْرِيَّةً وَحَرَكِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_207",
+      "arabic": "تَحَدٍّ رِيَاضِيٌّ",
+      "meaning_ar": "هَدَفٌ صَعْبٌ يَحَاوِلُ الشَّخْصُ بُلُوغَهُ بِالتَّدْرِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَحَدِّيَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "تَحَدِّي الْمَشْيِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْأَصْدِقَاءُ تَحَدِّيًا لِلْمَشْيِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يَكُونَ فَرْدِيًّا أَوْ جَمَاعِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_208",
+      "arabic": "إِنْجَازٌ رِيَاضِيٌّ",
+      "meaning_ar": "نَتِيجَةٌ مُهِمَّةٌ يَصِلُ إِلَيْهَا اللَّاعِبُ بِالْجُهْدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِنْجَازَاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "إِنْجَازٌ شَخْصِيٌّ"
+      ],
+      "examples_ar": [
+        "احْتَفَلَتِ اللَّاعِبَةُ بِإِنْجَازِهَا."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ تَحْسِينَ زَمَنٍ أَوْ فَوْزًا بِجَائِزَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_209",
+      "arabic": "رَقْمٌ قِيَاسِيٌّ",
+      "meaning_ar": "أَفْضَلُ نَتِيجَةٍ مُسَجَّلَةٍ فِي نَوْعٍ مِنَ الْمُنَافَسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَرْقَامٌ قِيَاسِيَّةٌ"
+      ],
+      "collocations": [
+        "تَحْطِيمُ رَقْمٍ قِيَاسِيٍّ"
+      ],
+      "examples_ar": [
+        "حَقَّقَ الْعَدَّاءُ رَقْمًا قِيَاسِيًّا."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ بِفِئَةٍ وَقَوَاعِدَ رَسْمِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_210",
+      "arabic": "تَأَهُّلٌ",
+      "meaning_ar": "الْحُصُولُ عَلَى حَقِّ الْمُشَارَكَةِ فِي مَرْحَلَةٍ تَالِيَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَبَارَاةُ التَّأَهُّلِ"
+      ],
+      "examples_ar": [
+        "حَقَّقَ الْفَرِيقُ التَّأَهُّلَ إِلَى النِّهَائِيِّ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِاكْتِسَابِ الْمُؤَهِّلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_211",
+      "arabic": "تَصْفِيَاتٌ",
+      "meaning_ar": "مُسَابَقَاتٌ تُمْيِّزُ الْمُتَأَهِّلِينَ مِنَ الْمُشَارِكِينَ قَبْلَ النِّهَائِيَّاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَصْفِيَاتُ الْبُطُولَةِ"
+      ],
+      "examples_ar": [
+        "انْتَهَتِ التَّصْفِيَاتُ بِفَوْزِ أَرْبَعَةِ فِرَقٍ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ غَالِبًا بِصِيغَةِ الْجَمْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_212",
+      "arabic": "نِهَائِيٌّ رِيَاضِيٌّ",
+      "meaning_ar": "مُبَارَاةٌ أَخِيرَةٌ تُحَدِّدُ الْفَائِزَ بِالْبُطُولَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نِهَائِيَّاتٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "الْمُبَارَاةُ النِّهَائِيَّةُ"
+      ],
+      "examples_ar": [
+        "تَأَهَّلَ الْفَرِيقُ إِلَى النِّهَائِيِّ."
+      ],
+      "usage_note_ar": "يَأْتِي بَعْدَ مَرَاحِلِ التَّصْفِيَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_213",
+      "arabic": "نِصْفُ نِهَائِيٍّ",
+      "meaning_ar": "مَرْحَلَةٌ تَسْبِقُ الْمُبَارَاةَ النِّهَائِيَّةَ فِي الْبُطُولَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَنْصَافُ نِهَائِيَّاتٍ"
+      ],
+      "collocations": [
+        "مُبَارَاةُ نِصْفِ النِّهَائِيِّ"
+      ],
+      "examples_ar": [
+        "فَازَ الْفَرِيقُ فِي نِصْفِ النِّهَائِيِّ."
+      ],
+      "usage_note_ar": "يَتَأَهَّلُ مِنْهَا الْفَائِزُونَ إِلَى النِّهَائِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_214",
+      "arabic": "قُرْعَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "اخْتِيَارٌ يَجْرِي بِطَرِيقَةٍ عَشْوَائِيَّةٍ لِتَحْدِيدِ الْمُوَاجَهَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُرَعٌ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "قُرْعَةُ الْبُطُولَةِ"
+      ],
+      "examples_ar": [
+        "أُعْلِنَتْ نَتِيجَةُ الْقُرْعَةِ قَبْلَ الْمُبَارَيَاتِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَوْزِيعِ الْفِرَقِ وَالْمُشَارِكِينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_215",
+      "arabic": "مَجْمُوعَةُ بُطُولَةٍ",
+      "meaning_ar": "عَدَدٌ مِنَ الْفِرَقِ يُنَافِسُ بَعْضُهَا بَعْضًا فِي مَرْحَلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَجْمُوعَاتُ بُطُولَةٍ"
+      ],
+      "collocations": [
+        "تَرْتِيبُ الْمَجْمُوعَةِ"
+      ],
+      "examples_ar": [
+        "تَصَدَّرَ الْفَرِيقُ مَجْمُوعَتَهُ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ قَوَاعِدُ التَّأَهُّلِ بِحَسَبِ الْبُطُولَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_216",
+      "arabic": "جَدْوَلُ مُبَارَيَاتٍ",
+      "meaning_ar": "قَائِمَةٌ تُبَيِّنُ أَوْقَاتَ اللِّقَاءَاتِ وَالْفِرَقَ الْمُتَنَافِسَةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَدَاوِلُ مُبَارَيَاتٍ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الْمَوْسِمِ"
+      ],
+      "examples_ar": [
+        "نَشَرَ النَّادِي جَدْوَلَ الْمُبَارَيَاتِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَغَيَّرُ عِنْدَ تَعْدِيلِ الْمَوَاعِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_217",
+      "arabic": "مَوْسِمٌ رِيَاضِيٌّ",
+      "meaning_ar": "مُدَّةٌ تُقَامُ فِيهَا مُبَارَيَاتٌ وَمُنَافَسَاتٌ مُنَظَّمَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَاسِمُ رِيَاضِيَّةٌ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الْمَوْسِمِ"
+      ],
+      "examples_ar": [
+        "اسْتَعَدَّ الْفَرِيقُ لِلْمَوْسِمِ الْجَدِيدِ."
+      ],
+      "usage_note_ar": "تُحَدَّدُ مُدَّتُهُ بِحَسَبِ اللُّعْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_sports_20261026_218",
+      "arabic": "اسْتِرَاحَةُ الشَّوْطَيْنِ",
+      "meaning_ar": "فَتْرَةٌ قَصِيرَةٌ بَيْنَ جُزْأَيْنِ مِنَ الْمُبَارَاةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الِاسْتِرَاحَةِ"
+      ],
+      "examples_ar": [
+        "تَحَدَّثَ الْمُدَرِّبُ مَعَ اللَّاعِبِينَ فِي الِاسْتِرَاحَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلتَّوْجِيهِ وَالرَّاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_sports_glossary",
+      "editorial_level_hint": 2
+    }
+  ]
+}
