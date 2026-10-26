@@ -59,7 +59,10 @@
     "assets/data/entries_nouns_transport_20261025.json",
     "assets/data/entries_nouns_commerce_20261025.json",
     "assets/data/entries_nouns_technology_20261025.json",
-    "assets/data/entries_nouns_community_20261025.json"
+    "assets/data/entries_nouns_community_20261025.json",
+    "assets/data/entries_nouns_arts_media_20261026.json",
+    "assets/data/entries_nouns_sports_recreation_20261026.json",
+    "assets/data/entries_nouns_time_planning_20261026.json"
   ],
   "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
 }
