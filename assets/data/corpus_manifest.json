@@ -62,7 +62,11 @@
     "assets/data/entries_nouns_community_20261025.json",
     "assets/data/entries_nouns_arts_media_20261026.json",
     "assets/data/entries_nouns_sports_recreation_20261026.json",
-    "assets/data/entries_nouns_time_planning_20261026.json"
+    "assets/data/entries_nouns_time_planning_20261026.json",
+    "assets/data/entries_editorial_architecture_20261026.json",
+    "assets/data/entries_editorial_culinary_20261026.json",
+    "assets/data/entries_editorial_agriculture_20261026.json",
+    "assets/data/entries_editorial_astronomy_20261026.json"
   ],
   "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
 }
