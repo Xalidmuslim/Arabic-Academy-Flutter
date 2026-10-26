@@ -1,7 +1,9 @@
 name: Dictionary content validation only
 on:
   push:
-    branches: ["codex/bayna-dictionary-demo-apk-20261024"]
+    branches:
+      - "codex/bayna-dictionary-demo-apk-20261024"
+      - "codex/bayna-dict-318-nouns-verified-20261026"
     paths:
       - "assets/data/**"
       - "tools/**"
