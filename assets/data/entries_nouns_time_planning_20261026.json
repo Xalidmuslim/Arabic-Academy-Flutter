@@ -1,0 +1,3614 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_time_20261026_001",
+      "arabic": "وَقْتٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الزَّمَنِ يُحَدَّدُ لِحُدُوثِ عَمَلٍ أَوْ نَشَاطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَوْقَاتٌ"
+      ],
+      "collocations": [
+        "وَقْتٌ مُنَاسِبٌ"
+      ],
+      "examples_ar": [
+        "خَصَّصَ الطَّالِبُ وَقْتًا لِلْقِرَاءَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ لِمُدَّةٍ أَوْ لِلَحْظَةٍ مُحَدَّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_002",
+      "arabic": "زَمَنٌ",
+      "meaning_ar": "امْتِدَادٌ تَقَعُ فِيهِ الأَحْدَاثُ وَتَتَعَاقَبُ فِيهِ الْمَرَاحِلُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَزْمِنَةٌ"
+      ],
+      "collocations": [
+        "مُرُورُ الزَّمَنِ"
+      ],
+      "examples_ar": [
+        "يَتَغَيَّرُ الْإِنْسَانُ مَعَ مُرُورِ الزَّمَنِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْحَيَاةِ وَالْفِيزِيَاءِ وَالتَّارِيخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_003",
+      "arabic": "لَحْظَةٌ",
+      "meaning_ar": "مُدَّةٌ قَصِيرَةٌ جِدًّا مِنَ الْوَقْتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لَحَظَاتٌ"
+      ],
+      "collocations": [
+        "لَحْظَةُ الْوُصُولِ"
+      ],
+      "examples_ar": [
+        "انْتَظَرَ الْأَبُ لَحْظَةً قَبْلَ الْكَلَامِ."
+      ],
+      "usage_note_ar": "تَرِدُ لِلْوَقْتِ الْقَلِيلِ أَوِ الْحَدَثِ الْمُهِمِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_004",
+      "arabic": "ثَانِيَةٌ",
+      "meaning_ar": "وَحْدَةٌ زَمَنِيَّةٌ صَغِيرَةٌ تَدْخُلُ فِي حِسَابِ الدَّقَائِقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثَوَانٍ"
+      ],
+      "collocations": [
+        "ثَانِيَةٌ وَاحِدَةٌ"
+      ],
+      "examples_ar": [
+        "اسْتَغْرَقَ فَتْحُ الْمَلَفِّ ثَوَانِيَ قَلِيلَةً."
+      ],
+      "usage_note_ar": "تَرِدُ أَيْضًا صِفَةً لِلتَّرْتِيبِ فِي الْمُؤَنَّثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_005",
+      "arabic": "دَقِيقَةٌ",
+      "meaning_ar": "وَحْدَةٌ زَمَنِيَّةٌ تَسَاوِي سِتِّينَ ثَانِيَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دَقَائِقُ"
+      ],
+      "collocations": [
+        "دَقِيقَةُ انْتِظَارٍ"
+      ],
+      "examples_ar": [
+        "انْتَظَرَ الْمُرَاجِعُ خَمْسَ دَقَائِقَ."
+      ],
+      "usage_note_ar": "تَرِدُ أَيْضًا بِمَعْنَى الشَّيْءِ الصَّغِيرِ أَوِ الْمُحْكَمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_006",
+      "arabic": "سَاعَةٌ",
+      "meaning_ar": "وَحْدَةٌ زَمَنِيَّةٌ تَسَاوِي سِتِّينَ دَقِيقَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَاعَاتٌ"
+      ],
+      "collocations": [
+        "سَاعَةُ عَمَلٍ"
+      ],
+      "examples_ar": [
+        "اسْتَغْرَقَ الدَّرْسُ سَاعَةً وَاحِدَةً."
+      ],
+      "usage_note_ar": "تَرِدُ أَيْضًا لِلْجِهَازِ الَّذِي يُظْهِرُ الْوَقْتَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_007",
+      "arabic": "يَوْمٌ",
+      "meaning_ar": "مُدَّةٌ زَمَنِيَّةٌ تَضُمُّ اللَّيْلَ وَالنَّهَارَ فِي التَّقْوِيمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَيَّامٌ"
+      ],
+      "collocations": [
+        "يَوْمُ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْأُسْبُوعُ بِيَوْمٍ جَدِيدٍ."
+      ],
+      "usage_note_ar": "قَدْ يُقْصَدُ بِهِ النَّهَارُ وَحْدَهُ بِحَسَبِ السِّيَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_008",
+      "arabic": "لَيْلَةٌ",
+      "meaning_ar": "الْفَتْرَةُ الْمُمْتَدَّةُ مِنَ الْمَسَاءِ إِلَى طُلُوعِ الصُّبْحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ لَيَالٍ"
+      ],
+      "collocations": [
+        "لَيْلَةٌ هَادِئَةٌ"
+      ],
+      "examples_ar": [
+        "قَضَتِ الْأُسْرَةُ لَيْلَةً فِي الْقَرْيَةِ."
+      ],
+      "usage_note_ar": "تَرِدُ فِي تَحْدِيدِ مُدَّةِ الْإِقَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_009",
+      "arabic": "أُسْبُوعٌ",
+      "meaning_ar": "مُدَّةٌ زَمَنِيَّةٌ تَتَكَوَّنُ مِنْ سَبْعَةِ أَيَّامٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَسَابِيعُ"
+      ],
+      "collocations": [
+        "أُسْبُوعُ الدِّرَاسَةِ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ الطَّالِبُ مَهَامَّهُ فِي أُسْبُوعٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَنْظِيمِ جَدَاوِلِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_010",
+      "arabic": "شَهْرٌ",
+      "meaning_ar": "وَحْدَةٌ فِي التَّقْوِيمِ تَضُمُّ عَدَدًا مِنَ الأَيَّامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَشْهُرٌ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الشَّهْرِ"
+      ],
+      "examples_ar": [
+        "دَفَعَ الْعَمِيلُ الْإِيجَارَ فِي أَوَّلِ الشَّهْرِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَدَدُ أَيَّامِهِ بَيْنَ التَّقَاوِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_011",
+      "arabic": "سَنَةٌ",
+      "meaning_ar": "مُدَّةٌ زَمَنِيَّةٌ تَتَكَوَّنُ مِنِ اثْنَيْ عَشَرَ شَهْرًا غَالِبًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَنَوَاتٌ"
+      ],
+      "collocations": [
+        "خُطَّةٌ سَنَوِيَّةٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُدِيرُ خُطَّةً لِلسَّنَةِ الْجَدِيدَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَدَدُ أَيَّامِهَا بِحَسَبِ التَّقْوِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_012",
+      "arabic": "عَقْدٌ زَمَنِيٌّ",
+      "meaning_ar": "مُدَّةٌ تَتَكَوَّنُ مِنْ عَشْرِ سَنَوَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُقُودٌ زَمَنِيَّةٌ"
+      ],
+      "collocations": [
+        "عَقْدٌ مِنَ الزَّمَنِ"
+      ],
+      "examples_ar": [
+        "مَضَى عَقْدٌ عَلَى افْتِتَاحِ الْمَدْرَسَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ عَقْدِ الْبَيْعِ أَوِ الِاتِّفَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_013",
+      "arabic": "قَرْنٌ",
+      "meaning_ar": "مُدَّةٌ زَمَنِيَّةٌ تَبْلُغُ مِئَةَ سَنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُرُونٌ"
+      ],
+      "collocations": [
+        "الْقَرْنُ الْعِشْرُونَ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ حَوَادِثَ الْقَرْنِ الْمَاضِي."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِجُزْءٍ مِنْ رَأْسِ بَعْضِ الْحَيَوَانَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_014",
+      "arabic": "تَقْوِيمٌ",
+      "meaning_ar": "نِظَامٌ لِتَرْتِيبِ الأَيَّامِ وَالشُّهُورِ وَالسَّنَوَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَاوِيمُ"
+      ],
+      "collocations": [
+        "تَقْوِيمٌ سَنَوِيٌّ"
+      ],
+      "examples_ar": [
+        "نَظَرَ الْمُوَظَّفُ فِي التَّقْوِيمِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِتَصْحِيحِ الشَّيْءِ وَتَقْيِيمِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_015",
+      "arabic": "تَقْوِيمٌ هِجْرِيٌّ",
+      "meaning_ar": "نِظَامٌ زَمَنِيٌّ تَعْتَمِدُ أَشْهُرُهُ عَلَى دَوْرَاتِ الْقَمَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَاوِيمُ هِجْرِيَّةٌ"
+      ],
+      "collocations": [
+        "تَارِيخٌ هِجْرِيٌّ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ التَّارِيخَ الْهِجْرِيَّ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَحْدِيدِ شُهُورٍ وَمُنَاسَبَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_016",
+      "arabic": "تَقْوِيمٌ مِيلَادِيٌّ",
+      "meaning_ar": "نِظَامٌ زَمَنِيٌّ شَمْسِيٌّ يَتَكَوَّنُ مِنِ اثْنَيْ عَشَرَ شَهْرًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَاوِيمُ مِيلَادِيَّةٌ"
+      ],
+      "collocations": [
+        "تَارِيخٌ مِيلَادِيٌّ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْمُوَظَّفُ التَّارِيخَ الْمِيلَادِيَّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَطْوَالُ أَشْهُرِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_017",
+      "arabic": "سَنَةٌ كَبِيسَةٌ",
+      "meaning_ar": "سَنَةٌ تُضَافُ إِلَيْهَا مُدَّةٌ لِتَعْدِيلِ التَّقْوِيمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَنَوَاتٌ كَبِيسَةٌ"
+      ],
+      "collocations": [
+        "شَهْرُ فِبْرَايِرَ فِي سَنَةٍ كَبِيسَةٍ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ مَعْنَى السَّنَةِ الْكَبِيسَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ قَوَاعِدُ الْكَبْسِ بِحَسَبِ التَّقْوِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_018",
+      "arabic": "بِدَايَةُ الشَّهْرِ",
+      "meaning_ar": "الْأَيَّامُ الأُولَى مِنْ شَهْرٍ جَدِيدٍ وَفْقَ التَّقْوِيمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بِدَايَاتُ الشُّهُورِ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الشَّهْرِ الْقَادِمِ"
+      ],
+      "examples_ar": [
+        "تَبْدَأُ الدَّوْرَةُ فِي بِدَايَةِ الشَّهْرِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَحْدِيدِ الْمَوَاعِيدِ الدَّوْرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_019",
+      "arabic": "نِهَايَةُ الشَّهْرِ",
+      "meaning_ar": "الْفَتْرَةُ الأَخِيرَةُ مِنْ شَهْرٍ قَبْلَ انْتِقَالِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نِهَايَاتُ الشُّهُورِ"
+      ],
+      "collocations": [
+        "نِهَايَةُ الشَّهْرِ الْحَالِيِّ"
+      ],
+      "examples_ar": [
+        "يُسَلِّمُ الْمُوَظَّفُ التَّقْرِيرَ نِهَايَةَ الشَّهْرِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ التَّوَارِيخُ بِحَسَبِ عَدَدِ الأَيَّامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_020",
+      "arabic": "مُنْتَصَفُ الشَّهْرِ",
+      "meaning_ar": "نُقْطَةٌ زَمَنِيَّةٌ تَقَعُ قُرْبَ وَسَطِ أَيَّامِ الشَّهْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اجْتِمَاعُ مُنْتَصَفِ الشَّهْرِ"
+      ],
+      "examples_ar": [
+        "دَفَعَ الْعَمِيلُ الْقِسْطَ فِي مُنْتَصَفِ الشَّهْرِ."
+      ],
+      "usage_note_ar": "يَرِدُ فِي تَنْظِيمِ الدَّفَعَاتِ وَالْأَعْمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_021",
+      "arabic": "تَارِيخٌ",
+      "meaning_ar": "بَيَانٌ يُحَدِّدُ يَوْمًا وَشَهْرًا وَسَنَةً لِحَدَثٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَوَارِيخُ"
+      ],
+      "collocations": [
+        "تَارِيخُ الْمَوْعِدِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ تَارِيخَ الِاخْتِبَارِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِدِرَاسَةِ الْمَاضِي وَالأَحْدَاثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_022",
+      "arabic": "تَارِيخُ الْيَوْمِ",
+      "meaning_ar": "الْيَوْمُ الْمُحَدَّدُ فِي التَّقْوِيمِ عِنْدَ الْكِتَابَةِ أَوِ السُّؤَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كِتَابَةُ تَارِيخِ الْيَوْمِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُوَظَّفُ تَارِيخَ الْيَوْمِ عَلَى الْوَثِيقَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ بِاخْتِلَافِ الْيَوْمِ وَالْمِنْطَقَةِ الزَّمَنِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_023",
+      "arabic": "مِنْطَقَةٌ زَمَنِيَّةٌ",
+      "meaning_ar": "نِطَاقٌ جُغْرَافِيٌّ يَسْتَعْمِلُ تَوْقِيتًا رَسْمِيًّا مُحَدَّدًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَنَاطِقُ زَمَنِيَّةٌ"
+      ],
+      "collocations": [
+        "فَرْقُ التَّوْقِيتِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُسَافِرُ فَرْقَ الْمَنَاطِقِ الزَّمَنِيَّةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ التَّوْقِيتُ بَيْنَ الْمُدُنِ وَالدُّوَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_024",
+      "arabic": "تَوْقِيتٌ",
+      "meaning_ar": "تَحْدِيدُ السَّاعَةِ الَّتِي يَجْرِي فِيهَا حَدَثٌ أَوْ عَمَلٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَوْقِيتَاتٌ"
+      ],
+      "collocations": [
+        "تَوْقِيتُ الْمُغَادَرَةِ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْمُسَافِرُ مِنْ تَوْقِيتِ الرِّحْلَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلنِّظَامِ الزَّمَنِيِّ الْمَحَلِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_025",
+      "arabic": "فَرْقُ تَوْقِيتٍ",
+      "meaning_ar": "اخْتِلَافُ السَّاعَةِ بَيْنَ مَدِينَتَيْنِ أَوْ مَنْطِقَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فُرُوقُ تَوْقِيتٍ"
+      ],
+      "collocations": [
+        "فَرْقُ تَوْقِيتٍ كَبِيرٌ"
+      ],
+      "examples_ar": [
+        "رَاعَى الْمُدِيرُ فَرْقَ التَّوْقِيتِ فِي الِاجْتِمَاعِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي تَنْسِيقِ الْمَوَاعِيدِ عَبْرَ الْبُلْدَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_026",
+      "arabic": "تَوْقِيتٌ صَيْفِيٌّ",
+      "meaning_ar": "تَقْدِيمُ السَّاعَةِ الرَّسْمِيَّةِ فِي بَعْضِ الْبُلْدَانِ خِلَالَ مُدَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بِدَايَةُ التَّوْقِيتِ الصَّيْفِيِّ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُوَظَّفُ التَّوْقِيتَ قَبْلَ السَّفَرِ."
+      ],
+      "usage_note_ar": "لَا تَعْمَلُ بِهِ جَمِيعُ الدُّوَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_027",
+      "arabic": "سَاعَةٌ يَدَوِيَّةٌ",
+      "meaning_ar": "جِهَازٌ يُلْبَسُ عَلَى الْمِعْصَمِ لِمَعْرِفَةِ الْوَقْتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَاعَاتٌ يَدَوِيَّةٌ"
+      ],
+      "collocations": [
+        "سَاعَةٌ رَقْمِيَّةٌ"
+      ],
+      "examples_ar": [
+        "نَظَرَ الرَّجُلُ إِلَى سَاعَتِهِ الْيَدَوِيَّةِ."
+      ],
+      "usage_note_ar": "تَكُونُ بِعَقَارِبَ أَوْ بِشَاشَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_028",
+      "arabic": "سَاعَةٌ جِدَارِيَّةٌ",
+      "meaning_ar": "جِهَازٌ مُعَلَّقٌ عَلَى الْجِدَارِ لِعَرْضِ الْوَقْتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَاعَاتٌ جِدَارِيَّةٌ"
+      ],
+      "collocations": [
+        "سَاعَةُ الْغُرْفَةِ"
+      ],
+      "examples_ar": [
+        "عَلَّقَ الْأَبُ سَاعَةً جِدَارِيَّةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَشْكَالُهَا وَآلِيَّاتُهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_029",
+      "arabic": "سَاعَةٌ رَقْمِيَّةٌ",
+      "meaning_ar": "جِهَازٌ يُظْهِرُ السَّاعَةَ بِأَرْقَامٍ عَلَى شَاشَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَاعَاتٌ رَقْمِيَّةٌ"
+      ],
+      "collocations": [
+        "وَقْتٌ عَلَى الشَّاشَةِ"
+      ],
+      "examples_ar": [
+        "ضَبَطَ الطَّالِبُ السَّاعَةَ الرَّقْمِيَّةَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ السَّاعَةِ ذَاتِ الْعَقَارِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_030",
+      "arabic": "عَقْرَبُ سَاعَةٍ",
+      "meaning_ar": "مُؤَشِّرٌ مُتَحَرِّكٌ عَلَى وَجْهِ السَّاعَةِ لِتَحْدِيدِ الْوَقْتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَقَارِبُ سَاعَةٍ"
+      ],
+      "collocations": [
+        "عَقْرَبُ الدَّقَائِقِ"
+      ],
+      "examples_ar": [
+        "تَحَرَّكَ عَقْرَبُ الثَّوَانِي عَلَى السَّاعَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ الْعَقْرَبُ أَيْضًا لِلْحَيَوَانِ الْمَعْرُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_031",
+      "arabic": "مُنَبِّهٌ",
+      "meaning_ar": "جِهَازٌ أَوْ وَظِيفَةٌ تُصْدِرُ صَوْتًا فِي وَقْتٍ مَضْبُوطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَبِّهَاتٌ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْمُنَبِّهِ"
+      ],
+      "examples_ar": [
+        "ضَبَطَ الطَّالِبُ الْمُنَبِّهَ قَبْلَ النَّوْمِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِمَا يُزِيدُ الِانْتِبَاهَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_032",
+      "arabic": "مُؤَقِّتٌ",
+      "meaning_ar": "أَدَاةٌ تَحْسِبُ مُدَّةً مَعْلُومَةً ثُمَّ تُنَبِّهُ عِنْدَ انْتِهَائِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُؤَقِّتَاتٌ"
+      ],
+      "collocations": [
+        "مُؤَقِّتُ الْمَطْبَخِ"
+      ],
+      "examples_ar": [
+        "ضَبَطَتِ الْأُمُّ الْمُؤَقِّتَ لِعَشْرِ دَقَائِقَ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمُنَبِّهِ الْمُرْتَبِطِ بِسَاعَةٍ مُحَدَّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_033",
+      "arabic": "سَاعَةُ إِيقَافٍ",
+      "meaning_ar": "أَدَاةٌ تَقِيسُ الزَّمَنَ بَيْنَ بِدَايَةِ نَشَاطٍ وَانْتِهَائِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَاعَاتُ إِيقَافٍ"
+      ],
+      "collocations": [
+        "تَشْغِيلُ سَاعَةِ الْإِيقَافِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُدَرِّبُ وَقْتَ السِّبَاقِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي الرِّيَاضَةِ وَالْتَجَارِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_034",
+      "arabic": "عَدٌّ تَنَازُلِيٌّ",
+      "meaning_ar": "حِسَابُ الأَرْقَامِ أَوِ الزَّمَنِ مِنْ قِيمَةٍ إِلَى الصِّفْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الْعَدِّ التَّنَازُلِيِّ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْعَدُّ التَّنَازُلِيُّ قَبْلَ الْإِطْلَاقِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمُنَاسَبَاتِ وَالْأَجْهِزَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_035",
+      "arabic": "مُدَّةٌ",
+      "meaning_ar": "مِقْدَارٌ مِنَ الزَّمَنِ يَمْتَدُّ بَيْنَ بِدَايَةٍ وَنِهَايَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُدَدٌ"
+      ],
+      "collocations": [
+        "مُدَّةُ الْعَقْدِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُدِيرُ مُدَّةَ الْمَشْرُوعِ."
+      ],
+      "usage_note_ar": "تَرِدُ فِي الْعَمَلِ وَالدِّرَاسَةِ وَالسَّفَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_036",
+      "arabic": "فَتْرَةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الزَّمَنِ يُفْصَلُ عَمَّا قَبْلَهُ وَبَعْدَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتٌ"
+      ],
+      "collocations": [
+        "فَتْرَةُ رَاحَةٍ"
+      ],
+      "examples_ar": [
+        "أَخَذَ الْمُوَظَّفُ فَتْرَةَ رَاحَةٍ."
+      ],
+      "usage_note_ar": "تَرِدُ لِمُدَدٍ قَصِيرَةٍ أَوْ طَوِيلَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_037",
+      "arabic": "فَاصِلٌ زَمَنِيٌّ",
+      "meaning_ar": "مُدَّةٌ تَفْصِلُ بَيْنَ حَدَثَيْنِ أَوْ مَوْعِدَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَوَاصِلُ زَمَنِيَّةٌ"
+      ],
+      "collocations": [
+        "فَاصِلٌ قَصِيرٌ"
+      ],
+      "examples_ar": [
+        "تَرَكَ الْمُدَرِّسُ فَاصِلًا بَيْنَ الْحِصَصِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي التَّنْظِيمِ وَالْإِحْصَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_038",
+      "arabic": "مَوْعِدٌ",
+      "meaning_ar": "وَقْتٌ يُتَّفَقُ عَلَيْهِ لِلِاجْتِمَاعِ أَوْ إِنْجَازِ عَمَلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَاعِيدُ"
+      ],
+      "collocations": [
+        "مَوْعِدُ الْمُرَاجَعَةِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْمُرَاجِعُ قَبْلَ الْمَوْعِدِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلوَقْتِ الْمُقَرَّرِ دُونَ اتِّفَاقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_039",
+      "arabic": "مَوْعِدٌ نِهَائِيٌّ",
+      "meaning_ar": "آخِرُ وَقْتٍ يُسْمَحُ فِيهِ بِتَسْلِيمِ عَمَلٍ أَوْ طَلَبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَاعِيدُ نِهَائِيَّةٌ"
+      ],
+      "collocations": [
+        "مَوْعِدُ التَّسْلِيمِ النِّهَائِيُّ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ الطَّالِبُ الْبَحْثَ قَبْلَ الْمَوْعِدِ."
+      ],
+      "usage_note_ar": "تَتَرَتَّبُ عَلَى تَجَاوُزِهِ تَبِعَاتٌ بِحَسَبِ النِّظَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_040",
+      "arabic": "مَهْلَةٌ",
+      "meaning_ar": "مُدَّةٌ تُعْطَى لِشَخْصٍ لِيُكْمِلَ عَمَلًا أَوْ يَسْتَجِيبَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُهَلٌ"
+      ],
+      "collocations": [
+        "مَهْلَةٌ إِضَافِيَّةٌ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الْمُوَظَّفُ مَهْلَةً لِإِكْمَالِ الْمَهَمَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْمَوْعِدِ نَفْسِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_041",
+      "arabic": "تَمْدِيدٌ",
+      "meaning_ar": "زِيَادَةُ مُدَّةِ عَمَلٍ أَوْ عَقْدٍ إِلَى مَوْعِدٍ أَبْعَدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَمْدِيدَاتٌ"
+      ],
+      "collocations": [
+        "تَمْدِيدُ الْمُهْلَةِ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الْفَرِيقُ عَلَى تَمْدِيدٍ أُسْبُوعِيٍّ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْعُقُودِ وَالْمَشَارِيعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_042",
+      "arabic": "تَأْجِيلٌ",
+      "meaning_ar": "نَقْلُ مَوْعِدِ عَمَلٍ أَوْ حَدَثٍ إِلَى وَقْتٍ لَاحِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَأْجِيلَاتٌ"
+      ],
+      "collocations": [
+        "تَأْجِيلُ الِاجْتِمَاعِ"
+      ],
+      "examples_ar": [
+        "أُعْلِنَ تَأْجِيلُ الِاخْتِبَارِ إِلَى الْأُسْبُوعِ الْقَادِمِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْإِلْغَاءِ الَّذِي يُنْهِي الْحَدَثَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_043",
+      "arabic": "إِلْغَاءٌ",
+      "meaning_ar": "قَرَارٌ بِعَدَمِ تَنْفِيذِ حَدَثٍ أَوْ خِدْمَةٍ كَانَتْ مُقَرَّرَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِلْغَاءَاتٌ"
+      ],
+      "collocations": [
+        "إِلْغَاءُ الْمَوْعِدِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُدِيرُ إِشْعَارَ إِلْغَاءٍ."
+      ],
+      "usage_note_ar": "قَدْ يَتْبَعُهُ تَحْدِيدُ مَوْعِدٍ جَدِيدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_044",
+      "arabic": "إِعَادَةُ جَدْوَلَةٍ",
+      "meaning_ar": "تَغْيِيرُ تَرْتِيبِ الْمَوَاعِيدِ أَوْ نَقْلُهَا إِلَى أَوْقَاتٍ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِعَادَةُ جَدْوَلَةِ الِاجْتِمَاعِ"
+      ],
+      "examples_ar": [
+        "أَعَادَ الْمُدِيرُ جَدْوَلَةَ الْمُهَامِّ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى إِبْلَاغِ الْمُشَارِكِينَ بِالتَّغْيِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_045",
+      "arabic": "حَجْزُ مَوْعِدٍ",
+      "meaning_ar": "تَخْصِيصُ وَقْتٍ مُعَيَّنٍ لِلِاسْتِفَادَةِ مِنْ خِدْمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُجُوزَاتُ مَوَاعِيدَ"
+      ],
+      "collocations": [
+        "حَجْزُ مَوْعِدٍ طِبِّيٍّ"
+      ],
+      "examples_ar": [
+        "حَجَزَ الرَّجُلُ مَوْعِدًا عَبْرَ الْهَاتِفِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْعِيَادَاتِ وَالْمَكَاتِبِ وَالْخِدْمَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_046",
+      "arabic": "تَأْكِيدُ مَوْعِدٍ",
+      "meaning_ar": "رِسَالَةٌ أَوْ إِجْرَاءٌ يُثْبِتُ صِحَّةَ الْحَجْزِ وَوَقْتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَأْكِيدَاتُ مَوَاعِيدَ"
+      ],
+      "collocations": [
+        "رِسَالَةُ تَأْكِيدٍ"
+      ],
+      "examples_ar": [
+        "وَصَلَ تَأْكِيدُ الْمَوْعِدِ إِلَى الْعَمِيلِ."
+      ],
+      "usage_note_ar": "يُفِيدُ فِي تَجَنُّبِ سُوءِ الْفَهْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_047",
+      "arabic": "تَذْكِيرٌ",
+      "meaning_ar": "رِسَالَةٌ تُنَبِّهُ الشَّخْصَ إِلَى مَوْعِدٍ أَوْ عَمَلٍ سَابِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَذْكِيرَاتٌ"
+      ],
+      "collocations": [
+        "تَذْكِيرٌ بِالْمَوْعِدِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ التَّطْبِيقُ تَذْكِيرًا قَبْلَ الِاجْتِمَاعِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ وَسَائِلَ مُخْتَلِفَةً كَالصَّوْتِ وَالنَّصِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_048",
+      "arabic": "مُنَبِّهُ مَوْعِدٍ",
+      "meaning_ar": "وَظِيفَةٌ تُصْدِرُ إِشْعَارًا عِنْدَ اقْتِرَابِ وَقْتٍ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَبِّهَاتُ مَوَاعِيدَ"
+      ],
+      "collocations": [
+        "ضَبْطُ التَّنْبِيهِ"
+      ],
+      "examples_ar": [
+        "فَعَّلَ الْمُسْتَخْدِمُ مُنَبِّهَ الْمَوْعِدِ."
+      ],
+      "usage_note_ar": "يُمَكِّنُ مِنْ تَذَكُّرِ الْأَعْمَالِ الْمُنَظَّمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_049",
+      "arabic": "جَدْوَلٌ يَوْمِيٌّ",
+      "meaning_ar": "قَائِمَةٌ تُرَتِّبُ أَنْشِطَةَ الْيَوْمِ بِحَسَبِ أَوْقَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَدَاوِلُ يَوْمِيَّةٌ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الدِّرَاسَةِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ جَدْوَلًا يَوْمِيًّا."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَوْزِيعِ الْوَقْتِ بَيْنَ الْمَهَامِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_050",
+      "arabic": "جَدْوَلٌ أُسْبُوعِيٌّ",
+      "meaning_ar": "خُطَّةٌ تُوَزِّعُ الْأَنْشِطَةَ عَلَى أَيَّامِ الأُسْبُوعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَدَاوِلُ أُسْبُوعِيَّةٌ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَتِ الْأُسْرَةُ الْجَدْوَلَ الأُسْبُوعِيَّ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمَدْرَسَةِ وَالْعَمَلِ وَالْمَنْزِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_051",
+      "arabic": "جَدْوَلٌ شَهْرِيٌّ",
+      "meaning_ar": "خُطَّةٌ تُحَدِّدُ الْمَوَاعِيدَ وَالْمَهَامَّ خِلَالَ شَهْرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَدَاوِلُ شَهْرِيَّةٌ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الْمَشْرُوعِ"
+      ],
+      "examples_ar": [
+        "حَدَّثَ الْمُدِيرُ الْجَدْوَلَ الشَّهْرِيَّ."
+      ],
+      "usage_note_ar": "يُفِيدُ فِي تَنْظِيمِ الْمَوَاعِيدِ الْمُتَكَرِّرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_052",
+      "arabic": "قَائِمَةُ مَهَامٍّ",
+      "meaning_ar": "مَجْمُوعَةُ أَعْمَالٍ يُرَادُ إِنْجَازُهَا خِلَالَ مُدَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قَوَائِمُ مَهَامٍّ"
+      ],
+      "collocations": [
+        "قَائِمَةٌ قَصِيرَةٌ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْمُوَظَّفُ قَائِمَةَ مَهَامِّهِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَذَكُّرِ الْوَاجِبَاتِ وَمُتَابَعَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_053",
+      "arabic": "مَهَمَّةٌ",
+      "meaning_ar": "عَمَلٌ مُحَدَّدٌ يُطْلَبُ مِنْ شَخْصٍ إِنْجَازُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَهَامُّ"
+      ],
+      "collocations": [
+        "مَهَمَّةٌ عَاجِلَةٌ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَتِ الطَّالِبَةُ مَهَمَّتَهَا فِي الْوَقْتِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْهَدَفِ الَّذِي قَدْ يَضُمُّ مَهَامَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_054",
+      "arabic": "مَهَمَّةٌ فَرْعِيَّةٌ",
+      "meaning_ar": "جُزْءٌ صَغِيرٌ مِنْ عَمَلٍ أَكْبَرَ يُنْجَزُ عَلَى حِدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَهَامُّ فَرْعِيَّةٌ"
+      ],
+      "collocations": [
+        "تَقْسِيمُ الْمَهَمَّةِ"
+      ],
+      "examples_ar": [
+        "قَسَّمَ الْمُدِيرُ الْمَشْرُوعَ إِلَى مَهَامَّ فَرْعِيَّةٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَوْضِيحِ خُطُوَاتِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_055",
+      "arabic": "مَهَمَّةٌ مُتَكَرِّرَةٌ",
+      "meaning_ar": "عَمَلٌ يُعَادُ فِي أَوْقَاتٍ مَعْلُومَةٍ بِصُورَةٍ مُنْتَظِمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَهَامُّ مُتَكَرِّرَةٌ"
+      ],
+      "collocations": [
+        "مَهَمَّةٌ أُسْبُوعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "ضَبَطَ الْمُوَظَّفُ تَذْكِيرًا لِمَهَمَّةٍ مُتَكَرِّرَةٍ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ يَوْمِيَّةً أَوْ شَهْرِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_056",
+      "arabic": "مُتَابَعَةُ مَهَامٍّ",
+      "meaning_ar": "مُرَاقَبَةُ الْأَعْمَالِ لِمَعْرِفَةِ مَا أُنْجِزَ وَمَا تَأَخَّرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "لَوْحَةُ الْمُتَابَعَةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْفَرِيقُ مَهَامَّ الْأُسْبُوعِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمَشَارِيعِ وَالدِّرَاسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_057",
+      "arabic": "أَوْلَوِيَّةٌ",
+      "meaning_ar": "دَرَجَةُ الأَهَمِّيَّةِ الَّتِي تُقَدَّمُ بِهَا مَهَمَّةٌ عَلَى غَيْرِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَوْلَوِيَّاتٌ"
+      ],
+      "collocations": [
+        "أَوْلَوِيَّةٌ عَالِيَةٌ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُدِيرُ أَوْلَوِيَّاتِ الْيَوْمِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ بِحَسَبِ الْهَدَفِ وَالْوَقْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_058",
+      "arabic": "تَرْتِيبُ الأَوْلَوِيَّاتِ",
+      "meaning_ar": "تَنْظِيمُ الْمَهَامِّ مِنَ الْأَهَمِّ إِلَى الأَقَلِّ أَهَمِّيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَرْتِيبُ الْمَهَامِّ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الطَّالِبُ بِتَرْتِيبِ أَوْلَوِيَّاتِهِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى اتِّخَاذِ الْقَرَارَاتِ عِنْدَ ضِيقِ الْوَقْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_059",
+      "arabic": "مَهَمَّةٌ عَاجِلَةٌ",
+      "meaning_ar": "عَمَلٌ يَحْتَاجُ إِلَى تَنْفِيذٍ سَرِيعٍ لِقُرْبِ مَوْعِدِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَهَامُّ عَاجِلَةٌ"
+      ],
+      "collocations": [
+        "مَهَمَّةٌ ذَاتُ أَوْلَوِيَّةٍ"
+      ],
+      "examples_ar": [
+        "أَنْهَى الْمُوَظَّفُ الْمَهَمَّةَ الْعَاجِلَةَ."
+      ],
+      "usage_note_ar": "قَدْ لَا تَكُونُ هِيَ الأَكْثَرَ أَهَمِّيَّةً دَائِمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_060",
+      "arabic": "عَمَلٌ مُهِمٌّ",
+      "meaning_ar": "نَشَاطٌ لَهُ تَأْثِيرٌ كَبِيرٌ فِي تَحْقِيقِ هَدَفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْمَالٌ مُهِمَّةٌ"
+      ],
+      "collocations": [
+        "عَمَلٌ ذُو قِيمَةٍ"
+      ],
+      "examples_ar": [
+        "خَصَّصَ الْمُدِيرُ وَقْتًا لِلْعَمَلِ الْمُهِمِّ."
+      ],
+      "usage_note_ar": "قَدْ يَحْتَاجُ إِلَى تَخْطِيطٍ وَلَوْ لَمْ يَكُنْ عَاجِلًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_061",
+      "arabic": "مُشْتِّتٌ",
+      "meaning_ar": "أَمْرٌ يَصْرِفُ الِانْتِبَاهَ عَنِ الْمَهَمَّةِ الأَسَاسِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُشْتِّتَاتٌ"
+      ],
+      "collocations": [
+        "تَجَنُّبُ الْمُشْتِّتَاتِ"
+      ],
+      "examples_ar": [
+        "أَغْلَقَ الطَّالِبُ الْإِشْعَارَاتِ لِيَرْكِّزَ."
+      ],
+      "usage_note_ar": "يَرِدُ لِلضَّجِيجِ وَالرَّسَائِلِ وَغَيْرِهِمَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_062",
+      "arabic": "تَرْكِيزٌ ذِهْنِيٌّ",
+      "meaning_ar": "تَوْجِيهُ الِانْتِبَاهِ إِلَى عَمَلٍ وَاحِدٍ خِلَالَ مُدَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فَتْرَةُ تَرْكِيزٍ"
+      ],
+      "examples_ar": [
+        "خَصَّصَتِ الطَّالِبَةُ وَقْتًا لِلتَّرْكِيزِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالنَّوْمِ وَالضَّجِيجِ وَالرَّاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_063",
+      "arabic": "جَلْسَةُ عَمَلٍ",
+      "meaning_ar": "فَتْرَةٌ مُحَدَّدَةٌ يَخْصُصُهَا الشَّخْصُ لِإِنْجَازِ مَهَمَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَلَسَاتُ عَمَلٍ"
+      ],
+      "collocations": [
+        "جَلْسَةٌ قَصِيرَةٌ"
+      ],
+      "examples_ar": [
+        "أَنْهَى الْمُبَرْمِجُ مَهَمَّتَهُ فِي جَلْسَةِ عَمَلٍ."
+      ],
+      "usage_note_ar": "قَدْ تَتْبَعُهَا فَتْرَةُ اسْتِرَاحَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_064",
+      "arabic": "فَتْرَةُ رَاحَةٍ",
+      "meaning_ar": "مُدَّةٌ يَتَوَقَّفُ فِيهَا الشَّخْصُ عَنِ الْعَمَلِ لِلِاسْتِجْمَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتُ رَاحَةٍ"
+      ],
+      "collocations": [
+        "فَتْرَةُ رَاحَةٍ قَصِيرَةٌ"
+      ],
+      "examples_ar": [
+        "خَرَجَ الْمُوَظَّفُ لِلْمَشْيِ فِي الرَّاحَةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى فَصْلِ فَتَرَاتِ النَّشَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_065",
+      "arabic": "إِسْتِرَاحَةٌ",
+      "meaning_ar": "تَوَقُّفٌ مُؤَقَّتٌ عَنِ الْجُهْدِ لِاسْتِعَادَةِ النَّشَاطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اسْتِرَاحَاتٌ"
+      ],
+      "collocations": [
+        "اسْتِرَاحَةٌ بَيْنَ الْحِصَصِ"
+      ],
+      "examples_ar": [
+        "أَخَذَ الْعُمَّالُ اسْتِرَاحَةً قَصِيرَةً."
+      ],
+      "usage_note_ar": "تَرِدُ أَيْضًا لِمَكَانِ الرَّاحَةِ عَلَى الطَّرِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_066",
+      "arabic": "إِجْهَادٌ ذِهْنِيٌّ",
+      "meaning_ar": "تَعَبٌ يَنْتُجُ عَنْ الِانْشِغَالِ بِالْتَّفْكِيرِ أَوْ مُدَّةِ الْعَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ الْإِجْهَادِ"
+      ],
+      "examples_ar": [
+        "أَخَذَ الطَّالِبُ رَاحَةً بَعْدَ دِرَاسَةٍ طَوِيلَةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَسْبَابُهُ وَحِدَّتُهُ بَيْنَ النَّاسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_067",
+      "arabic": "تَسْوِيفٌ",
+      "meaning_ar": "تَأْخِيرُ إِنْجَازِ عَمَلٍ مُهِمٍّ دُونَ سَبَبٍ كَافٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "التَّغَلُّبُ عَلَى التَّسْوِيفِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الطَّالِبُ بِمَهَمَّةٍ صَغِيرَةٍ."
+      ],
+      "usage_note_ar": "يَتَعَلَّقُ بِتَأْجِيلِ الْمَهَامِّ وَلَيْسَ بِتَأْخِيرٍ مُنَظَّمٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_068",
+      "arabic": "تَسْرِيعٌ",
+      "meaning_ar": "تَقْلِيلُ الزَّمَنِ الَّذِي يَحْتَاجُ إِلَيْهِ عَمَلٌ أَوْ حَرَكَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَسْرِيعُ الْإِنْجَازِ"
+      ],
+      "examples_ar": [
+        "حَسَّنَ الْفَرِيقُ طَرِيقَةَ الْعَمَلِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي ضَرُورَةً حُسْنَ الْجَوْدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_069",
+      "arabic": "إِنْجَازٌ",
+      "meaning_ar": "إِتْمَامُ عَمَلٍ أَوْ الْوُصُولُ إِلَى نَتِيجَةٍ مَطْلُوبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِنْجَازَاتٌ"
+      ],
+      "collocations": [
+        "إِنْجَازُ الْمَهَمَّةِ"
+      ],
+      "examples_ar": [
+        "فَرِحَ الْفَرِيقُ بِإِنْجَازِ الْمَشْرُوعِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَعْمَالِ الصَّغِيرَةِ وَالْكَبِيرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_070",
+      "arabic": "مُعَدَّلُ إِنْجَازٍ",
+      "meaning_ar": "نِسْبَةُ الْأَعْمَالِ الْمُكْتَمِلَةِ إِلَى الْأَعْمَالِ الْمُقَرَّرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُعَدَّلَاتُ إِنْجَازٍ"
+      ],
+      "collocations": [
+        "رَصْدُ مُعَدَّلِ الْإِنْجَازِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ مُعَدَّلُ إِنْجَازِ الْفَرِيقِ."
+      ],
+      "usage_note_ar": "يُحْسَبُ لِمُدَّةٍ وَمَهَامَّ مُحَدَّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_071",
+      "arabic": "تَقَدُّمٌ",
+      "meaning_ar": "انْتِقَالُ الْعَمَلِ مِنْ مَرْحَلَةٍ إِلَى أُخْرَى قُرْبَ الْهَدَفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَدُّمَاتٌ"
+      ],
+      "collocations": [
+        "تَقَدُّمُ الْمَشْرُوعِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَرِيقُ تَقَدُّمًا فِي الْمَهَامِّ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلْحَرَكَةِ إِلَى الأَمَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_072",
+      "arabic": "تَأَخُّرٌ",
+      "meaning_ar": "حُدُوثُ عَمَلٍ بَعْدَ وَقْتِهِ الْمُقَرَّرِ أَوْ بِبُطْءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَأَخُّرُ الْمَشْرُوعِ"
+      ],
+      "examples_ar": [
+        "عَالَجَ الْمُدِيرُ أَسْبَابَ التَّأَخُّرِ."
+      ],
+      "usage_note_ar": "قَدْ يَنْتُجُ عَنْ نَقْصِ الْمَوَارِدِ أَوْ تَغَيُّرِ الْخُطَطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_073",
+      "arabic": "انْضِبَاطٌ",
+      "meaning_ar": "الْتِزَامُ الشَّخْصِ بِقَوَاعِدَ وَمَوَاعِيدَ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "انْضِبَاطٌ فِي الْمَوَاعِيدِ"
+      ],
+      "examples_ar": [
+        "يُعْرَفُ الْمُوَظَّفُ بِالِانْضِبَاطِ."
+      ],
+      "usage_note_ar": "يَرِدُ فِي السُّلُوكِ وَالتَّعْلِيمِ وَالْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_074",
+      "arabic": "مُوَاظَبَةٌ",
+      "meaning_ar": "اسْتِمْرَارُ الشَّخْصِ فِي عَمَلٍ بِانْتِظَامٍ دُونَ انْقِطَاعٍ كَثِيرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُوَاظَبَةٌ عَلَى الدِّرَاسَةِ"
+      ],
+      "examples_ar": [
+        "نَجَحَ الطَّالِبُ بِسَبَبِ مُوَاظَبَتِهِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِالتَّكْرَارِ وَالصَّبْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_075",
+      "arabic": "اسْتِمْرَارِيَّةٌ",
+      "meaning_ar": "اسْتِمْرَارُ الْعَمَلِ أَوِ الْخِدْمَةِ بِدُونِ انْقِطَاعٍ طَوِيلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اسْتِمْرَارِيَّةُ التَّعَلُّمِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُدِيرُ خُطَّةً لِاسْتِمْرَارِ الْعَمَلِ."
+      ],
+      "usage_note_ar": "تَرِدُ فِي الْخِدْمَاتِ وَالْعَادَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_076",
+      "arabic": "رُوتِينٌ",
+      "meaning_ar": "تَسَلْسُلٌ مُتَكَرِّرٌ مِنَ الأَعْمَالِ فِي الْحَيَاةِ الْيَوْمِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رُوتِينَاتٌ"
+      ],
+      "collocations": [
+        "رُوتِينٌ صَبَاحِيٌّ"
+      ],
+      "examples_ar": [
+        "نَظَّمَ الرَّجُلُ رُوتِينَهُ الْيَوْمِيَّ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مُفِيدًا أَوْ مُمِلًّا بِحَسَبِ السِّيَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_077",
+      "arabic": "عَادَةٌ يَوْمِيَّةٌ",
+      "meaning_ar": "سُلُوكٌ يَتَكَرَّرُ كُلَّ يَوْمٍ أَوْ فِي مُعْظَمِ الأَيَّامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَادَاتٌ يَوْمِيَّةٌ"
+      ],
+      "collocations": [
+        "عَادَةُ الْقِرَاءَةِ"
+      ],
+      "examples_ar": [
+        "جَعَلَ الطَّالِبُ الْقِرَاءَةَ عَادَةً يَوْمِيَّةً."
+      ],
+      "usage_note_ar": "تَتَكَوَّنُ بِالْمُمَارَسَةِ الْمُنْتَظِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_078",
+      "arabic": "مُدَاوَمَةٌ",
+      "meaning_ar": "الِالْتِزَامُ بِعَمَلٍ أَوْ وَقْتٍ مُنْتَظِمٍ فِي الدِّرَاسَةِ أَوِ الْوَظِيفَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُدَاوَمَةُ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "الْتَزَمَ الْمُوَظَّفُ بِمُدَاوَمَتِهِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَنْظِيمِ الْحُضُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_079",
+      "arabic": "حُضُورٌ",
+      "meaning_ar": "وُجُودُ الشَّخْصِ فِي الْمَكَانِ أَوِ الْمَوْعِدِ الْمَقْصُودِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الْحُضُورِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُعَلِّمُ حُضُورَ الطُّلَّابِ."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْغِيَابَ فِي جَدَاوِلِ الدِّرَاسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_080",
+      "arabic": "غِيَابٌ",
+      "meaning_ar": "عَدَمُ وُجُودِ الشَّخْصِ فِي الْمَكَانِ الَّذِي يُتَوَقَّعُ حُضُورُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ غِيَابَاتٌ"
+      ],
+      "collocations": [
+        "سَبَبُ الْغِيَابِ"
+      ],
+      "examples_ar": [
+        "اعْتَذَرَ الْمُوَظَّفُ عَنْ غِيَابِهِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِعَدَمِ الْعِلْمِ بِالشَّيْءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_081",
+      "arabic": "تَأَخُّرُ الْحُضُورِ",
+      "meaning_ar": "وُصُولُ الشَّخْصِ بَعْدَ الْوَقْتِ الْمُقَرَّرِ لِبِدَايَةِ الْعَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ التَّأَخُّرِ"
+      ],
+      "examples_ar": [
+        "اعْتَذَرَ الطَّالِبُ عَنْ تَأَخُّرِهِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْغِيَابِ الْكَامِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_082",
+      "arabic": "مُنَاوَبَةٌ",
+      "meaning_ar": "فَتْرَةُ عَمَلٍ يَتَبَادَلُ فِيهَا الْمُوَظَّفُونَ الْمَهَامَّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُنَاوَبَاتٌ"
+      ],
+      "collocations": [
+        "مُنَاوَبَةٌ لَيْلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْمُوَظَّفُ مُنَاوَبَتَهُ الْمَسَائِيَّةَ."
+      ],
+      "usage_note_ar": "تَشِيعُ فِي الْمُسْتَشْفَيَاتِ وَالْخِدْمَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_083",
+      "arabic": "وَرْدِيَّةٌ",
+      "meaning_ar": "جُزْءٌ مُحَدَّدٌ مِنَ الْيَوْمِ يَعْمَلُ فِيهِ مَجْمُوعَةٌ مِنَ الْعُمَّالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَرْدِيَّاتٌ"
+      ],
+      "collocations": [
+        "الْوَرْدِيَّةُ الصَّبَاحِيَّةُ"
+      ],
+      "examples_ar": [
+        "انْتَهَتِ الْوَرْدِيَّةُ عِنْدَ الْمَسَاءِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي الْمَصَانِعِ وَالْمَرَافِقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_084",
+      "arabic": "وَرْدِيَّةٌ لَيْلِيَّةٌ",
+      "meaning_ar": "فَتْرَةُ عَمَلٍ تَبْدَأُ أَوْ تَسْتَمِرُّ خِلَالَ اللَّيْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَرْدِيَّاتٌ لَيْلِيَّةٌ"
+      ],
+      "collocations": [
+        "الْعَمَلُ لَيْلًا"
+      ],
+      "examples_ar": [
+        "عَمِلَ الْمُمَرِّضُ فِي وَرْدِيَّةٍ لَيْلِيَّةٍ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَنْظِيمَ الرَّاحَةِ وَالنَّوْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_085",
+      "arabic": "دَوَامٌ",
+      "meaning_ar": "وَقْتُ الْعَمَلِ الْمُنَظَّمِ وَمُدَّتُهُ فِي وَظِيفَةٍ أَوْ دِرَاسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دَوَامَاتٌ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الدَّوَامِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْمُعَلِّمُ قَبْلَ الدَّوَامِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلِاسْتِمْرَارِ وَالْبَقَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_086",
+      "arabic": "دَوَامٌ جُزْئِيٌّ",
+      "meaning_ar": "عَمَلٌ بِسَاعَاتٍ أَقَلَّ مِنْ سَاعَاتِ الدَّوَامِ الْكَامِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَمَلٌ بِدَوَامٍ جُزْئِيٍّ"
+      ],
+      "examples_ar": [
+        "عَمِلَ الطَّالِبُ فِي دَوَامٍ جُزْئِيٍّ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ سَاعَاتُهُ بِحَسَبِ الْعَقْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_087",
+      "arabic": "دَوَامٌ كَامِلٌ",
+      "meaning_ar": "عَمَلٌ بِالْمُدَّةِ الْمُعْتَادَةِ لِلْوَظِيفَةِ وَفْقَ النِّظَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَظِيفَةٌ بِدَوَامٍ كَامِلٍ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْمُوَظَّفُ دَوَامَهُ الْكَامِلَ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَدَدُ سَاعَاتِهِ بِحَسَبِ الْمَهَنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_088",
+      "arabic": "وَقْتٌ إِضَافِيٌّ",
+      "meaning_ar": "سَاعَاتُ عَمَلٍ تُؤَدَّى خَارِجَ الْوَقْتِ الْمُعْتَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَوْقَاتٌ إِضَافِيَّةٌ"
+      ],
+      "collocations": [
+        "سَاعَاتُ عَمَلٍ إِضَافِيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَنْهَى الْفَرِيقُ الْمَشْرُوعَ بِعَمَلٍ إِضَافِيٍّ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ مُقَابِلُهُ وَفْقَ نِظَامِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_089",
+      "arabic": "جَدْوَلُ مُنَاوَبَاتٍ",
+      "meaning_ar": "خُطَّةٌ تُبَيِّنُ مَنْ يَعْمَلُ فِي كُلِّ فَتْرَةٍ أَوْ يَوْمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَدَاوِلُ مُنَاوَبَاتٍ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الْفَرِيقِ"
+      ],
+      "examples_ar": [
+        "وَزَّعَ الْمُدِيرُ جَدْوَلَ الْمُنَاوَبَاتِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَوْفِيرِ التَّغْطِيَةِ الْمُسْتَمِرَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_090",
+      "arabic": "مُرُونَةُ الْوَقْتِ",
+      "meaning_ar": "إِمْكَانُ تَغْيِيرِ وَقْتِ بِدَايَةِ الْعَمَلِ أَوْ انْتِهَائِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَوَاعِيدُ عَمَلٍ مَرِنَةٌ"
+      ],
+      "examples_ar": [
+        "اتَّفَقَ الْفَرِيقُ عَلَى سَاعَاتٍ مَرِنَةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ تَقْلِيلِ عَدَدِ سَاعَاتِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_091",
+      "arabic": "إِدَارَةُ الْوَقْتِ",
+      "meaning_ar": "تَنْظِيمُ الْأَعْمَالِ وَالْمَوَاعِيدِ لِلِاسْتِفَادَةِ مِنَ الْيَوْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَهَارَةُ إِدَارَةِ الْوَقْتِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ الطَّالِبُ كَيْفَ يُدِيرُ وَقْتَهُ."
+      ],
+      "usage_note_ar": "تَشْمَلُ التَّخْطِيطَ وَالتَّرْتِيبَ وَالْمُرَاجَعَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_092",
+      "arabic": "تَخْطِيطٌ",
+      "meaning_ar": "تَحْدِيدُ الأَهْدَافِ وَالْخُطُوَاتِ وَالْمَوَارِدِ قَبْلَ الْعَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَخْطِيطٌ مُسْبَقٌ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْمُدِيرُ التَّخْطِيطَ لِلْمَشْرُوعِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِرَسْمِ خُطُوطٍ وَأَشْكَالٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_093",
+      "arabic": "خُطَّةٌ",
+      "meaning_ar": "تَرْتِيبٌ مُقْتَرَحٌ لِلْخُطُوَاتِ اللَّازِمَةِ لِتَحْقِيقِ هَدَفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطَطٌ"
+      ],
+      "collocations": [
+        "خُطَّةُ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْأُسْرَةُ خُطَّةً لِلرِّحْلَةِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَعْدِيلُهَا عِنْدَ تَغَيُّرِ الظُّرُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_094",
+      "arabic": "خُطَّةٌ بَدِيلَةٌ",
+      "meaning_ar": "طَرِيقَةٌ أُخْرَى لِإِنْجَازِ الْهَدَفِ عِنْدَ تَعَذُّرِ الْخُطَّةِ الأُولَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطَطٌ بَدِيلَةٌ"
+      ],
+      "collocations": [
+        "تَجْهِيزُ خُطَّةٍ بَدِيلَةٍ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُدِيرُ خُطَّةً بَدِيلَةً لِلْمَطَرِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِمُوَاجَهَةِ التَّغَيُّرَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_095",
+      "arabic": "خُطَّةٌ طَوِيلَةُ الأَمَدِ",
+      "meaning_ar": "تَرْتِيبُ أَهْدَافٍ وَأَعْمَالٍ تَمْتَدُّ إِلَى سَنَوَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطَطٌ طَوِيلَةُ الأَمَدِ"
+      ],
+      "collocations": [
+        "خُطَّةُ تَطَوُّرٍ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّالِبُ خُطَّةً طَوِيلَةَ الأَمَدِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ مَهَامِّ الْيَوْمِ الْوَاحِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_096",
+      "arabic": "خُطَّةٌ قَصِيرَةُ الأَمَدِ",
+      "meaning_ar": "تَرْتِيبُ أَعْمَالٍ لِتَحْقِيقِ نَتِيجَةٍ فِي مُدَّةٍ قَرِيبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطَطٌ قَصِيرَةُ الأَمَدِ"
+      ],
+      "collocations": [
+        "خُطَّةٌ لِلْأُسْبُوعِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْفَرِيقُ خُطَّةً قَصِيرَةَ الأَمَدِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَنْفِيذِ الأَهْدَافِ الْكُبْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_097",
+      "arabic": "هَدَفٌ",
+      "meaning_ar": "نَتِيجَةٌ يَسْعَى الشَّخْصُ أَوِ الْفَرِيقُ لِتَحْقِيقِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَهْدَافٌ"
+      ],
+      "collocations": [
+        "هَدَفٌ وَاضِحٌ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ هَدَفًا لِلتَّعَلُّمِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلْمَرْمَى فِي بَعْضِ الرِّيَاضَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_098",
+      "arabic": "هَدَفٌ قَابِلٌ لِلْقِيَاسِ",
+      "meaning_ar": "نَتِيجَةٌ يُمْكِنُ مَعْرِفَةُ تَحَقُّقِهَا بِعَدَدٍ أَوْ مِعْيَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَهْدَافٌ قَابِلَةٌ لِلْقِيَاسِ"
+      ],
+      "collocations": [
+        "هَدَفُ قِرَاءَةٍ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْقَارِئُ هَدَفًا لِقِرَاءَةِ كِتَابَيْنِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَقْيِيمِ التَّقَدُّمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_099",
+      "arabic": "مِؤْشِرُ أَدَاءٍ",
+      "meaning_ar": "قِيمَةٌ تُسْتَعْمَلُ لِمُتَابَعَةِ نَجَاحِ عَمَلٍ أَوْ تَقَدُّمِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُؤْشِرَاتُ أَدَاءٍ"
+      ],
+      "collocations": [
+        "مِؤْشِرُ إِنْجَازٍ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُدِيرُ مُؤْشِرَاتِ الأَدَاءِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ الْمُؤْشِرَاتُ إِلَى تَعْرِيفٍ وَاضِحٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_100",
+      "arabic": "مَعْلَمٌ زَمَنِيٌّ",
+      "meaning_ar": "حَدَثٌ مُهِمٌّ يُسْتَعْمَلُ لِقِيَاسِ تَقَدُّمِ مَشْرُوعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَعَالِمُ زَمَنِيَّةٌ"
+      ],
+      "collocations": [
+        "مَعْلَمُ الْإِطْلَاقِ"
+      ],
+      "examples_ar": [
+        "حَقَّقَ الْفَرِيقُ الْمَعْلَمَ الزَّمَنِيَّ الأَوَّلَ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمَهَمَّةِ الصَّغِيرَةِ الْيَوْمِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_101",
+      "arabic": "مَرْحَلَةُ مَشْرُوعٍ",
+      "meaning_ar": "جُزْءٌ مُحَدَّدٌ مِنْ عَمَلٍ كَبِيرٍ لَهُ أَهْدَافٌ وَنِتَاجٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَاحِلُ مَشْرُوعٍ"
+      ],
+      "collocations": [
+        "الْمَرْحَلَةُ الثَّانِيَةُ"
+      ],
+      "examples_ar": [
+        "أَنْهَى الْفَرِيقُ مَرْحَلَةَ التَّصْمِيمِ."
+      ],
+      "usage_note_ar": "تَتَابَعُ الْمَرَاحِلُ حَسَبَ خُطَّةِ الْمَشْرُوعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_102",
+      "arabic": "خُطَّةُ تَنْفِيذٍ",
+      "meaning_ar": "وَثِيقَةٌ تُحَدِّدُ كَيْفَ تُنَفَّذُ الْمَهَامُّ وَمَتَى وَمَنْ يَنْفِّذُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطَطُ تَنْفِيذٍ"
+      ],
+      "collocations": [
+        "خُطَّةُ تَنْفِيذِ الْمَشْرُوعِ"
+      ],
+      "examples_ar": [
+        "وَزَّعَ الْمُدِيرُ خُطَّةَ التَّنْفِيذِ."
+      ],
+      "usage_note_ar": "تَرْبِطُ الْمَهَامَّ بِالْمَسْؤُولِيَّاتِ وَالْمَوَاعِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_103",
+      "arabic": "مُخَطَّطٌ زَمَنِيٌّ",
+      "meaning_ar": "رَسْمٌ أَوْ جَدْوَلٌ يُظْهِرُ تَرْتِيبَ الأَعْمَالِ وَمُدَدَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخَطَّطَاتٌ زَمَنِيَّةٌ"
+      ],
+      "collocations": [
+        "مُخَطَّطُ الْمَشْرُوعِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْمُدِيرُ مُخَطَّطًا زَمَنِيًّا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِرُؤْيَةِ الْمَهَامِّ الْمُتَدَاخِلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_104",
+      "arabic": "جَدْوَلٌ زَمَنِيٌّ",
+      "meaning_ar": "قَائِمَةٌ بِالأَعْمَالِ مُرَتَّبَةٌ حَسَبَ الْوَقْتِ الْمُحَدَّدِ لَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ جَدَاوِلُ زَمَنِيَّةٌ"
+      ],
+      "collocations": [
+        "جَدْوَلُ التَّسْلِيمِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْفَرِيقُ الْجَدْوَلَ الزَّمَنِيَّ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ عِنْدَ تَعْدِيلِ خُطَّةِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_105",
+      "arabic": "مَسَارٌ حَرِجٌ",
+      "meaning_ar": "تَسَلْسُلُ أَعْمَالٍ تُؤَثِّرُ مُدَّتُهَا فِي وَقْتِ انْتِهَاءِ الْمَشْرُوعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْمَسَارِ الْحَرِجِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُهَنْدِسُ الْمَهَامَّ الْحَرِجَةَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَخْطِيطِ الْمَشَارِيعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_106",
+      "arabic": "اعْتِمَادِيَّةُ مَهَمَّةٍ",
+      "meaning_ar": "حَاجَةُ عَمَلٍ إِلَى إِتْمَامِ عَمَلٍ آخَرَ قَبْلَ بَدْئِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اعْتِمَادِيَّاتُ مَهَامٍّ"
+      ],
+      "collocations": [
+        "تَرْتِيبُ الْمَهَامِّ"
+      ],
+      "examples_ar": [
+        "لَا يَبْدَأُ التَّنْفِيذُ قَبْلَ انْتِهَاءِ التَّصْمِيمِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَحْدِيدِ تَسَلْسُلِ الْأَعْمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_107",
+      "arabic": "عَمَلٌ مُتَوَازٍ",
+      "meaning_ar": "مَهَامُّ تَجْرِي فِي وَقْتٍ وَاحِدٍ دُونَ انْتِظَارِ بَعْضِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْمَالٌ مُتَوَازِيَةٌ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ أَعْمَالٍ مُتَوَازِيَةٍ"
+      ],
+      "examples_ar": [
+        "عَمِلَ فَرِيقَانِ عَلَى مَهَمَّتَيْنِ مَعًا."
+      ],
+      "usage_note_ar": "يُقَلِّلُ الْوَقْتَ عِنْدَ تَوَفُّرِ الْمَوَارِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_108",
+      "arabic": "عُنُقُ زُجَاجَةٍ",
+      "meaning_ar": "مَرْحَلَةٌ تُبْطِئُ تَقَدُّمَ بَقِيَّةِ الْعَمَلِ بِسَبَبِ مَحْدُودِيَّتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عُنُقُ زُجَاجَةٍ فِي الْإِنْتَاجِ"
+      ],
+      "examples_ar": [
+        "أَخَّرَتِ الْمُرَاجَعَةُ تَسْلِيمَ الْمَشْرُوعِ."
+      ],
+      "usage_note_ar": "تَعْبِيرٌ مَجَازِيٌّ فِي إِدَارَةِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_109",
+      "arabic": "طَاقَةٌ إِنْتَاجِيَّةٌ",
+      "meaning_ar": "أَكْبَرُ مِقْدَارٍ مِنَ الْعَمَلِ يُمْكِنُ إِنْجَازُهُ بِمَوَارِدَ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طَاقَاتٌ إِنْتَاجِيَّةٌ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ الطَّاقَةِ الْإِنْتَاجِيَّةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُدِيرُ طَاقَةَ الْفَرِيقِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِالْوَقْتِ وَالْأَدَوَاتِ وَعَدَدِ الْعُمَّالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_110",
+      "arabic": "عِبْءُ عَمَلٍ",
+      "meaning_ar": "مَجْمُوعُ الْمَهَامِّ الْمُكَلَّفِ بِهَا شَخْصٌ أَوْ فَرِيقٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْبَاءُ عَمَلٍ"
+      ],
+      "collocations": [
+        "تَوْزِيعُ عِبْءِ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "خَفَّفَ الْمُدِيرُ عِبْءَ الْعَمَلِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ بِحَسَبِ عَدَدِ الْمَهَامِّ وَصُعُوبَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_111",
+      "arabic": "تَفْوِيضُ مَهَمَّةٍ",
+      "meaning_ar": "إِسْنَادُ عَمَلٍ وَصَلَاحِيَّةٍ إِلَى شَخْصٍ لِتَنْفِيذِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَفْوِيضَاتُ مَهَامٍّ"
+      ],
+      "collocations": [
+        "تَفْوِيضٌ وَاضِحٌ"
+      ],
+      "examples_ar": [
+        "فَوَّضَ الْمُدِيرُ الْمَهَمَّةَ إِلَى زَمِيلِهِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَحْدِيدِ الْمَسْؤُولِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_112",
+      "arabic": "تَكْلِيفٌ",
+      "meaning_ar": "إِسْنَادُ عَمَلٍ مُحَدَّدٍ إِلَى شَخْصٍ مَعَ تَوْضِيحِ الْمَطْلُوبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَكْلِيفَاتٌ"
+      ],
+      "collocations": [
+        "تَكْلِيفُ الْمُوَظَّفِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى الْمُوَظَّفُ تَكْلِيفًا جَدِيدًا."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلْإِلْزَامِ بِالْوَاجِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_113",
+      "arabic": "تَنْسِيقٌ زَمَنِيٌّ",
+      "meaning_ar": "تَرْتِيبُ مَوَاعِيدِ أَشْخَاصٍ أَوْ أَعْمَالٍ لِمَنْعِ التَّدَاخُلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَنْسِيقُ الِاجْتِمَاعَاتِ"
+      ],
+      "examples_ar": [
+        "نَسَّقَ الْمُوَظَّفُ مَوْعِدًا يُنَاسِبُ الْجَمِيعَ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مَعْرِفَةِ التَّوْقِيتِ وَالِانْشِغَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_114",
+      "arabic": "تَعَارُضُ مَوَاعِيدَ",
+      "meaning_ar": "وُقُوعُ مَوْعِدَيْنِ فِي وَقْتٍ وَاحِدٍ عَلَى نَحْوٍ يَمْنَعُ حُضُورَهُمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَعَارُضُ الِاجْتِمَاعَاتِ"
+      ],
+      "examples_ar": [
+        "اِعْتَذَرَ الرَّجُلُ بِسَبَبِ تَعَارُضِ الْمَوَاعِيدِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ مُعَالَجَتُهُ بِتَغْيِيرِ أَحَدِ الْمَوْعِدَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_115",
+      "arabic": "تَفْرِيغُ الْوَقْتِ",
+      "meaning_ar": "إِخْلَاءُ فَتْرَةٍ مِنَ الْمَهَامِّ لِتَخْصِيصِهَا لِعَمَلٍ مُهِمٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَفْرِيغُ سَاعَةٍ لِلْقِرَاءَةِ"
+      ],
+      "examples_ar": [
+        "فَرَّغَ الطَّالِبُ سَاعَةً لِلدِّرَاسَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَنْظِيمِ الْمَهَامِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_116",
+      "arabic": "حَجْزُ فَتْرَةٍ",
+      "meaning_ar": "تَخْصِيصُ جُزْءٍ مِنَ الْيَوْمِ لِعَمَلٍ مُحَدَّدٍ دُونَ غَيْرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حُجُوزَاتُ فَتَرَاتٍ"
+      ],
+      "collocations": [
+        "حَجْزُ وَقْتٍ لِلْعَمَلِ"
+      ],
+      "examples_ar": [
+        "حَجَزَ الْمُدِيرُ فَتْرَةً لِلْمُرَاجَعَةِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى حِمَايَةِ وَقْتِ التَّرْكِيزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_117",
+      "arabic": "فُسْحَةٌ زَمَنِيَّةٌ",
+      "meaning_ar": "وَقْتٌ إِضَافِيٌّ يُتْرَكُ لِمُعَالَجَةِ التَّأْخِيرِ الْمُحْتَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فُسَحٌ زَمَنِيَّةٌ"
+      ],
+      "collocations": [
+        "فُسْحَةٌ لِلطَّوَارِئِ"
+      ],
+      "examples_ar": [
+        "تَرَكَ الْمُدِيرُ فُسْحَةً قَبْلَ مَوْعِدِ التَّسْلِيمِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي خُطَطِ الْمَشَارِيعِ وَالرِّحْلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_118",
+      "arabic": "تَقْدِيرُ الْوَقْتِ",
+      "meaning_ar": "تَوَقُّعُ الْمُدَّةِ اللَّازِمَةِ لِإِكْمَالِ عَمَلٍ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ مُدَّةِ التَّنْفِيذِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الْمُبَرْمِجُ وَقْتَ الْمَهَمَّةِ."
+      ],
+      "usage_note_ar": "قَدْ يَخْتَلِفُ الْوَقْتُ الْفِعْلِيُّ عَنِ الْمُتَوَقَّعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_119",
+      "arabic": "وَقْتٌ فِعْلِيٌّ",
+      "meaning_ar": "الْمُدَّةُ الَّتِي اسْتَغْرَقَهَا الْعَمَلُ حَقِيقَةً بَعْدَ تَنْفِيذِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْوَقْتِ الْفِعْلِيِّ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدِيرُ الْوَقْتَ الْفِعْلِيَّ بِالْمُخَطَّطِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّقْدِيرِ الَّذِي يُوضَعُ قَبْلَ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_120",
+      "arabic": "وَقْتٌ مُخَطَّطٌ",
+      "meaning_ar": "الْمُدَّةُ الَّتِي يُتَوَقَّعُ أَنْ يَحْتَاجَ إِلَيْهَا الْعَمَلُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "الْوَقْتُ الْمُخَطَّطُ لِلْإِنْجَازِ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ الْفَرِيقُ الْعَمَلَ قَبْلَ الْوَقْتِ الْمُخَطَّطِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْمُقَارَنَةِ بَعْدَ الْإِنْجَازِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_121",
+      "arabic": "فَارِقٌ زَمَنِيٌّ",
+      "meaning_ar": "اخْتِلَافٌ بَيْنَ مُدَّتَيْنِ أَوْ تَوْقِيتَيْنِ فِي الْحِسَابِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَوَارِقُ زَمَنِيَّةٌ"
+      ],
+      "collocations": [
+        "فَارِقٌ بَيْنَ وَقْتَيْنِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُدِيرُ الْفَارِقَ الزَّمَنِيَّ."
+      ],
+      "usage_note_ar": "يَرِدُ لِمُقَارَنَةِ الْمُدَدِ وَالْمَوَاعِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_122",
+      "arabic": "انْحِرَافٌ عَنِ الْجَدْوَلِ",
+      "meaning_ar": "اخْتِلَافُ التَّقَدُّمِ الْفِعْلِيِّ عَمَّا كَانَ مُقَرَّرًا فِي الْخُطَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "انْحِرَافُ الْمَوْعِدِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ انْحِرَافٌ فِي جَدْوَلِ التَّسْلِيمِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ تَقَدُّمًا أَوْ تَأَخُّرًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_123",
+      "arabic": "تَسْلِيمٌ مَرْحَلِيٌّ",
+      "meaning_ar": "تَقْدِيمُ جُزْءٍ مُكْتَمِلٍ مِنَ الْعَمَلِ قَبْلَ نِهَايَةِ الْمَشْرُوعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَسْلِيمَاتٌ مَرْحَلِيَّةٌ"
+      ],
+      "collocations": [
+        "تَسْلِيمُ النُّسْخَةِ الأُولَى"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْفَرِيقُ تَسْلِيمًا مَرْحَلِيًّا."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى الْمُرَاجَعَةِ قَبْلَ الْإِنْجَازِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_124",
+      "arabic": "تَسْلِيمٌ نِهَائِيٌّ",
+      "meaning_ar": "تَقْدِيمُ الْعَمَلِ الْمُكْتَمِلِ إِلَى صَاحِبِ الطَّلَبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَسْلِيمَاتٌ نِهَائِيَّةٌ"
+      ],
+      "collocations": [
+        "مَوْعِدُ التَّسْلِيمِ النِّهَائِيِّ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْفَرِيقُ مِنْ جَوْدَةِ الْعَمَلِ قَبْلَ التَّسْلِيمِ."
+      ],
+      "usage_note_ar": "يَأْتِي بَعْدَ الْفَحْصِ وَإِجْرَاءِ التَّعْدِيلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_125",
+      "arabic": "مُرَاجَعَةٌ دَوْرِيَّةٌ",
+      "meaning_ar": "فَحْصٌ مُتَكَرِّرٌ لِلتَّقَدُّمِ وَالنَّتَائِجِ فِي مَوَاعِيدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُرَاجَعَاتٌ دَوْرِيَّةٌ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةٌ أُسْبُوعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُدِيرُ مَهَامَّ الْفَرِيقِ كُلَّ أُسْبُوعٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى اكْتِشَافِ الْعَوَائِقِ مُبَكِّرًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_126",
+      "arabic": "تَقْرِيرُ تَقَدُّمٍ",
+      "meaning_ar": "وَثِيقَةٌ تُبَيِّنُ مَا أُنْجِزَ وَمَا يَبْقَى مِنَ الْمَهَامِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَقَارِيرُ تَقَدُّمٍ"
+      ],
+      "collocations": [
+        "تَقْرِيرُ الْأُسْبُوعِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْفَرِيقُ تَقْرِيرًا عَنِ التَّقَدُّمِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَضَمَّنُ مُشْكِلَاتٍ وَخُطُوَاتٍ تَالِيَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_127",
+      "arabic": "قَرَارٌ مُؤَجَّلٌ",
+      "meaning_ar": "أَمْرٌ لَمْ يُحْسَمْ بَعْدُ لِانْتِظَارِ مَعْلُومَاتٍ أَوْ وَقْتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قَرَارَاتٌ مُؤَجَّلَةٌ"
+      ],
+      "collocations": [
+        "حَسْمُ الْقَرَارِ"
+      ],
+      "examples_ar": [
+        "تَأَجَّلَ الْقَرَارُ حَتَّى وُصُولِ التَّقْرِيرِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَأَثَّرُ بِهِ سَيْرُ الْمَشْرُوعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_128",
+      "arabic": "شَرْطٌ سَابِقٌ",
+      "meaning_ar": "أَمْرٌ يَجِبُ تَحَقُّقُهُ قَبْلَ بِدَايَةِ عَمَلٍ أَوْ مَرْحَلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شُرُوطٌ سَابِقَةٌ"
+      ],
+      "collocations": [
+        "تَحَقُّقُ الشَّرْطِ السَّابِقِ"
+      ],
+      "examples_ar": [
+        "انْتَظَرَ الْفَرِيقُ الْمُوَافَقَةَ قَبْلَ التَّنْفِيذِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْإِدَارَةِ وَالْعُقُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_129",
+      "arabic": "اعْتِمَادٌ نِهَائِيٌّ",
+      "meaning_ar": "مُوَافَقَةٌ أَخِيرَةٌ تَسْمَحُ بِإِغْلَاقِ الْعَمَلِ أَوْ نَشْرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ اعْتِمَادَاتٌ نِهَائِيَّةٌ"
+      ],
+      "collocations": [
+        "اعْتِمَادُ التَّصْمِيمِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ اعْتِمَادُ الْمَشْرُوعِ مِنَ الْمَدِيرِ."
+      ],
+      "usage_note_ar": "يُؤَكِّدُ انْتِهَاءَ مَرْحَلَةِ الْمُرَاجَعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_130",
+      "arabic": "مَوْعِدُ مُرَاجَعَةٍ",
+      "meaning_ar": "وَقْتٌ مُحَدَّدٌ لِفَحْصِ عَمَلٍ أَوْ تَقْدِيمِ مَلَاحَظَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَاعِيدُ مُرَاجَعَةٍ"
+      ],
+      "collocations": [
+        "مَوْعِدُ مُرَاجَعَةِ النُّسْخَةِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْفَرِيقُ مَوْعِدًا لِلْمُرَاجَعَةِ."
+      ],
+      "usage_note_ar": "يَسْبِقُ غَالِبًا تَسْلِيمَ النُّسْخَةِ النِّهَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_131",
+      "arabic": "قَائِمَةُ تَحَقُّقٍ",
+      "meaning_ar": "مَجْمُوعَةُ شُرُوطٍ أَوْ خُطُوَاتٍ تُفْحَصُ قَبْلَ انْتِهَاءِ الْعَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قَوَائِمُ تَحَقُّقٍ"
+      ],
+      "collocations": [
+        "قَائِمَةُ فَحْصٍ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُوَظَّفُ قَائِمَةَ التَّحَقُّقِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَقْلِيلِ النِّسْيَانِ وَالأَخْطَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_132",
+      "arabic": "خَطْوَةٌ تَالِيَةٌ",
+      "meaning_ar": "عَمَلٌ مُحَدَّدٌ يَجِبُ تَنْفِيذُهُ بَعْدَ الْمَرْحَلَةِ الْحَالِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطُوَاتٌ تَالِيَةٌ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْخُطْوَةِ التَّالِيَةِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْمُدِيرُ الْخُطُوَاتِ التَّالِيَةَ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى عَدَمِ تَوَقُّفِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_133",
+      "arabic": "إِجْرَاءٌ تَصْحِيحِيٌّ",
+      "meaning_ar": "عَمَلٌ يُنَفَّذُ لِإِزَالَةِ سَبَبِ خَلَلٍ فِي الْمَشْرُوعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِجْرَاءَاتٌ تَصْحِيحِيَّةٌ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّصْحِيحِ"
+      ],
+      "examples_ar": [
+        "اتَّخَذَ الْفَرِيقُ إِجْرَاءً تَصْحِيحِيًّا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ إِصْلَاحِ الْعَرَضِ دُونَ السَّبَبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_134",
+      "arabic": "تَحْسِينٌ مُسْتَمِرٌّ",
+      "meaning_ar": "تَغْيِيرَاتٌ صَغِيرَةٌ وَمُتَتَالِيَةٌ تَرْفَعُ جَوْدَةَ الْعَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّحْسِينِ"
+      ],
+      "examples_ar": [
+        "أَدْخَلَ الْفَرِيقُ تَحْسِينَاتٍ عَلَى الْخِدْمَةِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى الْقِيَاسِ وَالْمُرَاجَعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_135",
+      "arabic": "دَرْسٌ مُسْتَفَادٌ",
+      "meaning_ar": "خُبْرَةٌ تُسْتَخْلَصُ مِنْ تَجْرِبَةٍ لِتَجَنُّبِ خَطَإٍ لَاحِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ دُرُوسٌ مُسْتَفَادَةٌ"
+      ],
+      "collocations": [
+        "تَوْثِيقُ الدُّرُوسِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْفَرِيقُ دُرُوسًا مُسْتَفَادَةً بَعْدَ الْمَشْرُوعِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي التَّعَلُّمِ وَتَحْسِينِ الْأَدَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_136",
+      "arabic": "خُلَاصَةُ اجْتِمَاعٍ",
+      "meaning_ar": "مُلَخَّصٌ قَصِيرٌ لِلْقَرَارَاتِ وَالْمَهَامِّ الْمُتَّفَقِ عَلَيْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُلَاصَاتُ اجْتِمَاعَاتٍ"
+      ],
+      "collocations": [
+        "كِتَابَةُ الْخُلَاصَةِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُدِيرُ خُلَاصَةَ الِاجْتِمَاعِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الْغَائِبِينَ عَلَى مَعْرِفَةِ النَّتَائِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_137",
+      "arabic": "مَحْضَرُ مُتَابَعَةٍ",
+      "meaning_ar": "وَثِيقَةٌ تُسَجِّلُ تَقَدُّمَ الْمَهَامِّ وَالْقَرَارَاتِ الْجَدِيدَةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَحَاضِرُ مُتَابَعَةٍ"
+      ],
+      "collocations": [
+        "مَحْضَرُ الْأُسْبُوعِ"
+      ],
+      "examples_ar": [
+        "حَفِظَ الْمُوَظَّفُ مَحْضَرَ الْمُتَابَعَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّقْرِيرِ الْمَالِيِّ الْمُفَصَّلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_138",
+      "arabic": "عِيدٌ",
+      "meaning_ar": "يَوْمٌ أَوْ مُنَاسَبَةٌ تَتَكَرَّرُ وَيَحْتَفِلُ بِهَا النَّاسُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَعْيَادٌ"
+      ],
+      "collocations": [
+        "يَوْمُ الْعِيدِ"
+      ],
+      "examples_ar": [
+        "زَارَتِ الْأُسْرَةُ الأَقَارِبَ فِي الْعِيدِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الأَعْيَادُ بِحَسَبِ الدِّينِ وَالثَّقَافَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_139",
+      "arabic": "عُطْلَةٌ",
+      "meaning_ar": "مُدَّةٌ يَتَوَقَّفُ فِيهَا الْعَمَلُ أَوِ الدِّرَاسَةُ لِلرَّاحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُطَلٌ"
+      ],
+      "collocations": [
+        "عُطْلَةٌ أُسْبُوعِيَّةٌ"
+      ],
+      "examples_ar": [
+        "قَضَتِ الْأُسْرَةُ الْعُطْلَةَ فِي الْمَنْزِلِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ عُطْلٍ بِمَعْنَى خَلَلِ الْآلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_140",
+      "arabic": "عُطْلَةٌ رَسْمِيَّةٌ",
+      "meaning_ar": "يَوْمٌ يَتَوَقَّفُ فِيهِ الْعَمَلُ فِي جِهَاتٍ وَفْقَ النِّظَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُطَلٌ رَسْمِيَّةٌ"
+      ],
+      "collocations": [
+        "عُطْلَةُ الدَّوْلَةِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الْمُؤَسَّسَةُ عَنِ الْعُطْلَةِ الرَّسْمِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْعُطَلُ بَيْنَ الدُّوَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_141",
+      "arabic": "عُطْلَةٌ دِرَاسِيَّةٌ",
+      "meaning_ar": "مُدَّةٌ لَا تُقَامُ فِيهَا الدُّرُوسُ بِسَبَبِ تَوَقُّفِ الدِّرَاسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُطَلٌ دِرَاسِيَّةٌ"
+      ],
+      "collocations": [
+        "عُطْلَةٌ صَيْفِيَّةٌ"
+      ],
+      "examples_ar": [
+        "اسْتَمْتَعَ الطُّلَّابُ بِالْعُطْلَةِ الدِّرَاسِيَّةِ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ بِالتَّقْوِيمِ الْمَدْرَسِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_142",
+      "arabic": "بِدَايَةُ الدَّوَامِ",
+      "meaning_ar": "الْوَقْتُ الَّذِي يُطْلَبُ فِيهِ حُضُورُ الْعَامِلِ أَوِ الطَّالِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الْوَرْدِيَّةِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْمُوَظَّفُ قَبْلَ بِدَايَةِ الدَّوَامِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمَدَارِسِ وَالْوَظَائِفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_143",
+      "arabic": "نِهَايَةُ الدَّوَامِ",
+      "meaning_ar": "الْوَقْتُ الَّذِي تَنْتَهِي فِيهِ سَاعَاتُ الْعَمَلِ الْمُقَرَّرَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نِهَايَةُ يَوْمِ الْعَمَلِ"
+      ],
+      "examples_ar": [
+        "غَادَرَ الْمُوَظَّفُ عِنْدَ نِهَايَةِ الدَّوَامِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَأَخَّرُ بَعْضُ الْعُمَّالِ لِمَهَامَّ إِضَافِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_144",
+      "arabic": "ذُرْوَةُ الِانْشِغَالِ",
+      "meaning_ar": "الْفَتْرَةُ الَّتِي تَكْثُرُ فِيهَا الْمَهَامُّ وَالطَّلَبَاتُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَقْتُ الذُّرْوَةِ"
+      ],
+      "examples_ar": [
+        "زَادَ عَدَدُ الْعُمَلَاءِ فِي وَقْتِ الذُّرْوَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِلِازْدِحَامِ الْمُرُورِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_145",
+      "arabic": "فَتْرَةُ الذُّرْوَةِ",
+      "meaning_ar": "جُزْءٌ مِنَ الْيَوْمِ تَبْلُغُ فِيهِ الْحَرَكَةُ أَوِ الطَّلَبَاتُ أَعْلَاهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتُ الذُّرْوَةِ"
+      ],
+      "collocations": [
+        "فَتْرَةُ ذُرْوَةِ الْمُوَاصَلَاتِ"
+      ],
+      "examples_ar": [
+        "تَزْدَحِمُ الطُّرُقُ فِي فَتْرَةِ الذُّرْوَةِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ وَقْتُهَا بِحَسَبِ النَّشَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_146",
+      "arabic": "فَتْرَةٌ صَبَاحِيَّةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الْيَوْمِ يَقَعُ قَبْلَ الظُّهْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتٌ صَبَاحِيَّةٌ"
+      ],
+      "collocations": [
+        "مَوْعِدٌ صَبَاحِيٌّ"
+      ],
+      "examples_ar": [
+        "اخْتَارَتِ الطَّالِبَةُ فَتْرَةً صَبَاحِيَّةً لِلدِّرَاسَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَنْظِيمِ الْمَوَاعِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_147",
+      "arabic": "فَتْرَةٌ مَسَائِيَّةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الْيَوْمِ يَقَعُ فِي سَاعَاتِ الْمَسَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتٌ مَسَائِيَّةٌ"
+      ],
+      "collocations": [
+        "دَوَامٌ مَسَائِيٌّ"
+      ],
+      "examples_ar": [
+        "يُفَضِّلُ الشَّابُّ الدِّرَاسَةَ فِي الْفَتْرَةِ الْمَسَائِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ حُدُودُهَا بِحَسَبِ الْعُرْفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_148",
+      "arabic": "فَتْرَةٌ لَيْلِيَّةٌ",
+      "meaning_ar": "مُدَّةٌ مِنَ الْوَقْتِ تَقَعُ خِلَالَ اللَّيْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتٌ لَيْلِيَّةٌ"
+      ],
+      "collocations": [
+        "عَمَلٌ فِي الْفَتْرَةِ اللَّيْلِيَّةِ"
+      ],
+      "examples_ar": [
+        "يَعْمَلُ الْحَارِسُ لَيْلًا فِي الْمَرْفَقِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلدَّوَامِ وَالسَّفَرِ وَالْحِرَاسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_149",
+      "arabic": "مُدَّةُ انْتِظَارٍ",
+      "meaning_ar": "الزَّمَنُ الَّذِي يَمْضِي قَبْلَ حُصُولِ شَخْصٍ عَلَى خِدْمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُدَدُ انْتِظَارٍ"
+      ],
+      "collocations": [
+        "مُدَّةُ انْتِظَارٍ قَصِيرَةٌ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُدِيرُ مُدَّةَ انْتِظَارِ الْعُمَلَاءِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي تَجْرِبَةِ الْمُسْتَفِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_150",
+      "arabic": "دَوْرُ انْتِظَارٍ",
+      "meaning_ar": "مَوْضِعُ شَخْصٍ فِي تَرْتِيبِ الْقَائِمَةِ قَبْلَ خِدْمَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَدْوَارُ انْتِظَارٍ"
+      ],
+      "collocations": [
+        "رَقْمُ الدَّوْرِ"
+      ],
+      "examples_ar": [
+        "نَظَرَ الْعَمِيلُ إِلَى رَقْمِ دَوْرِهِ."
+      ],
+      "usage_note_ar": "يَتَعَلَّقُ بِتَنْظِيمِ الطَّوَابِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_151",
+      "arabic": "نِظَامُ حُجُوزَاتٍ",
+      "meaning_ar": "بَرْنَامَجٌ أَوْ إِجْرَاءٌ يُنَظِّمُ طَلَبَ الْمَوَاعِيدِ وَتَأْكِيدَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَنْظِمَةُ حُجُوزَاتٍ"
+      ],
+      "collocations": [
+        "نِظَامُ حَجْزٍ إِلِكْتُرُونِيٍّ"
+      ],
+      "examples_ar": [
+        "حَجَزَ الْعَمِيلُ مَوْعِدَهُ عَبْرَ النِّظَامِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْعِيَادَاتِ وَالْمَطَاعِمِ وَالسَّفَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_152",
+      "arabic": "تَوَفُّرُ مَوْعِدٍ",
+      "meaning_ar": "وُجُودُ فَتْرَةٍ غَيْرِ مَحْجُوزَةٍ يُمْكِنُ اخْتِيَارُهَا لِلْخِدْمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَوْعِدٌ مُتَاحٌ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْعَمِيلُ مِنْ تَوَفُّرِ الْمَوْعِدِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَغَيَّرُ بِسُرْعَةٍ عِنْدَ الْحَجْزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_153",
+      "arabic": "فَتْرَةٌ مُتَاحَةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الْوَقْتِ لَمْ يُخَصَّصْ لِحَجْزٍ أَوْ مَهَمَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتٌ مُتَاحَةٌ"
+      ],
+      "collocations": [
+        "فَتْرَةُ حَجْزٍ مُتَاحَةٌ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الزَّائِرُ فَتْرَةً مُتَاحَةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي التَّقَاوِيمِ وَالْحُجُوزَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_154",
+      "arabic": "فَتْرَةٌ مَحْجُوزَةٌ",
+      "meaning_ar": "جُزْءٌ مِنَ الْوَقْتِ خُصِّصَ لِشَخْصٍ أَوْ عَمَلٍ مُسْبَقًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَتَرَاتٌ مَحْجُوزَةٌ"
+      ],
+      "collocations": [
+        "فَتْرَةُ عَمَلٍ مَحْجُوزَةٌ"
+      ],
+      "examples_ar": [
+        "لَمْ يَكُنِ الْمَوْعِدُ مُتَاحًا لِأَنَّهُ مَحْجُوزٌ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْفَتْرَةِ الْفَارِغَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_155",
+      "arabic": "تَعَارُضُ حَجْزٍ",
+      "meaning_ar": "تَخْصِيصُ وَقْتٍ وَاحِدٍ لِطَلَبَيْنِ لَا يُمْكِنُ تَنْفِيذُهُمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَعَارُضَاتُ حُجُوزَاتٍ"
+      ],
+      "collocations": [
+        "تَعَارُضُ فَتْرَتَيْنِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ النِّظَامُ تَعَارُضًا فِي الْحَجْزِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُعَالَجَةِ التَّرْتِيبِ وَالْمَوَاعِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_156",
+      "arabic": "قَائِمَةُ انْتِظَارٍ",
+      "meaning_ar": "سِجِلٌّ بِأَسْمَاءِ مَنْ يَنْتَظِرُونَ فُرْصَةً أَوْ خِدْمَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قَوَائِمُ انْتِظَارٍ"
+      ],
+      "collocations": [
+        "قَائِمَةُ انْتِظَارِ الْعِيَادَةِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْمُوَظَّفُ اسْمَ الْعَمِيلِ لِلْقَائِمَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ عِنْدَ اكْتِمَالِ الْحُجُوزَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_157",
+      "arabic": "إِشْعَارُ تَغْيِيرٍ",
+      "meaning_ar": "رِسَالَةٌ تُعْلِمُ الْمُشَارِكِينَ بِتَعْدِيلِ مَوْعِدٍ أَوْ حَدَثٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ إِشْعَارَاتُ تَغْيِيرٍ"
+      ],
+      "collocations": [
+        "إِشْعَارُ تَغْيِيرِ الْمَوْعِدِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمَكْتَبُ إِشْعَارًا لِلزُّوَّارِ."
+      ],
+      "usage_note_ar": "يُفِيدُ فِي تَجَنُّبِ الْحُضُورِ فِي وَقْتٍ خَاطِئٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_158",
+      "arabic": "رِسَالَةُ تَأْكِيدٍ",
+      "meaning_ar": "نَصٌّ يُثْبِتُ تَسْجِيلَ حَجْزٍ أَوْ طَلَبٍ فِي النِّظَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ رَسَائِلُ تَأْكِيدٍ"
+      ],
+      "collocations": [
+        "تَأْكِيدُ الْحَجْزِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتْ رِسَالَةُ تَأْكِيدٍ إِلَى الْهَاتِفِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْمِلُ رَقْمَ الْحَجْزِ وَوَقْتَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_159",
+      "arabic": "مَوْعِدُ بَدْءٍ",
+      "meaning_ar": "اللَّحْظَةُ الَّتِي يُقَرَّرُ أَنْ يَبْدَأَ فِيهَا نَشَاطٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَاعِيدُ بَدْءٍ"
+      ],
+      "collocations": [
+        "مَوْعِدُ بَدْءِ الْجَلْسَةِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ الْمُنَظِّمُ مَوْعِدَ بَدْءِ الْبَرْنَامَجِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مَوْعِدِ الْوُصُولِ قَبْلَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_160",
+      "arabic": "مَوْعِدُ انْتِهَاءٍ",
+      "meaning_ar": "اللَّحْظَةُ الَّتِي يُقَرَّرُ أَنْ يَنْتَهِيَ عِنْدَهَا نَشَاطٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَاعِيدُ انْتِهَاءٍ"
+      ],
+      "collocations": [
+        "مَوْعِدُ انْتِهَاءِ الدَّرْسِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الطَّالِبُ عَنْ مَوْعِدِ الِانْتِهَاءِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ بِمُدَّةِ النَّشَاطِ وَبِدَايَتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_161",
+      "arabic": "تَأْخِيرٌ مَجْدُولٌ",
+      "meaning_ar": "تَغْيِيرٌ مَسْبَقٌ يُؤَخِّرُ حَدَثًا عَنْ وَقْتِهِ الأَوَّلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَأْخِيرَاتٌ مَجْدُولَةٌ"
+      ],
+      "collocations": [
+        "تَعْدِيلُ جَدْوَلٍ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الشَّرِكَةُ تَغْيِيرًا فِي الْمَوَاعِيدِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّأَخُّرِ غَيْرِ الْمُتَوَقَّعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_162",
+      "arabic": "طَارِئٌ",
+      "meaning_ar": "حَدَثٌ غَيْرُ مُتَوَقَّعٍ يَتَطَلَّبُ تَصَرُّفًا سَرِيعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طَوَارِئُ"
+      ],
+      "collocations": [
+        "ظَرْفٌ طَارِئٌ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَ الْجَدْوَلُ بِسَبَبِ أَمْرٍ طَارِئٍ."
+      ],
+      "usage_note_ar": "يَرِدُ فِي الطِّبِّ وَالْعَمَلِ وَالْحَيَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_163",
+      "arabic": "خُطَّةُ طَوَارِئَ",
+      "meaning_ar": "تَرْتِيبٌ مُسْبَقٌ لِلْخُطُوَاتِ عِنْدَ حُدُوثِ مَوْقِفٍ عَاجِلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خُطَطُ طَوَارِئَ"
+      ],
+      "collocations": [
+        "خُطَّةُ الْإِخْلَاءِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْمَرْكَزُ خُطَّةَ طَوَارِئَ."
+      ],
+      "usage_note_ar": "تَشْمَلُ تَحْدِيدَ الْمَسْؤُولِينَ وَوَسَائِلِ التَّوَاصُلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_time_20261026_164",
+      "arabic": "سَاعَةُ الْحَسْمِ",
+      "meaning_ar": "اللَّحْظَةُ الَّتِي يَجِبُ فِيهَا اتِّخَاذُ قَرَارٍ أَوْ إِنْهَاءُ أَمْرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اقْتِرَابُ وَقْتِ الْحَسْمِ"
+      ],
+      "examples_ar": [
+        "اجْتَمَعَ الْفَرِيقُ عِنْدَ سَاعَةِ الْحَسْمِ."
+      ],
+      "usage_note_ar": "تَعْبِيرٌ مَجَازِيٌّ عَنِ الْوَقْتِ الْحَاسِمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_time_planning_glossary",
+      "editorial_level_hint": 2
+    }
+  ]
+}
