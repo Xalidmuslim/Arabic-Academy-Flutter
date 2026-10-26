@@ -52,7 +52,14 @@
     "assets/data/entries_adjectives_character_20261025.json",
     "assets/data/entries_adjectives_cognition_20261025.json",
     "assets/data/entries_adjectives_material_20261025.json",
-    "assets/data/entries_adjectives_context_20261025.json"
+    "assets/data/entries_adjectives_context_20261025.json",
+    "assets/data/entries_nouns_health_20261025.json",
+    "assets/data/entries_nouns_education_20261025.json",
+    "assets/data/entries_nouns_environment_20261025.json",
+    "assets/data/entries_nouns_transport_20261025.json",
+    "assets/data/entries_nouns_commerce_20261025.json",
+    "assets/data/entries_nouns_technology_20261025.json",
+    "assets/data/entries_nouns_community_20261025.json"
   ],
   "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
 }
