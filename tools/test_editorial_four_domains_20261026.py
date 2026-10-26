@@ -23,11 +23,15 @@ class ExpandedDictionary20261026Tests(unittest.TestCase):
             doc = json.loads((ROOT / path).read_text("utf-8"))
             self.assertEqual(doc["schema_version"], 3)
             self.assertEqual(doc["source_status"], "original_independent_arabic_lexicon_not_textbook_collated")
-            self.assertGreaterEqual(len(doc["entries"]), 90, path)
+            self.assertEqual(len(doc["entries"]), {"architecture": 166, "culinary": 182, "agriculture": 187, "astronomy": 225}[path.split("_editorial_")[1].removesuffix("_20261026.json")], path)
             all_entries.extend(doc["entries"])
-        self.assertGreaterEqual(len(all_entries), 360)
+        self.assertEqual(len(all_entries), 760)
         self.assertEqual(len(all_entries), len({e["id"] for e in all_entries}))
         self.assertEqual(len(all_entries), len({e["arabic"] for e in all_entries}))
+        self.assertIn("كُسُوفٌ حَلَقِيٌّ", {e["arabic"] for e in all_entries})
+        self.assertIn("مَرْكَبَةٌ جَوَّالَةٌ", {e["arabic"] for e in all_entries})
+        self.assertIn("مَخْبُوزَاتٌ", {e["arabic"] for e in all_entries})
+        self.assertIn("جَرَانِيتٌ", {e["arabic"] for e in all_entries})
         merged = {e["arabic"] for e in load_corpus()["entries"]}
         for entry in all_entries:
             word = entry["arabic"]
