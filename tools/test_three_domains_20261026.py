@@ -25,9 +25,9 @@ class NewDomainNounsTest(unittest.TestCase):
             chunk = json.loads((ROOT / filename).read_text("utf-8"))
             self.assertEqual(chunk["schema_version"], 3)
             self.assertEqual(chunk["source_status"], "original_independent_arabic_lexicon_not_textbook_collated")
-            self.assertGreaterEqual(len(chunk["entries"]), 90, filename)
+            self.assertGreaterEqual(len(chunk["entries"]), {"arts_media": 160, "sports_recreation": 218, "time_planning": 164}[filename.split("_nouns_")[1].removesuffix("_20261026.json")], filename)
             cards.extend(chunk["entries"])
-        self.assertGreaterEqual(len(cards), 300)
+        self.assertGreaterEqual(len(cards), 542)
         self.assertEqual(len(cards), len({entry["id"] for entry in cards}))
         self.assertEqual(len(cards), len({entry["arabic"] for entry in cards}))
         for entry in cards:
@@ -46,6 +46,12 @@ class NewDomainNounsTest(unittest.TestCase):
             lexical += [v for field in ("grammar", "collocations", "examples_ar", "additional_meanings_ar",
                                        "synonyms", "antonyms") for v in entry[field]]
             self.assertFalse(NON_ARABIC_SCRIPTS.search(" ".join(lexical)), lemma)
+        sports = json.loads((ROOT / CHUNKS[1]).read_text("utf-8"))["entries"]
+        sports_by_word = {entry["arabic"]: entry for entry in sports}
+        self.assertIn("سِبَاقُ سُرْعَةٍ", sports_by_word)
+        self.assertIn("سِبَاقُ تَحَمُّلٍ", sports_by_word)
+        self.assertNotIn("سَبَاقُ سُرْعَةٍ", sports_by_word)
+        self.assertIn("غِطَاءٌ وَاقٍ صُلْبٌ", sports_by_word["خُوذَةُ دَرَّاجَةٍ"]["meaning_ar"])
         corpus = {item["arabic"] for item in load_corpus()["entries"]}
         self.assertTrue({entry["arabic"] for entry in cards}.issubset(corpus))
 
