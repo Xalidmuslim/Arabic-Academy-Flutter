@@ -55,10 +55,10 @@ def load_corpus() -> dict:
                 existing["book_references"] = refs
                 # Each chunk may define an independent contextual meaning of
                 # the same headword. Keep the first definition primary, but
-                # retain later distinct primary definitions as secondary senses.
+                # retain later substantive primary definitions as secondary senses.
                 incoming_meaning = entry.get("meaning_ar")
                 if (isinstance(incoming_meaning, str)
-                        and incoming_meaning
+                        and len(incoming_meaning) >= 14
                         and incoming_meaning != existing.get("meaning_ar")):
                     senses = list(existing.get("additional_meanings_ar") or [])
                     if incoming_meaning not in senses:
