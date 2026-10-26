@@ -1,0 +1,4010 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_culinary_20261026_001",
+      "arabic": "مَطْبَخٌ",
+      "meaning_ar": "مَكَانٌ يُخَصَّصُ لِإِعْدَادِ الطَّعَامِ وَحِفْظِ الأَدَوَاتِ وَالْأَوَانِي.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَطَابِخُ"
+      ],
+      "collocations": [
+        "مَطْبَخُ الْمَنْزِلِ"
+      ],
+      "examples_ar": [
+        "نَظَّفَتِ الأُمُّ الْمَطْبَخَ بَعْدَ الطَّهْيِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِنَوْعِ الطَّعَامِ الْمُرْتَبِطِ بِثَقَافَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_002",
+      "arabic": "طَهْيٌ",
+      "meaning_ar": "إِعْدَادُ الْغِذَاءِ بِاسْتِخْدَامِ الْحَرَارَةِ أَوْ وَسَائِلِ الْمُعَالَجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طَهْيُ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ الطَّالِبُ طَهْيَ وَجْبَةٍ بَسِيطَةٍ."
+      ],
+      "usage_note_ar": "يَشْمَلُ السَّلْقَ وَالشَّوْيَ وَالْقَلْيَ وَغَيْرَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_003",
+      "arabic": "طَبَّاخٌ",
+      "meaning_ar": "شَخْصٌ يُعِدُّ الطَّعَامَ بِمَهَارَةٍ فِي الْمَنْزِلِ أَوِ الْمَطْعَمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طَبَّاخُونَ"
+      ],
+      "collocations": [
+        "طَبَّاخٌ مَاهِرٌ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الطَّبَّاخُ وَجْبَةً لِلضُّيُوفِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ طَبَّاخَةٌ وَتُسْتَعْمَلُ كَلِمَةُ طَاهٍ أَيْضًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_004",
+      "arabic": "طَاهٍ",
+      "meaning_ar": "شَخْصٌ يَمْتَهِنُ إِعْدَادَ الْأَطْعِمَةِ وَتَنْظِيمَ تَحْضِيرِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طُهَاةٌ"
+      ],
+      "collocations": [
+        "رَئِيسُ الطُّهَاةِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الطَّاهِي مُكَوِّنَاتِ الطَّبَقِ."
+      ],
+      "usage_note_ar": "يَرِدُ غَالِبًا فِي الْمَطَاعِمِ وَالْفَنَادِقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_005",
+      "arabic": "وَصْفَةُ طَعَامٍ",
+      "meaning_ar": "تَعْلِيمَاتٌ تُحَدِّدُ الْمُكَوِّنَاتِ وَالْخُطُوَاتِ لِإِعْدَادِ طَبَقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَصَفَاتُ طَعَامٍ"
+      ],
+      "collocations": [
+        "وَصْفَةٌ تَقْلِيدِيَّةٌ"
+      ],
+      "examples_ar": [
+        "قَرَأَتِ الطَّالِبَةُ وَصْفَةَ الطَّعَامِ."
+      ],
+      "usage_note_ar": "تَذْكُرُ غَالِبًا الْمَقَادِيرَ وَالْوَقْتَ وَطَرِيقَةَ الطَّهْيِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_006",
+      "arabic": "مُكَوِّنٌ غِذَائِيٌّ",
+      "meaning_ar": "مَادَّةٌ تَدْخُلُ فِي تَحْضِيرِ طَبَقٍ أَوْ وَجْبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُكَوِّنَاتٌ غِذَائِيَّةٌ"
+      ],
+      "collocations": [
+        "مُكَوِّنٌ رَئِيسِيٌّ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الطَّبَّاخُ الْمُكَوِّنَاتِ عَلَى الطَّاوِلَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ الْعُنْصُرِ الْغِذَائِيِّ كَالْبُرُوتِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_007",
+      "arabic": "مِقْدَارٌ",
+      "meaning_ar": "كَمِّيَّةٌ مُحَدَّدَةٌ مِنْ مَادَّةٍ تُسْتَعْمَلُ فِي وَصْفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَادِيرُ"
+      ],
+      "collocations": [
+        "مِقْدَارُ الْمِلْحِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّاهِي مَقَادِيرَ الْوَصْفَةِ."
+      ],
+      "usage_note_ar": "يُقَاسُ بِالْوَزْنِ أَوِ الْحَجْمِ أَوِ الْعَدَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_008",
+      "arabic": "حِصَّةٌ غِذَائِيَّةٌ",
+      "meaning_ar": "كَمِّيَّةٌ مُحَدَّدَةٌ مِنْ طَعَامٍ تُقَدَّمُ لِشَخْصٍ وَاحِدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حِصَصٌ غِذَائِيَّةٌ"
+      ],
+      "collocations": [
+        "حِصَّةٌ صَغِيرَةٌ"
+      ],
+      "examples_ar": [
+        "قَسَّمَ الطَّبَّاخُ الطَّعَامَ إِلَى حِصَصٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَحْجَامُهَا بِحَسَبِ الْوَجْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_009",
+      "arabic": "وَجْبَةٌ",
+      "meaning_ar": "مِقْدَارٌ مِنَ الطَّعَامِ يُؤْكَلُ فِي وَقْتٍ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ وَجَبَاتٌ"
+      ],
+      "collocations": [
+        "وَجْبَةٌ خَفِيفَةٌ"
+      ],
+      "examples_ar": [
+        "تَنَاوَلَتِ الْأُسْرَةُ وَجْبَةً مَعًا."
+      ],
+      "usage_note_ar": "تَكُونُ صَبَاحِيَّةً أَوْ ظُهْرِيَّةً أَوْ مَسَائِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_010",
+      "arabic": "مُقَبِّلَاتٌ",
+      "meaning_ar": "أَطْبَاقٌ صَغِيرَةٌ تُقَدَّمُ قَبْلَ الطَّبَقِ الرَّئِيسِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طَبَقُ الْمُقَبِّلَاتِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَطْعَمُ مُقَبِّلَاتٍ قَبْلَ الْعَشَاءِ."
+      ],
+      "usage_note_ar": "تَرِدُ غَالِبًا بِصِيغَةِ الْجَمْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_011",
+      "arabic": "طَبَقٌ رَئِيسِيٌّ",
+      "meaning_ar": "الْجُزْءُ الْأَسَاسِيُّ مِنَ الْوَجْبَةِ وَيُقَدَّمُ بَعْدَ الْمُقَبِّلَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطْبَاقٌ رَئِيسِيَّةٌ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الطَّبَقِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الضَّيْفُ طَبَقًا رَئِيسِيًّا مِنَ الْقَائِمَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْحَلْوَى الَّتِي تُقَدَّمُ بَعْدَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_012",
+      "arabic": "طَبَقٌ جَانِبِيٌّ",
+      "meaning_ar": "طَعَامٌ يُقَدَّمُ إِلَى جَانِبِ الْوَجْبَةِ الرَّئِيسِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطْبَاقٌ جَانِبِيَّةٌ"
+      ],
+      "collocations": [
+        "طَبَقُ أَرُزٍّ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الطَّبَّاخُ الْخُضَرَ طَبَقًا جَانِبِيًّا."
+      ],
+      "usage_note_ar": "يُكَمِّلُ الطَّبَقَ الرَّئِيسِيَّ دُونَ أَنْ يَحِلَّ مَحَلَّهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_013",
+      "arabic": "تَحْضِيرٌ",
+      "meaning_ar": "تَجْهِيزُ الْمُكَوِّنَاتِ وَالْأَدَوَاتِ قَبْلَ بَدْءِ عَمَلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْضِيرُ الطَّعَامِ"
+      ],
+      "examples_ar": [
+        "غَسَلَتِ الْأُمُّ الْخُضَرَ قَبْلَ الطَّهْيِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْغَسْلَ وَالتَّقْطِيعَ وَالْوَزْنَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_014",
+      "arabic": "تَجْهِيزُ الْمُكَوِّنَاتِ",
+      "meaning_ar": "جَمْعُ مَوَادِّ الْوَصْفَةِ وَتَقْطِيعُهَا وَقِيَاسُهَا قَبْلَ الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَجْهِيزُ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "أَنْهَى الطَّاهِي تَجْهِيزَ الْمُكَوِّنَاتِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى سُرْعَةِ الْعَمَلِ وَتَنْظِيمِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_015",
+      "arabic": "تَقْطِيعٌ",
+      "meaning_ar": "تَجْزِئَةُ الْمَادَّةِ إِلَى قِطَعٍ أَصْغَرَ بِاسْتِخْدَامِ أَدَاةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَقْطِيعُ الْجَزَرِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ الطَّالِبُ تَقْطِيعَ الْخُضَرِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ طَرِيقَتُهُ بِحَسَبِ الْحَجْمِ وَالطَّبَقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_016",
+      "arabic": "تَفْرِيمٌ",
+      "meaning_ar": "تَقْطِيعُ مَادَّةٍ غِذَائِيَّةٍ إِلَى قِطَعٍ صَغِيرَةٍ جِدًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَفْرِيمُ الْبَصَلِ"
+      ],
+      "examples_ar": [
+        "فَرَمَ الطَّبَّاخُ الْبَصَلَ قَبْلَ الْقَلْيِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّقْطِيعِ الْخَشِنِ فِي حَجْمِ الْقِطَعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_017",
+      "arabic": "بَشْرٌ",
+      "meaning_ar": "تَحْوِيلُ مَادَّةٍ صُلْبَةٍ إِلَى خُيُوطٍ أَوْ قِطَعٍ رَقِيقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بَشْرُ الْجُبْنِ"
+      ],
+      "examples_ar": [
+        "بَشَرَتِ الْأُمُّ الْجَزَرَ لِلسَّلَطَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْخُضَرِ وَالأَجْبَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_018",
+      "arabic": "تَقْشِيرٌ",
+      "meaning_ar": "إِزَالَةُ الْقِشْرَةِ الْخَارِجِيَّةِ مِنْ فَاكِهَةٍ أَوْ خُضْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَقْشِيرُ الْبَطَاطِسِ"
+      ],
+      "examples_ar": [
+        "قَشَّرَ الطَّبَّاخُ الْبَطَاطِسَ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لَهُ سِكِّينٌ أَوْ أَدَاةٌ خَاصَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_019",
+      "arabic": "نَقْعٌ",
+      "meaning_ar": "تَرْكُ مَادَّةٍ فِي سَائِلٍ مُدَّةً لِتَلْيِينِهَا أَوْ تَنْظِيفِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَقْعُ الْحُمُّصِ"
+      ],
+      "examples_ar": [
+        "نَقَعَتِ الْأُمُّ الْحُمُّصَ فِي الْمَاءِ لَيْلًا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ قَبْلَ طَهْيِ بَعْضِ الْبُقُولِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_020",
+      "arabic": "شَطْفٌ",
+      "meaning_ar": "غَسْلٌ سَرِيعٌ بِالْمَاءِ لِإِزَالَةِ بَقَايَا مَادَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "شَطْفُ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "شَطَفَ الطَّبَّاخُ الْخَسَّ بِالْمَاءِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ النَّقْعِ الطَّوِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_021",
+      "arabic": "تَصْفِيَةٌ",
+      "meaning_ar": "فَصْلُ سَائِلٍ عَنْ جُزَيْئَاتٍ أَوْ قِطَعٍ صُلْبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَصْفِيَةُ الْمَعْكَرُونَةِ"
+      ],
+      "examples_ar": [
+        "صَفَّى الطَّاهِي الْمَاءَ مِنَ الْقِدْرِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ الْمِصْفَى أَوِ الْقِمَاشُ بِحَسَبِ الْمَادَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_022",
+      "arabic": "عَصْرٌ",
+      "meaning_ar": "الضَّغْطُ عَلَى فَاكِهَةٍ أَوْ مَادَّةٍ لِاسْتِخْرَاجِ سَائِلِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَصْرُ اللَّيْمُونِ"
+      ],
+      "examples_ar": [
+        "عَصَرَتِ الطَّالِبَةُ اللَّيْمُونَ فِي الْكُوبِ."
+      ],
+      "usage_note_ar": "يَرِدُ أَيْضًا لِبَعْضِ عَمَلِيَّاتِ الْمَعَالِجَةِ الْغِذَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_023",
+      "arabic": "خَلْطٌ",
+      "meaning_ar": "جَمْعُ مَوَادَّ مُخْتَلِفَةٍ وَتَحْرِيكُهَا لِتَتَوَزَّعَ مَعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خَلْطُ الْمُكَوِّنَاتِ"
+      ],
+      "examples_ar": [
+        "خَلَطَ الطَّبَّاخُ الدَّقِيقَ بِالْمَاءِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ بِالْيَدِ أَوْ بِجِهَازٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_024",
+      "arabic": "خَفْقٌ",
+      "meaning_ar": "تَحْرِيكٌ سَرِيعٌ لِسَائِلٍ أَوْ خَلِيطٍ لِإِدْخَالِ الْهَوَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خَفْقُ الْبَيْضِ"
+      ],
+      "examples_ar": [
+        "خَفَقَتِ الْأُمُّ الْبَيْضَ بِالْمِضْرَبِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْحَلَوِيَّاتِ وَالصَّلْصَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_025",
+      "arabic": "عَجْنٌ",
+      "meaning_ar": "دَلْكُ الدَّقِيقِ مَعَ الْمَاءِ وَمُكَوِّنَاتٍ أُخْرَى لِتَكْوِينِ عَجِينَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَجْنُ الْخُبْزِ"
+      ],
+      "examples_ar": [
+        "عَجَنَ الْخَبَّازُ الدَّقِيقَ حَتَّى تَمَاسَكَ."
+      ],
+      "usage_note_ar": "يُطَوِّرُ بِنْيَةَ الْعَجِينِ بِحَسَبِ نَوْعِ الدَّقِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_026",
+      "arabic": "عَجِينٌ",
+      "meaning_ar": "خَلِيطٌ لَيِّنٌ مِنَ الدَّقِيقِ وَالسَّوَائِلِ يُشَكَّلُ قَبْلَ الْخَبْزِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَجِينُ الْخُبْزِ"
+      ],
+      "examples_ar": [
+        "تَرَكَ الْخَبَّازُ الْعَجِينَ لِيَخْتَمِرَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ لُيُونَتُهُ بِحَسَبِ مِقْدَارِ الْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_027",
+      "arabic": "اخْتِمَارٌ",
+      "meaning_ar": "تَغَيُّرُ الْعَجِينِ بِفِعْلِ الْخَمِيرَةِ وَتَكَوُّنِ الْغَازِ فِيهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اخْتِمَارُ الْعَجِينِ"
+      ],
+      "examples_ar": [
+        "انْتَظَرَ الْخَبَّازُ حَتَّى ارْتَفَعَ الْعَجِينُ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْحَرَارَةِ وَالْوَقْتِ وَنَوْعِ الْخَمِيرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_028",
+      "arabic": "خَمِيرَةٌ",
+      "meaning_ar": "كَائِنَاتٌ دَقِيقَةٌ أَوْ مُكَوِّنٌ يُسَاعِدُ عَلَى تَخْمِيرِ الْعَجِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَمَائِرُ"
+      ],
+      "collocations": [
+        "خَمِيرَةُ الْخُبْزِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْخَبَّازُ الْخَمِيرَةَ إِلَى الدَّقِيقِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ أَيْضًا فِي بَعْضِ الْمَشْرُوبَاتِ الْمُخْتَمِرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_029",
+      "arabic": "خَبْزٌ",
+      "meaning_ar": "طَهْيُ الْعَجِينِ بِالْحَرَارَةِ فِي فُرْنٍ أَوْ عَلَى سَطْحٍ سَاخِنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خَبْزُ الرَّغِيفِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْخَبَّازُ خَبْزَ الأَرْغِفَةِ."
+      ],
+      "usage_note_ar": "تَرِدُ كَلِمَةُ الْخُبْزِ لِلطَّعَامِ النَّاتِجِ أَيْضًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_030",
+      "arabic": "خَبَّازٌ",
+      "meaning_ar": "شَخْصٌ يَصْنَعُ الْخُبْزَ وَالْمُعَجَّنَاتِ وَيَخْبِزُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَبَّازُونَ"
+      ],
+      "collocations": [
+        "خَبَّازُ الْحَيِّ"
+      ],
+      "examples_ar": [
+        "فَتَحَ الْخَبَّازُ مَخْبَزَهُ صَبَاحًا."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ خَبَّازَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_031",
+      "arabic": "مَخْبَزٌ",
+      "meaning_ar": "مَكَانٌ تُصْنَعُ فِيهِ الْمُعَجَّنَاتُ وَالأَرْغِفَةُ وَتُبَاعُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَخَابِزُ"
+      ],
+      "collocations": [
+        "مَخْبَزُ الْحَيِّ"
+      ],
+      "examples_ar": [
+        "اشْتَرَتِ الْأُسْرَةُ خُبْزًا طَازَجًا مِنَ الْمَخْبَزِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ أَدَوَاتِ عَجْنٍ وَأَفْرَانًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_032",
+      "arabic": "رَغِيفٌ",
+      "meaning_ar": "قِطْعَةٌ مِنَ الْخُبْزِ تُخْبَزُ بِشَكْلٍ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَرْغِفَةٌ"
+      ],
+      "collocations": [
+        "رَغِيفٌ سَاخِنٌ"
+      ],
+      "examples_ar": [
+        "أَكَلَ الطِّفْلُ رَغِيفًا مَعَ الْجُبْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَحْجَامُهُ وَأَشْكَالُهُ بَيْنَ الْبِلَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_033",
+      "arabic": "دَقِيقٌ",
+      "meaning_ar": "حُبُوبٌ مَطْحُونَةٌ تُسْتَعْمَلُ لِصُنْعِ الْخُبْزِ وَالأَطْعِمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دَقِيقُ الْقَمْحِ"
+      ],
+      "examples_ar": [
+        "نَخَلَ الْخَبَّازُ الدَّقِيقَ قَبْلَ الْعَجْنِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ أَنْوَاعُهُ بِحَسَبِ الْحَبِّ وَدَرَجَةِ الطَّحْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_034",
+      "arabic": "نُخَالَةٌ",
+      "meaning_ar": "الْقِشْرَةُ الْخَارِجِيَّةُ لِلْحُبُوبِ الَّتِي تُفْصَلُ عِنْدَ الطَّحْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نُخَالَةُ الْقَمْحِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْخَبَّازُ نُخَالَةً إِلَى الْخُبْزِ."
+      ],
+      "usage_note_ar": "تَحْتَوِي عَلَى أَلْيَافٍ غِذَائِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_035",
+      "arabic": "نَخْلٌ",
+      "meaning_ar": "تَمْرِيرُ مَسْحُوقٍ مِنْ غِرْبَالٍ لِفَصْلِ الْحُبَيْبَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَخْلُ الدَّقِيقِ"
+      ],
+      "examples_ar": [
+        "نَخَلَتِ الطَّالِبَةُ الدَّقِيقَ فِي الْوِعَاءِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ فِي الْمَعْنَى عَنْ شَجَرِ النَّخْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_036",
+      "arabic": "غِرْبَالٌ",
+      "meaning_ar": "أَدَاةٌ ذَاتُ ثُقُوبٍ تُفْصِلُ الْحَبَّاتِ الْكَبِيرَةَ عَنِ الصَّغِيرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ غَرَابِيلُ"
+      ],
+      "collocations": [
+        "غِرْبَالُ الدَّقِيقِ"
+      ],
+      "examples_ar": [
+        "مَرَّرَ الْخَبَّازُ الدَّقِيقَ فِي الْغِرْبَالِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دِقَّةُ ثُقُوبِهِ بِحَسَبِ الْمَادَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_037",
+      "arabic": "مِعْجَنٌ",
+      "meaning_ar": "وِعَاءٌ أَوْ جِهَازٌ يُسْتَعْمَلُ لِعَجْنِ الدَّقِيقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَعَاجِنُ"
+      ],
+      "collocations": [
+        "مِعْجَنٌ كَهْرَبَائِيٌّ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْخَبَّازُ الْمُكَوِّنَاتِ فِي الْمِعْجَنِ."
+      ],
+      "usage_note_ar": "يَتَنَوَّعُ بَيْنَ الأَدَاةِ الْيَدَوِيَّةِ وَالآلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_038",
+      "arabic": "مِضْرَبُ بَيْضٍ",
+      "meaning_ar": "أَدَاةٌ مِنْ أَسْلَاكٍ أَوْ شَفَرَاتٍ لِخَفْقِ الْمُكَوِّنَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَضَارِبُ بَيْضٍ"
+      ],
+      "collocations": [
+        "مِضْرَبٌ يَدَوِيٌّ"
+      ],
+      "examples_ar": [
+        "خَفَقَتِ الطَّبَّاخَةُ الْبَيْضَ بِالْمِضْرَبِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى مَزْجِ السَّوَائِلِ وَإِدْخَالِ الْهَوَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_039",
+      "arabic": "مِلْعَقَةُ قِيَاسٍ",
+      "meaning_ar": "أَدَاةٌ لِتَحْدِيدِ حَجْمٍ صَغِيرٍ مِنَ الْمُكَوِّنَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَلَاعِقُ قِيَاسٍ"
+      ],
+      "collocations": [
+        "مِلْعَقَةٌ صَغِيرَةٌ"
+      ],
+      "examples_ar": [
+        "قَاسَتِ الأُمُّ الْمِلْحَ بِمِلْعَقَةِ قِيَاسٍ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلْبَهَارَاتِ وَالْمَسَاحِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_040",
+      "arabic": "كُوبُ قِيَاسٍ",
+      "meaning_ar": "وِعَاءٌ مُدَرَّجٌ يَحْدِّدُ حَجْمَ السَّوَائِلِ أَوِ الْمَوَادِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَكْوَابُ قِيَاسٍ"
+      ],
+      "collocations": [
+        "كُوبٌ مُدَرَّجٌ"
+      ],
+      "examples_ar": [
+        "صَبَّ الطَّبَّاخُ الْحَلِيبَ فِي كُوبِ الْقِيَاسِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَحْجَامُ الأَكْوَابِ الْمِعْيَارِيَّةِ بَيْنَ النُّظُمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_041",
+      "arabic": "مِيزَانُ مَطْبَخٍ",
+      "meaning_ar": "جِهَازٌ يَقِيسُ كُتْلَةَ الْمُكَوِّنَاتِ عِنْدَ التَّحْضِيرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَازِينُ مَطْبَخٍ"
+      ],
+      "collocations": [
+        "مِيزَانٌ رَقْمِيٌّ"
+      ],
+      "examples_ar": [
+        "وَزَنَ الْخَبَّازُ الدَّقِيقَ بِالْمِيزَانِ."
+      ],
+      "usage_note_ar": "يُفِيدُ فِي الْوَصَفَاتِ الَّتِي تَحْتَاجُ إِلَى دِقَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_042",
+      "arabic": "لَوْحُ تَقْطِيعٍ",
+      "meaning_ar": "سَطْحٌ يُوْضَعُ تَحْتَ الطَّعَامِ أَثْنَاءَ قَطْعِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَلْوَاحُ تَقْطِيعٍ"
+      ],
+      "collocations": [
+        "لَوْحٌ خَشَبِيٌّ"
+      ],
+      "examples_ar": [
+        "قَطَّعَ الطَّاهِي الْبَصَلَ عَلَى اللَّوْحِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَنْظِيفُهُ لِمَنْعِ انْتِقَالِ الْمُلَوِّثَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_043",
+      "arabic": "سِكِّينُ طَبْخٍ",
+      "meaning_ar": "أَدَاةٌ حَادَّةٌ لِتَقْطِيعِ الْمُكَوِّنَاتِ فِي الْمَطْبَخِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَكَاكِينُ طَبْخٍ"
+      ],
+      "collocations": [
+        "سِكِّينٌ حَادٌّ"
+      ],
+      "examples_ar": [
+        "قَطَعَ الطَّبَّاخُ الْخُضَرَ بِالسِّكِّينِ."
+      ],
+      "usage_note_ar": "يَجِبُ اسْتِعْمَالُهَا وَحِفْظُهَا بِحَذَرٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_044",
+      "arabic": "سِكِّينُ تَقْشِيرٍ",
+      "meaning_ar": "سِكِّينٌ صَغِيرٌ لِإِزَالَةِ قِشْرَةِ الْفَوَاكِهِ وَالْخُضَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَكَاكِينُ تَقْشِيرٍ"
+      ],
+      "collocations": [
+        "سِكِّينُ التُّفَّاحِ"
+      ],
+      "examples_ar": [
+        "قَشَّرَ الطَّاهِي التُّفَّاحَ بِسِكِّينٍ صَغِيرٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَعْمَالِ الدَّقِيقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_045",
+      "arabic": "مِبْشَرَةٌ",
+      "meaning_ar": "أَدَاةٌ ذَاتُ ثُقُوبٍ حَادَّةٍ تُحَوِّلُ الطَّعَامَ إِلَى قِطَعٍ رَفِيعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَبَاشِرُ"
+      ],
+      "collocations": [
+        "مِبْشَرَةُ الْجُبْنِ"
+      ],
+      "examples_ar": [
+        "بَشَرَتِ الأُمُّ الْجَزَرَ بِالْمِبْشَرَةِ."
+      ],
+      "usage_note_ar": "يَلْزَمُ الْحَذَرُ مِنْ حَوَافِّهَا الْحَادَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_046",
+      "arabic": "مِقْشَرَةٌ",
+      "meaning_ar": "أَدَاةٌ صَغِيرَةٌ لِفَصْلِ قِشْرَةِ الْخُضَرِ وَالْفَوَاكِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَاشِرُ"
+      ],
+      "collocations": [
+        "مِقْشَرَةُ الْبَطَاطِسِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَتِ الطَّالِبَةُ الْمِقْشَرَةَ."
+      ],
+      "usage_note_ar": "تُقَلِّلُ إِهْدَارَ الْقِشْرَةِ عِنْدَ حُسْنِ الِاسْتِعْمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_047",
+      "arabic": "مِصْفَاةٌ",
+      "meaning_ar": "أَدَاةٌ ذَاتُ ثُقُوبٍ تُسَاعِدُ عَلَى فَصْلِ الْمَاءِ عَنِ الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَصَافٍ"
+      ],
+      "collocations": [
+        "مِصْفَاةُ الْأَرُزِّ"
+      ],
+      "examples_ar": [
+        "صَفَّتِ الْأُمُّ الْمَعْكَرُونَةَ."
+      ],
+      "usage_note_ar": "تُصْنَعُ مِنَ الْمَعْدِنِ أَوِ الْبِلَاسْتِيكِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_048",
+      "arabic": "قِدْرٌ",
+      "meaning_ar": "وِعَاءٌ عَمِيقٌ يُسْتَعْمَلُ لِغَلْيِ الطَّعَامِ وَطَهْيِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُدُورٌ"
+      ],
+      "collocations": [
+        "قِدْرٌ كَبِيرٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّبَّاخُ الْحَسَاءَ فِي الْقِدْرِ."
+      ],
+      "usage_note_ar": "يُصْنَعُ مِنْ مَوَادَّ تُنَاسِبُ الْحَرَارَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_049",
+      "arabic": "قِدْرُ ضَغْطٍ",
+      "meaning_ar": "وِعَاءٌ مُحْكَمٌ يَرْفَعُ الضَّغْطَ لِتَسْرِيعِ الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُدُورُ ضَغْطٍ"
+      ],
+      "collocations": [
+        "صِمَامُ قِدْرِ الضَّغْطِ"
+      ],
+      "examples_ar": [
+        "طَبَخَتِ الْأُمُّ الْحُمُّصَ فِي قِدْرِ الضَّغْطِ."
+      ],
+      "usage_note_ar": "يَجِبُ اتِّبَاعُ تَعْلِيمَاتِ السَّلَامَةِ عِنْدَ فَتْحِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_050",
+      "arabic": "مِقْلَاةٌ",
+      "meaning_ar": "وِعَاءٌ عَرِيضٌ ضَحْلٌ يُسْتَعْمَلُ لِلْقَلْيِ أَوِ التَّحْمِيرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَالٍ"
+      ],
+      "collocations": [
+        "مِقْلَاةٌ غَيْرُ لَاصِقَةٍ"
+      ],
+      "examples_ar": [
+        "قَلَى الطَّبَّاخُ الْبَيْضَ فِي الْمِقْلَاةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طَلَاءَاتُهَا وَمَوَادُّهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_051",
+      "arabic": "صِينِيَّةُ خَبْزٍ",
+      "meaning_ar": "وِعَاءٌ مُسَطَّحٌ يُوضَعُ فِي الْفُرْنِ لِطَهْيِ الأَطْعِمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَوَانِي خَبْزٍ"
+      ],
+      "collocations": [
+        "صِينِيَّةٌ مَعْدِنِيَّةٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْأُمُّ الْبَطَاطِسَ فِي الصِّينِيَّةِ."
+      ],
+      "usage_note_ar": "يُخْتَارُ حَجْمُهَا بِحَسَبِ الْفُرْنِ وَالْوَصْفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_052",
+      "arabic": "صِينِيَّةُ تَقْدِيمٍ",
+      "meaning_ar": "وِعَاءٌ مُسَطَّحٌ تُحْمَلُ عَلَيْهِ أَطْبَاقُ الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَوَانِي تَقْدِيمٍ"
+      ],
+      "collocations": [
+        "صِينِيَّةُ الضُّيُوفِ"
+      ],
+      "examples_ar": [
+        "حَمَلَ الْعَامِلُ الْأَكْوَابَ عَلَى الصِّينِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الصِّينِيَّةِ الْمُخَصَّصَةِ لِلْفُرْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_053",
+      "arabic": "فُرْنٌ",
+      "meaning_ar": "جِهَازٌ يُوَلِّدُ حَرَارَةً فِي حَيِّزٍ مُغْلَقٍ لِطَهْيِ الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَفْرَانٌ"
+      ],
+      "collocations": [
+        "فُرْنٌ كَهْرَبَائِيٌّ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْخَبَّازُ الرَّغِيفَ فِي الْفُرْنِ."
+      ],
+      "usage_note_ar": "قَدْ يَعْمَلُ بِالْغَازِ أَوِ الْكَهْرَبَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_054",
+      "arabic": "مَوْقِدٌ",
+      "meaning_ar": "جِهَازٌ أَوْ مَوْضِعٌ تُوَلَّدُ فِيهِ الْحَرَارَةُ لِلطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَوَاقِدُ"
+      ],
+      "collocations": [
+        "مَوْقِدُ الْغَازِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّبَّاخُ الْقِدْرَ عَلَى الْمَوْقِدِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِيهِ وَسَائِلُ تَسْخِينٍ مُخْتَلِفَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_055",
+      "arabic": "شُعْلَةٌ",
+      "meaning_ar": "لَهَبٌ صَغِيرٌ مُنْبَعِثٌ مِنْ وَقُودٍ يَحْتَرِقُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شُعَلٌ"
+      ],
+      "collocations": [
+        "شُعْلَةُ الْمَوْقِدِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الطَّبَّاخُ الشُّعْلَةَ تَحْتَ الْقِدْرِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ حَجْمُهَا بِحَسَبِ تَدَفُّقِ الْوَقُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_056",
+      "arabic": "فُرْنُ مِيكْرُوِيفٍ",
+      "meaning_ar": "جِهَازٌ يُسَخِّنُ الطَّعَامَ بِاسْتِخْدَامِ مَوْجَاتٍ كَهْرُومِغْنَاطِيسِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَفْرَانُ مِيكْرُوِيفٍ"
+      ],
+      "collocations": [
+        "تَسْخِينُ الطَّعَامِ"
+      ],
+      "examples_ar": [
+        "سَخَّنَ الرَّجُلُ الْوَجْبَةَ فِي الْمِيكْرُوِيفِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِيهِ أَوَانٍ مُلَائِمَةٌ لَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_057",
+      "arabic": "شَوَّايَةٌ",
+      "meaning_ar": "جِهَازٌ يُعَرِّضُ الطَّعَامَ لِحَرَارَةٍ مُبَاشِرَةٍ أَوْ قَرِيبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شَوَّايَاتٌ"
+      ],
+      "collocations": [
+        "شَوَّايَةُ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "شَوَى الطَّبَّاخُ الْخُضَرَ عَلَى الشَّوَّايَةِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ بَيْنَ الْفَحْمِ وَالْغَازِ وَالْكَهْرَبَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_058",
+      "arabic": "خَلَّاطٌ",
+      "meaning_ar": "جِهَازٌ يَدُورُ بِشَفَرَاتٍ لِتَمْزِيجِ السَّوَائِلِ وَالْمُكَوِّنَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ خَلَّاطَاتٌ"
+      ],
+      "collocations": [
+        "خَلَّاطُ الْعَصِيرِ"
+      ],
+      "examples_ar": [
+        "خَلَطَتِ الأُمُّ الْفَاكِهَةَ بِالْحَلِيبِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْعَصَائِرِ وَالْحَسَاءِ وَغَيْرِهِمَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_059",
+      "arabic": "مِفْرَمَةٌ",
+      "meaning_ar": "أَدَاةٌ تَجْزَأُ الْمُكَوِّنَاتِ إِلَى قِطَعٍ صَغِيرَةٍ بِالشَّفَرَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَفَارِمُ"
+      ],
+      "collocations": [
+        "مِفْرَمَةُ اللَّحْمِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الطَّاهِي الْمِفْرَمَةَ لِتَجْهِيزِ الْحَشْوِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ إِلَى يَدَوِيَّةٍ وَكَهْرَبَائِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_060",
+      "arabic": "عَجَّانَةٌ",
+      "meaning_ar": "آلَةٌ تَخْلِطُ الدَّقِيقَ وَالسَّوَائِلَ وَتَعْجِنُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عَجَّانَاتٌ"
+      ],
+      "collocations": [
+        "عَجَّانَةٌ كَهْرَبَائِيَّةٌ"
+      ],
+      "examples_ar": [
+        "شَغَّلَ الْخَبَّازُ الْعَجَّانَةَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ سَعَتُهَا وَقُوَّتُهَا بِحَسَبِ الْحَاجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_061",
+      "arabic": "ثَلَّاجَةٌ",
+      "meaning_ar": "جِهَازٌ يَحْفَظُ الْأَطْعِمَةَ بِتَخْفِيضِ دَرَجَةِ حَرَارَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ ثَلَّاجَاتٌ"
+      ],
+      "collocations": [
+        "ثَلَّاجَةُ الْمَنْزِلِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الأُمُّ الْحَلِيبَ فِي الثَّلَّاجَةِ."
+      ],
+      "usage_note_ar": "لَا يَمْنَعُ التَّبْرِيدُ فَسَادَ الطَّعَامِ إِلَى الأَبَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_062",
+      "arabic": "مُجَمِّدٌ",
+      "meaning_ar": "جِهَازٌ يَحْفَظُ الطَّعَامَ فِي دَرَجَةِ حَرَارَةٍ مُنْخَفِضَةٍ جِدًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُجَمِّدَاتٌ"
+      ],
+      "collocations": [
+        "مُجَمِّدُ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "حَفِظَتِ الأُسْرَةُ اللَّحْمَ فِي الْمُجَمِّدِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ جَوْدَةُ الْحِفْظِ بِالتَّغْلِيفِ وَالْمُدَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_063",
+      "arabic": "حَافِظَةُ طَعَامٍ",
+      "meaning_ar": "وِعَاءٌ مُحْكَمٌ يُسْتَعْمَلُ لِتَخْزِينِ الطَّعَامِ أَوْ نَقْلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَافِظَاتُ طَعَامٍ"
+      ],
+      "collocations": [
+        "حَافِظَةٌ مُحْكَمَةٌ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الأُمُّ الطَّعَامَ فِي الْحَافِظَةِ."
+      ],
+      "usage_note_ar": "تُخْتَارُ مَادَّتُهَا بِحَسَبِ الْحَرَارَةِ وَالطَّعَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_064",
+      "arabic": "غِطَاءُ قِدْرٍ",
+      "meaning_ar": "قِطْعَةٌ تُغْلِقُ أَعْلَى الْوِعَاءِ أَثْنَاءَ الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَغْطِيَةُ قُدُورٍ"
+      ],
+      "collocations": [
+        "غِطَاءٌ زُجَاجِيٌّ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الطَّبَّاخَةُ الْغِطَاءَ عَلَى الْقِدْرِ."
+      ],
+      "usage_note_ar": "يُقَلِّلُ فَقْدَ الْحَرَارَةِ وَالْبُخَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_065",
+      "arabic": "قُفَّازُ فُرْنٍ",
+      "meaning_ar": "غِطَاءٌ عَازِلٌ لِلْيَدِ عِنْدَ إِخْرَاجِ الأَوَانِي السَّاخِنَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُفَّازَاتُ فُرْنٍ"
+      ],
+      "collocations": [
+        "قُفَّازٌ سَمِيكٌ"
+      ],
+      "examples_ar": [
+        "أَخْرَجَتِ الأُمُّ الصِّينِيَّةَ بِالْقُفَّازِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْحِمَايَةِ مِنَ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_066",
+      "arabic": "مِلْقَطُ طَعَامٍ",
+      "meaning_ar": "أَدَاةٌ لَهَا طَرَفَانِ لِإِمْسَاكِ قِطَعِ الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَلَاقِطُ طَعَامٍ"
+      ],
+      "collocations": [
+        "مِلْقَطُ السَّلَطَةِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الطَّاهِي قِطَعَ الْخُضَرِ بِالْمِلْقَطِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَجَنُّبِ لَمْسِ الطَّعَامِ السَّاخِنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_067",
+      "arabic": "مِغْرَفَةٌ",
+      "meaning_ar": "مِلْعَقَةٌ كَبِيرَةٌ وَعَمِيقَةٌ تُسْتَعْمَلُ لِصَبِّ الْحَسَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَغَارِفُ"
+      ],
+      "collocations": [
+        "مِغْرَفَةُ الشُّورْبَةِ"
+      ],
+      "examples_ar": [
+        "صَبَّتِ الأُمُّ الْحَسَاءَ بِالْمِغْرَفَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ مِلْعَقَةِ الأَكْلِ فِي السَّعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_068",
+      "arabic": "مِقْشَطَةٌ",
+      "meaning_ar": "أَدَاةٌ مُسَطَّحَةٌ تُسْتَعْمَلُ لِقَلْبِ الطَّعَامِ أَوْ كَشْطِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَاشِطُ"
+      ],
+      "collocations": [
+        "مِقْشَطَةُ الْحَلْوَى"
+      ],
+      "examples_ar": [
+        "قَلَبَ الطَّاهِي الْفَطِيرَةَ بِالْمِقْشَطَةِ."
+      ],
+      "usage_note_ar": "قَدْ تُصْنَعُ مِنَ الْمَعْدِنِ أَوِ السِّيلِيكُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_069",
+      "arabic": "مِصْفَاةُ شَايٍ",
+      "meaning_ar": "أَدَاةٌ تَحْجُزُ أَوْرَاقَ الشَّايِ عِنْدَ صَبِّ الْمَشْرُوبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَصَافِي شَايٍ"
+      ],
+      "collocations": [
+        "مِصْفَاةٌ صَغِيرَةٌ"
+      ],
+      "examples_ar": [
+        "صَفَّتِ الأُمُّ الشَّايَ قَبْلَ تَقْدِيمِهِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ ثُقُوبُهَا بِحَسَبِ حَجْمِ الأَوْرَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_070",
+      "arabic": "غَلْيٌ",
+      "meaning_ar": "تَسْخِينُ سَائِلٍ حَتَّى تَتَكَوَّنَ فِيهِ فُقَاعَاتُ الْبُخَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "غَلْيُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "غَلَى الْمَاءُ فِي الْقِدْرِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ دَرَجَةُ الْغَلَيَانِ بِالضَّغْطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_071",
+      "arabic": "سَلْقٌ",
+      "meaning_ar": "طَهْيُ الطَّعَامِ فِي مَاءٍ أَوْ سَائِلٍ سَاخِنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سَلْقُ الْبَطَاطِسِ"
+      ],
+      "examples_ar": [
+        "سَلَقَتِ الأُمُّ الْبَيْضَ فِي الْمَاءِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مُدَّتُهُ بِحَسَبِ نَوْعِ الْغِذَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_072",
+      "arabic": "تَبْخِيرٌ غِذَائِيٌّ",
+      "meaning_ar": "طَهْيُ الطَّعَامِ بِبُخَارِ الْمَاءِ دُونَ غَمْرِهِ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَبْخِيرُ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "طَهَتِ الأُمُّ الْخُضَرَ بِالْبُخَارِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَعَ سَلَّةٍ تَسْمَحُ بِمُرُورِ الْبُخَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_073",
+      "arabic": "قَلْيٌ",
+      "meaning_ar": "طَهْيُ مَادَّةٍ غِذَائِيَّةٍ فِي الزَّيْتِ أَوِ الدُّهْنِ السَّاخِنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قَلْيُ السَّمَكِ"
+      ],
+      "examples_ar": [
+        "قَلَى الطَّاهِي قِطَعَ السَّمَكِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ ضَبْطَ دَرَجَةِ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_074",
+      "arabic": "قَلْيٌ عَمِيقٌ",
+      "meaning_ar": "طَهْيُ الطَّعَامِ وَهُوَ مَغْمُورٌ فِي كَمِّيَّةٍ كَبِيرَةٍ مِنَ الزَّيْتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قَلْيُ الْبَطَاطِسِ"
+      ],
+      "examples_ar": [
+        "قَلَى الطَّبَّاخُ الْبَطَاطِسَ قَلْيًا عَمِيقًا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّحْمِيرِ بِزَيْتٍ قَلِيلٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_075",
+      "arabic": "تَحْمِيرٌ",
+      "meaning_ar": "تَعْرِيضُ سَطْحِ الطَّعَامِ لِحَرَارَةٍ تَجْعَلُ لَوْنَهُ ذَهَبِيًّا أَوْ بُنِّيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْمِيرُ الْخُبْزِ"
+      ],
+      "examples_ar": [
+        "حَمَّرَ الطَّاهِي الْبَصَلَ فِي الْمِقْلَاةِ."
+      ],
+      "usage_note_ar": "قَدْ يَسْبِقُ الطَّهْيَ الْكَامِلَ أَوْ يُكْمِلُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_076",
+      "arabic": "شَوْيٌ",
+      "meaning_ar": "طَهْيُ الطَّعَامِ بِحَرَارَةٍ مُبَاشِرَةٍ أَوْ بِهَوَاءٍ سَاخِنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "شَوْيُ اللَّحْمِ"
+      ],
+      "examples_ar": [
+        "شَوَى الطَّاهِي الدَّجَاجَ فِي الْفُرْنِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الشَّوْيَ عَلَى الْفَحْمِ وَفِي الْفُرْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_077",
+      "arabic": "تَحْمِيصٌ",
+      "meaning_ar": "تَسْخِينُ حُبُوبٍ أَوْ مَوَادَّ لِتَغْيِيرِ لَوْنِهَا وَرَائِحَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْمِيصُ الْقَهْوَةِ"
+      ],
+      "examples_ar": [
+        "حَمَّصَ الْبَائِعُ الْحُبُوبَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْقَهْوَةِ وَالْمُكَسَّرَاتِ وَالْخُبْزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_078",
+      "arabic": "تَشْوِيحٌ",
+      "meaning_ar": "تَحْرِيكُ الطَّعَامِ فِي قَلِيلٍ مِنَ الدُّهْنِ عَلَى نَارٍ مُنَاسِبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَشْوِيحُ الْبَصَلِ"
+      ],
+      "examples_ar": [
+        "شَوَّحَ الطَّاهِي الثُّومَ بِسُرْعَةٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ قَبْلَ إِضَافَةِ الْمَرَقِ أَحْيَانًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_079",
+      "arabic": "طَهْيٌ بَطِيءٌ",
+      "meaning_ar": "تَسْخِينُ الطَّعَامِ عَلَى دَرَجَةٍ مُنْخَفِضَةٍ لِمُدَّةٍ طَوِيلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طَهْيُ الْحَسَاءِ"
+      ],
+      "examples_ar": [
+        "تَرَكَ الْطَّاهِي الْقِدْرَ لِيَنْضَجَ بِبُطْءٍ."
+      ],
+      "usage_note_ar": "يَنْفَعُ لِبَعْضِ أَنْوَاعِ اللُّحُومِ وَالْبُقُولِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_080",
+      "arabic": "نُضْجٌ",
+      "meaning_ar": "وُصُولُ الطَّعَامِ إِلَى حَالَةٍ مُنَاسِبَةٍ لِلْأَكْلِ بَعْدَ الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دَرَجَةُ النُّضْجِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّاهِي نُضْجَ الطَّعَامِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَلَامَاتُهُ بِحَسَبِ الْمُكَوِّنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_081",
+      "arabic": "نَضْجُ الْعَجِينِ",
+      "meaning_ar": "وُصُولُ الْعَجِينِ إِلَى الْحَالَةِ الْمَطْلُوبَةِ بَعْدَ الْخَبْزِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اخْتِبَارُ النُّضْجِ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْخَبَّازُ مِنْ نُضْجِ الْخُبْزِ."
+      ],
+      "usage_note_ar": "لَا يَكْفِي لَوْنُ الْقِشْرَةِ وَحْدَهُ دَائِمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_082",
+      "arabic": "حَرَارَةٌ دَاخِلِيَّةٌ",
+      "meaning_ar": "دَرَجَةُ حَرَارَةِ وَسَطِ الطَّعَامِ أَثْنَاءَ الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْحَرَارَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّاهِي حَرَارَةَ قِطْعَةِ اللَّحْمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الدَّرَجَاتُ الْمُلَائِمَةُ بِحَسَبِ نَوْعِ الْغِذَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_083",
+      "arabic": "مِقْيَاسُ حَرَارَةِ الطَّعَامِ",
+      "meaning_ar": "جِهَازٌ يُظْهِرُ دَرَجَةَ حَرَارَةِ الطَّعَامِ مِنَ الدَّاخِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَقَايِيسُ حَرَارَةِ الطَّعَامِ"
+      ],
+      "collocations": [
+        "مِقْيَاسٌ رَقْمِيٌّ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الطَّاهِي الْمِقْيَاسَ قَبْلَ التَّقْدِيمِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَحْصِ النُّضْجِ وَالسَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_084",
+      "arabic": "تَتْبِيلٌ",
+      "meaning_ar": "إِضَافَةُ الْمِلْحِ وَالتَّوَابِلِ وَالنَّكَهَاتِ إِلَى الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَتْبِيلُ الدَّجَاجِ"
+      ],
+      "examples_ar": [
+        "تَبَّلَ الطَّاهِي اللَّحْمَ قَبْلَ الشَّوْيِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يَسْبِقَ الطَّهْيَ أَوْ يَكُونَ أَثْنَاءَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_085",
+      "arabic": "تَوَابِلُ",
+      "meaning_ar": "مَوَادُّ عِطْرِيَّةٌ تُضَافُ بِكَمِّيَّاتٍ صَغِيرَةٍ لِإِبْرَازِ النَّكْهَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَزِيجُ التَّوَابِلِ"
+      ],
+      "examples_ar": [
+        "أَضَافَتِ الأُمُّ تَوَابِلَ إِلَى الْحَسَاءِ."
+      ],
+      "usage_note_ar": "تَكُونُ بِذُورٍ أَوْ أَوْرَاقٍ أَوْ قُشُورٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_086",
+      "arabic": "بَهَارٌ",
+      "meaning_ar": "مَادَّةٌ نَبَاتِيَّةٌ عِطْرِيَّةٌ تُسْتَعْمَلُ لِإِضْفَاءِ طَعْمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بَهَارَاتٌ"
+      ],
+      "collocations": [
+        "بَهَارُ الْأَرُزِّ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الطَّاهِي بَهَارَاتٍ طَازَجَةً."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ كَلِمَةُ التَّوَابِلِ مَعَهَا فِي مَعْنًى مُتَقَارِبٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_087",
+      "arabic": "كَمُّونٌ",
+      "meaning_ar": "نَبَاتٌ تُسْتَعْمَلُ بِذُورُهُ الْمُجَفَّفَةُ تَابِلًا ذَا رَائِحَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كَمُّونٌ مَطْحُونٌ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الطَّبَّاخُ الْكَمُّونَ إِلَى الْعَدَسِ."
+      ],
+      "usage_note_ar": "يَرِدُ حَبًّا أَوْ مَسْحُوقًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_088",
+      "arabic": "كُرْكُمٌ",
+      "meaning_ar": "مَسْحُوقٌ أَصْفَرُ مِنْ جُذُورِ نَبَاتٍ يُسْتَعْمَلُ تَابِلًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِسْحُوقُ الْكُرْكُمِ"
+      ],
+      "examples_ar": [
+        "لَوَّنَتِ الأُمُّ الأَرُزَّ بِالْكُرْكُمِ."
+      ],
+      "usage_note_ar": "يُكْسِبُ الطَّعَامَ لَوْنًا أَصْفَرَ وَنَكْهَةً مُعَيَّنَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_089",
+      "arabic": "قِرْفَةٌ",
+      "meaning_ar": "قِشْرَةٌ عِطْرِيَّةٌ لِبَعْضِ الأَشْجَارِ تُسْتَعْمَلُ فِي الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عُودُ قِرْفَةٍ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْخَبَّازُ الْقِرْفَةَ إِلَى الْحَلْوَى."
+      ],
+      "usage_note_ar": "تُبَاعُ عَلَى شَكْلِ أَعْوَادٍ أَوْ مَسْحُوقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_090",
+      "arabic": "قَرَنْفُلٌ",
+      "meaning_ar": "بَرَاعِمُ زَهْرٍ مُجَفَّفَةٌ تُسْتَعْمَلُ تَابِلًا عِطْرِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَبَّاتُ الْقَرَنْفُلِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الأُمُّ الْقَرَنْفُلَ فِي الشَّايِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ زَهْرَةِ الْقَرَنْفُلِ الْمَعْرُوفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_091",
+      "arabic": "حَبُّ هَالٍ",
+      "meaning_ar": "بِذْرَةٌ عِطْرِيَّةٌ تُضَافُ إِلَى بَعْضِ الْمَشْرُوبَاتِ وَالأَطْعِمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "هَالٌ مَطْحُونٌ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الرَّجُلُ الْهَالَ إِلَى الْقَهْوَةِ."
+      ],
+      "usage_note_ar": "يُسَمَّى أَيْضًا الْحَبَّهَانَ فِي بَعْضِ الْبِلَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_092",
+      "arabic": "زَنْجَبِيلٌ",
+      "meaning_ar": "جِذْمُ نَبَاتٍ عِطْرِيٍّ يُسْتَعْمَلُ طَازَجًا أَوْ مُجَفَّفًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "زَنْجَبِيلٌ طَازَجٌ"
+      ],
+      "examples_ar": [
+        "بَشَرَتِ الأُمُّ الزَّنْجَبِيلَ فِي الْحَسَاءِ."
+      ],
+      "usage_note_ar": "لَهُ طَعْمٌ حَادٌّ وَرَائِحَةٌ خَاصَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_093",
+      "arabic": "فِلْفِلٌ أَسْوَدُ",
+      "meaning_ar": "تَابِلٌ يُصْنَعُ مِنْ ثِمَارٍ صَغِيرَةٍ مُجَفَّفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فِلْفِلٌ مَطْحُونٌ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الطَّاهِي رَشَّةً مِنَ الْفِلْفِلِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِإِبْرَازِ النَّكْهَةِ فِي أَطْبَاقٍ كَثِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_094",
+      "arabic": "فِلْفِلٌ أَحْمَرُ حَارٌّ",
+      "meaning_ar": "ثَمَرَةٌ أَوْ مَسْحُوقٌ ذُو طَعْمٍ حَارٍّ يُسْتَعْمَلُ تَابِلًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَسْحُوقُ الْفِلْفِلِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الطَّبَّاخُ كَمِّيَّةَ الْفِلْفِلِ الْحَارِّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ حِدَّتُهُ بِحَسَبِ النَّوْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_095",
+      "arabic": "وَرَقُ غَارٍ",
+      "meaning_ar": "أَوْرَاقٌ عِطْرِيَّةٌ تُضَافُ إِلَى الطَّعَامِ لِإِكْسَابِهِ نَكْهَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَرَقَةُ غَارٍ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّبَّاخُ وَرَقَةَ غَارٍ فِي الْمَرَقِ."
+      ],
+      "usage_note_ar": "تُزَالُ الْوَرَقَةُ الْكَامِلَةُ عَادَةً قَبْلَ التَّقْدِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_096",
+      "arabic": "زَعْتَرٌ",
+      "meaning_ar": "نَبَاتٌ عِطْرِيٌّ تُسْتَعْمَلُ أَوْرَاقُهُ تَابِلًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "زَعْتَرٌ جَافٌّ"
+      ],
+      "examples_ar": [
+        "رَشَّتِ الأُمُّ الزَّعْتَرَ عَلَى الْخُبْزِ."
+      ],
+      "usage_note_ar": "تَسْتَعْمِلُ بَعْضُ الْمَنَاطِقِ الِاسْمَ لِخَلِيطِ تَوَابِلَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_097",
+      "arabic": "نَعْنَاعٌ",
+      "meaning_ar": "نَبَاتٌ عِطْرِيٌّ ذُو أَوْرَاقٍ تُسْتَعْمَلُ فِي الطَّعَامِ وَالشَّرَابِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَعْنَاعٌ طَازَجٌ"
+      ],
+      "examples_ar": [
+        "أَضَافَتِ الأُمُّ النَّعْنَاعَ إِلَى السَّلَطَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ طَازَجًا وَمُجَفَّفًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_098",
+      "arabic": "بَقْدُونِسٌ",
+      "meaning_ar": "نَبَاتٌ أَخْضَرُ ذُو أَوْرَاقٍ مَأْكُولَةٍ تُضَافُ لِلأَطْبَاقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بَقْدُونِسٌ مَفْرُومٌ"
+      ],
+      "examples_ar": [
+        "فَرَمَ الطَّاهِي الْبَقْدُونِسَ لِلشُّورْبَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ زِينَةً وَمُكَوِّنًا فِي آنٍ وَاحِدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_099",
+      "arabic": "كُزْبَرَةٌ",
+      "meaning_ar": "نَبَاتٌ تُسْتَعْمَلُ أَوْرَاقُهُ وَبُذُورُهُ فِي الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "كُزْبَرَةٌ خَضْرَاءُ"
+      ],
+      "examples_ar": [
+        "أَضَافَتِ الطَّاهِيَةُ الْكُزْبَرَةَ إِلَى الطَّبَقِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ نَكْهَةُ الأَوْرَاقِ عَنْ نَكْهَةِ الْبُذُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_100",
+      "arabic": "شَمَرٌ",
+      "meaning_ar": "نَبَاتٌ عِطْرِيٌّ تُسْتَعْمَلُ بُذُورُهُ وَأَجْزَاؤُهُ فِي الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بُذُورُ الشَّمَرِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْخَبَّازُ بُذُورَ الشَّمَرِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ صُوَرُ اسْتِعْمَالِهِ فِي الْمَطَابِخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_101",
+      "arabic": "سُمَّاقٌ",
+      "meaning_ar": "تَابِلٌ مَسْحُوقٌ مِنْ ثِمَارٍ حَامِضَةٍ مُجَفَّفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُمَّاقٌ مَطْحُونٌ"
+      ],
+      "examples_ar": [
+        "رَشَّ الطَّاهِي السُّمَّاقَ عَلَى السَّلَطَةِ."
+      ],
+      "usage_note_ar": "يَكْسِبُ الْأَطْبَاقَ مَذَاقًا حَامِضًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_102",
+      "arabic": "حَبَّةُ الْبَرَكَةِ",
+      "meaning_ar": "بُذُورٌ سَوْدَاءُ صَغِيرَةٌ تُسْتَعْمَلُ فِي بَعْضِ الْمُعَجَّنَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَشُّ الْحَبَّةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْخَبَّازُ الْبُذُورَ عَلَى الرَّغِيفِ."
+      ],
+      "usage_note_ar": "تُسَمَّى أَيْضًا الْحَبَّةَ السَّوْدَاءَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_103",
+      "arabic": "خَلٌّ",
+      "meaning_ar": "سَائِلٌ حَامِضٌ يُنْتَجُ بِتَخَمُّرِ مَوَادَّ غِذَائِيَّةٍ وَيُسْتَعْمَلُ تَبْلِيلًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خَلُّ التُّفَّاحِ"
+      ],
+      "examples_ar": [
+        "أَضَافَتِ الأُمُّ الْخَلَّ إِلَى السَّلَطَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ وَتَرْكِيزَاتُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_104",
+      "arabic": "صَلْصَةٌ",
+      "meaning_ar": "مَزِيجٌ سَائِلٌ أَوْ كَثِيفٌ يُقَدَّمُ مَعَ الطَّعَامِ لِإِضَافَةِ النَّكْهَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ صَلْصَاتٌ"
+      ],
+      "collocations": [
+        "صَلْصَةُ الطَّمَاطِمِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الطَّبَّاخُ صَلْصَةً لِلْمَعْكَرُونَةِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ بَيْنَ الْبَارِدَةِ وَالسَّاخِنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_105",
+      "arabic": "تَتْبِيلَةٌ",
+      "meaning_ar": "مَزِيجٌ مِنَ التَّوَابِلِ وَالسَّوَائِلِ يُوْضَعُ عَلَى الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَتْبِيلَاتٌ"
+      ],
+      "collocations": [
+        "تَتْبِيلَةُ اللَّحْمِ"
+      ],
+      "examples_ar": [
+        "نَقَعَ الطَّاهِي الدَّجَاجَ فِي التَّتْبِيلَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْتَوِي عَلَى لَيْمُونٍ أَوْ زَيْتٍ أَوْ تَوَابِلَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_106",
+      "arabic": "مَرَقٌ",
+      "meaning_ar": "سَائِلٌ يَنْتُجُ عَنْ طَهْيِ الْخُضَرِ أَوِ اللَّحْمِ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَرَقَاتٌ"
+      ],
+      "collocations": [
+        "مَرَقُ الدَّجَاجِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الطَّاهِي الْمَرَقَ لِلْحَسَاءِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ أَسَاسًا لِلصَّلْصَاتِ وَالأَطْبَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_107",
+      "arabic": "حَسَاءٌ",
+      "meaning_ar": "طَعَامٌ سَائِلٌ يُعَدُّ مِنْ مَرَقٍ وَمُكَوِّنَاتٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَحْسِيَةٌ"
+      ],
+      "collocations": [
+        "حَسَاءُ الْعَدَسِ"
+      ],
+      "examples_ar": [
+        "تَنَاوَلَتِ الْأُسْرَةُ حَسَاءً دَافِئًا."
+      ],
+      "usage_note_ar": "يُسَمَّى شُورْبَةً فِي اسْتِعْمَالٍ شَائِعٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_108",
+      "arabic": "شُورْبَةٌ",
+      "meaning_ar": "طَعَامٌ سَائِلٌ أَوْ شِبْهُ سَائِلٍ يُؤْكَلُ بِالْمِلْعَقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ شُورْبَاتٌ"
+      ],
+      "collocations": [
+        "شُورْبَةُ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَطْعَمُ شُورْبَةً سَاخِنَةً."
+      ],
+      "usage_note_ar": "كَلِمَةٌ شَائِعَةٌ تُقَارِبُ الْحَسَاءَ فِي الْمَعْنَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_109",
+      "arabic": "سَلَطَةٌ",
+      "meaning_ar": "طَبَقٌ يَجْمَعُ خُضَرًا أَوْ مَوَادَّ مُقَطَّعَةً تُقَدَّمُ بَارِدَةً غَالِبًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَلَطَاتٌ"
+      ],
+      "collocations": [
+        "سَلَطَةُ الْخِيَارِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّتِ الأُمُّ سَلَطَةً مِنَ الْخُضَرِ."
+      ],
+      "usage_note_ar": "قَدْ تُضَافُ إِلَيْهَا صَلْصَةٌ أَوْ حُبُوبٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_110",
+      "arabic": "حَشْوٌ",
+      "meaning_ar": "مَزِيجٌ يُوْضَعُ دَاخِلَ طَعَامٍ مِثْلَ الْمُعَجَّنَاتِ وَالْخُضَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَشْوُ اللَّحْمِ"
+      ],
+      "examples_ar": [
+        "مَلَأَتِ الطَّبَّاخَةُ الْفَطَائِرَ بِالْحَشْوِ."
+      ],
+      "usage_note_ar": "يَكُونُ حُلْوًا أَوْ مَالِحًا حَسَبَ الطَّبَقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_111",
+      "arabic": "فَطِيرَةٌ",
+      "meaning_ar": "مُعَجَّنٌ يُخْبَزُ وَقَدْ يَحْتَوِي حَشْوًا حُلْوًا أَوْ مَالِحًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فَطَائِرُ"
+      ],
+      "collocations": [
+        "فَطِيرَةُ الْجُبْنِ"
+      ],
+      "examples_ar": [
+        "خَبَزَتِ الأُمُّ فَطَائِرَ لِلصَّبَاحِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَشْكَالُهَا بِحَسَبِ الْمَطْبَخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_112",
+      "arabic": "مَعْجُونَاتٌ",
+      "meaning_ar": "أَطْعِمَةٌ تُصْنَعُ مِنْ عَجِينٍ وَتُخْبَزُ أَوْ تُطْهَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "أَطْبَاقُ الْمُعَجَّنَاتِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَخْبَزُ أَنْوَاعًا مِنَ الْمُعَجَّنَاتِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ غَالِبًا لَفْظُ مُعَجَّنَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_113",
+      "arabic": "مُعَجَّنَاتٌ",
+      "meaning_ar": "أَطْعِمَةٌ تُحَضَّرُ مِنْ عَجِينِ الدَّقِيقِ وَتُخْبَزُ أَوْ تُقْلَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُعَجَّنَاتٌ طَازَجَةٌ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الرَّجُلُ مُعَجَّنَاتٍ لِأُسْرَتِهِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَصْنَافًا كَثِيرَةً مِنَ الْمُعَجَّنَاتِ الْمَحْشُوَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_114",
+      "arabic": "حَلْوَى",
+      "meaning_ar": "طَعَامٌ ذُو مَذَاقٍ حُلْوٍ يُقَدَّمُ بَعْدَ الْوَجْبَةِ أَوْ وَحْدَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَلْوَيَاتٌ"
+      ],
+      "collocations": [
+        "حَلْوَى مَنْزِلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "صَنَعَتِ الأُمُّ حَلْوَى لِلْأَطْفَالِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهَا بِالْفَوَاكِهِ وَالدَّقِيقِ وَالسُّكَّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_115",
+      "arabic": "كَعْكَةٌ",
+      "meaning_ar": "حَلْوَى مَخْبُوزَةٌ مِنْ خَلِيطِ الدَّقِيقِ وَمُكَوِّنَاتٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ كَعْكَاتٌ"
+      ],
+      "collocations": [
+        "كَعْكَةُ الشُّوكُولَاتَةِ"
+      ],
+      "examples_ar": [
+        "قَطَعَتِ الطِّفْلَةُ الْكَعْكَةَ إِلَى قِطَعٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ فِي الْحَجْمِ وَالزِّينَةِ وَالْحَشْوِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_116",
+      "arabic": "بَسْكَوِيتٌ",
+      "meaning_ar": "قِطَعٌ صَغِيرَةٌ جَافَّةٌ تُخْبَزُ مِنَ الدَّقِيقِ وَمُكَوِّنَاتٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بَسْكَوِيتٌ مُقَرْمَشٌ"
+      ],
+      "examples_ar": [
+        "تَنَاوَلَ الطِّفْلُ بَسْكَوِيتًا مَعَ الْحَلِيبِ."
+      ],
+      "usage_note_ar": "يَتَنَوَّعُ بَيْنَ الْحُلْوِ وَالْمَالِحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_117",
+      "arabic": "شُوكُولَاتَةٌ",
+      "meaning_ar": "مَادَّةٌ غِذَائِيَّةٌ تُصْنَعُ مِنْ مُنْتَجَاتِ الْكَاكَاوِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِطْعَةُ شُوكُولَاتَةٍ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْخَبَّازُ الشُّوكُولَاتَةَ إِلَى الْكَعْكَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ نِسْبَةُ الْكَاكَاوِ بَيْنَ الْأَنْوَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_118",
+      "arabic": "كَاكَاوٌ",
+      "meaning_ar": "مَادَّةٌ تُسْتَخْرَجُ مِنْ بُذُورِ شَجَرَةٍ اسْتِوَائِيَّةٍ وَتُسْتَعْمَلُ فِي الْحَلْوَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَسْحُوقُ الْكَاكَاوِ"
+      ],
+      "examples_ar": [
+        "خَلَطَتِ الأُمُّ الْكَاكَاوَ بِالْحَلِيبِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الشُّوكُولَاتَةِ وَالْمَشْرُوبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_119",
+      "arabic": "سُكَّرٌ بُنِّيٌّ",
+      "meaning_ar": "سُكَّرٌ ذُو لَوْنٍ بُنِّيٍّ يَحْتَوِي عَلَى نِسْبَةٍ مِنَ الدِّبْسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُكَّرُ الْخَبْزِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَتِ الْخَبَّازَةُ السُّكَّرَ الْبُنِّيَّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ فِي الرُّطُوبَةِ وَالنَّكْهَةِ عَنِ الأَبْيَضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_120",
+      "arabic": "سُكَّرٌ نَاعِمٌ",
+      "meaning_ar": "سُكَّرٌ مَطْحُونٌ بِدِقَّةٍ يُسْتَعْمَلُ فِي الزِّينَةِ وَالْحَلَوَيَّاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُكَّرُ الزِّينَةِ"
+      ],
+      "examples_ar": [
+        "رَشَّتِ الأُمُّ السُّكَّرَ النَّاعِمَ عَلَى الْحَلْوَى."
+      ],
+      "usage_note_ar": "يُسَمَّى أَيْضًا السُّكَّرَ الْبُودَرَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_121",
+      "arabic": "عَسَلٌ",
+      "meaning_ar": "مَادَّةٌ حُلْوَةٌ تُنْتِجُهَا النَّحْلُ مِنْ رَحِيقِ النَّبَاتَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَسَلٌ طَبِيعِيٌّ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الرَّجُلُ الْعَسَلَ عَلَى الْخُبْزِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَلْوَانُهُ وَنَكْهَتُهُ بِاخْتِلَافِ الرَّحِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_122",
+      "arabic": "دِبْسٌ",
+      "meaning_ar": "سَائِلٌ كَثِيفٌ حُلْوٌ يُنْتَجُ بِتَرْكِيزِ عَصِيرِ ثِمَارٍ أَوْ سُكَّرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دِبْسُ التَّمْرِ"
+      ],
+      "examples_ar": [
+        "أَضَافَتِ الأُمُّ الدِّبْسَ إِلَى الْحَلْوَى."
+      ],
+      "usage_note_ar": "يُصْنَعُ مِنَ التَّمْرِ أَوِ الْعِنَبِ أَوْ غَيْرِهِمَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_123",
+      "arabic": "نَشَاءٌ",
+      "meaning_ar": "مَادَّةٌ كَرْبُوهَيْدْرَاتِيَّةٌ تُسْتَخْرَجُ مِنَ النَّبَاتَاتِ وَتُثَخِّنُ السَّوَائِلَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نَشَاءُ الذُّرَةِ"
+      ],
+      "examples_ar": [
+        "خَلَطَتِ الطَّبَّاخَةُ النَّشَاءَ بِالْحَلِيبِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمُهَلَّبِيَّةِ وَالصَّلْصَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_124",
+      "arabic": "جِلَاتِينٌ",
+      "meaning_ar": "مَادَّةٌ هُلَامِيَّةٌ تُسْتَعْمَلُ لِتَثْخِينِ بَعْضِ الأَطْعِمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جِلَاتِينُ الْحَلْوَى"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُشْتَرِي مَصْدَرَ الْجِلَاتِينِ عَلَى الْعُبْوَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ مَصْدَرُهُ وَحُكْمُ اسْتِعْمَالِهِ بِحَسَبِ الْمُنْتَجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_125",
+      "arabic": "مُهَلَّبِيَّةٌ",
+      "meaning_ar": "حَلْوَى لَبَنِيَّةٌ لَيِّنَةٌ تُثَخَّنُ بِالنَّشَاءِ أَوْ مَادَّةٍ مُشَابِهَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُهَلَّبِيَّاتٌ"
+      ],
+      "collocations": [
+        "مُهَلَّبِيَّةٌ بِالْحَلِيبِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَتِ الأُمُّ الْمُهَلَّبِيَّةَ بَعْدَ الْعَشَاءِ."
+      ],
+      "usage_note_ar": "تُقَدَّمُ بَارِدَةً غَالِبًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_126",
+      "arabic": "مُرَبًّى",
+      "meaning_ar": "فَاكِهَةٌ تُطْبَخُ مَعَ السُّكَّرِ حَتَّى تَصِيرَ خَلِيطًا كَثِيفًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُرَبَّى الْمِشْمِشِ"
+      ],
+      "examples_ar": [
+        "دَهَنَ الطِّفْلُ الْخُبْزَ بِالْمُرَبَّى."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ نِسْبَةُ الْفَاكِهَةِ وَالسُّكَّرِ بَيْنَ الْأَنْوَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_127",
+      "arabic": "مُخَلَّلٌ",
+      "meaning_ar": "خُضْرَةٌ تُحْفَظُ فِي مَحْلُولٍ مِلْحِيٍّ أَوْ حَامِضٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُخَلَّلَاتٌ"
+      ],
+      "collocations": [
+        "خِيَارٌ مُخَلَّلٌ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَطْعَمُ مُخَلَّلَاتٍ مَعَ الْوَجْبَةِ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ طَرِيقَةُ حِفْظِهِ عَلَى الْمِلْحِ وَالْحُمُوضَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_128",
+      "arabic": "تَخْلِيلٌ",
+      "meaning_ar": "حِفْظُ بَعْضِ الْخُضَرِ فِي سَائِلٍ مِلْحِيٍّ أَوْ حَامِضٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَخْلِيلُ الْخِيَارِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَتِ الطَّالِبَةُ طَرِيقَةَ تَخْلِيلِ الْخُضَرِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ مُرَاعَاةَ النَّظَافَةِ وَنِسَبِ الْحِفْظِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_129",
+      "arabic": "تَجْفِيفٌ",
+      "meaning_ar": "إِزَالَةُ مُعْظَمِ الْمَاءِ مِنْ مَادَّةٍ لِإِطَالَةِ حِفْظِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَجْفِيفُ الْفَاكِهَةِ"
+      ],
+      "examples_ar": [
+        "جَفَّفَتِ الأُسْرَةُ شَرَائِحَ التُّفَّاحِ."
+      ],
+      "usage_note_ar": "يُقَلِّلُ الرُّطُوبَةَ الَّتِي تَسْتَفِيدُ مِنْهَا الْمِيكْرُوبَاتُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_130",
+      "arabic": "تَجْمِيدٌ",
+      "meaning_ar": "خَفْضُ دَرَجَةِ حَرَارَةِ الطَّعَامِ حَتَّى يَتَجَمَّدَ مَاؤُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَجْمِيدُ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "جَمَّدَتِ الأُمُّ الْخُضَرَ بَعْدَ تَجْهِيزِهَا."
+      ],
+      "usage_note_ar": "لَا يَقْضِي بِالضَّرُورَةِ عَلَى جَمِيعِ الْمِيكْرُوبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_131",
+      "arabic": "تَبْرِيدٌ",
+      "meaning_ar": "خَفْضُ دَرَجَةِ حَرَارَةِ الطَّعَامِ لِإِبْطَاءِ فَسَادِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَبْرِيدُ الْوَجْبَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الأُمُّ الطَّعَامَ فِي الثَّلَّاجَةِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُرَاقَبَةِ الْوَقْتِ وَدَرَجَةِ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_132",
+      "arabic": "حِفْظُ الْأَطْعِمَةِ",
+      "meaning_ar": "اسْتِخْدَامُ وَسَائِلَ تُبْطِئُ تَلَفَ الْغِذَاءِ وَفَسَادَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طُرُقُ الْحِفْظِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ الْطَّالِبُ طُرُقَ حِفْظِ الْأَطْعِمَةِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ التَّبْرِيدَ وَالتَّجْفِيفَ وَالتَّمْلِيحَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_133",
+      "arabic": "صَلَاحِيَّةُ الطَّعَامِ",
+      "meaning_ar": "الْمُدَّةُ الَّتِي يُتَوَقَّعُ فِيهَا بَقَاءُ الْغِذَاءِ مُنَاسِبًا لِلِاسْتِعْمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَارِيخُ الصَّلَاحِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَحَقَّقَ الْمُشْتَرِي مِنْ صَلَاحِيَّةِ الْمُنْتَجِ."
+      ],
+      "usage_note_ar": "تُفْحَصُ أَيْضًا شُرُوطُ التَّخْزِينِ وَسَلَامَةُ الْعُبْوَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_134",
+      "arabic": "تَارِيخُ إِنْتَاجٍ",
+      "meaning_ar": "الْيَوْمُ الَّذِي صُنِعَ فِيهِ الْمُنْتَجُ الْغِذَائِيُّ أَوْ عُبِّئَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَوَارِيخُ إِنْتَاجٍ"
+      ],
+      "collocations": [
+        "بَيَانُ الْعُبْوَةِ"
+      ],
+      "examples_ar": [
+        "قَرَأَتِ الأُمُّ تَارِيخَ إِنْتَاجِ الْحَلِيبِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ تَارِيخِ انْتِهَاءِ الصَّلَاحِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_135",
+      "arabic": "تَارِيخُ انْتِهَاءٍ",
+      "meaning_ar": "يَوْمٌ يُحَدِّدُ آخِرَ مُدَّةٍ مُعَيَّنَةٍ لِمُنْتَجٍ وَفْقَ تَعْلِيمَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ تَوَارِيخُ انْتِهَاءٍ"
+      ],
+      "collocations": [
+        "تَارِيخُ الِانْتِهَاءِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْعَمِيلُ التَّارِيخَ عَلَى الْعُبْوَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ بَيَانِ الْجَوْدَةِ الْمُفَضَّلَةِ قَبْلَ تَارِيخٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_136",
+      "arabic": "سِلْسِلَةُ تَبْرِيدٍ",
+      "meaning_ar": "حِفْظُ الْغِذَاءِ فِي دَرَجَاتِ حَرَارَةٍ مُنَاسِبَةٍ خِلَالَ النَّقْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سَلَاسِلُ تَبْرِيدٍ"
+      ],
+      "collocations": [
+        "نَقْلُ الْحَلِيبِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُشْرِفُ سِلْسِلَةَ التَّبْرِيدِ."
+      ],
+      "usage_note_ar": "انْقِطَاعُهَا قَدْ يُؤَثِّرُ فِي سَلَامَةِ الْغِذَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_137",
+      "arabic": "تَلَوُّثٌ غِذَائِيٌّ",
+      "meaning_ar": "دُخُولُ مَوَادَّ ضَارَّةٍ أَوْ مِيكْرُوبَاتٍ إِلَى الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَنْعُ التَّلَوُّثِ"
+      ],
+      "examples_ar": [
+        "فَصَلَ الطَّاهِي اللَّحْمَ النَّيِّئَ عَنِ الْخُضَرِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مِيكْرُوبِيًّا أَوْ كِيمِيَائِيًّا أَوْ فِيزْيَائِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_138",
+      "arabic": "تَلَوُّثٌ مُتَبَادَلٌ",
+      "meaning_ar": "انْتِقَالُ مُلَوِّثَاتٍ مِنْ طَعَامٍ أَوْ سَطْحٍ إِلَى آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَجَنُّبُ التَّلَوُّثِ"
+      ],
+      "examples_ar": [
+        "خَصَّصَ الطَّاهِي لَوْحًا لِلَّحْمِ وَآخَرَ لِلْخُضَرِ."
+      ],
+      "usage_note_ar": "يَتَعَلَّقُ بِالأَدَوَاتِ وَالأَيْدِي وَالطَّعَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_139",
+      "arabic": "تَعْقِيمٌ",
+      "meaning_ar": "عَمَلِيَّةٌ تَهْدِفُ إِلَى الْقَضَاءِ عَلَى الْكَائِنَاتِ الدَّقِيقَةِ بِطَرِيقَةٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَعْقِيمُ الأَدَوَاتِ"
+      ],
+      "examples_ar": [
+        "عَقَّمَ الْفَنِّيُّ الأَوَانِي قَبْلَ تَعْبِئَتِهَا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّنْظِيفِ وَالتَّطْهِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_140",
+      "arabic": "تَطْهِيرٌ",
+      "meaning_ar": "خَفْضُ عَدَدِ الْمِيكْرُوبَاتِ عَلَى سَطْحٍ بِمَادَّةٍ مُنَاسِبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَطْهِيرُ السُّطُوحِ"
+      ],
+      "examples_ar": [
+        "طَهَّرَ الْعَامِلُ الطَّاوِلَةَ بَعْدَ تَنْظِيفِهَا."
+      ],
+      "usage_note_ar": "لَا يَعْنِي دَائِمًا الْقَضَاءَ عَلَى جَمِيعِ الْكَائِنَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_141",
+      "arabic": "تَنْظِيفٌ غِذَائِيٌّ",
+      "meaning_ar": "إِزَالَةُ الْبَقَايَا وَالدُّهُونِ عَنِ الأَوَانِي وَمَسَاحَاتِ الطَّهْيِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَنْظِيفُ الْمَطْبَخِ"
+      ],
+      "examples_ar": [
+        "غَسَلَ الْعَامِلُ الأَدَوَاتِ بَعْدَ الِاسْتِعْمَالِ."
+      ],
+      "usage_note_ar": "يَسْبِقُ التَّطْهِيرَ عِنْدَ الْحَاجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_142",
+      "arabic": "نَظَافَةٌ شَخْصِيَّةٌ",
+      "meaning_ar": "عِنَايَةُ الشَّخْصِ بِجِسْمِهِ وَيَدَيْهِ لِتَقْلِيلِ التَّلَوُّثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "غَسْلُ الْيَدَيْنِ"
+      ],
+      "examples_ar": [
+        "غَسَلَ الطَّاهِي يَدَيْهِ قَبْلَ الطَّهْيِ."
+      ],
+      "usage_note_ar": "مِنْ أُسُسِ التَّعَامُلِ الآمِنِ مَعَ الطَّعَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_143",
+      "arabic": "قُفَّازٌ صِحِّيٌّ",
+      "meaning_ar": "غِطَاءٌ يُلْبَسُ عَلَى الْيَدِ لِحِمَايَتِهَا أَوْ تَقْلِيلِ التَّلَوُّثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قُفَّازَاتٌ صِحِّيَّةٌ"
+      ],
+      "collocations": [
+        "تَبْدِيلُ الْقُفَّازِ"
+      ],
+      "examples_ar": [
+        "بَدَّلَ الْعَامِلُ الْقُفَّازَ بَعْدَ مُلَامَسَةِ اللَّحْمِ."
+      ],
+      "usage_note_ar": "لَا يُغْنِي عَنْ غَسْلِ الْيَدَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_144",
+      "arabic": "مِئْزَرٌ",
+      "meaning_ar": "قِطْعَةُ لِبَاسٍ تُغَطِّي الْجِسْمَ لِحِمَايَةِ الثِّيَابِ أَثْنَاءَ الْعَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَآزِرُ"
+      ],
+      "collocations": [
+        "مِئْزَرُ الطَّبَّاخِ"
+      ],
+      "examples_ar": [
+        "ارْتَدَى الطَّاهِي مِئْزَرًا نَظِيفًا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمَطَابِخِ وَالْمَخَابِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_145",
+      "arabic": "غِطَاءُ شَعْرٍ",
+      "meaning_ar": "قِطْعَةٌ تُثَبَّتُ عَلَى الرَّأْسِ لِمَنْعِ سُقُوطِ الشَّعْرِ فِي الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَغْطِيَةُ شَعْرٍ"
+      ],
+      "collocations": [
+        "غِطَاءٌ صِحِّيٌّ"
+      ],
+      "examples_ar": [
+        "لَبِسَ الْعَامِلُ غِطَاءَ شَعْرٍ فِي الْمَطْبَخِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي بَعْضِ بِيئَاتِ تَجْهِيزِ الْغِذَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_146",
+      "arabic": "قَائِمَةُ طَعَامٍ",
+      "meaning_ar": "وَثِيقَةٌ تَذْكُرُ الأَطْبَاقَ الْمُتَاحَةَ وَأَسْعَارَهَا فِي مَطْعَمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قَوَائِمُ طَعَامٍ"
+      ],
+      "collocations": [
+        "قَائِمَةُ الْوَجَبَاتِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الضَّيْفُ قَائِمَةَ الطَّعَامِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَضَمَّنُ مَوَادَّ مُسَبِّبَةً لِلْحَسَاسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_147",
+      "arabic": "مَطْعَمٌ شَعْبِيٌّ",
+      "meaning_ar": "مَكَانٌ يُقَدِّمُ أَطْعِمَةً مَحَلِّيَّةً مَعْرُوفَةً بَيْنَ النَّاسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَطَاعِمُ شَعْبِيَّةٌ"
+      ],
+      "collocations": [
+        "مَطْعَمُ الْحَيِّ"
+      ],
+      "examples_ar": [
+        "تَنَاوَلَتِ الْأُسْرَةُ الْغَدَاءَ فِي مَطْعَمٍ شَعْبِيٍّ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ أَطْبَاقُهُ بِالْعَادَاتِ الْمَحَلِّيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_148",
+      "arabic": "مَطْعَمٌ سَرِيعٌ",
+      "meaning_ar": "مَكَانٌ يُعِدُّ وَجَبَاتٍ تُقَدَّمُ لِلزَّبَائِنِ بِسُرْعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَطَاعِمُ سَرِيعَةٌ"
+      ],
+      "collocations": [
+        "خِدْمَةُ الطَّلَبَاتِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الطَّالِبُ وَجْبَةً مِنْ مَطْعَمٍ سَرِيعٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طَرِيقَةُ التَّقْدِيمِ عَنِ الْمَطْعَمِ التَّقْلِيدِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_149",
+      "arabic": "خِدْمَةُ الْمَائِدَةِ",
+      "meaning_ar": "تَقْدِيمُ الطَّعَامِ وَالْمَشْرُوبِ لِلضُّيُوفِ أَثْنَاءَ جُلُوسِهِمْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خِدْمَةٌ جَيِّدَةٌ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ النَّادِلُ الطَّعَامَ عَلَى الْمَائِدَةِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ تَرْتِيبَ الأَوَانِي وَرَفْعَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_150",
+      "arabic": "نَادِلٌ",
+      "meaning_ar": "عَامِلٌ يُقَدِّمُ الطَّعَامَ وَالْمَشْرُوبَ لِلزَّبَائِنِ فِي الْمَطْعَمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نُدُلٌ"
+      ],
+      "collocations": [
+        "نَادِلُ الْمَطْعَمِ"
+      ],
+      "examples_ar": [
+        "أَحْضَرَ النَّادِلُ قَائِمَةَ الطَّعَامِ."
+      ],
+      "usage_note_ar": "الْمُؤَنَّثُ نَادِلَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_151",
+      "arabic": "طَلَبُ طَعَامٍ",
+      "meaning_ar": "بَيَانٌ يَحْدِّدُ الأَطْبَاقَ الَّتِي يَرْغَبُ الزَّبُونُ فِي شِرَائِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ طَلَبَاتُ طَعَامٍ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الطَّلَبِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ النَّادِلُ طَلَبَ الزَّبُونِ."
+      ],
+      "usage_note_ar": "قَدْ يُقَدَّمُ شَفَهِيًّا أَوْ عَبْرَ تَطْبِيقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_152",
+      "arabic": "تَوْصِيلُ الطَّعَامِ",
+      "meaning_ar": "نَقْلُ وَجْبَةٍ مِنَ الْمَطْعَمِ إِلَى مَنْزِلِ الْعَمِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "خِدْمَةُ التَّوْصِيلِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الطَّعَامُ إِلَى الْعَمِيلِ سَاخِنًا."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَغْلِيفٍ وَحِفْظٍ مُنَاسِبَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_153",
+      "arabic": "تَغْلِيفُ الطَّعَامِ",
+      "meaning_ar": "وَضْعُ الْغِذَاءِ فِي عُبْوَةٍ لِحِمَايَتِهِ أَثْنَاءَ الْحِفْظِ وَالنَّقْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَغْلِيفٌ مُحْكَمٌ"
+      ],
+      "examples_ar": [
+        "غَلَّفَ الْعَامِلُ الْوَجْبَةَ قَبْلَ التَّوْصِيلِ."
+      ],
+      "usage_note_ar": "تُخْتَارُ الْمَادَّةُ الْمُلَائِمَةُ لِلْمَلَامَسَةِ الْغِذَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_154",
+      "arabic": "عُبْوَةٌ غِذَائِيَّةٌ",
+      "meaning_ar": "وِعَاءٌ يُسْتَعْمَلُ لِحِفْظِ الْمُنْتَجَاتِ الْمَأْكُولَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ عُبُوَاتٌ غِذَائِيَّةٌ"
+      ],
+      "collocations": [
+        "عُبْوَةٌ مُحْكَمَةٌ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُشْتَرِي الْمُكَوِّنَاتِ عَلَى الْعُبْوَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ زُجَاجِيَّةً أَوْ وَرَقِيَّةً أَوْ بِلَاسْتِيكِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_155",
+      "arabic": "بِطَاقَةٌ غِذَائِيَّةٌ",
+      "meaning_ar": "بَيَانٌ عَلَى الْعُبْوَةِ يَصِفُ الْمُكَوِّنَاتِ وَالْقِيمَ الْغِذَائِيَّةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بِطَاقَاتٌ غِذَائِيَّةٌ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْبِطَاقَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْعَمِيلُ الْبِطَاقَةَ الْغِذَائِيَّةَ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى مُقَارَنَةِ الْمُنْتَجَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_156",
+      "arabic": "سُعْرَةٌ حَرَارِيَّةٌ",
+      "meaning_ar": "وَحْدَةٌ تَصِفُ مِقْدَارَ الطَّاقَةِ الَّتِي يُوَفِّرُهَا الْغِذَاءُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ سُعْرَاتٌ حَرَارِيَّةٌ"
+      ],
+      "collocations": [
+        "عَدَدُ السُّعْرَاتِ"
+      ],
+      "examples_ar": [
+        "قَرَأَتِ الطَّالِبَةُ قِيمَةَ الطَّاقَةِ عَلَى الْعُبْوَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ غَالِبًا الْكِيلُوسُعْرَةُ فِي الْبَيَانَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_157",
+      "arabic": "بُرُوتِينٌ",
+      "meaning_ar": "مَادَّةٌ غِذَائِيَّةٌ تُسَاهِمُ فِي بِنَاءِ أَنْسِجَةِ الْجِسْمِ وَوَظَائِفِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ بُرُوتِينَاتٌ"
+      ],
+      "collocations": [
+        "مَصْدَرُ بُرُوتِينٍ"
+      ],
+      "examples_ar": [
+        "يَحْتَوِي الْعَدَسُ عَلَى الْبُرُوتِينِ."
+      ],
+      "usage_note_ar": "يُوجَدُ فِي مَصَادِرَ نَبَاتِيَّةٍ وَحَيَوَانِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_158",
+      "arabic": "كَرْبُوهَيْدْرَاتٌ",
+      "meaning_ar": "مُرَكَّبَاتٌ غِذَائِيَّةٌ تَشْمَلُ السُّكَّرَ وَالنَّشَاءَ وَالأَلْيَافَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَصْدَرُ الطَّاقَةِ"
+      ],
+      "examples_ar": [
+        "يَحْتَوِي الْخُبْزُ عَلَى الْكَرْبُوهَيْدْرَاتِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ فِي الْبِنْيَةِ وَطَرِيقَةِ الْهَضْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_159",
+      "arabic": "دُهُونٌ",
+      "meaning_ar": "مَوَادُّ غِذَائِيَّةٌ تُوَفِّرُ طَاقَةً وَتَدْخُلُ فِي بِنْيَةِ الْخَلَايَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دُهُونٌ نَبَاتِيَّةٌ"
+      ],
+      "examples_ar": [
+        "يَحْتَوِي زَيْتُ الزَّيْتُونِ عَلَى دُهُونٍ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ بِحَسَبِ الأَحْمَاضِ الدُّهْنِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_160",
+      "arabic": "أَلْيَافٌ غِذَائِيَّةٌ",
+      "meaning_ar": "أَجْزَاءٌ نَبَاتِيَّةٌ لَا يَهْضِمُهَا الْجِسْمُ بِالطَّرِيقَةِ الْمُعْتَادَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَصْدَرُ الأَلْيَافِ"
+      ],
+      "examples_ar": [
+        "تَحْتَوِي الْخُضَرُ وَالْحُبُوبُ عَلَى أَلْيَافٍ."
+      ],
+      "usage_note_ar": "تَسْهَمُ فِي وَظَائِفِ الْجِهَازِ الْهَضْمِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_161",
+      "arabic": "فِيتَامِينٌ",
+      "meaning_ar": "مَادَّةٌ يَحْتَاجُهَا الْجِسْمُ بِكَمِّيَّاتٍ قَلِيلَةٍ لِوَظَائِفِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ فِيتَامِينَاتٌ"
+      ],
+      "collocations": [
+        "فِيتَامِينُ جِيمٍ"
+      ],
+      "examples_ar": [
+        "تَحْتَوِي الْفَوَاكِهُ عَلَى فِيتَامِينَاتٍ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ فِيتَامِينَاتُ الْغِذَاءِ وَمَصَادِرُهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_162",
+      "arabic": "مَعْدِنٌ غِذَائِيٌّ",
+      "meaning_ar": "عُنْصُرٌ غَيْرُ عُضْوِيٍّ يَحْتَاجُ إِلَيْهِ الْجِسْمُ لِوَظَائِفِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَعَادِنُ غِذَائِيَّةٌ"
+      ],
+      "collocations": [
+        "مَعَادِنُ الْغِذَاءِ"
+      ],
+      "examples_ar": [
+        "يُعَدُّ الْحَدِيدُ مِنَ الْمَعَادِنِ الْغِذَائِيَّةِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ مَعَادِنَ كَالْكَالْسِيُومِ وَالْحَدِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_163",
+      "arabic": "صُودِيُومٌ",
+      "meaning_ar": "عُنْصُرٌ مَعْدِنِيٌّ يَدْخُلُ فِي تَنْظِيمِ سَوَائِلِ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "نِسْبَةُ الصُّودِيُومِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُشْتَرِي نِسْبَةَ الصُّودِيُومِ فِي الْمُنْتَجِ."
+      ],
+      "usage_note_ar": "يُوجَدُ فِي مِلْحِ الطَّعَامِ وَأَغْذِيَةٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_164",
+      "arabic": "كَالْسِيُومٌ",
+      "meaning_ar": "عُنْصُرٌ مَعْدِنِيٌّ يَسْهَمُ فِي بِنَاءِ الْعِظَامِ وَالأَسْنَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَصْدَرُ الْكَالْسِيُومِ"
+      ],
+      "examples_ar": [
+        "يَحْتَوِي الْحَلِيبُ عَلَى الْكَالْسِيُومِ."
+      ],
+      "usage_note_ar": "يَتَوَافَرُ فِي أَطْعِمَةٍ نَبَاتِيَّةٍ وَحَيَوَانِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_165",
+      "arabic": "حَدِيدٌ غِذَائِيٌّ",
+      "meaning_ar": "عُنْصُرٌ يَحْتَاجُ إِلَيْهِ الْجِسْمُ لِتَكْوِينِ الْهَيْمُوغْلُوبِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "أَطْعِمَةٌ غَنِيَّةٌ بِالْحَدِيدِ"
+      ],
+      "examples_ar": [
+        "يَحْتَوِي الْعَدَسُ عَلَى الْحَدِيدِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ نِسْبَةُ امْتِصَاصِهِ بِنَوْعِ الْغِذَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_166",
+      "arabic": "تَوَازُنٌ غِذَائِيٌّ",
+      "meaning_ar": "تَنَوُّعُ مَا يَتَنَاوَلُهُ الشَّخْصُ لِتَلْبِيَةِ حَاجَاتِهِ الْغِذَائِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَجْبَةٌ مُتَوَازِنَةٌ"
+      ],
+      "examples_ar": [
+        "حَرَصَتِ الأُسْرَةُ عَلَى تَنَوُّعِ الطَّعَامِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الِاحْتِيَاجَاتُ بِحَسَبِ الْعُمْرِ وَالنَّشَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_167",
+      "arabic": "حَسَاسِيَّةٌ غِذَائِيَّةٌ",
+      "meaning_ar": "اسْتِجَابَةٌ مَنَاعِيَّةٌ غَيْرُ مُعْتَادَةٍ لِمُكَوِّنٍ مِنَ الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ حَسَاسِيَّاتٌ غِذَائِيَّةٌ"
+      ],
+      "collocations": [
+        "مُسَبِّبُ الْحَسَاسِيَّةِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الضَّيْفُ عَنْ مُكَوِّنَاتِ الطَّبَقِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ عَدَمِ تَحَمُّلِ بَعْضِ الْأَطْعِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_168",
+      "arabic": "مُسَبِّبُ حَسَاسِيَّةٍ",
+      "meaning_ar": "مَادَّةٌ يُمْكِنُ أَنْ تُثِيرَ اسْتِجَابَةً تَحَسُّسِيَّةً عِنْدَ بَعْضِ النَّاسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مُسَبِّبَاتُ حَسَاسِيَّةٍ"
+      ],
+      "collocations": [
+        "مُسَبِّبَاتٌ غِذَائِيَّةٌ"
+      ],
+      "examples_ar": [
+        "وَضَّحَ الْمَطْعَمُ وُجُودَ الْمُكَسَّرَاتِ."
+      ],
+      "usage_note_ar": "يَجِبُ التَّصْرِيحُ بِالْمُكَوِّنَاتِ عِنْدَ طَلَبِ الْمَعْلُومَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_169",
+      "arabic": "عَدَمُ تَحَمُّلِ اللَّاكْتُوزِ",
+      "meaning_ar": "حَالَةٌ يَصْعُبُ فِيهَا هَضْمُ سُكَّرِ الْحَلِيبِ بِشَكْلٍ مُعْتَادٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طَعَامٌ خَالٍ مِنَ اللَّاكْتُوزِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الرَّجُلُ حَلِيبًا خَالِيًا مِنَ اللَّاكْتُوزِ."
+      ],
+      "usage_note_ar": "لَيْسَ هُوَ نَفْسَهُ حَسَاسِيَّةَ بُرُوتِينِ الْحَلِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_170",
+      "arabic": "طَعَامٌ نَبَاتِيٌّ",
+      "meaning_ar": "وَجْبَةٌ تَعْتَمِدُ عَلَى الْمُكَوِّنَاتِ النَّبَاتِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطْعِمَةٌ نَبَاتِيَّةٌ"
+      ],
+      "collocations": [
+        "طَبَقٌ مِنَ الْخُضَرِ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الضَّيْفُ طَعَامًا نَبَاتِيًّا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ تَعْرِيفَاتُهُ بِحَسَبِ نِظَامِ الْغِذَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_171",
+      "arabic": "طَعَامٌ خَالٍ مِنَ الْغُلُوتِينِ",
+      "meaning_ar": "طَعَامٌ لَا يَحْتَوِي عَلَى بُرُوتِينَاتِ الْغُلُوتِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ أَطْعِمَةٌ خَالِيَةٌ مِنَ الْغُلُوتِينِ"
+      ],
+      "collocations": [
+        "خُبْزٌ خَالٍ مِنَ الْغُلُوتِينِ"
+      ],
+      "examples_ar": [
+        "قَرَأَتِ الأُمُّ بَيَانَ الْمُكَوِّنَاتِ."
+      ],
+      "usage_note_ar": "يَهُمُّ بَعْضَ الأَشْخَاصِ ذَوِي حَاجَاتٍ غِذَائِيَّةٍ خَاصَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_172",
+      "arabic": "غُلُوتِينٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ الْبُرُوتِينَاتِ تُوجَدُ فِي الْقَمْحِ وَبَعْضِ الْحُبُوبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَجِينٌ يَحْتَوِي عَلَى الْغُلُوتِينِ"
+      ],
+      "examples_ar": [
+        "يُسَاعِدُ الْغُلُوتِينُ عَلَى مَرُونَةِ الْعَجِينِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِهِ صِنَاعَةُ الْخُبْزِ وَبَعْضُ الْحَسَاسِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_173",
+      "arabic": "مَذَاقٌ",
+      "meaning_ar": "الإِحْسَاسُ الَّذِي يُدْرَكُ بِاللِّسَانِ عِنْدَ تَذَوُّقِ شَيْءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ مَذَاقَاتٌ"
+      ],
+      "collocations": [
+        "مَذَاقٌ حُلْوٌ"
+      ],
+      "examples_ar": [
+        "أَعْجَبَ الضَّيْفَ مَذَاقُ الْحَسَاءِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالرَّائِحَةِ وَدَرَجَةِ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_174",
+      "arabic": "نَكْهَةٌ",
+      "meaning_ar": "صِفَةُ الطَّعَامِ الْحِسِّيَّةُ النَّاتِجَةُ عَنِ الطَّعْمِ وَالرَّائِحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ نَكْهَاتٌ"
+      ],
+      "collocations": [
+        "نَكْهَةٌ مُتَوَازِنَةٌ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الطَّبَّاخُ الْأَعْشَابَ لِزِيَادَةِ النَّكْهَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ حُلْوَةً أَوْ حَامِضَةً أَوْ مُرَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_175",
+      "arabic": "قِوَامٌ",
+      "meaning_ar": "حَالَةُ مَادَّةٍ مِنْ حَيْثُ كَثَافَتُهَا وَلُيُونَتُهَا وَتَمَاسُكُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ؛ الْجَمْعُ قِوَامَاتٌ"
+      ],
+      "collocations": [
+        "قِوَامٌ كَرِيمِيٌّ"
+      ],
+      "examples_ar": [
+        "أَضَافَتِ الأُمُّ مَاءً لِتَخْفِيفِ الْقِوَامِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمَذَاقِ الَّذِي يُدْرَكُ بِالتَّذَوُّقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_176",
+      "arabic": "قِرْمِشَةٌ",
+      "meaning_ar": "إِحْسَاسٌ نَاتِجٌ عَنْ تَكَسُّرِ الطَّعَامِ الْيَابِسِ عِنْدَ مَضْغِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِرْمِشَةُ الْخُبْزِ"
+      ],
+      "examples_ar": [
+        "كَانَتْ لِلْبِسْكَوِيتِ قِرْمِشَةٌ وَاضِحَةٌ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِالْمَلْمَسِ وَالصَّوْتِ أَثْنَاءَ الْمَضْغِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_177",
+      "arabic": "مَضْغٌ",
+      "meaning_ar": "تَفْتِيتُ الطَّعَامِ بِالْأَسْنَانِ وَمَزْجُهُ بِاللُّعَابِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَضْغُ الطَّعَامِ"
+      ],
+      "examples_ar": [
+        "يَنْبَغِي مَضْغُ الطَّعَامِ بِهُدُوءٍ."
+      ],
+      "usage_note_ar": "يُعَدُّ خُطْوَةً أُولَى فِي عَمَلِيَّةِ الْهَضْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_178",
+      "arabic": "تَذَوُّقٌ",
+      "meaning_ar": "تَجْرِبَةُ طَعْمِ الْغِذَاءِ لِمَعْرِفَةِ نَكْهَتِهِ وَمِلْحِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَذَوُّقُ الْحَسَاءِ"
+      ],
+      "examples_ar": [
+        "تَذَوَّقَ الطَّاهِي الصَّلْصَةَ قَبْلَ التَّقْدِيمِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِضَبْطِ التَّوَابِلِ وَالنَّكَهَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_179",
+      "arabic": "تَقْدِيمُ الطَّعَامِ",
+      "meaning_ar": "تَرْتِيبُ الطَّعَامِ فِي أَوَانٍ وَوَضْعُهُ أَمَامَ الْآكِلِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "فَنُّ التَّقْدِيمِ"
+      ],
+      "examples_ar": [
+        "رَتَّبَ الطَّبَّاخُ الْخُضَرَ عَلَى الطَّبَقِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ شَكْلَ الطَّبَقِ وَدَرَجَةَ حَرَارَتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_180",
+      "arabic": "تَزْيِينُ الطَّبَقِ",
+      "meaning_ar": "إِضَافَةُ عَنَاصِرَ صَغِيرَةٍ لِتَحْسِينِ مَظْهَرِ الطَّعَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَزْيِينٌ بِالأَعْشَابِ"
+      ],
+      "examples_ar": [
+        "زَيَّنَ الطَّاهِي الطَّبَقَ بِالْبَقْدُونِسِ."
+      ],
+      "usage_note_ar": "يُفَضَّلُ أَنْ تَكُونَ الزِّينَةُ مُنَاسِبَةً لِلْأَكْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_181",
+      "arabic": "فَضَلَاتُ طَعَامٍ",
+      "meaning_ar": "بَقَايَا مِنَ الْوَجَبَاتِ لَمْ تُؤْكَلْ أَوْ لَمْ تَعُدْ مَطْلُوبَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "جَمْعُ الْفَضَلَاتِ"
+      ],
+      "examples_ar": [
+        "فَصَلَتِ الأُسْرَةُ بَقَايَا الطَّعَامِ عَنِ الْعُبُوَاتِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَقْلِيلُهَا بِتَخْطِيطِ الْوَجَبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    },
+    {
+      "id": "editorial_culinary_20261026_182",
+      "arabic": "هَدْرٌ غِذَائِيٌّ",
+      "meaning_ar": "ضَيَاعُ طَعَامٍ صَالِحٍ لِلأَكْلِ أَوْ إِتْلَافُهُ دُونَ اسْتِفَادَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ الْهَدْرِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الطَّاهِي الْحِصَصَ لِتَقْلِيلِ الْهَدْرِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالتَّخْزِينِ وَالشِّرَاءِ وَالتَّقْدِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_culinary_lexicon",
+      "editorial_level_hint": 2
+    }
+  ]
+}
