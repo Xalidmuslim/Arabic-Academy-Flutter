@@ -29,8 +29,8 @@ def strip_diacritics(word: str) -> str:
     return WHITESPACE.sub(" ", DIACRITICS.sub("", word)).strip()
 
 
-def remove_case_ending(word: str) -> str:
-    """Drop only the final run of harakat, preserving internal short vowels."""
+def remove_final_marks(word: str) -> str:
+    """Drop word-final marks (may reflect DIFFERENT parts of speech, not just case)."""
     word = unicodedata.normalize("NFC", word).replace(TATWEEL, "").strip()
     return ENDINGS.sub("", word)
 
@@ -38,8 +38,12 @@ def remove_case_ending(word: str) -> str:
 def classify_pair(a: str, b: str) -> str | None:
     if not a or not b or a == b or strip_diacritics(a) != strip_diacritics(b):
         return None
-    if remove_case_ending(a) == remove_case_ending(b):
-        return "case_ending_only"
+    # NFC catches visually identical letters with differently ordered vowel marks.
+    if (unicodedata.normalize("NFC", a.replace(TATWEEL, ""))
+            == unicodedata.normalize("NFC", b.replace(TATWEEL, ""))):
+        return "unicode_equivalent"
+    if remove_final_marks(a) == remove_final_marks(b):
+        return "final_mark_only"
     return "vocalization_diff"
 
 
@@ -75,11 +79,13 @@ def audit_entries(entries: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, An
         forms = list(group["variants"])
         if len(forms) < 2:
             continue
-        only_cases = all(
-            classify_pair(forms[0], form) == "case_ending_only"
-            for form in forms[1:]
-        )
-        kind = "case_ending_only" if only_cases else "vocalization_diff"
+        kinds = [classify_pair(forms[0], form) for form in forms[1:]]
+        if all(k == "unicode_equivalent" for k in kinds):
+            kind = "unicode_equivalent"
+        elif all(k in ("unicode_equivalent", "final_mark_only") for k in kinds):
+            kind = "final_mark_only"
+        else:
+            kind = "vocalization_diff"
         review.append({
             "unvocalized": skeleton,
             "kind": kind,
@@ -94,10 +100,10 @@ def audit_entries(entries: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, An
             ],
         })
 
-    # Put recent editorial candidates and the simpler case-ending variants first.
+    # Put recent editorial candidates and strictly formatting-only variants first.
     review.sort(key=lambda g: (
         not any("20261027" in f for f in g["source_files"]),
-        g["kind"] != "case_ending_only",
+        {"unicode_equivalent": 0, "final_mark_only": 1, "vocalization_diff": 2}[g["kind"]],
         -g["total_raw_cards"],
         g["unvocalized"],
     ))
@@ -106,7 +112,8 @@ def audit_entries(entries: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, An
         "exact_unique": len(exact),
         "exact_repeated": raw - len(exact),
         "unvocalized_variant_groups": len(review),
-        "case_ending_groups": sum(g["kind"] == "case_ending_only" for g in review),
+        "unicode_equivalent_groups": sum(g["kind"] == "unicode_equivalent" for g in review),
+        "final_mark_only_groups": sum(g["kind"] == "final_mark_only" for g in review),
         "vocalization_diff_groups": sum(g["kind"] == "vocalization_diff" for g in review),
         "affected_recent_groups": sum(any("20261027" in f for f in g["source_files"]) for g in review),
         "groups": review,
