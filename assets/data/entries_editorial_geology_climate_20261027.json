@@ -1,0 +1,4450 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_geology_climate_20261027_001",
+      "arabic": "قِشْرَةٌ أَرْضِيَّةٌ",
+      "meaning_ar": "الطَّبَقَةُ الصَّخْرِيَّةُ الْخَارِجِيَّةُ مِنَ الْكُرَةِ الأَرْضِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُمْكُ الْقِشْرَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْجِيُولُوجِيُّ بِنْيَةَ الْقِشْرَةِ الْأَرْضِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ بَيْنَ الْقَارَّاتِ وَالْمُحِيطَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_002",
+      "arabic": "وِشَاحٌ أَرْضِيٌّ",
+      "meaning_ar": "طَبَقَةٌ سَمِيكَةٌ مِنَ الأَرْضِ تَقَعُ بَيْنَ الْقِشْرَةِ وَاللُّبِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْوِشَاحِ"
+      ],
+      "examples_ar": [
+        "تَنْتَقِلُ الْحَرَارَةُ فِي الْوِشَاحِ الْأَرْضِيِّ."
+      ],
+      "usage_note_ar": "يَتَكَوَّنُ مِنْ صُخُورٍ تَتَصَرَّفُ بِلُدُونَةٍ عَلَى مَدًى طَوِيلٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_003",
+      "arabic": "لُبٌّ أَرْضِيٌّ",
+      "meaning_ar": "الْجُزْءُ الْمَرْكَزِيُّ مِنَ الأَرْضِ الَّذِي يَغْلِبُ عَلَيْهِ الْحَدِيدُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اللُّبُّ الدَّاخِلِيُّ"
+      ],
+      "examples_ar": [
+        "تَسَاعَدَتِ الْقِيَاسَاتُ عَلَى دِرَاسَةِ لُبِّ الْأَرْضِ."
+      ],
+      "usage_note_ar": "يُقْسَمُ إِلَى جُزْءٍ دَاخِلِيٍّ وَآخَرَ خَارِجِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_004",
+      "arabic": "غِلَافٌ صَخْرِيٌّ",
+      "meaning_ar": "الطَّبَقَةُ الْخَارِجِيَّةُ الصُّلْبَةُ الَّتِي تَشْمَلُ الْقِشْرَةَ وَأَعْلَى الْوِشَاحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صَفَائِحُ الْغِلَافِ"
+      ],
+      "examples_ar": [
+        "تَتَحَرَّكُ صَفَائِحُ الْغِلَافِ الصَّخْرِيِّ بِبُطْءٍ."
+      ],
+      "usage_note_ar": "يُعْرَفُ فِي عِلْمِ الأَرْضِ بِاسْمِ الْغِلَافِ الْحَجَرِيِّ أَيْضًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_005",
+      "arabic": "غِلَافٌ مَائِعٌ",
+      "meaning_ar": "مِنْطَقَةٌ مِنَ الْوِشَاحِ الْعُلْوِيِّ تَتَشَكَّلُ بِبُطْءٍ تَحْتَ الضَّغْطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدَفُّقُ الْوِشَاحِ"
+      ],
+      "examples_ar": [
+        "تَتَحَرَّكُ الصَّفَائِحُ فَوْقَ طَبَقَاتٍ أَلْيَنَ."
+      ],
+      "usage_note_ar": "لَيْسَ سَائِلًا حُرًّا كَالْمَاءِ فِي الْحَالَةِ الْعَادِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_006",
+      "arabic": "صَفِيحَةٌ تِكْتُونِيَّةٌ",
+      "meaning_ar": "كُتْلَةٌ كَبِيرَةٌ مِنَ الْغِلَافِ الصَّخْرِيِّ تَتَحَرَّكُ بِبُطْءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُدُودُ الصَّفَائِحِ"
+      ],
+      "examples_ar": [
+        "تَقَارَبَتْ صَفِيحَتَانِ فِي الْمَنْطِقَةِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ حَرَكَتُهَا بِالزَّلَازِلِ وَبِنَاءِ الْجِبَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_007",
+      "arabic": "حَرَكَةُ الصَّفَائِحِ",
+      "meaning_ar": "انْتِقَالُ كُتَلِ الْغِلَافِ الصَّخْرِيِّ عَلَى مَدَى زَمَنٍ جِيُولُوجِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ الْحَرَكَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ حَرَكَةَ الصَّفَائِحِ بِالأَقْمَارِ."
+      ],
+      "usage_note_ar": "تُقَاسُ أَحْيَانًا بِسَنْتِيمِتْرَاتٍ فِي السَّنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_008",
+      "arabic": "حَدٌّ تَبَاعُدِيٌّ",
+      "meaning_ar": "مَوْضِعٌ تَبْتَعِدُ فِيهِ صَفِيحَتَانِ تِكْتُونِيَّتَانِ عَنْ بَعْضِهِمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَبَاعُدُ الصَّفَائِحِ"
+      ],
+      "examples_ar": [
+        "يَتَشَكَّلُ قَاعٌ جَدِيدٌ عِنْدَ بَعْضِ الْحُدُودِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِهِ سَلَاسِلُ وَسَطِ الْمُحِيطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_009",
+      "arabic": "حَدٌّ تَقَارُبِيٌّ",
+      "meaning_ar": "مِنْطَقَةٌ تَتَجِهُ فِيهَا صَفِيحَتَانِ تِكْتُونِيَّتَانِ نَحْوَ بَعْضِهِمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصَادُمُ الصَّفَائِحِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتِ الْجِبَالُ عِنْدَ حَدٍّ تَقَارُبِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ يَصْحَبُهُ انْغِرَاسُ صَفِيحَةٍ تَحْتَ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_010",
+      "arabic": "حَدٌّ تَحَوُّلِيٌّ",
+      "meaning_ar": "مَوْضِعٌ تَنْزَلِقُ فِيهِ صَفِيحَتَانِ جَانِبِيًّا عَلَى امْتِدَادِ حَدٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْزِلَاقٌ جَانِبِيٌّ"
+      ],
+      "examples_ar": [
+        "وَقَعَتْ زَلَازِلُ عَلَى صَدْعٍ تَحَوُّلِيٍّ."
+      ],
+      "usage_note_ar": "لَا تَنْشَأُ فِيهِ قِشْرَةٌ جَدِيدَةٌ بِالضَّرُورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_011",
+      "arabic": "انْغِرَاسُ صَفِيحَةٍ",
+      "meaning_ar": "هُبُوطُ صَفِيحَةٍ تِكْتُونِيَّةٍ تَحْتَ أُخْرَى نَحْوَ الْوِشَاحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِنْطَقَةُ الِانْغِرَاسِ"
+      ],
+      "examples_ar": [
+        "يَتَشَكَّلُ خَنْدَقٌ عِنْدَ بَعْضِ مَوَاضِعِ الِانْغِرَاسِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِنَشَاطٍ زِلْزَالِيٍّ وَبُرْكَانِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_012",
+      "arabic": "صَدْعٌ جِيُولُوجِيٌّ",
+      "meaning_ar": "شَقٌّ فِي الصُّخُورِ تَحَدَّثَ عَلَى جَانِبَيْهِ حَرَكَةٌ نِسْبِيَّةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارُ الصَّدْعِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ الصَّدْعَ عَلَى الْخَرِيطَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الشَّقِّ الَّذِي لَا تَصْحَبُهُ حَرَكَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_013",
+      "arabic": "صَدْعٌ عَادِيٌّ",
+      "meaning_ar": "كَسْرٌ صَخْرِيٌّ يَهْبِطُ فِيهِ أَحَدُ الْجَانِبَيْنِ بِالنِّسْبَةِ لِلْآخَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الصَّدْعِ"
+      ],
+      "examples_ar": [
+        "نَتَجَ الصَّدْعُ عَنْ قُوَى الشَّدِّ."
+      ],
+      "usage_note_ar": "يَظْهَرُ غَالِبًا فِي مَنَاطِقِ التَّمَدُّدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_014",
+      "arabic": "صَدْعٌ مَعْكُوسٌ",
+      "meaning_ar": "كَسْرٌ صَخْرِيٌّ يَرْتَفِعُ فِيهِ أَحَدُ الْجَانِبَيْنِ نِسْبِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَكَةٌ انْضِغَاطِيَّةٌ"
+      ],
+      "examples_ar": [
+        "تَشَكَّلَ الصَّدْعُ تَحْتَ قُوَى الضَّغْطِ."
+      ],
+      "usage_note_ar": "قَدْ يَسْهَمُ فِي تَكَوُّنِ السَّلَاسِلِ الْجَبَلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_015",
+      "arabic": "صَدْعٌ انْزِلَاقِيٌّ",
+      "meaning_ar": "صَدْعٌ تَكُونُ فِيهِ الْحَرَكَةُ الْأَسَاسِيَّةُ أُفُقِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْزِلَاقُ الْكَتْلَتَيْنِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْعُلَمَاءُ حَرَكَةَ الصَّدْعِ."
+      ],
+      "usage_note_ar": "قَدْ يُسَبِّبُ زَلَازِلَ شَدِيدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_016",
+      "arabic": "طَيَّةٌ جِيُولُوجِيَّةٌ",
+      "meaning_ar": "انْحِنَاءٌ فِي طَبَقَاتِ الصُّخُورِ بِفِعْلِ قُوًى جِيُولُوجِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِحْوَرُ الطَّيَّةِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ طَيَّةً فِي الْجَبَلِ."
+      ],
+      "usage_note_ar": "تَظْهَرُ كَثِيرًا فِي الصُّخُورِ الرُّسُوبِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_017",
+      "arabic": "طَيَّةٌ مُحَدَّبَةٌ",
+      "meaning_ar": "انْثِنَاءٌ تَرْتَفِعُ فِيهِ الطَّبَقَاتُ نَحْوَ الْأَعْلَى فِي وَسَطِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِمَّةُ الطَّيَّةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْجِيُولُوجِيُّ طَيَّةً مُحَدَّبَةً."
+      ],
+      "usage_note_ar": "تَقَابِلُهَا الطَّيَّةُ الْمُقَعَّرَةُ فِي الشَّكْلِ الْمُبَسَّطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_018",
+      "arabic": "طَيَّةٌ مُقَعَّرَةٌ",
+      "meaning_ar": "انْثِنَاءٌ تَهْبِطُ فِيهِ الطَّبَقَاتُ نَحْوَ وَسَطِ التَّرْكِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَاعُ الطَّيَّةِ"
+      ],
+      "examples_ar": [
+        "تَجَمَّعَتْ رُسُوبَاتٌ فِي مَنْطِقَةٍ مُقَعَّرَةٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ شَكْلُهَا بِحَسَبِ شِدَّةِ التَّشَوُّهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_019",
+      "arabic": "زِلْزَالٌ",
+      "meaning_ar": "اهْتِزَازٌ فِي الْأَرْضِ يَنْتُجُ غَالِبًا عَنْ تَحَرُّرِ طَاقَةٍ فِي الصُّخُورِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَرْكَزُ الزِّلْزَالِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَتِ الْمَرَاصِدُ زِلْزَالًا ضَعِيفًا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ قُوَّتُهُ وَعُمْقُهُ وَأَثَرُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_020",
+      "arabic": "بُؤْرَةٌ زِلْزَالِيَّةٌ",
+      "meaning_ar": "نُقْطَةٌ دَاخِلَ الأَرْضِ تَبْدَأُ مِنْهَا حَرَكَةُ التَّمَزُّقِ الزِّلْزَالِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُمْقُ الْبُؤْرَةِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمَرْصَدُ عُمْقَ الْبُؤْرَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ مَرْكَزِ الزِّلْزَالِ السَّطْحِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_021",
+      "arabic": "مَرْكَزٌ سَطْحِيٌّ لِلزِّلْزَالِ",
+      "meaning_ar": "النُّقْطَةُ عَلَى سَطْحِ الأَرْضِ الَّتِي تَقَعُ مُبَاشَرَةً فَوْقَ الْبُؤْرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْمَرْكَزِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ الْمَرْكَزَ السَّطْحِيَّ عَلَى الْخَرِيطَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَخْتَلِفُ مَوْقِعُهُ عَنْ أَشَدِّ مَنَاطِقِ الضَّرَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_022",
+      "arabic": "مَوْجَةٌ زِلْزَالِيَّةٌ",
+      "meaning_ar": "اهْتِزَازٌ يَنْتَقِلُ فِي الصُّخُورِ أَوْ عَلَى سَطْحِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الْمَوْجَاتِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتِ الْمَوْجَاتُ إِلَى مَرْصَدٍ بَعِيدٍ."
+      ],
+      "usage_note_ar": "لَهَا أَنْوَاعٌ تَخْتَلِفُ فِي السُّرْعَةِ وَالْحَرَكَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_023",
+      "arabic": "مَوْجَةٌ أَوَّلِيَّةٌ",
+      "meaning_ar": "مَوْجَةٌ زِلْزَالِيَّةٌ انْضِغَاطِيَّةٌ تَنْتَقِلُ عَادَةً بِسُرْعَةٍ كَبِيرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وُصُولُ الْمَوْجَةِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْجِهَازُ الْمَوْجَةَ الأَوَّلِيَّةَ أَوَّلًا."
+      ],
+      "usage_note_ar": "تَنْتَقِلُ فِي الْمَوَادِّ الصُّلْبَةِ وَالسَّائِلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_024",
+      "arabic": "مَوْجَةٌ ثَانَوِيَّةٌ",
+      "meaning_ar": "مَوْجَةٌ زِلْزَالِيَّةٌ قَصِّيَّةٌ تَحْرِّكُ الْوَسَطَ عَرْضِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُرْعَةُ الْمَوْجَةِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتِ الْمَوْجَةُ الثَّانَوِيَّةُ بَعْدَ الأَوَّلِيَّةِ."
+      ],
+      "usage_note_ar": "لَا تَعْبُرُ السَّوَائِلَ كَالْمَوْجَةِ الأَوَّلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_025",
+      "arabic": "مَوْجَةٌ سَطْحِيَّةٌ",
+      "meaning_ar": "مَوْجَةٌ زِلْزَالِيَّةٌ تَنْتَشِرُ عَلَى مَقْرُبَةٍ مِنْ سَطْحِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَكَةُ السَّطْحِ"
+      ],
+      "examples_ar": [
+        "تَسَبَّبَتِ الْمَوْجَاتُ فِي اهْتِزَازِ الْمَبَانِي."
+      ],
+      "usage_note_ar": "تَكُونُ أَحْيَانًا شَدِيدَةَ الأَثَرِ قُرْبَ السَّطْحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_026",
+      "arabic": "مِقْيَاسُ الزَّلَازِلِ",
+      "meaning_ar": "جِهَازٌ يُسَجِّلُ حَرَكَةَ الأَرْضِ وَاهْتِزَازَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سِجِلُّ الزَّلَازِلِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْفَنِّيُّ جِهَازَ الرَّصْدِ فِي الْمَرْصَدِ."
+      ],
+      "usage_note_ar": "تُحَوَّلُ الْإِشَارَاتُ إِلَى بَيَانَاتٍ لِلتَّحْلِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_027",
+      "arabic": "قُوَّةُ الزِّلْزَالِ",
+      "meaning_ar": "مِقْيَاسٌ لِحَجْمِ الطَّاقَةِ الْمُتَحَرِّرَةِ فِي وَاقِعَةٍ زِلْزَالِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ الْقُوَّةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمَعْهَدُ قُوَّةَ الزِّلْزَالِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ شِدَّةِ الاهْتِزَازِ فِي مَوْقِعٍ مُحَدَّدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_028",
+      "arabic": "شِدَّةٌ زِلْزَالِيَّةٌ",
+      "meaning_ar": "وَصْفٌ لِأَثَرِ الِاهْتِزَازِ فِي مَكَانٍ مُعَيَّنٍ وَضَرَرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الشِّدَّةِ"
+      ],
+      "examples_ar": [
+        "اخْتَلَفَتْ شِدَّةُ الْهَزَّةِ بَيْنَ الْمُدُنِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْمَسَافَةِ وَالتُّرْبَةِ وَالْمَبَانِي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_029",
+      "arabic": "هَزَّةٌ ارْتِدَادِيَّةٌ",
+      "meaning_ar": "زِلْزَالٌ يَقَعُ بَعْدَ زِلْزَالٍ رَئِيسِيٍّ فِي الْمِنْطَقَةِ نَفْسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَكْرَارُ الْهَزَّاتِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَتِ الْمَرَاصِدُ هَزَّةً ارْتِدَادِيَّةً."
+      ],
+      "usage_note_ar": "قَدْ تَسْتَمِرُّ الْهَزَّاتُ أَيَّامًا أَوْ أَطْوَلَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_030",
+      "arabic": "خَطَرٌ زِلْزَالِيٌّ",
+      "meaning_ar": "احْتِمَالُ تَعَرُّضِ مَوْقِعٍ لِاهْتِزَازٍ أَرْضِيٍّ بِشِدَّةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الْخَطَرِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُهَنْدِسُ خَرِيطَةَ الْخَطَرِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مُخَاطَرَةِ الضَّرَرِ الْمُعْتَمِدَةِ عَلَى الْمَبَانِي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_031",
+      "arabic": "تَسَيُّلُ التُّرْبَةِ",
+      "meaning_ar": "فَقْدُ التُّرْبَةِ الْمُشْبَعَةِ بِالْمَاءِ جُزْءًا مِنْ قُدْرَتِهَا عَلَى حَمْلِ الأَوْزَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ التَّسَيُّلِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُهَنْدِسُ التَّسَيُّلَ بَعْدَ الْهَزَّةِ."
+      ],
+      "usage_note_ar": "يَنْشَأُ خَاصَّةً فِي رُسُوبَاتٍ حُبَيْبِيَّةٍ مُعَيَّنَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_032",
+      "arabic": "بُرْكَانٌ دِرْعِيٌّ",
+      "meaning_ar": "بُرْكَانٌ عَرِيضٌ قَلِيلُ الْانْحِدَارِ يَتَكَوَّنُ مِنْ حُمَمٍ سَائِلَةٍ نِسْبِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ثَوْرَانُ الْبُرْكَانِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ بُرْكَانًا دِرْعِيًّا."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِنْيَتُهُ بِلُزُوجَةِ الْحُمَمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_033",
+      "arabic": "بُرْكَانٌ طَبَقِيٌّ",
+      "meaning_ar": "بُرْكَانٌ شَدِيدُ الِانْحِدَارِ يَتَكَوَّنُ مِنْ طَبَقَاتِ رَمَادٍ وَحُمَمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُخْرَجُ الْبُرْكَانِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ السُّيَّاحُ بُرْكَانًا طَبَقِيًّا."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ ثَوَرَاتُهُ شَدِيدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_034",
+      "arabic": "فُوَّهَةٌ بُرْكَانِيَّةٌ",
+      "meaning_ar": "فَتْحَةٌ عِنْدَ قِمَّةِ بُرْكَانٍ أَوْ جَانِبِهِ تَخْرُجُ مِنْهَا مَوَادُّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَافَّةُ الْفُوَّهَةِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ الدُّخَانُ مِنَ الْفُوَّهَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ حَجْمُهَا بِحَسَبِ تَارِيخِ الثَّوَرَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_035",
+      "arabic": "حُمَمٌ بُرْكَانِيَّةٌ",
+      "meaning_ar": "صُخُورٌ مُنْصَهِرَةٌ تَصِلُ إِلَى سَطْحِ الأَرْضِ أَثْنَاءَ الثَّوَرَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدَفُّقُ الْحُمَمِ"
+      ],
+      "examples_ar": [
+        "انْسَابَتِ الْحُمَمُ عَلَى جَانِبِ الْجَبَلِ."
+      ],
+      "usage_note_ar": "تَتَصَلَّبُ بِالتَّبْرِيدِ وَتُكَوِّنُ صُخُورًا جَدِيدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_036",
+      "arabic": "صَهَارَةٌ",
+      "meaning_ar": "مَادَّةٌ صَخْرِيَّةٌ مُنْصَهِرَةٌ تَتَوَاجَدُ تَحْتَ سَطْحِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حُجْرَةُ الصَّهَارَةِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتِ الصَّهَارَةُ نَحْوَ الْفُوَّهَةِ."
+      ],
+      "usage_note_ar": "تُسَمَّى حُمَمًا بَعْدَ وُصُولِهَا إِلَى السَّطْحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_037",
+      "arabic": "رَمَادٌ بُرْكَانِيٌّ",
+      "meaning_ar": "حُبَيْبَاتٌ صَخْرِيَّةٌ صَغِيرَةٌ تَقْذِفُهَا الثَّوَرَاتُ الْبُرْكَانِيَّةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَحَابَةُ الرَّمَادِ"
+      ],
+      "examples_ar": [
+        "انْتَشَرَ الرَّمَادُ فِي الْجَوِّ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يُؤَثِّرَ فِي الطَّيَرَانِ وَالْمِحْرَكَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_038",
+      "arabic": "تَدَفُّقٌ فُتَاتِيٌّ حَارٌّ",
+      "meaning_ar": "مَزِيجٌ سَرِيعٌ مِنَ الْغَازَاتِ السَّاخِنَةِ وَالشَّظَايَا الْبُرْكَانِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارُ التَّدَفُّقِ"
+      ],
+      "examples_ar": [
+        "ابْتَعَدَ السُّكَّانُ عَنِ الْمِنْطَقَةِ الْخَطِرَةِ."
+      ],
+      "usage_note_ar": "يُعَدُّ مِنْ أَشَدِّ الظَّوَاهِرِ الْبُرْكَانِيَّةِ خَطَرًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_039",
+      "arabic": "صَخْرٌ نَارِيٌّ",
+      "meaning_ar": "صَخْرٌ يَتَكَوَّنُ عِنْدَ تَبْرِيدِ الصَّهَارَةِ أَوِ الْحُمَمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَيِّنَةُ صَخْرٍ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْبَاحِثُ صَخْرًا نَارِيًّا."
+      ],
+      "usage_note_ar": "قَدْ يَتَشَكَّلُ تَحْتَ السَّطْحِ أَوْ فَوْقَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_040",
+      "arabic": "صَخْرٌ رُسُوبِيٌّ",
+      "meaning_ar": "صَخْرٌ يَتَشَكَّلُ مِنْ تَرَاكُمِ الرُّسُوبَاتِ وَتَمَاسُكِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَبَقَاتُ الصَّخْرِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الطَّالِبُ أَحَافِيرَ فِي صَخْرٍ رُسُوبِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ يَحْفَظُ آثَارَ الْبِيئَاتِ الْقَدِيمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_041",
+      "arabic": "صَخْرٌ مُتَحَوِّلٌ",
+      "meaning_ar": "صَخْرٌ تَغَيَّرَ تَرْكِيبُهُ أَوْ نَسِيجُهُ بِالضَّغْطِ وَالْحَرَارَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَرَجَةُ التَّحَوُّلِ"
+      ],
+      "examples_ar": [
+        "تَشَكَّلَ الرُّخَامُ مِنْ صَخْرٍ أَصْلِيٍّ."
+      ],
+      "usage_note_ar": "لَا يَلْزَمُ أَنْ يَنْصَهِرَ الصَّخْرُ أَثْنَاءَ التَّحَوُّلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_042",
+      "arabic": "تَبَلْوُرٌ",
+      "meaning_ar": "تَكَوُّنُ بِنْيَةٍ صُلْبَةٍ مُنْتَظِمَةٍ مِنْ مَادَّةٍ مُذَابَةٍ أَوْ مُنْصَهِرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُرْعَةُ التَّبَلْوُرِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتْ بَلَّوْرَاتٌ بَعْدَ تَبْرِيدِ الْمَحْلُولِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ ظُرُوفُ التَّكَوُّنِ فِي حَجْمِ الْبَلَّوْرَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_043",
+      "arabic": "مَعْدِنٌ جِيُولُوجِيٌّ",
+      "meaning_ar": "مَادَّةٌ صُلْبَةٌ طَبِيعِيَّةٌ ذَاتُ تَرْكِيبٍ وَبِنْيَةٍ مُمَيَّزَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَصَائِصُ الْمَعْدِنِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْبَاحِثُ نَوْعَ الْمَعْدِنِ بِالْفَحْصِ."
+      ],
+      "usage_note_ar": "تُفِيدُ الصَّلَابَةُ وَالْبَرِيقُ فِي التَّعَرُّفِ إِلَيْهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_044",
+      "arabic": "صَلَابَةُ الْمَعْدِنِ",
+      "meaning_ar": "مِقْيَاسٌ لِمُقَاوَمَةِ سَطْحِ مَعْدِنٍ لِلْخَدْشِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِقْيَاسُ الصَّلَابَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ صَلَابَةَ مَعْدِنَيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ مُقَاوَمَةِ الْكَسْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_045",
+      "arabic": "انْفِصَامٌ مَعْدِنِيٌّ",
+      "meaning_ar": "مَيْلُ مَعْدِنٍ لِلِانْقِسَامِ عَلَى مُسْتَوَيَاتٍ بَلَّوْرِيَّةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُسْتَوَى الِانْفِصَامِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الطَّالِبُ سُطُوحَ انْفِصَامٍ مُنْتَظِمَةً."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمَكَاسِرِ غَيْرِ الْمُنْتَظِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_046",
+      "arabic": "نَسِيجٌ صَخْرِيٌّ",
+      "meaning_ar": "طَرِيقَةُ تَرْتِيبِ الْحُبَيْبَاتِ وَالْبَلَّوْرَاتِ فِي الصَّخْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَصْفُ النَّسِيجِ"
+      ],
+      "examples_ar": [
+        "وَصَفَ الْبَاحِثُ نَسِيجَ الصَّخْرِ."
+      ],
+      "usage_note_ar": "يَدُلُّ عَلَى ظُرُوفِ التَّكَوُّنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_047",
+      "arabic": "حَجْمُ الْحُبَيْبَاتِ",
+      "meaning_ar": "قِيَاسُ أَبْعَادِ الْجُسَيْمَاتِ الَّتِي تُكَوِّنُ رَاسِبًا أَوْ صَخْرًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْزِيعُ الْحُبَيْبَاتِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ حُبَيْبَاتِ الرَّمْلِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى وَصْفِ قُوَّةِ الْتَّيَّارِ السَّابِقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_048",
+      "arabic": "تَجْوِيَةٌ فِيزِيَائِيَّةٌ",
+      "meaning_ar": "تَفَتُّتُ الصُّخُورِ دُونَ تَغْيِيرٍ أَسَاسِيٍّ فِي تَرْكِيبِهَا الْكِيمِيَائِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَجْمُّدُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "تَشَقَّقَ الصَّخْرُ بِتَكَرُّرِ التَّجَمُّدِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ التَّجْوِيَةِ الْكِيمِيَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_049",
+      "arabic": "تَجْوِيَةٌ كِيمِيَائِيَّةٌ",
+      "meaning_ar": "تَغَيُّرُ مَعَادِنِ الصُّخُورِ بِتَفَاعُلَاتٍ كِيمِيَائِيَّةٍ مَعَ الْبِيئَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَفَاعُلُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "تَحَلَّلَتْ مَعَادِنُ الصَّخْرِ بِمُرُورِ الزَّمَنِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْحَرَارَةِ وَالرُّطُوبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_050",
+      "arabic": "تَعْرِيَةٌ",
+      "meaning_ar": "نَقْلُ جُزْئِيَّاتِ التُّرْبَةِ وَالصُّخُورِ بِالْمَاءِ أَوِ الرِّيحِ أَوِ الْجَلِيدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَعْرِيَةُ السَّوَاحِلِ"
+      ],
+      "examples_ar": [
+        "أَزَالَ الْمَطَرُ جُزْءًا مِنَ التُّرْبَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ التَّجْوِيَةِ الَّتِي تُفَتِّتُ الْمَوَادَّ فِي مَكَانِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_051",
+      "arabic": "تَرْسِيبٌ",
+      "meaning_ar": "تَرَاكُمُ الْمَوَادِّ الْمَنْقُولَةِ بَعْدَ انْخِفَاضِ قُوَّةِ النَّقْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَرْسِيبُ الطَّمْيِ"
+      ],
+      "examples_ar": [
+        "تَرَاكَمَ الرَّمْلُ عِنْدَ مَصَبِّ النَّهْرِ."
+      ],
+      "usage_note_ar": "يُشَكِّلُ طَبَقَاتٍ وَمَظَاهِرَ سَطْحِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_052",
+      "arabic": "حَوْضٌ رُسُوبِيٌّ",
+      "meaning_ar": "مِنْطَقَةٌ مُنْخَفِضَةٌ تَتَرَاكَمُ فِيهَا الرُّسُوبَاتُ عَلَى مَدَى زَمَنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْحَوْضِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ قِطَاعًا فِي الْحَوْضِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْفَظُ تَارِيخَ بِيئَاتٍ قَدِيمَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_053",
+      "arabic": "طَبَقَةٌ رُسُوبِيَّةٌ",
+      "meaning_ar": "مُسْتَوًى مِنْ رُسُوبَاتٍ تَرَاكَمَتْ فِي ظُرُوفٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُمْكُ الطَّبَقَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْجِيُولُوجِيُّ سُمْكَ الرُّسُوبَاتِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَغَيَّرُ الْحُبَيْبَاتُ بَيْنَ طَبَقَةٍ وَأُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_054",
+      "arabic": "تَطَبُّقٌ",
+      "meaning_ar": "تَرْتِيبُ الرُّسُوبَاتِ فِي طَبَقَاتٍ يُمْكِنُ تَمْيِيزُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ التَّطَبُّقِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ التَّطَبُّقُ بِوُضُوحٍ فِي الْمَقْطَعِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَرْتِيبِ الأَحْدَاثِ الْجِيُولُوجِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_055",
+      "arabic": "عَدَسَةٌ رُسُوبِيَّةٌ",
+      "meaning_ar": "جِسْمٌ رُسُوبِيٌّ يَزْدَادُ سُمْكُهُ فِي الْوَسَطِ وَيَضِيقُ عَلَى الْجَانِبَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَكْلُ الْعَدَسَةِ"
+      ],
+      "examples_ar": [
+        "اكْتَشَفَ الْبَاحِثُ عَدَسَةً رَمْلِيَّةً."
+      ],
+      "usage_note_ar": "تُسَاعِدُ فِي تَفْسِيرِ تَغَيُّرِ بِيئَةِ التَّرْسِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_056",
+      "arabic": "رُسُوبَاتٌ فَيْضِيَّةٌ",
+      "meaning_ar": "مَوَادُّ يَحْمِلُهَا الْفَيْضَانُ وَيُرَسِّبُهَا عِنْدَ انْحِسَارِ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَهْلٌ فَيْضِيٌّ"
+      ],
+      "examples_ar": [
+        "تَرَاكَمَ الطَّمْيُ بَعْدَ الْفَيْضَانِ."
+      ],
+      "usage_note_ar": "تَكُونُ أَحْيَانًا خَصْبَةً لِلزِّرَاعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_057",
+      "arabic": "سَهْلٌ فَيْضِيٌّ",
+      "meaning_ar": "أَرْضٌ مُنْبَسِطَةٌ قُرْبَ نَهْرٍ يَغْمُرُهَا الْمَاءُ فِي بَعْضِ الْفَيْضَانَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تُرْبَةُ السَّهْلِ"
+      ],
+      "examples_ar": [
+        "زَرَعَ الْفَلَّاحُ حُقُولًا فِي السَّهْلِ الْفَيْضِيِّ."
+      ],
+      "usage_note_ar": "تَتَعَرَّضُ لِخَطَرِ الْغَمْرِ بِالْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_058",
+      "arabic": "دِلْتَا نَهْرِيَّةٌ",
+      "meaning_ar": "أَرْضٌ تُشَكِّلُهَا الرُّسُوبَاتُ عِنْدَ مَصَبِّ نَهْرٍ فِي بَحْرٍ أَوْ بُحَيْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَشَكُّلُ الدِّلْتَا"
+      ],
+      "examples_ar": [
+        "تَتَفَرَّعُ الْمَجَارِي فِي الدِّلْتَا."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِحَرَكَةِ الْأَمْوَاجِ وَالْمَدِّ وَالرُّسُوبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_059",
+      "arabic": "مِرْوَحَةٌ غُرَيْنِيَّةٌ",
+      "meaning_ar": "رَوَاسِبُ تَنْتَشِرُ عَلَى شَكْلِ مِرْوَحَةٍ عِنْدَ خُرُوجِ السَّيْلِ مِنْ مَمَرٍّ ضَيِّقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رُسُوبَاتُ الْمِرْوَحَةِ"
+      ],
+      "examples_ar": [
+        "تَشَكَّلَتْ مِرْوَحَةٌ عِنْدَ سَفْحِ الْجَبَلِ."
+      ],
+      "usage_note_ar": "يَقِلُّ انْحِدَارُ السَّيْلِ فَتَتَرَاكَمُ الْحُبَيْبَاتُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_060",
+      "arabic": "كَثِيبٌ رَمْلِيٌّ",
+      "meaning_ar": "تَرَاكُمٌ مِنَ الرِّمَالِ تُشَكِّلُهُ الرِّيَاحُ مَعَ مُرُورِ الزَّمَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْكَثِيبِ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَ شَكْلُ الْكَثِيبِ بَعْدَ الْعَاصِفَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَشْكَالُهُ بِحَسَبِ الرِّيحِ وَالرِّمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_061",
+      "arabic": "كَثِيبٌ هِلَالِيٌّ",
+      "meaning_ar": "كَثِيبٌ تَمْتَدُّ نِهَايَتَاهُ فِي اتِّجَاهِ هُبُوبِ الرِّيحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَكْلُ الْكَثِيبِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ كَثِيبًا هِلَالِيًّا."
+      ],
+      "usage_note_ar": "يَنْشَأُ غَالِبًا عِنْدَ رِيَاحٍ غَالِبَةِ الِاتِّجَاهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_062",
+      "arabic": "صَفِيحَةٌ جَلِيدِيَّةٌ",
+      "meaning_ar": "كَتْلَةٌ جَلِيدِيَّةٌ كَبِيرَةٌ تُغَطِّي مَسَاحَاتٍ وَاسِعَةً مِنَ الْيَابِسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَافَّةُ الصَّفِيحَةِ"
+      ],
+      "examples_ar": [
+        "تَحَرَّكَتِ الصَّفِيحَةُ الْجَلِيدِيَّةُ بِبُطْءٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْجَبَلِ الْجَلِيدِيِّ الْعَائِمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_063",
+      "arabic": "نَهْرٌ جَلِيدِيٌّ",
+      "meaning_ar": "كَتْلَةٌ مِنَ الْجَلِيدِ تَتَحَرَّكُ بِبُطْءٍ فَوْقَ الْيَابِسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَكَةُ النَّهْرِ"
+      ],
+      "examples_ar": [
+        "يَنْحَتُ النَّهْرُ الْجَلِيدِيُّ الْوَادِيَ."
+      ],
+      "usage_note_ar": "يَتَكَوَّنُ مِنْ تَرَاكُمِ الثُّلُوجِ وَانْضِغَاطِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_064",
+      "arabic": "رُكَامٌ جَلِيدِيٌّ",
+      "meaning_ar": "مَوَادُّ صَخْرِيَّةٌ يَحْمِلُهَا نَهْرٌ جَلِيدِيٌّ وَيُرَسِّبُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَافَّةُ الرُّكَامِ"
+      ],
+      "examples_ar": [
+        "تَرَاكَمَ الْحَصَى بَعْدَ تَرَاجُعِ الْجَلِيدِ."
+      ],
+      "usage_note_ar": "يَحْمِلُ حُبَيْبَاتٍ مُخْتَلِفَةَ الْأَحْجَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_065",
+      "arabic": "حَتٌّ جَلِيدِيٌّ",
+      "meaning_ar": "نَحْتُ سَطْحِ الأَرْضِ بِحَرَكَةِ الْجَلِيدِ الْمُحَمَّلِ بِالصُّخُورِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "آثَارُ الْحَتِّ"
+      ],
+      "examples_ar": [
+        "تَرَكَ الْجَلِيدُ خُدُوشًا عَلَى الصَّخْرِ."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي تَشَكُّلِ أَوْدِيَةٍ وَأَحْوَاضٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_066",
+      "arabic": "وَادٍ جَلِيدِيٌّ",
+      "meaning_ar": "مَمَرٌّ أَرْضِيٌّ وَاسِعٌ نَحَتَهُ نَهْرٌ جَلِيدِيٌّ سَابِقٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَاعُ الْوَادِي"
+      ],
+      "examples_ar": [
+        "يَظْهَرُ الْوَادِي الْجَلِيدِيُّ بِشَكْلٍ عَرِيضٍ."
+      ],
+      "usage_note_ar": "يَكُونُ مَقْطَعُهُ غَالِبًا قَرِيبًا مِنْ حَرْفِ اللَّاتِينِيِّ الْمُقَعَّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_067",
+      "arabic": "مِيَاهٌ جَوْفِيَّةٌ",
+      "meaning_ar": "مِيَاهٌ تَتَجَمَّعُ فِي مَسَامِّ الصُّخُورِ وَشُقُوقِهَا تَحْتَ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْسُوبُ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "حَفَرَتِ الْقَرْيَةُ بِئْرًا لِلْمِيَاهِ الْجَوْفِيَّةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالتَّغْذِيَةِ وَالضَّخِّ وَنَوْعِ التُّرْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_068",
+      "arabic": "خَزَّانٌ جَوْفِيٌّ",
+      "meaning_ar": "طَبَقَةٌ صَخْرِيَّةٌ تَخْزُنُ الْمَاءَ وَتَسْمَحُ بِحَرَكَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَعَةُ الْخَزَّانِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُهَنْدِسُ إِنْتَاجِيَّةَ الْخَزَّانِ."
+      ],
+      "usage_note_ar": "تُهِمُّ الْمَسَامِيَّةُ وَالنَّفَاذِيَّةُ فِي عَمَلِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_069",
+      "arabic": "مَسَامِيَّةٌ",
+      "meaning_ar": "نِسْبَةُ الْفَرَاغَاتِ الدَّاخِلِيَّةِ فِي صَخْرٍ أَوْ تُرْبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَسَامِيَّةُ الرَّمْلِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ مَسَامِيَّةَ الْعَيِّنَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ النَّفَاذِيَّةِ الْمُتَعَلِّقَةِ بِالْمُرُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_070",
+      "arabic": "نَفَاذِيَّةٌ جِيُولُوجِيَّةٌ",
+      "meaning_ar": "قُدْرَةُ صَخْرٍ أَوْ تُرْبَةٍ عَلَى تَمْرِيرِ سَائِلٍ فِي مَسَامِّهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ النَّفَاذِيَّةِ"
+      ],
+      "examples_ar": [
+        "مَرَّ الْمَاءُ بِسُهُولَةٍ عَبْرَ الرَّمْلِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِتَرَابُطِ الْمَسَامِّ وَحَجْمِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_071",
+      "arabic": "مَنْسُوبُ الْمَاءِ الْجَوْفِيِّ",
+      "meaning_ar": "الارْتِفَاعُ الَّذِي يَبْلُغُهُ الْمَاءُ فِي طَبَقَةٍ مُشْبَعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمَنْسُوبِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَ الْمَنْسُوبُ فِي فَصْلِ الْجَفَافِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ بِالضَّخِّ وَالأَمْطَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_072",
+      "arabic": "تَغْذِيَةٌ جَوْفِيَّةٌ",
+      "meaning_ar": "دُخُولُ الْمِيَاهِ مِنَ السَّطْحِ إِلَى الْخَزَّانِ الْمَائِيِّ تَحْتَ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنَاطِقُ التَّغْذِيَةِ"
+      ],
+      "examples_ar": [
+        "تَزِيدُ الأَمْطَارُ تَغْذِيَةَ الْخَزَّانِ."
+      ],
+      "usage_note_ar": "يُقَلِّلُ السَّطْحُ غَيْرُ النَّفَّاذِ مِنْ تَسَرُّبِ الْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_073",
+      "arabic": "نَبْعٌ مَائِيٌّ",
+      "meaning_ar": "مَوْضِعٌ يَخْرُجُ فِيهِ الْمَاءُ الْجَوْفِيُّ إِلَى سَطْحِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَصْدَرُ النَّبْعِ"
+      ],
+      "examples_ar": [
+        "شَرِبَ الرَّاعِي مِنْ نَبْعٍ فِي الْجَبَلِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ غَزَارَتُهُ بِحَسَبِ الْمَوْسِمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_074",
+      "arabic": "مَسْتَجْمَعٌ مَائِيٌّ",
+      "meaning_ar": "مِنْطَقَةٌ تُصَرِّفُ مِيَاهَ الأَمْطَارِ نَحْوَ مَجْرًى أَوْ بُحَيْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُدُودُ الْحَوْضِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ مُسْتَجْمَعَ النَّهْرِ."
+      ],
+      "usage_note_ar": "يُسَمَّى أَيْضًا حَوْضَ التَّصْرِيفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_075",
+      "arabic": "مَسَارُ التَّصْرِيفِ",
+      "meaning_ar": "طَرِيقُ حَرَكَةِ الْمِيَاهِ مِنَ الْمَنَاطِقِ الْمُرْتَفِعَةِ إِلَى الأَدْنَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَبَكَةُ التَّصْرِيفِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُهَنْدِسُ مَسَارَ السُّيُولِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِانْحِدَارِ الأَرْضِ وَطَبِيعَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_076",
+      "arabic": "جَرَيَانٌ سَطْحِيٌّ",
+      "meaning_ar": "حَرَكَةُ مِيَاهِ الْأَمْطَارِ فَوْقَ سَطْحِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زِيَادَةُ الْجَرَيَانِ"
+      ],
+      "examples_ar": [
+        "شَكَّلَ الْمَطَرُ جَرَيَانًا عَلَى الطَّرِيقِ."
+      ],
+      "usage_note_ar": "يَزْدَادُ عِنْدَ قِلَّةِ نَفَاذِيَّةِ التُّرْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_077",
+      "arabic": "تَسَرُّبٌ أَرْضِيٌّ",
+      "meaning_ar": "انْتِقَالُ الْمَاءِ مِنْ سَطْحِ الأَرْضِ إِلَى دَاخِلِ التُّرْبَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ التَّسَرُّبِ"
+      ],
+      "examples_ar": [
+        "اخْتَبَرَ الطَّالِبُ سُرْعَةَ امْتِصَاصِ التُّرْبَةِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالتَّرْكِيبِ وَالرُّطُوبَةِ السَّابِقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_078",
+      "arabic": "رُطُوبَةُ التُّرْبَةِ",
+      "meaning_ar": "كَمِّيَّةُ الْمَاءِ الْمَوْجُودَةِ بَيْنَ حُبَيْبَاتِ التُّرْبَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الرُّطُوبَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُزَارِعُ رُطُوبَةَ التُّرْبَةِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي النَّبَاتِ وَالْجَرَيَانِ وَالتَّبَخُّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_079",
+      "arabic": "سَعَةُ الْحَقْلِ",
+      "meaning_ar": "كَمِّيَّةُ الْمَاءِ الَّتِي تَحْتَفِظُ بِهَا التُّرْبَةُ بَعْدَ تَصَرُّفِ الزَّائِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ سَعَةِ الْحَقْلِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الْمُهَنْدِسُ الْمَاءَ الْمُتَاحَ لِلنَّبَاتِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ بِحَسَبِ نَسِيجِ التُّرْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_080",
+      "arabic": "نُقْطَةُ الذُّبُولِ",
+      "meaning_ar": "مُسْتَوَى رُطُوبَةٍ لَا يَسْتَطِيعُ عِنْدَهُ النَّبَاتُ سَحْبَ مَاءٍ كَافٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نُقْطَةُ الذُّبُولِ الدَّائِمِ"
+      ],
+      "examples_ar": [
+        "تَعَرَّضَ النَّبَاتُ لِلذُّبُولِ فِي التُّرْبَةِ الْجَافَّةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَقْدِيرِ الْمَاءِ الْمُتَاحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_081",
+      "arabic": "تُرْبَةٌ طِينِيَّةٌ",
+      "meaning_ar": "تُرْبَةٌ تَحْتَوِي عَلَى نِسْبَةٍ كَبِيرَةٍ مِنَ الْحُبَيْبَاتِ الدَّقِيقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَفَاذِيَّةُ الطِّينِ"
+      ],
+      "examples_ar": [
+        "احْتَفَظَتِ التُّرْبَةُ الطِّينِيَّةُ بِالْمَاءِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ التُّرْبَةِ الرَّمْلِيَّةِ فِي مَسَامِّهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_082",
+      "arabic": "تُرْبَةٌ رَمْلِيَّةٌ",
+      "meaning_ar": "تُرْبَةٌ تَغْلِبُ عَلَيْهَا حُبَيْبَاتُ الرَّمْلِ وَتَسْهُلُ فِيهَا حَرَكَةُ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَقْلٌ رَمْلِيٌّ"
+      ],
+      "examples_ar": [
+        "سَقَى الْمُزَارِعُ التُّرْبَةَ الرَّمْلِيَّةَ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ أَحْيَانًا إِلَى رَيٍّ مُتَكَرِّرٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_083",
+      "arabic": "تُرْبَةٌ طَمْيِيَّةٌ",
+      "meaning_ar": "تُرْبَةٌ تَحْتَوِي عَلَى حُبَيْبَاتٍ أَدَقَّ مِنَ الرَّمْلِ وَأَكْبَرَ مِنَ الطِّينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَسِيجُ الطَّمْيِ"
+      ],
+      "examples_ar": [
+        "تَرَاكَمَتْ تُرْبَةٌ طَمْيِيَّةٌ قُرْبَ النَّهْرِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ خَصْبَةً بِحَسَبِ الْمُكَوِّنَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_084",
+      "arabic": "تُرْبَةٌ دُبَالِيَّةٌ",
+      "meaning_ar": "تُرْبَةٌ غَنِيَّةٌ بِمَادَّةٍ عُضْوِيَّةٍ مُتَحَلِّلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِضَافَةُ الدُّبَالِ"
+      ],
+      "examples_ar": [
+        "زَادَ الْمُزَارِعُ نِسْبَةَ الدُّبَالِ فِي الأَرْضِ."
+      ],
+      "usage_note_ar": "تُسَاهِمُ الْمَادَّةُ الْعُضْوِيَّةُ فِي بِنْيَةِ التُّرْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_085",
+      "arabic": "مِلُوحَةُ التُّرْبَةِ",
+      "meaning_ar": "تَرَاكُمُ الأَمْلَاحِ فِي التُّرْبَةِ بِمُسْتَوًى يُؤَثِّرُ فِي خَصَائِصِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمِلُوحَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُهَنْدِسُ مِلُوحَةَ الْحَقْلِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَزَايَدُ بِالرَّيِّ غَيْرِ الْمُنَاسِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_086",
+      "arabic": "تَصَحُّرٌ",
+      "meaning_ar": "تَدَهْوُرُ الأَرَاضِي فِي الْمَنَاطِقِ الْجَافَّةِ بِفِعْلِ عَوَامِلَ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مُكَافَحَةُ التَّصَحُّرِ"
+      ],
+      "examples_ar": [
+        "غَرَسَ السُّكَّانُ الأَشْجَارَ لِحِمَايَةِ التُّرْبَةِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي مُجَرَّدَ تَحَرُّكِ الرِّمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_087",
+      "arabic": "تَدَهْوُرُ الأَرَاضِي",
+      "meaning_ar": "انْخِفَاضُ قُدْرَةِ الأَرْضِ عَلَى تَقْدِيمِ مَنَافِعَ بِيئِيَّةٍ أَوْ زِرَاعِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْعُ التَّدَهْوُرِ"
+      ],
+      "examples_ar": [
+        "تَضَرَّرَتِ الْأَرْضُ مِنَ الرَّعْيِ الْجَائِرِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ أَشْكَالًا مُتَعَدِّدَةً مِنْ فَقْدِ الْخِصُوبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_088",
+      "arabic": "انْجِرَافُ التُّرْبَةِ",
+      "meaning_ar": "إِزَالَةُ حُبَيْبَاتِ الطَّبَقَةِ السَّطْحِيَّةِ بِالْمَاءِ أَوِ الرِّيحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْعُ الِانْجِرَافِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَتِ الْجُذُورُ التُّرْبَةَ عَلَى الْمُنْحَدَرِ."
+      ],
+      "usage_note_ar": "يَزْدَادُ مَعَ قِلَّةِ الْغِطَاءِ النَّبَاتِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_089",
+      "arabic": "تَلَوُّثُ الْمِيَاهِ الْجَوْفِيَّةِ",
+      "meaning_ar": "دُخُولُ مَوَادَّ ضَارَّةٍ إِلَى خَزَّانٍ مَائِيٍّ تَحْتَ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَصْدُ التَّلَوُّثِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمَخْبَرُ عَيِّنَةً مِنَ الْبِئْرِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ صَعْبَ الْإِزَالَةِ بِعْدَ انْتِشَارِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_090",
+      "arabic": "تَلَوُّثٌ حَرَارِيٌّ",
+      "meaning_ar": "تَغَيُّرُ حَرَارَةِ بِيئَةٍ مَائِيَّةٍ بِسَبَبِ نَشَاطٍ بَشَرِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْرِيفُ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتْ حَرَارَةُ الْمَجْرَى قُرْبَ الْمَصْنَعِ."
+      ],
+      "usage_note_ar": "قَدْ يُؤَثِّرُ فِي الأُكْسِجِينِ وَالْكَائِنَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_091",
+      "arabic": "تَلَوُّثٌ ضَوْضَائِيٌّ",
+      "meaning_ar": "تَعَرُّضُ النَّاسِ أَوِ الْبِيئَةِ لِمُسْتَوَيَاتٍ مُؤْذِيَةٍ مِنَ الضَّجِيجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الضَّوْضَاءِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ الضَّجِيجُ قُرْبَ الطَّرِيقِ."
+      ],
+      "usage_note_ar": "يُقَاسُ بِمَقَايِيسَ صَوْتِيَّةٍ مُخْتَلِفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_092",
+      "arabic": "غِلَافٌ جَوِّيٌّ",
+      "meaning_ar": "الْغَازَاتُ الَّتِي تُحِيطُ بِالْكُرَةِ الأَرْضِيَّةِ وَتَتَأَثَّرُ بِالْجَاذِبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَبَقَاتُ الْغِلَافِ"
+      ],
+      "examples_ar": [
+        "يَحْدُثُ مُعْظَمُ الطَّقْسِ فِي الطَّبَقَةِ السُّفْلَى."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْحَرَارَةُ وَالضَّغْطُ مَعَ الِارْتِفَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_093",
+      "arabic": "تُرُوبُوسْفِيرٌ",
+      "meaning_ar": "أَدْنَى طَبَقَةٍ مِنَ الْغِلَافِ الْجَوِّيِّ تَقَعُ فِيهَا مُعْظَمُ الظَّوَاهِرِ الْجَوِّيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سُمْكُ الطَّبَقَةِ"
+      ],
+      "examples_ar": [
+        "تَتَشَكَّلُ السُّحُبُ غَالِبًا فِي التُّرُوبُوسْفِيرِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ سُمْكُهُ بِالْفَصْلِ وَالْمَوْقِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_094",
+      "arabic": "سْتْرَاتُوسْفِيرٌ",
+      "meaning_ar": "طَبَقَةٌ جَوِّيَّةٌ تَقَعُ فَوْقَ التُّرُوبُوسْفِيرِ وَتَحْتَوِي عَلَى الأُوزُونِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَرَارَةُ الطَّبَقَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ بِنْيَةَ السْتْرَاتُوسْفِيرِ."
+      ],
+      "usage_note_ar": "تَرْتَفِعُ فِيهَا الْحَرَارَةُ فِي بَعْضِ الْمُسْتَوَيَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_095",
+      "arabic": "مِيزُوسْفِيرٌ",
+      "meaning_ar": "طَبَقَةٌ جَوِّيَّةٌ تَقَعُ أَعْلَى السْتْرَاتُوسْفِيرِ وَتَنْخَفِضُ حَرَارَتُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَدُّ الطَّبَقَةِ"
+      ],
+      "examples_ar": [
+        "تَحْتَرِقُ فِيهَا كَثِيرٌ مِنَ الشُّهُبِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ طَبَقَاتِ الْجَوِّ الْأُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_096",
+      "arabic": "ثِيرْمُوسْفِيرٌ",
+      "meaning_ar": "طَبَقَةٌ عُلْوِيَّةٌ مِنَ الْغِلَافِ الْجَوِّيِّ تَرْتَفِعُ فِيهَا الْحَرَارَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَرَارَةُ الطَّبَقَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ الْغَازَاتِ فِي الطَّبَقَةِ الْعُلْيَا."
+      ],
+      "usage_note_ar": "تَقِلُّ الْكَثَافَةُ الْغَازِيَّةُ فِيهَا بِشِدَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_097",
+      "arabic": "أُوزُونٌ جَوِّيٌّ",
+      "meaning_ar": "شَكْلٌ مِنَ الأُكْسِجِينِ تَتَكَوَّنُ جُزَيْئَاتُهُ مِنْ ثَلَاثِ ذَرَّاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَبَقَةُ الأُوزُونِ"
+      ],
+      "examples_ar": [
+        "يَمْتَصُّ الأُوزُونُ بَعْضَ الأَشِعَّةِ فَوْقَ الْبَنَفْسَجِيَّةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ أَثَرُهُ بِحَسَبِ مَوْضِعِهِ فِي الْجَوِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_098",
+      "arabic": "ضَغْطٌ جَوِّيٌّ",
+      "meaning_ar": "الْقُوَّةُ النَّاتِجَةُ عَنْ وَزْنِ عَمُودِ الْهَوَاءِ عَلَى وَحْدَةِ مَسَاحَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الضَّغْطِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَ الضَّغْطُ عِنْدَ اقْتِرَابِ الْعَاصِفَةِ."
+      ],
+      "usage_note_ar": "يَقِلُّ عَادَةً مَعَ زِيَادَةِ الِارْتِفَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_099",
+      "arabic": "مَنْخَفَضٌ جَوِّيٌّ",
+      "meaning_ar": "مِنْطَقَةٌ يَكُونُ فِيهَا الضَّغْطُ أَقَلَّ مِنَ الْمَنَاطِقِ الْمُحِيطَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرْكَزُ الْمُنْخَفَضِ"
+      ],
+      "examples_ar": [
+        "اقْتَرَبَ مُنْخَفَضٌ جَوِّيٌّ مِنَ السَّاحِلِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ غَالِبًا بِصُعُودِ الْهَوَاءِ وَتَكَوُّنِ السُّحُبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_100",
+      "arabic": "مُرْتَفَعٌ جَوِّيٌّ",
+      "meaning_ar": "مِنْطَقَةٌ يَكُونُ ضَغْطُهَا أَعْلَى مِنَ الْمَنَاطِقِ الْمُحِيطَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَيْطَرَةُ الْمُرْتَفَعِ"
+      ],
+      "examples_ar": [
+        "سَادَ طَقْسٌ مُسْتَقِرٌّ تَحْتَ الْمُرْتَفَعِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ أَحْيَانًا بِهُبُوطِ الْهَوَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_101",
+      "arabic": "جَبْهَةٌ بَارِدَةٌ",
+      "meaning_ar": "حَدٌّ يَتَقَدَّمُ عِنْدَهُ هَوَاءٌ أَبْرَدُ لِيَحُلَّ مَحَلَّ هَوَاءٍ أَدْفَأَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرُورُ الْجَبْهَةِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَتِ الْحَرَارَةُ بَعْدَ مُرُورِ الْجَبْهَةِ."
+      ],
+      "usage_note_ar": "قَدْ تُسَبِّبُ هُطُولًا وَرِيَاحًا قَوِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_102",
+      "arabic": "جَبْهَةٌ دَافِئَةٌ",
+      "meaning_ar": "حَدٌّ يَتَقَدَّمُ عِنْدَهُ هَوَاءٌ دَافِئٌ نَحْوَ كُتْلَةٍ أَبْرَدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقَدُّمُ الْجَبْهَةِ"
+      ],
+      "examples_ar": [
+        "تَزَايَدَتِ السُّحُبُ قَبْلَ وُصُولِ الْجَبْهَةِ."
+      ],
+      "usage_note_ar": "يَتَدَرَّجُ تَغَيُّرُ الطَّقْسِ أَحْيَانًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_103",
+      "arabic": "جَبْهَةٌ سَاكِنَةٌ",
+      "meaning_ar": "حَدٌّ بَيْنَ كُتْلَتَيْ هَوَاءٍ لَا يَتَقَدَّمُ بِسُرْعَةٍ وَاضِحَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ثَبَاتُ الْجَبْهَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَرَّ الْمَطَرُ قُرْبَ الْجَبْهَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَسْتَمِرُّ حَالَةُ الطَّقْسِ مُدَّةً طَوِيلَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_104",
+      "arabic": "كُتْلَةٌ هَوَائِيَّةٌ",
+      "meaning_ar": "حَجْمٌ كَبِيرٌ مِنَ الْهَوَاءِ لَهُ خَصَائِصُ حَرَارِيَّةٌ وَرُطُوبِيَّةٌ مُتَقَارِبَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كُتْلَةٌ بَارِدَةٌ"
+      ],
+      "examples_ar": [
+        "تَحَرَّكَتْ كُتْلَةٌ هَوَائِيَّةٌ نَحْوَ الشَّمَالِ."
+      ],
+      "usage_note_ar": "تَكْتَسِبُ خَصَائِصَهَا مِنْ مَنْطِقَةِ تَشَكُّلِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_105",
+      "arabic": "تَيَّارٌ نَفَّاثٌ",
+      "meaning_ar": "رِيَاحٌ عَالِيَةُ السُّرْعَةِ تَجْرِي فِي مَسَارَاتٍ ضَيِّقَةٍ فِي الْجَوِّ الْعُلْوِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارُ التَّيَّارِ"
+      ],
+      "examples_ar": [
+        "أَثَّرَ التَّيَّارُ النَّفَّاثُ فِي مَسَارِ الْعَاصِفَةِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ مَوْضِعُهُ بِالْمَوْسِمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_106",
+      "arabic": "حَمْلٌ حَرَارِيٌّ",
+      "meaning_ar": "انْتِقَالُ الْحَرَارَةِ بِحَرَكَةِ مَادَّةٍ سَائِلَةٍ أَوْ غَازِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَيَّارَاتُ الْحَمْلِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ الْهَوَاءُ الدَّافِئُ إِلَى الأَعْلَى."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي تَشَكُّلِ السُّحُبِ وَالرِّيَاحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_107",
+      "arabic": "انْقِلَابٌ حَرَارِيٌّ",
+      "meaning_ar": "حَالَةٌ تَرْتَفِعُ فِيهَا حَرَارَةُ الْهَوَاءِ مَعَ الِارْتِفَاعِ فِي طَبَقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَبَقَةُ الِانْقِلَابِ"
+      ],
+      "examples_ar": [
+        "احْتُجِزَ الدُّخَانُ تَحْتَ انْقِلَابٍ حَرَارِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ يَمْنَعُ اخْتِلَاطَ الْهَوَاءِ بِالطَّبَقَاتِ الْعُلْيَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_108",
+      "arabic": "نُقْطَةُ النَّدَى",
+      "meaning_ar": "دَرَجَةُ الْحَرَارَةِ الَّتِي يَبْدَأُ عِنْدَهَا بُخَارُ الْمَاءِ بِالتَّكَاثُفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ النَّدَى"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتْ نُقْطَةُ النَّدَى فِي الْيَوْمِ الرَّطْبِ."
+      ],
+      "usage_note_ar": "تَدُلُّ عَلَى مُسْتَوَى بُخَارِ الْمَاءِ فِي الْهَوَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_109",
+      "arabic": "رُطُوبَةٌ نِسْبِيَّةٌ",
+      "meaning_ar": "النِّسْبَةُ بَيْنَ بُخَارِ الْمَاءِ الْمَوْجُودِ وَالْمُمْكِنِ عِنْدَ الْحَرَارَةِ نَفْسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ الرُّطُوبَةِ"
+      ],
+      "examples_ar": [
+        "بَلَغَتِ الرُّطُوبَةُ النِّسْبِيَّةُ مُسْتَوًى مُرْتَفِعًا."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ مَعَ دَرَجَةِ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_110",
+      "arabic": "تَكَاثُفٌ جَوِّيٌّ",
+      "meaning_ar": "تَحَوُّلُ بُخَارِ الْمَاءِ إِلَى قُطَيْرَاتٍ سَائِلَةٍ فِي الْجَوِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَوَاةُ التَّكَاثُفِ"
+      ],
+      "examples_ar": [
+        "تَشَكَّلَ الضَّبَابُ بَعْدَ تَبْرِيدِ الْهَوَاءِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَكَوُّنِ السُّحُبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_111",
+      "arabic": "نَوَاةُ تَكَاثُفٍ",
+      "meaning_ar": "جُسَيْمٌ دَقِيقٌ فِي الْجَوِّ يَتَجَمَّعُ عَلَيْهِ بُخَارُ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جُسَيْمَاتُ الْغُبَارِ"
+      ],
+      "examples_ar": [
+        "تَكَاثَفَ الْمَاءُ حَوْلَ جُسَيْمَاتٍ مُعَلَّقَةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهَا بِحَسَبِ الْبِيئَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_112",
+      "arabic": "سَحَابَةٌ رُكَامِيَّةٌ",
+      "meaning_ar": "سَحَابَةٌ ذَاتُ نُمُوٍّ رَأْسِيٍّ تَشْبَهُ كُتَلًا قُطْنِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نُمُوُّ السَّحَابَةِ"
+      ],
+      "examples_ar": [
+        "تَشَكَّلَتْ سُحُبٌ رُكَامِيَّةٌ بَعْدَ الظُّهْرِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَطَوَّرُ إِلَى سُحُبٍ مَاطِرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_113",
+      "arabic": "سَحَابَةٌ طَبَقِيَّةٌ",
+      "meaning_ar": "سَحَابَةٌ تَمْتَدُّ عَلَى شَكْلِ غِطَاءٍ وَاسِعٍ وَمُنْخَفِضٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "غِطَاءٌ سَحَابِيٌّ"
+      ],
+      "examples_ar": [
+        "غَطَّتِ السُّحُبُ الطَّبَقِيَّةُ السَّمَاءَ."
+      ],
+      "usage_note_ar": "تُسَبِّبُ أَحْيَانًا رَذَاذًا خَفِيفًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_114",
+      "arabic": "سَحَابَةٌ رِيشِيَّةٌ",
+      "meaning_ar": "سَحَابَةٌ عَالِيَةٌ رَقِيقَةٌ تَتَكَوَّنُ غَالِبًا مِنْ بَلُّورَاتِ الثَّلْجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُيُوطُ السَّحَابِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتْ سُحُبٌ رِيشِيَّةٌ فِي السَّمَاءِ."
+      ],
+      "usage_note_ar": "قَدْ تَدُلُّ عَلَى تَغَيُّرٍ قَادِمٍ فِي الطَّقْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_115",
+      "arabic": "سَحَابَةٌ رُكَامِيَّةٌ مِزْنِيَّةٌ",
+      "meaning_ar": "سَحَابَةٌ عَظِيمَةُ الِارْتِفَاعِ تَنْتُجُ عَوَاصِفَ رَعْدِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِمَّةُ السَّحَابَةِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتْ سَحَابَةٌ رَعْدِيَّةٌ فَوْقَ الْمَدِينَةِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِالْبَرَدِ وَالْبَرْقِ وَالرِّيَاحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_116",
+      "arabic": "سَحَابَةٌ مِزْنِيَّةٌ طَبَقِيَّةٌ",
+      "meaning_ar": "سَحَابَةٌ كَثِيفَةٌ تُسَبِّبُ هُطُولًا وَاسِعَ النِّطَاقِ وَطَوِيلًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "هُطُولٌ مُسْتَمِرٌّ"
+      ],
+      "examples_ar": [
+        "اسْتَمَرَّ الْمَطَرُ تَحْتَ السُّحُبِ الْمِزْنِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ السُّحُبِ الرَّعْدِيَّةِ الْمَحَلِّيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_117",
+      "arabic": "بَرَدٌ جَوِّيٌّ",
+      "meaning_ar": "حَبَّاتٌ جَلِيدِيَّةٌ تَتَكَوَّنُ فِي سُحُبٍ رَعْدِيَّةٍ قَوِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُقُوطُ الْبَرَدِ"
+      ],
+      "examples_ar": [
+        "أَتْلَفَ الْبَرَدُ بَعْضَ الْمَزْرُوعَاتِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الثَّلْجِ الْمُتَسَاقِطِ عَلَى هَيْئَةِ بَلُّورَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_118",
+      "arabic": "رَذَاذٌ",
+      "meaning_ar": "قَطَرَاتُ مَطَرٍ صَغِيرَةٌ تَسْقُطُ بِكَمِّيَّاتٍ خَفِيفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "رَذَاذٌ خَفِيفٌ"
+      ],
+      "examples_ar": [
+        "تَسَاقَطَ رَذَاذٌ طَوَالَ الصَّبَاحِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْهُطُولِ الْغَزِيرِ فِي الْحَجْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_119",
+      "arabic": "هُطُولٌ مَطَرِيٌّ",
+      "meaning_ar": "نُزُولُ قَطَرَاتِ الْمَاءِ مِنَ السُّحُبِ إِلَى سَطْحِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِقْدَارُ الْهُطُولِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمَرْصَدُ هُطُولًا كَبِيرًا."
+      ],
+      "usage_note_ar": "يُقَاسُ غَالِبًا بِالْمِلِّيمِتْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_120",
+      "arabic": "هُطُولٌ ثَلْجِيٌّ",
+      "meaning_ar": "نُزُولُ بَلُّورَاتِ الثَّلْجِ مِنَ الْجَوِّ إِلَى الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كَثَافَةُ الثَّلْجِ"
+      ],
+      "examples_ar": [
+        "تَسَاقَطَ الثَّلْجُ عَلَى الْمَرْتَفَعَاتِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ حَرَارَةُ الطَّبَقَاتِ فِي شَكْلِ الْهُطُولِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_121",
+      "arabic": "عَاصِفَةٌ رَعْدِيَّةٌ",
+      "meaning_ar": "اضْطِرَابٌ جَوِّيٌّ يَصْحَبُهُ بَرْقٌ وَرَعْدٌ وَقَدْ يَصْحَبُهُ مَطَرٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارُ الْعَاصِفَةِ"
+      ],
+      "examples_ar": [
+        "تَشَكَّلَتْ عَاصِفَةٌ رَعْدِيَّةٌ قُرْبَ السَّاحِلِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَضَمَّنُ رِيَاحًا شَدِيدَةً وَبَرَدًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_122",
+      "arabic": "عَاصِفَةٌ رَمْلِيَّةٌ",
+      "meaning_ar": "رِيَاحٌ قَوِيَّةٌ تَحْمِلُ كَمِّيَّاتٍ كَبِيرَةً مِنَ الرِّمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْعِدَامُ الرُّؤْيَةِ"
+      ],
+      "examples_ar": [
+        "قَلَّتِ الرُّؤْيَةُ أَثْنَاءَ الْعَاصِفَةِ الرَّمْلِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ تُؤَثِّرُ فِي النَّقْلِ وَالصِّحَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_123",
+      "arabic": "عَاصِفَةٌ تُرَابِيَّةٌ",
+      "meaning_ar": "رِيَاحٌ تَرْفَعُ ذَرَّاتِ التُّرَابِ الدَّقِيقَةَ إِلَى الْجَوِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كَثَافَةُ الْغُبَارِ"
+      ],
+      "examples_ar": [
+        "غَطَّتِ الْعَاصِفَةُ التُّرَابِيَّةُ الطُّرُقَ."
+      ],
+      "usage_note_ar": "قَدْ تَمْتَدُّ عَلَى مَسَافَاتٍ كَبِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_124",
+      "arabic": "إِعْصَارٌ مَدَارِيٌّ",
+      "meaning_ar": "نِظَامٌ جَوِّيٌّ دَوَّارٌ شَدِيدٌ يَنْشَأُ فَوْقَ مِيَاهٍ دَافِئَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَيْنُ الْإِعْصَارِ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْمَرْصَدُ مَسَارَ الْإِعْصَارِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ تَسْمِيَاتُهُ بِحَسَبِ الْمِنْطَقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_125",
+      "arabic": "إِعْصَارٌ قُمْعِيٌّ",
+      "meaning_ar": "دَوَّامَةٌ هَوَائِيَّةٌ عَنِيفَةٌ تَمْتَدُّ مِنْ سَحَابَةٍ رَعْدِيَّةٍ إِلَى السَّطْحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارُ الْإِعْصَارِ"
+      ],
+      "examples_ar": [
+        "دَمَّرَ الْإِعْصَارُ بَعْضَ الْمَبَانِي."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْإِعْصَارِ الْمَدَارِيِّ فِي الْحَجْمِ وَالتَّكَوُّنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_126",
+      "arabic": "عَاصِفَةٌ شَمْسِيَّةٌ",
+      "meaning_ar": "اضْطِرَابٌ فِي النَّشَاطِ الشَّمْسِيِّ يُؤَثِّرُ فِي الْبِيئَةِ الْفَضَائِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَصْدُ النَّشَاطِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْمَرْصَدُ أَثَرَ الْعَاصِفَةِ الشَّمْسِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَأَثَّرُ بِهَا الِاتِّصَالَاتُ وَالأَقْمَارُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_127",
+      "arabic": "مَوْجَةٌ حَارَّةٌ",
+      "meaning_ar": "فَتْرَةٌ مِنْ دَرَجَاتِ الْحَرَارَةِ الْمُرْتَفِعَةِ عَلَى نَحْوٍ غَيْرِ مُعْتَادٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْذِيرُ الْمَوْجَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَرَّتِ الْمَوْجَةُ الْحَارَّةُ أَيَّامًا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مَعَايِيرُهَا بِحَسَبِ الْمِنْطَقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_128",
+      "arabic": "مَوْجَةٌ بَارِدَةٌ",
+      "meaning_ar": "فَتْرَةٌ مِنْ حَرَارَةٍ مُنْخَفِضَةٍ بِشِدَّةٍ مُقَارَنَةً بِالْمُعْتَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُدَّةُ الْمَوْجَةِ"
+      ],
+      "examples_ar": [
+        "تَجَمَّدَتْ بَعْضُ الْأَنْهَارِ فِي الْمَوْجَةِ الْبَارِدَةِ."
+      ],
+      "usage_note_ar": "قَدْ تُؤَثِّرُ فِي الْمَزَارِعِ وَالطَّاقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_129",
+      "arabic": "جَفَافٌ مُنَاخِيٌّ",
+      "meaning_ar": "نُقْصَانٌ مُسْتَمِرٌّ فِي الْأَمْطَارِ وَالْمِيَاهِ الْمُتَاحَةِ مُقَارَنَةً بِالْمُعْتَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شِدَّةُ الْجَفَافِ"
+      ],
+      "examples_ar": [
+        "نَقَصَتْ مِيَاهُ السُّدُودِ خِلَالَ الْجَفَافِ."
+      ],
+      "usage_note_ar": "تُقَاسُ أَنْوَاعُهُ بِمُؤَشِّرَاتٍ مُخْتَلِفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_130",
+      "arabic": "جَفَافٌ زِرَاعِيٌّ",
+      "meaning_ar": "نَقْصُ رُطُوبَةِ التُّرْبَةِ إِلَى حَدٍّ يَضُرُّ بِالْمَحَاصِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَصْدُ الْجَفَافِ"
+      ],
+      "examples_ar": [
+        "تَضَرَّرَ الْمَحْصُولُ مِنْ نَقْصِ الْمَاءِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْجَفَافِ الْهُطُولِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_131",
+      "arabic": "جَفَافٌ هِيدْرُولُوجِيٌّ",
+      "meaning_ar": "انْخِفَاضُ مِيَاهِ الأَنْهَارِ وَالْبُحَيْرَاتِ وَالْخَزَّانَاتِ عَنْ مُسْتَوًى مُعْتَادٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْسُوبُ السُّدِّ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَ التَّدَفُّقُ فِي النَّهْرِ خِلَالَ الْمَوْسِمِ."
+      ],
+      "usage_note_ar": "قَدْ يَظْهَرُ بَعْدَ نَقْصِ الأَمْطَارِ بِفَتْرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_132",
+      "arabic": "فَيْضَانٌ نَهْرِيٌّ",
+      "meaning_ar": "ارْتِفَاعُ مِيَاهِ نَهْرٍ حَتَّى تَتَجَاوَزَ ضِفَّتَيْهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَطَرُ الْفَيْضَانِ"
+      ],
+      "examples_ar": [
+        "غَمَرَتِ الْمِيَاهُ بَعْضَ الْبُيُوتِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ شِدَّتُهُ بِالْأَمْطَارِ وَالتَّضَارِيسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_133",
+      "arabic": "فَيْضَانٌ مُفَاجِئٌ",
+      "meaning_ar": "تَدَفُّقُ مِيَاهٍ شَدِيدٌ يَحْدُثُ بِسُرْعَةٍ بَعْدَ أَمْطَارٍ غَزِيرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْذِيرُ السُّيُولِ"
+      ],
+      "examples_ar": [
+        "حَذَّرَتِ السُّلُطَاتُ مِنْ فَيْضَانٍ مُفَاجِئٍ."
+      ],
+      "usage_note_ar": "يَكُونُ خَطِيرًا فِي الْأَوْدِيَةِ وَالْمُنْخَفَضَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_134",
+      "arabic": "فَيْضَانٌ سَاحِلِيٌّ",
+      "meaning_ar": "غَمْرُ الْمِيَاهِ لِلْأَرَاضِي الْقَرِيبَةِ مِنَ الْبَحْرِ بِسَبَبِ ارْتِفَاعِ مَنْسُوبِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْذِيرٌ سَاحِلِيٌّ"
+      ],
+      "examples_ar": [
+        "تَضَرَّرَتِ الْمَنَاطِقُ الْمُنْخَفِضَةُ قُرْبَ الْمِينَاءِ."
+      ],
+      "usage_note_ar": "قَدْ يَرْتَبِطُ بِالْعَوَاصِفِ وَالْمَدِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_135",
+      "arabic": "مَدٌّ بَحْرِيٌّ",
+      "meaning_ar": "ارْتِفَاعٌ دَوْرِيٌّ فِي مُسْتَوَى سَطْحِ الْبَحْرِ بِفِعْلِ الْجَاذِبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَقْتُ الْمَدِّ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ الْمَاءُ عِنْدَ الشَّاطِئِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالْقَمَرِ وَالشَّمْسِ وَطَبِيعَةِ الْحَوْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_136",
+      "arabic": "جَزْرٌ بَحْرِيٌّ",
+      "meaning_ar": "انْخِفَاضٌ دَوْرِيٌّ فِي مُسْتَوَى مِيَاهِ الْبَحْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَقْتُ الْجَزْرِ"
+      ],
+      "examples_ar": [
+        "انْكَشَفَتْ صُخُورٌ بَعْدَ انْحِسَارِ الْمَاءِ."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْمَدَّ فِي دَوْرَةِ مُسْتَوَى الْبَحْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_137",
+      "arabic": "مَوْجَةُ عَاصِفَةٍ",
+      "meaning_ar": "ارْتِفَاعٌ غَيْرُ اعْتِيَادِيٍّ لِمُسْتَوَى الْبَحْرِ تُسَبِّبُهُ الْعَاصِفَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَطَرُ الْمَوْجَةِ"
+      ],
+      "examples_ar": [
+        "غَمَرَتِ الْمِيَاهُ الطَّرِيقَ السَّاحِلِيَّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْمَدِّ الْفَلَكِيِّ الْعَادِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_138",
+      "arabic": "تَسُونَامِي",
+      "meaning_ar": "مَوْجَاتٌ بَحْرِيَّةٌ طَوِيلَةٌ تَنْشَأُ مِنِ اضْطِرَابٍ كَبِيرٍ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "إِنْذَارُ التَّسُونَامِي"
+      ],
+      "examples_ar": [
+        "أُخْلِيَ السَّاحِلُ بَعْدَ زِلْزَالٍ بَحْرِيٍّ."
+      ],
+      "usage_note_ar": "لَا تُشْبِهُ الأَمْوَاجَ الرِّيحِيَّةَ الْمُعْتَادَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_139",
+      "arabic": "تَيَّارٌ مِحْيَطِيٌّ",
+      "meaning_ar": "حَرَكَةٌ مُنَظَّمَةٌ لِكُتَلِ الْمِيَاهِ فِي الْبِحَارِ وَالْمُحِيطَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ التَّيَّارِ"
+      ],
+      "examples_ar": [
+        "يَحْمِلُ التَّيَّارُ مِيَاهًا دَافِئَةً نَحْوَ الشَّمَالِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِيهِ الرِّيَاحُ وَالْكَثَافَةُ وَدَوَرَانُ الأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_140",
+      "arabic": "تَيَّارٌ دَافِئٌ",
+      "meaning_ar": "تَيَّارٌ بَحْرِيٌّ يَنْقُلُ مِيَاهًا أَدْفَأَ مِنَ الْمِيَاهِ الْمُحِيطَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارُ التَّيَّارِ"
+      ],
+      "examples_ar": [
+        "أَثَّرَ التَّيَّارُ الدَّافِئُ فِي مُنَاخِ السَّاحِلِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دَرَجَتُهُ بِحَسَبِ الْمِنْطَقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_141",
+      "arabic": "تَيَّارٌ بَارِدٌ",
+      "meaning_ar": "تَيَّارٌ بَحْرِيٌّ يَنْقُلُ مِيَاهًا أَبْرَدَ مِنَ الْمُنَاطِقِ الْمُجَاوِرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَثَرُ التَّيَّارِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَتْ حَرَارَةُ السَّاحِلِ بِفِعْلِ التَّيَّارِ."
+      ],
+      "usage_note_ar": "قَدْ يُؤَثِّرُ فِي الضَّبَابِ وَالْمَطَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_142",
+      "arabic": "صُعُودُ الْمِيَاهِ الْعَمِيقَةِ",
+      "meaning_ar": "ارْتِفَاعُ مِيَاهٍ بَارِدَةٍ مِنَ الأَعْمَاقِ إِلَى قُرْبِ السَّطْحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنَاطِقُ الصُّعُودِ"
+      ],
+      "examples_ar": [
+        "جَلَبَ الصُّعُودُ مُغَذِّيَاتٍ إِلَى السَّطْحِ."
+      ],
+      "usage_note_ar": "يَدْعَمُ الْإِنْتَاجِيَّةَ الْحَيَوِيَّةَ فِي بَعْضِ الْمَوَاقِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_143",
+      "arabic": "مِلُوحَةُ الْبَحْرِ",
+      "meaning_ar": "كَمِّيَّةُ الأَمْلَاحِ الْمُذَابَةِ فِي الْمِيَاهِ الْبَحْرِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمِلُوحَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ مِلُوحَةَ مِيَاهِ الْخَلِيجِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالتَّبَخُّرِ وَالْأَمْطَارِ وَالْأَنْهَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_144",
+      "arabic": "كَثَافَةُ مِيَاهِ الْبَحْرِ",
+      "meaning_ar": "كُتْلَةُ وَحْدَةِ الْحَجْمِ مِنَ الْمَاءِ الْبَحْرِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْكَثَافَةِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَتْ كَثَافَةُ الْمَاءِ بِفِعْلِ الْحَرَارَةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْمِلُوحَةِ وَالضَّغْطِ وَالْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_145",
+      "arabic": "طَبَقَةٌ حَرَارِيَّةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "مِنْطَقَةٌ يَتَغَيَّرُ فِيهَا مُعَدَّلُ الْحَرَارَةِ بِشِدَّةٍ مَعَ الْعُمْقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُمْقُ الطَّبَقَةِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ حَدًّا حَرَارِيًّا فِي الْبَحْرِ."
+      ],
+      "usage_note_ar": "تَفْصِلُ أَحْيَانًا مِيَاهًا سَطْحِيَّةً عَنْ أُخْرَى أَعْمَقَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_146",
+      "arabic": "رَفٌّ قَارِّيٌّ",
+      "meaning_ar": "جُزْءٌ ضَحْلٌ مِنْ قَاعِ الْبَحْرِ يَمْتَدُّ مِنْ حَافَّةِ الْقَارَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَرْضُ الرَّفِّ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ الرَّفَّ الْقَارِّيَّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمُنْحَدَرِ الْقَارِّيِّ الأَعْمَقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_147",
+      "arabic": "مُنْحَدَرٌ قَارِّيٌّ",
+      "meaning_ar": "جُزْءٌ شَدِيدُ الِانْحِدَارِ مِنْ قَاعِ الْمُحِيطِ بَعْدَ الرَّفِّ الْقَارِّيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَافَّةُ الْمُنْحَدَرِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَ قَاعُ الْبَحْرِ بِسُرْعَةٍ."
+      ],
+      "usage_note_ar": "يَرْبِطُ الرَّفَّ بِالأَعْمَاقِ الْمُحِيطِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_148",
+      "arabic": "سَهْلٌ سَحِيقٌ",
+      "meaning_ar": "مِنْطَقَةٌ عَمِيقَةٌ شِبْهُ مُسْتَوِيَةٍ مِنْ قَاعِ الْمُحِيطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رُسُوبَاتُ السَّهْلِ"
+      ],
+      "examples_ar": [
+        "تَتَرَاكَمُ رُسُوبَاتٌ دَقِيقَةٌ فِي الأَعْمَاقِ."
+      ],
+      "usage_note_ar": "تُغَطِّي مَسَاحَاتٍ شَاسِعَةً مِنَ الْمُحِيطَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_149",
+      "arabic": "خَنْدَقٌ مُحِيطِيٌّ",
+      "meaning_ar": "مِنْطَقَةٌ طَوِيلَةٌ شَدِيدَةُ الْعُمْقِ فِي قَاعِ الْمُحِيطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُمْقُ الْخَنْدَقِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ عُمْقَ الْخَنْدَقِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ كَثِيرًا بِمَنَاطِقِ انْغِرَاسِ الصَّفَائِحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_150",
+      "arabic": "حَيْدٌ وَسَطَ الْمُحِيطِ",
+      "meaning_ar": "سِلْسِلَةٌ جَبَلِيَّةٌ بَحْرِيَّةٌ تَتَكَوَّنُ عِنْدَ تَبَاعُدِ الصَّفَائِحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "امْتِدَادُ الْحَيْدِ"
+      ],
+      "examples_ar": [
+        "تَتَكَوَّنُ قِشْرَةٌ بَحْرِيَّةٌ جَدِيدَةٌ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِثَوَرَانَاتٍ بُرْكَانِيَّةٍ بَحْرِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_151",
+      "arabic": "تَغَيُّرٌ مُنَاخِيٌّ",
+      "meaning_ar": "تَحَوُّلٌ طَوِيلُ الْأَجَلِ فِي أَنْماطِ الْحَرَارَةِ وَالْهُطُولِ وَغَيْرِهِمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "آثَارُ التَّغَيُّرِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ اتِّجَاهَاتِ الْحَرَارَةِ الْعَالَمِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ تَسْهَمُ فِيهِ عَوَامِلُ طَبِيعِيَّةٌ وَبَشَرِيَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_152",
+      "arabic": "احْتِبَاسٌ حَرَارِيٌّ",
+      "meaning_ar": "ظَاهِرَةُ امْتِصَاصِ غَازَاتٍ جَوِّيَّةٍ لِبَعْضِ الْإِشْعَاعِ الْحَرَارِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "غَازَاتُ الِاحْتِبَاسِ"
+      ],
+      "examples_ar": [
+        "يُسَاهِمُ ثَانِي أُكْسِيدِ الْكَرْبُونِ فِي الِاحْتِبَاسِ."
+      ],
+      "usage_note_ar": "هُوَ ظَاهِرَةٌ طَبِيعِيَّةٌ تَتَزَايَدُ بِزِيَادَةِ بَعْضِ الْغَازَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_153",
+      "arabic": "غَازٌ دَفِيئٌ",
+      "meaning_ar": "غَازٌ جَوِّيٌّ يَمْتَصُّ الإِشْعَاعَ الْحَرَارِيَّ وَيُعِيدُ إِصْدَارَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْبِعَاثُ الْغَازِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ غَازَاتِ الِاحْتِبَاسِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ أَنْوَاعًا كَبُخَارِ الْمَاءِ وَثَانِي أُكْسِيدِ الْكَرْبُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_154",
+      "arabic": "بَصْمَةٌ كَرْبُونِيَّةٌ",
+      "meaning_ar": "تَقْدِيرُ مَجْمُوعِ انْبِعَاثَاتِ الْغَازَاتِ الدَّفِيئَةِ الْمُرْتَبِطَةِ بِنَشَاطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْبَصْمَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمَصْنَعُ بَصْمَتَهُ الْكَرْبُونِيَّةَ."
+      ],
+      "usage_note_ar": "تُعَبَّرُ عَنْهَا غَالِبًا بِمُكَافِئِ ثَانِي أُكْسِيدِ الْكَرْبُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_155",
+      "arabic": "انْبِعَاثٌ صِنَاعِيٌّ",
+      "meaning_ar": "غَازٌ أَوْ جُسَيْمَاتٌ تَخْرُجُ إِلَى الْبِيئَةِ مِنْ نَشَاطٍ إِنْتَاجِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَفْضُ الِانْبِعَاثِ"
+      ],
+      "examples_ar": [
+        "رَكَّبَ الْمَصْنَعُ نِظَامًا لِتَنْقِيَةِ الْهَوَاءِ."
+      ],
+      "usage_note_ar": "تُقَاسُ أَنْوَاعُهُ وَكَمِّيَّاتُهُ بِأَجْهِزَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_156",
+      "arabic": "انْبِعَاثٌ مُبَاشِرٌ",
+      "meaning_ar": "غَازَاتٌ تَخْرُجُ مِنْ مَصَادِرَ تَمْلِكُهَا أَوْ تُدِيرُهَا الْمُؤَسَّسَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الِانْبِعَاثِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْفَرِيقُ انْبِعَاثَ مَرْكَزِ التَّسْخِينِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الِانْبِعَاثِ غَيْرِ الْمُبَاشِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_157",
+      "arabic": "انْبِعَاثٌ غَيْرُ مُبَاشِرٍ",
+      "meaning_ar": "انْبِعَاثٌ يَنْشَأُ خَارِجَ مَوْقِعِ الْمُؤَسَّسَةِ بِسَبَبِ نَشَاطِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْبِعَاثُ الْكَهْرَبَاءِ"
+      ],
+      "examples_ar": [
+        "حَسَبَتِ الشَّرِكَةُ آثَارَ اسْتِهْلَاكِ الطَّاقَةِ."
+      ],
+      "usage_note_ar": "يَتَضَمَّنُ أَحْيَانًا الطَّاقَةَ الْمُشْتَرَاةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_158",
+      "arabic": "حِيَادٌ كَرْبُونِيٌّ",
+      "meaning_ar": "حَالَةُ تَوَازُنِ الِانْبِعَاثَاتِ مَعَ مَا يُزَالُ أَوْ يُعَوَّضُ مِنْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "هَدَفُ الْحِيَادِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الْمُؤَسَّسَةُ خُطَّةً لِلْحِيَادِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ طَرِيقَةَ حِسَابٍ وَاضِحَةً وَقَابِلَةً لِلتَّحَقُّقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_159",
+      "arabic": "تَكَيُّفٌ مُنَاخِيٌّ",
+      "meaning_ar": "تَعْدِيلُ الْأَنْظِمَةِ وَالْإِجْرَاءَاتِ لِلتَّعَامُلِ مَعَ آثَارِ الْمُنَاخِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّكَيُّفِ"
+      ],
+      "examples_ar": [
+        "رَفَعَتِ الْمَدِينَةُ مَصَارِفَ مِيَاهِ الأَمْطَارِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ خَفْضِ مَصَادِرِ الِانْبِعَاثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_160",
+      "arabic": "تَخْفِيفٌ مُنَاخِيٌّ",
+      "meaning_ar": "إِجْرَاءَاتٌ تُقَلِّلُ انْبِعَاثَاتِ الْغَازَاتِ الدَّفِيئَةِ أَوْ تَزِيدُ إِزَالَتَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِرَاتِيجِيَّةُ التَّخْفِيفِ"
+      ],
+      "examples_ar": [
+        "اسْتَبْدَلَتِ الشَّرِكَةُ أَجْهِزَةً أَكْثَرَ كَفَاءَةً."
+      ],
+      "usage_note_ar": "يُكَمِّلُ التَّكَيُّفَ مَعَ آثَارِ التَّغَيُّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_161",
+      "arabic": "مَرُونَةٌ مُنَاخِيَّةٌ",
+      "meaning_ar": "قُدْرَةُ نِظَامٍ عَلَى تَحَمُّلِ الصَّدَمَاتِ الْمُنَاخِيَّةِ وَالتَّعَافِي مِنْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَعْزِيزُ الْمَرُونَةِ"
+      ],
+      "examples_ar": [
+        "حَسَّنَتِ الْمَدِينَةُ بِنْيَةَ الصَّرْفِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الِاسْتِعْدَادَ وَالتَّكَيُّفَ وَالتَّعَافِي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_162",
+      "arabic": "قَابِلِيَّةُ التَّأَثُّرِ الْمُنَاخِيِّ",
+      "meaning_ar": "دَرَجَةُ تَعَرُّضِ نِظَامٍ لِلضَّرَرِ عِنْدَ حُدُوثِ ظَاهِرَةٍ مُنَاخِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ التَّأَثُّرِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْبَاحِثُ الْمَنَاطِقَ الأَشَدَّ تَأَثُّرًا."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِالْحَسَّاسِيَّةِ وَالْقُدْرَةِ عَلَى التَّكَيُّفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_163",
+      "arabic": "مِنْطَقَةُ فَيْضَانٍ",
+      "meaning_ar": "أَرْضٌ تَحْتَمِلُ غَمْرَ الْمَاءِ خِلَالَ فَيْضَانَاتٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الْغَمْرِ"
+      ],
+      "examples_ar": [
+        "بَنَتِ الْمَدِينَةُ حَاجِزًا لِحِمَايَةِ الْمَنْطِقَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دَرَجَةُ الْخَطَرِ مِنْ مَوْضِعٍ إِلَى آخَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_164",
+      "arabic": "خَرِيطَةُ الْمَخَاطِرِ",
+      "meaning_ar": "رَسْمٌ جُغْرَافِيٌّ يُظْهِرُ تَوْزِيعَ أَنْوَاعِ الْأَخْطَارِ وَدَرَجَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْخَرِيطَةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُهَنْدِسُ خَرِيطَةَ السُّيُولِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلتَّخْطِيطِ وَلَا تَتَنَبَّأُ بِكُلِّ حَدَثٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_165",
+      "arabic": "نِظَامُ إِنْذَارٍ مُبَكِّرٍ",
+      "meaning_ar": "مَنْظُومَةٌ تُرَاقِبُ الْخَطَرَ وَتُرْسِلُ تَحْذِيرَاتٍ قَبْلَ وُصُولِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِصْدَارُ الْإِنْذَارِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَتِ الْجِهَةُ تَحْذِيرًا مِنْ سُيُولٍ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى بَيَانَاتٍ وَتَوَاصُلٍ وَاضِحٍ مَعَ النَّاسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_166",
+      "arabic": "مَحَطَّةٌ جَوِّيَّةٌ",
+      "meaning_ar": "مَوْضِعٌ تُجْمَعُ فِيهِ قِيَاسَاتُ الْحَرَارَةِ وَالضَّغْطِ وَالرِّيَاحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَيَانَاتُ الْمَحَطَّةِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَتِ الْمَحَطَّةُ كَمِّيَّةَ الْمَطَرِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى مُعَايَرَةِ الْأَجْهِزَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_167",
+      "arabic": "مِقْيَاسُ الْمَطَرِ",
+      "meaning_ar": "جِهَازٌ يُقَاسُ بِهِ مِقْدَارُ الْهُطُولِ الْمَطَرِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْمِقْيَاسِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْجِهَازُ مِيَاهَ الْمَطَرِ."
+      ],
+      "usage_note_ar": "تُقَاسُ الْكَمِّيَّةُ غَالِبًا بِالْمِلِّيمِتْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_168",
+      "arabic": "مِقْيَاسُ الرِّيَاحِ",
+      "meaning_ar": "جِهَازٌ يُسْتَعْمَلُ لِقِيَاسِ سُرْعَةِ حَرَكَةِ الْهَوَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُرْعَةُ الرِّيَاحِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمِقْيَاسُ رِيَاحًا شَدِيدَةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُ الْأَجْهِزَةِ وَدِقَّتُهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_169",
+      "arabic": "دَوَّارَةُ الرِّيحِ",
+      "meaning_ar": "أَدَاةٌ تُظْهِرُ الِاتِّجَاهَ الَّذِي تَأْتِي مِنْهُ الرِّيَاحُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ الرِّيحِ"
+      ],
+      "examples_ar": [
+        "أَشَارَتِ الدَّوَّارَةُ إِلَى الشَّمَالِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ مَعَ مِقْيَاسِ السُّرْعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_170",
+      "arabic": "رَادَارٌ جَوِّيٌّ",
+      "meaning_ar": "جِهَازٌ يَرْسِلُ مَوْجَاتٍ لِرَصْدِ الْهُطُولِ وَحَرَكَةِ السُّحُبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صُورَةُ الرَّادَارِ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْمُتَنَبِّئُ حَرَكَةَ الأَمْطَارِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ بَيَانَاتُهُ عَلَى رَصْدِ الْعَوَاصِفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_171",
+      "arabic": "بَالُونٌ جَوِّيٌّ",
+      "meaning_ar": "بَالُونٌ يَحْمِلُ أَجْهِزَةَ قِيَاسٍ نَحْوَ طَبَقَاتِ الْجَوِّ الْعُلْيَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِطْلَاقُ الْبَالُونِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَالُونُ الْحَرَارَةَ مَعَ الِارْتِفَاعِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ الْبِنْيَةِ الرَّأْسِيَّةِ لِلْجَوِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_172",
+      "arabic": "نَمُوذَجٌ مُنَاخِيٌّ",
+      "meaning_ar": "تَمْثِيلٌ حِسَابِيٌّ لِتَفَاعُلَاتِ الْغِلَافِ الْجَوِّيِّ وَالْمُحِيطِ وَالأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُخْرَجَاتُ النَّمُوذَجِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ سِينَارْيُوهَاتِ الْمُنَاخِ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ النَّتَائِجُ عَلَى الِافْتِرَاضَاتِ وَالْمُدْخَلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_173",
+      "arabic": "نَمُوذَجُ تَنْبُّؤٍ جَوِّيٍّ",
+      "meaning_ar": "بَرْنَامَجٌ يَحْسِبُ تَطَوُّرَ حَالَةِ الْجَوِّ عَلَى مَدًى قَصِيرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيثُ التَّنَبُّؤِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُتَنَبِّئُ نَتَائِجَ النَّمَاذِجِ."
+      ],
+      "usage_note_ar": "تَقِلُّ الدِّقَّةُ عَادَةً مَعَ بُعْدِ الْمُدَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_174",
+      "arabic": "تَنْبُّؤٌ احْتِمَالِيٌّ",
+      "meaning_ar": "تَقْدِيرٌ لِاحْتِمَالِ حُدُوثِ ظَاهِرَةٍ بَدَلًا مِنَ الْجَزْمِ بِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "احْتِمَالُ الْمَطَرِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ التَّقْرِيرُ احْتِمَالًا لِلْأَمْطَارِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ النَّتِيجَةُ فَهْمَ مَعْنَى النِّسْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_175",
+      "arabic": "تَنْبُّؤٌ مَجْمُوعِيٌّ",
+      "meaning_ar": "طَرِيقَةٌ تَسْتَعْمِلُ تَشْغِيلَاتٍ مُتَعَدِّدَةً لِنَمُوذَجٍ لِقِيَاسِ الِاحْتِمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَجْمُوعَةُ النَّمَاذِجِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُتَنَبِّئُ مَسَارَاتِ الْعَوَاصِفِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَقْدِيرِ عَدَمِ الْيَقِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_176",
+      "arabic": "مُتَوَسِّطٌ مُنَاخِيٌّ",
+      "meaning_ar": "مِقْيَاسٌ يُلَخِّصُ حَالَةَ عُنْصُرٍ جَوِّيٍّ عَلَى مَدَى سَنَوَاتٍ طَوِيلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُتَوَسِّطُ الْحَرَارَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ الْمُتَوَسِّطَ بِالْقِيَمِ الْحَالِيَّةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ طَقْسِ يَوْمٍ وَاحِدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_177",
+      "arabic": "شُذُوذٌ مُنَاخِيٌّ",
+      "meaning_ar": "فَرْقُ قِيمَةٍ مُقَاسَةٍ عَنْ مُتَوَسِّطٍ مَرْجِعِيٍّ طَوِيلِ الأَجَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شُذُوذُ الْحَرَارَةِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْعَامُ شُذُوذًا حَرَارِيًّا مُوجَبًا."
+      ],
+      "usage_note_ar": "لَا يَعْنِي كُلُّ شُذُوذٍ حُدُوثَ كَارِثَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_178",
+      "arabic": "مُؤَشِّرُ الْجَفَافِ",
+      "meaning_ar": "قِيمَةٌ تَجْمَعُ بَيَانَاتٍ لِتَقْيِيمِ نَقْصِ الْمَاءِ أَوِ الْمَطَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْجَفَافِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْخَبِيرُ الْمُؤَشِّرَ قَبْلَ الْمَوْسِمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْمَقَايِيسُ بِحَسَبِ الْغَرَضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_179",
+      "arabic": "جَزِيرَةٌ حَرَارِيَّةٌ حَضَرِيَّةٌ",
+      "meaning_ar": "ارْتِفَاعُ حَرَارَةِ الْمَدِينَةِ مُقَارَنَةً بِمَنَاطِقَ مُحِيطَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَخْفِيفُ السُّخُونَةِ"
+      ],
+      "examples_ar": [
+        "زَرَعَتِ الْمَدِينَةُ أَشْجَارًا لِتَقْلِيلِ الْحَرَارَةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْأَسْطُحِ وَالْعُمْرَانِ وَقِلَّةِ الْخُضْرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_180",
+      "arabic": "تَبَخُّرٌ نَتْحِيٌّ",
+      "meaning_ar": "مَجْمُوعُ مَا يَتَبَخَّرُ مِنَ الأَرْضِ وَمَا تَفْقِدُهُ النَّبَاتَاتُ بِالنَّتْحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّبَخُّرِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُهَنْدِسُ الِاحْتِيَاجَ الْمَائِيَّ لِلْمَزْرَعَةِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالرَّيِّ وَالْمُنَاخِ وَحَالَةِ النَّبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_181",
+      "arabic": "دَوْرَةُ الْمَاءِ",
+      "meaning_ar": "انْتِقَالُ الْمَاءِ بَيْنَ السَّطْحِ وَالْجَوِّ وَالْخَزَّانَاتِ الطَّبِيعِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ الدَّوْرَةِ"
+      ],
+      "examples_ar": [
+        "تَبَخَّرَ الْمَاءُ ثُمَّ تَكَاثَفَ وَهَطَلَ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الْجَرَيَانَ وَالتَّسَرُّبَ وَالتَّبَخُّرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_182",
+      "arabic": "مُوَازَنَةٌ مَائِيَّةٌ",
+      "meaning_ar": "حِسَابُ الْمِيَاهِ الدَّاخِلَةِ وَالْخَارِجَةِ وَالْمَخْزُونَةِ فِي نِظَامٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَجْزُ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُهَنْدِسُ الْأَمْطَارَ بِالِاسْتِهْلَاكِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَخْطِيطِ الْمَوَارِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_183",
+      "arabic": "حَرَارَةُ سَطْحِ الْبَحْرِ",
+      "meaning_ar": "دَرَجَةُ حَرَارَةِ الطَّبَقَةِ الْقَرِيبَةِ مِنْ سَطْحِ الْمُحِيطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ حَرَارَةِ الْبَحْرِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْقَمَرُ الصِّنَاعِيُّ حَرَارَةَ السَّطْحِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي الطَّقْسِ وَتَكَوُّنِ الأَعَاصِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_184",
+      "arabic": "تَذَبْذُبٌ مُنَاخِيٌّ",
+      "meaning_ar": "تَغَيُّرٌ مُتَكَرِّرٌ فِي أَنْماطِ الْجَوِّ وَالْمُحِيطِ عَلَى مَدًى زَمَنِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرَةُ التَّذَبْذُبِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَذَبْذُبَ الْأَمْطَارِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ الِاتِّجَاهِ الطَّوِيلِ لِلتَّغَيُّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_185",
+      "arabic": "رَصْدٌ فَضَائِيٌّ لِلْمُنَاخِ",
+      "meaning_ar": "جَمْعُ بَيَانَاتٍ عَنِ الْأَرْضِ وَالْجَوِّ بِاسْتِعْمَالِ أَقْمَارٍ صِنَاعِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صُوَرُ الْأَقْمَارِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْبَاحِثُ السُّحُبَ مِنَ الْفَضَاءِ."
+      ],
+      "usage_note_ar": "يُكَمِّلُ الْمَحَطَّاتِ الأَرْضِيَّةَ وَلَا يَسْتَبْدِلُهَا كُلِّيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_186",
+      "arabic": "مُعَايَرَةُ الْمُسْتَشْعِرِ",
+      "meaning_ar": "ضَبْطُ قِرَاءَاتِ جِهَازِ قِيَاسٍ بِالْمُقَارَنَةِ مَعَ مِعْيَارٍ مَعْرُوفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِجْرَاءُ الْمُعَايَرَةِ"
+      ],
+      "examples_ar": [
+        "عَايَرَ الْفَنِّيُّ جِهَازَ حَرَارَةِ الْجَوِّ."
+      ],
+      "usage_note_ar": "تَحْسُنُ بِهَا مَوْثُوقِيَّةُ الْبَيَانَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_187",
+      "arabic": "سِلْسِلَةٌ زَمَنِيَّةٌ مَنَاخِيَّةٌ",
+      "meaning_ar": "قِيَاسَاتٌ مُرَتَّبَةٌ بِحَسَبِ تَوَارِيخِهَا لِعُنْصُرٍ جَوِّيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ السِّلْسِلَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ حَرَارَةَ الْمَدِينَةِ عَبْرَ عُقُودٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى كَشْفِ الِاتِّجَاهَاتِ وَالتَّذَبْذُبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_188",
+      "arabic": "تَضَارِيسُ الْأَرْضِ",
+      "meaning_ar": "الْأَشْكَالُ الْمُخْتَلِفَةُ لِسَطْحِ الْأَرْضِ مِنْ جِبَالٍ وَوِدْيَانٍ وَسُهُولٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ التَّضَارِيسِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ ارْتِفَاعَ الْجِبَالِ."
+      ],
+      "usage_note_ar": "تَتَشَكَّلُ بِتَفَاعُلِ الْبِنَاءِ وَالتَّعْرِيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_189",
+      "arabic": "مَنْحَنَى الِارْتِفَاعِ",
+      "meaning_ar": "خَطٌّ عَلَى الْخَرِيطَةِ يَصِلُ نِقَاطًا مُتَسَاوِيَةً فِي الِارْتِفَاعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْمَنْحَنَيَاتِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُهَنْدِسُ انْحِدَارَ الْجَبَلِ."
+      ],
+      "usage_note_ar": "تَدُلُّ تَقَارُبَاتُهَا عَلَى شِدَّةِ الِانْحِدَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_190",
+      "arabic": "مَقْطَعٌ جِيُولُوجِيٌّ",
+      "meaning_ar": "رَسْمٌ يُظْهِرُ تَرْتِيبَ الصُّخُورِ وَالتَّرَاكِيبِ تَحْتَ سَطْحِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَسْمُ الْمَقْطَعِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْبَاحِثُ مَقْطَعًا عَبْرَ الْجَبَلِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى قِيَاسَاتٍ وَافْتِرَاضَاتٍ مَكَانِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_191",
+      "arabic": "خَرِيطَةٌ جِيُولُوجِيَّةٌ",
+      "meaning_ar": "رَسْمٌ يُوَضِّحُ أَنْوَاعَ الصُّخُورِ وَأَعْمَارَهَا وَتَرَاكِيبَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْخَرِيطَةِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْبَاحِثُ مَوْقِعَ الصَّدْعِ."
+      ],
+      "usage_note_ar": "تَسْتَعْمِلُ أَلْوَانًا وَرُمُوزًا لِلتَّفْرِيقِ بَيْنَ الْوَحَدَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_192",
+      "arabic": "زَمَنٌ جِيُولُوجِيٌّ",
+      "meaning_ar": "مَدًى زَمَنِيٌّ طَوِيلٌ يُسْتَعْمَلُ لِتَرْتِيبِ أَحْدَاثِ تَارِيخِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الزَّمَنِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَارِيخَ الْقَارَّاتِ."
+      ],
+      "usage_note_ar": "يُقَسَّمُ إِلَى دُهُورٍ وَحِقَبٍ وَفَتَرَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_193",
+      "arabic": "حِقْبَةٌ جِيُولُوجِيَّةٌ",
+      "meaning_ar": "وَحْدَةٌ زَمَنِيَّةٌ كَبِيرَةٌ فِي سُلَّمِ تَارِيخِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بِدَايَةُ الْحِقْبَةِ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَتِ الْحَيَاةُ خِلَالَ حِقَبٍ مُتَعَاقِبَةٍ."
+      ],
+      "usage_note_ar": "تَتَدَرَّجُ الْوَحَدَاتُ مِنَ الأَطْوَلِ إِلَى الأَقْصَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_194",
+      "arabic": "عَصْرٌ جِيُولُوجِيٌّ",
+      "meaning_ar": "وَحْدَةٌ مِنْ أَجْزَاءِ السُّلَّمِ الزَّمَنِيِّ الْجِيُولُوجِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِهَايَةُ الْعَصْرِ"
+      ],
+      "examples_ar": [
+        "رَبَطَ الْبَاحِثُ الْأُحْفُورَةَ بِعَصْرٍ مُعَيَّنٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ طُولُ الْوَحَدَاتِ بِحَسَبِ التَّارِيخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_195",
+      "arabic": "تَأْرِيخٌ إِشْعَاعِيٌّ",
+      "meaning_ar": "تَقْدِيرُ عُمْرِ مَادَّةٍ بِقِيَاسِ تَغَيُّرِ نَظَائِرَ مُشِعَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُمْرُ الصَّخْرِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمَخْبَرُ عُمْرَ عَيِّنَةٍ بِنِظَامٍ إِشْعَاعِيٍّ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ الطَّرِيقَةُ بِحَسَبِ الْمَادَّةِ وَالْعُمْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_196",
+      "arabic": "نِصْفُ عُمْرٍ إِشْعَاعِيٌّ",
+      "meaning_ar": "الزَّمَنُ اللَّازِمُ لِتَحَلُّلِ نِصْفِ نَوَاهٍ مُشِعَّةٍ فِي عَيِّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ نِصْفِ الْعُمْرِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ كَمِّيَّةَ النَّظِيرِ بَعْدَ زَمَنٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ بَيْنَ النَّظَائِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_197",
+      "arabic": "أُحْفُورَةٌ مُرْشِدَةٌ",
+      "meaning_ar": "بَقَايَا كَائِنٍ قَدِيمٍ تُسَاعِدُ عَلَى تَحْدِيدِ عُمْرِ طَبَقَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُقَارَنَةُ الأَحَافِيرِ"
+      ],
+      "examples_ar": [
+        "اسْتَدَلَّ الْبَاحِثُ بِأُحْفُورَةٍ عَلَى عُمْرِ الصَّخْرِ."
+      ],
+      "usage_note_ar": "تَفِيدُ خَاصَّةً عِنْدَ انْتِشَارِ النَّوْعِ زَمَنًا مَحْدُودًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_198",
+      "arabic": "تَطَوُّرُ الْقَارَّاتِ",
+      "meaning_ar": "تَغَيُّرُ مَوَاقِعِ الْقَارَّاتِ وَأَشْكَالِهَا عَلَى مَدَى زَمَنٍ جِيُولُوجِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْقَارَّاتِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْعَالِمُ مَوَاقِعَ الْقَارَّاتِ قَدِيمًا."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِحَرَكَةِ الصَّفَائِحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_199",
+      "arabic": "انْجِرَافُ الْقَارَّاتِ",
+      "meaning_ar": "فِكْرَةٌ عِلْمِيَّةٌ تَصِفُ تَغَيُّرَ مَوَاقِعِ الْقَارَّاتِ مَعَ الْزَّمَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَدِلَّةُ الِانْجِرَافِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ شَوَاطِئَ قَارَّتَيْنِ."
+      ],
+      "usage_note_ar": "تُفَسِّرُهُ الْيَوْمَ نَظَرِيَّةُ تِكْتُونِيَّةِ الصَّفَائِحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_200",
+      "arabic": "نَشَاطٌ زِلْزَالِيٌّ",
+      "meaning_ar": "تَكَرُّرُ حَدَثِ الزَّلَازِلِ فِي مِنْطَقَةٍ مُعَيَّنَةٍ وَتَوَزُّعُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ النَّشَاطِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ نَشَاطَ صَدْعٍ فِي الْجَبَلِ."
+      ],
+      "usage_note_ar": "لَا يَحْسِمُ مَوْعِدَ زِلْزَالٍ مُسْتَقْبَلِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_201",
+      "arabic": "نَشَاطٌ بُرْكَانِيٌّ",
+      "meaning_ar": "مَجْمُوعُ الظَّوَاهِرِ الْمُرْتَبِطَةِ بِحَرَكَةِ الصَّهَارَةِ وَخُرُوجِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَصْدُ الْبُرْكَانِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْمُخْتَصُّ انْبِعَاثَ الْغَازَاتِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ الرَّصْدُ أَجْهِزَةً مُتَعَدِّدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_geology_climate_20261027_202",
+      "arabic": "تَشَوُّهٌ قِشْرِيٌّ",
+      "meaning_ar": "تَغَيُّرٌ فِي شَكْلِ صُخُورِ الْقِشْرَةِ بِسَبَبِ قُوًى جِيُولُوجِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّشَوُّهِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْعُلَمَاءُ ارْتِفَاعَ الْأَرْضِ بِالْأَقْمَارِ."
+      ],
+      "usage_note_ar": "يَظْهَرُ فِي الطَّيَّاتِ وَالصُّدُوعِ وَالتَّمَدُّدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_geology_climate_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
