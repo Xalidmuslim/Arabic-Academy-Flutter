@@ -74,7 +74,12 @@
     "assets/data/entries_editorial_geology_climate_20261027.json",
     "assets/data/entries_editorial_manufacturing_20261027.json",
     "assets/data/entries_editorial_communication_media_20261027.json",
-    "assets/data/entries_editorial_mathematics_science_20261027.json"
+    "assets/data/entries_editorial_mathematics_science_20261027.json",
+    "assets/data/entries_editorial_maritime_navigation_20261027.json",
+    "assets/data/entries_editorial_genetics_microbiology_20261027.json",
+    "assets/data/entries_editorial_archaeology_history_20261027.json",
+    "assets/data/entries_editorial_supply_chain_20261027.json",
+    "assets/data/entries_editorial_energy_utilities_20261027.json"
   ],
   "structure": "all files list entries array; first occurrence is canonical; exact fully-vocalized headwords merge refs"
 }
