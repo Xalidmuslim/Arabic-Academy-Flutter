@@ -15,14 +15,18 @@ class DictionaryVariantAuditTests(unittest.TestCase):
         self.assertNotEqual(strip_diacritics("آمَنَ"), strip_diacritics("أَمِنَ"))
         self.assertNotEqual(strip_diacritics("سُورَةٌ"), strip_diacritics("صُورَةٌ"))
 
-    def test_case_endings_are_flagged_as_review_candidates(self):
-        self.assertEqual(classify_pair("كِتَابٌ", "كِتَابُ"), "case_ending_only")
-        self.assertEqual(classify_pair("مَدِينَةٌ", "مَدِينَةٍ"), "case_ending_only")
+    def test_final_diacritic_only_difference_is_not_proof_of_duplicate(self):
+        self.assertEqual(classify_pair("كِتَابٌ", "كِتَابُ"), "final_mark_only")
+        self.assertEqual(classify_pair("مَدِينَةٌ", "مَدِينَةٍ"), "final_mark_only")
+        # Verb vs noun: identical consonants and interior diacritics can be DISTINCT lexemes.
+        self.assertEqual(classify_pair("حَلَّ", "حَلٌّ"), "final_mark_only")
 
     def test_interior_vowels_remain_distinct_not_automatic_duplicates(self):
         self.assertEqual(classify_pair("عَلِمَ", "عُلِمَ"), "vocalization_diff")
         self.assertEqual(classify_pair("عَلَمٌ", "عِلْمٌ"), "vocalization_diff")
         self.assertIsNone(classify_pair("آمَنَ", "أَمِنَ"))
+        # Canonical Unicode ordering differences are not new lexical entries.
+        self.assertEqual(classify_pair("رَتَّبَ", "رَتَّبَ"), "unicode_equivalent")
 
     def test_raw_repetition_and_vowel_variants_counted_separately(self):
         entries = [
@@ -39,7 +43,7 @@ class DictionaryVariantAuditTests(unittest.TestCase):
         self.assertEqual(report["exact_unique"], 6)
         self.assertEqual(report["exact_repeated"], 1)
         self.assertEqual(report["unvocalized_variant_groups"], 2)
-        self.assertEqual(report["case_ending_groups"], 1)
+        self.assertEqual(report["final_mark_only_groups"], 1)
         self.assertEqual(report["vocalization_diff_groups"], 1)
         self.assertEqual({g["unvocalized"] for g in report["groups"]}, {"كتاب", "علم"})
         case = next(g for g in report["groups"] if g["unvocalized"] == "كتاب")
