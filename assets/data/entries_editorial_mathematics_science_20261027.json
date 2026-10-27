@@ -1,0 +1,5550 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_mathematics_science_20261027_001",
+      "arabic": "عَدَدٌ طَبِيعِيٌّ",
+      "meaning_ar": "عَدَدٌ يُسْتَعْمَلُ لِعَدِّ الأَشْيَاءِ وَتَرْتِيبِهَا فِي الْمَجْمُوعَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَجْمُوعَةُ الْأَعْدَادِ"
+      ],
+      "examples_ar": [
+        "عَدَّ الطَّالِبُ الْكُتُبَ بِالأَعْدَادِ الطَّبِيعِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ تَشْمَلُ الْمَجْمُوعَةُ الصِّفْرَ بِحَسَبِ الِاصْطِلَاحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_002",
+      "arabic": "عَدَدٌ صَحِيحٌ",
+      "meaning_ar": "عَدَدٌ مِنْ مَجْمُوعَةٍ تَضُمُّ الْمُوجَبَ وَالسَّالِبَ وَالصِّفْرَ دُونَ كُسُورٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرْتِيبُ الْأَعْدَادِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ عَدَدًا سَالِبًا عَلَى الْمُسْتَقِيمِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الْأَعْدَادُ الصَّحِيحَةُ الْأَعْدَادَ الطَّبِيعِيَّةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_003",
+      "arabic": "عَدَدٌ نِسْبِيٌّ",
+      "meaning_ar": "عَدَدٌ يُمْكِنُ كِتَابَتُهُ نِسْبَةً بَيْنَ عَدَدَيْنِ صَحِيحَيْنِ مَعَ مَقَامٍ غَيْرِ صِفْرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَبْسِيطُ الْكَسْرِ"
+      ],
+      "examples_ar": [
+        "عَبَّرَ الطَّالِبُ عَنِ النِّصْفِ بِكَسْرٍ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْكَسْرَ وَالْعَدَدَ الصَّحِيحَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_004",
+      "arabic": "عَدَدٌ غَيْرُ نِسْبِيٍّ",
+      "meaning_ar": "عَدَدٌ حَقِيقِيٌّ لَا يُمْكِنُ تَمْثِيلُهُ بِكَسْرٍ مِنْ عَدَدَيْنِ صَحِيحَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَذْرُ الْعَدَدِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ الْجَذْرَ التَّرْبِيعِيَّ لِلِاثْنَيْنِ."
+      ],
+      "usage_note_ar": "يَكُونُ تَمْثِيلُهُ الْعَشْرِيُّ غَيْرَ مُنْتَهٍ وَغَيْرَ دَوْرِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_005",
+      "arabic": "عَدَدٌ حَقِيقِيٌّ",
+      "meaning_ar": "عَدَدٌ يَنْتَمِي إِلَى الْأَعْدَادِ النِّسْبِيَّةِ أَوْ غَيْرِ النِّسْبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُسْتَقِيمُ الْأَعْدَادِ"
+      ],
+      "examples_ar": [
+        "مَثَّلَ الطَّالِبُ الْقِيمَةَ عَلَى مُسْتَقِيمٍ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَرْتِيبُ أَيِّ عَدَدَيْنِ حَقِيقِيَّيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_006",
+      "arabic": "عَدَدٌ مُرَكَّبٌ",
+      "meaning_ar": "عَدَدٌ يَتَكَوَّنُ مِنْ جُزْءٍ حَقِيقِيٍّ وَجُزْءٍ تَخَيُّلِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْمُسْتَوَى الْمُرَكَّبُ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الطَّالِبُ عَدَدَيْنِ مُرَكَّبَيْنِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ الْوَاحِدُ التَّخَيُّلِيُّ لِلتَّعْبِيرِ عَنْهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_007",
+      "arabic": "عَدَدٌ أَوَّلِيٌّ",
+      "meaning_ar": "عَدَدٌ صَحِيحٌ مُوجَبٌ أَكْبَرُ مِنَ الْوَاحِدِ لَهُ قَاسِمَانِ مُوجَبَانِ فَقَطْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْأَوَّلِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الطَّالِبُ مِنْ أَنَّ السَّبْعَةَ عَدَدٌ أَوَّلِيٌّ."
+      ],
+      "usage_note_ar": "الْوَاحِدُ لَيْسَ عَدَدًا أَوَّلِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_008",
+      "arabic": "عَدَدٌ مُؤَلَّفٌ",
+      "meaning_ar": "عَدَدٌ صَحِيحٌ مُوجَبٌ أَكْبَرُ مِنَ الْوَاحِدِ لَهُ أَكْثَرُ مِنْ قَاسِمَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْعَدَدِ"
+      ],
+      "examples_ar": [
+        "حَلَّلَ الطَّالِبُ الِاثْنَيْ عَشَرَ إِلَى عَوَامِلَ."
+      ],
+      "usage_note_ar": "يُقَابِلُ الْعَدَدَ الأَوَّلِيَّ ضِمْنَ الْأَعْدَادِ الأَكْبَرِ مِنَ الْوَاحِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_009",
+      "arabic": "عَامِلٌ أَوَّلِيٌّ",
+      "meaning_ar": "عَدَدٌ أَوَّلِيٌّ يَدْخُلُ فِي حَاصِلِ ضَرْبِ عَدَدٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَوَامِلُ الْعَدَدِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْرَجَ الطَّالِبُ عَوَامِلَ الْعَدَدِ الْأَوَّلِيَّةَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ تَحْلِيلُ الْعَوَامِلِ لِإِيجَادِ الْقَوَاسِمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_010",
+      "arabic": "قَاسِمٌ مُشْتَرَكٌ",
+      "meaning_ar": "عَدَدٌ يَقْسِمُ عَدَدَيْنِ أَوْ أَكْثَرَ دُونَ بَاقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَكْبَرُ قَاسِمٍ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الطَّالِبُ عَنْ قَاسِمٍ لِلْعَدَدَيْنِ."
+      ],
+      "usage_note_ar": "يُسْتَخْدَمُ فِي تَبْسِيطِ الْكُسُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_011",
+      "arabic": "مُضَاعَفٌ مُشْتَرَكٌ",
+      "meaning_ar": "عَدَدٌ يَقْبَلُ الْقِسْمَةَ عَلَى كُلِّ عَدَدٍ مِنْ أَعْدَادٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَصْغَرُ مُضَاعَفٍ"
+      ],
+      "examples_ar": [
+        "وَحَّدَ الطَّالِبُ الْمَقَامَ بِالْمُضَاعَفِ الْمُشْتَرَكِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ عِنْدَ جَمْعِ كُسُورٍ مُخْتَلِفَةِ الْمَقَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_012",
+      "arabic": "كَسْرٌ اعْتِيَادِيٌّ",
+      "meaning_ar": "تَعْبِيرٌ عَدَدِيٌّ يُكْتَبُ عَلَى شَكْلِ بَسْطٍ فَوْقَ مَقَامٍ غَيْرِ صِفْرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَسْطُ الْكَسْرِ"
+      ],
+      "examples_ar": [
+        "قَسَمَ الطَّالِبُ الْكَسْرَ عَلَى عَامِلٍ مُشْتَرَكٍ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ أَصْغَرَ مِنَ الْوَاحِدِ أَوْ أَكْبَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_013",
+      "arabic": "كَسْرٌ عَشْرِيٌّ",
+      "meaning_ar": "تَمْثِيلٌ عَدَدِيٌّ يَسْتَعْمِلُ مَنَازِلَ عَشْرِيَّةً بَعْدَ الْفَاصِلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْمَنْزِلَةُ الْعَشْرِيَّةُ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ النِّصْفَ بِصِيغَةٍ عَشْرِيَّةٍ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مُنْتَهِيًا أَوْ غَيْرَ مُنْتَهٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_014",
+      "arabic": "كَسْرٌ دَوْرِيٌّ",
+      "meaning_ar": "عَدَدٌ عَشْرِيٌّ تَتَكَرَّرُ فِيهِ سِلْسِلَةٌ مِنَ الْأَرْقَامِ بِاسْتِمْرَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرَةُ الْكَسْرِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الطَّالِبُ تَكَرُّرَ الرَّقْمِ بَعْدَ الْفَاصِلَةِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَحْوِيلُهُ إِلَى عَدَدٍ نِسْبِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_015",
+      "arabic": "قُوَّةٌ عَدَدِيَّةٌ",
+      "meaning_ar": "تَعْبِيرٌ يَخْتَصِرُ ضَرْبَ عَدَدٍ فِي نَفْسِهِ مَرَّاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أُسُّ الْقُوَّةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ قُوَّةَ الْعَدَدِ الثَّلَاثَةِ."
+      ],
+      "usage_note_ar": "يُسَمَّى الْعَدَدُ الْمُكَرَّرُ أَسَاسًا وَالْمُكَرِّرُ أُسًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_016",
+      "arabic": "جَذْرٌ تَرْبِيعِيٌّ",
+      "meaning_ar": "قِيمَةٌ يُعْطِي مُرَبَّعُهَا الْعَدَدَ الْمَطْلُوبَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْجَذْرِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْرَجَ الطَّالِبُ جَذْرَ الْخَمْسَةِ وَالْعِشْرِينَ."
+      ],
+      "usage_note_ar": "يُقْصَدُ بِالرَّمْزِ الْمُعْتَادِ الْجَذْرُ غَيْرُ السَّالِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_017",
+      "arabic": "جَذْرٌ تَكْعِيبِيٌّ",
+      "meaning_ar": "قِيمَةٌ يُعْطِي مَكْعَبُهَا الْعَدَدَ الْمَطْلُوبَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِخْرَاجُ الْجَذْرِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ الْجَذْرَ التَّكْعِيبِيَّ لِلثَّمَانِيَةِ."
+      ],
+      "usage_note_ar": "يُوجَدُ جَذْرٌ تَكْعِيبِيٌّ حَقِيقِيٌّ لِكُلِّ عَدَدٍ حَقِيقِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_018",
+      "arabic": "لُوغَارِيتْمٌ",
+      "meaning_ar": "الْأُسُّ الَّذِي يُرْفَعُ إِلَيْهِ أَسَاسٌ مُعَيَّنٌ لِلْحُصُولِ عَلَى عَدَدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قَاعِدَةُ اللُّوغَارِيتْمِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ لُوغَارِيتْمَ الْمِئَةِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ فِي الْحَقِيقِيَّاتِ أَسَاسًا مُوجَبًا غَيْرَ الْوَاحِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_019",
+      "arabic": "تَعْبِيرٌ جَبْرِيٌّ",
+      "meaning_ar": "تَرْكِيبٌ مِنْ أَعْدَادٍ وَمُتَغَيِّرَاتٍ وَعَمَلِيَّاتٍ حِسَابِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَبْسِيطُ التَّعْبِيرِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الطَّالِبُ الْحُدُودَ الْمُتَشَابِهَةَ."
+      ],
+      "usage_note_ar": "لَا يَشْتَرِطُ أَنْ يَحْتَوِيَ عَلَى عَلَامَةِ الْمُسَاوَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_020",
+      "arabic": "مُتَغَيِّرٌ رِيَاضِيٌّ",
+      "meaning_ar": "رَمْزٌ يُمَثِّلُ قِيمَةً يُمْكِنُ أَنْ تَخْتَلِفَ وَفْقَ الْمَسْأَلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيمَةُ الْمُتَغَيِّرِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الطَّالِبُ رَمْزًا لِطُولِ الْمُسْتَطِيلِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَقْيِيدُ قِيَمِهِ بِمَجَالٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_021",
+      "arabic": "ثَابِتٌ رِيَاضِيٌّ",
+      "meaning_ar": "قِيمَةٌ مَحْدُودَةٌ لَا تَتَغَيَّرُ دَاخِلَ مَسْأَلَةٍ أَوْ عِلَاقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الثَّابِتِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الطَّالِبُ ثَابِتًا فِي الْمُعَادَلَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمُتَغَيِّرِ الَّذِي تَتَعَدَّدُ قِيَمُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_022",
+      "arabic": "مُعَامِلٌ جَبْرِيٌّ",
+      "meaning_ar": "عَدَدٌ يَضْرِبُ مُتَغَيِّرًا أَوْ تَعْبِيرًا فِي صِيغَةٍ رِيَاضِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَامِلُ الْحَدِّ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ مُعَامِلَ الْمُتَغَيِّرِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ الْمُعَامِلُ سَالِبًا أَوْ كَسْرِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_023",
+      "arabic": "حَدٌّ جَبْرِيٌّ",
+      "meaning_ar": "جُزْءٌ مِنْ تَعْبِيرٍ جَبْرِيٍّ تَفْصِلُهُ عَنِ الْأَجْزَاءِ عَمَلِيَّاتُ جَمْعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَمْعُ الْحُدُودِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الطَّالِبُ الْحُدُودَ الْمُتَمَاثِلَةَ."
+      ],
+      "usage_note_ar": "يَتَأَلَّفُ عَادَةً مِنْ مُعَامِلٍ وَمُتَغَيِّرَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_024",
+      "arabic": "مُتَطَابِقَةٌ جَبْرِيَّةٌ",
+      "meaning_ar": "مُسَاوَاةٌ تَصِحُّ لِجَمِيعِ قِيَمِ الْمُتَغَيِّرَاتِ الْمَسْمُوحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِثْبَاتُ الْمُتَطَابِقَةِ"
+      ],
+      "examples_ar": [
+        "فَكَّ الطَّالِبُ مُرَبَّعَ مَجْمُوعِ عَدَدَيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ مُعَادَلَةٍ تَصِحُّ لِقِيَمٍ مُحَدَّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_025",
+      "arabic": "مُعَادَلَةٌ خَطِّيَّةٌ",
+      "meaning_ar": "مُعَادَلَةٌ يَكُونُ أَعْلَى أُسٍّ لِلْمُتَغَيِّرِ فِيهَا هُوَ الْوَاحِدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَلُّ الْمُعَادَلَةِ"
+      ],
+      "examples_ar": [
+        "أَوْجَدَ الطَّالِبُ قِيمَةَ الْمَجْهُولِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَمْثِيلُهَا بِمُسْتَقِيمٍ فِي حَالَةِ مُتَغَيِّرَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_026",
+      "arabic": "مُعَادَلَةٌ تَرْبِيعِيَّةٌ",
+      "meaning_ar": "مُعَادَلَةٌ كَثِيرَةُ حُدُودٍ تَكُونُ أَعْلَى دَرَجَةٍ فِيهَا اثْنَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جُذُورُ الْمُعَادَلَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الطَّالِبُ الْمُمَيِّزَ لِإِيجَادِ الْحُلُولِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ جُذُورُهَا حَقِيقِيَّةً أَوْ مُرَكَّبَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_027",
+      "arabic": "مُعَادَلَةٌ تَكْعِيبِيَّةٌ",
+      "meaning_ar": "مُعَادَلَةٌ كَثِيرَةُ حُدُودٍ أَعْلَى دَرَجَةٍ فِيهَا ثَلَاثٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَلُّ الْمُعَادَلَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مُنْحَنَى دَالَّةٍ تَكْعِيبِيَّةٍ."
+      ],
+      "usage_note_ar": "لَهَا ثَلَاثَةُ جُذُورٍ مُرَكَّبَةٍ عِنْدَ احْتِسَابِ التَّكْرَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_028",
+      "arabic": "مَجْمُوعَةُ الْحَلِّ",
+      "meaning_ar": "مَجْمُوعَةُ الْقِيَمِ الَّتِي تَجْعَلُ الْمُعَادَلَةَ أَوِ الشَّرْطَ صَحِيحًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْحُلُولِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ مَجْمُوعَةَ الْحَلِّ بَيْنَ قَوْسَيْنِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ خَالِيَةً أَوْ تَضُمُّ عُنْصُرًا أَوْ أَكْثَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_029",
+      "arabic": "نِظَامُ مُعَادَلَاتٍ",
+      "meaning_ar": "مَجْمُوعَةُ مُعَادَلَاتٍ يُرَادُ حَلُّهَا بِالْقِيَمِ نَفْسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَلٌّ مُشْتَرَكٌ"
+      ],
+      "examples_ar": [
+        "حَلَّ الطَّالِبُ مُعَادَلَتَيْنِ بِالتَّعْوِيضِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مُتَّسِقًا أَوْ دُونَ حَلٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_030",
+      "arabic": "مُتَبَايِنَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "عِلَاقَةٌ تُقَارِنُ كَمِّيَّتَيْنِ بِالرُّمُوزِ الدَّالَّةِ عَلَى الْكِبَرِ أَوِ الصِّغَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَلُّ الْمُتَبَايِنَةِ"
+      ],
+      "examples_ar": [
+        "مَثَّلَ الطَّالِبُ الْحَلَّ عَلَى الْمُسْتَقِيمِ."
+      ],
+      "usage_note_ar": "تَنْعَكِسُ إِشَارَتُهَا عِنْدَ الضَّرْبِ فِي عَدَدٍ سَالِبٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_031",
+      "arabic": "مُتَطَابِقَةٌ مُثَلَّثِيَّةٌ",
+      "meaning_ar": "عِلَاقَةٌ صَحِيحَةٌ بَيْنَ دَوَالَّ مُثَلَّثِيَّةٍ لِكُلِّ قِيمَةٍ مُتَاحَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِثْبَاتُ الْعِلَاقَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الطَّالِبُ عِلَاقَةَ الْجَيْبِ وَجَيْبِ التَّمَامِ."
+      ],
+      "usage_note_ar": "تُفِيدُ فِي تَبْسِيطِ الْمُعَادَلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_032",
+      "arabic": "دَالَّةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "عَلَاقَةٌ تُخَصِّصُ لِكُلِّ عُنْصُرٍ مِنَ الْمَجَالِ قِيمَةً وَاحِدَةً فِي الْمُدَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيمَةُ الدَّالَّةِ"
+      ],
+      "examples_ar": [
+        "عَوَّضَ الطَّالِبُ بِالْعَدَدِ فِي الدَّالَّةِ."
+      ],
+      "usage_note_ar": "قَدْ تُكْتَبُ بِقَاعِدَةٍ أَوْ جَدْوَلٍ أَوْ رَسْمٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_033",
+      "arabic": "مَجَالُ الدَّالَّةِ",
+      "meaning_ar": "مَجْمُوعَةُ الْمُدْخَلَاتِ الْمَسْمُوحَةِ لِدَالَّةٍ رِيَاضِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْمَجَالِ"
+      ],
+      "examples_ar": [
+        "اسْتَبْعَدَ الطَّالِبُ الْقِيمَةَ الَّتِي تُصَفِّرُ الْمَقَامَ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مَجْمُوعَةِ الْمُخْرَجَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_034",
+      "arabic": "مَدَى الدَّالَّةِ",
+      "meaning_ar": "مَجْمُوعَةُ الْقِيَمِ الَّتِي تُنْتِجُهَا دَالَّةٌ لِمُدْخَلَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمَدَى"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ أَصْغَرَ قِيمَةٍ لِلدَّالَّةِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يَكُونَ أَصْغَرَ مِنَ الْمَجْمُوعَةِ الْمُسْتَهْدَفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_035",
+      "arabic": "دَالَّةٌ خَطِّيَّةٌ",
+      "meaning_ar": "دَالَّةٌ يُمَثَّلُ رَسْمُهَا الْبَيَانِيُّ بِخَطٍّ مُسْتَقِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَيْلُ الدَّالَّةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ الدَّالَّةَ عَلَى الْمُحْوَرَيْنِ."
+      ],
+      "usage_note_ar": "تَأْخُذُ فِي الِاسْتِعْمَالِ الْمَدْرَسِيِّ صِيغَةً أُلْفِيَّةً أَحْيَانًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_036",
+      "arabic": "دَالَّةٌ تَرْبِيعِيَّةٌ",
+      "meaning_ar": "دَالَّةٌ كَثِيرَةُ حُدُودٍ تَظْهَرُ فِيهَا قُوَّةُ الْمُتَغَيِّرِ الثَّانِيَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَأْسُ الْقَطْعِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ قَطْعًا مُكَافِئًا."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ مُتَزَايِدَةً ثُمَّ مُتَنَاقِصَةً أَوْ عَكْسَ ذَلِكَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_037",
+      "arabic": "دَالَّةٌ أُسِّيَّةٌ",
+      "meaning_ar": "دَالَّةٌ يَظْهَرُ الْمُتَغَيِّرُ فِيهَا فِي أُسِّ أَسَاسٍ ثَابِتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نُمُوٌّ أُسِّيٌّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَضَاعُفَ عَدَدِ الْخَلَايَا."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَمْثِيلِ النُّمُوِّ وَالتَّنَاقُصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_038",
+      "arabic": "دَالَّةٌ لُوغَارِيتْمِيَّةٌ",
+      "meaning_ar": "دَالَّةٌ تُعِيدُ الأُسَّ اللَّازِمَ لِبُلُوغِ قِيمَةٍ مِنْ أَسَاسٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَسْمُ الدَّالَّةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ الدَّالَّةَ بِمَعْكُوسِهَا الأُسِّيِّ."
+      ],
+      "usage_note_ar": "مَجَالُهَا الْحَقِيقِيُّ مَقْصُورٌ عَلَى الْمُوجَبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_039",
+      "arabic": "دَالَّةٌ دَوْرِيَّةٌ",
+      "meaning_ar": "دَالَّةٌ تَتَكَرَّرُ قِيَمُهَا بَعْدَ فَتْرَةٍ زَمَنِيَّةٍ أَوْ عَدَدِيَّةٍ ثَابِتَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرُ الدَّالَّةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مَوْجَةَ الْجَيْبِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي وَصْفِ الْحَرَكَاتِ الْمُتَكَرِّرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_040",
+      "arabic": "دَالَّةٌ مُتَصِلَةٌ",
+      "meaning_ar": "دَالَّةٌ لَا يَحْدُثُ فِي قِيَمِهَا انْقِطَاعٌ عِنْدَ نُقْطَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الِاتِّصَالِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مُنْحَنًى دُونَ قَفْزَاتٍ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ الِاتِّصَالُ تَطَابُقَ النِّهَايَةِ مَعَ قِيمَةِ الدَّالَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_041",
+      "arabic": "نِهَايَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "الْقِيمَةُ الَّتِي تَقْتَرِبُ مِنْهَا دَالَّةٌ عِنْدَ اقْتِرَابِ مُدْخَلِهَا مِنْ قِيمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ النِّهَايَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ سُلُوكَ الدَّالَّةِ قُرْبَ الصِّفْرِ."
+      ],
+      "usage_note_ar": "قَدْ تُوجَدُ النِّهَايَةُ وَإِنْ لَمْ تُعَرَّفِ الدَّالَّةُ فِي النُّقْطَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_042",
+      "arabic": "مُشْتَقَّةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "مِقْيَاسُ سُرْعَةِ تَغَيُّرِ الدَّالَّةِ لِمُدْخَلٍ صَغِيرٍ عِنْدَ نُقْطَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمُشْتَقَّةِ"
+      ],
+      "examples_ar": [
+        "أَوْجَدَ الطَّالِبُ مَيْلَ الْمُمَاسِّ."
+      ],
+      "usage_note_ar": "تُعَرَّفُ بِحَدِّ نِسْبَةِ التَّغَيُّرِ عِنْدَ وُجُودِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_043",
+      "arabic": "تَكَامُلٌ رِيَاضِيٌّ",
+      "meaning_ar": "عَمَلِيَّةٌ تُسْتَعْمَلُ لِحِسَابِ التَّرَاكُمِ أَوِ الْمِسَاحَاتِ بِشُرُوطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَكَامُلٌ مُحَدَّدٌ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ الْمِسَاحَةَ تَحْتَ الْمُنْحَنَى."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالِاشْتِقَاقِ فِي النَّظَرِيَّةِ الأَسَاسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_044",
+      "arabic": "تَكَامُلٌ غَيْرُ مُحَدَّدٍ",
+      "meaning_ar": "مَجْمُوعَةُ الدَّوَالِّ الَّتِي تَشْتَرِكُ فِي الْمُشْتَقَّةِ نَفْسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ثَابِتُ التَّكَامُلِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الطَّالِبُ ثَابِتًا إِلَى الْحَلِّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّكَامُلِ الْمُحَدَّدِ ذِي الْحُدُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_045",
+      "arabic": "تَكَامُلٌ مُحَدَّدٌ",
+      "meaning_ar": "عَدَدٌ يُمَثِّلُ تَرَاكُمَ دَالَّةٍ بَيْنَ حَدَّيْنِ مُعَيَّنَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَدَّا التَّكَامُلِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ مِسَاحَةَ شَكْلٍ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ سَالِبًا عِنْدَ وُجُودِ الْمِسَاحَةِ الْمُوَجَّهَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_046",
+      "arabic": "تَفَاضُلٌ جُزْئِيٌّ",
+      "meaning_ar": "اشْتِقَاقُ دَالَّةٍ مُتَعَدِّدَةِ الْمُتَغَيِّرَاتِ بِالنِّسْبَةِ لِمُتَغَيِّرٍ وَاحِدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُشْتَقَّةٌ جُزْئِيَّةٌ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الطَّالِبُ مُتَغَيِّرًا وَاشْتَقَّ بِالنِّسْبَةِ لِلْآخَرِ."
+      ],
+      "usage_note_ar": "تُعَدُّ الْمُتَغَيِّرَاتُ الْأُخْرَى ثَابِتَةً أَثْنَاءَ الْخُطْوَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_047",
+      "arabic": "مُتَسَلْسِلَةٌ عَدَدِيَّةٌ",
+      "meaning_ar": "مَجْمُوعُ حُدُودِ مُتَتَابِعَةٍ تُكْتَبُ وَفْقَ قَاعِدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَجْمُوعُ الْمُتَسَلْسِلَةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ مَجْمُوعَ الْحُدُودِ الأُولَى."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ مُتَقَارِبَةً أَوْ مُتَبَاعِدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_048",
+      "arabic": "مُتَتَالِيَةٌ حِسَابِيَّةٌ",
+      "meaning_ar": "تَتَابُعُ أَعْدَادٍ يَكُونُ فَرْقُ كُلِّ حَدَّيْنِ مُتَتَالِيَيْنِ ثَابِتًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَرْقُ الْمُتَتَالِيَةِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ الْحُدُودَ بِزِيَادَةِ اثْنَيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْمُتَتَالِيَةِ الْهَنْدَسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_049",
+      "arabic": "مُتَتَالِيَةٌ هَنْدَسِيَّةٌ",
+      "meaning_ar": "تَتَابُعُ أَعْدَادٍ يَنْتُجُ كُلُّ حَدٍّ فِيهِ بِضَرْبِ السَّابِقِ فِي نِسْبَةٍ ثَابِتَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَسَاسُ الْمُتَتَالِيَةِ"
+      ],
+      "examples_ar": [
+        "ضَاعَفَ الطَّالِبُ الْعَدَدَ فِي كُلِّ خُطْوَةٍ."
+      ],
+      "usage_note_ar": "يُمْكِنُ حِسَابُ مَجْمُوعِهَا بِصِيغٍ مَعْرُوفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_050",
+      "arabic": "تَقَارُبُ الْمُتَتَالِيَةِ",
+      "meaning_ar": "اقْتِرَابُ حُدُودِ مُتَتَالِيَةٍ مِنْ قِيمَةٍ مُعَيَّنَةٍ مَعَ زِيَادَةِ رَقْمِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ التَّقَارُبِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ الْحُدُودَ بِالْعَدَدِ وَاحِدٍ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي تَقَارُبَ الْحُدُودِ تَقَارُبَ مَجْمُوعِهَا دَائِمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_051",
+      "arabic": "تَبَاعُدُ الْمُتَسَلْسِلَةِ",
+      "meaning_ar": "عَدَمُ اسْتِقْرَارِ مَجْمُوعِ حُدُودِهَا عَلَى قِيمَةٍ نِهَائِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِبَارُ التَّبَاعُدِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الطَّالِبُ أَنَّ الْمَجْمُوعَ يَزْدَادُ بِدُونِ حَدٍّ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ الْحُدُودُ نَفْسُهَا مُتَنَاقِصَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_052",
+      "arabic": "مُتَّجِهٌ رِيَاضِيٌّ",
+      "meaning_ar": "كَمِّيَّةٌ لَهَا مِقْدَارٌ وَاتِّجَاهٌ فِي فَضَاءٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرْكَبَاتُ الْمُتَّجِهِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ سَهْمًا يُمَثِّلُ الْقُوَّةَ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْكَمِّيَّةِ الْقِيَاسِيَّةِ بِالِاتِّجَاهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_053",
+      "arabic": "مِقْدَارُ الْمُتَّجِهِ",
+      "meaning_ar": "طُولُ السَّهْمِ الَّذِي يُمَثِّلُ الْمُتَّجِهَ بِحَسَبِ مِقْيَاسٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمِقْدَارِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ طُولَ مُتَّجِهٍ فِي الْمُسْتَوَى."
+      ],
+      "usage_note_ar": "يَكُونُ غَيْرَ سَالِبٍ فِي الْمَقَايِيسِ الْمُعْتَادَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_054",
+      "arabic": "مُتَّجِهُ وَحْدَةٍ",
+      "meaning_ar": "مُتَّجِهٌ يَسَاوِي مِقْدَارُهُ الْوَاحِدَ وَيُحَدِّدُ اتِّجَاهًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ الْمُتَّجِهِ"
+      ],
+      "examples_ar": [
+        "قَسَمَ الطَّالِبُ الْمُتَّجِهَ عَلَى طُولِهِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلتَّعْبِيرِ عَنِ الِاتِّجَاهِ وَحْدَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_055",
+      "arabic": "جَدَاءٌ قِيَاسِيٌّ",
+      "meaning_ar": "عَمَلِيَّةٌ بَيْنَ مُتَّجِهَيْنِ تَنْتُجُ عَدَدًا بِحَسَبِ مَرْكَبَاتِهِمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْجَدَاءِ"
+      ],
+      "examples_ar": [
+        "أَوْجَدَ الطَّالِبُ الزَّاوِيَةَ بَيْنَ مُتَّجِهَيْنِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِقِيَاسِ التَّعَامُدِ وَالزَّوَايَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_056",
+      "arabic": "جَدَاءٌ اتِّجَاهِيٌّ",
+      "meaning_ar": "عَمَلِيَّةٌ بَيْنَ مُتَّجِهَيْنِ فِي ثَلَاثَةِ أَبْعَادٍ تُنْتِجُ مُتَّجِهًا عَمُودِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ الْجَدَاءِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ جَدَاءَ مُتَّجِهَيْنِ."
+      ],
+      "usage_note_ar": "يُحَدَّدُ اتِّجَاهُهُ بِقَاعِدَةِ الْيَدِ الْيُمْنَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_057",
+      "arabic": "مِصْفُوفَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "تَرْتِيبٌ مُسْتَطِيلٌ مِنْ أَعْدَادٍ أَوْ رُمُوزٍ فِي صُفُوفٍ وَأَعْمِدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَنَاصِرُ الْمِصْفُوفَةِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الطَّالِبُ مِصْفُوفَتَيْنِ مُتَسَاوِيَتَيِ الْحَجْمِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَمْثِيلِ تَحْوِيلَاتٍ وَمُعَادَلَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_058",
+      "arabic": "مُحَدِّدُ الْمِصْفُوفَةِ",
+      "meaning_ar": "قِيمَةٌ عَدَدِيَّةٌ تُحْسَبُ لِمِصْفُوفَةٍ مُرَبَّعَةٍ بِطَرِيقَةٍ مَعْرُوفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمُحَدِّدِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الطَّالِبُ أَنَّ الْمُحَدِّدَ يُسَاوِي الصِّفْرَ."
+      ],
+      "usage_note_ar": "يُبَيِّنُ إِنْ كَانَ التَّحْوِيلُ قَابِلًا لِلْعَكْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_059",
+      "arabic": "مِصْفُوفَةٌ مَعْكُوسَةٌ",
+      "meaning_ar": "مِصْفُوفَةٌ يُؤَدِّي ضَرْبُهَا فِي الأَصْلِيَّةِ إِلَى مِصْفُوفَةِ الْوَحْدَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِيجَادُ الْمَعْكُوسِ"
+      ],
+      "examples_ar": [
+        "حَلَّ الطَّالِبُ النِّظَامَ بِالْمِصْفُوفَةِ الْمَعْكُوسَةِ."
+      ],
+      "usage_note_ar": "لَا يُوجَدُ مَعْكُوسٌ لِكُلِّ مِصْفُوفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_060",
+      "arabic": "قِيمَةٌ ذَاتِيَّةٌ",
+      "meaning_ar": "عَدَدٌ يَصِفُ كَيْفَ يَقِيسُ تَحْوِيلٌ خَطِّيٌّ مُتَّجِهًا خَاصًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْرَجَ الطَّالِبُ الْقِيَمَ الذَّاتِيَّةَ لِلْمِصْفُوفَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي تَحْلِيلِ الْأَنْظِمَةِ وَالْبَيَانَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_061",
+      "arabic": "مُتَّجِهٌ ذَاتِيٌّ",
+      "meaning_ar": "مُتَّجِهٌ غَيْرُ صِفْرِيٍّ يَتَغَيَّرُ مِقْدَارُهُ فَقَطْ بِتَحْوِيلٍ خَطِّيٍّ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُتَّجِهُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ اتِّجَاهًا لَا يَتَغَيَّرُ بِالتَّحْوِيلِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِقِيمَةٍ ذَاتِيَّةٍ تُحَدِّدُ مِقْدَارَ التَّغَيُّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_062",
+      "arabic": "مَجْمُوعَةٌ رِيَاضِيَّةٌ",
+      "meaning_ar": "تَجَمُّعٌ مُحَدَّدٌ مِنْ عَنَاصِرَ يُمْكِنُ تَمْيِيزُ عُضْوِيَّتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُنْصُرُ الْمَجْمُوعَةِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ أَعْدَادًا بَيْنَ قَوْسَيْنِ."
+      ],
+      "usage_note_ar": "لَا يُكَرَّرُ الْعُنْصُرُ فِيهَا لِتَغْيِيرِ الْمَجْمُوعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_063",
+      "arabic": "مَجْمُوعَةٌ خَالِيَةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ لَا تَحْتَوِي عَلَى أَيِّ عُنْصُرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَمْزُ الْمَجْمُوعَةِ"
+      ],
+      "examples_ar": [
+        "أَوْجَدَ الطَّالِبُ تَقَاطُعًا خَالِيًا."
+      ],
+      "usage_note_ar": "تُعَدُّ جُزْءًا مِنْ كُلِّ مَجْمُوعَةٍ بِمَعْنَى الِاحْتِوَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_064",
+      "arabic": "مَجْمُوعَةٌ جُزْئِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ تَكُونُ كُلُّ عَنَاصِرِهَا مَوْجُودَةً فِي مَجْمُوعَةٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَلاقَةُ الِاحْتِوَاءِ"
+      ],
+      "examples_ar": [
+        "أَثْبَتَ الطَّالِبُ أَنَّ الأَوَّلَى جُزْءٌ مِنَ الثَّانِيَةِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ تُسَاوِيَ الْمَجْمُوعَةُ الْجُزْئِيَّةُ الْأَصْلَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_065",
+      "arabic": "اتِّحَادُ الْمَجْمُوعَاتِ",
+      "meaning_ar": "مَجْمُوعَةٌ تَضُمُّ الْعَنَاصِرَ الَّتِي تَنْتَمِي إِلَى وَاحِدَةٍ عَلَى الأَقَلِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الِاتِّحَادِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الطَّالِبُ عَنَاصِرَ الْمَجْمُوعَتَيْنِ."
+      ],
+      "usage_note_ar": "لَا يُكَرَّرُ الْعُنْصُرُ الْمُشْتَرَكُ فِي النَّتِيجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_066",
+      "arabic": "تَقَاطُعُ الْمَجْمُوعَاتِ",
+      "meaning_ar": "مَجْمُوعَةٌ تَضُمُّ الْعَنَاصِرَ الْمُشْتَرَكَةَ بَيْنَ مَجْمُوعَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِيجَادُ التَّقَاطُعِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ الأَعْدَادَ الْمُشْتَرَكَةَ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ التَّقَاطُعُ خَالِيًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_067",
+      "arabic": "مُتَمِّمُ الْمَجْمُوعَةِ",
+      "meaning_ar": "مَجْمُوعَةُ الْعَنَاصِرِ فِي الْمَجَالِ الْمُحَدَّدِ وَغَيْرِ الْمَوْجُودَةِ فِي الْمَجْمُوعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمُتَمِّمِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ الأَعْدَادَ الْخَارِجَةَ عَنِ الْفِئَةِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى مَجْمُوعَةٍ شَامِلَةٍ مُحَدَّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_068",
+      "arabic": "عَلاقَةٌ ثُنَائِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنْ أَزْوَاجٍ مُرَتَّبَةٍ تَرْبِطُ عَنَاصِرَ مَجْمُوعَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَعْرِيفُ الْعَلَاقَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ سِهَامًا بَيْنَ الْعَنَاصِرِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ انْعِكَاسِيَّةً أَوْ مُتَعَدِّيَةً بِحَسَبِ شُرُوطٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_069",
+      "arabic": "تَكَافُؤٌ رِيَاضِيٌّ",
+      "meaning_ar": "عَلاقَةٌ تَجْمَعُ بَيْنَ الِانْعِكَاسِيَّةِ وَالتَّنَاظُرِ وَالتَّعَدِّي.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فِئَةُ التَّكَافُؤِ"
+      ],
+      "examples_ar": [
+        "قَسَّمَ الطَّالِبُ الْعَنَاصِرَ إِلَى فِئَاتٍ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَجْمِيعِ الْعَنَاصِرِ الْمُتَكَافِئَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_070",
+      "arabic": "تَبْدِيلٌ رِيَاضِيٌّ",
+      "meaning_ar": "تَرْتِيبٌ مُعَيَّنٌ لِعَنَاصِرَ مُمَيَّزَةٍ مَعَ مُرَاعَاةِ مَوَاضِعِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَدَدُ التَّبْدِيلَاتِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ تَرْتِيبَ الْمَقَاعِدِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّوْفِيقِ الَّذِي لَا يَعْتَدُّ بِالتَّرْتِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_071",
+      "arabic": "تَوْفِيقٌ رِيَاضِيٌّ",
+      "meaning_ar": "اخْتِيَارُ مَجْمُوعَةٍ مِنْ عَنَاصِرَ دُونَ الِاعْتِدَادِ بِتَرْتِيبِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَدَدُ التَّوْفِيقَاتِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الطَّالِبُ ثَلَاثَةَ أَشْخَاصٍ مِنْ فَرِيقٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي حِسَابِ الِاحْتِمَالَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_072",
+      "arabic": "مَضْرُوبُ الْعَدَدِ",
+      "meaning_ar": "حَاصِلُ ضَرْبِ الأَعْدَادِ الصَّحِيحَةِ الْمُوجَبَةِ حَتَّى عَدَدٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَمْزُ الْمَضْرُوبِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ مَضْرُوبَ الْخَمْسَةِ."
+      ],
+      "usage_note_ar": "يُعَرَّفُ مَضْرُوبُ الصِّفْرِ بِالْوَاحِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_073",
+      "arabic": "احْتِمَالٌ رِيَاضِيٌّ",
+      "meaning_ar": "قِيمَةٌ بَيْنَ الصِّفْرِ وَالْوَاحِدِ تَصِفُ فُرْصَةَ وُقُوعِ حَدَثٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الِاحْتِمَالِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ فُرْصَةَ ظُهُورِ وَجْهٍ فِي الْقُرْعَةِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى النَّمُوذَجِ وَالِافْتِرَاضَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_074",
+      "arabic": "فَضَاءُ الْعَيِّنَةِ",
+      "meaning_ar": "مَجْمُوعَةُ النَّتَائِجِ الْمُمْكِنَةِ لِتَجْرِبَةٍ عَشْوَائِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَنَاصِرُ الْفَضَاءِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الطَّالِبُ النَّتَائِجَ الْمُمْكِنَةَ لِرَمْيِ نَرْدٍ."
+      ],
+      "usage_note_ar": "يَجِبُ تَحْدِيدُهُ قَبْلَ حِسَابِ الِاحْتِمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_075",
+      "arabic": "حَدَثٌ عَشْوَائِيٌّ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ النَّتَائِجِ الْمُمْكِنَةِ فِي تَجْرِبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "احْتِمَالُ الْحَدَثِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ فُرْصَةَ وُقُوعِ عَدَدٍ زَوْجِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ يَضُمُّ نَتِيجَةً وَاحِدَةً أَوْ أَكْثَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_076",
+      "arabic": "حَدَثَانِ مُسْتَقِلَّانِ",
+      "meaning_ar": "حَدَثَانِ لَا يُغَيِّرُ وُقُوعُ أَحَدِهِمَا احْتِمَالَ وُقُوعِ الْآخَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الِاسْتِقْلَالِ"
+      ],
+      "examples_ar": [
+        "رَمَى الطَّالِبُ قِطْعَةَ نَقْدٍ مَرَّتَيْنِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي الِاسْتِقْلَالُ أَنَّهُمَا مُتَنَافِيَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_077",
+      "arabic": "حَدَثَانِ مُتَنَافِيَانِ",
+      "meaning_ar": "حَدَثَانِ لَا يُمْكِنُ أَنْ يَحْدُثَا مَعًا فِي التَّجْرِبَةِ نَفْسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَنَافِي الْحَدَثَيْنِ"
+      ],
+      "examples_ar": [
+        "لَا يَظْهَرُ الْعَدَدُ زَوْجِيًّا وَفَرْدِيًّا مَعًا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ التَّنَافِي عَنِ الِاسْتِقْلَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_078",
+      "arabic": "احْتِمَالٌ شَرْطِيٌّ",
+      "meaning_ar": "احْتِمَالُ حَدَثٍ عِنْدَ مَعْرِفَةِ وُقُوعِ حَدَثٍ آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَاعِدَةُ الِاحْتِمَالِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ فُرْصَةَ النَّجَاحِ بَعْدَ الِاخْتِبَارِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ أَنْ يَكُونَ احْتِمَالُ الشَّرْطِ مُوجَبًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_079",
+      "arabic": "مُتَغَيِّرٌ عَشْوَائِيٌّ",
+      "meaning_ar": "دَالَّةٌ تُسْنِدُ قِيمَةً عَدَدِيَّةً إِلَى كُلِّ نَتِيجَةٍ لِتَجْرِبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيمَةُ الْمُتَغَيِّرِ"
+      ],
+      "examples_ar": [
+        "عَدَّ الطَّالِبُ عَدَدَ الرُّؤُوسِ فِي الرَّمْيَاتِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مُتَقَطِّعًا أَوْ مُسْتَمِرًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_080",
+      "arabic": "تَوْزِيعٌ احْتِمَالِيٌّ",
+      "meaning_ar": "وَصْفٌ لِاحْتِمَالَاتِ الْقِيَمِ الَّتِي يَأْخُذُهَا مُتَغَيِّرٌ عَشْوَائِيٌّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ التَّوْزِيعِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ احْتِمَالَ كُلِّ نَتِيجَةٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ شَكْلُهُ بَيْنَ الْمُتَقَطِّعِ وَالْمُسْتَمِرِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_081",
+      "arabic": "تَوْزِيعٌ طَبِيعِيٌّ",
+      "meaning_ar": "تَوْزِيعٌ احْتِمَالِيٌّ مُتَّصِلٌ ذُو مَنْحَنًى مُتَنَاظِرٍ عَلَى شَكْلِ جَرَسٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُتَوَسِّطُ التَّوْزِيعِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ قِيَاسَاتٍ تَقْرُبُ مِنَ التَّوْزِيعِ الطَّبِيعِيِّ."
+      ],
+      "usage_note_ar": "تَحْدِّدُهُ قِيمَتَا الْمُتَوَسِّطِ وَالتَّبَايُنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_082",
+      "arabic": "تَوْزِيعٌ ثُنَائِيٌّ",
+      "meaning_ar": "تَوْزِيعٌ لِعَدَدِ النَّجَاحَاتِ فِي تَجَارِبَ مُسْتَقِلَّةٍ ثَابِتَةِ الِاحْتِمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَدَدُ النَّجَاحَاتِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ نَجَاحَ ثَلَاثِ مُحَاوَلَاتٍ."
+      ],
+      "usage_note_ar": "يَفْتَرِضُ عَدَدًا مُحَدَّدًا مِنَ الْمُحَاوَلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_083",
+      "arabic": "تَوْزِيعُ بُوَاسُونْ",
+      "meaning_ar": "تَوْزِيعٌ يَصِفُ عَدَدَ وُقُوعِ أَحْدَاثٍ فِي فَتْرَةٍ عِنْدَ افْتِرَاضَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ الْحَدَثِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْبَاحِثُ عَدَدَ الْوُصُولِ فِي دَقِيقَةٍ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى مُعَدَّلِ حُدُوثٍ ثَابِتٍ فِي النَّمُوذَجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_084",
+      "arabic": "تَوَقُّعٌ رِيَاضِيٌّ",
+      "meaning_ar": "مُتَوَسِّطٌ مُرَجَّحٌ لِلْقِيَمِ الْمُمْكِنَةِ بِحَسَبِ احْتِمَالَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْقِيمَةُ الْمُتَوَقَّعَةُ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ التَّوَقُّعَ لِتَجْرِبَةٍ."
+      ],
+      "usage_note_ar": "قَدْ لَا تَكُونُ الْقِيمَةُ الْمُتَوَقَّعَةُ نَتِيجَةً مُمْكِنَةً بِنَفْسِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_085",
+      "arabic": "تَبَايُنٌ إِحْصَائِيٌّ",
+      "meaning_ar": "مُتَوَسِّطٌ لِمُرَبَّعَاتِ الْفُرُوقِ عَنِ الْمُتَوَسِّطِ بِحَسَبِ النَّمُوذَجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ التَّبَايُنِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ تَشَتُّتَ الْقِيَاسَاتِ."
+      ],
+      "usage_note_ar": "تَكُونُ وَحْدَتُهُ مُرَبَّعَ وَحْدَةِ الْقِيَاسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_086",
+      "arabic": "انْحِرَافٌ مِعْيَارِيٌّ",
+      "meaning_ar": "الْجَذْرُ التَّرْبِيعِيُّ لِلتَّبَايُنِ وَهُوَ مِقْيَاسٌ لِلتَّشَتُّتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الِانْحِرَافِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ انْحِرَافَ الدَّرَجَاتِ."
+      ],
+      "usage_note_ar": "يُعَبَّرُ عَنْهُ بِوَحْدَةِ الْمُتَغَيِّرِ نَفْسِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_087",
+      "arabic": "مُتَوَسِّطٌ حِسَابِيٌّ",
+      "meaning_ar": "حَاصِلُ قِسْمَةِ مَجْمُوعِ الْقِيَمِ عَلَى عَدَدِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمُتَوَسِّطِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الطَّالِبُ الدَّرَجَاتِ وَقَسَمَهَا عَلَى عَدَدِهَا."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْقِيَمِ الْمُتَطَرِّفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_088",
+      "arabic": "وَسِيطٌ إِحْصَائِيٌّ",
+      "meaning_ar": "الْقِيمَةُ الْوَسْطَى بَعْدَ تَرْتِيبِ الْبَيَانَاتِ تَصَاعُدِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْوَسِيطِ"
+      ],
+      "examples_ar": [
+        "رَتَّبَ الطَّالِبُ الدَّرَجَاتِ مِنَ الأَصْغَرِ لِلْأَكْبَرِ."
+      ],
+      "usage_note_ar": "لَا يَتَأَثَّرُ بِالْقِيَمِ الْمُتَطَرِّفَةِ بِقَدْرِ الْمُتَوَسِّطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_089",
+      "arabic": "مِنْوَالٌ إِحْصَائِيٌّ",
+      "meaning_ar": "الْقِيمَةُ الَّتِي تَتَكَرَّرُ أَكْثَرَ مِنْ غَيْرِهَا فِي الْبَيَانَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمِنْوَالِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الطَّالِبُ أَكْثَرَ الأَلْوَانِ شُيُوعًا."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ هُنَاكَ أَكْثَرُ مِنْ مِنْوَالٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_090",
+      "arabic": "رُبَيْعٌ إِحْصَائِيٌّ",
+      "meaning_ar": "قِيمَةٌ تُقَسِّمُ الْبَيَانَاتِ الْمُرَتَّبَةَ إِلَى أَرْبَعَةِ أَجْزَاءٍ تَقْرِيبًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الرُّبَيْعُ الأَوَّلُ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ الرُّبَيْعَ الثَّالِثَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طُرُقُ الْحِسَابِ قَلِيلًا بَيْنَ الْبَرَامِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_091",
+      "arabic": "مَدًى رُبَيْعِيٌّ",
+      "meaning_ar": "الْفَرْقُ بَيْنَ الرُّبَيْعِ الثَّالِثِ وَالرُّبَيْعِ الأَوَّلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمَدَى"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْبَاحِثُ الْمَدَى لِوَصْفِ التَّشَتُّتِ."
+      ],
+      "usage_note_ar": "أَقَلُّ تَأَثُّرًا بِالْقِيَمِ الْمُتَطَرِّفَةِ مِنَ الْمَدَى الْكُلِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_092",
+      "arabic": "قِيمَةٌ شَاذَّةٌ",
+      "meaning_ar": "مُشَاهَدَةٌ تَبْتَعِدُ بِوُضُوحٍ عَنْ مُعْظَمِ قِيَمِ الْبَيَانَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْبَاحِثُ الْقِيَاسَ الْمُرْتَفِعَ جِدًّا."
+      ],
+      "usage_note_ar": "لَا يَلْزَمُ أَنْ تَكُونَ خَاطِئَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_093",
+      "arabic": "عَيِّنَةٌ إِحْصَائِيَّةٌ",
+      "meaning_ar": "جُزْءٌ مِنْ مُجْتَمَعٍ إِحْصَائِيٍّ يُخْتَارُ لِلدِّرَاسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَجْمُ الْعَيِّنَةِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْبَاحِثُ مِئَةَ طَالِبٍ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ اخْتِيَارُهَا فِي صِحَّةِ التَّقْدِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_094",
+      "arabic": "مُجْتَمَعٌ إِحْصَائِيٌّ",
+      "meaning_ar": "جَمِيعُ الأَفْرَادِ أَوِ الْوَحَدَاتِ الَّتِي تَهْدِفُ الدِّرَاسَةُ لِوَصْفِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَدُّ الْمُجْتَمَعِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ طُلَّابَ الْمَدْرَسَةِ كُلَّهُمْ."
+      ],
+      "usage_note_ar": "يَجِبُ تَحْدِيدُهُ بِدِقَّةٍ قَبْلَ أَخْذِ الْعَيِّنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_095",
+      "arabic": "مُعَايَنَةٌ عَشْوَائِيَّةٌ",
+      "meaning_ar": "اخْتِيَارُ عَنَاصِرَ بِطَرِيقَةٍ تَمْنَحُ فُرَصًا مَعْرُوفَةً لِلِاخْتِيَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ الْمُعَايَنَةِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْبَاحِثُ أَرْقَامًا بِالْقُرْعَةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَقْلِيلِ تَحَيُّزِ الِاخْتِيَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_096",
+      "arabic": "مُعَايَنَةٌ طَبَقِيَّةٌ",
+      "meaning_ar": "تَقْسِيمُ الْمُجْتَمَعِ إِلَى طَبَقَاتٍ ثُمَّ سَحْبُ عَيِّنَاتٍ مِنْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَبَقَاتُ الْعَيِّنَةِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْبَاحِثُ طُلَّابًا مِنْ كُلِّ صَفٍّ."
+      ],
+      "usage_note_ar": "تُحَسِّنُ تَمْثِيلَ الْفِئَاتِ عِنْدَ حُسْنِ التَّصْمِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_097",
+      "arabic": "مُعَايَنَةٌ عُنْقُودِيَّةٌ",
+      "meaning_ar": "اخْتِيَارُ مَجْمُوعَاتٍ مِنَ الْوَحَدَاتِ ثُمَّ دِرَاسَةُ كُلِّهَا أَوْ بَعْضِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُنْقُودُ الْعَيِّنَةِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْبَاحِثُ مَدَارِسَ ثُمَّ طُلَّابًا مِنْهَا."
+      ],
+      "usage_note_ar": "تُخَفِّضُ بَعْضَ تَكَالِيفِ جَمْعِ الْبَيَانَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_098",
+      "arabic": "تَحَيُّزُ الِاخْتِيَارِ",
+      "meaning_ar": "خَطَأٌ مُنْتَظِمٌ يَنْشَأُ مِنْ طَرِيقَةِ اخْتِيَارِ الْمُشَارِكِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَجَنُّبُ التَّحَيُّزِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْبَاحِثُ طَرِيقَةَ تَجْنِيدِ الْعَيِّنَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَمْنَعُ تَعْمِيمَ النَّتَائِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_099",
+      "arabic": "خَطَأُ الْمُعَايَنَةِ",
+      "meaning_ar": "فَرْقٌ بَيْنَ تَقْدِيرٍ مِنْ عَيِّنَةٍ وَالْقِيمَةِ فِي الْمُجْتَمَعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ الْخَطَإِ"
+      ],
+      "examples_ar": [
+        "زَادَ الْبَاحِثُ حَجْمَ الْعَيِّنَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ الأَخْطَاءِ النَّاتِجَةِ عَنِ الْقِيَاسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_100",
+      "arabic": "فَاصِلُ الثِّقَةِ",
+      "meaning_ar": "مَجَالٌ يَنْتُجُ مِنْ طَرِيقَةٍ إِحْصَائِيَّةٍ لِتَقْدِيرِ مُعْلَمٍ مَجْهُولٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْفَاصِلِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الْبَاحِثُ نِسْبَةَ النَّجَاحِ بِمَجَالٍ."
+      ],
+      "usage_note_ar": "تَتَعَلَّقُ نِسْبَةُ الثِّقَةِ بِأَدَاءِ الطَّرِيقَةِ عَبْرَ الْعَيِّنَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_101",
+      "arabic": "فَرْضِيَّةٌ إِحْصَائِيَّةٌ",
+      "meaning_ar": "ادِّعَاءٌ عَنْ مُعْلَمٍ أَوْ نَمُوذَجٍ يُمْكِنُ اخْتِبَارُهُ بِالْبَيَانَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِيَاغَةُ الْفَرْضِيَّةِ"
+      ],
+      "examples_ar": [
+        "افْتَرَضَ الْبَاحِثُ عَدَمَ وُجُودِ فَرْقٍ."
+      ],
+      "usage_note_ar": "تُقَارَنُ الْبَيَانَاتُ بِمَا يُتَوَقَّعُ تَحْتَ الْفَرْضِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_102",
+      "arabic": "فَرْضِيَّةٌ صِفْرِيَّةٌ",
+      "meaning_ar": "فَرْضِيَّةٌ تَكُونُ مَرْجِعًا لِحِسَابِ دَلَالَةِ الْأَدِلَّةِ الْإِحْصَائِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِبَارُ الْفَرْضِيَّةِ"
+      ],
+      "examples_ar": [
+        "اخْتَبَرَ الْبَاحِثُ عَدَمَ وُجُودِ تَأْثِيرٍ."
+      ],
+      "usage_note_ar": "رَفْضُهَا لَا يَعْنِي إِثْبَاتَ كُلِّ تَفَاصِيلِ الْبَدِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_103",
+      "arabic": "فَرْضِيَّةٌ بَدِيلَةٌ",
+      "meaning_ar": "فَرْضِيَّةٌ تُطْرَحُ مُقَابِلَ الْفَرْضِيَّةِ الصِّفْرِيَّةِ فِي الِاخْتِبَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَرْضِيَّةُ الْفَرْقِ"
+      ],
+      "examples_ar": [
+        "اخْتَبَرَ الْبَاحِثُ وُجُودَ تَأْثِيرٍ."
+      ],
+      "usage_note_ar": "تُحَدَّدُ قَبْلَ تَحْلِيلِ الْبَيَانَاتِ لِتَجَنُّبِ التَّحَيُّزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_104",
+      "arabic": "قِيمَةٌ احْتِمَالِيَّةٌ",
+      "meaning_ar": "احْتِمَالُ الْحُصُولِ عَلَى نَتِيجَةٍ مُمَاثِلَةٍ أَوْ أَشَدَّ تَطَرُّفًا تَحْتَ الْفَرْضِيَّةِ الصِّفْرِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ النَّتِيجَةَ بِالْحَدِّ الْمُسْبَقِ."
+      ],
+      "usage_note_ar": "لَا تُمَثِّلُ احْتِمَالَ صِحَّةِ الْفَرْضِيَّةِ الصِّفْرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_105",
+      "arabic": "دَلَالَةٌ إِحْصَائِيَّةٌ",
+      "meaning_ar": "وَصْفٌ لِنَتِيجَةٍ تَتَجَاوَزُ عَتَبَةً مُحَدَّدَةً لِلِاخْتِبَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُسْتَوَى الدَّلَالَةِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ فَرْقًا ذَا دَلَالَةٍ."
+      ],
+      "usage_note_ar": "لَا تَعْنِي بِالضَّرُورَةِ أَهَمِّيَّةً عَمَلِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_106",
+      "arabic": "حَجْمُ الْأَثَرِ",
+      "meaning_ar": "مِقْيَاسٌ لِمِقْدَارِ الِاخْتِلَافِ أَوِ الِارْتِبَاطِ فِي دِرَاسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الأَثَرِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ حَجْمَ الأَثَرِ بِالدَّلَالَةِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ الْأَهَمِّيَّةِ الْعَمَلِيَّةِ لِلنَّتِيجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_107",
+      "arabic": "ارْتِبَاطٌ إِحْصَائِيٌّ",
+      "meaning_ar": "عَلَاقَةٌ بَيْنَ مُتَغَيِّرَيْنِ تُظْهِرُ كَيْفَ يَتَغَيَّرَانِ مَعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَامِلُ الِارْتِبَاطِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ عَلَاقَةَ الطُّولِ بِالْوَزْنِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي الِارْتِبَاطُ وُجُودَ سَبَبِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_108",
+      "arabic": "انْحِدَارٌ خَطِّيٌّ",
+      "meaning_ar": "نَمُوذَجٌ يُقَدِّرُ عَلَاقَةً خَطِّيَّةً بَيْنَ مُتَغَيِّرٍ تَابِعٍ وَمُفَسِّرَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَامِلُ الِانْحِدَارِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ خَطًّا يُقَرِّبُ الْبَيَانَاتِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ التَّنَبُّؤَاتُ إِلَى فَحْصِ افْتِرَاضَاتِ النَّمُوذَجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_109",
+      "arabic": "بَاقِي الِانْحِدَارِ",
+      "meaning_ar": "الْفَرْقُ بَيْنَ قِيمَةٍ مَرْصُودَةٍ وَقِيمَةٍ يُقَدِّرُهَا النَّمُوذَجُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْبَوَاقِي"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْبَاحِثُ الرَّسْمَ بَعْدَ الْمُلَاءَمَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَشْخِيصِ خَلَلِ افْتِرَاضَاتِ النَّمُوذَجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_110",
+      "arabic": "مُعَامِلُ التَّحْدِيدِ",
+      "meaning_ar": "مِقْيَاسٌ يَلْخُصُ جُزْءًا مِنْ تَفَاوُتِ النَّتَائِجِ الَّذِي يُفَسِّرُهُ نَمُوذَجٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيمَةُ الْمُعَامِلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ مَلَاءَمَةَ نَمُوذَجَيْنِ."
+      ],
+      "usage_note_ar": "لَا يَكْفِي وَحْدَهُ لِإِثْبَاتِ صِحَّةِ النَّمُوذَجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_111",
+      "arabic": "تَجْرِبَةٌ مَضْبُوطَةٌ",
+      "meaning_ar": "دِرَاسَةٌ تُثَبَّتُ فِيهَا عَوَامِلُ لِقِيَاسِ أَثَرِ عَامِلٍ مَحْدُودٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْمَجْمُوعَةُ الضَّابِطَةُ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ مَجْمُوعَتَيْنِ فِي التَّجْرِبَةِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَخْطِيطٍ لِتَقْلِيلِ التَّحَيُّزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_112",
+      "arabic": "مَجْمُوعَةٌ ضَابِطَةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ تُسْتَعْمَلُ مَرْجِعًا لِمُقَارَنَةِ أَثَرِ تَدَخُّلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَتَائِجُ الضَّابِطَةِ"
+      ],
+      "examples_ar": [
+        "لَمْ تَتَلَقَّ الْمَجْمُوعَةُ التَّدَخُّلَ الْجَدِيدَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ التَّصَامِيمُ بِحَسَبِ الْمَجَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_113",
+      "arabic": "تَعْمِيَةٌ تَجْرِيبِيَّةٌ",
+      "meaning_ar": "إِخْفَاءُ مَعْلُومَةِ التَّخْصِيصِ عَنْ بَعْضِ الْمُشَارِكِينَ أَوِ الْبَاحِثِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَرَجَةُ التَّعْمِيَةِ"
+      ],
+      "examples_ar": [
+        "لَمْ يَعْلَمِ الْمُقَيِّمُ مَنْ تَلَقَّى التَّدَخُّلَ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَقْلِيلِ بَعْضِ أَنْوَاعِ التَّحَيُّزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_114",
+      "arabic": "تَوْزِيعٌ عَشْوَائِيٌّ تَجْرِيبِيٌّ",
+      "meaning_ar": "تَخْصِيصُ الْمُشَارِكِينَ لِلْمَجْمُوعَاتِ بِآلِيَّةٍ عَشْوَائِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِجْرَاءُ التَّوْزِيعِ"
+      ],
+      "examples_ar": [
+        "وُزِّعَ الْمُشَارِكُونَ إِلَى فَرِيقَيْنِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ الِاخْتِيَارِ الْعَشْوَائِيِّ لِعَيِّنَةِ السُّكَّانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_115",
+      "arabic": "تَكْرَارٌ تَجْرِيبِيٌّ",
+      "meaning_ar": "إِعَادَةُ اخْتِبَارٍ بِعَيِّنَاتٍ أَوْ جَوْلَاتٍ لِلْتَحَقُّقِ مِنَ النَّتَائِجِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَكْرَارُ الْقِيَاسِ"
+      ],
+      "examples_ar": [
+        "أَعَادَ الْمَخْبَرُ التَّجْرِبَةَ ثَلَاثَ مَرَّاتٍ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَقْدِيرِ التَّفَاوُتِ وَالْمَوْثُوقِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_116",
+      "arabic": "قَابِلِيَّةُ إِعَادَةِ الْإِنْتَاجِ",
+      "meaning_ar": "إِمْكَانُ الْوُصُولِ إِلَى نَتِيجَةٍ مُمَاثِلَةٍ بِاسْتِعْمَالِ الْبَيَانَاتِ وَالطَّرِيقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعَادَةُ التَّحْلِيلِ"
+      ],
+      "examples_ar": [
+        "نَشَرَ الْبَاحِثُ الْخُطُوَاتِ لِلتَّحَقُّقِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ وُضُوحَ الْإِجْرَاءَاتِ وَالْمُدْخَلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_117",
+      "arabic": "قَابِلِيَّةُ التَّكْرَارِ الْعِلْمِيِّ",
+      "meaning_ar": "إِمْكَانُ اسْتِخْدَامِ تَجْرِبَةٍ مُمَاثِلَةٍ لِلْحُصُولِ عَلَى نَتَائِجَ مُتَّفِقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَكْرَارُ التَّجْرِبَةِ"
+      ],
+      "examples_ar": [
+        "أَعَادَ مَخْبَرٌ آخَرُ الِاخْتِبَارَ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ وَصْفَ الْمَوَادِّ وَالطُّرُقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_118",
+      "arabic": "مُتَغَيِّرٌ مُسْتَقِلٌّ",
+      "meaning_ar": "عَامِلٌ يَتَحَكَّمُ فِيهِ الْبَاحِثُ أَوْ يَسْتَخْدِمُهُ لِتَفْسِيرِ النَّتِيجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْعَامِلِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الْبَاحِثُ دَرَجَةَ الْحَرَارَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمُتَغَيِّرِ التَّابِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_119",
+      "arabic": "مُتَغَيِّرٌ تَابِعٌ",
+      "meaning_ar": "قِيمَةٌ تُقَاسُ لِدِرَاسَةِ تَأْثِيرِ عَامِلٍ أَوْ عَلاقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ النَّتِيجَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ سُرْعَةَ التَّفَاعُلِ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ تَسْمِيَتُهُ عَلَى تَصْمِيمِ الدِّرَاسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_120",
+      "arabic": "مُتَغَيِّرٌ دَخِيلٌ",
+      "meaning_ar": "عَامِلٌ آخَرُ قَدْ يُؤَثِّرُ فِي النَّتِيجَةِ وَيُرْبِكُ تَفْسِيرَ الْعَلَاقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْمُتَغَيِّرِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْبَاحِثُ كَمِّيَّةَ الْمَاءِ فِي كُلِّ جَوْلَةٍ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُرَاقَبَةٍ أَوْ مُعَالَجَةٍ تَحْلِيلِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_121",
+      "arabic": "قِيَاسٌ مُبَاشِرٌ",
+      "meaning_ar": "تَحْدِيدُ كَمِّيَّةٍ بِأَدَاةٍ تَرْصُدُهَا دُونَ حِسَابٍ مِنْ كَمِّيَّاتٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الطُّولِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ طُولَ الْقَضِيبِ بِالْمِسْطَرَةِ."
+      ],
+      "usage_note_ar": "تَبْقَى دِقَّتُهُ مُرْتَبِطَةً بِالأَدَاةِ وَالْقَارِئِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_122",
+      "arabic": "قِيَاسٌ غَيْرُ مُبَاشِرٍ",
+      "meaning_ar": "حِسَابُ كَمِّيَّةٍ مِنْ قِيَاسَاتٍ أُخْرَى بِاسْتِخْدَامِ عِلَاقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْكَثَافَةِ"
+      ],
+      "examples_ar": [
+        "قَسَمَ الطَّالِبُ الْكُتْلَةَ عَلَى الْحَجْمِ."
+      ],
+      "usage_note_ar": "تَنْتَقِلُ أَخْطَاءُ الْقِيَاسَاتِ إِلَى النَّتِيجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_123",
+      "arabic": "دِقَّةُ الْقِيَاسِ",
+      "meaning_ar": "مَدَى قُرْبِ النَّتِيجَةِ مِنَ الْقِيمَةِ الْمَرْجِعِيَّةِ الصَّحِيحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْسِينُ الدِّقَّةِ"
+      ],
+      "examples_ar": [
+        "عَايَرَ الْفَنِّيُّ الْمِيزَانَ قَبْلَ الِاخْتِبَارِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ تَقَارُبِ الْقِيَاسَاتِ الْمُتَكَرِّرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_124",
+      "arabic": "إِحْكَامُ الْقِيَاسِ",
+      "meaning_ar": "مَدَى تَقَارُبِ نَتَائِجِ قِيَاسَاتٍ مُتَكَرِّرَةٍ لِلشَّيْءِ نَفْسِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْإِحْكَامِ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الطَّالِبُ عَلَى قِرَاءَاتٍ مُتَقَارِبَةٍ."
+      ],
+      "usage_note_ar": "لَا يَضْمَنُ الْإِحْكَامُ قُرْبَ النَّتِيجَةِ مِنَ الْحَقِيقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_125",
+      "arabic": "ارْتِيَابُ الْقِيَاسِ",
+      "meaning_ar": "مِقْيَاسٌ يُعَبِّرُ عَنْ تَشَتُّتِ الْقِيَمِ الَّتِي يُمْكِنُ نِسْبَتُهَا إِلَى الْمَقِيسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ الِارْتِيَابِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْفَنِّيُّ النَّتِيجَةَ مَعَ ارْتِيَابِهَا."
+      ],
+      "usage_note_ar": "لَا يَعْنِي بِالضَّرُورَةِ أَنَّ الْقِيَاسَ خَاطِئٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_126",
+      "arabic": "خَطَأٌ مَنْهَجِيٌّ",
+      "meaning_ar": "انْحِرَافٌ مُنْتَظِمٌ فِي النَّتَائِجِ بِسَبَبِ الْأَدَاةِ أَوِ الطَّرِيقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْحِيحُ الْخَطَإِ"
+      ],
+      "examples_ar": [
+        "كَشَفَتِ الْمُعَايَرَةُ انْحِرَافَ الْمِيزَانِ."
+      ],
+      "usage_note_ar": "لَا يَزُولُ بِزِيَادَةِ عَدَدِ الْقِرَاءَاتِ وَحْدَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_127",
+      "arabic": "خَطَأٌ عَشْوَائِيٌّ",
+      "meaning_ar": "تَفَاوُتٌ غَيْرُ مُنْتَظِمٍ فِي الْقِيَاسَاتِ بِسَبَبِ عَوَامِلَ مُتَغَيِّرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ الْخَطَإِ"
+      ],
+      "examples_ar": [
+        "تَكَرَّرَتِ الْقِرَاءَاتُ لِتَقْدِيرِ التَّشَتُّتِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يَقِلَّ أَثَرُهُ عَلَى الْمُتَوَسِّطِ بِالتَّكْرَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_128",
+      "arabic": "مَنْحَنَى الْمُعَايَرَةِ",
+      "meaning_ar": "عَلَاقَةٌ مَرْسُومَةٌ بَيْنَ إِشَارَةِ جِهَازٍ وَقِيَمٍ مَرْجِعِيَّةٍ مَعْرُوفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَسْمُ الْمُنْحَنَى"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ الْقِيَاسَ بِالْعَيِّنَاتِ الْقِيَاسِيَّةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَحْوِيلِ الْإِشَارَاتِ إِلَى تَرَاكِيزَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_129",
+      "arabic": "وَحْدَةُ قِيَاسٍ أَسَاسِيَّةٌ",
+      "meaning_ar": "وَحْدَةٌ مُعْتَمَدَةٌ فِي نِظَامِ الْوَحَدَاتِ لِكَمِّيَّةٍ أَسَاسِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَحَدَاتُ النِّظَامِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ الطُّولَ بِالْمِتْرِ."
+      ],
+      "usage_note_ar": "تُشْتَقُّ مِنْهَا وَحَدَاتٌ لِكَمِّيَّاتٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_130",
+      "arabic": "وَحْدَةُ قِيَاسٍ مُشْتَقَّةٌ",
+      "meaning_ar": "وَحْدَةٌ تُبْنَى مِنْ وَحَدَاتٍ أَسَاسِيَّةٍ بِعَمَلِيَّاتٍ رِيَاضِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَحْدَةُ السُّرْعَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ السُّرْعَةَ بِالْمِتْرِ فِي الثَّانِيَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ لَهَا تَسْمِيَةٌ خَاصَّةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_131",
+      "arabic": "تَحْلِيلُ الْأَبْعَادِ",
+      "meaning_ar": "فَحْصُ تَوَافُقِ الْوَحَدَاتِ الْفِيزِيَائِيَّةِ فِي الْمُعَادَلَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُطَابَقَةُ الأَبْعَادِ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الطَّالِبُ مِنْ صِحَّةِ وَحْدَةِ النَّتِيجَةِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى كَشْفِ بَعْضِ الْأَخْطَاءِ الْحِسَابِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_132",
+      "arabic": "كَمِّيَّةٌ قِيَاسِيَّةٌ",
+      "meaning_ar": "كَمِّيَّةٌ فِيزِيَائِيَّةٌ يُكْتَفَى لِوَصْفِهَا بِالْمِقْدَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِقْدَارُ الْكُتْلَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ دَرَجَةَ الْحَرَارَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْمُتَّجِهِ الَّذِي يَحْتَاجُ إِلَى اتِّجَاهٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_133",
+      "arabic": "كَمِّيَّةٌ مُتَّجِهَةٌ",
+      "meaning_ar": "كَمِّيَّةٌ فِيزِيَائِيَّةٌ لَهَا مِقْدَارٌ وَاتِّجَاهٌ وَتَتَّبِعُ قَوَاعِدَ جَمْعِ الْمُتَّجِهَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ الْقُوَّةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ الْقُوَّةَ بِسَهْمٍ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَمْثِلَتُهَا الْإِزَاحَةَ وَالتَّسَارُعَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_134",
+      "arabic": "إِزَاحَةٌ فِيزِيَائِيَّةٌ",
+      "meaning_ar": "التَّغَيُّرُ فِي مَوْضِعِ جِسْمٍ مِنْ نُقْطَةِ الْبِدَايَةِ إِلَى النِّهَايَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِقْدَارُ الْإِزَاحَةِ"
+      ],
+      "examples_ar": [
+        "عَادَ الْمَاشِي إِلَى بَيْتِهِ فَكَانَتْ إِزَاحَتُهُ صِفْرًا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْمَسَافَةِ الْمَقْطُوعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_135",
+      "arabic": "سُرْعَةٌ مُتَّجِهَةٌ",
+      "meaning_ar": "مُعَدَّلُ تَغَيُّرِ مَوْضِعِ جِسْمٍ مَعَ الزَّمَنِ وَاتِّجَاهِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُتَوَسِّطُ السُّرْعَةِ"
+      ],
+      "examples_ar": [
+        "تَحَرَّكَتِ السَّيَّارَةُ شَرْقًا بِسُرْعَةٍ مُعَيَّنَةٍ."
+      ],
+      "usage_note_ar": "قَدْ يَتَغَيَّرُ الِاتِّجَاهُ مَعَ ثَبَاتِ الْمِقْدَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_136",
+      "arabic": "تَسَارُعٌ",
+      "meaning_ar": "مُعَدَّلُ تَغَيُّرِ السُّرْعَةِ الْمُتَّجِهَةِ مَعَ مُرُورِ الزَّمَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَسَارُعُ السَّيَّارَةِ"
+      ],
+      "examples_ar": [
+        "زَادَتْ سُرْعَةُ الْقِطَارِ بَعْدَ الِانْطِلَاقِ."
+      ],
+      "usage_note_ar": "قَدْ يَنْشَأُ مِنْ تَغَيُّرِ الْمِقْدَارِ أَوِ الِاتِّجَاهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_137",
+      "arabic": "قَانُونُ الْقُصُورِ الذَّاتِيِّ",
+      "meaning_ar": "مَبْدَأٌ يَصِفُ بَقَاءَ حَالَةِ السُّكُونِ أَوِ الْحَرَكَةِ الْمُنْتَظِمَةِ دُونَ قُوَّةٍ مُحَصِّلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْقُصُورُ الذَّاتِيُّ"
+      ],
+      "examples_ar": [
+        "اسْتَمَرَّ الْجِسْمُ فِي الْحَرَكَةِ حَتَّى أَثَّرَ الِاحْتِكَاكُ."
+      ],
+      "usage_note_ar": "يُعْرَفُ بِقَانُونِ نِيُوتُنَ الأَوَّلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_138",
+      "arabic": "قَانُونُ الدِّينَامِيكَا",
+      "meaning_ar": "مَبْدَأٌ يَرْبِطُ بَيْنَ مُحَصِّلَةِ الْقُوَى وَالْكُتْلَةِ وَالتَّسَارُعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْقُوَّةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَسَارُعَ جِسْمٍ تَحْتَ قُوَّةٍ."
+      ],
+      "usage_note_ar": "يُعْرَفُ بِقَانُونِ نِيُوتُنَ الثَّانِي فِي الْمِيكَانِيكَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_139",
+      "arabic": "قَانُونُ الْفِعْلِ وَرَدِّ الْفِعْلِ",
+      "meaning_ar": "مَبْدَأٌ يَصِفُ قُوَّتَيْنِ مُتَسَاوِيَتَيْنِ وَمُتَعَاكِسَتَيْنِ بَيْنَ جِسْمَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زَوْجُ الْقُوَى"
+      ],
+      "examples_ar": [
+        "دَفَعَ السَّبَّاحُ الْمَاءَ إِلَى الْوَرَاءِ فَتَحَرَّكَ."
+      ],
+      "usage_note_ar": "تَعْمَلُ الْقُوَّتَانِ عَلَى جِسْمَيْنِ مُخْتَلِفَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_140",
+      "arabic": "قُوَّةُ الِاحْتِكَاكِ",
+      "meaning_ar": "قُوَّةٌ تُعَارِضُ الِانْزِلَاقَ أَوْ مَيْلَ الْجِسْمَيْنِ لِلانْزِلَاقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَامِلُ الِاحْتِكَاكِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفَ الصُّنْدُوقُ بِسَبَبِ احْتِكَاكِهِ بِالأَرْضِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ سُكُونِيًّا أَوْ حَرَكِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_141",
+      "arabic": "قُوَّةُ الْجَاذِبِيَّةِ",
+      "meaning_ar": "قُوَّةُ تَجَاذُبٍ بَيْنَ الْأَجْسَامِ ذَاتِ الْكُتْلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَأْثِيرُ الْجَاذِبِيَّةِ"
+      ],
+      "examples_ar": [
+        "سَقَطَتِ الْكُرَةُ نَحْوَ الْأَرْضِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ بِحَسَبِ الْكُتَلِ وَالْمَسَافَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_142",
+      "arabic": "كَمِّيَّةُ الْحَرَكَةِ",
+      "meaning_ar": "حَاصِلُ ضَرْبِ كُتْلَةِ جِسْمٍ فِي سُرْعَتِهِ الْمُتَّجِهَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِفْظُ الزَّخَمِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ زَخَمَ الْعَرَبَةِ."
+      ],
+      "usage_note_ar": "تُسَمَّى أَيْضًا الزَّخَمَ وَهِيَ كَمِّيَّةٌ مُتَّجِهَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_143",
+      "arabic": "حِفْظُ الطَّاقَةِ",
+      "meaning_ar": "مَبْدَأٌ يَقْضِي بِأَنَّ الطَّاقَةَ لَا تُسْتَحْدَثُ وَلَا تَفْنَى فِي نِظَامٍ مَعْزُولٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحَوُّلُ الطَّاقَةِ"
+      ],
+      "examples_ar": [
+        "تَحَوَّلَتْ طَاقَةُ الْحَرَكَةِ إِلَى حَرَارَةٍ."
+      ],
+      "usage_note_ar": "تَتَحَوَّلُ بَيْنَ الأَشْكَالِ مَعَ حِفْظِ الْمَجْمُوعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_144",
+      "arabic": "طَاقَةٌ حَرَكِيَّةٌ",
+      "meaning_ar": "طَاقَةٌ يَمْتَلِكُهَا جِسْمٌ بِسَبَبِ حَرَكَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الطَّاقَةِ"
+      ],
+      "examples_ar": [
+        "زَادَتِ الطَّاقَةُ الْحَرَكِيَّةُ لِلسَّيَّارَةِ مَعَ السُّرْعَةِ."
+      ],
+      "usage_note_ar": "تَتَنَاسَبُ مَعَ مُرَبَّعِ السُّرْعَةِ فِي الْمِيكَانِيكَا الْكِلَاسِيكِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_145",
+      "arabic": "طَاقَةُ وَضْعٍ",
+      "meaning_ar": "طَاقَةٌ تَرْتَبِطُ بِمَوْضِعِ جِسْمٍ فِي مَجَالِ قُوًى مُحَافِظَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَاقَةُ الْجَاذِبِيَّةِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتْ طَاقَةُ وَضْعِ الْحَجَرِ عِنْدَ رَفْعِهِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ صِفْرُهَا بِالْمُسْتَوَى الْمَرْجِعِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_146",
+      "arabic": "شُغْلٌ مِيكَانِيكِيٌّ",
+      "meaning_ar": "مِقْدَارُ الطَّاقَةِ الْمَنْقُولَةِ بِوَاسِطَةِ قُوَّةٍ خِلَالَ إِزَاحَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الشُّغْلِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ الشُّغْلَ لِرَفْعِ صُنْدُوقٍ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى اتِّجَاهِ الْقُوَّةِ وَالْإِزَاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_147",
+      "arabic": "قُدْرَةٌ مِيكَانِيكِيَّةٌ",
+      "meaning_ar": "مُعَدَّلُ إِنْجَازِ الشُّغْلِ أَوْ نَقْلِ الطَّاقَةِ فِي وَحْدَةِ الزَّمَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْقُدْرَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ قُدْرَةَ مِحْرَكَيْنِ."
+      ],
+      "usage_note_ar": "تُقَاسُ فِي النِّظَامِ الدَّوْلِيِّ بِالْوَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_148",
+      "arabic": "مَوْجَةٌ مِيكَانِيكِيَّةٌ",
+      "meaning_ar": "اضْطِرَابٌ يَنْتَقِلُ عَبْرَ وَسَطٍ مَادِّيٍّ وَيَحْمِلُ طَاقَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْتِشَارُ الْمَوْجَةِ"
+      ],
+      "examples_ar": [
+        "انْتَقَلَ الصَّوْتُ فِي الْهَوَاءِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى وَسَطٍ مِثْلِ الْهَوَاءِ أَوِ الْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_149",
+      "arabic": "مَوْجَةٌ كَهْرُمَغْنَاطِيسِيَّةٌ",
+      "meaning_ar": "اضْطِرَابٌ فِي مَجَالَيْنِ كَهْرَبَائِيٍّ وَمَغْنَاطِيسِيٍّ يَنْتَقِلُ فِي الْفَرَاغِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُرْعَةُ الضَّوْءِ"
+      ],
+      "examples_ar": [
+        "تَنْتَقِلُ الْإِشَارَةُ اللَّاسِلْكِيَّةُ بِمَوْجَاتٍ."
+      ],
+      "usage_note_ar": "لَا تَحْتَاجُ إِلَى وَسَطٍ مَادِّيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_150",
+      "arabic": "طُولٌ مَوْجِيٌّ",
+      "meaning_ar": "الْمَسَافَةُ بَيْنَ نُقْطَتَيْنِ مُتَنَاظِرَتَيْنِ فِي دَوْرَتَيْنِ مُتَتَالِيَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الطُّولِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ الْمَسَافَةَ بَيْنَ قِمَّتَيْنِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالسُّرْعَةِ وَالتَّرَدُّدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_151",
+      "arabic": "تَرَدُّدٌ مَوْجِيٌّ",
+      "meaning_ar": "عَدَدُ الِاهْتِزَازَاتِ أَوِ الدَّوَرَاتِ الَّتِي تَحْدُثُ فِي ثَانِيَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّرَدُّدِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتْ حِدَّةُ الصَّوْتِ مَعَ التَّرَدُّدِ."
+      ],
+      "usage_note_ar": "يُقَاسُ بِالْهِرْتْزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_152",
+      "arabic": "سَعَةُ الْمَوْجَةِ",
+      "meaning_ar": "أَكْبَرُ ابْتِعَادٍ لِلِاهْتِزَازِ عَنْ مَوْضِعِ الِاتِّزَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ السَّعَةِ"
+      ],
+      "examples_ar": [
+        "زَادَتْ سَعَةُ اهْتِزَازِ الْوَتَرِ."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ بِشِدَّةِ الْمَوْجَةِ بِطُرُقٍ مُخْتَلِفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_153",
+      "arabic": "مَوْجَةٌ مُسْتَعْرِضَةٌ",
+      "meaning_ar": "مَوْجَةٌ يَكُونُ فِيهَا الِاهْتِزَازُ عَمُودِيًّا عَلَى اتِّجَاهِ انْتِشَارِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ الِاهْتِزَازِ"
+      ],
+      "examples_ar": [
+        "حَرَّكَ الطَّالِبُ الْحَبْلَ إِلَى الأَعْلَى."
+      ],
+      "usage_note_ar": "يُقَابِلُهَا النَّوْعُ الطُّولِيُّ فِي وَصْفِ الْمَوْجَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_154",
+      "arabic": "مَوْجَةٌ طُولِيَّةٌ",
+      "meaning_ar": "مَوْجَةٌ يَكُونُ فِيهَا الِاهْتِزَازُ مُوَازِيًا لِاتِّجَاهِ انْتِشَارِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَغْطٌ وَتَخَلْخُلٌ"
+      ],
+      "examples_ar": [
+        "تَنْتَقِلُ مَوْجَاتُ الصَّوْتِ الطُّولِيَّةُ فِي الْهَوَاءِ."
+      ],
+      "usage_note_ar": "تَحْتَوِي عَلَى مَنَاطِقِ تَضَاغُطٍ وَتَخَلْخُلٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_155",
+      "arabic": "انْعِكَاسُ الْمَوْجَةِ",
+      "meaning_ar": "رُجُوعُ جُزْءٍ مِنَ الْمَوْجَةِ عِنْدَ مُقَابَلَةِ حَدٍّ أَوْ سَطْحٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زَاوِيَةُ الِانْعِكَاسِ"
+      ],
+      "examples_ar": [
+        "عَادَ الصَّوْتُ مِنَ الْجِدَارِ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ الزَّوَايَا بِحَسَبِ طَبِيعَةِ السَّطْحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_156",
+      "arabic": "انْكِسَارُ الضَّوْءِ",
+      "meaning_ar": "تَغَيُّرُ اتِّجَاهِ الضَّوْءِ عِنْدَ انْتِقَالِهِ بَيْنَ وَسَطَيْنِ بِسُرْعَتَيْنِ مُخْتَلِفَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَانُونُ الِانْكِسَارِ"
+      ],
+      "examples_ar": [
+        "بَدَا الْقَلَمُ مَنْحَنِيًا فِي الْمَاءِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى زَاوِيَةِ السُّقُوطِ وَمَعَامِلِ الِانْكِسَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_157",
+      "arabic": "حُيُودُ الضَّوْءِ",
+      "meaning_ar": "انْتِشَارُ الْمَوْجَاتِ حَوْلَ حَوَافِّ الْعَوَائِقِ أَوْ عَبْرَ فَتَحَاتٍ ضَيِّقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَمَطُ الْحُيُودِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ أَهْدَابًا مُضِيئَةً."
+      ],
+      "usage_note_ar": "يَظْهَرُ بِوُضُوحٍ عِنْدَ اقْتِرَابِ الْفَتْحَةِ مِنَ الطُّولِ الْمَوْجِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_158",
+      "arabic": "تَدَاخُلُ الْمَوْجَاتِ",
+      "meaning_ar": "تَرَاكُبُ مَوْجَتَيْنِ أَوْ أَكْثَرَ بِمَا يُغَيِّرُ السَّعَةَ النَّاتِجَةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدَاخُلٌ بَنَّاءٌ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتْ أَهْدَابٌ بَعْدَ تَرَاكُبِ الضَّوْءِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ بَنَّاءً أَوْ هَدَّامًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_159",
+      "arabic": "اسْتِقْطَابُ الضَّوْءِ",
+      "meaning_ar": "تَنْظِيمُ اتِّجَاهِ اهْتِزَازِ الْمَجَالِ الْكَهْرَبَائِيِّ فِي الْمَوْجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَشِّحُ الِاسْتِقْطَابِ"
+      ],
+      "examples_ar": [
+        "خَفَّفَتِ النَّظَّارَةُ بَعْضَ الِانْعِكَاسَاتِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِفَهْمِ خَصَائِصِ الضَّوْءِ الْمُسْتَعْرِضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_160",
+      "arabic": "مِطْيَافٌ",
+      "meaning_ar": "جِهَازٌ يَفْصِلُ الْإِشْعَاعَ أَوْ يَقِيسُهُ بِحَسَبِ الطُّولِ الْمَوْجِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الطَّيْفِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ طَيْفَ النَّجْمِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَحْدِيدِ مَوَادَّ وَخَصَائِصَ فِيزِيَائِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_161",
+      "arabic": "طَيْفٌ كَهْرُمَغْنَاطِيسِيٌّ",
+      "meaning_ar": "مَدَى الْمَوْجَاتِ الْكَهْرُمَغْنَاطِيسِيَّةِ مِنْ تَرَدُّدَاتٍ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَقْسَامُ الطَّيْفِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ الأَشِعَّةَ فَوْقَ الْبَنَفْسَجِيَّةِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ مَوْجَاتِ الرَّادْيُو وَالضَّوْءَ الْمَرْئِيَّ وَغَيْرَهُمَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_162",
+      "arabic": "تَأَيُّنٌ",
+      "meaning_ar": "تَحَوُّلُ ذَرَّةٍ أَوْ جُزَيْءٍ إِلَى أَيْونٍ بِفَقْدِ إِلِكْتُرُونٍ أَوِ اكْتِسَابِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طَاقَةُ التَّأَيُّنِ"
+      ],
+      "examples_ar": [
+        "فَقَدَتِ الذَّرَّةُ إِلِكْتُرُونًا فَأَصْبَحَتْ مُوجَبَةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طَاقَتُهُ بَيْنَ الْعَنَاصِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_163",
+      "arabic": "إِلِكْتُرُونٌ",
+      "meaning_ar": "جُسَيْمٌ أَوَّلِيٌّ يَحْمِلُ شُحْنَةً كَهْرَبَائِيَّةً سَالِبَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْإِلِكْتُرُونِ"
+      ],
+      "examples_ar": [
+        "تَحَرَّكَتِ الْإِلِكْتُرُونَاتُ فِي الْمُوَصِّلِ."
+      ],
+      "usage_note_ar": "يَدْخُلُ فِي بِنْيَةِ الذَّرَّاتِ وَالرَّوَابِطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_164",
+      "arabic": "بُرُوتُونٌ",
+      "meaning_ar": "جُسَيْمٌ يَحْمِلُ شُحْنَةً مُوجَبَةً وَيُوجَدُ فِي نَوَاةِ الذَّرَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَدَدُ الْبُرُوتُونَاتِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ الْعُنْصُرَ بِعَدَدِ بُرُوتُونَاتِهِ."
+      ],
+      "usage_note_ar": "يُحَدِّدُ عَدَدُهُ هُوِيَّةَ الْعُنْصُرِ الْكِيمِيَائِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_165",
+      "arabic": "نِيُوتْرُونٌ",
+      "meaning_ar": "جُسَيْمٌ مُتَعَادِلُ الشُّحْنَةِ يُوجَدُ فِي نَوَاةِ مُعْظَمِ الذَّرَّاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَدَدُ النِّيُوتْرُونَاتِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ نَظِيرَيْنِ لِلْعُنْصُرِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي كُتْلَةِ النَّوَاةِ وَاسْتِقْرَارِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_166",
+      "arabic": "نَظِيرٌ كِيمِيَائِيٌّ",
+      "meaning_ar": "شَكْلٌ لِعُنْصُرٍ لَهُ عَدَدُ الْبُرُوتُونَاتِ نَفْسُهُ وَعَدَدٌ مُخْتَلِفٌ مِنَ النِّيُوتْرُونَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَظَائِرُ الْعُنْصُرِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ بَيْنَ نَظِيرَيْ كَرْبُونٍ."
+      ],
+      "usage_note_ar": "تَتَشَابَهُ خَصَائِصُهَا الْكِيمِيَائِيَّةُ غَالِبًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_167",
+      "arabic": "عَدَدٌ ذَرِّيٌّ",
+      "meaning_ar": "عَدَدُ الْبُرُوتُونَاتِ فِي نَوَاةِ ذَرَّةٍ وَهُوَ مُعَرِّفٌ لِلْعُنْصُرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الْعَنَاصِرِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الطَّالِبُ الْعَدَدَ الذَّرِّيَّ لِلْحَدِيدِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْعَدَدِ الْكُتْلِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_168",
+      "arabic": "عَدَدٌ كُتْلِيٌّ",
+      "meaning_ar": "مَجْمُوعُ الْبُرُوتُونَاتِ وَالنِّيُوتْرُونَاتِ فِي نَوَاةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْعَدَدِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الطَّالِبُ جُسَيْمَاتِ النَّوَاةِ."
+      ],
+      "usage_note_ar": "يَكُونُ صَحِيحًا وَلَا يُسَاوِي الضَّرُورَةَ الْكُتْلَةَ الذَّرِّيَّةَ الْمُتَوَسِّطَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_169",
+      "arabic": "مَدَارٌ إِلِكْتُرُونِيٌّ",
+      "meaning_ar": "تَصَوُّرٌ مُبَسَّطٌ لِمَنْطِقَةِ حَرَكَةِ إِلِكْتُرُونٍ حَوْلَ النَّوَاةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُسْتَوَى الطَّاقَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ نَمُوذَجًا مُبَسَّطًا لِلذَّرَّةِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ الْوَصْفُ الْحَدِيثُ الأَفْلَاكَ الِاحْتِمَالِيَّةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_170",
+      "arabic": "فَلَكٌ ذَرِّيٌّ",
+      "meaning_ar": "وَصْفٌ رِيَاضِيٌّ لِتَوَزُّعِ احْتِمَالِ وُجُودِ إِلِكْتُرُونٍ فِي الذَّرَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَكْلُ الْفَلَكِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ أَشْكَالَ الأَفْلَاكِ الذَّرِّيَّةِ."
+      ],
+      "usage_note_ar": "لَا يُمَثِّلُ مَسَارًا دَائِرِيًّا ثَابِتًا بِالضَّرُورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_171",
+      "arabic": "رَابِطَةٌ أَيُونِيَّةٌ",
+      "meaning_ar": "تَجَاذُبٌ كَهْرَبَائِيٌّ بَيْنَ أَيْونَاتٍ مُتَعَاكِسَةِ الشُّحْنَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَكَّبٌ أَيُونِيٌّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَرَابُطَ الصُّودِيُومِ وَالْكُلُورِ."
+      ],
+      "usage_note_ar": "تَتَكَوَّنُ فِي شَبَكَاتٍ بَلَّوْرِيَّةٍ كَثِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_172",
+      "arabic": "رَابِطَةٌ تَسَاهُمِيَّةٌ",
+      "meaning_ar": "رَابِطَةٌ كِيمِيَائِيَّةٌ تَنْشَأُ مِنْ تَشَارُكِ الذَّرَّاتِ فِي إِلِكْتُرُونَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جُزَيْءُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "تَشَارَكَتْ ذَرَّتَا هِيدْرُوجِينٍ مَعَ الأُكْسِجِينِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ قُطْبِيَّةً أَوْ غَيْرَ قُطْبِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_173",
+      "arabic": "رَابِطَةٌ هِيدْرُوجِينِيَّةٌ",
+      "meaning_ar": "تَجَاذُبٌ يَحْدُثُ بَيْنَ هِيدْرُوجِينٍ مُرْتَبِطٍ بِذَرَّةٍ كَهْرَسَالِبَةٍ وَمَوْضِعٍ آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَوَابِطُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "تُؤَثِّرُ الرَّوَابِطُ فِي دَرَجَةِ غَلَيَانِ الْمَاءِ."
+      ],
+      "usage_note_ar": "هِيَ أَضْعَفُ مِنْ كَثِيرٍ مِنَ الرَّوَابِطِ التَّسَاهُمِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_174",
+      "arabic": "تَفَاعُلٌ طَارِدٌ لِلْحَرَارَةِ",
+      "meaning_ar": "تَفَاعُلٌ يُطْلِقُ طَاقَةً حَرَارِيَّةً إِلَى الْمُحِيطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَارَةُ التَّفَاعُلِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتْ حَرَارَةُ الْوِعَاءِ أَثْنَاءَ التَّفَاعُلِ."
+      ],
+      "usage_note_ar": "تَكُونُ إِنْثَالْبِيَّةُ تَفَاعُلِهِ سَالِبَةً فِي الظُّرُوفِ الْمُعْتَادَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_175",
+      "arabic": "تَفَاعُلٌ مَاصٌّ لِلْحَرَارَةِ",
+      "meaning_ar": "تَفَاعُلٌ يَمْتَصُّ طَاقَةً حَرَارِيَّةً مِنَ الْمُحِيطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "امْتِصَاصُ الْحَرَارَةِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَتْ حَرَارَةُ الْخَلِيطِ أَثْنَاءَ التَّفَاعُلِ."
+      ],
+      "usage_note_ar": "تَكُونُ إِنْثَالْبِيَّةُ تَفَاعُلِهِ مُوجَبَةً عِنْدَ الضَّغْطِ الثَّابِتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_176",
+      "arabic": "سُرْعَةُ التَّفَاعُلِ",
+      "meaning_ar": "مُعَدَّلُ تَغَيُّرِ تَرْكِيزِ الْمُتَفَاعِلَاتِ أَوِ النَّوَاتِجِ مَعَ الزَّمَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ السُّرْعَةِ"
+      ],
+      "examples_ar": [
+        "زَادَتْ سُرْعَةُ التَّفَاعُلِ مَعَ التَّسْخِينِ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ عَلَى الْحَرَارَةِ وَالتَّرْكِيزِ وَطَبِيعَةِ الْمَوَادِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_177",
+      "arabic": "مُحَفِّزٌ كِيمِيَائِيٌّ",
+      "meaning_ar": "مَادَّةٌ تَزِيدُ سُرْعَةَ تَفَاعُلٍ دُونَ أَنْ تُسْتَهْلَكَ صَافِيًا فِيهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِضَافَةُ الْمُحَفِّزِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْمَخْبَرُ مُحَفِّزًا لِلتَّفَاعُلِ."
+      ],
+      "usage_note_ar": "لَا يُغَيِّرُ ثَابِتَ الِاتِّزَانِ فِي الشُّرُوطِ نَفْسِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_178",
+      "arabic": "طَاقَةُ التَّنْشِيطِ",
+      "meaning_ar": "حَاجِزٌ طَاقِيٌّ يَحْتَاجُ التَّفَاعُلُ إِلَى تَجَاوُزِهِ لِلْحُدُوثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَفْضُ الْحَاجِزِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الْمُحَفِّزُ طَاقَةَ التَّنْشِيطِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي سُرْعَةِ التَّفَاعُلِ الْكِيمِيَائِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_179",
+      "arabic": "اتِّزَانٌ كِيمِيَائِيٌّ",
+      "meaning_ar": "حَالَةٌ تَتَسَاوَى فِيهَا سُرْعَتَا التَّفَاعُلِ الْأَمَامِيِّ وَالْعَكْسِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ثَابِتُ الِاتِّزَانِ"
+      ],
+      "examples_ar": [
+        "اسْتَقَرَّتْ تَرَاكِيزُ الْمَوَادِّ فِي الْوِعَاءِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي تَوَقُّفَ التَّفَاعُلَاتِ عَلَى الْمُسْتَوَى الْجُزَيْئِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_180",
+      "arabic": "مَحْلُولٌ مَشْبَعٌ",
+      "meaning_ar": "مَحْلُولٌ يَحْتَوِي عَلَى أَقْصَى كَمِّيَّةٍ مِنْ مُذَابٍ فِي ظُرُوفٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ذَوَبَانُ الْمِلْحِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفَ الْمِلْحُ عَنِ الذَّوَبَانِ فِي الْمَاءِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ الْإِشْبَاعِيَّةُ بِالْحَرَارَةِ وَنَوْعِ الْمُذَابِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_181",
+      "arabic": "تَرْكِيزٌ مَوْلَارِيٌّ",
+      "meaning_ar": "كَمِّيَّةُ الْمَادَّةِ بِالْمُولِ فِي كُلِّ وَحْدَةِ حَجْمٍ مِنَ الْمَحْلُولِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ التَّرْكِيزِ"
+      ],
+      "examples_ar": [
+        "حَضَّرَ الطَّالِبُ مَحْلُولًا بِتَرْكِيزٍ مَعْلُومٍ."
+      ],
+      "usage_note_ar": "يُعَبَّرُ عَنْهُ غَالِبًا بِالْمُولِ فِي اللِّتْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_182",
+      "arabic": "تَخْفِيفُ الْمَحْلُولِ",
+      "meaning_ar": "تَقْلِيلُ تَرْكِيزِ مَادَّةٍ مُذَابَةٍ بِإِضَافَةِ مُذِيبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ التَّخْفِيفِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الطَّالِبُ مَاءً إِلَى الْمَحْلُولِ."
+      ],
+      "usage_note_ar": "تَبْقَى كَمِّيَّةُ الْمُذَابِ ثَابِتَةً عِنْدَ عَدَمِ الْفَقْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_183",
+      "arabic": "أُسٌّ هِيدْرُوجِينِيٌّ",
+      "meaning_ar": "مِقْيَاسٌ لِحُمُوضَةِ الْمَحْلُولِ يَعْتَمِدُ عَلَى نَشَاطِ أَيْونَاتِ الْهِيدْرُوجِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْحُمُوضَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الطَّالِبُ حُمُوضَةَ الْمَاءِ."
+      ],
+      "usage_note_ar": "تُعَدُّ الْقِيمُ الأَقَلُّ دَلَالَةً عَلَى حُمُوضَةٍ أَعْلَى فِي الشُّرُوطِ الْمُعْتَادَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_184",
+      "arabic": "مَحْلُولٌ مُنَظِّمٌ",
+      "meaning_ar": "خَلِيطٌ يُقَاوِمُ تَغَيُّرَ الْحُمُوضَةِ عِنْدَ إِضَافَةِ كَمِّيَّاتٍ صَغِيرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَعَةُ التَّنْظِيمِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْمَخْبَرُ مَحْلُولًا مُنَظِّمًا."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ فَعَّالِيَّتُهُ بِالتَّرْكِيبِ وَالتَّرْكِيزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_185",
+      "arabic": "أَكْسَدَةٌ كِيمِيَائِيَّةٌ",
+      "meaning_ar": "عَمَلِيَّةٌ يَفْقِدُ فِيهَا نَوْعٌ كِيمِيَائِيٌّ إِلِكْتُرُونَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِصْفُ تَفَاعُلِ الأَكْسَدَةِ"
+      ],
+      "examples_ar": [
+        "فَقَدَ الْحَدِيدُ إِلِكْتُرُونَاتٍ فِي التَّفَاعُلِ."
+      ],
+      "usage_note_ar": "تُقَابِلُهَا عَمَلِيَّةُ الِاخْتِزَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_186",
+      "arabic": "اخْتِزَالٌ كِيمِيَائِيٌّ",
+      "meaning_ar": "عَمَلِيَّةٌ يَكْتَسِبُ فِيهَا نَوْعٌ كِيمِيَائِيٌّ إِلِكْتُرُونَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِصْفُ تَفَاعُلِ الِاخْتِزَالِ"
+      ],
+      "examples_ar": [
+        "اكْتَسَبَ الْأَيْونُ إِلِكْتُرُونًا."
+      ],
+      "usage_note_ar": "يَحْدُثُ مَعَ الأَكْسَدَةِ فِي تَفَاعُلَاتِ الأَكْسَدَةِ وَالِاخْتِزَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_187",
+      "arabic": "جُهْدٌ كَهْرَبَائِيٌّ",
+      "meaning_ar": "فَرْقٌ فِي الطَّاقَةِ الْكَهْرَبَائِيَّةِ لِكُلِّ وَحْدَةِ شُحْنَةٍ بَيْنَ نُقْطَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْجُهْدِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ جُهْدَ الْبَطَّارِيَّةِ."
+      ],
+      "usage_note_ar": "يُقَاسُ بِالْفُولْتِ فِي النِّظَامِ الدَّوْلِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_188",
+      "arabic": "تَيَّارٌ كَهْرَبَائِيٌّ",
+      "meaning_ar": "مُعَدَّلُ مُرُورِ الشُّحْنَةِ الْكَهْرَبَائِيَّةِ خِلَالَ مَقْطَعٍ فِي وَحْدَةِ الزَّمَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّيَّارِ"
+      ],
+      "examples_ar": [
+        "مَرَّ التَّيَّارُ فِي السِّلْكِ عِنْدَ إِغْلَاقِ الدَّائِرَةِ."
+      ],
+      "usage_note_ar": "يُقَاسُ بِالأَمْبِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_189",
+      "arabic": "مُقَاوَمَةٌ كَهْرَبَائِيَّةٌ",
+      "meaning_ar": "مِقْيَاسٌ لِمُعَارَضَةِ عُنْصُرٍ مُرُورَ التَّيَّارِ الْكَهْرَبَائِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَانُونُ أُومَ"
+      ],
+      "examples_ar": [
+        "زَادَتِ الْمُقَاوَمَةُ عِنْدَ زِيَادَةِ طُولِ السِّلْكِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْمَادَّةِ وَالأَبْعَادِ وَالْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_190",
+      "arabic": "سَعَةٌ كَهْرَبَائِيَّةٌ",
+      "meaning_ar": "نِسْبَةُ الشُّحْنَةِ الْمُخَزَّنَةِ إِلَى فَرْقِ الْجُهْدِ فِي مُكَثِّفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ السَّعَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ سَعَةَ مُكَثِّفَيْنِ."
+      ],
+      "usage_note_ar": "تُقَاسُ بِالْفَارَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_191",
+      "arabic": "مُكَثِّفٌ كَهْرَبَائِيٌّ",
+      "meaning_ar": "عُنْصُرٌ يُخَزِّنُ شُحْنَةً وَطَاقَةً فِي مَجَالٍ كَهْرَبَائِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَحْنُ الْمُكَثِّفِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الطَّالِبُ الْمُكَثِّفَ بِالدَّائِرَةِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ سَعَتُهُ بِحَسَبِ بِنَائِهِ وَالْعَازِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_192",
+      "arabic": "مُحَثٌّ كَهْرَبَائِيٌّ",
+      "meaning_ar": "عُنْصُرٌ يَخْزُنُ طَاقَةً فِي مَجَالٍ مَغْنَاطِيسِيٍّ عِنْدَ مُرُورِ تَيَّارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِلَفُّ الْمُحَثِّ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْمُهَنْدِسُ مِلَفًّا بِالدَّائِرَةِ."
+      ],
+      "usage_note_ar": "يُقَاسُ الْحَثُّ بِوَحْدَةِ الْهِنْرِي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_193",
+      "arabic": "حَثٌّ كَهْرُمَغْنَاطِيسِيٌّ",
+      "meaning_ar": "تَوَلُّدُ قُوَّةٍ دَافِعَةٍ كَهْرَبَائِيَّةٍ بِتَغَيُّرِ التَّدَفُّقِ الْمَغْنَاطِيسِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَانُونُ فَارَادَايْ"
+      ],
+      "examples_ar": [
+        "تَوَلَّدَ تَيَّارٌ عِنْدَ تَحْرِيكِ الْمِغْنَاطِيسِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمُوَلِّدَاتِ الْكَهْرَبَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_194",
+      "arabic": "مَجَالٌ مَغْنَاطِيسِيٌّ",
+      "meaning_ar": "مَنْطِقَةٌ يُمْكِنُ أَنْ تُؤَثِّرَ فِيهَا قُوًى مَغْنَاطِيسِيَّةٌ عَلَى الْأَجْسَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطُوطُ الْمَجَالِ"
+      ],
+      "examples_ar": [
+        "تَرَتَّبَتْ بُرَادَةُ الْحَدِيدِ حَوْلَ الْمِغْنَاطِيسِ."
+      ],
+      "usage_note_ar": "يَنْشَأُ مِنَ التَّيَّارِ وَمِنْ بَعْضِ الْمَوَادِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_195",
+      "arabic": "تَدَفُّقٌ مَغْنَاطِيسِيٌّ",
+      "meaning_ar": "مِقْيَاسٌ لِمَقْدَارِ الْمَجَالِ الْمَغْنَاطِيسِيِّ الْعَابِرِ لِسَطْحٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَغَيُّرُ التَّدَفُّقِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ التَّدَفُّقَ عَبْرَ الْمِلَفِّ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى الْمَجَالِ وَمِسَاحَةِ السَّطْحِ وَاتِّجَاهِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_196",
+      "arabic": "نُقْلَةٌ طَوْرِيَّةٌ",
+      "meaning_ar": "تَغَيُّرٌ فِي حَالَةِ مَادَّةٍ بَيْنَ أَطْوَارٍ مَعَ تَغَيُّرِ الظُّرُوفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَارَةُ الِانْصِهَارِ"
+      ],
+      "examples_ar": [
+        "انْصَهَرَ الْجَلِيدُ عِنْدَ التَّسْخِينِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الِانْصِهَارَ وَالتَّبَخُّرَ وَغَيْرَهُمَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_197",
+      "arabic": "حَرَارَةٌ نَوْعِيَّةٌ",
+      "meaning_ar": "كَمِّيَّةُ الْحَرَارَةِ اللَّازِمَةُ لِرَفْعِ حَرَارَةِ وَحْدَةِ كُتْلَةٍ بِدَرَجَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْحَرَارَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ تَسْخِينَ الْمَاءِ وَالْمَعْدِنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ بِحَسَبِ الْمَادَّةِ وَالظُّرُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_198",
+      "arabic": "حَرَارَةٌ كَامِنَةٌ",
+      "meaning_ar": "طَاقَةٌ تُنْقَلُ أَثْنَاءَ تَغَيُّرِ طَوْرِ مَادَّةٍ دُونَ تَغَيُّرٍ مُتَزامِنٍ فِي حَرَارَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَارَةُ التَّبَخُّرِ"
+      ],
+      "examples_ar": [
+        "امْتَصَّ الْجَلِيدُ حَرَارَةً عِنْدَ الذَّوَبَانِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ مِقْدَارُهَا بَيْنَ الِانْصِهَارِ وَالْغَلَيَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_199",
+      "arabic": "انْتِرُوبِيَا",
+      "meaning_ar": "دَالَّةُ حَالَةٍ فِيزِيَائِيَّةٌ تَتَعَلَّقُ بِتَوَزُّعِ الطَّاقَةِ وَإِمْكَانَاتِ النِّظَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَغَيُّرُ الْإِنْتِرُوبِيَا"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَحَوُّلَ الْحَرَارَةِ إِلَى شُغْلٍ."
+      ],
+      "usage_note_ar": "تَزْدَادُ فِي الْعَمَلِيَّاتِ غَيْرِ الْعَكُوسَةِ لِنِظَامٍ مَعْزُولٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_200",
+      "arabic": "الْإِنْثَالْبِيَا",
+      "meaning_ar": "دَالَّةُ حَالَةٍ تُعَرَّفُ بِمَجْمُوعِ الطَّاقَةِ الدَّاخِلِيَّةِ وَحَاصِلِ الضَّغْطِ وَالْحَجْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَغَيُّرُ الْإِنْثَالْبِيَا"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ حَرَارَةَ تَفَاعُلٍ عِنْدَ ضَغْطٍ ثَابِتٍ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي الدِّرَاسَاتِ الْحَرَارِيَّةِ وَالْكِيمِيَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_201",
+      "arabic": "انْتِقَالُ الْحَرَارَةِ بِالتَّوْصِيلِ",
+      "meaning_ar": "انْتِقَالُ الطَّاقَةِ الْحَرَارِيَّةِ دَاخِلَ مَادَّةٍ دُونَ حَرَكَةٍ كُلِّيَّةٍ لَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُوَصِّلِيَّةُ الْحَرَارَةِ"
+      ],
+      "examples_ar": [
+        "سَخُنَ الْمِقْبَضُ الْمَعْدِنِيُّ بِالتَّوْصِيلِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى فَرْقِ الْحَرَارَةِ وَخَوَاصِّ الْمَادَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_202",
+      "arabic": "انْتِقَالُ الْحَرَارَةِ بِالْحَمْلِ",
+      "meaning_ar": "انْتِقَالُ الطَّاقَةِ مَعَ حَرَكَةِ مَائِعٍ أَوْ غَازٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَيَّارُ الْحَمْلِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ الْهَوَاءُ السَّاخِنُ فَوْقَ الْمِدْفَأَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ طَبِيعِيًّا أَوْ مَدْفُوعًا بِمِرْوَحَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_203",
+      "arabic": "انْتِقَالُ الْحَرَارَةِ بِالْإِشْعَاعِ",
+      "meaning_ar": "انْتِقَالُ الطَّاقَةِ فِي صُورَةِ مَوْجَاتٍ كَهْرُمَغْنَاطِيسِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِشْعَاعُ الشَّمْسِ"
+      ],
+      "examples_ar": [
+        "شَعَرَ الطَّالِبُ بِدِفْءِ الشَّمْسِ."
+      ],
+      "usage_note_ar": "لَا يَحْتَاجُ إِلَى وَسَطٍ مَادِّيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_204",
+      "arabic": "ضَغْطٌ هِيدْرُوسْتَاتِيكِيٌّ",
+      "meaning_ar": "ضَغْطٌ يَنْشَأُ مِنْ وَزْنِ عَمُودٍ مِنَ السَّائِلِ السَّاكِنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُمْقُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "زَادَ الضَّغْطُ مَعَ عُمْقِ الْغَوَّاصِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى الْكَثَافَةِ وَالْعُمْقِ وَالْجَاذِبِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_205",
+      "arabic": "قُوَّةُ الطَّفْوِ",
+      "meaning_ar": "قُوَّةٌ إِلَى الْأَعْلَى يُؤَثِّرُ بِهَا الْمَائِعُ عَلَى جِسْمٍ مَغْمُورٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَانُونُ أَرْخِمِيدِسَ"
+      ],
+      "examples_ar": [
+        "طَفَتِ الْقَارِبَةُ عَلَى سَطْحِ الْمَاءِ."
+      ],
+      "usage_note_ar": "تُسَاوِي وَزْنَ الْمَائِعِ الْمُزَاحِ فِي الظُّرُوفِ الْمُعْتَادَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_206",
+      "arabic": "جَرَيَانٌ صَفَائِحِيٌّ",
+      "meaning_ar": "حَرَكَةُ مَائِعٍ فِي طَبَقَاتٍ نَاعِمَةٍ دُونَ اخْتِلَاطٍ عَنِيفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارَاتُ الْجَرَيَانِ"
+      ],
+      "examples_ar": [
+        "انْسَابَ السَّائِلُ بِهُدُوءٍ فِي الأُنْبُوبِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِسُرْعَةِ الْمَائِعِ وَلُزُوجَتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_207",
+      "arabic": "جَرَيَانٌ مُضْطَرِبٌ",
+      "meaning_ar": "حَرَكَةُ مَائِعٍ غَيْرُ مُنْتَظِمَةٍ تَحْتَوِي عَلَى دَوَّامَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوَّامَاتُ الْجَرَيَانِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ الِاضْطِرَابُ خَلْفَ الْحَاجِزِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي فَقْدِ الضَّغْطِ وَانْتِقَالِ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_208",
+      "arabic": "عَدَدُ رَيْنُولْدْزَ",
+      "meaning_ar": "قِيمَةٌ بِلَا وَحْدَةٍ تُقَارِنُ قُوَى الْقُصُورِ الذَّاتِيِّ بِالْلُّزُوجَةِ فِي الْجَرَيَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْعَدَدِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الْمُهَنْدِسُ نَوْعَ جَرَيَانِ السَّائِلِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلتَّمْيِيزِ بَيْنَ أَنْظِمَةِ الْجَرَيَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_209",
+      "arabic": "قَانُونُ بَرْنُولِي",
+      "meaning_ar": "عِلَاقَةٌ تُوَازِنُ بَيْنَ الضَّغْطِ وَالسُّرْعَةِ وَالِارْتِفَاعِ فِي جَرَيَانٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَاقَةُ الْمَائِعِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ سُرْعَةَ الْمَاءِ فِي الأُنْبُوبِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى افْتِرَاضَاتٍ مِثْلِ إِهْمَالِ الْفَاقِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_210",
+      "arabic": "مِسَاحَةُ الدَّائِرَةِ",
+      "meaning_ar": "مِقْدَارُ السَّطْحِ الدَّاخِلِيِّ لِدَائِرَةٍ بِحَسَبِ نِصْفِ قُطْرِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمِسَاحَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ نِصْفَ الْقُطْرِ قَبْلَ الْحِسَابِ."
+      ],
+      "usage_note_ar": "تَسَاوِي ثَابِتَ بَايْ مَضْرُوبًا فِي مُرَبَّعِ نِصْفِ الْقُطْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_211",
+      "arabic": "مُحِيطُ الدَّائِرَةِ",
+      "meaning_ar": "طُولُ الْخَطِّ الْمُنْحَنِي الَّذِي يَحُدُّ الدَّائِرَةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمُحِيطِ"
+      ],
+      "examples_ar": [
+        "لَفَّ الطَّالِبُ شَرِيطًا حَوْلَ الدَّائِرَةِ."
+      ],
+      "usage_note_ar": "يُسَاوِي ضِعْفَ ثَابِتِ بَايْ فِي نِصْفِ الْقُطْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_212",
+      "arabic": "زَاوِيَةٌ مَرْكَزِيَّةٌ",
+      "meaning_ar": "زَاوِيَةٌ يَقَعُ رَأْسُهَا فِي مَرْكَزِ الدَّائِرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَوْسُ الزَّاوِيَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ زَاوِيَةً بَيْنَ نِصْفَيِ قُطْرٍ."
+      ],
+      "usage_note_ar": "تُقَاسُ بِالدَّرَجَاتِ أَوِ الرَّادْيَانَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_213",
+      "arabic": "زَاوِيَةٌ مُحِيطِيَّةٌ",
+      "meaning_ar": "زَاوِيَةٌ يَقَعُ رَأْسُهَا عَلَى الدَّائِرَةِ وَضِلْعَاهَا وَتَرَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الزَّاوِيَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ زَاوِيَةً عَلَى الْمُحِيطِ."
+      ],
+      "usage_note_ar": "تُسَاوِي نِصْفَ الْمَرْكَزِيَّةِ الَّتِي تَقَابِلُ الْقَوْسَ نَفْسَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_214",
+      "arabic": "وَتَرُ الدَّائِرَةِ",
+      "meaning_ar": "قِطْعَةٌ مُسْتَقِيمَةٌ تَرْبِطُ نُقْطَتَيْنِ عَلَى مُحِيطِ الدَّائِرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طُولُ الْوَتَرِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ وَتَرًا لَا يَمُرُّ بِالْمَرْكَزِ."
+      ],
+      "usage_note_ar": "الْقُطْرُ هُوَ أَطْوَلُ أَوْتَارِ الدَّائِرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_215",
+      "arabic": "قُطْرُ الدَّائِرَةِ",
+      "meaning_ar": "وَتَرٌ يَمُرُّ بِمَرْكَزِ الدَّائِرَةِ وَيَصِلُ بَيْنَ طَرَفَيْنِ مِنْ مُحِيطِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْقُطْرِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ طُولَ الْخَطِّ عَبْرَ الْمَرْكَزِ."
+      ],
+      "usage_note_ar": "يُسَاوِي ضِعْفَ نِصْفِ الْقُطْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_216",
+      "arabic": "قِطَاعٌ دَائِرِيٌّ",
+      "meaning_ar": "جُزْءٌ مِنْ دَائِرَةٍ يَحُدُّهُ نِصْفَا قُطْرٍ وَقَوْسٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِسَاحَةُ الْقِطَاعِ"
+      ],
+      "examples_ar": [
+        "لَوَّنَ الطَّالِبُ جُزْءًا مِنَ الدَّائِرَةِ."
+      ],
+      "usage_note_ar": "تَتَنَاسَبُ مِسَاحَتُهُ مَعَ زَاوِيَتِهِ الْمَرْكَزِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_217",
+      "arabic": "قَطْعٌ مُكَافِئٌ",
+      "meaning_ar": "مُنْحَنًى تَكُونُ نِقَاطُهُ مُتَسَاوِيَةَ الْبُعْدِ عَنْ بُؤْرَةٍ وَدَلِيلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بُؤْرَةُ الْقَطْعِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ قَطْعًا مُكَافِئًا."
+      ],
+      "usage_note_ar": "يَظْهَرُ فِي رُسُومِ الدَّوَالِّ التَّرْبِيعِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_218",
+      "arabic": "قَطْعٌ نَاقِصٌ",
+      "meaning_ar": "مُنْحَنًى يَكُونُ مَجْمُوعُ بُعْدَيْ أَيِّ نُقْطَةٍ عَلَيْهِ عَنْ بُؤْرَتَيْنِ ثَابِتًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِحْوَرُ الْقَطْعِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ شَكْلًا بَيْضَوِيًّا."
+      ],
+      "usage_note_ar": "تُعَدُّ الدَّائِرَةُ حَالَةً خَاصَّةً مِنْهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_219",
+      "arabic": "قَطْعٌ زَائِدٌ",
+      "meaning_ar": "مُنْحَنًى يَكُونُ الْفَرْقُ الْمُطْلَقُ بَيْنَ بُعْدَيْ نُقْطَةٍ عَنْ بُؤْرَتَيْنِ ثَابِتًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَرْعَا الْقَطْعِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ فَرْعَيْ مُنْحَنًى مُتَنَاظِرٍ."
+      ],
+      "usage_note_ar": "لَهُ خَطَّا تَقَارُبٍ فِي أَشْكَالِهِ الْمُعْتَادَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_220",
+      "arabic": "مُتَوَازِي أَضْلَاعٍ",
+      "meaning_ar": "شَكْلٌ رُبَاعِيٌّ يَكُونُ كُلُّ ضِلْعَيْنِ مُتَقَابِلَيْنِ فِيهِ مُتَوَازِيَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِسَاحَةُ الشَّكْلِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ الْمِسَاحَةَ مِنَ الْقَاعِدَةِ وَالِارْتِفَاعِ."
+      ],
+      "usage_note_ar": "الزَّوَايَا الْمُتَقَابِلَةُ فِيهِ مُتَسَاوِيَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_221",
+      "arabic": "شِبْهُ مُنْحَرِفٍ",
+      "meaning_ar": "شَكْلٌ رُبَاعِيٌّ لَهُ زَوْجٌ وَاحِدٌ عَلَى الأَقَلِّ مِنَ الأَضْلَاعِ الْمُتَوَازِيَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَاعِدَتَا الشَّكْلِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ الِارْتِفَاعَ بَيْنَ الْقَاعِدَتَيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ التَّعْرِيفَاتُ الْمَدْرَسِيَّةُ فِي اشْتِرَاطِ زَوْجٍ وَاحِدٍ فَقَطْ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_222",
+      "arabic": "مُعَيَّنٌ هَنْدَسِيٌّ",
+      "meaning_ar": "شَكْلٌ رُبَاعِيٌّ تَتَسَاوَى أَضْلَاعُهُ الأَرْبَعَةُ فِي الطُّولِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قُطْرَا الْمُعَيَّنِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مُعَيَّنًا مَائِلًا."
+      ],
+      "usage_note_ar": "الْمُرَبَّعُ حَالَةٌ خَاصَّةٌ مِنَ الْمُعَيَّنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_223",
+      "arabic": "مُضَلَّعٌ مُنْتَظِمٌ",
+      "meaning_ar": "شَكْلٌ مُغْلَقٌ تَتَسَاوَى جَمِيعُ أَضْلَاعِهِ وَزَوَايَاهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَدَدُ الأَضْلَاعِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مُسَدَّسًا مُنْتَظِمًا."
+      ],
+      "usage_note_ar": "تُحْسَبُ زَاوِيَاهُ مِنْ عَدَدِ أَضْلَاعِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_224",
+      "arabic": "مُضَلَّعٌ مُحَدَّبٌ",
+      "meaning_ar": "مُضَلَّعٌ تَقَعُ الْقِطَعُ الْمُسْتَقِيمَةُ بَيْنَ نُقَاطِهِ دَاخِلَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ التَّحَدُّبِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ شَكْلًا لَا تَدْخُلُ أَضْلَاعُهُ إِلَى الدَّاخِلِ."
+      ],
+      "usage_note_ar": "جَمِيعُ زَوَايَاهُ الدَّاخِلِيَّةِ أَقَلُّ مِنْ مِئَةٍ وَثَمَانِينَ دَرَجَةً فِي الْحَالَةِ الصَّارِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_225",
+      "arabic": "مُضَلَّعٌ مُقَعَّرٌ",
+      "meaning_ar": "مُضَلَّعٌ يَحْتَوِي عَلَى انْبِعَاجٍ دَاخِلِيٍّ يَجْعَلُ بَعْضَ زَوَايَاهُ كَبِيرَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَسْمُ الْمُضَلَّعِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ شَكْلًا ذَا زَاوِيَةٍ دَاخِلِيَّةٍ كَبِيرَةٍ."
+      ],
+      "usage_note_ar": "لَا يَكُونُ كُلُّ مُسْتَقِيمٍ بَيْنَ نُقَاطِهِ دَاخِلَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_226",
+      "arabic": "مُنْشُورٌ هَنْدَسِيٌّ",
+      "meaning_ar": "مُجَسَّمٌ لَهُ قَاعِدَتَانِ مُتَطَابِقَتَانِ وَمُتَوَازِيَتَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَجْمُ الْمُنْشُورِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ حَجْمَ مُنْشُورٍ ثُلَاثِيٍّ."
+      ],
+      "usage_note_ar": "يُسَاوِي الْحَجْمُ مِسَاحَةَ الْقَاعِدَةِ فِي الِارْتِفَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_227",
+      "arabic": "هَرَمٌ هَنْدَسِيٌّ",
+      "meaning_ar": "مُجَسَّمٌ ذُو قَاعِدَةٍ مُضَلَّعَةٍ وَأَوْجُهٍ مُثَلَّثَةٍ تَلْتَقِي فِي رَأْسٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَجْمُ الْهَرَمِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ هَرَمًا رُبَاعِيًّا."
+      ],
+      "usage_note_ar": "يُسَاوِي حَجْمُهُ ثُلْثَ مِسَاحَةِ الْقَاعِدَةِ فِي الِارْتِفَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_228",
+      "arabic": "أُسْطُوَانَةٌ دَائِرِيَّةٌ",
+      "meaning_ar": "مُجَسَّمٌ لَهُ قَاعِدَتَانِ دَائِرِيَّتَانِ مُتَطَابِقَتَانِ وَمُتَوَازِيَتَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَجْمُ الأُسْطُوَانَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ ارْتِفَاعَ الْعُبُوَّةِ."
+      ],
+      "usage_note_ar": "يُحْسَبُ الْحَجْمُ بِمِسَاحَةِ الْقَاعِدَةِ فِي الِارْتِفَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_229",
+      "arabic": "مَخْرُوطٌ دَائِرِيٌّ",
+      "meaning_ar": "مُجَسَّمٌ ذُو قَاعِدَةٍ دَائِرِيَّةٍ وَرَأْسٍ تَلْتَقِي عِنْدَهُ خُطُوطُ السَّطْحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَجْمُ الْمَخْرُوطِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ حَجْمَ قَمْعٍ."
+      ],
+      "usage_note_ar": "يُسَاوِي حَجْمُهُ ثُلْثَ مِسَاحَةِ الْقَاعِدَةِ فِي الِارْتِفَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_230",
+      "arabic": "كُرَةٌ هَنْدَسِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ النُّقَاطِ فِي الْفَضَاءِ عَلَى بُعْدٍ مُحَدَّدٍ مِنْ مَرْكَزٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَطْحُ الْكُرَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مَقْطَعًا لِكُرَةٍ."
+      ],
+      "usage_note_ar": "فِي بَعْضِ الِاصْطِلَاحَاتِ يُقْصَدُ بِهَا السَّطْحُ دُونَ الْحَجْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_231",
+      "arabic": "حَجْمُ الْكُرَةِ",
+      "meaning_ar": "مِقْدَارُ الْفَرَاغِ الَّذِي يَشْغَلُهُ جِسْمٌ كُرَوِيٌّ مَصْمَتٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْحَجْمِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ نِصْفَ قُطْرِ الْكُرَةِ."
+      ],
+      "usage_note_ar": "يُحْسَبُ بِأَرْبَعَةِ أَثْلَاثِ ثَابِتِ بَايْ فِي مَكْعَبِ نِصْفِ الْقُطْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_232",
+      "arabic": "مَسَاحَةُ سَطْحِ الْكُرَةِ",
+      "meaning_ar": "مِقْدَارُ مِسَاحَةِ الْغِلَافِ الْخَارِجِيِّ لِكُرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ السَّطْحِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ مِسَاحَةَ الْكُرَةِ."
+      ],
+      "usage_note_ar": "تُسَاوِي أَرْبَعَةَ أَمْثَالِ ثَابِتِ بَايْ فِي مُرَبَّعِ نِصْفِ الْقُطْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_233",
+      "arabic": "تَنَاظُرٌ مِحْوَرِيٌّ",
+      "meaning_ar": "خَاصِّيَّةٌ لِشَكْلٍ يُطَابِقُ صُورَتَهُ عِنْدَ عَكْسِهِ حَوْلَ مُسْتَقِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِحْوَرُ التَّنَاظُرِ"
+      ],
+      "examples_ar": [
+        "طَوَى الطَّالِبُ الْوَرَقَةَ لِيَتَطَابَقَ النِّصْفَانِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّنَاظُرِ الدَّوَرَانِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_234",
+      "arabic": "تَنَاظُرٌ دَوَرَانِيٌّ",
+      "meaning_ar": "خَاصِّيَّةٌ لِشَكْلٍ يُطَابِقُ نَفْسَهُ بَعْدَ دَوَرَانٍ بِزَاوِيَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرْكَزُ الدَّوَرَانِ"
+      ],
+      "examples_ar": [
+        "أَدَارَ الطَّالِبُ الشَّكْلَ فَظَهَرَ مُطَابِقًا."
+      ],
+      "usage_note_ar": "تُقَاسُ دَرَجَةُ التَّنَاظُرِ بِعَدَدِ الْأَوْضَاعِ الْمُطَابِقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_235",
+      "arabic": "تَحْوِيلٌ هَنْدَسِيٌّ",
+      "meaning_ar": "قَاعِدَةٌ تَنْقُلُ نِقَاطَ شَكْلٍ إِلَى مَوَاضِعَ جَدِيدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صُورَةُ الشَّكْلِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الطَّالِبُ الْمُثَلَّثَ عَلَى الْمُسْتَوَى."
+      ],
+      "usage_note_ar": "تَشْمَلُ التَّحْوِيلَاتُ الِانْسِحَابَ وَالدَّوَرَانَ وَالِانْعِكَاسَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_236",
+      "arabic": "انْسِحَابٌ هَنْدَسِيٌّ",
+      "meaning_ar": "نَقْلُ كُلِّ نُقْطَةٍ مِنْ شَكْلٍ بِالْمُتَّجِهِ نَفْسِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُتَّجِهُ الِانْسِحَابِ"
+      ],
+      "examples_ar": [
+        "حَرَّكَ الطَّالِبُ الْمُرَبَّعَ إِلَى الْيَمِينِ."
+      ],
+      "usage_note_ar": "يَحْفَظُ الأَطْوَالَ وَالزَّوَايَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_237",
+      "arabic": "دَوَرَانٌ هَنْدَسِيٌّ",
+      "meaning_ar": "تَحْوِيلٌ يُدِيرُ شَكْلًا حَوْلَ نُقْطَةٍ بِزَاوِيَةٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرْكَزُ الدَّوَرَانِ"
+      ],
+      "examples_ar": [
+        "أَدَارَ الطَّالِبُ الْمُثَلَّثَ تِسْعِينَ دَرَجَةً."
+      ],
+      "usage_note_ar": "يَحْفَظُ مِقَادِيرَ الْأَطْوَالِ وَالزَّوَايَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_238",
+      "arabic": "تَشَابُهٌ هَنْدَسِيٌّ",
+      "meaning_ar": "عَلَاقَةٌ بَيْنَ شَكْلَيْنِ تَتَسَاوَى زَوَايَاهُمَا وَتَتَنَاسَبُ أَضْلَاعُهُمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِسْبَةُ التَّشَابُهِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ مُثَلَّثَيْنِ مُخْتَلِفَيِ الْحَجْمِ."
+      ],
+      "usage_note_ar": "لَا يَشْتَرِطُ تَسَاوِيَ الْحَجْمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_239",
+      "arabic": "تَطَابُقٌ هَنْدَسِيٌّ",
+      "meaning_ar": "عَلَاقَةٌ بَيْنَ شَكْلَيْنِ لَهُمَا الْأَبْعَادُ وَالزَّوَايَا نَفْسُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَطَابُقُ الْمُثَلَّثَيْنِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّالِبُ شَكْلًا فَوْقَ الْآخَرِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَحْقِيقُهُ بِحَرَكَاتٍ تَحْفَظُ الْمَسَافَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_240",
+      "arabic": "إِحْدَاثِيَّاتٌ دِيكَارْتِيَّةٌ",
+      "meaning_ar": "نِظَامٌ يُحَدِّدُ الْمَوَاقِعَ بِأَعْدَادٍ مَقِيسَةٍ عَلَى مَحَاوِرَ مُتَعَامِدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُحْوَرَا الْإِحْدَاثِيَّاتِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ مَوْقِعَ النُّقْطَةِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يَكُونَ ثُنَائِيَّ الأَبْعَادِ أَوْ ثُلَاثِيَّهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_241",
+      "arabic": "إِحْدَاثِيَّاتٌ قُطْبِيَّةٌ",
+      "meaning_ar": "نِظَامٌ يُحَدِّدُ النُّقْطَةَ بِمَسَافَةٍ مِنَ الْأَصْلِ وَزَاوِيَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْبُعْدُ وَالزَّاوِيَةُ"
+      ],
+      "examples_ar": [
+        "حَوَّلَ الطَّالِبُ مَوْقِعَ النُّقْطَةِ إِلَى نِظَامٍ قُطْبِيٍّ."
+      ],
+      "usage_note_ar": "يُنَاسِبُ الْحَرَكَةَ الدَّوَرَانِيَّةَ وَالدَّوَائِرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_242",
+      "arabic": "خَطُّ مُمَاسٍّ",
+      "meaning_ar": "مُسْتَقِيمٌ يَمَسُّ مُنْحَنًى فِي نُقْطَةٍ بِاتِّجَاهِهِ الْمَحَلِّيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَيْلُ الْمُمَاسِّ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مُمَاسًّا لِلدَّائِرَةِ."
+      ],
+      "usage_note_ar": "يَكُونُ عَمُودِيًّا عَلَى نِصْفِ الْقُطْرِ فِي دَائِرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_243",
+      "arabic": "مُسْتَقِيمٌ قَاطِعٌ",
+      "meaning_ar": "خَطٌّ يَمُرُّ بِنُقْطَتَيْنِ مِنْ مُنْحَنًى أَوْ أَكْثَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَاطِعُ الدَّائِرَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ خَطًّا يَعْبُرُ الدَّائِرَةَ."
+      ],
+      "usage_note_ar": "يُخَالِفُ الْمُمَاسَّ الَّذِي يَلْمَسُ الْمُنْحَنَى مَحَلِّيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_244",
+      "arabic": "مِيلُ الْمُسْتَقِيمِ",
+      "meaning_ar": "نِسْبَةُ التَّغَيُّرِ الرَّأْسِيِّ إِلَى التَّغَيُّرِ الأُفُقِيِّ فِي الْمُسْتَوَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمَيْلِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ الْفَرْقَ بَيْنَ إِحْدَاثِيَّاتِ نُقْطَتَيْنِ."
+      ],
+      "usage_note_ar": "لَا يُعَرَّفُ الْمَيْلُ لِلْمُسْتَقِيمِ الرَّأْسِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_245",
+      "arabic": "مَسَافَةٌ إِقْلِيدِيَّةٌ",
+      "meaning_ar": "طُولُ أَقْصَرِ مَسَارٍ مُسْتَقِيمٍ بَيْنَ نُقْطَتَيْنِ فِي فَضَاءٍ إِقْلِيدِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمَسَافَةِ"
+      ],
+      "examples_ar": [
+        "طَبَّقَ الطَّالِبُ نَظَرِيَّةَ فِيثَاغُورَسَ."
+      ],
+      "usage_note_ar": "تُحْسَبُ مِنْ فُرُوقِ الْإِحْدَاثِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_246",
+      "arabic": "نَظَرِيَّةُ فِيثَاغُورَسَ",
+      "meaning_ar": "عِلَاقَةٌ بَيْنَ مُرَبَّعِ الْوَتَرِ وَمَجْمُوعِ مُرَبَّعَيْ ضِلْعَيِ الْقَائِمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُثَلَّثٌ قَائِمٌ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ طُولَ الْوَتَرِ."
+      ],
+      "usage_note_ar": "تَنْطَبِقُ عَلَى الْمُثَلَّثِ الْقَائِمِ فِي الْهَنْدَسَةِ الْإِقْلِيدِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_247",
+      "arabic": "جَيْبُ الزَّاوِيَةِ",
+      "meaning_ar": "نِسْبَةُ طُولِ الضِّلْعِ الْمُقَابِلِ لِلزَّاوِيَةِ إِلَى الْوَتَرِ فِي مُثَلَّثٍ قَائِمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْجَيْبِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الطَّالِبُ جَيْبَ الزَّاوِيَةِ لِإِيجَادِ الِارْتِفَاعِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَعْمِيمُهُ عَلَى الدَّائِرَةِ الْمِثْلَثِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_248",
+      "arabic": "جَيْبُ التَّمَامِ",
+      "meaning_ar": "نِسْبَةُ الضِّلْعِ الْمُجَاوِرِ لِلزَّاوِيَةِ إِلَى الْوَتَرِ فِي مُثَلَّثٍ قَائِمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ جَيْبِ التَّمَامِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ طُولَ الضِّلْعِ الْمُجَاوِرِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالْجَيْبِ بِمُتَطَابِقَاتٍ مَعْرُوفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_249",
+      "arabic": "ظِلُّ الزَّاوِيَةِ",
+      "meaning_ar": "نِسْبَةُ الضِّلْعِ الْمُقَابِلِ إِلَى الضِّلْعِ الْمُجَاوِرِ فِي مُثَلَّثٍ قَائِمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الظِّلِّ"
+      ],
+      "examples_ar": [
+        "قَاسَ الطَّالِبُ الِارْتِفَاعَ مِنْ طُولِ الظِّلِّ."
+      ],
+      "usage_note_ar": "لَا يُعَرَّفُ عِنْدَ زَوَايَا يَكُونُ جَيْبُ تَمَامِهَا صِفْرًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_250",
+      "arabic": "رَادْيَانٌ",
+      "meaning_ar": "وَحْدَةٌ لِقِيَاسِ الزَّوَايَا تُعْرَفُ مِنْ نِسْبَةِ طُولِ الْقَوْسِ إِلَى نِصْفِ الْقُطْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِيَاسٌ بِالرَّادْيَانِ"
+      ],
+      "examples_ar": [
+        "حَوَّلَ الطَّالِبُ الزَّاوِيَةَ مِنَ الدَّرَجَاتِ."
+      ],
+      "usage_note_ar": "دَوْرَةٌ كَامِلَةٌ تَسَاوِي ضِعْفَ ثَابِتِ بَايْ رَادْيَانًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_251",
+      "arabic": "مُنْحَنَى الدَّالَّةِ",
+      "meaning_ar": "مَجْمُوعَةُ النِّقَاطِ الَّتِي تُمَثِّلُ الْمُدْخَلَاتِ وَالْمُخْرَجَاتِ لِدَالَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَسْمُ الْمُنْحَنَى"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ قِيَمَ الدَّالَّةِ عَلَى مِحْوَرَيْنِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى رُؤْيَةِ النُّمُوِّ وَالنِّهَايَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_mathematics_science_20261027_252",
+      "arabic": "مَحْوَرُ التَّمَاثُلِ",
+      "meaning_ar": "مُسْتَقِيمٌ يَقْسِمُ شَكْلًا إِلَى جُزْأَيْنِ مُتَنَاظِرَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْمِحْوَرِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مَحْوَرَ قَطْعٍ مُكَافِئٍ."
+      ],
+      "usage_note_ar": "يَتَطَابَقُ الْجَانِبَانِ عِنْدَ الِانْعِكَاسِ حَوْلَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_mathematics_science_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
