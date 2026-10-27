@@ -1,0 +1,3570 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_genetics_microbiology_20261027_001",
+      "arabic": "عِلْمُ الْوِرَاثَةِ",
+      "meaning_ar": "فَرْعٌ مِنَ الْأَحْيَاءِ يَدْرُسُ انْتِقَالَ الصِّفَاتِ وَاخْتِلَافَهَا بَيْنَ الأَجْيَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْوِرَاثَةِ"
+      ],
+      "examples_ar": [
+        "تَعَلَّمَ الطَّالِبُ أُسُسَ الْوِرَاثَةِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالْجِينَاتِ وَالْكُرُومُوسُومَاتِ وَالتَّنَوُّعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_002",
+      "arabic": "مَادَّةٌ وَرَاثِيَّةٌ",
+      "meaning_ar": "جُزَيْئَاتٌ تَحْمِلُ مَعْلُومَاتِ الْوَرَاثَةِ فِي الْكَائِنَاتِ الْحَيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَسْخُ الْمَادَّةِ"
+      ],
+      "examples_ar": [
+        "تَحْفَظُ الْخَلِيَّةُ مَعْلُومَاتِهَا الْوِرَاثِيَّةَ."
+      ],
+      "usage_note_ar": "يَكُونُ الْحَامِلُ فِي مُعْظَمِ الْكَائِنَاتِ هُوَ الْحَمْضَ النَّوَوِيَّ الرِّيبِيَّ الْمَنْزُوعَ الأُكْسِجِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_003",
+      "arabic": "جِينٌ وَرَاثِيٌّ",
+      "meaning_ar": "مَقْطَعٌ مِنَ الْمَادَّةِ الْوِرَاثِيَّةِ يُسْهِمُ فِي تَكْوِينِ مُنْتَجٍ وَظِيفِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَعْبِيرُ الْجِينِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ جِينًا يُنَظِّمُ نُمُوَّ الْخَلِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ يُنْتِجُ بُرُوتِينًا أَوْ جُزَيْئًا مِنَ الْحَمْضِ الرِّيبِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_004",
+      "arabic": "أَلِيلٌ وَرَاثِيٌّ",
+      "meaning_ar": "صِيغَةٌ مُخْتَلِفَةٌ مِنْ جِينٍ تَقَعُ فِي الْمَوْضِعِ نَفْسِهِ عَلَى الْكُرُومُوسُومِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَلِيلٌ سَائِدٌ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ أَلِيلَيْنِ لِصِفَةٍ وَاحِدَةٍ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ عِلَاقَاتُ السِّيَادَةِ بَيْنَ الأَلِيلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_005",
+      "arabic": "كُرُومُوسُومٌ",
+      "meaning_ar": "بِنْيَةٌ خَلَوِيَّةٌ مِنْ حَمْضٍ نَوَوِيٍّ وَبُرُوتِينَاتٍ تَحْمِلُ الْجِينَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "عَدَدُ الْكُرُومُوسُومَاتِ"
+      ],
+      "examples_ar": [
+        "رَأَى الطَّالِبُ كُرُومُوسُومَاتٍ فِي صُورَةٍ مِجْهَرِيَّةٍ."
+      ],
+      "usage_note_ar": "تَتَضَاعَفُ الْمَادَّةُ الْوِرَاثِيَّةُ قَبْلَ الِانْقِسَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_006",
+      "arabic": "كَرُومَاتِيدٌ شَقِيقٌ",
+      "meaning_ar": "نُسْخَةٌ مِنْ كُرُومُوسُومٍ مُضَاعَفٍ تَرْتَبِطُ بِنُسْخَةٍ مُمَاثِلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْفِصَالُ الْكَرُومَاتِيدَاتِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ انْفِصَالَ النُّسَخِ فِي الِانْقِسَامِ."
+      ],
+      "usage_note_ar": "تَنْشَأُ الْكَرُومَاتِيدَاتُ الشَّقِيقَةُ بَعْدَ تَضَاعُفِ الْحَمْضِ النَّوَوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_007",
+      "arabic": "سِنْتْرُومِيرٌ",
+      "meaning_ar": "مَنْطِقَةٌ فِي الْكُرُومُوسُومِ تَرْتَبِطُ بِهَا أَنْظِمَةُ فَصْلِ الْكَرُومَاتِيدَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مَوْضِعُ السِّنْتْرُومِيرِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ الْمِنْطَقَةَ عَلَى الرَّسْمِ."
+      ],
+      "usage_note_ar": "يَلْعَبُ دَوْرًا فِي تَوْزِيعِ الْمَادَّةِ الْوِرَاثِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_008",
+      "arabic": "تِيلُومِيرٌ",
+      "meaning_ar": "بِنْيَةٌ عِنْدَ نِهَايَاتِ الْكُرُومُوسُومَاتِ تَحْمِي أَطْرَافَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "طُولُ التِّيلُومِيرِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَغَيُّرَ طُولِ التِّيلُومِيرَاتِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِانْقِسَامِ الْخَلَايَا وَاسْتِقْرَارِ الْكُرُومُوسُومَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_009",
+      "arabic": "جِينُومٌ",
+      "meaning_ar": "الْمَجْمُوعَةُ الْكَامِلَةُ لِلْمَادَّةِ الْوِرَاثِيَّةِ فِي كَائِنٍ أَوْ خَلِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْجِينُومِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ جِينُومَيْ كَائِنَيْنِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ مَنَاطِقَ تُشَفِّرُ بُرُوتِينَاتٍ وَأُخْرَى لَا تُشَفِّرُهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_010",
+      "arabic": "تَسَلْسُلٌ جِينِيٌّ",
+      "meaning_ar": "تَرْتِيبُ الْوَحَدَاتِ الْبِنَائِيَّةِ فِي مَقْطَعٍ مِنَ الْحَمْضِ النَّوَوِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ التَّسَلْسُلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمَخْبَرُ تَسَلْسُلَيْنِ جِينِيَّيْنِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَحْدِيدِ الِاخْتِلَافَاتِ الْوِرَاثِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_011",
+      "arabic": "قَاعِدَةٌ نِيتْرُوجِينِيَّةٌ",
+      "meaning_ar": "مُكَوِّنٌ كِيمِيَائِيٌّ يَدْخُلُ فِي بِنَاءِ الأَحْمَاضِ النَّوَوِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرْتِيبُ الْقَوَاعِدِ"
+      ],
+      "examples_ar": [
+        "رَتَّبَ الطَّالِبُ الْقَوَاعِدَ عَلَى نَمُوذَجٍ."
+      ],
+      "usage_note_ar": "تَتَزَاوَجُ بَعْضُهَا بِصُورَةٍ مُكَمِّلَةٍ فِي الْحَمْضِ النَّوَوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_012",
+      "arabic": "نُيُوكْلِيُوتِيدٌ",
+      "meaning_ar": "وَحْدَةٌ بِنَائِيَّةٌ مِنْ سُكَّرٍ وَفُوسْفَاتٍ وَقَاعِدَةٍ نِيتْرُوجِينِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "سِلْسِلَةُ النُّيُوكْلِيُوتِيدَاتِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ وَحَدَاتِ الْحَمْضِ النَّوَوِيِّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ بِحَسَبِ السُّكَّرِ وَالْقَاعِدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_013",
+      "arabic": "لَوْلَبٌ مُزْدَوِجٌ",
+      "meaning_ar": "بِنْيَةٌ مِنْ سِلْسِلَتَيْنِ مُتَكَامِلَتَيْنِ تَلْتَفَّانِ حَوْلَ بَعْضِهِمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَمُوذَجُ اللَّوْلَبِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ لَوْلَبًا مُزْدَوِجًا لِلْحَمْضِ النَّوَوِيِّ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الْقَوَاعِدُ الْمُتَكَامِلَةُ عَلَى ثَبَاتِ الْبِنْيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_014",
+      "arabic": "تَضَاعُفُ الْحَمْضِ النَّوَوِيِّ",
+      "meaning_ar": "عَمَلِيَّةُ نَسْخِ الْمَادَّةِ الْوِرَاثِيَّةِ قَبْلَ انْقِسَامِ الْخَلِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَدْءُ التَّضَاعُفِ"
+      ],
+      "examples_ar": [
+        "نَسَخَتِ الْخَلِيَّةُ مَادَّتَهَا الْوِرَاثِيَّةَ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ كُلُّ شَرِيطٍ قَدِيمٍ قَالِبًا لِشَرِيطٍ جَدِيدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_015",
+      "arabic": "إِنْزِيمُ بَلْمَرَةٍ",
+      "meaning_ar": "إِنْزِيمٌ يَرْبِطُ وَحَدَاتٍ صَغِيرَةً لِبِنَاءِ سِلْسِلَةٍ مِنْ حَمْضٍ نَوَوِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَمَلُ إِنْزِيمِ الْبَلْمَرَةِ"
+      ],
+      "examples_ar": [
+        "بَنَى الْإِنْزِيمُ شَرِيطًا جَدِيدًا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الأَنْوَاعُ حَسَبَ نَوْعِ الْحَمْضِ وَالْوَظِيفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_016",
+      "arabic": "نَسْخٌ جِينِيٌّ",
+      "meaning_ar": "تَكْوِينُ جُزَيْءٍ مِنَ الْحَمْضِ الرِّيبِيِّ انْطِلَاقًا مِنْ قَالِبٍ وَرَاثِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَدْءُ النَّسْخِ"
+      ],
+      "examples_ar": [
+        "نَسَخَتِ الْخَلِيَّةُ الْمَعْلُومَةَ إِلَى حَمْضٍ رِيبِيٍّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ تَضَاعُفِ الْمَادَّةِ الْوِرَاثِيَّةِ كُلِّهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_017",
+      "arabic": "تَرْجَمَةٌ جِينِيَّةٌ",
+      "meaning_ar": "تَحْوِيلُ رَمْزِ الْحَمْضِ الرِّيبِيِّ إِلَى سِلْسِلَةٍ مِنَ الأَحْمَاضِ الأَمِينِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَدْءُ التَّرْجَمَةِ"
+      ],
+      "examples_ar": [
+        "صَنَعَ الرِّيبُوسُومُ سِلْسِلَةً بُرُوتِينِيَّةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ تَرْجَمَةِ اللُّغَاتِ فِي الِاسْتِعْمَالِ الْعَامِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_018",
+      "arabic": "حَمْضٌ رِيبِيٌّ رَسُولٌ",
+      "meaning_ar": "جُزَيْءٌ يَنْقُلُ الْمَعْلُومَةَ مِنَ الْجِينِ إِلَى جِهَازِ تَصْنِيعِ الْبُرُوتِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الرِّسَالَةِ"
+      ],
+      "examples_ar": [
+        "حَمَلَ الْحَمْضُ الرِّيبِيُّ رَمْزَ الْبُرُوتِينِ."
+      ],
+      "usage_note_ar": "يَتَحَلَّلُ بَعْدَ مُدَّةٍ مُتَفَاوِتَةٍ حَسَبَ الْخَلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_019",
+      "arabic": "حَمْضٌ رِيبِيٌّ نَاقِلٌ",
+      "meaning_ar": "جُزَيْءٌ يَحْمِلُ حَمْضًا أَمِينِيًّا وَيُطَابِقُهُ مَعَ رَمْزٍ أَثْنَاءَ التَّرْجَمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ النَّاقِلِ"
+      ],
+      "examples_ar": [
+        "جَلَبَ الْحَمْضُ النَّاقِلُ حَمْضًا أَمِينِيًّا."
+      ],
+      "usage_note_ar": "تُسَاعِدُ بِنْيَتُهُ عَلَى دِقَّةِ بِنَاءِ الْبُرُوتِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_020",
+      "arabic": "رِيبُوسُومٌ",
+      "meaning_ar": "مُرَكَّبٌ خَلَوِيٌّ يَقْرَأُ الْحَمْضَ الرِّيبِيَّ الرَّسُولَ وَيُكَوِّنُ الْبُرُوتِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "وَحْدَاتُ الرِّيبُوسُومِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الطَّالِبُ الرِّيبُوسُومَاتِ فِي الرَّسْمِ."
+      ],
+      "usage_note_ar": "يَتَكَوَّنُ مِنْ حَمْضٍ رِيبِيٍّ وَبُرُوتِينَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_021",
+      "arabic": "شِيفْرَةٌ وَرَاثِيَّةٌ",
+      "meaning_ar": "نِظَامُ مُطَابَقَةِ رُمُوزٍ مِنَ الْحَمْضِ الرِّيبِيِّ مَعَ الأَحْمَاضِ الأَمِينِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الشِّيفْرَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الطَّالِبُ الشِّيفْرَةَ لِقِرَاءَةِ الرَّمْزِ."
+      ],
+      "usage_note_ar": "تَتَشَابَهُ الشِّيفْرَةُ فِي مُعْظَمِ الْكَائِنَاتِ مَعَ اسْتِثْنَاءَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_022",
+      "arabic": "رَمْزُونٌ وَرَاثِيٌّ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنْ ثَلَاثِ قَوَاعِدَ فِي الْحَمْضِ الرِّيبِيِّ تَدُلُّ عَلَى حَمْضٍ أَمِينِيٍّ أَوْ تَوَقُّفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الرَّمْزُونِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الطَّالِبُ الرَّمْزُونَ الأَوَّلَ."
+      ],
+      "usage_note_ar": "يُعْرَفُ أَيْضًا بِالْكُودُونِ فِي بَعْضِ الْكُتُبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_023",
+      "arabic": "طَفْرَةٌ وَرَاثِيَّةٌ",
+      "meaning_ar": "تَغَيُّرٌ فِي تَسَلْسُلِ الْمَادَّةِ الْوِرَاثِيَّةِ يُمْكِنُ أَنْ يُؤَثِّرَ فِي الْوَظِيفَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُدُوثُ الطَّفْرَةِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ طَفْرَةً فِي الْجِينِ."
+      ],
+      "usage_note_ar": "لَيْسَتْ جَمِيعُ الطَّفَرَاتِ ضَارَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_024",
+      "arabic": "طَفْرَةٌ نُقْطِيَّةٌ",
+      "meaning_ar": "تَغَيُّرٌ يَطَالُ مَوْضِعًا مُحَدَّدًا مِنْ تَسَلْسُلِ الْحَمْضِ النَّوَوِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الطَّفْرَةِ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَتْ قَاعِدَةٌ وَاحِدَةٌ فِي التَّسَلْسُلِ."
+      ],
+      "usage_note_ar": "قَدْ تُغَيِّرُ الْبُرُوتِينَ أَوْ لَا تُغَيِّرُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_025",
+      "arabic": "حَذْفٌ جِينِيٌّ",
+      "meaning_ar": "فَقْدُ مَقْطَعٍ مِنْ تَسَلْسُلِ الْمَادَّةِ الْوِرَاثِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَجْمُ الْحَذْفِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ التَّحْلِيلُ حَذْفَ عِدَّةِ قَوَاعِدَ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ النَّتِيجَةُ بِحَسَبِ مَوْضِعِ الْمَقْطَعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_026",
+      "arabic": "إِدْرَاجٌ جِينِيٌّ",
+      "meaning_ar": "إِضَافَةُ وَحْدَاتٍ جَدِيدَةٍ إِلَى تَسَلْسُلِ الْحَمْضِ النَّوَوِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْضِعُ الْإِدْرَاجِ"
+      ],
+      "examples_ar": [
+        "أَظْهَرَ التَّحْلِيلُ إِدْرَاجًا صَغِيرًا."
+      ],
+      "usage_note_ar": "قَدْ يُغَيِّرُ إِطَارَ قِرَاءَةِ الْجِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_027",
+      "arabic": "انْزِيَاحُ إِطَارِ الْقِرَاءَةِ",
+      "meaning_ar": "تَغَيُّرٌ فِي تَجْمِيعِ الرُّمُوزِ الثُّلَاثِيَّةِ بِسَبَبِ حَذْفٍ أَوْ إِضَافَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَفْرَةُ الِانْزِيَاحِ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَ تَرْتِيبُ الرُّمُوزِ بَعْدَ الْإِدْرَاجِ."
+      ],
+      "usage_note_ar": "قَدْ يُؤَدِّي إِلَى بُرُوتِينٍ مُخْتَلِفٍ جِدًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_028",
+      "arabic": "تَغَيُّرٌ وَرَاثِيٌّ",
+      "meaning_ar": "اخْتِلَافٌ فِي الْمَادَّةِ الْوِرَاثِيَّةِ بَيْنَ أَفْرَادٍ أَوْ خَلَايَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَصْدُ التَّغَيُّرِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ عَيِّنَاتٍ مِنْ أَفْرَادٍ مُخْتَلِفِينَ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي كُلُّ اخْتِلَافٍ وُجُودَ مَرَضٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_029",
+      "arabic": "تَنَوُّعٌ وَرَاثِيٌّ",
+      "meaning_ar": "اخْتِلَافُ الْأَلِيلَاتِ وَالتَّسَلْسُلَاتِ بَيْنَ أَفْرَادِ جَمَاعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّنَوُّعِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْعُلَمَاءُ التَّنَوُّعَ فِي نَبَاتٍ."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي قُدْرَةِ الْجَمَاعَاتِ عَلَى التَّكَيُّفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_030",
+      "arabic": "نَمَطٌ جِينِيٌّ",
+      "meaning_ar": "التَّرْكِيبُ الْوِرَاثِيُّ لِفَرْدٍ فِي مَوْضِعٍ أَوْ مَوَاضِعَ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ النَّمَطِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الطَّالِبُ أَلِيلَيْنِ فِي الْجَدْوَلِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الصِّفَاتِ الظَّاهِرَةِ لِلْفَرْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_031",
+      "arabic": "نَمَطٌ ظَاهِرِيٌّ",
+      "meaning_ar": "الصِّفَاتُ الَّتِي يُمْكِنُ مُلَاحَظَتُهَا نَتِيجَةَ الْوِرَاثَةِ وَالْبِيئَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَصْفُ النَّمَطِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ طُولَ النَّبَاتِ."
+      ],
+      "usage_note_ar": "لَا تَكْشِفُ الصِّفَةُ وَحْدَهَا دَائِمًا عَنِ النَّمَطِ الْجِينِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_032",
+      "arabic": "صِفَةٌ سَائِدَةٌ",
+      "meaning_ar": "صِفَةٌ تَظْهَرُ فِي نَمَطٍ وَرَاثِيٍّ مُعَيَّنٍ عِنْدَ وُجُودِ أَلِيلٍ سَائِدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ظُهُورُ الصِّفَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ جَدْوَلًا لِتَوَارُثِ صِفَةٍ."
+      ],
+      "usage_note_ar": "السِّيَادَةُ وَصْفٌ لِلْعَلَاقَةِ بَيْنَ الأَلِيلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_033",
+      "arabic": "صِفَةٌ مُتَنَحِّيَةٌ",
+      "meaning_ar": "صِفَةٌ لَا تَظْهَرُ فِي بَعْضِ الْأَنْظِمَةِ عِنْدَ وُجُودِ أَلِيلٍ سَائِدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوَارُثُ الصِّفَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ الصِّفَةَ السَّائِدَةَ بِالْمُتَنَحِّيَةِ."
+      ],
+      "usage_note_ar": "لَيْسَتِ الصِّفَةُ الْمُتَنَحِّيَةُ بِالضَّرُورَةِ نَادِرَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_034",
+      "arabic": "سِيَادَةٌ مُشْتَرَكَةٌ",
+      "meaning_ar": "حَالَةٌ يَظْهَرُ فِيهَا تَأْثِيرُ أَلِيلَيْنِ مُخْتَلِفَيْنِ مَعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِثَالُ السِّيَادَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ نَمَطًا لِفَصَائِلِ الدَّمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ السِّيَادَةِ غَيْرِ التَّامَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_035",
+      "arabic": "سِيَادَةٌ غَيْرُ تَامَّةٍ",
+      "meaning_ar": "حَالَةٌ يَكُونُ فِيهَا النَّمَطُ الظَّاهِرِيُّ لِلْمُتَغَايِرِ وَسَطًا بَيْنَ حَالَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوَارُثُ اللَّوْنِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ لَوْنٌ وَسِيطٌ فِي نَبَاتٍ."
+      ],
+      "usage_note_ar": "تُخَالِفُ ظُهُورَ الصِّفَتَيْنِ مُسْتَقِلَّتَيْنِ فِي السِّيَادَةِ الْمُشْتَرَكَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_036",
+      "arabic": "تَوَارُثٌ مُرْتَبِطٌ بِالْجِنْسِ",
+      "meaning_ar": "انْتِقَالُ صِفَةٍ تَقَعُ جِينَاتُهَا عَلَى كُرُومُوسُومَاتٍ جِنْسِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَجَرَةُ النَّسَبِ"
+      ],
+      "examples_ar": [
+        "حَلَّلَ الطَّالِبُ نَمَطَ التَّوَارُثِ فِي الْعَائِلَةِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ الْأَنْمَاطُ بِحَسَبِ الْجِينِ وَالنَّوْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_037",
+      "arabic": "شَجَرَةُ نَسَبٍ وَرَاثِيَّةٌ",
+      "meaning_ar": "رَسْمٌ يَتَتَبَّعُ انْتِقَالَ صِفَةٍ أَوْ حَالَةٍ بَيْنَ أَفْرَادِ أُسْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الشَّجَرَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ ثَلَاثَةَ أَجْيَالٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى دِرَاسَةِ أَنْمَاطِ التَّوَارُثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_038",
+      "arabic": "انْقِسَامٌ مُتَسَاوٍ",
+      "meaning_ar": "عَمَلِيَّةُ انْقِسَامٍ نَوَوِيٍّ تُنْتِجُ نَوَاتَيْنِ مُتَقَارِبَتَيْنِ وَرَاثِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ الِانْقِسَامِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ الِانْقِسَامَ فِي صُورَةٍ."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي النُّمُوِّ وَتَعْوِيضِ بَعْضِ الْخَلَايَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_039",
+      "arabic": "انْقِسَامٌ مُنَصِّفٌ",
+      "meaning_ar": "انْقِسَامٌ خَلَوِيٌّ يُخَفِّضُ عَدَدَ الْكُرُومُوسُومَاتِ لِإِنْتَاجِ خَلَايَا تَنَاسُلِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ التَّنْصِيفِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ انْفِصَالَ الْكُرُومُوسُومَاتِ."
+      ],
+      "usage_note_ar": "يُسْهِمُ فِي التَّنَوُّعِ الْوِرَاثِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_040",
+      "arabic": "عُبُورٌ وَرَاثِيٌّ",
+      "meaning_ar": "تَبَادُلُ مَقَاطِعَ بَيْنَ كُرُومُوسُومَاتٍ مُتَمَاثِلَةٍ أَثْنَاءَ الِانْقِسَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُدُوثُ الْعُبُورِ"
+      ],
+      "examples_ar": [
+        "تَبَادَلَتِ الْكُرُومُوسُومَاتُ مَقَاطِعَ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَكْوِينِ تَرَاكِيبَ وَرَاثِيَّةٍ جَدِيدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_041",
+      "arabic": "إِعَادَةُ تَرْكِيبٍ وَرَاثِيٍّ",
+      "meaning_ar": "تَكَوُّنُ تَرَاكِيبَ جَدِيدَةٍ مِنَ الْمَادَّةِ الْوِرَاثِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "آلِيَّةُ التَّرْكِيبِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَبَادُلَ مَقَاطِعِ الْحَمْضِ النَّوَوِيِّ."
+      ],
+      "usage_note_ar": "يَحْدُثُ طَبِيعِيًّا وَيُسْتَعْمَلُ فِي بَعْضِ التَّقْنِيَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_042",
+      "arabic": "تَغْيِيرٌ فَوْقَ جِينِيٍّ",
+      "meaning_ar": "تَعْدِيلٌ يُؤَثِّرُ فِي نَشَاطِ الْجِينَاتِ دُونَ تَغْيِيرِ تَسَلْسُلِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَلَامَةٌ فَوْقَ جِينِيَّةٌ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَغَيُّرَ نَشَاطِ الْجِينِ."
+      ],
+      "usage_note_ar": "قَدْ يَشْمَلُ تَعْدِيلَ الْحَمْضِ النَّوَوِيِّ أَوِ الْبُرُوتِينَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_043",
+      "arabic": "مَثْيَلَةُ الْحَمْضِ النَّوَوِيِّ",
+      "meaning_ar": "إِضَافَةُ مَجْمُوعَاتٍ كِيمِيَائِيَّةٍ مُعَيَّنَةٍ إِلَى مَوَاضِعَ مِنَ الْحَمْضِ النَّوَوِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَرْسُ الْمَثْيَلَةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ مَثْيَلَةَ مَوْضِعٍ جِينِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ تَتَغَيَّرُ مَعَ النُّمُوِّ وَالظُّرُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_044",
+      "arabic": "تَنْظِيمُ التَّعْبِيرِ الْجِينِيِّ",
+      "meaning_ar": "عَمَلِيَّاتٌ تَتَحَكَّمُ فِي زَمَنِ إِنْتَاجِ مُنْتَجَاتِ الْجِينَاتِ وَكَمِّيَّاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ التَّعْبِيرِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَتِ الْخَلِيَّةُ نَشَاطَ بَعْضِ الْجِينَاتِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِإِشَارَاتٍ دَاخِلِيَّةٍ وَبِيئِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_045",
+      "arabic": "بُرُوتِينٌ مُنَظِّمٌ",
+      "meaning_ar": "بُرُوتِينٌ يُؤَثِّرُ فِي عَمَلِ جِينٍ أَوْ مَسَارٍ خَلَوِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَظِيفَةُ الْبُرُوتِينِ"
+      ],
+      "examples_ar": [
+        "ارْتَبَطَ الْبُرُوتِينُ بِمِنْطَقَةٍ تَنْظِيمِيَّةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ آلِيَّاتُهُ بِحَسَبِ النِّظَامِ الْخَلَوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_046",
+      "arabic": "مُنَظِّمُ النَّسْخِ",
+      "meaning_ar": "بُرُوتِينٌ أَوْ عَامِلٌ يَزِيدُ نَسْخَ الْجِينَاتِ أَوْ يُقَلِّلُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْضِعُ الِارْتِبَاطِ"
+      ],
+      "examples_ar": [
+        "رَبَطَ الْبَاحِثُ بَيْنَ الْعَامِلِ وَنَشَاطِ الْجِينِ."
+      ],
+      "usage_note_ar": "يَعْمَلُ عَبْرَ الِارْتِبَاطِ بِمَوَاضِعَ تَنْظِيمِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_047",
+      "arabic": "هَنْدَسَةٌ وَرَاثِيَّةٌ",
+      "meaning_ar": "اسْتِخْدَامُ تَقْنِيَاتٍ لِتَغْيِيرِ الْمَادَّةِ الْوِرَاثِيَّةِ بِغَرَضٍ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَطْبِيقَاتُ الْهَنْدَسَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَقْنِيَةً لِتَحْسِينِ مَحْصُولٍ."
+      ],
+      "usage_note_ar": "تَسْتَلْزِمُ تَقْيِيمًا لِلْفَوَائِدِ وَالْمَخَاطِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_048",
+      "arabic": "تَحْرِيرُ الْجِينُومِ",
+      "meaning_ar": "تَعْدِيلُ مَوَاضِعَ مُحَدَّدَةٍ مِنَ الْمَادَّةِ الْوِرَاثِيَّةِ بِأَدَوَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دِقَّةُ التَّحْرِيرِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَغْيِيرًا فِي مَوْضِعٍ جِينِيٍّ."
+      ],
+      "usage_note_ar": "تُرَاعَى الْآثَارُ غَيْرُ الْمَقْصُودَةِ فِي الْتَقْيِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_049",
+      "arabic": "نَاقِلٌ جِينِيٌّ",
+      "meaning_ar": "وَسِيلَةٌ تُدْخِلُ مَادَّةً وَرَاثِيَّةً إِلَى خَلِيَّةٍ أَوْ كَائِنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ النَّاقِلِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْمَخْبَرُ نَاقِلًا جِينِيًّا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْوَسَائِلُ بِحَسَبِ الْخَلَايَا وَالْهَدَفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_050",
+      "arabic": "بِلَازْمِيدٌ",
+      "meaning_ar": "جُزَيْءٌ مِنَ الْحَمْضِ النَّوَوِيِّ يَتَضَاعَفُ بِصُورَةٍ مُسْتَقِلَّةٍ فِي بَعْضِ الْخَلَايَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَمْلُ الْبِلَازْمِيدِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ بِلَازْمِيدًا فِي بَكْتِيرِيَا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي بَعْضِ أَعْمَالِ الْبَحْثِ الْوِرَاثِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_051",
+      "arabic": "اسْتِنْسَاخٌ جِينِيٌّ",
+      "meaning_ar": "إِنْتَاجُ نُسَخٍ مِنْ مَقْطَعٍ مُحَدَّدٍ مِنَ الْمَادَّةِ الْوِرَاثِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نُسَخُ الْمَقْطَعِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ نُسَخًا مِنَ الْجِينِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ اسْتِنْسَاخِ كَائِنٍ حَيٍّ كَامِلٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_052",
+      "arabic": "تَضْخِيمُ الْحَمْضِ النَّوَوِيِّ",
+      "meaning_ar": "إِنْتَاجُ نُسَخٍ كَثِيرَةٍ مِنْ مَقْطَعٍ نَوَوِيٍّ لِتَسْهِيلِ دِرَاسَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَيِّنَةُ التَّضْخِيمِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمَخْبَرُ نَاتِجَ التَّضْخِيمِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ تَقْنِيَاتُ التَّضْخِيمِ فِي الْبَحْثِ وَالتَّشْخِيصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_053",
+      "arabic": "رَحَلَانٌ كَهْرَبَائِيٌّ",
+      "meaning_ar": "تَحْرِيكُ جُزَيْئَاتٍ مَشْحُونَةٍ فِي وَسَطٍ بِتَأْثِيرِ مَجَالٍ كَهْرَبَائِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَصْلُ الْجُزَيْئَاتِ"
+      ],
+      "examples_ar": [
+        "انْفَصَلَتْ عَيِّنَاتُ الْحَمْضِ النَّوَوِيِّ فِي الْهُلَامِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ السُّرْعَةُ بِالْحَجْمِ وَالشُّحْنَةِ وَالْوَسَطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_054",
+      "arabic": "هُلَامُ الْفَصْلِ",
+      "meaning_ar": "وَسَطٌ شِبْهُ صُلْبٍ تُفْصَلُ فِيهِ جُزَيْئَاتٌ بِحَسَبِ حَجْمِهَا أَوْ شُحْنَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارُ الْهُلَامِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتْ أَشْرِطَةُ الْعَيِّنَاتِ فِي الْهُلَامِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَعَ الْفَصْلِ الْكَهْرَبَائِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_055",
+      "arabic": "بَصْمَةٌ وَرَاثِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ مُؤَشِّرَاتٍ مِنَ الْحَمْضِ النَّوَوِيِّ تُسَاعِدُ عَلَى تَمْيِيزِ الأَفْرَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُقَارَنَةُ الْبَصْمَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْخَبِيرُ الْعَيِّنَاتِ بِالْبَصْمَةِ الْوِرَاثِيَّةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْقُوَّةُ الِاسْتِدْلَالِيَّةُ بِحَسَبِ الْعَيِّنَةِ وَالطَّرِيقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_056",
+      "arabic": "تَسَلْسُلُ الْجِيلِ الْجَدِيدِ",
+      "meaning_ar": "تَقْنِيَاتٌ تَقْرَأُ أَعْدَادًا كَبِيرَةً مِنْ مَقَاطِعِ الْحَمْضِ النَّوَوِيِّ بِالتَّوَازِي.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْمَقَاطِعِ"
+      ],
+      "examples_ar": [
+        "حَلَّلَ الْبَاحِثُ بَيَانَاتٍ وَرَاثِيَّةً كَثِيرَةً."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى خُطُوَاتِ مُعَالَجَةٍ حَاسُوبِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_057",
+      "arabic": "تَحْلِيلٌ حَيَوِيٌّ مَعْلُومَاتِيٌّ",
+      "meaning_ar": "اسْتِخْدَامُ الْحَوْسَبَةِ وَالْإِحْصَاءِ لِدِرَاسَةِ بَيَانَاتٍ بِيُولُوجِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُقَارَنَةُ التَّسَلْسُلَاتِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ جِينُومَاتٍ بِالْحَاسُوبِ."
+      ],
+      "usage_note_ar": "يَجْمَعُ بَيْنَ عُلُومِ الْحَيَاةِ وَالْبَرْمَجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_058",
+      "arabic": "مِيكْرُوبٌ",
+      "meaning_ar": "كَائِنٌ دَقِيقٌ أَوْ عَامِلٌ بَيُولُوجِيٌّ لَا يُرَى عَادَةً بِالْعَيْنِ الْمُجَرَّدَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْمِيكْرُوبَاتِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ مِيكْرُوبَاتٍ بِالْمِجْهَرِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الدِّرَاسَةُ الْبَكْتِيرِيَا وَالْفُطْرِيَّاتِ وَالْفَيْرُوسَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_059",
+      "arabic": "عِلْمُ الأَحْيَاءِ الدَّقِيقَةِ",
+      "meaning_ar": "فَرْعٌ مِنْ عِلْمِ الأَحْيَاءِ يَدْرُسُ الْكَائِنَاتِ الْمِجْهَرِيَّةَ وَتَفَاعُلَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَخْبَرُ الأَحْيَاءِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ الْأَحْيَاءَ الدَّقِيقَةَ فِي الْمَاءِ."
+      ],
+      "usage_note_ar": "لَهُ تَطْبِيقَاتٌ فِي الْبِيئَةِ وَالْغِذَاءِ وَالصِّحَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_060",
+      "arabic": "بَكْتِيرِيَا",
+      "meaning_ar": "كَائِنَاتٌ دَقِيقَةٌ وَحِيدَةُ الْخَلِيَّةِ تَفْتَقِرُ إِلَى نَوَاةٍ مُحَاطَةٍ بِغِشَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَكَاثُرُ الْبَكْتِيرِيَا"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ بَكْتِيرِيَا فِي عَيِّنَةِ تُرْبَةٍ."
+      ],
+      "usage_note_ar": "مِنْهَا أَنْوَاعٌ نَافِعَةٌ وَأُخْرَى مُمْرِضَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_061",
+      "arabic": "عَتِيقَاتٌ",
+      "meaning_ar": "كَائِنَاتٌ دَقِيقَةٌ بَدَائِيَّةُ النَّوَاةِ تَخْتَلِفُ وَرَاثِيًّا عَنِ الْبَكْتِيرِيَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "مِجْهَرُ الْعَتِيقَاتِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ عَتِيقَاتٍ فِي بِيئَةٍ مِلْحِيَّةٍ."
+      ],
+      "usage_note_ar": "تَعِيشُ فِي بِيئَاتٍ مُتَنَوِّعَةٍ وَلَيْسَ فَقَطْ فِي الظُّرُوفِ الْقَاسِيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_062",
+      "arabic": "فَيْرُوسٌ",
+      "meaning_ar": "عَامِلٌ مَعْدٍ يَحْمِلُ مَادَّةً وَرَاثِيَّةً وَيَحْتَاجُ إِلَى خَلِيَّةٍ لِلتَّكَاثُرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بِنْيَةُ الْفَيْرُوسِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ دَوْرَ الْغِلَافِ الْبُرُوتِينِيِّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْبَكْتِيرِيَا فِي بِنْيَتِهِ وَتَكَاثُرِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_063",
+      "arabic": "غِلَافٌ فَيْرُوسِيٌّ",
+      "meaning_ar": "طَبَقَةٌ تُحِيطُ بِبَعْضِ الْفَيْرُوسَاتِ وَتُسَاعِدُهَا فِي التَّفَاعُلِ مَعَ الْخَلَايَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بُرُوتِينُ الْغِلَافِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مَوْضِعَ الْغِلَافِ."
+      ],
+      "usage_note_ar": "لَيْسَ لِكُلِّ فَيْرُوسٍ غِلَافٌ دُهْنِيٌّ خَارِجِيٌّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_064",
+      "arabic": "قُفَيْصَةٌ فَيْرُوسِيَّةٌ",
+      "meaning_ar": "غِلَافٌ بُرُوتِينِيٌّ يَحْمِي الْمَادَّةَ الْوِرَاثِيَّةَ لِلْفَيْرُوسِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَحَدَاتُ الْقُفَيْصَةِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ شَكْلَ الْقُفَيْصَةِ فِي الرَّسْمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَشْكَالُهَا بَيْنَ أَنْوَاعِ الْفَيْرُوسَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_065",
+      "arabic": "فَيْرُوسٌ قَهْقَرِيٌّ",
+      "meaning_ar": "فَيْرُوسٌ يَنْسَخُ مَادَّتَهُ الرِّيبِيَّةَ إِلَى حَمْضٍ نَوَوِيٍّ عِنْدَ التَّكَاثُرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرَةُ الْفَيْرُوسِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ إِنْزِيمَ النَّسْخِ الْعَكْسِيِّ."
+      ],
+      "usage_note_ar": "يَتَّبِعُ مَسَارًا مُخْتَلِفًا عَنْ كَثِيرٍ مِنَ الْفَيْرُوسَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_066",
+      "arabic": "عَائِلٌ حَيَوِيٌّ",
+      "meaning_ar": "كَائِنٌ يُؤَمِّنُ بِيئَةً أَوْ مَوَارِدَ لِكَائِنٍ آخَرَ يَعِيشُ فِيهِ أَوْ عَلَيْهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَلِيَّةُ الْعَائِلِ"
+      ],
+      "examples_ar": [
+        "دَخَلَ الْفَيْرُوسُ خَلِيَّةَ الْعَائِلِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ الْمُصْطَلَحُ فِي عِلْمِ الطُّفَيْلِيَّاتِ وَالْفَيْرُوسَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_067",
+      "arabic": "طُفَيْلِيٌّ مِجْهَرِيٌّ",
+      "meaning_ar": "كَائِنٌ دَقِيقٌ يَسْتَفِيدُ مِنْ عَائِلٍ وَقَدْ يُضِرُّ بِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرَةُ الطُّفَيْلِيِّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ طُفَيْلِيًّا يَعِيشُ فِي الْمَاءِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دَوْرَاتُ حَيَاتِهِ بَيْنَ الأَنْوَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_068",
+      "arabic": "فُطْرٌ مِجْهَرِيٌّ",
+      "meaning_ar": "كَائِنٌ فُطْرِيٌّ صَغِيرٌ يَتَكَاثَرُ بِطُرُقٍ مُتَنَوِّعَةٍ وَيُمْكِنُ دِرَاسَتُهُ مِجْهَرِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نُمُوُّ الْفُطْرِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ خُيُوطَ فُطْرٍ تَحْتَ الْمِجْهَرِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الأَمْثِلَةُ الْخَمَائِرَ وَبَعْضَ الْأَعْفَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_069",
+      "arabic": "خَمِيرَةٌ",
+      "meaning_ar": "فُطْرٌ وَحِيدُ الْخَلِيَّةِ يُسْتَعْمَلُ فِي التَّخَمُّرِ وَبَعْضِ الصِّنَاعَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَكَاثُرُ الْخَمِيرَةِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْخَبَّازُ الْخَمِيرَةَ إِلَى الْعَجِينِ."
+      ],
+      "usage_note_ar": "تُحَوِّلُ بَعْضَ السُّكَّرِيَّاتِ إِلَى مُنْتَجَاتِ تَخَمُّرٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_070",
+      "arabic": "عَفَنٌ فُطْرِيٌّ",
+      "meaning_ar": "نُمُوٌّ فُطْرِيٌّ يَظْهَرُ عَلَى مَوَادَّ رَطْبَةٍ أَوْ غِذَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْعُ الْعَفَنِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الطَّالِبُ عَفَنًا عَلَى خُبْزٍ قَدِيمٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ فِي الْمَظْهَرِ وَالْآثَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_071",
+      "arabic": "بُوغٌ فُطْرِيٌّ",
+      "meaning_ar": "وَحْدَةٌ تَكَاثُرِيَّةٌ تَنْتُجُهَا فُطْرِيَّاتٌ وَتُنْتَشَرُ فِي الْبِيئَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْتِشَارُ الْبُوغِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الْبَاحِثُ أَبْوَاغًا فِي الْعَيِّنَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْتَمِلُ الْجَفَافَ أَوْ تَنْتَقِلُ بِالْهَوَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_072",
+      "arabic": "مُسْتَعْمَرَةٌ مِيكْرُوبِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ ظَاهِرَةٌ مِنْ خَلَايَا دَقِيقَةٍ نَمَتْ عَلَى وَسَطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَدُّ الْمُسْتَعْمَرَاتِ"
+      ],
+      "examples_ar": [
+        "رَأَى الطَّالِبُ نُقَطًا عَلَى طَبَقٍ مَخْبَرِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ تَنْشَأُ عَنْ خَلِيَّةٍ وَاحِدَةٍ أَوْ عِدَّةِ خَلَايَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_073",
+      "arabic": "وَسَطٌ زَرْعِيٌّ",
+      "meaning_ar": "مَادَّةٌ مُغَذِّيَةٌ تُوَفِّرُ شُرُوطًا لِنُمُوِّ بَعْضِ الْكَائِنَاتِ الدَّقِيقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْضِيرُ الْوَسَطِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْبَاحِثُ الْعَيِّنَةَ عَلَى وَسَطٍ مُخَصَّصٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ تَرْكِيبُهُ بِحَسَبِ الْكَائِنِ وَغَرَضِ الدِّرَاسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_074",
+      "arabic": "طَبَقُ بَتْرِي",
+      "meaning_ar": "وِعَاءٌ مُخْبَرِيٌّ مُسَطَّحٌ تُسْتَعْمَلُ فِيهِ أَوْسَاطُ الزَّرْعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "غِطَاءُ الطَّبَقِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّالِبُ الطَّبَقَ عَلَى الطَّاوِلَةِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَجَارِبِ الزَّرْعِ وَالْمُلَاحَظَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_075",
+      "arabic": "هُلَامُ الأَغَارِ",
+      "meaning_ar": "مَادَّةٌ هُلَامِيَّةٌ تُسْتَعْمَلُ لِتَصْلِيبِ بَعْضِ الأَوْسَاطِ الزَّرْعِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَسَطُ الأَغَارِ"
+      ],
+      "examples_ar": [
+        "سَكَبَ الْفَنِّيُّ الْوَسَطَ فِي الطَّبَقِ."
+      ],
+      "usage_note_ar": "يُسْتَخْرَجُ الأَغَارُ مِنْ بَعْضِ الطَّحَالِبِ الْبَحْرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_076",
+      "arabic": "حَاضِنَةٌ مَخْبَرِيَّةٌ",
+      "meaning_ar": "جِهَازٌ يُحَافِظُ عَلَى حَرَارَةٍ وَظُرُوفٍ مُحَدَّدَةٍ لِلْعَيِّنَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْحَاضِنَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْبَاحِثُ الْعَيِّنَاتِ فِي الْحَاضِنَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مُتَطَلَّبَاتُهَا بِحَسَبِ الْمَادَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_077",
+      "arabic": "زَرْعٌ مِيكْرُوبِيٌّ",
+      "meaning_ar": "إِنْمَاءُ كَائِنَاتٍ دَقِيقَةٍ عَلَى وَسَطٍ مُلَائِمٍ لِدِرَاسَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاقَبَةُ الزَّرْعِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْبَاحِثُ نَتَائِجَ الزَّرْعِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَدَابِيرَ سَلَامَةٍ تُنَاسِبُ الْعَيِّنَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_078",
+      "arabic": "عَزْلٌ مِيكْرُوبِيٌّ",
+      "meaning_ar": "فَصْلُ نَوْعٍ أَوْ سُلَالَةٍ مِنْ خَلِيطٍ مِنَ الْكَائِنَاتِ الدَّقِيقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَيِّنَةٌ مَعْزُولَةٌ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمَخْبَرُ عَزْلًا مِنْ تُرْبَةٍ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَحْصِ خَصَائِصِ الْكَائِنِ الْمُحَدَّدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_079",
+      "arabic": "سُلَالَةٌ بَكْتِيرِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنْ بَكْتِيرِيَا تَنْتَمِي إِلَى خَطٍّ وَرَاثِيٍّ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَتَبُّعُ السُّلَالَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ سُلَالَتَيْنِ بَكْتِيرِيَّتَيْنِ."
+      ],
+      "usage_note_ar": "قَدْ تَخْتَلِفُ السُّلَالَاتُ فِي صِفَاتٍ مُهِمَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_080",
+      "arabic": "تَلْوِيثٌ مِخْبَرِيٌّ",
+      "meaning_ar": "دُخُولُ كَائِنٍ أَوْ مَادَّةٍ غَيْرِ مَقْصُودَةٍ إِلَى عَيِّنَةٍ أَوْ وَسَطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْعُ التَّلَوُّثِ"
+      ],
+      "examples_ar": [
+        "أَعَادَ الْبَاحِثُ الِاخْتِبَارَ بَعْدَ تَلَوُّثِ الْعَيِّنَةِ."
+      ],
+      "usage_note_ar": "قَدْ يُفْسِدُ صِحَّةَ النَّتَائِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_081",
+      "arabic": "تَعْقِيمٌ مِخْبَرِيٌّ",
+      "meaning_ar": "إِزَالَةُ أَوْ إِبْطَالُ جَمِيعِ أَشْكَالِ الْحَيَاةِ الْمِيكْرُوبِيَّةِ مِنْ مَادَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جِهَازُ التَّعْقِيمِ"
+      ],
+      "examples_ar": [
+        "عَقَّمَ الْفَنِّيُّ الأَدَوَاتِ قَبْلَ الِاسْتِخْدَامِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّطْهِيرِ الَّذِي لَا يَضْمَنُ ذَلِكَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_082",
+      "arabic": "تَطْهِيرٌ كِيمِيَائِيٌّ",
+      "meaning_ar": "تَقْلِيلُ الْكَائِنَاتِ الدَّقِيقَةِ عَلَى الأَسْطُحِ بِمَوَادَّ مُخَصَّصَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَادَّةُ التَّطْهِيرِ"
+      ],
+      "examples_ar": [
+        "طَهَّرَ الْفَنِّيُّ الْمَكْتَبَ بَعْدَ الْعَمَلِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ الْفَعَّالِيَّةُ بِحَسَبِ الْمَادَّةِ وَالْمُدَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_083",
+      "arabic": "مِعْقَمَةٌ بُخَارِيَّةٌ",
+      "meaning_ar": "جِهَازٌ يَسْتَخْدِمُ بُخَارًا تَحْتَ الضَّغْطِ لِتَعْقِيمِ أَدَوَاتٍ مُنَاسِبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرَةُ التَّعْقِيمِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْفَنِّيُّ مُؤَشِّرَ التَّعْقِيمِ."
+      ],
+      "usage_note_ar": "يَجِبُ مُرَاعَاةُ مُلَاءَمَةِ الْمَوَادِّ لِلْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_084",
+      "arabic": "خِزَانَةُ السَّلَامَةِ الْحَيَوِيَّةِ",
+      "meaning_ar": "حَاجِزٌ مُهَوًّى يُسَاعِدُ عَلَى حِمَايَةِ الْعَامِلِ وَالْعَيِّنَةِ وَالْبِيئَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَشْغِيلُ الْخِزَانَةِ"
+      ],
+      "examples_ar": [
+        "عَمِلَ الْفَنِّيُّ دَاخِلَ خِزَانَةِ السَّلَامَةِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ فِئَاتُهَا بِحَسَبِ نَوْعِ الْحِمَايَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_085",
+      "arabic": "مُسْتَوَى السَّلَامَةِ الْحَيَوِيَّةِ",
+      "meaning_ar": "تَصْنِيفٌ يُحَدِّدُ ضَوَابِطَ الْعَمَلِ وَالْحِمَايَةِ لِلْمَوَادِّ الْحَيَوِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْمَخَاطِرِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمَخْبَرُ مُسْتَوَى السَّلَامَةِ."
+      ],
+      "usage_note_ar": "تُحَدَّدُ الضَّوَابِطُ بِحَسَبِ الْعَوَامِلِ وَالْعَمَلِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_086",
+      "arabic": "عَيِّنَةٌ حَيَوِيَّةٌ",
+      "meaning_ar": "جُزْءٌ مِنْ مَادَّةٍ أَصْلُهَا كَائِنٌ حَيٌّ يُسْتَعْمَلُ لِلدِّرَاسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِفْظُ الْعَيِّنَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْفَنِّيُّ الْعَيِّنَةَ فِي وِعَاءٍ مُحْكَمٍ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ طَرِيقَةُ حِفْظِهَا بِحَسَبِ النَّوْعِ وَالْغَرَضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_087",
+      "arabic": "عَيِّنَةٌ مَرْجِعِيَّةٌ",
+      "meaning_ar": "مَادَّةٌ مَعْرُوفَةُ الْخَصَائِصِ تُسْتَعْمَلُ لِلْمُقَارَنَةِ أَوِ التَّحَقُّقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُقَارَنَةُ الْعَيِّنَاتِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْبَاحِثُ عَيِّنَةً مَرْجِعِيَّةً."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَقْيِيمِ دِقَّةِ النَّتَائِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_088",
+      "arabic": "زَرْعٌ نَقِيٌّ",
+      "meaning_ar": "زَرْعٌ يَتَكَوَّنُ مِنْ نَوْعٍ مُحَدَّدٍ مِنَ الْكَائِنَاتِ الدَّقِيقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ نَقَاوَةِ الزَّرْعِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ خَصَائِصَ الْمُسْتَعْمَرَاتِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الزَّرْعِ الْمُخْتَلِطِ الَّذِي يَضُمُّ أَنْوَاعًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_089",
+      "arabic": "زَرْعٌ مُخْتَلِطٌ",
+      "meaning_ar": "زَرْعٌ يَحْتَوِي عَلَى أَكْثَرَ مِنْ نَوْعٍ أَوْ سُلَالَةٍ مِنَ الْكَائِنَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَصْلُ الزَّرْعِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَنِّيُّ أَشْكَالًا مُتَعَدِّدَةً فِي الطَّبَقِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مَقْصُودًا أَوْ نَتِيجَةَ تَلَوُّثٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_090",
+      "arabic": "مِجْهَرٌ ضَوْئِيٌّ",
+      "meaning_ar": "جِهَازٌ يَسْتَعْمِلُ الضَّوْءَ وَالْعَدَسَاتِ لِتَكْبِيرِ الأَشْيَاءِ الدَّقِيقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَدَسَةُ الْمِجْهَرِ"
+      ],
+      "examples_ar": [
+        "رَأَى الطَّالِبُ خَلَايَا تَحْتَ الْمِجْهَرِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ الْوُضُوحُ بِالْبَصَرِيَّاتِ وَتَحْضِيرِ الْعَيِّنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_091",
+      "arabic": "مِجْهَرٌ إِلِكْتُرُونِيٌّ",
+      "meaning_ar": "جِهَازٌ يَسْتَعْمِلُ حُزَمَ إِلِكْتُرُونَاتٍ لِدِرَاسَةِ بِنًى دَقِيقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صُورَةٌ إِلِكْتُرُونِيَّةٌ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الْبَاحِثُ تَفَاصِيلَ سَطْحِ خَلِيَّةٍ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَجْهِيزٍ مُخْتَلِفٍ عَنِ الْمِجْهَرِ الضَّوْئِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_092",
+      "arabic": "مِجْهَرٌ فُلُورِيٌّ",
+      "meaning_ar": "جِهَازٌ يُظْهِرُ مَوَاضِعَ مُعَيَّنَةً بِإِشَارَاتِ التَّأَلُّقِ الضَّوْئِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صَبْغَةٌ فُلُورِيَّةٌ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ بُرُوتِينًا دَاخِلَ خَلِيَّةٍ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ مُرَشِّحَاتٍ وَمَصَادِرَ ضَوْءٍ مُنَاسِبَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_093",
+      "arabic": "صَبْغَةُ غْرَامٍ",
+      "meaning_ar": "طَرِيقَةُ تَلْوِينٍ مِجْهَرِيَّةٌ تُسَاعِدُ عَلَى تَصْنِيفِ بَكْتِيرِيَا بِحَسَبِ جِدَارِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَتِيجَةُ الصَّبْغِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ بَكْتِيرِيَا مُوجَبَةَ غْرَامٍ."
+      ],
+      "usage_note_ar": "لَا تُحَدِّدُ وَحْدَهَا نَوْعَ الْبَكْتِيرِيَا بِدِقَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_094",
+      "arabic": "بَكْتِيرِيَا مُوجَبَةُ غْرَامٍ",
+      "meaning_ar": "بَكْتِيرِيَا تَحْتَفِظُ بِالصِّبْغَةِ الْبَنَفْسَجِيَّةِ فِي اخْتِبَارِ غْرَامٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جِدَارُ الْخَلِيَّةِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ خَلَايَا بَنَفْسَجِيَّةً."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ النَّتِيجَةُ بِبِنْيَةِ الْجِدَارِ الْخَلَوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_095",
+      "arabic": "بَكْتِيرِيَا سَالِبَةُ غْرَامٍ",
+      "meaning_ar": "بَكْتِيرِيَا تَفْقِدُ الصِّبْغَةَ الأُولَى وَتَظْهَرُ بِلَوْنِ الصِّبْغَةِ الْمُقَابِلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "غِشَاءٌ خَارِجِيٌّ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتِ الْخَلَايَا وَرْدِيَّةً بَعْدَ الصَّبْغِ."
+      ],
+      "usage_note_ar": "تَحْتَوِي عَادَةً عَلَى غِشَاءٍ خَارِجِيٍّ مُتَمَيِّزٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_096",
+      "arabic": "غِشَاءٌ خَلَوِيٌّ",
+      "meaning_ar": "طَبَقَةٌ تُحِيطُ بِالْخَلِيَّةِ وَتُنَظِّمُ تَبَادُلَ الْمَوَادِّ مَعَ مُحِيطِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَفَاذِيَّةُ الْغِشَاءِ"
+      ],
+      "examples_ar": [
+        "عَبَرَتْ بَعْضُ الْجُزَيْئَاتِ الْغِشَاءَ."
+      ],
+      "usage_note_ar": "يَتَكَوَّنُ فِي الْأَغْلَبِ مِنْ دُهُونٍ وَبُرُوتِينَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_097",
+      "arabic": "جِدَارٌ خَلَوِيٌّ",
+      "meaning_ar": "طَبَقَةٌ دَاعِمَةٌ خَارِجَ الْغِشَاءِ فِي بَعْضِ الْكَائِنَاتِ وَالْخَلَايَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بِنْيَةُ الْجِدَارِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ جِدَارَ خَلِيَّةٍ نَبَاتِيَّةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مَوَادُّهُ بَيْنَ النَّبَاتِ وَالْبَكْتِيرِيَا وَالْفُطْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_098",
+      "arabic": "سَيْتُوبْلَازْمٌ",
+      "meaning_ar": "مَادَّةٌ دَاخِلَ الْخَلِيَّةِ تَضُمُّ سَائِلًا وَمُكَوِّنَاتٍ مُتَعَدِّدَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "حَرَكَةُ الْسَّيْتُوبْلَازْمِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مَوْضِعَ الْمُكَوِّنَاتِ."
+      ],
+      "usage_note_ar": "تَجْرِي فِيهِ عَمَلِيَّاتٌ حَيَوِيَّةٌ مُتَنَوِّعَةٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_099",
+      "arabic": "هُدْبٌ بَكْتِيرِيٌّ",
+      "meaning_ar": "زَائِدَةٌ شَعْرِيَّةٌ قَصِيرَةٌ عَلَى سَطْحِ بَعْضِ الْبَكْتِيرِيَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَهْدَابُ الْبَكْتِيرِيَا"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الْبَاحِثُ زَوَائِدَ عَلَى سَطْحِ الْخَلِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ تُسَاعِدُ عَلَى الِالْتِصَاقِ بِالْأَسْطُحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_100",
+      "arabic": "سَوْطٌ بَكْتِيرِيٌّ",
+      "meaning_ar": "زَائِدَةٌ تُسَاعِدُ بَعْضَ الْبَكْتِيرِيَا عَلَى الْحَرَكَةِ فِي الْمَوَائِعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَرَكَةُ السَّوْطِ"
+      ],
+      "examples_ar": [
+        "تَحَرَّكَتِ الْبَكْتِيرِيَا بِوَاسِطَةِ السَّوْطِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ بِنْيَتُهُ عَنْ أَسْوَاطِ بَعْضِ الْخَلَايَا حَقِيقِيَّةِ النَّوَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_101",
+      "arabic": "مِحْفَظَةٌ بَكْتِيرِيَّةٌ",
+      "meaning_ar": "طَبَقَةٌ خَارِجِيَّةٌ تُحِيطُ بِبَعْضِ الْبَكْتِيرِيَا وَتَحْمِيهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وُجُودُ الْمِحْفَظَةِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الْبَاحِثُ مِحْفَظَةً حَوْلَ الْخَلِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ تُسَاعِدُ عَلَى الِالْتِصَاقِ وَالْحِمَايَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_102",
+      "arabic": "غِشَاءٌ حَيَوِيٌّ",
+      "meaning_ar": "تَجَمُّعٌ مِنْ كَائِنَاتٍ دَقِيقَةٍ تَعِيشُ عَلَى سَطْحٍ ضِمْنَ مَادَّةٍ تُفْرِزُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَكَوُّنُ الْغِشَاءِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَجَمُّعَاتٍ عَلَى الأُنْبُوبِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ خَوَاصُّهُ عَنِ الْخَلَايَا الْحُرَّةِ فِي السَّائِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_103",
+      "arabic": "تَكَاثُرٌ بِالِانْشِطَارِ",
+      "meaning_ar": "انْقِسَامُ خَلِيَّةٍ وَاحِدَةٍ إِلَى خَلِيَّتَيْنِ جَدِيدَتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الِانْشِطَارُ الثُّنَائِيُّ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ رَسْمًا لِانْشِطَارِ بَكْتِيرِيَا."
+      ],
+      "usage_note_ar": "يُعَدُّ مِنْ طُرُقِ تَكَاثُرِ كَثِيرٍ مِنَ الْبَكْتِيرِيَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_104",
+      "arabic": "زَمَنُ الْجِيلِ الْمِيكْرُوبِيِّ",
+      "meaning_ar": "الْمُدَّةُ اللَّازِمَةُ لِتَضَاعُفِ عَدَدِ الْخَلَايَا فِي ظُرُوفٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ زَمَنِ الْجِيلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ نُمُوَّ نَوْعَيْنِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ بِالْغِذَاءِ وَالْحَرَارَةِ وَالْبِيئَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_105",
+      "arabic": "مُنْحَنَى النُّمُوِّ الْمِيكْرُوبِيِّ",
+      "meaning_ar": "رَسْمٌ يُظْهِرُ تَغَيُّرَ عَدَدِ الْكَائِنَاتِ الدَّقِيقَةِ مَعَ الزَّمَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ النُّمُوِّ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ مَرْحَلَةَ النُّمُوِّ السَّرِيعِ."
+      ],
+      "usage_note_ar": "يَتَضَمَّنُ مَرَاحِلَ تَخْتَلِفُ بِحَسَبِ الظُّرُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_106",
+      "arabic": "مَرْحَلَةُ الْكُمُونِ",
+      "meaning_ar": "فَتْرَةٌ تَتَأَقْلَمُ فِيهَا الْخَلَايَا مَعَ وَسَطٍ جَدِيدٍ قَبْلَ التَّكَاثُرِ السَّرِيعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طُولُ الْكُمُونِ"
+      ],
+      "examples_ar": [
+        "تَأَخَّرَتِ الْخَلَايَا فِي بَدْءِ النُّمُوِّ."
+      ],
+      "usage_note_ar": "لَا تَعْنِي بِالضَّرُورَةِ تَوَقُّفَ النَّشَاطِ الْأَيْضِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_107",
+      "arabic": "مَرْحَلَةُ النُّمُوِّ الأُسِّيِّ",
+      "meaning_ar": "فَتْرَةٌ يَزْدَادُ فِيهَا عَدَدُ الْخَلَايَا بِمُعَدَّلٍ نِسْبِيٍّ مُتَقَارِبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُرْعَةُ النُّمُوِّ"
+      ],
+      "examples_ar": [
+        "تَزَايَدَ عَدَدُ الْخَلَايَا بِسُرْعَةٍ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْغِذَاءِ وَالظُّرُوفِ الْمُحِيطَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_108",
+      "arabic": "مَرْحَلَةُ الثَّبَاتِ",
+      "meaning_ar": "فَتْرَةٌ يَقْتَرِبُ فِيهَا صَافِي تَغَيُّرِ عَدَدِ الْخَلَايَا مِنَ الصِّفْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوَازُنُ الْخَلَايَا"
+      ],
+      "examples_ar": [
+        "اسْتَقَرَّ عَدَدُ الْخَلَايَا فِي الْوَسَطِ."
+      ],
+      "usage_note_ar": "قَدْ تَنْقُصُ الْمَوَارِدُ أَوْ تَتَرَاكَمُ الْمُخَلَّفَاتُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_109",
+      "arabic": "مَرْحَلَةُ الِانْحِدَارِ",
+      "meaning_ar": "فَتْرَةٌ يَنْخَفِضُ فِيهَا عَدَدُ الْخَلَايَا الْحَيَّةِ فِي زَرْعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْخِفَاضُ الْعَدَدِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الْبَاحِثُ تَرَاجُعَ عَدَدِ الْخَلَايَا."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِتَنَاقُصِ الْغِذَاءِ وَتَغَيُّرِ الْبِيئَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_110",
+      "arabic": "تَنَفُّسٌ هَوَائِيٌّ مِيكْرُوبِيٌّ",
+      "meaning_ar": "عَمَلِيَّةٌ تَسْتَخْدِمُ فِيهَا الْخَلِيَّةُ الأُكْسِجِينَ لِإِنْتَاجِ الطَّاقَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَاجَةُ الْأُكْسِجِينِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ بَكْتِيرِيَا تَتَنَفَّسُ بِالأُكْسِجِينِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّخَمُّرِ فِي طَرِيقَةِ إِنْتَاجِ الطَّاقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_111",
+      "arabic": "تَنَفُّسٌ لَاهَوَائِيٌّ",
+      "meaning_ar": "طَرِيقَةٌ لِإِنْتَاجِ الطَّاقَةِ تَسْتَعْمِلُ مُسْتَقْبِلًا لِلْإِلِكْتُرُونَاتِ غَيْرَ الأُكْسِجِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بِيئَةٌ لَاهَوَائِيَّةٌ"
+      ],
+      "examples_ar": [
+        "عَاشَتْ بَكْتِيرِيَا فِي رَوَاسِبَ قَلِيلَةِ الأُكْسِجِينِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّخَمُّرِ مِنَ النَّاحِيَةِ الْأَيْضِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_112",
+      "arabic": "تَخَمُّرٌ حَيَوِيٌّ",
+      "meaning_ar": "تَحَوُّلٌ أَيْضِيٌّ تُنْتِجُ فِيهِ خَلَايَا طَاقَةً دُونَ سِلْسِلَةِ تَنَفُّسٍ خَارِجِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُنْتَجَاتُ التَّخَمُّرِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْخَبَّازُ تَخَمُّرَ الْخَمِيرَةِ."
+      ],
+      "usage_note_ar": "يَنْتُجُ عَنْهُ أَحْمَاضٌ أَوْ غَازَاتٌ أَوْ مُرَكَّبَاتٌ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_113",
+      "arabic": "بَكْتِيرِيَا لَبَنِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ الْبَكْتِيرِيَا تُنْتِجُ حَمْضَ اللَّبَنِ فِي التَّخَمُّرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِنَاعَةُ اللَّبَنِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْمَصْنَعُ بَكْتِيرِيَا لَبَنِيَّةً."
+      ],
+      "usage_note_ar": "تُسْتَخْدَمُ فِي إِنْتَاجِ أَطْعِمَةٍ مُتَخَمِّرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_114",
+      "arabic": "أَيْضٌ مِيكْرُوبِيٌّ",
+      "meaning_ar": "مَجْمُوعُ التَّفَاعُلَاتِ الَّتِي تَسْتَخْدِمُهَا الْخَلِيَّةُ لِلطَّاقَةِ وَالْبِنَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارَاتُ الأَيْضِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ اسْتِهْلَاكَ السُّكَّرِ فِي الْبَكْتِيرِيَا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْمَسَارَاتُ بَيْنَ الْأَنْوَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_115",
+      "arabic": "إِنْزِيمٌ حَيَوِيٌّ",
+      "meaning_ar": "جُزَيْءٌ يُسَرِّعُ تَفَاعُلًا كِيمِيَائِيًّا دَاخِلَ الْكَائِنِ الْحَيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَشَاطُ الْإِنْزِيمِ"
+      ],
+      "examples_ar": [
+        "حَفَّزَ الْإِنْزِيمُ تَفَاعُلًا فِي الْخَلِيَّةِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِدَرَجَةِ الْحَرَارَةِ وَالْحُمُوضَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_116",
+      "arabic": "مَوْضِعٌ نَشِطٌ لِلْإِنْزِيمِ",
+      "meaning_ar": "جُزْءٌ مِنْ بِنْيَةِ الْإِنْزِيمِ يَرْتَبِطُ بِالْمَادَّةِ الْمُتَفَاعِلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ارْتِبَاطُ الْمَادَّةِ"
+      ],
+      "examples_ar": [
+        "ارْتَبَطَ الْجُزَيْءُ بِالْمَوْضِعِ النَّشِطِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ شَكْلُ الْبِنْيَةِ فِي اخْتِصَاصِ الْإِنْزِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_117",
+      "arabic": "مُثَبِّطٌ إِنْزِيمِيٌّ",
+      "meaning_ar": "مَادَّةٌ تُقَلِّلُ نَشَاطَ إِنْزِيمٍ بِآلِيَّةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَأْثِيرُ الْمُثَبِّطِ"
+      ],
+      "examples_ar": [
+        "انْخَفَضَ نَشَاطُ الْإِنْزِيمِ بِوُجُودِ الْمُثَبِّطِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ أَثَرُهُ قَابِلًا لِلْعَكْسِ أَوْ دَائِمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_118",
+      "arabic": "مُرَافِقٌ إِنْزِيمِيٌّ",
+      "meaning_ar": "جُزَيْءٌ غَيْرُ بُرُوتِينِيٍّ يَسْتَعِينُ بِهِ بَعْضُ الْإِنْزِيمَاتِ لِلْعَمَلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرُ الْمُرَافِقِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْمُرَافِقُ إِلِكْتُرُونَاتٍ فِي التَّفَاعُلِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مُشْتَقًّا مِنْ فِيتَامِينٍ أَوْ مَادَّةٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_119",
+      "arabic": "مُضَادٌّ حَيَوِيٌّ",
+      "meaning_ar": "مَادَّةٌ تُسْتَعْمَلُ لِمُكَافَحَةِ بَعْضِ الْعَدْوَى الْبَكْتِيرِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَعَّالِيَّةُ الْمُضَادِّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ آلِيَّاتِ الْمُضَادَّاتِ الْحَيَوِيَّةِ."
+      ],
+      "usage_note_ar": "لَا تُعَالِجُ الْفَيْرُوسَاتِ عَادَةً وَيَجِبُ اسْتِعْمَالُهَا بِإِرْشَادٍ طِبِّيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_120",
+      "arabic": "مُقَاوَمَةٌ لِلْمُضَادَّاتِ الْحَيَوِيَّةِ",
+      "meaning_ar": "قُدْرَةُ بَعْضِ الْبَكْتِيرِيَا عَلَى الْبَقَاءِ رَغْمَ التَّعَرُّضِ لِمُضَادٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْمُقَاوَمَةِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ سُلَالَةً مُقَاوِمَةً."
+      ],
+      "usage_note_ar": "قَدْ تَنْشَأُ عَنْ طَفَرَاتٍ أَوْ تَبَادُلٍ لِلْجِينَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_121",
+      "arabic": "نَقْلٌ جِينِيٌّ أُفُقِيٌّ",
+      "meaning_ar": "انْتِقَالُ مَادَّةٍ وَرَاثِيَّةٍ بَيْنَ كَائِنَاتٍ دُونَ تَوَارُثِهَا مِنْ وَالِدٍ مُبَاشِرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَبَادُلُ الْجِينَاتِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ انْتِقَالَ جِينٍ بَيْنَ بَكْتِيرِيَا."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي انْتِشَارِ بَعْضِ الصِّفَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_122",
+      "arabic": "اقْتِرَانٌ بَكْتِيرِيٌّ",
+      "meaning_ar": "آلِيَّةٌ تَنْتَقِلُ فِيهَا مَادَّةٌ وَرَاثِيَّةٌ بِاتِّصَالٍ بَيْنَ خَلِيَّتَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جِسْرُ الِاقْتِرَانِ"
+      ],
+      "examples_ar": [
+        "نَقَلَتِ الْبَكْتِيرِيَا مَادَّةً وَرَاثِيَّةً."
+      ],
+      "usage_note_ar": "هُوَ نَوْعٌ مِنَ النَّقْلِ الْجِينِيِّ الأُفُقِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_123",
+      "arabic": "تَحَوُّلٌ بَكْتِيرِيٌّ",
+      "meaning_ar": "امْتِصَاصُ خَلِيَّةٍ بَكْتِيرِيَّةٍ لِمَادَّةٍ وَرَاثِيَّةٍ مِنْ مُحِيطِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَابِلِيَّةُ التَّحَوُّلِ"
+      ],
+      "examples_ar": [
+        "اكْتَسَبَتِ الْخَلِيَّةُ مَقْطَعًا جِينِيًّا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الِاقْتِرَانِ الَّذِي يَحْتَاجُ إِلَى اتِّصَالٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_124",
+      "arabic": "نَقْلٌ بِالْعَاثِيَاتِ",
+      "meaning_ar": "انْتِقَالُ مَادَّةٍ وَرَاثِيَّةٍ بَيْنَ بَكْتِيرِيَا بِوَاسِطَةِ فَيْرُوسٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرُ الْعَاثِيَاتِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْفَيْرُوسُ مَقْطَعًا وَرَاثِيًّا."
+      ],
+      "usage_note_ar": "يُعَدُّ مِنْ آلِيَّاتِ النَّقْلِ الْأُفُقِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_125",
+      "arabic": "عَاثِيَةٌ بَكْتِيرِيَّةٌ",
+      "meaning_ar": "فَيْرُوسٌ يُصِيبُ بَكْتِيرِيَا وَيَسْتَخْدِمُ خَلَايَاهَا لِلتَّكَاثُرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرَةُ الْعَاثِيَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ عَاثِيَةً تَهَاجِمُ بَكْتِيرِيَا."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ دَوْرَتُهَا حَالَّةً أَوْ كَامِنَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_126",
+      "arabic": "دَوْرَةٌ حَالَّةٌ لِلْفَيْرُوسِ",
+      "meaning_ar": "مَسَارٌ تَكَاثُرِيٌّ يَنْتَهِي بِانْحِلَالِ الْخَلِيَّةِ وَخُرُوجِ الْفَيْرُوسَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْحِلَالُ الْخَلِيَّةِ"
+      ],
+      "examples_ar": [
+        "تَحَلَّلَتِ الْخَلِيَّةُ بَعْدَ تَكَاثُرِ الْعَاثِيَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الدَّوْرَةِ الْكَامِنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_127",
+      "arabic": "دَوْرَةٌ كَامِنَةٌ لِلْعَاثِيَةِ",
+      "meaning_ar": "مَسَارٌ تَبْقَى فِيهِ مَادَّةُ الْعَاثِيَةِ مَعَ الْخَلِيَّةِ دُونَ تَحَلُّلٍ فَوْرِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُكُونُ الْعَاثِيَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَرَّتِ الْخَلِيَّةُ فِي الِانْقِسَامِ."
+      ],
+      "usage_note_ar": "قَدْ تَنْتَقِلُ لَاحِقًا إِلَى الْمَسَارِ الْحَالِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_128",
+      "arabic": "تَعَايُشٌ مِيكْرُوبِيٌّ",
+      "meaning_ar": "عَلَاقَةٌ مُسْتَمِرَّةٌ بَيْنَ كَائِنَاتٍ دَقِيقَةٍ وَغَيْرِهَا فِي بِيئَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ التَّعَايُشِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ مِيكْرُوبَاتٍ تَعِيشُ مَعَ جُذُورٍ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ مُفِيدَةً أَوْ ضَارَّةً لِأَحَدِ الطَّرَفَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_129",
+      "arabic": "تَكَافُلٌ حَيَوِيٌّ",
+      "meaning_ar": "عَلَاقَةٌ بَيْنَ كَائِنَيْنِ يَحْصُلُ مِنْهَا كُلٌّ عَلَى مَنْفَعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَلَاقَةُ التَّكَافُلِ"
+      ],
+      "examples_ar": [
+        "سَاعَدَتِ الْمِيكْرُوبَاتُ النَّبَاتَ عَلَى النُّمُوِّ."
+      ],
+      "usage_note_ar": "هُوَ أَحَدُ أَشْكَالِ الْعَلَاقَاتِ الْبِيئِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_130",
+      "arabic": "مُجْتَمَعٌ مِيكْرُوبِيٌّ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنْ كَائِنَاتٍ دَقِيقَةٍ تَعِيشُ وَتَتَفَاعَلُ فِي مَوْطِنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَنَوُّعُ الْمُجْتَمَعِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ مِيكْرُوبَاتِ التُّرْبَةِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ بِنْيَتُهُ بِالْغِذَاءِ وَالْبِيئَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_131",
+      "arabic": "مِيكْرُوبِيُومٌ",
+      "meaning_ar": "مَجْمُوعَةُ الْكَائِنَاتِ الدَّقِيقَةِ وَمَادَّتِهَا الْوِرَاثِيَّةِ فِي بِيئَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْمِيكْرُوبِيُومِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ مِيكْرُوبِيُومَ الْأَمْعَاءِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ تَعْرِيفَاتُهُ الدَّقِيقَةُ بَيْنَ الْمَرَاجِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_132",
+      "arabic": "فُلُورَا مِيكْرُوبِيَّةٌ",
+      "meaning_ar": "تَسْمِيَةٌ تَارِيخِيَّةٌ لِلْكَائِنَاتِ الدَّقِيقَةِ الَّتِي تَعِيشُ فِي مَوْضِعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فُلُورَا الْجِلْدِ"
+      ],
+      "examples_ar": [
+        "ذَكَرَ الْبَاحِثُ الْفُلُورَا فِي التَّقْرِيرِ."
+      ],
+      "usage_note_ar": "يُفَضَّلُ فِي كَثِيرٍ مِنَ النُّصُوصِ الْحَدِيثَةِ اسْتِعْمَالُ مُجْتَمَعٍ مِيكْرُوبِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_133",
+      "arabic": "مُحَلِّلٌ حَيَوِيٌّ",
+      "meaning_ar": "كَائِنٌ يُفَكِّكُ مَوَادَّ عُضْوِيَّةً إِلَى مُرَكَّبَاتٍ أَبْسَطَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوْرُ الْمُحَلِّلَاتِ"
+      ],
+      "examples_ar": [
+        "فَكَّكَتِ الْفُطْرِيَّاتُ بَقَايَا الأَوْرَاقِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الْمُحَلِّلَاتُ عَلَى إِعَادَةِ الْعَنَاصِرِ إِلَى التُّرْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_134",
+      "arabic": "تَثْبِيتُ النِّيتْرُوجِينِ",
+      "meaning_ar": "تَحْوِيلُ النِّيتْرُوجِينِ الْجَوِّيِّ إِلَى مُرَكَّبَاتٍ قَابِلَةٍ لِلِاسْتِعْمَالِ الْحَيَوِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَكْتِيرِيَا التَّثْبِيتِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ بَكْتِيرِيَا جُذُورِ الْبُقُولِ."
+      ],
+      "usage_note_ar": "تَقُومُ بِهِ أَنْوَاعٌ مُخْتَلِفَةٌ مِنَ الْكَائِنَاتِ الدَّقِيقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_135",
+      "arabic": "دَوْرَةُ النِّيتْرُوجِينِ",
+      "meaning_ar": "مَجْمُوعَةُ عَمَلِيَّاتٍ يَنْتَقِلُ فِيهَا النِّيتْرُوجِينُ بَيْنَ الْهَوَاءِ وَالْتُّرْبَةِ وَالْأَحْيَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ الدَّوْرَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الطَّالِبُ دَوْرَةَ النِّيتْرُوجِينِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ التَّثْبِيتَ وَالتَّحَوُّلَاتِ الْمِيكْرُوبِيَّةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_136",
+      "arabic": "نَتْرَجَةٌ",
+      "meaning_ar": "تَحْوِيلٌ حَيَوِيٌّ يُؤَكْسِدُ مُرَكَّبَاتِ النِّيتْرُوجِينِ إِلَى نِتْرِيتٍ ثُمَّ نِتْرَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "بَكْتِيرِيَا النَّتْرَجَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَحَوُّلَ الأَمُونِيُومِ فِي التُّرْبَةِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي تَوَافُرِ النِّيتْرُوجِينِ لِلنَّبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_137",
+      "arabic": "نَزْعُ النِّيتْرُوجِينِ",
+      "meaning_ar": "تَحْوِيلُ مُرَكَّبَاتٍ نِيتْرُوجِينِيَّةٍ إِلَى غَازَاتٍ تَرْجِعُ إِلَى الْجَوِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَمَلِيَّةُ النَّزْعِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ انْبِعَاثَ غَازٍ مِنَ التُّرْبَةِ."
+      ],
+      "usage_note_ar": "تَجْرِي فِي بَعْضِ الْبِيئَاتِ الْقَلِيلَةِ الأُكْسِجِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_138",
+      "arabic": "تَحَلُّلٌ حَيَوِيٌّ",
+      "meaning_ar": "تَفَكُّكُ مُرَكَّبَاتٍ بِفِعْلِ كَائِنَاتٍ حَيَّةٍ أَوْ إِنْزِيمَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ التَّحَلُّلِ"
+      ],
+      "examples_ar": [
+        "تَحَلَّلَتِ الأَوْرَاقُ بِفِعْلِ الْمِيكْرُوبَاتِ."
+      ],
+      "usage_note_ar": "تَتَفَاوَتُ سُرْعَتُهُ بِحَسَبِ الْمَادَّةِ وَالظُّرُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_139",
+      "arabic": "مُعَالَجَةٌ حَيَوِيَّةٌ لِلتَّلَوُّثِ",
+      "meaning_ar": "اسْتِخْدَامُ كَائِنَاتٍ أَوْ عَمَلِيَّاتٍ حَيَوِيَّةٍ لِتَقْلِيلِ مُلَوِّثَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَشْرُوعُ الْمُعَالَجَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْفَرِيقُ اسْتِخْدَامَ مِيكْرُوبَاتٍ فِي التُّرْبَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ فَعَّالِيَّتُهَا بِحَسَبِ الْمُلَوِّثِ وَالْبِيئَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_140",
+      "arabic": "مُعَالَجَةُ مِيَاهٍ حَيَوِيَّةٌ",
+      "meaning_ar": "اسْتِخْدَامُ كَائِنَاتٍ دَقِيقَةٍ لِتَفْكِيكِ الْمَوَادِّ الْعُضْوِيَّةِ فِي الْمِيَاهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَحْدَةُ الْمُعَالَجَةِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَتِ الْمِيكْرُوبَاتُ الْمَوَادَّ الْعُضْوِيَّةَ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ مُرَاقَبَةَ الْهَوَاءِ وَالْحِمْلِ الْعُضْوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_141",
+      "arabic": "حَمْأَةٌ مُنَشَّطَةٌ",
+      "meaning_ar": "خَلِيطٌ مِنْ كَائِنَاتٍ دَقِيقَةٍ يُسْتَعْمَلُ فِي مُعَالَجَةِ مِيَاهِ الصَّرْفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَوْضُ الْحَمْأَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُهَنْدِسُ حَمْأَةَ مَحَطَّةِ الْمُعَالَجَةِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَوَازُنًا فِي التَّهْوِيَةِ وَالتَّغْذِيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_142",
+      "arabic": "مُتَطَلَّبُ الأُكْسِجِينِ الْحَيَوِيِّ",
+      "meaning_ar": "مِقْيَاسٌ لِكَمِّيَّةِ الأُكْسِجِينِ الَّتِي تَسْتَهْلِكُهَا الْكَائِنَاتُ لِتَحْلِيلِ مَوَادَّ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمُتَطَلَّبِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُهَنْدِسُ عَيِّنَتَيْ مَاءٍ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُهُ الْمَخْبَرُ لِتَقْيِيمِ حِمْلِ التَّلَوُّثِ الْعُضْوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_143",
+      "arabic": "مُتَطَلَّبُ الأُكْسِجِينِ الْكِيمِيَائِيِّ",
+      "meaning_ar": "مِقْيَاسٌ لِمِقْدَارِ الْمَوَادِّ الْقَابِلَةِ لِلأَكْسَدَةِ كِيمِيَائِيًّا فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُخْتَبَرُ الْحِمْلَ الْعُضْوِيَّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمُتَطَلَّبِ الْحَيَوِيِّ فِي طَرِيقَةِ الْقِيَاسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_144",
+      "arabic": "عَدُّ الْخَلَايَا",
+      "meaning_ar": "تَحْدِيدُ عَدَدِ الْخَلَايَا فِي عَيِّنَةٍ بِطَرِيقَةٍ مَجْهَرِيَّةٍ أَوْ آلِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَتِيجَةُ الْعَدِّ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْبَاحِثُ عَدَدَ الْخَلَايَا فِي الْحَجْمِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِطَرِيقَةِ الْعَدِّ وَحَالَةِ الْخَلَايَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_145",
+      "arabic": "عَدُّ الْمُسْتَعْمَرَاتِ",
+      "meaning_ar": "تَقْدِيرُ عَدَدِ الْوَحَدَاتِ الْقَادِرَةِ عَلَى تَكْوِينِ مُسْتَعْمَرَاتٍ فِي عَيِّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَتَائِجُ الْعَدِّ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَنِّيُّ عَدَدَ الْمُسْتَعْمَرَاتِ."
+      ],
+      "usage_note_ar": "لَا يُسَاوِي بِالضَّرُورَةِ عَدَدَ الْخَلَايَا الْفَرْدِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_146",
+      "arabic": "صَلَاحِيَّةُ الْعَيِّنَةِ",
+      "meaning_ar": "مَدَى بَقَاءِ الْعَيِّنَةِ مُنَاسِبَةً لِلْفَحْصِ بَعْدَ جَمْعِهَا وَحِفْظِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الصَّلَاحِيَّةِ"
+      ],
+      "examples_ar": [
+        "رَفَضَ الْمُخْتَبَرُ عَيِّنَةً غَيْرَ مَحْفُوظَةٍ جَيِّدًا."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ الْمُدَّةُ بِحَسَبِ نَوْعِ الْعَيِّنَةِ وَالِاخْتِبَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_147",
+      "arabic": "تَجْمِيدٌ حَيَوِيٌّ",
+      "meaning_ar": "حِفْظُ خَلَايَا أَوْ عَيِّنَاتٍ بِدَرَجَاتِ حَرَارَةٍ مُنْخَفِضَةٍ جِدًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِفْظُ الْخَلَايَا"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْبَاحِثُ الْعَيِّنَاتِ فِي خَزَّانٍ بَارِدٍ."
+      ],
+      "usage_note_ar": "قَدْ تُسْتَعْمَلُ مَوَادُّ وَاقِيَةٌ مِنْ أَثَرِ التَّجَمُّدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_148",
+      "arabic": "مُسْتَنْبَتٌ خَلَوِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ خَلَايَا تُنَمَّى فِي ظُرُوفٍ مُرَاقَبَةٍ خَارِجَ الْجِسْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاقَبَةُ الْمُسْتَنْبَتِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ نُمُوَّ خَلَايَا فِي الْمُخْتَبَرِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ مُرَاقَبَةَ الْغِذَاءِ وَالظُّرُوفِ وَالسَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_149",
+      "arabic": "خَطٌّ خَلَوِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ خَلَايَا تُسْتَعْمَلُ فِي الْمَخْبَرِ وَيُمْكِنُ إِنْمَاؤُهَا عَلَى مَرَاحِلَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِيَانَةُ الْخَطِّ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ سُلُوكَ خَطَّيْنِ خَلَوِيَّيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ قُدْرَتُهَا عَلَى الِانْقِسَامِ بِحَسَبِ النَّوْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_150",
+      "arabic": "خَلِيَّةٌ جِذْعِيَّةٌ",
+      "meaning_ar": "خَلِيَّةٌ تَسْتَطِيعُ التَّجَدُّدَ الذَّاتِيَّ وَإِنْتَاجَ خَلَايَا أَكْثَرَ تَخَصُّصًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَمَايُزُ الْخَلِيَّةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ نُمُوَّ خَلَايَا جِذْعِيَّةٍ."
+      ],
+      "usage_note_ar": "تَتَفَاوَتُ قُدْرَاتُهَا وَفْقَ مَصْدَرِهَا وَنَوْعِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_151",
+      "arabic": "تَمَايُزٌ خَلَوِيٌّ",
+      "meaning_ar": "تَحَوُّلُ خَلِيَّةٍ إِلَى نَمَطٍ أَكْثَرَ تَخَصُّصًا فِي الْبِنْيَةِ وَالْوَظِيفَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ التَّمَايُزِ"
+      ],
+      "examples_ar": [
+        "أَصْبَحَتِ الْخَلِيَّةُ قَادِرَةً عَلَى وَظِيفَةٍ مُحَدَّدَةٍ."
+      ],
+      "usage_note_ar": "يَتَحَكَّمُ فِيهِ تَنْظِيمُ الْجِينَاتِ وَالْإِشَارَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_152",
+      "arabic": "مَوْتٌ خَلَوِيٌّ مُبَرْمَجٌ",
+      "meaning_ar": "عَمَلِيَّةٌ مُنَظَّمَةٌ تَتَخَلَّصُ بِهَا الْخَلِيَّةُ مِنْ نَفْسِهَا عِنْدَ شُرُوطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَنْظِيمُ الْمَوْتِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ دَوْرَ الْمَوْتِ الْمُبَرْمَجِ فِي النُّمُوِّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّلَفِ الْخَلَوِيِّ غَيْرِ الْمُنَظَّمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_153",
+      "arabic": "اسْتِمَاتَةٌ خَلَوِيَّةٌ",
+      "meaning_ar": "نَوْعٌ مِنَ الْمَوْتِ الْخَلَوِيِّ الْمُنَظَّمِ تَنْقُصُ فِيهِ مُكَوِّنَاتُ الْخَلِيَّةِ تَدْرِيجِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَلامَاتُ الِاسْتِمَاتَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَفَكُّكَ الْمَادَّةِ النَّوَوِيَّةِ."
+      ],
+      "usage_note_ar": "هِيَ مِنْ أَشْهَرِ أَشْكَالِ الْمَوْتِ الْخَلَوِيِّ الْمُبَرْمَجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_154",
+      "arabic": "الْتِهَامٌ ذَاتِيٌّ خَلَوِيٌّ",
+      "meaning_ar": "عَمَلِيَّةٌ تُحَلِّلُ بِهَا الْخَلِيَّةُ بَعْضَ مُكَوِّنَاتِهَا وَتُعِيدُ اسْتِخْدَامَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَشَاطُ الِالْتِهَامِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَفْكِيكَ جُزْءٍ خَلَوِيٍّ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَجْدِيدِ الْمُكَوِّنَاتِ وَتَوَازُنِ الْخَلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_155",
+      "arabic": "إِشَارَةٌ خَلَوِيَّةٌ",
+      "meaning_ar": "رِسَالَةٌ جُزَيْئِيَّةٌ تُغَيِّرُ نَشَاطَ خَلِيَّةٍ أَوْ اسْتِجَابَتَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَسَارُ الْإِشَارَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَجَابَتِ الْخَلِيَّةُ لِجُزَيْءٍ خَارِجِيٍّ."
+      ],
+      "usage_note_ar": "تَعْمَلُ مِنْ خِلَالِ مُسْتَقْبِلَاتٍ وَمَسَارَاتٍ دَاخِلِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_156",
+      "arabic": "مُسْتَقْبِلٌ خَلَوِيٌّ",
+      "meaning_ar": "بُرُوتِينٌ أَوْ بِنْيَةٌ تَتَعَرَّفُ عَلَى إِشَارَةٍ وَتُبْدِئُ اسْتِجَابَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ارْتِبَاطُ الْمُسْتَقْبِلِ"
+      ],
+      "examples_ar": [
+        "ارْتَبَطَ الْجُزَيْءُ بِمُسْتَقْبِلٍ عَلَى الْغِشَاءِ."
+      ],
+      "usage_note_ar": "قَدْ يُوجَدُ عَلَى السَّطْحِ أَوْ دَاخِلَ الْخَلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_157",
+      "arabic": "نَاقِلٌ غِشَائِيٌّ",
+      "meaning_ar": "بُرُوتِينٌ يُسَاعِدُ عَلَى نَقْلِ جُزَيْئَاتٍ أَوْ أَيْونَاتٍ عَبْرَ الْغِشَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَقْلُ الْجُزَيْئَاتِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْبُرُوتِينُ مَادَّةً إِلَى الْخَلِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ يَعْمَلُ بِالِانْتِشَارِ الْمُيَسَّرِ أَوْ بِطَاقَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_158",
+      "arabic": "نَقْلٌ نَشِطٌ",
+      "meaning_ar": "حَرَكَةُ مَوَادَّ عَبْرَ الْغِشَاءِ بِاسْتِهْلَاكِ طَاقَةٍ مُبَاشِرَةٍ أَوْ غَيْرِ مُبَاشِرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِضَخَّةُ الأَيْونَاتِ"
+      ],
+      "examples_ar": [
+        "نَقَلَتِ الْخَلِيَّةُ الأَيْونَاتِ عَكْسَ التَّدَرُّجِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ النَّقْلِ السَّلْبِيِّ غَيْرِ الْمُسْتَهْلِكِ لِلطَّاقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_159",
+      "arabic": "انْتِشَارٌ مُيَسَّرٌ",
+      "meaning_ar": "مُرُورُ جُزَيْئَاتٍ عَبْرَ الْغِشَاءِ بِمُسَاعَدَةِ بُرُوتِينٍ دُونَ طَاقَةٍ مُبَاشِرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَنَاةٌ غِشَائِيَّةٌ"
+      ],
+      "examples_ar": [
+        "انْتَقَلَتِ الْمَادَّةُ مَعَ تَدَرُّجِ التَّرْكِيزِ."
+      ],
+      "usage_note_ar": "لَا يَنْقُلُ الْمَادَّةَ عَكْسَ تَدَرُّجِهَا دُونَ مَصْدَرٍ لِلطَّاقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_160",
+      "arabic": "خَاصِّيَّةٌ أُسْمُوزِيَّةٌ",
+      "meaning_ar": "حَرَكَةُ مَاءٍ عَبْرَ غِشَاءٍ اخْتِيَارِيِّ النَّفَاذِيَّةِ بِسَبَبِ فَرْقِ الْجُهْدِ الْمَائِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْتِقَالُ الْمَاءِ"
+      ],
+      "examples_ar": [
+        "دَخَلَ الْمَاءُ إِلَى الْخَلِيَّةِ فَتَغَيَّرَ حَجْمُهَا."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِتَرْكِيزِ الْمُذَابَاتِ وَالضَّغْطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_161",
+      "arabic": "تَدَرُّجُ التَّرْكِيزِ",
+      "meaning_ar": "اخْتِلَافُ تَرْكِيزِ مَادَّةٍ بَيْنَ مَوْضِعَيْنِ أَوْ جَانِبَيِ غِشَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّجَاهُ التَّدَرُّجِ"
+      ],
+      "examples_ar": [
+        "انْتَشَرَتِ الْمَادَّةُ مِنَ الْمِنْطَقَةِ الأَعْلَى تَرْكِيزًا."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي الِانْتِشَارِ وَالنَّقْلِ الْخَلَوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_genetics_microbiology_20261027_162",
+      "arabic": "تَوَازُنٌ خَلَوِيٌّ",
+      "meaning_ar": "حِفْظُ الْخَلِيَّةِ لِظُرُوفٍ دَاخِلِيَّةٍ مُنَاسِبَةٍ لِعَمَلِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِقْرَارُ الْخَلِيَّةِ"
+      ],
+      "examples_ar": [
+        "ضَبَطَتِ الْخَلِيَّةُ تَرْكِيزَ الأَيْونَاتِ."
+      ],
+      "usage_note_ar": "يَتَضَمَّنُ تَنْظِيمَ الْمَاءِ وَالطَّاقَةِ وَالْحُمُوضَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_genetics_microbiology_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
