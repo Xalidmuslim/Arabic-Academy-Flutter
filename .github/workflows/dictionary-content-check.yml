@@ -16,3 +16,12 @@ jobs:
         run: |
           python3 -m unittest discover -s tools -p "test_*.py"
           python3 tools/validate_dictionary.py
+      - name: Audit Arabic vocalization variants (read-only)
+        run: |
+          python3 tools/audit_dictionary_variants.py --max-groups 85 --json-out dictionary-variant-audit.json
+      - name: Archive full duplicate-candidate report
+        uses: actions/upload-artifact@v4
+        with:
+          name: dictionary-variant-audit
+          path: dictionary-variant-audit.json
+          retention-days: 14
