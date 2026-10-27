@@ -1,0 +1,4494 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_finance_accounting_20261027_001",
+      "arabic": "مِيزَانِيَّةٌ عُمُومِيَّةٌ",
+      "meaning_ar": "قَائِمَةٌ مَالِيَّةٌ تَعْرِضُ أُصُولَ مُؤَسَّسَةٍ وَخُصُومَهَا وَحُقُوقَ مُلَّاكِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادُ الْمِيزَانِيَّةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُحَاسِبُ الْمِيزَانِيَّةَ فِي نِهَايَةِ السَّنَةِ."
+      ],
+      "usage_note_ar": "تُصَوِّرُ الْمَرْكَزَ الْمَالِيَّ فِي تَارِيخٍ مُحَدَّدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_002",
+      "arabic": "قَائِمَةُ الدَّخْلِ",
+      "meaning_ar": "تَقْرِيرٌ يَعْرِضُ إِيرَادَاتِ النَّشَاطِ وَمَصْرُوفَاتِهِ وَنَتِيجَتَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادُ قَائِمَةِ الدَّخْلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدِيرُ قَائِمَتَيِ الدَّخْلِ لِسَنَتَيْنِ."
+      ],
+      "usage_note_ar": "تَتَعَلَّقُ بِفَتْرَةٍ زَمَنِيَّةٍ لَا بِلَحْظَةٍ وَاحِدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_003",
+      "arabic": "قَائِمَةُ التَّدَفُّقَاتِ النَّقْدِيَّةِ",
+      "meaning_ar": "تَقْرِيرٌ يُوَضِّحُ مَصَادِرَ دُخُولِ النُّقُودِ وَأَوْجُهَ خُرُوجِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ التَّدَفُّقَاتِ"
+      ],
+      "examples_ar": [
+        "أَظْهَرَ التَّقْرِيرُ تَدَفُّقًا نَقْدِيًّا مُوجَبًا."
+      ],
+      "usage_note_ar": "تُفَصِّلُ النَّشَاطَ التَّشْغِيلِيَّ وَالاسْتِثْمَارِيَّ وَالتَّمْوِيلِيَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_004",
+      "arabic": "قَائِمَةُ التَّغَيُّرَاتِ فِي حُقُوقِ الْمِلْكِيَّةِ",
+      "meaning_ar": "بَيَانٌ مَالِيٌّ يَشْرَحُ حَرَكَةَ رُؤُوسِ الأَمْوَالِ وَالأَرْبَاحِ الْمُحْتَجَزَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَيَانُ حُقُوقِ الْمُلَّاكِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُحَاسِبُ حَرَكَةَ حُقُوقِ الْمِلْكِيَّةِ."
+      ],
+      "usage_note_ar": "يُوَضِّحُ آثَارَ التَّوْزِيعَاتِ وَالزِّيَادَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_005",
+      "arabic": "أَصْلٌ مُتَدَاوَلٌ",
+      "meaning_ar": "مَوْرِدٌ مَالِيٌّ يُتَوَقَّعُ تَحْوِيلُهُ إِلَى نَقْدٍ خِلَالَ الدَّوْرَةِ التَّشْغِيلِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الأُصُولُ الْمُتَدَاوَلَةُ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُحَاسِبُ الْمَخْزُونَ ضِمْنَ الأُصُولِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ النَّقْدَ وَالذِّمَمَ فِي حَالَاتٍ كَثِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_006",
+      "arabic": "أَصْلٌ غَيْرُ مُتَدَاوَلٍ",
+      "meaning_ar": "مَوْرِدٌ تَحْتَفِظُ بِهِ الْمُؤَسَّسَةُ لِفَتْرَةٍ طَوِيلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الأُصُولُ الثَّابِتَةُ"
+      ],
+      "examples_ar": [
+        "أَدْرَجَتِ الشَّرِكَةُ الْمَبْنَى ضِمْنَ أُصُولِهَا."
+      ],
+      "usage_note_ar": "يَشْمَلُ بَعْضَ الْمَعَدَّاتِ وَالِاسْتِثْمَارَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_007",
+      "arabic": "أَصْلٌ مَلْمُوسٌ",
+      "meaning_ar": "مَوْرِدٌ ذُو وُجُودٍ مَادِّيٍّ تَمْلِكُهُ مُؤَسَّسَةٌ أَوْ تَتَحَكَّمُ فِيهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الأُصُولُ الْمَلْمُوسَةُ"
+      ],
+      "examples_ar": [
+        "اشْتَرَتِ الشَّرِكَةُ آلَةً لِلْإِنْتَاجِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الأَصْلِ غَيْرِ الْمَلْمُوسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_008",
+      "arabic": "أَصْلٌ غَيْرُ مَلْمُوسٍ",
+      "meaning_ar": "مَوْرِدٌ غَيْرُ مَادِّيٍّ يُتَوَقَّعُ أَنْ يُحَقِّقَ مَنْفَعَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُقُوقُ الْبَرْمَجِيَّاتِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَتِ الشَّرِكَةُ رُخْصَةَ اسْتِخْدَامٍ."
+      ],
+      "usage_note_ar": "يَخْضَعُ الِاعْتِرَافُ بِهِ لِشُرُوطٍ مُحَاسَبِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_009",
+      "arabic": "الْتِزَامٌ مُتَدَاوَلٌ",
+      "meaning_ar": "دَيْنٌ أَوْ وَاجِبٌ مَالِيٌّ يُتَوَقَّعُ سَدَادُهُ فِي الأَجَلِ الْقَرِيبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَدَادُ الِالْتِزَامَاتِ"
+      ],
+      "examples_ar": [
+        "أَدْرَجَ الْمُحَاسِبُ فَاتُورَةَ الْمُوَرِّدِ."
+      ],
+      "usage_note_ar": "يَتَعَلَّقُ غَالِبًا بِدَوْرَةِ التَّشْغِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_010",
+      "arabic": "الْتِزَامٌ طَوِيلُ الْأَجَلِ",
+      "meaning_ar": "دَيْنٌ يَحِينُ وَفَاؤُهُ بَعْدَ فَتْرَةٍ تَتَجَاوَزُ الأَجَلَ الْقَصِيرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْتِزَامَاتٌ طَوِيلَةٌ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُحَاسِبُ الْقَرْضَ بَعِيدَ الْأَجَلِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ تَصْنِيفُهُ مَعَ اقْتِرَابِ الِاسْتِحْقَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_011",
+      "arabic": "حُقُوقُ الْمُلَّاكِ",
+      "meaning_ar": "الْقِيمَةُ الْمُتَبَقِّيَةُ مِنَ الأُصُولِ بَعْدَ طَرْحِ الْخُصُومِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَغَيُّرُ حُقُوقِ الْمُلَّاكِ"
+      ],
+      "examples_ar": [
+        "زَادَتْ حُقُوقُ الْمُلَّاكِ بَعْدَ تَحْقِيقِ رِبْحٍ."
+      ],
+      "usage_note_ar": "تُقَابِلُ حِصَصَ الْمَسَاهِمِينَ فِي الشَّرِكَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_012",
+      "arabic": "رَأْسُ مَالٍ مَدْفُوعٌ",
+      "meaning_ar": "مَبْلَغٌ أَوْ قِيمَةٌ قَدَّمَهَا الْمُلَّاكُ إِلَى الْمُؤَسَّسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زِيَادَةُ رَأْسِ الْمَالِ"
+      ],
+      "examples_ar": [
+        "أَوْدَعَ الشُّرَكَاءُ مَبْلَغًا إِضَافِيًّا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ رَأْسِ الْمَالِ الْمُصَرَّحِ بِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_013",
+      "arabic": "أَرْبَاحٌ مُحْتَجَزَةٌ",
+      "meaning_ar": "أَرْبَاحٌ سَابِقَةٌ لَمْ تُوَزَّعْ وَبَقِيَتْ فِي الْمُؤَسَّسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَصِيدُ الأَرْبَاحِ"
+      ],
+      "examples_ar": [
+        "خَصَّصَتِ الشَّرِكَةُ جُزْءًا لِلتَّوَسُّعِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَغَيَّرُ بِالْخَسَائِرِ وَالتَّوْزِيعَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_014",
+      "arabic": "رَبْحٌ تَشْغِيلِيٌّ",
+      "meaning_ar": "فَائِضُ الْإِيرَادَاتِ عَلَى تَكَالِيفِ التَّشْغِيلِ قَبْلَ بَعْضِ الْبُنُودِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الرِّبْحِ"
+      ],
+      "examples_ar": [
+        "تَحَسَّنَ الرِّبْحُ التَّشْغِيلِيُّ بَعْدَ خَفْضِ التَّكَالِيفِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الرِّبْحِ الصَّافِي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_015",
+      "arabic": "رَبْحٌ صَافٍ",
+      "meaning_ar": "نَتِيجَةٌ مَالِيَّةٌ تَبْقَى بَعْدَ طَرْحِ الْمَصْرُوفَاتِ مِنَ الْإِيرَادَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صَافِي الْأَرْبَاحِ"
+      ],
+      "examples_ar": [
+        "أَظْهَرَتِ الْقَائِمَةُ رِبْحًا صَافِيًا."
+      ],
+      "usage_note_ar": "قَدْ يَتَأَثَّرُ بِالضَّرَائِبِ وَالْبُنُودِ غَيْرِ التَّشْغِيلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_016",
+      "arabic": "خَسَارَةٌ صَافِيَةٌ",
+      "meaning_ar": "نَتِيجَةٌ تَظْهَرُ عِنْدَ زِيَادَةِ الْمَصْرُوفَاتِ عَلَى الْإِيرَادَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الْخَسَارَةِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمَشْرُوعُ خَسَارَةً صَافِيَةً."
+      ],
+      "usage_note_ar": "لَا تَعْنِي بِالضَّرُورَةِ نَفَادَ النُّقُودِ فِي الْخَزِينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_017",
+      "arabic": "هَامِشُ الرِّبْحِ",
+      "meaning_ar": "نِسْبَةٌ تُظْهِرُ مِقْدَارَ الرِّبْحِ مُقَارَنَةً بِالْإِيرَادَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "احْتِسَابُ الْهَامِشِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدِيرُ هَامِشَ الرِّبْحِ بَيْنَ الْمُنْتَجَاتِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَحْدِيدُ نَوْعِ الرِّبْحِ عِنْدَ الْحِسَابِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_018",
+      "arabic": "هَامِشٌ إِجْمَالِيٌّ",
+      "meaning_ar": "نِسْبَةٌ تُقَارِنُ الرِّبْحَ الْإِجْمَالِيَّ بِإِيرَادِ الْمَبِيعَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "هَامِشُ الْمَبِيعَاتِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ الْهَامِشُ الْإِجْمَالِيُّ بَعْدَ تَحْسِينِ الشِّرَاءِ."
+      ],
+      "usage_note_ar": "لَا يَشْمَلُ جَمِيعَ مَصْرُوفَاتِ الْمُؤَسَّسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_019",
+      "arabic": "تَكْلِفَةُ الْمَبِيعَاتِ",
+      "meaning_ar": "قِيمَةُ مَا تَحَمَّلَتْهُ الْمُؤَسَّسَةُ لِإِنْتَاجِ السِّلَعِ الْمَبِيعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "احْتِسَابُ التَّكْلِفَةِ"
+      ],
+      "examples_ar": [
+        "خَصَمَ الْمُحَاسِبُ تَكْلِفَةَ الْمَبِيعَاتِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ النَّفَقَاتِ الْإِدَارِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_020",
+      "arabic": "مَصْرُوفٌ تَشْغِيلِيٌّ",
+      "meaning_ar": "تَكْلِفَةٌ تَتَكَرَّرُ أَثْنَاءَ مُمَارَسَةِ النَّشَاطِ الْمُعْتَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْمَصْرُوفَاتِ"
+      ],
+      "examples_ar": [
+        "زَادَ مَصْرُوفُ الْإِيجَارِ هَذَا الشَّهْرَ."
+      ],
+      "usage_note_ar": "تَشْمَلُ أَمْثِلَتُهُ الرَّوَاتِبَ وَالْخَدَمَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_021",
+      "arabic": "نَفَقَةٌ رَأْسِمَالِيَّةٌ",
+      "meaning_ar": "مَبْلَغٌ يُنْفَقُ لِاقْتِنَاءِ أَصْلٍ أَوْ تَحْسِينِهِ لِمَنْفَعَةٍ طَوِيلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اعْتِمَادُ النَّفَقَةِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الْمَصْنَعُ آلَةً جَدِيدَةً."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمَصْرُوفِ الْيَوْمِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_022",
+      "arabic": "إِهْلَاكٌ مُحَاسَبِيٌّ",
+      "meaning_ar": "تَوْزِيعُ تَكْلِفَةِ أَصْلٍ مَلْمُوسٍ عَلَى فَتْرَاتِ اسْتِفَادَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَيْدُ الْإِهْلَاكِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُحَاسِبُ إِهْلَاكَ الْمَعَدَّةِ."
+      ],
+      "usage_note_ar": "لَيْسَ بِالضَّرُورَةِ نَفَقَةً نَقْدِيَّةً فِي كُلِّ فَتْرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_023",
+      "arabic": "إِطْفَاءُ أَصْلٍ غَيْرِ مَلْمُوسٍ",
+      "meaning_ar": "تَوْزِيعُ قِيمَةِ أَصْلٍ غَيْرِ مَادِّيٍّ عَلَى عُمْرِهِ الْمُحَدَّدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الْإِطْفَاءِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُحَاسِبُ إِطْفَاءَ رُخْصَةٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ إِهْلَاكِ الأُصُولِ الْمَادِّيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_024",
+      "arabic": "اضْمِحْلَالُ الْقِيمَةِ",
+      "meaning_ar": "انْخِفَاضٌ مُحَاسَبِيٌّ فِي الْقِيمَةِ الْقَابِلَةِ لِاسْتِرْدَادِ أَصْلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِبَارُ الِاضْمِحْلَالِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَتِ الشَّرِكَةُ خَسَارَةً فِي قِيمَةِ مَعَدَّةٍ."
+      ],
+      "usage_note_ar": "يَنْشَأُ عِنْدَ تَوَفُّرِ مُؤَشِّرَاتٍ مَعَيَّنَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_025",
+      "arabic": "قِيمَةٌ دَفْتَرِيَّةٌ",
+      "meaning_ar": "مَبْلَغٌ يُسَجَّلُ بِهِ أَصْلٌ أَوِ الْتِزَامٌ فِي السِّجِلَّاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَاسِبُ الْقِيمَةَ الدَّفْتَرِيَّةَ بِالسُّوقِيَّةِ."
+      ],
+      "usage_note_ar": "لَا تَتَطَابَقُ دَائِمًا مَعَ سِعْرِ الْبَيْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_026",
+      "arabic": "قِيمَةٌ عَادِلَةٌ",
+      "meaning_ar": "تَقْدِيرٌ لِسِعْرِ تَبَادُلِ أَصْلٍ بَيْنَ مُتَعَامِلِينَ فِي السُّوقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الْخَبِيرُ الْقِيمَةَ الْعَادِلَةَ لِلْعَقَارِ."
+      ],
+      "usage_note_ar": "تُطَبَّقُ وَفْقَ مَعَايِيرَ مُحَاسَبِيَّةٍ مُعَيَّنَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_027",
+      "arabic": "ذِمَمٌ مَدِينَةٌ",
+      "meaning_ar": "مَبَالِغُ تَسْتَحِقُّهَا الْمُؤَسَّسَةُ لَدَى الْعُمَلَاءِ أَوْ غَيْرِهِمْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْصِيلُ الذِّمَمِ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْمُحَاسِبُ الْفَوَاتِيرَ غَيْرَ الْمَدْفُوعَةِ."
+      ],
+      "usage_note_ar": "تُعْدُّ أَصْلًا عِنْدَ تَوَفُّرِ الشُّرُوطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_028",
+      "arabic": "ذِمَمٌ دَائِنَةٌ",
+      "meaning_ar": "مَبَالِغُ تَدِينُ بِهَا الْمُؤَسَّسَةُ لِلْمُوَرِّدِينَ أَوْ غَيْرِهِمْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَدَادُ الذِّمَمِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُحَاسِبُ مَوَاعِيدَ سَدَادِ الْمُوَرِّدِينَ."
+      ],
+      "usage_note_ar": "تُصَنَّفُ ضِمْنَ الْخُصُومِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_029",
+      "arabic": "مَخْصُصُ دُيُونٍ مَشْكُوكٍ فِي تَحْصِيلِهَا",
+      "meaning_ar": "تَقْدِيرٌ مُحَاسَبِيٌّ لِخَسَائِرَ مُتَوَقَّعَةٍ مِنْ ذِمَمٍ مَدِينَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ الْمَخْصُصِ"
+      ],
+      "examples_ar": [
+        "قَيَّمَتِ الشَّرِكَةُ احْتِمَالَ عَدَمِ السَّدَادِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ شَطْبِ دَيْنٍ مَعَيَّنٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_030",
+      "arabic": "شَطْبُ دَيْنٍ",
+      "meaning_ar": "إِزَالَةُ مَبْلَغٍ مُسْتَحَقٍّ مِنَ السِّجِلَّاتِ لِتَعَذُّرِ تَحْصِيلِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَيْدُ شَطْبٍ"
+      ],
+      "examples_ar": [
+        "شَطَبَ الْمُحَاسِبُ دَيْنًا بَعْدَ الِاعْتِمَادِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ دَلِيلًا وَإِجْرَاءَاتٍ مَعْتَمَدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_031",
+      "arabic": "جَرْدُ الْمَخْزُونِ",
+      "meaning_ar": "عَدُّ السِّلَعِ وَالْمَوَادِّ وَمُقَارَنَتُهَا بِالسِّجِلَّاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَرْدٌ سَنَوِيٌّ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الْفَرِيقُ جَرْدًا لِلْمُسْتَوْدَعِ."
+      ],
+      "usage_note_ar": "يَكْشِفُ الْفُرُوقَ وَالْفَقْدَ وَالْأَخْطَاءَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_032",
+      "arabic": "مَخْزُونٌ رَاكِدٌ",
+      "meaning_ar": "بَضَائِعُ لَمْ تَتَحَرَّكْ لِفَتْرَةٍ طَوِيلَةٍ وَتُصْعِبُ تَسْيِيلَ الْمَوَارِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الرُّكُودِ"
+      ],
+      "examples_ar": [
+        "بَاعَ الْمَتْجَرُ جُزْءًا مِنَ الْمَخْزُونِ الرَّاكِدِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْتَاجُ إِلَى تَخْفِيضِ الْقِيمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_033",
+      "arabic": "دَوَرَانُ الْمَخْزُونِ",
+      "meaning_ar": "مُؤَشِّرٌ يَقِيسُ عَدَدَ مَرَّاتِ بَيْعِ الْمَخْزُونِ وَتَجْدِيدِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ الدَّوَرَانِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ دَوَرَانُ الْمَخْزُونِ بَعْدَ تَحْسِينِ الْطَّلَبِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ بِحَسَبِ الصِّنَاعَةِ وَالْمَوْسِمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_034",
+      "arabic": "رَأْسُ الْمَالِ الْعَامِلِ",
+      "meaning_ar": "الْفَرْقُ بَيْنَ الأُصُولِ الْمُتَدَاوَلَةِ وَالِالْتِزَامَاتِ الْمُتَدَاوَلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ السُّيُولَةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُدِيرُ رَأْسَ الْمَالِ الْعَامِلَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَقْيِيمِ الْوَضْعِ الْقَصِيرِ الأَجَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_035",
+      "arabic": "نِسْبَةُ السُّيُولَةِ الْجَارِيَةِ",
+      "meaning_ar": "مُقَارَنَةُ الأُصُولِ الْمُتَدَاوَلَةِ بِالْخُصُومِ الْمُتَدَاوَلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ النِّسْبَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُدِيرُ نِسْبَةَ السُّيُولَةِ."
+      ],
+      "usage_note_ar": "لَا تَكْفِي وَحْدَهَا لِتَقْيِيمِ قُدْرَةِ السَّدَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_036",
+      "arabic": "نِسْبَةُ السُّيُولَةِ السَّرِيعَةِ",
+      "meaning_ar": "مُؤَشِّرٌ يَقِيسُ السُّيُولَةَ بِاسْتِبْعَادِ بَعْضِ الأُصُولِ الأَقَلِّ سُرْعَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "السُّيُولَةُ السَّرِيعَةُ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَلِّلُ النِّسْبَةَ بَيْنَ شَرِكَتَيْنِ."
+      ],
+      "usage_note_ar": "تَسْتَبْعِدُ الْمَخْزُونَ فِي صِيَغٍ شَائِعَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_037",
+      "arabic": "مُعَدَّلُ الْمَدْيُونِيَّةِ",
+      "meaning_ar": "نِسْبَةٌ تُظْهِرُ حَجْمَ الدُّيُونِ مُقَارَنَةً بِمِقْيَاسٍ مَالِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْمَدْيُونِيَّةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُحَلِّلُ اعْتِمَادَ الشَّرِكَةِ عَلَى الْقُرُوضِ."
+      ],
+      "usage_note_ar": "يَجِبُ بَيَانُ صِيغَةِ النِّسْبَةِ عِنْدَ الِاسْتِعْمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_038",
+      "arabic": "الرَّافِعَةُ الْمَالِيَّةُ",
+      "meaning_ar": "اسْتِعْمَالُ الدَّيْنِ أَوِ التَّمْوِيلِ لِتَكْبِيرِ أَثَرِ رَأْسِ الْمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُسْتَوَى الرَّافِعَةِ"
+      ],
+      "examples_ar": [
+        "زَادَتْ مُخَاطَرَةُ الشَّرِكَةِ مَعَ ارْتِفَاعِ الدُّيُونِ."
+      ],
+      "usage_note_ar": "قَدْ تُضَخِّمُ الأَرْبَاحَ وَالْخَسَائِرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_039",
+      "arabic": "تَكْلِفَةُ التَّمْوِيلِ",
+      "meaning_ar": "مَا تَدْفَعُهُ الْمُؤَسَّسَةُ مُقَابِلَ الْحُصُولِ عَلَى مَوَارِدَ مَالِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ التَّكْلِفَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُدِيرُ تَكْلِفَةَ الْقَرْضِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ رُسُومًا وَنَفَقَاتٍ بِحَسَبِ الْعَقْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_040",
+      "arabic": "تَكْلِفَةُ رَأْسِ الْمَالِ",
+      "meaning_ar": "الْعَائِدُ الَّذِي يَتَوَقَّعُهُ مُمَوِّلُو الْمَشْرُوعِ مُقَابِلَ الْمُخَاطَرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ الْعَائِدِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُحَلِّلُ تَكْلِفَةَ رَأْسِ الْمَالِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي تَقْيِيمِ الْمَشَارِيعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_041",
+      "arabic": "عَائِدٌ عَلَى الِاسْتِثْمَارِ",
+      "meaning_ar": "نِسْبَةٌ تُقَارِنُ الْمَنْفَعَةَ الْمَالِيَّةَ بِمَا أُنْفِقَ لِتَحْقِيقِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْعَائِدِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدِيرُ عَائِدَ مَشْرُوعَيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ صِيَغُ حِسَابِهِ بِحَسَبِ الْهَدَفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_042",
+      "arabic": "نُقْطَةُ التَّعَادُلِ",
+      "meaning_ar": "مُسْتَوَى مَبِيعَاتٍ تَتَسَاوَى عِنْدَهُ الْإِيرَادَاتُ مَعَ التَّكَالِيفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ التَّعَادُلِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُحَلِّلُ نُقْطَةَ التَّعَادُلِ لِلْمَتْجَرِ."
+      ],
+      "usage_note_ar": "لَا يَتَحَقَّقُ عِنْدَهَا رِبْحٌ تَشْغِيلِيٌّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_043",
+      "arabic": "تَكْلِفَةٌ ثَابِتَةٌ",
+      "meaning_ar": "نَفَقَةٌ لَا تَتَغَيَّرُ مَعَ الْإِنْتَاجِ فِي نِطَاقٍ مَعْقُولٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "التَّكَالِيفُ الثَّابِتَةُ"
+      ],
+      "examples_ar": [
+        "يَدْفَعُ الْمَصْنَعُ إِيجَارًا شَهْرِيًّا."
+      ],
+      "usage_note_ar": "قَدْ تَتَغَيَّرُ عِنْدَ زِيَادَةِ السَّعَةِ بِصُورَةٍ كَبِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_044",
+      "arabic": "تَكْلِفَةٌ مُتَغَيِّرَةٌ",
+      "meaning_ar": "نَفَقَةٌ تَرْتَبِطُ بِكَمِّيَّةِ الْوَحَدَاتِ الْمُنْتَجَةِ أَوِ الْمَبِيعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "التَّكْلِفَةُ لِكُلِّ وَحْدَةٍ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ اسْتِهْلَاكُ الْمَوَادِّ مَعَ الْإِنْتَاجِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ إِجْمَالًا مَعَ مُسْتَوَى النَّشَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_045",
+      "arabic": "تَكْلِفَةٌ مُبَاشِرَةٌ",
+      "meaning_ar": "نَفَقَةٌ يُمْكِنُ رَبْطُهَا بِمُنْتَجٍ أَوْ خِدْمَةٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ التَّكْلِفَةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُحَاسِبُ تَكْلِفَةَ الْخَشَبِ لِكُلِّ بَابٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ التَّكْلِفَةِ غَيْرِ الْمُبَاشِرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_046",
+      "arabic": "تَكْلِفَةٌ غَيْرُ مُبَاشِرَةٍ",
+      "meaning_ar": "نَفَقَةٌ تَخْدِمُ عِدَّةَ مُنْتَجَاتٍ وَلَا تُنْسَبُ إِلَى وَاحِدٍ بِسُهُولَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْزِيعُ التَّكَالِيفِ"
+      ],
+      "examples_ar": [
+        "وَزَّعَ الْمُحَاسِبُ كَهْرَبَاءَ الْمَصْنَعِ عَلَى الْمُنْتَجَاتِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى أَسَاسٍ مُنَاسِبٍ لِلتَّوْزِيعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_047",
+      "arabic": "مُحَاسَبَةُ التَّكَالِيفِ",
+      "meaning_ar": "مَجَالٌ يَقِيسُ نَفَقَاتِ إِنْتَاجِ السِّلَعِ وَتَقْدِيمِ الْخَدَمَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِظَامُ التَّكَالِيفِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُحَاسِبُ تَكْلِفَةَ كُلِّ طَلَبِيَّةٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى التَّسْعِيرِ وَالرَّقَابَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_048",
+      "arabic": "تَكْلِفَةُ الْفُرْصَةِ الْبَدِيلَةِ",
+      "meaning_ar": "قِيمَةُ أَفْضَلِ بَدِيلٍ يَتَخَلَّى عَنْهُ الشَّخْصُ عِنْدَ الِاخْتِيَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُقَارَنَةُ الْبَدَائِلِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُسْتَثْمِرُ تَكْلِفَةَ الْفُرْصَةِ."
+      ],
+      "usage_note_ar": "قَدْ لَا تَظْهَرُ كَمَصْرُوفٍ نَقْدِيٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_049",
+      "arabic": "تَكْلِفَةٌ غَارِقَةٌ",
+      "meaning_ar": "نَفَقَةٌ دُفِعَتْ فِي الْمَاضِي وَلَا يُمْكِنُ اسْتِرْجَاعُهَا بِالْقَرَارِ الْحَالِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَجَاوُزُ التَّكْلِفَةِ"
+      ],
+      "examples_ar": [
+        "لَمْ يَبْنِ الْمُدِيرُ قَرَارَهُ عَلَى مَا أُنْفِقَ."
+      ],
+      "usage_note_ar": "لَا يَنْبَغِي أَنْ تُحَدِّدَ وَحْدَهَا الْقَرَارَ الْمُسْتَقْبَلِيَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_050",
+      "arabic": "مُوَازَنَةٌ تَخْطِيطِيَّةٌ",
+      "meaning_ar": "خُطَّةٌ مَالِيَّةٌ تُقَدِّرُ الْإِيرَادَاتِ وَالنَّفَقَاتِ لِفَتْرَةٍ قَادِمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادُ الْمُوَازَنَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الشَّرِكَةُ مُوَازَنَةَ الْعَامِ الْقَادِمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْمِيزَانِيَّةِ الْعُمُومِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_051",
+      "arabic": "انْحِرَافُ الْمُوَازَنَةِ",
+      "meaning_ar": "فَرْقٌ بَيْنَ مَبْلَغٍ مُخَطَّطٍ وَمَبْلَغٍ تَحَقَّقَ فِعْلًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الِانْحِرَافِ"
+      ],
+      "examples_ar": [
+        "فَسَّرَ الْمُحَاسِبُ زِيَادَةَ النَّفَقَاتِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ الْفَرْقُ مُوَاتِيًا أَوْ غَيْرَ مُوَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_052",
+      "arabic": "تَوَقُّعٌ مَالِيٌّ",
+      "meaning_ar": "تَقْدِيرٌ لِنَتَائِجَ مُسْتَقْبَلِيَّةٍ بِالِاسْتِنَادِ إِلَى بَيَانَاتٍ وَافْتِرَاضَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سِينَارْيُو التَّوَقُّعِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْمُدِيرُ تَوَقُّعًا لِلْمَبِيعَاتِ."
+      ],
+      "usage_note_ar": "يَبْقَى مَعْرُوضًا لِلْخَطَأِ وَالتَّغَيُّرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_053",
+      "arabic": "تَحْلِيلُ الْحَسَّاسِيَّةِ",
+      "meaning_ar": "دِرَاسَةُ تَغَيُّرِ النَّتِيجَةِ عِنْدَ تَعْدِيلِ افْتِرَاضٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَسَّاسِيَّةُ الرِّبْحِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُحَلِّلُ أَثَرَ ارْتِفَاعِ السِّعْرِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَحْدِيدِ الْعَوَامِلِ الْمُؤَثِّرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_054",
+      "arabic": "سِينَارْيُو مَالِيٌّ",
+      "meaning_ar": "وَصْفٌ لِمَسَارٍ مُحْتَمَلٍ لِلْأَعْمَالِ فِي شُرُوطٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "السِّينَارْيُو الْمُتَفَائِلُ"
+      ],
+      "examples_ar": [
+        "أَعَدَّتِ الشَّرِكَةُ ثَلَاثَةَ سِينَارْيُوهَاتٍ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى التَّخْطِيطِ لِحَالَاتٍ مُخْتَلِفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_055",
+      "arabic": "فَجْوَةٌ تَمْوِيلِيَّةٌ",
+      "meaning_ar": "الْفَرْقُ بَيْنَ الْمَوَارِدِ الْمُتَاحَةِ وَالْمَبَالِغِ الْمَطْلُوبَةِ لِلْخُطَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَدُّ الْفَجْوَةِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الْمُدِيرُ عَنْ تَمْوِيلٍ إِضَافِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ تُعَالَجُ بِخَفْضِ النَّفَقَاتِ أَوْ جَلْبِ رَأْسِ مَالٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_056",
+      "arabic": "دَوْرَةُ التَّحْوِيلِ النَّقْدِيِّ",
+      "meaning_ar": "مُدَّةٌ بَيْنَ دَفْعِ ثَمَنِ الْمَخْزُونِ وَتَحْصِيلِ ثَمَنِ بَيْعِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْصِيرُ الدَّوْرَةِ"
+      ],
+      "examples_ar": [
+        "حَسَّنَ الْمُدِيرُ سُرْعَةَ التَّحْصِيلِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْمَخْزُونِ وَالذِّمَمِ وَمُدَدِ السَّدَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_057",
+      "arabic": "تَحْصِيلٌ مَالِيٌّ",
+      "meaning_ar": "اسْتِلَامُ مَبَالِغَ مُسْتَحَقَّةٍ مِنْ عُمَلَاءَ أَوْ مَدِينِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ التَّحْصِيلِ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْمُوَظَّفُ تَحْصِيلَ الْفَوَاتِيرِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ تَأَخُّرُهُ فِي السُّيُولَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_058",
+      "arabic": "سَقْفٌ ائْتِمَانِيٌّ",
+      "meaning_ar": "حَدٌّ أَقْصَى لِمَبْلَغِ تَمْوِيلٍ أَوْ دَيْنٍ مَسْمُوحٍ بِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زِيَادَةُ السَّقْفِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمَصْرِفُ السَّقْفَ الِائْتِمَانِيَّ."
+      ],
+      "usage_note_ar": "تُحَدَّدُ قِيمَتُهُ بِحَسَبِ الْجَدَارَةِ وَالسِّيَاسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_059",
+      "arabic": "جَدَارَةٌ ائْتِمَانِيَّةٌ",
+      "meaning_ar": "تَقْيِيمٌ لِقُدْرَةِ الْمُقْتَرِضِ عَلَى سَدَادِ الْتِزَامَاتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْجَدَارَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمَصْرِفُ دَخْلَ طَالِبِ التَّمْوِيلِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى مَعْلُومَاتٍ مَالِيَّةٍ وَسُلُوكٍ سَابِقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_060",
+      "arabic": "تَصْنِيفٌ ائْتِمَانِيٌّ",
+      "meaning_ar": "دَرَجَةٌ تُعَبِّرُ عَنْ مُسْتَوَى مُخَاطَرَةِ عَدَمِ السَّدَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَفْضُ التَّصْنِيفِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَتِ الْوَكَالَةُ تَصْنِيفَ الشَّرِكَةِ."
+      ],
+      "usage_note_ar": "لَا يُعَدُّ ضَمَانًا لِلسَّدَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_061",
+      "arabic": "تَعَثُّرٌ مَالِيٌّ",
+      "meaning_ar": "عَجْزٌ أَوْ صُعُوبَةٌ فِي الْوَفَاءِ بِالِالْتِزَامَاتِ فِي مَوَاعِيدِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَالَجَةُ التَّعَثُّرِ"
+      ],
+      "examples_ar": [
+        "تَفَاوَضَ الْمُقْتَرِضُ عَلَى جَدْوَلَةِ الدَّيْنِ."
+      ],
+      "usage_note_ar": "قَدْ يَسْبِقُ الْإِفْلَاسَ دُونَ أَنْ يَسْتَلْزِمَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_062",
+      "arabic": "إِعَادَةُ جَدْوَلَةِ الدَّيْنِ",
+      "meaning_ar": "اتِّفَاقٌ عَلَى تَغْيِيرِ مَوَاعِيدِ السَّدَادِ أَوْ شُرُوطِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ السَّدَادِ"
+      ],
+      "examples_ar": [
+        "وَافَقَ الدَّائِنُ عَلَى جَدْوَلَةِ الْمَبَالِغِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَضَمَّنُ تَمْدِيدَ الْمُدَّةِ أَوْ تَعْدِيلَ الْأَقْسَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_063",
+      "arabic": "ضَمَانٌ مَالِيٌّ",
+      "meaning_ar": "تَعَهُّدٌ أَوْ أَصْلٌ يُقَدَّمُ لِتَقْلِيلِ خَطَرِ عَدَمِ السَّدَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ ضَمَانٍ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الْمَصْرِفُ ضَمَانًا لِلْقَرْضِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَنْوَاعُهُ وَقُوَّتُهُ قَانُونِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_064",
+      "arabic": "كَفَالَةٌ مَالِيَّةٌ",
+      "meaning_ar": "الْتِزَامُ شَخْصٍ بِالْوَفَاءِ عِنْدَ تَخَلُّفِ الْمَدِينِ وَفْقَ الْعَقْدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَقْدُ الْكَفَالَةِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الْكَفِيلُ وَثِيقَةَ الْكَفَالَةِ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ مَسْؤُولِيَّتُهُ بِالْقَانُونِ وَالشُّرُوطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_065",
+      "arabic": "خِطَابُ ضَمَانٍ",
+      "meaning_ar": "تَعَهُّدٌ مَكْتُوبٌ مِنْ جِهَةٍ مَالِيَّةٍ بِالدَّفْعِ وَفْقَ شُرُوطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِصْدَارُ الْخِطَابِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُقَاوِلُ خِطَابَ ضَمَانٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمُنَاقَصَاتِ وَالْعُقُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_066",
+      "arabic": "اعْتِمَادٌ مُسْتَنَدِيٌّ",
+      "meaning_ar": "تَرْتِيبٌ مَصْرِفِيٌّ يَرْبِطُ الدَّفْعَ بِتَقْدِيمِ وَثَائِقَ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَتْحُ الِاعْتِمَادِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَطَ الْمُصَدِّرُ اعْتِمَادًا مُسْتَنَدِيًّا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي بَعْضِ صَفَقَاتِ التِّجَارَةِ الدَّوْلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_067",
+      "arabic": "حَوَالَةٌ مَصْرِفِيَّةٌ",
+      "meaning_ar": "عَمَلِيَّةُ نَقْلِ مَبْلَغٍ مِنْ حِسَابٍ إِلَى حِسَابٍ آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَقْمُ الْحَوَالَةِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُشْتَرِي حَوَالَةً مَصْرِفِيَّةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مُدَّتُهَا وَرُسُومُهَا بِحَسَبِ الْقَنَاةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_068",
+      "arabic": "تَسْوِيَةٌ مَصْرِفِيَّةٌ",
+      "meaning_ar": "إِتْمَامُ نَقْلِ الْمَبَالِغِ بَيْنَ الْحِسَابَاتِ أَوِ الْمُؤَسَّسَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِظَامُ التَّسْوِيَةِ"
+      ],
+      "examples_ar": [
+        "اكْتَمَلَتِ التَّسْوِيَةُ بَعْدَ الْمُطَابَقَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ مُجَرَّدِ إِرْسَالِ أَمْرِ الدَّفْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_069",
+      "arabic": "مُقَاصَّةٌ مَصْرِفِيَّةٌ",
+      "meaning_ar": "تَجْمِيعُ الْمُطَالَبَاتِ الْمُتَبَادَلَةِ لِحِسَابِ صَافِي الْمَبَالِغِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "غُرْفَةُ الْمُقَاصَّةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ النِّظَامُ صَافِيَ الْمُدْفُوعَاتِ."
+      ],
+      "usage_note_ar": "تَسْبِقُ التَّسْوِيَةَ فِي نُظُمٍ مَالِيَّةٍ كَثِيرَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_070",
+      "arabic": "أَمْرُ دَفْعٍ",
+      "meaning_ar": "تَعْلِيمَةٌ مُعْتَمَدَةٌ لِتَحْوِيلِ مَبْلَغٍ إِلَى مُسْتَفِيدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ الأَمْرِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الشَّرِكَةُ أَمْرَ دَفْعٍ لِلْمُوَرِّدِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْتَاجُ إِلَى مُوَافَقَةٍ أَوْ تَحَقُّقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_071",
+      "arabic": "خَصْمٌ تِجَارِيٌّ",
+      "meaning_ar": "تَخْفِيضٌ فِي السِّعْرِ الْمُعْلَنِ لِشَرْطٍ تِجَارِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِسْبَةُ الْخَصْمِ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الْمُشْتَرِي عَلَى خَصْمٍ لِلْكَمِّيَّةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْخَصْمِ النَّقْدِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_072",
+      "arabic": "خَصْمٌ نَقْدِيٌّ",
+      "meaning_ar": "تَخْفِيضٌ يُمْنَحُ لِلْمُشْتَرِي مُقَابِلَ السَّدَادِ الْمُبَكِّرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَرْطُ السَّدَادِ"
+      ],
+      "examples_ar": [
+        "سَدَّدَ الْعَمِيلُ مُبَكِّرًا لِيَحْصُلَ عَلَى خَصْمٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَشْجِيعِ التَّحْصِيلِ السَّرِيعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_073",
+      "arabic": "ضَرِيبَةُ الْقِيمَةِ الْمُضَافَةِ",
+      "meaning_ar": "ضَرِيبَةٌ تُفْرَضُ عَلَى بَيْعِ سِلَعٍ وَخَدَمَاتٍ فِي مَرَاحِلَ مُتَعَدِّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِقْرَارُ الضَّرِيبَةِ"
+      ],
+      "examples_ar": [
+        "أَدْرَجَ التَّاجِرُ الضَّرِيبَةَ فِي الْفَاتُورَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ النِّسَبُ وَالْإِعْفَاءَاتُ بِحَسَبِ الْبَلَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_074",
+      "arabic": "ضَرِيبَةُ الدَّخْلِ",
+      "meaning_ar": "ضَرِيبَةٌ تُحْسَبُ عَلَى دَخْلِ شَخْصٍ أَوْ مُؤَسَّسَةٍ بِشُرُوطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِقْرَارُ الدَّخْلِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَتِ الشَّرِكَةُ إِقْرَارَهَا السَّنَوِيَّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْقَوَاعِدُ وَالشَّرَائِحُ بَيْنَ الدُّوَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_075",
+      "arabic": "وِعَاءٌ ضَرِيبِيٌّ",
+      "meaning_ar": "مَبْلَغٌ أَوْ قِيمَةٌ تَجْرِي عَلَيْهَا حِسَابَاتُ الضَّرِيبَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْوِعَاءِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُحَاسِبُ الْوِعَاءَ الضَّرِيبِيَّ."
+      ],
+      "usage_note_ar": "قَدْ يَخْتَلِفُ عَنِ الرِّبْحِ الْمُحَاسَبِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_076",
+      "arabic": "إِعْفَاءٌ ضَرِيبِيٌّ",
+      "meaning_ar": "اسْتِثْنَاءٌ قَانُونِيٌّ يُخَفِّفُ أَوْ يُلْغِي فَرْضَ ضَرِيبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شُرُوطُ الْإِعْفَاءِ"
+      ],
+      "examples_ar": [
+        "تَقَدَّمَتِ الْمَنْشَأَةُ بِطَلَبِ إِعْفَاءٍ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى تَحَقُّقِ الشُّرُوطِ الرَّسْمِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_077",
+      "arabic": "ائْتِمَانٌ ضَرِيبِيٌّ",
+      "meaning_ar": "مَبْلَغٌ يُسْمَحُ بِخَصْمِهِ مِنَ الضَّرِيبَةِ الْمُسْتَحَقَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الِائْتِمَانِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُحَاسِبُ الِائْتِمَانَ الضَّرِيبِيَّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْخَصْمِ مِنَ الدَّخْلِ الْخَاضِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_078",
+      "arabic": "اسْتِقْطَاعٌ ضَرِيبِيٌّ",
+      "meaning_ar": "حَجْزُ جُزْءٍ مِنْ دَفْعَةٍ مَالِيَّةٍ لِحِسَابِ الضَّرِيبَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِقْطَاعٌ مِنَ الْمَصْدَرِ"
+      ],
+      "examples_ar": [
+        "خَصَمَتِ الشَّرِكَةُ الضَّرِيبَةَ عِنْدَ الدَّفْعِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ قَوَاعِدَ مُحَدَّدَةً فِي كُلِّ بَلَدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_079",
+      "arabic": "رَسْمٌ جُمْرُكِيٌّ",
+      "meaning_ar": "مَبْلَغٌ تُحَصِّلُهُ السُّلْطَةُ عَلَى بَعْضِ الْبَضَائِعِ عِنْدَ عُبُورِ الْحُدُودِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الرَّسْمِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُسْتَوْرِدُ الرُّسُومَ الْجُمْرُكِيَّةَ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ بِحَسَبِ نَوْعِ الْبِضَاعَةِ وَالْمَنْشَأِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_080",
+      "arabic": "قِيمَةٌ جُمْرُكِيَّةٌ",
+      "meaning_ar": "قِيمَةٌ تُعْتَمَدُ أَسَاسًا لِحِسَابِ بَعْضِ رُسُومِ الِاسْتِيرَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُسْتَوْرِدُ فَاتُورَةً لِلْجُمَارِكِ."
+      ],
+      "usage_note_ar": "تَخْضَعُ لِطُرُقِ تَقْيِيمٍ مَعْتَمَدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_081",
+      "arabic": "عُمْلَةٌ أَجْنَبِيَّةٌ",
+      "meaning_ar": "نَقْدٌ رَسْمِيٌّ لِدَوْلَةٍ أُخْرَى يُسْتَعْمَلُ فِي التَّبَادُلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سِعْرُ صَرْفٍ"
+      ],
+      "examples_ar": [
+        "دَفَعَ التَّاجِرُ ثَمَنَ الْبِضَاعَةِ بِعُمْلَةٍ أَجْنَبِيَّةٍ."
+      ],
+      "usage_note_ar": "قَدْ تَتَغَيَّرُ قِيمَتُهَا مُقَابِلَ الْعُمْلَةِ الْمَحَلِّيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_082",
+      "arabic": "سِعْرُ الصَّرْفِ",
+      "meaning_ar": "قِيمَةُ عُمْلَةٍ مُعَبَّرٌ عَنْهَا بِوَحَدَاتِ عُمْلَةٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَغَيُّرُ السِّعْرِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُسَافِرُ سِعْرَ الصَّرْفِ بَيْنَ مَكْتَبَيْنِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ الأَسْعَارُ بِالسُّوقِ وَالسِّيَاسَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_083",
+      "arabic": "فَارِقُ سِعْرِ الصَّرْفِ",
+      "meaning_ar": "الْمَسَافَةُ بَيْنَ سِعْرِ شِرَاءِ عُمْلَةٍ وَسِعْرِ بَيْعِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْفَارِقِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الْمُتَعَامِلُ فَارِقًا بَيْنَ السِّعْرَيْنِ."
+      ],
+      "usage_note_ar": "يُمَثِّلُ جُزْءًا مِنْ تَكْلِفَةِ الصَّرْفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_084",
+      "arabic": "تَضَخُّمٌ نَقْدِيٌّ",
+      "meaning_ar": "ارْتِفَاعٌ مُسْتَمِرٌّ فِي الْمُسْتَوَى الْعَامِّ لِأَسْعَارِ السِّلَعِ وَالْخَدَمَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ التَّضَخُّمِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتْ تَكَالِيفُ الْمَعِيشَةِ فِي الْمَدِينَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَسْبَابُهُ وَطُرُقُ قِيَاسِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_085",
+      "arabic": "انْكِمَاشٌ سِعْرِيٌّ",
+      "meaning_ar": "انْخِفَاضٌ مُسْتَمِرٌّ فِي الْمُسْتَوَى الْعَامِّ لِلْأَسْعَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُؤَشِّرُ الأَسْعَارِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ التَّقْرِيرُ انْخِفَاضًا عَامًّا فِي الْأَسْعَارِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ تَبَاطُؤِ مُعَدَّلِ التَّضَخُّمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_086",
+      "arabic": "مُؤَشِّرُ أَسْعَارِ الْمُسْتَهْلِكِ",
+      "meaning_ar": "مَقْيَاسٌ لِتَغَيُّرِ أَسْعَارِ سَلَّةٍ مِنَ السِّلَعِ وَالْخَدَمَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَشْرُ الْمُؤَشِّرِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ الْمُؤَشِّرَ بَيْنَ شَهْرَيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَوْزَانُ السَّلَّةِ بِحَسَبِ الْبَلَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_087",
+      "arabic": "قُوَّةٌ شِرَائِيَّةٌ",
+      "meaning_ar": "كَمِّيَّةُ السِّلَعِ وَالْخَدَمَاتِ الَّتِي يُمْكِنُ شِرَاؤُهَا بِمَبْلَغٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرَاجُعُ الْقُوَّةِ"
+      ],
+      "examples_ar": [
+        "تَأَثَّرَتْ قُوَّةُ الدَّخْلِ الشِّرَائِيَّةُ."
+      ],
+      "usage_note_ar": "تَنْخَفِضُ عَادَةً مَعَ ارْتِفَاعِ الأَسْعَارِ دُونَ زِيَادَةِ الدَّخْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_088",
+      "arabic": "فَائِضٌ مَالِيٌّ",
+      "meaning_ar": "مَبْلَغٌ يَزِيدُ فِيهِ الدَّخْلُ أَوِ الْمَوَارِدُ عَلَى النَّفَقَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَائِضُ الْمُوَازَنَةِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَتِ الْجِهَةُ فَائِضًا فِي الْعَامِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ مَعْنَاهُ بِحَسَبِ السِّيَاقِ الْمَالِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_089",
+      "arabic": "عَجْزٌ مَالِيٌّ",
+      "meaning_ar": "فَرْقٌ سَالِبٌ يَظْهَرُ عِنْدَمَا تَتَجَاوَزُ النَّفَقَاتُ الْمَوَارِدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَجْزُ الْمُوَازَنَةِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الْمُدِيرُ طُرُقَ تَقْلِيلِ الْعَجْزِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْخَسَارَةِ الْمُحَاسَبِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_090",
+      "arabic": "عَجْزُ الْمَوَازَنَةِ",
+      "meaning_ar": "زِيَادَةُ نَفَقَاتِ الْمُوَازَنَةِ عَلَى إِيرَادَاتِهَا فِي فَتْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَمْوِيلُ الْعَجْزِ"
+      ],
+      "examples_ar": [
+        "اعْتَمَدَتِ الْجِهَةُ خُطَّةً لِتَقْلِيلِ الْعَجْزِ."
+      ],
+      "usage_note_ar": "قَدْ يُمَوَّلُ بِالْقُرُوضِ أَوْ بِالِاحْتِيَاطِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_091",
+      "arabic": "دَيْنٌ سِيَادِيٌّ",
+      "meaning_ar": "الْتِزَامٌ مَالِيٌّ تُصْدِرُهُ أَوْ تَتَحَمَّلُهُ دَوْلَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ الدَّيْنِ"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الْوِزَارَةُ تَقْرِيرًا عَنِ الدَّيْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ آجَالُهُ وَعُمْلَاتُهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_092",
+      "arabic": "سَنَدٌ حُكُومِيٌّ",
+      "meaning_ar": "أَدَاةُ دَيْنٍ تُصْدِرُهَا الْحُكُومَةُ لِجَمْعِ التَّمْوِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِصْدَارُ السَّنَدَاتِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الْمُسْتَثْمِرُ سَنَدًا حُكُومِيًّا."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِمَوْعِدِ اسْتِحْقَاقٍ وَشُرُوطِ عَائِدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_093",
+      "arabic": "سَهْمٌ عَادِيٌّ",
+      "meaning_ar": "حِصَّةُ مِلْكِيَّةٍ فِي شَرِكَةٍ تَمْنَحُ صَاحِبَهَا حُقُوقًا مُعَيَّنَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدَاوُلُ الأَسْهُمِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الْمُسْتَثْمِرُ أَسْهُمًا فِي الشَّرِكَةِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ قِيمَتُهُ بِحَسَبِ السُّوقِ وَالأَدَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_094",
+      "arabic": "سَهْمٌ مُمتَازٌ",
+      "meaning_ar": "فِئَةُ أَسْهُمٍ تَمْنَحُ حُقُوقًا خَاصَّةً مُقَارَنَةً بِالسَّهْمِ الْعَادِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُقُوقُ السَّهْمِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الشَّرِكَةُ أَسْهُمًا مُمْتَازَةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ حُقُوقُهَا بِحَسَبِ شُرُوطِ الْإِصْدَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_095",
+      "arabic": "تَوْزِيعُ أَرْبَاحٍ",
+      "meaning_ar": "دَفْعُ جُزْءٍ مِنْ أَرْبَاحِ شَرِكَةٍ إِلَى أَصْحَابِ حِصَصِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَرَارُ التَّوْزِيعِ"
+      ],
+      "examples_ar": [
+        "أَقَرَّ الْمَجْلِسُ تَوْزِيعَ أَرْبَاحٍ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ نَقْدِيًّا أَوْ بِأَسْهُمٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_096",
+      "arabic": "عَائِدُ السَّنَدِ",
+      "meaning_ar": "مُعَدَّلُ الرِّبْحِ أَوِ الدَّخْلِ الْمُرْتَبِطِ بِامْتِلَاكِ أَدَاةِ دَيْنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْعَائِدِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُسْتَثْمِرُ عَوَائِدَ السَّنَدَاتِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالسِّعْرِ وَالْعُمْرِ الْمُتَبَقِّي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_097",
+      "arabic": "سِعْرُ الْإِصْدَارِ",
+      "meaning_ar": "الْمَبْلَغُ الَّذِي تُطْرَحُ بِهِ أَدَاةٌ مَالِيَّةٌ لِلْمُشْتَرِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ السِّعْرِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الشَّرِكَةُ سِعْرَ الْإِصْدَارِ."
+      ],
+      "usage_note_ar": "قَدْ يَخْتَلِفُ عَنْ سِعْرِ التَّدَاوُلِ لَاحِقًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_098",
+      "arabic": "سِعْرُ السُّوقِ",
+      "meaning_ar": "الْقِيمَةُ الَّتِي تَتِمُّ عِنْدَهَا مُبَادَلَةُ أَصْلٍ فِي السُّوقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاقَبَةُ السِّعْرِ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَ سِعْرُ السَّهْمِ خِلَالَ الْجَلْسَةِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْعَرْضِ وَالطَّلَبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_099",
+      "arabic": "قِيمَةٌ اسْمِيَّةٌ",
+      "meaning_ar": "مَبْلَغٌ مُحَدَّدٌ يُكْتَبُ عَلَى أَدَاةٍ مَالِيَّةٍ أَوْ يُقَرَّرُ لَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْقِيمَةُ الِاسْمِيَّةُ لِلسَّهْمِ"
+      ],
+      "examples_ar": [
+        "تَخْتَلِفُ الْقِيمَةُ الِاسْمِيَّةُ عَنْ سِعْرِ السُّوقِ."
+      ],
+      "usage_note_ar": "لَا تُمَثِّلُ دَائِمًا قِيمَةَ الْأَصْلِ الْفِعْلِيَّةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_100",
+      "arabic": "قِيمَةٌ سُوقِيَّةٌ",
+      "meaning_ar": "تَقْدِيرٌ لِقِيمَةِ أَصْلٍ أَوْ شَرِكَةٍ بِأَسْعَارِ التَّدَاوُلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيمَةُ الشَّرِكَةِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَتِ الْقِيمَةُ السُّوقِيَّةُ لِلشَّرِكَةِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ مَعَ حَرَكَةِ السُّوقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_101",
+      "arabic": "رَسْمَلَةٌ سُوقِيَّةٌ",
+      "meaning_ar": "الْقِيمَةُ الْإِجْمَالِيَّةُ لِأَسْهُمِ شَرِكَةٍ مُتَدَاوَلَةٍ فِي السُّوقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الرَّسْمَلَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَلِّلُ رَسْمَلَةَ شَرِكَتَيْنِ."
+      ],
+      "usage_note_ar": "تُحْسَبُ عَادَةً بِضَرْبِ السِّعْرِ فِي عَدَدِ الأَسْهُمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_102",
+      "arabic": "مُؤَشِّرُ سُوقٍ",
+      "meaning_ar": "مَقْيَاسٌ يُلَخِّصُ حَرَكَةَ مَجْمُوعَةٍ مِنَ الأَوْرَاقِ الْمَالِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صُعُودُ الْمُؤَشِّرِ"
+      ],
+      "examples_ar": [
+        "أَغْلَقَ مُؤَشِّرُ السُّوقِ عَلَى ارْتِفَاعٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ تَرْكِيبُهُ وَطَرِيقَةُ وَزْنِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_103",
+      "arabic": "مَحْفَظَةٌ اسْتِثْمَارِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ أُصُولٍ مَالِيَّةٍ يَحْتَفِظُ بِهَا مُسْتَثْمِرٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَنْوِيعُ الْمَحْفَظَةِ"
+      ],
+      "examples_ar": [
+        "وَزَّعَ الْمُسْتَثْمِرُ مَالَهُ بَيْنَ أُصُولٍ مُخْتَلِفَةٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ مِيزَانُ الْمَخَاطِرِ بِحَسَبِ التَّوْزِيعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_104",
+      "arabic": "تَنْوِيعُ الِاسْتِثْمَارَاتِ",
+      "meaning_ar": "تَوْزِيعُ الأَمْوَالِ عَلَى أُصُولٍ لَا تَتَحَرَّكُ بِالطَّرِيقَةِ نَفْسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّنْوِيعِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الْمُسْتَثْمِرُ أُصُولًا مِنْ قِطَاعَاتٍ مُخْتَلِفَةٍ."
+      ],
+      "usage_note_ar": "يُقَلِّلُ بَعْضَ أَنْوَاعِ الْمَخَاطِرِ وَلَا يُلْغِيهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_105",
+      "arabic": "تَقَلُّبُ السُّوقِ",
+      "meaning_ar": "حَجْمُ التَّغَيُّرِ فِي أَسْعَارِ الأُصُولِ خِلَالَ فَتْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ التَّقَلُّبِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ تَقَلُّبُ السُّوقِ بَعْدَ الْخَبَرِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مِقْيَاسًا لِبَعْضِ أَشْكَالِ الْمُخَاطَرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_106",
+      "arabic": "مُخَاطَرَةٌ سُوقِيَّةٌ",
+      "meaning_ar": "احْتِمَالُ الْخَسَارَةِ بِسَبَبِ تَغَيُّرِ الأَسْعَارِ أَوِ الْمُعَدَّلَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْمُخَاطَرَةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُحَلِّلُ مَخَاطِرَ الْمَحْفَظَةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْأَسْهُمِ وَالْعُمْلَاتِ وَالْفَوَائِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_107",
+      "arabic": "مُخَاطَرَةٌ ائْتِمَانِيَّةٌ",
+      "meaning_ar": "احْتِمَالُ أَلَّا يَفِيَ الطَّرَفُ الْمَدِينُ بِالْتِزَامِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْمَدِينِ"
+      ],
+      "examples_ar": [
+        "قَيَّمَ الْمَصْرِفُ مَخَاطَرَةَ الْقَرْضِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَقْدِيرَ الِاحْتِمَالِ وَالْخَسَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_108",
+      "arabic": "مُخَاطَرَةٌ تَشْغِيلِيَّةٌ",
+      "meaning_ar": "احْتِمَالُ ضَرَرٍ بِسَبَبِ خَلَلٍ فِي الْأَنْظِمَةِ أَوِ الْعَمَلِيَّاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ الْمُخَاطَرَةِ"
+      ],
+      "examples_ar": [
+        "حَسَّنَ الْمَصْرِفُ ضَوَابِطَ الْمُرَاجَعَةِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الأَخْطَاءَ الْبَشَرِيَّةَ وَالْأَعْطَالَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_109",
+      "arabic": "تَحَوُّطٌ مَالِيٌّ",
+      "meaning_ar": "اتِّخَاذُ إِجْرَاءٍ لِتَقْلِيلِ أَثَرِ تَغَيُّرٍ غَيْرِ مَرْغُوبٍ فِي السُّوقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِرَاتِيجِيَّةُ التَّحَوُّطِ"
+      ],
+      "examples_ar": [
+        "حَمَتِ الشَّرِكَةُ تَدَفُّقَاتِهَا مِنْ تَغَيُّرِ الْعُمْلَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْمِلُ هُوَ نَفْسُهُ تَكَالِيفَ وَمَخَاطِرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_110",
+      "arabic": "عَقْدٌ آجلٌ",
+      "meaning_ar": "اتِّفَاقٌ عَلَى بَيْعِ أَصْلٍ أَوْ شِرَائِهِ فِي تَارِيخٍ لَاحِقٍ بِسِعْرٍ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَارِيخُ التَّسْلِيمِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الطَّرَفَانِ عَقْدًا آجلًا لِلْعُمْلَةِ."
+      ],
+      "usage_note_ar": "قَدْ يُسْتَعْمَلُ لِلْتَحَوُّطِ أَوِ الْمُضَارَبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_111",
+      "arabic": "عَقْدٌ مُسْتَقْبَلِيٌّ",
+      "meaning_ar": "أَدَاةٌ مَالِيَّةٌ مُوَحَّدَةٌ لِتَبَادُلِ أَصْلٍ فِي وَقْتٍ لَاحِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدَاوُلُ الْعُقُودِ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَ سِعْرُ الْعَقْدِ الْمُسْتَقْبَلِيِّ."
+      ],
+      "usage_note_ar": "يُتَدَاوَلُ غَالِبًا وَفْقَ شُرُوطِ سُوقٍ مُنَظَّمَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_112",
+      "arabic": "عَقْدُ خِيَارٍ",
+      "meaning_ar": "أَدَاةٌ تَمْنَحُ صَاحِبَهَا حَقَّ الشِّرَاءِ أَوِ الْبَيْعِ دُونَ إِلْزَامٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَقُّ الْخِيَارِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الْمُسْتَثْمِرُ عَقْدَ خِيَارٍ."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ قِيمَتُهُ بِالسِّعْرِ وَالْمُدَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_113",
+      "arabic": "سِعْرُ التَّنْفِيذِ",
+      "meaning_ar": "السِّعْرُ الْمُحَدَّدُ مُقَدَّمًا فِي عَقْدِ خِيَارٍ لِشِرَاءِ أَصْلٍ أَوْ بَيْعِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ السِّعْرِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُتَعَامِلُ سِعْرَ التَّنْفِيذِ بِالسُّوقِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ سِعْرِ الأَصْلِ الْحَالِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_114",
+      "arabic": "عَلَاوَةُ الْخِيَارِ",
+      "meaning_ar": "مَبْلَغٌ يُدْفَعُ مُقَابِلَ امْتِلَاكِ حَقٍّ فِي عَقْدِ خِيَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَفْعُ الْعَلَاوَةِ"
+      ],
+      "examples_ar": [
+        "دَفَعَ الْمُشْتَرِي عَلَاوَةَ الْعَقْدِ."
+      ],
+      "usage_note_ar": "تُعَبِّرُ عَنْ تَكْلِفَةِ الْحَقِّ الِاخْتِيَارِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_115",
+      "arabic": "سُوقٌ أَوَّلِيَّةٌ",
+      "meaning_ar": "سُوقٌ تُطْرَحُ فِيهَا الأَوْرَاقُ الْمَالِيَّةُ لِلْمَرَّةِ الأُولَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الطَّرْحُ الأَوَّلِيُّ"
+      ],
+      "examples_ar": [
+        "جَمَعَتِ الشَّرِكَةُ رَأْسَ مَالٍ بِطَرْحٍ جَدِيدٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ السُّوقِ الثَّانَوِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_116",
+      "arabic": "سُوقٌ ثَانَوِيَّةٌ",
+      "meaning_ar": "سُوقٌ يُتَدَاوَلُ فِيهَا مَا سَبَقَ إِصْدَارُهُ مِنْ أَوْرَاقٍ مَالِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدَاوُلُ الأَسْهُمِ"
+      ],
+      "examples_ar": [
+        "بَاعَ الْمُسْتَثْمِرُ سَهْمَهُ فِي السُّوقِ."
+      ],
+      "usage_note_ar": "لَا يَحْصُلُ الْمُصْدِرُ عَادَةً عَلَى ثَمَنِ التَّدَاوُلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_117",
+      "arabic": "اِكْتِتَابٌ عَامٌّ",
+      "meaning_ar": "طَرْحُ أَوْرَاقٍ مَالِيَّةٍ لِشَرِيحَةٍ وَاسِعَةٍ مِنَ الْمُسْتَثْمِرِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَتْرَةُ الِاكْتِتَابِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الشَّرِكَةُ مَوْعِدَ الِاكْتِتَابِ."
+      ],
+      "usage_note_ar": "تَخْضَعُ شُرُوطُهُ لِرَقَابَةِ السُّوقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_118",
+      "arabic": "اِكْتِتَابٌ خَاصٌّ",
+      "meaning_ar": "تَوْزِيعُ أَوْرَاقٍ مَالِيَّةٍ عَلَى فِئَةٍ مَحْدُودَةٍ مِنَ الْمُسْتَثْمِرِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شُرُوطُ الِاكْتِتَابِ"
+      ],
+      "examples_ar": [
+        "شَارَكَ صُنْدُوقٌ فِي اكْتِتَابٍ خَاصٍّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الطَّرْحِ الْعَامِّ فِي نِطَاقِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_119",
+      "arabic": "صُنْدُوقٌ اسْتِثْمَارِيٌّ",
+      "meaning_ar": "وِعَاءٌ يَجْمَعُ أَمْوَالَ مُسْتَثْمِرِينَ لِإِدَارَتِهَا وَفْقَ سِيَاسَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ الصُّنْدُوقِ"
+      ],
+      "examples_ar": [
+        "وَزَّعَ الصُّنْدُوقُ أَمْوَالَهُ عَلَى أُصُولٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الرُّسُومُ وَالْمَخَاطِرُ بَيْنَ الصَّنَادِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_120",
+      "arabic": "صُنْدُوقٌ مُتَدَاوَلٌ",
+      "meaning_ar": "صُنْدُوقٌ تُبَاعُ وَحَدَاتُهُ وَتُشْتَرَى فِي سُوقٍ مَالِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَحْدَةُ الصُّنْدُوقِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَى الْمُسْتَثْمِرُ وَحَدَاتٍ مُتَدَاوَلَةً."
+      ],
+      "usage_note_ar": "قَدْ يَتْبَعُ مُؤَشِّرًا أَوْ سِيَاسَةً مُعَيَّنَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_121",
+      "arabic": "صَافِي قِيمَةِ الأُصُولِ",
+      "meaning_ar": "الْفَرْقُ بَيْنَ قِيمَةِ أُصُولِ صُنْدُوقٍ وَالْتِزَامَاتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ الصُّنْدُوقُ صَافِيَ قِيمَةِ أُصُولِهِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِتَقْيِيمِ وَحَدَاتِ الصُّنْدُوقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_122",
+      "arabic": "رُسُومُ إِدَارَةٍ",
+      "meaning_ar": "مَبَالِغُ تُحَصَّلُ مُقَابِلَ تَنْظِيمِ اسْتِثْمَارٍ أَوْ خِدْمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِسْبَةُ الرُّسُومِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُسْتَثْمِرُ رُسُومَ صُنْدُوقَيْنِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي صَافِي الْعَائِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_123",
+      "arabic": "عُمْلَةٌ رَقْمِيَّةٌ",
+      "meaning_ar": "وَحْدَةُ قِيمَةٍ تُمَثَّلُ إِلِكْتُرُونِيًّا وَتُسْتَعْمَلُ فِي تَبَادُلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِظَامُ الْعُمْلَةِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الطَّالِبُ تَطَوُّرَ الْعُمْلَاتِ الرَّقْمِيَّةِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ بَيْنَ أَنْظِمَةٍ مَرْكَزِيَّةٍ وَغَيْرِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_124",
+      "arabic": "أَصْلٌ رَقْمِيٌّ",
+      "meaning_ar": "مَوْرِدٌ أَوْ حَقٌّ تُمَثَّلُ مِلْكِيَّتُهُ أَوْ قِيمَتُهُ رَقْمِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الأَصْلِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْمُحَاسِبُ مَعْلُومَاتٍ عَنِ الأَصْلِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ تَصْنِيفَاتُهُ الْقَانُونِيَّةُ وَالْمُحَاسَبِيَّةُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_125",
+      "arabic": "دَفْتَرُ أُسْتَاذٍ",
+      "meaning_ar": "سِجِلٌّ مَرْكَزِيٌّ يُنَظِّمُ الْحِسَابَاتِ وَحَرَكَةَ الْقُيُودِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الدَّفْتَرِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْمُحَاسِبُ الْقَيْدَ إِلَى دَفْتَرِ الأُسْتَاذِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَجْمِيعِ حَرَكَةِ الْحِسَابَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_126",
+      "arabic": "قَيْدٌ مُحَاسَبِيٌّ",
+      "meaning_ar": "تَسْجِيلٌ لِعَمَلِيَّةٍ مَالِيَّةٍ فِي حِسَابَاتِ الْمُؤَسَّسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِثْبَاتُ الْقَيْدِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُحَاسِبُ قَيْدَ شِرَاءِ الْبِضَاعَةِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ جَانِبًا مَدِينًا وَآخَرَ دَائِنًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_127",
+      "arabic": "قَيْدُ تَسْوِيَةٍ",
+      "meaning_ar": "تَسْجِيلٌ يُصَحِّحُ أَوْ يُكْمِلُ أَرْصِدَةَ حِسَابَاتٍ فِي نِهَايَةِ فَتْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَيْدُ الْإِقْفَالِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْمُحَاسِبُ تَسْوِيَةً لِلْمَصْرُوفِ."
+      ],
+      "usage_note_ar": "يُحَافِظُ عَلَى صِحَّةِ تَوْزِيعِ الْإِيرَادَاتِ وَالْمَصَارِيفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_128",
+      "arabic": "قَيْدُ إِقْفَالٍ",
+      "meaning_ar": "تَسْجِيلٌ يُسْتَعْمَلُ لِإِغْلَاقِ حِسَابَاتٍ مُؤَقَّتَةٍ فِي نِهَايَةِ الْفَتْرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِقْفَالُ الْحِسَابَاتِ"
+      ],
+      "examples_ar": [
+        "أَقْفَلَ الْمُحَاسِبُ حِسَابَ الْإِيرَادَاتِ."
+      ],
+      "usage_note_ar": "يُمَهِّدُ لِبَدْءِ فَتْرَةٍ مَالِيَّةٍ جَدِيدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_129",
+      "arabic": "مِيزَانُ مُرَاجَعَةٍ",
+      "meaning_ar": "قَائِمَةٌ تَضُمُّ أَرْصِدَةَ الْحِسَابَاتِ لِلْتَّحَقُّقِ مِنْ تَوَازُنِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادُ الْمِيزَانِ"
+      ],
+      "examples_ar": [
+        "تَطَابَقَ مَجْمُوعُ الْمَدِينِ وَالدَّائِنِ."
+      ],
+      "usage_note_ar": "لَا يَكْشِفُ كُلَّ أَخْطَاءِ التَّسْجِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_130",
+      "arabic": "مُطَابَقَةٌ مَصْرِفِيَّةٌ",
+      "meaning_ar": "مُقَارَنَةُ سِجِلَّاتِ النُّقُودِ بِكَشْفِ الْحِسَابِ الْمَصْرِفِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْوِيَةُ الْحِسَابِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْمُحَاسِبُ فَرْقًا بَيْنَ السِّجِلَّيْنِ."
+      ],
+      "usage_note_ar": "تَكْشِفُ شَيْكَاتٍ مُعَلَّقَةً وَرُسُومًا وَأَخْطَاءً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_131",
+      "arabic": "رَقَابَةٌ دَاخِلِيَّةٌ",
+      "meaning_ar": "إِجْرَاءَاتٌ لِحِمَايَةِ الْمَوَارِدِ وَصِحَّةِ السِّجِلَّاتِ وَالِالْتِزَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الرَّقَابَةِ"
+      ],
+      "examples_ar": [
+        "فَصَلَتِ الشَّرِكَةُ بَيْنَ مَنِ يَطْلُبُ وَمَنْ يُوَافِقُ."
+      ],
+      "usage_note_ar": "تُقَلِّلُ الْمَخَاطِرَ وَلَا تُلْغِيهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_132",
+      "arabic": "فَصْلُ الْمَهَامِّ",
+      "meaning_ar": "تَوْزِيعُ مَسْؤُولِيَّاتِ الْعَمَلِ بِحَيْثُ لَا يَحْتَكِرُ شَخْصٌ كُلَّ خُطُوَاتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الصَّلَاحِيَّاتِ"
+      ],
+      "examples_ar": [
+        "فَصَلَتِ الْإِدَارَةُ بَيْنَ الصَّرْفِ وَالِاعْتِمَادِ."
+      ],
+      "usage_note_ar": "يُسَاهِمُ فِي مَنْعِ الْأَخْطَاءِ وَالِاحْتِيَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_133",
+      "arabic": "تَدْقِيقٌ دَاخِلِيٌّ",
+      "meaning_ar": "مُرَاجَعَةٌ مُسْتَقِلَّةٌ نِسْبِيًّا لِلْإِجْرَاءَاتِ وَالْمَخَاطِرِ دَاخِلَ الْمُؤَسَّسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّدْقِيقِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُدَقِّقُ سِجِلَّاتِ الْمُشْتَرَيَاتِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ إِعْدَادِ الْحِسَابَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_134",
+      "arabic": "تَدْقِيقٌ خَارِجِيٌّ",
+      "meaning_ar": "فَحْصٌ يَجْرِيهِ طَرَفٌ مُسْتَقِلٌّ لِلْقَوَائِمِ أَوِ الْإِجْرَاءَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْرِيرُ الْمُدَقِّقِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُدَقِّقُ الْخَارِجِيُّ الْقَوَائِمَ الْمَالِيَّةَ."
+      ],
+      "usage_note_ar": "يُقَدِّمُ رَأْيًا وَفْقَ مَعَايِيرَ مِهْنِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_135",
+      "arabic": "رَأْيُ الْمُدَقِّقِ",
+      "meaning_ar": "اسْتِنْتَاجٌ مِهْنِيٌّ عَنْ مَدَى عَدَالَةِ عَرْضِ الْقَوَائِمِ الْمَالِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْرِيرُ الرَّأْيِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَ الْمُدَقِّقُ رَأْيًا بِشَأْنِ الْقَوَائِمِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ صِيَغُهُ حَسَبَ النَّتَائِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_136",
+      "arabic": "رَأْيٌ مُتَحَفِّظٌ",
+      "meaning_ar": "رَأْيُ تَدْقِيقٍ يُبَيِّنُ وُجُودَ اسْتِثْنَاءٍ مُهِمٍّ غَيْرِ شَامِلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِصْدَارُ رَأْيٍ"
+      ],
+      "examples_ar": [
+        "أَشَارَ الْمُدَقِّقُ إِلَى قَيْدٍ لَمْ يَتَحَقَّقْ مِنْهُ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي رَفْضَ الْقَوَائِمِ كُلِّهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_137",
+      "arabic": "رَأْيٌ سَلْبِيٌّ",
+      "meaning_ar": "رَأْيٌ يُبَيِّنُ أَنَّ الْقَوَائِمَ تَحْتَوِي عَلَى أَخْطَاءٍ جَوْهَرِيَّةٍ وَاسِعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِصْدَارُ رَأْيٍ سَلْبِيٍّ"
+      ],
+      "examples_ar": [
+        "أَظْهَرَ التَّقْرِيرُ خَلَلًا جَوْهَرِيًّا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الامْتِنَاعِ عَنْ إِبْدَاءِ الرَّأْيِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_138",
+      "arabic": "امْتِنَاعٌ عَنْ إِبْدَاءِ الرَّأْيِ",
+      "meaning_ar": "حَالَةٌ لَا يَقْدِرُ فِيهَا الْمُدَقِّقُ عَلَى تَكْوِينِ رَأْيٍ كَافٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِطَاقُ التَّدْقِيقِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ الْمُدَقِّقُ امْتِنَاعَهُ عَنِ الرَّأْيِ."
+      ],
+      "usage_note_ar": "قَدْ يَنْتُجُ عَنْ قُيُودٍ شَدِيدَةٍ عَلَى الْأَدِلَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_139",
+      "arabic": "أَهَمِّيَّةٌ نِسْبِيَّةٌ",
+      "meaning_ar": "حَدٌّ لِأَثَرِ مَعْلُومَةٍ قَدْ يُغَيِّرُ قَرَارَ مُسْتَخْدِمِ التَّقْرِيرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ الأَهَمِّيَّةِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُدَقِّقُ مُسْتَوَى الأَهَمِّيَّةِ النِّسْبِيَّةِ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ عَلَى الْحَجْمِ وَالطَّبِيعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_140",
+      "arabic": "خَطَأٌ جَوْهَرِيٌّ",
+      "meaning_ar": "تَحْرِيفٌ فِي الْمَعْلُومَاتِ الْمَالِيَّةِ قَدْ يُؤَثِّرُ فِي الْقَرَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اكْتِشَافُ الْخَطَإِ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الْمُدَقِّقُ تَصْحِيحَ الْخَطَإِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ جَوْهَرِيَّتُهُ بِحَسَبِ السِّيَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_141",
+      "arabic": "تَلَاعُبٌ مُحَاسَبِيٌّ",
+      "meaning_ar": "تَغْيِيرٌ مُتَعَمَّدٌ فِي السِّجِلَّاتِ لِإِظْهَارِ صُورَةٍ مُضَلِّلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كَشْفُ التَّلَاعُبِ"
+      ],
+      "examples_ar": [
+        "فَحَصَتِ اللَّجْنَةُ قُيُودًا غَيْرَ مُعْتَادَةٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْخَطَإِ غَيْرِ الْمَقْصُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_142",
+      "arabic": "اعْتِرَافٌ بِالْإِيرَادِ",
+      "meaning_ar": "إِثْبَاتُ الدَّخْلِ فِي السِّجِلَّاتِ عِنْدَ تَحَقُّقِ شُرُوطٍ مَعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْقِيتُ الِاعْتِرَافِ"
+      ],
+      "examples_ar": [
+        "أَثْبَتَتِ الشَّرِكَةُ إِيرَادَ الْخِدْمَةِ بَعْدَ أَدَائِهَا."
+      ],
+      "usage_note_ar": "قَدْ يَخْتَلِفُ عَنْ وَقْتِ اسْتِلَامِ النُّقُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_143",
+      "arabic": "أَسَاسُ الِاسْتِحْقَاقِ",
+      "meaning_ar": "طَرِيقَةٌ تُثْبَتُ فِيهَا الْإِيرَادَاتُ وَالْمَصْرُوفَاتُ عِنْدَ حُدُوثِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُحَاسَبَةُ الِاسْتِحْقَاقِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُحَاسِبُ فَاتُورَةً لَمْ تُدْفَعْ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ أَسَاسِ النَّقْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_144",
+      "arabic": "أَسَاسُ النَّقْدِ",
+      "meaning_ar": "طَرِيقَةٌ تُسَجِّلُ الْإِيرَادَ وَالْمَصْرُوفَ عِنْدَ حَرَكَةِ النُّقُودِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُحَاسَبَةٌ نَقْدِيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَثْبَتَ الْمُحَاسِبُ الدَّخْلَ عِنْدَ قَبْضِهِ."
+      ],
+      "usage_note_ar": "لَا يُظْهِرُ كُلَّ الْمُسْتَحَقَّاتِ غَيْرِ الْمَدْفُوعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_145",
+      "arabic": "مَصْرُوفٌ مُسْتَحَقٌّ",
+      "meaning_ar": "نَفَقَةٌ تَحَقَّقَتْ وَلَمْ يُسَدَّدْ مَبْلَغُهَا بَعْدُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الِاسْتِحْقَاقِ"
+      ],
+      "examples_ar": [
+        "أَثْبَتَتِ الشَّرِكَةُ رَاتِبًا مُسْتَحَقًّا."
+      ],
+      "usage_note_ar": "يُثْبَتُ فِي الْفَتْرَةِ الَّتِي نَشَأَ فِيهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_146",
+      "arabic": "إِيرَادٌ مُقَدَّمٌ",
+      "meaning_ar": "مَبْلَغٌ تَلَقَّتْهُ الْمُؤَسَّسَةُ قَبْلَ تَنْفِيذِ الْخِدْمَةِ الْمُقَابِلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَفْعَةٌ مُقَدَّمَةٌ"
+      ],
+      "examples_ar": [
+        "اسْتَلَمَ الْمُقَاوِلُ مَبْلَغًا قَبْلَ الْعَمَلِ."
+      ],
+      "usage_note_ar": "يُصَنَّفُ الْمَبْلَغُ الْمُتَلَقَّى الْمُسْتَحَقُّ لِلْغَيْرِ كَالْتِزَامٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_147",
+      "arabic": "مَصْرُوفٌ مُقَدَّمٌ",
+      "meaning_ar": "مَبْلَغٌ دُفِعَ مُسْبَقًا مُقَابِلَ مَنْفَعَةٍ سَتُسْتَهْلَكُ لَاحِقًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِيجَارٌ مُقَدَّمٌ"
+      ],
+      "examples_ar": [
+        "دَفَعَتِ الشَّرِكَةُ إِيجَارَ ثَلَاثَةِ أَشْهُرٍ."
+      ],
+      "usage_note_ar": "يُعَالَجُ مُحَاسَبِيًّا عَلَى فَتَرَاتِ الِاسْتِفَادَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_148",
+      "arabic": "مُخَصَّصٌ مُحَاسَبِيٌّ",
+      "meaning_ar": "الْتِزَامٌ مُقَدَّرٌ تُثْبِتُهُ الْمُؤَسَّسَةُ لِمَصْرُوفٍ غَيْرِ مُؤَكَّدِ الْمَبْلَغِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيرُ الْمُخَصَّصِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُحَاسِبُ مُخَصَّصَ الضَّمَانِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى أُسُسِ تَقْدِيرٍ مَعْقُولَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_149",
+      "arabic": "الْتِزَامٌ مُحْتَمَلٌ",
+      "meaning_ar": "وَاجِبٌ مَالِيٌّ غَيْرُ مُؤَكَّدٍ يَعْتَمِدُ عَلَى حَدَثٍ مُسْتَقْبَلِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْإِفْصَاحُ عَنِ الِالْتِزَامِ"
+      ],
+      "examples_ar": [
+        "أَشَارَ التَّقْرِيرُ إِلَى نِزَاعٍ قَضَائِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ يُفْصَحُ عَنْهُ دُونَ إِثْبَاتِهِ كَدَيْنٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_150",
+      "arabic": "أَصْلٌ مُحْتَمَلٌ",
+      "meaning_ar": "مَنْفَعَةٌ مَالِيَّةٌ مُمْكِنَةٌ تَعْتَمِدُ عَلَى حَدَثٍ غَيْرِ مَحْسُومٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْأَصْلِ"
+      ],
+      "examples_ar": [
+        "انْتَظَرَتِ الشَّرِكَةُ نَتِيجَةَ التَّقَاضِي."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ الِاعْتِرَافُ بِهِ عَنْ مَوَارِدَ مُؤَكَّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_151",
+      "arabic": "إِفْصَاحٌ مَالِيٌّ",
+      "meaning_ar": "تَقْدِيمُ مَعْلُومَاتٍ لِمُسْتَخْدِمِي الْقَوَائِمِ عَنْ الْمَرْكَزِ وَالأَدَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُلَاحَظَاتُ الْقَوَائِمِ"
+      ],
+      "examples_ar": [
+        "أَضَافَتِ الشَّرِكَةُ إِفْصَاحًا عَنِ الْمَخَاطِرِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ الأَرْقَامِ وَسِيَاقِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_152",
+      "arabic": "مُرَاجَعَةٌ مَحْدُودَةٌ",
+      "meaning_ar": "إِجْرَاءُ فَحْصٍ مَالِيٍّ بِضَمَانٍ أَقَلَّ مِنَ التَّدْقِيقِ الْكَامِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْرِيرُ الْمُرَاجَعَةِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْمُحَاسِبُ تَقْرِيرَ الْمُرَاجَعَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ التَّدْقِيقِ فِي نِطَاقِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_153",
+      "arabic": "مُطَابَقَةُ الْأَرْصِدَةِ",
+      "meaning_ar": "مُقَارَنَةُ أَرْقَامِ حِسَابَيْنِ أَوْ سِجِلَّيْنِ لِكَشْفِ الْفُرُوقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِجْرَاءُ الْمُطَابَقَةِ"
+      ],
+      "examples_ar": [
+        "طَابَقَ الْمُحَاسِبُ حِسَابَ الْعَمِيلِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى اكْتِشَافِ الْقُيُودِ النَّاقِصَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_154",
+      "arabic": "دَوْرَةٌ مُحَاسَبِيَّةٌ",
+      "meaning_ar": "تَسَلْسُلُ تَسْجِيلِ الْعَمَلِيَّاتِ وَتَرْحِيلِهَا وَإِعْدَادِ الْقَوَائِمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ الدَّوْرَةِ"
+      ],
+      "examples_ar": [
+        "أَكْمَلَ الْفَرِيقُ دَوْرَةَ الْحِسَابَاتِ."
+      ],
+      "usage_note_ar": "تَنْتَهِي عَادَةً بِالْإِقْفَالِ وَالتَّقَارِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_155",
+      "arabic": "مَرْكَزُ تَكْلِفَةٍ",
+      "meaning_ar": "وَحْدَةٌ تَنْظِيمِيَّةٌ تُتَابَعُ نَفَقَاتُهَا لِأَغْرَاضِ الرَّقَابَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْمَرْكَزِ"
+      ],
+      "examples_ar": [
+        "خَصَّصَتِ الشَّرِكَةُ تَكَالِيفَ لِقِسْمِ الصِّيَانَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مَرْكَزِ الرِّبْحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_156",
+      "arabic": "مَرْكَزُ رِبْحٍ",
+      "meaning_ar": "وَحْدَةٌ يُقَاسُ أَدَاؤُهَا بِإِيرَادَاتِهَا وَتَكَالِيفِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَدَاءُ الْمَرْكَزِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدِيرُ رِبْحِيَّةَ الْفُرُوعِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَوْزِيعِ الْمَسْؤُولِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_157",
+      "arabic": "مَرْكَزُ اسْتِثْمَارٍ",
+      "meaning_ar": "وَحْدَةٌ تُقَيَّمُ بِالأَرْبَاحِ وَالْمَوَارِدِ الْمُسْتَخْدَمَةِ لِتَحْقِيقِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الْمَرْكَزِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُدِيرُ عَائِدَ أُصُولِ الْفَرْعِ."
+      ],
+      "usage_note_ar": "تَتَحَمَّلُ مَسْؤُولِيَّةَ بَعْضِ قَرَارَاتِ رَأْسِ الْمَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_158",
+      "arabic": "تَسْعِيرٌ دَاخِلِيٌّ",
+      "meaning_ar": "تَحْدِيدُ قِيمَةِ مَا تَتَبَادَلُهُ أَقْسَامُ مُؤَسَّسَةٍ مِنْ خَدَمَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سِعْرُ التَّحْوِيلِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَتِ الشَّرِكَةُ سِعْرًا لِمَوَادِّ الْفَرْعِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ ضَوَابِطَ لِلْعَدَالَةِ وَالرَّقَابَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_159",
+      "arabic": "مِيزَانِيَّةٌ مُجَمَّعَةٌ",
+      "meaning_ar": "قَوَائِمُ تُظْهِرُ الشَّرِكَةَ الأُمَّ وَتَوَابِعَهَا كَوَحْدَةٍ وَاحِدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادُ الْقَوَائِمِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْمُحَاسِبُ نَتَائِجَ الْفُرُوعِ."
+      ],
+      "usage_note_ar": "تُسْتَبْعَدُ فِيهَا بَعْضُ الْمُعَامَلَاتِ الدَّاخِلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_160",
+      "arabic": "شَرِكَةٌ تَابِعَةٌ",
+      "meaning_ar": "مُؤَسَّسَةٌ تَقَعُ تَحْتَ سَيْطَرَةِ شَرِكَةٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِلْكِيَّةُ الشَّرِكَةِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الشَّرِكَةُ الأُمُّ عَنْ تَابِعَةٍ جَدِيدَةٍ."
+      ],
+      "usage_note_ar": "قَدْ يَتَحَقَّقُ التَّحَكُّمُ بِطُرُقٍ مُخْتَلِفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_161",
+      "arabic": "شَرِكَةٌ زَمِيلَةٌ",
+      "meaning_ar": "مُؤَسَّسَةٌ يَكُونُ لِلْمُسْتَثْمِرِ تَأْثِيرٌ مُهِمٌّ فِيهَا دُونَ سَيْطَرَةٍ كَامِلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِصَّةٌ فِي شَرِكَةٍ"
+      ],
+      "examples_ar": [
+        "اسْتَثْمَرَتِ الْمَجْمُوعَةُ فِي شَرِكَةٍ زَمِيلَةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مُعَالَجَتُهَا عَنِ الشَّرِكَةِ التَّابِعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_162",
+      "arabic": "شَرِكَةٌ أُمٌّ",
+      "meaning_ar": "مُؤَسَّسَةٌ تُسَيْطِرُ عَلَى شَرِكَةٍ أَوْ شَرِكَاتٍ تَابِعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ الْمَجْمُوعَةِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّتِ الشَّرِكَةُ الأُمُّ قَوَائِمَ مُجَمَّعَةً."
+      ],
+      "usage_note_ar": "قَدْ تُشْرِفُ عَلَى تَوَجُّهِ الْمَجْمُوعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_163",
+      "arabic": "حِصَّةُ أَقَلِّيَّةٍ",
+      "meaning_ar": "مِلْكِيَّةٌ لِمُسْتَثْمِرِينَ لَا يَسْيْطِرُونَ عَلَى الشَّرِكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُقُوقُ الأَقَلِّيَّةِ"
+      ],
+      "examples_ar": [
+        "أَظْهَرَ التَّقْرِيرُ نَصِيبَ الْمُسَاهِمِينَ."
+      ],
+      "usage_note_ar": "يُسَمَّى أَيْضًا حِصَّةً غَيْرَ مُسَيْطِرَةٍ فِي السِّيَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_164",
+      "arabic": "شُهْرَةٌ مُحَاسَبِيَّةٌ",
+      "meaning_ar": "قِيمَةٌ تَنْشَأُ عِنْدَ الِاسْتِحْوَاذِ بِسَبَبِ مَنَافِعَ غَيْرِ مُنْفَصِلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْيِيمُ الشُّهْرَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُدَقِّقُ قِيمَةَ الشُّهْرَةِ."
+      ],
+      "usage_note_ar": "تَخْضَعُ لِمُعَالَجَةٍ مُحَاسَبِيَّةٍ خَاصَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_165",
+      "arabic": "انْدِمَاجٌ مَالِيٌّ",
+      "meaning_ar": "تَوَحُّدُ مُؤَسَّسَتَيْنِ أَوْ أَكْثَرَ فِي كِيَانٍ أَوْ تَنْظِيمٍ وَاحِدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ الِانْدِمَاجِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الشَّرِكَتَانِ عَنْ خُطَّةِ انْدِمَاجٍ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَقْيِيمَ الأُصُولِ وَالْعُقُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_166",
+      "arabic": "اسْتِحْوَاذٌ شَرِكِيٌّ",
+      "meaning_ar": "حُصُولُ مُؤَسَّسَةٍ عَلَى سَيْطَرَةٍ فِي شَرِكَةٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صَفْقَةُ الِاسْتِحْوَاذِ"
+      ],
+      "examples_ar": [
+        "اشْتَرَتِ الْمَجْمُوعَةُ أَغْلَبِيَّةَ الأَسْهُمِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الِانْدِمَاجِ فِي الْهَيْكَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_167",
+      "arabic": "تَقْيِيمُ الشَّرِكَاتِ",
+      "meaning_ar": "تَقْدِيرُ الْقِيمَةِ الْمَالِيَّةِ لِمُؤَسَّسَةٍ بِطُرُقٍ حِسَابِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْهَجُ التَّقْيِيمِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْمُحَلِّلُ تَدَفُّقَاتٍ نَقْدِيَّةً مُتَوَقَّعَةً."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ النَّتِيجَةُ بِحَسَبِ الِافْتِرَاضَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_168",
+      "arabic": "الْقِيمَةُ الْحَالِيَّةُ",
+      "meaning_ar": "قِيمَةُ مَبْلَغٍ مُسْتَقْبَلِيٍّ بَعْدَ خَصْمِهِ إِلَى الْيَوْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "احْتِسَابُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُحَلِّلُ قِيمَةَ الدُّفْعَاتِ الْمُسْتَقْبَلِيَّةِ."
+      ],
+      "usage_note_ar": "تَعْتَمِدُ عَلَى مُعَدَّلِ الْخَصْمِ وَالزَّمَنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_169",
+      "arabic": "الْقِيمَةُ الْمُسْتَقْبَلِيَّةُ",
+      "meaning_ar": "مَبْلَغٌ يَتَكَوَّنُ بَعْدَ نُمُوِّ مَالٍ بِمُعَدَّلٍ وَفَتْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْقِيمَةِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الْمُحَلِّلُ الْمَبْلَغَ بَعْدَ خَمْسِ سَنَوَاتٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْقِيمَةِ الْحَالِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_170",
+      "arabic": "مُعَدَّلُ الْخَصْمِ",
+      "meaning_ar": "نِسْبَةٌ تُسْتَعْمَلُ لِتَحْوِيلِ التَّدَفُّقَاتِ الْمُسْتَقْبَلِيَّةِ إِلَى قِيمَتِهَا الْحَالِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الْمُعَدَّلِ"
+      ],
+      "examples_ar": [
+        "أَدَّى ارْتِفَاعُ الْمُعَدَّلِ إِلَى انْخِفَاضِ الْقِيمَةِ."
+      ],
+      "usage_note_ar": "يَعْكِسُ عَوَامِلَ الزَّمَنِ وَالْمُخَاطَرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_171",
+      "arabic": "صَافِي الْقِيمَةِ الْحَالِيَّةِ",
+      "meaning_ar": "الْفَرْقُ بَيْنَ قِيمَةِ التَّدَفُّقَاتِ الْمَخْصُومَةِ وَالتَّكْلِفَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الصَّافِي"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدِيرُ صَافِي قِيمَةِ مَشْرُوعَيْنِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي اتِّخَاذِ قَرَارَاتِ الِاسْتِثْمَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_172",
+      "arabic": "مُعَدَّلُ الْعَائِدِ الدَّاخِلِيِّ",
+      "meaning_ar": "مُعَدَّلُ خَصْمٍ يَجْعَلُ صَافِي الْقِيمَةِ الْحَالِيَّةِ مُسَاوِيًا لِلصِّفْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْعَائِدِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَلِّلُ الْمُعَدَّلَ بِتَكْلِفَةِ الْمَالِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْدُثُ صُعُوبَاتٌ فِي بَعْضِ أَنْماطِ التَّدَفُّقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_173",
+      "arabic": "فَتْرَةُ الِاسْتِرْدَادِ",
+      "meaning_ar": "الْمُدَّةُ الَّتِي يَحْتَاجُهَا مَشْرُوعٌ لِاسْتِعَادَةِ تَكْلِفَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الِاسْتِرْدَادِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الْفَرِيقُ فَتْرَةَ اسْتِرْدَادِ الْآلَةِ."
+      ],
+      "usage_note_ar": "قَدْ لَا تُظْهِرُ تَدَفُّقَاتٍ تَحْدُثُ بَعْدَ الِاسْتِرْدَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_174",
+      "arabic": "مُعَدَّلُ النُّمُوِّ الْمُرَكَّبِ",
+      "meaning_ar": "مُعَدَّلٌ مُتَوَسِّطٌ يَفْتَرِضُ نُمُوًّا مُتَرَاكِمًا عَبْرَ الْفَتَرَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ النُّمُوِّ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُحَلِّلُ نُمُوَّ الْمَبِيعَاتِ عَلَى مَدَى سَنَوَاتٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمُتَوَسِّطِ الْحِسَابِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_175",
+      "arabic": "فَائِدَةٌ بَسِيطَةٌ",
+      "meaning_ar": "فَائِدَةٌ تُحْسَبُ عَلَى رَأْسِ الْمَالِ الأَصْلِيِّ دُونَ تَرَاكُمِ الْفَوَائِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْفَائِدَةِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُعَلِّمُ الْفَائِدَةَ الْبَسِيطَةَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الْفَائِدَةِ الْمُرَكَّبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_176",
+      "arabic": "فَائِدَةٌ مُرَكَّبَةٌ",
+      "meaning_ar": "فَائِدَةٌ تُحْسَبُ عَلَى الأَصْلِ وَمَا تَرَاكَمَ مِنْ فَوَائِدَ سَابِقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرَاكُمُ الْفَائِدَةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الطَّالِبُ قِيمَةَ مَبْلَغٍ بَعْدَ سَنَوَاتٍ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ النُّمُوُّ عَلَى تَكْرَارِ الرَّسْمَلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_177",
+      "arabic": "مُعَدَّلٌ اسْمِيٌّ",
+      "meaning_ar": "نِسْبَةٌ مَالِيَّةٌ مُعْلَنَةٌ قَبْلَ بَعْضِ تَعْدِيلَاتِ التَّضَخُّمِ أَوِ التَّرَاكُمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّلُ الْعَائِدِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ الْمُعَدَّلَ الِاسْمِيَّ بِالْفِعْلِيِّ."
+      ],
+      "usage_note_ar": "يَجِبُ تَحْدِيدُ السِّيَاقِ عِنْدَ اسْتِعْمَالِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_178",
+      "arabic": "مُعَدَّلٌ حَقِيقِيٌّ",
+      "meaning_ar": "نِسْبَةٌ تُعَبِّرُ عَنِ النُّمُوِّ بَعْدَ أَخْذِ تَغَيُّرِ الأَسْعَارِ فِي الْحُسْبَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْعَائِدُ الْحَقِيقِيُّ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ تَغَيُّرَ الْقُوَّةِ الشِّرَائِيَّةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْعَائِدِ الِاسْمِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_179",
+      "arabic": "مُعَدَّلٌ فَعَّالٌ",
+      "meaning_ar": "نِسْبَةٌ تَأْخُذُ فِي الْحِسَابِ أَثَرَ تَكْرَارِ احْتِسَابِ الْفَائِدَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْمُعَدَّلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَلِّلُ مُعَدَّلَيْنِ فَعَّالَيْنِ."
+      ],
+      "usage_note_ar": "تَتَوَقَّفُ قِيمَتُهُ عَلَى فَتْرَاتِ التَّرَاكُمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_180",
+      "arabic": "أَجَلُ الِاسْتِحْقَاقِ",
+      "meaning_ar": "التَّارِيخُ الَّذِي يَجِبُ فِيهِ سَدَادُ الْمَبْلَغِ الْمُتَّفَقِ عَلَيْهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُلُولُ الأَجَلِ"
+      ],
+      "examples_ar": [
+        "اقْتَرَبَ أَجَلُ اسْتِحْقَاقِ السَّنَدِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَرَتَّبُ عَلَى تَجَاوُزِهِ تَأَخُّرٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_181",
+      "arabic": "مُدَّةٌ مَالِيَّةٌ",
+      "meaning_ar": "فَتْرَةٌ مُحَدَّدَةٌ يُقَاسُ فِيهَا أَدَاءُ الْمُؤَسَّسَةِ وَنَتَائِجُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِقْفَالُ الْفَتْرَةِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْمُحَاسِبُ قَوَائِمَ الرُّبْعِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ شَهْرِيَّةً أَوْ فَصْلِيَّةً أَوْ سَنَوِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_182",
+      "arabic": "مُوَازَنَةٌ نَقْدِيَّةٌ",
+      "meaning_ar": "خُطَّةٌ تَقْدِيرِيَّةٌ لِلدُّفُوعَاتِ وَالْمَقْبُوضَاتِ الْقَادِمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ النُّقُودِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْمُدِيرُ خُطَّةً لِلسُّيُولَةِ الشَّهْرِيَّةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَوَقُّعِ الْعَجْزِ الْمُؤَقَّتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_183",
+      "arabic": "سِجِلُّ الْأُصُولِ",
+      "meaning_ar": "قَائِمَةٌ مُفَصَّلَةٌ لِلْمُعَدَّاتِ وَالْمَوَارِدِ طَوِيلَةِ الِاسْتِعْمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيثُ السِّجِلِّ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُحَاسِبُ رَقْمَ كُلِّ آلَةٍ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى الْجَرْدِ وَحِسَابِ الْإِهْلَاكِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_184",
+      "arabic": "رَقْمُ الْفَاتُورَةِ",
+      "meaning_ar": "مُعَرِّفٌ مُتَمَيِّزٌ لِوَثِيقَةِ بَيْعٍ أَوْ شِرَاءٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسَلْسُلُ الْفَوَاتِيرِ"
+      ],
+      "examples_ar": [
+        "كُتِبَ رَقْمُ الْفَاتُورَةِ فِي أَعْلَى الْوَثِيقَةِ."
+      ],
+      "usage_note_ar": "يُسَهِّلُ التَّتَبُّعَ وَالْمُطَابَقَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_185",
+      "arabic": "إِشْعَارٌ دَائِنٌ",
+      "meaning_ar": "وَثِيقَةٌ تُخَفِّضُ مَبْلَغَ فَاتُورَةٍ سَابِقَةٍ أَوْ تُثْبِتُ مَبْلَغًا لِلْعَمِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِصْدَارُ الْإِشْعَارِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَ الْبَائِعُ إِشْعَارًا بِسَبَبِ إِرْجَاعِ سِلْعَةٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَصْحِيحِ بَعْضِ الْمُعَامَلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_186",
+      "arabic": "إِشْعَارٌ مَدِينٌ",
+      "meaning_ar": "وَثِيقَةٌ تُثْبِتُ تَعْدِيلًا بِزِيَادَةِ مَبْلَغٍ مُسْتَحَقٍّ أَوْ تَسْوِيَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْثِيقُ التَّعْدِيلِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَتِ الشَّرِكَةُ إِشْعَارًا مَدِينًا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ اسْتِعْمَالُهُ بِحَسَبِ نِظَامِ الْفَوْتَرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_187",
+      "arabic": "أَمْرُ شِرَاءٍ",
+      "meaning_ar": "وَثِيقَةٌ تَطْلُبُ فِيهَا مُؤَسَّسَةٌ سِلَعًا أَوْ خَدَمَاتٍ مِنْ مُوَرِّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اعْتِمَادُ الأَمْرِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمَشْتَرِي أَمْرَ شِرَاءٍ رَسْمِيًّا."
+      ],
+      "usage_note_ar": "يَحْمِلُ الْكَمِّيَّةَ وَالسِّعْرَ وَشُرُوطَ التَّوْرِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_188",
+      "arabic": "إِذْنُ اسْتِلَامٍ",
+      "meaning_ar": "وَثِيقَةٌ تُثْبِتُ وُصُولَ مَوَادَّ أَوْ سِلَعٍ إِلَى الْمُسْتَوْدَعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُطَابَقَةُ الِاسْتِلَامِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ أَمِينُ الْمُسْتَوْدَعِ إِذْنَ اسْتِلَامٍ."
+      ],
+      "usage_note_ar": "يُقَارَنُ بِأَمْرِ الشِّرَاءِ وَالْفَاتُورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_189",
+      "arabic": "مُطَابَقَةٌ ثُلَاثِيَّةٌ",
+      "meaning_ar": "مُقَارَنَةُ أَمْرِ الشِّرَاءِ وَإِثْبَاتِ الِاسْتِلَامِ وَالْفَاتُورَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْمُسْتَنَدَاتِ"
+      ],
+      "examples_ar": [
+        "أَجْرَى الْمُحَاسِبُ مُطَابَقَةً قَبْلَ الدَّفْعِ."
+      ],
+      "usage_note_ar": "تُقَلِّلُ خَطَرَ الدَّفْعِ غَيْرِ الصَّحِيحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_190",
+      "arabic": "حَدُّ الصَّرْفِ",
+      "meaning_ar": "مَبْلَغٌ أَقْصَى يُسْمَحُ بِإِنْفَاقِهِ دُونَ مُوَافَقَةٍ إِضَافِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَجَاوُزُ الْحَدِّ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الْمُدِيرُ مُوَافَقَةً عَلَى الْمَصْرُوفِ."
+      ],
+      "usage_note_ar": "يُحَدَّدُ فِي سِيَاسَةِ الْمُؤَسَّسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_191",
+      "arabic": "مُوَافَقَةٌ مَالِيَّةٌ",
+      "meaning_ar": "إِذْنٌ رَسْمِيٌّ بِإِجْرَاءِ مَصْرُوفٍ أَوِ الْتِزَامٍ مَالِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سِلْسِلَةُ الْمُوَافَقَاتِ"
+      ],
+      "examples_ar": [
+        "اعْتَمَدَ الْمُدِيرُ مَبْلَغَ الْمُشْتَرَيَاتِ."
+      ],
+      "usage_note_ar": "تُرْبَطُ بِالصَّلَاحِيَّاتِ وَالْمُوَازَنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_192",
+      "arabic": "خُزَيْنَةٌ مَالِيَّةٌ",
+      "meaning_ar": "وَظِيفَةٌ أَوْ جِهَةٌ تُدِيرُ النُّقُودَ وَالسُّيُولَةَ وَالتَّمْوِيلَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ الْخُزَيْنَةِ"
+      ],
+      "examples_ar": [
+        "تَابَعَ قِسْمُ الْخُزَيْنَةِ الْحِسَابَاتِ الْمَصْرِفِيَّةَ."
+      ],
+      "usage_note_ar": "يُخْتَلَفُ مَعْنَاهَا عَنْ صُنْدُوقِ النُّقُودِ الْمَادِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_193",
+      "arabic": "تَوْقُّعُ السُّيُولَةِ",
+      "meaning_ar": "تَقْدِيرُ الْمَبَالِغِ الْمُتَاحَةِ لِلدَّفْعِ خِلَالَ فَتَرَاتٍ قَادِمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ السُّيُولَةِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّتِ الشَّرِكَةُ تَوَقُّعًا لِلأُسْبُوعِ الْمُقْبِلِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى مَوَاعِيدِ التَّحْصِيلِ وَالصَّرْفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_194",
+      "arabic": "مُؤَشِّرُ الرِّبْحِيَّةِ",
+      "meaning_ar": "مَقْيَاسٌ يُسَاعِدُ عَلَى تَقْيِيمِ قُدْرَةِ النَّشَاطِ عَلَى تَوْلِيدِ الْأَرْبَاحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الرِّبْحِيَّةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَلِّلُ مُؤَشِّرَاتِ الْفُرُوعِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ بِحَسَبِ الرِّبْحِ وَحَجْمِ الْمَوْرِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_195",
+      "arabic": "مُؤَشِّرُ الْمَدْيُونِيَّةِ",
+      "meaning_ar": "قِيَاسٌ يُظْهِرُ مَدَى اعْتِمَادِ الْمُؤَسَّسَةِ عَلَى الِاقْتِرَاضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْمُؤَشِّرِ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ مُؤَشِّرُ الْمَدْيُونِيَّةِ هَذَا الْعَامَ."
+      ],
+      "usage_note_ar": "يُفَسَّرُ مَعَ التَّدَفُّقَاتِ وَالْأَرْبَاحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_196",
+      "arabic": "مُؤَشِّرُ النَّشَاطِ",
+      "meaning_ar": "مُعَدَّلٌ يَقِيسُ كَفَاءَةَ اسْتِغْلَالِ الْمَوَارِدِ لِتَحْقِيقِ الْمَبِيعَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوَرَانُ الأُصُولِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُدِيرُ مُؤَشِّرَ النَّشَاطِ لِلْمَصْنَعِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْمَقَايِيسُ بِحَسَبِ نَوْعِ الْأَصْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_197",
+      "arabic": "فَتْرَةُ التَّحْصِيلِ",
+      "meaning_ar": "مُتَوَسِّطُ الْأَيَّامِ الْمَطْلُوبَةِ لِاسْتِلَامِ مَبَالِغِ الْمَبِيعَاتِ الْآجِلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْصِيرُ الْفَتْرَةِ"
+      ],
+      "examples_ar": [
+        "تَحَسَّنَتْ فَتْرَةُ التَّحْصِيلِ بَعْدَ التَّذْكِيرِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ فِي تَقْيِيمِ الِائْتِمَانِ الْتِّجَارِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_198",
+      "arabic": "فَتْرَةُ السَّدَادِ",
+      "meaning_ar": "مُتَوَسِّطُ الْمُدَّةِ بَيْنَ شِرَاءِ الْبِضَاعَةِ وَدَفْعِ ثَمَنِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَمْدِيدُ الْفَتْرَةِ"
+      ],
+      "examples_ar": [
+        "تَفَاوَضَتِ الشَّرِكَةُ عَلَى فَتْرَةِ سَدَادٍ أَطْوَلَ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي رَأْسِ الْمَالِ الْعَامِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_199",
+      "arabic": "نُسْبَةُ الرِّبْحِ التَّشْغِيلِيِّ",
+      "meaning_ar": "مُقَارَنَةُ الرِّبْحِ الْمُتَوَلِّدِ مِنَ التَّشْغِيلِ بِالْإِيرَادَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ النِّسْبَةِ"
+      ],
+      "examples_ar": [
+        "تَحَسَّنَتِ النِّسْبَةُ مَعَ خَفْضِ النَّفَقَاتِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ هَامِشِ الرِّبْحِ الصَّافِي.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_200",
+      "arabic": "نِسْبَةُ صَافِي الرِّبْحِ",
+      "meaning_ar": "النِّسْبَةُ بَيْنَ الرِّبْحِ الصَّافِي وَالْإِيرَادَاتِ خِلَالَ فَتْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْهَامِشِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُحَاسِبُ نِسْبَةَ صَافِي الرِّبْحِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِمُقَارَنَةِ الأَدَاءِ بَيْنَ الْفَتَرَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_201",
+      "arabic": "تَحْلِيلٌ أُفُقِيٌّ",
+      "meaning_ar": "مُقَارَنَةُ بُنُودِ الْقَوَائِمِ الْمَالِيَّةِ عَبْرَ فَتَرَاتٍ مُتَعَاقِبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ السَّنَوَاتِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَلِّلُ الْمَبِيعَاتِ بَيْنَ عَامَيْنِ."
+      ],
+      "usage_note_ar": "يَكْشِفُ اتِّجَاهَاتِ النُّمُوِّ وَالِانْخِفَاضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_202",
+      "arabic": "تَحْلِيلٌ رَأْسِيٌّ",
+      "meaning_ar": "إِظْهَارُ كُلِّ بَنْدٍ فِي الْقَائِمَةِ كَنِسْبَةٍ مِنْ إِجْمَالِيٍّ مُحَدَّدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْبُنُودِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمُحَلِّلُ نِسْبَةَ الرَّوَاتِبِ مِنَ الْمَبِيعَاتِ."
+      ],
+      "usage_note_ar": "يُسَهِّلُ مُقَارَنَةَ الْهَيَاكِلِ الْمَالِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_203",
+      "arabic": "مُقَارَنَةٌ مِعْيَارِيَّةٌ",
+      "meaning_ar": "تَقْيِيمُ أَدَاءِ مُؤَسَّسَةٍ بِالنَّظَرِ إِلَى مَقَايِيسَ أَوْ مُمَارَسَاتٍ مَرْجِعِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُؤَشِّرٌ مَرْجِعِيٌّ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدِيرُ أَدَاءَ الْمَتْجَرِ بِالسُّوقِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَوَافُقَ طَرِيقَةِ الْقِيَاسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_finance_accounting_20261027_204",
+      "arabic": "تَقْرِيرٌ دَوْرِيٌّ",
+      "meaning_ar": "مُسْتَنَدٌ يَعْرِضُ الْمَعْلُومَاتِ الْمَالِيَّةَ عَلَى فَتَرَاتٍ مُنْتَظِمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْرِيرٌ شَهْرِيٌّ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُحَاسِبُ تَقْرِيرًا إِلَى الْإِدَارَةِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى الْمُتَابَعَةِ وَاتِّخَاذِ الْقَرَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_finance_accounting_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
