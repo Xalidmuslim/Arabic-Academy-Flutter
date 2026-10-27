@@ -1,0 +1,2580 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_maritime_navigation_20261027_001",
+      "arabic": "مِلَاحَةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "فَنُّ تَوْجِيهِ السُّفُنِ وَتَحْدِيدِ مَوَاقِعِهَا وَمَسَارَاتِهَا بِأَمَانٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَعَلُّمُ الْمِلَاحَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ أُسُسَ الْمِلَاحَةِ الْبَحْرِيَّةِ."
+      ],
+      "usage_note_ar": "تَجْمَعُ بَيْنَ الْخَرَائِطِ وَالرَّصْدِ وَقَوَاعِدِ السَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_002",
+      "arabic": "مَمَرٌّ مِلَاحِيٌّ",
+      "meaning_ar": "طَرِيقٌ مَائِيٌّ مُحَدَّدٌ لِمُرُورِ السُّفُنِ بَيْنَ الْمَوَانِئِ وَالْمَنَاطِقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُمْقُ الْمَمَرِّ"
+      ],
+      "examples_ar": [
+        "أَبْحَرَتِ السَّفِينَةُ فِي الْمَمَرِّ الْمِلَاحِيِّ."
+      ],
+      "usage_note_ar": "تُنَظَّمُ فِيهِ الْحَرَكَةُ لِتَجَنُّبِ الِاصْطِدَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_003",
+      "arabic": "مِنَارَةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "بُرْجٌ أَوْ بِنَاءٌ يَحْمِلُ ضَوْءًا لِإِرْشَادِ السُّفُنِ قُرْبَ السَّوَاحِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَوْءُ الْمَنَارَةِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الرُّبَّانُ الْمَنَارَةَ فِي اللَّيْلِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَعْرِيفِ الْمَوْقِعِ وَتَحْذِيرِ الْبَحَّارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_004",
+      "arabic": "عَوَّامَةٌ مِلَاحِيَّةٌ",
+      "meaning_ar": "جِسْمٌ عَائِمٌ مَوْسُومٌ يُثَبَّتُ فِي الْمَاءِ لِتَحْدِيدِ طَرِيقٍ أَوْ خَطَرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "لَوْنُ الْعَوَّامَةِ"
+      ],
+      "examples_ar": [
+        "مَرَّتِ السَّفِينَةُ بِجَانِبِ الْعَوَّامَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَلْوَانُهَا وَأَشْكَالُهَا بِحَسَبِ دَلَالَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_005",
+      "arabic": "إِشَارَةٌ مِلَاحِيَّةٌ",
+      "meaning_ar": "عَلامَةٌ بَصَرِيَّةٌ أَوْ صَوْتِيَّةٌ تُسْتَعْمَلُ لِإِرْشَادِ الْمَرَاكِبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْإِشَارَةِ"
+      ],
+      "examples_ar": [
+        "فَهِمَ الْمَلَّاحُ مَعْنَى الْإِشَارَةِ قَبْلَ الدُّخُولِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الأَضْوَاءَ وَالرُّمُوزَ وَالأَصْوَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_006",
+      "arabic": "خَرِيطَةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "رَسْمٌ يَصِفُ السَّوَاحِلَ وَالأَعْمَاقَ وَالأَخْطَارَ وَمَعَالِمَ الْمِلَاحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْخَرِيطَةِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الرُّبَّانُ طَرِيقَهُ عَلَى الْخَرِيطَةِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَحْدِيثُهَا بِالْمَعْلُومَاتِ الْمِلَاحِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_007",
+      "arabic": "إِحْدَاثِيَّاتٌ بَحْرِيَّةٌ",
+      "meaning_ar": "أَرْقَامٌ تَصِفُ مَوْقِعَ جِسْمٍ عَلَى سَطْحِ الْأَرْضِ بِالْعَرْضِ وَالطُّولِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْإِحْدَاثِيَّاتِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمَلَّاحُ مَوْقِعَ الْقَارِبِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ الدَّرَجَاتُ وَالدَّقَائِقُ فِي الْخَرَائِطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_008",
+      "arabic": "خَطُّ عَرْضٍ",
+      "meaning_ar": "خَطٌّ افْتِرَاضِيٌّ يَصِفُ بُعْدَ الْمَوْقِعِ شَمَالًا أَوْ جَنُوبًا عَنِ الِاسْتِوَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْعَرْضِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمَلَّاحُ خَطَّ الْعَرْضِ عَلَى الْخَرِيطَةِ."
+      ],
+      "usage_note_ar": "يُقَاسُ بِدَرَجَاتٍ لَا تَتَجَاوَزُ التِّسْعِينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_009",
+      "arabic": "خَطُّ طُولٍ",
+      "meaning_ar": "خَطٌّ افْتِرَاضِيٌّ يَصِفُ مَوْقِعًا شَرْقَ خَطٍّ مَرْجِعِيٍّ أَوْ غَرْبَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الطُّولِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الرُّبَّانُ خَطَّ الطُّولِ لِلْمَوْقِعِ."
+      ],
+      "usage_note_ar": "تُقَاسُ الْإِحْدَاثِيَّاتُ مِنْ خَطِّ غِرِينِتْشَ الْمَرْجِعِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_010",
+      "arabic": "مَسَارٌ بَحْرِيٌّ",
+      "meaning_ar": "خَطُّ الرِّحْلَةِ الَّذِي تَتْبَعُهُ السَّفِينَةُ بَيْنَ مَوْضِعَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَسْمُ الْمَسَارِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الرُّبَّانُ الْمَسَارَ بِسَبَبِ الرِّيَاحِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالطَّقْسِ وَالْأَعْمَاقِ وَالْمَمَرَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_011",
+      "arabic": "اتِّجَاهٌ بَحْرِيٌّ",
+      "meaning_ar": "الزَّاوِيَةُ الَّتِي تَسِيرُ فِيهَا السَّفِينَةُ بِالنِّسْبَةِ لِلشَّمَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الِاتِّجَاهِ"
+      ],
+      "examples_ar": [
+        "صَحَّحَ الرُّبَّانُ اتِّجَاهَ السَّفِينَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مِغْنَاطِيسِيًّا أَوْ حَقِيقِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_012",
+      "arabic": "سُرْعَةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "مُعَدَّلُ انْتِقَالِ السَّفِينَةِ فِي الْمَاءِ أَوْ عَلَى سَطْحِ الْأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ السُّرْعَةِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الرُّبَّانُ سُرْعَةَ السَّفِينَةِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَمْيِيزُ السُّرْعَةِ بِالنِّسْبَةِ لِلْمَاءِ وَالْقَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_013",
+      "arabic": "عُقْدَةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "وَحْدَةُ سُرْعَةٍ تُسَاوِي مِيلًا بَحْرِيًّا وَاحِدًا فِي السَّاعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَشْرُ عُقَدٍ"
+      ],
+      "examples_ar": [
+        "أَبْحَرَتِ السَّفِينَةُ بِسُرْعَةِ عَشْرِ عُقَدٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ عُقْدَةِ الْحَبْلِ ذَاتِ الْمَعْنَى الْيَوْمِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_014",
+      "arabic": "مِيلٌ بَحْرِيٌّ",
+      "meaning_ar": "وَحْدَةُ مَسَافَةٍ مُسْتَعْمَلَةٌ فِي الْمِلَاحَةِ وَتُسَاوِي أَلْفًا وَثَمَانِمِئَةٍ وَاثْنَيْنِ وَخَمْسِينَ مِتْرًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمَسَافَةِ"
+      ],
+      "examples_ar": [
+        "قَطَعَ الْقَارِبُ خَمْسَةَ أَمْيَالٍ بَحْرِيَّةٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَعَ الْعُقْدَةِ لِحِسَابِ زَمَنِ الرِّحْلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_015",
+      "arabic": "غَاطِسُ السَّفِينَةِ",
+      "meaning_ar": "الْمَسَافَةُ الرَّأْسِيَّةُ بَيْنَ سَطْحِ الْمَاءِ وَأَدْنَى نُقْطَةٍ مُحَدَّدَةٍ مِنْ بَدَنِ السَّفِينَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْغَاطِسِ"
+      ],
+      "examples_ar": [
+        "تَحَقَّقَ الرُّبَّانُ مِنْ غَاطِسِ السَّفِينَةِ."
+      ],
+      "usage_note_ar": "يَزْدَادُ الْغَاطِسُ عِنْدَ زِيَادَةِ الْحِمْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_016",
+      "arabic": "خُلُوصٌ تَحْتَ الْعَارِضَةِ",
+      "meaning_ar": "مَسَافَةُ الأَمَانِ بَيْنَ أَسْفَلِ السَّفِينَةِ وَقَاعِ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْخُلُوصِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الرُّبَّانُ السُّرْعَةَ فِي الْمَمَرِّ الضَّحْلِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى الْغَاطِسِ وَالْمَدِّ وَالْأَمْوَاجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_017",
+      "arabic": "عُمْقٌ مَلَّاحِيٌّ",
+      "meaning_ar": "مِقْدَارُ الْمَاءِ الْمُتَاحِ لِمُرُورِ سَفِينَةٍ فِي مَوْضِعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْعُمْقِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمَلَّاحُ عُمْقَ الْمِينَاءِ."
+      ],
+      "usage_note_ar": "يَجِبُ مُقَارَنَتُهُ بِغَاطِسِ السَّفِينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_018",
+      "arabic": "جِهَازُ سَبْرِ الأَعْمَاقِ",
+      "meaning_ar": "أَدَاةٌ تَسْتَعْمِلُ الْمَوْجَاتِ الصَّوْتِيَّةَ لِقِيَاسِ عُمْقِ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ السَّبْرِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْمَلَّاحُ جِهَازَ قِيَاسِ الْعُمْقِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَجَنُّبِ الْمِيَاهِ الضَّحْلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_019",
+      "arabic": "مِرْسَاةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "أَدَاةٌ ثَقِيلَةٌ تُخَفِّفُ حَرَكَةَ السَّفِينَةِ بِالتَّمَسُّكِ بِقَاعِ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِلْقَاءُ الْمِرْسَاةِ"
+      ],
+      "examples_ar": [
+        "أَلْقَى الْبَحَّارُ الْمِرْسَاةَ قُرْبَ الشَّاطِئِ."
+      ],
+      "usage_note_ar": "تُخْتَارُ بِحَسَبِ حَجْمِ الْقَارِبِ وَطَبِيعَةِ الْقَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_020",
+      "arabic": "سِلْسِلَةُ الْمِرْسَاةِ",
+      "meaning_ar": "حَلَقَاتٌ مَعْدِنِيَّةٌ تَرْبِطُ الْمِرْسَاةَ بِالسَّفِينَةِ وَتَنْقُلُ الْقُوَّةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طُولُ السِّلْسِلَةِ"
+      ],
+      "examples_ar": [
+        "أَنْزَلَ الْبَحَّارُ جُزْءًا مِنَ السِّلْسِلَةِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ طُولُهَا الْمَطْلُوبُ بِعُمْقِ الْمَاءِ وَالظُّرُوفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_021",
+      "arabic": "رَافِعَةُ الْمِرْسَاةِ",
+      "meaning_ar": "جِهَازٌ آلِيٌّ يَشُدُّ سِلْسِلَةَ الْمِرْسَاةِ وَيَرْفَعُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَشْغِيلُ الرَّافِعَةِ"
+      ],
+      "examples_ar": [
+        "رَفَعَ الْبَحَّارُ الْمِرْسَاةَ قَبْلَ الْإِبْحَارِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى فَحْصٍ وَصِيَانَةٍ مُنْتَظِمَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_022",
+      "arabic": "رُبَّانُ السَّفِينَةِ",
+      "meaning_ar": "الشَّخْصُ الْمَسْؤُولُ عَنْ قِيَادَةِ السَّفِينَةِ وَسَلَامَةِ رِحْلَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَوَامِرُ الرُّبَّانِ"
+      ],
+      "examples_ar": [
+        "أَمَرَ الرُّبَّانُ بِتَقْلِيلِ السُّرْعَةِ."
+      ],
+      "usage_note_ar": "يَتَحَمَّلُ مَسْؤُولِيَّةَ قَرَارَاتِ الْمِلَاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_023",
+      "arabic": "ضَابِطُ الْمِلَاحَةِ",
+      "meaning_ar": "فَرْدٌ مِنْ طَاقَمِ السَّفِينَةِ يُرَاقِبُ الْمَوْقِعَ وَالْمَسَارَ وَالْأَخْطَارَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَوْبَةُ الضَّابِطِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الضَّابِطُ مَوْقِعَ السَّفِينَةِ."
+      ],
+      "usage_note_ar": "يَتَعَاوَنُ مَعَ الرُّبَّانِ وَبَقِيَّةِ الطَّاقَمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_024",
+      "arabic": "مُرْشِدٌ بَحْرِيٌّ",
+      "meaning_ar": "مُخْتَصٌّ يُسَاعِدُ رُبَّانَ السَّفِينَةِ فِي مَمَرَّاتٍ أَوْ مَوَانِئَ مَعْرُوفَةٍ لَدَيْهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صُعُودُ الْمُرْشِدِ"
+      ],
+      "examples_ar": [
+        "صَعِدَ الْمُرْشِدُ لِمُسَاعَدَةِ الرُّبَّانِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ قَوَاعِدُ الِاسْتِعَانَةِ بِهِ بَيْنَ الْمَوَانِئِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_025",
+      "arabic": "مَرْكَزُ مُرَاقَبَةِ الْمَلَّاحَةِ",
+      "meaning_ar": "جِهَةٌ تَتَابَعُ حَرَكَةَ السُّفُنِ وَتُقَدِّمُ مَعْلُومَاتٍ لِتَحْسِينِ السَّلَامَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّصَالُ الْمَرْكَزِ"
+      ],
+      "examples_ar": [
+        "أَبْلَغَ الرُّبَّانُ الْمَرْكَزَ بِمَوْقِعِهِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ دَوْرُهُ بِحَسَبِ الْمِنْطَقَةِ وَالنِّظَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_026",
+      "arabic": "جِسْرُ الْقِيَادَةِ",
+      "meaning_ar": "مَكَانٌ فِي السَّفِينَةِ تُدَارُ مِنْهُ الْمِلَاحَةُ وَتُرَاقَبُ الْأَجْهِزَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَافِذَةُ الْجِسْرِ"
+      ],
+      "examples_ar": [
+        "وَقَفَ الرُّبَّانُ عَلَى جِسْرِ الْقِيَادَةِ."
+      ],
+      "usage_note_ar": "يَضُمُّ أَجْهِزَةَ الِاتِّصَالِ وَالْمِلَاحَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_027",
+      "arabic": "دَفَّةُ السَّفِينَةِ",
+      "meaning_ar": "سَطْحٌ مُتَحَرِّكٌ فِي الْمَاءِ يُسْتَعْمَلُ لِتَغْيِيرِ اتِّجَاهِ السَّفِينَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زَاوِيَةُ الدَّفَّةِ"
+      ],
+      "examples_ar": [
+        "حَرَّكَ الْبَحَّارُ الدَّفَّةَ نَحْوَ الْيَمِينِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ فَعَّالِيَّتُهَا بِسُرْعَةِ الْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_028",
+      "arabic": "مِرْوَحَةُ الدَّفْعِ الْبَحْرِيَّةِ",
+      "meaning_ar": "شَفَرَاتٌ دَوَّارَةٌ تَدْفَعُ الْمَاءَ لِتَحْرِيكِ السَّفِينَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَوَرَانُ الْمِرْوَحَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُهَنْدِسُ مِرْوَحَةَ الدَّفْعِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ كَفَاءَتُهَا بِالتَّصْمِيمِ وَالْحِمْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_029",
+      "arabic": "مِحْرَكُ السَّفِينَةِ",
+      "meaning_ar": "جِهَازٌ يُوَلِّدُ الْقُوَّةَ اللَّازِمَةَ لِدَفْعِ السَّفِينَةِ أَوْ لِتَشْغِيلِ أَنْظِمَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "غُرْفَةُ الْمِحْرَكِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْفَنِّيُّ حَرَارَةَ الْمِحْرَكِ."
+      ],
+      "usage_note_ar": "تَسْتَعْمِلُ السُّفُنُ أَنْظِمَةَ دَفْعٍ مُخْتَلِفَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_030",
+      "arabic": "غُرْفَةُ الْآلَاتِ",
+      "meaning_ar": "حُجْرَةٌ فِي السَّفِينَةِ تَضُمُّ مُحَرِّكَاتٍ وَمُعَدَّاتٍ فَنِّيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَفْتِيشُ الْغُرْفَةِ"
+      ],
+      "examples_ar": [
+        "نَزَلَ الْمُهَنْدِسُ إِلَى غُرْفَةِ الْآلَاتِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَهْوِيَةٍ وَمُرَاقَبَةٍ مُسْتَمِرَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_031",
+      "arabic": "هَيْكَلُ السَّفِينَةِ",
+      "meaning_ar": "الْبِنْيَةُ الْأَسَاسِيَّةُ الَّتِي تُعْطِي السَّفِينَةَ شَكْلَهَا وَقُوَّتَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْهَيْكَلِ"
+      ],
+      "examples_ar": [
+        "اكْتَشَفَ الْفَنِّيُّ تَآكُلًا فِي الْهَيْكَلِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ سَلَامَتُهُ بِالْأَحْمَالِ وَالصَّدَإِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_032",
+      "arabic": "بَدَنُ السَّفِينَةِ",
+      "meaning_ar": "الْجِسْمُ الْخَارِجِيُّ الَّذِي يَطْفُو عَلَى الْمَاءِ وَيَحْمِلُ الْحُمُولَةَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طِلَاءُ الْبَدَنِ"
+      ],
+      "examples_ar": [
+        "نَظَّفَ الْعُمَّالُ بَدَنَ السَّفِينَةِ."
+      ],
+      "usage_note_ar": "يُصَمَّمُ لِلثَّبَاتِ وَتَقْلِيلِ مُقَاوَمَةِ الْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_033",
+      "arabic": "مُقَدِّمَةُ السَّفِينَةِ",
+      "meaning_ar": "الْجُزْءُ الأَمَامِيُّ مِنْ بَدَنِ السَّفِينَةِ فِي اتِّجَاهِ حَرَكَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَكْلُ الْمُقَدِّمَةِ"
+      ],
+      "examples_ar": [
+        "وَقَفَ الْبَحَّارُ قُرْبَ مُقَدِّمَةِ السَّفِينَةِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ تَصْمِيمُهَا فِي التَّعَامُلِ مَعَ الْأَمْوَاجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_034",
+      "arabic": "مُؤَخَّرَةُ السَّفِينَةِ",
+      "meaning_ar": "الْجُزْءُ الْخَلْفِيُّ مِنَ السَّفِينَةِ الْمُقَابِلُ لِلْمُقَدِّمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْمُؤَخَّرَةِ"
+      ],
+      "examples_ar": [
+        "تَحَقَّقَ الْفَنِّيُّ مِنْ سَلَامَةِ الْمِرْوَحَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْتَوِي عَلَى الدَّفَّةِ وَمُعَدَّاتِ الدَّفْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_035",
+      "arabic": "جَانِبُ الْمِينَاءِ فِي السَّفِينَةِ",
+      "meaning_ar": "الْجَانِبُ الأَيْسَرُ لِمَنْ يَنْظُرُ مِنَ الْمُؤَخَّرَةِ نَحْوَ الْمُقَدِّمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِشَارَةُ الْجَانِبِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتِ الْعَوَّامَةُ عَلَى جَانِبِ الْمِينَاءِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ التَّعْيِينُ لِتَجَنُّبِ لَبْسِ الْيَمِينِ وَالْيَسَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_036",
+      "arabic": "جَانِبُ الْمَيْمَنَةِ فِي السَّفِينَةِ",
+      "meaning_ar": "الْجَانِبُ الأَيْمَنُ لِمَنْ يَنْظُرُ مِنَ الْمُؤَخَّرَةِ نَحْوَ الْمُقَدِّمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِشَارَةُ الْمَيْمَنَةِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْمَلَّاحُ سَفِينَةً عَلَى الْمَيْمَنَةِ."
+      ],
+      "usage_note_ar": "تَثْبُتُ التَّسْمِيَةُ بِالنِّسْبَةِ لِمُقَدِّمَةِ السَّفِينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_037",
+      "arabic": "سَطْحُ السَّفِينَةِ",
+      "meaning_ar": "مُسْتَوًى أُفُقِيٌّ أَوْ شِبْهُ أُفُقِيٍّ يَمْشِي عَلَيْهِ الْبَحَّارَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَنْظِيفُ السَّطْحِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْعَامِلُ الْحَبْلَ عَلَى السَّطْحِ."
+      ],
+      "usage_note_ar": "قَدْ تَتَعَدَّدُ السُّطُوحُ فِي السَّفِينَةِ الْوَاحِدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_038",
+      "arabic": "عَنْبَرُ الشَّحْنِ",
+      "meaning_ar": "حُجْرَةٌ أَوْ فَرَاغٌ فِي السَّفِينَةِ مُخَصَّصٌ لِحِفْظِ الْبَضَائِعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَتْحُ الْعَنْبَرِ"
+      ],
+      "examples_ar": [
+        "أَنْزَلَ الْعُمَّالُ الصَّنَادِيقَ فِي الْعَنْبَرِ."
+      ],
+      "usage_note_ar": "تُرَاعَى فِيهِ التَّهْوِيَةُ وَتَوْزِيعُ الْحُمُولَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_039",
+      "arabic": "حُمُولَةٌ سَائِبَةٌ",
+      "meaning_ar": "بَضَائِعُ تُنْقَلُ بِكَمِّيَّاتٍ كَبِيرَةٍ دُونَ تَعْبِئَةٍ فَرْدِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَقْلُ الْحُبُوبِ"
+      ],
+      "examples_ar": [
+        "نَقَلَتِ السَّفِينَةُ حُمُولَةً سَائِبَةً مِنَ الْقَمْحِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ جَافَّةً أَوْ سَائِلَةً بِحَسَبِ النَّوْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_040",
+      "arabic": "حُمُولَةٌ مُبَرَّدَةٌ",
+      "meaning_ar": "بَضَائِعُ تَحْتَاجُ إِلَى دَرَجَاتِ حَرَارَةٍ مُحَدَّدَةٍ أَثْنَاءَ النَّقْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سِلْسِلَةُ التَّبْرِيدِ"
+      ],
+      "examples_ar": [
+        "نَقَلَتِ السَّفِينَةُ فَوَاكِهَ مُبَرَّدَةً."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى مُرَاقَبَةٍ مُسْتَمِرَّةٍ لِلْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_041",
+      "arabic": "حُمُولَةٌ خَطِرَةٌ",
+      "meaning_ar": "مَوَادُّ تُشَكِّلُ مَخَاطِرَ خَاصَّةً عِنْدَ النَّقْلِ وَالتَّخْزِينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْنِيفُ الْحُمُولَةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الطَّاقَمُ عَلامَاتِ تَحْذِيرٍ عَلَى الْحَاوِيَاتِ."
+      ],
+      "usage_note_ar": "تَسْتَلْزِمُ قَوَاعِدَ فَصْلٍ وَتَوْثِيقٍ وَسَلَامَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_042",
+      "arabic": "تَوْزِيعُ الْحُمُولَةِ",
+      "meaning_ar": "تَرْتِيبُ الأَوْزَانِ دَاخِلَ السَّفِينَةِ لِلْحِفَاظِ عَلَى تَوَازُنِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّوْزِيعِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْعُمَّالُ الصَّنَادِيقَ لِتَحْسِينِ الثَّبَاتِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِمَرْكَزِ الثِّقَلِ وَمَوَاضِعِ الْخَزَّانَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_043",
+      "arabic": "ثَبَاتُ السَّفِينَةِ",
+      "meaning_ar": "قُدْرَةُ السَّفِينَةِ عَلَى مُقَاوَمَةِ الْمَيْلِ وَالْعَوْدَةِ نَحْوَ الِاتِّزَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الثَّبَاتِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الرُّبَّانُ خُطَّةَ الْحُمُولَةِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْبِنْيَةِ وَالْحُمُولَةِ وَالْأَحْوَالِ الْبَحْرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_044",
+      "arabic": "مَرْكَزُ الطَّفْوِ",
+      "meaning_ar": "النُّقْطَةُ الَّتِي تَعْمَلُ مِنْ خِلَالِهَا مُحَصِّلَةُ قُوَّةِ الطَّفْوِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْمَرْكَزِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُهَنْدِسُ تَغَيُّرَ مَرْكَزِ الطَّفْوِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ مَوْضِعُهُ عِنْدَ مَيْلِ السَّفِينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_045",
+      "arabic": "مَرْكَزُ ثِقَلِ السَّفِينَةِ",
+      "meaning_ar": "النُّقْطَةُ الَّتِي يُمْكِنُ تَمْثِيلُ وَزْنِ السَّفِينَةِ كُلِّهَا عِنْدَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "انْخِفَاضُ الْمَرْكَزِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ تَوْزِيعُ الْحُمُولَةِ مَرْكَزَ الثِّقَلِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ مَوْضِعُهُ فِي الثَّبَاتِ وَالْمَيْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_046",
+      "arabic": "مَيْلٌ جَانِبِيٌّ لِلسَّفِينَةِ",
+      "meaning_ar": "انْحِرَافُ السَّفِينَةِ عَنْ وَضْعِهَا الْمُسْتَقِيمِ نَحْوَ أَحَدِ الْجَانِبَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمَيْلِ"
+      ],
+      "examples_ar": [
+        "مَالَتِ السَّفِينَةُ قَلِيلًا بِفِعْلِ الرِّيحِ."
+      ],
+      "usage_note_ar": "يَجِبُ مُرَاقَبَتُهُ لِتَقْيِيمِ الِاسْتِقْرَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_047",
+      "arabic": "مَيْلٌ طُولِيٌّ لِلسَّفِينَةِ",
+      "meaning_ar": "فَرْقٌ فِي غَوْصِ الْمُقَدِّمَةِ وَالْمُؤَخَّرَةِ بِسَبَبِ تَوْزِيعِ الْأَوْزَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْمَيْلِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الطَّاقَمُ بَعْضَ الْحُمُولَةِ إِلَى الْخَلْفِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي كَفَاءَةِ الْإِبْحَارِ وَالْغَاطِسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_048",
+      "arabic": "صَابُورَةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "مَوَادُّ أَوْ مَاءٌ يُضَافُ إِلَى السَّفِينَةِ لِتَحْسِينِ تَوَازُنِهَا وَغَاطِسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَزَّانُ الصَّابُورَةِ"
+      ],
+      "examples_ar": [
+        "مَلَأَ الطَّاقَمُ خَزَّانَ الصَّابُورَةِ بِالْمَاءِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَدْبِيرُ مِيَاهِهَا لِتَقْلِيلِ الْأَثَرِ الْبِيئِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_049",
+      "arabic": "خَزَّانُ الصَّابُورَةِ",
+      "meaning_ar": "حُجْرَةٌ فِي السَّفِينَةِ تُخَزَّنُ فِيهَا الْمِيَاهُ لِضَبْطِ الثَّبَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَفْرِيغُ الْخَزَّانِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الطَّاقَمُ الْمِيَاهَ بَيْنَ الْخَزَّانَاتِ."
+      ],
+      "usage_note_ar": "يُحْتَاجُ إِلَى مُرَاقَبَةِ النِّسَبِ وَنُظُمِ الْمُعَالَجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_050",
+      "arabic": "حَبْلُ الْإِرْسَاءِ",
+      "meaning_ar": "حَبْلٌ قَوِيٌّ يُرْبَطُ بِالرَّصِيفِ أَوْ بِمَوْضِعٍ ثَابِتٍ لِتَثْبِيتِ السَّفِينَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَدُّ حَبْلِ الْإِرْسَاءِ"
+      ],
+      "examples_ar": [
+        "رَبَطَ الْبَحَّارُ الْحَبْلَ بِالرَّصِيفِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ الْوُقُوفُ بَعِيدًا عَنْ مَسَارِ الْحَبْلِ الْمَشْدُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_051",
+      "arabic": "عَمُودُ الرَّبْطِ",
+      "meaning_ar": "عَمُودٌ قَصِيرٌ وَقَوِيٌّ فِي الرَّصِيفِ تُثَبَّتُ عَلَيْهِ حِبَالُ السُّفُنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَثْبِيتُ الْحَبْلِ"
+      ],
+      "examples_ar": [
+        "لَفَّ الْبَحَّارُ الْحَبْلَ حَوْلَ عَمُودِ الرَّبْطِ."
+      ],
+      "usage_note_ar": "يُصَمَّمُ لِتَحَمُّلِ قُوَى الْإِرْسَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_052",
+      "arabic": "رَصِيفُ السُّفُنِ",
+      "meaning_ar": "مَنْشَأَةٌ تَمْتَدُّ عِنْدَ الْمَاءِ لِرُسُوِّ السُّفُنِ وَتَحْمِيلِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طُولُ الرَّصِيفِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتِ السَّفِينَةُ إِلَى رَصِيفِ الْمِينَاءِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ تَجْهِيزَاتُهُ حَسَبَ نَوْعِ الْحُمُولَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_053",
+      "arabic": "حَوْضٌ جَافٌّ",
+      "meaning_ar": "مَنْشَأَةٌ يُخْرَجُ مِنْهَا الْمَاءُ لِلْكَشْفِ عَلَى بَدَنِ السَّفِينَةِ وَإِصْلَاحِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دُخُولُ الْحَوْضِ"
+      ],
+      "examples_ar": [
+        "دَخَلَتِ السَّفِينَةُ الْحَوْضَ الْجَافَّ لِلصِّيَانَةِ."
+      ],
+      "usage_note_ar": "يَسْمَحُ بِفَحْصِ الأَجْزَاءِ الْمَغْمُورَةِ عَادَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_054",
+      "arabic": "مِنْزَلَقُ السُّفُنِ",
+      "meaning_ar": "مَسَارٌ مَائِلٌ تُسْحَبُ عَلَيْهِ السُّفُنُ إِلَى الْمَاءِ أَوْ تَخْرُجُ مِنْهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَحْبُ الْقَارِبِ"
+      ],
+      "examples_ar": [
+        "سَحَبَ الْعُمَّالُ الْقَارِبَ عَلَى الْمِنْزَلَقِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْحَوْضِ الْجَافِّ فِي طَرِيقَةِ الرَّفْعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_055",
+      "arabic": "سَفِينَةُ حَاوِيَاتٍ",
+      "meaning_ar": "سَفِينَةٌ مُصَمَّمَةٌ لِنَقْلِ حَاوِيَاتٍ مُوَحَّدَةِ الْأَبْعَادِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرْتِيبُ الْحَاوِيَاتِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتْ سَفِينَةُ الْحَاوِيَاتِ إِلَى الْمَرْفَإِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي التِّجَارَةِ وَالْنَّقْلِ الدَّوْلِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_056",
+      "arabic": "نَاقِلَةُ نَفْطٍ",
+      "meaning_ar": "سَفِينَةٌ ذَاتُ خَزَّانَاتٍ كَبِيرَةٍ مُخَصَّصَةٍ لِنَقْلِ النَّفْطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَفْرِيغُ النَّاقِلَةِ"
+      ],
+      "examples_ar": [
+        "رَسَتْ نَاقِلَةُ النَّفْطِ عِنْدَ الْمِينَاءِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى إِجْرَاءَاتِ سَلَامَةٍ مِنَ التَّسَرُّبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_057",
+      "arabic": "نَاقِلَةُ غَازٍ مُسَالٍ",
+      "meaning_ar": "سَفِينَةٌ تَحْمِلُ غَازًا مُبَرَّدًا أَوْ مُضْغُوطًا فِي خَزَّانَاتٍ خَاصَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَزَّانُ الْغَازِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتْ نَاقِلَةُ الْغَازِ إِلَى الْمَرْفَإِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَحَكُّمًا دَقِيقًا فِي الْحَرَارَةِ وَالضَّغْطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_058",
+      "arabic": "عَبَّارَةُ رُكَّابٍ",
+      "meaning_ar": "وَسِيلَةُ نَقْلٍ بَحْرِيَّةٌ تُقِلُّ النَّاسَ بَيْنَ مَوَانِئَ أَوْ جُزُرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْعِدُ الْعَبَّارَةِ"
+      ],
+      "examples_ar": [
+        "رَكِبَ السُّيَّاحُ الْعَبَّارَةَ صَبَاحًا."
+      ],
+      "usage_note_ar": "قَدْ تَحْمِلُ السَّيَّارَاتِ مَعَ الرُّكَّابِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_059",
+      "arabic": "قَارِبُ إِنْقَاذٍ",
+      "meaning_ar": "قَارِبٌ مُجَهَّزٌ لِمُسَاعَدَةِ الأَشْخَاصِ عِنْدَ الْخَطَرِ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَجْهِيزُ الْقَارِبِ"
+      ],
+      "examples_ar": [
+        "أُنْزِلَ قَارِبُ الْإِنْقَاذِ أَثْنَاءَ التَّدْرِيبِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ تَجْهِيزُهُ حَسَبَ حَجْمِ السَّفِينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_060",
+      "arabic": "طَوْقُ نَجَاةٍ",
+      "meaning_ar": "أَدَاةٌ عَائِمَةٌ تُرْمَى لِمُسَاعَدَةِ شَخْصٍ فِي الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَمْيُ الطَّوْقِ"
+      ],
+      "examples_ar": [
+        "رَمَى الْبَحَّارُ طَوْقَ النَّجَاةِ لِلْمُصَابِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَعَ وَسَائِلِ الْإِنْقَاذِ الْأُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_061",
+      "arabic": "سِتْرَةُ نَجَاةٍ",
+      "meaning_ar": "مَلْبَسٌ عَائِمٌ يُسَاعِدُ الشَّخْصَ عَلَى الْبَقَاءِ فَوْقَ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ارْتِدَاءُ السِّتْرَةِ"
+      ],
+      "examples_ar": [
+        "لَبِسَ الرُّكَّابُ سُتَرَ النَّجَاةِ."
+      ],
+      "usage_note_ar": "يَجِبُ اخْتِيَارُ مَقَاسٍ مُنَاسِبٍ وَرَبْطُهَا صَحِيحًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_062",
+      "arabic": "طَوَّافَةُ نَجَاةٍ",
+      "meaning_ar": "وَسِيلَةٌ عَائِمَةٌ مُجَهَّزَةٌ لِإِيْوَاءِ أَشْخَاصٍ بَعْدَ مُغَادَرَةِ السَّفِينَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَتْحُ الطَّوَّافَةِ"
+      ],
+      "examples_ar": [
+        "تَدَرَّبَ الطَّاقَمُ عَلَى اسْتِعْمَالِ الطَّوَّافَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَنْتَفِخُ آليًّا عِنْدَ الْإِطْلَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_063",
+      "arabic": "إِشَارَةُ اسْتِغَاثَةٍ",
+      "meaning_ar": "رِسَالَةٌ تُعْلِنُ وُجُودَ خَطَرٍ جَسِيمٍ وَالْحَاجَةَ إِلَى مُسَاعَدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِرْسَالُ الِاسْتِغَاثَةِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الرُّبَّانُ إِشَارَةَ اسْتِغَاثَةٍ."
+      ],
+      "usage_note_ar": "يَجِبُ أَنْ تَكُونَ وَاضِحَةً وَتَصِلَ إِلَى الْجِهَاتِ الْمُنَاسِبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_064",
+      "arabic": "بَحْثٌ وَإِنْقَاذٌ بَحْرِيٌّ",
+      "meaning_ar": "عَمَلِيَّاتٌ تَهْدِفُ إِلَى تَحْدِيدِ الْمَفْقُودِينَ وَمُسَاعَدَتِهِمْ فِي الْبَحْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَرِيقُ الْإِنْقَاذِ"
+      ],
+      "examples_ar": [
+        "بَدَأَتِ الْفِرَقُ الْبَحْثَ عَنِ الْقَارِبِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَنْسِيقًا بَيْنَ السُّفُنِ وَالْجِهَاتِ الْمَسْؤُولَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_065",
+      "arabic": "رَادَارٌ بَحْرِيٌّ",
+      "meaning_ar": "جِهَازٌ يَكْشِفُ الْأَجْسَامَ بِانْعِكَاسِ مَوْجَاتٍ كَهْرُمَغْنَاطِيسِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَاشَةُ الرَّادَارِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَتْ سَفِينَةٌ قَرِيبَةٌ عَلَى الشَّاشَةِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى الْمِلَاحَةِ فِي الضَّبَابِ وَاللَّيْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_066",
+      "arabic": "جِهَازُ تَحْدِيدِ الْمَوْقِعِ",
+      "meaning_ar": "نِظَامٌ يَحْسِبُ مَوْقِعَ السَّفِينَةِ مِنْ إِشَارَاتِ الْأَقْمَارِ الصِّنَاعِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَثْبِيتُ الْمَوْقِعِ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْمَلَّاحُ إِحْدَاثِيَّاتِ الْقَارِبِ."
+      ],
+      "usage_note_ar": "يَجِبُ مُقَارَنَةُ قِرَاءَتِهِ بِمَصَادِرَ أُخْرَى عِنْدَ الْحَاجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_067",
+      "arabic": "نِظَامُ تَعَرُّفٍ آليٍّ لِلسُّفُنِ",
+      "meaning_ar": "نِظَامٌ يُبَادِلُ بَيَانَاتِ الْهُوِيَّةِ وَالْمَوْقِعِ وَالْحَرَكَةِ بَيْنَ السُّفُنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِشَارَةُ التَّعَرُّفِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الرُّبَّانُ سَفِينَةً مِنْ بَيَانَاتِهَا."
+      ],
+      "usage_note_ar": "يُكَمِّلُ الرَّادَارَ وَلَا يَحُلُّ مَحَلَّ الْمُرَاقَبَةِ الْبَصَرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_068",
+      "arabic": "اتِّصَالٌ لَاسِلْكِيٌّ بَحْرِيٌّ",
+      "meaning_ar": "تَبَادُلُ رَسَائِلَ صَوْتِيَّةٍ أَوْ رَقْمِيَّةٍ بَيْنَ السُّفُنِ وَالشَّاطِئِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَنَاةُ الِاتِّصَالِ"
+      ],
+      "examples_ar": [
+        "اتَّصَلَ الرُّبَّانُ بِسُلْطَةِ الْمِينَاءِ."
+      ],
+      "usage_note_ar": "تُحَدَّدُ قَنَوَاتٌ لِلسَّلَامَةِ وَالتَّنْسِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_069",
+      "arabic": "تَنَاوُبُ الْمُرَاقَبَةِ",
+      "meaning_ar": "تَوْزِيعُ أَوْقَاتِ مُتَابَعَةِ الْمِلَاحَةِ بَيْنَ أَفْرَادِ الطَّاقَمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ النَّوْبَةِ"
+      ],
+      "examples_ar": [
+        "تَسَلَّمَ الضَّابِطُ نَوْبَةَ اللَّيْلِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى نَقْلِ الْمَعْلُومَاتِ بَيْنَ الْمُنَاوِبِينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_070",
+      "arabic": "دَفْتَرُ الْمِلَاحَةِ",
+      "meaning_ar": "سِجِلٌّ تُدَوَّنُ فِيهِ أَحْدَاثُ الرِّحْلَةِ وَمَوَاقِعُ السَّفِينَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدْوِينُ الرِّحْلَةِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الضَّابِطُ حَالَةَ الْبَحْرِ وَالسُّرْعَةَ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُهُ الطَّاقَمُ لِلتَّوْثِيقِ وَالْمُرَاجَعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_071",
+      "arabic": "خُطَّةُ الْإِبْحَارِ",
+      "meaning_ar": "وَثِيقَةٌ تُحَدِّدُ الْمَسَارَ وَالنِّقَاطَ وَالْأَخْطَارَ قَبْلَ الرِّحْلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الْخُطَّةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الرُّبَّانُ الْمَسَارَ قَبْلَ الْمُغَادَرَةِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ بَدَائِلَ عِنْدَ تَغَيُّرِ الطَّقْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_072",
+      "arabic": "نُقْطَةُ تَحَوُّلٍ مِلَاحِيَّةٌ",
+      "meaning_ar": "مَوْضِعٌ مُحَدَّدٌ فِي الْمَسَارِ تَتَغَيَّرُ عِنْدَهُ جِهَةُ الْإِبْحَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ النُّقْطَةِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الرُّبَّانُ الِاتِّجَاهَ عِنْدَ النُّقْطَةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَقْسِيمِ الرِّحْلَةِ إِلَى مَرَاحِلَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_073",
+      "arabic": "مِنْطَقَةُ فَصْلِ الْمُرُورِ",
+      "meaning_ar": "مَمَرَّاتٌ بَحْرِيَّةٌ مُنَظَّمَةٌ تُسَاعِدُ عَلَى فَصْلِ اتِّجَاهَاتِ السُّفُنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَوَاعِدُ الْعُبُورِ"
+      ],
+      "examples_ar": [
+        "اتَّبَعَتِ السَّفِينَةُ الْمَمَرَّ الْمُخَصَّصَ لَهَا."
+      ],
+      "usage_note_ar": "تُقَلِّلُ الِاصْطِدَامَ فِي الْمَنَاطِقِ الْمُزْدَحِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_074",
+      "arabic": "مِنْطَقَةُ رُسُوٍّ",
+      "meaning_ar": "مَكَانٌ مُخَصَّصٌ لِوُقُوفِ السُّفُنِ عَلَى الْمَرْسَاةِ أَوْ قُرْبَ الرَّصِيفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الرُّسُوِّ"
+      ],
+      "examples_ar": [
+        "انْتَظَرَتِ السَّفِينَةُ فِي مِنْطَقَةِ الرُّسُوِّ."
+      ],
+      "usage_note_ar": "تُرَاعَى فِيهَا الأَعْمَاقُ وَالْأَحْوَالُ الْجَوِّيَّةُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_075",
+      "arabic": "مَرْفَأٌ طَبِيعِيٌّ",
+      "meaning_ar": "مَكَانٌ سَاحِلِيٌّ تَحْمِيهِ التَّضَارِيسُ مِنْ بَعْضِ الْأَمْوَاجِ وَالرِّيَاحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْمَرْفَإِ"
+      ],
+      "examples_ar": [
+        "دَخَلَ الْقَارِبُ مَرْفَأً طَبِيعِيًّا هَادِئًا."
+      ],
+      "usage_note_ar": "قَدْ تُضَافُ إِلَيْهِ مُنْشَآتٌ لِتَحْسِينِ الْخِدْمَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_076",
+      "arabic": "حَاجِزُ أَمْوَاجٍ",
+      "meaning_ar": "مَنْشَأَةٌ تَحْمِي الْمِينَاءَ مِنْ قُوَّةِ الْأَمْوَاجِ الْمُبَاشِرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طُولُ الْحَاجِزِ"
+      ],
+      "examples_ar": [
+        "خَفَّتْ حَرَكَةُ الْمَاءِ وَرَاءَ الْحَاجِزِ."
+      ],
+      "usage_note_ar": "تُصَمَّمُ وَفْقَ اتِّجَاهِ الرِّيَاحِ وَحَجْمِ الْمَوْجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_077",
+      "arabic": "مِدٌّ بَحْرِيٌّ",
+      "meaning_ar": "ارْتِفَاعٌ دَوْرِيٌّ فِي مُسْتَوَى مَاءِ الْبَحْرِ بِتَأْثِيرِ الْجَاذِبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْعِدُ الْمَدِّ"
+      ],
+      "examples_ar": [
+        "ارْتَفَعَ الْمَاءُ عِنْدَ الرَّصِيفِ صَبَاحًا."
+      ],
+      "usage_note_ar": "تَرْتَبِطُ دَوْرَتُهُ بِالْقَمَرِ وَالشَّمْسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_078",
+      "arabic": "جَزْرٌ بَحْرِيٌّ",
+      "meaning_ar": "انْخِفَاضٌ دَوْرِيٌّ فِي مُسْتَوَى الْمَاءِ بَيْنَ مَرَاحِلِ الْمَدِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْعِدُ الْجَزْرِ"
+      ],
+      "examples_ar": [
+        "انْكَشَفَ جُزْءٌ مِنَ الشَّاطِئِ عِنْدَ الْجَزْرِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي عُمْقِ الْمَمَرَّاتِ الْقَرِيبَةِ مِنَ السَّاحِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_079",
+      "arabic": "تَيَّارٌ مَدِّيٌّ",
+      "meaning_ar": "حَرَكَةُ الْمَاءِ الَّتِي تَنْشَأُ بِسَبَبِ تَغَيُّرِ الْمَدِّ وَالْجَزْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُرْعَةُ التَّيَّارِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الرُّبَّانُ سُرْعَتَهُ بِسَبَبِ التَّيَّارِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ اتِّجَاهُهُ وَقُوَّتُهُ خِلَالَ الدَّوْرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_080",
+      "arabic": "مَوْجَةٌ عَاتِيَةٌ",
+      "meaning_ar": "مَوْجَةٌ كَبِيرَةٌ وَقَوِيَّةٌ قَدْ تُشَكِّلُ خَطَرًا عَلَى السُّفُنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ارْتِفَاعُ الْمَوْجِ"
+      ],
+      "examples_ar": [
+        "احْتَمَى الْقَارِبُ مِنَ الْأَمْوَاجِ الْعَاتِيَةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالرِّيَاحِ وَالْعَوَاصِفِ وَالْعُمْقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_081",
+      "arabic": "ارْتِفَاعُ الْمَوْجِ",
+      "meaning_ar": "الْمَسَافَةُ الرَّأْسِيَّةُ بَيْنَ قِمَّةِ الْمَوْجَةِ وَقَاعِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْمَوْجِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الرَّصْدُ ارْتِفَاعَ الْمَوْجِ بِالأَمْتَارِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ قِيَمُهُ خِلَالَ الْعَاصِفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_082",
+      "arabic": "فَتْرَةُ الْمَوْجِ",
+      "meaning_ar": "الزَّمَنُ بَيْنَ مُرُورِ قِمَّتَيْنِ مُتَتَالِيَتَيْنِ بِنُقْطَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْفَتْرَةِ"
+      ],
+      "examples_ar": [
+        "حَسَبَ الْمَلَّاحُ فَتْرَةَ الْمَوْجِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي حَرَكَةِ السَّفِينَةِ وَاسْتِجَابَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_083",
+      "arabic": "رِيَاحٌ مُوَاتِيَةٌ",
+      "meaning_ar": "رِيَاحٌ تَهُبُّ بِاتِّجَاهٍ يُسَاعِدُ السَّفِينَةَ الشِّرَاعِيَّةَ عَلَى التَّقَدُّمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِغْلَالُ الرِّيَاحِ"
+      ],
+      "examples_ar": [
+        "أَبْحَرَ الْقَارِبُ مَعَ رِيَاحٍ مُوَاتِيَةٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ فَائِدَتُهَا بِحَسَبِ اتِّجَاهِ الشِّرَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_084",
+      "arabic": "رِيَاحٌ مُعَاكِسَةٌ",
+      "meaning_ar": "رِيَاحٌ تَهُبُّ فِي اتِّجَاهٍ يُصَعِّبُ سَيْرَ الْمَرْكَبِ أَوْ يُبْطِئُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُوَاجَهَةُ الرِّيَاحِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الرُّبَّانُ الْمَسَارَ لِتَجَنُّبِ الرِّيَاحِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْتَاجُ السَّفِينَةُ الشِّرَاعِيَّةُ إِلَى مَنَاوَرَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_085",
+      "arabic": "شِرَاعٌ رَئِيسِيٌّ",
+      "meaning_ar": "قِطْعَةُ قُمَاشٍ كَبِيرَةٌ تُثَبَّتُ عَلَى صَارِيَةٍ لِاسْتِغْلَالِ الرِّيحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَفْعُ الشِّرَاعِ"
+      ],
+      "examples_ar": [
+        "رَفَعَ الْبَحَّارُ الشِّرَاعَ عِنْدَ الْإِبْحَارِ."
+      ],
+      "usage_note_ar": "يَتَحَدَّدُ شَكْلُهُ بِحَسَبِ نَوْعِ الْقَارِبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_086",
+      "arabic": "صَارِيَةُ السَّفِينَةِ",
+      "meaning_ar": "عَمُودٌ طَوِيلٌ يُحْمَلُ عَلَيْهِ الشِّرَاعُ أَوْ أَجْهِزَةُ الْمُلَاحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ارْتِفَاعُ الصَّارِيَةِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْبَحَّارُ الْحَبْلَ فِي الصَّارِيَةِ."
+      ],
+      "usage_note_ar": "قَدْ تُصْنَعُ مِنَ الْخَشَبِ أَوِ الْمَعْدِنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_087",
+      "arabic": "حَبْلُ الشِّرَاعِ",
+      "meaning_ar": "حَبْلٌ يُسْتَعْمَلُ لِرَفْعِ الشِّرَاعِ أَوْ لِتَغْيِيرِ زَاوِيَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَدُّ الْحَبْلِ"
+      ],
+      "examples_ar": [
+        "شَدَّ الْبَحَّارُ الْحَبْلَ لِضَبْطِ الشِّرَاعِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ أَسْمَاءُ الْحِبَالِ بِحَسَبِ وَظَائِفِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_088",
+      "arabic": "مُنَاوَرَةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "حَرَكَةٌ مَقْصُودَةٌ لِتَغْيِيرِ سُرْعَةِ السَّفِينَةِ أَوِ اتِّجَاهِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَنْفِيذُ الْمُنَاوَرَةِ"
+      ],
+      "examples_ar": [
+        "نَفَّذَ الرُّبَّانُ مُنَاوَرَةً لِتَجَنُّبِ سَفِينَةٍ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَقْدِيرِ الْمَسَافَةِ وَالْوَقْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_089",
+      "arabic": "دَائِرَةُ الدَّوَرَانِ",
+      "meaning_ar": "مَسَارٌ تَقْطَعُهُ السَّفِينَةُ عِنْدَ تَغْيِيرِ الدَّفَّةِ بِزَاوِيَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الدَّوَرَانِ"
+      ],
+      "examples_ar": [
+        "احْتَاجَتِ السَّفِينَةُ إِلَى مَسَاحَةٍ وَاسِعَةٍ لِلدَّوَرَانِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ حَجْمُهَا عَلَى سُرْعَةِ السَّفِينَةِ وَتَصْمِيمِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_090",
+      "arabic": "مَسَافَةُ التَّوَقُّفِ الْبَحْرِيَّةِ",
+      "meaning_ar": "الْمَسَافَةُ الَّتِي تَقْطَعُهَا السَّفِينَةُ بَعْدَ بَدْءِ إِجْرَاءِ إِيقَافِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ التَّوَقُّفِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الرُّبَّانُ الْإِبْطَاءَ مُبَكِّرًا."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ طَوِيلَةً فِي السُّفُنِ الْكَبِيرَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_091",
+      "arabic": "اصْطِدَامٌ بَحْرِيٌّ",
+      "meaning_ar": "تَلَامُسٌ عَنِيفٌ بَيْنَ سَفِينَتَيْنِ أَوْ بَيْنَ سَفِينَةٍ وَعَائِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْعُ الِاصْطِدَامِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الرُّبَّانُ الْمَسَارَ لِمَنْعِ الِاصْطِدَامِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الْمُرَاقَبَةُ وَقَوَاعِدُ الْمُرُورِ عَلَى الْوِقَايَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_092",
+      "arabic": "جُنُوحُ السَّفِينَةِ",
+      "meaning_ar": "اسْتِقْرَارُ السَّفِينَةِ عَلَى قَاعٍ ضَحْلٍ أَوْ صُخُورٍ بِغَيْرِ قَصْدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَادِثُ الْجُنُوحِ"
+      ],
+      "examples_ar": [
+        "جَنَحَتِ السَّفِينَةُ قُرْبَ الشَّاطِئِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَطَلَّبُ الْخُرُوجُ تَخْفِيفَ الْحُمُولَةِ أَوْ مُسَاعَدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_093",
+      "arabic": "سَحْبُ سَفِينَةٍ",
+      "meaning_ar": "جَرُّ سَفِينَةٍ بِوَاسِطَةِ مَرْكَبٍ آخَرَ أَوْ مُعَدَّاتٍ خَاصَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَارِبُ السَّحْبِ"
+      ],
+      "examples_ar": [
+        "سَحَبَ الْقَارِبُ السَّفِينَةَ نَحْوَ الرَّصِيفِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي الْمَوَانِئِ وَفِي بَعْضِ حَالَاتِ الْعُطْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_094",
+      "arabic": "قَاطِرَةٌ بَحْرِيَّةٌ",
+      "meaning_ar": "سَفِينَةٌ صَغِيرَةٌ نِسْبِيًّا ذَاتُ قُوَّةِ دَفْعٍ كَبِيرَةٍ لِسَحْبِ السُّفُنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خِدْمَةُ الْقَاطِرَةِ"
+      ],
+      "examples_ar": [
+        "سَاعَدَتِ الْقَاطِرَةُ سَفِينَةً فِي الرُّسُوِّ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي مَنَاوَرَاتِ الْمَوَانِئِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_095",
+      "arabic": "تَسَرُّبٌ نَفْطِيٌّ",
+      "meaning_ar": "انْتِشَارُ نَفْطٍ خَارِجَ خَزَّانٍ أَوْ أُنْبُوبٍ إِلَى الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "احْتِوَاءُ التَّسَرُّبِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْفَرِيقُ حَوَاجِزَ حَوْلَ النَّفْطِ."
+      ],
+      "usage_note_ar": "يُمَثِّلُ خَطَرًا عَلَى الْأَحْيَاءِ الْبَحْرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_096",
+      "arabic": "حَاجِزٌ عَائِمٌ لِلنَّفْطِ",
+      "meaning_ar": "مَعَدَّةٌ تُحَدُّ مِنِ انْتِشَارِ النَّفْطِ عَلَى سَطْحِ الْمَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَشْرُ الْحَاجِزِ"
+      ],
+      "examples_ar": [
+        "أَحَاطَ الْفَرِيقُ بِالْبُقْعَةِ النَّفْطِيَّةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ فَعَّالِيَّتُهُ بِالرِّيَاحِ وَالْأَمْوَاجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_097",
+      "arabic": "تَلَوُّثٌ بَحْرِيٌّ",
+      "meaning_ar": "دُخُولُ مُلَوِّثَاتٍ إِلَى الْبِيئَةِ الْبَحْرِيَّةِ بِمَا يُؤْذِي الْأَحْيَاءَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَصْدُ التَّلَوُّثِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْبَاحِثُ عَيِّنَاتٍ مِنْ مَاءِ الْمِينَاءِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْمُخَلَّفَاتِ وَالنَّفْطَ وَالْمَوَادَّ الْكِيمِيَائِيَّةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_098",
+      "arabic": "سِجِلُّ النَّفْطِ",
+      "meaning_ar": "وَثِيقَةٌ تُدَوَّنُ فِيهَا عَمَلِيَّاتٌ تَتَعَلَّقُ بِمِيَاهٍ أَوْ مُخَلَّفَاتٍ نَفْطِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدْوِينُ الْعَمَلِيَّاتِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الضَّابِطُ تَصَرُّفَ الطَّاقَمِ فِي الْمُخَلَّفَاتِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مُتَطَلَّبَاتُهُ بِحَسَبِ نَوْعِ السَّفِينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_099",
+      "arabic": "تَفْتِيشٌ مِينَائِيٌّ",
+      "meaning_ar": "فَحْصُ سَفِينَةٍ فِي الْمِينَاءِ لِلتَّحَقُّقِ مِنْ سَلَامَتِهَا وَوَثَائِقِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِجْرَاءُ التَّفْتِيشِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْمُفَتِّشُ مُعَدَّاتِ الْإِنْقَاذِ."
+      ],
+      "usage_note_ar": "قَدْ يَشْمَلُ الْوَثَائِقَ وَأَجْهِزَةَ السَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_100",
+      "arabic": "إِذْنُ مُغَادَرَةِ الْمِينَاءِ",
+      "meaning_ar": "مُوَافَقَةٌ إِدَارِيَّةٌ تَسْمَحُ لِلسَّفِينَةِ بِمُوَاصَلَةِ رِحْلَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِلَامُ الْإِذْنِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى الرُّبَّانُ إِذْنَ الْمُغَادَرَةِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ شُرُوطُهُ بِحَسَبِ النِّظَامِ الْمَحَلِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_101",
+      "arabic": "مُخَالَفَةٌ مِلَاحِيَّةٌ",
+      "meaning_ar": "تَصَرُّفٌ يَخَالِفُ قَوَاعِدَ حَرَكَةِ السُّفُنِ أَوْ سَلَامَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الْمُخَالَفَةِ"
+      ],
+      "examples_ar": [
+        "حُقِّقَ فِي مُخَالَفَةٍ قُرْبَ الْمِينَاءِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْعُقُوبَاتُ وَالْإِجْرَاءَاتُ بَيْنَ الْبُلْدَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_102",
+      "arabic": "تَفْرِيغُ الْحُمُولَةِ",
+      "meaning_ar": "إِخْرَاجُ الْبَضَائِعِ مِنَ السَّفِينَةِ إِلَى الْمَرْفَإِ أَوْ وَسِيلَةِ نَقْلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَدْءُ التَّفْرِيغِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْعُمَّالُ تَفْرِيغَ الْحَاوِيَاتِ."
+      ],
+      "usage_note_ar": "تُرَاعَى فِيهِ أَوْزَانُ الْبَضَائِعِ وَتَوَازُنُ السَّفِينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_103",
+      "arabic": "تَحْمِيلٌ بَحْرِيٌّ",
+      "meaning_ar": "إِدْخَالُ الْبَضَائِعِ إِلَى السَّفِينَةِ وَتَرْتِيبُهَا لِلرِّحْلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ التَّحْمِيلِ"
+      ],
+      "examples_ar": [
+        "رَتَّبَ الْفَرِيقُ الْحَاوِيَاتِ عَلَى السَّفِينَةِ."
+      ],
+      "usage_note_ar": "يُرَاعَى فِيهِ ثَبَاتُ السَّفِينَةِ وَسَلَامَةُ الْحُمُولَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_104",
+      "arabic": "رَافِعَةُ حَاوِيَاتٍ",
+      "meaning_ar": "آلَةٌ كَبِيرَةٌ تُسْتَعْمَلُ لِرَفْعِ الْحَاوِيَاتِ مِنَ السُّفُنِ وَإِلَيْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِقْدَارُ حِمْلِ الرَّافِعَةِ"
+      ],
+      "examples_ar": [
+        "رَفَعَتِ الرَّافِعَةُ حَاوِيَةً مِنَ السَّفِينَةِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَحْدِيدِ الأَحْمَالِ وَمَرَاقِبَةِ السَّلَامَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_105",
+      "arabic": "مَحَطَّةُ حَاوِيَاتٍ",
+      "meaning_ar": "مِنْطَقَةٌ فِي الْمِينَاءِ تُخَزَّنُ وَتُنْقَلُ فِيهَا الْحَاوِيَاتُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ الْمَحَطَّةِ"
+      ],
+      "examples_ar": [
+        "نَقَلَتِ الْعَرَبَاتُ الْحَاوِيَاتِ إِلَى السَّاحَةِ."
+      ],
+      "usage_note_ar": "تُجَهَّزُ بِمَعَدَّاتٍ لِلرَّفْعِ وَالتَّرْتِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_106",
+      "arabic": "تَصْرِيحُ دُخُولِ الْمِينَاءِ",
+      "meaning_ar": "وَثِيقَةٌ أَوْ مُوَافَقَةٌ تُنَظِّمُ دُخُولَ سَفِينَةٍ أَوْ مَرْكَبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَلَبُ التَّصْرِيحِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْوَكِيلُ بَيَانَاتِ السَّفِينَةِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْجِهَةِ الْمُخْتَصَّةِ وَقَوَاعِدِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_107",
+      "arabic": "وَكِيلُ السَّفِينَةِ",
+      "meaning_ar": "جِهَةٌ تُمَثِّلُ مَصَالِحَ السَّفِينَةِ فِي الْمِينَاءِ وَتُنَسِّقُ خِدْمَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّصَالُ الْوَكِيلِ"
+      ],
+      "examples_ar": [
+        "حَجَزَ الْوَكِيلُ مَوْعِدَ الرُّسُوِّ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ فِي الْوَثَائِقِ وَالتَّمْوِينِ وَالْإِجْرَاءَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_108",
+      "arabic": "تَمْوِينُ السَّفِينَةِ",
+      "meaning_ar": "تَوْفِيرُ الْوَقُودِ وَالطَّعَامِ وَالْمَاءِ وَالْمُسْتَلْزَمَاتِ لِلطَّاقَمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّمْوِينِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتْ إِمْدَادَاتٌ إِلَى السَّفِينَةِ."
+      ],
+      "usage_note_ar": "يَجِبُ حِسَابُ الْمُدَّةِ وَعَدَدِ الرُّكَّابِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_109",
+      "arabic": "سُلْطَةُ الْمِينَاءِ",
+      "meaning_ar": "جِهَةٌ تُدِيرُ مَرَافِقَ الْمِينَاءِ أَوْ تُنَظِّمُ حَرَكَتَهُ وَخِدْمَاتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَعْلِيمَاتُ السُّلْطَةِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتْ سُلْطَةُ الْمِينَاءِ تَنْبِيهًا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ صَلَاحِيَّاتُهَا بِحَسَبِ الْقَوَانِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_110",
+      "arabic": "جَدْوَلُ وُصُولِ السُّفُنِ",
+      "meaning_ar": "قَائِمَةٌ تُحَدِّدُ مَوَاعِيدَ دُخُولِ السُّفُنِ الْمُتَوَقَّعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الْجَدْوَلِ"
+      ],
+      "examples_ar": [
+        "تَأَخَّرَ وُصُولُ السَّفِينَةِ بِسَبَبِ الطَّقْسِ."
+      ],
+      "usage_note_ar": "يُحَدَّثُ بِاسْتِمْرَارٍ حَسَبَ حَرَكَةِ الْمِينَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_111",
+      "arabic": "مَوْعِدُ الْإِبْحَارِ",
+      "meaning_ar": "الْوَقْتُ الْمُقَرَّرُ لِمُغَادَرَةِ السَّفِينَةِ مِنَ الْمَرْفَإِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَغْيِيرُ الْمَوْعِدِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَتِ الشَّرِكَةُ مَوْعِدَ الْإِبْحَارِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَغَيَّرُ بِالطَّقْسِ وَالْإِجْرَاءَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_112",
+      "arabic": "فُرْجَةُ الْمَدِّ",
+      "meaning_ar": "فَتْرَةٌ يَسْمَحُ فِيهَا مُسْتَوَى الْمَاءِ بِمُرُورِ سَفِينَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الْفُرْجَةِ"
+      ],
+      "examples_ar": [
+        "انْتَظَرَ الرُّبَّانُ ارْتِفَاعَ الْمَاءِ."
+      ],
+      "usage_note_ar": "تُحْسَبُ بِالْمُقَارَنَةِ بَيْنَ الْغَاطِسِ وَالْعُمْقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_113",
+      "arabic": "تَسْجِيلُ السَّفِينَةِ",
+      "meaning_ar": "إِدْرَاجُ السَّفِينَةِ فِي سِجِلٍّ رَسْمِيٍّ تَحْتَ عَلَمِ دَوْلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَثِيقَةُ التَّسْجِيلِ"
+      ],
+      "examples_ar": [
+        "حَمَلَتِ السَّفِينَةُ عَلامَاتِ تَسْجِيلِهَا."
+      ],
+      "usage_note_ar": "يُحَدِّدُ صِلَتَهَا بِدَوْلَةِ الْعَلَمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_114",
+      "arabic": "دَوْلَةُ الْعَلَمِ",
+      "meaning_ar": "الدَّوْلَةُ الَّتِي تُسَجَّلُ فِيهَا السَّفِينَةُ وَتَرْفَعُ عَلَمَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَوَانِينُ الْعَلَمِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُفَتِّشُ وَثَائِقَ دَوْلَةِ الْعَلَمِ."
+      ],
+      "usage_note_ar": "تَتَحَمَّلُ مَسْؤُولِيَّاتٍ تَنْظِيمِيَّةً تُجَاهَ السَّفِينَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_115",
+      "arabic": "مِنْطَقَةٌ اقْتِصَادِيَّةٌ خَالِصَةٌ",
+      "meaning_ar": "مَنْطِقَةٌ بَحْرِيَّةٌ لِلْدَّوْلَةِ السَّاحِلِيَّةِ فِيهَا حُقُوقٌ مَحْدُودَةٌ فِي الْمَوَارِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُدُودُ الْمِنْطَقَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ خَرَائِطَ الْمَنَاطِقِ الْبَحْرِيَّةِ."
+      ],
+      "usage_note_ar": "لَا تُمَاثِلُ الْمِيَاهَ الْإِقْلِيمِيَّةَ فِي نِطَاقِ السِّيَادَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_116",
+      "arabic": "مِيَاهٌ إِقْلِيمِيَّةٌ",
+      "meaning_ar": "حِزَامٌ مِنَ الْبَحْرِ قَرِيبٌ مِنَ السَّاحِلِ تَمْتَدُّ إِلَيْهِ سِيَادَةُ الدَّوْلَةِ بِشُرُوطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُدُودُ الْمِيَاهِ"
+      ],
+      "examples_ar": [
+        "عَبَرَتِ السَّفِينَةُ الْمِيَاهَ الْإِقْلِيمِيَّةَ."
+      ],
+      "usage_note_ar": "تُنَظِّمُ الْقَوَانِينُ الدَّوْلِيَّةُ بَعْضَ حُقُوقِ الْمُرُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_maritime_navigation_20261027_117",
+      "arabic": "مِيَاهٌ دَوْلِيَّةٌ",
+      "meaning_ar": "مَنَاطِقُ بَحْرِيَّةٌ لَا تَقَعُ دَاخِلَ السِّيَادَةِ الْإِقْلِيمِيَّةِ لِدَوْلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الْمِلَاحَةُ الْحُرَّةُ"
+      ],
+      "examples_ar": [
+        "أَبْحَرَتِ السَّفِينَةُ فِي مِيَاهٍ بَعِيدَةٍ عَنِ السَّوَاحِلِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ النِّظَامُ الْقَانُونِيُّ بِحَسَبِ الْمَنْطِقَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_maritime_navigation_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
