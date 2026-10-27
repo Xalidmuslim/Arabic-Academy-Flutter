@@ -1,0 +1,5374 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_communication_media_20261027_001",
+      "arabic": "اتِّصَالٌ مُؤَسَّسِيٌّ",
+      "meaning_ar": "تَبَادُلُ الْمَعْلُومَاتِ بَيْنَ الْمُؤَسَّسَةِ وَجَمَاهِيرِهَا الدَّاخِلِيَّةِ وَالْخَارِجِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ الِاتِّصَالِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْفَرِيقُ خُطَّةً لِتَوْضِيحِ الْقَرَارِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْمُوَظَّفِينَ وَالْعُمَلَاءَ وَالْجُمْهُورَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_002",
+      "arabic": "اتِّصَالٌ دَاخِلِيٌّ",
+      "meaning_ar": "تَبَادُلُ الرَّسَائِلِ وَالْمَعْلُومَاتِ بَيْنَ أَفْرَادِ مُؤَسَّسَةٍ وَفِرَقِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَنَوَاتُ الِاتِّصَالِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُدِيرُ تَعْمِيمًا إِلَى الْمُوَظَّفِينَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَنْسِيقِ الْعَمَلِ وَنَقْلِ الْقَرَارَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_003",
+      "arabic": "اتِّصَالٌ خَارِجِيٌّ",
+      "meaning_ar": "تَبَادُلُ الْمَعْلُومَاتِ بَيْنَ الْمُؤَسَّسَةِ وَجِهَاتٍ خَارِجَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رِسَالَةٌ خَارِجِيَّةٌ"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الشَّرِكَةُ بَيَانًا لِلْعُمَلَاءِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ لُغَتُهُ وَقَنَوَاتُهُ بِحَسَبِ الْجُمْهُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_004",
+      "arabic": "اتِّصَالٌ شَفَهِيٌّ",
+      "meaning_ar": "نَقْلُ الْمَعْلُومَاتِ بِالْكَلَامِ الْمَسْمُوعِ بَيْنَ الأَشْخَاصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَهَارَةُ الِاتِّصَالِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُدِيرُ الْخُطَّةَ فِي اجْتِمَاعٍ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْمُحَادَثَةَ وَالْخِطَابَ وَالْهَاتِفَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_005",
+      "arabic": "اتِّصَالٌ غَيْرُ لَفْظِيٍّ",
+      "meaning_ar": "تَبْلِيغُ مَعَانٍ بِالْإِشَارَاتِ وَالتَّعْبِيرَاتِ وَحَرَكَةِ الْجَسَدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِشَارَاتُ الْوَجْهِ"
+      ],
+      "examples_ar": [
+        "فَهِمَ الطَّالِبُ الْمُوَافَقَةَ مِنْ حَرَكَةِ الرَّأْسِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ دَلَالَتُهُ بَيْنَ الثَّقَافَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_006",
+      "arabic": "اتِّصَالٌ جَمَاهِيرِيٌّ",
+      "meaning_ar": "نَشْرُ رَسَائِلَ إِلَى جُمْهُورٍ وَاسِعٍ بِوَسَائِطَ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَسَائِلُ الِاتِّصَالِ"
+      ],
+      "examples_ar": [
+        "بَثَّتِ الْقَنَاةُ رِسَالَةً تَوْعَوِيَّةً."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْبَثَّ وَالصُّحُفَ وَالْمَنَصَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_007",
+      "arabic": "اتِّصَالٌ تَفَاعُلِيٌّ",
+      "meaning_ar": "تَبَادُلُ رَسَائِلَ يَسْتَطِيعُ فِيهِ كُلُّ طَرَفٍ أَنْ يَرُدَّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَنَاةٌ تَفَاعُلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "أَجَابَ الْمُقَدِّمُ عَنْ أَسْئِلَةِ الْمُتَابِعِينَ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْبَثِّ أُحَادِيِّ الِاتِّجَاهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_008",
+      "arabic": "اتِّصَالٌ مُتَزَامِنٌ",
+      "meaning_ar": "تَبَادُلُ رَسَائِلَ يَحْدُثُ فِي الْوَقْتِ نَفْسِهِ بَيْنَ الْمُشَارِكِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اجْتِمَاعٌ مُبَاشِرٌ"
+      ],
+      "examples_ar": [
+        "تَحَدَّثَ الْفَرِيقُ عَبْرَ مُكَالَمَةٍ مَرْئِيَّةٍ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَوَافُرِ الأَطْرَافِ فِي وَقْتٍ وَاحِدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_009",
+      "arabic": "اتِّصَالٌ غَيْرُ مُتَزَامِنٍ",
+      "meaning_ar": "تَبَادُلُ رَسَائِلَ يَسْتَطِيعُ الْمُسْتَقْبِلُ قِرَاءَتَهَا لَاحِقًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رِسَالَةٌ مُؤَجَّلَةٌ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُعَلِّمُ تَعْلِيمَاتٍ بِالْبَرِيدِ."
+      ],
+      "usage_note_ar": "لَا يَلْزَمُ فِيهِ حُضُورُ الطَّرَفَيْنِ فِي وَقْتٍ وَاحِدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_010",
+      "arabic": "رِسَالَةٌ إِعْلَامِيَّةٌ",
+      "meaning_ar": "مَضْمُونٌ يُعَدُّ لِإِيصَالِ مَعْلُومَةٍ أَوْ فِكْرَةٍ إِلَى جُمْهُورٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِيَاغَةُ الرِّسَالَةِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْفَرِيقُ رِسَالَةً تَوْعَوِيَّةً قَصِيرَةً."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ فَعَّالِيَّتُهَا بِالْوُضُوحِ وَالْمَلَاءَمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_011",
+      "arabic": "جُمْهُورٌ مُسْتَهْدَفٌ",
+      "meaning_ar": "مَجْمُوعَةُ الأَشْخَاصِ الَّذِينَ تُوَجَّهُ إِلَيْهِمْ رِسَالَةٌ أَوْ خِدْمَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْجُمْهُورِ"
+      ],
+      "examples_ar": [
+        "خَصَّصَ الْفَرِيقُ الْمَحْتَوَى لِلْآبَاءِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ التَّعْبِيرُ بِحَسَبِ حَاجَاتِ الْمُتَلَقِّينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_012",
+      "arabic": "تَجْزِئَةُ الْجُمْهُورِ",
+      "meaning_ar": "تَقْسِيمُ الْمُتَلَقِّينَ إِلَى فِئَاتٍ بِحَسَبِ صِفَاتٍ مُشْتَرَكَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَرَائِحُ الْجُمْهُورِ"
+      ],
+      "examples_ar": [
+        "قَسَّمَ الْفَرِيقُ الْمُشَاهِدِينَ حَسَبَ الِاهْتِمَامِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَخْصِيصِ الرَّسَائِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_013",
+      "arabic": "نَبْرَةُ الرِّسَالَةِ",
+      "meaning_ar": "الطَّابِعُ الْعَاطِفِيُّ أَوِ الرَّسْمِيُّ الَّذِي يَظْهَرُ فِي الْكَلَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ النَّبْرَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْمُقَدِّمُ نَبْرَةً هَادِئَةً."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ رَسْمِيَّةً أَوْ وَدِّيَّةً أَوْ تَحْذِيرِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_014",
+      "arabic": "صِيَاغَةٌ تَحْرِيرِيَّةٌ",
+      "meaning_ar": "اخْتِيَارُ الأَلْفَاظِ وَتَرْتِيبُهَا لِتَقْدِيمِ مَعْنًى بِوُضُوحٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الصِّيَاغَةِ"
+      ],
+      "examples_ar": [
+        "عَدَّلَ الْمُحَرِّرُ الْفِقْرَةَ لِتَكُونَ أَوْضَحَ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْغَرَضِ وَالْجُمْهُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_015",
+      "arabic": "سِيَاسَةٌ تَحْرِيرِيَّةٌ",
+      "meaning_ar": "قَوَاعِدُ تُنَظِّمُ اخْتِيَارَ الْمَوَاضِيعِ وَنَشْرَهَا فِي وَسِيلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَعَايِيرُ النَّشْرِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْمَجَلَّةُ سِيَاسَةً تَحْرِيرِيَّةً."
+      ],
+      "usage_note_ar": "يَجِبُ تَمْيِيزُهَا عَنِ الْإِعْلَانِ التِّجَارِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_016",
+      "arabic": "مِيثَاقٌ إِعْلَامِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ مَبَادِئَ أَخْلَاقِيَّةٍ تَوَجِّهُ الْعَمَلَ الصَّحَفِيَّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "احْتِرَامُ الْمِيثَاقِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الصَّحَفِيُّ مَبَادِئَ الدِّقَّةِ وَالْإِنْصَافِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالْحَقِيقَةِ وَالْخُصُوصِيَّةِ وَالْمَسْؤُولِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_017",
+      "arabic": "مَصْدَرٌ صَحَفِيٌّ",
+      "meaning_ar": "شَخْصٌ أَوْ وَثِيقَةٌ أَوْ جِهَةٌ تُقَدِّمُ مَعْلُومَاتٍ لِلصَّحَفِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "التَّحَقُّقُ مِنَ الْمَصْدَرِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الْمُحَرِّرُ الْمَصْدَرَ عَنِ التَّفَاصِيلِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مَوْثُوقِيَّتُهُ بِحَسَبِ الْمَوْضُوعِ وَالدَّلِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_018",
+      "arabic": "مَصْدَرٌ أَوَّلِيٌّ",
+      "meaning_ar": "شَاهِدٌ أَوْ وَثِيقَةٌ مُبَاشِرَةٌ تَرْتَبِطُ بِالْحَدَثِ أَوِ الدِّرَاسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رُجُوعٌ إِلَى الْمَصْدَرِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْبَاحِثُ الْوَثِيقَةَ الأَصْلِيَّةَ."
+      ],
+      "usage_note_ar": "يُفَضَّلُ فَحْصُهُ قَبْلَ نَقْلِ الْمَعْلُومَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_019",
+      "arabic": "مَصْدَرٌ ثَانَوِيٌّ",
+      "meaning_ar": "مَادَّةٌ تَشْرَحُ أَوْ تُحَلِّلُ مَعْلُومَاتٍ مَأْخُوذَةً مِنْ مَصَادِرَ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ التَّحْلِيلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ التَّقْرِيرَ بِالْوَثِيقَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ قِيمَتُهُ بِحَسَبِ الْمَنْهَجِ وَالدِّقَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_020",
+      "arabic": "مَصْدَرٌ مَجْهُولٌ",
+      "meaning_ar": "جِهَةٌ تُقَدِّمُ مَعْلُومَاتٍ دُونَ كَشْفِ هُوِيَّتِهَا لِلْجُمْهُورِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْمَصْدَرِ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الْمَصْدَرُ عَدَمَ نَشْرِ اسْمِهِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ أَقْوَالُهُ إِلَى تَحَقُّقٍ مُسْتَقِلٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_021",
+      "arabic": "شَاهِدُ عِيَانٍ",
+      "meaning_ar": "شَخْصٌ حَضَرَ حَدَثًا وَرَآهُ أَوْ سَمِعَهُ مُبَاشَرَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رِوَايَةُ الشَّاهِدِ"
+      ],
+      "examples_ar": [
+        "وَصَفَ الشَّاهِدُ مَا رَآهُ فِي الشَّارِعِ."
+      ],
+      "usage_note_ar": "قَدْ تَكُونُ ذَاكِرَتُهُ غَيْرَ كَامِلَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_022",
+      "arabic": "تَحَقُّقٌ مِنَ الْوَقَائِعِ",
+      "meaning_ar": "فَحْصُ الِادِّعَاءَاتِ بِالْعَوْدَةِ إِلَى الأَدِلَّةِ وَالْمَصَادِرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدْقِيقُ الْخَبَرِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الصَّحَفِيُّ تَارِيخَ الصُّورَةِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ سِيَاقَ الْمَعْلُومَةِ وَمَصْدَرَهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_023",
+      "arabic": "تَحَقُّقٌ بَصَرِيٌّ",
+      "meaning_ar": "فَحْصُ صُوَرٍ أَوْ مَقَاطِعَ لِتَحْدِيدِ سِيَاقِهَا وَصِحَّتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُقَارَنَةُ الْمَعَالِمِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَرِّرُ الْمَبَانِيَ فِي الصُّورَةِ."
+      ],
+      "usage_note_ar": "لَا يَكْفِي فِيهِ الْمَظْهَرُ وَحْدَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_024",
+      "arabic": "تَحْدِيدُ الْمَوْقِعِ الْجُغْرَافِيِّ",
+      "meaning_ar": "اسْتِدْلَالٌ عَلَى مَكَانِ الْحَدَثِ بِالْخَرَائِطِ وَالْعَلَامَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُطَابَقَةُ الْمَعَالِمِ"
+      ],
+      "examples_ar": [
+        "عَرَفَ الْبَاحِثُ مَوْضِعَ الشَّارِعِ مِنَ الصُّورَةِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى أَدِلَّةٍ بَصَرِيَّةٍ مُتَعَدِّدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_025",
+      "arabic": "سِيَاقُ الْخَبَرِ",
+      "meaning_ar": "الظُّرُوفُ وَالْمَعْلُومَاتُ الْمُحِيطَةُ بِحَدَثٍ تُسَاعِدُ عَلَى فَهْمِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَهْمُ السِّيَاقِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الْمُحَرِّرُ مَا سَبَقَ الْقَرَارَ."
+      ],
+      "usage_note_ar": "حَذْفُهُ قَدْ يُغَيِّرُ مَعْنَى الْخَبَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_026",
+      "arabic": "عُنْوَانٌ صَحَفِيٌّ",
+      "meaning_ar": "عِبَارَةٌ قَصِيرَةٌ تُقَدِّمُ الْمَوْضُوعَ الرَّئِيسِيَّ لِلْمَادَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِيَاغَةُ الْعُنْوَانِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْمُحَرِّرُ عُنْوَانًا دَقِيقًا."
+      ],
+      "usage_note_ar": "يَجِبُ أَلَّا يُضَلِّلَ الْقَارِئَ بِالْمُبَالَغَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_027",
+      "arabic": "عُنْوَانٌ فَرْعِيٌّ",
+      "meaning_ar": "نَصٌّ قَصِيرٌ يُوَضِّحُ جُزْءًا مِنْ مَوْضُوعٍ أَوْ يَقْسِمُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَنْظِيمُ الْفَقَرَاتِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْكَاتِبُ عُنْوَانًا لِكُلِّ قِسْمٍ."
+      ],
+      "usage_note_ar": "يُسَهِّلُ قِرَاءَةَ النُّصُوصِ الطَّوِيلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_028",
+      "arabic": "مُقَدِّمَةٌ خَبَرِيَّةٌ",
+      "meaning_ar": "فِقْرَةٌ أُولَى تَلَخِّصُ أَهَمَّ مَا فِي الْخَبَرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كِتَابَةُ الْمُقَدِّمَةِ"
+      ],
+      "examples_ar": [
+        "ذَكَرَ الصَّحَفِيُّ مَكَانَ الْحَدَثِ وَزَمَنَهُ."
+      ],
+      "usage_note_ar": "تُرَتَّبُ فِيهَا الْمَعْلُومَاتُ حَسَبَ الأَهَمِّيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_029",
+      "arabic": "مَتْنُ الْخَبَرِ",
+      "meaning_ar": "جُزْءُ الْمَقَالِ الَّذِي يَضُمُّ التَّفَاصِيلَ وَالْخَلْفِيَّاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْرِيرُ الْمَتْنِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الصَّحَفِيُّ أَقْوَالَ الشُّهُودِ."
+      ],
+      "usage_note_ar": "يُكْمِلُ الْمُقَدِّمَةَ بِأَدِلَّةٍ وَشُرُوحٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_030",
+      "arabic": "هَرَمٌ مَقْلُوبٌ صَحَفِيٌّ",
+      "meaning_ar": "أُسْلُوبٌ فِي الْكِتَابَةِ يَضَعُ أَهَمَّ الْمَعْلُومَاتِ فِي الْبِدَايَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بِنَاءُ الْخَبَرِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْمُحَرِّرُ بِالنَّتِيجَةِ ثُمَّ التَّفَاصِيلِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى الِاخْتِصَارِ دُونَ فَقْدِ الأَسَاسِيَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_031",
+      "arabic": "تَقْرِيرٌ مَيْدَانِيٌّ",
+      "meaning_ar": "مَادَّةٌ إِعْلَامِيَّةٌ تُعَدُّ بِالْجَمْعِ الْمُبَاشِرِ لِلْمَعْلُومَاتِ مِنَ الْمَوْقِعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاسِلٌ مَيْدَانِيٌّ"
+      ],
+      "examples_ar": [
+        "زَارَ الْصَّحَفِيُّ مَكَانَ الْحَدَثِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى التَّثَبُّتِ وَالْمُرَاعَاةِ الأَخْلَاقِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_032",
+      "arabic": "تَحْقِيقٌ اسْتِقْصَائِيٌّ",
+      "meaning_ar": "عَمَلٌ صَحَفِيٌّ مُعَمَّقٌ يَبْحَثُ وَقَائِعَ غَيْرَ وَاضِحَةٍ بِالأَدِلَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِلَفُّ التَّحْقِيقِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْفَرِيقُ الْعُقُودَ وَالسِّجِلَّاتِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَوْثِيقًا وَتَحَقُّقًا دَقِيقًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_033",
+      "arabic": "مُقَابَلَةٌ صَحَفِيَّةٌ",
+      "meaning_ar": "حِوَارٌ مُنَظَّمٌ يُجْرِيهِ صَحَفِيٌّ مَعَ ضَيْفٍ لِجَمْعِ مَعْلُومَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَسْئِلَةُ الْمُقَابَلَةِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الصَّحَفِيُّ الْخَبِيرَ عَنْ الْخُطَّةِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَحْضِيرٍ وَاسْتِمَاعٍ دَقِيقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_034",
+      "arabic": "مُؤْتَمَرٌ صَحَفِيٌّ",
+      "meaning_ar": "لِقَاءٌ مُنَظَّمٌ تُقَدَّمُ فِيهِ مَعْلُومَاتٌ لِلصَّحَفِيِّينَ وَأَسْئِلَتُهُمْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَغْطِيَةُ الْمُؤْتَمَرِ"
+      ],
+      "examples_ar": [
+        "أَجَابَ الْمَسْؤُولُ عَنْ أَسْئِلَةِ الْمُرَاسِلِينَ."
+      ],
+      "usage_note_ar": "تُسَجَّلُ فِيهِ التَّصْرِيحَاتُ لِلْمُرَاجَعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_035",
+      "arabic": "بَيَانٌ صَحَفِيٌّ",
+      "meaning_ar": "نَصٌّ رَسْمِيٌّ تُوَزِّعُهُ جِهَةٌ لِإِبْلَاغِ الْإِعْلَامِ بِمَعْلُومَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِصْدَارُ الْبَيَانِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَتِ الْجِهَةُ بَيَانًا عَنِ الْمَشْرُوعِ."
+      ],
+      "usage_note_ar": "يُعَدُّ مَصْدَرًا يَحْتَاجُ إِلَى تَحَقُّقٍ عِنْدَ الضَّرُورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_036",
+      "arabic": "تَصْرِيحٌ صَحَفِيٌّ",
+      "meaning_ar": "قَوْلٌ يَنْسِبُهُ النَّاشِرُ إِلَى شَخْصٍ بِشَأْنِ حَدَثٍ أَوْ قَرَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَصُّ التَّصْرِيحِ"
+      ],
+      "examples_ar": [
+        "أَدْلَى الْمَسْؤُولُ بِتَصْرِيحٍ حَوْلَ الْمَوْضُوعِ."
+      ],
+      "usage_note_ar": "يَجِبُ الْفَصْلُ بَيْنَ الْقَوْلِ وَالتَّعْلِيقِ عَلَيْهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_037",
+      "arabic": "اقْتِبَاسٌ مُبَاشِرٌ",
+      "meaning_ar": "نَقْلُ كَلَامِ شَخْصٍ بِأَلْفَاظِهِ الأَصْلِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَلَامَتَا التَّنْصِيصِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْمُحَرِّرُ قَوْلَ الْخَبِيرِ بِنَصِّهِ."
+      ],
+      "usage_note_ar": "يَجِبُ الْحِفَاظُ عَلَى مَعْنَاهُ وَسِيَاقِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_038",
+      "arabic": "اقْتِبَاسٌ غَيْرُ مُبَاشِرٍ",
+      "meaning_ar": "عَرْضُ مَعْنَى كَلَامٍ بِصِيَاغَةٍ جَدِيدَةٍ مَعَ نِسْبَتِهِ إِلَى صَاحِبِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِيَاغَةُ الْقَوْلِ"
+      ],
+      "examples_ar": [
+        "لَخَّصَ الصَّحَفِيُّ مَا أَوْضَحَهُ الْمَسْؤُولُ."
+      ],
+      "usage_note_ar": "لَا يَصِحُّ تَحْرِيفُ الْمَضْمُونِ عِنْدَ إِعَادَةِ الصِّيَاغَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_039",
+      "arabic": "إِسْنَادُ الْمَعْلُومَةِ",
+      "meaning_ar": "ذِكْرُ الْجِهَةِ أَوِ الشَّخْصِ الَّذِي تَأْتِي مِنْهُ الْمَعْلُومَةُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِسْبَةُ الْمَعْلُومَةِ"
+      ],
+      "examples_ar": [
+        "نَسَبَ الصَّحَفِيُّ الرَّقْمَ إِلَى التَّقْرِيرِ."
+      ],
+      "usage_note_ar": "يُسَهِّلُ التَّحَقُّقَ وَيَمْنَعُ تَوْهُّمَ الْيَقِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_040",
+      "arabic": "حَقُّ الرَّدِّ",
+      "meaning_ar": "فُرْصَةٌ تُتَاحُ لِشَخْصٍ لِلتَّعْلِيقِ عَلَى ادِّعَاءٍ يَتَعَلَّقُ بِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ الرَّدِّ"
+      ],
+      "examples_ar": [
+        "طَلَبَ الْمُحَرِّرُ رَدَّ الطَّرَفِ الْمَعْنِيِّ."
+      ],
+      "usage_note_ar": "يُعَزِّزُ الْإِنْصَافَ فِي التَّغْطِيَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_041",
+      "arabic": "تَصْحِيحٌ صَحَفِيٌّ",
+      "meaning_ar": "بَيَانٌ يُصْدَرُ لِإِصْلَاحِ خَطَإٍ فِي مَادَّةٍ مَنْشُورَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَشْرُ التَّصْحِيحِ"
+      ],
+      "examples_ar": [
+        "صَحَّحَتِ الْمَجَلَّةُ تَارِيخًا غَيْرَ دَقِيقٍ."
+      ],
+      "usage_note_ar": "يُفَضَّلُ تَوْضِيحُ نَوْعِ الْخَطَإِ بِصَرَاحَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_042",
+      "arabic": "سَحْبُ الْمَادَّةِ",
+      "meaning_ar": "إِزَالَةُ مَادَّةٍ مَنْشُورَةٍ أَوْ وَقْفُ تَوْزِيعِهَا لِسَبَبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَرَارُ السَّحْبِ"
+      ],
+      "examples_ar": [
+        "سَحَبَتِ الْمَجَلَّةُ مَقَالًا بَعْدَ الْمُرَاجَعَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ تَصْحِيحِ خَطَإٍ صَغِيرٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_043",
+      "arabic": "مَعْلُومَةٌ مُضَلِّلَةٌ",
+      "meaning_ar": "مَضْمُونٌ يُعْطِي انْطِبَاعًا غَيْرَ صَحِيحٍ لِسَبَبٍ فِي الصِّيَاغَةِ أَوِ السِّيَاقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كَشْفُ التَّضْلِيلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ الِادِّعَاءَ بِالْبَيَانَاتِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ خَاطِئًا دُونَ قَصْدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_044",
+      "arabic": "مَعْلُومَةٌ مُفَبْرَكَةٌ",
+      "meaning_ar": "مَضْمُونٌ صُنِعَ أَوْ غُيِّرَ عَمْدًا لِإِظْهَارِ وَاقِعَةٍ غَيْرِ حَقِيقِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كَشْفُ التَّفْبِرِكِ"
+      ],
+      "examples_ar": [
+        "اخْتَبَرَ الْمُحَرِّرُ صِحَّةَ الْمَقْطَعِ."
+      ],
+      "usage_note_ar": "تُحْتَاجُ إِلَى أَدِلَّةٍ قَبْلَ الْجَزْمِ بِالتَّزْوِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_045",
+      "arabic": "تَضْلِيلٌ بِالسِّيَاقِ",
+      "meaning_ar": "عَرْضُ مَعْلُومَةٍ صَحِيحَةٍ فِي إِطَارٍ يُغَيِّرُ مَعْنَاهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ السِّيَاقِ"
+      ],
+      "examples_ar": [
+        "نُشِرَتِ الصُّورَةُ بِتَارِيخٍ غَيْرِ صَحِيحٍ."
+      ],
+      "usage_note_ar": "قَدْ يَنْشَأُ مِنْ حَذْفِ جُزْءٍ مُهِمٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_046",
+      "arabic": "انْتِحَالُ هُوِيَّةٍ إِعْلَامِيَّةٍ",
+      "meaning_ar": "ادِّعَاءُ التَّحَدُّثِ بِاسْمِ جِهَةٍ إِعْلَامِيَّةٍ دُونَ حَقٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابٌ مُزَيَّفٌ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْمُنْتَحِلُ شِعَارًا مُشَابِهًا."
+      ],
+      "usage_note_ar": "يُسْتَدَلُّ عَلَيْهِ بِالتَّحَقُّقِ مِنَ الْقَنَوَاتِ الرَّسْمِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_047",
+      "arabic": "صُورَةٌ مُعَدَّلَةٌ",
+      "meaning_ar": "مَشْهَدٌ بَصَرِيٌّ خَضَعَ لِتَغْيِيرٍ بِأَدَوَاتِ الْمُعَالَجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَارِيخُ التَّعْدِيلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَرِّرُ الصُّورَةَ بِالأَصْلِ."
+      ],
+      "usage_note_ar": "لَيْسَ كُلُّ تَعْدِيلٍ دَلِيلًا عَلَى التَّضْلِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_048",
+      "arabic": "مَقْطَعٌ مُجْتَزَأٌ",
+      "meaning_ar": "جُزْءٌ مَقْطُوعٌ مِنْ تَسْجِيلٍ أَطْوَلَ قَدْ يَنْقُصُهُ السِّيَاقُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِعَادَةُ الْمَقْطَعِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الْمُحَرِّرُ التَّسْجِيلَ الْكَامِلَ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يُغَيِّرَ الْقَطْعُ مَعْنَى الْعِبَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_049",
+      "arabic": "تَوْلِيدٌ صَوْتِيٌّ",
+      "meaning_ar": "إِنْشَاءُ كَلَامٍ أَوْ أَصْوَاتٍ بِاسْتِخْدَامِ بَرَامِجَ حَاسُوبِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صَوْتٌ مُوَلَّدٌ"
+      ],
+      "examples_ar": [
+        "أَنْتَجَ الْبَرْنَامَجُ قِرَاءَةً صَوْتِيَّةً."
+      ],
+      "usage_note_ar": "يَجِبُ التَّمْيِيزُ بَيْنَ الصَّوْتِ الْبَشَرِيِّ وَالْمُوَلَّدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_050",
+      "arabic": "تَوْلِيدٌ مَرْئِيٌّ",
+      "meaning_ar": "إِنْشَاءُ صُوَرٍ أَوْ مَشَاهِدَ بِأَنْظِمَةٍ رَقْمِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَشْهَدٌ مُوَلَّدٌ"
+      ],
+      "examples_ar": [
+        "أَنْشَأَ الْمُصَمِّمُ صُورَةً بِالْحَاسُوبِ."
+      ],
+      "usage_note_ar": "يَسْتَحْسِنُ بَيَانُ طَبِيعَةِ الْمَحْتَوَى عِنْدَ الْحَاجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_051",
+      "arabic": "تَزْيِيفٌ عَمِيقٌ",
+      "meaning_ar": "صَوْتٌ أَوْ مَشْهَدٌ مُصْطَنَعٌ يُحَاكِي شَخْصًا أَوْ وَاقِعَةً بِطَرِيقَةٍ مُقْنِعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ التَّزْيِيفِ"
+      ],
+      "examples_ar": [
+        "تَحَقَّقَ الْمُحَرِّرُ مِنْ مَصْدَرِ الصَّوْتِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ اسْتِخْدَامُهُ لِلتَّرْفِيهِ أَوِ التَّضْلِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_052",
+      "arabic": "بَصْمَةٌ رَقْمِيَّةٌ لِلْمَلَفِّ",
+      "meaning_ar": "قِيمَةٌ حِسَابِيَّةٌ تُسْتَخْرَجُ مِنْ مَحْتَوَى مِلَفٍّ لِمُقَارَنَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُطَابَقَةُ الْبَصْمَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ بَصْمَتَيِ الْمِلَفَّيْنِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ تُسَاعِدَ فِي كَشْفِ التَّغْيِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_053",
+      "arabic": "بَيَانَاتٌ وَصْفِيَّةٌ لِلصُّورَةِ",
+      "meaning_ar": "مَعْلُومَاتٌ مُرْفَقَةٌ بِمِلَفٍّ بَصَرِيٍّ عَنْ تَقْنِيَتِهِ وَإِنْشَائِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْبَيَانَاتِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُحَرِّرُ تَارِيخَ التَّصْوِيرِ."
+      ],
+      "usage_note_ar": "قَدْ تُعَدَّلُ أَوْ تُحْذَفُ وَلَا تُعَدُّ دَلِيلًا قَاطِعًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_054",
+      "arabic": "أَرْشَفَةٌ إِعْلَامِيَّةٌ",
+      "meaning_ar": "حِفْظُ الْمَوَادِّ الْمَنْشُورَةِ وَتَنْظِيمُهَا لِلرُّجُوعِ إِلَيْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَرْشِيفُ الْجَرِيدَةِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الصَّحَفِيُّ عَنْ خَبَرٍ قَدِيمٍ."
+      ],
+      "usage_note_ar": "تَسْتَلْزِمُ تَصْنِيفًا وَتَوَارِيخَ وَاضِحَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_055",
+      "arabic": "فَهْرَسَةُ الْمَحْتَوَى",
+      "meaning_ar": "تَرْتِيبُ الْمَوَادِّ بِوَاسِطَةِ عَنَاوِينَ وَوُسُومٍ وَبَيَانَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِظَامُ الْفَهْرَسَةِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْمُحَرِّرُ وُسُومًا إِلَى الْمَقَالِ."
+      ],
+      "usage_note_ar": "تُسَهِّلُ الْبَحْثَ وَاسْتِرْجَاعَ الْمَعْلُومَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_056",
+      "arabic": "تَصْنِيفُ الْمَحْتَوَى",
+      "meaning_ar": "جَمْعُ الْمَوَادِّ الْمُتَشَابِهَةِ فِي فِئَاتٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فِئَاتُ الْمَحْتَوَى"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُحَرِّرُ الْمَقَالَ فِي قِسْمِ التَّعْلِيمِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ الْفِئَاتُ بِحَسَبِ الْمَنْصَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_057",
+      "arabic": "تَقْوِيمٌ تَحْرِيرِيٌّ",
+      "meaning_ar": "جَدْوَلٌ يُحَدِّدُ مَوَاعِيدَ إِعْدَادِ الْمَوَادِّ وَنَشْرِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ التَّقْوِيمِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْفَرِيقُ مَوْعِدَ نَشْرِ الْمُقَابَلَةِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَوْزِيعِ الْمَهَامِّ وَالْمَوَارِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_058",
+      "arabic": "خُطَّةُ مَحْتَوًى",
+      "meaning_ar": "وَثِيقَةٌ تَحْدِّدُ مَوَاضِيعَ النَّشْرِ وَأَهْدَافَهُ وَجُمْهُورَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادُ الْخُطَّةِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْفَرِيقُ خُطَّةً لِشَهْرٍ كَامِلٍ."
+      ],
+      "usage_note_ar": "تُرَاجَعُ وَفْقَ النَّتَائِجِ وَحَاجَاتِ الْجُمْهُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_059",
+      "arabic": "حَمْلَةٌ تَوْعَوِيَّةٌ",
+      "meaning_ar": "نَشَاطٌ اتِّصَالِيٌّ مُنَظَّمٌ لِزِيَادَةِ الْمَعْرِفَةِ بِمَسْأَلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رِسَالَةُ الْحَمْلَةِ"
+      ],
+      "examples_ar": [
+        "أَطْلَقَتِ الْمَدْرَسَةُ حَمْلَةً لِلسَّلَامَةِ."
+      ],
+      "usage_note_ar": "تُقَاسُ نَتَائِجُهَا بِمُؤَشِّرَاتٍ مُنَاسِبَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_060",
+      "arabic": "حَمْلَةٌ إِعْلَانِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ رَسَائِلَ تَرْوِيجِيَّةٍ مُنَسَّقَةٍ لِمُنْتَجٍ أَوْ خِدْمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِطْلَاقُ الْحَمْلَةِ"
+      ],
+      "examples_ar": [
+        "نَشَرَ الْمَتْجَرُ إِعْلَانَاتٍ مُتَعَدِّدَةً."
+      ],
+      "usage_note_ar": "تَتَحَدَّدُ بِمُوَازَنَةٍ وَجُمْهُورٍ وَهَدَفٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_061",
+      "arabic": "إِعْلَانٌ مُمَوَّلٌ",
+      "meaning_ar": "مَادَّةٌ تَرْوِيجِيَّةٌ يُدْفَعُ مَقَابِلٌ لِعَرْضِهَا عَلَى مَنْصَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وُسْمُ الْإِعْلَانِ"
+      ],
+      "examples_ar": [
+        "وَضَعَتِ الْمَنْصَّةُ عَلامَةً عَلَى الْمَادَّةِ الْمُمَوَّلَةِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَمْيِيزُهُ عَنِ الْمَادَّةِ التَّحْرِيرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_062",
+      "arabic": "مَحْتَوًى تَرْوِيجِيٌّ",
+      "meaning_ar": "نَصٌّ أَوْ صُورَةٌ تُعَدُّ لِلتَّشْجِيعِ عَلَى مُنْتَجٍ أَوْ فِكْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادُ الْمَحْتَوَى"
+      ],
+      "examples_ar": [
+        "صَمَّمَ الْفَرِيقُ مَادَّةً لِلتَّعْرِيفِ بِالْخِدْمَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّقْرِيرِ الْخَبَرِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_063",
+      "arabic": "مَحْتَوًى تَحْرِيرِيٌّ",
+      "meaning_ar": "مَادَّةٌ تُعَدُّ وَفْقَ أُسُسٍ صَحَفِيَّةٍ أَوْ مِهْنِيَّةٍ غَيْرِ إِعْلَانِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِقْلَالُ الْمَحْتَوَى"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الْمَجَلَّةُ تَحْلِيلًا لِلسُّوقِ."
+      ],
+      "usage_note_ar": "يَسْتَلْزِمُ وَضُوحَ الْفَصْلِ عَنِ الرِّعَايَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_064",
+      "arabic": "رِعَايَةٌ إِعْلَانِيَّةٌ",
+      "meaning_ar": "دَعْمٌ مَالِيٌّ أَوْ عَيْنِيٌّ لِمَادَّةٍ مُقَابِلَ ذِكْرِ الْجِهَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْلَانُ الرِّعَايَةِ"
+      ],
+      "examples_ar": [
+        "مَوَّلَتِ الشَّرِكَةُ بَرْنَامَجًا تَعْلِيمِيًّا."
+      ],
+      "usage_note_ar": "يَجِبُ تَوْضِيحُ عَلاقَةِ الرَّاعِي بِالْمَحْتَوَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_065",
+      "arabic": "تَسْوِيقٌ بِالْمَحْتَوَى",
+      "meaning_ar": "اسْتِعْمَالُ مَوَادَّ مُفِيدَةٍ لِجَذْبِ جُمْهُورٍ وَبِنَاءِ عَلاقَةٍ مَعَهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّسْوِيقِ"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الشَّرِكَةُ دَلِيلًا مُبَسَّطًا لِلْعُمَلَاءِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى الْفَائِدَةِ لَا عَلَى الْإِعْلَانِ الْمُبَاشِرِ وَحْدَهُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_066",
+      "arabic": "وَصُولُ الْمَحْتَوَى",
+      "meaning_ar": "عَدَدُ الأَشْخَاصِ الَّذِينَ ظَهَرَتْ لَهُمُ الْمَادَّةُ فِي فَتْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الْوُصُولِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الْمَنْشُورُ إِلَى جُمْهُورٍ وَاسِعٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ عَدَدِ الْمَرَّاتِ الَّتِي ظَهَرَ فِيهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_067",
+      "arabic": "عَدَدُ الظُّهُورِ",
+      "meaning_ar": "مَجْمُوعُ مَرَّاتِ عَرْضِ مَادَّةٍ وَاحِدَةٍ لِلْمُسْتَخْدِمِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الظُّهُورِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ الْإِعْلَانُ عِدَّةَ مَرَّاتٍ لِشَخْصٍ وَاحِدٍ."
+      ],
+      "usage_note_ar": "قَدْ يَتَجَاوَزُ عَدَدَ الأَشْخَاصِ الْفَرِيدِينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_068",
+      "arabic": "مُعَدَّلُ التَّفَاعُلِ",
+      "meaning_ar": "نِسْبَةٌ تُقَارِنُ أَنْشِطَةَ الْجُمْهُورِ بِمَقْيَاسٍ لِلْوُصُولِ أَوِ الظُّهُورِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّفَاعُلِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدِيرُ تَفَاعُلَ الْمَنْشُورَاتِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طَرِيقَةُ الْحِسَابِ بَيْنَ الْمَنْصَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_069",
+      "arabic": "مُعَدَّلُ النَّقْرِ",
+      "meaning_ar": "نِسْبَةُ مَرَّاتِ النَّقْرِ عَلَى رَابِطٍ إِلَى مَرَّاتِ ظُهُورِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ النَّقْرِ"
+      ],
+      "examples_ar": [
+        "زَادَ مُعَدَّلُ النَّقْرِ بَعْدَ تَغْيِيرِ الْعُنْوَانِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَقْيِيمِ جَاذِبِيَّةِ الرَّسَالَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_070",
+      "arabic": "مُعَدَّلُ التَّحْوِيلِ",
+      "meaning_ar": "نِسْبَةُ الْمُسْتَخْدِمِينَ الَّذِينَ أَتَمُّوا فِعْلًا مَطْلُوبًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ التَّحْوِيلِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْفَرِيقُ عَدَدَ مَنْ أَتَمُّوا التَّسْجِيلَ."
+      ],
+      "usage_note_ar": "يَجِبُ تَحْدِيدُ الْفِعْلِ الْمَقْصُودِ بِالدِّقَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_071",
+      "arabic": "تَكْلِفَةُ النَّقْرَةِ",
+      "meaning_ar": "الْمَبْلَغُ الَّذِي يُدْفَعُ مُقَابِلَ نَقْرَةٍ عَلَى إِعْلَانٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ التَّكْلِفَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُسَوِّقُ تَكْلِفَةَ الْحَمْلَتَيْنِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ بِالْمُنَافَسَةِ وَالْجُمْهُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_072",
+      "arabic": "تَكْلِفَةُ الِاكْتِسَابِ",
+      "meaning_ar": "الْمُتَوَسِّطُ الْمَالِيُّ اللَّازِمُ لِلْحُصُولِ عَلَى عَمِيلٍ جَدِيدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابُ الْعَمِيلِ"
+      ],
+      "examples_ar": [
+        "قَسَمَ الْمُدِيرُ نَفَقَاتِ التَّسْوِيقِ عَلَى الْعُمَلَاءِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى حُدُودِ مَا يُحْسَبُ مِنَ التَّكَالِيفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_073",
+      "arabic": "تَكْلِفَةُ الأَلْفِ ظُهُورٍ",
+      "meaning_ar": "الْمَبْلَغُ الَّذِي يُنْفَقُ لِكُلِّ أَلْفِ مَرَّةٍ مِنْ عَرْضِ الْإِعْلَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِقْيَاسُ الظُّهُورِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُسَوِّقُ أَسْعَارَ الْمَنْصَّاتِ."
+      ],
+      "usage_note_ar": "لَا يَدُلُّ وَحْدَهُ عَلَى عَدَدِ الْمُشْتَرِينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_074",
+      "arabic": "مُدَّةُ الْمُشَاهَدَةِ",
+      "meaning_ar": "الْوَقْتُ الَّذِي يَقْضِيهِ الشَّخْصُ فِي مُتَابَعَةِ مَادَّةٍ مَرْئِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُتَوَسِّطُ الْمُدَّةِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُحَرِّرُ زَمَنَ مُشَاهَدَةِ الْفِيدْيُو."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِفَهْمِ مَدَى احْتِفَاظِ الْمَادَّةِ بِالْجُمْهُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_075",
+      "arabic": "مُعَدَّلُ الِاحْتِفَاظِ بِالْمُشَاهِدِ",
+      "meaning_ar": "نِسْبَةُ مَنْ يَسْتَمِرُّونَ فِي الْمُشَاهَدَةِ إِلَى لَحْظَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُنْحَنَى الِاحْتِفَاظِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الْمُنْتِجُ انْخِفَاضًا فِي وَسَطِ الْمَقْطَعِ."
+      ],
+      "usage_note_ar": "يَكْشِفُ مَوَاضِعَ فَقْدِ الِاهْتِمَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_076",
+      "arabic": "مُتَابِعٌ نَشِطٌ",
+      "meaning_ar": "مُسْتَخْدِمٌ يَتَفَاعَلُ مَعَ الْمَحْتَوَى خِلَالَ فَتْرَةٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَدَدُ الْمُتَابِعِينَ"
+      ],
+      "examples_ar": [
+        "تَفَاعَلَ الْمُتَابِعُ مَعَ الدَّرْسِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مُجَرَّدِ الِاشْتِرَاكِ فِي الْحِسَابِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_077",
+      "arabic": "مُشَارَكَةُ الْمَنْشُورِ",
+      "meaning_ar": "إِعَادَةُ إِرْسَالِ مَادَّةٍ أَوْ عَرْضِهَا لِمُسْتَخْدِمِينَ آخَرِينَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زِرُّ الْمُشَارَكَةِ"
+      ],
+      "examples_ar": [
+        "شَارَكَ الطَّالِبُ الْمَقَالَ مَعَ زُمَلَائِهِ."
+      ],
+      "usage_note_ar": "تُوَسِّعُ الِانْتِشَارَ وَقَدْ تَفْقِدُ بَعْضَ السِّيَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_078",
+      "arabic": "تَعْلِيقٌ مُثَبَّتٌ",
+      "meaning_ar": "رَدٌّ يُعْرَضُ فِي مَوْضِعٍ بَارِزٍ تَحْتَ مَنْشُورٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَثْبِيتُ التَّعْلِيقِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْمُشْرِفُ إِجَابَةً تَوْضِيحِيَّةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْمَعْلُومَاتِ الْمُهِمَّةِ أَوِ التَّصْحِيحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_079",
+      "arabic": "إِدَارَةُ التَّعْلِيقَاتِ",
+      "meaning_ar": "مُرَاجَعَةُ رُدُودِ الْمُتَابِعِينَ وَتَنْظِيمُهَا وَتَطْبِيقُ الْقَوَاعِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سِيَاسَةُ التَّعْلِيقِ"
+      ],
+      "examples_ar": [
+        "حَذَفَ الْمُشْرِفُ إِسَاءَةً شَخْصِيَّةً."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى مَعَايِيرَ وَاضِحَةٍ وَمُنْصِفَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_080",
+      "arabic": "إِشْرَافٌ عَلَى الْمَحْتَوَى",
+      "meaning_ar": "مُرَاقَبَةُ الْمَوَادِّ لِلتَّأَكُّدِ مِنِ الِالْتِزَامِ بِقَوَاعِدِ الْمَنْصَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَرِيقُ الْإِشْرَافِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُشْرِفُ بَلَاغًا عَنْ مَنْشُورٍ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَوَازُنًا بَيْنَ الْحِمَايَةِ وَالْحُقُوقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_081",
+      "arabic": "بَلَاغٌ عَنْ مُخَالَفَةٍ",
+      "meaning_ar": "إِشْعَارٌ يُقَدِّمُهُ شَخْصٌ لِلْمَنْصَّةِ بِشَأْنِ مَحْتَوًى مُحْتَمَلِ الْمُخَالَفَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ الْبَلَاغِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُسْتَخْدِمُ بَلَاغًا عَنِ الإِسَاءَةِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي الْبَلَاغُ بِحَدِّ ذَاتِهِ ثُبُوتَ الْمُخَالَفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_082",
+      "arabic": "حَظْرُ الْحِسَابِ",
+      "meaning_ar": "مَنْعُ مُسْتَخْدِمٍ مِنَ الْوُصُولِ إِلَى مَنْصَّةٍ أَوْ خِدْمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُدَّةُ الْحَظْرِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّى صَاحِبُ الْحِسَابِ إِخْطَارًا بِالْحَظْرِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مُؤَقَّتًا أَوْ دَائِمًا وَفْقَ الْقَوَاعِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_083",
+      "arabic": "اسْتِئْنَافُ الْحَظْرِ",
+      "meaning_ar": "طَلَبُ مُرَاجَعَةِ قَرَارٍ بِتَقْيِيدِ حِسَابٍ أَوْ مَحْتَوًى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الْقَرَارِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُسْتَخْدِمُ طَلَبًا لِرَفْعِ الْحَظْرِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مُدَدُ الْمُرَاجَعَةِ بَيْنَ الْمَنْصَّاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_084",
+      "arabic": "تَوْثِيقُ الْحِسَابِ",
+      "meaning_ar": "إِجْرَاءٌ لِلتَّأَكُّدِ مِنْ صِلَةِ الْحِسَابِ بِشَخْصٍ أَوْ جِهَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَلَامَةُ التَّوْثِيقِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ صَاحِبُ الْحِسَابِ الْوَثَائِقَ."
+      ],
+      "usage_note_ar": "لَا يَضْمَنُ تَوْثِيقُ الْهُوِيَّةِ صِحَّةَ كُلِّ مَنْشُورٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_085",
+      "arabic": "انْتِحَالُ حِسَابٍ",
+      "meaning_ar": "إِنْشَاءُ حِسَابٍ يُوْهِمُ النَّاسَ بِأَنَّهُ يَعُودُ إِلَى شَخْصٍ آخَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِسَابٌ مُنْتَحَلٌ"
+      ],
+      "examples_ar": [
+        "أَبْلَغَ الْمُوَظَّفُ عَنْ حِسَابٍ يُقَلِّدُهُ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ مُرَاجَعَةُ الْهُوِيَّةِ عَلَى التَّمْيِيزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_086",
+      "arabic": "خُطَّةُ نَشْرٍ",
+      "meaning_ar": "جَدْوَلٌ يُنَظِّمُ الْمَوَادَّ وَمَوَاعِيدَهَا وَقَنَوَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوَاعِيدُ النَّشْرِ"
+      ],
+      "examples_ar": [
+        "جَدْوَلَ الْمُحَرِّرُ الْمَنْشُورَاتِ لِلأُسْبُوعِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى الْمُوَاظَبَةِ وَتَوْزِيعِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_087",
+      "arabic": "جَدْوَلَةُ الْمَنْشُورَاتِ",
+      "meaning_ar": "تَحْدِيدُ أَوْقَاتٍ مُسْتَقْبَلِيَّةٍ لِنَشْرِ مَوَادَّ مُجَهَّزَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَدَاةُ الْجَدْوَلَةِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْمُحَرِّرُ سَاعَةَ نَشْرِ الْمَقَالِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ فِي الْحِسَابَاتِ وَالصُّحُفِ الرَّقْمِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_088",
+      "arabic": "إِطْلَاقٌ تَدْرِيجِيٌّ لِلْمَحْتَوَى",
+      "meaning_ar": "نَشْرُ مَادَّةٍ عَلَى مَرَاحِلَ لِجَمَاعَاتٍ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَرَاحِلُ الْإِطْلَاقِ"
+      ],
+      "examples_ar": [
+        "جَرَّبَ الْفَرِيقُ الْمَادَّةَ مَعَ جُمْهُورٍ صَغِيرٍ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى جَمْعِ الْمُلَاحَظَاتِ قَبْلَ التَّوْسِيعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_089",
+      "arabic": "اخْتِبَارٌ مُقَارَنٌ لِلْعَنَاوِينِ",
+      "meaning_ar": "تَجْرِبَةٌ تَعْرِضُ صِيَاغَتَيْنِ لِقِيَاسِ الِاخْتِلَافِ فِي الِاسْتِجَابَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ النَّقْرِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْفَرِيقُ عُنْوَانَيْنِ لِلْمَقَالِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَثْبِيتُ الْعَوَامِلِ الأُخْرَى قَدْرَ الْإِمْكَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_090",
+      "arabic": "مُؤَشِّرُ نَجَاحٍ إِعْلَامِيٌّ",
+      "meaning_ar": "مِقْيَاسٌ يُسْتَعْمَلُ لِلْحُكْمِ عَلَى مَدَى تَحَقُّقِ هَدَفٍ اتِّصَالِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الْمُؤَشِّرِ"
+      ],
+      "examples_ar": [
+        "رَاقَبَ الْفَرِيقُ عَدَدَ الطَّلَبَاتِ بَعْدَ الْحَمْلَةِ."
+      ],
+      "usage_note_ar": "يَجِبُ رَبْطُهُ بِالْهَدَفِ الْحَقِيقِيِّ لَا بِالظُّهُورِ فَقَطْ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_091",
+      "arabic": "سَرْدٌ صَحَفِيٌّ",
+      "meaning_ar": "تَرْتِيبُ الْوَقَائِعِ فِي تَسَلْسُلٍ يُسَاعِدُ عَلَى فَهْمِ الْحَدَثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بِنَاءُ السَّرْدِ"
+      ],
+      "examples_ar": [
+        "بَدَأَ الْكَاتِبُ بِشَهَادَةِ أَحَدِ السُّكَّانِ."
+      ],
+      "usage_note_ar": "يَجِبُ أَلَّا يُضَحَّى بِالدِّقَّةِ مِنْ أَجْلِ التَّشْوِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_092",
+      "arabic": "سَرْدٌ بَصَرِيٌّ",
+      "meaning_ar": "تَقْدِيمُ فِكْرَةٍ أَوْ قِصَّةٍ مِنْ خِلَالِ صُوَرٍ وَمَشَاهِدَ مُرَتَّبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسَلْسُلُ الصُّوَرِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الْمُصَمِّمُ صُوَرًا لِشَرْحِ الْمَشْرُوعِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَرْتِيبٍ مَنْطِقِيٍّ وَتَوْضِيحٍ لِلسِّيَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_093",
+      "arabic": "تَصْوِيرٌ تَوْثِيقِيٌّ",
+      "meaning_ar": "تَسْجِيلُ مَشَاهِدَ حَقِيقِيَّةٍ بِقَصْدِ حِفْظِهَا أَوْ عَرْضِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَشْهَدٌ تَوْثِيقِيٌّ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْفَرِيقُ مَرَاحِلَ إِنْشَاءِ الْجِسْرِ."
+      ],
+      "usage_note_ar": "تُرَاعَى الْمُوَافَقَاتُ وَالْخُصُوصِيَّةُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_094",
+      "arabic": "تَصْوِيرٌ مَيْدَانِيٌّ",
+      "meaning_ar": "إِنْتَاجُ صُوَرٍ أَوْ فِيدْيُو فِي مَوْقِعِ الْحَدَثِ خَارِجَ الِاسْتُودْيُو.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَدَّاتُ التَّصْوِيرِ"
+      ],
+      "examples_ar": [
+        "وَثَّقَ الْمُصَوِّرُ عَمَلَ الْفَرِيقِ فِي الْمَوْقِعِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ الْإِضَاءَةُ وَالأَصْوَاتُ الْمُحِيطَةُ فِي الْجَوْدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_095",
+      "arabic": "تَصْوِيرٌ دَاخِلِيٌّ",
+      "meaning_ar": "تَسْجِيلُ مَشَاهِدَ فِي مَكَانٍ مُغْلَقٍ تُضْبَطُ فِيهِ بَعْضُ الظُّرُوفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِضَاءَةُ الْمَشْهَدِ"
+      ],
+      "examples_ar": [
+        "رَكَّبَ الْمُصَوِّرُ مَصَابِيحَ قَبْلَ التَّسْجِيلِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَنْظِيمَ الْخَلْفِيَّةِ وَالصَّوْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_096",
+      "arabic": "تَأْطِيرُ اللَّقْطَةِ",
+      "meaning_ar": "اخْتِيَارُ مَوْضِعِ الْعَنَاصِرِ دَاخِلَ حُدُودِ الصُّورَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَكْوِينُ الْإِطَارِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُصَوِّرُ الشَّخْصَ فِي وَسَطِ اللَّقْطَةِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي وَضُوحِ الْمَعْنَى وَتَوْجِيهِ الِانْتِبَاهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_097",
+      "arabic": "زَاوِيَةُ التَّصْوِيرِ",
+      "meaning_ar": "مَوْضِعُ الْكَامِيرَا وَاتِّجَاهُهَا بِالنِّسْبَةِ لِلْمَشْهَدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زَاوِيَةٌ عُلْوِيَّةٌ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الْمُصَوِّرُ الزَّاوِيَةَ لِإِظْهَارِ الْمَكَانِ."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ دَلَالَةُ الْمَشْهَدِ بِتَغَيُّرِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_098",
+      "arabic": "عُمْقُ الْمَيْدَانِ",
+      "meaning_ar": "مَدَى الْمَسَافَاتِ الَّتِي تَبْدُو فِيهَا عَنَاصِرُ الصُّورَةِ وَاضِحَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُمْقٌ ضَحْلٌ"
+      ],
+      "examples_ar": [
+        "جَعَلَ الْمُصَوِّرُ الْخَلْفِيَّةَ غَيْرَ وَاضِحَةٍ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْفَتْحَةِ وَالْبُعْدِ وَالْعَدَسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_099",
+      "arabic": "فَتْحَةُ الْعَدَسَةِ",
+      "meaning_ar": "مِقْدَارُ الْفَتْحَةِ الَّتِي يَمُرُّ مِنْهَا الضَّوْءُ إِلَى الْمُسْتَشْعِرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْفَتْحَةِ"
+      ],
+      "examples_ar": [
+        "وَسَّعَ الْمُصَوِّرُ الْفَتْحَةَ فِي الْمَكَانِ الْمُظْلِمِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي كَمِّيَّةِ الضَّوْءِ وَعُمْقِ الْمَيْدَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_100",
+      "arabic": "سُرْعَةُ الْغَالِقِ",
+      "meaning_ar": "الْمُدَّةُ الَّتِي يَتَعَرَّضُ فِيهَا مُسْتَشْعِرُ الْكَامِيرَا لِلضَّوْءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْغَالِقِ"
+      ],
+      "examples_ar": [
+        "زَادَ الْمُصَوِّرُ السُّرْعَةَ لِتَجْمِيدِ الْحَرَكَةِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي سُطُوعِ الصُّورَةِ وَضَبَابِيَّةِ الْحَرَكَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_101",
+      "arabic": "حَسَّاسِيَّةُ الْمُسْتَشْعِرِ",
+      "meaning_ar": "ضَبْطٌ يُحَدِّدُ مَدَى تَضْخِيمِ إِشَارَةِ الضَّوْءِ فِي الْكَامِيرَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَفْعُ الْحَسَّاسِيَّةِ"
+      ],
+      "examples_ar": [
+        "زَادَ الْمُصَوِّرُ الْحَسَّاسِيَّةَ فِي اللَّيْلِ."
+      ],
+      "usage_note_ar": "قَدْ يَزْدَادُ التَّشْوِيشُ الرَّقْمِيُّ مَعَ رَفْعِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_102",
+      "arabic": "تَعْرِيضٌ ضَوْئِيٌّ",
+      "meaning_ar": "كَمِّيَّةُ الضَّوْءِ الَّتِي تَتَلَقَّاهَا الْكَامِيرَا أَثْنَاءَ الْتَّصْوِيرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ التَّعْرِيضِ"
+      ],
+      "examples_ar": [
+        "صَحَّحَ الْمُصَوِّرُ سُطُوعَ الْمَشْهَدِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْفَتْحَةِ وَالْغَالِقِ وَالْحَسَّاسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_103",
+      "arabic": "تَوَازُنُ اللَّوْنِ الأَبْيَضِ",
+      "meaning_ar": "ضَبْطُ الأَلْوَانِ لِتَبْدُوَ الأَسْطُحُ الْمُحَايِدَةُ بِصُورَةٍ طَبِيعِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْبَيَاضِ"
+      ],
+      "examples_ar": [
+        "صَحَّحَ الْمُصَوِّرُ اللَّوْنَ تَحْتَ الْإِضَاءَةِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِدَرَجَةِ حَرَارَةِ مَصْدَرِ الضَّوْءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_104",
+      "arabic": "تَصْحِيحُ الأَلْوَانِ",
+      "meaning_ar": "تَعْدِيلُ تَوَازُنِ الأَلْوَانِ وَالتَّعْرِيضِ لِإِظْهَارِ صُورَةٍ مُتَّسِقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْحِيدُ اللَّقَطَاتِ"
+      ],
+      "examples_ar": [
+        "صَحَّحَ الْمُونْتِيرُ سُطُوعَ الْمَشَاهِدِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التَّلْوِينِ الْفَنِّيِّ الْمَقْصُودِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_105",
+      "arabic": "تَدْرِيجُ الأَلْوَانِ",
+      "meaning_ar": "تَعْدِيلُ الطَّابَعِ اللَّوْنِيِّ لِإِعْطَاءِ الْمَشْهَدِ مَزَاجًا بَصَرِيًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أُسْلُوبٌ لَوْنِيٌّ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْمُونْتِيرُ دَرَجَاتٍ بَارِدَةً."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِلْأَثَرِ الْفَنِّيِّ بَعْدَ التَّصْحِيحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_106",
+      "arabic": "مُونْتَاجٌ مَرْئِيٌّ",
+      "meaning_ar": "اخْتِيَارُ اللَّقَطَاتِ وَتَرْتِيبُهَا وَتَعْدِيلُهَا لِصُنْعِ مَادَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الْمُونْتَاجِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْمُونْتِيرُ الْمَشَاهِدَ فِي تَسَلْسُلٍ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي السُّرْعَةِ وَالْفَهْمِ وَالْإِيقَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_107",
+      "arabic": "قَطْعٌ مُبَاشِرٌ بَيْنَ اللَّقَطَاتِ",
+      "meaning_ar": "انْتِقَالٌ فَوْرِيٌّ مِنْ صُورَةٍ إِلَى أُخْرَى دُونَ تَأْثِيرٍ وَسِيطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْضِعُ الْقَطْعِ"
+      ],
+      "examples_ar": [
+        "حَذَفَ الْمُونْتِيرُ جُزْءًا مِنَ التَّوَقُّفِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِضَبْطِ الْإِيقَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_108",
+      "arabic": "انْتِقَالٌ مَرْئِيٌّ",
+      "meaning_ar": "تَأْثِيرٌ بَيْنَ لَقْطَتَيْنِ يُسَاعِدُ عَلَى تَوْضِيحِ تَغَيُّرِ الْمَشْهَدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الِانْتِقَالِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْمُونْتِيرُ تَلَاشِيًا بَسِيطًا."
+      ],
+      "usage_note_ar": "يُنْصَحُ بِاسْتِعْمَالِهِ عِنْدَ خِدْمَةِ الْمَعْنَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_109",
+      "arabic": "تَلَاشٍ مَرْئِيٌّ",
+      "meaning_ar": "انْخِفَاضٌ تَدْرِيجِيٌّ فِي ظُهُورِ لَقْطَةٍ أَوِ ارْتِفَاعُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَلَاشِي الْمَشْهَدِ"
+      ],
+      "examples_ar": [
+        "انْتَهَى الْفِيلْمُ بِتَلَاشٍ إِلَى السَّوَادِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُهُ الْمُنْتِجُونَ لِتَوْضِيحِ الْفَوَاصِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_110",
+      "arabic": "تَزَامُنُ الصَّوْتِ وَالصُّورَةِ",
+      "meaning_ar": "تَوَافُقُ مَوَاقِيتِ الْكَلَامِ وَالْأَصْوَاتِ مَعَ الْمَشَاهِدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ التَّزَامُنِ"
+      ],
+      "examples_ar": [
+        "صَحَّحَ الْمُونْتِيرُ تَأَخُّرَ الصَّوْتِ."
+      ],
+      "usage_note_ar": "خَلَلُهُ قَدْ يُضْعِفُ فَهْمَ الْمَشَاهِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_111",
+      "arabic": "تَرْجَمَةٌ مَرْئِيَّةٌ",
+      "meaning_ar": "إِضَافَةُ نُصُوصٍ تَرْجِمُ الْكَلَامَ الْمَسْمُوعَ دَاخِلَ الْمَشْهَدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَطْرُ التَّرْجَمَةِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُشَاهِدُ التَّرْجَمَةَ أَسْفَلَ الشَّاشَةِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَوْقِيتٍ وَخُطٍّ وَاضِحَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_112",
+      "arabic": "تَفْرِيغٌ نَصِّيٌّ",
+      "meaning_ar": "تَحْوِيلُ الْكَلَامِ الْمَسْمُوعِ إِلَى كِتَابَةٍ قَابِلَةٍ لِلْقِرَاءَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَفْرِيغُ الْمُقَابَلَةِ"
+      ],
+      "examples_ar": [
+        "فَرَّغَ الْبَاحِثُ تَسْجِيلَ الدَّرْسِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَدْقِيقِ الأَسْمَاءِ وَالْمُصْطَلَحَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_113",
+      "arabic": "وَصْفٌ صَوْتِيٌّ",
+      "meaning_ar": "سَرْدٌ مَسْمُوعٌ يَشْرَحُ الْعَنَاصِرَ الْبَصَرِيَّةَ لِمَنْ لَا يَرَاهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِضَافَةُ الْوَصْفِ"
+      ],
+      "examples_ar": [
+        "شَرَحَ الصَّوْتُ مَا حَدَثَ دُونَ حِوَارٍ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى إِتَاحَةِ الْمَادَّةِ لِضِعَافِ الْبَصَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_114",
+      "arabic": "نَصٌّ بَدِيلٌ لِلصُّورَةِ",
+      "meaning_ar": "وَصْفٌ كِتَابِيٌّ قَصِيرٌ يُوَضِّحُ مَحْتَوَى صُورَةٍ لِلْقَارِئِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كِتَابَةُ الْوَصْفِ"
+      ],
+      "examples_ar": [
+        "وَصَفَ الْمُحَرِّرُ مَا فِي الرَّسْمِ."
+      ],
+      "usage_note_ar": "يَفِيدُ الْمُسْتَخْدِمِينَ الَّذِينَ يَسْتَعْمِلُونَ قَارِئَ الشَّاشَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_115",
+      "arabic": "إِتَاحَةُ الْمَحْتَوَى",
+      "meaning_ar": "تَصْمِيمُ مَادَّةٍ يَسْتَطِيعُ اسْتِخْدَامَهَا أَشْخَاصٌ بِقُدُرَاتٍ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَعَايِيرُ الْإِتَاحَةِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْمُنْتِجُ نُصُوصًا لِلصَّوْتِ."
+      ],
+      "usage_note_ar": "تَشْمَلُ الْوُضُوحَ وَالتَّرْجَمَةَ وَتَسْهِيلَ التَّصَفُّحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_116",
+      "arabic": "تَعْلِيقٌ صَوْتِيٌّ",
+      "meaning_ar": "صَوْتٌ يُسَجَّلُ لِشَرْحِ مَشْهَدٍ أَوْ تَقْدِيمِ مَعْلُومَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ التَّعْلِيقِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُعَلِّقُ نَصًّا لِلْفِيلْمِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْحِوَارِ الَّذِي يَجْرِي دَاخِلَ الْمَشْهَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_117",
+      "arabic": "نَصٌّ تَصْوِيرِيٌّ",
+      "meaning_ar": "وَثِيقَةٌ تَضَعُ الْحِوَارَ وَالْمَشَاهِدَ وَتَرْتِيبَ الْأَحْدَاثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ النَّصِّ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْمُنْتِجُ سِينَارْيُو الدَّرْسِ."
+      ],
+      "usage_note_ar": "يَسْبِقُ التَّصْوِيرَ وَيُرَاجَعُ أَثْنَاءَ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_118",
+      "arabic": "لَوْحَةٌ قَصَصِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ رُسُومٍ تُخَطِّطُ تَرْتِيبَ الْمَشَاهِدِ وَزَوَايَاهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَجْهِيزُ اللَّوْحَةِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْمُصَمِّمُ مَشَاهِدَ الْإِعْلَانِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الْفَرِيقَ عَلَى تَصَوُّرِ التَّصْوِيرِ مُبَكِّرًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_119",
+      "arabic": "قَائِمَةُ اللَّقَطَاتِ",
+      "meaning_ar": "جَدْوَلٌ يُحَدِّدُ الْمَشَاهِدَ وَالزَّوَايَا الْمَطْلُوبَةَ لِلتَّصْوِيرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ اللَّقَطَاتِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُخْرِجُ مَهَامَّ الْمُصَوِّرِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَقْلِيلِ النِّسْيَانِ وَهَدْرِ الْوَقْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_120",
+      "arabic": "جَدْوَلُ التَّصْوِيرِ",
+      "meaning_ar": "خُطَّةٌ تُحَدِّدُ أَوْقَاتَ تَسْجِيلِ الْمَشَاهِدِ وَمَوَاقِعَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوَاعِيدُ التَّصْوِيرِ"
+      ],
+      "examples_ar": [
+        "خَصَّصَ الْفَرِيقُ صَبَاحًا لِلْمَشَاهِدِ الْخَارِجِيَّةِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْمَوْقِعِ وَالطَّقْسِ وَالْمُشَارِكِينَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_121",
+      "arabic": "إِذْنُ تَصْوِيرٍ",
+      "meaning_ar": "مُوَافَقَةٌ تُجِيزُ تَصْوِيرَ شَخْصٍ أَوْ مَكَانٍ بِشُرُوطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَمُوذَجُ الْإِذْنِ"
+      ],
+      "examples_ar": [
+        "حَصَلَ الْفَرِيقُ عَلَى مُوَافَقَةِ الْمَكَانِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الشُّرُوطُ بِحَسَبِ الْحُقُوقِ وَالْقَانُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_122",
+      "arabic": "إِذْنُ نَشْرٍ",
+      "meaning_ar": "مُوَافَقَةٌ تُحَدِّدُ حَقَّ عَرْضِ مَادَّةٍ أَوْ اسْتِعْمَالِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شُرُوطُ النَّشْرِ"
+      ],
+      "examples_ar": [
+        "وَقَّعَ الْمُصَوِّرُ اتِّفَاقًا لِنَشْرِ الصُّورَةِ."
+      ],
+      "usage_note_ar": "لَا يَلْزَمُ أَنْ يُغْنِيَ عَنْ حُقُوقِ الأَطْرَافِ الأُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_123",
+      "arabic": "حَقُّ النَّشْرِ",
+      "meaning_ar": "صَلَاحِيَّةٌ قَانُونِيَّةٌ تَتَعَلَّقُ بِإِتَاحَةِ مَادَّةٍ لِلْجُمْهُورِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِلْكِيَّةُ الْحَقِّ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ النَّاشِرُ شُرُوطَ اسْتِخْدَامِ الصُّورَةِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ نِطَاقُهُ بِحَسَبِ النِّظَامِ وَالْعَقْدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_124",
+      "arabic": "تَرْخِيصُ اسْتِخْدَامٍ",
+      "meaning_ar": "إِذْنٌ مُحَدَّدٌ لِلِاسْتِفَادَةِ مِنْ مُصَنَّفٍ أَوْ خِدْمَةٍ بِشُرُوطٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُدُودُ التَّرْخِيصِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُصَمِّمُ تَرْخِيصَ الصُّورَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَقْصُرُ الِاسْتِخْدَامَ عَلَى أَغْرَاضٍ مُعَيَّنَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_125",
+      "arabic": "مُلْكِيَّةٌ فِكْرِيَّةٌ",
+      "meaning_ar": "حُقُوقٌ تَتَعَلَّقُ بِالْمُصَنَّفَاتِ وَالِاخْتِرَاعَاتِ وَالْعَلَامَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْمُلْكِيَّةِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُصَمِّمُ عَلامَةً لِمَشْرُوعِهِ."
+      ],
+      "usage_note_ar": "تَتَفَاوَتُ أَنْوَاعُ الْحِمَايَةِ وَمُدَدُهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_126",
+      "arabic": "عَلامَةٌ تِجَارِيَّةٌ",
+      "meaning_ar": "إِشَارَةٌ تُسْتَعْمَلُ لِتَمْيِيزِ سِلَعٍ أَوْ خَدَمَاتٍ عَنْ غَيْرِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الْعَلامَةِ"
+      ],
+      "examples_ar": [
+        "صَمَّمَ الْفَرِيقُ شِعَارًا لِلْمَنْتَجِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ حَقُّهَا عَنْ حَقِّ الْمُؤَلِّفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_127",
+      "arabic": "هُوِيَّةٌ بَصَرِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ أَلْوَانٍ وَخُطُوطٍ وَرُمُوزٍ تُمَيِّزُ جِهَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَلِيلُ الْهُوِيَّةِ"
+      ],
+      "examples_ar": [
+        "وَحَّدَ الْمُصَمِّمُ أَلْوَانَ الْمَنْشُورَاتِ."
+      ],
+      "usage_note_ar": "تَسْتَدْعِي اتِّسَاقًا لَا تَكْرَارًا آليًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_128",
+      "arabic": "دَلِيلُ الْعَلامَةِ",
+      "meaning_ar": "وَثِيقَةٌ تُوَضِّحُ طَرِيقَةَ اسْتِعْمَالِ الشِّعَارِ وَالْأَلْوَانِ وَالْخُطُوطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَوَاعِدُ الْهُوِيَّةِ"
+      ],
+      "examples_ar": [
+        "اتَّبَعَ الْمُصَمِّمُ دَلِيلَ الْعَلامَةِ."
+      ],
+      "usage_note_ar": "يُحَافِظُ عَلَى التَّمَاسُكِ الْبَصَرِيِّ لِلْمَشْرُوعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_129",
+      "arabic": "شِعَارٌ نَصِّيٌّ",
+      "meaning_ar": "عَلامَةٌ بَصَرِيَّةٌ تَعْتَمِدُ عَلَى كِتَابَةِ اسْمٍ بِخَطٍّ مُخَصَّصٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْمِيمُ الشِّعَارِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْمُصَمِّمُ اسْمَ الْمَتْجَرِ بِخَطٍّ مُمَيَّزٍ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الرَّمْزِ الْبَصَرِيِّ الْمُسْتَقِلِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_130",
+      "arabic": "شِعَارٌ رَمْزِيٌّ",
+      "meaning_ar": "عَلامَةٌ تَعْتَمِدُ عَلَى صُورَةٍ مُجَرَّدَةٍ أَوْ رَمْزٍ مُمَيِّزٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَطْبِيقُ الشِّعَارِ"
+      ],
+      "examples_ar": [
+        "صَمَّمَ الْفَرِيقُ رَمْزًا بَسِيطًا لِلشَّرِكَةِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى وُضُوحٍ عِنْدَ تَصْغِيرِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_131",
+      "arabic": "خَطٌّ تَحْرِيرِيٌّ",
+      "meaning_ar": "أُسْلُوبٌ مُوَحَّدٌ فِي الْكِتَابَةِ يَضْبِطُ اللُّغَةَ وَالْمُصْطَلَحَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَلِيلُ الأُسْلُوبِ"
+      ],
+      "examples_ar": [
+        "وَحَّدَ الْمُحَرِّرُ طَرِيقَةَ كِتَابَةِ الأَسْمَاءِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى اتِّسَاقِ النُّصُوصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_132",
+      "arabic": "دَلِيلُ الأُسْلُوبِ",
+      "meaning_ar": "وَثِيقَةٌ تُحَدِّدُ قَوَاعِدَ الْإِمْلَاءِ وَالتَّنْسِيقِ وَالْأَلْفَاظِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الدَّلِيلِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْفَرِيقُ صِيَغًا مُوَحَّدَةً لِلْعَنَاوِينِ."
+      ],
+      "usage_note_ar": "يُحَدَّثُ مَعَ تَغَيُّرِ الِاحْتِيَاجَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_133",
+      "arabic": "تَدْقِيقٌ لُغَوِيٌّ",
+      "meaning_ar": "مُرَاجَعَةُ نَصٍّ لِتَصْحِيحِ الأَخْطَاءِ اللُّغَوِيَّةِ وَالتَّرْقِيمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُدَقِّقٌ لُغَوِيٌّ"
+      ],
+      "examples_ar": [
+        "صَحَّحَ الْمُدَقِّقُ الْهَمَزَاتِ وَالْحَرَكَاتِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ تَغْيِيرِ الْأُسْلُوبِ الْكَامِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_134",
+      "arabic": "تَحْرِيرٌ أُسْلُوبِيٌّ",
+      "meaning_ar": "تَحْسِينُ وُضُوحِ النَّصِّ وَانْسِيَابِهِ مَعَ الْحِفَاظِ عَلَى مَعْنَاهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْسِينُ الصِّيَاغَةِ"
+      ],
+      "examples_ar": [
+        "اخْتَصَرَ الْمُحَرِّرُ جُمَلًا مُتَكَرِّرَةً."
+      ],
+      "usage_note_ar": "يَتَجَاوَزُ تَصْحِيحَ الْإِمْلَاءِ فَقَطْ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_135",
+      "arabic": "تَوْحِيدُ الْمُصْطَلَحَاتِ",
+      "meaning_ar": "اخْتِيَارُ تَسْمِيَاتٍ ثَابِتَةٍ لِلْمَفَاهِيمِ عَبْرَ نُصُوصٍ مُتَعَدِّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعْجَمُ الْمُصْطَلَحَاتِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْمُتَرْجِمُ اسْمًا وَاحِدًا لِلْمَفْهُومِ."
+      ],
+      "usage_note_ar": "يُقَلِّلُ الِالْتِبَاسَ فِي الْمَوَادِّ التِّقْنِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_136",
+      "arabic": "تَرْجَمَةٌ تَحْرِيرِيَّةٌ",
+      "meaning_ar": "نَقْلُ النَّصِّ إِلَى لُغَةٍ أُخْرَى مَعَ مُرَاعَاةِ السِّيَاقِ وَالأُسْلُوبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ التَّرْجَمَةِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْمُتَرْجِمُ الْمَقَالَ إِلَى الْعَرَبِيَّةِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى الدِّقَّةِ وَالسَّلَاسَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_137",
+      "arabic": "تَرْجَمَةٌ تَتَبُّعِيَّةٌ",
+      "meaning_ar": "نَقْلُ الْكَلَامِ إِلَى لُغَةٍ أُخْرَى بَعْدَ تَوَقُّفِ الْمُتَحَدِّثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُتَرْجِمٌ تَتَبُّعِيٌّ"
+      ],
+      "examples_ar": [
+        "تَرْجَمَ الْمُتَرْجِمُ الْإِجَابَةَ بَعْدَ انْتِهَائِهَا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ التَّرْجَمَةِ الْفَوْرِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_138",
+      "arabic": "تَرْجَمَةٌ فَوْرِيَّةٌ",
+      "meaning_ar": "نَقْلُ الْكَلَامِ إِلَى لُغَةٍ أُخْرَى أَثْنَاءَ الْحَدِيثِ بِتَأْخِيرٍ قَصِيرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سَمَّاعَةُ الْمُتَرْجِمِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَعَ الْحَاضِرُونَ إِلَى التَّرْجَمَةِ فِي الْمُؤْتَمَرِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَرْكِيزًا وَمَعْرِفَةً بِالْمَوْضُوعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_139",
+      "arabic": "تَوْطِينُ الْمَحْتَوَى",
+      "meaning_ar": "تَكْيِيفُ نَصٍّ أَوْ مُنْتَجٍ لِلُغَةٍ وَثَقَافَةٍ وَمِنْطَقَةٍ مُعَيَّنَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْطِينُ التَّطْبِيقِ"
+      ],
+      "examples_ar": [
+        "عَدَّلَ الْفَرِيقُ صِيَغَ التَّارِيخِ وَالْأَرْقَامِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ التَّرْجَمَةَ وَالتَّنْسِيقَ وَالأَمْثِلَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_140",
+      "arabic": "مَلَفُّ تَرْجَمَةٍ",
+      "meaning_ar": "وَثِيقَةٌ تَحْفَظُ نُصُوصَ الْوَاجِهَةِ بِاللُّغَاتِ الْمُخْتَلِفَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُرَاجَعَةُ الْمِلَفِّ"
+      ],
+      "examples_ar": [
+        "صَحَّحَ الْمُتَرْجِمُ تَسْمِيَةَ الزِّرِّ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَنْظِيمِ الْمَفَاتِيحِ وَالنُّسَخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_141",
+      "arabic": "ذَاكِرَةُ التَّرْجَمَةِ",
+      "meaning_ar": "قَاعِدَةُ بَيَانَاتٍ تَحْفَظُ نُصُوصًا وَتَرْجَمَاتِهَا لِإِعَادَةِ اسْتِخْدَامِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَحْثٌ فِي الذَّاكِرَةِ"
+      ],
+      "examples_ar": [
+        "اسْتَفَادَ الْمُتَرْجِمُ مِنْ جُمْلَةٍ سَابِقَةٍ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى مُرَاجَعَةٍ لِلسِّيَاقِ الْجَدِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_142",
+      "arabic": "قَاعِدَةُ الْمُصْطَلَحَاتِ",
+      "meaning_ar": "سِجِلٌّ يُنَظِّمُ الْمُفْرَدَاتِ الْمُتَخَصِّصَةَ وَمَعَانِيَهَا وَمُقَابِلَاتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِضَافَةُ الْمُصْطَلَحِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْفَرِيقُ تَعْرِيفًا لِمَفْهُومٍ جَدِيدٍ."
+      ],
+      "usage_note_ar": "تَسْتَعْمِلُهَا فِرَقُ التَّرْجَمَةِ وَالتَّحْرِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_143",
+      "arabic": "مُرَاجَعَةٌ ثُنَائِيَّةُ اللُّغَةِ",
+      "meaning_ar": "مُقَارَنَةُ النَّصِّ الْمَنْقُولِ بِالأَصْلِ لِلتَّأَكُّدِ مِنَ الْمَعْنَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ التَّرْجَمَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُدَقِّقُ الْجُمْلَةَ بِنَصِّهَا الأَصْلِيِّ."
+      ],
+      "usage_note_ar": "تَكْشِفُ السَّقْطَ وَالزِّيَادَاتِ وَأَخْطَاءَ الْمَعْنَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_144",
+      "arabic": "مُرَاجَعَةٌ أُحَادِيَّةُ اللُّغَةِ",
+      "meaning_ar": "تَقْيِيمُ النَّصِّ الْمُتَرْجَمِ وَحْدَهُ لِلتَّأَكُّدِ مِنْ سَلَاسَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْأُسْلُوبِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُرَاجِعُ التَّرْجَمَةَ دُونَ الأَصْلِ."
+      ],
+      "usage_note_ar": "لَا تَكْشِفُ كُلَّ أَخْطَاءِ النَّقْلِ الْمَعْنَوِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_145",
+      "arabic": "مُقْتَطَفٌ صَوْتِيٌّ",
+      "meaning_ar": "جُزْءٌ قَصِيرٌ يُخْتَارُ مِنْ تَسْجِيلٍ أَطْوَلَ لِلْعَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الْمُقْتَطَفِ"
+      ],
+      "examples_ar": [
+        "نَشَرَ الْفَرِيقُ جُزْءًا مِنَ الْمُقَابَلَةِ."
+      ],
+      "usage_note_ar": "يَجِبُ أَلَّا يُغَيِّرَ الْقَطْعُ مَعْنَى الْحَدِيثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_146",
+      "arabic": "بَثٌّ صَوْتِيٌّ",
+      "meaning_ar": "نَقْلُ مَحْتَوًى مَسْمُوعٍ إِلَى مُسْتَمِعِينَ عَبْرَ وَسِيلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَوْدَةُ الْبَثِّ"
+      ],
+      "examples_ar": [
+        "اسْتَمَعَ الْجُمْهُورُ إِلَى الْبَرْنَامَجِ الْحَيِّ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مُبَاشِرًا أَوْ مُسَجَّلًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_147",
+      "arabic": "بَرْنَامَجٌ صَوْتِيٌّ مُتَسَلْسِلٌ",
+      "meaning_ar": "حَلَقَاتٌ مَسْمُوعَةٌ تُنْشَرُ عَلَى فَتَرَاتٍ بِمَوْضُوعٍ مُتَّصِلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَلْقَةٌ جَدِيدَةٌ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُقَدِّمُ حَلْقَةً عَنِ الْقِرَاءَةِ."
+      ],
+      "usage_note_ar": "يُعْرَفُ أَيْضًا بِاسْمِ الْبُودْكَاسْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_148",
+      "arabic": "تَحْرِيرٌ صَوْتِيٌّ",
+      "meaning_ar": "قَطْعُ التَّسْجِيلَاتِ وَتَرْتِيبُهَا وَتَحْسِينُ جَوْدَتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِزَالَةُ الضَّوْضَاءِ"
+      ],
+      "examples_ar": [
+        "أَزَالَ الْفَنِّيُّ صَوْتَ الْهَوَاءِ مِنَ التَّسْجِيلِ."
+      ],
+      "usage_note_ar": "يَجِبُ الْحِفَاظُ عَلَى وُضُوحِ الْكَلَامِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_149",
+      "arabic": "مِزْجُ الأَصْوَاتِ",
+      "meaning_ar": "ضَبْطُ مُسْتَوَيَاتِ مَسَارَاتٍ صَوْتِيَّةٍ مُخْتَلِفَةٍ لِتَعْمَلَ مَعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مِيزَانُ الصَّوْتِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الْفَنِّيُّ الْمُوسِيقَى خَلْفَ الْحِوَارِ."
+      ],
+      "usage_note_ar": "يُرَاعَى فِيهِ التَّوَازُنُ وَوُضُوحُ الْأَصْوَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_150",
+      "arabic": "تَسْوِيَةُ الْمُسْتَوَى الصَّوْتِيِّ",
+      "meaning_ar": "ضَبْطُ عُلُوِّ الصَّوْتِ لِتَقْلِيلِ الْفَوَارِقِ الْمُزْعِجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُسْتَوَى التَّسْجِيلِ"
+      ],
+      "examples_ar": [
+        "سَوَّى الْفَنِّيُّ مُسْتَوَى الْحَلَقَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنْ إِزَالَةِ الضَّوْضَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_151",
+      "arabic": "ضَغْطُ الْمَجَالِ الدِّينَامِيكِيِّ",
+      "meaning_ar": "تَقْلِيلُ الْفَرْقِ بَيْنَ الأَصْوَاتِ الْعَالِيَةِ وَالْمُنْخَفِضَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الضَّغْطِ"
+      ],
+      "examples_ar": [
+        "اسْتَعْمَلَ الْفَنِّيُّ ضَاغِطًا لِلصَّوْتِ."
+      ],
+      "usage_note_ar": "يُحَسِّنُ التَّوَازُنَ إِذَا اسْتُخْدِمَ بِاعْتِدَالٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_152",
+      "arabic": "تَشْوِيشٌ صَوْتِيٌّ",
+      "meaning_ar": "أَصْوَاتٌ غَيْرُ مَرْغُوبٍ فِيهَا تُؤَثِّرُ فِي نَقَاوَةِ التَّسْجِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ التَّشْوِيشِ"
+      ],
+      "examples_ar": [
+        "سُمِعَتْ طَقْطَقَةٌ فِي الْمُكَالَمَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَحْدُثُ مِنَ الْمِيكْرُوفُونِ أَوِ الْبِيئَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_153",
+      "arabic": "صَدًى صَوْتِيٌّ",
+      "meaning_ar": "انْعِكَاسُ الصَّوْتِ بِصُورَةٍ يُسْمَعُ فِيهَا مُتَأَخِّرًا عَنِ الأَصْلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَالَجَةُ الصَّدَى"
+      ],
+      "examples_ar": [
+        "رَكَّبَ الْفَنِّيُّ أَلْوَاحًا مَاصَّةً لِلصَّوْتِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِحَجْمِ الْغُرْفَةِ وَأَسْطُحِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_154",
+      "arabic": "ارْتِدَادٌ صَوْتِيٌّ",
+      "meaning_ar": "اسْتِمْرَارُ صَوْتٍ نَاتِجٍ عَنْ انْعِكَاسَاتٍ مُتَتَالِيَةٍ فِي مَكَانٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زَمَنُ الِارْتِدَادِ"
+      ],
+      "examples_ar": [
+        "أَصْبَحَ الصَّوْتُ أَوْضَحَ بَعْدَ مُعَالَجَةِ الْغُرْفَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الصَّدَى الْمُنْفَصِلِ وَاضِحِ التَّأْخِيرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_155",
+      "arabic": "عَزْلٌ صَوْتِيٌّ",
+      "meaning_ar": "تَقْلِيلُ انْتِقَالِ الصَّوْتِ مِنْ مَكَانٍ إِلَى آخَرَ بِالْمَوَادِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَبَقَةُ الْعَزْلِ"
+      ],
+      "examples_ar": [
+        "عَزَلَ الْفَنِّيُّ جِدَارَ غُرْفَةِ التَّسْجِيلِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ امْتِصَاصِ الصَّوْتِ دَاخِلَ الْغُرْفَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_156",
+      "arabic": "امْتِصَاصٌ صَوْتِيٌّ",
+      "meaning_ar": "تَقْلِيلُ انْعِكَاسِ الصَّوْتِ دَاخِلَ الْمَكَانِ بِوَاسِطَةِ مَوَادَّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "لَوْحٌ مَاصٌّ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْفَنِّيُّ أَلْوَاحًا عَلَى الْجِدَارِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي بِالضَّرُورَةِ مَنْعَ الصَّوْتِ مِنَ الْخُرُوجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_157",
+      "arabic": "مِيكْرُوفُونٌ اتِّجَاهِيٌّ",
+      "meaning_ar": "جِهَازُ تَسْجِيلٍ يَلْتَقِطُ الصَّوْتَ بِحَسَّاسِيَّةٍ مُخْتَلِفَةٍ حَسَبَ الِاتِّجَاهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْجِيهُ الْمِيكْرُوفُونِ"
+      ],
+      "examples_ar": [
+        "وَجَّهَ الْمُصَوِّرُ الْجِهَازَ نَحْوَ الْمُتَحَدِّثِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَقْلِيلِ بَعْضِ الضَّوْضَاءِ الْجَانِبِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_158",
+      "arabic": "مِيكْرُوفُونٌ شَخْصِيٌّ",
+      "meaning_ar": "جِهَازُ تَسْجِيلٍ صَغِيرٌ يُثَبَّتُ قُرْبَ فَمِ الْمُتَحَدِّثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَثْبِيتُ الْمِيكْرُوفُونِ"
+      ],
+      "examples_ar": [
+        "ثَبَّتَ الْمُقَدِّمُ الْجِهَازَ عَلَى ثَوْبِهِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَجَنُّبِ احْتِكَاكِ الْمَلَابِسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_159",
+      "arabic": "سَمَّاعَةُ مُرَاقَبَةٍ",
+      "meaning_ar": "أَدَاةٌ يَسْتَمِعُ بِهَا الْفَنِّيُّ إِلَى الصَّوْتِ بِدِقَّةٍ أَثْنَاءَ التَّسْجِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الصَّوْتِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الْفَنِّيُّ تَشْوِيشًا فِي السَّمَّاعَةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى اكْتِشَافِ الْأَعْطَالِ فِي وَقْتٍ مُبَكِّرٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_160",
+      "arabic": "مُنْحَنَى تَرَدُّدِيٌّ",
+      "meaning_ar": "رَسْمٌ يَبَيِّنُ تَوْزِيعَ طَاقَةِ الصَّوْتِ عَلَى التَّرَدُّدَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْمُنْحَنَى"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْفَنِّيُّ تَرَدُّدًا مُزْعِجًا."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي مُعَالَجَةِ الصَّوْتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_161",
+      "arabic": "مُعَادِلٌ صَوْتِيٌّ",
+      "meaning_ar": "أَدَاةٌ تُعَدِّلُ مُسْتَوَيَاتِ التَّرَدُّدَاتِ لِتَحْسِينِ طَابَعِ الصَّوْتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْمُعَادِلِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الْفَنِّيُّ التَّرَدُّدَاتِ الْمُنْخَفِضَةَ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ لِتَحْسِينِ الْوُضُوحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_162",
+      "arabic": "مُعَدَّلُ أُطُرٍ",
+      "meaning_ar": "عَدَدُ الصُّوَرِ الْمُتَتَابِعَةِ الَّتِي تُعْرَضُ فِي كُلِّ ثَانِيَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْمُعَدَّلِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُصَوِّرُ الْمَشْهَدَ بِمُعَدَّلٍ مُرْتَفِعٍ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي سَلَاسَةِ الْحَرَكَةِ وَحَجْمِ الْمِلَفِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_163",
+      "arabic": "دِقَّةُ الْفِيدْيُو",
+      "meaning_ar": "عَدَدُ وَحَدَاتِ الصُّورَةِ فِي أَبْعَادِ الْمَشْهَدِ الرَّقْمِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الدِّقَّةِ"
+      ],
+      "examples_ar": [
+        "صَدَّرَ الْمُنْتِجُ الْمَقْطَعَ بِدِقَّةٍ عَالِيَةٍ."
+      ],
+      "usage_note_ar": "لَا تَكْفِي الدِّقَّةُ وَحْدَهَا لِضَمَانِ الصُّورَةِ الْجَيِّدَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_164",
+      "arabic": "نِسْبَةُ الْأَبْعَادِ",
+      "meaning_ar": "الْعَلَاقَةُ بَيْنَ عَرْضِ الصُّورَةِ وَارْتِفَاعِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ النِّسْبَةِ"
+      ],
+      "examples_ar": [
+        "صَمَّمَ الْمُحَرِّرُ مَقْطَعًا عَمُودِيًّا."
+      ],
+      "usage_note_ar": "تَتَغَيَّرُ بِحَسَبِ الشَّاشَةِ وَمِنَصَّةِ النَّشْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_165",
+      "arabic": "تَرْمِيزُ الْفِيدْيُو",
+      "meaning_ar": "تَحْوِيلُ الْمَشَاهِدِ إِلَى صِيغَةٍ رَقْمِيَّةٍ مُنَاسِبَةٍ لِلْحِفْظِ وَالْبَثِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِعْدَادَاتُ التَّرْمِيزِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الْمُنْتِجُ حَجْمَ الْمِلَفِّ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالْجَوْدَةِ وَالْبِتْرِيتِ وَالْعَتَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_166",
+      "arabic": "ضَغْطٌ فَاقِدٌ لِلْبَيَانَاتِ",
+      "meaning_ar": "تَقْلِيلُ حَجْمِ مِلَفٍّ مَعَ حَذْفِ جُزْءٍ مِنْ مَعْلُومَاتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الضَّغْطِ"
+      ],
+      "examples_ar": [
+        "تَغَيَّرَتْ تَفَاصِيلُ الصُّورَةِ بَعْدَ الْحِفْظِ."
+      ],
+      "usage_note_ar": "قَدْ تَظْهَرُ شَوَائِبُ مَرْئِيَّةٌ عِنْدَ الْمُبَالَغَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_167",
+      "arabic": "ضَغْطٌ غَيْرُ فَاقِدٍ",
+      "meaning_ar": "طَرِيقَةٌ تُقَلِّلُ حَجْمَ الْمِلَفِّ مَعَ إِمْكَانِ اسْتِعَادَةِ مَعْلُومَاتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِفْظُ الْأَصْلِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الْفَنِّيُّ صِيغَةً تَحْفَظُ التَّفَاصِيلَ."
+      ],
+      "usage_note_ar": "يَكُونُ الْحَجْمُ أَكْبَرَ غَالِبًا مِنَ الضَّغْطِ الْفَاقِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_168",
+      "arabic": "بَثٌّ مُبَاشِرٌ",
+      "meaning_ar": "نَقْلُ الصَّوْتِ أَوِ الصُّورَةِ إِلَى الْجُمْهُورِ أَثْنَاءَ حُدُوثِهِمَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَدْءُ الْبَثِّ"
+      ],
+      "examples_ar": [
+        "تَابَعَ الْمُشَاهِدُونَ الْمُحَاضَرَةَ مُبَاشَرَةً."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ بَيْنَ الْحَدَثِ وَالْعَرْضِ تَأْخِيرٌ قَصِيرٌ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_169",
+      "arabic": "بَثٌّ حَسَبَ الطَّلَبِ",
+      "meaning_ar": "نِظَامٌ يَخْتَارُ فِيهِ الْمُشَاهِدُ وَقْتَ تَشْغِيلِ الْمَادَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَكْتَبَةُ الْفِيدْيُو"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ الدَّرْسَ فِي الْمَسَاءِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْبَثِّ الْمُجَدْوَلِ فِي وَقْتٍ وَاحِدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_170",
+      "arabic": "تَأْخِيرُ الْبَثِّ",
+      "meaning_ar": "الْفَاصِلُ الزَّمَنِيُّ بَيْنَ حُدُوثِ الصَّوْتِ أَوِ الْمَشْهَدِ وَوُصُولِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ التَّأْخِيرِ"
+      ],
+      "examples_ar": [
+        "لَاحَظَ الْمُشَاهِدُ فَارِقًا بَيْنَ الصَّوْتِ وَالْحَدَثِ."
+      ],
+      "usage_note_ar": "يَتَأَثَّرُ بِالشَّبَكَةِ وَالتَّرْمِيزِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_171",
+      "arabic": "تَقَطُّعُ الْبَثِّ",
+      "meaning_ar": "تَوَقُّفٌ مُتَكَرِّرٌ فِي تَشْغِيلِ الصَّوْتِ أَوِ الْفِيدْيُو.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُشْكِلَةُ التَّقَطُّعِ"
+      ],
+      "examples_ar": [
+        "تَوَقَّفَ الْمَقْطَعُ حَتَّى اكْتَمَلَ التَّحْمِيلُ."
+      ],
+      "usage_note_ar": "قَدْ يَنْتُجُ عَنْ سُرْعَةِ الِاتِّصَالِ أَوِ الْخَادِمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_172",
+      "arabic": "دِقَّةٌ مُتَكَيِّفَةٌ لِلْبَثِّ",
+      "meaning_ar": "تَغْيِيرُ جَوْدَةِ الْفِيدْيُو آليًّا وَفْقَ سُرْعَةِ الشَّبَكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَكَيُّفُ الْجَوْدَةِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ التَّطْبِيقُ الدِّقَّةَ عِنْدَ بُطْءِ الِاتِّصَالِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى تَقْلِيلِ التَّوَقُّفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_173",
+      "arabic": "نَشْرٌ مُتَعَدِّدُ الْقَنَوَاتِ",
+      "meaning_ar": "تَوْزِيعُ الرِّسَالَةِ عَلَى مَنْصَّاتٍ وَوَسَائِطَ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّوْزِيعِ"
+      ],
+      "examples_ar": [
+        "نَشَرَ الْفَرِيقُ الْخَبَرَ فِي الْمَوْقِعِ وَالتَّطْبِيقِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَكْيِيفِ النَّصِّ لِكُلِّ وَسِيلَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_174",
+      "arabic": "تَجْرِبَةٌ مُتَّسِقَةٌ عَبْرَ الْقَنَوَاتِ",
+      "meaning_ar": "اسْتِمْرَارُ الْمَعْنَى وَالْهُوِيَّةِ عِنْدَ انْتِقَالِ الشَّخْصِ بَيْنَ الْوَسَائِطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَحْدَةُ الرِّسَالَةِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْعَمِيلُ الْمَعْلُومَةَ نَفْسَهَا فِي الْقَنَاتَيْنِ."
+      ],
+      "usage_note_ar": "لَا يَلْزَمُ أَنْ تَتَطَابَقَ التَّفَاصِيلُ الْبَصَرِيَّةُ تَمَامًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_175",
+      "arabic": "اسْتِجَابَةٌ جَمَاهِيرِيَّةٌ",
+      "meaning_ar": "مَجْمُوعُ رُدُودِ فِعْلِ الْمُتَلَقِّينَ عَلَى رِسَالَةٍ أَوْ حَدَثٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الِاسْتِجَابَةِ"
+      ],
+      "examples_ar": [
+        "تَلَقَّتِ الْمَنْصَّةُ أَسْئِلَةً بَعْدَ الْبَيَانِ."
+      ],
+      "usage_note_ar": "قَدْ تَشْمَلُ التَّأْيِيدَ وَالِانْتِقَادَ وَالِاسْتِفْسَارَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_176",
+      "arabic": "انْطِبَاعٌ عَامٌّ",
+      "meaning_ar": "تَصَوُّرٌ يَتَكَوَّنُ لَدَى النَّاسِ عَنْ جِهَةٍ أَوْ مَوْضُوعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الِانْطِبَاعِ"
+      ],
+      "examples_ar": [
+        "تَحَسَّنَ انْطِبَاعُ الْعُمَلَاءِ عَنِ الْخِدْمَةِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَغَيَّرُ بِالتَّجَارِبِ وَالْأَخْبَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_177",
+      "arabic": "سُمْعَةٌ رَقْمِيَّةٌ",
+      "meaning_ar": "الصُّورَةُ الَّتِي تَتَكَوَّنُ عَنْ جِهَةٍ مِنْ حُضُورِهَا وَتَفَاعُلَاتِهَا عَلَى الشَّبَكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ السُّمْعَةِ"
+      ],
+      "examples_ar": [
+        "رَدَّتِ الشَّرِكَةُ عَلَى شَكْوَى بِأَدَبٍ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِجَوْدَةِ الْخِدْمَةِ وَالسُّلُوكِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_178",
+      "arabic": "أَزْمَةٌ اتِّصَالِيَّةٌ",
+      "meaning_ar": "مَوْقِفٌ يَحْتَاجُ إِلَى تَوَاصُلٍ سَرِيعٍ وَدَقِيقٍ لِمَنْعِ الِارْتِبَاكِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَرِيقُ الأَزْمَةِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الْجِهَةُ تَوْضِيحًا بَعْدَ الْحَادِثِ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ تَحَقُّقًا مِنَ الْمَعْلُومَاتِ قَبْلَ النَّشْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_179",
+      "arabic": "خُطَّةُ اتِّصَالٍ وَقْتَ الأَزْمَةِ",
+      "meaning_ar": "وَثِيقَةٌ تُحَدِّدُ الرَّسَائِلَ وَالْمُتَحَدِّثِينَ وَقَنَوَاتِ التَّحْدِيثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيثُ الْجُمْهُورِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْفَرِيقُ مَوَاعِيدَ نَشْرِ الْمَعْلُومَاتِ."
+      ],
+      "usage_note_ar": "تُفَضِّلُ الصِّدْقَ وَالْوُضُوحَ عَلَى التَّسْرِيعِ غَيْرِ الْمُوَثَّقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_180",
+      "arabic": "مُتَحَدِّثٌ رَسْمِيٌّ",
+      "meaning_ar": "شَخْصٌ مُفَوَّضٌ لِتَقْدِيمِ تَصْرِيحَاتٍ بِاسْمِ جِهَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْرِيحُ الْمُتَحَدِّثِ"
+      ],
+      "examples_ar": [
+        "أَعْلَنَ الْمُتَحَدِّثُ نَتَائِجَ الِاجْتِمَاعِ."
+      ],
+      "usage_note_ar": "يَجِبُ التَّمْيِيزُ بَيْنَ مَوْقِفِهِ وَرَأْيِهِ الشَّخْصِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_181",
+      "arabic": "تَوْضِيحٌ رَسْمِيٌّ",
+      "meaning_ar": "بَيَانٌ يُقَدَّمُ لِرَفْعِ لَبْسٍ أَوْ تَصْحِيحِ فَهْمٍ عَنِ قَرَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَشْرُ التَّوْضِيحِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الْوِزَارَةُ تَوْضِيحًا عَنِ الْمَوَاعِيدِ."
+      ],
+      "usage_note_ar": "يَجِبُ أَنْ يُجِيبَ عَنِ الْمَسْأَلَةِ الْمُثَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_182",
+      "arabic": "تَحْلِيلُ الْخِطَابِ",
+      "meaning_ar": "دِرَاسَةُ الْأَلْفَاظِ وَالْبُنَى وَالسِّيَاقِ لِفَهْمِ الرَّسَائِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَدَوَاتُ التَّحْلِيلِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ أُسْلُوبَ الْخُطَبِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ فَصْلَ الْمُلَاحَظَةِ عَنِ التَّأْوِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_183",
+      "arabic": "إِطَارٌ إِعْلَامِيٌّ",
+      "meaning_ar": "طَرِيقَةُ تَقْدِيمِ الْحَدَثِ بِاخْتِيَارِ جَوَانِبَ وَإِبْرَازِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَأْطِيرُ الْقَضِيَّةِ"
+      ],
+      "examples_ar": [
+        "رَكَّزَ التَّقْرِيرُ عَلَى أَثَرِ الْقَرَارِ فِي الْأُسَرِ."
+      ],
+      "usage_note_ar": "قَدْ يُؤَثِّرُ فِي فَهْمِ الْجُمْهُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_184",
+      "arabic": "تَرْتِيبُ الأَوْلَوِيَّاتِ الْإِعْلَامِيَّةِ",
+      "meaning_ar": "إِبْرَازُ مَوَاضِيعَ أَكْثَرَ مِنْ غَيْرِهَا فِي الْتَّغْطِيَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَوْلَوِيَّةُ الْأَخْبَارِ"
+      ],
+      "examples_ar": [
+        "خَصَّصَتِ الْقَنَاةُ وَقْتًا أَطْوَلَ لِلْحَدَثِ."
+      ],
+      "usage_note_ar": "قَدْ يُؤَثِّرُ فِي مَا يَعُدُّهُ الْجُمْهُورُ مُهِمًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_185",
+      "arabic": "تَحَيُّزٌ تَحْرِيرِيٌّ",
+      "meaning_ar": "مَيْلٌ فِي انْتِقَاءِ الْأَخْبَارِ أَوْ صِيَاغَتِهَا لِصَالِحِ جَانِبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كَشْفُ التَّحَيُّزِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ تَغْطِيَةَ حَدَثٍ فِي صَحِيفَتَيْنِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ تَقْلِيلُهُ بِتَعَدُّدِ الْمَصَادِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_186",
+      "arabic": "تَوَازُنٌ تَحْرِيرِيٌّ",
+      "meaning_ar": "تَقْدِيمُ الْآرَاءِ وَالْوَقَائِعِ الْمُهِمَّةِ بِمَا يُعْطِي صُورَةً مُنْصِفَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِفْظُ التَّوَازُنِ"
+      ],
+      "examples_ar": [
+        "عَرَضَ الْتَّقْرِيرُ أَدِلَّةَ الْأَطْرَافِ."
+      ],
+      "usage_note_ar": "لَا يَعْنِي مُسَاوَاةَ الْمَوَاقِفِ فِي قُوَّةِ الدَّلِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_187",
+      "arabic": "اسْتِقْلَالٌ تَحْرِيرِيٌّ",
+      "meaning_ar": "قُدْرَةُ الصَّحَفِيِّينَ عَلَى اتِّخَاذِ قَرَارَاتِ النَّشْرِ دُونَ ضُغُوطٍ غَيْرِ مِهْنِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الِاسْتِقْلَالِ"
+      ],
+      "examples_ar": [
+        "رَفَضَ الْمُحَرِّرُ تَغْيِيرَ الْخَبَرِ لِمَصْلَحَةٍ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ ضَوَابِطَ وَشَفَافِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_188",
+      "arabic": "مُرَاسَلَةٌ إِعْلَامِيَّةٌ",
+      "meaning_ar": "تَبَادُلُ الْمَكَاتِيبِ بَيْنَ مُؤَسَّسَةٍ وَصَحَفِيٍّ أَوْ جِهَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رِسَالَةٌ لِلْمُحَرِّرِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَتِ الشَّرِكَةُ رَدًّا عَلَى الِاسْتِفْسَارِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى دِقَّةٍ فِي الأَسْمَاءِ وَالْمُوَاعِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_189",
+      "arabic": "نَشْرَةٌ بَرِيدِيَّةٌ",
+      "meaning_ar": "رِسَالَةٌ دَوْرِيَّةٌ تُرْسَلُ إِلَى مُشْتَرِكِينَ بِمَادَّةٍ جَدِيدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الِاشْتِرَاكُ فِي النَّشْرَةِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتْ نَشْرَةُ الْمَجَلَّةِ صَبَاحًا."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى عُنْوَانٍ وَاضِحٍ وَخِيَارِ الْإِلْغَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_190",
+      "arabic": "مُعَدَّلُ فَتْحِ الرَّسَائِلِ",
+      "meaning_ar": "نِسْبَةُ الرَّسَائِلِ الَّتِي سُجِّلَ أَنَّهَا فُتِحَتْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْفَتْحِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُسَوِّقُ نَتَائِجَ نَشْرَتَيْنِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَأَثَّرُ بِحِمَايَةِ الْخُصُوصِيَّةِ فِي الْبَرِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_191",
+      "arabic": "إِلْغَاءُ الِاشْتِرَاكِ",
+      "meaning_ar": "تَوْقُّفُ شَخْصٍ عَنْ تَلَقِّي رَسَائِلَ دَوْرِيَّةٍ مِنْ جِهَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَابِطُ الْإِلْغَاءِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْمُسْتَخْدِمُ إِيقَافَ الرَّسَائِلِ."
+      ],
+      "usage_note_ar": "يَجِبُ أَنْ يَكُونَ الإِجْرَاءُ وَاضِحًا وَسَهْلًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_192",
+      "arabic": "قَائِمَةُ الْمُرَاسَلَةِ",
+      "meaning_ar": "مَجْمُوعَةُ عَنَاوِينِ مُشْتَرِكِينَ تَتَلَقَّى رَسَائِلَ مِنْ جِهَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيثُ الْقَائِمَةِ"
+      ],
+      "examples_ar": [
+        "حَذَفَ الْفَرِيقُ عُنْوَانًا غَيْرَ صَالِحٍ."
+      ],
+      "usage_note_ar": "تُرَاعَى الْمُوَافَقَةُ وَحِمَايَةُ الْبَيَانَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_193",
+      "arabic": "مُرَاسَلَةٌ آليَّةٌ",
+      "meaning_ar": "إِرْسَالُ رَسَائِلَ وَفْقَ شُرُوطٍ أَوْ أَوْقَاتٍ يَضْبِطُهَا نِظَامٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سِلْسِلَةُ الرَّسَائِلِ"
+      ],
+      "examples_ar": [
+        "وَصَلَتْ رِسَالَةُ تَأْكِيدٍ بَعْدَ التَّسْجِيلِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَجَنُّبُ الإِزْعَاجِ وَالْإِرْسَالِ غَيْرِ الْمَأْذُونِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_194",
+      "arabic": "اسْتِبْيَانٌ جَمَاهِيرِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ أَسْئِلَةٍ تُوَزَّعُ لِجَمْعِ آرَاءِ أَشْخَاصٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْمِيمُ الِاسْتِبْيَانِ"
+      ],
+      "examples_ar": [
+        "أَجَابَ الْمُشَارِكُونَ عَنْ أَسْئِلَةِ الرِّضَا."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ جَوْدَتُهُ بِوُضُوحِ السُّؤَالِ وَالْعَيِّنَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_195",
+      "arabic": "عَيِّنَةٌ جَمَاهِيرِيَّةٌ",
+      "meaning_ar": "جُزْءٌ مِنْ جُمْهُورٍ أَكْبَرَ يُخْتَارُ لِلدِّرَاسَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الْعَيِّنَةِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الْبَاحِثُ مِئَةَ مُشَارِكٍ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ طَرِيقَةُ الِاخْتِيَارِ فِي قَابِلِيَّةِ تَعْمِيمِ النَّتَائِجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_196",
+      "arabic": "تَحَيُّزُ الِاسْتِجَابَةِ",
+      "meaning_ar": "مَيْلٌ فِي الْإِجَابَاتِ يَنْشَأُ مِنْ صِيَاغَةِ السُّؤَالِ أَوْ ظُرُوفِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ التَّحَيُّزِ"
+      ],
+      "examples_ar": [
+        "عَدَّلَ الْبَاحِثُ سُؤَالًا يُوحِي بِإِجَابَةٍ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى أَسْئِلَةٍ مُحَايِدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_197",
+      "arabic": "سُؤَالٌ مُوَجِّهٌ",
+      "meaning_ar": "سُؤَالٌ تَدْفَعُ صِيَاغَتُهُ الْمُجِيبَ نَحْوَ رَأْيٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَجَنُّبُ التَّوْجِيهِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الْبَاحِثُ صِيَاغَةَ السُّؤَالِ."
+      ],
+      "usage_note_ar": "يَقِلُّ نَفْعُهُ فِي الِاسْتِبْيَانِ الْمُحَايِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_198",
+      "arabic": "سُؤَالٌ مَفْتُوحٌ",
+      "meaning_ar": "سُؤَالٌ يَسْمَحُ بِإِجَابَةٍ حُرَّةٍ غَيْرِ مَحْصُورَةٍ فِي خِيَارَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْإِجَابَاتِ"
+      ],
+      "examples_ar": [
+        "وَصَفَ الْمُشَارِكُ تَجْرِبَتَهُ بِكَلِمَاتِهِ."
+      ],
+      "usage_note_ar": "يُقَدِّمُ تَفَاصِيلَ أَكْثَرَ وَيَصْعُبُ تَرْمِيزُهُ أَحْيَانًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_199",
+      "arabic": "سُؤَالٌ مُغْلَقٌ",
+      "meaning_ar": "سُؤَالٌ يُطْلَبُ فِيهِ الِاخْتِيَارُ مِنْ إِجَابَاتٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خِيَارَاتُ الْإِجَابَةِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْمُشَارِكُ وَاحِدًا مِنْ ثَلَاثَةِ خِيَارَاتٍ."
+      ],
+      "usage_note_ar": "يَسْهُلُ حِسَابُ نَتَائِجِهِ مُقَارَنَةً بِالْمَفْتُوحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_200",
+      "arabic": "مِقْيَاسُ الرِّضَا",
+      "meaning_ar": "أَدَاةٌ تَجْمَعُ تَقْيِيمَاتِ الْأَشْخَاصِ لِخِدْمَةٍ أَوْ تَجْرِبَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَرَجَةُ الرِّضَا"
+      ],
+      "examples_ar": [
+        "قَيَّمَ الْعَمِيلُ الْخِدْمَةَ بِخَمْسِ دَرَجَاتٍ."
+      ],
+      "usage_note_ar": "يَجِبُ تَوْضِيحُ مَعْنَى كُلِّ دَرَجَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_201",
+      "arabic": "تَحْلِيلُ الْمَشَاعِرِ",
+      "meaning_ar": "تَصْنِيفُ النُّصُوصِ بِحَسَبِ نَبْرَتِهَا الْإِيجَابِيَّةِ أَوِ السَّلْبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ الِانْطِبَاعِ"
+      ],
+      "examples_ar": [
+        "حَلَّلَ الْفَرِيقُ تَعْلِيقَاتِ الْعُمَلَاءِ."
+      ],
+      "usage_note_ar": "قَدْ يَخْطِئُ عِنْدَ السُّخْرِيَةِ أَوِ التَّعْبِيرَاتِ الْمُرَكَّبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_202",
+      "arabic": "تَحْلِيلُ الْمَوْضُوعَاتِ",
+      "meaning_ar": "تَجْمِيعُ النُّصُوصِ فِي مَحَاوِرَ وَأَفْكَارٍ مُتَكَرِّرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْضُوعَاتُ النِّقَاشِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْبَاحِثُ التَّعْلِيقَاتِ فِي فِئَاتٍ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ أَهَمِّ اهْتِمَامَاتِ الْجُمْهُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_203",
+      "arabic": "تَوَاصُلٌ مَعَ الْعُمَلَاءِ",
+      "meaning_ar": "تَبَادُلُ الرَّسَائِلِ مَعَ الْمُسْتَفِيدِينَ قَبْلَ الْخِدْمَةِ وَبَعْدَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَنَاةُ الدَّعْمِ"
+      ],
+      "examples_ar": [
+        "أَجَابَ الْمُوَظَّفُ عَنْ سُؤَالِ الْعَمِيلِ."
+      ],
+      "usage_note_ar": "يَعْتَمِدُ عَلَى سُرْعَةِ الرَّدِّ وَوُضُوحِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_204",
+      "arabic": "زَمَنُ الِاسْتِجَابَةِ",
+      "meaning_ar": "الْمُدَّةُ بَيْنَ وُصُولِ رِسَالَةٍ وَبَدْءِ الرَّدِّ عَلَيْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ الزَّمَنِ"
+      ],
+      "examples_ar": [
+        "رَدَّ فَرِيقُ الدَّعْمِ خِلَالَ دَقَائِقَ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مُدَّةِ حَلِّ الْمُشْكِلَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_205",
+      "arabic": "زَمَنُ حَلِّ الْمُشْكِلَةِ",
+      "meaning_ar": "الْمُدَّةُ اللَّازِمَةُ لِإِغْلَاقِ طَلَبِ دَعْمٍ بِصُورَةٍ مُرْضِيَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِيَاسُ زَمَنِ الْحَلِّ"
+      ],
+      "examples_ar": [
+        "أَغْلَقَ الْفَرِيقُ الطَّلَبَ بَعْدَ إِصْلَاحِ الْخَلَلِ."
+      ],
+      "usage_note_ar": "قَدْ يَشْمَلُ وَقْتَ الِانْتِظَارِ وَالْمُتَابَعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_206",
+      "arabic": "تَذْكِرَةُ دَعْمٍ",
+      "meaning_ar": "سِجِلٌّ إِلِكْتُرُونِيٌّ يَتَابِعُ مُشْكِلَةً أَوْ اسْتِفْسَارًا مِنْ عَمِيلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَقْمُ التَّذْكِرَةِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْعَمِيلُ تَذْكِرَةً عَنْ الْخِدْمَةِ."
+      ],
+      "usage_note_ar": "تَحْمِلُ الْحَالَةَ وَالأَوْلَوِيَّةَ وَالتَّارِيخَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_207",
+      "arabic": "تَصْعِيدُ الطَّلَبِ",
+      "meaning_ar": "نَقْلُ مُشْكِلَةٍ إِلَى فَرِيقٍ أَعْلَى أَوْ أَكْثَرَ اخْتِصَاصًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُسْتَوَى التَّصْعِيدِ"
+      ],
+      "examples_ar": [
+        "أَحَالَ الْمُوَظَّفُ الْمُشْكِلَةَ إِلَى الْفَنِّيِّ."
+      ],
+      "usage_note_ar": "يَجِبُ تَوْضِيحُ السَّبَبِ وَالْمَسْؤُولِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_208",
+      "arabic": "إِغْلَاقُ التَّذْكِرَةِ",
+      "meaning_ar": "إِثْبَاتُ انْتِهَاءِ مُعَالَجَةِ طَلَبٍ فِي نِظَامِ الدَّعْمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَأْكِيدُ الْحَلِّ"
+      ],
+      "examples_ar": [
+        "أَغْلَقَ الْمُوَظَّفُ التَّذْكِرَةَ بَعْدَ التَّحَقُّقِ."
+      ],
+      "usage_note_ar": "يُفَضَّلُ تَوْثِيقُ الْحَلِّ قَبْلَ الْإِغْلَاقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_209",
+      "arabic": "رَسَالَةُ مُتَابَعَةٍ",
+      "meaning_ar": "مُرَاسَلَةٌ تُرْسَلُ بَعْدَ تَوَاصُلٍ سَابِقٍ لِلسُّؤَالِ عَنِ النَّتِيجَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِرْسَالُ الْمُتَابَعَةِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الْمُوَظَّفُ الْعَمِيلَ عَنْ رِضَاهُ."
+      ],
+      "usage_note_ar": "يَحْسُنُ أَنْ تَكُونَ قَصِيرَةً وَمُحَدَّدَةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_210",
+      "arabic": "مَحْضَرُ اجْتِمَاعٍ",
+      "meaning_ar": "وَثِيقَةٌ تُلَخِّصُ مَا نُوقِشَ وَمَا اتُّفِقَ عَلَيْهِ فِي لِقَاءٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْرِيرُ الْمَحْضَرِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُقَرِّرُ مَحْضَرًا لِلْمُشَارِكِينَ."
+      ],
+      "usage_note_ar": "يُفَضَّلُ ذِكْرُ الْقَرَارَاتِ وَالْمَسْؤُولِينَ وَالْمَوَاعِيدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_211",
+      "arabic": "جَدْوَلُ أَعْمَالٍ",
+      "meaning_ar": "قَائِمَةُ الْمَوَاضِيعِ الْمُقَرَّرِ مُنَاقَشَتُهَا فِي اجْتِمَاعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بُنُودُ الْجَدْوَلِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْمُنَظِّمُ جَدْوَلَ الأَعْمَالِ مُبَكِّرًا."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَنْظِيمِ الْوَقْتِ وَالْمُنَاقَشَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_212",
+      "arabic": "نُقْطَةُ عَمَلٍ",
+      "meaning_ar": "مَهَمَّةٌ مُحَدَّدَةٌ تَنْتُجُ عَنْ اجْتِمَاعٍ وَتُكَلَّفُ بِهَا جِهَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُتَابَعَةُ الْمَهَمَّةِ"
+      ],
+      "examples_ar": [
+        "كُلِّفَ الْمُهَنْدِسُ بِإِعْدَادِ التَّقْرِيرِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى مَسْؤُولٍ وَمَوْعِدٍ وَاضِحَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_213",
+      "arabic": "تَغْذِيَةٌ رَاجِعَةٌ",
+      "meaning_ar": "مُلَاحَظَاتٌ تُقَدَّمُ عَنْ عَمَلٍ أَوْ أَدَاءٍ لِتَحْسِينِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَلَقِّي التَّغْذِيَةِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمُعَلِّمُ مُلَاحَظَاتٍ بَنَّاءَةً."
+      ],
+      "usage_note_ar": "تَكُونُ أَنْفَعَ عِنْدَمَا تَتَعَلَّقُ بِسُلُوكٍ مُحَدَّدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_214",
+      "arabic": "تَغْذِيَةٌ رَاجِعَةٌ بَنَّاءَةٌ",
+      "meaning_ar": "مُلَاحَظَاتٌ تَصِفُ مَوَاضِعَ التَّحْسِينِ بِأُسْلُوبٍ وَاضِحٍ وَمُحْتَرَمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْدِيمُ الْمُلَاحَظَاتِ"
+      ],
+      "examples_ar": [
+        "شَكَرَ الْمُدِيرُ الْفَرِيقَ ثُمَّ بَيَّنَ الْمَطْلُوبَ."
+      ],
+      "usage_note_ar": "تُرَكِّزُ عَلَى الْفِعْلِ لَا عَلَى إِهَانَةِ الشَّخْصِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_215",
+      "arabic": "حِوَارٌ بَنَّاءٌ",
+      "meaning_ar": "نِقَاشٌ يَسْتَهْدِفُ فَهْمَ الْمَوَاقِفِ وَالْوُصُولَ إِلَى حَلٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِدَارَةُ الْحِوَارِ"
+      ],
+      "examples_ar": [
+        "اسْتَمَعَ الْفَرِيقُ إِلَى الْآرَاءِ الْمُخْتَلِفَةِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى احْتِرَامِ الْخِلَافِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_216",
+      "arabic": "إِصْغَاءٌ نَشِطٌ",
+      "meaning_ar": "اسْتِمَاعٌ مُتَرَكِّزٌ يُظْهِرُ فَهْمَ الْمُتَحَدِّثِ بِالسُّؤَالِ وَالتَّلْخِيصِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَهَارَةُ الْإِصْغَاءِ"
+      ],
+      "examples_ar": [
+        "أَعَادَ الْمُوَظَّفُ صِيَاغَةَ طَلَبِ الْعَمِيلِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ سَمَاعِ الْكَلَامِ دُونَ تَفَاعُلٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_217",
+      "arabic": "إِعَادَةُ الصِّيَاغَةِ",
+      "meaning_ar": "التَّعْبِيرُ عَنْ مَعْنًى سَابِقٍ بِأَلْفَاظٍ أُخْرَى لِلتَّوْضِيحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِيَاغَةُ الْفِكْرَةِ"
+      ],
+      "examples_ar": [
+        "قَالَ الْمُوَظَّفُ مَا فَهِمَهُ مِنَ الطَّلَبِ."
+      ],
+      "usage_note_ar": "يَجِبُ الْحِفَاظُ عَلَى الْمَعْنَى الأَصْلِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_218",
+      "arabic": "سُؤَالٌ اسْتِيضَاحِيٌّ",
+      "meaning_ar": "سُؤَالٌ يُطْرَحُ لِرَفْعِ الْغُمُوضِ أَوْ اسْتِكْمَالِ نَقْصٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَرْحُ السُّؤَالِ"
+      ],
+      "examples_ar": [
+        "سَأَلَ الْمُهَنْدِسُ عَنِ الْمَقَاسِ الْمَطْلُوبِ."
+      ],
+      "usage_note_ar": "يُقَلِّلُ سُوءَ الْفَهْمِ وَالْعَمَلَ الْمُكَرَّرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_219",
+      "arabic": "سُوءُ فَهْمٍ اتِّصَالِيٌّ",
+      "meaning_ar": "اخْتِلَافٌ بَيْنَ الْمَعْنَى الْمَقْصُودِ وَمَا يَفْهَمُهُ الْمُتَلَقِّي.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْحِيحُ الْفَهْمِ"
+      ],
+      "examples_ar": [
+        "وَضَّحَ الْمُدِيرُ الْمَوْعِدَ بَعْدَ الِارْتِبَاكِ."
+      ],
+      "usage_note_ar": "يَزِيدُ مَعَ الْعِبَارَاتِ الْغَامِضَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_220",
+      "arabic": "حَاجِزٌ لُغَوِيٌّ",
+      "meaning_ar": "صُعُوبَةٌ فِي التَّوَاصُلِ تَنْشَأُ مِنِ اخْتِلَافِ اللُّغَاتِ أَوِ الْمُسْتَوَيَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَجَاوُزُ الْحَاجِزِ"
+      ],
+      "examples_ar": [
+        "اسْتَعَانَ الْفَرِيقُ بِمُتَرْجِمٍ فِي الِاجْتِمَاعِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ التَّبْسِيطُ وَالشَّرْحُ عَلَى تَقْلِيلِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_221",
+      "arabic": "غُمُوضٌ دَلَالِيٌّ",
+      "meaning_ar": "احْتِمَالُ حَمْلِ عِبَارَةٍ عَلَى أَكْثَرَ مِنْ مَعْنًى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِزَالَةُ الْغُمُوضِ"
+      ],
+      "examples_ar": [
+        "عَدَّلَ الْكَاتِبُ الْجُمْلَةَ لِتَكُونَ أَدَقَّ."
+      ],
+      "usage_note_ar": "يُقَلَّلُ بِالسِّيَاقِ وَتَحْدِيدِ الْمُصْطَلَحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_222",
+      "arabic": "تَضَارُبُ الرَّسَائِلِ",
+      "meaning_ar": "وُصُولُ تَعْلِيمَاتٍ أَوْ مَعْلُومَاتٍ غَيْرِ مُتَّفِقَةٍ إِلَى الْجُمْهُورِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْحِيدُ الْمَعْلُومَاتِ"
+      ],
+      "examples_ar": [
+        "أَصْدَرَتِ الْإِدَارَةُ تَوْضِيحًا بَعْدَ رِسَالَتَيْنِ مُتَعَارِضَتَيْنِ."
+      ],
+      "usage_note_ar": "يَسْتَلْزِمُ تَحْدِيدَ الْمَصْدَرِ الْمُعْتَمَدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_223",
+      "arabic": "ضَجِيجٌ مَعْلُومَاتِيٌّ",
+      "meaning_ar": "كَثْرَةُ رَسَائِلَ غَيْرِ مُفِيدَةٍ تُصَعِّبُ تَمْيِيزَ الْمُهِمِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ الضَّجِيجِ"
+      ],
+      "examples_ar": [
+        "رَتَّبَ الْفَرِيقُ الإِشْعَارَاتِ حَسَبَ الأَوْلَوِيَّةِ."
+      ],
+      "usage_note_ar": "قَدْ يَضُرُّ بِالِانْتِبَاهِ وَسُرْعَةِ الِاسْتِجَابَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_224",
+      "arabic": "إِرْهَاقٌ مَعْلُومَاتِيٌّ",
+      "meaning_ar": "تَعَبٌ يَنْتُجُ مِنْ كَثْرَةِ الْمَعْلُومَاتِ الْمَطْلُوبِ مُعَالَجَتُهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَقْلِيلُ الْعِبْءِ"
+      ],
+      "examples_ar": [
+        "وَزَّعَ الْمُدِيرُ التَّقَارِيرَ عَلَى فَتَرَاتٍ."
+      ],
+      "usage_note_ar": "يَحْسُنُ تَقْدِيمُ الْمُهِمِّ بِوُضُوحٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_225",
+      "arabic": "تَلْخِيصٌ تَنْفِيذِيٌّ",
+      "meaning_ar": "عَرْضٌ مُوجَزٌ لِأَهَمِّ النَّتَائِجِ وَالتَّوْصِيَاتِ لِصَاحِبِ الْقَرَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ التَّلْخِيصِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْبَاحِثُ صَفْحَةً تَضُمُّ النَّتَائِجَ."
+      ],
+      "usage_note_ar": "يَجِبُ أَلَّا يُغَيِّرَ الْأَسَاسَ الَّذِي بُنِيَ عَلَيْهِ التَّقْرِيرُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_226",
+      "arabic": "عَرْضٌ تَقْدِيمِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ شَرَائِحَ أَوْ مَوَادَّ تُعْرَضُ لِشَرْحِ مَوْضُوعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَرِيحَةُ الْعَرْضِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْمُهَنْدِسُ عَرْضًا لِلْعَمِيلِ."
+      ],
+      "usage_note_ar": "تَنْفَعُ فِيهِ الْخُطُوطُ الْوَاضِحَةُ وَالْبِنْيَةُ الْمُنَظَّمَةُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_227",
+      "arabic": "تَسَلْسُلٌ بَصَرِيٌّ",
+      "meaning_ar": "تَرْتِيبُ الْعَنَاصِرِ بِحَيْثُ يَنْتَقِلُ النَّظَرُ مِنَ الأَهَمِّ إِلَى الأَقَلِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرْتِيبُ الْعَنَاصِرِ"
+      ],
+      "examples_ar": [
+        "جَعَلَ الْمُصَمِّمُ الْعُنْوَانَ أَبْرَزَ مِنَ التَّفَاصِيلِ."
+      ],
+      "usage_note_ar": "يُحَقَّقُ بِالْحَجْمِ وَالْمَكَانِ وَالتَّبَايُنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_228",
+      "arabic": "تَبَايُنٌ بَصَرِيٌّ",
+      "meaning_ar": "اخْتِلَافٌ فِي اللَّوْنِ أَوِ السُّطُوعِ يَجْعَلُ عُنْصُرًا مُمَيَّزًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَفْعُ التَّبَايُنِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الْمُصَمِّمُ لَوْنَ النَّصِّ لِيَظْهَرَ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي سُهُولَةِ الْقِرَاءَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_229",
+      "arabic": "فَرَاغٌ بَصَرِيٌّ",
+      "meaning_ar": "مِسَاحَةٌ خَالِيَةٌ حَوْلَ الْعَنَاصِرِ تُسَاعِدُ عَلَى تَنْظِيمِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْزِيعُ الْفَرَاغِ"
+      ],
+      "examples_ar": [
+        "تَرَكَ الْمُصَمِّمُ هَامِشًا وَاسِعًا حَوْلَ الْعُنْوَانِ."
+      ],
+      "usage_note_ar": "لَا يُعَدُّ هَدْرًا إِذَا خَدَمَ الْوُضُوحَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_230",
+      "arabic": "مِحَاذَاةٌ بَصَرِيَّةٌ",
+      "meaning_ar": "تَرْتِيبُ الْعَنَاصِرِ عَلَى خُطُوطٍ مُنَظَّمَةٍ فِي الصَّفْحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْمِحَاذَاةِ"
+      ],
+      "examples_ar": [
+        "جَعَلَ الْمُصَمِّمُ حَوَافَّ النُّصُوصِ مُتَسَاوِيَةً."
+      ],
+      "usage_note_ar": "تُقَلِّلُ الْفَوْضَى وَتُحَسِّنُ الْقِرَاءَةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_231",
+      "arabic": "هَامِشُ الصَّفْحَةِ",
+      "meaning_ar": "الْمَسَاحَةُ الْفَارِغَةُ بَيْنَ مُحْتَوَى الصَّفْحَةِ وَحَافَّتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الْهَامِشِ"
+      ],
+      "examples_ar": [
+        "زَادَ الْمُصَمِّمُ الْهَامِشَ لِتَجَنُّبِ الِازْدِحَامِ."
+      ],
+      "usage_note_ar": "يُرَاعَى عِنْدَ الطِّبَاعَةِ وَالْعَرْضِ الرَّقْمِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_232",
+      "arabic": "شَبَكَةُ تَخْطِيطٍ",
+      "meaning_ar": "خُطُوطٌ افْتِرَاضِيَّةٌ تُنَظِّمُ مَوَاضِعَ الْعَنَاصِرِ فِي التَّصْمِيمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَعْمِدَةُ الشَّبَكَةِ"
+      ],
+      "examples_ar": [
+        "رَتَّبَ الْمُصَمِّمُ الْبِطَاقَاتِ عَلَى أَعْمِدَةٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى الِاتِّسَاقِ بَيْنَ الصَّفَحَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_233",
+      "arabic": "تَصْمِيمٌ مُتَجَاوِبٌ",
+      "meaning_ar": "تَرْتِيبٌ بَصَرِيٌّ يَتَكَيَّفُ مَعَ أَحْجَامِ الشَّاشَاتِ الْمُخْتَلِفَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِبَارُ الشَّاشَاتِ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ النَّصُّ وَاضِحًا عَلَى الْهَاتِفِ وَالْحَاسُوبِ."
+      ],
+      "usage_note_ar": "يَشْمَلُ تَغْيِيرَ الأَعْمِدَةِ وَالْهَوَامِشِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_234",
+      "arabic": "قَابِلِيَّةُ الْقِرَاءَةِ",
+      "meaning_ar": "دَرَجَةُ سُهُولَةِ فَهْمِ النَّصِّ وَتَمْيِيزِ حُرُوفِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْسِينُ الْقِرَاءَةِ"
+      ],
+      "examples_ar": [
+        "كَبَّرَ الْمُصَمِّمُ الْخَطَّ فِي الْوَاجِهَةِ."
+      ],
+      "usage_note_ar": "تَتَأَثَّرُ بِالْحَجْمِ وَالتَّبَايُنِ وَالصِّيَاغَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_235",
+      "arabic": "خَطٌّ عَرَبِيٌّ رَقْمِيٌّ",
+      "meaning_ar": "مَجْمُوعَةُ أَشْكَالِ حُرُوفٍ تُسْتَعْمَلُ لِعَرْضِ النُّصُوصِ الْعَرَبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ الْخَطِّ"
+      ],
+      "examples_ar": [
+        "جَرَّبَ الْمُصَمِّمُ خَطًّا يَدْعَمُ التَّشْكِيلَ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْخُطُوطُ فِي وُضُوحِ الْحَرَكَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_236",
+      "arabic": "تَرْكِيبُ الْحَرَكَاتِ",
+      "meaning_ar": "وَضْعُ عَلامَاتِ التَّشْكِيلِ فَوْقَ الْحُرُوفِ وَتَحْتَهَا بِدِقَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ التَّشْكِيلِ"
+      ],
+      "examples_ar": [
+        "تَأَكَّدَ الْمُصَمِّمُ مِنْ وُضُوحِ الْحَرَكَاتِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ خَطًّا يَدْعَمُ الْعَرَبِيَّةَ جَيِّدًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_237",
+      "arabic": "اتِّجَاهُ الْكِتَابَةِ",
+      "meaning_ar": "الْجَانِبُ الَّذِي تَبْدَأُ مِنْهُ الْكَلِمَاتُ وَتَسْتَمِرُّ فِيهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "كِتَابَةٌ مِنَ الْيَمِينِ"
+      ],
+      "examples_ar": [
+        "عَرَضَ التَّطْبِيقُ الْفِقْرَةَ مِنَ الْيَمِينِ."
+      ],
+      "usage_note_ar": "تُرَاعَى الْأَرْقَامُ وَالرُّمُوزُ فِي النُّصُوصِ الْمُخْتَلَطَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_238",
+      "arabic": "تَغْطِيَةٌ إِعْلَامِيَّةٌ",
+      "meaning_ar": "جَمْعُ الْأَخْبَارِ وَنَشْرُهَا وَتَحْلِيلُهَا بِشَأْنِ مَوْضُوعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِطَاقُ التَّغْطِيَةِ"
+      ],
+      "examples_ar": [
+        "وَاصَلَتِ الْقَنَاةُ تَغْطِيَةَ الْفَيْضَانِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَحَقُّقُ الدِّقَّةِ وَتَجَنُّبُ التَّهْوِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_239",
+      "arabic": "تَغْطِيَةٌ مُبَاشِرَةٌ",
+      "meaning_ar": "نَقْلُ تَفَاصِيلِ الْحَدَثِ إِلَى الْجُمْهُورِ وَهُوَ جَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَرِيقُ الْبَثِّ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْمُرَاسِلُ الْمُؤْتَمَرَ مُبَاشَرَةً."
+      ],
+      "usage_note_ar": "تَقِلُّ أَحْيَانًا فُرْصَةُ التَّحَقُّقِ قَبْلَ النَّشْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_240",
+      "arabic": "تَحْدِيثٌ إِخْبَارِيٌّ",
+      "meaning_ar": "إِضَافَةُ مَعْلُومَاتٍ جَدِيدَةٍ إِلَى خَبَرٍ سَبَقَ نَشْرُهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَشْرُ التَّحْدِيثِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْمُحَرِّرُ نَتَائِجَ الِاجْتِمَاعِ."
+      ],
+      "usage_note_ar": "يَجِبُ بَيَانُ مَا تَغَيَّرَ عِنْدَ الْحَاجَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_241",
+      "arabic": "نَشْرٌ مُتَسَلْسِلٌ",
+      "meaning_ar": "تَقْدِيمُ مَادَّةٍ طَوِيلَةٍ فِي حَلَقَاتٍ تَصْدُرُ تِبَاعًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَلَقَةُ السِّلْسِلَةِ"
+      ],
+      "examples_ar": [
+        "نَشَرَتِ الْمَجَلَّةُ الْجُزْءَ الثَّانِيَ مِنَ التَّحْقِيقِ."
+      ],
+      "usage_note_ar": "يُسْتَحْسَنُ الْحِفَاظُ عَلَى تَرَابُطِ الأَجْزَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_242",
+      "arabic": "مَحْتَوًى تَفَاعُلِيٌّ",
+      "meaning_ar": "مَادَّةٌ تَسْمَحُ لِلْمُسْتَخْدِمِ بِالِاخْتِيَارِ أَوِ التَّجْرِبَةِ دَاخِلَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةٌ تَفَاعُلِيَّةٌ"
+      ],
+      "examples_ar": [
+        "اسْتَكْشَفَ الْقَارِئُ الْبَيَانَاتِ بِالنَّقْرِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ مَادَّةٍ ثَابِتَةٍ لَا تَتَغَيَّرُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_243",
+      "arabic": "رَسْمٌ بَيَانِيٌّ تَفَاعُلِيٌّ",
+      "meaning_ar": "تَمْثِيلٌ لِلْبَيَانَاتِ يُتِيحُ تَغْيِيرَ الْمَعْرُوضِ بِاخْتِيَارِ الْمُسْتَخْدِمِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْفِيَةُ الْبَيَانَاتِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الْقَارِئُ الْفَتْرَةَ الزَّمَنِيَّةَ فِي الرَّسْمِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَوْضِيحُ الْمَحَاوِرِ وَالْمَقَايِيسِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_communication_media_20261027_244",
+      "arabic": "إِنْفُوغْرَافِيكٌ",
+      "meaning_ar": "عَرْضٌ بَصَرِيٌّ يَجْمَعُ الرُّسُومَ وَالأَرْقَامَ وَالنُّصُوصَ لِلتَّوْضِيحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "تَصْمِيمُ الْإِنْفُوغْرَافِيكِ"
+      ],
+      "examples_ar": [
+        "لَخَّصَ الْمُصَمِّمُ نَتَائِجَ الْبَحْثِ بِرَسْمٍ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى أَرْقَامٍ مَوْثُوقَةٍ وَتَسَلْسُلٍ وَاضِحٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_communication_media_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
