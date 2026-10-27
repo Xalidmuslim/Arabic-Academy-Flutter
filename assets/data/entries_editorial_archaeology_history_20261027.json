@@ -1,0 +1,2800 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_archaeology_history_20261027_001",
+      "arabic": "عِلْمُ الْآثَارِ",
+      "meaning_ar": "عِلْمٌ يَدْرُسُ حَيَاةَ الْمَجْتَمَعَاتِ الْقَدِيمَةِ مِنْ خِلَالِ بَقَايَاهَا الْمَادِّيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَحْثٌ أَثَرِيٌّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ آثَارَ مَدِينَةٍ قَدِيمَةٍ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ الْحَفْرَ وَالتَّوْثِيقَ وَالتَّحْلِيلَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_002",
+      "arabic": "مَوْقِعٌ أَثَرِيٌّ",
+      "meaning_ar": "مَكَانٌ تَحْتَوِي أَرْضُهُ أَوْ مَبَانِيهِ عَلَى بَقَايَا نَشَاطٍ بَشَرِيٍّ قَدِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْمَوْقِعِ"
+      ],
+      "examples_ar": [
+        "زَارَ الطَّالِبُ مَوْقِعًا أَثَرِيًّا مَحْمِيًّا."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ مَدْفُونًا أَوْ ظَاهِرًا فَوْقَ سَطْحِ الأَرْضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_003",
+      "arabic": "مَسْحٌ أَثَرِيٌّ",
+      "meaning_ar": "بَحْثٌ مُنَظَّمٌ عَنْ مَوَاقِعَ وَآثَارٍ فِي مَنْطِقَةٍ دُونَ حَفْرٍ وَاسِعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الْمَسْحِ"
+      ],
+      "examples_ar": [
+        "سَارَ الْفَرِيقُ عَلَى خُطُوطٍ مُحَدَّدَةٍ فِي السَّهْلِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى اخْتِيَارِ مَوَاضِعِ الْحَفْرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_004",
+      "arabic": "حَفْرٌ أَثَرِيٌّ",
+      "meaning_ar": "إِزَالَةُ طَبَقَاتِ التُّرْبَةِ بِتَرْتِيبٍ لِدِرَاسَةِ الْبَقَايَا الْقَدِيمَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْسِمُ الْحَفْرِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَرِيقُ عَنْ أَسَاسَاتِ مَبْنًى."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَوْثِيقَ الْمَوْضِعِ قَبْلَ إِزَالَةِ التُّرْبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_005",
+      "arabic": "مَرْبَعُ تَنْقِيبٍ",
+      "meaning_ar": "وَحْدَةٌ مُحَدَّدَةُ الْحُدُودِ تُسْتَعْمَلُ لِتَنْظِيمِ الْحَفْرِ الأَثَرِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُدُودُ الْمَرْبَعِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ أَبْعَادَ مَرْبَعِ التَّنْقِيبِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى تَسْجِيلِ مَوَاقِعِ اللُّقَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_006",
+      "arabic": "طَبَقَةٌ أَثَرِيَّةٌ",
+      "meaning_ar": "مُسْتَوًى مِنَ التُّرْبَةِ أَوِ الرُّسُوبِ يَحْفَظُ أَثَرًا لِنَشَاطٍ أَوْ حَدَثٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "وَصْفُ الطَّبَقَةِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ فَخَّارًا فِي طَبَقَةٍ عَمِيقَةٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى فَهْمِ تَسَلْسُلِ الْأَحْدَاثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_007",
+      "arabic": "تَطَبُّقٌ أَثَرِيٌّ",
+      "meaning_ar": "تَرْتِيبُ الطَّبَقَاتِ فِي مَوْقِعٍ وَدِرَاسَةُ الْعَلَاقَةِ الزَّمَنِيَّةِ بَيْنَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ التَّطَبُّقِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ الْقَطَاعَ الْجَانِبِيَّ لِلْحَفْرَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَكْشِفُ الْحُفَرُ الْحَدِيثَةُ تَدَاخُلًا فِي الطَّبَقَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_008",
+      "arabic": "سِيَاقٌ أَثَرِيٌّ",
+      "meaning_ar": "الْمَوْضِعُ وَالظُّرُوفُ الَّتِي وُجِدَ فِيهَا أَثَرٌ مَعَ الْبَقَايَا الْمُرْتَبِطَةِ بِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ السِّيَاقِ"
+      ],
+      "examples_ar": [
+        "وَثَّقَ الْفَرِيقُ مَوْضِعَ الْإِنَاءِ قَبْلَ رَفْعِهِ."
+      ],
+      "usage_note_ar": "يَفْقِدُ الْأَثَرُ مَعْلُومَاتٍ مُهِمَّةً إِذَا فُصِلَ عَنْ سِيَاقِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_009",
+      "arabic": "لُقْيَةٌ أَثَرِيَّةٌ",
+      "meaning_ar": "شَيْءٌ مَادِّيٌّ صَنَعَهُ الْإِنْسَانُ أَوِ اسْتَعْمَلَهُ فِي زَمَنٍ قَدِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرْقِيمُ اللُّقْيَةِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ لُقْيَةً فَخَّارِيَّةً."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى وَصْفٍ وَحِفْظٍ مُنَاسِبَيْنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_010",
+      "arabic": "قِطْعَةٌ فَخَّارِيَّةٌ",
+      "meaning_ar": "جُزْءٌ مِنْ إِنَاءٍ أَوْ مُنْتَجٍ صُنِعَ مِنَ الطِّينِ الْمَحْرُوقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْنِيفُ الْفَخَّارِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْبَاحِثُ قِطَعًا فَخَّارِيَّةً مُتَنَاثِرَةً."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الزَّخَارِفُ وَالأَشْكَالُ فِي التَّأْرِيخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_011",
+      "arabic": "فَخَّارٌ خَشِنٌ",
+      "meaning_ar": "أَوَانٍ مِنَ الطِّينِ الْمَحْرُوقِ ذَاتُ سَطْحٍ وَمَادَّةٍ أَقَلَّ نُعُومَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِنَاعَةُ الْفَخَّارِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ إِنَاءً فَخَّارِيًّا خَشِنًا."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ أَحْيَانًا بِالِاسْتِخْدَامِ الْيَوْمِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_012",
+      "arabic": "فَخَّارٌ مَزْجَجٌ",
+      "meaning_ar": "إِنَاءٌ طِينِيٌّ مَحْرُوقٌ تُغَطِّي سَطْحَهُ طَبَقَةٌ زُجَاجِيَّةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَبَقَةُ التَّزْجِيجِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ إِنَاءً مَزْجَجًا فِي الْمَتْحَفِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ دِرَاسَةُ خَوَاصِّهِ لِتَحْدِيدِ صِنَاعَتِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_013",
+      "arabic": "أَدَاةٌ حَجَرِيَّةٌ",
+      "meaning_ar": "شَيْءٌ شَكَّلَهُ الْإِنْسَانُ مِنَ الْحَجَرِ لِقَطْعٍ أَوْ حَفْرٍ أَوْ عَمَلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِنَاعَةُ الأَدَوَاتِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ أَدَاةً حَجَرِيَّةً قَدِيمَةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ بِحَسَبِ الْمَادَّةِ وَأُسْلُوبِ التَّشْكِيلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_014",
+      "arabic": "شَظِيَّةٌ حَجَرِيَّةٌ",
+      "meaning_ar": "قِطْعَةٌ تَنْفَصِلُ عَنْ حَجَرٍ كَبِيرٍ أَثْنَاءَ التَّشْكِيلِ أَوِ الْكَسْرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الشَّظِيَّةِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ شَظَايَا قُرْبَ الْمَوْقِدِ."
+      ],
+      "usage_note_ar": "قَدْ تَدُلُّ عَلَى مَكَانِ صِنَاعَةِ أَدَوَاتٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_015",
+      "arabic": "نَوَاةٌ حَجَرِيَّةٌ",
+      "meaning_ar": "قِطْعَةُ حَجَرٍ أُزِيلَتْ مِنْهَا شَظَايَا لِإِنْتَاجِ أَدَوَاتٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "آثَارُ الضَّرْبِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ نَوَاةً حَجَرِيَّةً."
+      ],
+      "usage_note_ar": "تُبَيِّنُ طَرِيقَةَ صُنْعِ الأَدَوَاتِ فِي الْمَوْقِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_016",
+      "arabic": "رَحًى حَجَرِيَّةٌ",
+      "meaning_ar": "أَدَاةٌ مِنْ حَجَرَيْنِ تُسْتَعْمَلُ لِطَحْنِ الْحُبُوبِ وَغَيْرِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَجَرُ الرَّحَى"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ رَحًى قَدِيمَةً فِي الْمَنْزِلِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى مَعْرِفَةِ الْأَنْشِطَةِ الْمَنْزِلِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_017",
+      "arabic": "مَوْقِدٌ قَدِيمٌ",
+      "meaning_ar": "مَكَانٌ خُصِّصَ لِإِشْعَالِ النَّارِ لِلطَّهْيِ أَوِ التَّدْفِئَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا الْمَوْقِدِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْبَاحِثُ رَمَادًا وَحِجَارَةً مُحْتَرِقَةً."
+      ],
+      "usage_note_ar": "قَدْ يَحْفَظُ بَقَايَا طَعَامٍ وَفَحْمٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_018",
+      "arabic": "عَظْمٌ أَثَرِيٌّ",
+      "meaning_ar": "بَقِيَّةٌ عَظْمِيَّةٌ تَرْتَبِطُ بِمَوْقِعٍ قَدِيمٍ وَتُدْرَسُ لِفَهْمِ الْحَيَاةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْعِظَامِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْبَاحِثُ نَوْعَ حَيَوَانٍ مِنْ عَظْمِهِ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَحْلِيلٍ مُتَخَصِّصٍ لِتَفْسِيرِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_019",
+      "arabic": "بَقَايَا نَبَاتِيَّةٌ أَثَرِيَّةٌ",
+      "meaning_ar": "بُذُورٌ أَوْ أَخْشَابٌ أَوْ جُزَيْئَاتٌ نَبَاتِيَّةٌ حُفِظَتْ فِي مَوْقِعٍ قَدِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْبُذُورِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ حُبُوبًا مُتَفَحِّمَةً."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى دِرَاسَةِ الْغِذَاءِ وَالزِّرَاعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_020",
+      "arabic": "حَبَّةُ لِقَاحٍ أَثَرِيَّةٌ",
+      "meaning_ar": "جُزَيْءٌ نَبَاتِيٌّ دَقِيقٌ قَدْ يُحْفَظُ فِي رُسُوبٍ قَدِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ اللِّقَاحِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ حَبَّاتِ لِقَاحٍ فِي التُّرْبَةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى إِعَادَةِ تَصَوُّرِ الْبِيئَةِ الْقَدِيمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_021",
+      "arabic": "فَحْمٌ أَثَرِيٌّ",
+      "meaning_ar": "بَقَايَا خَشَبٍ مُحْتَرِقٍ حُفِظَتْ فِي طَبَقَاتِ مَوْقِعٍ قَدِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْفَحْمِ"
+      ],
+      "examples_ar": [
+        "أَرْسَلَ الْبَاحِثُ عَيِّنَةَ فَحْمٍ لِلْفَحْصِ."
+      ],
+      "usage_note_ar": "قَدْ يُسْتَفَادُ مِنْهُ فِي التَّأْرِيخِ وَدِرَاسَةِ الْنَّبَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_022",
+      "arabic": "تَأْرِيخٌ كَرْبُونِيٌّ",
+      "meaning_ar": "طَرِيقَةٌ تُقَدِّرُ عُمْرَ مَوَادَّ عُضْوِيَّةٍ قَدِيمَةٍ مِنْ نِسْبَةِ كَرْبُونٍ مُشِعٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَيِّنَةُ التَّأْرِيخِ"
+      ],
+      "examples_ar": [
+        "قَدَّرَ الْمَخْبَرُ عُمْرَ قِطْعَةِ خَشَبٍ."
+      ],
+      "usage_note_ar": "تَحْتَاجُ النَّتِيجَةُ إِلَى مُعَايَرَةٍ وَمُرَاعَاةِ التَّلَوُّثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_023",
+      "arabic": "تَأْرِيخٌ نِسْبِيٌّ",
+      "meaning_ar": "تَرْتِيبُ الأَحْدَاثِ أَوِ اللُّقَى مِنَ الأَقْدَمِ إِلَى الأَحْدَثِ دُونَ رَقْمٍ مُطْلَقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْطَّبَقَاتِ"
+      ],
+      "examples_ar": [
+        "حَدَّدَ الْبَاحِثُ الطَّبَقَةَ الأَقْدَمَ."
+      ],
+      "usage_note_ar": "يَسْتَفِيدُ مِنَ التَّطَبُّقِ وَتَغَيُّرِ الأَشْكَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_024",
+      "arabic": "تَأْرِيخٌ مُطْلَقٌ",
+      "meaning_ar": "تَقْدِيرٌ لِعُمْرِ شَيْءٍ بِالسَّنَوَاتِ أَوْ بِمَدًى زَمَنِيٍّ مَحْدُودٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ الْعُمْرِ"
+      ],
+      "examples_ar": [
+        "قَدَّمَ الْمَخْبَرُ تَقْدِيرًا لِعُمْرِ الْعَيِّنَةِ."
+      ],
+      "usage_note_ar": "لَا تَكُونُ النَّتَائِجُ دَقِيقَةً تَمَامًا دَائِمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_025",
+      "arabic": "تَسَلْسُلٌ زَمَنِيٌّ أَثَرِيٌّ",
+      "meaning_ar": "تَرْتِيبٌ لِمَرَاحِلِ الْمَوْقِعِ أَوِ الْمَجْتَمَعِ وَفْقَ الْبَيَانَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بِنَاءُ التَّسَلْسُلِ"
+      ],
+      "examples_ar": [
+        "رَتَّبَ الْبَاحِثُ أَطْوَارَ الْمَوْقِعِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَغَيَّرُ مَعَ كَشْفِ أَدِلَّةٍ جَدِيدَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_026",
+      "arabic": "فَتْرَةٌ مَا قَبْلَ التَّارِيخِ",
+      "meaning_ar": "مَرْحَلَةٌ مِنْ حَيَاةِ الْبَشَرِ سَبَقَتِ الْمَصَادِرَ الْكِتَابِيَّةَ فِي مِنْطَقَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْفَتْرَةِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الطَّالِبُ عَنْ أَدَوَاتِ الْحَجَرِ الْقَدِيمِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ نِهَايَتُهَا بِحَسَبِ ظُهُورِ الْكِتَابَةِ فِي كُلِّ مَنْطِقَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_027",
+      "arabic": "الْعَصْرُ الْحَجَرِيُّ الْقَدِيمُ",
+      "meaning_ar": "فَتْرَةٌ طَوِيلَةٌ تَمَيَّزَتْ بِاسْتِخْدَامِ أَدَوَاتٍ حَجَرِيَّةٍ مُبَكِّرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَدَوَاتُ الْعَصْرِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ صُوَرًا لِأَدَوَاتِ الصَّيْدِ."
+      ],
+      "usage_note_ar": "يَتَنَوَّعُ تَأْرِيخُهُ بَيْنَ الْمَنَاطِقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_028",
+      "arabic": "الْعَصْرُ الْحَجَرِيُّ الْحَدِيثُ",
+      "meaning_ar": "فَتْرَةٌ شَهِدَتْ فِي مَنَاطِقَ كَثِيرَةٍ تَوَسُّعَ الزِّرَاعَةِ وَالِاسْتِقْرَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قُرًى حَجَرِيَّةٌ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ قَرْيَةً مِنَ الْعَصْرِ الْحَجَرِيِّ الْحَدِيثِ."
+      ],
+      "usage_note_ar": "لَمْ تَحْدُثْ تَحَوُّلَاتُهُ فِي كُلِّ الْمَنَاطِقِ فِي وَقْتٍ وَاحِدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_029",
+      "arabic": "الْعَصْرُ الْبُرُونْزِيُّ",
+      "meaning_ar": "فَتْرَةٌ تَارِيخِيَّةٌ شَاعَ فِيهَا اسْتِعْمَالُ الْبُرُونْزِ فِي صِنَاعَةِ الأَدَوَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِنَاعَةُ الْبُرُونْزِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ خَنْجَرًا بُرُونْزِيًّا."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ حُدُودُهُ الزَّمَنِيَّةُ بَيْنَ الْحَضَارَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_030",
+      "arabic": "الْعَصْرُ الْحَدِيدِيُّ",
+      "meaning_ar": "فَتْرَةٌ انْتَشَرَ فِيهَا اسْتِعْمَالُ الْحَدِيدِ فِي الأَدَوَاتِ وَالسِّلَاحِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِنَاعَةُ الْحَدِيدِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ فُرْنَ صَهْرٍ قَدِيمًا."
+      ],
+      "usage_note_ar": "لَا تَتَطَابَقُ بَدَايَتُهُ فِي جَمِيعِ الْمَنَاطِقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_031",
+      "arabic": "اسْتِقْرَارٌ زِرَاعِيٌّ قَدِيمٌ",
+      "meaning_ar": "تَحَوُّلُ جَمَاعَاتٍ إِلَى الْعَيْشِ الْمُسْتَمِرِّ قُرْبَ حُقُولٍ وَمَوَارِدَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "آثَارُ الْقُرَى"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَرِيقُ بُيُوتًا طِينِيَّةً قَدِيمَةً."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالزِّرَاعَةِ وَلَكِنْ لَيْسَ فِي كُلِّ الْحَالَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_032",
+      "arabic": "تَدْجِينُ الْحَيَوَانَاتِ",
+      "meaning_ar": "عَمَلِيَّةٌ تَارِيخِيَّةٌ تَغَيَّرَتْ فِيهَا سُلَالَاتٌ حَيَوَانِيَّةٌ بِالِانْتِخَابِ وَالتَّرْبِيَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَدَايَةُ التَّدْجِينِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ عِظَامَ الْأَغْنَامِ فِي الْقَرْيَةِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ تَرْوِيضِ حَيَوَانٍ وَاحِدٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_033",
+      "arabic": "مَسْكَنٌ طِينِيٌّ قَدِيمٌ",
+      "meaning_ar": "بِنَاءٌ اسْتَعْمَلَ الطِّينَ أَوِ اللَّبِنَ فِي جُدْرَانِهِ وَسَقْفِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا الْمَسْكَنِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَرِيقُ أَسَاسَ بَيْتٍ طِينِيٍّ."
+      ],
+      "usage_note_ar": "قَدْ يَحْفَظُ مَوَاضِعَ الْمَوَاقِدِ وَالأَبْوَابِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_034",
+      "arabic": "لَبِنَةٌ طِينِيَّةٌ",
+      "meaning_ar": "قَالَبٌ مِنَ الطِّينِ يُجَفَّفُ فِي الْهَوَاءِ وَيُسْتَعْمَلُ فِي الْبِنَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِنَاعَةُ اللَّبِنِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ لَبِنَاتٍ فِي سُورٍ قَدِيمٍ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ عَنِ الطُّوبِ الْمَحْرُوقِ فِي طَرِيقَةِ التَّجْفِيفِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_035",
+      "arabic": "مَعْبَدٌ قَدِيمٌ",
+      "meaning_ar": "بِنَاءٌ اسْتَعْمَلَتْهُ جَمَاعَةٌ تَارِيخِيَّةٌ لِمُمَارَسَاتٍ دِينِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا الْمَعْبَدِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ أَعْمِدَةَ الْمَعْبَدِ."
+      ],
+      "usage_note_ar": "يُدْرَسُ فِي سِيَاقِهِ التَّارِيخِيِّ وَالثَّقَافِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_036",
+      "arabic": "مَقْبَرَةٌ أَثَرِيَّةٌ",
+      "meaning_ar": "مِنْطَقَةٌ قَدِيمَةٌ تَضُمُّ مَدَافِنَ وَشَوَاهِدَ وَبَقَايَا جَنَائِزِيَّةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْمَقْبَرَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْفَرِيقُ تَخْطِيطَ الْمَدَافِنِ."
+      ],
+      "usage_note_ar": "يَجِبُ التَّعَامُلُ مَعَ الْبَقَايَا الْبَشَرِيَّةِ بِاحْتِرَامٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_037",
+      "arabic": "مَدْفَنٌ حَجَرِيٌّ",
+      "meaning_ar": "مَكَانٌ لِلْدَّفْنِ بُنِيَ مِنْ صُخُورٍ أَوْ أَلْوَاحٍ حَجَرِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَتْحَةُ الْمَدْفَنِ"
+      ],
+      "examples_ar": [
+        "وَثَّقَ الْبَاحِثُ مَوْضِعَ الْمَدْفَنِ."
+      ],
+      "usage_note_ar": "تَتَنَوَّعُ أَشْكَالُهُ وَفْقَ التَّقَالِيدِ الْمَحَلِّيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_038",
+      "arabic": "شَاهِدُ قَبْرٍ",
+      "meaning_ar": "حَجَرٌ أَوْ لَوْحٌ يُوضَعُ عِنْدَ مَدْفَنٍ وَقَدْ يَحْمِلُ كِتَابَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الشَّاهِدِ"
+      ],
+      "examples_ar": [
+        "نَسَخَ الْبَاحِثُ النَّقْشَ عَلَى الْحَجَرِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ أَحْيَانًا عَلَى التَّأْرِيخِ وَمَعْرِفَةِ الأَسْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_039",
+      "arabic": "نَقْشٌ حَجَرِيٌّ",
+      "meaning_ar": "كِتَابَةٌ أَوْ رَسْمٌ حُفِرَ عَلَى سَطْحِ حَجَرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَكُّ النَّقْشِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الطَّالِبُ نَقْشًا قَدِيمًا."
+      ],
+      "usage_note_ar": "قَدْ يَحْفَظُ أَسْمَاءً وَتَوَارِيخَ وَأَحْدَاثًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_040",
+      "arabic": "كِتَابَةٌ مِسْمَارِيَّةٌ",
+      "meaning_ar": "نِظَامُ كِتَابَةٍ قَدِيمٌ يَعْتَمِدُ عَلَى عَلامَاتٍ شَبِيهَةٍ بِالْمَسَامِيرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "لَوْحٌ مِسْمَارِيٌّ"
+      ],
+      "examples_ar": [
+        "رَأَى الطَّالِبُ لَوْحًا طِينِيًّا مَكْتُوبًا."
+      ],
+      "usage_note_ar": "اسْتُعْمِلَ فِي حَضَارَاتٍ مُتَعَدِّدَةٍ بِالشَّرْقِ الْقَدِيمِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_041",
+      "arabic": "كِتَابَةٌ هِيرُوغْلِيفِيَّةٌ",
+      "meaning_ar": "نِظَامُ كِتَابَةٍ صُوَرِيٌّ اسْتَعْمَلَهُ الْمِصْرِيُّونَ الْقُدَمَاءُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رُمُوزُ الْكِتَابَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ نَقْشًا هِيرُوغْلِيفِيًّا."
+      ],
+      "usage_note_ar": "تَجْمَعُ رُمُوزُهُ بَيْنَ دَلَالَاتٍ صَوْتِيَّةٍ وَمَعْنَوِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_042",
+      "arabic": "خَطٌّ مُسْنَدٌ",
+      "meaning_ar": "نِظَامُ كِتَابَةٍ قَدِيمٌ اسْتُعْمِلَ فِي أَجْزَاءٍ مِنْ جَنُوبِ الْجَزِيرَةِ الْعَرَبِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَقْشٌ بِالْمُسْنَدِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْبَاحِثُ حُرُوفًا مِنْ خَطِّ الْمُسْنَدِ."
+      ],
+      "usage_note_ar": "يُفِيدُ فِي دِرَاسَةِ الْلُّغَاتِ وَالتَّارِيخِ الْمَحَلِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_043",
+      "arabic": "مَخْطُوطَةٌ قَدِيمَةٌ",
+      "meaning_ar": "نَصٌّ كُتِبَ بِالْيَدِ عَلَى وَرَقٍ أَوْ رَقٍّ أَوْ مَادَّةٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِفْظُ الْمَخْطُوطَةِ"
+      ],
+      "examples_ar": [
+        "فَحَصَ الْبَاحِثُ مَخْطُوطَةً مِنْ مَكْتَبَةٍ."
+      ],
+      "usage_note_ar": "تُدْرَسُ فِيهَا الْمَادَّةُ وَالْخَطُّ وَسِلْسِلَةُ النُّسَخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_044",
+      "arabic": "بَرْدِيَّةٌ",
+      "meaning_ar": "وَثِيقَةٌ كُتِبَتْ عَلَى مَادَّةٍ مَصْنُوعَةٍ مِنْ نَبَاتِ الْبَرْدِيِّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْبَرْدِيَّةِ"
+      ],
+      "examples_ar": [
+        "حَفِظَ الْمَتْحَفُ بَرْدِيَّةً قَدِيمَةً."
+      ],
+      "usage_note_ar": "اشْتُهِرَ اسْتِعْمَالُهَا فِي مِصْرَ الْقَدِيمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_045",
+      "arabic": "رَقٌّ مَخْطُوطٌ",
+      "meaning_ar": "مَادَّةٌ رَقِيقَةٌ مِنْ جِلْدِ الْحَيَوَانِ هُيِّئَتْ لِلْكِتَابَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صَفَحَاتُ الرَّقِّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ نَصًّا عَلَى الرَّقِّ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ طَرِيقَةُ حِفْظِهِ عَنِ الْوَرَقِ الْحَدِيثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_046",
+      "arabic": "لَوْحٌ طِينِيٌّ",
+      "meaning_ar": "قِطْعَةٌ مُسَطَّحَةٌ مِنَ الطِّينِ حُفِرَتْ عَلَيْهَا رُمُوزٌ أَوْ كِتَابَاتٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرْمِيمُ اللَّوْحِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ لَوْحًا طِينِيًّا مَكْسُورًا."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يَحْفَظَ سِجِلَّاتٍ تِجَارِيَّةً وَإِدَارِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_047",
+      "arabic": "خَتْمٌ أُسْطُوَانِيٌّ",
+      "meaning_ar": "أَدَاةٌ صَغِيرَةٌ مَنْقُوشَةٌ تُدَحْرَجُ لِتَرْكِ صُورَةٍ عَلَى الطِّينِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَثَرُ الْخَتْمِ"
+      ],
+      "examples_ar": [
+        "عَرَضَ الْمَتْحَفُ خَتْمًا أُسْطُوَانِيًّا."
+      ],
+      "usage_note_ar": "اسْتُعْمِلَ فِي بَعْضِ الْحَضَارَاتِ الْقَدِيمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_048",
+      "arabic": "نَقْدٌ أَثَرِيٌّ",
+      "meaning_ar": "قِطْعَةٌ نَقْدِيَّةٌ قَدِيمَةٌ تُدْرَسُ لِمَعْرِفَةِ التِّجَارَةِ وَالسُّلْطَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْعُمْلَةِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ عُمْلَةً نُحَاسِيَّةً."
+      ],
+      "usage_note_ar": "قَدْ تَحْمِلُ اسْمَ حَاكِمٍ أَوْ عَلامَةَ سَكٍّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_049",
+      "arabic": "سَكُّ النُّقُودِ",
+      "meaning_ar": "صِنَاعَةُ قِطَعٍ نَقْدِيَّةٍ بِالضَّرْبِ أَوْ بِطُرُقٍ أُخْرَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَارُ السَّكِّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ طَرِيقَةَ سَكِّ النُّقُودِ الْقَدِيمَةِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ الْعَلامَاتُ عَلَى نِسْبَةِ الْعُمْلَةِ إِلَى زَمَنٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_050",
+      "arabic": "كَنْزٌ نَقْدِيٌّ",
+      "meaning_ar": "مَجْمُوعَةٌ مِنَ النُّقُودِ دُفِنَتْ أَوْ حُفِظَتْ مَعًا فِي زَمَنٍ سَابِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الْكَنْزِ"
+      ],
+      "examples_ar": [
+        "اكْتَشَفَ الْفَرِيقُ قِطَعًا نَقْدِيَّةً فِي وِعَاءٍ."
+      ],
+      "usage_note_ar": "يُفِيدُ سِيَاقُهُ فِي تَحْدِيدِ تَارِيخِ الْإِخْفَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_051",
+      "arabic": "طَرِيقٌ تِجَارِيٌّ قَدِيمٌ",
+      "meaning_ar": "مَسَارٌ انْتَقَلَتْ عَبْرَهُ السِّلَعُ وَالنَّاسُ بَيْنَ مَنَاطِقَ تَارِيخِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الطَّرِيقِ"
+      ],
+      "examples_ar": [
+        "تَتَبَّعَ الْبَاحِثُ مَسَارَ الْقَوَافِلِ."
+      ],
+      "usage_note_ar": "قَدْ يَرْتَبِطُ بِالْأَسْوَاقِ وَالْمَوَارِدِ الْمَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_052",
+      "arabic": "مَحَطَّةُ قَوَافِلَ",
+      "meaning_ar": "مَوْضِعٌ كَانَ يَسْتَرِيحُ فِيهِ التُّجَّارُ وَيُزَوِّدُونَ حَيَوَانَاتِهِمْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا الْمَحَطَّةِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَرِيقُ مَخَازِنَ قُرْبَ الطَّرِيقِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ أَنْ يَحْفَظَ آثَارَ التِّجَارَةِ وَالسَّفَرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_053",
+      "arabic": "مَخْزَنٌ أَثَرِيٌّ",
+      "meaning_ar": "مَبْنًى أَوْ حُجْرَةٌ قَدِيمَةٌ اسْتُعْمِلَتْ لِحِفْظِ مَوَادَّ أَوْ سِلَعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حُفَرُ التَّخْزِينِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ أَوَانِيَ كَبِيرَةً فِي الْمَخْزَنِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ التَّمْوِينِ وَالتِّجَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_054",
+      "arabic": "صَوْمَعَةُ حُبُوبٍ قَدِيمَةٌ",
+      "meaning_ar": "مَنْشَأَةٌ اسْتُعْمِلَتْ لِحِفْظِ الْغِلَالِ وَالْمَحَاصِيلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا الْحُبُوبِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَرِيقُ عَنْ مَكَانِ خَزْنٍ قَدِيمٍ."
+      ],
+      "usage_note_ar": "قَدْ تُظْهِرُ أَدِلَّةً عَلَى حَجْمِ الْإِنْتَاجِ الزِّرَاعِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_055",
+      "arabic": "قَنَاةُ رَيٍّ قَدِيمَةٌ",
+      "meaning_ar": "مَجْرًى مَائِيٌّ حَفَرَهُ النَّاسُ لِتَوْزِيعِ مَاءِ الزِّرَاعَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَخْطِيطُ الْقَنَاةِ"
+      ],
+      "examples_ar": [
+        "تَتَبَّعَ الْبَاحِثُ قَنَاةَ رَيٍّ مَهْجُورَةً."
+      ],
+      "usage_note_ar": "تُفِيدُ فِي دِرَاسَةِ الْإِنْتَاجِ وَالِاسْتِقْرَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_056",
+      "arabic": "سَدٌّ تَارِيخِيٌّ",
+      "meaning_ar": "مَنْشَأَةٌ قَدِيمَةٌ أُقِيمَتْ لِحَجْزِ الْمِيَاهِ أَوْ تَنْظِيمِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا السَّدِّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُهَنْدِسُ أَحْجَارَ السَّدِّ الْقَدِيمِ."
+      ],
+      "usage_note_ar": "يَكْشِفُ عَنْ خِبْرَةٍ فِي إِدَارَةِ الْمَوَارِدِ الْمَائِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_057",
+      "arabic": "حَمَّامٌ أَثَرِيٌّ",
+      "meaning_ar": "مَنْشَأَةٌ قَدِيمَةٌ اسْتُعْمِلَتْ لِلِاغْتِسَالِ وَالِاسْتِحْمَامِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرْمِيمُ الْحَمَّامِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَرِيقُ عَنْ قَنَوَاتِ تَسْخِينٍ."
+      ],
+      "usage_note_ar": "قَدْ يَضُمُّ غُرَفًا مُتَفَاوِتَةَ الْحَرَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_058",
+      "arabic": "فُرْنٌ أَثَرِيٌّ",
+      "meaning_ar": "مَوْقِدٌ مُغْلَقٌ قَدِيمٌ اسْتُعْمِلَ لِحَرْقِ الْفَخَّارِ أَوْ صَهْرِ الْمَعَادِنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا الْفُرْنِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ رَمَادًا وَخَبَثًا مَعْدِنِيًّا."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى مَعْرِفَةِ التِّقْنِيَاتِ الْحِرَفِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_059",
+      "arabic": "خَبَثٌ مَعْدِنِيٌّ أَثَرِيٌّ",
+      "meaning_ar": "بَقَايَا غَيْرُ مَعْدِنِيَّةٍ تَنْتُجُ عَنْ صَهْرِ الْخَامَاتِ فِي الأَفْرَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الْخَبَثِ"
+      ],
+      "examples_ar": [
+        "جَمَعَ الْبَاحِثُ خَبَثًا مِنْ مَوْقِعِ الصَّهْرِ."
+      ],
+      "usage_note_ar": "يَدُلُّ عَلَى طَرِيقَةِ إِنْتَاجِ الْمَعَادِنِ قَدِيمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_060",
+      "arabic": "قَالِبُ صَبٍّ أَثَرِيٌّ",
+      "meaning_ar": "أَدَاةٌ قَدِيمَةٌ شَكَّلَ فِيهَا الْحِرَفِيُّ مَعْدِنًا مُنْصَهِرًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "شَكْلُ الْقَالِبِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ قَالِبًا حَجَرِيًّا لِحُلِيٍّ."
+      ],
+      "usage_note_ar": "يَكْشِفُ عَنْ أَشْكَالِ الْمُنْتَجَاتِ الْمَصْنُوعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_061",
+      "arabic": "وَرْشَةٌ أَثَرِيَّةٌ",
+      "meaning_ar": "مَوْضِعٌ قَدِيمٌ وُجِدَتْ فِيهِ أَدِلَّةٌ عَلَى إِنْتَاجِ أَدَوَاتٍ أَوْ سِلَعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا الْوَرْشَةِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَرِيقُ شَظَايَا وَأَدَوَاتٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ مُخَلَّفَاتُ الْعَمَلِ فِي تَمْيِيزِ النَّشَاطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_062",
+      "arabic": "رَسْمٌ صَخْرِيٌّ",
+      "meaning_ar": "صُورَةٌ قَدِيمَةٌ رُسِمَتْ أَوْ حُفِرَتْ عَلَى صَخْرَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دِرَاسَةُ الرُّسُومِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْبَاحِثُ حَيَوَانًا مَرْسُومًا عَلَى الصَّخْرِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَفْسِيرُهُ بِحَذَرٍ وَوَفْقَ سِيَاقِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_063",
+      "arabic": "نَقْشٌ صَخْرِيٌّ",
+      "meaning_ar": "عَلامَاتٌ أَوْ صُوَرٌ حُفِرَتْ فِي سَطْحِ صَخْرَةٍ فِي زَمَنٍ قَدِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْثِيقُ النَّقْشِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْبَاحِثُ حَجْمَ النَّقْشِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَآكَلُ بِالتَّجْوِيَةِ وَالتَّخْرِيبِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_064",
+      "arabic": "فَنٌّ جِدَارِيٌّ قَدِيمٌ",
+      "meaning_ar": "رُسُومٌ أَوْ زَخَارِفُ أُنْجِزَتْ عَلَى جُدْرَانِ مَبَانٍ تَارِيخِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِفْظُ الرُّسُومِ"
+      ],
+      "examples_ar": [
+        "رَمَّمَ الْخَبِيرُ جُزْءًا مِنَ الرَّسْمِ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ دِرَاسَةَ الْأَلْوَانِ وَطَبَقَاتِ الْجِدَارِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_065",
+      "arabic": "فُسَيْفِسَاءُ أَثَرِيَّةٌ",
+      "meaning_ar": "زَخْرَفَةٌ صُنِعَتْ مِنْ قِطَعٍ صَغِيرَةٍ مِنْ حَجَرٍ أَوْ زُجَاجٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِطَعُ الْفُسَيْفِسَاءِ"
+      ],
+      "examples_ar": [
+        "كَشَفَ الْفَرِيقُ أَرْضِيَّةً مُزَخْرَفَةً."
+      ],
+      "usage_note_ar": "تَحْتَاجُ إِلَى تَثْبِيتِ الْقِطَعِ وَحِمَايَةِ السَّطْحِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_066",
+      "arabic": "نَحْتٌ بَارِزٌ",
+      "meaning_ar": "رَسْمٌ مُجَسَّمٌ تَبْرُزُ أَشْكَالُهُ عَنْ سَطْحٍ خَلْفِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "لَوْحَةُ النَّحْتِ"
+      ],
+      "examples_ar": [
+        "تَأَمَّلَ الزَّائِرُ نَحْتًا بَارِزًا عَلَى الْحَجَرِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ التِّمْثَالِ الْمُجَسَّمِ الْكَامِلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_067",
+      "arabic": "تِمْثَالٌ أَثَرِيٌّ",
+      "meaning_ar": "شَكْلٌ مَجْسَّمٌ قَدِيمٌ صُنِعَ مِنْ حَجَرٍ أَوْ مَعْدِنٍ أَوْ مَادَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ التِّمْثَالِ"
+      ],
+      "examples_ar": [
+        "عَرَضَ الْمَتْحَفُ تِمْثَالًا مَكْسُورًا."
+      ],
+      "usage_note_ar": "تُدْرَسُ خَامَتُهُ وَسِيَاقُهُ وَطَرِيقَةُ صُنْعِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_068",
+      "arabic": "نَصْبٌ تِذْكَارِيٌّ",
+      "meaning_ar": "مَعْلَمٌ أُقِيمَ لِإِحْيَاءِ ذِكْرَى حَدَثٍ أَوْ شَخْصٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَارِيخُ النَّصْبِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الزَّائِرُ النَّقْشَ عَلَى النَّصْبِ."
+      ],
+      "usage_note_ar": "قَدْ يَتَغَيَّرُ تَفْسِيرُهُ عَبْرَ الْعُصُورِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_069",
+      "arabic": "أَطْلَالُ مَدِينَةٍ",
+      "meaning_ar": "بَقَايَا مَبَانٍ وَشَوَارِعَ كَانَتْ تَتَكَوَّنُ مِنْهَا مَدِينَةٌ قَدِيمَةٌ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الأَطْلَالِ"
+      ],
+      "examples_ar": [
+        "تَجَوَّلَ الْبَاحِثُ بَيْنَ الأَطْلَالِ."
+      ],
+      "usage_note_ar": "تَحْفَظُ أَدِلَّةً عَلَى تَخْطِيطِ السُّكَّانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_070",
+      "arabic": "سُورٌ تَارِيخِيٌّ",
+      "meaning_ar": "حَاجِزٌ قَدِيمٌ بُنِيَ حَوْلَ مَدِينَةٍ أَوْ قَلْعَةٍ لِلْحِمَايَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَوَّابَةُ السُّورِ"
+      ],
+      "examples_ar": [
+        "رَمَّمَ الْعُمَّالُ جُزْءًا مِنَ السُّورِ."
+      ],
+      "usage_note_ar": "تَكْشِفُ بِنْيَتُهُ عَنْ طُرُقِ الدِّفَاعِ وَالْعِمَارَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_071",
+      "arabic": "بُرْجُ مُرَاقَبَةٍ قَدِيمٌ",
+      "meaning_ar": "بِنَاءٌ مُرْتَفِعٌ كَانَ يُسْتَعْمَلُ لِرَصْدِ الطُّرُقِ أَوِ الْأَخْطَارِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْضِعُ الْبُرْجِ"
+      ],
+      "examples_ar": [
+        "وَقَفَ الزَّائِرُ قُرْبَ بَقَايَا الْبُرْجِ."
+      ],
+      "usage_note_ar": "غَالِبًا مَا يُخْتَارُ لَهُ مَوْقِعٌ ذُو رُؤْيَةٍ وَاسِعَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_072",
+      "arabic": "حِصْنٌ تَارِيخِيٌّ",
+      "meaning_ar": "مَنْشَأَةٌ دِفَاعِيَّةٌ قَدِيمَةٌ لِحِمَايَةِ مَكَانٍ أَوْ مَمَرٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَوَّابَةُ الْحِصْنِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ تَخْطِيطَ الْحِصْنِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ بِنْيَتُهُ بِحَسَبِ التَّضَارِيسِ وَالزَّمَنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_073",
+      "arabic": "قَلْعَةٌ أَثَرِيَّةٌ",
+      "meaning_ar": "مَجْمُوعَةُ مَبَانٍ دِفَاعِيَّةٍ قَدِيمَةٍ مُحَاطَةٍ بِأَسْوَارٍ أَوْ أَبْرَاجٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَرْمِيمُ الْقَلْعَةِ"
+      ],
+      "examples_ar": [
+        "زَارَ الطَّالِبُ قَلْعَةً تَارِيخِيَّةً."
+      ],
+      "usage_note_ar": "قَدْ تَضُمُّ مَسَاكِنَ وَمَخَازِنَ وَمَرَافِقَ دِفَاعِيَّةً.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_074",
+      "arabic": "خَنْدَقٌ دِفَاعِيٌّ",
+      "meaning_ar": "حُفْرَةٌ طَوِيلَةٌ حَوْلَ مَنْشَأَةٍ أُقِيمَتْ لِإِعَاقَةِ الْوُصُولِ إِلَيْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حَفْرُ الْخَنْدَقِ"
+      ],
+      "examples_ar": [
+        "رَسَمَ الْبَاحِثُ مَوْضِعَ الْخَنْدَقِ."
+      ],
+      "usage_note_ar": "قَدْ يَكُونُ جَافًّا أَوْ مُمْتَلِئًا بِالْمَاءِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_075",
+      "arabic": "جِسْرٌ تَارِيخِيٌّ",
+      "meaning_ar": "مَمَرٌّ قَدِيمٌ بُنِيَ فَوْقَ نَهْرٍ أَوْ وَادٍ لِرَبْطِ طَرِيقَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَنْطَرَةُ الْجِسْرِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْمُهَنْدِسُ عَرْضَ الْجِسْرِ الْقَدِيمِ."
+      ],
+      "usage_note_ar": "تَكْشِفُ طَرِيقَةُ بِنَائِهِ عَنْ تِقْنِيَاتِ زَمَانِهِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_076",
+      "arabic": "قَنْطَرَةٌ حَجَرِيَّةٌ",
+      "meaning_ar": "قَوْسٌ مَعْمَارِيٌّ مِنْ حِجَارَةٍ يَحْمِلُ جِسْرًا أَوْ مَمَرًّا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِجَارَةُ الْقَنْطَرَةِ"
+      ],
+      "examples_ar": [
+        "شَاهَدَ الطَّالِبُ قَنْطَرَةً فَوْقَ الْوَادِي."
+      ],
+      "usage_note_ar": "تَتَوَزَّعُ الْقُوَى عَلَى الْحِجَارَةِ الْمُنَظَّمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_077",
+      "arabic": "مِيزَابٌ قَدِيمٌ",
+      "meaning_ar": "قَنَاةٌ صَغِيرَةٌ تَصْرِفُ مِيَاهَ الْمَطَرِ عَنْ سَقْفٍ أَوْ جِدَارٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَوْقِعُ الْمِيزَابِ"
+      ],
+      "examples_ar": [
+        "وَثَّقَ الْبَاحِثُ نِظَامَ صَرْفٍ قَدِيمًا."
+      ],
+      "usage_note_ar": "يُسَاعِدُ فِي دِرَاسَةِ تَكَيُّفِ الْعِمَارَةِ مَعَ الْمُنَاخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_078",
+      "arabic": "تَرْمِيمٌ أَثَرِيٌّ",
+      "meaning_ar": "مُعَالَجَةٌ مُتَخَصِّصَةٌ لِإِصْلَاحِ تَلَفٍ فِي أَثَرٍ مَعَ حِفْظِ أَصَالَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خُطَّةُ التَّرْمِيمِ"
+      ],
+      "examples_ar": [
+        "رَمَّمَ الْخَبِيرُ قِطْعَةً فَخَّارِيَّةً مَكْسُورَةً."
+      ],
+      "usage_note_ar": "يَجِبُ تَوْثِيقُ الْمَوَادِّ وَالتَّدَخُّلَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_079",
+      "arabic": "صِيَانَةٌ وِقَائِيَّةٌ لِلْآثَارِ",
+      "meaning_ar": "إِجْرَاءَاتٌ تَهْدِفُ إِلَى إِبْطَاءِ تَلَفِ الْمُقْتَنَيَاتِ وَالْمَبَانِي.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ الرُّطُوبَةِ"
+      ],
+      "examples_ar": [
+        "نَظَّمَ الْمَتْحَفُ دَرَجَةَ حَرَارَةِ الْقَاعَةِ."
+      ],
+      "usage_note_ar": "تُرَكِّزُ عَلَى الْبِيئَةِ وَالتَّخْزِينِ وَالْمُرَاقَبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_080",
+      "arabic": "تَدَعُّمٌ إِنْشَائِيٌّ لِلْأَثَرِ",
+      "meaning_ar": "إِضَافَةُ دَعَائِمَ أَوْ حُلُولٍ تَحْفَظُ اسْتِقْرَارَ مَبْنًى تَارِيخِيٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَثْبِيتُ الْجِدَارِ"
+      ],
+      "examples_ar": [
+        "دَعَّمَ الْفَرِيقُ جِدَارًا قَدِيمًا."
+      ],
+      "usage_note_ar": "يُحْسَبُ التَّدَخُّلُ بِحَسَبِ الْمَادَّةِ وَالْقِيمَةِ التَّارِيخِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_081",
+      "arabic": "حِفْظٌ مُتْحَفِيٌّ",
+      "meaning_ar": "تَدْبِيرُ الظُّرُوفِ اللَّازِمَةِ لِحِمَايَةِ الْمُقْتَنَيَاتِ مِنَ التَّلَفِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَخْزَنُ الْمَتْحَفِ"
+      ],
+      "examples_ar": [
+        "نَقَلَ الْخَبِيرُ الْقِطْعَةَ إِلَى الْمَخْزَنِ."
+      ],
+      "usage_note_ar": "تُرَاعَى الرُّطُوبَةُ وَالإِضَاءَةُ وَالتَّغْلِيفُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_082",
+      "arabic": "جَرْدٌ مُتْحَفِيٌّ",
+      "meaning_ar": "تَسْجِيلُ مُمْتَلَكَاتِ الْمَتْحَفِ وَأَرْقَامِهَا وَحَالَتِهَا وَمَوَاضِعِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "دَفْتَرُ الْجَرْدِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْمُوَظَّفُ قِطْعَةً جَدِيدَةً."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى حِمَايَةِ الْمُقْتَنَيَاتِ وَتَتَبُّعِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_083",
+      "arabic": "رَقْمٌ مُتْحَفِيٌّ",
+      "meaning_ar": "مُعَرِّفٌ يُخَصَّصُ لِقِطْعَةٍ مُحْتَفَظٍ بِهَا فِي مَجْمُوعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الرَّقْمِ"
+      ],
+      "examples_ar": [
+        "كَتَبَ الْمُوَظَّفُ رَقْمَ الْقِطْعَةِ فِي السِّجِلِّ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الرَّقْمِ الْمُلْصَقِ عَشْوَائِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_084",
+      "arabic": "بِطَاقَةُ الْمُقْتَنَى",
+      "meaning_ar": "مُسْتَنَدٌ يَضُمُّ وَصْفَ الْقِطْعَةِ وَتَارِيخَهَا وَمَصْدَرَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيثُ الْبِطَاقَةِ"
+      ],
+      "examples_ar": [
+        "أَضَافَ الْبَاحِثُ صُورَةً إِلَى بِطَاقَةِ الْقِطْعَةِ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ لِلْحِفْظِ وَالْعَرْضِ وَالْبَحْثِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_085",
+      "arabic": "مُنْشَأُ الْأَثَرِ",
+      "meaning_ar": "مَعْلُومَاتٌ عَنْ مَكَانِ صُنْعِ الْأَثَرِ وَتَارِيخِ انْتِقَالِهِ وَحِيَازَتِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَتَبُّعُ الْمَنْشَإِ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الْمَتْحَفُ عَنْ أَصْلِ الْقِطْعَةِ."
+      ],
+      "usage_note_ar": "يَسْتَعْمِلُ الْبَاحِثُ الْوَثَائِقَ لِتَقْيِيمِ صِحَّةِ الْحِيَازَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_086",
+      "arabic": "مِلْكِيَّةُ الْآثَارِ",
+      "meaning_ar": "الْحُقُوقُ الْقَانُونِيَّةُ الَّتِي تَتَعَلَّقُ بِحِيَازَةِ الْقِطَعِ الأَثَرِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِثْبَاتُ الْمِلْكِيَّةِ"
+      ],
+      "examples_ar": [
+        "رَاجَعَ الْمُتْحَفُ وَثَائِقَ الْقِطْعَةِ."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ الْقَوَانِينُ وَالِالْتِزَامَاتُ بَيْنَ الدُّوَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_087",
+      "arabic": "تَهْرِيبُ الْآثَارِ",
+      "meaning_ar": "نَقْلُ الْقِطَعِ الأَثَرِيَّةِ بِالْمُخَالَفَةِ لِلْقَوَانِينِ الْمُنَظِّمَةِ لَهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْعُ التَّهْرِيبِ"
+      ],
+      "examples_ar": [
+        "ضَبَطَتِ السُّلْطَاتُ قِطَعًا مُهَرَّبَةً."
+      ],
+      "usage_note_ar": "يُسْهِمُ فِي فَقْدِ السِّيَاقِ التَّارِيخِيِّ وَحُقُوقِ الْمُجْتَمَعَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_088",
+      "arabic": "إِعَادَةُ الْمُقْتَنَيَاتِ",
+      "meaning_ar": "إِرْجَاعُ قِطَعٍ ثَقَافِيَّةٍ أَوْ أَثَرِيَّةٍ إِلَى جِهَةٍ تَطْلُبُهَا بِحَقٍّ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَلَبُ الْإِعَادَةِ"
+      ],
+      "examples_ar": [
+        "نَاقَشَ الْمَتْحَفُ إِعَادَةَ قِطْعَةٍ أَثَرِيَّةٍ."
+      ],
+      "usage_note_ar": "تَتَطَلَّبُ دِرَاسَةً لِلْوَثَائِقِ وَالْقَوَانِينِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_089",
+      "arabic": "تُرَاثٌ مَادِّيٌّ",
+      "meaning_ar": "مَبَانٍ وَقِطَعٌ وَمَوَاقِعُ تَحْفَظُ جُزْءًا مِنْ تَارِيخِ مُجْتَمَعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ التُّرَاثِ"
+      ],
+      "examples_ar": [
+        "رَمَّمَ السُّكَّانُ مَبْنًى تَارِيخِيًّا."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنِ الْمُمَارَسَاتِ وَالْمَعَارِفِ غَيْرِ الْمَادِّيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_090",
+      "arabic": "تُرَاثٌ غَيْرُ مَادِّيٍّ",
+      "meaning_ar": "عَادَاتٌ وَمَهَارَاتٌ وَمَعَارِفُ وَتَعْبِيرَاتٌ يَتَنَاقَلُهَا الْمُجْتَمَعُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَوْثِيقُ التُّرَاثِ"
+      ],
+      "examples_ar": [
+        "سَجَّلَ الْبَاحِثُ أُغْنِيَةً شَعْبِيَّةً قَدِيمَةً."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْحِرَفَ وَالْحِكَايَاتِ وَالِاحْتِفَالَاتِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_091",
+      "arabic": "تَرْمِيمُ الْمَخْطُوطَاتِ",
+      "meaning_ar": "مُعَالَجَةُ أَوْرَاقٍ وَأَغْلِفَةٍ قَدِيمَةٍ لِمَنْعِ تَزَايُدِ تَلَفِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "صِيَانَةُ الْأَوْرَاقِ"
+      ],
+      "examples_ar": [
+        "أَصْلَحَ الْخَبِيرُ تَمَزُّقًا فِي صَفْحَةٍ."
+      ],
+      "usage_note_ar": "يَجِبُ تَجَنُّبُ الْمَوَادِّ الَّتِي تُغَيِّرُ النَّصَّ الأَصْلِيَّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_092",
+      "arabic": "تَصْوِيرٌ رَقْمِيٌّ لِلْمَخْطُوطَاتِ",
+      "meaning_ar": "إِنْتَاجُ نُسَخٍ صُوَرِيَّةٍ عَالِيَةِ الدِّقَّةِ مِنْ نُصُوصٍ قَدِيمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَقْمَنَةُ الْمَخْطُوطِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَ الْمَكْتَبِيُّ الصَّفَحَاتِ بِحَذَرٍ."
+      ],
+      "usage_note_ar": "يُسَهِّلُ الْبَحْثَ دُونَ كَثْرَةِ لَمْسِ الْأَصْلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_093",
+      "arabic": "تَحْقِيقُ مَخْطُوطٍ",
+      "meaning_ar": "إِعْدَادُ نَصٍّ قَدِيمٍ لِلنَّشْرِ بَعْدَ مُقَارَنَةِ نُسَخِهِ وَتَوْثِيقِ فُرُوقِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نُسَخُ التَّحْقِيقِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُحَقِّقُ بَيْنَ ثَلَاثِ نُسَخٍ."
+      ],
+      "usage_note_ar": "يَتَطَلَّبُ تَمْيِيزَ النَّصِّ الأَصْلِيِّ عَنِ التَّعْلِيقِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_094",
+      "arabic": "نُسْخَةٌ أُمٌّ",
+      "meaning_ar": "نُسْخَةٌ يُعْتَمَدُ عَلَيْهَا أَسَاسًا لِمُقَارَنَةِ الْمَخْطُوطَاتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اخْتِيَارُ النُّسْخَةِ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْمُحَقِّقُ نُسْخَةً وَاضِحَةَ الْخَطِّ."
+      ],
+      "usage_note_ar": "لَا تَكُونُ الْأَقْدَمُ هِيَ الأَصَحَّ دَائِمًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_095",
+      "arabic": "فُرُوقُ النُّسَخِ",
+      "meaning_ar": "اخْتِلَافَاتُ الأَلْفَاظِ وَالتَّرْتِيبِ بَيْنَ مَخْطُوطَاتِ نَصٍّ وَاحِدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَسْجِيلُ الْفُرُوقِ"
+      ],
+      "examples_ar": [
+        "ذَكَرَ الْمُحَقِّقُ فَرْقًا فِي الْهَامِشِ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى فَهْمِ انْتِقَالِ النَّصِّ عَبْرَ النُّسَّاخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_096",
+      "arabic": "حَاشِيَةٌ مَخْطُوطَةٌ",
+      "meaning_ar": "نَصٌّ كَتَبَهُ قَارِئٌ أَوْ نَاسِخٌ عَلَى طَرَفِ الصَّفْحَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْحَاشِيَةِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ تَعْلِيقًا فِي الْهَامِشِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْمِلُ تَصْحِيحًا أَوْ شَرْحًا أَوْ تَمَلُّكًا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_097",
+      "arabic": "سَمَاعٌ مَخْطُوطٌ",
+      "meaning_ar": "قَيْدٌ تَارِيخِيٌّ يُثْبِتُ حُضُورَ قِرَاءَةِ نَصٍّ عَلَى شَيْخٍ أَوْ مُعَلِّمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَيْدُ السَّمَاعِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْبَاحِثُ قَيْدًا فِي آخِرِ الْكِتَابِ."
+      ],
+      "usage_note_ar": "يُفِيدُ فِي دِرَاسَةِ تَارِيخِ تَدَاوُلِ الْمَخْطُوطِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_098",
+      "arabic": "قَيْدُ تَمَلُّكٍ",
+      "meaning_ar": "عِبَارَةٌ فِي مَخْطُوطٍ تُسَجِّلُ اسْمَ مَنْ مَلَكَهُ أَوْ اقْتَنَاهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَتَبُّعُ الْمَالِكِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ قَيْدَ تَمَلُّكٍ قَدِيمًا."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى رَسْمِ تَارِيخِ انْتِقَالِ الْكِتَابِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_099",
+      "arabic": "وَقْفِيَّةُ كِتَابٍ",
+      "meaning_ar": "نَصٌّ يُثْبِتُ جَعْلَ كِتَابٍ مَوْقُوفًا لِجِهَةٍ أَوْ غَرَضٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ الْوَقْفِيَّةِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْمُحَقِّقُ وَقْفِيَّةً فِي الصَّفْحَةِ الأُولَى."
+      ],
+      "usage_note_ar": "قَدْ تَذْكُرُ الْوَاقِفَ وَشُرُوطَ الِانْتِفَاعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_100",
+      "arabic": "تَارِيخُ النَّسْخِ",
+      "meaning_ar": "تَارِيخٌ كَتَبَهُ النَّاسِخُ لِبَيَانِ زَمَنِ إِنْجَازِ الْمَخْطُوطِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَيْدُ التَّارِيخِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْبَاحِثُ تَارِيخَ نَسْخِ الْكِتَابِ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ عَنْ تَارِيخِ تَأْلِيفِ النَّصِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_101",
+      "arabic": "نَاسِخُ الْمَخْطُوطِ",
+      "meaning_ar": "شَخْصٌ كَتَبَ نُسْخَةً مِنْ نَصٍّ بِالْيَدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَطُّ النَّاسِخِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ اسْمَ النَّاسِخِ فِي الْخَاتِمَةِ."
+      ],
+      "usage_note_ar": "يُمْكِنُ دِرَاسَةُ خَطِّهِ لِمَعْرِفَةِ عَصْرِ النُّسْخَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_102",
+      "arabic": "خَاتِمَةُ الْمَخْطُوطِ",
+      "meaning_ar": "الْجُزْءُ الأَخِيرُ مِنَ النُّسْخَةِ الَّذِي قَدْ يَحْمِلُ بَيَانَ الْفَرَاغِ مِنَ النَّسْخِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قَيْدُ الْفَرَاغِ"
+      ],
+      "examples_ar": [
+        "ذَكَرَ النَّاسِخُ تَارِيخًا فِي آخِرِ الْمَخْطُوطِ."
+      ],
+      "usage_note_ar": "قَدْ تَحْتَوِي عَلَى دُعَاءٍ أَوْ اسْمِ النَّاسِخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_103",
+      "arabic": "مَتْحَفٌ مَوْقِعِيٌّ",
+      "meaning_ar": "مَرْفَقٌ قُرْبَ مَوْقِعٍ أَثَرِيٍّ يَعْرِضُ مَجْمُوعَةً مُرْتَبِطَةً بِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "زِيَارَةُ الْمَتْحَفِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الزَّائِرُ لَوْحَاتِ الْمَعْرِضِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ الْآثَارِ فِي بِيئَتِهَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_104",
+      "arabic": "عَرْضٌ مُتْحَفِيٌّ",
+      "meaning_ar": "تَرْتِيبُ الْقِطَعِ وَالْنُّصُوصِ فِي قَاعَةٍ لِشَرْحِ مَوْضُوعٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْمِيمُ الْعَرْضِ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُتْحَفُ الْقِطَعَ حَسَبَ الْعَصْرِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى إِضَاءَةٍ وَحِمَايَةٍ وَوَصْفٍ دَقِيقٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_105",
+      "arabic": "لَوْحَةٌ تَفْسِيرِيَّةٌ",
+      "meaning_ar": "نَصٌّ مَوْضُوعٌ فِي الْمَتْحَفِ لِشَرْحِ قِطْعَةٍ أَوْ سِيَاقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ اللَّوْحَةِ"
+      ],
+      "examples_ar": [
+        "فَهِمَ الزَّائِرُ تَارِيخَ الْقِطْعَةِ مِنَ اللَّوْحَةِ."
+      ],
+      "usage_note_ar": "تُفَضَّلُ فِيهَا اللُّغَةُ الْوَاضِحَةُ وَالْمَعْلُومَاتُ الْمُوَثَّقَةُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_106",
+      "arabic": "تُرَاثٌ مَحَلِّيٌّ",
+      "meaning_ar": "عَادَاتٌ وَمَوَاقِعُ وَمَوَادُّ يَعْتَبِرُهَا أَهْلُ مِنْطَقَةٍ جُزْءًا مِنْ تَارِيخِهِمْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ التُّرَاثِ"
+      ],
+      "examples_ar": [
+        "وَثَّقَ السُّكَّانُ حِرْفَةً قَدِيمَةً."
+      ],
+      "usage_note_ar": "يَجْمَعُ بَيْنَ الْمَادِّيِّ وَغَيْرِ الْمَادِّيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_107",
+      "arabic": "مَشْهَدٌ ثَقَافِيٌّ",
+      "meaning_ar": "مِنْطَقَةٌ يَظْهَرُ فِيهَا تَفَاعُلُ الْإِنْسَانِ مَعَ الطَّبِيعَةِ عَبْرَ التَّارِيخِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "حِمَايَةُ الْمَشْهَدِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ الْمَدَارِجَ الزِّرَاعِيَّةَ."
+      ],
+      "usage_note_ar": "يَشْمَلُ الْمَكَانَ وَالاِسْتِعْمَالَ وَالْمَعَانِيَ الثَّقَافِيَّةَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_108",
+      "arabic": "طَبَقَةُ دَمَارٍ",
+      "meaning_ar": "مُسْتَوًى أَثَرِيٌّ يَحْتَوِي عَلَى بَقَايَا حَرِيقٍ أَوْ تَهَدُّمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "آثَارُ الْحَرِيقِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ خَشَبًا مُتَفَحِّمًا."
+      ],
+      "usage_note_ar": "لَا يَثْبُتُ سَبَبُ الدَّمَارِ دُونَ أَدِلَّةٍ أُخْرَى.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_109",
+      "arabic": "إِعَادَةُ بِنَاءٍ افْتِرَاضِيَّةٌ",
+      "meaning_ar": "تَصَوُّرٌ عَلَى الْحَاسُوبِ لِشَكْلِ مَبْنًى أَوْ مَوْقِعٍ قَدِيمٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نَمُوذَجٌ ثُلَاثِيُّ الأَبْعَادِ"
+      ],
+      "examples_ar": [
+        "أَنْشَأَ الْبَاحِثُ نَمُوذَجًا لِلْقَلْعَةِ."
+      ],
+      "usage_note_ar": "يَجِبُ تَمْيِيزُ الأَجْزَاءِ الْمُؤَكَّدَةِ مِنَ الْمُفْتَرَضَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_110",
+      "arabic": "تَصْوِيرٌ مَسَاحِيٌّ أَثَرِيٌّ",
+      "meaning_ar": "تَوْثِيقُ الْمَوْقِعِ بِقِيَاسَاتٍ وَصُوَرٍ تُحَدِّدُ مَوَاضِعَ الْعَنَاصِرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "خَرِيطَةُ الْمَوْقِعِ"
+      ],
+      "examples_ar": [
+        "قَاسَ الْفَرِيقُ أَبْعَادَ الْجِدَارِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى إِنْشَاءِ رُسُومٍ دَقِيقَةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_111",
+      "arabic": "مَسْحٌ ضَوْئِيٌّ ثُلَاثِيُّ الأَبْعَادِ",
+      "meaning_ar": "قِيَاسٌ رَقْمِيٌّ يُسَجِّلُ شَكْلَ جِسْمٍ أَوْ مَوْقِعٍ فِي الْفَضَاءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نُقَاطُ الْمَسْحِ"
+      ],
+      "examples_ar": [
+        "مَسَحَ الْبَاحِثُ وَاجِهَةَ الْمَبْنَى."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُعَالَجَةِ النُّقَاطِ وَتَحْقِيقِ الدِّقَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_112",
+      "arabic": "تَصْوِيرٌ جَوِّيٌّ أَثَرِيٌّ",
+      "meaning_ar": "جَمْعُ صُوَرٍ لِلْمَوَاقِعِ مِنَ الْجَوِّ لِدِرَاسَةِ أَشْكَالِ الأَرْضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ الصُّوَرِ"
+      ],
+      "examples_ar": [
+        "كَشَفَتِ الصُّورَةُ خُطُوطَ جُدْرَانٍ قَدِيمَةٍ."
+      ],
+      "usage_note_ar": "تُسَاعِدُ عَلَى مَعْرِفَةِ الْمَوَاقِعِ دُونَ حَفْرٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_113",
+      "arabic": "اسْتِشْعَارٌ عَنْ بُعْدٍ أَثَرِيٌّ",
+      "meaning_ar": "اسْتِخْدَامُ صُوَرٍ وَقِيَاسَاتٍ مِنْ أَجْهِزَةٍ بَعِيدَةٍ لِدِرَاسَةِ الْمَوَاقِعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْلِيلُ التَّضَارِيسِ"
+      ],
+      "examples_ar": [
+        "رَصَدَ الْفَرِيقُ شَكْلًا مَنْتَظِمًا فِي السَّهْلِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى تَحَقُّقٍ مَيْدَانِيٍّ لِتَفْسِيرِ الشَّوَاهِدِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_114",
+      "arabic": "مُسْتَوْطَنٌ قَدِيمٌ",
+      "meaning_ar": "مَكَانٌ سَكَنَ فِيهِ نَاسٌ فِي فَتْرَةٍ تَارِيخِيَّةٍ مُحَدَّدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "بَقَايَا الْمُسْتَوْطَنِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ أَسَاسَاتِ بُيُوتٍ وَمَخَازِنَ."
+      ],
+      "usage_note_ar": "يُدْرَسُ لِمَعْرِفَةِ السُّكْنَى وَالْإِنْتَاجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_115",
+      "arabic": "هَجْرُ الْمُسْتَوْطَنِ",
+      "meaning_ar": "تَوَقُّفُ سُكَّانٍ عَنْ الْعَيْشِ فِي مَكَانٍ مَعْرُوفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَسْبَابُ الْهَجْرِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْبَاحِثُ تَارِيخَ هَجْرِ الْقَرْيَةِ."
+      ],
+      "usage_note_ar": "قَدْ تَشْمَلُ الأَسْبَابُ الْمُنَاخَ وَالِاقْتِصَادَ وَالنِّزَاعَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_116",
+      "arabic": "تَبَادُلٌ ثَقَافِيٌّ قَدِيمٌ",
+      "meaning_ar": "انْتِقَالُ أَفْكَارٍ وَتِقْنِيَاتٍ وَسِلَعٍ بَيْنَ مُجْتَمَعَاتٍ تَارِيخِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَدِلَّةُ التَّبَادُلِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْفَرِيقُ فَخَّارًا مُسْتَوْرَدًا."
+      ],
+      "usage_note_ar": "لَا يَلْزَمُ أَنْ يَدُلَّ التَّشَابُهُ وَحْدَهُ عَلَى الِاتِّصَالِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_117",
+      "arabic": "هُجْرَةٌ تَارِيخِيَّةٌ",
+      "meaning_ar": "انْتِقَالُ جَمَاعَاتٍ بَشَرِيَّةٍ بَيْنَ الْمَنَاطِقِ فِي زَمَنٍ سَابِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَرِيقُ الْهِجْرَةِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْبَاحِثُ أَدِلَّةَ الْهِجْرَةِ."
+      ],
+      "usage_note_ar": "تُدْرَسُ بِالْآثَارِ وَاللُّغَاتِ وَالْمَصَادِرِ الْمَكْتُوبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_118",
+      "arabic": "تَحَوُّلٌ حَضَرِيٌّ تَارِيخِيٌّ",
+      "meaning_ar": "تَغَيُّرُ التَّجَمُّعَاتِ السُّكَّانِيَّةِ إِلَى مُدُنٍ أَكْبَرَ وَأَكْثَرَ تَنْظِيمًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نُمُوُّ الْمَدِينَةِ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الطَّالِبُ ظُهُورَ الأَسْوَاقِ وَالأَسْوَارِ."
+      ],
+      "usage_note_ar": "يَرْتَبِطُ بِالتِّجَارَةِ وَالْحُكْمِ وَتَقْسِيمِ الْعَمَلِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_119",
+      "arabic": "تَسَلْسُلُ الْأُسَرِ الْحَاكِمَةِ",
+      "meaning_ar": "تَرْتِيبُ الْعَائِلَاتِ الَّتِي تَوَلَّتِ السُّلْطَةَ فِي مَنْطِقَةٍ أَوْ دَوْلَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "جَدْوَلُ الْحُكَّامِ"
+      ],
+      "examples_ar": [
+        "أَعَدَّ الْمُؤَرِّخُ قَائِمَةً بِالأُسَرِ الْحَاكِمَةِ."
+      ],
+      "usage_note_ar": "يَحْتَاجُ إِلَى مُقَارَنَةِ التَّوَارِيخِ وَالْمَصَادِرِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_120",
+      "arabic": "مَصْدَرٌ تَارِيخِيٌّ أَوَّلِيٌّ",
+      "meaning_ar": "نَصٌّ أَوْ شَاهِدٌ أَنْتَجَهُ أَشْخَاصٌ قَرِيبُونَ مِنَ الْحَدَثِ أَوْ زَمَنِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "فَحْصُ الْمَصْدَرِ"
+      ],
+      "examples_ar": [
+        "قَرَأَ الْمُؤَرِّخُ رِسَالَةً قَدِيمَةً."
+      ],
+      "usage_note_ar": "تَخْتَلِفُ مَوْثُوقِيَّتُهُ بِالْغَرَضِ وَالْمَوْقِعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_121",
+      "arabic": "نَقْدُ الْمَصْدَرِ التَّارِيخِيِّ",
+      "meaning_ar": "دِرَاسَةُ أَصْلِ الْوَثِيقَةِ وَتَارِيخِهَا وَمَقْصِدِ كَاتِبِهَا وَدِقَّتِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مَنْهَجُ النَّقْدِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الْمُؤَرِّخُ الرِّوَايَةَ بِوَثَائِقَ أُخْرَى."
+      ],
+      "usage_note_ar": "لَا يَعْنِي النَّقْدُ رَفْضَ الْمَصْدَرِ بِالضَّرُورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_122",
+      "arabic": "تَزَامُنٌ تَارِيخِيٌّ",
+      "meaning_ar": "وُقُوعُ حَدَثَيْنِ أَوْ أَكْثَرَ فِي الْفَتْرَةِ الزَّمَنِيَّةِ نَفْسِهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَحْدِيدُ التَّزَامُنِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ بَيْنَ حَضَارَتَيْنِ مُتَعَاصِرَتَيْنِ."
+      ],
+      "usage_note_ar": "لَا يَدُلُّ التَّزَامُنُ وَحْدَهُ عَلَى عَلاقَةٍ سَبَبِيَّةٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_123",
+      "arabic": "مُعَاصَرَةٌ تَارِيخِيَّةٌ",
+      "meaning_ar": "وُجُودُ شَخْصَيْنِ أَوْ ظَاهِرَتَيْنِ فِي زَمَنٍ مُتَدَاخِلٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "إِثْبَاتُ الْمُعَاصَرَةِ"
+      ],
+      "examples_ar": [
+        "كَانَ الْحَاكِمَانِ مُتَعَاصِرَيْنِ لِعِدَّةِ سَنَوَاتٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي دِرَاسَةِ الْأَحْدَاثِ وَالتَّأْرِيخِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_124",
+      "arabic": "وَثِيقَةٌ إِدَارِيَّةٌ قَدِيمَةٌ",
+      "meaning_ar": "نَصٌّ كُتِبَ لِتَسْجِيلِ مُعَامَلَةٍ أَوْ ضَرِيبَةٍ أَوْ تَكْلِيفٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "أَرْشَفَةُ الْوَثَائِقِ"
+      ],
+      "examples_ar": [
+        "وَجَدَ الْبَاحِثُ سِجِلًّا لِلْمَحَاصِيلِ."
+      ],
+      "usage_note_ar": "يُسَاعِدُ عَلَى فَهْمِ الْإِدَارَةِ وَالِاقْتِصَادِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_125",
+      "arabic": "سِجِلٌّ ضَرِيبِيٌّ قَدِيمٌ",
+      "meaning_ar": "وَثِيقَةٌ تُبَيِّنُ جَمْعَ مَبَالِغَ أَوْ مَحَاصِيلَ لِجِهَةٍ حَاكِمَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "قِرَاءَةُ السِّجِلِّ"
+      ],
+      "examples_ar": [
+        "دَرَسَ الْمُؤَرِّخُ مَقَادِيرَ الضَّرَائِبِ."
+      ],
+      "usage_note_ar": "تَكْشِفُ عَنْ أَنْظِمَةِ الْمَالِ وَالإِنْتَاجِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_126",
+      "arabic": "خَرِيطَةٌ تَارِيخِيَّةٌ",
+      "meaning_ar": "رَسْمٌ مِنْ زَمَنٍ سَابِقٍ أَوْ رَسْمٌ يُبَيِّنُ تَوْزِيعًا جُغْرَافِيًّا قَدِيمًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُقَارَنَةُ الْخَرَائِطِ"
+      ],
+      "examples_ar": [
+        "قَارَنَ الطَّالِبُ خَرِيطَتَيْنِ لِمَدِينَةٍ."
+      ],
+      "usage_note_ar": "يَجِبُ مُرَاعَاةُ أَخْطَاءِ الْقِيَاسِ وَالْمَقَاصِدِ السِّيَاسِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_archaeology_history_20261027_127",
+      "arabic": "تَغَيُّرُ أَسْمَاءِ الأَمَاكِنِ",
+      "meaning_ar": "تَحَوُّلُ تَسْمِيَاتِ الْمُدُنِ وَالْقُرَى عَبْرَ الْعُصُورِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "الِاسْمُ التَّارِيخِيُّ"
+      ],
+      "examples_ar": [
+        "بَحَثَ الْمُؤَرِّخُ عَنْ اسْمِ الْمَدِينَةِ الْقَدِيمِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي تَحْدِيدِ مَوَاقِعَ الْمَصَادِرِ الْقَدِيمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_archaeology_history_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
