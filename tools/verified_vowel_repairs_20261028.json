@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "reason": "manually reviewed equivalent lexical meanings; distinct homographs preserved",
+  "references": [
+    {
+      "url": "https://sina.birzeit.edu/qabas/lemma/202003746",
+      "headword": "وِقَايَةٌ"
+    },
+    {
+      "url": "https://sina.birzeit.edu/qabas/lemma/202001982",
+      "headword": "مُرُونَةٌ"
+    },
+    {
+      "url": "https://sina.birzeit.edu/qabas/lemma/2021645100",
+      "headword": "فِهْرِسٌ"
+    },
+    {
+      "url": "https://sina.birzeit.edu/qabas/lemma/202001545",
+      "headword": "مُوَافَقَةٌ"
+    },
+    {
+      "url": "https://sina.birzeit.edu/qabas/lemma/2023350373",
+      "headword": "هَضْبَةٌ"
+    }
+  ],
+  "repairs": [
+    {
+      "filename": "entries_advanced_methodology_20261025.json",
+      "id": "editorial_methods_20261025_012",
+      "old_headword": "فَرَضِيَّةٌ",
+      "new_headword": "فَرْضِيَّةٌ"
+    },
+    {
+      "filename": "entries_advanced_reasoning_20261025.json",
+      "id": "editorial_reasoning_20261025_006",
+      "old_headword": "فَرَضِيَّةٌ",
+      "new_headword": "فَرْضِيَّةٌ"
+    },
+    {
+      "filename": "entries_advanced_reasoning_20261025.json",
+      "id": "editorial_reasoning_20261025_019",
+      "old_headword": "تَفَنِيدٌ",
+      "new_headword": "تَفْنِيدٌ"
+    },
+    {
+      "filename": "entries_level4_draft_01_02.json",
+      "id": "l4draft01_002",
+      "old_headword": "فَرَضِيَّةٌ",
+      "new_headword": "فَرْضِيَّةٌ"
+    },
+    {
+      "filename": "entries_level4_draft_13_14.json",
+      "id": "l4u14_009",
+      "old_headword": "فَرَضِيَّةٌ",
+      "new_headword": "فَرْضِيَّةٌ"
+    },
+    {
+      "filename": "entries_level4_draft_01_02.json",
+      "id": "l4draft02_025",
+      "old_headword": "مُواطَنَةٌ",
+      "new_headword": "مُوَاطَنَةٌ"
+    },
+    {
+      "filename": "entries_level4_draft_01_02.json",
+      "id": "l4draft02_034",
+      "old_headword": "مَوَازَنَةٌ",
+      "new_headword": "مُوَازَنَةٌ"
+    },
+    {
+      "filename": "entries_nouns_community_20261025.json",
+      "id": "ind_noun_community_20261026_120",
+      "old_headword": "مَوَافَقَةٌ",
+      "new_headword": "مُوَافَقَةٌ"
+    },
+    {
+      "filename": "entries_level3_01_02.json",
+      "id": "l3u02_026",
+      "old_headword": "نَظَامٌ",
+      "new_headword": "نِظَامٌ"
+    },
+    {
+      "filename": "entries_practical_crafts_20261025.json",
+      "id": "editorial_crafts_20261025_045",
+      "old_headword": "مَرُونَةٌ",
+      "new_headword": "مُرُونَةٌ"
+    },
+    {
+      "filename": "entries_practical_crafts_20261025.json",
+      "id": "editorial_crafts_20261025_047",
+      "old_headword": "وَقَايَةٌ",
+      "new_headword": "وِقَايَةٌ"
+    },
+    {
+      "filename": "entries_nouns_transport_20261025.json",
+      "id": "ind_noun_transport_20261026_124",
+      "old_headword": "مَجْدَافٌ",
+      "new_headword": "مِجْدَافٌ"
+    },
+    {
+      "filename": "entries_level3_13_14.json",
+      "id": "l3u14_020",
+      "old_headword": "مِلُوحَةٌ",
+      "new_headword": "مُلُوحَةٌ"
+    },
+    {
+      "filename": "entries_level3_05_06.json",
+      "id": "l3u05_020",
+      "old_headword": "فَهْرَسٌ",
+      "new_headword": "فِهْرِسٌ"
+    },
+    {
+      "filename": "entries_nouns_commerce_20261025.json",
+      "id": "ind_noun_commerce_20261026_148",
+      "old_headword": "مِسَاحَةٌ",
+      "new_headword": "مَسَاحَةٌ"
+    },
+    {
+      "filename": "entries_nouns_health_20261025.json",
+      "id": "ind_noun_health_20261025_117",
+      "old_headword": "مُلاحَظَةٌ",
+      "new_headword": "مُلَاحَظَةٌ"
+    },
+    {
+      "filename": "entries_advanced_ecology_20261025_b.json",
+      "id": "editorial_earth_20261025_b_018",
+      "old_headword": "هِضْبَةٌ",
+      "new_headword": "هَضْبَةٌ"
+    },
+    {
+      "filename": "entries_nouns_environment_20261025.json",
+      "id": "ind_noun_environment_20261026_033",
+      "old_headword": "كَوكَبٌ",
+      "new_headword": "كَوْكَبٌ"
+    },
+    {
+      "filename": "entries_editorial_astronomy_20261026.json",
+      "id": "editorial_astronomy_20261026_065",
+      "old_headword": "هِلالٌ",
+      "new_headword": "هِلَالٌ"
+    }
+  ]
+}
