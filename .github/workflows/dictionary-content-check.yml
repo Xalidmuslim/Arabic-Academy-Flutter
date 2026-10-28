@@ -35,6 +35,15 @@ jobs:
       - name: Audit every source card before merge (read-only)
         run: |
           python3 tools/audit_dictionary_raw_cards.py --max-examples 45 --json-out dictionary-raw-card-audit.json
+      - name: Deep editorial QA of all 8840 raw cards
+        run: |
+          python3 tools/audit_dictionary_deep_editorial.py --max-examples 120 --json-out dictionary-deep-editorial-audit.json
+      - name: Archive deep editorial QA report
+        uses: actions/upload-artifact@v4
+        with:
+          name: dictionary-deep-editorial-audit
+          path: dictionary-deep-editorial-audit.json
+          retention-days: 14
       - name: Archive raw card QA report
         uses: actions/upload-artifact@v4
         with:
