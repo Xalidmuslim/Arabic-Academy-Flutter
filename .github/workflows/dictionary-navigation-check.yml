@@ -1,0 +1,19 @@
+name: Dictionary navigation checks
+on:
+  push:
+    branches: ["codex/bayna-dictionary-volume-nav-search-20261029"]
+  workflow_dispatch:
+
+jobs:
+  verify-navigation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.35.7"
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
