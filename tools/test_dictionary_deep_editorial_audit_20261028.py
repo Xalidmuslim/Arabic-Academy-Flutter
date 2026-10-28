@@ -5,6 +5,8 @@ from this audit MUST be review cues, not automatic deletion instructions.
 """
 import unittest
 
+from audit_dictionary_variants import iter_corpus_chunks
+
 from audit_dictionary_deep_editorial import (
     vowel_coverage, detect_conflicting_metadata, inspect_deep_quality,
 )
@@ -28,6 +30,16 @@ class DeepEditorialAuditTests(unittest.TestCase):
         self.assertIn("ل", vowel_coverage("الأَوْلَوِيَّاتِ")["missing"])
         self.assertIn("م", vowel_coverage("مُمتَازٌ")["missing"])
         self.assertIn("ج", vowel_coverage("آجلٌ")["missing"])
+
+    def test_prefixed_conjunction_and_sun_article_does_not_require_sukun(self):
+        self.assertEqual(vowel_coverage("وَالنَّتِيجَةِ")["missing"], [])
+        self.assertEqual(vowel_coverage("فَالصُّورَةِ")["missing"], [])
+
+    def test_all_source_headwords_have_no_unmarked_consonants_under_conservative_rules(self):
+        offenders = [(p, card["id"], card["arabic"])
+                     for p, card in iter_corpus_chunks()
+                     if vowel_coverage(card.get("arabic", ""))["missing"]]
+        self.assertFalse(offenders, f"{len(offenders)} headwords need orthographic attention: {offenders[:15]}")
 
     def test_partial_vowels_are_found_not_treated_as_an_absolute_error(self):
         result = vowel_coverage("كِتابٌ")
