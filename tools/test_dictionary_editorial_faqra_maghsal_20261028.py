@@ -51,7 +51,7 @@ class EditorialFaqraMaghsalTests(unittest.TestCase):
     def test_lesson_maghsala_refers_to_a_laundry_not_a_sink(self):
         e = entry_in("assets/data/entries_level2_09_10.json", "l2u10_008")
         self.assertEqual(e["arabic"], "مَغْسَلَةٌ")
-        self.assertIn("الْمَلَابِسِ", e["meaning_ar"])
+        self.assertIn("الْمَلَابِسُ", e["meaning_ar"])
         self.assertIn("مَغْسَلَةُ الْمَلَابِسِ", e["collocations"])
         self.assertIn("الْمَغْسَلَةِ", e["examples_ar"][0])
 
