@@ -44,7 +44,7 @@ class EditorialRecheckMediaNatureTests(unittest.TestCase):
         self.assertEqual(nfc(e["arabic"]), nfc("تَحْقِيقٌ صَحَفِيٌّ"))
         source = nfc(" ".join([e["meaning_ar"], *e["grammar"], *e["collocations"], *e["examples_ar"]]))
         self.assertNotIn("صُحُفِي", source)
-        self.assertIn("الصَّحَفِيُّ", source)
+        self.assertIn(nfc("الصَّحَفِيُّ"), source)
 
     def test_packaging_uses_attested_abwa_not_ub_wa(self):
         e = article("entries_nouns_commerce_20261025.json", "ind_noun_commerce_20261026_113")
@@ -65,7 +65,7 @@ class EditorialRecheckMediaNatureTests(unittest.TestCase):
         merged = {nfc(item["arabic"]) for item in load_corpus()["entries"]}
         self.assertIn(nfc("كَمُّونٌ"), merged)
         self.assertIn(nfc("كُمُونٌ"), merged)
-        self.assertNotEqual(strip_diacritics("كَمُّونٌ"), "كمونٌ")
+        self.assertEqual(strip_diacritics("كَمُّونٌ"), strip_diacritics("كُمُونٌ"))
 
     def test_source_provenance_remains_independent(self):
         for filename, stable_id in (
