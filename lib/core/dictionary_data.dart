@@ -165,6 +165,33 @@ List<Word> sortWordsByBookOrder(Iterable<Word> words) {
   return result;
 }
 
+
+/* Book hierarchy is built only from explicit textbook references.
+ * Unreferenced editorial words stay available via global search / all words.
+ */
+Map<int, Map<int, int>> bookChapterCounts(Iterable<Word> words) {
+  final counts = <int, Map<int, int>>{};
+  for (final word in words) {
+    final refs = word.bookReferences.isNotEmpty
+        ? word.bookReferences
+        : (word.bookNumber != null && word.chapterNumber != null
+            ? <Map<String, dynamic>>[
+                {'book': word.bookNumber, 'chapter': word.chapterNumber}
+              ]
+            : <Map<String, dynamic>>[]);
+    final seenForWord = <String>{};
+    for (final ref in refs) {
+      final book = ref['book'];
+      final chapter = ref['chapter'];
+      if (book is! int || chapter is! int || book < 1 || chapter < 1) continue;
+      if (!seenForWord.add('$book:$chapter')) continue;
+      counts.putIfAbsent(book, () => <int, int>{})
+          .update(chapter, (count) => count + 1, ifAbsent: () => 1);
+    }
+  }
+  return counts;
+}
+
 List<Word> filterWordsByChapter(
     Iterable<Word> words, int book, int chapter) {
   final result = words.where((w) => w.isInChapter(book, chapter)).toList();
