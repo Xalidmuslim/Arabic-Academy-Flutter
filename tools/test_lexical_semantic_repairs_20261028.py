@@ -19,6 +19,7 @@ REPAIRS = {
     ("entries_nouns_health_20261025.json", "ind_noun_health_20261025_090"): "جُرْثُومَةٌ",
     ("entries_practical_crafts_20261025.json", "editorial_crafts_20261025_016"): "مَعْجُونٌ",
     ("entries_nouns_environment_20261025.json", "ind_noun_environment_20261026_110"): "سَمَادٌ",
+    ("entries_advanced_astronomy_20261025.json", "editorial_astronomy_20261025_029"): "مَرْصَدٌ",
 }
 
 def normalized(text):
@@ -34,7 +35,7 @@ class ReviewedLexicalRepairs(unittest.TestCase):
                 cls.cards[filename] = {e["id"]: e for e in part["entries"]}
 
     def test_headwords_match_the_attested_sense(self):
-        self.assertEqual(9, len(REPAIRS))
+        self.assertEqual(10, len(REPAIRS))
         for (filename, entry_id), expected in REPAIRS.items():
             with self.subTest(entry_id=entry_id):
                 self.assertIn(entry_id, self.cards[filename])
@@ -54,6 +55,7 @@ class ReviewedLexicalRepairs(unittest.TestCase):
             "ind_noun_health_20261025_090": ["جُرْثُومَة"],
             "editorial_crafts_20261025_016": ["مَعْجُون"],
             "ind_noun_environment_20261026_110": ["سَمَاد"],
+            "editorial_astronomy_20261025_029": ["مَرْصَد"],
         }
         bad_stems = {
             "l3u01_025": ["حَكْمَة"],
@@ -65,6 +67,7 @@ class ReviewedLexicalRepairs(unittest.TestCase):
             "ind_noun_health_20261025_090": ["جَرْثُومَة"],
             "editorial_crafts_20261025_016": ["مِعْجُون"],
             "ind_noun_environment_20261026_110": ["سِمَاد"],
+            "editorial_astronomy_20261025_029": ["مِرْصَد"],
         }
         for (filename, entry_id), expected in REPAIRS.items():
             card = self.cards[filename][entry_id]
