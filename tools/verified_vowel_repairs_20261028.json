@@ -21,6 +21,10 @@
     {
       "url": "https://sina.birzeit.edu/qabas/lemma/2023350373",
       "headword": "هَضْبَةٌ"
+    },
+    {
+      "url": "https://sina.birzeit.edu/qabas/lemma/202003772",
+      "headword": "مِنْحَةٌ"
     }
   ],
   "repairs": [
@@ -137,6 +141,12 @@
       "id": "editorial_astronomy_20261026_065",
       "old_headword": "هِلالٌ",
       "new_headword": "هِلَالٌ"
+    },
+    {
+      "filename": "entries_level3_05_06.json",
+      "id": "l3u06_014",
+      "old_headword": "مَنْحَةٌ",
+      "new_headword": "مِنْحَةٌ"
     }
   ]
 }
