@@ -47,7 +47,7 @@ void main() {
     // JSON is NFC-normalized: the dammatan precedes shadda in Unicode order.
     // The conventional displayed spelling remains exactly the same.
     expect(positions[1]!['arabic'], 'حَيٌّ');
-    expect(positions[5]!['arabic'], 'شَقَّةٌ');
+    expect(positions[5]!['arabic'], 'شَقَّةٌ');
     expect(positions[12]!['arabic'], 'أَثَاثٌ');
   });
 
