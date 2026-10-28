@@ -7,6 +7,7 @@ Sources:
 No automatic merging of legitimate homographs is permitted.
 """
 import json
+import unicodedata
 import unittest
 from validate_dictionary import ROOT, load_corpus
 
@@ -58,7 +59,7 @@ class EditorialFaqraMaghsalTests(unittest.TestCase):
     def test_structural_reinforcement_is_tadeem_not_tadaom(self):
         e = entry_in("assets/data/entries_editorial_archaeology_history_20261027.json",
                      "editorial_archaeology_history_20261027_080")
-        self.assertEqual(e["arabic"], "تَدْعِيمٌ إِنْشَائِيٌّ لِلْأَثَرِ")
+        self.assertEqual(unicodedata.normalize("NFC", e["arabic"]), unicodedata.normalize("NFC", "تَدْعِيمٌ إِنْشَائِيٌّ لِلْأَثَرِ"))
         self.assertEqual(e["grammar"], ["تَرْكِيبٌ اسْمِيٌّ"])
         self.assertIn("تَدْعِيمُ الْجُدْرَانِ", e["collocations"])
         self.assertIn("دَعَّمَ", e["examples_ar"][0])
