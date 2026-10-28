@@ -473,6 +473,10 @@ class WordTile extends StatelessWidget {
   final VoidCallback onOpen, onCopy, onFavorite;
   @override Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
+    // Newer corpus entries can have book_references without bookNumber.
+    final reference = word.bookReferences.isEmpty ? null : word.bookReferences.first;
+    final displayBook = word.bookNumber ?? reference?['book'] as int?;
+    final displayChapter = word.chapterNumber ?? reference?['chapter'] as int?;
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
       child: Material(
@@ -507,8 +511,8 @@ class WordTile extends StatelessWidget {
                     maxLines: 2, overflow: TextOverflow.ellipsis,
                     style: TextStyle(fontSize: font - 6, height: 1.55,
                       color: scheme.onSurface.withValues(alpha: .70))),
-                  if (word.bookNumber != null)
-                    Text('Книга ${word.bookNumber} · Тема ${word.chapterNumber}',
+                  if (displayBook != null && displayChapter != null)
+                    Text('Книга $displayBook · Тема $displayChapter',
                       style: TextStyle(fontSize: 10, color: scheme.primary)),
                 ])),
               const SizedBox(width: 5),
