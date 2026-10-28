@@ -45,14 +45,20 @@ def vowel_coverage(text: str) -> dict[str, Any]:
                 bases[-1][1] += char
         if not bases:
             continue
-        is_sun_article = (
-            len(bases) > 2 and bases[0][0] == "ا"
-            and bases[1][0] == "ل" and "ّ" in bases[2][1]
-        )
+        # In الشَّمْسِيَّة the written lam is silent and legitimately has
+        # no sukun: التَّ...; the same is true following بِـ or لِـ:
+        # بِالتَّ... / لِلتَّ... / لِلصُّ... / بِالرَّ...
+        chars = [part[0] for part in bases]
+        silent_lam = None
+        if len(bases) > 2 and chars[:2] in (["ا", "ل"], ["ل", "ل"]) and "ّ" in bases[2][1]:
+            silent_lam = 1
+        elif (len(bases) > 3 and chars[0] in "بك"
+              and chars[1:3] == ["ا", "ل"] and "ّ" in bases[3][1]):
+            silent_lam = 2
         for index, (char, marks) in enumerate(bases):
             if char in IGNORE_LETTERS:
                 continue
-            if index == 1 and is_sun_article:
+            if index == silent_lam:
                 continue
             eligible += 1
             if marks:
