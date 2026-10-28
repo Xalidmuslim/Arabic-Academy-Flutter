@@ -19,7 +19,7 @@ from audit_dictionary_variants import iter_corpus_chunks, strip_diacritics
 ARABIC_LETTER = re.compile(r"[\u0621-\u064A]")
 DIACRITIC = re.compile(r"[\u064B-\u065F\u0670\u06D6-\u06ED]")
 TOKEN = re.compile(r"[\u0621-\u064A\u0671][\u0621-\u064A\u0671\u064B-\u065F\u0670\u06D6-\u06ED]*")
-IGNORE_LETTERS = set("اوىىءآٱ")
+IGNORE_LETTERS = set("اويىءآٱ")
 NO_MARK = re.compile(r"[\u064B-\u065F\u0670\u06D6-\u06ED]")
 NORMALIZE_SPACE = re.compile(r"\s+")
 
