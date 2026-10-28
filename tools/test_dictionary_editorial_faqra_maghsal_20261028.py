@@ -48,5 +48,21 @@ class EditorialFaqraMaghsalTests(unittest.TestCase):
         self.assertIn("حَوْضٌ", e["meaning_ar"])
 
 
+    def test_lesson_maghsala_refers_to_a_laundry_not_a_sink(self):
+        e = entry_in("assets/data/entries_level2_09_10.json", "l2u10_008")
+        self.assertEqual(e["arabic"], "مَغْسَلَةٌ")
+        self.assertIn("الْمَلَابِسِ", e["meaning_ar"])
+        self.assertIn("مَغْسَلَةُ الْمَلَابِسِ", e["collocations"])
+        self.assertIn("الْمَغْسَلَةِ", e["examples_ar"][0])
+
+    def test_structural_reinforcement_is_tadeem_not_tadaom(self):
+        e = entry_in("assets/data/entries_editorial_archaeology_history_20261027.json",
+                     "editorial_archaeology_history_20261027_080")
+        self.assertEqual(e["arabic"], "تَدْعِيمٌ إِنْشَائِيٌّ لِلْأَثَرِ")
+        self.assertEqual(e["grammar"], ["تَرْكِيبٌ اسْمِيٌّ"])
+        self.assertIn("تَدْعِيمُ الْجُدْرَانِ", e["collocations"])
+        self.assertIn("دَعَّمَ", e["examples_ar"][0])
+
+
 if __name__ == "__main__":
     unittest.main()
