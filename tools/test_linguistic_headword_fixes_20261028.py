@@ -5,6 +5,7 @@ separate dictionary/book applications remain unchanged.
 """
 import json
 import unittest
+import unicodedata
 
 from validate_dictionary import ROOT
 
@@ -39,7 +40,7 @@ class LinguisticHeadwordCorrections(unittest.TestCase):
             with self.subTest(filename=filename, entry_id=entry_id):
                 self.assertIn(entry_id, by_file[filename])
                 entry = by_file[filename][entry_id]
-                self.assertEqual(entry["arabic"], correct)
+                self.assertEqual(unicodedata.normalize("NFC", entry["arabic"]), unicodedata.normalize("NFC", correct))
                 self.assertTrue(entry["meaning_ar"])
                 self.assertTrue(entry["examples_ar"])
                 self.assertTrue(entry["grammar"])

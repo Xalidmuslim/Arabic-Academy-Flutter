@@ -5,6 +5,7 @@ must not be silently hidden by a later merge. Distinct grammatical
 homographs remain separate entries.
 """
 import unittest
+import unicodedata
 
 from audit_dictionary_variants import audit_entries, iter_corpus_chunks
 
@@ -55,21 +56,21 @@ class ArabicOrthographyRegressionTests(unittest.TestCase):
         self.assertEqual([], groups, [(g["unvocalized"], g["forms"]) for g in groups])
 
     def test_specific_wrong_dictionary_forms_are_absent(self):
-        observed = {e["arabic"] for _, e in self.corpus}
-        wrong = sorted(observed.intersection(WRONG_HEADWORDS))
+        observed = {unicodedata.normalize("NFC", e["arabic"]) for _, e in self.corpus}
+        wrong = sorted(observed.intersection(unicodedata.normalize("NFC", w) for w in WRONG_HEADWORDS))
         self.assertEqual([], wrong)
 
     def test_semantically_distinct_vocalized_pairs_remain_distinct(self):
         # Removing Arabic diacritics blindly would collapse these pairs.
-        observed = {e["arabic"] for _, e in self.corpus}
+        observed = {unicodedata.normalize("NFC", e["arabic"]) for _, e in self.corpus}
         for a, b in [
             ("حَلَّ", "حَلٌّ"),
             ("سَلَطَةٌ", "سُلْطَةٌ"),
             ("سَنَةٌ", "سُنَّةٌ"),
             ("كُلِّيَّةٌ", "كُلْيَةٌ"),
         ]:
-            self.assertIn(a, observed)
-            self.assertIn(b, observed)
+            self.assertIn(unicodedata.normalize("NFC", a), observed)
+            self.assertIn(unicodedata.normalize("NFC", b), observed)
 
 
 if __name__ == "__main__":

@@ -5,6 +5,7 @@ Content is editorial and does not assert any textbook unit provenance.
 import json
 import re
 import unittest
+import unicodedata
 
 from validate_dictionary import ROOT, load_corpus
 
@@ -28,10 +29,9 @@ class ExpandedDictionary20261026Tests(unittest.TestCase):
         self.assertEqual(len(all_entries), 760)
         self.assertEqual(len(all_entries), len({e["id"] for e in all_entries}))
         self.assertEqual(len(all_entries), len({e["arabic"] for e in all_entries}))
-        self.assertIn("كُسُوفٌ حَلَقِيٌّ", {e["arabic"] for e in all_entries})
-        self.assertIn("مَرْكَبَةٌ جَوَّالَةٌ", {e["arabic"] for e in all_entries})
-        self.assertIn("مَخْبُوزَاتٌ", {e["arabic"] for e in all_entries})
-        self.assertIn("جَرَانِيتٌ", {e["arabic"] for e in all_entries})
+        headwords = {unicodedata.normalize("NFC", e["arabic"]) for e in all_entries}
+        for expected in ("كُسُوفٌ حَلَقِيٌّ", "مَرْكَبَةٌ جَوَّالَةٌ", "مَخْبُوزَاتٌ", "جَرَانِيتٌ"):
+            self.assertIn(unicodedata.normalize("NFC", expected), headwords)
         merged = {e["arabic"] for e in load_corpus()["entries"]}
         for entry in all_entries:
             word = entry["arabic"]

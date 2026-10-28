@@ -6,6 +6,7 @@ CI is intentionally content-only: no Flutter or Android build.
 import json
 import re
 import unittest
+import unicodedata
 from pathlib import Path
 from validate_dictionary import ROOT, load_corpus
 
@@ -47,11 +48,12 @@ class NewDomainNounsTest(unittest.TestCase):
                                        "synonyms", "antonyms") for v in entry[field]]
             self.assertFalse(NON_ARABIC_SCRIPTS.search(" ".join(lexical)), lemma)
         sports = json.loads((ROOT / CHUNKS[1]).read_text("utf-8"))["entries"]
-        sports_by_word = {entry["arabic"]: entry for entry in sports}
-        self.assertIn("سِبَاقُ سُرْعَةٍ", sports_by_word)
-        self.assertIn("سِبَاقُ تَحَمُّلٍ", sports_by_word)
-        self.assertNotIn("سَبَاقُ سُرْعَةٍ", sports_by_word)
-        self.assertIn("غِطَاءٌ وَاقٍ صُلْبٌ", sports_by_word["خُوذَةُ دَرَّاجَةٍ"]["meaning_ar"])
+        nfc = lambda word: unicodedata.normalize("NFC", word)
+        sports_by_word = {nfc(entry["arabic"]): entry for entry in sports}
+        self.assertIn(nfc("سِبَاقُ سُرْعَةٍ"), sports_by_word)
+        self.assertIn(nfc("سِبَاقُ تَحَمُّلٍ"), sports_by_word)
+        self.assertNotIn(nfc("سَبَاقُ سُرْعَةٍ"), sports_by_word)
+        self.assertIn("غِطَاءٌ وَاقٍ صُلْبٌ", sports_by_word[nfc("خُوذَةُ دَرَّاجَةٍ")]["meaning_ar"])
         corpus = {item["arabic"] for item in load_corpus()["entries"]}
         self.assertTrue({entry["arabic"] for entry in cards}.issubset(corpus))
 
