@@ -66,9 +66,9 @@ def inspect_raw_cards(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, 
 
         for field in LISTS:
             value = card.get(field)
-            if not isinstance(value, list) or not all(
-                isinstance(v, (str, dict)) for v in value
-            ):
+            if field in card and (not isinstance(value, list) or not all(
+                isinstance(v, dict) if field in ("book_references", "sources") else isinstance(v, str) for v in value
+            )):
                 flags.append("invalid_" + field)
                 totals["invalid_" + field + "_fields"] += 1
 
