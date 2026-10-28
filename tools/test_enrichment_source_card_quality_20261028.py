@@ -29,6 +29,13 @@ class EnrichmentSourceCardQuality(unittest.TestCase):
                 self.assertTrue(e["examples_ar"])
                 self.assertTrue(all(isinstance(s, str) and len(s) >= 10 for s in e["examples_ar"]))
 
+    def test_grammar_notes_are_lexical_and_not_generic_filler(self):
+        for entry in self.data["entries"]:
+            with self.subTest(card=entry["id"]):
+                for note in entry["grammar"]:
+                    self.assertNotIn("يُسْتَعْمَلُ لِتَسْمِيَةِ الْمَعْنَى", note)
+                    self.assertTrue(note.startswith(("مَصْدَرٌ", "اِسْمٌ", "اِسْمُ فَاعِلٍ")))
+
     def test_all_raw_headwords_are_unicode_nfc(self):
         mismatches = [
             (path, e.get("id"), e.get("arabic"))
