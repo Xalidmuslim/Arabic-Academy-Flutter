@@ -19,6 +19,19 @@ jobs:
       - name: Audit Arabic vocalization variants (read-only)
         run: |
           python3 tools/audit_dictionary_variants.py --max-groups 85 --json-out dictionary-variant-audit.json
+      - name: Show all headword candidate groups for editorial triage
+        run: |
+          python3 - <<'PY'
+          import json
+          report = json.load(open('dictionary-variant-audit.json', encoding='utf-8'))
+          print('AUDIT_COMPACT_BEGIN')
+          for group in report['groups']:
+              forms = ' / '.join(group['forms'])
+              brief = ' / '.join((item['meanings'][0][:65] if item['meanings'] else '?') for item in group['details'])
+              files = ','.join(p.split('/')[-1].replace('entries_', '')[:28] for p in group['source_files'][:4])
+              print(f"V|{group['kind']}|{group['unvocalized']}|{forms}|{brief}|{files}")
+          print('AUDIT_COMPACT_END')
+          PY
       - name: Archive full duplicate-candidate report
         uses: actions/upload-artifact@v4
         with:
