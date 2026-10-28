@@ -52,7 +52,7 @@ def vowel_coverage(text: str) -> dict[str, Any]:
         silent_lam = None
         if len(bases) > 2 and chars[:2] in (["ا", "ل"], ["ل", "ل"]) and "ّ" in bases[2][1]:
             silent_lam = 1
-        elif (len(bases) > 3 and chars[0] in "بك"
+        elif (len(bases) > 3 and chars[0] in "بكوف"
               and chars[1:3] == ["ا", "ل"] and "ّ" in bases[3][1]):
             silent_lam = 2
         for index, (char, marks) in enumerate(bases):
