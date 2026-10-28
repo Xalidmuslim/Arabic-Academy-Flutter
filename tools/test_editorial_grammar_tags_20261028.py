@@ -1,6 +1,7 @@
 """Prevent generic grammar placeholders in legal and medical dictionary cards."""
 import json
 import unittest
+import unicodedata
 
 from validate_dictionary import ROOT
 
@@ -17,9 +18,11 @@ class EditorialGrammarTagTests(unittest.TestCase):
                 with self.subTest(file=filename, word=item["arabic"]):
                     expected = "تَرْكِيبٌ اسْمِيٌّ" if " " in item["arabic"].strip() else "اِسْمٌ"
                     self.assertEqual(len(item["grammar"]), 1)
+                    actual = unicodedata.normalize("NFC", item["grammar"][0])
+                    normalized_expected = unicodedata.normalize("NFC", expected)
                     self.assertTrue(
-                        item["grammar"][0] == expected
-                        or item["grammar"][0].startswith(expected + "؛"),
+                        actual == normalized_expected
+                        or actual.startswith(normalized_expected + "؛"),
                         f"Unexpected grammatical category for {item['arabic']}: {item['grammar']}",
                     )
 
