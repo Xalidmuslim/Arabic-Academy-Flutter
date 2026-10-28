@@ -1,7 +1,12 @@
 name: Dictionary APK build
-# APK builds are deliberately manual until the complete dictionary is reviewed.
+# One-time requested APK build: this workflow file's push triggers the pipeline.
+# Manual dispatch remains available; ordinary dictionary edits never build an APK.
 on:
   workflow_dispatch:
+  push:
+    branches: ["codex/bayna-dictionary-demo-apk-20261024"]
+    paths:
+      - ".github/workflows/dictionary-apk.yml"
 jobs:
   build-apk:
     runs-on: ubuntu-latest
