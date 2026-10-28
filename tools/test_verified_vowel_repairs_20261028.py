@@ -82,7 +82,7 @@ class ReviewedVowelRepairs(unittest.TestCase):
             ("كُلِّيَّةٌ", "كُلْيَةٌ"),  # academic college / kidney
             ("سَلَطَةٌ", "سُلْطَةٌ"),  # salad / authority
             ("حَلَّ", "حَلٌّ"),         # verb / noun
-            ("فِقْرَةٌ", "فَقْرَةٌ"),  # paragraph / vertebra
+            ("فِقْرَةٌ", "فَقَرَةٌ"),  # verified paragraph / vertebra; erroneous فَقْرَةٌ repaired
         ):
             with self.subTest(a=a, b=b):
                 self.assertIn(nfc(a), present)
