@@ -44,7 +44,9 @@ void main() {
     }
     expect(positions.length, 52);
     expect(positions.keys.toList()..sort(), List<int>.generate(52, (i) => i + 1));
-    expect(positions[1]!['arabic'], 'حَيٌّ');
+    // JSON is NFC-normalized: the dammatan precedes shadda in Unicode order.
+    // The conventional displayed spelling remains exactly the same.
+    expect(positions[1]!['arabic'], 'حَيٌّ');
     expect(positions[5]!['arabic'], 'شَقَّةٌ');
     expect(positions[12]!['arabic'], 'أَثَاثٌ');
   });
