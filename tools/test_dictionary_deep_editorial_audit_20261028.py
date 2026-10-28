@@ -17,6 +17,18 @@ class DeepEditorialAuditTests(unittest.TestCase):
         self.assertEqual(vowel_coverage("التَّعْلِيمُ")["missing"], [])
         self.assertEqual(vowel_coverage("مُسْتَقِيمٌ")["missing"], [])
 
+    def test_sun_letter_assimilation_with_prepositions_is_not_missing_sukun(self):
+        self.assertEqual(vowel_coverage("لِلتَّنْفِيذِ")["missing"], [])
+        self.assertEqual(vowel_coverage("بِالتَّنْقِيطِ")["missing"], [])
+        self.assertEqual(vowel_coverage("لِلصُّورَةِ")["missing"], [])
+        self.assertEqual(vowel_coverage("بِالرَّشِّ")["missing"], [])
+        self.assertEqual(vowel_coverage("اللَّوْنِ")["missing"], [])
+
+    def test_missing_moon_article_sukun_and_stem_harakat_are_flagged(self):
+        self.assertIn("ل", vowel_coverage("الأَوْلَوِيَّاتِ")["missing"])
+        self.assertIn("م", vowel_coverage("مُمتَازٌ")["missing"])
+        self.assertIn("ج", vowel_coverage("آجلٌ")["missing"])
+
     def test_partial_vowels_are_found_not_treated_as_an_absolute_error(self):
         result = vowel_coverage("كِتابٌ")
         self.assertIn("ت", result["missing"])
