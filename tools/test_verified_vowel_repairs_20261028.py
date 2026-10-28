@@ -46,6 +46,34 @@ class ReviewedVowelRepairs(unittest.TestCase):
                 if record["filename"].startswith("entries_level"):
                     self.assertTrue(item["book_references"])
 
+
+    def test_corrected_stems_are_consistent_in_plural_and_context(self):
+        # The header is not the only place that needs to be fixed: plural
+        # grammar, collocations and examples can retain the obsolete vowel.
+        rejected = {
+            "editorial_methods_20261025_012": "فَرَضِي",
+            "editorial_reasoning_20261025_006": "فَرَضِي",
+            "l4draft01_002": "فَرَضِي",
+            "l4u14_009": "فَرَضِي",
+            "ind_noun_commerce_20261026_148": "مِسَاح",
+            "ind_noun_community_20261026_120": "مَوَافَق",
+            "l3u06_014": "مَنْح",
+        }
+        for record in self.spec["repairs"]:
+            old_stem = rejected.get(record["id"])
+            if not old_stem:
+                continue
+            item = self.by_file[record["filename"]][record["id"]]
+            # Only lexical content, not provenance strings or stable IDs.
+            lexical = []
+            for key in ("arabic", "grammar", "collocations", "examples_ar",
+                        "usage_note_ar", "additional_meanings_ar"):
+                value = item.get(key, "")
+                lexical.extend(value if isinstance(value, list) else [value])
+            with self.subTest(id=record["id"]):
+                for value in lexical:
+                    self.assertNotIn(nfc(old_stem), nfc(value))
+
     def test_no_unreviewed_homograph_deletions(self):
         # These forms share unvocalized spelling but have different senses.
         from audit_dictionary_variants import iter_corpus_chunks
