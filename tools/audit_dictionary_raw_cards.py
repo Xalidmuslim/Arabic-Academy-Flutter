@@ -115,7 +115,7 @@ def inspect_raw_cards(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, 
         "missing_usage_note_field": totals["missing_usage_note_field"],
         "missing_grammar": totals["missing_grammar"],
         "missing_collocations": totals["missing_collocations"],
-        "missing_examples": totals["missing_examples"],
+        "missing_examples": totals["missing_examples_ar"],
         "invalid_script_cards": totals["invalid_script_cards"],
         "official_claim_cards": totals["official_claim_cards"],
         "invalid_list_fields": {
