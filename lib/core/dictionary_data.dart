@@ -91,6 +91,19 @@ List<Word> decodeAndMergeCorpora(List<String> jsonTexts) {
           }
         }
         earlier['book_references'] = refs;
+        // The source corpus retains later substantive definitions as senses.
+        // Match that behavior in the Flutter app without changing the original ID.
+        final incomingMeaning = entry['meaning_ar'] as String?;
+        if (incomingMeaning != null &&
+            incomingMeaning.length >= 14 &&
+            incomingMeaning != earlier['meaning_ar']) {
+          final meanings = List<dynamic>.of(
+              earlier['additional_meanings_ar'] as List<dynamic>? ?? const []);
+          if (!meanings.contains(incomingMeaning)) {
+            meanings.add(incomingMeaning);
+          }
+          earlier['additional_meanings_ar'] = meanings;
+        }
         for (final key in <String>[
           'synonyms', 'antonyms', 'grammar', 'collocations',
           'examples_ar', 'additional_meanings_ar',
@@ -114,16 +127,40 @@ List<Word> decodeAndMergeCorpora(List<String> jsonTexts) {
   return combined.map(Word.fromJson).toList();
 }
 
+/// Use the earliest explicit book reference; modern source cards often have
+/// book_references without the older singular book_reference field.
 List<Word> sortWordsByBookOrder(Iterable<Word> words) {
+  List<int> orderKey(Word word) {
+    if (word.bookReferences.isNotEmpty) {
+      final references = word.bookReferences.map((ref) => <int>[
+        ref['book'] as int? ?? 999,
+        ref['chapter'] as int? ?? 999,
+        ref['index'] as int? ?? 999,
+      ]).toList();
+      references.sort((a, b) {
+        for (var i = 0; i < 3; i++) {
+          final diff = a[i].compareTo(b[i]);
+          if (diff != 0) return diff;
+        }
+        return 0;
+      });
+      return references.first;
+    }
+    return [
+      word.bookNumber ?? 999,
+      word.chapterNumber ?? 999,
+      word.chapterOrder ?? 999,
+    ];
+  }
   final result = words.toList();
   result.sort((a, b) {
-    final aBook = a.bookNumber ?? 999;
-    final bBook = b.bookNumber ?? 999;
-    final first = aBook.compareTo(bBook);
-    if (first != 0) return first;
-    final chapter = (a.chapterNumber ?? 999).compareTo(b.chapterNumber ?? 999);
-    if (chapter != 0) return chapter;
-    return (a.chapterOrder ?? 999).compareTo(b.chapterOrder ?? 999);
+    final left = orderKey(a);
+    final right = orderKey(b);
+    for (var i = 0; i < 3; i++) {
+      final diff = left[i].compareTo(right[i]);
+      if (diff != 0) return diff;
+    }
+    return a.arabic.compareTo(b.arabic);
   });
   return result;
 }
@@ -176,7 +213,35 @@ String _withoutCaseEnding(String text) {
   return text.replaceAll(RegExp(r'[\u064B-\u0652]+$'), '');
 }
 
-/// Keep vocalized noun and verb homographs as distinct dictionary entries.
+/// Retain the original vowels while stripping Arabic clitics.
+/// This resolves e.g. بِالْعِلْمِ to عِلْمٌ, not عَلَمٌ.
+List<String> _vocalizedCandidateForms(String token) {
+  final candidates = <String>[];
+  final queue = <String>[token];
+  final visited = <String>{};
+  while (queue.isNotEmpty) {
+    final form = queue.removeAt(0);
+    if (form.isEmpty || !visited.add(form)) continue;
+    candidates.add(form);
+
+    // Only remove distinctly vowelized attached particles. Bare consonants
+    // may be the first radical of the actual lemma.
+    for (final prefix in const ['وَ', 'فَ', 'بِ', 'لِ', 'كَ']) {
+      if (form.startsWith(prefix) && form.length > prefix.length + 1) {
+        queue.add(form.substring(prefix.length));
+      }
+    }
+    for (final article in const ['الْ', 'ال', 'لْ']) {
+      if (form.startsWith(article) && form.length > article.length + 1) {
+        queue.add(form.substring(article.length));
+      }
+    }
+  }
+  return candidates;
+}
+
+/// Prefer vowel-exact forms before the consonant-only fallback.
+/// If the fallback is ambiguous, do not open the wrong Arabic homograph.
 Word? findWordForToken(String token, Iterable<Word> words) {
   final clean = token.replaceAll(
     RegExp(r'^[\u060C\u061B\u061F«».,:؛!?()]+|[\u060C\u061B\u061F«».,:؛!?()]+$'),
@@ -186,20 +251,29 @@ Word? findWordForToken(String token, Iterable<Word> words) {
   for (final item in entries) {
     if (item.arabic == clean) return item;
   }
-  final vocalized = _withoutCaseEnding(clean);
-  if (vocalized.contains(RegExp(r'[\u064B-\u0652]'))) {
-    for (final item in entries) {
-      if (_withoutCaseEnding(item.arabic) == vocalized) return item;
+
+  // Case endings and attached vowels can differ from dictionary headwords.
+  final hasVowels = clean.contains(RegExp(r'[\u064B-\u065F\u0670]'));
+  if (hasVowels) {
+    for (final candidate in _vocalizedCandidateForms(clean)) {
+      final vocalizedStem = _withoutCaseEnding(candidate);
+      for (final item in entries) {
+        if (_withoutCaseEnding(item.arabic) == vocalizedStem) return item;
+      }
     }
   }
-  final lookup = <String, Word>{};
+
+  final lookup = <String, List<Word>>{};
   for (final item in entries) {
-    lookup.putIfAbsent(normalizeArabic(item.arabic), () => item);
+    lookup.putIfAbsent(normalizeArabic(item.arabic), () => []).add(item);
   }
   for (final candidate in _candidateForms(clean)) {
     final matching = lookup[candidate];
-    if (matching != null) return matching;
+    if (matching == null || matching.isEmpty) continue;
+    if (matching.length == 1) return matching.single;
+    // Same unvocalized form can represent different parts of speech or senses.
+    // Prefer no result over an arbitrary first result.
+    return null;
   }
   return null;
 }
-
