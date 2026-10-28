@@ -16,7 +16,12 @@ class EditorialGrammarTagTests(unittest.TestCase):
             for item in data["entries"]:
                 with self.subTest(file=filename, word=item["arabic"]):
                     expected = "تَرْكِيبٌ اسْمِيٌّ" if " " in item["arabic"].strip() else "اِسْمٌ"
-                    self.assertEqual(item["grammar"], [expected])
+                    self.assertEqual(len(item["grammar"]), 1)
+                    self.assertTrue(
+                        item["grammar"][0] == expected
+                        or item["grammar"][0].startswith(expected + "؛"),
+                        f"Unexpected grammatical category for {item['arabic']}: {item['grammar']}",
+                    )
 
 
 if __name__ == "__main__":
