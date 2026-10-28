@@ -107,7 +107,10 @@ void main() {
     await tester.pumpWidget(DictionaryApp(previewWords: [modern]));
     await tester.pumpAndSettle();
     expect(find.text('كِتَابٌ'), findsWidgets);
-    expect(find.text('Книга 1 · Тема 3'), findsOneWidget);
+    expect(find.descendant(
+      of: find.byType(WordTile),
+      matching: find.text('Книга 1 · Тема 3'),
+    ), findsOneWidget);
   });
 
 }
