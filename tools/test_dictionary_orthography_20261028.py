@@ -15,7 +15,6 @@ WRONG_HEADWORDS = {
     "مَصْدَاقِيَّةٌ": "مِصْدَاقِيَّةٌ",         # Cairo Academy (صدق)
     "كِفَاءَةٌ": "كَفَاءَةٌ",                 # Cairo Academy (كفأ)
     "مِهَارَةٌ": "مَهَارَةٌ",
-    "وَقَايَةٌ": "وِقَايَةٌ",
     "مَقَاوَلٌ": "مُقَاوِلٌ",
     "مُفْتَاحٌ": "مِفْتَاحٌ",
     "مِعَالِجٌ": "مُعَالِجٌ",
@@ -23,7 +22,6 @@ WRONG_HEADWORDS = {
     "مَفَاجَأَةٌ": "مُفَاجَأَةٌ",
     "فَئَةٌ": "فِئَةٌ",
     "مَقْبَسٌ": "مِقْبَسٌ",
-    "مَقْبَضٌ": "مِقْبَضٌ",
     "مَسْتَنْقَعٌ": "مُسْتَنْقَعٌ",
     "نَيِزَكٌ": "نَيْزَكٌ",
 }
@@ -33,8 +31,9 @@ def is_unmarked_initial_alif_variant(forms):
     if len(forms) != 2:
         return False
     # All other characters and harakat must be identical.
-    return forms[0].removeprefix("اِ") == forms[1].removeprefix("اِ") and (
-        forms[0].startswith("اِ") != forms[1].startswith("اِ")
+    return (
+        forms[0].replace("اِ", "ا", 1) == forms[1].replace("اِ", "ا", 1)
+        and (forms[0].startswith("اِ") != forms[1].startswith("اِ"))
     )
 
 
