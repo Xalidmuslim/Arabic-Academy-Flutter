@@ -97,4 +97,17 @@ void main() {
     expect(find.text('شَقَّةٌ'), findsWidgets);
   });
 
+  testWidgets('A modern chapter-reference-only word displays its chapter tag',
+      (tester) async {
+    final modern = Word('modern', 'كِتَابٌ', 'مَجْمُوعَةٌ مِنَ الصَّفَحَاتِ',
+      const [], const [], const ['اِسْمٌ'], const [], const [], '', const [],
+      bookReferences: const [
+        {'book': 1, 'chapter': 3, 'index': 7},
+      ]);
+    await tester.pumpWidget(DictionaryApp(previewWords: [modern]));
+    await tester.pumpAndSettle();
+    expect(find.text('كِتَابٌ'), findsWidgets);
+    expect(find.text('Книга 1 · Тема 3'), findsOneWidget);
+  });
+
 }
