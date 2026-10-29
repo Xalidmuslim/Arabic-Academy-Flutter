@@ -40,7 +40,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('كِتَابٌ'), findsOneWidget);
     expect(find.text('هَلْ'), findsOneWidget);
-    expect(find.text('هَذَا'), findsOneWidget);
+    // SliverList builds only visible rows; find the later word via search.
     expect(find.text('قَلَمٌ'), findsNothing);
     await tester.enterText(find.byKey(const ValueKey('dictionary-search')), 'هذا');
     await tester.pumpAndSettle();
