@@ -99,6 +99,14 @@ class DeepEditorialAuditTests(unittest.TestCase):
         self.assertEqual(len(report["wrong_solar_article_lam_sukun"]), 1)
         self.assertEqual(report["wrong_solar_article_lam_sukun"][0]["field"], "collocations")
 
+    def test_all_source_arabic_fields_avoid_solar_lam_sukun(self):
+        result = inspect_deep_quality(iter_corpus_chunks())
+        found = result["wrong_solar_article_lam_sukun"]
+        self.assertFalse(
+            found,
+            f"{len(found)} wrong sun-letter articles; first offenders: {found[:8]}",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
