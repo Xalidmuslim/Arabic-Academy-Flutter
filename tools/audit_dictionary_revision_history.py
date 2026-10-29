@@ -53,6 +53,7 @@ def reconcile_cards(before: Iterable[tuple[str, dict[str, Any]]],
     unicode_only = 0
     vowel_only = 0
     letter_change = 0
+    letter_details = []
     arabic_marks = re.compile(r"[\u064b-\u065f\u0670\u06d6-\u06ed]")
     refs_removed = []
     moved = []
@@ -71,6 +72,8 @@ def reconcile_cards(before: Iterable[tuple[str, dict[str, Any]]],
                     vowel_only += 1
                 else:
                     letter_change += 1
+                    letter_details.append({"id": cid, "before": old_word,
+                                           "after": new_word, "file": new_file})
         if isinstance(old_word, str) and isinstance(new_word, str):
             names_for_new[new_word].add(old_word)
             if old_word != new_word:
@@ -105,6 +108,7 @@ def reconcile_cards(before: Iterable[tuple[str, dict[str, Any]]],
         "unicode_equivalent_changes": unicode_only,
         "vocalization_only_changes": vowel_only,
         "letter_spelling_changes": letter_change,
+        "letter_change_details": letter_details,
         "changed_headword_examples": changed_examples,
         "consolidated_headword_groups": len(consolidated),
         "consolidation_details": consolidated,
@@ -159,6 +163,7 @@ def main() -> None:
     summary["changed_headword_examples"] = report["changed_headword_examples"][:args.max_changes]
     summary["consolidation_details"] = report["consolidation_details"][:args.max_changes]
     summary["reference_loss_examples"] = report["reference_loss_details"][:args.max_changes]
+    summary["letter_change_details"] = report["letter_change_details"]
     print("DICTIONARY_REVISION_RECONCILIATION_BEGIN")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     print("DICTIONARY_REVISION_RECONCILIATION_END")
