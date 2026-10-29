@@ -27,6 +27,15 @@ NORMALIZE_SPACE = re.compile(r"\s+")
 WRONG_SOLAR_LAM = re.compile(r"الْ[تثدذرزسشصضطظلن][\u064b-\u065f]*ّ")
 
 
+
+def find_missing_moon_lam_sukun(text: str) -> list[str]:
+    """Only pronounced hamza (أ / إ / آ) is checked, not wasl-alif."""
+    if not isinstance(text, str):
+        return []
+    return [m.group(0) for m in re.finditer(
+        r"ال[أإآ][\u064b-\u065f]?", unicodedata.normalize("NFC", text))]
+
+
 def find_wrong_solar_lam(text: str) -> list[str]:
     """Return offending orthographic fragments (never rewrite source implicitly)."""
     if not isinstance(text, str):
@@ -117,6 +126,7 @@ def inspect_deep_quality(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[st
     self_synonym = []
     overlap = []
     solar_lam = []
+    moon_lam = []
     definition_index = defaultdict(lambda: {"headwords": set(), "files": set(), "count": 0})
     for filename, card in all_cards:
         word = card.get("arabic") or ""
@@ -128,6 +138,11 @@ def inspect_deep_quality(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[st
             value = card.get(field)
             texts = [value] if isinstance(value, str) else (value if isinstance(value, list) else [])
             for idx, part in enumerate(texts):
+                missing_moon = find_missing_moon_lam_sukun(part)
+                if missing_moon:
+                    moon_lam.append({"file": filename, "id": card.get("id"),
+                                     "arabic": word, "field": field, "index": idx,
+                                     "fragments": missing_moon, "text": part[:240]})
                 wrong = find_wrong_solar_lam(part)
                 if wrong:
                     solar_lam.append({"file": filename, "id": card.get("id"),
@@ -163,6 +178,7 @@ def inspect_deep_quality(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[st
     return {
         "source_cards": len(all_cards),
         "wrong_solar_article_lam_sukun": solar_lam,
+        "missing_moon_article_lam_sukun": moon_lam,
         "headwords_with_incomplete_harakat": missing,
         "self_synonym": self_synonym,
         "synonym_antonym_overlap": overlap,
@@ -184,6 +200,7 @@ def main() -> None:
     print(json.dumps({
         "source_cards": report["source_cards"],
         "wrong_solar_article_lam_sukun": len(report["wrong_solar_article_lam_sukun"]),
+        "missing_moon_article_lam_sukun": len(report["missing_moon_article_lam_sukun"]),
         "headwords_with_incomplete_harakat": len(report["headwords_with_incomplete_harakat"]),
         "self_synonym": len(report["self_synonym"]),
         "synonym_antonym_overlap": len(report["synonym_antonym_overlap"]),
