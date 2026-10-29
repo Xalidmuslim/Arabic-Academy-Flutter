@@ -74,6 +74,9 @@ class RevisionReconciliationTests(unittest.TestCase):
         self.assertEqual(report["unicode_equivalent_changes"], 1)
         self.assertEqual(report["vocalization_only_changes"], 1)
         self.assertEqual(report["letter_spelling_changes"], 1)
+        self.assertEqual(report["letter_change_details"], [
+            {"id": "c", "before": "كَلْبٌ", "after": "قَلْبٌ", "file": "c.json"}
+        ])
         self.assertEqual(report["changed_headwords"], 3)
 
     def test_original_card_provenance_and_reference_loss_detected(self):
