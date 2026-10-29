@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "basis_workflow": "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/actions/runs/40929411667",
+  "scope": "original Arabic prose; headwords unchanged; variants retained",
+  "changes": [
+    {
+      "file": "assets/data/entries.json",
+      "id": "l1u6_003",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "وَيُمكِنُ",
+      "to": "وَيُمْكِنُ"
+    },
+    {
+      "file": "assets/data/entries_level3_01_02.json",
+      "id": "l3u02_007",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "الانْضِبَاطُ",
+      "to": "الِانْضِبَاطُ"
+    },
+    {
+      "file": "assets/data/entries_level3_01_02.json",
+      "id": "l3u02_007",
+      "field": "collocations",
+      "index": 0,
+      "from": "الانْضِبَاطُ",
+      "to": "الِانْضِبَاطُ"
+    },
+    {
+      "file": "assets/data/entries_level3_01_02.json",
+      "id": "l3u02_008",
+      "field": "collocations",
+      "index": 0,
+      "from": "الالْتِزَامُ",
+      "to": "الِالْتِزَامُ"
+    },
+    {
+      "file": "assets/data/entries_level3_01_02.json",
+      "id": "l3u02_027",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "الاعْتِيَادُ",
+      "to": "الِاعْتِيَادُ"
+    },
+    {
+      "file": "assets/data/entries_level3_01_02.json",
+      "id": "l3u02_027",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاعْتِيَادُ",
+      "to": "الِاعْتِيَادُ"
+    },
+    {
+      "file": "assets/data/entries_level3_03_04.json",
+      "id": "l3u03_011",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "الانْدِمَاجِ",
+      "to": "الِانْدِمَاجِ"
+    },
+    {
+      "file": "assets/data/entries_level3_03_04.json",
+      "id": "l3u03_011",
+      "field": "collocations",
+      "index": 0,
+      "from": "الانْدِمَاجُ",
+      "to": "الِانْدِمَاجُ"
+    },
+    {
+      "file": "assets/data/entries_level3_03_04.json",
+      "id": "l3u04_021",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "الاقْتِدَاءِ",
+      "to": "الِاقْتِدَاءِ"
+    },
+    {
+      "file": "assets/data/entries_level3_03_04.json",
+      "id": "l3u04_021",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاقْتِدَاءُ",
+      "to": "الِاقْتِدَاءُ"
+    },
+    {
+      "file": "assets/data/entries_level3_05_06.json",
+      "id": "l3u06_020",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِقْرَارُ",
+      "to": "الِاسْتِقْرَارُ"
+    },
+    {
+      "file": "assets/data/entries_level3_07_08.json",
+      "id": "l3u07_004",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "الانْتِقَالُ",
+      "to": "الِانْتِقَالُ"
+    },
+    {
+      "file": "assets/data/entries_level3_07_08.json",
+      "id": "l3u07_004",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "الاسْتِيقَاظَ",
+      "to": "الِاسْتِيقَاظَ"
+    },
+    {
+      "file": "assets/data/entries_level3_07_08.json",
+      "id": "l3u07_004",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِيقَاظُ",
+      "to": "الِاسْتِيقَاظُ"
+    },
+    {
+      "file": "assets/data/entries_level3_07_08.json",
+      "id": "l3u08_011",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِهْزَاءُ",
+      "to": "الِاسْتِهْزَاءُ"
+    },
+    {
+      "file": "assets/data/entries_level3_07_08.json",
+      "id": "l3u08_018",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "بِالاسْتِغْرَابِ",
+      "to": "بِالِاسْتِغْرَابِ"
+    },
+    {
+      "file": "assets/data/entries_level3_11_12.json",
+      "id": "l3u12_014",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "بِالانْفِعَالِ",
+      "to": "بِالِانْفِعَالِ"
+    },
+    {
+      "file": "assets/data/entries_level3_11_12.json",
+      "id": "l3u12_015",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "وَالانْفِعَالِ",
+      "to": "وَالِانْفِعَالِ"
+    },
+    {
+      "file": "assets/data/entries_level3_11_12.json",
+      "id": "l3u12_017",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "الاضْطِرَابِ",
+      "to": "الِاضْطِرَابِ"
+    },
+    {
+      "file": "assets/data/entries_level3_13_14.json",
+      "id": "l3u13_011",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "وَالانْتِبَاهُ",
+      "to": "وَالِانْتِبَاهُ"
+    },
+    {
+      "file": "assets/data/entries_level3_15_16.json",
+      "id": "l3u15_010",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاجْتِهَادُ",
+      "to": "الِاجْتِهَادُ"
+    },
+    {
+      "file": "assets/data/entries_level3_15_16.json",
+      "id": "l3u15_024",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "بِالاعْتِدَالِ",
+      "to": "بِالِاعْتِدَالِ"
+    },
+    {
+      "file": "assets/data/entries_level3_15_16.json",
+      "id": "l3u15_024",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاعْتِدَالُ",
+      "to": "الِاعْتِدَالُ"
+    },
+    {
+      "file": "assets/data/entries_level3_15_16.json",
+      "id": "l3u15_027",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "الابْنُ",
+      "to": "الِابْنُ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_01_02.json",
+      "id": "l4draft01_011",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِنْبَاطُ",
+      "to": "الِاسْتِنْبَاطُ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_01_02.json",
+      "id": "l4draft01_012",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "بِالاسْتِقْرَاءِ",
+      "to": "بِالِاسْتِقْرَاءِ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_01_02.json",
+      "id": "l4draft01_012",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِقْرَاءُ",
+      "to": "الِاسْتِقْرَاءُ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_01_02.json",
+      "id": "l4draft01_013",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِدْلَالُ",
+      "to": "الِاسْتِدْلَالُ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_01_02.json",
+      "id": "l4draft01_014",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "بِالاسْتِشْهَادِ",
+      "to": "بِالِاسْتِشْهَادِ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_01_02.json",
+      "id": "l4draft01_014",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِشْهَادُ",
+      "to": "الِاسْتِشْهَادُ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_01_02.json",
+      "id": "l4draft01_023",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "الانْحِيَازِ",
+      "to": "الِانْحِيَازِ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_01_02.json",
+      "id": "l4draft01_023",
+      "field": "collocations",
+      "index": 0,
+      "from": "الانْحِيَازِ",
+      "to": "الِانْحِيَازِ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_07_08.json",
+      "id": "l4draft07_006",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِعَارَةُ",
+      "to": "الِاسْتِعَارَةُ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_07_08.json",
+      "id": "l4draft08_032",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "بِالانْقِرَاضِ",
+      "to": "بِالِانْقِرَاضِ"
+    },
+    {
+      "file": "assets/data/entries_level4_draft_15_16.json",
+      "id": "l4u16_006",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "بِالانْتِمَاءِ",
+      "to": "بِالِانْتِمَاءِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_enrichment_l4.json",
+      "id": "lexical_enrichment_035",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "بِالانْتِمَاءِ",
+      "to": "بِالِانْتِمَاءِ"
+    },
+    {
+      "file": "assets/data/entries_advanced_research_editing_20261025.json",
+      "id": "l4independent_20261025_a_021",
+      "field": "collocations",
+      "index": 0,
+      "from": "الانْسِجَامُ",
+      "to": "الِانْسِجَامُ"
+    },
+    {
+      "file": "assets/data/entries_semantic_disambiguation_20261025.json",
+      "id": "semantic_polysemy_20261025_044",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "لِلكِتَابَةِ",
+      "to": "لِلْكِتَابَةِ"
+    },
+    {
+      "file": "assets/data/entries_advanced_methodology_20261025.json",
+      "id": "editorial_methods_20261025_003",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِقْرَاءُ",
+      "to": "الِاسْتِقْرَاءُ"
+    },
+    {
+      "file": "assets/data/entries_advanced_arabic_linguistics_20261025.json",
+      "id": "editorial_linguistics_20261025_016",
+      "field": "collocations",
+      "index": 0,
+      "from": "الاسْتِعَارَةُ",
+      "to": "الِاسْتِعَارَةُ"
+    },
+    {
+      "file": "assets/data/entries_advanced_reasoning_20261025.json",
+      "id": "editorial_reasoning_20261025_005",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "الافْتِرَاضُ",
+      "to": "الِافْتِرَاضُ"
+    },
+    {
+      "file": "assets/data/entries_advanced_expression_20261025.json",
+      "id": "editorial_expression_20261025_005",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "الانْتِقَالُ",
+      "to": "الِانْتِقَالُ"
+    },
+    {
+      "file": "assets/data/entries_emotional_literacy_20261025.json",
+      "id": "editorial_emotional_20261025_007",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "الاسْتِعْدَادُ",
+      "to": "الِاسْتِعْدَادُ"
+    },
+    {
+      "file": "assets/data/entries_emotional_literacy_20261025.json",
+      "id": "editorial_emotional_20261025_009",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "بِالانْزِعَاجِ",
+      "to": "بِالِانْزِعَاجِ"
+    },
+    {
+      "file": "assets/data/entries_practical_crafts_20261025.json",
+      "id": "editorial_crafts_20261025_070",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "لِلاقْتِرَابِ",
+      "to": "لِلِاقْتِرَابِ"
+    },
+    {
+      "file": "assets/data/entries_practical_textiles_20261025.json",
+      "id": "editorial_textiles_20261025_005",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "لِلأَجْزَاءِ",
+      "to": "لِلْأَجْزَاءِ"
+    },
+    {
+      "file": "assets/data/entries_practical_textiles_20261025.json",
+      "id": "editorial_textiles_20261025_009",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "لِلأَدَاةِ",
+      "to": "لِلْأَدَاةِ"
+    },
+    {
+      "file": "assets/data/entries_adjectives_context_20261025.json",
+      "id": "ind_adjective_context_20261025_179",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "لِلأَشْيَاءِ",
+      "to": "لِلْأَشْيَاءِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_culinary_20261026.json",
+      "id": "editorial_culinary_20261026_098",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "لِلأَطْبَاقِ",
+      "to": "لِلْأَطْبَاقِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_culinary_20261026.json",
+      "id": "editorial_culinary_20261026_182",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "لِلأَكْلِ",
+      "to": "لِلْأَكْلِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_agriculture_20261026.json",
+      "id": "editorial_agriculture_20261026_016",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "لِلأَرْضِ",
+      "to": "لِلْأَرْضِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_astronomy_20261026.json",
+      "id": "editorial_astronomy_20261026_152",
+      "field": "collocations",
+      "index": 0,
+      "from": "الانْقِلَابُ",
+      "to": "الِانْقِلَابُ"
+    },
+    {
+      "file": "assets/data/entries_editorial_astronomy_20261026.json",
+      "id": "editorial_astronomy_20261026_153",
+      "field": "collocations",
+      "index": 0,
+      "from": "الانْقِلَابُ",
+      "to": "الِانْقِلَابُ"
+    },
+    {
+      "file": "assets/data/entries_editorial_astronomy_20261026.json",
+      "id": "editorial_astronomy_20261026_188",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "وَالبَحْثِ",
+      "to": "وَالْبَحْثِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_astronomy_20261026.json",
+      "id": "editorial_astronomy_20261026_206",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "لِلأَشِعَّةِ",
+      "to": "لِلْأَشِعَّةِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_software_networks_20261027.json",
+      "id": "editorial_software_networks_20261027_045",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "لِلأَجْهِزَةِ",
+      "to": "لِلْأَجْهِزَةِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_health_anatomy_20261027.json",
+      "id": "editorial_health_anatomy_20261027_092",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "التِوَاءٍ",
+      "to": "اِلْتِوَاءٍ"
+    },
+    {
+      "file": "assets/data/entries_editorial_health_anatomy_20261027.json",
+      "id": "editorial_health_anatomy_20261027_097",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "الوَظِيفَةِ",
+      "to": "الْوَظِيفَةِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_finance_accounting_20261027.json",
+      "id": "editorial_finance_accounting_20261027_003",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "وَالاسْتِثْمَارِيَّ",
+      "to": "وَالِاسْتِثْمَارِيَّ"
+    },
+    {
+      "file": "assets/data/entries_editorial_finance_accounting_20261027.json",
+      "id": "editorial_finance_accounting_20261027_137",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "الامْتِنَاعِ",
+      "to": "الِامْتِنَاعِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_finance_accounting_20261027.json",
+      "id": "editorial_finance_accounting_20261027_193",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "لِلأُسْبُوعِ",
+      "to": "لِلْأُسْبُوعِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_geology_climate_20261027.json",
+      "id": "editorial_geology_climate_20261027_027",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "الاهْتِزَازِ",
+      "to": "الِاهْتِزَازِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_geology_climate_20261027.json",
+      "id": "editorial_geology_climate_20261027_071",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "الارْتِفَاعُ",
+      "to": "الِارْتِفَاعُ"
+    },
+    {
+      "file": "assets/data/entries_editorial_manufacturing_20261027.json",
+      "id": "editorial_manufacturing_20261027_158",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "بِالعَيْنِ",
+      "to": "بِالْعَيْنِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_communication_media_20261027.json",
+      "id": "editorial_communication_media_20261027_086",
+      "field": "examples_ar",
+      "index": 0,
+      "from": "لِلأُسْبُوعِ",
+      "to": "لِلْأُسْبُوعِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_mathematics_science_20261027.json",
+      "id": "editorial_mathematics_science_20261027_140",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "لِلانْزِلَاقِ",
+      "to": "لِلِانْزِلَاقِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_genetics_microbiology_20261027.json",
+      "id": "editorial_genetics_microbiology_20261027_143",
+      "field": "meaning_ar",
+      "index": 0,
+      "from": "لِلأَكْسَدَةِ",
+      "to": "لِلْأَكْسَدَةِ"
+    },
+    {
+      "file": "assets/data/entries_editorial_archaeology_history_20261027.json",
+      "id": "editorial_archaeology_history_20261027_107",
+      "field": "usage_note_ar",
+      "index": 0,
+      "from": "وَالاِسْتِعْمَالَ",
+      "to": "وَالِاسْتِعْمَالَ"
+    }
+  ],
+  "reviewed_not_changed": [
+    "بِ",
+    "آفاتٍ",
+    "وَالدِّيزلَ",
+    "وَبِالتَّقْوِيمِ",
+    "وَلِلرُّسُومِ",
+    "وَلِلشَّخْصِ",
+    "وَلِلصُّعُودِ"
+  ]
+}
