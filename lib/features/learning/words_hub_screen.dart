@@ -9,6 +9,7 @@ import 'practice_center_screen.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
 import 'illustrated_dictionary_screen.dart';
+import 'library_screens.dart' show DictionaryScreen;
 import 'vocabulary_practice_screen.dart';
 
 /// One learner entry for exploring, recalling and spaced-reviewing vocabulary.
@@ -140,6 +141,21 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
                     onPressed: _intensive,
                     icon: const Icon(Icons.auto_awesome_outlined),
                     label: const Text('Тренировать слова и диалоги'),
+                  ),
+                  const SizedBox(height: 10),
+                ],
+                if (_phase == 'learn') ...[
+                  OutlinedButton.icon(
+                    key: const ValueKey('words-dialogue-dictionary'),
+                    onPressed: () => Navigator.push(context,
+                      MaterialPageRoute<void>(builder: (_) => DictionaryScreen(
+                        state: widget.state,
+                        lessonId: widget.lessonId,
+                        initialDialogueOnly: true,
+                      )),
+                    ),
+                    icon: const Icon(Icons.menu_book_outlined),
+                    label: const Text('Словарь из диалогов'),
                   ),
                   const SizedBox(height: 10),
                 ],
