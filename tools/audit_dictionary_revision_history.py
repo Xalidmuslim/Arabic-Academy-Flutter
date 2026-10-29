@@ -10,8 +10,10 @@ from __future__ import annotations
 import argparse
 import json
 import subprocess
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
+import re
 from typing import Any, Iterable
 
 
@@ -48,6 +50,10 @@ def reconcile_cards(before: Iterable[tuple[str, dict[str, Any]]],
     names_for_new: dict[str, set[str]] = defaultdict(set)
     examples: dict[str, list[dict[str, str]]] = defaultdict(list)
     changed = 0
+    unicode_only = 0
+    vowel_only = 0
+    letter_change = 0
+    arabic_marks = re.compile(r"[\u064b-\u065f\u0670\u06d6-\u06ed]")
     refs_removed = []
     moved = []
     for cid in common:
@@ -56,6 +62,15 @@ def reconcile_cards(before: Iterable[tuple[str, dict[str, Any]]],
         old_word, new_word = old.get("arabic"), new.get("arabic")
         if old_word != new_word:
             changed += 1
+            if isinstance(old_word, str) and isinstance(new_word, str):
+                old_nfc = unicodedata.normalize("NFC", old_word)
+                new_nfc = unicodedata.normalize("NFC", new_word)
+                if old_nfc == new_nfc:
+                    unicode_only += 1
+                elif arabic_marks.sub("", old_nfc) == arabic_marks.sub("", new_nfc):
+                    vowel_only += 1
+                else:
+                    letter_change += 1
         if isinstance(old_word, str) and isinstance(new_word, str):
             names_for_new[new_word].add(old_word)
             if old_word != new_word:
@@ -87,6 +102,9 @@ def reconcile_cards(before: Iterable[tuple[str, dict[str, Any]]],
         "deleted_ids": sorted(earlier.keys() - current.keys()),
         "added_ids": sorted(current.keys() - earlier.keys()),
         "changed_headwords": changed,
+        "unicode_equivalent_changes": unicode_only,
+        "vocalization_only_changes": vowel_only,
+        "letter_spelling_changes": letter_change,
         "changed_headword_examples": changed_examples,
         "consolidated_headword_groups": len(consolidated),
         "consolidation_details": consolidated,
