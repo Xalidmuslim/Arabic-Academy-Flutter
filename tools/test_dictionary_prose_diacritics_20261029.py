@@ -2,7 +2,7 @@
 import unittest
 
 from audit_dictionary_prose_diacritics import (
-    unvocalized_tokens, audit_prose_diacritics,
+    unvocalized_tokens, partially_vocalized_tokens, audit_prose_diacritics,
 )
 
 
@@ -12,6 +12,29 @@ class DictionaryProseDiacriticsTests(unittest.TestCase):
 
     def test_unvocalized_words_in_meaning_are_detected(self):
         self.assertEqual(unvocalized_tokens("وَضَعَ الكتاب عَلَى الطَّاوِلَةِ."), ["الكتاب"])
+
+    def test_partial_diacritics_in_arabic_prose_are_reviewed_separately(self):
+        self.assertEqual(
+            partially_vocalized_tokens("وَضَعَ الكتابَ عَلَى الطَّاوِلَةِ."),
+            ["الكتابَ"],
+        )
+        self.assertEqual(
+            partially_vocalized_tokens("وَضَعَ الْكِتَابَ عَلَى الطَّاوِلَةِ."),
+            [],
+        )
+
+    def test_partial_diacritics_are_distinct_from_wholly_unmarked_words(self):
+        rows = [("a.json", {
+            "id": "a", "arabic": "كِتَابٌ",
+            "meaning_ar": "قَرَأَ الكتابَ عَلَى الطَّاوِلَةِ.",
+            "usage_note_ar": "تُسْتَعْمَلُ كتب كَثِيرَةٌ.",
+            "examples_ar": ["الْكِتَابُ مُفِيدٌ."],
+            "grammar": ["اِسْمٌ"], "collocations": ["كِتَابٌ مُفِيدٌ"]
+        })]
+        report = audit_prose_diacritics(rows)
+        self.assertEqual(report["unvocalized_token_occurrences"], 1)
+        self.assertEqual(report["partially_vocalized_token_occurrences"], 1)
+        self.assertEqual(report["partially_vocalized_tokens"][0]["token"], "الكتابَ")
 
     def test_only_arabic_tokens_are_checked(self):
         self.assertEqual(unvocalized_tokens("كَتَبَ 2026، ثُمَّ أَضَافَ HTML."), [])
