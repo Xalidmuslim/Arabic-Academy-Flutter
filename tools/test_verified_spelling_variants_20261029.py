@@ -4,6 +4,7 @@ Cairo Arabic Academy: root عبو (عَبْوَة / عُبُوَّة),
 The two alternate pronunciations remain DISTINCT original lexical cards.
 """
 import json
+import unicodedata
 import unittest
 from pathlib import Path
 
@@ -18,10 +19,10 @@ def by_id(filename, stable_id):
 class VerifiedArabicSpellingVariants(unittest.TestCase):
     def test_packaging_uses_recorded_ubuwwa_not_undocumented_ubwa(self):
         card = by_id("entries_practical_crafts_20261025.json", "editorial_crafts_20261025_076")
-        self.assertEqual(card["arabic"], "عُبُوَّةٌ")
-        self.assertTrue(any("عُبُوَّاتٌ" in g for g in card["grammar"]))
-        self.assertIn("عُبُوَّةُ الطِّلَاءِ", card["collocations"])
-        self.assertIn("عُبُوَّةَ الطِّلَاءِ", card["examples_ar"][0])
+        self.assertEqual(card["arabic"], unicodedata.normalize("NFC", "عُبُوَّةٌ"))
+        self.assertTrue(any(unicodedata.normalize("NFC", "عُبُوَّاتٌ") in g for g in card["grammar"]))
+        self.assertIn(unicodedata.normalize("NFC", "عُبُوَّةُ الطِّلَاءِ"), card["collocations"])
+        self.assertIn(unicodedata.normalize("NFC", "عُبُوَّةَ الطِّلَاءِ"), card["examples_ar"][0])
         self.assertFalse(any("عُبْوَة" in x for x in (
             [card["arabic"], card["usage_note_ar"]] + card["grammar"] +
             card["collocations"] + card["examples_ar"]
