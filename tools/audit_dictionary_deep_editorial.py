@@ -22,6 +22,17 @@ TOKEN = re.compile(r"[\u0621-\u064A\u0671][\u0621-\u064A\u0671\u064B-\u065F\u067
 IGNORE_LETTERS = set("اويىءآٱ")
 NO_MARK = re.compile(r"[\u064B-\u065F\u0670\u06D6-\u06ED]")
 NORMALIZE_SPACE = re.compile(r"\s+")
+# In assimilated Arabic definite articles, ل must NOT carry sukun before a
+# sun letter with shadda (e.g., السَّ not الْسَّ). Retain valid moon-letter sukun.
+WRONG_SOLAR_LAM = re.compile(r"الْ[تثدذرزسشصضطظلن][\u064b-\u065f]*ّ")
+
+
+def find_wrong_solar_lam(text: str) -> list[str]:
+    """Return offending orthographic fragments (never rewrite source implicitly)."""
+    if not isinstance(text, str):
+        return []
+    return [m.group(0) for m in WRONG_SOLAR_LAM.finditer(unicodedata.normalize("NFC", text))]
+
 
 
 def vowel_coverage(text: str) -> dict[str, Any]:
@@ -105,11 +116,23 @@ def inspect_deep_quality(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[st
     missing = []
     self_synonym = []
     overlap = []
+    solar_lam = []
     definition_index = defaultdict(lambda: {"headwords": set(), "files": set(), "count": 0})
     for filename, card in all_cards:
         word = card.get("arabic") or ""
         if not isinstance(word, str) or not word:
             continue
+        for field in ("arabic", "meaning_ar", "usage_note_ar", "grammar",
+                      "collocations", "examples_ar", "additional_meanings_ar",
+                      "synonyms", "antonyms"):
+            value = card.get(field)
+            texts = [value] if isinstance(value, str) else (value if isinstance(value, list) else [])
+            for idx, part in enumerate(texts):
+                wrong = find_wrong_solar_lam(part)
+                if wrong:
+                    solar_lam.append({"file": filename, "id": card.get("id"),
+                                      "arabic": word, "field": field, "index": idx,
+                                      "fragments": wrong, "text": part[:240]})
         coverage = vowel_coverage(word)
         if coverage["missing"]:
             missing.append({"file": filename, "id": card.get("id"), "arabic": word,
@@ -139,6 +162,7 @@ def inspect_deep_quality(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[st
     repeats.sort(key=lambda x: (-len(x["headwords"]), x["headwords"]))
     return {
         "source_cards": len(all_cards),
+        "wrong_solar_article_lam_sukun": solar_lam,
         "headwords_with_incomplete_harakat": missing,
         "self_synonym": self_synonym,
         "synonym_antonym_overlap": overlap,
@@ -159,6 +183,7 @@ def main() -> None:
     print("DEEP_DICTIONARY_QA_BEGIN")
     print(json.dumps({
         "source_cards": report["source_cards"],
+        "wrong_solar_article_lam_sukun": len(report["wrong_solar_article_lam_sukun"]),
         "headwords_with_incomplete_harakat": len(report["headwords_with_incomplete_harakat"]),
         "self_synonym": len(report["self_synonym"]),
         "synonym_antonym_overlap": len(report["synonym_antonym_overlap"]),
