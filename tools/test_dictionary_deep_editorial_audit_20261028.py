@@ -9,6 +9,7 @@ from audit_dictionary_variants import iter_corpus_chunks
 
 from audit_dictionary_deep_editorial import (
     vowel_coverage, detect_conflicting_metadata, inspect_deep_quality,
+    find_wrong_solar_lam,
 )
 
 
@@ -82,6 +83,21 @@ class DeepEditorialAuditTests(unittest.TestCase):
         conflicts = detect_conflicting_metadata(rows)
         self.assertEqual(len(conflicts), 1)
         self.assertEqual(conflicts[0]["arabic"], "كَاتِبٌ")
+
+    def test_solar_article_must_not_have_lam_sukun_before_shadda(self):
+        self.assertEqual(find_wrong_solar_lam("الْسَّيْتُوبْلَازْمِ"), ["الْسَّ"])
+        self.assertEqual(find_wrong_solar_lam("وَالْنَّقْلِ"), ["الْنَّ"])
+        self.assertEqual(find_wrong_solar_lam("بِالتَّعَلُّمِ"), [])
+        self.assertEqual(find_wrong_solar_lam("الْكِتَابُ"), [])
+
+    def test_solar_sukun_is_reported_in_source_collocations_not_just_headwords(self):
+        cards = [("x.json", {
+            "id": "demo", "arabic": "كِتَابٌ", "meaning_ar": "مَجْمُوعَةٌ مِنَ الصَّفَحَاتِ.",
+            "collocations": ["الْسَّيْتُوبْلَازْمِ"], "examples_ar": ["قَرَأَ الْكِتَابَ."],
+        })]
+        report = inspect_deep_quality(cards)
+        self.assertEqual(len(report["wrong_solar_article_lam_sukun"]), 1)
+        self.assertEqual(report["wrong_solar_article_lam_sukun"][0]["field"], "collocations")
 
 
 if __name__ == "__main__":
