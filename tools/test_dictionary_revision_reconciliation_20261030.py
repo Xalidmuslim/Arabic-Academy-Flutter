@@ -59,6 +59,23 @@ class RevisionReconciliationTests(unittest.TestCase):
                 [],
             )
 
+    def test_classifies_unicode_only_vs_vowel_vs_letter_changes(self):
+        before = [
+            ("a.json", {"id": "a", "arabic": "تَعَلَّمَ"}),
+            ("b.json", {"id": "b", "arabic": "كِتَابٌ"}),
+            ("c.json", {"id": "c", "arabic": "كَلْبٌ"}),
+        ]
+        after = [
+            ("a.json", {"id": "a", "arabic": "تَعَلَّمَ"}),
+            ("b.json", {"id": "b", "arabic": "كُتَّابٌ"}),
+            ("c.json", {"id": "c", "arabic": "قَلْبٌ"}),
+        ]
+        report = reconcile_cards(before, after)
+        self.assertEqual(report["unicode_equivalent_changes"], 1)
+        self.assertEqual(report["vocalization_only_changes"], 1)
+        self.assertEqual(report["letter_spelling_changes"], 1)
+        self.assertEqual(report["changed_headwords"], 3)
+
     def test_original_card_provenance_and_reference_loss_detected(self):
         old = [("a.json", {
             "id": "a", "arabic": "مَدْرَسَةٌ",
