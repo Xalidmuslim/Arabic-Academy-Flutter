@@ -56,7 +56,7 @@ def vowel_coverage(text: str) -> dict[str, Any]:
     eligible = 0
     if not isinstance(text, str):
         return {"missing": missing, "coverage": 1.0}
-    for token in TOKEN.findall(unicodedata.normalize("NFC", text)):
+    for token in TOKEN.findall(unicodedata.normalize("NFC", text).replace("\\u0640", "")):
         bases = []
         for char in token:
             if ARABIC_LETTER.fullmatch(char) or char == "ٱ":
