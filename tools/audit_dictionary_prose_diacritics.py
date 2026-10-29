@@ -16,6 +16,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from audit_dictionary_variants import iter_corpus_chunks
+from audit_dictionary_deep_editorial import vowel_coverage
 
 ARABIC_WORD = re.compile(r"[\u0621-\u064A\u0671][\u0621-\u064A\u0671\u064b-\u065f\u0670\u06d6-\u06ed\u0640]*")
 VOWEL = re.compile(r"[\u064b-\u065f\u0670\u06d6-\u06ed]")
@@ -33,6 +34,17 @@ def unvocalized_tokens(text: str) -> list[str]:
             words.append(token.replace("\u0640", ""))
     return words
 
+def partially_vocalized_tokens(text: str) -> list[str]:
+    """Partly marked Arabic words are review candidates, NOT proven errors."""
+    if not isinstance(text, str):
+        return []
+    result = []
+    for token in ARABIC_WORD.findall(unicodedata.normalize("NFC", text)):
+        if (len(ARABIC_CHAR.findall(token)) >= 2 and VOWEL.search(token)
+                and vowel_coverage(token)["missing"]):
+            result.append(token.replace("\u0640", ""))
+    return result
+
 
 def audit_prose_diacritics(cards: Iterable[tuple[str, dict[str, Any]]],
                            example_limit: int = 300) -> dict[str, Any]:
@@ -42,6 +54,11 @@ def audit_prose_diacritics(cards: Iterable[tuple[str, dict[str, Any]]],
     tokens = Counter()
     places = defaultdict(set)
     examples = []
+    partial_tokens = Counter()
+    partial_places = defaultdict(set)
+    partial_cards = set()
+    partial_files = set()
+    partial_examples = []
     for file_name, item in cards:
         all_cards += 1
         cid = item.get("id", f"unknown-{all_cards}")
@@ -60,6 +77,16 @@ def audit_prose_diacritics(cards: Iterable[tuple[str, dict[str, Any]]],
                         examples.append({"file": file_name, "id": cid,
                                          "arabic": item.get("arabic"), "field": field,
                                          "index": index, "token": token, "text": text[:220]})
+                for token in partially_vocalized_tokens(text):
+                    partial_tokens[token] += 1
+                    partial_places[token].add(file_name)
+                    partial_cards.add((file_name, str(cid)))
+                    partial_files.add(file_name)
+                    if len(partial_examples) < example_limit:
+                        partial_examples.append({"file": file_name, "id": cid,
+                                                 "arabic": item.get("arabic"),
+                                                 "field": field, "index": index,
+                                                 "token": token, "text": text[:220]})
 
     return {
         "source_cards": all_cards,
@@ -73,6 +100,16 @@ def audit_prose_diacritics(cards: Iterable[tuple[str, dict[str, Any]]],
         ],
         "examples": examples,
         "examples_truncated": sum(tokens.values()) > len(examples),
+        "partially_vocalized_cards": len(partial_cards),
+        "partially_vocalized_files": len(partial_files),
+        "partially_vocalized_token_occurrences": sum(partial_tokens.values()),
+        "unique_partially_vocalized_tokens": len(partial_tokens),
+        "partially_vocalized_tokens": [
+            {"token": w, "count": n, "source_files": sorted(partial_places[w])}
+            for w, n in sorted(partial_tokens.items(), key=lambda x: (-x[1], x[0]))
+        ],
+        "partial_examples": partial_examples,
+        "partial_examples_truncated": sum(partial_tokens.values()) > len(partial_examples),
     }
 
 
@@ -87,9 +124,11 @@ def main() -> None:
         opts.json_out.parent.mkdir(parents=True, exist_ok=True)
         opts.json_out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n",
                                  encoding="utf-8")
-    summary = {k: v for k, v in report.items() if k not in ("tokens", "examples")}
+    summary = {k: v for k, v in report.items() if k not in ("tokens", "examples", "partially_vocalized_tokens", "partial_examples")}
     summary["top_tokens"] = report["tokens"][:max(0, opts.max_tokens)]
+    summary["top_partial_tokens"] = report["partially_vocalized_tokens"][:max(0, opts.max_tokens)]
     summary["examples"] = report["examples"][:max(0, opts.max_examples)]
+    summary["partial_examples"] = report["partial_examples"][:max(0, opts.max_examples)]
     print("PROSE_DIACRITICS_AUDIT_BEGIN")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     print("PROSE_DIACRITICS_AUDIT_END")
