@@ -43,6 +43,20 @@ jobs:
       - name: Audit full Arabic prose vocalization (read-only)
         run: |
           python3 tools/audit_dictionary_prose_diacritics.py --max-examples 75 --max-tokens 100 --json-out dictionary-prose-diacritics.json
+      - name: Fetch original 7,209-entry snapshot for reconciliation
+        run: git fetch --no-tags --depth=1 origin ea13cb3bd2d11d6d6a48efea9036012c53b15e1a
+      - name: Reconcile historical headword count against stable card IDs
+        run: |
+          python3 tools/audit_dictionary_revision_history.py \
+            --before ea13cb3bd2d11d6d6a48efea9036012c53b15e1a \
+            --after HEAD --max-changes 26 \
+            --json-out dictionary-revision-reconciliation.json
+      - name: Archive full dictionary revision reconciliation
+        uses: actions/upload-artifact@v4
+        with:
+          name: dictionary-revision-reconciliation
+          path: dictionary-revision-reconciliation.json
+          retention-days: 14
       - name: Archive complete Arabic prose vocalization report
         uses: actions/upload-artifact@v4
         with:
