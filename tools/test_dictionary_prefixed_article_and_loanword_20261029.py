@@ -7,7 +7,8 @@ import json
 import unicodedata
 import unittest
 from validate_dictionary import ROOT
-from audit_dictionary_prose_diacritics import partially_vocalized_tokens
+from audit_dictionary_prose_diacritics import partially_vocalized_tokens, unvocalized_tokens
+from audit_dictionary_deep_editorial import vowel_coverage
 
 
 class CompoundArabicPrefixAndLoanwordTests(unittest.TestCase):
@@ -19,6 +20,11 @@ class CompoundArabicPrefixAndLoanwordTests(unittest.TestCase):
         ):
             with self.subTest(text=text):
                 self.assertEqual(partially_vocalized_tokens(text), [])
+
+    def test_tatweel_in_single_letter_prefix_is_not_a_missing_vowel(self):
+        self.assertEqual(partially_vocalized_tokens("يَأْتِي غَالِبًا مَعَ «بِـ»."), [])
+        self.assertEqual(unvocalized_tokens("تَرِدُ مَعَ «بـ»."), [])
+        self.assertEqual(vowel_coverage("بِـ")["missing"], [])
 
     def test_confirmed_vocalization_of_agricultural_pests(self):
         path = ROOT / "assets/data/entries_editorial_agriculture_20261026.json"
