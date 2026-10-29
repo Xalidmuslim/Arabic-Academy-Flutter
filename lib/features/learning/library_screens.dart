@@ -274,24 +274,31 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                       onChanged: (value) => setState(() => _query = value),
                     ),
                     const SizedBox(height: 12),
-                    Wrap(
-                      spacing: 8,
-                      runSpacing: 8,
-                      children: [
-                        for (final entry in const {
-                          _WordFilter.all: 'Все слова',
-                          _WordFilter.dialogue: 'Из диалогов',
-                          _WordFilter.favorite: 'Избранное',
-                          _WordFilter.difficult: 'Трудные',
-                          _WordFilter.due: 'К повторению',
-                        }.entries)
-                          FilterChip(
-                            label: Text(entry.value),
-                            selected: _filter == entry.key,
-                            onSelected: (_) =>
-                                setState(() => _filter = entry.key),
-                          ),
-                      ],
+                    // One compact row keeps the first dictionary cards
+                    // accessible on narrow phones instead of adding a third
+                    // wrapped filter line above the virtualized list.
+                    SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        children: [
+                          for (final entry in const {
+                            _WordFilter.all: 'Все слова',
+                            _WordFilter.dialogue: 'Из диалогов',
+                            _WordFilter.favorite: 'Избранное',
+                            _WordFilter.difficult: 'Трудные',
+                            _WordFilter.due: 'К повторению',
+                          }.entries)
+                            Padding(
+                              padding: const EdgeInsets.only(right: 8),
+                              child: FilterChip(
+                                label: Text(entry.value),
+                                selected: _filter == entry.key,
+                                onSelected: (_) =>
+                                    setState(() => _filter = entry.key),
+                              ),
+                            ),
+                        ],
+                      ),
                     ),
                     const SizedBox(height: 12),
                     Text(
