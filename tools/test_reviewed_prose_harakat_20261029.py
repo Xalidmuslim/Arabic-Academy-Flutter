@@ -4,6 +4,7 @@ Checks *original source entries*, including cases hidden by lemma deduplication.
 Headword spelling and dictionary references must not change.
 """
 import json
+import unicodedata
 import unittest
 from pathlib import Path
 
@@ -30,8 +31,8 @@ class ReviewedProseHarakatTests(unittest.TestCase):
                 if isinstance(parts, list):
                     parts = parts[case["index"]]
                 self.assertIsInstance(parts, str)
-                self.assertNotIn(case["from"], parts)
-                self.assertIn(case["to"], parts)
+                self.assertNotIn(unicodedata.normalize("NFC", case["from"]), unicodedata.normalize("NFC", parts))
+                self.assertIn(unicodedata.normalize("NFC", case["to"]), unicodedata.normalize("NFC", parts))
 
     def test_catalog_contains_only_prose_changes_not_lemmas(self):
         data = json.loads(MANIFEST.read_text(encoding="utf-8"))
