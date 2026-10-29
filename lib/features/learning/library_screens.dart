@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/academy_state.dart';
 import '../../core/arabic.dart';
+import '../../core/dialogue_vocabulary.dart';
 import '../../core/speech.dart';
 import '../../core/vocabulary_key.dart';
 import '../../ui/components.dart';
@@ -36,9 +37,10 @@ List<Map<String, dynamic>> _topics(AcademyState state) =>
     _maps(state.catalog['grammar_topics']);
 
 class _Word {
-  const _Word(this.lesson, this.data, this.index);
+  const _Word(this.lesson, this.data, this.index, {required this.inDialogue});
   final Map<String, dynamic> lesson, data;
   final int index;
+  final bool inDialogue;
   String get id => vocabularyKey(lesson['id'] as String, index, data);
   String get ar => _text(data['ar']);
   String get ru => _text(data['ru']);
@@ -60,11 +62,20 @@ List<_Word> _words(AcademyState state, {String? lessonId}) {
         (lessonId != null && lesson['id'] != lessonId)) {
       continue;
     }
+    // Parse each lesson's utterances only once, not for every word tile.
+    // An authored vocabulary word counts too when it appears in a dialogue.
+    final spoken = <String>{
+      for (final line in _list(lesson['dialogue']))
+        if (line is Map && line['ar'] is String)
+          for (final word in DialogueVocabulary.dialogueWords(line['ar'] as String))
+            DialogueVocabulary.normalize(word),
+    };
     final vocabulary = _list(lesson['vocabulary']);
     for (var index = 0; index < vocabulary.length; index++) {
       final data = vocabulary[index];
       if (data is Map && _text(data['ar']).trim().isNotEmpty) {
-        words.add(_Word(lesson, Map<String, dynamic>.from(data), index));
+        words.add(_Word(lesson, Map<String, dynamic>.from(data), index,
+          inDialogue: spoken.contains(DialogueVocabulary.normalize(_text(data['ar'])))));
       }
     }
   }
@@ -197,7 +208,7 @@ void _openTopic(
   );
 }
 
-enum _WordFilter { all, favorite, difficult, due }
+enum _WordFilter { all, dialogue, favorite, difficult, due }
 
 /// Vocabulary retains its source spelling. Bookmark/review IDs use
 /// `word:<lessonId>:<stableId>`; older index IDs remain valid during migration.
@@ -207,17 +218,26 @@ class DictionaryScreen extends StatefulWidget {
     required this.state,
     this.lessonId,
     this.onOpenLesson,
+    this.initialDialogueOnly = false,
   });
   final AcademyState state;
   final String? lessonId;
   final OpenLibraryLesson? onOpenLesson;
+  final bool initialDialogueOnly;
   @override
   State<DictionaryScreen> createState() => _DictionaryScreenState();
 }
 
 class _DictionaryScreenState extends State<DictionaryScreen> {
   String _query = '';
-  _WordFilter _filter = _WordFilter.all;
+  late _WordFilter _filter;
+
+  @override
+  void initState() {
+    super.initState();
+    _filter = widget.initialDialogueOnly
+        ? _WordFilter.dialogue : _WordFilter.all;
+  }
 
   @override
   Widget build(BuildContext context) => AnimatedBuilder(
@@ -232,6 +252,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
       final visible = words.where((word) {
         final included = switch (_filter) {
           _WordFilter.all => true,
+          _WordFilter.dialogue => word.inDialogue,
           _WordFilter.favorite => favorites.contains(word.id),
           _WordFilter.difficult => review(word)['difficult'] == true,
           _WordFilter.due => _due(review(word)),
@@ -259,6 +280,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                       children: [
                         for (final entry in const {
                           _WordFilter.all: 'Все слова',
+                          _WordFilter.dialogue: 'Из диалогов',
                           _WordFilter.favorite: 'Избранное',
                           _WordFilter.difficult: 'Трудные',
                           _WordFilter.due: 'К повторению',
@@ -276,7 +298,9 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                       'Слов: ${words.length} · Избранных: ${words.where((w) => favorites.contains(w.id)).length}',
                     ),
                     Text(
-                      'К повторению: ${words.where((w) => _due(review(w))).length} · Трудных: ${words.where((w) => review(w)['difficult'] == true).length}',
+                      'Из диалогов: ${words.where((w) => w.inDialogue).length} · '
+                      'К повторению: ${words.where((w) => _due(review(w))).length} · '
+                      'Трудных: ${words.where((w) => review(w)['difficult'] == true).length}',
                     ),
                     const SizedBox(height: 12),
                     FilledButton.icon(
@@ -332,7 +356,9 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
                     itemKey: word.id,
                     title: word.ru,
                     arabic: word.ar,
-                    subtitle: _text(word.lesson['title']),
+                    subtitle: word.inDialogue
+                        ? 'Диалог · ${_text(word.lesson['title'])}'
+                        : _text(word.lesson['title']),
                     state: state,
                     onTap: () =>
                         _openWord(context, state, word, widget.onOpenLesson),
@@ -493,6 +519,8 @@ class _WordDetail extends StatelessWidget {
               child: const Text('Повторить карточку'),
             ),
             const SectionTitle('Источник'),
+            if (word.inDialogue)
+              const Text('Встречается в диалоге урока'),
             Text(_text(word.lesson['title'])),
             if (onOpenLesson != null)
               TextButton(
