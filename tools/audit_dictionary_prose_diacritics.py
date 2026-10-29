@@ -20,7 +20,7 @@ from audit_dictionary_deep_editorial import vowel_coverage
 
 ARABIC_WORD = re.compile(r"[\u0621-\u064A\u0671][\u0621-\u064A\u0671\u064b-\u065f\u0670\u06d6-\u06ed\u0640]*")
 VOWEL = re.compile(r"[\u064b-\u065f\u0670\u06d6-\u06ed]")
-ARABIC_CHAR = re.compile(r"[\u0621-\u064A\u0671]")
+ARABIC_CHAR = re.compile(r"[\u0621-\u063A\u0641-\u064A\u0671]")
 PROSE_FIELDS = ("meaning_ar", "usage_note_ar", "examples_ar", "collocations", "additional_meanings_ar")
 
 
