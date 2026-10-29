@@ -38,6 +38,15 @@ jobs:
       - name: Deep editorial QA of all 8840 raw cards
         run: |
           python3 tools/audit_dictionary_deep_editorial.py --max-examples 120 --json-out dictionary-deep-editorial-audit.json
+      - name: Audit full Arabic prose vocalization (read-only)
+        run: |
+          python3 tools/audit_dictionary_prose_diacritics.py --max-examples 75 --max-tokens 100 --json-out dictionary-prose-diacritics.json
+      - name: Archive complete Arabic prose vocalization report
+        uses: actions/upload-artifact@v4
+        with:
+          name: dictionary-prose-diacritics
+          path: dictionary-prose-diacritics.json
+          retention-days: 14
       - name: Archive deep editorial QA report
         uses: actions/upload-artifact@v4
         with:
