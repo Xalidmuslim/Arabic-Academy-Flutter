@@ -267,7 +267,15 @@ void main() {
             final target = find.byKey(
               ValueKey('word:${state!.allLessons.first['id']}:0'),
             );
-            await tester.ensureVisible(target);
+            // The dictionary deliberately uses lazy slivers: a word below
+            // the viewport is not in the tree until scrolled into view.
+            if (target.evaluate().isEmpty) {
+              await tester.scrollUntilVisible(
+                target, 160, scrollable: find.byType(Scrollable).first,
+              );
+            } else {
+              await tester.ensureVisible(target);
+            }
             await _settle(tester);
             await tester.tap(target);
             await _settle(tester);
