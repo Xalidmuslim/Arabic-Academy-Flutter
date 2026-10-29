@@ -75,6 +75,17 @@ def vowel_coverage(text: str) -> dict[str, Any]:
         elif (len(bases) > 3 and chars[0] in "بكوف"
               and chars[1:3] == ["ا", "ل"] and "ّ" in bases[3][1]):
             silent_lam = 2
+        # Conjunction + article, including indirect lām assimilation:
+        # وَالدِّيزَلَ, وَلِلشَّخْصِ, فَلِلصُّعُودِ
+        elif (len(bases) > 3 and chars[0] in "وف"
+              and chars[1:3] in (["ا", "ل"], ["ل", "ل"])
+              and "ّ" in bases[3][1]):
+            silent_lam = 2
+        # Conjunction + preposition + definite article:
+        # وَبِالتَّقْوِيمِ, فَبِالسَّيْرِ
+        elif (len(bases) > 4 and chars[0] in "وف" and chars[1] in "بك"
+              and chars[2:4] == ["ا", "ل"] and "ّ" in bases[4][1]):
+            silent_lam = 3
         for index, (char, marks) in enumerate(bases):
             if char in IGNORE_LETTERS:
                 continue
