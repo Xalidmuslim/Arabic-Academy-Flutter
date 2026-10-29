@@ -30,7 +30,7 @@ class SpecialistArabicEditorialRepairs(unittest.TestCase):
         self.assertEqual(e["usage_note_ar"], "يُؤَثِّرُ شَكْلُ الْبِنْيَةِ فِي اخْتِصَاصِ الْإِنْزِيمِ.")
 
     def test_fungal_spore_definition_uses_intransitive_verb(self):
-        e = self.entries["editorial_genetics_microbiology_20261027_073"]
+        e = self.entries["editorial_genetics_microbiology_20261027_071"]
         self.assertIn("وَتَنْتَشِرُ فِي الْبِيئَةِ", e["meaning_ar"])
         self.assertNotIn("تُنْتَشَرُ", e["meaning_ar"])
 
