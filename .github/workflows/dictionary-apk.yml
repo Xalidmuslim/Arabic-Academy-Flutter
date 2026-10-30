@@ -30,6 +30,12 @@ jobs:
         run: flutter test
       - name: Build release ARM64 APK
         run: flutter build apk --release --target-platform android-arm64
+      - name: Verify generated release APK
+        run: |
+          test -s build/app/outputs/flutter-apk/app-release.apk
+          file build/app/outputs/flutter-apk/app-release.apk
+          sha256sum build/app/outputs/flutter-apk/app-release.apk
+          ls -lh build/app/outputs/flutter-apk/app-release.apk
       - uses: actions/upload-artifact@v4
         with:
           name: bayna-dictionary-demo-apk
