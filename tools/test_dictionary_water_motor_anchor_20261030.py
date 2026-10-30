@@ -5,6 +5,7 @@ that an unvowelled spelling uniquely identifies an Arabic lemma.
 """
 import json
 import unittest
+import unicodedata
 
 from validate_dictionary import ROOT
 
@@ -24,8 +25,8 @@ def entry(subject: str, identifier: str) -> dict:
 class ScientificWaterAndTechnicalVocabularyTests(unittest.TestCase):
     def test_uv_water_treatment_does_not_promise_sterilization(self):
         card = entry("energy", "editorial_energy_utilities_20261027_092")
-        self.assertEqual(card["arabic"], "تَطْهِيرٌ بِالْأَشِعَّةِ فَوْقَ الْبَنَفْسَجِيَّةِ")
-        self.assertIn("الْمَاءِ", card["meaning_ar"])
+        self.assertEqual(card["arabic"], unicodedata.normalize("NFC", "تَطْهِيرٌ بِالْأَشِعَّةِ فَوْقَ الْبَنَفْسَجِيَّةِ"))
+        self.assertIn("لِلْمَاءِ", card["meaning_ar"])
         self.assertIn("الْكَائِنَاتِ الدَّقِيقَةِ", card["meaning_ar"])
         self.assertIn("لَا تَتْرُكُ", card["usage_note_ar"])
         self.assertIn("الْمَاءِ", card["usage_note_ar"])
