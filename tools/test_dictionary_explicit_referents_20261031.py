@@ -30,11 +30,20 @@ EXPECTED = {
   },
   "energy_utilities": {
     "040": "يُشَجِّعُ نِظَامُ التَّعْرِفَةِ الزَّمَنِيَّةِ عَلَى نَقْلِ بَعْضِ الْأَحْمَالِ خَارِجَ الذُّرْوَةِ."
+  },
+  "maritime_navigation": {
+    "064": "يَتَطَلَّبُ الْبَحْثُ وَالْإِنْقَاذُ الْبَحْرِيُّ تَنْسِيقًا بَيْنَ السُّفُنِ وَالْجِهَاتِ الْمَسْؤُولَةِ.",
+    "076": "يُصَمَّمُ حَاجِزُ الْأَمْوَاجِ وَفْقَ اتِّجَاهِ الرِّيَاحِ وَحَجْمِ الْمَوْجِ."
+  },
+  "supply_chain": {
+    "053": "تَتَطَلَّبُ نَافِذَةُ التَّسْلِيمِ تَنْسِيقًا بَيْنَ الْمَنْدُوبِ وَالْعَمِيلِ.",
+    "054": "يَتَأَثَّرُ تَسْلِيمُ الْمِيلِ الْأَخِيرِ بِكَثَافَةِ الطَّلَبَاتِ وَالْمَسَافَاتِ.",
+    "070": "تَسْتَلْزِمُ السِّلْسِلَةُ الْبَارِدَةُ تَوْثِيقَ الْحَرَارَةِ خِلَالَ مَرَاحِلِ النَّقْلِ."
   }
 }
 
 class ExplicitArabicReferentsTests(unittest.TestCase):
-    def test_15_manually_reviewed_usage_notes(self):
+    def test_20_manually_reviewed_usage_notes(self):
         reviewed = 0
         for topic, corrections in EXPECTED.items():
             path = ROOT / ('assets/data/entries_editorial_' + topic + '_20261027.json')
@@ -48,7 +57,7 @@ class ExplicitArabicReferentsTests(unittest.TestCase):
                     self.assertEqual(unicodedata.normalize('NFC', card['arabic']), card['arabic'])
                     self.assertEqual(card['book_references'], [])
                     reviewed += 1
-        self.assertEqual(reviewed, 15)
+        self.assertEqual(reviewed, 20)
 
 if __name__ == '__main__':
     unittest.main()
