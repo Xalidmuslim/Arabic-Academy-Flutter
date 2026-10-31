@@ -1,6 +1,16 @@
 import 'dart:io';
 
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter/services.dart';
+
+/// A readable failure, not a raw PlatformException hidden under navigation.
+class ArabicSpeechException implements Exception {
+  const ArabicSpeechException(this.message);
+  final String message;
+  @override
+  String toString() => message;
+}
+
 
 /// Real Android TTS voice metadata, not a claim of a human recording.
 class ArabicVoice {
@@ -87,28 +97,81 @@ class ArabicSpeech {
     if (Platform.isAndroid && engine != null && engine.isNotEmpty) {
       await _tts.setEngine(engine);
     }
-    final locale = voiceLocale != null && voiceLocale.startsWith('ar')
-        ? voiceLocale
-        : 'ar-SA';
-    final installed = await _tts.isLanguageAvailable(locale);
-    if (installed != true && installed != 1) {
-      final fallback = await _tts.isLanguageAvailable('ar');
-      if (fallback != true && fallback != 1) {
-        throw StateError(
-          'Арабский голос не установлен. Установите его в настройках синтеза речи Android.',
+    try {
+      final preferred = voiceLocale != null &&
+              voiceLocale.toLowerCase().startsWith('ar')
+          ? voiceLocale
+          : 'ar-SA';
+      // ar-SA is not guaranteed to be installed. Some Android engines only
+      // expose ar-EG, ar-AE, etc. Try the language default and the actually
+      // installed voices before reporting a missing Arabic synthesizer.
+      String? locale;
+      for (final candidate in {preferred, 'ar'}) {
+        final available = await _tts.isLanguageAvailable(candidate);
+        if (available == true || available == 1) {
+          locale = candidate;
+          break;
+        }
+      }
+      if (locale == null) {
+        final voices = await availableVoices();
+        // Prefer offline speech to avoid surprises on restricted networks.
+        voices.sort((a, b) {
+          if (a.networkRequired != b.networkRequired) {
+            return a.networkRequired ? 1 : -1;
+          }
+          return b.quality.compareTo(a.quality);
+        });
+        for (final voice in voices) {
+          final available = await _tts.isLanguageAvailable(voice.locale);
+          if (available == true || available == 1) {
+            locale = voice.locale;
+            break;
+          }
+        }
+      }
+      if (locale == null) {
+        throw const ArabicSpeechException(
+          'Арабский голос не найден. В настройках телефона откройте '
+          '«Синтез речи», установите арабский язык и повторите.',
         );
       }
-      await _tts.setLanguage('ar');
-    } else {
-      await _tts.setLanguage(locale);
+      final languageSet = await _tts.setLanguage(locale);
+      if (languageSet == false || languageSet == 0) {
+        throw const ArabicSpeechException(
+          'Не удалось включить арабский голос. Проверьте языковые данные '
+          'в настройках синтеза речи Android.',
+        );
+      }
+      // A previously saved voice can disappear after an Android TTS update.
+      // If it fails, keep the selected language and let Android choose a voice.
+      if (voiceName != null && voiceName.isNotEmpty &&
+          voiceLocale != null && voiceLocale == locale) {
+        final selected = await _tts.setVoice({
+          'name': voiceName,
+          'locale': voiceLocale,
+        });
+        if (selected == false || selected == 0) {
+          await _tts.setLanguage(locale);
+        }
+      }
+      await _tts.setPitch(1.0);
+      await _tts.setSpeechRate(speed.clamp(0.38, 0.65));
+      final played = await _tts.speak(text);
+      if (played == false || played == 0) {
+        throw const ArabicSpeechException(
+          'Синтез речи не запустился. Проверьте арабский голос в настройках '
+          'Android и громкость мультимедиа.',
+        );
+      }
+    } on ArabicSpeechException {
+      rethrow;
+    } on PlatformException catch (error) {
+      throw ArabicSpeechException(
+        'Не удалось воспроизвести арабский текст (TTS: ${error.code}). '
+        'Проверьте настройки синтеза речи Android и выбранный голос.',
+      );
     }
-    if (voiceName != null && voiceName.isNotEmpty &&
-        voiceLocale != null && voiceLocale.isNotEmpty) {
-      await _tts.setVoice({'name': voiceName, 'locale': voiceLocale});
-    }
-    await _tts.setPitch(1.0);
-    await _tts.setSpeechRate(speed.clamp(0.38, 0.65));
-    await _tts.speak(text);
   }
 
   static Future<void> stop() async {
