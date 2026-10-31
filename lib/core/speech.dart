@@ -82,6 +82,7 @@ class ArabicSpeech {
     String? voiceLocale,
     void Function(int start, int end, String word)? onProgress,
     void Function()? onCompleted,
+    void Function(String message)? onError,
   }) async {
     if (text.trim().isEmpty) return;
     await _tts.stop();
@@ -93,6 +94,14 @@ class ArabicSpeech {
     });
     _tts.setCompletionHandler(() {
       onCompleted?.call();
+    });
+    // Android can accept a speak request and reject the utterance later.
+    // Surface that asynchronous error instead of silently showing no sound.
+    _tts.setErrorHandler((message) {
+      onError?.call(
+        'Ошибка арабской озвучки Android: $message. '
+        'Проверьте установленный голос и громкость мультимедиа.',
+      );
     });
     if (Platform.isAndroid && engine != null && engine.isNotEmpty) {
       await _tts.setEngine(engine);
