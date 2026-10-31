@@ -130,6 +130,9 @@ class _SpeechButton extends StatelessWidget {
       () => ArabicSpeech.speak(
         text,
         speed: _setting(state, 'audioSpeed', 0.45, 0.2, 0.8),
+        onError: (message) {
+          if (context.mounted) notice(context, message);
+        },
       ),
     ),
     icon: const Icon(Icons.volume_up_outlined),
