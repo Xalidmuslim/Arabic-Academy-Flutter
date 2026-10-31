@@ -150,9 +150,23 @@ class EmptyState extends StatelessWidget {
   );
 }
 
-void notice(BuildContext context, String message) => ScaffoldMessenger.of(
-  context,
-).showSnackBar(SnackBar(content: Text(message)));
+void notice(BuildContext context, String message) {
+  final messenger = ScaffoldMessenger.of(context);
+  final scheme = Theme.of(context).colorScheme;
+  // The app has a persistent bottom pill in MaterialApp.builder, rather
+  // than Scaffold.bottomNavigationBar. Fixed SnackBars are consequently
+  // painted behind that pill, looking like an unexplained dark rectangle.
+  messenger.hideCurrentSnackBar();
+  messenger.showSnackBar(SnackBar(
+    key: const ValueKey('learning-feedback-snackbar'),
+    behavior: SnackBarBehavior.floating,
+    margin: const EdgeInsets.fromLTRB(18, 0, 18, 126),
+    backgroundColor: scheme.surface,
+    content: Text(message, style: TextStyle(color: scheme.onSurface)),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
+    duration: const Duration(seconds: 7),
+  ));
+}
 
 Future<void> guardedAction(
   BuildContext context,
