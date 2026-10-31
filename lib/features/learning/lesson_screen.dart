@@ -174,6 +174,9 @@ class _LessonScreenState extends State<LessonScreen>
       engine: widget.state.settings['audioEngine'] as String?,
       voiceName: widget.state.settings['audioVoiceName'] as String?,
       voiceLocale: widget.state.settings['audioVoiceLocale'] as String?,
+      onError: (message) {
+        if (mounted) notice(context, message);
+      },
     ),
   );
 
