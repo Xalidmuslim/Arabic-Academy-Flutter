@@ -34,10 +34,17 @@ void main() {
     ));
     await tester.pumpAndSettle();
 
-    final lazy = tester.widgetList<SliverList>(find.byType(SliverList))
-        .where((sliver) => sliver.delegate is SliverChildBuilderDelegate);
+    // The final sliver sits below the viewport, so it has no Element yet.
+    // Inspect the declared CustomScrollView children, not only mounted slivers.
+    final scroll = tester.widget<CustomScrollView>(
+      find.byType(CustomScrollView).first,
+    );
+    final lazy = scroll.slivers.whereType<SliverPadding>()
+        .map((padding) => padding.sliver)
+        .whereType<SliverList>()
+        .where((list) => list.delegate is SliverChildBuilderDelegate);
     expect(lazy, isNotEmpty,
-      reason: 'Progress must not instantiate 140 three-dimensional cards upfront');
+      reason: 'Progress must declare a lazy builder for its 140 lesson cards');
     expect(find.text('Урок 139'), findsNothing);
     expect(find.text('Базовый уровень 1'), findsOneWidget);
     expect(tester.takeException(), isNull);
