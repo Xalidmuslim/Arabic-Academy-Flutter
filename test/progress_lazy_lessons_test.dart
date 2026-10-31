@@ -40,7 +40,7 @@ void main() {
       find.byType(CustomScrollView).first,
     );
     final lazy = scroll.slivers.whereType<SliverPadding>()
-        .map((padding) => padding.sliver)
+        .map((padding) => padding.child)
         .whereType<SliverList>()
         .where((list) => list.delegate is SliverChildBuilderDelegate);
     expect(lazy, isNotEmpty,
