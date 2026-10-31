@@ -524,6 +524,9 @@ class _ArabicVoiceSettingsState extends State<_ArabicVoiceSettings> {
                 engine: engine,
                 voiceName: voiceName,
                 voiceLocale: voiceLocale,
+                onError: (message) {
+                  if (mounted) notice(context, message);
+                },
               )),
               icon: const Icon(Icons.volume_up_outlined),
               label: const Text('Послушать выбранный голос'),
