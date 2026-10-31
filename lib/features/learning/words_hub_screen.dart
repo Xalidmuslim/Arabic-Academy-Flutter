@@ -46,7 +46,9 @@ class _WordsHubScreenState extends State<WordsHubScreen> {
       )));
 
   Future<void> _speak(String arabic) => guardedAction(context,
-      () => ArabicSpeech.speak(arabic));
+      () => ArabicSpeech.speak(arabic, onError: (message) {
+        if (mounted) notice(context, message);
+      }));
 
   void _showWord(VocabularyPracticeWord word) {
     showModalBottomSheet<void>(
