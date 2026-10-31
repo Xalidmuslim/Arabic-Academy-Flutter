@@ -35,10 +35,13 @@ class LearnerProgressScreen extends StatelessWidget {
           7,
           (i) => today.subtract(Duration(days: 6 - i)),
         );
-        return ListView(
+        return CustomScrollView(
           key: const PageStorageKey<String>('learner-progress-position'),
-          padding: const EdgeInsets.fromLTRB(18, 18, 18, 150),
-          children: [
+          slivers: [
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+              sliver: SliverList(
+                delegate: SliverChildListDelegate([
             Panel(
               child: Row(
                 children: [
@@ -337,34 +340,46 @@ class LearnerProgressScreen extends StatelessWidget {
               );
             }),
             const SectionTitle('Мои уроки'),
-            ...state.allLessons.map(
-              (lesson) => Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: Panel(
-                  padding: EdgeInsets.zero,
-                  child: ListTile(
-                    leading: const ArtworkIcon('books', size: 46),
-                    title: Text(lesson['title'] as String? ?? ''),
-                    subtitle: Text(
-                      state.completed.contains(lesson['id'])
-                          ? 'Завершён'
-                          : 'Для изучения',
-                    ),
-                    trailing: Icon(
-                      state.completed.contains(lesson['id'])
-                          ? Icons.check_circle
-                          : Icons.chevron_right,
-                      color: DesignTokens.olive,
-                    ),
-                    onTap: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) =>
-                            LessonScreen(state: state, lesson: lesson),
+                ]),
+              ),
+            ),
+            // Only materialize visible lesson cards. The previous children
+            // list eagerly constructed every 3D Panel for the whole course.
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(18, 0, 18, 150),
+              sliver: SliverList.builder(
+                itemCount: state.allLessons.length,
+                itemBuilder: (context, index) {
+                  final lesson = state.allLessons[index];
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 12),
+                    child: Panel(
+                      padding: EdgeInsets.zero,
+                      child: ListTile(
+                        leading: const ArtworkIcon('books', size: 46),
+                        title: Text(lesson['title'] as String? ?? ''),
+                        subtitle: Text(
+                          state.completed.contains(lesson['id'])
+                              ? 'Завершён'
+                              : 'Для изучения',
+                        ),
+                        trailing: Icon(
+                          state.completed.contains(lesson['id'])
+                              ? Icons.check_circle
+                              : Icons.chevron_right,
+                          color: DesignTokens.olive,
+                        ),
+                        onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) =>
+                                LessonScreen(state: state, lesson: lesson),
+                          ),
+                        ),
                       ),
                     ),
-                  ),
-                ),
+                  );
+                },
               ),
             ),
           ],
