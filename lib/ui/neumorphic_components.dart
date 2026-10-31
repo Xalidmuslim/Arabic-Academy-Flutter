@@ -95,6 +95,11 @@ class NeumorphicSurface extends StatelessWidget {
       final name = emphasized ? 'emphasized' : 'regular';
       final tone = dark ? 'dark' : 'light';
       return Stack(
+        // Respect tight grid/metric constraints: StackFit.loose shrinks the
+        // rounded foreground to its text, exposing the cached shadow's
+        // rectangular centre on its right. Passthrough keeps unconstrained
+        // cards intrinsically sized without breaking other surfaces.
+        fit: StackFit.passthrough,
         clipBehavior: Clip.none,
         children: [
           Positioned.fill(
