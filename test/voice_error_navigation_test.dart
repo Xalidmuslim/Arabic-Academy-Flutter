@@ -21,7 +21,7 @@ void main() {
     final banner = tester.widget<SnackBar>(find.byType(SnackBar));
     expect(banner.behavior, SnackBarBehavior.floating,
       reason: 'A fixed black bar is covered by the root floating pill');
-    expect(banner.margin!.bottom, greaterThanOrEqualTo(110),
+    expect(banner.margin!.resolve(TextDirection.ltr).bottom, greaterThanOrEqualTo(110),
       reason: 'Message must clear the persistent floating bottom nav');
     expect(find.textContaining('Арабский голос недоступен'), findsOneWidget);
   });
