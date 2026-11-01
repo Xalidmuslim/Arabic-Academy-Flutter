@@ -160,9 +160,12 @@ List<Word> sortWordsByBookOrder(Iterable<Word> words) {
     ];
   }
   final result = words.toList();
+  // Each order key can include sorting multiple references. Compute once:
+  // doing it inside the comparator causes thousands of redundant allocations.
+  final keys = {for (final word in result) word: orderKey(word)};
   result.sort((a, b) {
-    final left = orderKey(a);
-    final right = orderKey(b);
+    final left = keys[a]!;
+    final right = keys[b]!;
     for (var i = 0; i < 3; i++) {
       final diff = left[i].compareTo(right[i]);
       if (diff != 0) return diff;
