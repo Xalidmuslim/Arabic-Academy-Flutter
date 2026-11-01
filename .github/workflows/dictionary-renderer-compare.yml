@@ -20,7 +20,7 @@ jobs:
           flutter-version: "3.35.7"
           cache: true
       - name: Generate Android project
-        run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
+        run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim.skia .
       - name: Set alternate renderer only in this test APK
         run: |
           python3 - <<'PY'
@@ -34,6 +34,7 @@ jobs:
           application = root.find("application")
           if application is None:
               raise RuntimeError("Flutter Android application is missing")
+          application.set(f"{{{namespace}}}label", "Байна Ядайк Skia")
           name = f"{{{namespace}}}name"
           value = f"{{{namespace}}}value"
           meta = next((n for n in application.findall("meta-data")
@@ -46,6 +47,9 @@ jobs:
           again = ET.parse(path).getroot().find("application")
           assert any(n.get(name) == "io.flutter.embedding.android.EnableImpeller"
                      and n.get(value) == "false" for n in again.findall("meta-data"))
+          gradle = Path("android/app/build.gradle.kts").read_text()
+          assert 'com.xalidmuslim.skia.bayna_dictionary' in gradle
+          print("Verified Skia Android applicationId is distinct from installed dictionary")
           print("Verified AndroidManifest.xml: EnableImpeller=false (Skia A/B)")
           PY
       - name: Install packages
