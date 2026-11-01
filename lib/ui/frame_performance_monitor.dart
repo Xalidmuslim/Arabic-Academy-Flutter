@@ -1,7 +1,4 @@
 import 'dart:collection';
-import 'dart:ui' show FrameTiming;
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/widgets.dart';
 
@@ -45,7 +42,7 @@ FramePerformanceReport summarizeFrameCosts(
   }
   final ui = data.map((s) => s.buildMicros).toList()..sort();
   final gpu = data.map((s) => s.rasterMicros).toList()..sort();
-  final index = ((data.length * .95).ceil() - 1).clamp(0, data.length - 1);
+  final index = (data.length * .95).ceil() - 1;
   final budgetUs = 1000000 / hz;
   final over = data.where((s) =>
       s.buildMicros > budgetUs || s.rasterMicros > budgetUs).length;
