@@ -47,7 +47,7 @@ void main() {
     await tester.tap(find.text('Том 2').last);
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
-    expect(find.text('Кَلِمَةٌ c'), findsOneWidget);
+    expect(find.text('كَلِمَةٌ c'), findsOneWidget);
 
     await tester.tap(find.byKey(const Key('book-selector')));
     await tester.pumpAndSettle();
@@ -58,6 +58,6 @@ void main() {
     await tester.tap(find.text('Тема 2').last);
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
-    expect(find.text('Кَلِمَةٌ b'), findsOneWidget);
+    expect(find.text('كَلِمَةٌ b'), findsOneWidget);
   });
 }
