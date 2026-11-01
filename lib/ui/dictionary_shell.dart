@@ -353,6 +353,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     return CustomScrollView(
       key: const Key('dictionary-scroll-list'),
       controller: wordScroll,
+      cacheExtent: 450,
       keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
       slivers: [
         SliverToBoxAdapter(child: Padding(
@@ -396,56 +397,87 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             Text('${visible.length} слов', style: const TextStyle(
               fontSize: 15, fontWeight: FontWeight.w700)),
             const SizedBox(height: 5),
-            Row(children: [
-              Expanded(child: InputDecorator(
-                decoration: const InputDecoration(
-                  labelText: 'Том', contentPadding:
-                    EdgeInsets.symmetric(horizontal: 12, vertical: 4)),
-                child: DropdownButton<int?>(
-                  key: const Key('book-selector'),
-                  value: selectedBook,
-                  hint: const Text('Все тома'),
-                  underline: const SizedBox.shrink(),
-                  isExpanded: true,
-                  items: [
-                    const DropdownMenuItem<int?>(
-                      value: null, child: Text('Все тома')),
-                    for (final book in _bookChapters.keys)
-                      DropdownMenuItem<int?>(
-                        value: book, child: Text('Том $book')),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Padding(
+                      padding: EdgeInsets.only(left: 3, bottom: 7),
+                      child: Text('Том',
+                        style: TextStyle(fontSize: 13, color: muted))),
+                    Container(
+                      height: 54,
+                      padding: const EdgeInsets.symmetric(horizontal: 14),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.surface,
+                        borderRadius: BorderRadius.circular(17)),
+                      child: DropdownButton<int?>(
+                        key: const Key('book-selector'),
+                        value: selectedBook,
+                        hint: const Text('Все тома'),
+                        underline: const SizedBox.shrink(),
+                        isExpanded: true,
+                        style: TextStyle(fontSize: 16,
+                          color: Theme.of(context).colorScheme.onSurface),
+                        items: [
+                          const DropdownMenuItem<int?>(
+                            value: null, child: Text('Все тома')),
+                          for (final book in _bookChapters.keys)
+                            DropdownMenuItem<int?>(
+                              value: book, child: Text('Том $book')),
+                        ],
+                        onChanged: chooseBook,
+                      ),
+                    ),
                   ],
-                  onChanged: chooseBook,
-                ),
-              )),
-              const SizedBox(width: 10),
-              Expanded(child: InputDecorator(
-                decoration: const InputDecoration(
-                  labelText: 'Раздел', contentPadding:
-                    EdgeInsets.symmetric(horizontal: 12, vertical: 4)),
-                child: DropdownButton<int?>(
-                  key: const Key('chapter-selector'),
-                  value: selectedChapter,
-                  hint: const Text('Все темы'),
-                  isExpanded: true,
-                  underline: const SizedBox.shrink(),
-                  disabledHint: const Text('Выберите том'),
-                  items: [
-                    const DropdownMenuItem<int?>(
-                      value: null, child: Text('Все темы')),
-                    for (final chapter in _bookChapters[selectedBook] ??
-                        const <int>[])
-                      DropdownMenuItem<int?>(
-                        value: chapter, child: Text('Тема $chapter')),
+                )),
+                const SizedBox(width: 12),
+                Expanded(child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Padding(
+                      padding: EdgeInsets.only(left: 3, bottom: 7),
+                      child: Text('Раздел',
+                        style: TextStyle(fontSize: 13, color: muted))),
+                    Container(
+                      height: 54,
+                      padding: const EdgeInsets.symmetric(horizontal: 14),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.surface,
+                        borderRadius: BorderRadius.circular(17)),
+                      child: DropdownButton<int?>(
+                        key: const Key('chapter-selector'),
+                        value: selectedChapter,
+                        hint: const Text('Все темы'),
+                        underline: const SizedBox.shrink(),
+                        isExpanded: true,
+                        style: TextStyle(fontSize: 16,
+                          color: Theme.of(context).colorScheme.onSurface),
+                        disabledHint: const Text('Выберите том',
+                          maxLines: 1, overflow: TextOverflow.ellipsis),
+                        items: [
+                          const DropdownMenuItem<int?>(
+                            value: null, child: Text('Все темы')),
+                          for (final chapter in _bookChapters[selectedBook] ??
+                              const <int>[])
+                            DropdownMenuItem<int?>(
+                              value: chapter, child: Text('Тема $chapter')),
+                        ],
+                        onChanged: selectedBook == null ? null : chooseChapter,
+                      ),
+                    ),
                   ],
-                  onChanged: selectedBook == null ? null : chooseChapter,
-                ),
-              )),
-            ]),
+                )),
+              ],
+            ),
             const SizedBox(height: 6),
             const Text('Разделы содержат словарные статьи; тексты диалогов не включены.',
               style: TextStyle(color: muted, fontSize: 11)),
           ]))),
         SliverList.builder(
+          addAutomaticKeepAlives: false,
           itemCount: visible.length,
           itemBuilder: (context, i) => WordTile(
             key: ValueKey(visible[i].id),
@@ -463,7 +495,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       Key key, IconData emptyIcon) {
     final words = sortWordsByBookOrder(all.where((w) => ids.contains(w.id)));
     return CustomScrollView(
-      key: key, controller: controller,
+      key: key, controller: controller, cacheExtent: 450,
       slivers: [
         SliverToBoxAdapter(child: Padding(
           padding: const EdgeInsets.fromLTRB(20, 24, 20, 18),
@@ -575,53 +607,99 @@ class WordTile extends StatelessWidget {
   final double font;
   final bool favorite;
   final VoidCallback onOpen, onCopy, onFavorite;
+
   @override Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    // Newer corpus entries can have book_references without bookNumber.
-    final reference = word.bookReferences.isEmpty ? null : word.bookReferences.first;
+    final reference =
+        word.bookReferences.isEmpty ? null : word.bookReferences.first;
     final displayBook = word.bookNumber ?? reference?['book'] as int?;
     final displayChapter = word.chapterNumber ?? reference?['chapter'] as int?;
+    final rounding = BorderRadius.circular(20);
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
       child: Material(
         color: scheme.surface,
-        clipBehavior: Clip.antiAlias,
-        borderRadius: BorderRadius.circular(22),
+        borderRadius: rounding,
+        // Do not anti-alias clip every scrolling tile; the shape and ink
+        // retain the same rounded appearance without extra clip layers.
         child: InkWell(
+          borderRadius: rounding,
           onTap: onOpen,
           child: Padding(
-            padding: const EdgeInsets.fromLTRB(9, 9, 16, 9),
-            child: Row(children: [
-              Column(mainAxisSize: MainAxisSize.min, children: [
-                IconButton(
-                  tooltip: 'Копировать слово',
-                  onPressed: onCopy,
-                  icon: const Icon(Icons.content_copy_rounded, size: 18)),
-                IconButton(
-                  tooltip: 'В избранное',
-                  onPressed: onFavorite,
-                  color: favorite ? scheme.primary : muted,
-                  icon: Icon(favorite ? Icons.favorite : Icons.favorite_border,
-                    size: 19)),
-              ]),
-              const SizedBox(width: 8),
-              Expanded(child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(word.arabic, textDirection: TextDirection.rtl,
-                    style: TextStyle(fontSize: font + 2,
-                      fontWeight: FontWeight.w700, height: 1.65)),
-                  Text(word.meaning, textDirection: TextDirection.rtl,
-                    maxLines: 2, overflow: TextOverflow.ellipsis,
-                    style: TextStyle(fontSize: font - 6, height: 1.55,
-                      color: scheme.onSurface.withValues(alpha: .70))),
-                  if (displayBook != null && displayChapter != null)
-                    Text('Книга $displayBook · Тема $displayChapter',
-                      style: TextStyle(fontSize: 10, color: scheme.primary)),
-                ])),
-              const SizedBox(width: 5),
-              const Icon(Icons.chevron_right_rounded, size: 18, color: muted),
-            ])))));
+            padding: const EdgeInsets.fromLTRB(12, 14, 16, 15),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                SizedBox(
+                  width: 40,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        tooltip: 'Копировать слово',
+                        onPressed: onCopy,
+                        padding: EdgeInsets.zero,
+                        constraints: const BoxConstraints(
+                          minWidth: 40, minHeight: 40),
+                        icon: const Icon(Icons.content_copy_rounded, size: 19)),
+                      const SizedBox(height: 7),
+                      IconButton(
+                        tooltip: 'В избранное',
+                        onPressed: onFavorite,
+                        padding: EdgeInsets.zero,
+                        constraints: const BoxConstraints(
+                          minWidth: 40, minHeight: 40),
+                        color: favorite ? scheme.primary : muted,
+                        icon: Icon(
+                          favorite ? Icons.favorite : Icons.favorite_border,
+                          size: 21)),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Text(
+                        word.arabic,
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
+                        style: TextStyle(
+                          fontSize: font + 2,
+                          fontWeight: FontWeight.w700,
+                          height: 1.42)),
+                      const SizedBox(height: 5),
+                      Text(
+                        word.meaning,
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
+                        maxLines: 3,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          fontSize: font - 5,
+                          height: 1.57,
+                          color: scheme.onSurface.withValues(alpha: .78))),
+                      if (displayBook != null && displayChapter != null) ...[
+                        const SizedBox(height: 9),
+                        Align(
+                          alignment: AlignmentDirectional.centerEnd,
+                          child: Text(
+                            'Книга $displayBook · Тема $displayChapter',
+                            style: TextStyle(
+                              fontSize: 12, fontWeight: FontWeight.w500,
+                              color: scheme.primary)),
+                        ),
+                      ],
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
 
