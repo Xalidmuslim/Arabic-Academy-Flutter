@@ -1,0 +1,446 @@
+{
+  "schema_version": 3,
+  "source_status": "original_independent_arabic_lexicon_not_textbook_collated",
+  "entries": [
+    {
+      "id": "editorial_photography_20261101_001",
+      "arabic": "بُعْدٌ بُؤْرِيٌّ",
+      "meaning_ar": "الْمَسَافَةُ بَيْنَ الْمَرْكَزِ الْبَصَرِيِّ لِلْعَدَسَةِ وَمَوْضِعِ تَكَوُّنِ الصُّورَةِ لِجِسْمٍ بَعِيدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَغْيِيرُ الْبُعْدِ الْبُؤْرِيِّ"
+      ],
+      "examples_ar": [
+        "اخْتَارَ الْمُصَوِّرُ بُعْدًا بُؤْرِيًّا طَوِيلًا لِتَصْوِيرِ الطَّائِرِ."
+      ],
+      "usage_note_ar": "يُؤَثِّرُ فِي زَاوِيَةِ الرُّؤْيَةِ وَحَجْمِ الْمَوْضُوعِ فِي الصُّورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_002",
+      "arabic": "فَتْحَةُ الْعَدَسَةِ",
+      "meaning_ar": "الْمَنْفَذُ الَّذِي يَمُرُّ مِنْهُ الضَّوْءُ دَاخِلَ الْعَدَسَةِ نَحْوَ الْمُسْتَشْعِرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اتِّسَاعُ فَتْحَةِ الْعَدَسَةِ"
+      ],
+      "examples_ar": [
+        "وَسَّعَ الْمُصَوِّرُ فَتْحَةَ الْعَدَسَةِ عِنْدَ ضَعْفِ الْإِضَاءَةِ."
+      ],
+      "usage_note_ar": "تُؤَثِّرُ فِي كَمِّيَّةِ الضَّوْءِ وَعُمْقِ الْمَيْدَانِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_003",
+      "arabic": "سُرْعَةُ الْغَالِقِ",
+      "meaning_ar": "الزَّمَنُ الَّذِي يَبْقَى فِيهِ غَالِقُ الْكَامِيرَا مَفْتُوحًا لِتَعْرِيضِ الْمُسْتَشْعِرِ لِلضَّوْءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ سُرْعَةِ الْغَالِقِ"
+      ],
+      "examples_ar": [
+        "رَفَعَ الْمُصَوِّرُ سُرْعَةَ الْغَالِقِ لِتَجْمِيدِ حَرَكَةِ اللَّاعِبِ."
+      ],
+      "usage_note_ar": "تُعَبِّرُ السُّرْعَةُ الْأَعْلَى عَنْ زَمَنِ تَعْرِيضٍ أَقْصَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_004",
+      "arabic": "عُمْقُ الْمَيْدَانِ",
+      "meaning_ar": "نِطَاقُ الْمَسَافَاتِ الَّذِي تَبْدُو فِيهِ الْأَجْسَامُ وَاضِحَةً بِدَرَجَةٍ مَقْبُولَةٍ فِي الصُّورَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عُمْقُ مَيْدَانٍ ضَحْلٌ"
+      ],
+      "examples_ar": [
+        "جَعَلَ الْمُصَوِّرُ عُمْقَ الْمَيْدَانِ ضَحْلًا لِعَزْلِ الْخَلْفِيَّةِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ بِتَغَيُّرِ الْفَتْحَةِ وَالْمَسَافَةِ وَالْبُعْدِ الْبُؤْرِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_005",
+      "arabic": "حَسَاسِيَّةُ الضَّوْءِ",
+      "meaning_ar": "مِقْيَاسٌ لِاسْتِجَابَةِ نِظَامِ التَّصْوِيرِ لِلضَّوْءِ عِنْدَ تَسْجِيلِ الصُّورَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "رَفْعُ حَسَاسِيَّةِ الضَّوْءِ"
+      ],
+      "examples_ar": [
+        "رَفَعَتِ الْمُصَوِّرَةُ الْحَسَاسِيَّةَ فِي الْمَكَانِ الْمُظْلِمِ."
+      ],
+      "usage_note_ar": "رَفْعُ الْقِيمَةِ فِي الْكَامِيرَا الرَّقْمِيَّةِ قَدْ يُزِيدُ التَّشْوِيشَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_006",
+      "arabic": "تَوَازُنُ اللَّوْنِ الْأَبْيَضِ",
+      "meaning_ar": "إِعْدَادٌ يُصَحِّحُ تَمْثِيلَ أَلْوَانِ الصُّورَةِ بِحَسَبِ لَوْنِ الْإِضَاءَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ تَوَازُنِ اللَّوْنِ الْأَبْيَضِ"
+      ],
+      "examples_ar": [
+        "عَدَّلَ الْمُصَوِّرُ تَوَازُنَ اللَّوْنِ الْأَبْيَضِ تَحْتَ الْمِصْبَاحِ."
+      ],
+      "usage_note_ar": "يَحُدُّ مِنَ الصُّبْغَةِ اللَّوْنِيَّةِ غَيْرِ الْمَرْغُوبَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_007",
+      "arabic": "تَعْرِيضٌ طَوِيلٌ",
+      "meaning_ar": "تَسْجِيلُ الصُّورَةِ خِلَالَ مُدَّةٍ طَوِيلَةٍ نِسْبِيًّا لِجَمْعِ الضَّوْءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْوِيرٌ بِتَعْرِيضٍ طَوِيلٍ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الْمُصَوِّرُ تَعْرِيضًا طَوِيلًا لِإِظْهَارِ مَسَارِ النُّجُومِ."
+      ],
+      "usage_note_ar": "يَسْتَلْزِمُ تَثْبِيتَ الْكَامِيرَا لِتَقْلِيلِ اهْتِزَازِ الصُّورَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_008",
+      "arabic": "تَعْرِيضٌ زَائِدٌ",
+      "meaning_ar": "حَالَةٌ تُسَجَّلُ فِيهَا الصُّورَةُ بِإِضَاءَةٍ تَجْعَلُ مَنَاطِقَ مُهِمَّةً شَدِيدَةَ السُّطُوعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْحِيحُ التَّعْرِيضِ الزَّائِدِ"
+      ],
+      "examples_ar": [
+        "خَفَّضَ الْمُصَوِّرُ التَّعْرِيضَ لِاسْتِعَادَةِ تَفَاصِيلِ السَّمَاءِ."
+      ],
+      "usage_note_ar": "قَدْ تَضِيعُ تَفَاصِيلُ الْمَنَاطِقِ الْفَاتِحَةِ عِنْدَ الْإِفْرَاطِ فِي التَّعْرِيضِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_009",
+      "arabic": "تَعْرِيضٌ نَاقِصٌ",
+      "meaning_ar": "حَالَةٌ تَبْدُو فِيهَا الصُّورَةُ أَشَدَّ قَتَامَةً مِنَ الْمُرَادِ لِقِلَّةِ التَّعْرِيضِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "مُعَالَجَةُ التَّعْرِيضِ النَّاقِصِ"
+      ],
+      "examples_ar": [
+        "زَادَتِ الْمُصَوِّرَةُ التَّعْرِيضَ لِتَظْهَرَ تَفَاصِيلُ الْوَجْهِ."
+      ],
+      "usage_note_ar": "قَدْ تَخْتَفِي تَفَاصِيلُ الظِّلَالِ فِي الصُّوَرِ الْمُعْتِمَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_010",
+      "arabic": "عَدَسَةٌ وَاسِعَةُ الزَّاوِيَةِ",
+      "meaning_ar": "عَدَسَةٌ تَلْتَقِطُ مَجَالًا بَصَرِيًّا وَاسِعًا مِنَ الْمَشْهَدِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِخْدَامُ عَدَسَةٍ وَاسِعَةِ الزَّاوِيَةِ"
+      ],
+      "examples_ar": [
+        "صَوَّرَتِ الْمُهَنْدِسَةُ الْغُرْفَةَ بِعَدَسَةٍ وَاسِعَةِ الزَّاوِيَةِ."
+      ],
+      "usage_note_ar": "تُسْتَخْدَمُ فِي تَصْوِيرِ الْمَبَانِي وَالْمَنَاظِرِ الطَّبِيعِيَّةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_011",
+      "arabic": "عَدَسَةٌ مُقَرِّبَةٌ",
+      "meaning_ar": "عَدَسَةٌ تُظْهِرُ الْمَوْضُوعَ الْبَعِيدَ بِحَجْمٍ أَكْبَرَ دَاخِلَ إِطَارِ الصُّورَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "عَدَسَةٌ مُقَرِّبَةٌ لِلطُّيُورِ"
+      ],
+      "examples_ar": [
+        "اسْتَخْدَمَ الْمُصَوِّرُ عَدَسَةً مُقَرِّبَةً لِتَصْوِيرِ الْغَزَالِ."
+      ],
+      "usage_note_ar": "غَالِبًا مَا تَكُونُ زَاوِيَةُ رُؤْيَتِهَا أَضْيَقَ مِنْ زَاوِيَةِ الْعَدَسَةِ الْوَاسِعَةِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_012",
+      "arabic": "تَثْبِيتُ الصُّورَةِ",
+      "meaning_ar": "تِقْنِيَّةٌ تُخَفِّفُ أَثَرَ اهْتِزَازِ الْكَامِيرَا فِي وُضُوحِ الصُّورَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "نِظَامُ تَثْبِيتِ الصُّورَةِ"
+      ],
+      "examples_ar": [
+        "فَعَّلَتِ الْمُصَوِّرَةُ تَثْبِيتَ الصُّورَةِ قَبْلَ التَّصْوِيرِ."
+      ],
+      "usage_note_ar": "قَدْ يَعْمَلُ التَّثْبِيتُ فِي الْعَدَسَةِ أَوْ فِي جِسْمِ الْكَامِيرَا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_013",
+      "arabic": "تَرْكِيزٌ يَدَوِيٌّ",
+      "meaning_ar": "ضَبْطُ مَوْضِعِ وُضُوحِ الصُّورَةِ بِتَدَخُّلِ الْمُصَوِّرِ مُبَاشَرَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "ضَبْطُ التَّرْكِيزِ الْيَدَوِيِّ"
+      ],
+      "examples_ar": [
+        "أَدَارَ الْمُصَوِّرُ حَلْقَةَ التَّرْكِيزِ لِيُظْهِرَ الزَّهْرَةَ بِوُضُوحٍ."
+      ],
+      "usage_note_ar": "يُفِيدُ عِنْدَمَا يَصْعُبُ عَلَى الْكَامِيرَا تَحْدِيدُ الْمَوْضُوعِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_014",
+      "arabic": "تَرْكِيزٌ تِلْقَائِيٌّ",
+      "meaning_ar": "نِظَامٌ تَضْبِطُ فِيهِ الْكَامِيرَا وُضُوحَ الْمَوْضُوعِ دُونَ تَدَخُّلٍ يَدَوِيٍّ مُبَاشِرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُرْعَةُ التَّرْكِيزِ التِّلْقَائِيِّ"
+      ],
+      "examples_ar": [
+        "تَتَبَّعَتِ الْكَامِيرَا الطَّائِرَ بِالتَّرْكِيزِ التِّلْقَائِيِّ."
+      ],
+      "usage_note_ar": "قَدْ يَتَتَبَّعُ النِّظَامُ الْعَيْنَ أَوِ الْجِسْمَ الْمُتَحَرِّكَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_015",
+      "arabic": "تَصْوِيرٌ مُتَتَابِعٌ",
+      "meaning_ar": "الْتِقَاطُ عِدَّةِ صُوَرٍ بِسُرْعَةٍ وَرَاءَ بَعْضِهَا لِتَسْجِيلِ مَرَاحِلِ الْحَرَكَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "سُرْعَةُ التَّصْوِيرِ الْمُتَتَابِعِ"
+      ],
+      "examples_ar": [
+        "الْتَقَطَ الْمُصَوِّرُ صُوَرًا مُتَتَابِعَةً لِلْعَدَّاءِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ فِي التَّصْوِيرِ الرِّيَاضِيِّ وَالْحَيَوَانِيِّ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_016",
+      "arabic": "مُرَشِّحٌ مُسْتَقْطِبٌ",
+      "meaning_ar": "أَدَاةٌ بَصَرِيَّةٌ تُقَلِّلُ بَعْضَ الِانْعِكَاسَاتِ وَتُغَيِّرُ مَرُورَ الضَّوْءِ الْمُسْتَقْطَبِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَدْوِيرُ الْمُرَشِّحِ الْمُسْتَقْطِبِ"
+      ],
+      "examples_ar": [
+        "أَدَارَ الْمُصَوِّرُ الْمُرَشِّحَ لِتَقْلِيلِ لَمَعَانِ سَطْحِ الْمَاءِ."
+      ],
+      "usage_note_ar": "لَا يُزِيلُ جَمِيعَ الِانْعِكَاسَاتِ وَلَا يَعْمَلُ بِالْقَدْرِ نَفْسِهِ فِي كُلِّ مَوْقِفٍ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_017",
+      "arabic": "تَشَوُّهٌ لَوْنِيٌّ",
+      "meaning_ar": "ظُهُورُ حَوَافَّ مُلَوَّنَةٍ غَيْرِ مَقْصُودَةٍ حَوْلَ بَعْضِ التَّفَاصِيلِ بِسَبَبِ اخْتِلَافِ انْكِسَارِ الْأَلْوَانِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْحِيحُ التَّشَوُّهِ اللَّوْنِيِّ"
+      ],
+      "examples_ar": [
+        "ظَهَرَ تَشَوُّهٌ لَوْنِيٌّ عِنْدَ حَافَّةِ النَّافِذَةِ."
+      ],
+      "usage_note_ar": "هُوَ عَيْبٌ بَصَرِيٌّ قَدْ يَظْهَرُ بِوُضُوحٍ فِي الْمَنَاطِقِ عَالِيَةِ التَّبَايُنِ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_018",
+      "arabic": "إِضَاءَةٌ خَلْفِيَّةٌ",
+      "meaning_ar": "إِضَاءَةٌ يَقَعُ مَصْدَرُهَا خَلْفَ الْمَوْضُوعِ بِالنِّسْبَةِ إِلَى الْكَامِيرَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "تَصْوِيرٌ بِإِضَاءَةٍ خَلْفِيَّةٍ"
+      ],
+      "examples_ar": [
+        "وَقَفَتِ الشَّخْصِيَّةُ أَمَامَ النَّافِذَةِ فِي إِضَاءَةٍ خَلْفِيَّةٍ."
+      ],
+      "usage_note_ar": "قَدْ تُظْهِرُ الْمَوْضُوعَ مُعْتِمًا إِنْ لَمْ يُضْبَطِ التَّعْرِيضُ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_019",
+      "arabic": "عَاكِسٌ ضَوْئِيٌّ",
+      "meaning_ar": "سَطْحٌ يُوَجِّهُ الضَّوْءَ الْمُنْعَكِسَ نَحْوَ الْمَوْضُوعِ لِتَخْفِيفِ الظِّلَالِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "اسْتِخْدَامُ عَاكِسٍ ضَوْئِيٍّ"
+      ],
+      "examples_ar": [
+        "وَضَعَ الْمُصَوِّرُ عَاكِسًا ضَوْئِيًّا قُرْبَ وَجْهِ الطِّفْلِ."
+      ],
+      "usage_note_ar": "لَا يُنْتِجُ الضَّوْءَ بِنَفْسِهِ بَلْ يَعْكِسُ ضَوْءَ مَصْدَرٍ آخَرَ.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    },
+    {
+      "id": "editorial_photography_20261101_020",
+      "arabic": "قِيَاسُ الضَّوْءِ",
+      "meaning_ar": "تَقْدِيرُ شِدَّةِ الضَّوْءِ أَوْ مِقْدَارِهِ لِاخْتِيَارِ تَعْرِيضٍ مُنَاسِبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "تَرْكِيبٌ اسْمِيٌّ"
+      ],
+      "collocations": [
+        "طَرِيقَةُ قِيَاسِ الضَّوْءِ"
+      ],
+      "examples_ar": [
+        "غَيَّرَ الْمُصَوِّرُ طَرِيقَةَ قِيَاسِ الضَّوْءِ فِي الْمَشْهَدِ."
+      ],
+      "usage_note_ar": "قَدْ تَعْتَمِدُ الْكَامِيرَا قِيَاسًا شَامِلًا أَوْ مَرْكَزِيًّا أَوْ بُقْعِيًّا.",
+      "synonyms": [],
+      "antonyms": [],
+      "book_references": [],
+      "sources": [],
+      "source_group": "independently_written_arabic_photography_lexicon",
+      "editorial_level_hint": 3
+    }
+  ]
+}
