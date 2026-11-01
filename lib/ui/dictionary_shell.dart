@@ -403,6 +403,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 child: DropdownButton<int?>(
                   key: const Key('book-selector'),
                   value: selectedBook,
+                  hint: const Text('Все тома'),
                   underline: const SizedBox.shrink(),
                   isExpanded: true,
                   items: [
@@ -423,6 +424,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 child: DropdownButton<int?>(
                   key: const Key('chapter-selector'),
                   value: selectedChapter,
+                  hint: const Text('Все темы'),
                   isExpanded: true,
                   underline: const SizedBox.shrink(),
                   disabledHint: const Text('Выберите том'),
