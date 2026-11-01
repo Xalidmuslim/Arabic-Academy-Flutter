@@ -123,4 +123,46 @@ void main() {
     ), findsOneWidget);
   });
 
+  testWidgets('Filter captions stay above dropdown surfaces on narrow phones',
+      (tester) async {
+    await tester.binding.setSurfaceSize(const Size(360, 800));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    await tester.pumpWidget(DictionaryApp(previewWords: [word('compact')]));
+    await tester.pumpAndSettle();
+
+    final volumeLabel = tester.getRect(find.text('Том'));
+    final chapterLabel = tester.getRect(find.text('Раздел'));
+    final volumeMenu = tester.getRect(
+        find.byKey(const Key('book-selector')));
+    final chapterMenu = tester.getRect(
+        find.byKey(const Key('chapter-selector')));
+
+    expect(volumeLabel.bottom, lessThan(volumeMenu.top));
+    expect(chapterLabel.bottom, lessThan(chapterMenu.top));
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('Arabic meaning is right aligned and has room for three lines',
+      (tester) async {
+    const explanation =
+        'مُعَامَلَةٌ تَجْمَعُ بَيْنَ الْإِحْسَانِ وَالتَّعَاوُنِ وَالتَّرَاحُمِ '
+        'وَتَتَضَمَّنُ مَعَانِيَ مُتَعَدِّدَةً فِي الْحَيَاةِ الْيَوْمِيَّةِ.';
+    await tester.binding.setSurfaceSize(const Size(360, 800));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    final item = Word('description', 'رَحْمَةٌ', explanation,
+        const [], const [], const [], const [], const [], '', const []);
+    await tester.pumpWidget(DictionaryApp(previewWords: [item]));
+    await tester.pumpAndSettle();
+
+    final meaning = tester.widget<Text>(find.descendant(
+      of: find.byType(WordTile),
+      matching: find.text(explanation),
+    ));
+    expect(meaning.maxLines, 3);
+    expect(meaning.textDirection, TextDirection.rtl);
+    expect(meaning.textAlign, TextAlign.right);
+    expect(tester.takeException(), isNull);
+  });
+
+
 }
