@@ -1,5 +1,5 @@
 name: Dictionary APK build
-# Requested APK rebuild 2026-11-02: opt-in frame timing diagnostics; reduced cache window; 40 tests green.
+# Requested APK rebuild 2026-11-02: high refresh Android preference plus frame diagnostics; 40 tests green.
 # Release build request 2026-11-01: dictionary corpus checkpoint 7,125 merged entries.
 # Manual dispatch remains available; ordinary dictionary edits never build an APK.
 on:
