@@ -177,4 +177,29 @@ void main() {
   });
 
 
+  testWidgets('Performance diagnostics are opt-in and remain on scrolling tab',
+      (tester) async {
+    await tester.pumpWidget(DictionaryApp(previewWords: [
+      for (var i = 0; i < 60; i++) word('perf-$i'),
+    ]));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Экран:'), findsNothing);
+
+    await tester.tap(find.text('Настройки').last);
+    await tester.pumpAndSettle();
+    final toggle = find.byKey(const Key('frame-diagnostics-toggle'));
+    await tester.ensureVisible(toggle);
+    await tester.pumpAndSettle();
+    await tester.tap(toggle);
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Экран:'), findsOneWidget);
+
+    await tester.tap(find.text('Словарь').last);
+    await tester.pumpAndSettle();
+    expect(find.byKey(const Key('dictionary-scroll-list')), findsOneWidget);
+    expect(find.textContaining('Экран:'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
+
 }
