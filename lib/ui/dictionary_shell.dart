@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../core/dictionary_data.dart';
+import 'frame_performance_monitor.dart';
 
 const emerald = Color(0xFF25776D);
 const mint = Color(0xFF82CABB);
@@ -122,6 +123,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   final favoriteScroll = ScrollController();
   final bookmarkScroll = ScrollController();
   final tts = FlutterTts();
+  final FramePerformanceMonitor frameMonitor = FramePerformanceMonitor();
+  bool showFrameDiagnostics = false;
   Set<String> favorites = {}, bookmarks = {};
   int tab = 0;
   int? selectedBook;
@@ -212,6 +215,16 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   }
   void onSearch() { if (mounted) setState(() {}); }
 
+  void setFrameDiagnostics(bool enabled) {
+    if (enabled == showFrameDiagnostics) return;
+    if (enabled) {
+      frameMonitor.start();
+    } else {
+      frameMonitor.stop();
+    }
+    setState(() => showFrameDiagnostics = enabled);
+  }
+
   @override void dispose() {
     search.removeListener(onSearch);
     search.dispose();
@@ -219,6 +232,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     favoriteScroll.dispose();
     bookmarkScroll.dispose();
     tts.stop();
+    frameMonitor.dispose();
     super.dispose();
   }
 
@@ -334,7 +348,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
               return const Center(child: CircularProgressIndicator());
             }
             final all = snap.data!;
-            return IndexedStack(index: tab, children: [
+            return Stack(children: [
+              IndexedStack(index: tab, children: [
               dictionaryTab(all),
               collectionTab(all, favorites, 'Избранные слова',
                 'Сохранено сердечком', favoriteScroll,
@@ -343,6 +358,14 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 'Слова для быстрого возвращения', bookmarkScroll,
                 const Key('bookmarks-scroll-list'), Icons.bookmark_border),
               settingsTab(),
+              ]),
+              if (showFrameDiagnostics)
+                Positioned(
+                  left: 12, right: 12, bottom: 8,
+                  child: IgnorePointer(
+                    child: frameDiagnosticsOverlay(),
+                  ),
+                ),
             ]);
           }),
       ));
@@ -353,7 +376,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     return CustomScrollView(
       key: const Key('dictionary-scroll-list'),
       controller: wordScroll,
-      cacheExtent: 450,
+      cacheExtent: 180,
       keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
       slivers: [
         SliverToBoxAdapter(child: Padding(
@@ -478,6 +501,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           ]))),
         SliverList.builder(
           addAutomaticKeepAlives: false,
+          addRepaintBoundaries: true,
           itemCount: visible.length,
           itemBuilder: (context, i) => WordTile(
             key: ValueKey(visible[i].id),
@@ -495,7 +519,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       Key key, IconData emptyIcon) {
     final words = sortWordsByBookOrder(all.where((w) => ids.contains(w.id)));
     return CustomScrollView(
-      key: key, controller: controller, cacheExtent: 450,
+      key: key, controller: controller, cacheExtent: 180,
       slivers: [
         SliverToBoxAdapter(child: Padding(
           padding: const EdgeInsets.fromLTRB(20, 24, 20, 18),
@@ -532,6 +556,43 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             onFavorite: () { toggleFavorite(words[i].id); })),
       ]);
   }
+
+  Widget frameDiagnosticsOverlay() => ValueListenableBuilder<
+      FramePerformanceReport>(
+    valueListenable: frameMonitor,
+    builder: (context, report, _) {
+      return DecoratedBox(
+        decoration: BoxDecoration(
+          color: const Color(0xE91D2A27),
+          borderRadius: BorderRadius.circular(15),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 9),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'Экран: ${report.displayHz.toStringAsFixed(0)} Гц · '
+                'бюджет: ${report.frameBudgetMs.toStringAsFixed(1)} мс',
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: Colors.white, fontSize: 12,
+                  fontWeight: FontWeight.w700)),
+              Text(
+                report.samples == 0
+                  ? 'Прокрутите список — ожидаем данные Flutter'
+                  : 'UI p95: ${report.uiP95Ms.toStringAsFixed(1)} мс · '
+                    'GPU p95: ${report.rasterP95Ms.toStringAsFixed(1)} мс · '
+                    'выше бюджета: ${report.overBudgetPercent.toStringAsFixed(0)}%',
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: Color(0xFFDAE8E2), fontSize: 11)),
+            ],
+          ),
+        ),
+      );
+    },
+  );
 
   Widget settingsTab() => ListView(
     key: const Key('settings-list'),
@@ -579,6 +640,24 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             selected: widget.mode == ThemeMode.dark,
             onSelected: (_) => widget.setMode(ThemeMode.dark)),
         ]),
+      ]),
+      const SizedBox(height: 15),
+      settingCard(children: [
+        SwitchListTile.adaptive(
+          key: const Key('frame-diagnostics-toggle'),
+          contentPadding: EdgeInsets.zero,
+          title: const Text('Диагностика плавности',
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+          subtitle: const Text(
+            'Показывает частоту экрана и время UI/GPU при прокрутке.',
+            style: TextStyle(fontSize: 12)),
+          value: showFrameDiagnostics,
+          onChanged: setFrameDiagnostics,
+        ),
+        const Text(
+          'Включите, быстро прокрутите список и сделайте скриншот '
+          'показателей. Диагностика выключается вместе с приложением.',
+          style: TextStyle(fontSize: 12, color: muted)),
       ]),
       const SizedBox(height: 15),
       settingCard(children: const [
