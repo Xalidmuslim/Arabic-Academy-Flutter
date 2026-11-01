@@ -1,0 +1,81 @@
+name: Dictionary Skia renderer comparison APK
+# Diagnostic A/B against the ordinary Impeller APK. Do not replace the stable APK.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["codex/bayna-dictionary-demo-apk-20261024"]
+    paths:
+      - ".github/workflows/dictionary-renderer-compare.yml"
+
+jobs:
+  build-skia-compare:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.35.7"
+          cache: true
+      - name: Generate Android project
+        run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
+      - name: Set alternate renderer only in this test APK
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          path = Path("android/app/src/main/AndroidManifest.xml")
+          namespace = "http://schemas.android.com/apk/res/android"
+          ET.register_namespace("android", namespace)
+          tree = ET.parse(path)
+          root = tree.getroot()
+          application = root.find("application")
+          if application is None:
+              raise RuntimeError("Flutter Android application is missing")
+          name = f"{{{namespace}}}name"
+          value = f"{{{namespace}}}value"
+          meta = next((n for n in application.findall("meta-data")
+                       if n.get(name) == "io.flutter.embedding.android.EnableImpeller"), None)
+          if meta is None:
+              meta = ET.SubElement(application, "meta-data")
+          meta.set(name, "io.flutter.embedding.android.EnableImpeller")
+          meta.set(value, "false")
+          tree.write(path, encoding="utf-8", xml_declaration=True)
+          again = ET.parse(path).getroot().find("application")
+          assert any(n.get(name) == "io.flutter.embedding.android.EnableImpeller"
+                     and n.get(value) == "false" for n in again.findall("meta-data"))
+          print("Verified AndroidManifest.xml: EnableImpeller=false (Skia A/B)")
+          PY
+      - name: Install packages
+        run: flutter pub get
+      - name: Static analysis
+        run: flutter analyze
+      - name: Unit and widget tests
+        run: flutter test
+      - name: Build Skia comparison ARM64 APK
+        run: flutter build apk --release --target-platform android-arm64
+      - name: Verify comparison APK
+        run: |
+          test -s build/app/outputs/flutter-apk/app-release.apk
+          file build/app/outputs/flutter-apk/app-release.apk
+          sha256sum build/app/outputs/flutter-apk/app-release.apk
+          ls -lh build/app/outputs/flutter-apk/app-release.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bayna-dictionary-skia-compare-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+      - name: Publish separate comparison APK without replacing stable APK
+        run: |
+          cp build/app/outputs/flutter-apk/app-release.apk /tmp/bayna-skia-compare.apk
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
+          mkdir -p dist
+          cp /tmp/bayna-skia-compare.apk dist/bayna-dictionary-skia-compare.apk
+          test -s dist/bayna-dictionary-skia-compare.apk
+          git add dist/bayna-dictionary-skia-compare.apk
+          git diff --cached --quiet || git commit -m "build: Skia comparison APK [skip ci]"
+          git push origin "HEAD:$GITHUB_REF_NAME"
