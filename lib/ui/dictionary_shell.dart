@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
+import 'package:flutter_displaymode/flutter_displaymode.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -48,7 +49,27 @@ class DictionaryApp extends StatefulWidget {
 class _DictionaryAppState extends State<DictionaryApp> {
   ThemeMode mode = ThemeMode.system;
   double font = 23;
-  @override void initState() { super.initState(); restore(); }
+  @override
+  void initState() {
+    super.initState();
+    restore();
+    // Submit the preference once the Flutter window has attached. This does
+    // not force 120 Hz; the device may choose 60/90/120 based on its policy.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _requestHighRefreshRate();
+    });
+  }
+
+  Future<void> _requestHighRefreshRate() async {
+    if (kIsWeb || defaultTargetPlatform != TargetPlatform.android) return;
+    try {
+      // Keep the active display resolution; OS/user battery settings win.
+      await FlutterDisplayMode.setHighRefreshRate();
+    } on Exception {
+      // Some vendors/displays do not expose discrete high refresh modes.
+      // An unsupported preference must never prevent offline reading.
+    }
+  }
 
   Future<void> restore() async {
     final p = await SharedPreferences.getInstance();
