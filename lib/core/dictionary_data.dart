@@ -18,6 +18,13 @@ class Word {
     return bookNumber == book && chapterNumber == chapter;
   }
 
+  bool isInBook(int book) {
+    if (bookReferences.isNotEmpty) {
+      return bookReferences.any((ref) => ref['book'] == book);
+    }
+    return bookNumber == book;
+  }
+
   int? chapterOrderFor(int book, int chapter) {
     for (final ref in bookReferences) {
       if (ref['book'] == book && ref['chapter'] == chapter) {
@@ -163,6 +170,32 @@ List<Word> sortWordsByBookOrder(Iterable<Word> words) {
     return a.arabic.compareTo(b.arabic);
   });
   return result;
+}
+
+/// Available volumes and topics are derived from actual corpus references.
+/// A lexical reference is not a transcript or an imported textbook dialogue.
+Map<int, List<int>> availableBookChapters(Iterable<Word> words) {
+  final chapters = <int, Set<int>>{};
+  for (final word in words) {
+    final references = word.bookReferences.isNotEmpty
+        ? word.bookReferences
+        : [
+            if (word.bookNumber != null && word.chapterNumber != null)
+              {'book': word.bookNumber, 'chapter': word.chapterNumber},
+          ];
+    for (final reference in references) {
+      final book = reference['book'];
+      final chapter = reference['chapter'];
+      if (book is! int || chapter is! int || book < 1 || chapter < 1) {
+        continue;
+      }
+      chapters.putIfAbsent(book, () => <int>{}).add(chapter);
+    }
+  }
+  return {
+    for (final book in chapters.keys.toList()..sort())
+      book: chapters[book]!.toList()..sort(),
+  };
 }
 
 List<Word> filterWordsByChapter(
