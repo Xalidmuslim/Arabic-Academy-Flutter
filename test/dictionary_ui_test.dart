@@ -33,7 +33,8 @@ void main() {
         .controller!;
     final offsetBefore = controllerBefore.offset;
     expect(offsetBefore, greaterThan(0));
-    await tester.tap(find.byType(WordTile).first);
+    // Cache prebuilds offscreen tiles. Tap a visible, hit-testable one.
+    await tester.tap(find.byType(WordTile).hitTestable().first);
     await tester.pumpAndSettle();
     expect(find.text('Значения слова'), findsOneWidget);
     await tester.pageBack();
@@ -162,6 +163,17 @@ void main() {
     expect(meaning.textDirection, TextDirection.rtl);
     expect(meaning.textAlign, TextAlign.right);
     expect(tester.takeException(), isNull);
+  });
+
+
+  testWidgets('Large dictionary lazily builds only nearby tiles',
+      (tester) async {
+    await tester.pumpWidget(DictionaryApp(
+      previewWords: [for (var i = 0; i < 1200; i++) word('$i')]));
+    await tester.pumpAndSettle();
+
+    expect(find.byKey(const Key('dictionary-scroll-list')), findsOneWidget);
+    expect(find.byType(WordTile).evaluate().length, lessThan(30));
   });
 
 
