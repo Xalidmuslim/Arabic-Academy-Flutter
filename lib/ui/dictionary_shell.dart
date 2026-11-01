@@ -194,8 +194,9 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         (file) => rootBundle.loadString(file as String)));
     // JSON decoding/merging thousands of vocalized entries must not block
     // the Flutter UI isolate or scroll/transition frames.
-    final words = widget.previewWords ??
-        await compute(decodeAndMergeCorpora, texts);
+    final List<Word> words = widget.previewWords == null
+        ? await compute<List<String>, List<Word>>(decodeAndMergeCorpora, texts)
+        : widget.previewWords!;
     if (mounted) {
       setState(() {
       favorites = p.getStringList('dictionary_favorites')?.toSet() ?? {};
