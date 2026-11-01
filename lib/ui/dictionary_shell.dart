@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -123,7 +124,64 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   final tts = FlutterTts();
   Set<String> favorites = {}, bookmarks = {};
   int tab = 0;
+  int? selectedBook;
   int? selectedChapter;
+  List<Word>? _cachedSource;
+  List<Word>? _orderedWords;
+  List<Word>? _visibleWords;
+  Map<int, List<int>> _bookChapters = {};
+  Map<Word, String> _searchContents = {};
+  String? _visibleQuery;
+  int? _visibleBook;
+  int? _visibleChapter;
+
+  List<Word> visibleWords(List<Word> all) {
+    if (!identical(_cachedSource, all)) {
+      _cachedSource = all;
+      _orderedWords = sortWordsByBookOrder(all);
+      _bookChapters = availableBookChapters(all);
+      _searchContents = {
+        for (final word in all)
+          word: '${normalizeArabic(word.arabic)} ${normalizeArabic(word.meaning)}',
+      };
+      _visibleWords = null;
+    }
+    final query = normalizeArabic(search.text);
+    if (_visibleWords != null &&
+        query == _visibleQuery &&
+        selectedBook == _visibleBook &&
+        selectedChapter == _visibleChapter) {
+      return _visibleWords!;
+    }
+    final matching = query.isEmpty
+        ? _orderedWords!
+        : _orderedWords!.where(
+            (word) => _searchContents[word]!.contains(query)).toList();
+    final visible = selectedBook == null
+        ? matching.toList(growable: false)
+        : selectedChapter == null
+            ? matching.where((word) => word.isInBook(selectedBook!))
+                .toList(growable: false)
+            : filterWordsByChapter(matching, selectedBook!, selectedChapter!);
+    _visibleQuery = query;
+    _visibleBook = selectedBook;
+    _visibleChapter = selectedChapter;
+    _visibleWords = visible;
+    return visible;
+  }
+
+  void chooseBook(int? book) {
+    setState(() {
+      selectedBook = book;
+      selectedChapter = null;
+    });
+    if (wordScroll.hasClients) wordScroll.jumpTo(0);
+  }
+
+  void chooseChapter(int? chapter) {
+    setState(() => selectedChapter = chapter);
+    if (wordScroll.hasClients) wordScroll.jumpTo(0);
+  }
 
   Future<List<Word>> loadWords() async {
     final p = await SharedPreferences.getInstance();
@@ -134,7 +192,10 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     final files = (manifest?['files'] as List<dynamic>? ?? const []);
     final texts = await Future.wait(files.map(
         (file) => rootBundle.loadString(file as String)));
-    final words = widget.previewWords ?? decodeAndMergeCorpora(texts);
+    // JSON decoding/merging thousands of vocalized entries must not block
+    // the Flutter UI isolate or scroll/transition frames.
+    final words = widget.previewWords ??
+        await compute(decodeAndMergeCorpora, texts);
     if (mounted) {
       setState(() {
       favorites = p.getStringList('dictionary_favorites')?.toSet() ?? {};
@@ -188,8 +249,24 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   }
 
   void openWord(Word word, List<Word> corpus) {
-    Navigator.of(context).push<void>(MaterialPageRoute<void>(
-      builder: (_) => WordReader(
+    Navigator.of(context).push<void>(PageRouteBuilder<void>(
+      transitionDuration: const Duration(milliseconds: 230),
+      reverseTransitionDuration: const Duration(milliseconds: 190),
+      transitionsBuilder: (context, animation, secondaryAnimation, child) {
+        final smooth = CurvedAnimation(
+          parent: animation, curve: Curves.easeOutCubic,
+          reverseCurve: Curves.easeInCubic);
+        return FadeTransition(
+          opacity: smooth,
+          child: SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(0.045, 0.015),
+              end: Offset.zero,
+            ).animate(smooth),
+            child: child,
+          ));
+      },
+      pageBuilder: (_, animation, secondaryAnimation) => WordReader(
         word: word,
         font: widget.font,
         tab: tab,
@@ -271,13 +348,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   }
 
   Widget dictionaryTab(List<Word> all) {
-    final q = normalizeArabic(search.text);
-    final matching = all.where((w) =>
-      q.isEmpty || normalizeArabic(w.arabic).contains(q) ||
-      normalizeArabic(w.meaning).contains(q));
-    final visible = selectedChapter == null
-        ? sortWordsByBookOrder(matching)
-        : filterWordsByChapter(matching, 1, selectedChapter!);
+    final visible = visibleWords(all);
     return CustomScrollView(
       key: const Key('dictionary-scroll-list'),
       controller: wordScroll,
@@ -324,21 +395,51 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             Text('${visible.length} слов', style: const TextStyle(
               fontSize: 15, fontWeight: FontWeight.w700)),
             const SizedBox(height: 5),
-            Wrap(spacing: 8, children: [
-              FilterChip(label: const Text('Все слова'),
-                selected: selectedChapter == null,
-                onSelected: (_) => setState(() => selectedChapter = null)),
-              FilterChip(label: const Text('Книга 1 · Тема 1'),
-                selected: selectedChapter == 1,
-                onSelected: (_) => setState(() => selectedChapter = 1)),
-              FilterChip(label: const Text('Книга 1 · Тема 2'),
-                selected: selectedChapter == 2,
-                onSelected: (_) => setState(() => selectedChapter = 2)),
-              FilterChip(label: const Text('Книга 1 · Тема 3'),
-                selected: selectedChapter == 3,
-                onSelected: (_) => setState(() => selectedChapter = 3)),
+            Row(children: [
+              Expanded(child: InputDecorator(
+                decoration: const InputDecoration(
+                  labelText: 'Том', contentPadding:
+                    EdgeInsets.symmetric(horizontal: 12, vertical: 4)),
+                child: DropdownButton<int?>(
+                  key: const Key('book-selector'),
+                  value: selectedBook,
+                  underline: const SizedBox.shrink(),
+                  isExpanded: true,
+                  items: [
+                    const DropdownMenuItem<int?>(
+                      value: null, child: Text('Все тома')),
+                    for (final book in _bookChapters.keys)
+                      DropdownMenuItem<int?>(
+                        value: book, child: Text('Том $book')),
+                  ],
+                  onChanged: chooseBook,
+                ),
+              )),
+              const SizedBox(width: 10),
+              Expanded(child: InputDecorator(
+                decoration: const InputDecoration(
+                  labelText: 'Раздел', contentPadding:
+                    EdgeInsets.symmetric(horizontal: 12, vertical: 4)),
+                child: DropdownButton<int?>(
+                  key: const Key('chapter-selector'),
+                  value: selectedChapter,
+                  isExpanded: true,
+                  underline: const SizedBox.shrink(),
+                  disabledHint: const Text('Выберите том'),
+                  items: [
+                    const DropdownMenuItem<int?>(
+                      value: null, child: Text('Все темы')),
+                    for (final chapter in _bookChapters[selectedBook] ??
+                        const <int>[])
+                      DropdownMenuItem<int?>(
+                        value: chapter, child: Text('Тема $chapter')),
+                  ],
+                  onChanged: selectedBook == null ? null : chooseChapter,
+                ),
+              )),
             ]),
-            const Text('Учебный список пока проходит сверку.',
+            const SizedBox(height: 6),
+            const Text('Разделы содержат словарные статьи; тексты диалогов не включены.',
               style: TextStyle(color: muted, fontSize: 11)),
           ]))),
         SliverList.builder(
