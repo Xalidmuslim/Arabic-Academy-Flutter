@@ -1,5 +1,6 @@
 name: Dictionary APK build
 # One-time requested APK build: this workflow file's push triggers the pipeline.
+# Release build request 2026-11-01: dictionary corpus checkpoint 7,125 merged entries.
 # Manual dispatch remains available; ordinary dictionary edits never build an APK.
 on:
   workflow_dispatch:
