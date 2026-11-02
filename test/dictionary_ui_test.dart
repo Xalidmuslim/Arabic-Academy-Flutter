@@ -202,4 +202,45 @@ void main() {
   });
 
 
+  test('Diagnostic Arabic text hides vowels without changing consonants or hamzas', () {
+    expect(withoutArabicVowels('أَحْمَدُ'), 'أحمد');
+    expect(withoutArabicVowels('عِلْمٌ'), 'علم');
+    expect(withoutArabicVowels('هٰذَا'), 'هذا');
+  });
+
+  testWidgets('Diagnostic display modes preserve the original lemma',
+      (tester) async {
+    final entry = Word(
+      'original', 'رَحْمَةٌ', 'خَيْرٌ وَرَحْمَةٌ',
+      const [], const [], const [], const [], const [], '', const [],
+      bookNumber: 1, chapterNumber: 1,
+    );
+    await tester.pumpWidget(DictionaryApp(previewWords: [entry]));
+    await tester.pumpAndSettle();
+    expect(find.text('رَحْمَةٌ'), findsWidgets);
+
+    await tester.tap(find.text('Настройки').last);
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.byKey(const Key('render-mode-plain')));
+    await tester.tap(find.byKey(const Key('render-mode-plain')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Словарь').last);
+    await tester.pumpAndSettle();
+    expect(find.byType(WordTile), findsOneWidget);
+    expect(find.text('رَحْمَةٌ'), findsWidgets);
+
+    await tester.tap(find.text('Настройки').last);
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.byKey(const Key('render-mode-no-vowels')));
+    await tester.tap(find.byKey(const Key('render-mode-no-vowels')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Словарь').last);
+    await tester.pumpAndSettle();
+    expect(find.text('رحمة'), findsWidgets);
+    await tester.tap(find.byType(WordTile).first);
+    await tester.pumpAndSettle();
+    // The reader must keep the unchanged Arabic lemma, including diacritics.
+    expect(find.text('رَحْمَةٌ'), findsWidgets);
+  });
+
 }
