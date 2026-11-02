@@ -136,6 +136,6 @@ class StartupFrameDiagnostics with WidgetsBindingObserver {
       'After resume 10-20s: ${_afterResume[2].summary}',
       'Lifecycle: ${_events.isEmpty ? 'none' : _events.join(', ')}',
     ];
-    return lines.join('\\n');
+    return lines.join('\n');
   }
 }
