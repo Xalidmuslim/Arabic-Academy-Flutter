@@ -367,7 +367,10 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             onPressed: () => setState(() => tab = 3)),
         ]),
         bottomNavigationBar: DictionaryNav(
-          tab: tab, onTap: (next) => setState(() => tab = next)),
+          tab: tab, onTap: (next) {
+            if (next != 0) frameMonitor.setScrolling(false);
+            setState(() => tab = next);
+          }),
         body: FutureBuilder<List<Word>>(
           future: future,
           builder: (context, snap) {
@@ -403,7 +406,19 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 
   Widget dictionaryTab(List<Word> all) {
     final visible = visibleWords(all);
-    return CustomScrollView(
+    return NotificationListener<ScrollNotification>(
+      onNotification: (notification) {
+        if (!showFrameDiagnostics || notification.depth != 0) {
+          return false;
+        }
+        if (notification is ScrollStartNotification) {
+          frameMonitor.setScrolling(true);
+        } else if (notification is ScrollEndNotification) {
+          frameMonitor.setScrolling(false);
+        }
+        return false;
+      },
+      child: CustomScrollView(
       key: const Key('dictionary-scroll-list'),
       controller: wordScroll,
       cacheExtent: 180,
@@ -543,7 +558,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             onCopy: () { copy(visible[i].arabic); },
             onFavorite: () { toggleFavorite(visible[i].id); })),
         const SliverToBoxAdapter(child: SizedBox(height: 25)),
-      ]);
+      ]),
+    );
   }
 
   Widget collectionTab(List<Word> all, Set<String> ids,
@@ -614,7 +630,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 report.samples == 0
                   ? 'Прокрутите список — ожидаем данные Flutter'
                   : 'UI p95: ${report.uiP95Ms.toStringAsFixed(1)} мс · '
-                    'GPU p95: ${report.rasterP95Ms.toStringAsFixed(1)} мс · '
+                    'Raster p95: ${report.rasterP95Ms.toStringAsFixed(1)} мс · '
                     'выше бюджета: ${report.overBudgetPercent.toStringAsFixed(0)}%',
                 textAlign: TextAlign.center,
                 style: const TextStyle(
@@ -681,7 +697,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           title: const Text('Диагностика плавности',
             style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
           subtitle: const Text(
-            'Показывает частоту экрана и время UI/GPU при прокрутке.',
+            'Показывает частоту экрана и время UI/raster при прокрутке.',
             style: TextStyle(fontSize: 12)),
           value: showFrameDiagnostics,
           onChanged: setFrameDiagnostics,
