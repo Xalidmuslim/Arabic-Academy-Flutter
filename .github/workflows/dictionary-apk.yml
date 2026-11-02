@@ -1,5 +1,5 @@
 name: Dictionary APK build
-# Requested APK rebuild 2026-11-02: graphic A/B modes to isolate raster bottlenecks; 42 Flutter tests passed.
+# Requested APK rebuild 2026-11-02: isolate frame profiler from scrolling to prevent feedback jank; 44 tests passed.
 # Release build request 2026-11-01: dictionary corpus checkpoint 7,125 merged entries.
 # Manual dispatch remains available; ordinary dictionary edits never build an APK.
 on:
