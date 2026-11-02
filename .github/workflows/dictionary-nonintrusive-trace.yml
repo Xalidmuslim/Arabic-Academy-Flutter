@@ -1,0 +1,83 @@
+name: Dictionary invisible startup trace APK
+on:
+  push:
+    branches: ["codex/bayna-dictionary-nonintrusive-trace-20261102"]
+    paths:
+      - ".github/workflows/dictionary-nonintrusive-trace.yml"
+      - "lib/ui/startup_diagnostics.dart"
+      - "lib/main.dart"
+      - "test/startup_diagnostics_test.dart"
+  workflow_dispatch:
+jobs:
+  build-diagnostic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.35.7"
+          cache: true
+      - name: Generate native Android project
+        run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
+      - name: Isolate diagnostic APK from installed dictionary and data
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          gradle = Path("android/app/build.gradle.kts")
+          src = gradle.read_text()
+          updated, count = re.subn(
+              r'applicationId\s*=\s*"[^"]+"',
+              'applicationId = "com.xalidmuslim.bayna_dictionary.startuptrace"',
+              src, count=1)
+          assert count == 1
+          gradle.write_text(updated)
+          manifest = Path("android/app/src/main/AndroidManifest.xml")
+          source = manifest.read_text()
+          updated, count = re.subn(
+              r'android:label="[^"]+"',
+              'android:label="Байна Ядайк · Старт-тест"',
+              source, count=1)
+          assert count == 1
+          manifest.write_text(updated)
+          PY
+      - name: Install Flutter packages
+        run: flutter pub get
+      - name: Flutter analyze
+        run: flutter analyze
+      - name: Run all tests including frame trace
+        run: flutter test
+      - name: Build standalone diagnostic ARM64 APK
+        run: |
+          flutter build apk --release --target-platform android-arm64 \
+            --dart-define=BAYNA_STARTUP_TRACE=true
+      - name: Verify APK, package and checksum
+        run: |
+          test -s build/app/outputs/flutter-apk/app-release.apk
+          sha256sum build/app/outputs/flutter-apk/app-release.apk
+          "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging \
+            build/app/outputs/flutter-apk/app-release.apk \
+            | grep -F "package: name='com.xalidmuslim.bayna_dictionary.startuptrace'"
+          ls -lh build/app/outputs/flutter-apk/app-release.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dictionary-invisible-trace-arm64
+          path: build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 14
+          if-no-files-found: error
+      - name: Publish isolated direct APK in trace branch
+        run: |
+          mkdir -p dist
+          cp build/app/outputs/flutter-apk/app-release.apk /tmp/bayna-dictionary-startuptrace.apk
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
+          cp /tmp/bayna-dictionary-startuptrace.apk dist/bayna-invisible-trace.apk
+          git add dist/bayna-invisible-trace.apk
+          git diff --cached --quiet || git commit -m "build: cold-start trace APK [skip ci]"
+          git push origin "HEAD:$GITHUB_REF_NAME"
