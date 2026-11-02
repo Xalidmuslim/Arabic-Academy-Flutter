@@ -14,6 +14,14 @@ const stone = Color(0xFFF4F4F0);
 const charcoal = Color(0xFF15201E);
 const muted = Color(0xFF758681);
 
+enum DictionaryRenderMode { regular, plain, noVowels }
+
+/// Diagnostic *display only*. The stored word, references and reader stay
+/// fully vocalized; no spelling normalization or edits to corpus are applied.
+String withoutArabicVowels(String arabic) => arabic.replaceAll(
+    RegExp(r'[\u064B-\u065F\u0670\u06D6-\u06ED]'), '');
+
+
 ThemeData dictionaryTheme(bool dark) {
   final surface = dark ? const Color(0xFF202E2B) : Colors.white;
   final background = dark ? charcoal : stone;
@@ -146,6 +154,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   final tts = FlutterTts();
   final FramePerformanceMonitor frameMonitor = FramePerformanceMonitor();
   bool showFrameDiagnostics = false;
+  DictionaryRenderMode renderMode = DictionaryRenderMode.regular;
   Set<String> favorites = {}, bookmarks = {};
   int tab = 0;
   int? selectedBook;
@@ -527,6 +536,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           itemBuilder: (context, i) => WordTile(
             key: ValueKey(visible[i].id),
             word: visible[i], font: widget.font,
+            showBackground: renderMode != DictionaryRenderMode.plain,
+            showVowels: renderMode != DictionaryRenderMode.noVowels,
             favorite: favorites.contains(visible[i].id),
             onOpen: () => openWord(visible[i], all),
             onCopy: () { copy(visible[i].arabic); },
@@ -679,6 +690,35 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           'Включите, быстро прокрутите список и сделайте скриншот '
           'показателей. Диагностика выключается вместе с приложением.',
           style: TextStyle(fontSize: 12, color: muted)),
+        const SizedBox(height: 17),
+        const Text('Сравнение отрисовки',
+          style: TextStyle(fontWeight: FontWeight.w700, fontSize: 15)),
+        const SizedBox(height: 9),
+        Wrap(spacing: 7, runSpacing: 7, children: [
+          ChoiceChip(
+            key: const Key('render-mode-regular'),
+            label: const Text('Обычные'),
+            selected: renderMode == DictionaryRenderMode.regular,
+            onSelected: (_) =>
+              setState(() => renderMode = DictionaryRenderMode.regular)),
+          ChoiceChip(
+            key: const Key('render-mode-plain'),
+            label: const Text('Без фона'),
+            selected: renderMode == DictionaryRenderMode.plain,
+            onSelected: (_) =>
+              setState(() => renderMode = DictionaryRenderMode.plain)),
+          ChoiceChip(
+            key: const Key('render-mode-no-vowels'),
+            label: const Text('Без огласовок'),
+            selected: renderMode == DictionaryRenderMode.noVowels,
+            onSelected: (_) =>
+              setState(() => renderMode = DictionaryRenderMode.noVowels)),
+        ]),
+        const SizedBox(height: 8),
+        const Text(
+          'Только для диагностики списка. Слова в базе и карточке чтения '
+          'не меняются. После перезапуска возвращается обычный режим.',
+          style: TextStyle(fontSize: 12, color: muted)),
       ]),
       const SizedBox(height: 15),
       settingCard(children: const [
@@ -702,11 +742,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 class WordTile extends StatelessWidget {
   const WordTile({super.key, required this.word, required this.font,
     required this.favorite, required this.onOpen, required this.onCopy,
-    required this.onFavorite});
+    required this.onFavorite,
+    this.showBackground = true, this.showVowels = true});
   final Word word;
   final double font;
   final bool favorite;
   final VoidCallback onOpen, onCopy, onFavorite;
+  final bool showBackground, showVowels;
 
   @override Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
@@ -715,90 +757,98 @@ class WordTile extends StatelessWidget {
     final displayBook = word.bookNumber ?? reference?['book'] as int?;
     final displayChapter = word.chapterNumber ?? reference?['chapter'] as int?;
     final rounding = BorderRadius.circular(20);
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
-      child: Material(
-        color: scheme.surface,
-        borderRadius: rounding,
-        // Do not anti-alias clip every scrolling tile; the shape and ink
-        // retain the same rounded appearance without extra clip layers.
-        child: InkWell(
-          borderRadius: rounding,
-          onTap: onOpen,
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(12, 14, 16, 15),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
+    final content = Padding(
+      padding: const EdgeInsets.fromLTRB(12, 14, 16, 15),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SizedBox(
+            width: 40,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
               children: [
-                SizedBox(
-                  width: 40,
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      IconButton(
-                        tooltip: 'Копировать слово',
-                        onPressed: onCopy,
-                        padding: EdgeInsets.zero,
-                        constraints: const BoxConstraints(
-                          minWidth: 40, minHeight: 40),
-                        icon: const Icon(Icons.content_copy_rounded, size: 19)),
-                      const SizedBox(height: 7),
-                      IconButton(
-                        tooltip: 'В избранное',
-                        onPressed: onFavorite,
-                        padding: EdgeInsets.zero,
-                        constraints: const BoxConstraints(
-                          minWidth: 40, minHeight: 40),
-                        color: favorite ? scheme.primary : muted,
-                        icon: Icon(
-                          favorite ? Icons.favorite : Icons.favorite_border,
-                          size: 21)),
-                    ],
-                  ),
-                ),
-                const SizedBox(width: 14),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      Text(
-                        word.arabic,
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
-                        style: TextStyle(
-                          fontSize: font + 2,
-                          fontWeight: FontWeight.w700,
-                          height: 1.42)),
-                      const SizedBox(height: 5),
-                      Text(
-                        word.meaning,
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
-                        maxLines: 3,
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(
-                          fontSize: font - 5,
-                          height: 1.57,
-                          color: scheme.onSurface.withValues(alpha: .78))),
-                      if (displayBook != null && displayChapter != null) ...[
-                        const SizedBox(height: 9),
-                        Align(
-                          alignment: AlignmentDirectional.centerEnd,
-                          child: Text(
-                            'Книга $displayBook · Тема $displayChapter',
-                            style: TextStyle(
-                              fontSize: 12, fontWeight: FontWeight.w500,
-                              color: scheme.primary)),
-                        ),
-                      ],
-                    ],
-                  ),
-                ),
+                IconButton(
+                  tooltip: 'Копировать слово',
+                  onPressed: onCopy,
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(
+                    minWidth: 40, minHeight: 40),
+                  icon: const Icon(Icons.content_copy_rounded, size: 19)),
+                const SizedBox(height: 7),
+                IconButton(
+                  tooltip: 'В избранное',
+                  onPressed: onFavorite,
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(
+                    minWidth: 40, minHeight: 40),
+                  color: favorite ? scheme.primary : muted,
+                  icon: Icon(
+                    favorite ? Icons.favorite : Icons.favorite_border,
+                    size: 21)),
               ],
             ),
           ),
-        ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text(
+                  showVowels ? word.arabic : withoutArabicVowels(word.arabic),
+                  textDirection: TextDirection.rtl,
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    fontSize: font + 2,
+                    fontWeight: FontWeight.w700,
+                    height: 1.42)),
+                const SizedBox(height: 5),
+                Text(
+                  showVowels ? word.meaning : withoutArabicVowels(word.meaning),
+                  textDirection: TextDirection.rtl,
+                  textAlign: TextAlign.right,
+                  maxLines: 3,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    fontSize: font - 5,
+                    height: 1.57,
+                    color: scheme.onSurface.withValues(alpha: .78))),
+                if (displayBook != null && displayChapter != null) ...[
+                  const SizedBox(height: 9),
+                  Align(
+                    alignment: AlignmentDirectional.centerEnd,
+                    child: Text(
+                      'Книга $displayBook · Тема $displayChapter',
+                      style: TextStyle(
+                        fontSize: 12, fontWeight: FontWeight.w500,
+                        color: scheme.primary)),
+                  ),
+                ],
+              ],
+            ),
+          ),
+        ],
       ),
+    );
+
+    // A/B mode keeps the *same* word layouts, text sizes, actions, keys
+    // and scroll state while removing only the card's Material background.
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
+      child: showBackground
+          ? Material(
+              color: scheme.surface,
+              borderRadius: rounding,
+              child: InkWell(
+                borderRadius: rounding,
+                onTap: onOpen,
+                child: content,
+              ),
+            )
+          : GestureDetector(
+              behavior: HitTestBehavior.opaque,
+              onTap: onOpen,
+              child: content,
+            ),
     );
   }
 }
