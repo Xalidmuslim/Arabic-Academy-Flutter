@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
 import '../../core/academy_state.dart';
 import '../../core/speech.dart';
@@ -11,6 +12,7 @@ import '../../services/backend_service.dart';
 import '../../services/push_service.dart';
 import '../../ui/components.dart';
 import '../../ui/design_tokens.dart';
+import '../../ui/startup_diagnostics.dart';
 import '../integrations/phone_auth_screen.dart';
 import '../integrations/purchases_screen.dart';
 import 'notification_preferences.dart';
@@ -361,6 +363,22 @@ class SettingsScreen extends StatelessWidget {
             style: TextStyle(fontSize: 12, color: muted),
           ),
           const SizedBox(height: 16),
+          if (StartupFrameDiagnostics.enabled)
+            OutlinedButton.icon(
+              key: const ValueKey('copy-startup-trace'),
+              icon: const Icon(Icons.copy_all_outlined),
+              label: const Text('Скопировать отчёт о плавности'),
+              onPressed: () async {
+                final report = StartupFrameDiagnostics.instance.report(
+                    app: 'Байна Ядайк');
+                await Clipboard.setData(ClipboardData(text: report));
+                if (context.mounted) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Отчёт скопирован. Вставьте его в чат.')),
+                  );
+                }
+              },
+            ),
           const Text(
             'Байна Ядайк · 0.7.0',
             textAlign: TextAlign.center,
