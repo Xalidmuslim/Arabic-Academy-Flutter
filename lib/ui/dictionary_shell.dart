@@ -7,6 +7,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../core/dictionary_data.dart';
 import 'frame_performance_monitor.dart';
+import 'startup_diagnostics.dart';
 
 const emerald = Color(0xFF25776D);
 const mint = Color(0xFF82CABB);
@@ -737,6 +738,23 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           style: TextStyle(fontSize: 12, color: muted)),
       ]),
       const SizedBox(height: 15),
+      if (StartupFrameDiagnostics.enabled) ...[
+        OutlinedButton.icon(
+          key: const Key('copy-startup-trace'),
+          icon: const Icon(Icons.copy_all_outlined),
+          label: const Text('Скопировать отчёт о плавности'),
+          onPressed: () async {
+            final report = StartupFrameDiagnostics.instance.report(
+              app: 'Байна Ядайк — словарь');
+            await Clipboard.setData(ClipboardData(text: report));
+            if (!mounted) return;
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('Отчёт скопирован. Вставьте его в чат.')),
+            );
+          },
+        ),
+        const SizedBox(height: 15),
+      ],
       settingCard(children: const [
         Text('Офлайн-чтение', style: TextStyle(
           fontWeight: FontWeight.w700, fontSize: 16)),
