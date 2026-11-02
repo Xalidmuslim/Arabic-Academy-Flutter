@@ -9,6 +9,7 @@ import 'core/academy_state.dart';
 import 'core/bundled_catalog.dart';
 import 'core/performance_probe.dart';
 import 'core/touch_input_policy.dart';
+import 'ui/startup_diagnostics.dart';
 
 export 'app.dart';
 export 'core/academy_state.dart';
@@ -25,6 +26,7 @@ void main() {
   final stopwatch = PerformanceProbe.enabled ? (Stopwatch()..start()) : null;
   final binding = WidgetsFlutterBinding.ensureInitialized();
   TouchInputPolicy.initialize(binding);
+  StartupFrameDiagnostics.instance.initialize();
   if (stopwatch != null) {
     PerformanceProbe.attach(WidgetsBinding.instance, stopwatch);
   }
