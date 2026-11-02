@@ -147,13 +147,11 @@ class _StartupFrameTraceState extends State<StartupFrameTrace>
   }
 
   String _summary(String title, StartupTraceWindow bucket) {
-    if (bucket.count == 0) return title + ': нет кадров прокрутки';
+    if (bucket.count == 0) return '$title: нет кадров прокрутки';
     String fmt(double? value) => value?.toStringAsFixed(1) ?? '—';
-    return title + ': ' + bucket.count.toString() + ' к · UI ' +
-        fmt(bucket.uiP95) + ' · R ' + fmt(bucket.rasterP95) +
-        ' · Δ ' + fmt(bucket.intervalP95) + ' мс';
+    return '$title: ${bucket.count} к · UI ${fmt(bucket.uiP95)} '
+        '· R ${fmt(bucket.rasterP95)} · Δ ${fmt(bucket.intervalP95)} мс';
   }
-
   @override
   Widget build(BuildContext context) {
     final displays = WidgetsBinding.instance.platformDispatcher.displays;
@@ -173,11 +171,11 @@ class _StartupFrameTraceState extends State<StartupFrameTrace>
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 7),
               child: Text(
-                'СТАРТ/ВОЗВРАТ · экран ' + hz.toStringAsFixed(0) + ' Гц\n' +
-                _summary('Запуск 0–5', _cold[0]) + '\n' +
-                _summary('Запуск 5–10', _cold[1]) + '\n' +
-                _summary('Возврат 0–5', _resume[0]) + '\n' +
-                _summary('Возврат 5–10', _resume[1]) + '\n' +
+                'СТАРТ/ВОЗВРАТ · экран ${hz.toStringAsFixed(0)} Гц\n'
+                '${_summary('Запуск 0–5', _cold[0])}\n'
+                '${_summary('Запуск 5–10', _cold[1])}\n'
+                '${_summary('Возврат 0–5', _resume[0])}\n'
+                '${_summary('Возврат 5–10', _resume[1])}\n'
                 'Δ = интервал кадров Flutter (p95), не FPS дисплея',
                 textAlign: TextAlign.center,
                 style: const TextStyle(
