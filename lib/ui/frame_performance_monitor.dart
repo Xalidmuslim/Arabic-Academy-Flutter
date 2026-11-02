@@ -55,15 +55,41 @@ FramePerformanceReport summarizeFrameCosts(
   );
 }
 
-/// Opt-in observer. Release builds otherwise run with no timing callback.
-/// Frame timings are batched by Flutter, so this never updates per paint.
+/// Rate-limits the diagnostic widget's own invalidations. Without this,
+/// instrumenting the renderer can itself cause repeated rendering work.
+class FrameReportGate {
+  FrameReportGate(this.interval);
+  final Duration interval;
+  DateTime? _lastPublication;
+
+  bool shouldPublish(DateTime now) {
+    final last = _lastPublication;
+    if (last != null) {
+      final elapsed = now.difference(last);
+      if (!elapsed.isNegative && elapsed < interval) return false;
+    }
+    _lastPublication = now;
+    return true;
+  }
+
+  void reset() => _lastPublication = null;
+}
+
+/// Opt-in observer. In release mode no callback is installed until the
+/// user starts scrolling with diagnostics enabled. Overlay updates are
+/// throttled to avoid generating frames just to measure those frames.
 class FramePerformanceMonitor extends ValueNotifier<FramePerformanceReport> {
   FramePerformanceMonitor()
       : super(summarizeFrameCosts(const <FrameCost>[], 60));
 
   final Queue<FrameCost> _window = Queue<FrameCost>();
+  final FrameReportGate _reportGate =
+      FrameReportGate(const Duration(milliseconds: 1500));
   bool _active = false;
+  bool _sampling = false;
   static const _maxFrames = 180;
+
+  bool get isSampling => _sampling;
 
   double get displayHz {
     final displays = WidgetsBinding.instance.platformDispatcher.displays;
@@ -76,20 +102,37 @@ class FramePerformanceMonitor extends ValueNotifier<FramePerformanceReport> {
     if (_active) return;
     _active = true;
     _window.clear();
+    _reportGate.reset();
     value = summarizeFrameCosts(_window, displayHz);
-    SchedulerBinding.instance.addTimingsCallback(_onTimings);
+    // No callback until the list actually moves.
+  }
+
+  void setScrolling(bool scrolling) {
+    if (!_active || _sampling == scrolling) return;
+    _sampling = scrolling;
+    if (scrolling) {
+      SchedulerBinding.instance.addTimingsCallback(_onTimings);
+    } else {
+      SchedulerBinding.instance.removeTimingsCallback(_onTimings);
+      // Publish the final scrolling window once, while sampling is OFF.
+      // That paint cannot recursively feed another measurement.
+      if (_window.isNotEmpty) {
+        value = summarizeFrameCosts(_window, displayHz);
+      }
+    }
   }
 
   void stop() {
     if (!_active) return;
+    setScrolling(false);
     _active = false;
-    SchedulerBinding.instance.removeTimingsCallback(_onTimings);
     _window.clear();
+    _reportGate.reset();
     value = summarizeFrameCosts(_window, displayHz);
   }
 
   void _onTimings(List<FrameTiming> frames) {
-    if (!_active) return;
+    if (!_sampling || frames.isEmpty) return;
     for (final frame in frames) {
       _window.add(FrameCost(
         buildMicros: frame.buildDuration.inMicroseconds,
@@ -97,7 +140,8 @@ class FramePerformanceMonitor extends ValueNotifier<FramePerformanceReport> {
       ));
       if (_window.length > _maxFrames) _window.removeFirst();
     }
-    if (frames.isNotEmpty) {
+    // At most one panel refresh per 1.5 s during active scrolling.
+    if (_reportGate.shouldPublish(DateTime.now())) {
       value = summarizeFrameCosts(_window, displayHz);
     }
   }
