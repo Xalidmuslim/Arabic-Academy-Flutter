@@ -9,6 +9,7 @@ import 'core/academy_state.dart';
 import 'core/bundled_catalog.dart';
 import 'core/performance_probe.dart';
 import 'core/touch_input_policy.dart';
+import 'ui/startup_frame_trace.dart';
 
 export 'app.dart';
 export 'core/academy_state.dart';
@@ -36,7 +37,9 @@ void main() {
     statusBarIconBrightness: Brightness.dark,
     systemNavigationBarIconBrightness: Brightness.dark,
   ));
-  runApp(const AcademyBootstrap());
+  runApp(startupTraceEnabled
+      ? const StartupFrameTrace(child: AcademyBootstrap())
+      : const AcademyBootstrap());
 }
 
 class AcademyBootstrap extends StatefulWidget {
