@@ -33,4 +33,30 @@ void main() {
     expect(report.overBudgetPercent, 0);
     expect(report.samples, 2);
   });
+  test('report gate cannot invalidate overlay on every received frame batch', () {
+    final gate = FrameReportGate(const Duration(milliseconds: 1500));
+    final start = DateTime.utc(2026, 11, 2);
+    expect(gate.shouldPublish(start), isTrue);
+    expect(gate.shouldPublish(start.add(const Duration(milliseconds: 100))), isFalse);
+    expect(gate.shouldPublish(start.add(const Duration(milliseconds: 1499))), isFalse);
+    expect(gate.shouldPublish(start.add(const Duration(milliseconds: 1500))), isTrue);
+    gate.reset();
+    expect(gate.shouldPublish(start.add(const Duration(milliseconds: 1700))), isTrue);
+  });
+
+  testWidgets('frame diagnostics sample only while a list is scrolling',
+      (tester) async {
+    final monitor = FramePerformanceMonitor();
+    addTearDown(monitor.dispose);
+    monitor.start();
+    expect(monitor.isSampling, isFalse);
+    monitor.setScrolling(true);
+    expect(monitor.isSampling, isTrue);
+    monitor.setScrolling(false);
+    expect(monitor.isSampling, isFalse);
+    expect(monitor.value.samples, 0);
+    monitor.stop();
+    expect(monitor.isSampling, isFalse);
+  });
+
 }
