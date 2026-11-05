@@ -1,0 +1,41 @@
+name: Publish Bayna dictionary diagnostic APK direct links
+on:
+  push:
+    branches: [codex/bayna-dictionary-scroll-cadence-20261105]
+    paths: ['.github/workflows/dictionary-cadence-direct-download.yml']
+  workflow_dispatch:
+jobs:
+  diagnostic-release:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download verified APKs from successful Android release build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/bayna-impeller /tmp/bayna-skia dist
+          gh run download 41989259365 --repo "$GITHUB_REPOSITORY" --name bayna-dictionary-cadence-impeller --dir /tmp/bayna-impeller
+          gh run download 41989259365 --repo "$GITHUB_REPOSITORY" --name bayna-dictionary-cadence-skia --dir /tmp/bayna-skia
+          install -m 644 /tmp/bayna-impeller/app-release.apk dist/bayna-cadence-impeller-20261105.apk
+          install -m 644 /tmp/bayna-skia/app-release.apk dist/bayna-cadence-skia-20261105.apk
+          test -s dist/bayna-cadence-impeller-20261105.apk
+          test -s dist/bayna-cadence-skia-20261105.apk
+          sha256sum dist/*.apk
+      - name: Publish standalone direct-download URLs as GitHub pre-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh release create bayna-cadence-diagnostic-20261105 \
+            dist/bayna-cadence-impeller-20261105.apk \
+            dist/bayna-cadence-skia-20261105.apk \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --prerelease \
+            --title "Bayna dictionary - scroll cadence A/B diagnostics (not production)" \
+            --notes "Diagnostic Android ARM64 APKs only. Impeller vs Skia. Both use a separate applicationId and do not replace the installed dictionary. Neither is a verified 120 FPS fix. Source branch: codex/bayna-dictionary-scroll-cadence-20261105."
+          gh release view bayna-cadence-diagnostic-20261105 --repo "$GITHUB_REPOSITORY" --json assets,url
