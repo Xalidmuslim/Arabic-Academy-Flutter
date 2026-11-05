@@ -679,6 +679,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       FramePerformanceReport>(
     valueListenable: frameMonitor,
     builder: (context, report, _) {
+      final sufficient = report.cadenceIntervals >= 10;
+      final fps = sufficient && report.cadenceFps != null
+          ? report.cadenceFps!.toStringAsFixed(0) : '—';
+      final interval = sufficient && report.cadenceP95Ms != null
+          ? report.cadenceP95Ms!.toStringAsFixed(1) : '—';
+      final longGaps = sufficient && report.longGapPercent != null
+          ? report.longGapPercent!.toStringAsFixed(0) : '—';
       return DecoratedBox(
         decoration: BoxDecoration(
           color: const Color(0xE91D2A27),
@@ -691,17 +698,22 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             children: [
               Text(
                 'Экран: ${report.displayHz.toStringAsFixed(0)} Гц · '
-                'бюджет: ${report.frameBudgetMs.toStringAsFixed(1)} мс',
+                'Flutter: $fps кадров/с',
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   color: Colors.white, fontSize: 12,
                   fontWeight: FontWeight.w700)),
               Text(
+                'Интервал p95: $interval мс · длинных: $longGaps%',
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: Color(0xFFDAE8E2), fontSize: 11)),
+              Text(
                 report.samples == 0
                   ? 'Прокрутите список — ожидаем данные Flutter'
-                  : 'UI p95: ${report.uiP95Ms.toStringAsFixed(1)} мс · '
-                    'Raster p95: ${report.rasterP95Ms.toStringAsFixed(1)} мс · '
-                    'выше бюджета: ${report.overBudgetPercent.toStringAsFixed(0)}%',
+                  : 'UI: ${report.uiP95Ms.toStringAsFixed(1)} · '
+                    'Raster: ${report.rasterP95Ms.toStringAsFixed(1)} мс · '
+                    '> бюджета: ${report.overBudgetPercent.toStringAsFixed(0)}%',
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   color: Color(0xFFDAE8E2), fontSize: 11)),
@@ -773,9 +785,39 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           onChanged: setFrameDiagnostics,
         ),
         const Text(
-          'Включите, быстро прокрутите список и сделайте скриншот '
-          'показателей. Диагностика выключается вместе с приложением.',
+          '120 Гц — это частота дисплея, не FPS приложения. Flutter показывает '
+          'интервалы между кадрами движка, а не момент их вывода Android.',
           style: TextStyle(fontSize: 12, color: muted)),
+        const SizedBox(height: 9),
+        OutlinedButton.icon(
+          key: const Key('copy-cadence-report'),
+          icon: const Icon(Icons.copy_all_outlined),
+          label: const Text('Скопировать отчёт прокрутки'),
+          onPressed: () async {
+            final report = frameMonitor.value;
+            String fmt(double? value) =>
+                value == null ? 'недостаточно данных' : value.toStringAsFixed(2);
+            final diagnostic = [
+              'Байна Ядайк — прокрутка Flutter',
+              'Дисплей: ${report.displayHz.toStringAsFixed(1)} Гц',
+              'Бюджет: ${report.frameBudgetMs.toStringAsFixed(2)} мс',
+              'Кадры Flutter (оценка, НЕ FPS SurfaceFlinger): '
+                  '${fmt(report.cadenceFps)} кадров/с',
+              'Интервал кадра p95: ${fmt(report.cadenceP95Ms)} мс',
+              'Длинные vsync интервалы: ${fmt(report.longGapPercent)}%',
+              'Интервалы: ${report.cadenceIntervals}; '
+                  'выборка: ${report.samples}',
+              'UI p95: ${report.uiP95Ms.toStringAsFixed(2)} мс',
+              'Raster p95: ${report.rasterP95Ms.toStringAsFixed(2)} мс',
+              'Доля кадров с превышением бюджета фаз: '
+                  '${report.overBudgetPercent.toStringAsFixed(1)}%',
+            ].join('\n');
+            await Clipboard.setData(ClipboardData(text: diagnostic));
+            if (!mounted) return;
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('Отчёт прокрутки скопирован')));
+          },
+        ),
         const SizedBox(height: 17),
         const Text('Сравнение отрисовки',
           style: TextStyle(fontWeight: FontWeight.w700, fontSize: 15)),
