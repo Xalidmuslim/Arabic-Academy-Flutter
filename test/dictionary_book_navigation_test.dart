@@ -33,7 +33,7 @@ void main() {
     });
   });
 
-  testWidgets('Select volume then topic, switch volumes without stale filter',
+  testWidgets('Select volume then topic, switch volumes without stale state',
       (tester) async {
     await tester.pumpWidget(DictionaryApp(previewWords: [
       lessonWord('a', 1, 1),
@@ -42,20 +42,20 @@ void main() {
     ]));
     await tester.pumpAndSettle();
 
-    await tester.tap(find.byKey(const Key('book-selector')));
+    await tester.tap(find.byKey(const Key('volume-2')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Том 2').last);
+    await tester.tap(find.byKey(const Key('chapter-2-1')));
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
     expect(find.text('كَلِمَةٌ c'), findsOneWidget);
 
-    await tester.tap(find.byKey(const Key('book-selector')));
+    await tester.binding.handlePopRoute();
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Том 1').last);
+    await tester.binding.handlePopRoute();
     await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const Key('chapter-selector')));
+    await tester.tap(find.byKey(const Key('volume-1')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Тема 2').last);
+    await tester.tap(find.byKey(const Key('chapter-1-2')));
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
     expect(find.text('كَلِمَةٌ b'), findsOneWidget);
