@@ -126,8 +126,8 @@ class DictionaryNav extends StatelessWidget {
     destinations: const [
       NavigationDestination(icon: Icon(Icons.menu_book_outlined),
         selectedIcon: Icon(Icons.menu_book_rounded), label: 'Словарь'),
-      NavigationDestination(icon: Icon(Icons.favorite_border_rounded),
-        selectedIcon: Icon(Icons.favorite_rounded), label: 'Избранное'),
+      NavigationDestination(icon: Icon(Icons.search_outlined),
+        selectedIcon: Icon(Icons.search_rounded), label: 'Поиск'),
       NavigationDestination(icon: Icon(Icons.bookmark_border_rounded),
         selectedIcon: Icon(Icons.bookmark_rounded), label: 'Закладки'),
       NavigationDestination(icon: Icon(Icons.tune_rounded),
@@ -150,6 +150,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   late final Future<List<Word>> future = loadWords();
   final search = TextEditingController();
   final wordScroll = ScrollController();
+  final searchScroll = ScrollController();
   final favoriteScroll = ScrollController();
   final bookmarkScroll = ScrollController();
   final tts = FlutterTts();
@@ -160,6 +161,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   int tab = 0;
   int? selectedBook;
   int? selectedChapter;
+  bool showAllWords = false;
+  bool showFavorites = false;
   List<Word>? _cachedSource;
   List<Word>? _orderedWords;
   List<Word>? _visibleWords;
@@ -180,7 +183,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       };
       _visibleWords = null;
     }
-    final query = normalizeArabic(search.text);
+    // Book/topic browsing stays independent from the dedicated search tab.
+    const query = '';
     if (_visibleWords != null &&
         query == _visibleQuery &&
         selectedBook == _visibleBook &&
@@ -202,19 +206,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     _visibleChapter = selectedChapter;
     _visibleWords = visible;
     return visible;
-  }
-
-  void chooseBook(int? book) {
-    setState(() {
-      selectedBook = book;
-      selectedChapter = null;
-    });
-    if (wordScroll.hasClients) wordScroll.jumpTo(0);
-  }
-
-  void chooseChapter(int? chapter) {
-    setState(() => selectedChapter = chapter);
-    if (wordScroll.hasClients) wordScroll.jumpTo(0);
   }
 
   Future<List<Word>> loadWords() async {
@@ -260,6 +251,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     search.removeListener(onSearch);
     search.dispose();
     wordScroll.dispose();
+    searchScroll.dispose();
     favoriteScroll.dispose();
     bookmarkScroll.dispose();
     tts.stop();
@@ -346,6 +338,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         if (didPop) return;
         if (tab != 0) {
           setState(() => tab = 0);
+        } else if (selectedChapter != null) {
+          setState(() => selectedChapter = null);
+        } else if (selectedBook != null || showAllWords) {
+          setState(() {
+            selectedBook = null;
+            showAllWords = false;
+          });
         } else {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(content: Text('Вы на главном экране словаря'),
@@ -385,12 +384,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             return Stack(children: [
               IndexedStack(index: tab, children: [
               dictionaryTab(all),
-              collectionTab(all, favorites, 'Избранные слова',
-                'Сохранено сердечком', favoriteScroll,
-                const Key('favorites-scroll-list'), Icons.favorite_border),
-              collectionTab(all, bookmarks, 'Закладки',
-                'Слова для быстрого возвращения', bookmarkScroll,
-                const Key('bookmarks-scroll-list'), Icons.bookmark_border),
+              searchTab(all),
+              savedTab(all),
               settingsTab(),
               ]),
               if (showFrameDiagnostics)
@@ -405,163 +400,237 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       ));
   }
 
-  Widget dictionaryTab(List<Word> all) {
-    final visible = visibleWords(all);
-    return NotificationListener<ScrollNotification>(
-      onNotification: (notification) {
-        if (!showFrameDiagnostics || notification.depth != 0) {
+  Widget trackDictionaryScroll(Widget child) =>
+      NotificationListener<ScrollNotification>(
+        onNotification: (notification) {
+          if (!showFrameDiagnostics || notification.depth != 0) return false;
+          if (notification is ScrollStartNotification) {
+            frameMonitor.setScrolling(true);
+          } else if (notification is ScrollEndNotification) {
+            frameMonitor.setScrolling(false);
+          }
           return false;
-        }
-        if (notification is ScrollStartNotification) {
-          frameMonitor.setScrolling(true);
-        } else if (notification is ScrollEndNotification) {
-          frameMonitor.setScrolling(false);
-        }
-        return false;
-      },
-      child: CustomScrollView(
-      key: const Key('dictionary-scroll-list'),
-      controller: wordScroll,
-      cacheExtent: 180,
-      keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
-      slivers: [
-        SliverToBoxAdapter(child: Padding(
-          padding: const EdgeInsets.fromLTRB(17, 10, 17, 15),
-          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(23),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(26),
-                color: Theme.of(context).brightness == Brightness.dark
-                  ? const Color(0xFF20443F) : const Color(0xFFE0EEE8)),
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text('АРАБО-АРАБСКИЙ СЛОВАРЬ',
-                  style: TextStyle(fontSize: 10, letterSpacing: 1,
-                    fontWeight: FontWeight.w800,
-                    color: Theme.of(context).colorScheme.primary)),
-                const SizedBox(height: 6),
-                Text('مُعْجَمُ الْعَرَبِيَّةِ',
-                  textDirection: TextDirection.rtl,
-                  style: TextStyle(fontSize: widget.font + 8,
-                    fontWeight: FontWeight.w700, height: 1.75)),
-                Text('${all.length} статей · 7 разделов · Без интернета',
-                  style: const TextStyle(fontSize: 12, color: muted)),
+        },
+        child: child,
+      );
+
+  Widget dictionaryTab(List<Word> all) {
+    // Initialize sorted words and chapter references once per corpus.
+    visibleWords(all);
+    final books = _bookChapters;
+    if (showAllWords || (selectedBook != null && selectedChapter != null)) {
+      final words = visibleWords(all);
+      return trackDictionaryScroll(CustomScrollView(
+        key: const Key('dictionary-scroll-list'),
+        controller: wordScroll,
+        cacheExtent: 180,
+        slivers: [
+          SliverToBoxAdapter(child: Padding(
+            padding: const EdgeInsets.fromLTRB(16, 15, 16, 10),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Row(children: [
+                IconButton(
+                  tooltip: showAllWords ? 'К томам' : 'К темам',
+                  icon: const Icon(Icons.arrow_back_rounded),
+                  onPressed: () => setState(() {
+                    if (showAllWords) showAllWords = false;
+                    selectedChapter = null;
+                  })),
+                Expanded(child: Text(
+                  showAllWords ? 'Весь словарь' : 'Том $selectedBook · Тема $selectedChapter',
+                  style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w800))),
               ]),
-            ),
-            const SizedBox(height: 18),
-            TextField(
-              key: const Key('arabic-search'), controller: search,
+              const SizedBox(height: 4),
+              Text('${words.length} слов', style: const TextStyle(color: muted)),
+              if (!showAllWords) const Padding(
+                padding: EdgeInsets.only(top: 8),
+                child: Text('Привязки к учебнику требуют сверки с оригиналом.',
+                  style: TextStyle(fontSize: 11, color: muted))),
+            ]))),
+          SliverList.builder(
+            addAutomaticKeepAlives: false,
+            addRepaintBoundaries: true,
+            itemCount: words.length,
+            itemBuilder: (context, i) => WordTile(
+              key: ValueKey(words[i].id),
+              word: words[i], font: widget.font,
+              showBackground: renderMode != DictionaryRenderMode.plain,
+              showVowels: renderMode != DictionaryRenderMode.noVowels,
+              favorite: favorites.contains(words[i].id),
+              onOpen: () => openWord(words[i], all),
+              onCopy: () { copy(words[i].arabic); },
+              onFavorite: () { toggleFavorite(words[i].id); })),
+          const SliverToBoxAdapter(child: SizedBox(height: 25)),
+        ],
+      ));
+    }
+
+    if (selectedBook != null) {
+      final numbers = books[selectedBook!] ?? const <int>[];
+      return ListView(
+        key: const Key('chapter-list'),
+        padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
+        children: [
+          Row(children: [
+            IconButton(
+              tooltip: 'К томам',
+              onPressed: () => setState(() => selectedBook = null),
+              icon: const Icon(Icons.arrow_back_rounded)),
+            Text('Том $selectedBook',
+              style: const TextStyle(fontSize: 25, fontWeight: FontWeight.w800)),
+          ]),
+          const Padding(
+            padding: EdgeInsets.fromLTRB(9, 0, 9, 12),
+            child: Text('Выберите тему. Отображаются только темы с привязками слов.',
+              style: TextStyle(color: muted, fontSize: 13))),
+          for (final chapter in numbers)
+            Card(child: ListTile(
+              key: ValueKey('chapter-$selectedBook-$chapter'),
+              leading: const Icon(Icons.folder_open_outlined),
+              title: Text('Тема $chapter'),
+              subtitle: Text('${all.where((word) => word.isInChapter(selectedBook!, chapter)).length} слов'),
+              trailing: const Icon(Icons.chevron_right_rounded),
+              onTap: () => setState(() {
+                selectedChapter = chapter;
+                if (wordScroll.hasClients) wordScroll.jumpTo(0);
+              }))),
+        ],
+      );
+    }
+
+    final bookNumbers = books.keys.toList()..sort();
+    return ListView(
+      key: const Key('volume-list'),
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 30),
+      children: [
+        Container(
+          padding: const EdgeInsets.all(22),
+          decoration: BoxDecoration(
+            color: Theme.of(context).brightness == Brightness.dark
+                ? const Color(0xFF20443F) : const Color(0xFFE0EEE8),
+            borderRadius: BorderRadius.circular(24)),
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            const Text('АРАБО-АРАБСКИЙ СЛОВАРЬ',
+              style: TextStyle(fontWeight: FontWeight.w800, letterSpacing: 1,
+                fontSize: 10)),
+            const SizedBox(height: 7),
+            Text('مُعْجَمُ الْعَرَبِيَّةِ',
               textDirection: TextDirection.rtl,
-              style: TextStyle(fontSize: widget.font),
-              decoration: InputDecoration(
-                hintText: 'ابْحَثْ عَنْ كَلِمَةٍ',
-                hintTextDirection: TextDirection.rtl,
-                prefixIcon: const Icon(Icons.search_rounded),
-                suffixIcon: search.text.isEmpty ? null : IconButton(
-                  tooltip: 'Очистить',
-                  onPressed: search.clear,
-                  icon: const Icon(Icons.close_rounded)))),
-            const SizedBox(height: 11),
-            Text('${visible.length} слов', style: const TextStyle(
-              fontSize: 15, fontWeight: FontWeight.w700)),
-            const SizedBox(height: 5),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Expanded(child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Padding(
-                      padding: EdgeInsets.only(left: 3, bottom: 7),
-                      child: Text('Том',
-                        style: TextStyle(fontSize: 13, color: muted))),
-                    Container(
-                      height: 54,
-                      padding: const EdgeInsets.symmetric(horizontal: 14),
-                      decoration: BoxDecoration(
-                        color: Theme.of(context).colorScheme.surface,
-                        borderRadius: BorderRadius.circular(17)),
-                      child: DropdownButton<int?>(
-                        key: const Key('book-selector'),
-                        value: selectedBook,
-                        hint: const Text('Все тома'),
-                        underline: const SizedBox.shrink(),
-                        isExpanded: true,
-                        style: TextStyle(fontSize: 16,
-                          color: Theme.of(context).colorScheme.onSurface),
-                        items: [
-                          const DropdownMenuItem<int?>(
-                            value: null, child: Text('Все тома')),
-                          for (final book in _bookChapters.keys)
-                            DropdownMenuItem<int?>(
-                              value: book, child: Text('Том $book')),
-                        ],
-                        onChanged: chooseBook,
-                      ),
-                    ),
-                  ],
-                )),
-                const SizedBox(width: 12),
-                Expanded(child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Padding(
-                      padding: EdgeInsets.only(left: 3, bottom: 7),
-                      child: Text('Раздел',
-                        style: TextStyle(fontSize: 13, color: muted))),
-                    Container(
-                      height: 54,
-                      padding: const EdgeInsets.symmetric(horizontal: 14),
-                      decoration: BoxDecoration(
-                        color: Theme.of(context).colorScheme.surface,
-                        borderRadius: BorderRadius.circular(17)),
-                      child: DropdownButton<int?>(
-                        key: const Key('chapter-selector'),
-                        value: selectedChapter,
-                        hint: const Text('Все темы'),
-                        underline: const SizedBox.shrink(),
-                        isExpanded: true,
-                        style: TextStyle(fontSize: 16,
-                          color: Theme.of(context).colorScheme.onSurface),
-                        disabledHint: const Text('Выберите том',
-                          maxLines: 1, overflow: TextOverflow.ellipsis),
-                        items: [
-                          const DropdownMenuItem<int?>(
-                            value: null, child: Text('Все темы')),
-                          for (final chapter in _bookChapters[selectedBook] ??
-                              const <int>[])
-                            DropdownMenuItem<int?>(
-                              value: chapter, child: Text('Тема $chapter')),
-                        ],
-                        onChanged: selectedBook == null ? null : chooseChapter,
-                      ),
-                    ),
-                  ],
-                )),
-              ],
-            ),
-            const SizedBox(height: 6),
-            const Text('Разделы содержат словарные статьи; тексты диалогов не включены.',
-              style: TextStyle(color: muted, fontSize: 11)),
-          ]))),
-        SliverList.builder(
-          addAutomaticKeepAlives: false,
-          addRepaintBoundaries: true,
-          itemCount: visible.length,
-          itemBuilder: (context, i) => WordTile(
-            key: ValueKey(visible[i].id),
-            word: visible[i], font: widget.font,
-            showBackground: renderMode != DictionaryRenderMode.plain,
-            showVowels: renderMode != DictionaryRenderMode.noVowels,
-            favorite: favorites.contains(visible[i].id),
-            onOpen: () => openWord(visible[i], all),
-            onCopy: () { copy(visible[i].arabic); },
-            onFavorite: () { toggleFavorite(visible[i].id); })),
-        const SliverToBoxAdapter(child: SizedBox(height: 25)),
-      ]),
+              style: TextStyle(fontSize: widget.font + 6,
+                height: 1.6, fontWeight: FontWeight.bold)),
+            Text('${all.length} статей · Офлайн',
+              style: const TextStyle(fontSize: 13, color: muted)),
+          ])),
+        const SizedBox(height: 16),
+        Card(child: ListTile(
+          key: const Key('all-words-tile'),
+          leading: const Icon(Icons.auto_stories_outlined),
+          title: const Text('Весь словарь'),
+          subtitle: Text('${all.length} слов, включая новые тематические разделы'),
+          trailing: const Icon(Icons.chevron_right_rounded),
+          onTap: () => setState(() {
+            showAllWords = true;
+            selectedBook = null;
+            selectedChapter = null;
+            if (wordScroll.hasClients) wordScroll.jumpTo(0);
+          }))),
+        const Padding(
+          padding: EdgeInsets.fromLTRB(5, 17, 5, 5),
+          child: Text('Тома учебника',
+            style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800))),
+        const Padding(
+          padding: EdgeInsets.fromLTRB(5, 0, 5, 7),
+          child: Text('Только разделы, для которых есть ссылки на темы.',
+            style: TextStyle(color: muted, fontSize: 12))),
+        for (final book in bookNumbers)
+          Card(child: ListTile(
+            key: ValueKey('volume-$book'),
+            leading: const Icon(Icons.menu_book_outlined),
+            title: Text('Том $book'),
+            subtitle: Text('${books[book]!.length} тем'),
+            trailing: const Icon(Icons.chevron_right_rounded),
+            onTap: () => setState(() {
+              selectedBook = book;
+              selectedChapter = null;
+              showAllWords = false;
+            }))),
+      ],
     );
   }
+
+  Widget searchTab(List<Word> all) {
+    final query = normalizeArabic(search.text);
+    visibleWords(all);
+    final matches = query.isEmpty
+        ? <Word>[]
+        : _orderedWords!.where((word) =>
+            _searchContents[word]!.contains(query)).toList(growable: false);
+    final visible = matches;
+    return Column(children: [
+      Padding(
+        padding: const EdgeInsets.fromLTRB(16, 20, 16, 10),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          const Text('Поиск по словарю',
+            style: TextStyle(fontSize: 25, fontWeight: FontWeight.w800)),
+          const SizedBox(height: 12),
+          TextField(
+            key: const Key('arabic-search'),
+            controller: search,
+            textDirection: TextDirection.rtl,
+            style: TextStyle(fontSize: widget.font),
+            decoration: InputDecoration(
+              hintText: 'ابْحَثْ عَنْ كَلِمَةٍ',
+              hintTextDirection: TextDirection.rtl,
+              prefixIcon: const Icon(Icons.search_rounded),
+              suffixIcon: search.text.isEmpty ? null : IconButton(
+                tooltip: 'Очистить поиск',
+                onPressed: search.clear,
+                icon: const Icon(Icons.close_rounded)))),
+          const SizedBox(height: 7),
+          Text(query.isEmpty
+              ? 'Ищите по арабскому слову или его объяснению.'
+              : '${matches.length} результатов${matches.length > visible.length ? ' · показаны первые ${visible.length}' : ''}',
+              style: const TextStyle(color: muted, fontSize: 12)),
+        ])),
+      Expanded(child: query.isEmpty
+          ? const Center(child: Icon(Icons.manage_search_rounded,
+              size: 60, color: muted))
+          : ListView.builder(
+              key: const Key('search-results-list'),
+              controller: searchScroll,
+              keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+              itemCount: visible.length,
+              itemBuilder: (context, i) => WordTile(
+                key: ValueKey('search-${visible[i].id}'),
+                word: visible[i], font: widget.font,
+                favorite: favorites.contains(visible[i].id),
+                onOpen: () => openWord(visible[i], all),
+                onCopy: () { copy(visible[i].arabic); },
+                onFavorite: () { toggleFavorite(visible[i].id); })))),
+    ]);
+  }
+
+  Widget savedTab(List<Word> all) => Column(children: [
+    Padding(
+      padding: const EdgeInsets.fromLTRB(16, 16, 16, 3),
+      child: SegmentedButton<bool>(
+        segments: const [
+          ButtonSegment(value: false,
+            label: Text('Закладки'), icon: Icon(Icons.bookmark_outline)),
+          ButtonSegment(value: true,
+            label: Text('Избранное'), icon: Icon(Icons.favorite_border)),
+        ],
+        selected: {showFavorites},
+        onSelectionChanged: (values) =>
+            setState(() => showFavorites = values.first))),
+    Expanded(child: showFavorites
+        ? collectionTab(all, favorites, 'Избранные слова',
+            'Сохранено сердечком', favoriteScroll,
+            const Key('favorites-scroll-list'), Icons.favorite_border)
+        : collectionTab(all, bookmarks, 'Закладки',
+            'Слова для быстрого возвращения', bookmarkScroll,
+            const Key('bookmarks-scroll-list'), Icons.bookmark_border)),
+  ]);
 
   Widget collectionTab(List<Word> all, Set<String> ids,
       String title, String subtitle, ScrollController controller,
@@ -797,7 +866,7 @@ class WordTile extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(
-            width: 40,
+            width: 48,
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
@@ -806,7 +875,7 @@ class WordTile extends StatelessWidget {
                   onPressed: onCopy,
                   padding: EdgeInsets.zero,
                   constraints: const BoxConstraints(
-                    minWidth: 40, minHeight: 40),
+                    minWidth: 48, minHeight: 48),
                   icon: const Icon(Icons.content_copy_rounded, size: 19)),
                 const SizedBox(height: 7),
                 IconButton(
@@ -814,7 +883,7 @@ class WordTile extends StatelessWidget {
                   onPressed: onFavorite,
                   padding: EdgeInsets.zero,
                   constraints: const BoxConstraints(
-                    minWidth: 40, minHeight: 40),
+                    minWidth: 48, minHeight: 48),
                   color: favorite ? scheme.primary : muted,
                   icon: Icon(
                     favorite ? Icons.favorite : Icons.favorite_border,
