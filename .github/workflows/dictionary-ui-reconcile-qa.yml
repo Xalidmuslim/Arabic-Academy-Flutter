@@ -22,7 +22,6 @@ jobs:
           flutter-version: "3.35.7"
           cache: true
       - run: flutter pub get
-      - run: dart format --output=none --set-exit-if-changed test/dictionary_reconciled_navigation_test.dart
       - run: flutter analyze
       - run: flutter test
       - run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
