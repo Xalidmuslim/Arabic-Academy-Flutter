@@ -606,7 +606,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 favorite: favorites.contains(visible[i].id),
                 onOpen: () => openWord(visible[i], all),
                 onCopy: () { copy(visible[i].arabic); },
-                onFavorite: () { toggleFavorite(visible[i].id); })))),
+                onFavorite: () { toggleFavorite(visible[i].id); }))),
     ]);
   }
 
