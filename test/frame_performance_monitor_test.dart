@@ -33,6 +33,58 @@ void main() {
     expect(report.overBudgetPercent, 0);
     expect(report.samples, 2);
   });
+  test('120Hz stream with an 8.33ms vsync gap reports near 120 Flutter frames per second', () {
+    final report = summarizeFrameCosts(const [
+      FrameCost(buildMicros: 2000, rasterMicros: 3000, vsyncMicros: 100000),
+      FrameCost(buildMicros: 2000, rasterMicros: 3000, vsyncMicros: 108333),
+      FrameCost(buildMicros: 2000, rasterMicros: 3000, vsyncMicros: 116667),
+      FrameCost(buildMicros: 2000, rasterMicros: 3000, vsyncMicros: 125000),
+    ], 120);
+    expect(report.cadenceIntervals, 3);
+    expect(report.cadenceFps, closeTo(120, 0.2));
+    expect(report.cadenceP95Ms, closeTo(8.334, 0.01));
+    expect(report.longGapPercent, 0);
+  });
+
+  test('120Hz display with a steady 16.67ms Flutter cadence reveals 60fps', () {
+    final report = summarizeFrameCosts(const [
+      FrameCost(buildMicros: 3000, rasterMicros: 4000, vsyncMicros: 100000),
+      FrameCost(buildMicros: 3000, rasterMicros: 4000, vsyncMicros: 116667),
+      FrameCost(buildMicros: 3000, rasterMicros: 4000, vsyncMicros: 133334),
+      FrameCost(buildMicros: 3000, rasterMicros: 4000, vsyncMicros: 150001),
+    ], 120);
+    expect(report.overBudgetPercent, 0);
+    expect(report.cadenceFps, closeTo(60, 0.2));
+    expect(report.cadenceP95Ms, closeTo(16.667, 0.01));
+    expect(report.longGapPercent, 100);
+  });
+
+  test('an idle gap is excluded so a short pause does not fabricate low FPS', () {
+    final report = summarizeFrameCosts(const [
+      FrameCost(buildMicros: 1000, rasterMicros: 1000, vsyncMicros: 0),
+      FrameCost(buildMicros: 1000, rasterMicros: 1000, vsyncMicros: 8333),
+      FrameCost(buildMicros: 1000, rasterMicros: 1000, vsyncMicros: 500000),
+      FrameCost(buildMicros: 1000, rasterMicros: 1000, vsyncMicros: 508333),
+    ], 120);
+    expect(report.cadenceIntervals, 2);
+    expect(report.cadenceFps, closeTo(120, .2));
+    expect(report.longGapPercent, 0);
+  });
+
+  test('no timestamps and duplicate timestamps never pretend to measure fps', () {
+    final empty = summarizeFrameCosts(const [
+      FrameCost(buildMicros: 1000, rasterMicros: 1000),
+    ], 120);
+    expect(empty.cadenceIntervals, 0);
+    expect(empty.cadenceFps, isNull);
+    final repeated = summarizeFrameCosts(const [
+      FrameCost(buildMicros: 1000, rasterMicros: 1000, vsyncMicros: 100000),
+      FrameCost(buildMicros: 1000, rasterMicros: 1000, vsyncMicros: 100000),
+    ], 120);
+    expect(repeated.cadenceIntervals, 0);
+    expect(repeated.cadenceFps, isNull);
+  });
+
   test('report gate cannot invalidate overlay on every received frame batch', () {
     final gate = FrameReportGate(const Duration(milliseconds: 1500));
     final start = DateTime.utc(2026, 11, 2);

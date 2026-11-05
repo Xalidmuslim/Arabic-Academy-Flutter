@@ -1,4 +1,5 @@
 import 'dart:collection';
+import 'dart:ui' as ui;
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/widgets.dart';
 
@@ -6,9 +7,15 @@ import 'package:flutter/widgets.dart';
 /// refresh rate is reported by Android to the Flutter view, not a forced FPS.
 @immutable
 class FrameCost {
-  const FrameCost({required this.buildMicros, required this.rasterMicros});
+  const FrameCost({
+    required this.buildMicros,
+    required this.rasterMicros,
+    this.vsyncMicros,
+  });
   final int buildMicros;
   final int rasterMicros;
+  /// Raw Flutter frame-vsync timestamp; does not indicate Android presentation.
+  final int? vsyncMicros;
 }
 
 @immutable
@@ -19,12 +26,23 @@ class FramePerformanceReport {
     required this.uiP95Ms,
     required this.rasterP95Ms,
     required this.overBudgetPercent,
+    this.cadenceFps,
+    this.cadenceP95Ms,
+    this.longGapPercent,
+    this.cadenceIntervals = 0,
   });
   final double displayHz;
   final int samples;
   final double uiP95Ms;
   final double rasterP95Ms;
   final double overBudgetPercent;
+  /// Average Flutter-produced frame spacing during continuous scrolling.
+  /// This is NOT measured SurfaceFlinger presentation FPS.
+  final double? cadenceFps;
+  final double? cadenceP95Ms;
+  /// Percentage of Flutter frame-vsync gaps exceeding 1.5 display periods.
+  final double? longGapPercent;
+  final int cadenceIntervals;
 
   double get frameBudgetMs => 1000 / displayHz;
 }
@@ -46,12 +64,47 @@ FramePerformanceReport summarizeFrameCosts(
   final budgetUs = 1000000 / hz;
   final over = data.where((s) =>
       s.buildMicros > budgetUs || s.rasterMicros > budgetUs).length;
+
+  // Frame build and raster costs can both be low when the engine only
+  // produces a frame every *other* 120Hz vsync. Compare consecutive
+  // Flutter vsync timestamps independently of build/raster costs.
+  final gaps = <int>[];
+  int? previousVsync;
+  var longGaps = 0;
+  var totalGapMicros = 0;
+  for (final sample in data) {
+    final vsync = sample.vsyncMicros;
+    if (vsync == null) continue;
+    if (previousVsync != null) {
+      final gap = vsync - previousVsync;
+      // Ignore duplicate/non-monotonic stamps and long idle pauses.
+      // Long stalls beyond this limit are not silently classified as FPS.
+      if (gap > 0 && gap <= 100000) {
+        gaps.add(gap);
+        totalGapMicros += gap;
+        if (gap > 1.5 * budgetUs) longGaps++;
+      }
+    }
+    previousVsync = vsync;
+  }
+  gaps.sort();
+  final hasCadence = gaps.isNotEmpty && totalGapMicros > 0;
+  final cadenceFps = hasCadence
+      ? gaps.length * 1000000.0 / totalGapMicros : null;
+  final cadenceP95Ms = hasCadence
+      ? gaps[(gaps.length * .95).ceil() - 1] / 1000 : null;
+  final longGapPercent = hasCadence
+      ? longGaps * 100.0 / gaps.length : null;
   return FramePerformanceReport(
     displayHz: hz,
     samples: data.length,
     uiP95Ms: ui[index] / 1000,
     rasterP95Ms: gpu[index] / 1000,
     overBudgetPercent: 100 * over / data.length,
+    cadenceFps: cadenceFps,
+    cadenceP95Ms: cadenceP95Ms,
+    longGapPercent: longGapPercent,
+    cadenceIntervals: gaps.length,
   );
 }
 
@@ -137,6 +190,7 @@ class FramePerformanceMonitor extends ValueNotifier<FramePerformanceReport> {
       _window.add(FrameCost(
         buildMicros: frame.buildDuration.inMicroseconds,
         rasterMicros: frame.rasterDuration.inMicroseconds,
+        vsyncMicros: frame.timestampInMicroseconds(ui.FramePhase.vsyncStart),
       ));
       if (_window.length > _maxFrames) _window.removeFirst();
     }
