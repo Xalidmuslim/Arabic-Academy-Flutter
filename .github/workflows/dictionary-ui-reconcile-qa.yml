@@ -25,6 +25,23 @@ jobs:
       - run: flutter analyze
       - run: flutter test
       - run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
+      - name: Make review APK installable beside the production dictionary
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          gradle = Path('android/app/build.gradle.kts')
+          source = gradle.read_text()
+          changed, count = re.subn(r'applicationId\\s*=\\s*"[^"]+"',
+                                   'applicationId = "com.xalidmuslim.bayna_dictionary.review"',
+                                   source, count=1)
+          assert count == 1, 'Generated Android applicationId was not found'
+          gradle.write_text(changed)
+          manifest = Path('android/app/src/main/AndroidManifest.xml')
+          contents = manifest.read_text()
+          manifest.write_text(contents.replace('android:label="bayna_dictionary"',
+                                               'android:label="Байна Ядейк (тест)"'))
+          PY
       - run: flutter build apk --release --target-platform android-arm64
       - run: test -s build/app/outputs/flutter-apk/app-release.apk
       - uses: actions/upload-artifact@v4
