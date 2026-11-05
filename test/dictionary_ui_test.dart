@@ -212,6 +212,8 @@ void main() {
     );
     await tester.pumpWidget(DictionaryApp(previewWords: [entry]));
     await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const Key('all-words-tile')));
+    await tester.pumpAndSettle();
     expect(find.text('رَحْمَةٌ'), findsWidgets);
 
     await tester.tap(find.text('Настройки').last);
@@ -220,8 +222,6 @@ void main() {
     await tester.tap(find.byKey(const Key('render-mode-plain')));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Словарь').last);
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const Key('all-words-tile')));
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
     expect(find.text('رَحْمَةٌ'), findsWidgets);
