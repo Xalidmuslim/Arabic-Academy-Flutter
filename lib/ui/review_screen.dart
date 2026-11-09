@@ -4,9 +4,11 @@ import '../core/dictionary_data.dart';
 
 /// A local one-session recall drill for favorite words. No account or network.
 class ReviewScreen extends StatefulWidget {
-  const ReviewScreen({super.key, required this.words, required this.fontSize});
+  const ReviewScreen({super.key, required this.words, required this.fontSize,
+    this.animationsEnabled = true});
   final List<Word> words;
   final double fontSize;
+  final bool animationsEnabled;
   @override
   State<ReviewScreen> createState() => _ReviewScreenState();
 }
@@ -79,23 +81,17 @@ class _ReviewScreenState extends State<ReviewScreen> {
                           height: 1.7, fontWeight: FontWeight.w700))),
                     const SizedBox(height: 24),
                     AnimatedSwitcher(
-                      duration: const Duration(milliseconds: 180),
+                      duration: widget.animationsEnabled
+                        ? const Duration(milliseconds: 180) : Duration.zero,
                       child: revealed
-                        ? Column(key: const ValueKey('translation'), children: [
-                            Text(queue[cursor].russian.isEmpty
-                                ? 'Русский перевод не добавлен'
-                                : queue[cursor].russian,
-                              textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 19,
-                                color: scheme.primary)),
-                            const SizedBox(height: 12),
+                        ? Column(key: const ValueKey('arabic-meaning'), children: [
                             Text(queue[cursor].meaning,
                               textAlign: TextAlign.center,
                               textDirection: TextDirection.rtl,
                               style: TextStyle(fontSize: widget.fontSize - 3,
                                 height: 1.6)),
                           ])
-                        : const Text('Вспомните перевод до подсказки',
+                        : const Text('Попробуйте объяснить значение на арабском',
                             key: ValueKey('prompt')),
                     ),
                     const Spacer(),
