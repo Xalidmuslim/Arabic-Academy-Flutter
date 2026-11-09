@@ -1382,34 +1382,42 @@ class _WordReaderState extends State<WordReader> {
   Widget section(String n, String title, List<String> texts, {
       bool numbered = false, String noData = 'Нет данных'}) {
     final scheme = Theme.of(context).colorScheme;
-    return Container(
-      margin: const EdgeInsets.only(bottom: 10),
-      padding: const EdgeInsets.fromLTRB(5, 14, 5, 14),
-      decoration: BoxDecoration(
-        border: Border(bottom: BorderSide(
-          color: scheme.outlineVariant.withValues(alpha: .55)))),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-        Row(children: [
-          Text(n, style: TextStyle(fontSize: 12, color: scheme.primary,
-            fontWeight: FontWeight.w800)),
-          const SizedBox(width: 10),
-          Text(title, style: const TextStyle(
-            fontSize: 15, fontWeight: FontWeight.w700)),
-        ]),
-        const SizedBox(height: 13),
-        if (texts.isEmpty)
-          Text(noData, style: const TextStyle(color: muted))
-        else
-          for (var i = 0; i < texts.length; i++) ...[
-            if (numbered && texts.length > 1)
-              Text('Значение ${i + 1}', style: TextStyle(
-                fontSize: 11, color: scheme.primary)),
-            arabicWords(texts[i]),
-            if (i < texts.length - 1)
-              const Padding(padding: EdgeInsets.symmetric(vertical: 8),
-                child: Divider(height: 1)),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 4),
+      child: Column(children: [
+        ExpansionTile(
+          key: PageStorageKey<String>('detail-${widget.word.id}-$n'),
+          initiallyExpanded: n == '01' || n == '06',
+          tilePadding: EdgeInsets.zero,
+          childrenPadding: const EdgeInsets.fromLTRB(0, 0, 0, 12),
+          shape: const Border(),
+          collapsedShape: const Border(),
+          title: Row(children: [
+            Text(n, style: TextStyle(fontSize: 12, color: scheme.primary,
+              fontWeight: FontWeight.w700)),
+            const SizedBox(width: 10),
+            Expanded(child: Text(title, style: const TextStyle(
+              fontSize: 15, fontWeight: FontWeight.w700))),
+          ]),
+          children: [
+            if (texts.isEmpty)
+              Text(noData, style: TextStyle(color: scheme.onSurfaceVariant))
+            else
+              for (var i = 0; i < texts.length; i++) ...[
+                if (numbered && texts.length > 1)
+                  Align(alignment: Alignment.centerLeft,
+                    child: Text('Значение ${i + 1}',
+                      style: TextStyle(fontSize: 12, color: scheme.primary))),
+                arabicWords(texts[i]),
+                if (i < texts.length - 1)
+                  const Padding(padding: EdgeInsets.symmetric(vertical: 8),
+                    child: Divider(height: 1)),
+              ],
           ],
-      ]));
+        ),
+        Divider(height: 1, thickness: .6, color: scheme.outlineVariant),
+      ]),
+    );
   }
 
   Widget arabicWords(String phrase) => Directionality(
@@ -1421,6 +1429,10 @@ class _WordReaderState extends State<WordReader> {
           if (token.isNotEmpty)
             InkWell(
               onTap: () => widget.onArabicTap(token),
+              onLongPress: () {
+                HapticFeedback.selectionClick();
+                Clipboard.setData(ClipboardData(text: token));
+              },
               borderRadius: BorderRadius.circular(4),
               child: Text(token, textDirection: TextDirection.rtl,
                 style: TextStyle(fontSize: widget.font, height: widget.lineHeight)),
