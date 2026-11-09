@@ -38,6 +38,11 @@ ThemeData dictionaryTheme(bool dark) {
     colorScheme: scheme,
     scaffoldBackgroundColor: background,
     appBarTheme: AppBarTheme(backgroundColor: background, elevation: 0),
+    pageTransitionsTheme: const PageTransitionsTheme(
+      builders: {
+        TargetPlatform.android: PredictiveBackPageTransitionsBuilder(),
+      },
+    ),
     navigationBarTheme: NavigationBarThemeData(
       backgroundColor: surface, height: 72,
       indicatorColor: scheme.primary.withValues(alpha: .12),
@@ -442,24 +447,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 
   void openWord(Word word, List<Word> corpus) {
     recordVisit(word);
-    Navigator.of(context).push<void>(PageRouteBuilder<void>(
-      transitionDuration: const Duration(milliseconds: 230),
-      reverseTransitionDuration: const Duration(milliseconds: 190),
-      transitionsBuilder: (context, animation, secondaryAnimation, child) {
-        final smooth = CurvedAnimation(
-          parent: animation, curve: Curves.easeOutCubic,
-          reverseCurve: Curves.easeInCubic);
-        return FadeTransition(
-          opacity: smooth,
-          child: SlideTransition(
-            position: Tween<Offset>(
-              begin: const Offset(0.045, 0.015),
-              end: Offset.zero,
-            ).animate(smooth),
-            child: child,
-          ));
-      },
-      pageBuilder: (_, animation, secondaryAnimation) => WordReader(
+    Navigator.of(context).push<void>(MaterialPageRoute<void>(
+      builder: (_) => WordReader(
         word: word,
         font: widget.font,
         russianFont: widget.russianFont, lineHeight: widget.lineHeight,
