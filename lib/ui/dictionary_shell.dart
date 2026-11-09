@@ -613,11 +613,11 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                   style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w800))),
               ]),
               const SizedBox(height: 4),
-              Text('${words.length} слов', style: const TextStyle(color: muted)),
-              if (!showAllWords) const Padding(
+              Text('${words.length} слов', style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
+              if (!showAllWords) Padding(
                 padding: EdgeInsets.only(top: 8),
                 child: Text('Привязки к учебнику требуют сверки с оригиналом.',
-                  style: TextStyle(fontSize: 11, color: muted))),
+                  style: TextStyle(fontSize: 11, color: Theme.of(context).colorScheme.onSurfaceVariant))),
             ]))),
           SliverList.builder(
             addAutomaticKeepAlives: false,
@@ -652,10 +652,10 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             Text('Том $selectedBook',
               style: const TextStyle(fontSize: 25, fontWeight: FontWeight.w800)),
           ]),
-          const Padding(
-            padding: EdgeInsets.fromLTRB(9, 0, 9, 12),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(9, 0, 9, 12),
             child: Text('Выберите тему. Отображаются только темы с привязками слов.',
-              style: TextStyle(color: muted, fontSize: 13))),
+              style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant, fontSize: 13))),
           for (final chapter in numbers)
             Material(color: Colors.transparent, child: ListTile(
               key: ValueKey('chapter-$selectedBook-$chapter'),
@@ -694,7 +694,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
               style: TextStyle(fontSize: widget.font + 6,
                 height: 1.6, fontWeight: FontWeight.bold)),
             Text('${all.length} статей · Офлайн',
-              style: const TextStyle(fontSize: 13, color: muted)),
+              style: TextStyle(fontSize: 13, color: Theme.of(context).colorScheme.onSurfaceVariant)),
           ])),
         const SizedBox(height: 6),
         if (lastWord.isNotEmpty) ListTile(
@@ -731,10 +731,10 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           padding: EdgeInsets.fromLTRB(5, 10, 5, 5),
           child: Text('Тома учебника',
             style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800))),
-        const Padding(
-          padding: EdgeInsets.fromLTRB(5, 0, 5, 7),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(5, 0, 5, 7),
           child: Text('Только разделы, для которых есть ссылки на темы.',
-            style: TextStyle(color: muted, fontSize: 12))),
+            style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant, fontSize: 12))),
         for (final book in bookNumbers)
           Material(color: Colors.transparent, child: ListTile(
             key: ValueKey('volume-$book'),
@@ -800,7 +800,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           Text(query.isEmpty
               ? 'Ищите по арабскому слову, объяснению или русскому переводу.'
               : 'Показано ${matches.length} результатов (максимум 300)',
-              style: const TextStyle(color: muted, fontSize: 12)),
+              style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant, fontSize: 12)),
         ])),
       Expanded(child: query.isEmpty
           ? SingleChildScrollView(child: Padding(
@@ -885,7 +885,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             Text(title, style: const TextStyle(fontSize: 27,
               fontWeight: FontWeight.w800)),
             const SizedBox(height: 6),
-            Text(subtitle, style: const TextStyle(color: muted)),
+            Text(subtitle, style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
             const SizedBox(height: 10),
             Text('${words.length} слов', style: TextStyle(
               fontWeight: FontWeight.w700,
@@ -896,12 +896,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             hasScrollBody: false,
             child: Center(child: Column(
               mainAxisSize: MainAxisSize.min, children: [
-                Icon(emptyIcon, size: 50, color: muted),
+                Icon(emptyIcon, size: 50, color: Theme.of(context).colorScheme.onSurfaceVariant),
                 const SizedBox(height: 14),
                 const Text('Здесь пока нет слов',
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w700)),
-                const Text('Отметьте слово при чтении',
-                  style: TextStyle(color: muted)),
+                Text('Отметьте слово при чтении',
+                  style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
               ])))
         else SliverList.builder(
           itemCount: words.length,
@@ -972,8 +972,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       const Text('Настройки чтения', style: TextStyle(
         fontWeight: FontWeight.w800, fontSize: 27)),
       const SizedBox(height: 6),
-      const Text('Настройте словарь под экран и освещение',
-        style: TextStyle(color: muted)),
+      Text('Настройте словарь под экран и освещение',
+        style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
       const SizedBox(height: 21),
       settingCard(children: [
         const Text('Размер арабского шрифта', style: TextStyle(
@@ -1069,10 +1069,10 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           value: showFrameDiagnostics,
           onChanged: setFrameDiagnostics,
         ),
-        const Text(
+        Text(
           '120 Гц — это частота дисплея, не FPS приложения. Flutter показывает '
           'интервалы между кадрами движка, а не момент их вывода Android.',
-          style: TextStyle(fontSize: 12, color: muted)),
+          style: TextStyle(fontSize: 12, color: Theme.of(context).colorScheme.onSurfaceVariant)),
         const SizedBox(height: 9),
         OutlinedButton.icon(
           key: const Key('copy-cadence-report'),
@@ -1128,10 +1128,10 @@ class _DictionaryHomeState extends State<DictionaryHome> {
               updateSettings(() => renderMode = DictionaryRenderMode.noVowels)),
         ]),
         const SizedBox(height: 8),
-        const Text(
+        Text(
           'Только для диагностики списка. Слова в базе и карточке чтения '
           'не меняются. После перезапуска возвращается обычный режим.',
-          style: TextStyle(fontSize: 12, color: muted)),
+          style: TextStyle(fontSize: 12, color: Theme.of(context).colorScheme.onSurfaceVariant)),
       ]),
       const SizedBox(height: 15),
       if (showDeveloperTools && StartupFrameDiagnostics.enabled) ...[
@@ -1151,12 +1151,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         ),
         const SizedBox(height: 15),
       ],
-      settingCard(children: const [
-        Text('Офлайн-чтение', style: TextStyle(
+      settingCard(children: [
+        const Text('Офлайн-чтение', style: TextStyle(
           fontWeight: FontWeight.w700, fontSize: 16)),
         SizedBox(height: 8),
         Text('Закладки, избранные слова и настройки сохраняются на телефоне.',
-          style: TextStyle(color: muted, fontSize: 13)),
+          style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant, fontSize: 13)),
       ]),
     ]);
 
@@ -1349,9 +1349,9 @@ class _WordReaderState extends State<WordReader> {
             ]),
           ),
           const SizedBox(height: 14),
-          const Padding(padding: EdgeInsets.only(left: 5, bottom: 12),
+          Padding(padding: const EdgeInsets.only(left: 5, bottom: 12),
             child: Text('Нажмите на арабское слово для перехода к статье.',
-              style: TextStyle(color: muted, fontSize: 11))),
+              style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant, fontSize: 11))),
           if (w.russian.isNotEmpty)
             Container(
               margin: const EdgeInsets.only(bottom: 12),
