@@ -7,7 +7,8 @@ on:
       - 'test/**'
       - 'assets/data/ru_glosses.json'
       - 'pubspec.yaml'
-      - '.github/workflows/dictionary-russian-glosses-apk.yml'
+      - '.github/workflows/dictionary-ux-apk.yml'
+      - 'tooling/**'
   workflow_dispatch:
 jobs:
   verify-and-build:
@@ -35,6 +36,12 @@ jobs:
         run: |
           flutter test
           flutter analyze
+      - name: Audit exact Russian translation coverage
+        run: python3 tooling/translation_coverage.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bayna-translation-coverage
+          path: translation-coverage.json
       - name: Preserve installed dictionary and its bookmarks
         run: |
           set -euo pipefail
