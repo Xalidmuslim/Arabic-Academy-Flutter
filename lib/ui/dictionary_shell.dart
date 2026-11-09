@@ -1211,7 +1211,7 @@ class WordTile extends StatelessWidget {
                 showVowels ? word.meaning : withoutArabicVowels(word.meaning),
                 textDirection: TextDirection.rtl,
                 textAlign: TextAlign.right,
-                maxLines: 2,
+                maxLines: 3,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                   fontSize: font - 6,
