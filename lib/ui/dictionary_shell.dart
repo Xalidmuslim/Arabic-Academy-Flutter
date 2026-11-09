@@ -179,7 +179,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       _bookChapters = availableBookChapters(all);
       _searchContents = {
         for (final word in all)
-          word: '${normalizeArabic(word.arabic)} ${normalizeArabic(word.meaning)}',
+          word: '${normalizeArabic(word.arabic)} ${normalizeArabic(word.meaning)} ${word.russian.toLowerCase()}',
       };
       _visibleWords = null;
     }
@@ -215,12 +215,15 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             'assets/data/corpus_manifest.json')) as Map<String, dynamic>
         : null;
     final files = (manifest?['files'] as List<dynamic>? ?? const []);
-    final texts = await Future.wait(files.map(
-        (file) => rootBundle.loadString(file as String)));
+    final texts = await Future.wait([
+      ...files.map((file) => rootBundle.loadString(file as String)),
+      rootBundle.loadString('assets/data/ru_glosses.json'),
+    ]);
     // JSON decoding/merging thousands of vocalized entries must not block
     // the Flutter UI isolate or scroll/transition frames.
     final List<Word> words = widget.previewWords == null
-        ? await compute<List<String>, List<Word>>(decodeAndMergeCorpora, texts)
+        ? await compute<List<String>, List<Word>>(
+            decodeAndMergeCorporaWithRussian, texts)
         : widget.previewWords!;
     if (mounted) {
       setState(() {
@@ -576,11 +579,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           TextField(
             key: const Key('arabic-search'),
             controller: search,
-            textDirection: TextDirection.rtl,
+            textDirection: RegExp(r'[а-яА-ЯёЁ]').hasMatch(search.text)
+                ? TextDirection.ltr : TextDirection.rtl,
             style: TextStyle(fontSize: widget.font),
             decoration: InputDecoration(
-              hintText: 'ابْحَثْ عَنْ كَلِمَةٍ',
-              hintTextDirection: TextDirection.rtl,
+              hintText: 'Поиск на арабском или русском',
+              hintTextDirection: TextDirection.ltr,
               prefixIcon: const Icon(Icons.search_rounded),
               suffixIcon: search.text.isEmpty ? null : IconButton(
                 tooltip: 'Очистить поиск',
@@ -588,7 +592,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 icon: const Icon(Icons.close_rounded)))),
           const SizedBox(height: 7),
           Text(query.isEmpty
-              ? 'Ищите по арабскому слову или его объяснению.'
+              ? 'Ищите по арабскому слову, объяснению или русскому переводу.'
               : '${matches.length} результатов${matches.length > visible.length ? ' · показаны первые ${visible.length}' : ''}',
               style: const TextStyle(color: muted, fontSize: 12)),
         ])),
@@ -946,6 +950,13 @@ class WordTile extends StatelessWidget {
                     fontSize: font + 2,
                     fontWeight: FontWeight.w700,
                     height: 1.42)),
+                if (word.russian.isNotEmpty) ...[
+                  const SizedBox(height: 3),
+                  Text(word.russian, textAlign: TextAlign.left,
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(fontSize: 15,
+                      color: scheme.primary, fontWeight: FontWeight.w600)),
+                ],
                 const SizedBox(height: 5),
                 Text(
                   showVowels ? word.meaning : withoutArabicVowels(word.meaning),
@@ -1075,6 +1086,24 @@ class _WordReaderState extends State<WordReader> {
           const Padding(padding: EdgeInsets.only(left: 5, bottom: 12),
             child: Text('Нажмите на арабское слово для перехода к статье.',
               style: TextStyle(color: muted, fontSize: 11))),
+          if (w.russian.isNotEmpty)
+            Container(
+              margin: const EdgeInsets.only(bottom: 12),
+              padding: const EdgeInsets.all(18),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(21),
+                color: scheme.surface),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Перевод на русский',
+                    style: TextStyle(fontWeight: FontWeight.w700, fontSize: 15)),
+                  const SizedBox(height: 9),
+                  Text(w.russian, textDirection: TextDirection.ltr,
+                    style: TextStyle(fontSize: 18, color: scheme.primary)),
+                ],
+              ),
+            ),
           section('01', 'Значения слова',
             [w.meaning, ...w.additionalMeanings], numbered: true),
           section('02', 'Синонимы', w.synonyms),
