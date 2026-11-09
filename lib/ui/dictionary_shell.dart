@@ -215,10 +215,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             'assets/data/corpus_manifest.json')) as Map<String, dynamic>
         : null;
     final files = (manifest?['files'] as List<dynamic>? ?? const []);
-    final texts = await Future.wait([
-      ...files.map((file) => rootBundle.loadString(file as String)),
-      rootBundle.loadString('assets/data/ru_glosses.json'),
-    ]);
+    final texts = widget.previewWords == null
+        ? await Future.wait([
+            ...files.map((file) => rootBundle.loadString(file as String)),
+            rootBundle.loadString('assets/data/ru_glosses.json'),
+          ])
+        : <String>[];
     // JSON decoding/merging thousands of vocalized entries must not block
     // the Flutter UI isolate or scroll/transition frames.
     final List<Word> words = widget.previewWords == null
