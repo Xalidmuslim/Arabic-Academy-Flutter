@@ -603,7 +603,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                   onPressed: () => updateDictionaryLocation(() {
                     if (showAllWords) showAllWords = false;
                     selectedChapter = null;
-                  }),
+                  })),
                 Expanded(child: Text(
                   showAllWords ? 'Весь словарь' : 'Том $selectedBook · Тема $selectedChapter',
                   style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w800))),
@@ -1268,6 +1268,7 @@ class WordTile extends StatelessWidget {
           color: scheme.outlineVariant.withValues(alpha: .55)),
       ]),
     );
+  }
 }
 
 class WordReader extends StatefulWidget {
