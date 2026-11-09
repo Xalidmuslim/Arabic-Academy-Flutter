@@ -7,6 +7,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../core/dictionary_data.dart';
 import '../core/dictionary_backup.dart';
+import '../core/dictionary_search.dart';
 import 'review_screen.dart';
 import 'frame_performance_monitor.dart';
 import 'startup_diagnostics.dart';
@@ -187,6 +188,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   List<String> recentWords = [];
   List<String> recentSearches = [];
   int? searchBook;
+  bool showDeveloperTools = false;
   List<Word>? _cachedSource;
   List<Word>? _orderedWords;
   List<Word>? _visibleWords;
@@ -720,11 +722,9 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   Widget searchTab(List<Word> all) {
     final query = normalizeArabic(search.text);
     visibleWords(all);
-    final matches = query.isEmpty
-        ? <Word>[]
-        : _orderedWords!.where((word) =>
-            _searchContents[word]!.contains(query)).toList(growable: false);
-    final visible = matches;
+    final visible = searchDictionary(_orderedWords!, query,
+      book: searchBook);
+    final matches = visible;
     return Column(children: [
       Padding(
         padding: const EdgeInsets.fromLTRB(16, 20, 16, 10),
@@ -738,6 +738,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             textDirection: RegExp(r'[а-яА-ЯёЁ]').hasMatch(search.text)
                 ? TextDirection.ltr : TextDirection.rtl,
             style: TextStyle(fontSize: widget.font),
+            textInputAction: TextInputAction.search,
+            onSubmitted: recordSearch,
             decoration: InputDecoration(
               hintText: 'Поиск на арабском или русском',
               hintTextDirection: TextDirection.ltr,
@@ -747,14 +749,52 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 onPressed: search.clear,
                 icon: const Icon(Icons.close_rounded)))),
           const SizedBox(height: 7),
+          Row(children: [
+            const Text('Том:', style: TextStyle(fontSize: 12)),
+            const SizedBox(width: 8),
+            DropdownButton<int?>(
+              value: searchBook,
+              isDense: true,
+              items: [
+                const DropdownMenuItem<int?>(
+                  value: null, child: Text('Все тома')),
+                for (final book in _bookChapters.keys.toList()..sort())
+                  DropdownMenuItem<int?>(
+                    value: book, child: Text('Том $book')),
+              ],
+              onChanged: (value) => setState(() => searchBook = value),
+            ),
+          ]),
           Text(query.isEmpty
               ? 'Ищите по арабскому слову, объяснению или русскому переводу.'
               : '${matches.length} результатов${matches.length > visible.length ? ' · показаны первые ${visible.length}' : ''}',
               style: const TextStyle(color: muted, fontSize: 12)),
         ])),
       Expanded(child: query.isEmpty
-          ? const Center(child: Icon(Icons.manage_search_rounded,
-              size: 60, color: muted))
+          ? SingleChildScrollView(child: Padding(
+              padding: const EdgeInsets.all(20),
+              child: Column(children: [
+                const SizedBox(height: 22),
+                Icon(Icons.manage_search_rounded, size: 42,
+                  color: Theme.of(context).colorScheme.onSurfaceVariant),
+                const SizedBox(height: 12),
+                const Text('Поиск на арабском и русском'),
+                if (recentSearches.isNotEmpty) ...[
+                  const SizedBox(height: 22),
+                  const Align(alignment: Alignment.centerLeft,
+                    child: Text('Недавние запросы')),
+                  const SizedBox(height: 9),
+                  Wrap(spacing: 7, runSpacing: 8,
+                    children: [
+                      for (final text in recentSearches)
+                        ActionChip(label: Text(text), onPressed: () {
+                          search.text = text;
+                          search.selection = TextSelection.collapsed(
+                            offset: text.length);
+                        }),
+                    ]),
+                ],
+              ])))
           : ListView.builder(
               key: const Key('search-results-list'),
               controller: searchScroll,
@@ -784,6 +824,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         selected: {showFavorites},
         onSelectionChanged: (values) =>
             setState(() => showFavorites = values.first))),
+    if (favorites.isNotEmpty)
+      Padding(padding: const EdgeInsets.fromLTRB(16, 2, 16, 5),
+        child: SizedBox(width: double.infinity,
+          child: OutlinedButton.icon(
+            icon: const Icon(Icons.school_outlined),
+            label: const Text('Повторить избранные слова'),
+            onPressed: () => openReview(all)))),
     Expanded(child: showFavorites
         ? collectionTab(all, favorites, 'Избранные слова',
             'Сохранено сердечком', favoriteScroll,
