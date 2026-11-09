@@ -13,7 +13,7 @@ const emerald = Color(0xFF25776D);
 const mint = Color(0xFF82CABB);
 const stone = Color(0xFFF4F4F0);
 const charcoal = Color(0xFF15201E);
-const muted = Color(0xFF758681);
+const muted = Color(0xFF586B63);
 
 enum DictionaryRenderMode { regular, plain, noVowels }
 
@@ -129,9 +129,7 @@ class DictionaryNav extends StatelessWidget {
       NavigationDestination(icon: Icon(Icons.search_outlined),
         selectedIcon: Icon(Icons.search_rounded), label: 'Поиск'),
       NavigationDestination(icon: Icon(Icons.bookmark_border_rounded),
-        selectedIcon: Icon(Icons.bookmark_rounded), label: 'Закладки'),
-      NavigationDestination(icon: Icon(Icons.tune_rounded),
-        selectedIcon: Icon(Icons.tune_rounded), label: 'Настройки'),
+        selectedIcon: Icon(Icons.bookmark_rounded), label: 'Сохранённое'),
     ]);
 }
 
@@ -338,7 +336,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   @override Widget build(BuildContext context) {
     final color = Theme.of(context).colorScheme;
     return PopScope(
-      canPop: false,
+      canPop: tab == 0 && selectedBook == null && !showAllWords,
       onPopInvokedWithResult: (didPop, result) {
         if (didPop) return;
         if (tab != 0) {
@@ -369,7 +367,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         ]), actions: [
           IconButton(tooltip: 'Настройки шрифта',
             icon: const Icon(Icons.text_fields_rounded),
-            onPressed: () => setState(() => tab = 3)),
+            onPressed: openSettings),
         ]),
         bottomNavigationBar: DictionaryNav(
           tab: tab, onTap: (next) {
@@ -391,7 +389,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
               dictionaryTab(all),
               searchTab(all),
               savedTab(all),
-              settingsTab(),
               ]),
               if (showFrameDiagnostics)
                 Positioned(
@@ -403,6 +400,15 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             ]);
           }),
       ));
+  }
+
+  void openSettings() {
+    Navigator.of(context).push<void>(MaterialPageRoute<void>(
+      builder: (_) => Scaffold(
+        appBar: AppBar(title: const Text('Настройки чтения')),
+        body: settingsTab(),
+      ),
+    ));
   }
 
   Widget trackDictionaryScroll(Widget child) =>
@@ -881,11 +887,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       ]),
     ]);
 
-  Widget settingCard({required List<Widget> children}) => Container(
-    padding: const EdgeInsets.all(19),
-    decoration: BoxDecoration(
-      color: Theme.of(context).colorScheme.surface,
-      borderRadius: BorderRadius.circular(22)),
+  Widget settingCard({required List<Widget> children}) => Padding(
+    padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 2),
     child: Column(crossAxisAlignment: CrossAxisAlignment.stretch,
       children: children));
 }
@@ -907,108 +910,94 @@ class WordTile extends StatelessWidget {
         word.bookReferences.isEmpty ? null : word.bookReferences.first;
     final displayBook = word.bookNumber ?? reference?['book'] as int?;
     final displayChapter = word.chapterNumber ?? reference?['chapter'] as int?;
-    final rounding = BorderRadius.circular(20);
+    final rounding = BorderRadius.circular(12);
     final content = Padding(
-      padding: const EdgeInsets.fromLTRB(12, 14, 16, 15),
+      padding: const EdgeInsets.symmetric(vertical: 11, horizontal: 2),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(
-            width: 48,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                  tooltip: 'Копировать слово',
-                  onPressed: onCopy,
-                  padding: EdgeInsets.zero,
-                  constraints: const BoxConstraints(
-                    minWidth: 48, minHeight: 48),
-                  icon: const Icon(Icons.content_copy_rounded, size: 19)),
-                const SizedBox(height: 7),
-                IconButton(
-                  tooltip: 'В избранное',
-                  onPressed: onFavorite,
-                  padding: EdgeInsets.zero,
-                  constraints: const BoxConstraints(
-                    minWidth: 48, minHeight: 48),
-                  color: favorite ? scheme.primary : muted,
-                  icon: Icon(
-                    favorite ? Icons.favorite : Icons.favorite_border,
-                    size: 21)),
+          Expanded(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text(
+                showVowels ? word.arabic : withoutArabicVowels(word.arabic),
+                textDirection: TextDirection.rtl,
+                textAlign: TextAlign.right,
+                style: TextStyle(
+                  fontSize: font + 1,
+                  fontWeight: FontWeight.w700,
+                  height: 1.52,
+                ),
+              ),
+              if (word.russian.isNotEmpty) ...[
+                const SizedBox(height: 1),
+                Text(word.russian,
+                  textDirection: TextDirection.ltr,
+                  style: TextStyle(fontSize: 15,
+                    color: scheme.primary, fontWeight: FontWeight.w600)),
               ],
-            ),
-          ),
-          const SizedBox(width: 14),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Text(
-                  showVowels ? word.arabic : withoutArabicVowels(word.arabic),
-                  textDirection: TextDirection.rtl,
-                  textAlign: TextAlign.right,
-                  style: TextStyle(
-                    fontSize: font + 2,
-                    fontWeight: FontWeight.w700,
-                    height: 1.42)),
-                if (word.russian.isNotEmpty) ...[
-                  const SizedBox(height: 3),
-                  Text(word.russian, textAlign: TextAlign.left,
-                    textDirection: TextDirection.ltr,
-                    style: TextStyle(fontSize: 15,
-                      color: scheme.primary, fontWeight: FontWeight.w600)),
-                ],
-                const SizedBox(height: 5),
-                Text(
-                  showVowels ? word.meaning : withoutArabicVowels(word.meaning),
-                  textDirection: TextDirection.rtl,
-                  textAlign: TextAlign.right,
-                  maxLines: 3,
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    fontSize: font - 5,
-                    height: 1.57,
-                    color: scheme.onSurface.withValues(alpha: .78))),
-                if (displayBook != null && displayChapter != null) ...[
-                  const SizedBox(height: 9),
-                  Align(
-                    alignment: AlignmentDirectional.centerEnd,
-                    child: Text(
-                      'Книга $displayBook · Тема $displayChapter',
-                      style: TextStyle(
-                        fontSize: 12, fontWeight: FontWeight.w500,
-                        color: scheme.primary)),
-                  ),
-                ],
+              const SizedBox(height: 3),
+              Text(
+                showVowels ? word.meaning : withoutArabicVowels(word.meaning),
+                textDirection: TextDirection.rtl,
+                textAlign: TextAlign.right,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(
+                  fontSize: font - 6,
+                  height: 1.48,
+                  color: scheme.onSurfaceVariant,
+                ),
+              ),
+              if (displayBook != null && displayChapter != null) ...[
+                const SizedBox(height: 4),
+                Text('Том $displayBook · Тема $displayChapter',
+                  style: TextStyle(fontSize: 11,
+                    color: scheme.onSurfaceVariant)),
               ],
-            ),
+            ],
+          )),
+          const SizedBox(width: 8),
+          IconButton(
+            tooltip: favorite ? 'Убрать из избранного' : 'В избранное',
+            onPressed: () {
+              HapticFeedback.selectionClick();
+              onFavorite();
+            },
+            constraints: const BoxConstraints(minWidth: 48, minHeight: 48),
+            icon: Icon(favorite ? Icons.favorite_rounded
+                  : Icons.favorite_border_rounded,
+              size: 21, color: favorite ? scheme.primary
+                  : scheme.onSurfaceVariant),
           ),
         ],
       ),
     );
 
-    // A/B mode keeps the *same* word layouts, text sizes, actions, keys
-    // and scroll state while removing only the card's Material background.
+    // Compact matte list retains an independent plain diagnostic renderer.
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
-      child: showBackground
-          ? Material(
-              color: scheme.surface,
-              borderRadius: rounding,
-              child: InkWell(
-                borderRadius: rounding,
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: Column(children: [
+        showBackground
+            ? Material(
+                color: Colors.transparent,
+                child: InkWell(
+                  borderRadius: rounding,
+                  onTap: onOpen,
+                  onLongPress: onCopy,
+                  child: content,
+                ),
+              )
+            : GestureDetector(
+                behavior: HitTestBehavior.opaque,
                 onTap: onOpen,
+                onLongPress: onCopy,
                 child: content,
               ),
-            )
-          : GestureDetector(
-              behavior: HitTestBehavior.opaque,
-              onTap: onOpen,
-              child: content,
-            ),
+        Divider(height: 1, thickness: .6,
+          color: scheme.outlineVariant.withValues(alpha: .55)),
+      ]),
     );
-  }
 }
 
 class WordReader extends StatefulWidget {
@@ -1058,16 +1047,15 @@ class _WordReaderState extends State<WordReader> {
               if (mounted) setState(() => bookmarked = !bookmarked);
             }),
         ]),
-      bottomNavigationBar: DictionaryNav(tab: widget.tab, onTap: widget.onNavigate),
       body: ListView(
         key: ValueKey('reader-${w.id}'),
-        padding: const EdgeInsets.fromLTRB(16, 10, 16, 27),
+        padding: const EdgeInsets.fromLTRB(16, 8, 16, 28),
         children: [
           Container(
-            padding: const EdgeInsets.symmetric(vertical: 27, horizontal: 16),
+            padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 16),
             decoration: BoxDecoration(
               color: dark ? const Color(0xFF234841) : const Color(0xFFDFEEE7),
-              borderRadius: BorderRadius.circular(26)),
+              borderRadius: BorderRadius.circular(16)),
             child: Column(children: [
               Text(w.arabic, textDirection: TextDirection.rtl,
                 style: TextStyle(fontSize: widget.font + 18,
@@ -1108,14 +1096,13 @@ class _WordReaderState extends State<WordReader> {
             ),
           section('01', 'Значения слова',
             [w.meaning, ...w.additionalMeanings], numbered: true),
-          section('02', 'Синонимы', w.synonyms),
-          section('03', 'Антонимы', w.antonyms,
-            noData: 'Прямой антоним не указан'),
-          section('04', 'Грамматика', w.grammar),
-          section('05', 'Словосочетания', w.collocations),
-          section('06', 'Примеры в предложениях', w.examples),
-          section('07', 'Особенности употребления',
-            w.usage.isEmpty ? [] : [w.usage]),
+          if (w.synonyms.isNotEmpty) section('02', 'Синонимы', w.synonyms),
+          if (w.antonyms.isNotEmpty) section('03', 'Антонимы', w.antonyms),
+          if (w.grammar.isNotEmpty) section('04', 'Грамматика', w.grammar),
+          if (w.collocations.isNotEmpty) section('05', 'Словосочетания', w.collocations),
+          if (w.examples.isNotEmpty) section('06', 'Примеры в предложениях', w.examples),
+          if (w.usage.trim().isNotEmpty)
+            section('07', 'Особенности употребления', [w.usage]),
         ]),
     );
   }
@@ -1124,10 +1111,11 @@ class _WordReaderState extends State<WordReader> {
       bool numbered = false, String noData = 'Нет данных'}) {
     final scheme = Theme.of(context).colorScheme;
     return Container(
-      margin: const EdgeInsets.only(bottom: 12),
-      padding: const EdgeInsets.all(18),
+      margin: const EdgeInsets.only(bottom: 10),
+      padding: const EdgeInsets.fromLTRB(5, 14, 5, 14),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(21), color: scheme.surface),
+        border: Border(bottom: BorderSide(
+          color: scheme.outlineVariant.withValues(alpha: .55)))),
       child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
         Row(children: [
           Text(n, style: TextStyle(fontSize: 12, color: scheme.primary,
