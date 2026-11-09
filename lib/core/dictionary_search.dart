@@ -1,6 +1,6 @@
 import 'dictionary_data.dart';
 
-/// Rank exact headword/gloss matches ahead of prefixes and explanations.
+/// Rank exact Arabic headwords ahead of prefixes and Arabic explanations.
 /// Unlike a plain substring scan, a generic definition cannot push an
 /// exact dictionary entry off the first results page.
 List<Word> searchDictionary(Iterable<Word> words, String query,
@@ -13,11 +13,10 @@ List<Word> searchDictionary(Iterable<Word> words, String query,
     final current = index++;
     if (book != null && !word.isInBook(book)) continue;
     final arabic = normalizeArabic(word.arabic);
-    final ru = word.russian.toLowerCase();
     final definition = normalizeArabic(word.meaning);
-    final rank = arabic == needle || ru == needle ? 0
-        : arabic.startsWith(needle) || ru.startsWith(needle) ? 1
-        : arabic.contains(needle) || ru.contains(needle) ? 2
+    final rank = arabic == needle ? 0
+        : arabic.startsWith(needle) ? 1
+        : arabic.contains(needle) ? 2
         : definition.contains(needle) ? 3 : -1;
     if (rank >= 0) scored.add((word: word, rank: rank, index: current));
   }
