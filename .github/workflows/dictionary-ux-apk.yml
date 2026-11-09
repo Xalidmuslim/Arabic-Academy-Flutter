@@ -28,6 +28,16 @@ jobs:
           cache: true
       - name: Create Android platform project
         run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
+      - name: Enable Android predictive back for generated platform
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          manifest = Path('android/app/src/main/AndroidManifest.xml')
+          source = manifest.read_text()
+          assert '<application' in source
+          source = source.replace('<application', '<application android:enableOnBackInvokedCallback="true"', 1)
+          manifest.write_text(source)
+          PY
       - name: Install Flutter packages
         run: flutter pub get
       - name: Dictionary regression tests
