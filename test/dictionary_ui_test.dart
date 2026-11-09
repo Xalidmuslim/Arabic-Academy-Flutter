@@ -10,14 +10,14 @@ Word word(String id) => Word(id, 'كِتَابٌ $id', 'صَفَحَاتٌ نَ�
 void main() {
   setUp(() => SharedPreferences.setMockInitialValues({}));
 
-  testWidgets('Persistent bottom navigation includes all four destinations',
+  testWidgets('Persistent bottom navigation includes three primary destinations',
       (tester) async {
     await tester.pumpWidget(DictionaryApp(previewWords: [word('1')]));
     await tester.pumpAndSettle();
     expect(find.text('Словарь'), findsWidgets);
     expect(find.text('Поиск'), findsWidgets);
-    expect(find.text('Закладки'), findsWidgets);
-    expect(find.text('Настройки'), findsWidgets);
+    expect(find.text('Сохранённое'), findsWidgets);
+    expect(find.byTooltip('Настройки шрифта'), findsOneWidget);
   });
 
   testWidgets('Search and scroll persist after reading and returning',
@@ -57,9 +57,11 @@ void main() {
   testWidgets('Reading settings are persisted', (tester) async {
     await tester.pumpWidget(DictionaryApp(previewWords: [word('1')]));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Настройки').last);
+    await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
-    expect(find.byType(Slider), findsOneWidget);
+    expect(find.byKey(const Key('arabic-font-slider')), findsOneWidget);
+    expect(find.byKey(const Key('russian-font-slider')), findsOneWidget);
+    await tester.ensureVisible(find.text('Тёмная'));
     await tester.tap(find.text('Тёмная'));
     await tester.pumpAndSettle();
     final prefs = await SharedPreferences.getInstance();
@@ -113,7 +115,7 @@ void main() {
     expect(find.text('كِتَابٌ'), findsWidgets);
     expect(find.descendant(
       of: find.byType(WordTile),
-      matching: find.text('Книга 1 · Тема 3'),
+      matching: find.text('Том 1 · Тема 3'),
     ), findsOneWidget);
   });
 
@@ -178,16 +180,21 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.textContaining('Экран:'), findsNothing);
 
-    await tester.tap(find.text('Настройки').last);
+    await tester.tap(find.byTooltip('Настройки шрифта'));
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.text('Инструменты разработчика'));
+    await tester.tap(find.text('Инструменты разработчика'));
     await tester.pumpAndSettle();
     final toggle = find.byKey(const Key('frame-diagnostics-toggle'));
     await tester.ensureVisible(toggle);
     await tester.pumpAndSettle();
     await tester.tap(toggle);
     await tester.pumpAndSettle();
+    await tester.pageBack();
+    await tester.pumpAndSettle();
     expect(find.textContaining('Экран:'), findsOneWidget);
 
-    await tester.tap(find.text('Словарь').last);
+
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('all-words-tile')));
     await tester.pumpAndSettle();
@@ -216,22 +223,25 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('رَحْمَةٌ'), findsWidgets);
 
-    await tester.tap(find.text('Настройки').last);
+    await tester.tap(find.byTooltip('Настройки шрифта'));
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.text('Инструменты разработчика'));
+    await tester.tap(find.text('Инструменты разработчика'));
     await tester.pumpAndSettle();
     await tester.ensureVisible(find.byKey(const Key('render-mode-plain')));
     await tester.tap(find.byKey(const Key('render-mode-plain')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Словарь').last);
+    await tester.pageBack();
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
     expect(find.text('رَحْمَةٌ'), findsWidgets);
 
-    await tester.tap(find.text('Настройки').last);
+    await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
     await tester.ensureVisible(find.byKey(const Key('render-mode-no-vowels')));
     await tester.tap(find.byKey(const Key('render-mode-no-vowels')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Словарь').last);
+    await tester.pageBack();
     await tester.pumpAndSettle();
     expect(find.text('رحمة'), findsWidgets);
     await tester.tap(find.byType(WordTile).first);
