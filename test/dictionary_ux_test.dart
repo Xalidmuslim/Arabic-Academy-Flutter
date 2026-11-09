@@ -16,10 +16,24 @@ void main() {
     await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
     expect(find.text('Русский шрифт'), findsOneWidget);
+    final settingsScroll = find.descendant(
+      of: find.byKey(const Key('settings-list')),
+      matching: find.byType(Scrollable)).first;
+    await tester.scrollUntilVisible(
+      find.text('Резервное копирование'), 250, scrollable: settingsScroll);
+    await tester.pumpAndSettle();
     expect(find.text('Резервное копирование'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Инструменты разработчика'), 250,
+      scrollable: settingsScroll);
+    await tester.pumpAndSettle();
     expect(find.text('Инструменты разработчика'), findsOneWidget);
     expect(find.byKey(const Key('frame-diagnostics-toggle')), findsNothing);
     await tester.tap(find.text('Инструменты разработчика'));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.byKey(const Key('frame-diagnostics-toggle')), 250,
+      scrollable: settingsScroll);
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('frame-diagnostics-toggle')), findsOneWidget);
   });
