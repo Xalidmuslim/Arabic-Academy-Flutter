@@ -727,9 +727,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         if (lastWord.isNotEmpty) ListTile(
           leading: const Icon(Icons.history_rounded),
           title: const Text('Продолжить'),
-          subtitle: Text(lastWord.first.russian.isNotEmpty
-            ? '${lastWord.first.arabic} · ${lastWord.first.russian}'
-            : lastWord.first.arabic),
+          subtitle: Text(lastWord.first.arabic,
+            textDirection: TextDirection.rtl),
           trailing: const Icon(Icons.chevron_right_rounded),
           onTap: () => openWord(lastWord.first, all),
         ),
@@ -794,13 +793,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           TextField(
             key: const Key('arabic-search'),
             controller: search,
-            textDirection: RegExp(r'[а-яА-ЯёЁ]').hasMatch(search.text)
-                ? TextDirection.ltr : TextDirection.rtl,
+            textDirection: TextDirection.rtl,
             style: TextStyle(fontSize: widget.font),
             textInputAction: TextInputAction.search,
             onSubmitted: recordSearch,
             decoration: InputDecoration(
-              hintText: 'Поиск на арабском или русском',
+              hintText: 'Поиск на арабском',
               hintTextDirection: TextDirection.ltr,
               prefixIcon: const Icon(Icons.search_rounded),
               suffixIcon: search.text.isEmpty ? null : IconButton(
@@ -825,7 +823,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             ),
           ]),
           Text(query.isEmpty
-              ? 'Ищите по арабскому слову, объяснению или русскому переводу.'
+              ? 'Ищите по арабскому слову или его объяснению.'
               : 'Показано ${matches.length} результатов (максимум 300)',
               style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant, fontSize: 12)),
         ])),
@@ -837,7 +835,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 Icon(Icons.manage_search_rounded, size: 42,
                   color: Theme.of(context).colorScheme.onSurfaceVariant),
                 const SizedBox(height: 12),
-                const Text('Поиск на арабском и русском'),
+                const Text('Поиск по арабскому словарю'),
                 if (recentSearches.isNotEmpty) ...[
                   const SizedBox(height: 22),
                   const Align(alignment: Alignment.centerLeft,
