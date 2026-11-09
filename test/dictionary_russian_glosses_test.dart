@@ -47,7 +47,7 @@ void main() {
     await tester.tap(find.byType(WordTile).first);
     await tester.pumpAndSettle();
     expect(find.text('Перевод на русский'), findsNothing);
-    expect(find.text('مَجْمُوعَةٌ مِنَ الصَّفَحَاتِ'), findsWidgets);
+    expect(find.text('Значения слова'), findsOneWidget);
 
     await tester.pageBack();
     await tester.pumpAndSettle();
