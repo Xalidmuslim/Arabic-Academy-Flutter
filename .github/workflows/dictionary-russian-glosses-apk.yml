@@ -1,0 +1,66 @@
+name: Bayna dictionary Russian glosses APK
+on:
+  push:
+    branches: [codex/bayna-dictionary-russian-glosses-20261109]
+    paths:
+      - 'lib/**'
+      - 'test/**'
+      - 'assets/data/ru_glosses.json'
+      - 'pubspec.yaml'
+      - '.github/workflows/dictionary-russian-glosses-apk.yml'
+  workflow_dispatch:
+jobs:
+  verify-and-build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.35.7"
+          cache: true
+      - name: Create Android platform project
+        run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
+      - name: Install Flutter packages
+        run: flutter pub get
+      - name: Russian dictionary regression tests
+        run: flutter test test/dictionary_russian_glosses_test.dart
+      - name: Run full test suite and analyzer
+        run: |
+          flutter test
+          flutter analyze
+      - name: Preserve installed dictionary and its bookmarks
+        run: |
+          set -euo pipefail
+          f=android/app/build.gradle.kts
+          test -f "$f"
+          sed -i 's/applicationId = "com.xalidmuslim.bayna_dictionary"/applicationId = "com.xalidmuslim.bayna_dictionary.rupreview"/' "$f"
+          grep -F 'applicationId = "com.xalidmuslim.bayna_dictionary.rupreview"' "$f"
+      - name: Build Android ARM64 APK
+        run: flutter build apk --release --target-platform android-arm64
+      - name: Verify APK
+        run: |
+          test -s build/app/outputs/flutter-apk/app-release.apk
+          sha256sum build/app/outputs/flutter-apk/app-release.apk
+          file build/app/outputs/flutter-apk/app-release.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bayna-dictionary-ru-preview-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+      - name: Publish direct download
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cp build/app/outputs/flutter-apk/app-release.apk /tmp/bayna-dictionary-ru-preview.apk
+          TAG=bayna-dictionary-ru-preview-20261109
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" /tmp/bayna-dictionary-ru-preview.apk --clobber --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create "$TAG" /tmp/bayna-dictionary-ru-preview.apk \
+              --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --prerelease \
+              --title "Bayna Dictionary RU preview (partial glossary)" \
+              --notes "Preview only. Arabic corpus and bookmarks preserved; Russian glosses may be incomplete. Separate app ID. Diagnostic modes retained."
+          fi
