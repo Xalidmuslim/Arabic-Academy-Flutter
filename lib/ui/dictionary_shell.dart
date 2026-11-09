@@ -196,6 +196,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   List<String> recentSearches = [];
   int? searchBook;
   bool showDeveloperTools = false;
+  VoidCallback? refreshSettings;
   List<Word>? _cachedSource;
   List<Word>? _orderedWords;
   List<Word>? _visibleWords;
@@ -294,9 +295,11 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       frameMonitor.stop();
     }
     setState(() => showFrameDiagnostics = enabled);
+    refreshSettings?.call();
   }
 
   @override void dispose() {
+    refreshSettings = null;
     search.removeListener(onSearch);
     searchDebounce?.cancel();
     search.dispose();
@@ -550,11 +553,23 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 
   void openSettings() {
     Navigator.of(context).push<void>(MaterialPageRoute<void>(
-      builder: (_) => Scaffold(
-        appBar: AppBar(title: const Text('Настройки чтения')),
-        body: settingsTab(),
+      builder: (_) => StatefulBuilder(
+        builder: (routeContext, rebuild) {
+          refreshSettings = () {
+            if (routeContext.mounted) rebuild(() {});
+          };
+          return Scaffold(
+            appBar: AppBar(title: const Text('Настройки чтения')),
+            body: settingsTab(),
+          );
+        },
       ),
-    ));
+    )).whenComplete(() => refreshSettings = null);
+  }
+
+  void updateSettings(VoidCallback change) {
+    setState(change);
+    refreshSettings?.call();
   }
 
   Widget trackDictionaryScroll(Widget child) =>
@@ -1036,7 +1051,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       ]),
       const SizedBox(height: 15),
       TextButton.icon(
-        onPressed: () => setState(() =>
+        onPressed: () => updateSettings(() =>
           showDeveloperTools = !showDeveloperTools),
         icon: Icon(showDeveloperTools
           ? Icons.expand_less : Icons.developer_mode_rounded),
@@ -1098,19 +1113,19 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             label: const Text('Обычные'),
             selected: renderMode == DictionaryRenderMode.regular,
             onSelected: (_) =>
-              setState(() => renderMode = DictionaryRenderMode.regular)),
+              updateSettings(() => renderMode = DictionaryRenderMode.regular)),
           ChoiceChip(
             key: const Key('render-mode-plain'),
             label: const Text('Без фона'),
             selected: renderMode == DictionaryRenderMode.plain,
             onSelected: (_) =>
-              setState(() => renderMode = DictionaryRenderMode.plain)),
+              updateSettings(() => renderMode = DictionaryRenderMode.plain)),
           ChoiceChip(
             key: const Key('render-mode-no-vowels'),
             label: const Text('Без огласовок'),
             selected: renderMode == DictionaryRenderMode.noVowels,
             onSelected: (_) =>
-              setState(() => renderMode = DictionaryRenderMode.noVowels)),
+              updateSettings(() => renderMode = DictionaryRenderMode.noVowels)),
         ]),
         const SizedBox(height: 8),
         const Text(
