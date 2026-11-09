@@ -30,6 +30,9 @@ void main() {
       of: find.byKey(const Key('settings-list')),
       matching: find.byType(Scrollable)).first;
     await tester.scrollUntilVisible(target, 180, scrollable: scrollable);
+    await tester.drag(find.byKey(const Key('settings-list')),
+        const Offset(0, -160));
+    await tester.pumpAndSettle();
     expect(tester.widget<SwitchListTile>(target).value, isTrue);
     await tester.tap(target);
     await tester.pumpAndSettle();
