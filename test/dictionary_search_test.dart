@@ -16,8 +16,8 @@ void main() {
     expect(searchDictionary(words, 'كِتَابٌ').first.id, 'book');
   });
   test('Filter by textbook volume and cap results', () {
-    expect(searchDictionary([book, meaning], 'ك', book: 2).map((w) => w.id),
+    expect(searchDictionary([book, meaning], 'م', book: 2).map((w) => w.id),
       ['definition']);
-    expect(searchDictionary([book, meaning], 'к', maxResults: 1).length, 1);
+    expect(searchDictionary([book, meaning], 'م', maxResults: 1).length, 1);
   });
 }
