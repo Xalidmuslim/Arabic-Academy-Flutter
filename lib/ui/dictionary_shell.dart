@@ -255,6 +255,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       setState(() {
       favorites = p.getStringList('dictionary_favorites')?.toSet() ?? {};
       bookmarks = p.getStringList('dictionary_bookmarks_v2')?.toSet() ?? {};
+      recentWords = p.getStringList('dictionary_recent_words_v3') ?? [];
+      recentSearches = p.getStringList('dictionary_search_history_v3') ?? [];
+      tab = (p.getInt('dictionary_last_tab_v3') ?? 0).clamp(0, 2);
+      selectedBook = p.getInt('dictionary_last_book_v3');
+      selectedChapter = p.getInt('dictionary_last_chapter_v3');
+      showAllWords = p.getBool('dictionary_all_words_v3') ?? false;
       });
     }
     return words;
@@ -315,7 +321,112 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     await p.setStringList('dictionary_bookmarks_v2', bookmarks.toList());
   }
 
+  void saveNavigation() {
+    SharedPreferences.getInstance().then((p) async {
+      await p.setInt('dictionary_last_tab_v3', tab);
+      await p.setBool('dictionary_all_words_v3', showAllWords);
+      if (selectedBook == null) {
+        await p.remove('dictionary_last_book_v3');
+      } else {
+        await p.setInt('dictionary_last_book_v3', selectedBook!);
+      }
+      if (selectedChapter == null) {
+        await p.remove('dictionary_last_chapter_v3');
+      } else {
+        await p.setInt('dictionary_last_chapter_v3', selectedChapter!);
+      }
+    });
+  }
+
+  void recordVisit(Word word) {
+    setState(() {
+      recentWords.remove(word.id);
+      recentWords.insert(0, word.id);
+      if (recentWords.length > 40) recentWords.removeLast();
+    });
+    SharedPreferences.getInstance().then(
+      (p) => p.setStringList('dictionary_recent_words_v3', recentWords));
+  }
+
+  void recordSearch(String text) {
+    final query = text.trim();
+    if (query.isEmpty) return;
+    setState(() {
+      recentSearches.remove(query);
+      recentSearches.insert(0, query);
+      if (recentSearches.length > 12) recentSearches.removeLast();
+    });
+    SharedPreferences.getInstance().then(
+      (p) => p.setStringList('dictionary_search_history_v3', recentSearches));
+  }
+
+  void openReview(List<Word> all) {
+    final words = all.where((word) => favorites.contains(word.id)).toList();
+    Navigator.of(context).push<void>(MaterialPageRoute<void>(
+      builder: (_) => ReviewScreen(words: words, fontSize: widget.font)));
+  }
+
+  Future<void> exportBackup() async {
+    final json = DictionaryBackup(
+      favorites: favorites.toList(),
+      bookmarks: bookmarks.toList(),
+      recentWords: recentWords,
+      searchHistory: recentSearches,
+    ).toJsonText();
+    await Clipboard.setData(ClipboardData(text: json));
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+      content: Text('Резервная копия JSON скопирована. Сохраните её в файл.')));
+  }
+
+  Future<void> importBackup() async {
+    final clipboard = await Clipboard.getData('text/plain');
+    DictionaryBackup data;
+    try {
+      data = DictionaryBackup.fromJsonText(clipboard?.text ?? '');
+    } on FormatException {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text('В буфере нет корректной резервной копии')));
+      return;
+    }
+    if (!mounted) return;
+    final approved = await showDialog<bool>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: const Text('Восстановить данные?'),
+        content: Text('Закладки: ${data.bookmarks.length}, избранное: '
+          '${data.favorites.length}. Текущие сохранённые списки будут заменены.'),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(dialogContext, false),
+            child: const Text('Отмена')),
+          FilledButton(onPressed: () => Navigator.pop(dialogContext, true),
+            child: const Text('Восстановить')),
+        ],
+      ),
+    );
+    if (approved != true || !mounted) return;
+    final validIds = _cachedSource?.map((word) => word.id).toSet() ?? <String>{};
+    final incomingFavorites = data.favorites.where(validIds.contains).toSet();
+    final incomingBookmarks = data.bookmarks.where(validIds.contains).toSet();
+    setState(() {
+      favorites = incomingFavorites;
+      bookmarks = incomingBookmarks;
+      recentWords = data.recentWords.where(validIds.contains).take(40).toList();
+      recentSearches = data.searchHistory.take(12).toList();
+    });
+    final p = await SharedPreferences.getInstance();
+    await p.setStringList('dictionary_favorites', favorites.toList());
+    await p.setStringList('dictionary_bookmarks_v2', bookmarks.toList());
+    await p.setStringList('dictionary_recent_words_v3', recentWords);
+    await p.setStringList('dictionary_search_history_v3', recentSearches);
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+      content: Text('Резервная копия восстановлена')));
+  }
+
   void openWord(Word word, List<Word> corpus) {
+    recordVisit(word);
     Navigator.of(context).push<void>(PageRouteBuilder<void>(
       transitionDuration: const Duration(milliseconds: 230),
       reverseTransitionDuration: const Duration(milliseconds: 190),
@@ -368,13 +479,16 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         if (didPop) return;
         if (tab != 0) {
           setState(() => tab = 0);
+          saveNavigation();
         } else if (selectedChapter != null) {
           setState(() => selectedChapter = null);
+          saveNavigation();
         } else if (selectedBook != null || showAllWords) {
           setState(() {
             selectedBook = null;
             showAllWords = false;
           });
+          saveNavigation();
         } else {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(content: Text('Вы на главном экране словаря'),
@@ -400,6 +514,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           tab: tab, onTap: (next) {
             if (next != 0) frameMonitor.setScrolling(false);
             setState(() => tab = next);
+            saveNavigation();
           }),
         body: FutureBuilder<List<Word>>(
           future: future,
@@ -470,10 +585,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 IconButton(
                   tooltip: showAllWords ? 'К томам' : 'К темам',
                   icon: const Icon(Icons.arrow_back_rounded),
-                  onPressed: () => setState(() {
-                    if (showAllWords) showAllWords = false;
-                    selectedChapter = null;
-                  })),
+                  onPressed: () => {
+                    setState(() {
+                      if (showAllWords) showAllWords = false;
+                      selectedChapter = null;
+                    }),
+                    saveNavigation(),
+                  }),
                 Expanded(child: Text(
                   showAllWords ? 'Весь словарь' : 'Том $selectedBook · Тема $selectedChapter',
                   style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w800))),
