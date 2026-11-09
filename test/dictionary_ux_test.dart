@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:bayna_dictionary/main.dart';
+import 'package:bayna_dictionary/ui/dictionary_shell.dart';
 
 void main() {
   setUp(() => SharedPreferences.setMockInitialValues({}));
