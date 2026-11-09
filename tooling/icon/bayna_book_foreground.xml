@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Matte ivory open book, based on the approved visual concept. -->
+    <path android:fillColor="#F5EBDD"
+        android:pathData="M20,28 C34,29 48,36 51,49 L51,79 C42,69 31,65 20,65 Z"/>
+    <path android:fillColor="#F5EBDD"
+        android:pathData="M57,49 C62,36 76,29 89,28 L89,65 C78,65 66,69 57,79 Z"/>
+    <!-- Script-like strokes recall Arabic dictionary entries without tiny text. -->
+    <path android:fillColor="#123F38"
+        android:pathData="M63,48 C72,42 82,44 86,39 C85,48 73,47 63,54 Z"/>
+    <path android:fillColor="#123F38"
+        android:pathData="M63,58 C72,52 83,54 86,49 C85,58 73,57 63,64 Z"/>
+    <path android:fillColor="#123F38"
+        android:pathData="M63,68 C72,62 83,64 86,59 C85,68 73,67 63,74 Z"/>
+    <path android:fillColor="#99D3C5"
+        android:pathData="M18,66 C23,73 37,68 52,84 L49,87 C37,78 25,77 21,76 C17,75 17,69 18,66 Z"/>
+    <path android:fillColor="#99D3C5"
+        android:pathData="M90,66 C85,73 71,68 56,84 L59,87 C71,78 83,77 87,76 C91,75 91,69 90,66 Z"/>
+    <path android:fillColor="#99D3C5"
+        android:pathData="M54,83 L59,88 L54,93 L49,88 Z"/>
+</vector>
