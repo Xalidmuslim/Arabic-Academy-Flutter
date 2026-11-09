@@ -57,6 +57,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsNothing);
     await tester.enterText(find.byKey(const Key('arabic-search')), 'كتاب');
+    await tester.pump(const Duration(milliseconds: 200));
     await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
   });
