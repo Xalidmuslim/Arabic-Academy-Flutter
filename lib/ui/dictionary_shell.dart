@@ -303,6 +303,17 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     super.initState();
     search.addListener(onSearch);
   }
+
+  @override void didUpdateWidget(covariant DictionaryHome oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.animationsEnabled != widget.animationsEnabled) {
+      // Settings is a separate Navigator route: refresh its StatefulBuilder
+      // after the parent passes down the new persisted motion preference.
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) refreshSettings?.call();
+      });
+    }
+  }
   void onSearch() {
     searchDebounce?.cancel();
     searchDebounce = Timer(const Duration(milliseconds: 110), () {
