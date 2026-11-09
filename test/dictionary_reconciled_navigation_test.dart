@@ -19,13 +19,13 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.byType(NavigationBar), findsOneWidget);
-    expect(find.byType(NavigationDestination), findsNWidgets(4));
+    expect(find.byType(NavigationDestination), findsNWidgets(3));
     expect(find.text('Поиск'), findsOneWidget);
-    expect(find.text('Закладки'), findsOneWidget);
+    expect(find.text('Сохранённое'), findsOneWidget);
     await tester.tap(find.text('Поиск').last);
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('arabic-search')), findsOneWidget);
-    await tester.tap(find.text('Закладки').last);
+    await tester.tap(find.text('Сохранённое').last);
     await tester.pumpAndSettle();
     expect(find.text('Избранное'), findsOneWidget);
   });
@@ -81,7 +81,7 @@ void main() {
       referenceWord('favorite', 1, 1), referenceWord('bookmark', 1, 1),
     ]));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Закладки').last);
+    await tester.tap(find.text('Сохранённое').last);
     await tester.pumpAndSettle();
     expect(find.text('كَلِمَةٌ bookmark'), findsOneWidget);
     await tester.tap(find.text('Избранное').last);
