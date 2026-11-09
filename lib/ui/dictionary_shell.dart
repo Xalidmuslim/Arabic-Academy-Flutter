@@ -961,7 +961,25 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         const SizedBox(height: 14),
         Text('مَبْنًى يَسْكُنُ فِيهِ النَّاسُ',
           textAlign: TextAlign.center, textDirection: TextDirection.rtl,
-          style: TextStyle(fontSize: widget.font, height: 1.9)),
+          style: TextStyle(fontSize: widget.font, height: widget.lineHeight)),
+      ]),
+      const SizedBox(height: 12),
+      settingCard(children: [
+        const Text('Русский шрифт', style: TextStyle(
+          fontSize: 16, fontWeight: FontWeight.w700)),
+        Slider(
+          key: const Key('russian-font-slider'),
+          min: 13, max: 25, divisions: 12,
+          value: widget.russianFont, onChanged: widget.setRussianFont),
+        Text('Пример русского текста',
+          style: TextStyle(fontSize: widget.russianFont)),
+        const SizedBox(height: 12),
+        const Text('Межстрочный интервал арабского текста',
+          style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600)),
+        Slider(
+          key: const Key('arabic-line-slider'),
+          min: 1.3, max: 2.2, divisions: 9,
+          value: widget.lineHeight, onChanged: widget.setLineHeight),
       ]),
       const SizedBox(height: 15),
       settingCard(children: [
@@ -982,6 +1000,32 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       ]),
       const SizedBox(height: 15),
       settingCard(children: [
+        const Text('Резервное копирование',
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+        const SizedBox(height: 8),
+        const Text('Сохранение закладок, избранного и истории в переносимый JSON. '
+          'Обмен осуществляется через буфер обмена.',
+          style: TextStyle(fontSize: 13)),
+        const SizedBox(height: 9),
+        OutlinedButton.icon(
+          onPressed: exportBackup,
+          icon: const Icon(Icons.ios_share_outlined),
+          label: const Text('Скопировать резервную копию')),
+        const SizedBox(height: 6),
+        OutlinedButton.icon(
+          onPressed: importBackup,
+          icon: const Icon(Icons.settings_backup_restore_rounded),
+          label: const Text('Восстановить из буфера')),
+      ]),
+      const SizedBox(height: 15),
+      TextButton.icon(
+        onPressed: () => setState(() =>
+          showDeveloperTools = !showDeveloperTools),
+        icon: Icon(showDeveloperTools
+          ? Icons.expand_less : Icons.developer_mode_rounded),
+        label: const Text('Инструменты разработчика'),
+      ),
+      if (showDeveloperTools) settingCard(children: [
         SwitchListTile.adaptive(
           key: const Key('frame-diagnostics-toggle'),
           contentPadding: EdgeInsets.zero,
@@ -1058,7 +1102,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           style: TextStyle(fontSize: 12, color: muted)),
       ]),
       const SizedBox(height: 15),
-      if (StartupFrameDiagnostics.enabled) ...[
+      if (showDeveloperTools && StartupFrameDiagnostics.enabled) ...[
         OutlinedButton.icon(
           key: const Key('copy-startup-trace'),
           icon: const Icon(Icons.copy_all_outlined),
