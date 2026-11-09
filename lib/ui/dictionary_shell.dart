@@ -6,6 +6,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../core/dictionary_data.dart';
+import '../core/dictionary_backup.dart';
+import 'review_screen.dart';
 import 'frame_performance_monitor.dart';
 import 'startup_diagnostics.dart';
 
@@ -58,6 +60,8 @@ class DictionaryApp extends StatefulWidget {
 class _DictionaryAppState extends State<DictionaryApp> {
   ThemeMode mode = ThemeMode.system;
   double font = 23;
+  double russianFont = 16;
+  double lineHeight = 1.7;
   @override
   void initState() {
     super.initState();
@@ -87,6 +91,8 @@ class _DictionaryAppState extends State<DictionaryApp> {
       mode = switch (p.getString('dictionary_theme_v2')) {
         'light' => ThemeMode.light, 'dark' => ThemeMode.dark, _ => ThemeMode.system};
       font = (p.getDouble('dictionary_font_size_v2') ?? 23).clamp(18.0, 34.0).toDouble();
+      russianFont = (p.getDouble('dictionary_russian_font_v3') ?? 16).clamp(13.0, 25.0).toDouble();
+      lineHeight = (p.getDouble('dictionary_line_height_v3') ?? 1.7).clamp(1.3, 2.2).toDouble();
     });
   }
 
@@ -104,6 +110,18 @@ class _DictionaryAppState extends State<DictionaryApp> {
       (p) => p.setDouble('dictionary_font_size_v2', value));
   }
 
+  void changeRussianFont(double value) {
+    setState(() => russianFont = value);
+    SharedPreferences.getInstance().then(
+      (p) => p.setDouble('dictionary_russian_font_v3', value));
+  }
+
+  void changeLineHeight(double value) {
+    setState(() => lineHeight = value);
+    SharedPreferences.getInstance().then(
+      (p) => p.setDouble('dictionary_line_height_v3', value));
+  }
+
   @override Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'Словарь Байна Ядайк',
@@ -112,6 +130,8 @@ class _DictionaryAppState extends State<DictionaryApp> {
     themeMode: mode,
     home: DictionaryHome(
       previewWords: widget.previewWords, mode: mode, font: font,
+      russianFont: russianFont, lineHeight: lineHeight,
+      setRussianFont: changeRussianFont, setLineHeight: changeLineHeight,
       setMode: changeTheme, setFont: changeFont));
 }
 
@@ -135,10 +155,13 @@ class DictionaryNav extends StatelessWidget {
 
 class DictionaryHome extends StatefulWidget {
   const DictionaryHome({super.key, this.previewWords, required this.mode,
-    required this.font, required this.setMode, required this.setFont});
+    required this.font, required this.russianFont, required this.lineHeight,
+    required this.setMode, required this.setFont,
+    required this.setRussianFont, required this.setLineHeight});
   final List<Word>? previewWords;
   final ThemeMode mode;
-  final double font;
+  final double font, russianFont, lineHeight;
+  final ValueChanged<double> setRussianFont, setLineHeight;
   final ValueChanged<ThemeMode> setMode;
   final ValueChanged<double> setFont;
   @override State<DictionaryHome> createState() => _DictionaryHomeState();
@@ -161,6 +184,9 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   int? selectedChapter;
   bool showAllWords = false;
   bool showFavorites = false;
+  List<String> recentWords = [];
+  List<String> recentSearches = [];
+  int? searchBook;
   List<Word>? _cachedSource;
   List<Word>? _orderedWords;
   List<Word>? _visibleWords;
@@ -310,6 +336,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       pageBuilder: (_, animation, secondaryAnimation) => WordReader(
         word: word,
         font: widget.font,
+        russianFont: widget.russianFont, lineHeight: widget.lineHeight,
         tab: tab,
         favorite: favorites.contains(word.id),
         bookmarked: bookmarks.contains(word.id),
@@ -465,6 +492,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             itemBuilder: (context, i) => WordTile(
               key: ValueKey(words[i].id),
               word: words[i], font: widget.font,
+            russianFont: widget.russianFont, lineHeight: widget.lineHeight,
               showBackground: renderMode != DictionaryRenderMode.plain,
               showVowels: renderMode != DictionaryRenderMode.noVowels,
               favorite: favorites.contains(words[i].id),
@@ -615,6 +643,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
               itemBuilder: (context, i) => WordTile(
                 key: ValueKey('search-${visible[i].id}'),
                 word: visible[i], font: widget.font,
+                russianFont: widget.russianFont, lineHeight: widget.lineHeight,
                 favorite: favorites.contains(visible[i].id),
                 onOpen: () => openWord(visible[i], all),
                 onCopy: () { copy(visible[i].arabic); },
@@ -680,6 +709,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           itemBuilder: (context, i) => WordTile(
             key: ValueKey('saved-${words[i].id}'),
             word: words[i], font: widget.font,
+            russianFont: widget.russianFont, lineHeight: widget.lineHeight,
             favorite: favorites.contains(words[i].id),
             onOpen: () => openWord(words[i], all),
             onCopy: () { copy(words[i].arabic); },
@@ -897,9 +927,10 @@ class WordTile extends StatelessWidget {
   const WordTile({super.key, required this.word, required this.font,
     required this.favorite, required this.onOpen, required this.onCopy,
     required this.onFavorite,
-    this.showBackground = true, this.showVowels = true});
+    this.showBackground = true, this.showVowels = true,
+    this.russianFont = 16, this.lineHeight = 1.7});
   final Word word;
-  final double font;
+  final double font, russianFont, lineHeight;
   final bool favorite;
   final VoidCallback onOpen, onCopy, onFavorite;
   final bool showBackground, showVowels;
@@ -933,7 +964,7 @@ class WordTile extends StatelessWidget {
                 const SizedBox(height: 1),
                 Text(word.russian,
                   textDirection: TextDirection.ltr,
-                  style: TextStyle(fontSize: 15,
+                  style: TextStyle(fontSize: russianFont,
                     color: scheme.primary, fontWeight: FontWeight.w600)),
               ],
               const SizedBox(height: 3),
@@ -945,7 +976,7 @@ class WordTile extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                   fontSize: font - 6,
-                  height: 1.48,
+                  height: lineHeight,
                   color: scheme.onSurfaceVariant,
                 ),
               ),
@@ -1005,9 +1036,10 @@ class WordReader extends StatefulWidget {
     required this.tab, required this.favorite, required this.bookmarked,
     required this.onFavorite, required this.onBookmark,
     required this.onSpeak, required this.onCopy, required this.onArabicTap,
-    required this.onNavigate});
+    required this.onNavigate,
+    this.russianFont = 16, this.lineHeight = 1.7});
   final Word word;
-  final double font;
+  final double font, russianFont, lineHeight;
   final int tab;
   final bool favorite, bookmarked;
   final Future<void> Function() onFavorite, onBookmark;
@@ -1058,8 +1090,8 @@ class _WordReaderState extends State<WordReader> {
               borderRadius: BorderRadius.circular(16)),
             child: Column(children: [
               Text(w.arabic, textDirection: TextDirection.rtl,
-                style: TextStyle(fontSize: widget.font + 18,
-                  fontWeight: FontWeight.w700, height: 1.7)),
+                style: TextStyle(fontSize: widget.font + 14,
+                  fontWeight: FontWeight.w700, height: widget.lineHeight)),
               if (w.grammar.isNotEmpty)
                 Text(w.grammar.first.split('؛').first,
                   textDirection: TextDirection.rtl,
@@ -1090,7 +1122,7 @@ class _WordReaderState extends State<WordReader> {
                     style: TextStyle(fontWeight: FontWeight.w700, fontSize: 15)),
                   const SizedBox(height: 9),
                   Text(w.russian, textDirection: TextDirection.ltr,
-                    style: TextStyle(fontSize: 18, color: scheme.primary)),
+                    style: TextStyle(fontSize: widget.russianFont + 2, color: scheme.primary)),
                 ],
               ),
             ),
@@ -1151,7 +1183,7 @@ class _WordReaderState extends State<WordReader> {
               onTap: () => widget.onArabicTap(token),
               borderRadius: BorderRadius.circular(4),
               child: Text(token, textDirection: TextDirection.rtl,
-                style: TextStyle(fontSize: widget.font, height: 1.7)),
+                style: TextStyle(fontSize: widget.font, height: widget.lineHeight)),
             ),
       ]));
 }
