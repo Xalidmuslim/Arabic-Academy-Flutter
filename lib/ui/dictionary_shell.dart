@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';
 import 'package:flutter/material.dart';
@@ -171,6 +172,7 @@ class DictionaryHome extends StatefulWidget {
 class _DictionaryHomeState extends State<DictionaryHome> {
   late final Future<List<Word>> future = loadWords();
   final search = TextEditingController();
+  Timer? searchDebounce;
   final wordScroll = ScrollController();
   final searchScroll = ScrollController();
   final favoriteScroll = ScrollController();
@@ -272,7 +274,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     super.initState();
     search.addListener(onSearch);
   }
-  void onSearch() { if (mounted) setState(() {}); }
+  void onSearch() {
+    searchDebounce?.cancel();
+    searchDebounce = Timer(const Duration(milliseconds: 110), () {
+      if (mounted) setState(() {});
+    });
+  }
 
   void setFrameDiagnostics(bool enabled) {
     if (enabled == showFrameDiagnostics) return;
@@ -286,6 +293,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 
   @override void dispose() {
     search.removeListener(onSearch);
+    searchDebounce?.cancel();
     search.dispose();
     wordScroll.dispose();
     searchScroll.dispose();
@@ -660,6 +668,8 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     }
 
     final bookNumbers = books.keys.toList()..sort();
+    final lastWord = recentWords.isEmpty ? <Word>[] : all
+      .where((word) => word.id == recentWords.first).take(1).toList();
     return ListView(
       key: const Key('volume-list'),
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 30),
@@ -682,7 +692,25 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             Text('${all.length} статей · Офлайн',
               style: const TextStyle(fontSize: 13, color: muted)),
           ])),
-        const SizedBox(height: 16),
+        const SizedBox(height: 6),
+        if (lastWord.isNotEmpty) ListTile(
+          leading: const Icon(Icons.history_rounded),
+          title: const Text('Продолжить'),
+          subtitle: Text(lastWord.first.russian.isNotEmpty
+            ? '${lastWord.first.arabic} · ${lastWord.first.russian}'
+            : lastWord.first.arabic),
+          trailing: const Icon(Icons.chevron_right_rounded),
+          onTap: () => openWord(lastWord.first, all),
+        ),
+        ListTile(
+          leading: const Icon(Icons.search_rounded),
+          title: const Text('Найти слово'),
+          trailing: const Icon(Icons.chevron_right_rounded),
+          onTap: () {
+            setState(() => tab = 1);
+            saveNavigation();
+          },
+        ),
         Material(color: Colors.transparent, child: ListTile(
           key: const Key('all-words-tile'),
           leading: const Icon(Icons.auto_stories_outlined),
@@ -767,7 +795,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           ]),
           Text(query.isEmpty
               ? 'Ищите по арабскому слову, объяснению или русскому переводу.'
-              : '${matches.length} результатов${matches.length > visible.length ? ' · показаны первые ${visible.length}' : ''}',
+              : 'Показано ${matches.length} результатов (максимум 300)',
               style: const TextStyle(color: muted, fontSize: 12)),
         ])),
       Expanded(child: query.isEmpty
