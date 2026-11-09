@@ -68,7 +68,7 @@ void main() {
     await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('arabic-font-slider')), findsOneWidget);
-    expect(find.byKey(const Key('russian-font-slider')), findsOneWidget);
+    expect(find.byKey(const Key('russian-font-slider')), findsNothing);
     await scrollToSetting(tester, find.text('Тёмная'));
     await tester.tap(find.text('Тёмная'));
     await tester.pumpAndSettle();
