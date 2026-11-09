@@ -7,6 +7,14 @@ import 'package:bayna_dictionary/ui/dictionary_shell.dart';
 Word word(String id) => Word(id, 'كِتَابٌ $id', 'صَفَحَاتٌ نَقْرَؤُهَا',
     const [], const [], const ['اِسْمٌ'], const [], const [], '', const []);
 
+Future<void> scrollToSetting(WidgetTester tester, Finder target) async {
+  final settingsScrollable = find.descendant(
+    of: find.byKey(const Key('settings-list')),
+    matching: find.byType(Scrollable)).first;
+  await tester.scrollUntilVisible(target, 200, scrollable: settingsScrollable);
+  await tester.pumpAndSettle();
+}
+
 void main() {
   setUp(() => SharedPreferences.setMockInitialValues({}));
 
@@ -61,7 +69,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('arabic-font-slider')), findsOneWidget);
     expect(find.byKey(const Key('russian-font-slider')), findsOneWidget);
-    await tester.ensureVisible(find.text('Тёмная'));
+    await scrollToSetting(tester, find.text('Тёмная'));
     await tester.tap(find.text('Тёмная'));
     await tester.pumpAndSettle();
     final prefs = await SharedPreferences.getInstance();
@@ -182,11 +190,11 @@ void main() {
 
     await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
-    await tester.ensureVisible(find.text('Инструменты разработчика'));
+    await scrollToSetting(tester, find.text('Инструменты разработчика'));
     await tester.tap(find.text('Инструменты разработчика'));
     await tester.pumpAndSettle();
     final toggle = find.byKey(const Key('frame-diagnostics-toggle'));
-    await tester.ensureVisible(toggle);
+    await scrollToSetting(tester, toggle);
     await tester.pumpAndSettle();
     await tester.tap(toggle);
     await tester.pumpAndSettle();
@@ -225,10 +233,10 @@ void main() {
 
     await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
-    await tester.ensureVisible(find.text('Инструменты разработчика'));
+    await scrollToSetting(tester, find.text('Инструменты разработчика'));
     await tester.tap(find.text('Инструменты разработчика'));
     await tester.pumpAndSettle();
-    await tester.ensureVisible(find.byKey(const Key('render-mode-plain')));
+    await scrollToSetting(tester, find.byKey(const Key('render-mode-plain')));
     await tester.tap(find.byKey(const Key('render-mode-plain')));
     await tester.pumpAndSettle();
     await tester.pageBack();
@@ -238,7 +246,7 @@ void main() {
 
     await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
-    await tester.ensureVisible(find.byKey(const Key('render-mode-no-vowels')));
+    await scrollToSetting(tester, find.byKey(const Key('render-mode-no-vowels')));
     await tester.tap(find.byKey(const Key('render-mode-no-vowels')));
     await tester.pumpAndSettle();
     await tester.pageBack();
