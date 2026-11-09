@@ -46,6 +46,12 @@ jobs:
         run: |
           flutter test
           flutter analyze
+      - name: Render compact UI previews for QA
+        run: flutter test --update-goldens --dart-define=CAPTURE_UX_GOLDENS=true test/dictionary_ux_visual_test.dart
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bayna-ux-screenshot-previews
+          path: test/goldens/*.png
       - name: Audit exact Russian translation coverage
         run: python3 tooling/translation_coverage.py
       - uses: actions/upload-artifact@v4
