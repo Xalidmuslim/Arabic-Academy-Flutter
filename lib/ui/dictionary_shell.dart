@@ -321,6 +321,11 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     await p.setStringList('dictionary_bookmarks_v2', bookmarks.toList());
   }
 
+  void updateDictionaryLocation(VoidCallback change) {
+    setState(change);
+    saveNavigation();
+  }
+
   void saveNavigation() {
     SharedPreferences.getInstance().then((p) async {
       await p.setInt('dictionary_last_tab_v3', tab);
@@ -585,12 +590,9 @@ class _DictionaryHomeState extends State<DictionaryHome> {
                 IconButton(
                   tooltip: showAllWords ? 'К томам' : 'К темам',
                   icon: const Icon(Icons.arrow_back_rounded),
-                  onPressed: () => {
-                    setState(() {
-                      if (showAllWords) showAllWords = false;
-                      selectedChapter = null;
-                    }),
-                    saveNavigation(),
+                  onPressed: () => updateDictionaryLocation(() {
+                    if (showAllWords) showAllWords = false;
+                    selectedChapter = null;
                   }),
                 Expanded(child: Text(
                   showAllWords ? 'Весь словарь' : 'Том $selectedBook · Тема $selectedChapter',
@@ -631,7 +633,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           Row(children: [
             IconButton(
               tooltip: 'К томам',
-              onPressed: () => setState(() => selectedBook = null),
+              onPressed: () => updateDictionaryLocation(() => selectedBook = null),
               icon: const Icon(Icons.arrow_back_rounded)),
             Text('Том $selectedBook',
               style: const TextStyle(fontSize: 25, fontWeight: FontWeight.w800)),
@@ -641,13 +643,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             child: Text('Выберите тему. Отображаются только темы с привязками слов.',
               style: TextStyle(color: muted, fontSize: 13))),
           for (final chapter in numbers)
-            Card(child: ListTile(
+            Material(color: Colors.transparent, child: ListTile(
               key: ValueKey('chapter-$selectedBook-$chapter'),
               leading: const Icon(Icons.folder_open_outlined),
               title: Text('Тема $chapter'),
               subtitle: Text('${all.where((word) => word.isInChapter(selectedBook!, chapter)).length} слов'),
               trailing: const Icon(Icons.chevron_right_rounded),
-              onTap: () => setState(() {
+              onTap: () => updateDictionaryLocation(() {
                 selectedChapter = chapter;
                 if (wordScroll.hasClients) wordScroll.jumpTo(0);
               }))),
@@ -661,11 +663,11 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 30),
       children: [
         Container(
-          padding: const EdgeInsets.all(22),
+          padding: const EdgeInsets.fromLTRB(18, 14, 18, 14),
           decoration: BoxDecoration(
             color: Theme.of(context).brightness == Brightness.dark
                 ? const Color(0xFF20443F) : const Color(0xFFE0EEE8),
-            borderRadius: BorderRadius.circular(24)),
+            borderRadius: BorderRadius.circular(16)),
           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             const Text('АРАБО-АРАБСКИЙ СЛОВАРЬ',
               style: TextStyle(fontWeight: FontWeight.w800, letterSpacing: 1,
@@ -679,20 +681,20 @@ class _DictionaryHomeState extends State<DictionaryHome> {
               style: const TextStyle(fontSize: 13, color: muted)),
           ])),
         const SizedBox(height: 16),
-        Card(child: ListTile(
+        Material(color: Colors.transparent, child: ListTile(
           key: const Key('all-words-tile'),
           leading: const Icon(Icons.auto_stories_outlined),
           title: const Text('Весь словарь'),
           subtitle: Text('${all.length} слов, включая новые тематические разделы'),
           trailing: const Icon(Icons.chevron_right_rounded),
-          onTap: () => setState(() {
+          onTap: () => updateDictionaryLocation(() {
             showAllWords = true;
             selectedBook = null;
             selectedChapter = null;
             if (wordScroll.hasClients) wordScroll.jumpTo(0);
           }))),
         const Padding(
-          padding: EdgeInsets.fromLTRB(5, 17, 5, 5),
+          padding: EdgeInsets.fromLTRB(5, 10, 5, 5),
           child: Text('Тома учебника',
             style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800))),
         const Padding(
@@ -700,13 +702,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           child: Text('Только разделы, для которых есть ссылки на темы.',
             style: TextStyle(color: muted, fontSize: 12))),
         for (final book in bookNumbers)
-          Card(child: ListTile(
+          Material(color: Colors.transparent, child: ListTile(
             key: ValueKey('volume-$book'),
             leading: const Icon(Icons.menu_book_outlined),
             title: Text('Том $book'),
             subtitle: Text('${books[book]!.length} тем'),
             trailing: const Icon(Icons.chevron_right_rounded),
-            onTap: () => setState(() {
+            onTap: () => updateDictionaryLocation(() {
               selectedBook = book;
               selectedChapter = null;
               showAllWords = false;
