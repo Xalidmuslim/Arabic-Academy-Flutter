@@ -9,10 +9,10 @@ void main() {
   const meaning = Word('definition', 'مَكْتَبَةٌ', 'مَكَانٌ فِيهِ كِتَابٌ',
     [], [], [], [], [], '', [],
     russian: 'библиотека', bookNumber: 2, chapterNumber: 1);
-  test('Exact Arabic and Russian headword outrank definitions', () {
+  test('Exact Arabic headword outranks definition', () {
     final words = [meaning, book];
     expect(searchDictionary(words, 'كتاب').first.id, 'book');
-    expect(searchDictionary(words, 'книга').first.id, 'book');
+    expect(searchDictionary(words, 'книга'), isEmpty);
     expect(searchDictionary(words, 'كِتَابٌ').first.id, 'book');
   });
   test('Filter by textbook volume and cap results', () {
