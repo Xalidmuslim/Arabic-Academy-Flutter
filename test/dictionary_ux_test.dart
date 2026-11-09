@@ -15,7 +15,8 @@ void main() {
     expect(find.text('Сохранённое'), findsOneWidget);
     await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
-    expect(find.text('Русский шрифт'), findsOneWidget);
+    expect(find.text('Русский шрифт'), findsNothing);
+    expect(find.byKey(const Key('animation-toggle')), findsOneWidget);
     final settingsScroll = find.descendant(
       of: find.byKey(const Key('settings-list')),
       matching: find.byType(Scrollable)).first;
