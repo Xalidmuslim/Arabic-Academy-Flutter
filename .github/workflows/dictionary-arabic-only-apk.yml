@@ -53,13 +53,13 @@ jobs:
         with:
           name: bayna-ux-screenshot-previews
           path: test/goldens/*.png
-      - name: Preserve installed dictionary and its bookmarks
+      - name: Install alongside previous preview (keep existing app data)
         run: |
           set -euo pipefail
           f=android/app/build.gradle.kts
           test -f "$f"
-          sed -i 's/applicationId = "com.xalidmuslim.bayna_dictionary"/applicationId = "com.xalidmuslim.bayna_dictionary.uxpreview"/' "$f"
-          grep -F 'applicationId = "com.xalidmuslim.bayna_dictionary.uxpreview"' "$f"
+          sed -i 's/applicationId = "com.xalidmuslim.bayna_dictionary"/applicationId = "com.xalidmuslim.bayna_dictionary.arabiconly"/' "$f"
+          grep -F 'applicationId = "com.xalidmuslim.bayna_dictionary.arabiconly"' "$f"
       - name: Build Android ARM64 APK
         run: flutter build apk --release --target-platform android-arm64
       - name: Verify APK
@@ -84,5 +84,5 @@ jobs:
             gh release create "$TAG" /tmp/bayna-dictionary-arabic-only.apk \
               --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --prerelease \
               --title "Bayna Dictionary: Arabic-only, motion switch and new icon" \
-              --notes "Arabic-only lexicon, animation switch, redesigned adaptive launcher icon. Same UX preview app ID to preserve user bookmarks."
+              --notes "Arabic-only lexicon, animation switch, redesigned adaptive launcher icon. New app ID prevents replacing a separately signed previous preview. Export/import backups to transfer bookmarks."
           fi
