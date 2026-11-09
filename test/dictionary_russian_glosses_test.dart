@@ -33,7 +33,7 @@ void main() {
     expect(mapped.every((w) => w.russian.isEmpty), isTrue);
   });
 
-  testWidgets('Russian translation is visible in list, reader and Russian search',
+  testWidgets('Dictionary remains Arabic-only even when source has a Russian gloss',
       (tester) async {
     const item = Word('book-1', 'كِتَابٌ', 'مَجْمُوعَةٌ مِنَ الصَّفَحَاتِ',
         [], [], [], [], [], '', [], russian: 'книга',
@@ -42,11 +42,12 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('all-words-tile')));
     await tester.pumpAndSettle();
-    expect(find.text('книга'), findsWidgets);
+    expect(find.text('книга'), findsNothing);
+    expect(find.text('كِتَابٌ'), findsWidgets);
     await tester.tap(find.byType(WordTile).first);
     await tester.pumpAndSettle();
-    expect(find.text('Перевод на русский'), findsOneWidget);
-    expect(find.text('книга'), findsWidgets);
+    expect(find.text('Перевод на русский'), findsNothing);
+    expect(find.text('مَجْمُوعَةٌ مِنَ الصَّفَحَاتِ'), findsWidgets);
 
     await tester.pageBack();
     await tester.pumpAndSettle();
@@ -54,6 +55,10 @@ void main() {
     await tester.pumpAndSettle();
     await tester.enterText(find.byKey(const Key('arabic-search')), 'книга');
     await tester.pumpAndSettle();
+    expect(find.byType(WordTile), findsNothing);
+    await tester.enterText(find.byKey(const Key('arabic-search')), 'كتاب');
+    await tester.pumpAndSettle();
     expect(find.byType(WordTile), findsOneWidget);
   });
+
 }
