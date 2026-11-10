@@ -5,10 +5,10 @@ import 'package:bayna_dictionary/core/dictionary_search.dart';
 void main() {
   const book = Word('book', 'كِتَابٌ', 'مَجْمُوعَةٌ مِنَ الصَّفَحَاتِ',
     [], [], [], [], [], '', [],
-    russian: 'книга', bookNumber: 1, chapterNumber: 1);
+ bookNumber: 1, chapterNumber: 1);
   const meaning = Word('definition', 'مَكْتَبَةٌ', 'مَكَانٌ فِيهِ كِتَابٌ',
     [], [], [], [], [], '', [],
-    russian: 'библиотека', bookNumber: 2, chapterNumber: 1);
+ bookNumber: 2, chapterNumber: 1);
   test('Exact Arabic headword outranks definition', () {
     final words = [meaning, book];
     expect(searchDictionary(words, 'كتاب').first.id, 'book');
