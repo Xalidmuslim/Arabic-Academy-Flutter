@@ -55,7 +55,7 @@ def patch_activity(source: str) -> str:
 
     original_import = "import io.flutter.embedding.android.FlutterActivity"
     match = re.search(
-        r"\\bclass\\s+MainActivity\\s*:\\s*FlutterActivity\\s*\\(\\s*\\)",
+        r"\bclass\s+MainActivity\s*:\s*FlutterActivity\s*\(\s*\)",
         source,
     )
     if (
@@ -66,9 +66,9 @@ def patch_activity(source: str) -> str:
     ):
         raise ValueError("Unexpected Flutter Activity; refusing to overwrite Android code")
 
-    source = source.replace(original_import, original_import + "\\n" + EXTRA_IMPORTS, 1)
+    source = source.replace(original_import, original_import + "\n" + EXTRA_IMPORTS, 1)
     match = re.search(
-        r"\\bclass\\s+MainActivity\\s*:\\s*FlutterActivity\\s*\\(\\s*\\)",
+        r"\bclass\s+MainActivity\s*:\s*FlutterActivity\s*\(\s*\)",
         source,
     )
     assert match is not None
