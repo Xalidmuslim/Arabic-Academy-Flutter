@@ -8,7 +8,6 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_tts: ^4.2.5
-  flutter_displaymode: ^0.7.0
   shared_preferences: ^2.3.2
 dev_dependencies:
   flutter_test:
