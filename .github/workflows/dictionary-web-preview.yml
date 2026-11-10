@@ -12,7 +12,7 @@ permissions:
 jobs:
   web-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: subosito/flutter-action@v2
@@ -20,8 +20,8 @@ jobs:
           channel: stable
           flutter-version: "3.35.7"
           cache: true
-      - name: Complete the Flutter web platform scaffold
-        run: flutter create --project-name bayna_dictionary --platforms web .
+      - name: Complete the Flutter Android and web platform scaffolds
+        run: flutter create --project-name bayna_dictionary --platforms android,web --org com.xalidmuslim .
       - name: Install dependencies
         run: flutter pub get
       - name: Static analysis
@@ -54,5 +54,15 @@ jobs:
         with:
           name: bayna-dictionary-web-preview
           path: build/web/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Build Android ARM64 APK from the exact same source and corpus
+        run: flutter build apk --release --target-platform android-arm64
+      - name: Verify APK exists and is not empty
+        run: test -s build/app/outputs/flutter-apk/app-release.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bayna-dictionary-android-preview
+          path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
           retention-days: 14
