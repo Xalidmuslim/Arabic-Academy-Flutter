@@ -1,0 +1,58 @@
+name: Bayna dictionary web preview
+
+on:
+  push:
+    branches:
+      - codex/bayna-web-pwa-20261110
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  web-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.35.7"
+          cache: true
+      - name: Complete the Flutter web platform scaffold
+        run: flutter create --project-name bayna_dictionary --platforms web .
+      - name: Install dependencies
+        run: flutter pub get
+      - name: Static analysis
+        run: flutter analyze
+      - name: Run all existing and web-asset tests
+        run: flutter test
+      - name: Build website for GitHub Pages subpath
+        run: flutter build web --release --base-href /Arabic-Academy-Flutter/
+      - name: Verify HTML, manifest, and every corpus chunk in the web bundle
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('build/web')
+          assert (root / 'index.html').is_file()
+          assert (root / 'flutter_bootstrap.js').is_file()
+          assert (root / 'main.dart.js').is_file()
+          assert (root / 'manifest.json').is_file()
+          assert (root / 'icons/bayna.svg').is_file()
+          assert '/Arabic-Academy-Flutter/' in (root / 'index.html').read_text()
+          manifest = json.loads(Path('assets/data/corpus_manifest.json').read_text())
+          files = manifest['files']
+          missing = [name for name in ['assets/data/corpus_manifest.json', *files]
+                     if not (root / 'assets' / name).is_file()]
+          assert not missing, f'Missing corpus assets: {missing}'
+          print(f'Web build includes all {len(files)} dictionary corpus files')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bayna-dictionary-web-preview
+          path: build/web/
+          if-no-files-found: error
+          retention-days: 14
