@@ -37,7 +37,7 @@ class NoMotionPageTransitionsBuilder extends PageTransitionsBuilder {
   ) => child;
 }
 
-ThemeData dictionaryTheme(bool dark, {bool animationsEnabled = true}) {
+ThemeData dictionaryTheme(bool dark) {
   final surface = dark ? const Color(0xFF202E2B) : Colors.white;
   final background = dark ? charcoal : stone;
   final scheme = ColorScheme.fromSeed(
@@ -48,13 +48,18 @@ ThemeData dictionaryTheme(bool dark, {bool animationsEnabled = true}) {
     colorScheme: scheme,
     scaffoldBackgroundColor: background,
     appBarTheme: AppBarTheme(backgroundColor: background, elevation: 0),
-    splashFactory: animationsEnabled
-        ? InkRipple.splashFactory : NoSplash.splashFactory,
-    pageTransitionsTheme: PageTransitionsTheme(
+    splashFactory: NoSplash.splashFactory,
+    highlightColor: Colors.transparent,
+    hoverColor: Colors.transparent,
+    focusColor: Colors.transparent,
+    pageTransitionsTheme: const PageTransitionsTheme(
       builders: {
-        TargetPlatform.android: animationsEnabled
-            ? const PredictiveBackPageTransitionsBuilder()
-            : const NoMotionPageTransitionsBuilder(),
+        TargetPlatform.android: NoMotionPageTransitionsBuilder(),
+        TargetPlatform.iOS: NoMotionPageTransitionsBuilder(),
+        TargetPlatform.macOS: NoMotionPageTransitionsBuilder(),
+        TargetPlatform.windows: NoMotionPageTransitionsBuilder(),
+        TargetPlatform.linux: NoMotionPageTransitionsBuilder(),
+        TargetPlatform.fuchsia: NoMotionPageTransitionsBuilder(),
       },
     ),
     navigationBarTheme: NavigationBarThemeData(
@@ -82,7 +87,6 @@ class _DictionaryAppState extends State<DictionaryApp> {
   ThemeMode mode = ThemeMode.system;
   double font = 23;
   double lineHeight = 1.7;
-  bool animationsEnabled = true;
   @override
   void initState() {
     super.initState();
@@ -113,7 +117,6 @@ class _DictionaryAppState extends State<DictionaryApp> {
         'light' => ThemeMode.light, 'dark' => ThemeMode.dark, _ => ThemeMode.system};
       font = (p.getDouble('dictionary_font_size_v2') ?? 23).clamp(18.0, 34.0).toDouble();
       lineHeight = (p.getDouble('dictionary_line_height_v3') ?? 1.7).clamp(1.3, 2.2).toDouble();
-      animationsEnabled = p.getBool('dictionary_animations_enabled_v1') ?? true;
     });
   }
 
@@ -131,12 +134,6 @@ class _DictionaryAppState extends State<DictionaryApp> {
       (p) => p.setDouble('dictionary_font_size_v2', value));
   }
 
-  void changeAnimations(bool value) {
-    setState(() => animationsEnabled = value);
-    SharedPreferences.getInstance().then((p) =>
-        p.setBool('dictionary_animations_enabled_v1', value));
-  }
-
   void changeLineHeight(double value) {
     setState(() => lineHeight = value);
     SharedPreferences.getInstance().then(
@@ -146,27 +143,22 @@ class _DictionaryAppState extends State<DictionaryApp> {
   @override Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'Словарь Байна Ядайк',
-    theme: dictionaryTheme(false, animationsEnabled: animationsEnabled),
-    darkTheme: dictionaryTheme(true, animationsEnabled: animationsEnabled),
-    themeAnimationDuration: animationsEnabled
-        ? const Duration(milliseconds: 200) : Duration.zero,
+    theme: dictionaryTheme(false),
+    darkTheme: dictionaryTheme(true),
+    themeAnimationDuration: Duration.zero,
     themeMode: mode,
     home: DictionaryHome(
       previewWords: widget.previewWords, mode: mode, font: font,
-      lineHeight: lineHeight, animationsEnabled: animationsEnabled,
-      setAnimationsEnabled: changeAnimations, setLineHeight: changeLineHeight,
+      lineHeight: lineHeight, setLineHeight: changeLineHeight,
       setMode: changeTheme, setFont: changeFont));
 }
 
 class DictionaryNav extends StatelessWidget {
-  const DictionaryNav({super.key, required this.tab, required this.onTap,
-    this.animationsEnabled = true});
+  const DictionaryNav({super.key, required this.tab, required this.onTap});
   final int tab;
   final ValueChanged<int> onTap;
-  final bool animationsEnabled;
   @override Widget build(BuildContext context) => NavigationBar(
-    animationDuration: animationsEnabled
-        ? const Duration(milliseconds: 180) : Duration.zero,
+    animationDuration: Duration.zero,
     selectedIndex: tab,
     onDestinationSelected: onTap,
     labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
@@ -183,14 +175,11 @@ class DictionaryNav extends StatelessWidget {
 class DictionaryHome extends StatefulWidget {
   const DictionaryHome({super.key, this.previewWords, required this.mode,
     required this.font, required this.lineHeight,
-    required this.animationsEnabled, required this.setAnimationsEnabled,
     required this.setMode, required this.setFont,
     required this.setLineHeight});
   final List<Word>? previewWords;
   final ThemeMode mode;
   final double font, lineHeight;
-  final bool animationsEnabled;
-  final ValueChanged<bool> setAnimationsEnabled;
   final ValueChanged<double> setLineHeight;
   final ValueChanged<ThemeMode> setMode;
   final ValueChanged<double> setFont;
@@ -306,9 +295,9 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 
   @override void didUpdateWidget(covariant DictionaryHome oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (oldWidget.animationsEnabled != widget.animationsEnabled) {
-      // Settings is a separate Navigator route: refresh its StatefulBuilder
-      // after the parent passes down the new persisted motion preference.
+    if (oldWidget.font != widget.font ||
+        oldWidget.lineHeight != widget.lineHeight ||
+        oldWidget.mode != widget.mode) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (mounted) refreshSettings?.call();
       });
@@ -420,8 +409,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   void openReview(List<Word> all) {
     final words = all.where((word) => favorites.contains(word.id)).toList();
     Navigator.of(context).push<void>(MaterialPageRoute<void>(
-      builder: (_) => ReviewScreen(words: words, fontSize: widget.font,
-        animationsEnabled: widget.animationsEnabled)));
+      builder: (_) => ReviewScreen(words: words, fontSize: widget.font)));
   }
 
   Future<void> exportBackup() async {
@@ -492,7 +480,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         word: word,
         font: widget.font,
         lineHeight: widget.lineHeight,
-        animationsEnabled: widget.animationsEnabled, tab: tab,
+
         favorite: favorites.contains(word.id),
         bookmarked: bookmarks.contains(word.id),
         onFavorite: () => toggleFavorite(word.id),
@@ -507,10 +495,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           } else {
             openWord(next, corpus);
           }
-        },
-        onNavigate: (next) {
-          Navigator.of(context).popUntil((r) => r.isFirst);
-          setState(() => tab = next);
         },
       )));
   }
@@ -555,8 +539,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
             onPressed: openSettings),
         ]),
         bottomNavigationBar: DictionaryNav(
-          tab: tab, animationsEnabled: widget.animationsEnabled,
-          onTap: (next) {
+          tab: tab, onTap: (next) {
             if (next != 0) frameMonitor.setScrolling(false);
             setState(() => tab = next);
             saveNavigation();
@@ -1059,20 +1042,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       ]),
       const SizedBox(height: 15),
       settingCard(children: [
-        SwitchListTile.adaptive(
-          key: const Key('animation-toggle'),
-          contentPadding: EdgeInsets.zero,
-          title: const Text('Анимации интерфейса',
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
-          subtitle: const Text(
-            'Отключает переходы страниц, раскрытие блоков и эффекты переключения.',
-            style: TextStyle(fontSize: 12)),
-          value: widget.animationsEnabled,
-          onChanged: widget.setAnimationsEnabled,
-        ),
-      ]),
-      const SizedBox(height: 15),
-      settingCard(children: [
         const Text('Резервное копирование',
           style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
         const SizedBox(height: 8),
@@ -1311,20 +1280,16 @@ class WordTile extends StatelessWidget {
 
 class WordReader extends StatefulWidget {
   const WordReader({super.key, required this.word, required this.font,
-    required this.tab, required this.favorite, required this.bookmarked,
+    required this.favorite, required this.bookmarked,
     required this.onFavorite, required this.onBookmark,
     required this.onSpeak, required this.onCopy, required this.onArabicTap,
-    required this.onNavigate,
-    this.lineHeight = 1.7, this.animationsEnabled = true});
+    this.lineHeight = 1.7});
   final Word word;
   final double font, lineHeight;
-  final bool animationsEnabled;
-  final int tab;
   final bool favorite, bookmarked;
   final Future<void> Function() onFavorite, onBookmark;
   final VoidCallback onSpeak, onCopy;
   final ValueChanged<String> onArabicTap;
-  final ValueChanged<int> onNavigate;
   @override State<WordReader> createState() => _WordReaderState();
 }
 
