@@ -79,8 +79,8 @@ class _DictionaryAppState extends State<DictionaryApp> {
   void initState() {
     super.initState();
     restore();
-    // Android window refresh is requested by native MainActivity.onResume.
-    // Unlike the old plugin, it does not set preferredDisplayModeId.
+    // No refresh preference is set by the app.
+    // Android/HyperOS decides per-app display policy.
   }
 
   Future<void> restore() async {
