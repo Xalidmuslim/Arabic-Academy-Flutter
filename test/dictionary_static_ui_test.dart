@@ -54,7 +54,7 @@ void main() {
     await tester.tap(find.byType(WordTile).first);
     await tester.pumpAndSettle();
     expect(find.byType(ExpansionTile), findsNothing);
-    expect(find.text('مَعْنَى الرَّحْمَةِ'), findsWidgets);
+    expect(find.text('مَعْنَى'), findsWidgets);
     expect(find.text('رَأْفَةٌ'), findsNothing);
     await tester.tap(find.text('Синонимы'));
     await tester.pump();
