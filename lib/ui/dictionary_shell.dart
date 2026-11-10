@@ -958,14 +958,11 @@ class _DictionaryHomeState extends State<DictionaryHome> {
 class WordTile extends StatelessWidget {
   const WordTile({super.key, required this.word, required this.font,
     required this.favorite, required this.onOpen, required this.onCopy,
-    required this.onFavorite,
-    this.showBackground = true, this.showVowels = true,
-    this.lineHeight = 1.7});
+    required this.onFavorite, this.lineHeight = 1.7});
   final Word word;
   final double font, lineHeight;
   final bool favorite;
   final VoidCallback onOpen, onCopy, onFavorite;
-  final bool showBackground, showVowels;
 
   @override Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
@@ -983,7 +980,7 @@ class WordTile extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
-                showVowels ? word.arabic : withoutArabicVowels(word.arabic),
+                word.arabic,
                 textDirection: TextDirection.rtl,
                 textAlign: TextAlign.right,
                 style: TextStyle(
@@ -994,7 +991,7 @@ class WordTile extends StatelessWidget {
               ),
               const SizedBox(height: 3),
               Text(
-                showVowels ? word.meaning : withoutArabicVowels(word.meaning),
+                word.meaning,
                 textDirection: TextDirection.rtl,
                 textAlign: TextAlign.right,
                 maxLines: 3,
@@ -1030,26 +1027,18 @@ class WordTile extends StatelessWidget {
       ),
     );
 
-    // Compact matte list retains an independent plain diagnostic renderer.
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Column(children: [
-        showBackground
-            ? Material(
-                color: Colors.transparent,
-                child: InkWell(
-                  borderRadius: rounding,
-                  onTap: onOpen,
-                  onLongPress: onCopy,
-                  child: content,
-                ),
-              )
-            : GestureDetector(
-                behavior: HitTestBehavior.opaque,
-                onTap: onOpen,
-                onLongPress: onCopy,
-                child: content,
-              ),
+        Material(
+          color: Colors.transparent,
+          child: InkWell(
+            borderRadius: rounding,
+            onTap: onOpen,
+            onLongPress: onCopy,
+            child: content,
+          ),
+        ),
         Divider(height: 1, thickness: .6,
           color: scheme.outlineVariant.withValues(alpha: .55)),
       ]),
@@ -1074,6 +1063,7 @@ class WordReader extends StatefulWidget {
 
 class _WordReaderState extends State<WordReader> {
   late bool favorite = widget.favorite, bookmarked = widget.bookmarked;
+  final Set<String> expandedSections = {'01', '06'};
   @override Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
     final dark = Theme.of(context).brightness == Brightness.dark;
@@ -1147,45 +1137,55 @@ class _WordReaderState extends State<WordReader> {
   Widget section(String n, String title, List<String> texts, {
       bool numbered = false, String noData = 'Нет данных'}) {
     final scheme = Theme.of(context).colorScheme;
+    final expanded = expandedSections.contains(n);
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4),
       child: Column(children: [
-        ExpansionTile(
-          key: PageStorageKey<String>('detail-${widget.word.id}-$n'),
-          initiallyExpanded: n == '01' || n == '06',
-          expansionAnimationStyle: AnimationStyle(
-            duration: widget.animationsEnabled
-                ? const Duration(milliseconds: 170) : Duration.zero,
-            reverseDuration: widget.animationsEnabled
-                ? const Duration(milliseconds: 130) : Duration.zero,
+        Material(
+          color: Colors.transparent,
+          child: InkWell(
+            key: ValueKey<String>('detail-${widget.word.id}-$n'),
+            onTap: () => setState(() {
+              if (!expandedSections.add(n)) expandedSections.remove(n);
+            }),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 15),
+              child: Row(children: [
+                Text(n, style: TextStyle(fontSize: 12,
+                  color: scheme.primary, fontWeight: FontWeight.w700)),
+                const SizedBox(width: 10),
+                Expanded(child: Text(title, style: const TextStyle(
+                  fontSize: 15, fontWeight: FontWeight.w700))),
+                Icon(expanded ? Icons.expand_less_rounded
+                    : Icons.expand_more_rounded,
+                  size: 20, color: scheme.onSurfaceVariant),
+              ]),
+            ),
           ),
-          tilePadding: EdgeInsets.zero,
-          childrenPadding: const EdgeInsets.fromLTRB(0, 0, 0, 12),
-          shape: const Border(),
-          collapsedShape: const Border(),
-          title: Row(children: [
-            Text(n, style: TextStyle(fontSize: 12, color: scheme.primary,
-              fontWeight: FontWeight.w700)),
-            const SizedBox(width: 10),
-            Expanded(child: Text(title, style: const TextStyle(
-              fontSize: 15, fontWeight: FontWeight.w700))),
-          ]),
-          children: [
-            if (texts.isEmpty)
-              Text(noData, style: TextStyle(color: scheme.onSurfaceVariant))
-            else
-              for (var i = 0; i < texts.length; i++) ...[
-                if (numbered && texts.length > 1)
-                  Align(alignment: Alignment.centerLeft,
-                    child: Text('Значение ${i + 1}',
-                      style: TextStyle(fontSize: 12, color: scheme.primary))),
-                arabicWords(texts[i]),
-                if (i < texts.length - 1)
-                  const Padding(padding: EdgeInsets.symmetric(vertical: 8),
-                    child: Divider(height: 1)),
-              ],
-          ],
         ),
+        if (expanded)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                if (texts.isEmpty)
+                  Text(noData, style: TextStyle(
+                    color: scheme.onSurfaceVariant))
+                else
+                  for (var i = 0; i < texts.length; i++) ...[
+                    if (numbered && texts.length > 1)
+                      Align(alignment: Alignment.centerLeft,
+                        child: Text('Значение ${i + 1}',
+                          style: TextStyle(
+                            fontSize: 12, color: scheme.primary))),
+                    arabicWords(texts[i]),
+                    if (i < texts.length - 1)
+                      const Padding(
+                        padding: EdgeInsets.symmetric(vertical: 8),
+                        child: Divider(height: 1)),
+                  ],
+              ]),
+          ),
         Divider(height: 1, thickness: .6, color: scheme.outlineVariant),
       ]),
     );
