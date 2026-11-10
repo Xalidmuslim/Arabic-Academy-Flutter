@@ -4,11 +4,9 @@ import '../core/dictionary_data.dart';
 
 /// A local one-session recall drill for favorite words. No account or network.
 class ReviewScreen extends StatefulWidget {
-  const ReviewScreen({super.key, required this.words, required this.fontSize,
-    this.animationsEnabled = true});
+  const ReviewScreen({super.key, required this.words, required this.fontSize});
   final List<Word> words;
   final double fontSize;
-  final bool animationsEnabled;
   @override
   State<ReviewScreen> createState() => _ReviewScreenState();
 }
@@ -67,10 +65,9 @@ class _ReviewScreenState extends State<ReviewScreen> {
                           style: TextStyle(color: scheme.primary)),
                       ]),
                     const SizedBox(height: 8),
-                    LinearProgressIndicator(
-                      value: cursor / queue.length,
-                      minHeight: 3,
-                      borderRadius: BorderRadius.circular(4)),
+                    Text('Пройдено: $cursor из ${queue.length}',
+                      style: TextStyle(fontSize: 12,
+                        color: scheme.onSurfaceVariant)),
                     const Spacer(),
                     Semantics(
                       label: 'Арабское слово для повторения',
@@ -80,20 +77,14 @@ class _ReviewScreenState extends State<ReviewScreen> {
                         style: TextStyle(fontSize: widget.fontSize + 12,
                           height: 1.7, fontWeight: FontWeight.w700))),
                     const SizedBox(height: 24),
-                    AnimatedSwitcher(
-                      duration: widget.animationsEnabled
-                        ? const Duration(milliseconds: 180) : Duration.zero,
-                      child: revealed
-                        ? Column(key: const ValueKey('arabic-meaning'), children: [
-                            Text(queue[cursor].meaning,
-                              textAlign: TextAlign.center,
-                              textDirection: TextDirection.rtl,
-                              style: TextStyle(fontSize: widget.fontSize - 3,
-                                height: 1.6)),
-                          ])
-                        : const Text('Попробуйте объяснить значение на арабском',
-                            key: ValueKey('prompt')),
-                    ),
+                    if (revealed)
+                      Text(queue[cursor].meaning,
+                        textAlign: TextAlign.center,
+                        textDirection: TextDirection.rtl,
+                        style: TextStyle(fontSize: widget.fontSize - 3,
+                          height: 1.6))
+                    else
+                      const Text('Попробуйте объяснить значение на арабском'),
                     const Spacer(),
                     if (!revealed)
                       SizedBox(width: double.infinity,
