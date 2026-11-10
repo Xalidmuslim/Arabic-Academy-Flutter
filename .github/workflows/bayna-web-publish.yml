@@ -1,0 +1,75 @@
+name: Publish Bayna dictionary website
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: bayna-dictionary-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Check out the isolated dictionary web branch
+        uses: actions/checkout@v4
+        with:
+          ref: codex/bayna-web-pwa-20261110
+          persist-credentials: false
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.35.7"
+          channel: stable
+          cache: true
+      - name: Generate web platform (preserves existing source files)
+        run: flutter create --project-name bayna_dictionary --platforms web .
+      - name: Install packages
+        run: flutter pub get
+      - name: Analyze source
+        run: flutter analyze
+      - name: Run tests
+        run: flutter test
+      - name: Compile for the repository's Pages URL
+        run: flutter build web --release --base-href /Arabic-Academy-Flutter/
+      - name: Verify every dictionary chunk is in the compiled site
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          out = Path('build/web')
+          assert (out/'index.html').is_file()
+          assert (out/'main.dart.js').is_file()
+          assert (out/'flutter_bootstrap.js').is_file()
+          assert (out/'manifest.json').is_file()
+          data = json.loads(Path('assets/data/corpus_manifest.json').read_text(encoding='utf-8'))
+          files = ['assets/data/corpus_manifest.json', *data['files']]
+          missing = [f for f in files if not (out/'assets'/f).is_file()]
+          assert not missing, f'Missing dictionary chunks: {missing}'
+          assert '/Arabic-Academy-Flutter/' in (out/'index.html').read_text(encoding='utf-8')
+          print(f'Validated {len(files)-1} dictionary corpus chunks')
+          PY
+      - name: Set up GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload compiled website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: build/web/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish website
+        uses: actions/deploy-pages@v4
+        id: deployment
