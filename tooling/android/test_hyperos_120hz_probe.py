@@ -17,10 +17,21 @@ class NativeRefreshProbeTests(unittest.TestCase):
         self.assertIn("super.onFlutterSurfaceViewCreated", result)
         self.assertIn("super.onFlutterTextureViewCreated", result)
 
+    def test_surface_lifecycle_votes_for_android16_ui_at_least_120hz(self):
+        result = patch_activity(DEFAULT_ACTIVITY)
+        self.assertIn("flutterSurfaceView.holder.addCallback", result)
+        self.assertIn("surfaceCreated(holder: SurfaceHolder)", result)
+        self.assertIn("surfaceChanged(holder: SurfaceHolder", result)
+        self.assertIn("holder.surface.setFrameRate(", result)
+        self.assertIn("Surface.FRAME_RATE_COMPATIBILITY_AT_LEAST", result)
+        self.assertIn("Build.VERSION.SDK_INT >= 36", result)
+        self.assertIn("Build.VERSION.SDK_INT >= 31", result)
+        self.assertIn("Surface.CHANGE_FRAME_RATE_ONLY_IF_SEAMLESS", result)
+
     def test_no_hidden_apis_no_window_mode_lock(self):
         result = patch_activity(DEFAULT_ACTIVITY)
         for unsafe in ("preferredDisplayModeId", "Settings.System", "setprop",
-                       "preferredRefreshRate", "surface.setFrameRate"):
+                       "preferredRefreshRate", "CHANGE_FRAME_RATE_ALWAYS"):
             self.assertNotIn(unsafe, result)
 
     def test_patch_is_idempotent_and_preserves_package(self):
