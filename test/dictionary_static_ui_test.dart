@@ -6,7 +6,7 @@ import 'package:bayna_dictionary/ui/dictionary_shell.dart';
 import 'package:bayna_dictionary/ui/review_screen.dart';
 
 const entry = Word('w1', 'رَحْمَةٌ', 'مَعْنَى الرَّحْمَةِ',
-    ['مَعْنَى آخَرَ'], ['رَأْفَةٌ'], [], [], [], '', [],
+    ['رَأْفَةٌ'], ['ضِدٌّ'], [], [], [], '', ['مَعْنَى آخَرَ'],
     bookNumber: 1, chapterNumber: 1);
 
 void main() {
