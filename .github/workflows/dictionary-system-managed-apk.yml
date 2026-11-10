@@ -38,6 +38,16 @@ jobs:
           assert 'preferredDisplayModeId' not in text
           print('Android screen refresh preference is under system control.')
           PY
+      - name: Label separate system-controlled test app clearly
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          manifest = Path('android/app/src/main/AndroidManifest.xml')
+          source = manifest.read_text()
+          assert 'android:label="bayna_dictionary"' in source
+          manifest.write_text(source.replace('android:label="bayna_dictionary"',
+              'android:label="Байна Ядайк · Система"', 1))
+          PY
       - name: Enable Android predictive back for generated platform
         run: |
           python3 - <<'PY'
