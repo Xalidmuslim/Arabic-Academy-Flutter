@@ -6,7 +6,7 @@ import 'package:bayna_dictionary/ui/review_screen.dart';
 import 'package:bayna_dictionary/core/dictionary_data.dart';
 
 const testWord = Word('w1', 'كِتَابٌ', 'مَجْمُوعَةٌ مِنَ الصَّفَحَاتِ',
-    [], [], [], [], [], '', [], russian: 'книга');
+    [], [], [], [], [], '', []);
 
 void main() {
   setUp(() => SharedPreferences.setMockInitialValues({}));
