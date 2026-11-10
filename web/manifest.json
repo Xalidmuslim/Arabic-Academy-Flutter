@@ -1,0 +1,20 @@
+{
+  "name": "Байна Ядайк — арабский словарь",
+  "short_name": "Байна Ядайк",
+  "description": "Арабский словарь с огласовками, грамматикой, поиском и закладками",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#F4F4F0",
+  "theme_color": "#25776D",
+  "lang": "ru",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "icons/bayna.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
