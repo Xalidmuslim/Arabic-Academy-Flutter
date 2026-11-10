@@ -10,22 +10,11 @@ import '../core/dictionary_data.dart';
 import '../core/dictionary_backup.dart';
 import '../core/dictionary_search.dart';
 import 'review_screen.dart';
-import 'frame_performance_monitor.dart';
-import 'startup_diagnostics.dart';
 
 const emerald = Color(0xFF25776D);
 const mint = Color(0xFF82CABB);
 const stone = Color(0xFFF4F4F0);
 const charcoal = Color(0xFF15201E);
-const muted = Color(0xFF586B63);
-
-enum DictionaryRenderMode { regular, plain, noVowels }
-
-/// Diagnostic *display only*. The stored word, references and reader stay
-/// fully vocalized; no spelling normalization or edits to corpus are applied.
-String withoutArabicVowels(String arabic) => arabic.replaceAll(
-    RegExp(r'[\u064B-\u065F\u0670\u06D6-\u06ED]'), '');
-
 
 class NoMotionPageTransitionsBuilder extends PageTransitionsBuilder {
   const NoMotionPageTransitionsBuilder();
@@ -195,9 +184,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   final favoriteScroll = ScrollController();
   final bookmarkScroll = ScrollController();
   final tts = FlutterTts();
-  final FramePerformanceMonitor frameMonitor = FramePerformanceMonitor();
-  bool showFrameDiagnostics = false;
-  DictionaryRenderMode renderMode = DictionaryRenderMode.regular;
   Set<String> favorites = {}, bookmarks = {};
   int tab = 0;
   int? selectedBook;
@@ -207,14 +193,11 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   List<String> recentWords = [];
   List<String> recentSearches = [];
   int? searchBook;
-  bool showDeveloperTools = false;
   VoidCallback? refreshSettings;
   List<Word>? _cachedSource;
   List<Word>? _orderedWords;
   List<Word>? _visibleWords;
   Map<int, List<int>> _bookChapters = {};
-  Map<Word, String> _searchContents = {};
-  String? _visibleQuery;
   int? _visibleBook;
   int? _visibleChapter;
 
@@ -223,31 +206,20 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       _cachedSource = all;
       _orderedWords = sortWordsByBookOrder(all);
       _bookChapters = availableBookChapters(all);
-      _searchContents = {
-        for (final word in all)
-          word: '${normalizeArabic(word.arabic)} ${normalizeArabic(word.meaning)}',
-      };
       _visibleWords = null;
     }
-    // Book/topic browsing stays independent from the dedicated search tab.
-    const query = '';
     if (_visibleWords != null &&
-        query == _visibleQuery &&
         selectedBook == _visibleBook &&
         selectedChapter == _visibleChapter) {
       return _visibleWords!;
     }
-    final matching = query.isEmpty
-        ? _orderedWords!
-        : _orderedWords!.where(
-            (word) => _searchContents[word]!.contains(query)).toList();
+    final source = _orderedWords!;
     final visible = selectedBook == null
-        ? matching.toList(growable: false)
+        ? source.toList(growable: false)
         : selectedChapter == null
-            ? matching.where((word) => word.isInBook(selectedBook!))
+            ? source.where((word) => word.isInBook(selectedBook!))
                 .toList(growable: false)
-            : filterWordsByChapter(matching, selectedBook!, selectedChapter!);
-    _visibleQuery = query;
+            : filterWordsByChapter(source, selectedBook!, selectedChapter!);
     _visibleBook = selectedBook;
     _visibleChapter = selectedChapter;
     _visibleWords = visible;
@@ -310,17 +282,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     });
   }
 
-  void setFrameDiagnostics(bool enabled) {
-    if (enabled == showFrameDiagnostics) return;
-    if (enabled) {
-      frameMonitor.start();
-    } else {
-      frameMonitor.stop();
-    }
-    setState(() => showFrameDiagnostics = enabled);
-    refreshSettings?.call();
-  }
-
   @override void dispose() {
     refreshSettings = null;
     search.removeListener(onSearch);
@@ -331,7 +292,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     favoriteScroll.dispose();
     bookmarkScroll.dispose();
     tts.stop();
-    frameMonitor.dispose();
     super.dispose();
   }
 
@@ -540,7 +500,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         ]),
         bottomNavigationBar: DictionaryNav(
           tab: tab, onTap: (next) {
-            if (next != 0) frameMonitor.setScrolling(false);
             setState(() => tab = next);
             saveNavigation();
           }),
@@ -551,22 +510,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
               return const Center(child: Text('Не удалось загрузить словарь'));
             }
             if (!snap.hasData) {
-              return const Center(child: CircularProgressIndicator());
+              return const Center(child: Text('Загрузка словаря…'));
             }
             final all = snap.data!;
-            return Stack(children: [
-              IndexedStack(index: tab, children: [
+            return IndexedStack(index: tab, children: [
               dictionaryTab(all),
               searchTab(all),
               savedTab(all),
-              ]),
-              if (showFrameDiagnostics)
-                Positioned(
-                  left: 12, right: 12, bottom: 8,
-                  child: IgnorePointer(
-                    child: frameDiagnosticsOverlay(),
-                  ),
-                ),
             ]);
           }),
       ));
@@ -588,32 +538,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     )).whenComplete(() => refreshSettings = null);
   }
 
-  void updateSettings(VoidCallback change) {
-    setState(change);
-    refreshSettings?.call();
-  }
-
-  Widget trackDictionaryScroll(Widget child) =>
-      NotificationListener<ScrollNotification>(
-        onNotification: (notification) {
-          if (!showFrameDiagnostics || notification.depth != 0) return false;
-          if (notification is ScrollStartNotification) {
-            frameMonitor.setScrolling(true);
-          } else if (notification is ScrollEndNotification) {
-            frameMonitor.setScrolling(false);
-          }
-          return false;
-        },
-        child: child,
-      );
-
   Widget dictionaryTab(List<Word> all) {
     // Initialize sorted words and chapter references once per corpus.
     visibleWords(all);
     final books = _bookChapters;
     if (showAllWords || (selectedBook != null && selectedChapter != null)) {
       final words = visibleWords(all);
-      return trackDictionaryScroll(CustomScrollView(
+      return CustomScrollView(
         key: const Key('dictionary-scroll-list'),
         controller: wordScroll,
         cacheExtent: 180,
@@ -648,15 +579,13 @@ class _DictionaryHomeState extends State<DictionaryHome> {
               key: ValueKey(words[i].id),
               word: words[i], font: widget.font,
             lineHeight: widget.lineHeight,
-              showBackground: renderMode != DictionaryRenderMode.plain,
-              showVowels: renderMode != DictionaryRenderMode.noVowels,
               favorite: favorites.contains(words[i].id),
               onOpen: () => openWord(words[i], all),
               onCopy: () { copy(words[i].arabic); },
               onFavorite: () { toggleFavorite(words[i].id); })),
           const SliverToBoxAdapter(child: SizedBox(height: 25)),
         ],
-      ));
+      );
     }
 
     if (selectedBook != null) {
@@ -935,55 +864,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       ]);
   }
 
-  Widget frameDiagnosticsOverlay() => ValueListenableBuilder<
-      FramePerformanceReport>(
-    valueListenable: frameMonitor,
-    builder: (context, report, _) {
-      final sufficient = report.cadenceIntervals >= 10;
-      final fps = sufficient && report.cadenceFps != null
-          ? report.cadenceFps!.toStringAsFixed(0) : '—';
-      final interval = sufficient && report.cadenceP95Ms != null
-          ? report.cadenceP95Ms!.toStringAsFixed(1) : '—';
-      final longGaps = sufficient && report.longGapPercent != null
-          ? report.longGapPercent!.toStringAsFixed(0) : '—';
-      return DecoratedBox(
-        decoration: BoxDecoration(
-          color: const Color(0xE91D2A27),
-          borderRadius: BorderRadius.circular(15),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 9),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                'Экран: ${report.displayHz.toStringAsFixed(0)} Гц · '
-                'Flutter: $fps кадров/с',
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: Colors.white, fontSize: 12,
-                  fontWeight: FontWeight.w700)),
-              Text(
-                'Интервал p95: $interval мс · длинных: $longGaps%',
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: Color(0xFFDAE8E2), fontSize: 11)),
-              Text(
-                report.samples == 0
-                  ? 'Прокрутите список — ожидаем данные Flutter'
-                  : 'UI: ${report.uiP95Ms.toStringAsFixed(1)} · '
-                    'Raster: ${report.rasterP95Ms.toStringAsFixed(1)} мс · '
-                    '> бюджета: ${report.overBudgetPercent.toStringAsFixed(0)}%',
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: Color(0xFFDAE8E2), fontSize: 11)),
-            ],
-          ),
-        ),
-      );
-    },
-  );
-
   Widget settingsTab() => ListView(
     key: const Key('settings-list'),
     padding: const EdgeInsets.fromLTRB(18, 24, 18, 30),
@@ -1060,107 +940,6 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           label: const Text('Восстановить из буфера')),
       ]),
       const SizedBox(height: 15),
-      TextButton.icon(
-        onPressed: () => updateSettings(() =>
-          showDeveloperTools = !showDeveloperTools),
-        icon: Icon(showDeveloperTools
-          ? Icons.expand_less : Icons.developer_mode_rounded),
-        label: const Text('Инструменты разработчика'),
-      ),
-      if (showDeveloperTools) settingCard(children: [
-        SwitchListTile.adaptive(
-          key: const Key('frame-diagnostics-toggle'),
-          contentPadding: EdgeInsets.zero,
-          title: const Text('Диагностика плавности',
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
-          subtitle: const Text(
-            'Показывает частоту экрана и время UI/raster при прокрутке.',
-            style: TextStyle(fontSize: 12)),
-          value: showFrameDiagnostics,
-          onChanged: setFrameDiagnostics,
-        ),
-        Text(
-          '120 Гц — это частота дисплея, не FPS приложения. Flutter показывает '
-          'интервалы между кадрами движка, а не момент их вывода Android.',
-          style: TextStyle(fontSize: 12, color: Theme.of(context).colorScheme.onSurfaceVariant)),
-        const SizedBox(height: 9),
-        OutlinedButton.icon(
-          key: const Key('copy-cadence-report'),
-          icon: const Icon(Icons.copy_all_outlined),
-          label: const Text('Скопировать отчёт прокрутки'),
-          onPressed: () async {
-            final report = frameMonitor.value;
-            String fmt(double? value) =>
-                value == null ? 'недостаточно данных' : value.toStringAsFixed(2);
-            final diagnostic = [
-              'Байна Ядайк — прокрутка Flutter',
-              'Дисплей: ${report.displayHz.toStringAsFixed(1)} Гц',
-              'Бюджет: ${report.frameBudgetMs.toStringAsFixed(2)} мс',
-              'Кадры Flutter (оценка, НЕ FPS SurfaceFlinger): '
-                  '${fmt(report.cadenceFps)} кадров/с',
-              'Интервал кадра p95: ${fmt(report.cadenceP95Ms)} мс',
-              'Длинные vsync интервалы: ${fmt(report.longGapPercent)}%',
-              'Интервалы: ${report.cadenceIntervals}; '
-                  'выборка: ${report.samples}',
-              'UI p95: ${report.uiP95Ms.toStringAsFixed(2)} мс',
-              'Raster p95: ${report.rasterP95Ms.toStringAsFixed(2)} мс',
-              'Доля кадров с превышением бюджета фаз: '
-                  '${report.overBudgetPercent.toStringAsFixed(1)}%',
-            ].join('\n');
-            await Clipboard.setData(ClipboardData(text: diagnostic));
-            if (!mounted) return;
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text('Отчёт прокрутки скопирован')));
-          },
-        ),
-        const SizedBox(height: 17),
-        const Text('Сравнение отрисовки',
-          style: TextStyle(fontWeight: FontWeight.w700, fontSize: 15)),
-        const SizedBox(height: 9),
-        Wrap(spacing: 7, runSpacing: 7, children: [
-          ChoiceChip(
-            key: const Key('render-mode-regular'),
-            label: const Text('Обычные'),
-            selected: renderMode == DictionaryRenderMode.regular,
-            onSelected: (_) =>
-              updateSettings(() => renderMode = DictionaryRenderMode.regular)),
-          ChoiceChip(
-            key: const Key('render-mode-plain'),
-            label: const Text('Без фона'),
-            selected: renderMode == DictionaryRenderMode.plain,
-            onSelected: (_) =>
-              updateSettings(() => renderMode = DictionaryRenderMode.plain)),
-          ChoiceChip(
-            key: const Key('render-mode-no-vowels'),
-            label: const Text('Без огласовок'),
-            selected: renderMode == DictionaryRenderMode.noVowels,
-            onSelected: (_) =>
-              updateSettings(() => renderMode = DictionaryRenderMode.noVowels)),
-        ]),
-        const SizedBox(height: 8),
-        Text(
-          'Только для диагностики списка. Слова в базе и карточке чтения '
-          'не меняются. После перезапуска возвращается обычный режим.',
-          style: TextStyle(fontSize: 12, color: Theme.of(context).colorScheme.onSurfaceVariant)),
-      ]),
-      const SizedBox(height: 15),
-      if (showDeveloperTools && StartupFrameDiagnostics.enabled) ...[
-        OutlinedButton.icon(
-          key: const Key('copy-startup-trace'),
-          icon: const Icon(Icons.copy_all_outlined),
-          label: const Text('Скопировать отчёт о плавности'),
-          onPressed: () async {
-            final report = StartupFrameDiagnostics.instance.report(
-              app: 'Байна Ядайк — словарь');
-            await Clipboard.setData(ClipboardData(text: report));
-            if (!mounted) return;
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text('Отчёт скопирован. Вставьте его в чат.')),
-            );
-          },
-        ),
-        const SizedBox(height: 15),
-      ],
       settingCard(children: [
         const Text('Офлайн-чтение', style: TextStyle(
           fontWeight: FontWeight.w700, fontSize: 16)),
