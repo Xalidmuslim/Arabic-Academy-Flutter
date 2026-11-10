@@ -9,13 +9,13 @@ const captureUxGoldens = bool.fromEnvironment('CAPTURE_UX_GOLDENS');
 const preview = [
   Word('book', 'كِتَابٌ', 'مَجْمُوعَةٌ مِنَ الصَّفَحَاتِ',
       [], [], ['اِسْمٌ'], [], [], '', [],
-      russian: 'книга', bookNumber: 1, chapterNumber: 1),
+      bookNumber: 1, chapterNumber: 1),
   Word('home', 'بَيْتٌ', 'مَكَانٌ يَسْكُنُ فِيهِ النَّاسُ',
       [], [], ['اِسْمٌ'], [], ['هٰذَا بَيْتٌ جَمِيلٌ'], '', [],
-      russian: 'дом', bookNumber: 1, chapterNumber: 1),
+      bookNumber: 1, chapterNumber: 1),
   Word('school', 'مَدْرَسَةٌ', 'مَكَانٌ لِلتَّعْلِيمِ',
       [], [], ['اِسْمٌ'], [], [], '', [],
-      russian: 'школа', bookNumber: 1, chapterNumber: 2),
+      bookNumber: 1, chapterNumber: 2),
 ];
 
 void main() {
