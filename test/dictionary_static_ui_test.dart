@@ -35,7 +35,14 @@ void main() {
     expect(find.byKey(const Key('frame-diagnostics-toggle')), findsNothing);
     expect(find.text('Инструменты разработчика'), findsNothing);
     expect(find.byKey(const Key('arabic-font-slider')), findsOneWidget);
-    expect(find.text('Резервное копирование'), findsWidgets);
+    final settingsScroll = find.descendant(
+      of: find.byKey(const Key('settings-list')),
+      matching: find.byType(Scrollable)).first;
+    await tester.scrollUntilVisible(
+      find.text('Резервное копирование'), 250,
+      scrollable: settingsScroll);
+    await tester.pumpAndSettle();
+    expect(find.text('Резервное копирование'), findsOneWidget);
   });
 
   testWidgets('Reader opens sections instantly, preserving Arabic vowels',
