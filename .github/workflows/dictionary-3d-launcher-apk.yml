@@ -64,6 +64,10 @@ jobs:
           grep -F 'applicationId = "com.xalidmuslim.bayna_dictionary.arabiconly.icon3d"' "$f"
       - name: Build Android ARM64 APK
         run: flutter build apk --release --target-platform android-arm64
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bayna-dictionary-3d-icon-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
       - name: Verify APK and built-in original icon
         run: |
           test -s build/app/outputs/flutter-apk/app-release.apk
@@ -74,14 +78,12 @@ jobs:
           from pathlib import Path
           from zipfile import ZipFile
           apk = Path('build/app/outputs/flutter-apk/app-release.apk')
+          expected = 'bdf4ffdda02e6f8028b226a1bbfc3ca6901cb9a9e8c32f6327ce46c9aae2832f'
           with ZipFile(apk) as z:
-              files = [n for n in z.namelist() if n.endswith('/bayna_3d_foreground.webp')]
-              assert len(files) == 1, f'Bundled 3D launcher missing or duplicated: {files}'
-              digest = hashlib.sha256(z.read(files[0])).hexdigest()
-              assert digest == 'bdf4ffdda02e6f8028b226a1bbfc3ca6901cb9a9e8c32f6327ce46c9aae2832f', digest
-          print('Verified original 3D art is actually inside the APK.')
+              assets = [n for n in z.namelist() if n.endswith('.webp')]
+              matching = [n for n in assets if hashlib.sha256(z.read(n)).hexdigest() == expected]
+              print('Packaged WebP resources:', assets)
+              assert len(matching) == 1, f'Original 3D art missing or duplicated: {matching}'
+          print('Verified original 3D art is inside the APK:', matching[0])
           PY
-      - uses: actions/upload-artifact@v4
-        with:
-          name: bayna-dictionary-3d-icon-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+
