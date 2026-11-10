@@ -180,82 +180,29 @@ void main() {
   });
 
 
-  testWidgets('Performance diagnostics are opt-in and remain on scrolling tab',
+  testWidgets('No performance overlay or debug render switching; Arabic vowels remain',
       (tester) async {
-    await tester.pumpWidget(DictionaryApp(previewWords: [
-      for (var i = 0; i < 60; i++) word('perf-$i'),
-    ]));
+    const entry = Word(
+      'original', 'رَحْمَةٌ', 'خَيْرٌ وَرَحْمَةٌ',
+      [], [], [], [], [], '', [], bookNumber: 1, chapterNumber: 1,
+    );
+    await tester.pumpWidget(const DictionaryApp(previewWords: [entry]));
     await tester.pumpAndSettle();
     expect(find.textContaining('Экран:'), findsNothing);
-
-    await tester.tap(find.byTooltip('Настройки шрифта'));
-    await tester.pumpAndSettle();
-    await scrollToSetting(tester, find.text('Инструменты разработчика'));
-    await tester.tap(find.text('Инструменты разработчика'));
-    await tester.pumpAndSettle();
-    final toggle = find.byKey(const Key('frame-diagnostics-toggle'));
-    await scrollToSetting(tester, toggle);
-    await tester.pumpAndSettle();
-    await tester.tap(toggle);
-    await tester.pumpAndSettle();
-    await tester.pageBack();
-    await tester.pumpAndSettle();
-    expect(find.textContaining('Экран:'), findsOneWidget);
-
-
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const Key('all-words-tile')));
-    await tester.pumpAndSettle();
-    expect(find.byKey(const Key('dictionary-scroll-list')), findsOneWidget);
-    expect(find.textContaining('Экран:'), findsOneWidget);
-    expect(tester.takeException(), isNull);
-  });
-
-
-  test('Diagnostic Arabic text hides vowels without changing consonants or hamzas', () {
-    expect(withoutArabicVowels('أَحْمَدُ'), 'أحمد');
-    expect(withoutArabicVowels('عِلْمٌ'), 'علم');
-    expect(withoutArabicVowels('هٰذَا'), 'هذا');
-  });
-
-  testWidgets('Diagnostic display modes preserve the original lemma',
-      (tester) async {
-    final entry = Word(
-      'original', 'رَحْمَةٌ', 'خَيْرٌ وَرَحْمَةٌ',
-      const [], const [], const [], const [], const [], '', const [],
-      bookNumber: 1, chapterNumber: 1,
-    );
-    await tester.pumpWidget(DictionaryApp(previewWords: [entry]));
-    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('all-words-tile')));
     await tester.pumpAndSettle();
     expect(find.text('رَحْمَةٌ'), findsWidgets);
-
     await tester.tap(find.byTooltip('Настройки шрифта'));
     await tester.pumpAndSettle();
-    await scrollToSetting(tester, find.text('Инструменты разработчика'));
-    await tester.tap(find.text('Инструменты разработчика'));
-    await tester.pumpAndSettle();
-    await scrollToSetting(tester, find.byKey(const Key('render-mode-plain')));
-    await tester.tap(find.byKey(const Key('render-mode-plain')));
-    await tester.pumpAndSettle();
+    expect(find.text('Инструменты разработчика'), findsNothing);
+    expect(find.byKey(const Key('render-mode-no-vowels')), findsNothing);
+    expect(find.byKey(const Key('frame-diagnostics-toggle')), findsNothing);
     await tester.pageBack();
     await tester.pumpAndSettle();
-    expect(find.byType(WordTile), findsOneWidget);
-    expect(find.text('رَحْمَةٌ'), findsWidgets);
-
-    await tester.tap(find.byTooltip('Настройки шрифта'));
-    await tester.pumpAndSettle();
-    await scrollToSetting(tester, find.byKey(const Key('render-mode-no-vowels')));
-    await tester.tap(find.byKey(const Key('render-mode-no-vowels')));
-    await tester.pumpAndSettle();
-    await tester.pageBack();
-    await tester.pumpAndSettle();
-    expect(find.text('رحمة'), findsWidgets);
     await tester.tap(find.byType(WordTile).first);
     await tester.pumpAndSettle();
-    // The reader must keep the unchanged Arabic lemma, including diacritics.
     expect(find.text('رَحْمَةٌ'), findsWidgets);
+    expect(tester.takeException(), isNull);
   });
 
 }
