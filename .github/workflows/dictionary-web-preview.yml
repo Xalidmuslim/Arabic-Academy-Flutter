@@ -56,6 +56,10 @@ jobs:
           path: build/web/
           if-no-files-found: error
           retention-days: 14
+      - name: Prepare the GitHub Pages deployment artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web/
       - name: Build Android ARM64 APK from the exact same source and corpus
         run: flutter build apk --release --target-platform android-arm64
       - name: Verify APK exists and is not empty
@@ -66,3 +70,18 @@ jobs:
           path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
           retention-days: 14
+
+  deploy-pages:
+    name: Publish dictionary on GitHub Pages
+    needs: web-build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy compiled website
+        id: deployment
+        uses: actions/deploy-pages@v4
