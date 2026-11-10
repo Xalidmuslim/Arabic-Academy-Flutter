@@ -18,6 +18,9 @@ class MainActivity : FlutterActivity()
 """
 
 EXTRA_IMPORTS = """import android.os.Build
+import android.util.Log
+import android.view.Surface
+import android.view.SurfaceHolder
 import android.view.View
 import io.flutter.embedding.android.FlutterSurfaceView
 import io.flutter.embedding.android.FlutterTextureView
@@ -30,6 +33,20 @@ ACTIVITY_CLASS = """class MainActivity : FlutterActivity() {
     override fun onFlutterSurfaceViewCreated(flutterSurfaceView: FlutterSurfaceView) {
         super.onFlutterSurfaceViewCreated(flutterSurfaceView)
         request120Hz(flutterSurfaceView)
+        // Flutter may recreate its rendering surface. Vote on each valid surface
+        // rather than only on its Android View container.
+        flutterSurfaceView.holder.addCallback(object : SurfaceHolder.Callback {
+            override fun surfaceCreated(holder: SurfaceHolder) {
+                requestSurface120Hz(holder)
+            }
+
+            override fun surfaceChanged(holder: SurfaceHolder, format: Int, width: Int, height: Int) {
+                requestSurface120Hz(holder)
+            }
+
+            override fun surfaceDestroyed(holder: SurfaceHolder) = Unit
+        })
+        requestSurface120Hz(flutterSurfaceView.holder)
     }
 
     override fun onFlutterTextureViewCreated(flutterTextureView: FlutterTextureView) {
@@ -38,16 +55,36 @@ ACTIVITY_CLASS = """class MainActivity : FlutterActivity() {
     }
 
     private fun request120Hz(view: View) {
-        // Android 15+ only: older devices keep normal OS-selected behavior.
         if (Build.VERSION.SDK_INT >= 35) {
             view.requestedFrameRate = 120f
+        }
+    }
+
+    private fun requestSurface120Hz(holder: SurfaceHolder) {
+        if (Build.VERSION.SDK_INT < 30 || !holder.surface.isValid) return
+        try {
+            // Android 16+: AT_LEAST is intended for scrolling/animated UIs.
+            val compatibility = if (Build.VERSION.SDK_INT >= 36)
+                Surface.FRAME_RATE_COMPATIBILITY_AT_LEAST
+            else Surface.FRAME_RATE_COMPATIBILITY_DEFAULT
+
+            if (Build.VERSION.SDK_INT >= 31) {
+                holder.surface.setFrameRate(
+                    120f, compatibility, Surface.CHANGE_FRAME_RATE_ONLY_IF_SEAMLESS
+                )
+            } else {
+                holder.surface.setFrameRate(120f, compatibility)
+            }
+        } catch (error: RuntimeException) {
+            // A surface can become invalid during recreation; don't crash the dictionary.
+            Log.w("BaynaHzProbe", "Rendering surface rejected 120 Hz vote", error)
         }
     }
 }"""
 
 
 def patch_activity(source: str) -> str:
-    if "view.requestedFrameRate = 120f" in source and (
+    if "holder.surface.setFrameRate(" in source and (
         "onFlutterSurfaceViewCreated" in source
         and "onFlutterTextureViewCreated" in source
     ):
@@ -81,4 +118,4 @@ if __name__ == "__main__":
     original = ACTIVITY_PATH.read_text(encoding="utf-8")
     updated = patch_activity(original)
     ACTIVITY_PATH.write_text(updated, encoding="utf-8")
-    print("Installed Android 15+ 120 Hz preference on Flutter render surfaces")
+    print("Installed 120 Hz View + Surface votes (Android 16 UI AT_LEAST)")
