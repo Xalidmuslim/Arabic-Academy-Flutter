@@ -4,8 +4,8 @@ class Word {
   const Word(this.id, this.arabic, this.meaning, this.synonyms, this.antonyms,
       this.grammar, this.collocations, this.examples, this.usage, this.additionalMeanings,
       {this.bookNumber, this.chapterNumber, this.chapterOrder,
-      this.bookReferences = const [], this.russian = ''});
-  final String id, arabic, meaning, usage, russian;
+      this.bookReferences = const []});
+  final String id, arabic, meaning, usage;
   final List<String> synonyms, antonyms, grammar, collocations, examples, additionalMeanings;
   final int? bookNumber, chapterNumber, chapterOrder;
   final List<Map<String, dynamic>> bookReferences;
@@ -54,55 +54,8 @@ class Word {
       chapterOrder: (json['book_reference'] as Map<String, dynamic>?)?['index'] as int?,
       bookReferences: (json['book_references'] as List<dynamic>? ?? const [])
         .map((ref) => Map<String, dynamic>.from(ref as Map)).toList(),
-      russian: (json['meaning_ru'] as String?) ?? '',
     );
   }
-}
-
-/// Add reviewed Russian glosses without changing Arabic definitions, IDs or book
-/// references. Unvocalized collisions (e.g. عَلَمٌ vs عِلْمٌ) are not guessed.
-List<Word> attachRussianGlosses(
-    Iterable<Word> words, Map<String, String> glossary) {
-  final entries = words.toList(growable: false);
-  final normalizedForms = <String, Set<String>>{};
-  for (final word in entries) {
-    normalizedForms
-        .putIfAbsent(normalizeArabic(word.arabic), () => <String>{})
-        .add(word.arabic);
-  }
-  return [
-    for (final word in entries)
-      (() {
-        final normalized = normalizeArabic(word.arabic);
-        final safeFallback = normalizedForms[normalized]!.length == 1
-            ? glossary[normalized] : null;
-        final russian = word.russian.isNotEmpty
-            ? word.russian
-            : (glossary[word.arabic] ?? safeFallback ?? '');
-        if (russian.isEmpty || russian == word.russian) return word;
-        return Word(
-          word.id, word.arabic, word.meaning, word.synonyms, word.antonyms,
-          word.grammar, word.collocations, word.examples, word.usage,
-          word.additionalMeanings,
-          bookNumber: word.bookNumber,
-          chapterNumber: word.chapterNumber,
-          chapterOrder: word.chapterOrder,
-          bookReferences: word.bookReferences,
-          russian: russian,
-        );
-      })(),
-  ];
-}
-
-/// The final UTF-8 JSON asset is the offline Russian glossary. Decode and
-/// attach inside the isolate to avoid adding work to Flutter scrolling frames.
-List<Word> decodeAndMergeCorporaWithRussian(List<String> corpusAndGlossary) {
-  if (corpusAndGlossary.isEmpty) return [];
-  final glossary = (jsonDecode(corpusAndGlossary.last) as Map<String, dynamic>)
-      .map((key, value) => MapEntry(key, value as String));
-  final entries = decodeAndMergeCorpora(
-      corpusAndGlossary.sublist(0, corpusAndGlossary.length - 1));
-  return attachRussianGlosses(entries, glossary);
 }
 
 List<Word> decodeWords(String jsonText) {
