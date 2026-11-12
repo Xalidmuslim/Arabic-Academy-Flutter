@@ -78,9 +78,23 @@ class ReviewedArticle {
   }
 }
 
-/// Reject duplicate normalized headwords in the reviewed overlay.
-/// Unlike the corpus merger, a reviewed homograph must not silently override
-/// another article with a different vowel pattern.
+/// Normalize only the order of combining marks in a fully vocalized word.
+/// Do NOT strip harakat or fold hamza/alef: those operations erase important
+/// lexical distinctions, e.g. أَبْطَالٌ versus إِبْطَالٌ.
+///
+/// This canonical mark key is for equality checks, not for display.
+String canonicalVocalizedHeadword(String input) {
+  return input.replaceAllMapped(
+    RegExp(r'[\u064B-\u065F\u0670]+'),
+    (match) {
+      final marks = match.group(0)!.runes.toList()..sort();
+      return String.fromCharCodes(marks);
+    },
+  );
+}
+
+/// Reject duplicate fully vocalized headwords, including equivalent mark
+/// orderings, while allowing genuinely distinct vowel patterns and hamzas.
 Map<String, ReviewedArticle> decodeReviewedArticles(String jsonText) {
   final root = jsonDecode(jsonText) as Map<String, dynamic>;
   if (root['schema_version'] != 2) {
@@ -90,7 +104,7 @@ Map<String, ReviewedArticle> decodeReviewedArticles(String jsonText) {
   for (final value in root['entries'] as List<dynamic>) {
     final article = ReviewedArticle.fromJson(
         Map<String, dynamic>.from(value as Map));
-    final key = normalizeArabic(article.arabic);
+    final key = canonicalVocalizedHeadword(article.arabic);
     if (articles.containsKey(key)) {
       throw FormatException('Ambiguous reviewed headword: ${article.arabic}');
     }
@@ -99,20 +113,20 @@ Map<String, ReviewedArticle> decodeReviewedArticles(String jsonText) {
   return articles;
 }
 
-/// Match by existing stable IDs. Multiple words with the same unvowelled
-/// spelling are intentionally excluded until a sense-specific review exists.
+/// Match fully vocalized articles by existing stable IDs. Homographs with
+/// different vowels are distinct; ambiguous duplicate mark order is excluded.
 Map<String, ReviewedArticle> matchReviewedArticles(
     Iterable<Word> words, Map<String, ReviewedArticle> reviewed) {
   final corpus = words.toList(growable: false);
   final counts = <String, int>{};
   for (final word in corpus) {
-    final key = normalizeArabic(word.arabic);
+    final key = canonicalVocalizedHeadword(word.arabic);
     counts[key] = (counts[key] ?? 0) + 1;
   }
   return {
     for (final word in corpus)
-      if (counts[normalizeArabic(word.arabic)] == 1 &&
-          reviewed.containsKey(normalizeArabic(word.arabic)))
-        word.id: reviewed[normalizeArabic(word.arabic)]!,
+      if (counts[canonicalVocalizedHeadword(word.arabic)] == 1 &&
+          reviewed.containsKey(canonicalVocalizedHeadword(word.arabic)))
+        word.id: reviewed[canonicalVocalizedHeadword(word.arabic)]!,
   };
 }
