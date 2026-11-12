@@ -8,6 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../core/dictionary_data.dart';
 import '../core/dictionary_backup.dart';
 import '../core/dictionary_search.dart';
+import '../core/reviewed_lexicon.dart';
 import 'review_screen.dart';
 
 const emerald = Color(0xFF25776D);
@@ -183,6 +184,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   List<Word>? _orderedWords;
   List<Word>? _visibleWords;
   Map<int, List<int>> _bookChapters = {};
+  Map<String, ReviewedArticle> _reviewedByWordId = const {};
   int? _visibleBook;
   int? _visibleChapter;
 
@@ -228,6 +230,12 @@ class _DictionaryHomeState extends State<DictionaryHome> {
         ? await compute<List<String>, List<Word>>(
             decodeAndMergeCorpora, texts)
         : widget.previewWords!;
+    if (widget.previewWords == null) {
+      final reviewedJson = await rootBundle.loadString(
+          'assets/data/reviewed_articles_v1.json');
+      final reviewed = decodeReviewedArticles(reviewedJson);
+      _reviewedByWordId = matchReviewedArticles(words, reviewed);
+    }
     if (mounted) {
       setState(() {
       favorites = p.getStringList('dictionary_favorites')?.toSet() ?? {};
@@ -423,6 +431,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
     Navigator.of(context).push<void>(MaterialPageRoute<void>(
       builder: (_) => WordReader(
         word: word,
+        reviewed: _reviewedByWordId[word.id],
         font: widget.font,
         lineHeight: widget.lineHeight,
 
@@ -1036,8 +1045,9 @@ class WordReader extends StatefulWidget {
     required this.favorite, required this.bookmarked,
     required this.onFavorite, required this.onBookmark,
     required this.onSpeak, required this.onCopy, required this.onArabicTap,
-    this.lineHeight = 1.7});
+    this.lineHeight = 1.7, this.reviewed});
   final Word word;
+  final ReviewedArticle? reviewed;
   final double font, lineHeight;
   final bool favorite, bookmarked;
   final Future<void> Function() onFavorite, onBookmark;
@@ -1048,7 +1058,7 @@ class WordReader extends StatefulWidget {
 
 class _WordReaderState extends State<WordReader> {
   late bool favorite = widget.favorite, bookmarked = widget.bookmarked;
-  final Set<String> expandedSections = {'01', '06'};
+  final Set<String> expandedSections = {'01', '04', '06', '08'};
   @override Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
     final dark = Theme.of(context).brightness == Brightness.dark;
@@ -1106,15 +1116,35 @@ class _WordReaderState extends State<WordReader> {
           Padding(padding: const EdgeInsets.only(left: 5, bottom: 12),
             child: Text('Нажмите на арабское слово для перехода к статье.',
               style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant, fontSize: 11))),
-          section('01', 'Значения слова',
-            [w.meaning, ...w.additionalMeanings], numbered: true),
-          if (w.synonyms.isNotEmpty) section('02', 'Синонимы', w.synonyms),
-          if (w.antonyms.isNotEmpty) section('03', 'Антонимы', w.antonyms),
-          if (w.grammar.isNotEmpty) section('04', 'Грамматика', w.grammar),
-          if (w.collocations.isNotEmpty) section('05', 'Словосочетания', w.collocations),
-          if (w.examples.isNotEmpty) section('06', 'Примеры в предложениях', w.examples),
-          if (w.usage.trim().isNotEmpty)
-            section('07', 'Особенности употребления', [w.usage]),
+          if (widget.reviewed case final reviewed?) ...[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(5, 0, 5, 9),
+              child: Text('Перевод: ${reviewed.translationRu}',
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700,
+                  color: scheme.onSurface))),
+            reviewedSection('01', 'Разъяснение значения', reviewed.definition),
+            reviewedSection('04', 'Грамматический разбор', reviewed.grammar),
+            reviewedSection('02', 'Синонимы', reviewed.synonyms,
+              emptyMessage: 'Точные синонимы для данного значения не установлены.'),
+            reviewedSection('03', 'Противоположные слова', reviewed.contrasts,
+              emptyMessage: 'Прямого словарного антонима нет или он не подтверждён.'),
+            if (w.collocations.isNotEmpty)
+              section('05', 'Словосочетания', w.collocations),
+            reviewedSection('06', 'Примеры', reviewed.examples),
+            reviewedSection('08', 'Важно знать', reviewed.important),
+            if (w.usage.trim().isNotEmpty)
+              section('07', 'Особенности употребления', [w.usage]),
+          ] else ...[
+            section('01', 'Значения слова',
+              [w.meaning, ...w.additionalMeanings], numbered: true),
+            if (w.synonyms.isNotEmpty) section('02', 'Синонимы', w.synonyms),
+            if (w.antonyms.isNotEmpty) section('03', 'Антонимы', w.antonyms),
+            if (w.grammar.isNotEmpty) section('04', 'Грамматика', w.grammar),
+            if (w.collocations.isNotEmpty) section('05', 'Словосочетания', w.collocations),
+            if (w.examples.isNotEmpty) section('06', 'Примеры в предложениях', w.examples),
+            if (w.usage.trim().isNotEmpty)
+              section('07', 'Особенности употребления', [w.usage]),
+          ],
         ]),
     );
   }
@@ -1167,6 +1197,62 @@ class _WordReaderState extends State<WordReader> {
                     if (i < texts.length - 1)
                       const Padding(
                         padding: EdgeInsets.symmetric(vertical: 8),
+                        child: Divider(height: 1)),
+                  ],
+              ]),
+          ),
+        Divider(height: 1, thickness: .6, color: scheme.outlineVariant),
+      ]),
+    );
+  }
+
+  Widget reviewedSection(String n, String title, List<ReviewedFact> facts, {
+      String emptyMessage = 'Раздел требует отдельной словарной сверки.'}) {
+    final scheme = Theme.of(context).colorScheme;
+    final expanded = expandedSections.contains(n);
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 4),
+      child: Column(children: [
+        Material(
+          color: Colors.transparent,
+          child: InkWell(
+            key: ValueKey<String>('detail-${widget.word.id}-$n'),
+            onTap: () => setState(() {
+              if (!expandedSections.add(n)) expandedSections.remove(n);
+            }),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 15),
+              child: Row(children: [
+                Text(n, style: TextStyle(fontSize: 12,
+                  color: scheme.primary, fontWeight: FontWeight.w700)),
+                const SizedBox(width: 10),
+                Expanded(child: Text(title, style: const TextStyle(
+                  fontSize: 15, fontWeight: FontWeight.w700))),
+                Icon(expanded ? Icons.expand_less_rounded
+                    : Icons.expand_more_rounded,
+                  size: 20, color: scheme.onSurfaceVariant),
+              ]),
+            ),
+          ),
+        ),
+        if (expanded)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                if (facts.isEmpty)
+                  Text(emptyMessage, style: TextStyle(
+                    color: scheme.onSurfaceVariant, fontSize: 13))
+                else
+                  for (var i = 0; i < facts.length; i++) ...[
+                    arabicWords(facts[i].arabic),
+                    const SizedBox(height: 2),
+                    Text(facts[i].russian, textDirection: TextDirection.ltr,
+                      style: TextStyle(fontSize: 13,
+                        color: scheme.onSurfaceVariant, height: 1.35)),
+                    if (i < facts.length - 1)
+                      const Padding(
+                        padding: EdgeInsets.symmetric(vertical: 9),
                         child: Divider(height: 1)),
                   ],
               ]),
