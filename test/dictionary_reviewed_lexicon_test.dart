@@ -86,7 +86,7 @@ void main() {
     )));
     await tester.pump();
     expect(find.textContaining('Перевод:'), findsNothing);
-    expect(find.text('سَلَامٌ عِنْدَ اللِّقَاءِ.'), findsWidgets);
+    expect(find.text('عِنْدَ'), findsOneWidget);
     expect(find.text('Приветствие при встрече.'), findsNothing);
     expect(find.text('Разъяснение значения'), findsOneWidget);
     expect(find.text('Грамматический разбор'), findsOneWidget);
