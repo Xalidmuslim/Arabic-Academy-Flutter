@@ -42,9 +42,9 @@ void main() {
     final sourceEntries = (scanSource['entries'] as List<dynamic>)
         .cast<Map<String, dynamic>>();
     expect(paths, contains('assets/data/entries_bayna_scan_verified_20261112.json'));
-    expect(sourceEntries, hasLength(20));
-    expect(sourceEntries.map((e) => e['id']).toSet(), hasLength(20));
-    expect(sourceEntries.map((e) => e['arabic']).toSet(), hasLength(20));
+    expect(sourceEntries, hasLength(181));
+    expect(sourceEntries.map((e) => e['id']).toSet(), hasLength(181));
+    expect(sourceEntries.map((e) => e['arabic']).toSet(), hasLength(181));
     final mergedById = {for (final entry in merged) entry.id: entry};
     for (final source in sourceEntries) {
       final original = originalByHeadword[source['arabic']];
