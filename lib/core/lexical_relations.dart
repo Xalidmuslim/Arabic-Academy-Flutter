@@ -76,7 +76,9 @@ Map<String, LexicalRelations> matchLexicalRelations(
     if (byHeadword.containsKey(word.arabic)) duplicate.add(word.arabic);
     byHeadword[word.arabic] = word;
   }
-  for (final key in duplicate) byHeadword.remove(key);
+  for (final key in duplicate) {
+    byHeadword.remove(key);
+  }
 
   final synonyms = <String, Set<String>>{};
   final antonyms = <String, Set<String>>{};
