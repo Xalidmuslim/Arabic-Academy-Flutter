@@ -48,12 +48,21 @@ def main():
 
     seen = set()
     effective = 0
+    visually_checked = 0
     for article in reviewed["entries"]:
         word = article["arabic"]
         key = normalize(word)
         assert key and key not in seen, f"Duplicate reviewed headword: {word}"
         seen.add(key)
         assert "translation_ru" not in article, f"Russian translation field present: {word}"
+        if "source_review" in article:
+            assert article["source_review"] == "visual_check_of_user_supplied_scan_12383_pdf", (
+                f"Unrecognized scan review marker: {word}")
+            assert type(article.get("source_pdf_page")) is int and (
+                1 <= article["source_pdf_page"] <= 404), f"Bad PDF page: {word}"
+            assert type(article.get("source_printed_page")) is int and (
+                article["source_printed_page"] >= 1), f"Bad printed page: {word}"
+            visually_checked += 1
         assert article.get("source_urls"), f"No sources: {word}"
         assert all(s.startswith("https://") for s in article["source_urls"])
         for field in ("definition", "grammar", "examples", "important"):
@@ -119,6 +128,7 @@ def main():
     for field in ("grammar", "synonyms", "antonyms", "collocations", "examples_ar", "usage_note_ar"):
         print(f"Legacy section {field}: {coverage[field]} / {len(headwords)} non-empty")
     print(f"Reviewed articles: {len(reviewed['entries'])}; unambiguously attached: {effective}")
+    print(f"Visually checked articles from user-provided scanned dictionary: {visually_checked}")
     print(f"Remaining without reviewed article: {len(headwords) - effective}")
     print("NOTE: This script validates structure/vocalization presence, NOT linguistic correctness.")
 
