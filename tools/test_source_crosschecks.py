@@ -93,6 +93,15 @@ class SourceCrosscheckTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_registry(data)
 
+    def test_singular_form_can_be_traced_to_selectable_source(self):
+        data = sample()
+        data["records"][0]["forms"].append({
+            "role": "singular",
+            "arabic": "أُسْبُوعٌ",
+            "verified_by": ["arabily"],
+        })
+        self.assertEqual(validate_registry(data), 1)
+
     def test_duplicate_lemma_not_allowed(self):
         data = sample()
         data["records"].append(json.loads(json.dumps(data["records"][0], ensure_ascii=False)))
