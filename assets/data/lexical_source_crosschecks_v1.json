@@ -117,6 +117,1217 @@
         }
       ],
       "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَخٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/10",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-1/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A3%D8%AE%D9%88",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَخٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "plural",
+          "arabic": "إِخْوَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 1,
+        "arabily_row": 1,
+        "arabily_column_kind": "headword",
+        "academy_root": "أخو",
+        "bayna_ocr_page": 10,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أُخْتٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/11",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-1/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A3%D8%AE%D9%88",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أُخْتٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 1,
+        "arabily_row": 2,
+        "arabily_column_kind": "headword",
+        "academy_root": "أخو",
+        "bayna_ocr_page": 11,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "إِخْوَةٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/12",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-1/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A3%D8%AE%D9%88",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "إِخْوَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "أَخٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 1,
+        "arabily_row": 1,
+        "arabily_column_kind": "plural",
+        "academy_root": "أخو",
+        "bayna_ocr_page": 12,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أُسْرَةٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/16",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-2/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A3%D8%B3%D8%B1",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أُسْرَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "plural",
+          "arabic": "أُسَرٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 2,
+        "arabily_row": 1,
+        "arabily_column_kind": "headword",
+        "academy_root": "أسر",
+        "bayna_ocr_page": 16,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَثَاثٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/7",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-3/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A3%D8%AB%D8%AB",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَثَاثٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 3,
+        "arabily_row": 6,
+        "arabily_column_kind": "headword",
+        "academy_root": "أثث",
+        "bayna_ocr_page": 7,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَرْقَامٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/15",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-3/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B1%D9%82%D9%85",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَرْقَامٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "رَقْمٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 3,
+        "arabily_row": 17,
+        "arabily_column_kind": "plural",
+        "academy_root": "رقم",
+        "bayna_ocr_page": 15,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَسْمَاكٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/17",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-5/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B3%D9%85%D9%83",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَسْمَاكٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 5,
+        "arabily_row": 7,
+        "arabily_column_kind": "plural",
+        "academy_root": "سمك",
+        "bayna_ocr_page": 17,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَطْعِمَةٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/22",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-5/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B7%D8%B9%D9%85",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَطْعِمَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "طَعَامٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 5,
+        "arabily_row": 11,
+        "arabily_column_kind": "plural",
+        "academy_root": "طعم",
+        "bayna_ocr_page": 22,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَسَابِيعُ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/16",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-7/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B3%D8%A8%D8%B9",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَسَابِيعُ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "أُسْبُوعٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 7,
+        "arabily_row": 8,
+        "arabily_column_kind": "plural",
+        "academy_root": "سبع",
+        "bayna_ocr_page": 16,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَشْهُرٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/19",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-7/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B4%D9%87%D8%B1",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَشْهُرٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "شَهْرٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 7,
+        "arabily_row": 21,
+        "arabily_column_kind": "plural",
+        "academy_root": "شهر",
+        "bayna_ocr_page": 19,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَطْفَالٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/22",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-8/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B7%D9%81%D9%84",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَطْفَالٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "طِفْلٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 8,
+        "arabily_row": 8,
+        "arabily_column_kind": "plural",
+        "academy_root": "طفل",
+        "bayna_ocr_page": 22,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَسْبَابٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/16",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-11/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B3%D8%A8%D8%A8",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَسْبَابٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "سَبَبٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 11,
+        "arabily_row": 10,
+        "arabily_column_kind": "plural",
+        "academy_root": "سبب",
+        "bayna_ocr_page": 16,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "آدَابٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/12",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-12/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A3%D8%AF%D8%A8",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "آدَابٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "أَدَبٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 12,
+        "arabily_row": 1,
+        "arabily_column_kind": "plural",
+        "academy_root": "أدب",
+        "bayna_ocr_page": 12,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَدَبٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/12",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-12/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A3%D8%AF%D8%A8",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَدَبٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "plural",
+          "arabic": "آدَابٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 12,
+        "arabily_row": 1,
+        "arabily_column_kind": "headword",
+        "academy_root": "أدب",
+        "bayna_ocr_page": 12,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَجْنِحَةٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/8",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-12/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%AC%D9%86%D8%AD",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَجْنِحَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "جَنَاحٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 12,
+        "arabily_row": 3,
+        "arabily_column_kind": "plural",
+        "academy_root": "جنح",
+        "bayna_ocr_page": 8,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَحَادِيثُ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/9",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-12/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%AD%D8%AF%D8%AB",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَحَادِيثُ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "حَدِيثٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 12,
+        "arabily_row": 4,
+        "arabily_column_kind": "plural",
+        "academy_root": "حدث",
+        "bayna_ocr_page": 9,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَشْوَاطٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/19",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-14/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B4%D9%88%D8%B7",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَشْوَاطٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "شَوْطٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 14,
+        "arabily_row": 7,
+        "arabily_column_kind": "plural",
+        "academy_root": "شوط",
+        "bayna_ocr_page": 19,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أُذُنٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/13",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-15/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A3%D8%B0%D9%86",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أُذُنٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "plural",
+          "arabic": "آذَانٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 15,
+        "arabily_row": 1,
+        "arabily_column_kind": "headword",
+        "academy_root": "أذن",
+        "bayna_ocr_page": 13,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَسْنَانٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/18",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-15/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B3%D9%86%D9%86",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَسْنَانٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 15,
+        "arabily_row": 5,
+        "arabily_column_kind": "plural",
+        "academy_root": "سنن",
+        "bayna_ocr_page": 18,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَجَازَ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/7",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-2/unit-2/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%AC%D9%88%D8%B2",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَجَازَ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "imperfect",
+          "arabic": "يُجِيزُ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "masdar",
+          "arabic": "إِجَازَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 2,
+        "arabily_unit": 2,
+        "arabily_row": 17,
+        "arabily_column_kind": "headword",
+        "academy_root": "جوز",
+        "bayna_ocr_page": 7,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "إِجَازَةٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/7",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-2/unit-2/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%AC%D9%88%D8%B2",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "إِجَازَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "origin_verb",
+          "arabic": "أَجَازَ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 2,
+        "arabily_unit": 2,
+        "arabily_row": 17,
+        "arabily_column_kind": "masdar",
+        "academy_root": "جوز",
+        "bayna_ocr_page": 7,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَخْلَاقٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/12",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-2/unit-2/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%AE%D9%84%D9%82",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَخْلَاقٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "خُلُقٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 2,
+        "arabily_unit": 2,
+        "arabily_row": 56,
+        "arabily_column_kind": "plural",
+        "academy_root": "خلق",
+        "bayna_ocr_page": 12,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "آرَاءٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/13",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-2/unit-2/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B1%D8%A3%D9%8A",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "آرَاءٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "رَأْيٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 2,
+        "arabily_unit": 2,
+        "arabily_row": 18,
+        "arabily_column_kind": "plural",
+        "academy_root": "رأي",
+        "bayna_ocr_page": 13,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَعْدَادٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/23",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-2/unit-4/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B9%D8%AF%D8%AF",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَعْدَادٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "عَدَدٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 2,
+        "arabily_unit": 4,
+        "arabily_row": 42,
+        "arabily_column_kind": "plural",
+        "academy_root": "عدد",
+        "bayna_ocr_page": 23,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَكْبَرُ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/30",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-2/unit-4/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D9%83%D8%A8%D8%B1",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَكْبَرُ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 2,
+        "arabily_unit": 4,
+        "arabily_row": 54,
+        "arabily_column_kind": "headword",
+        "academy_root": "كبر",
+        "bayna_ocr_page": 30,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَعْمَالٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/26",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-8/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B9%D9%85%D9%84",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَعْمَالٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "عَمَلٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 8,
+        "arabily_row": 1,
+        "arabily_column_kind": "plural",
+        "academy_root": "عمل",
+        "bayna_ocr_page": 26,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَشْجَارٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/18",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-2/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B4%D8%AC%D8%B1",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَشْجَارٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "singular",
+          "arabic": "شَجَرَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 1,
+        "arabily_unit": 2,
+        "arabily_row": 18,
+        "arabily_column_kind": "plural",
+        "academy_root": "شجر",
+        "bayna_ocr_page": 18,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَحَاطَ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/9",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-2/unit-4/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%AD%D9%88%D8%B7",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَحَاطَ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "imperfect",
+          "arabic": "يُحِيطُ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "masdar",
+          "arabic": "إِحَاطَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "evidence_details": {
+        "arabily_book": 2,
+        "arabily_unit": 4,
+        "arabily_row": 17,
+        "arabily_column_kind": "headword",
+        "academy_root": "حوط",
+        "bayna_ocr_page": 9,
+        "ocr_used_for_diacritics": false
+      },
+      "source_independent_full_proofread": false
     }
   ]
 }
