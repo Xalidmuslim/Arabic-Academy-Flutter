@@ -54,6 +54,33 @@ source candidate rather than fabricating a match.
 was provided for source comparison; publication or redistribution of the
 book's full scans is separate from using its information as a research source.
 
+## Expanded pass — 12 November 2026
+
+In one content-editing pass, **161** additional Arabic headwords from the
+**seven PDF pages 7–13** (printed dictionary pages 3–9) were read visually
+and given independently worded Arabic-only educational entries.
+
+- PDF pages 7–10: 93 entries.
+- PDF pages 11–13: 68 entries.
+- Source-linked articles in total, including pages 5–6: **181**.
+- Total editorial overlay articles, including earlier separate entries: **184**.
+- The corpus loader merges by exact fully vocalized headword, keeping
+  older stable IDs and existing book/chapter references.
+- Arabic definitions, grammatical notes, synonyms where applicable, and
+  original illustrative sentences are authored separately; they are not
+  full transcriptions or reproduction of the publisher's examples.
+- Empty antonym fields are intentional when no lexical opposite exists.
+- All records include the scanned PDF page and corresponding printed page.
+
+This is a **first editorial pass**, not a claim that 181 entries have passed
+professional native-speaker proofreading. The audit checks structural
+completeness and presence of diacritics, not correctness of every single
+vowel or semantic nuance. Comparative adjectives and non-antonym semantic
+pairs were checked again after the initial write.
+
+The larger scan still needs systematic page-by-page work. Do not label
+the unprocessed words or the whole dictionary as verified.
+
 ## Editorial acceptance criteria
 
 1. Preserve existing word IDs, bookmarks, local study state and original entries.
