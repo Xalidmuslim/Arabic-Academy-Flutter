@@ -71,6 +71,50 @@ def main():
         else:
             print(f"NOT ATTACHED: {word}: {norm_counts[key]} matching headwords")
 
+    relations = json.loads((DATA / "lexical_relations_v1.json").read_text(encoding="utf-8"))
+    assert relations["schema_version"] == 1
+    assert "translation_ru" not in relations
+    assert all(not re.search(r"[\u0400-\u04ff]", str(pair))
+               for pair in relations["pairs"]), "Cyrillic relation found"
+    relation_seen = set()
+    relation_added = {"synonym": set(), "antonym": set()}
+    verified_files = {}
+    for pair in relations["pairs"]:
+        kind = pair["kind"]
+        left, right = pair["left"], pair["right"]
+        assert kind in relation_added, f"Unsupported relation kind: {kind}"
+        assert left != right and normalize(left) != normalize(right)
+        assert left in headwords and right in headwords, (
+            f"Unmatched word: {left} / {right}")
+        for headword in (left, right):
+            assert ARABIC.search(headword) and TASHKEEL.search(headword), (
+                f"Missing Arabic vocalization: {headword}")
+        key = (kind, *sorted((left, right)))
+        assert key not in relation_seen, f"Duplicate relation: {key}"
+        relation_seen.add(key)
+        file = pair["evidence_file"]
+        assert file in manifest["files"], f"Unlisted evidence file: {file}"
+        if file not in verified_files:
+            verified_files[file] = {
+                entry["arabic"] for entry in
+                json.loads((ROOT / file).read_text(encoding="utf-8"))["entries"]
+            }
+        assert left in verified_files[file] and right in verified_files[file], (
+            f"Pair lacks corpus evidence: {left} / {right}")
+        relation_added[kind].update((left, right))
+
+    synonyms_after = sum(
+        bool(entry.get("synonyms")) or word in relation_added["synonym"]
+        for word, entry in original.items())
+    antonyms_after = sum(
+        bool(entry.get("antonyms")) or word in relation_added["antonym"]
+        for word, entry in original.items())
+    print(f"Lexical relationships: {len(relation_seen)} pairs")
+    print(f"Synonym coverage with overlay: {synonyms_after} / {len(headwords)}")
+    print(f"Antonym coverage with overlay: {antonyms_after} / {len(headwords)}")
+    print(f"Distinct relationship endpoints: {len(relation_added['synonym'] | relation_added['antonym'])}")
+    print("CAUTION: Pair evidence is existing original corpus definitions, not verified verbatim against the published dictionary.")
+
     print(f"Corpus: {len(headwords)} unique exact vocalized headwords")
     for field in ("grammar", "synonyms", "antonyms", "collocations", "examples_ar", "usage_note_ar"):
         print(f"Legacy section {field}: {coverage[field]} / {len(headwords)} non-empty")
