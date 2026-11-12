@@ -13,7 +13,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "assets" / "data"
@@ -68,6 +68,36 @@ def validate_registry(registry: dict) -> int:
             require(parsed.scheme == "https" and parsed.hostname == hostname
                     and parsed.path.startswith(path_prefix),
                     f"Untrusted source link: {word}/{source_id}")
+        evidence = record.get("evidence_details")
+        if evidence is not None:
+            require(isinstance(evidence, dict), f"Malformed provenance: {word}")
+            book, unit, row = (
+                evidence.get("arabily_book"),
+                evidence.get("arabily_unit"),
+                evidence.get("arabily_row"),
+            )
+            require(type(book) is int and book in (1, 2, 3) and
+                    type(unit) is int and 1 <= unit <= 20 and
+                    type(row) is int and row > 0,
+                    f"Incorrect lesson or row number: {word}")
+            require(evidence.get("arabily_column_kind") in
+                    ("headword", "plural", "masdar"),
+                    f"Incorrect lesson column: {word}")
+            require(sources["arabily"]["url"] ==
+                    f"https://arabily.app/bayna-yadayk-{book}/unit-{unit}/",
+                    f"Lesson source mismatch: {word}")
+            root = evidence.get("academy_root")
+            require(isinstance(root, str) and ARABIC.search(root),
+                    f"Missing academy root: {word}")
+            academy_path = unquote(urlsplit(sources["academy"]["url"]).path)
+            require(academy_path.endswith("/" + root),
+                    f"Academy root mismatch: {word}")
+            page = evidence.get("bayna_ocr_page")
+            require(type(page) is int and 1 <= page <= 404
+                    and sources["bayna_ocr"]["url"].endswith("/" + str(page)),
+                    f"Scanned page mismatch: {word}")
+            require(evidence.get("ocr_used_for_diacritics") is False,
+                    f"OCR incorrectly asserted as vowel evidence: {word}")
         forms = record.get("forms")
         require(isinstance(forms, list) and forms, f"Missing checked forms: {word}")
         checked = set()
