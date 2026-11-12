@@ -5,7 +5,7 @@ import 'package:bayna_dictionary/main.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test('Flutter loader merges all 81 manifest chunks without losing original or source-verified entries', () async {
+  test('Flutter loader merges source-verified entries without losing original stable IDs or photography', () async {
     final manifest = jsonDecode(
       await File('assets/data/corpus_manifest.json').readAsString(),
     ) as Map<String, dynamic>;
@@ -15,7 +15,26 @@ void main() {
 
     final texts = await Future.wait(paths.map((path) => File(path).readAsString()));
     final merged = decodeAndMergeCorpora(texts);
-    expect(merged, hasLength(7129));
+    const scanFile = 'assets/data/entries_bayna_scan_verified_20261112.json';
+    final beforeSource = decodeAndMergeCorpora([
+      for (var i = 0; i < paths.length; i++)
+        if (paths[i] != scanFile) texts[i],
+    ]);
+    expect(beforeSource, hasLength(7125));
+    final originalByHeadword = {for (final w in beforeSource) w.arabic: w};
+    final expectedNew = (jsonDecode(await File(scanFile).readAsString())
+            as Map<String, dynamic>)['entries'] as List<dynamic>;
+    final newHeadwords = expectedNew
+        .cast<Map<String, dynamic>>()
+        .map((e) => e['arabic'] as String)
+        .where((lemma) => !originalByHeadword.containsKey(lemma))
+        .toSet();
+    expect(merged, hasLength(7125 + newHeadwords.length));
+    final afterByHeadword = {for (final word in merged) word.arabic: word};
+    for (final original in beforeSource) {
+      expect(afterByHeadword[original.arabic]?.id, original.id,
+          reason: 'Original stable word ID must remain: ${original.arabic}');
+    }
 
     final scanSource = jsonDecode(
       await File('assets/data/entries_bayna_scan_verified_20261112.json').readAsString(),
@@ -23,15 +42,25 @@ void main() {
     final sourceEntries = (scanSource['entries'] as List<dynamic>)
         .cast<Map<String, dynamic>>();
     expect(paths, contains('assets/data/entries_bayna_scan_verified_20261112.json'));
-    expect(sourceEntries, hasLength(4));
+    expect(sourceEntries, hasLength(20));
+    expect(sourceEntries.map((e) => e['id']).toSet(), hasLength(20));
+    expect(sourceEntries.map((e) => e['arabic']).toSet(), hasLength(20));
     final mergedById = {for (final entry in merged) entry.id: entry};
     for (final source in sourceEntries) {
-      final entry = mergedById[source['id']];
+      final original = originalByHeadword[source['arabic']];
+      final entry = original == null
+          ? mergedById[source['id']]
+          : afterByHeadword[source['arabic']];
       expect(entry, isNotNull, reason: 'Source-verified lemma missing: ${source['arabic']}');
       expect(entry!.arabic, source['arabic']);
-      expect(entry.meaning, source['meaning_ar']);
-      expect(entry.examples, source['examples_ar']);
-      expect(entry.bookReferences, isEmpty);
+      if (original == null) {
+        expect(entry.id, source['id']);
+        expect(entry.meaning, source['meaning_ar']);
+        expect(entry.examples, source['examples_ar']);
+        expect(entry.bookReferences, isEmpty);
+      } else {
+        expect(entry.id, original.id);
+      }
     }
 
     final extension = jsonDecode(
