@@ -1,0 +1,45 @@
+name: Bayna reviewed lexicon QA
+on:
+  push:
+    branches: [codex/bayna-lexicon-reviewed-details-20261112]
+    paths:
+      - 'assets/data/reviewed_articles_v1.json'
+      - 'lib/**'
+      - 'test/**'
+      - 'tools/audit_reviewed_lexicon.py'
+      - '.github/workflows/dictionary-reviewed-lexicon-qa.yml'
+  workflow_dispatch:
+
+jobs:
+  verify-reviewed-lexicon:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.35.7"
+          cache: true
+      - name: Audit full dictionary corpus and reviewed entries
+        run: python3 tools/audit_reviewed_lexicon.py | tee reviewed-lexicon-coverage.txt
+      - name: Generate Android platform files
+        run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
+      - name: Install packages
+        run: flutter pub get
+      - name: Run complete Flutter test suite
+        run: flutter test
+      - name: Static analysis
+        run: flutter analyze
+      - name: Store exact dictionary coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bayna-reviewed-lexicon-coverage
+          path: reviewed-lexicon-coverage.txt
+          if-no-files-found: warn
