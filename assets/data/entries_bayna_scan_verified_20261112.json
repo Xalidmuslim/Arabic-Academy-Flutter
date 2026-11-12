@@ -635,7 +635,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 7,
         "printed_page": 3,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -1167,24 +1168,31 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 7,
         "printed_page": 3,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
       "id": "bayna_scan_v1_041",
       "arabic": "إِجَازَةٌ",
-      "meaning_ar": "فَتْرَةُ رَاحَةٍ مِنَ الْعَمَلِ أَوْ إِذْنٌ بِأَمْرٍ.",
-      "additional_meanings_ar": [],
+      "meaning_ar": "فَتْرَةٌ يَنْقَطِعُ فِيهَا الْإِنْسَانُ عَنِ الْعَمَلِ أَوِ الدِّرَاسَةِ لِلرَّاحَةِ.",
+      "additional_meanings_ar": [
+        "إِذْنٌ أَوْ مُوَافَقَةٌ عَلَى الْقِيَامِ بِعَمَلٍ مُعَيَّنٍ.",
+        "وَثِيقَةٌ تُثْبِتُ التَّأْهِيلَ أَوِ السَّمَاحَ بِمُمَارَسَةِ أَمْرٍ."
+      ],
       "grammar": [
-        "اِسْمٌ مُؤَنَّثٌ؛ الْجَمْعُ: إِجَازَاتٌ."
+        "اِسْمٌ مُؤَنَّثٌ؛ الْجَمْعُ: إِجَازَاتٌ.",
+        "مَصْدَرٌ لِلْفِعْلِ أَجَازَ، وَمُضَارِعُهُ: يُجِيزُ."
       ],
       "synonyms": [],
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "سَافَرَتِ الْأُسْرَةُ فِي الْإِجَازَةِ الصَّيْفِيَّةِ."
+        "قَضَى الطَّالِبُ إِجَازَتَهُ فِي قَرْيَتِهِ.",
+        "طَلَبَ الْمُوَظَّفُ إِجَازَةً مِنَ الْمُدِيرِ.",
+        "حَصَلَ الطَّالِبُ عَلَى إِجَازَةٍ بَعْدَ إِتْمَامِ دِرَاسَتِهِ."
       ],
-      "usage_note_ar": "يُفْهَمُ مَعْنَى الْكَلِمَةِ مِنْ سِيَاقِ الْجُمْلَةِ.",
+      "usage_note_ar": "تَخْتَلِفُ دَلَالَةُ إِجَازَةٍ بِاخْتِلَافِ السِّيَاقِ؛ فَقَدْ تَعْنِي الْعُطْلَةَ أَوِ الْإِذْنَ أَوِ الشَّهَادَةَ. إِجَازَةٌ مَصْدَرٌ مِنْ أَجَازَ يُجِيزُ، وَيُسْتَعْمَلُ أَيْضًا اسْمًا لِلْعُطْلَةِ.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
@@ -1195,7 +1203,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 7,
         "printed_page": 3,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -1811,7 +1820,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 8,
         "printed_page": 4,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -2007,7 +2017,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 9,
         "printed_page": 5,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -2035,7 +2046,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 9,
         "printed_page": 5,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -3155,7 +3167,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 10,
         "printed_page": 6,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -3323,7 +3336,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 11,
         "printed_page": 7,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -3827,7 +3841,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 12,
         "printed_page": 8,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -3967,7 +3982,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 12,
         "printed_page": 8,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -4079,7 +4095,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 12,
         "printed_page": 8,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -4219,7 +4236,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 12,
         "printed_page": 8,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -4835,7 +4853,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 13,
         "printed_page": 9,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -4863,7 +4882,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 13,
         "printed_page": 9,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "source_sense_checked_arabic_article_independently_worded",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -6207,7 +6227,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 15,
         "printed_page": 11,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -6711,7 +6732,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 16,
         "printed_page": 12,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -6935,7 +6957,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 16,
         "printed_page": 12,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -7082,7 +7105,7 @@
         "pdf_page": 16,
         "printed_page": 12,
         "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
-        "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -7418,7 +7441,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 16,
         "printed_page": 12,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -7926,7 +7950,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 17,
         "printed_page": 13,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -8094,7 +8119,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 18,
         "printed_page": 14,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -8822,7 +8848,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 18,
         "printed_page": 14,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -9438,7 +9465,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 19,
         "printed_page": 15,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -9494,7 +9522,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 19,
         "printed_page": 15,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -11202,7 +11231,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 22,
         "printed_page": 18,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -11258,7 +11288,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 22,
         "printed_page": 18,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -12098,7 +12129,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -12966,7 +12998,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 26,
         "printed_page": 22,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -15077,7 +15110,7 @@
         "pdf_page": 29,
         "printed_page": 25,
         "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
-        "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -15112,7 +15145,7 @@
         "pdf_page": 29,
         "printed_page": 25,
         "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
-        "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     },
     {
@@ -16064,7 +16097,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 30,
         "printed_page": 26,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_selected_forms_not_full_proofread"
       }
     }
   ]
