@@ -1,0 +1,409 @@
+{
+  "schema_version": 1,
+  "editorial_status": "meaning_checked_against_existing_original_arabic_corpus_not_collated_with_published_dictionary",
+  "policy": "Relations are a limited editorial first pass from internal Arabic word definitions. Do not claim these pairs are copied from the publisher's dictionary or verified with its printed pages. No Russian translations.",
+  "pairs": [
+    {
+      "kind": "antonym",
+      "left": "مُتَوَاضِعٌ",
+      "right": "مُتَكَبِّرٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "صَادِقٌ",
+      "right": "كَاذِبٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "أَمِينٌ",
+      "right": "خَائِنٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "نَشِيطٌ",
+      "right": "كَسُولٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "شُجَاعٌ",
+      "right": "جَبَانٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "صَبُورٌ",
+      "right": "جَزُوعٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "رَزِينٌ",
+      "right": "طَائِشٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "لَطِيفٌ",
+      "right": "فَظٌّ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "رَقِيقٌ",
+      "right": "غَلِيظٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "بَشُوشٌ",
+      "right": "عَبُوسٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مَرِحٌ",
+      "right": "كَئِيبٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُتَفَائِلٌ",
+      "right": "مُتَشَائِمٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُهَذَّبٌ",
+      "right": "وَقِحٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُتَوَتِّرٌ",
+      "right": "مُطْمَئِنٌّ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "حَذِرٌ",
+      "right": "مُتَهَوِّرٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُنْصِفٌ",
+      "right": "مُتَحَيِّزٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "سَابِقٌ",
+      "right": "لَاحِقٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُبَكِّرٌ",
+      "right": "مُتَأَخِّرٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "عَاجِلٌ",
+      "right": "آجِلٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُؤَقَّتٌ",
+      "right": "دَائِمٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "سِرِّيٌّ",
+      "right": "عَلَنِيٌّ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "خَاصٌّ",
+      "right": "عَامٌّ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مَفْتُوحٌ",
+      "right": "مُغْلَقٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "خَالٍ",
+      "right": "مَمْلُوءٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُتَوَفِّرٌ",
+      "right": "نَافِدٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مَجَّانِيٌّ",
+      "right": "مَدْفُوعٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُرْبِحٌ",
+      "right": "خَاسِرٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُرْتَفِعٌ",
+      "right": "مُنْخَفِضٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُتَنَاقِصٌ",
+      "right": "مُتَزَايِدٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُسْتَقِرٌّ",
+      "right": "مُتَقَلِّبٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُكْتَمِلٌ",
+      "right": "نَاقِصٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُتَدَهْوِرٌ",
+      "right": "مُتَحَسِّنٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "آمِنٌ",
+      "right": "خَطِرٌ",
+      "evidence_file": "assets/data/entries_adjectives_context_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "وَاضِحٌ",
+      "right": "غَامِضٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "دَقِيقٌ",
+      "right": "تَقْرِيبِيٌّ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "شَامِلٌ",
+      "right": "جُزْئِيٌّ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُخْتَصَرٌ",
+      "right": "مُطَوَّلٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُفَصَّلٌ",
+      "right": "مُجْمَلٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُوجَزٌ",
+      "right": "مُسْهَبٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "ضِمْنِيٌّ",
+      "right": "صَرِيحٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُتَنَاقِضٌ",
+      "right": "مُتَّسِقٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُتَرَابِطٌ",
+      "right": "مُفَكَّكٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُمْكِنٌ",
+      "right": "مُسْتَحِيلٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مَقْبُولٌ",
+      "right": "مَرْفُوضٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مَدَحَ",
+      "right": "ذَمَّ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "أَوْفَى",
+      "right": "أَخْلَفَ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "اِتَّفَقَ",
+      "right": "اِخْتَلَفَ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "تَصَالَحَ",
+      "right": "تَخَاصَمَ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "فَرِحَ",
+      "right": "حَزِنَ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "أَحَبَّ",
+      "right": "كَرِهَ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "اِدَّخَرَ",
+      "right": "أَنْفَقَ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "رِبْحٌ",
+      "right": "خَسَارَةٌ",
+      "evidence_file": "assets/data/entries_daily_society_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "مُوَافَقَةٌ",
+      "right": "رَفْضٌ",
+      "evidence_file": "assets/data/entries_daily_society_20261025.json"
+    },
+    {
+      "kind": "antonym",
+      "left": "طَهَارَةٌ",
+      "right": "قَذَارَةٌ",
+      "evidence_file": "assets/data/entries_level2_09_10.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "مُجْتَهِدٌ",
+      "right": "مُجِدٌّ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "رَزِينٌ",
+      "right": "مُتَّزِنٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "لَطِيفٌ",
+      "right": "رَقِيقٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "فَظٌّ",
+      "right": "غَلِيظٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "كَسُولٌ",
+      "right": "مُتَكَاسِلٌ",
+      "evidence_file": "assets/data/entries_adjectives_character_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "مُخْتَصَرٌ",
+      "right": "مُوجَزٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "غَامِضٌ",
+      "right": "مُبْهَمٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "مُطَوَّلٌ",
+      "right": "مُسْهَبٌ",
+      "evidence_file": "assets/data/entries_adjectives_cognition_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "اِخْتِبَارٌ",
+      "right": "اِمْتِحَانٌ",
+      "evidence_file": "assets/data/entries_daily_education_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "قَامُوسٌ",
+      "right": "مُعْجَمٌ",
+      "evidence_file": "assets/data/entries_daily_education_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "فَهْمٌ",
+      "right": "اِسْتِيعَابٌ",
+      "evidence_file": "assets/data/entries_daily_education_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "سَاعَدَ",
+      "right": "أَعَانَ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    },
+    {
+      "kind": "synonym",
+      "left": "سَامَحَ",
+      "right": "غَفَرَ",
+      "evidence_file": "assets/data/entries_verbs_social_20261025.json"
+    }
+  ]
+}
