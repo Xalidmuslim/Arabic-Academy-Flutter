@@ -1117,11 +1117,6 @@ class _WordReaderState extends State<WordReader> {
             child: Text('Нажмите на арабское слово для перехода к статье.',
               style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant, fontSize: 11))),
           if (widget.reviewed case final reviewed?) ...[
-            Padding(
-              padding: const EdgeInsets.fromLTRB(5, 0, 5, 9),
-              child: Text('Перевод: ${reviewed.translationRu}',
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700,
-                  color: scheme.onSurface))),
             reviewedSection('01', 'Разъяснение значения', reviewed.definition),
             reviewedSection('04', 'Грамматический разбор', reviewed.grammar),
             reviewedSection('02', 'Синонимы', reviewed.synonyms,
@@ -1246,10 +1241,6 @@ class _WordReaderState extends State<WordReader> {
                 else
                   for (var i = 0; i < facts.length; i++) ...[
                     arabicWords(facts[i].arabic),
-                    const SizedBox(height: 2),
-                    Text(facts[i].russian, textDirection: TextDirection.ltr,
-                      style: TextStyle(fontSize: 13,
-                        color: scheme.onSurfaceVariant, height: 1.35)),
                     if (i < facts.length - 1)
                       const Padding(
                         padding: EdgeInsets.symmetric(vertical: 9),
