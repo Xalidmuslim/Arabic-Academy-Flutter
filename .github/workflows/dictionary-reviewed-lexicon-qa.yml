@@ -27,7 +27,7 @@ jobs:
           flutter-version: "3.35.7"
           cache: true
       - name: Test dictionary source crosschecks
-        run: python3 -m unittest discover -s tools -p 'test_source_crosschecks.py' -v
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
       - name: Verify three-source evidence against reviewed articles
         run: python3 tools/source_crosschecks.py
       - name: Audit full dictionary corpus and reviewed entries
