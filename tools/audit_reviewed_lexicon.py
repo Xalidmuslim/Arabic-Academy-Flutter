@@ -24,7 +24,7 @@ def normalize(word):
 def main():
     manifest = json.loads((DATA / "corpus_manifest.json").read_text(encoding="utf-8"))
     reviewed = json.loads((DATA / "reviewed_articles_v1.json").read_text(encoding="utf-8"))
-    assert reviewed["schema_version"] == 1
+    assert reviewed["schema_version"] == 2
     headwords = set()
     norm_counts = Counter()
     original = {}
@@ -53,7 +53,7 @@ def main():
         key = normalize(word)
         assert key and key not in seen, f"Duplicate reviewed headword: {word}"
         seen.add(key)
-        assert article["translation_ru"].strip(), f"Missing translation: {word}"
+        assert "translation_ru" not in article, f"Russian translation field present: {word}"
         assert article.get("source_urls"), f"No sources: {word}"
         assert all(s.startswith("https://") for s in article["source_urls"])
         for field in ("definition", "grammar", "examples", "important"):
@@ -61,10 +61,11 @@ def main():
         for field in ("definition", "grammar", "examples", "important", "synonyms", "contrasts"):
             for fact in article.get(field, []):
                 arabic = fact.get("ar", "")
-                russian = fact.get("ru", "")
+                assert "ru" not in fact, f"Russian note field present in {word}: {field}"
                 assert ARABIC.search(arabic) and TASHKEEL.search(arabic), (
                     f"Missing Arabic or vocalization in {word}: {field}: {arabic}")
-                assert russian.strip(), f"Missing translation/comment in {word}: {field}"
+                assert not re.search(r"[\u0400-\u04ff]", arabic), (
+                    f"Cyrillic in Arabic fact: {word}: {field}")
         if norm_counts[key] == 1:
             effective += 1
         else:
