@@ -5,25 +5,26 @@ import 'dictionary_data.dart';
 /// Editorial additions are stored separately from the original corpus.
 /// An entry is shown only when its normalized headword is unambiguous.
 class ReviewedFact {
-  const ReviewedFact({required this.arabic, required this.russian});
+  const ReviewedFact({required this.arabic});
 
   final String arabic;
-  final String russian;
 
   factory ReviewedFact.fromJson(Map<String, dynamic> json) {
     final arabic = (json['ar'] as String? ?? '').trim();
-    final russian = (json['ru'] as String? ?? '').trim();
-    if (arabic.isEmpty || russian.isEmpty) {
-      throw const FormatException('Reviewed facts require Arabic and Russian');
+    if (json.containsKey('ru') ||
+        arabic.isEmpty ||
+        !RegExp(r'[\u0621-\u064A]').hasMatch(arabic) ||
+        RegExp(r'[\u0400-\u04FF]').hasMatch(arabic)) {
+      throw const FormatException(
+          'Reviewed facts must contain Arabic only, without Russian fields');
     }
-    return ReviewedFact(arabic: arabic, russian: russian);
+    return ReviewedFact(arabic: arabic);
   }
 }
 
 class ReviewedArticle {
   const ReviewedArticle({
     required this.arabic,
-    required this.translationRu,
     required this.definition,
     required this.grammar,
     required this.synonyms,
@@ -34,7 +35,6 @@ class ReviewedArticle {
   });
 
   final String arabic;
-  final String translationRu;
   final List<ReviewedFact> definition;
   final List<ReviewedFact> grammar;
   final List<ReviewedFact> synonyms;
@@ -51,12 +51,11 @@ class ReviewedArticle {
             .toList(growable: false);
 
     final arabic = (json['arabic'] as String? ?? '').trim();
-    final translation = (json['translation_ru'] as String? ?? '').trim();
     final sources = (json['source_urls'] as List<dynamic>? ?? const [])
         .cast<String>();
-    if (arabic.isEmpty || translation.isEmpty ||
+    if (json.containsKey('translation_ru') || arabic.isEmpty ||
         sources.isEmpty || sources.any((s) => !s.startsWith('https://'))) {
-      throw const FormatException('Reviewed article requires headword, translation and HTTPS sources');
+      throw const FormatException('Reviewed article requires Arabic headword and HTTPS sources');
     }
     final definition = facts('definition');
     final grammar = facts('grammar');
@@ -68,7 +67,6 @@ class ReviewedArticle {
     }
     return ReviewedArticle(
       arabic: arabic,
-      translationRu: translation,
       definition: definition,
       grammar: grammar,
       synonyms: facts('synonyms'),
@@ -85,7 +83,7 @@ class ReviewedArticle {
 /// another article with a different vowel pattern.
 Map<String, ReviewedArticle> decodeReviewedArticles(String jsonText) {
   final root = jsonDecode(jsonText) as Map<String, dynamic>;
-  if (root['schema_version'] != 1) {
+  if (root['schema_version'] != 2) {
     throw const FormatException('Unsupported reviewed lexicon schema');
   }
   final articles = <String, ReviewedArticle>{};
