@@ -10,14 +10,12 @@ const fixture = '''
 {
   "schema_version": 1,
   "entries": [{
-    "arabic": "تَحِيَّةٌ",
-    "translation_ru": "приветствие",
-    "definition": [{"ar":"سَلَامٌ عِنْدَ اللِّقَاءِ.","ru":"Приветствие при встрече."}],
-    "grammar": [{"ar":"اِسْمٌ مُؤَنَّثٌ.","ru":"Существительное женского рода."}],
-    "synonyms": [{"ar":"سَلَامٌ","ru":"Приветствие."}],
-    "contrasts": [{"ar":"وَدَاعٌ","ru":"Смысловой контраст, не антоним."}],
-    "examples": [{"ar":"رَدَّ الرَّجُلُ التَّحِيَّةَ.","ru":"Мужчина ответил на приветствие."}],
-    "important": [{"ar":"حَيَّا — يُحَيِّي.","ru":"Прошедшее и настоящее время."}],
+    "arabic": "تَحِيَّةٌ",    "definition": [{"ar":"سَلَامٌ عِنْدَ اللِّقَاءِ."}],
+    "grammar": [{"ar":"اِسْمٌ مُؤَنَّثٌ."}],
+    "synonyms": [{"ar":"سَلَامٌ"}],
+    "contrasts": [{"ar":"وَدَاعٌ"}],
+    "examples": [{"ar":"رَدَّ الرَّجُلُ التَّحِيَّةَ."}],
+    "important": [{"ar":"حَيَّا — يُحَيِّي."}],
     "source_urls": ["https://www.arabicacademy.gov.eg/"]
   }]
 }
@@ -33,10 +31,21 @@ void main() {
     final corpus = [sample('original', 'تَحِيَّةٌ'), sample('other', 'كِتَابٌ')];
     final attached = matchReviewedArticles(corpus, articles);
     expect(attached.keys, contains('original'));
-    expect(attached['original']!.translationRu, 'приветствие');
+    expect(attached['original']!.definition.single.arabic, 'سَلَامٌ عِنْدَ اللِّقَاءِ.');
     expect(attached.keys, isNot(contains('other')));
     expect(corpus.first.id, 'original');
     expect(corpus.first.meaning, 'كَلِمَةٌ تُقَالُ عِنْدَ اللِّقَاءِ');
+  });
+
+  test('Reviewed cards reject Russian translations and comments', () {
+    final root = jsonDecode(fixture) as Map<String, dynamic>;
+    final item = (root['entries'] as List<dynamic>).single as Map<String, dynamic>;
+    item['translation_ru'] = 'приветствие';
+    expect(() => decodeReviewedArticles(jsonEncode(root)), throwsFormatException);
+    item.remove('translation_ru');
+    final definition = (item['definition'] as List<dynamic>).first as Map<String, dynamic>;
+    definition['ru'] = 'Перевод';
+    expect(() => decodeReviewedArticles(jsonEncode(root)), throwsFormatException);
   });
 
   test('Ambiguous unvowelled forms are never enriched by guessed sense', () {
@@ -65,7 +74,7 @@ void main() {
     expect(() => decodeReviewedArticles(jsonEncode(root)), throwsFormatException);
   });
 
-  testWidgets('Reviewed word shows bilingual sections without deleting legacy word data',
+  testWidgets('Reviewed word shows Arabic-only explanations without deleting legacy word data',
       (tester) async {
     final article = decodeReviewedArticles(fixture).values.single;
     await tester.pumpWidget(MaterialApp(home: WordReader(
@@ -76,7 +85,9 @@ void main() {
       onSpeak: () {}, onCopy: () {}, onArabicTap: (_) {},
     )));
     await tester.pump();
-    expect(find.text('Перевод: приветствие'), findsOneWidget);
+    expect(find.textContaining('Перевод:'), findsNothing);
+    expect(find.text('سَلَامٌ عِنْدَ اللِّقَاءِ.'), findsWidgets);
+    expect(find.text('Приветствие при встрече.'), findsNothing);
     expect(find.text('Разъяснение значения'), findsOneWidget);
     expect(find.text('Грамматический разбор'), findsOneWidget);
     await tester.scrollUntilVisible(
