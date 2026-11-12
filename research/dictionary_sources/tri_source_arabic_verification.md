@@ -63,12 +63,47 @@ entire copyrighted dictionary page is copied to the project.
    `python3 tools/source_crosschecks.py`, the full corpus audit, Flutter
    tests and static analysis before calling a batch technically verified.
 
-### Coverage caveat
+### Coverage update — expanded verification pass
 
-At this stage **3 of 574 expanded articles** have explicit three-source
-cross-check records for selected forms/meanings. The other **571** expanded
-articles, and unexpanded entries in the larger corpus, do not yet have these
-cross-check records. Even these 3 have **not** passed an independent complete
-native-speaker proofread; correctness of every invented example is therefore
-not certified. The three-source registry is a manual QA evidence trail, **not
-an automatic scraper or a mass-certification stamp**.
+The source registry now contains **31 independently referenced headwords**
+(previously 3), including 28 additional existing app headwords. Each new
+record identifies:
+
+- Exact **Bayna Yadayk PDF/aljam3 page** whose OCR text contains the
+  unvowelled headword; OCR is **not** taken as proof of harakat.
+- Exact **Arabily** textbook, unit, and word-list row used for selected
+  spellings, singular/plural relationships, and verb forms.
+- Relevant **Cairo Arabic Academy** root page that contains the
+  corresponding headword (checked allowing inflection and case endings).
+
+The 28 new headwords include:
+`أَخٌ`, `أُخْتٌ`, `إِخْوَةٌ`, `أُسْرَةٌ`, `أَثَاثٌ`,
+`أَرْقَامٌ`, `أَسْمَاكٌ`, `أَطْعِمَةٌ`, `أَسَابِيعُ`,
+`أَشْهُرٌ`, `أَطْفَالٌ`, `أَسْبَابٌ`, `آدَابٌ`, `أَدَبٌ`,
+`أَجْنِحَةٌ`, `أَحَادِيثُ`, `أَشْوَاطٌ`, `أُذُنٌ`,
+`أَسْنَانٌ`, `أَجَازَ`, `إِجَازَةٌ`, `أَخْلَاقٌ`,
+`آرَاءٌ`, `أَعْدَادٌ`, `أَكْبَرُ`, `أَعْمَالٌ`,
+`أَشْجَارٌ`, and `أَحَاطَ`.
+
+An independent audit found **21 singular noun cards** wrongly bearing
+the study note «هَذِهِ صِيغَةُ جَمْعٍ». This grammatical contradiction has
+been corrected, without editing the underlying primary lemma or its ID.
+The distinct meanings of `إِجَازَةٌ` were separated for education.
+
+The expanded historical corpus tests also exposed two wrong vocalized
+example strings. The Arabic examples for `أَجِنَّةٌ` and `أَشْكَالٌ`
+were corrected in both reviewed cards and source-added entries. Headword
+Unicode composition was standardized using **NFC** in 42 scan-added
+entries and 43 reviewed cards, **without changing letters, ID values, or
+the intended lexical distinctions**.
+
+Optional collocation lists remain empty for genuinely collocation-free
+first-pass records. No fake phrase is generated just to satisfy a
+generic audit. This exception applies only to independently documented
+scan-backed records with grammar and examples.
+
+**Scope:** 31 selected forms/meanings have three-source evidence records;
+the remaining 543 expanded articles still lack this level of documented
+triangulation. An independent full proofreading of every original Arabic
+example and vowel mark remains outstanding.
+
