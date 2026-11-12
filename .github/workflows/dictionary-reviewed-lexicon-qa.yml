@@ -6,7 +6,7 @@ on:
       - 'assets/data/**'
       - 'lib/**'
       - 'test/**'
-      - 'tools/audit_reviewed_lexicon.py'
+      - 'tools/**'
       - '.github/workflows/dictionary-reviewed-lexicon-qa.yml'
   workflow_dispatch:
 
@@ -26,6 +26,10 @@ jobs:
           channel: stable
           flutter-version: "3.35.7"
           cache: true
+      - name: Test dictionary source crosschecks
+        run: python3 -m unittest discover -s tools -p 'test_source_crosschecks.py' -v
+      - name: Verify three-source evidence against reviewed articles
+        run: python3 tools/source_crosschecks.py
       - name: Audit full dictionary corpus and reviewed entries
         run: python3 tools/audit_reviewed_lexicon.py | tee reviewed-lexicon-coverage.txt
       - name: Generate Android platform files
