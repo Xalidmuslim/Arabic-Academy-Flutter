@@ -44,11 +44,19 @@ def main():
     assert source_chunk_name in manifest["files"]
     source_chunk = json.loads((ROOT / source_chunk_name).read_text(encoding="utf-8"))
     source_words = source_chunk["entries"]
-    assert len(source_words) >= 4
+    assert len(source_words) >= 20
     assert len({e["id"] for e in source_words}) == len(source_words)
+    assert len({e["arabic"] for e in source_words}) == len(source_words)
     expected_scan = "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
+    indexed_articles = {e["arabic"]: e for e in reviewed["entries"]
+                        if e.get("source_review") == "visual_check_of_user_supplied_scan_12383_pdf"}
     for entry in source_words:
         prov = entry["source_provenance"]
+        article = indexed_articles.get(entry["arabic"])
+        assert article is not None, f"Missing source-backed article: {entry['arabic']}"
+        assert article["source_pdf_page"] == prov["pdf_page"]
+        assert article["source_printed_page"] == prov["printed_page"]
+        assert article["definition"][0]["ar"] == entry["meaning_ar"]
         assert entry["arabic"] in original
         assert prov["scan_sha256"] == expected_scan
         assert isinstance(prov["pdf_page"], int) and 1 <= prov["pdf_page"] <= 404
