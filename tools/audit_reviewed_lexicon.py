@@ -53,7 +53,7 @@ def main():
     assert source_chunk_name in manifest["files"]
     source_chunk = json.loads((ROOT / source_chunk_name).read_text(encoding="utf-8"))
     source_words = source_chunk["entries"]
-    assert len(source_words) >= 20
+    assert len(source_words) >= 181
     assert len({e["id"] for e in source_words}) == len(source_words)
     assert len({e["arabic"] for e in source_words}) == len(source_words)
     expected_scan = "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
@@ -61,6 +61,11 @@ def main():
                         if e.get("source_review") == "visual_check_of_user_supplied_scan_12383_pdf"}
     for entry in source_words:
         prov = entry["source_provenance"]
+        assert 5 <= prov["pdf_page"] <= 13, (
+            f"Unexpected scan page outside reviewed 5–13: {entry['arabic']}")
+        assert entry.get("meaning_ar") and entry.get("grammar") and entry.get("examples_ar")
+        assert all(ARABIC.search(part) and TASHKEEL.search(part)
+                   for part in [entry["meaning_ar"], *entry["grammar"], *entry["examples_ar"]])
         article = indexed_articles.get(entry["arabic"])
         assert article is not None, f"Missing source-backed article: {entry['arabic']}"
         assert article["source_pdf_page"] == prov["pdf_page"]
@@ -160,6 +165,7 @@ def main():
     print("CAUTION: Pair evidence is existing original corpus definitions, not verified verbatim against the published dictionary.")
 
     print(f"Independently authored Arabic entries checked against scan: {len(source_words)}")
+    print(f"PDF pages represented by source-linked articles: {len({e[\"source_provenance\"][\"pdf_page\"] for e in source_words})}")
     print(f"Corpus: {len(headwords)} unique exact vocalized headwords")
     for field in ("grammar", "synonyms", "antonyms", "collocations", "examples_ar", "usage_note_ar"):
         print(f"Legacy section {field}: {coverage[field]} / {len(headwords)} non-empty")
