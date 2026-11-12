@@ -21,6 +21,15 @@ def normalize(word):
     return word.strip().lower()
 
 
+def vocalized_key(word):
+    """Compare fully diacritized Arabic after canonical mark-order sorting.
+
+    Unlike normalize(), this intentionally preserves vowel choice and hamza.
+    """
+    return re.sub(r"[\u064b-\u065f\u0670]+",
+                  lambda m: "".join(sorted(m.group(0))), word)
+
+
 def main():
     manifest = json.loads((DATA / "corpus_manifest.json").read_text(encoding="utf-8"))
     reviewed = json.loads((DATA / "reviewed_articles_v1.json").read_text(encoding="utf-8"))
@@ -35,7 +44,7 @@ def main():
             headword = entry["arabic"]
             if headword not in headwords:
                 headwords.add(headword)
-                norm_counts[normalize(headword)] += 1
+                norm_counts[vocalized_key(headword)] += 1
                 original[headword] = entry
 
     # Scan-derived article references are checked against the corresponding
@@ -77,7 +86,7 @@ def main():
     visually_checked = 0
     for article in reviewed["entries"]:
         word = article["arabic"]
-        key = normalize(word)
+        key = vocalized_key(word)
         assert key and key not in seen, f"Duplicate reviewed headword: {word}"
         seen.add(key)
         assert "translation_ru" not in article, f"Russian translation field present: {word}"
@@ -104,7 +113,7 @@ def main():
         if norm_counts[key] == 1:
             effective += 1
         else:
-            print(f"NOT ATTACHED: {word}: {norm_counts[key]} matching headwords")
+            print(f"NOT ATTACHED: {word}: {norm_counts[key]} exactly vocalized headwords")
 
     relations = json.loads((DATA / "lexical_relations_v1.json").read_text(encoding="utf-8"))
     assert relations["schema_version"] == 1
