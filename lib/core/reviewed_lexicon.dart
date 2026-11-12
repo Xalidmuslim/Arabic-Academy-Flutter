@@ -119,14 +119,19 @@ Map<String, ReviewedArticle> matchReviewedArticles(
     Iterable<Word> words, Map<String, ReviewedArticle> reviewed) {
   final corpus = words.toList(growable: false);
   final counts = <String, int>{};
+  final exactCounts = <String, int>{};
   for (final word in corpus) {
     final key = canonicalVocalizedHeadword(word.arabic);
     counts[key] = (counts[key] ?? 0) + 1;
+    exactCounts[word.arabic] = (exactCounts[word.arabic] ?? 0) + 1;
   }
   return {
     for (final word in corpus)
-      if (counts[canonicalVocalizedHeadword(word.arabic)] == 1 &&
-          reviewed.containsKey(canonicalVocalizedHeadword(word.arabic)))
+      if (reviewed.containsKey(canonicalVocalizedHeadword(word.arabic)) &&
+          (counts[canonicalVocalizedHeadword(word.arabic)] == 1 ||
+              (reviewed[canonicalVocalizedHeadword(word.arabic)]!.arabic ==
+                      word.arabic &&
+                  exactCounts[word.arabic] == 1)))
         word.id: reviewed[canonicalVocalizedHeadword(word.arabic)]!,
   };
 }
