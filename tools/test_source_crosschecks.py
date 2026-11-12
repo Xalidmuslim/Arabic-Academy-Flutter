@@ -47,6 +47,7 @@ def article():
         "arabic": "أُسْبُوعٌ",
         "grammar": [{"ar": "اِسْمٌ مُذَكَّرٌ؛ الْجَمْعُ: أَسَابِيعُ."}],
         "definition": [{"ar": "مُدَّةٌ تَتَكَوَّنُ مِنْ سَبْعَةِ أَيَّامٍ."}],
+        "source_urls": [v["url"] for v in sample()["records"][0]["sources"].values()],
         "source_review": "scan_page_inspected_first_pass_pending_linguistic_proofread",
     }
 
