@@ -1,0 +1,84 @@
+import 'dart:convert';
+
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:bayna_dictionary/core/dictionary_data.dart';
+import 'package:bayna_dictionary/core/reviewed_lexicon.dart';
+import 'package:bayna_dictionary/ui/dictionary_shell.dart';
+
+const fixture = '''
+{
+  "schema_version": 1,
+  "entries": [{
+    "arabic": "تَحِيَّةٌ",
+    "translation_ru": "приветствие",
+    "definition": [{"ar":"سَلَامٌ عِنْدَ اللِّقَاءِ.","ru":"Приветствие при встрече."}],
+    "grammar": [{"ar":"اِسْمٌ مُؤَنَّثٌ.","ru":"Существительное женского рода."}],
+    "synonyms": [{"ar":"سَلَامٌ","ru":"Приветствие."}],
+    "contrasts": [{"ar":"وَدَاعٌ","ru":"Смысловой контраст, не антоним."}],
+    "examples": [{"ar":"رَدَّ الرَّجُلُ التَّحِيَّةَ.","ru":"Мужчина ответил на приветствие."}],
+    "important": [{"ar":"حَيَّا — يُحَيِّي.","ru":"Прошедшее и настоящее время."}],
+    "source_urls": ["https://www.arabicacademy.gov.eg/"]
+  }]
+}
+''';
+
+Word sample(String id, String arabic) => Word(id, arabic,
+  'كَلِمَةٌ تُقَالُ عِنْدَ اللِّقَاءِ', const [], const [],
+  const ['اِسْمٌ'], const [], const [], '', const []);
+
+void main() {
+  test('Reviewed articles retain original corpus IDs and skip bare homographs', () {
+    final articles = decodeReviewedArticles(fixture);
+    final corpus = [sample('original', 'تَحِيَّةٌ'), sample('other', 'كِتَابٌ')];
+    final attached = matchReviewedArticles(corpus, articles);
+    expect(attached.keys, contains('original'));
+    expect(attached['original']!.translationRu, 'приветствие');
+    expect(attached.keys, isNot(contains('other')));
+    expect(corpus.first.id, 'original');
+    expect(corpus.first.meaning, 'كَلِمَةٌ تُقَالُ عِنْدَ اللِّقَاءِ');
+  });
+
+  test('Ambiguous unvowelled forms are never enriched by guessed sense', () {
+    final articles = decodeReviewedArticles(fixture);
+    final attached = matchReviewedArticles([
+      sample('a', 'تَحِيَّةٌ'),
+      sample('b', 'تَحِيَّةٌ'),
+    ], articles);
+    expect(attached, isEmpty);
+  });
+
+  test('Duplicate reviewed headwords are rejected', () {
+    final root = jsonDecode(fixture) as Map<String, dynamic>;
+    final items = root['entries'] as List<dynamic>;
+    items.add(Map<String, dynamic>.from(items.first as Map));
+    expect(() => decodeReviewedArticles(jsonEncode(root)), throwsFormatException);
+  });
+
+  test('Missing evidence and grammar cause a failed editorial import', () {
+    final root = jsonDecode(fixture) as Map<String, dynamic>;
+    final article = (root['entries'] as List<dynamic>).first as Map<String, dynamic>;
+    article['source_urls'] = <String>[];
+    expect(() => decodeReviewedArticles(jsonEncode(root)), throwsFormatException);
+    article['source_urls'] = ['https://www.arabicacademy.gov.eg/'];
+    article['grammar'] = <dynamic>[];
+    expect(() => decodeReviewedArticles(jsonEncode(root)), throwsFormatException);
+  });
+
+  testWidgets('Reviewed word shows bilingual sections without deleting legacy word data',
+      (tester) async {
+    final article = decodeReviewedArticles(fixture).values.single;
+    await tester.pumpWidget(MaterialApp(home: WordReader(
+      word: sample('greeting', 'تَحِيَّةٌ'),
+      reviewed: article, font: 23,
+      favorite: false, bookmarked: false,
+      onFavorite: () async {}, onBookmark: () async {},
+      onSpeak: () {}, onCopy: () {}, onArabicTap: (_) {},
+    )));
+    await tester.pump();
+    expect(find.text('Перевод: приветствие'), findsOneWidget);
+    expect(find.text('Разъяснение значения'), findsOneWidget);
+    expect(find.text('Грамматический разбор'), findsOneWidget);
+    expect(find.text('Противоположные слова'), findsOneWidget);
+  });
+}
