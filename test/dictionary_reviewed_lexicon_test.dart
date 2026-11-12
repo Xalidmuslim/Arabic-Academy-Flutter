@@ -8,7 +8,7 @@ import 'package:bayna_dictionary/ui/dictionary_shell.dart';
 
 const fixture = '''
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "entries": [{
     "arabic": "تَحِيَّةٌ",    "definition": [{"ar":"سَلَامٌ عِنْدَ اللِّقَاءِ."}],
     "grammar": [{"ar":"اِسْمٌ مُؤَنَّثٌ."}],
