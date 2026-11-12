@@ -53,16 +53,20 @@ def main():
     assert source_chunk_name in manifest["files"]
     source_chunk = json.loads((ROOT / source_chunk_name).read_text(encoding="utf-8"))
     source_words = source_chunk["entries"]
-    assert len(source_words) >= 181
+    assert len(source_words) >= 571
     assert len({e["id"] for e in source_words}) == len(source_words)
     assert len({e["arabic"] for e in source_words}) == len(source_words)
     expected_scan = "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
+    review_kinds = {
+        "visual_check_of_user_supplied_scan_12383_pdf",
+        "scan_page_inspected_first_pass_pending_linguistic_proofread",
+    }
     indexed_articles = {e["arabic"]: e for e in reviewed["entries"]
-                        if e.get("source_review") == "visual_check_of_user_supplied_scan_12383_pdf"}
+                        if e.get("source_review") in review_kinds}
     for entry in source_words:
         prov = entry["source_provenance"]
-        assert 5 <= prov["pdf_page"] <= 13, (
-            f"Unexpected scan page outside reviewed 5–13: {entry['arabic']}")
+        assert 5 <= prov["pdf_page"] <= 30 and prov["pdf_page"] not in (24, 25), (
+            f"Uninspected source page: {entry['arabic']}")
         assert entry.get("meaning_ar") and entry.get("grammar") and entry.get("examples_ar")
         assert all(ARABIC.search(part) and TASHKEEL.search(part)
                    for part in [entry["meaning_ar"], *entry["grammar"], *entry["examples_ar"]])
@@ -71,6 +75,11 @@ def main():
         assert article["source_pdf_page"] == prov["pdf_page"]
         assert article["source_printed_page"] == prov["printed_page"]
         assert article["definition"][0]["ar"] == entry["meaning_ar"]
+        assert [g["ar"] for g in article["grammar"]] == entry["grammar"]
+        assert [g["ar"] for g in article["examples"]] == entry["examples_ar"]
+        if prov["pdf_page"] >= 14:
+            assert article["source_review"] == "scan_page_inspected_first_pass_pending_linguistic_proofread"
+            assert prov["text_status"] == "arabic_first_pass_page_inspected_pending_independent_proofread"
         assert entry["arabic"] in original
         assert prov["scan_sha256"] == expected_scan
         assert isinstance(prov["pdf_page"], int) and 1 <= prov["pdf_page"] <= 404
@@ -89,6 +98,7 @@ def main():
     seen = set()
     effective = 0
     visually_checked = 0
+    first_pass = 0
     for article in reviewed["entries"]:
         word = article["arabic"]
         key = vocalized_key(word)
@@ -96,13 +106,16 @@ def main():
         seen.add(key)
         assert "translation_ru" not in article, f"Russian translation field present: {word}"
         if "source_review" in article:
-            assert article["source_review"] == "visual_check_of_user_supplied_scan_12383_pdf", (
+            assert article["source_review"] in review_kinds, (
                 f"Unrecognized scan review marker: {word}")
             assert type(article.get("source_pdf_page")) is int and (
                 1 <= article["source_pdf_page"] <= 404), f"Bad PDF page: {word}"
             assert type(article.get("source_printed_page")) is int and (
                 article["source_printed_page"] >= 1), f"Bad printed page: {word}"
-            visually_checked += 1
+            if article["source_review"] == "visual_check_of_user_supplied_scan_12383_pdf":
+                visually_checked += 1
+            else:
+                first_pass += 1
         assert article.get("source_urls"), f"No sources: {word}"
         assert all(s.startswith("https://") for s in article["source_urls"])
         for field in ("definition", "grammar", "examples", "important"):
@@ -173,7 +186,8 @@ def main():
     for field in ("grammar", "synonyms", "antonyms", "collocations", "examples_ar", "usage_note_ar"):
         print(f"Legacy section {field}: {coverage[field]} / {len(headwords)} non-empty")
     print(f"Reviewed articles: {len(reviewed['entries'])}; unambiguously attached: {effective}")
-    print(f"Visually checked articles from user-provided scanned dictionary: {visually_checked}")
+    print(f"Earlier scan-checked articles: {visually_checked}")
+    print(f"New first-pass page-inspected articles pending linguistic proofreading: {first_pass}")
     print(f"Remaining without reviewed article: {len(headwords) - effective}")
     print("NOTE: This script validates structure/vocalization presence, NOT linguistic correctness.")
 
