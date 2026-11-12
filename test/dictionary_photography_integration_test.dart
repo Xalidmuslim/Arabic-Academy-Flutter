@@ -5,17 +5,34 @@ import 'package:bayna_dictionary/main.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test('Flutter loader merges all 80 manifest chunks and preserves photography entries', () async {
+  test('Flutter loader merges all 81 manifest chunks without losing original or source-verified entries', () async {
     final manifest = jsonDecode(
       await File('assets/data/corpus_manifest.json').readAsString(),
     ) as Map<String, dynamic>;
     final paths = (manifest['files'] as List<dynamic>).cast<String>();
-    expect(paths, hasLength(80));
+    expect(paths, hasLength(81));
     expect(paths, contains('assets/data/entries_editorial_photography_20261101.json'));
 
     final texts = await Future.wait(paths.map((path) => File(path).readAsString()));
     final merged = decodeAndMergeCorpora(texts);
-    expect(merged, hasLength(7125));
+    expect(merged, hasLength(7129));
+
+    final scanSource = jsonDecode(
+      await File('assets/data/entries_bayna_scan_verified_20261112.json').readAsString(),
+    ) as Map<String, dynamic>;
+    final sourceEntries = (scanSource['entries'] as List<dynamic>)
+        .cast<Map<String, dynamic>>();
+    expect(paths, contains('assets/data/entries_bayna_scan_verified_20261112.json'));
+    expect(sourceEntries, hasLength(4));
+    final mergedById = {for (final entry in merged) entry.id: entry};
+    for (final source in sourceEntries) {
+      final entry = mergedById[source['id']];
+      expect(entry, isNotNull, reason: 'Source-verified lemma missing: ${source['arabic']}');
+      expect(entry!.arabic, source['arabic']);
+      expect(entry.meaning, source['meaning_ar']);
+      expect(entry.examples, source['examples_ar']);
+      expect(entry.bookReferences, isEmpty);
+    }
 
     final extension = jsonDecode(
       await File('assets/data/entries_editorial_photography_20261101.json').readAsString(),
