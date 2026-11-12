@@ -74,8 +74,27 @@ def inspect_raw_cards(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, 
 
         for field in ("grammar", "collocations", "examples_ar"):
             if not card.get(field):
-                flags.append("missing_" + field)
-                totals["missing_" + field] += 1
+                # Source-linked lexical first-pass cards may legitimately have
+                # no fixed collocation. Never invent a usage phrase to satisfy
+                # a generic enrichment-card requirement. Grammar and original
+                # examples remain mandatory; other corpus chunks are unchanged.
+                optional_source_collocation = (
+                    field == "collocations"
+                    and card.get("source_group")
+                    == "original_arabic_editorial_after_visual_review_of_scan"
+                    and isinstance(card.get("source_provenance"), dict)
+                    and isinstance(
+                        card["source_provenance"].get("pdf_page"), int)
+                    and isinstance(card.get("grammar"), list)
+                    and bool(card.get("grammar"))
+                    and isinstance(card.get("examples_ar"), list)
+                    and bool(card.get("examples_ar"))
+                )
+                if optional_source_collocation:
+                    totals["source_optional_collocations"] += 1
+                else:
+                    flags.append("missing_" + field)
+                    totals["missing_" + field] += 1
 
         lexical = [word, meaning, card.get("usage_note_ar")]
         for field in ("grammar", "collocations", "examples_ar", "synonyms",
@@ -115,6 +134,7 @@ def inspect_raw_cards(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, 
         "missing_usage_note_field": totals["missing_usage_note_field"],
         "missing_grammar": totals["missing_grammar"],
         "missing_collocations": totals["missing_collocations"],
+        "source_optional_collocations": totals["source_optional_collocations"],
         "missing_examples": totals["missing_examples_ar"],
         "invalid_script_cards": totals["invalid_script_cards"],
         "official_claim_cards": totals["official_claim_cards"],
