@@ -1,0 +1,128 @@
+{
+  "schema_version": 3,
+  "source_status": "visually_reviewed_user_supplied_print_dictionary_with_independently_written_articles",
+  "entries": [
+    {
+      "id": "bayna_scan_v1_001",
+      "arabic": "أَبَاحَ",
+      "meaning_ar": "سَمَحَ بِالشَّيْءِ وَأَجَازَ فِعْلَهُ.",
+      "additional_meanings_ar": [
+        "أَظْهَرَ أَمْرًا كَانَ خَفِيًّا وَنَشَرَهُ."
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ عَلَى وَزْنِ أَفْعَلَ.",
+        "الْمَاضِي: أَبَاحَ. الْمُضَارِعُ: يُبِيحُ. الْمَصْدَرُ: إِبَاحَةٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبَاحَ الْمُعَلِّمُ لِلطُّلَّابِ الدُّخُولَ إِلَى الْمَكْتَبَةِ.",
+        "أَبَاحَ الرَّجُلُ سِرَّهُ لِصَدِيقِهِ."
+      ],
+      "usage_note_ar": "يَتَغَيَّرُ الْمَعْنَى بِحَسَبِ السِّيَاقِ؛ فَأَبَاحَ الْأَمْرَ بِمَعْنَى أَجَازَهُ، وَأَبَاحَ السِّرَّ بِمَعْنَى أَظْهَرَهُ. لَيْسَتْ أَحَلَّ وَأَجَازَ مُتَطَابِقَتَيْنِ فِي جَمِيعِ السِّيَاقَاتِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_002",
+      "arabic": "أَبْدَعَ",
+      "meaning_ar": "أَتَى بِشَيْءٍ جَدِيدٍ عَلَى غَيْرِ مِثَالٍ سَابِقٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ، وَجَذْرُهُ: ب د ع.",
+        "الْمَاضِي: أَبْدَعَ. الْمُضَارِعُ: يُبْدِعُ. الْمَصْدَرُ: إِبْدَاعٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبْدَعَ الْمُخْتَرِعُ آلَةً جَدِيدَةً.",
+        "أَبْدَعَ الْفَنَّانُ فِي رَسْمِ اللَّوْحَةِ."
+      ],
+      "usage_note_ar": "يَرِدُ الْفِعْلُ لِلِابْتِكَارِ، وَقَدْ يَدُلُّ عَلَى التَّفَوُّقِ وَالْإِتْقَانِ فِي عَمَلٍ مَا. يُخْتَارُ الْمُرَادِفُ بِحَسَبِ الْمَعْنَى الْمَقْصُودِ، لَا بِمُجَرَّدِ التَّشَابُهِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_003",
+      "arabic": "أَبْدَى",
+      "meaning_ar": "أَظْهَرَ رَأْيًا أَوْ شُعُورًا أَوْ رَغْبَةً وَكَشَفَ عَنْهَا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ مُعْتَلُّ الْآخِرِ.",
+        "الْمَاضِي: أَبْدَى. الْمُضَارِعُ: يُبْدِي. الْمَصْدَرُ: إِبْدَاءٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبْدَى الطَّالِبُ رَأْيَهُ فِي الْمَوْضُوعِ.",
+        "أَبْدَتِ الطَّالِبَةُ رَغْبَتَهَا فِي التَّعَلُّمِ."
+      ],
+      "usage_note_ar": "يُقَالُ: أَبْدَى رَأْيَهُ، وَأَبْدَى رَغْبَتَهُ، وَأَبْدَى مُلَاحَظَاتِهِ. الْمَصْدَرُ إِبْدَاءٌ، وَلَا يُخْلَطُ بِالْمَصْدَرِ إِبْدَاعٌ لِلْفِعْلِ أَبْدَعَ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_004",
+      "arabic": "أَبْحَرَ",
+      "meaning_ar": "سَارَ فِي الْبَحْرِ، أَوْ سَافَرَ عَلَى مَتْنِ سَفِينَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ، وَجَذْرُهُ: ب ح ر.",
+        "الْمَاضِي: أَبْحَرَ. الْمُضَارِعُ: يُبْحِرُ. الْمَصْدَرُ: إِبْحَارٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبْحَرَتِ السَّفِينَةُ فِي الصَّبَاحِ.",
+        "أَبْحَرَ الْمُسَافِرُونَ نَحْوَ الْجَزِيرَةِ."
+      ],
+      "usage_note_ar": "يُقَالُ: أَبْحَرَتِ السَّفِينَةُ، وَأَبْحَرَ الْمُسَافِرُ؛ فَالْفَاعِلُ قَدْ يَكُونُ سَفِينَةً أَوْ إِنْسَانًا. لَا نَضَعُ ضِدًّا لِكُلِّ فِعْلٍ؛ فَإِنَّ بَعْضَ الْأَفْعَالِ لَا ضِدَّ لَهَا مُبَاشِرًا.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    }
+  ]
+}
