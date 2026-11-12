@@ -24,6 +24,20 @@ It does **not** imply that every lemma has a literal antonym.
 | 5 | 1 | أَبْدَى | يبدي، إبداء; examples with رأيه and رغبته |
 | 5 | 1 | أَبْحَرَ | يبحر، إبحار; ship travels by sea, traveller goes by sea |
 
+### Next visually checked batch — PDF page 6, printed page 2
+
+16 Arabic headwords: **أَبْصَرَ، أَبْطَأَ، أَبْغَضَ، أَبْقَى، أَبَى، أَتْقَنَ، أَتَى، أَبْيَضُ، إِبْرِيقٌ، إِبِلٌ، أُبُوَّةٌ، أَبْوَابٌ، أَبْنَاءٌ، أَبْيَاتٌ، أَبْطَالٌ، أَبْرِيَاءُ**.
+
+The source page records vocabulary, plurals, verb forms, and some sense-based
+semantic comparisons. The application keeps independently authored explanatory
+sentences and examples, with separate meanings for **أَبْقَى** and **أَتَى**.
+Not every headword has a strict antonym; a related term is not automatically
+recorded as an opposite.
+
+**Editorial progress:** 20 page-linked articles (four from page 5,
+sixteen from page 6) and 3 earlier independent articles. This is **not**
+a complete collation of the 404-page reference.
+
 The new `assets/data/reviewed_articles_v1.json` entries contain **independently
 written Arabic explanations and original pedagogical examples** based on these
 verified meanings. They are not long verbatim transcriptions. Each such entry
