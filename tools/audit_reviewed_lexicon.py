@@ -38,6 +38,24 @@ def main():
                 norm_counts[normalize(headword)] += 1
                 original[headword] = entry
 
+    # Scan-derived article references are checked against the corresponding
+    # independently authored corpus entries; the 244 MB scan stays outside Git.
+    source_chunk_name = "assets/data/entries_bayna_scan_verified_20261112.json"
+    assert source_chunk_name in manifest["files"]
+    source_chunk = json.loads((ROOT / source_chunk_name).read_text(encoding="utf-8"))
+    source_words = source_chunk["entries"]
+    assert len(source_words) >= 4
+    assert len({e["id"] for e in source_words}) == len(source_words)
+    expected_scan = "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
+    for entry in source_words:
+        prov = entry["source_provenance"]
+        assert entry["arabic"] in original
+        assert prov["scan_sha256"] == expected_scan
+        assert isinstance(prov["pdf_page"], int) and 1 <= prov["pdf_page"] <= 404
+        assert isinstance(prov["printed_page"], int) and prov["printed_page"] >= 1
+        assert entry["sources"]
+        assert not re.search(r"[\u0400-\u04ff]", str(entry)), (
+            f"Cyrillic in Arabic corpus entry: {entry['arabic']}")
     coverage = Counter()
     for entry in original.values():
         for field in ("grammar", "synonyms", "antonyms", "collocations", "examples_ar"):
@@ -124,6 +142,7 @@ def main():
     print(f"Distinct relationship endpoints: {len(relation_added['synonym'] | relation_added['antonym'])}")
     print("CAUTION: Pair evidence is existing original corpus definitions, not verified verbatim against the published dictionary.")
 
+    print(f"Independently authored Arabic entries checked against scan: {len(source_words)}")
     print(f"Corpus: {len(headwords)} unique exact vocalized headwords")
     for field in ("grammar", "synonyms", "antonyms", "collocations", "examples_ar", "usage_note_ar"):
         print(f"Legacy section {field}: {coverage[field]} / {len(headwords)} non-empty")
