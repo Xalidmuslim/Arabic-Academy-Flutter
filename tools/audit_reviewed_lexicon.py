@@ -115,10 +115,12 @@ def main():
                     f"Missing Arabic or vocalization in {word}: {field}: {arabic}")
                 assert not re.search(r"[\u0400-\u04ff]", arabic), (
                     f"Cyrillic in Arabic fact: {word}: {field}")
-        if norm_counts[key] == 1:
+        if norm_counts[key] == 1 or word in headwords:
+            # The Flutter matcher prefers an exact, written headword when
+            # canonically equivalent combining-mark orders collide.
             effective += 1
         else:
-            print(f"NOT ATTACHED: {word}: {norm_counts[key]} exactly vocalized headwords")
+            print(f"NOT ATTACHED: {word}: {norm_counts[key]} equivalent headwords")
 
     relations = json.loads((DATA / "lexical_relations_v1.json").read_text(encoding="utf-8"))
     assert relations["schema_version"] == 1
