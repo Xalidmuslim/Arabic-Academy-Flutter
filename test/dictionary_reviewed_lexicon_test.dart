@@ -79,6 +79,13 @@ void main() {
     expect(find.text('Перевод: приветствие'), findsOneWidget);
     expect(find.text('Разъяснение значения'), findsOneWidget);
     expect(find.text('Грамматический разбор'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Противоположные слова'), 160,
+      scrollable: find.byType(Scrollable).first);
     expect(find.text('Противоположные слова'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Важно знать'), 160,
+      scrollable: find.byType(Scrollable).first);
+    expect(find.text('Важно знать'), findsOneWidget);
   });
 }
