@@ -27,7 +27,7 @@ SOURCES = {
     ),
 }
 TRUSTED_FORM_SOURCES = {"arabily", "academy"}
-ROLES = {"headword", "plural", "imperfect", "masdar", "feminine", "origin_verb"}
+ROLES = {"headword", "singular", "plural", "imperfect", "masdar", "feminine", "origin_verb"}
 ARABIC = re.compile(r"[\u0621-\u064a]")
 HARAKAT = re.compile(r"[\u064b-\u065f\u0670]")
 CYRILLIC = re.compile(r"[\u0400-\u04ff]")
