@@ -3,7 +3,7 @@ on:
   push:
     branches: [codex/bayna-lexicon-reviewed-details-20261112]
     paths:
-      - 'assets/data/reviewed_articles_v1.json'
+      - 'assets/data/**'
       - 'lib/**'
       - 'test/**'
       - 'tools/audit_reviewed_lexicon.py'
