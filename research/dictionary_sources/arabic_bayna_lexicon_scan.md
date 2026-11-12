@@ -81,6 +81,46 @@ pairs were checked again after the initial write.
 The larger scan still needs systematic page-by-page work. Do not label
 the unprocessed words or the whole dictionary as verified.
 
+## Larger single pass — PDF pages 14–23, 26–30 (12 November 2026)
+
+This pass added **390** independently authored Arabic-only educational
+headwords from the user-provided scanned source. The source images for the
+specified pages were inspected directly; no bulk OCR output was trusted.
+
+| Scanned pages | New first-pass articles |
+|---|---:|
+| 14–16 | 82 |
+| 17–20 | 105 |
+| 21–23 | 81 |
+| 26–30 | 122 |
+| **Total** | **390** |
+
+The second group began with 106 records, but two senses of **أَسْرَى**
+were consolidated into one correctly vocalized headword and the same Arabic
+article. The difference between **أُسْقُف** (church rank) and **أَسْقُف**
+(plural form of roof) was also corrected from the page image.
+**أَرْسُغ** and **أَعِنَّة** were corrected from their printed pages.
+
+The new entries are explicitly marked
+`scan_page_inspected_first_pass_pending_linguistic_proofread`.
+They include self-authored Arabic meanings, a grammatical form or category,
+an original pedagogical example, an editorial study note, and selectively
+synonyms or opposites where the sense permits. These are **not
+independently certified / fully proofread** Arabic dictionary articles;
+their detailed morphology, vocalization and sense-specific relations
+require a separate philological quality pass.
+
+Together with the earlier source-derived batch, the dedicated source corpus
+now contains **571** Arabic headwords and the reviewed overlay **574**
+headwords (including three pre-scan independent articles). Original
+word IDs and existing chapter references take precedence on duplicate
+headwords. The source PDF itself has not been redistributed.
+
+Pages **24–25** contain primarily illustration/organ reference plates;
+they were not treated as regular alphabetical headword pages in this batch.
+This count is of editorial records, not necessarily net newly unique
+headwords after merging into the original dictionary.
+
 ## Editorial acceptance criteria
 
 1. Preserve existing word IDs, bookmarks, local study state and original entries.
