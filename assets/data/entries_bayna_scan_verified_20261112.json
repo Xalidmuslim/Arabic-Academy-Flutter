@@ -7053,21 +7053,27 @@
     {
       "id": "bayna_scan_v1_251",
       "arabic": "أُسْبُوعٌ",
-      "meaning_ar": "مُدَّةٌ مِنَ الزَّمَنِ تَتَكَوَّنُ مِنْ سَبْعَةِ أَيَّامٍ.",
-      "additional_meanings_ar": [],
+      "meaning_ar": "مُدَّةٌ زَمَنِيَّةٌ تَتَكَوَّنُ مِنْ سَبْعَةِ أَيَّامٍ.",
+      "additional_meanings_ar": [
+        "وَفِي سِيَاقِ الطَّوَافِ قَدْ يُرَادُ بِهِ سَبْعَةُ أَشْوَاطٍ."
+      ],
       "grammar": [
-        "اِسْمٌ مُذَكَّرٌ؛ الْجَمْعُ: أَسَابِيعُ."
+        "اِسْمٌ مُذَكَّرٌ مُفْرَدٌ، وَجَمْعُهُ: أَسَابِيعُ.",
+        "يَرْتَبِطُ مَعْنَى الْكَلِمَةِ بِالْعَدَدِ سَبْعَةٍ."
       ],
       "synonyms": [],
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "سَيَعُودُ الْمُسَافِرُ بَعْدَ أُسْبُوعٍ."
+        "يَتَكَوَّنُ الْأُسْبُوعُ مِنْ سَبْعَةِ أَيَّامٍ.",
+        "أَنْهَيْتُ الْعَمَلَ خِلَالَ أُسْبُوعَيْنِ."
       ],
-      "usage_note_ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ.",
+      "usage_note_ar": "أُسْبُوعٌ مُفْرَدٌ، أَمَّا أَسَابِيعُ فَجَمْعُ تَكْسِيرٍ. يُقَالُ أَيْضًا أُسْبُوعٌ لِسَبْعَةِ أَشْوَاطٍ مِنَ الطَّوَافِ، وَيُعْرَفُ الْمَعْنَى مِنَ السِّيَاقِ.",
       "book_references": [],
       "sources": [
-        "https://saaid.org/book/open.php?book=11997"
+        "https://aljam3.com/ar/39951/73248/16",
+        "https://arabily.app/bayna-yadayk-1/unit-13/",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B3%D8%A8%D8%B9"
       ],
       "source_group": "original_arabic_editorial_after_visual_review_of_scan",
       "source_provenance": {
@@ -7075,7 +7081,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 16,
         "printed_page": 12,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
       }
     },
     {
@@ -15037,21 +15044,31 @@
     {
       "id": "bayna_scan_v1_537",
       "arabic": "أَقَامَ",
-      "meaning_ar": "سَكَنَ فِي مَكَانٍ أَوْ أَنْشَأَ شَيْئًا.",
-      "additional_meanings_ar": [],
+      "meaning_ar": "سَكَنَ فِي مَكَانٍ وَمَكَثَ فِيهِ.",
+      "additional_meanings_ar": [
+        "نَظَّمَ حَدَثًا وَهَيَّأَ لَهُ.",
+        "وَاظَبَ عَلَى عَمَلٍ وَأَدَّاهُ عَلَى الْوَجْهِ الْمَطْلُوبِ.",
+        "قَدَّمَ دَلِيلًا لِإِثْبَاتِ أَمْرٍ."
+      ],
       "grammar": [
-        "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُقِيمُ؛ الْمَصْدَرُ: إِقَامَةٌ."
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ عَلَى وَزْنِ أَفْعَلَ، وَجَذْرُهُ: ق و م.",
+        "الْمَاضِي: أَقَامَ؛ الْمُضَارِعُ: يُقِيمُ؛ الْمَصْدَرُ: إِقَامَةٌ."
       ],
       "synonyms": [],
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "أَقَامَ الرَّجُلُ فِي الْمَدِينَةِ."
+        "أَقَامَ الْمُهَنْدِسُ فِي الْمَدِينَةِ عَامًا.",
+        "أَقَامَتِ الْمَدْرَسَةُ مَعْرِضًا لِلْكُتُبِ.",
+        "يُقِيمُ الرَّجُلُ الصَّلَاةَ فِي وَقْتِهَا.",
+        "أَقَامَ الْبَاحِثُ دَلِيلًا عَلَى رَأْيِهِ."
       ],
-      "usage_note_ar": "يُنْظَرُ إِلَى صِيغَةِ الْمَاضِي وَالْمُضَارِعِ وَالْمَصْدَرِ عِنْدَ تَحْلِيلِ الْفِعْلِ.",
+      "usage_note_ar": "يَتَغَيَّرُ مَعْنَى أَقَامَ بِحَسَبِ السِّيَاقِ، فَأَقَامَ فِي مَكَانٍ غَيْرُ أَقَامَ حَفْلًا. أَقَامَ الصَّلَاةَ يَدُلُّ عَلَى الْمُوَاظَبَةِ عَلَيْهَا وَأَدَائِهَا.",
       "book_references": [],
       "sources": [
-        "https://saaid.org/book/open.php?book=11997"
+        "https://aljam3.com/ar/39951/73248/29",
+        "https://arabily.app/bayna-yadayk-1/unit-13/",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D9%82%D9%88%D9%85"
       ],
       "source_group": "original_arabic_editorial_after_visual_review_of_scan",
       "source_provenance": {
@@ -15059,27 +15076,34 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 29,
         "printed_page": 25,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
       }
     },
     {
       "id": "bayna_scan_v1_538",
       "arabic": "إِقَامَةٌ",
-      "meaning_ar": "السُّكْنَى فِي مَكَانٍ أَوْ إِنْشَاءُ شَيْءٍ وَإِدَارَتُهُ.",
-      "additional_meanings_ar": [],
+      "meaning_ar": "الْمَكْثُ فِي مَكَانٍ مُدَّةً مِنَ الزَّمَنِ.",
+      "additional_meanings_ar": [
+        "وَتَدُلُّ أَيْضًا عَلَى إِنْجَازِ أَمْرٍ أَوِ الْمُوَاظَبَةِ عَلَيْهِ بِحَسَبِ السِّيَاقِ."
+      ],
       "grammar": [
-        "مَصْدَرُ أَقَامَ يُقِيمُ."
+        "مَصْدَرٌ لِلْفِعْلِ أَقَامَ، وَمُضَارِعُهُ يُقِيمُ.",
+        "اِسْمٌ مُؤَنَّثٌ؛ وَيُقَالُ: مَكَانُ الْإِقَامَةِ."
       ],
       "synonyms": [],
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "طَالَتْ إِقَامَةُ الْمُسَافِرِ."
+        "كَانَتْ إِقَامَةُ الطَّالِبِ فِي الْمَدِينَةِ قَصِيرَةً.",
+        "تَحْتَاجُ إِقَامَةُ الْمَعْرِضِ إِلَى تَنْظِيمٍ."
       ],
-      "usage_note_ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ.",
+      "usage_note_ar": "الْإِقَامَةُ مَصْدَرٌ، وَقَدْ تَدُلُّ عَلَى السُّكْنَى أَوْ إِنْجَازِ عَمَلٍ وَفْقَ السِّيَاقِ. مَكَانُ الْإِقَامَةِ تَرْكِيبٌ يُسْتَعْمَلُ لِلدَّلَالَةِ عَلَى مَوْضِعِ السُّكْنَى.",
       "book_references": [],
       "sources": [
-        "https://saaid.org/book/open.php?book=11997"
+        "https://aljam3.com/ar/39951/73248/29",
+        "https://arabily.app/bayna-yadayk-1/unit-13/",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D9%82%D9%88%D9%85"
       ],
       "source_group": "original_arabic_editorial_after_visual_review_of_scan",
       "source_provenance": {
@@ -15087,7 +15111,8 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 29,
         "printed_page": 25,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread",
+        "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
       }
     },
     {
