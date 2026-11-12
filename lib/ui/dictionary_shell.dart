@@ -9,6 +9,7 @@ import '../core/dictionary_data.dart';
 import '../core/dictionary_backup.dart';
 import '../core/dictionary_search.dart';
 import '../core/reviewed_lexicon.dart';
+import '../core/lexical_relations.dart';
 import 'review_screen.dart';
 
 const emerald = Color(0xFF25776D);
@@ -185,6 +186,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
   List<Word>? _visibleWords;
   Map<int, List<int>> _bookChapters = {};
   Map<String, ReviewedArticle> _reviewedByWordId = const {};
+  Map<String, LexicalRelations> _relationsByWordId = const {};
   int? _visibleBook;
   int? _visibleChapter;
 
@@ -235,6 +237,10 @@ class _DictionaryHomeState extends State<DictionaryHome> {
           'assets/data/reviewed_articles_v1.json');
       final reviewed = decodeReviewedArticles(reviewedJson);
       _reviewedByWordId = matchReviewedArticles(words, reviewed);
+      final relationJson = await rootBundle.loadString(
+          'assets/data/lexical_relations_v1.json');
+      _relationsByWordId = matchLexicalRelations(
+          words, decodeLexicalRelations(relationJson));
     }
     if (mounted) {
       setState(() {
@@ -432,6 +438,7 @@ class _DictionaryHomeState extends State<DictionaryHome> {
       builder: (_) => WordReader(
         word: word,
         reviewed: _reviewedByWordId[word.id],
+        relations: _relationsByWordId[word.id],
         font: widget.font,
         lineHeight: widget.lineHeight,
 
@@ -1045,9 +1052,10 @@ class WordReader extends StatefulWidget {
     required this.favorite, required this.bookmarked,
     required this.onFavorite, required this.onBookmark,
     required this.onSpeak, required this.onCopy, required this.onArabicTap,
-    this.lineHeight = 1.7, this.reviewed});
+    this.lineHeight = 1.7, this.reviewed, this.relations});
   final Word word;
   final ReviewedArticle? reviewed;
+  final LexicalRelations? relations;
   final double font, lineHeight;
   final bool favorite, bookmarked;
   final Future<void> Function() onFavorite, onBookmark;
@@ -1063,6 +1071,8 @@ class _WordReaderState extends State<WordReader> {
     final scheme = Theme.of(context).colorScheme;
     final dark = Theme.of(context).brightness == Brightness.dark;
     final w = widget.word;
+    final enrichedSynonyms = <String>{...w.synonyms, ...?widget.relations?.synonyms}.toList();
+    final enrichedAntonyms = <String>{...w.antonyms, ...?widget.relations?.antonyms}.toList();
     return Scaffold(
       appBar: AppBar(title: const Text('Карточка слова'),
         actions: [
@@ -1132,8 +1142,8 @@ class _WordReaderState extends State<WordReader> {
           ] else ...[
             section('01', 'Значения слова',
               [w.meaning, ...w.additionalMeanings], numbered: true),
-            if (w.synonyms.isNotEmpty) section('02', 'Синонимы', w.synonyms),
-            if (w.antonyms.isNotEmpty) section('03', 'Антонимы', w.antonyms),
+            if (enrichedSynonyms.isNotEmpty) section('02', 'Синонимы', enrichedSynonyms),
+            if (enrichedAntonyms.isNotEmpty) section('03', 'Антонимы', enrichedAntonyms),
             if (w.grammar.isNotEmpty) section('04', 'Грамматика', w.grammar),
             if (w.collocations.isNotEmpty) section('05', 'Словосочетания', w.collocations),
             if (w.examples.isNotEmpty) section('06', 'Примеры в предложениях', w.examples),
