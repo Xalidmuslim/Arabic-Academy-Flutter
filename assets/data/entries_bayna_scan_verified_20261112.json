@@ -123,6 +123,492 @@
         "printed_page": 1,
         "text_status": "source_sense_checked_arabic_article_independently_worded"
       }
+    },
+    {
+      "id": "bayna_scan_v1_005",
+      "arabic": "أَبْصَرَ",
+      "meaning_ar": "رَأَى الشَّيْءَ بِعَيْنَيْهِ وَأَدْرَكَهُ بِبَصَرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ، وَجَذْرُهُ: ب ص ر.",
+        "الْمَاضِي: أَبْصَرَ. الْمُضَارِعُ: يُبْصِرُ. الْمَصْدَرُ: إِبْصَارٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبْصَرَ الْمُسَافِرُ الْمَدِينَةَ مِنْ بَعِيدٍ.",
+        "يُبْصِرُ الطِّفْلُ الْأَلْوَانَ بِوُضُوحٍ."
+      ],
+      "usage_note_ar": "قَدْ يَرِدُ الْفِعْلُ فِي مَعْنَى الْفَهْمِ وَالْإِدْرَاكِ، وَيُحَدِّدُ السِّيَاقُ الْمَقْصُودَ. لَيْسَ كُلُّ مَوْضِعٍ لِرَأَى مُسَاوِيًا لِأَبْصَرَ فِي الدَّلَالَةِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_006",
+      "arabic": "أَبْطَأَ",
+      "meaning_ar": "تَأَخَّرَ فِي الْحَرَكَةِ أَوِ الْعَمَلِ، وَلَمْ يُسْرِعْ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ، وَجَذْرُهُ: ب ط أ.",
+        "الْمَاضِي: أَبْطَأَ. الْمُضَارِعُ: يُبْطِئُ. الْمَصْدَرُ: إِبْطَاءٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبْطَأَ السَّائِقُ عِنْدَ الْمُنْعَطَفِ.",
+        "أَبْطَأَ الطَّالِبُ فِي الْإِجَابَةِ."
+      ],
+      "usage_note_ar": "الْإِبْطَاءُ يَدُلُّ عَلَى قِلَّةِ السُّرْعَةِ؛ وَقَدْ يَكُونُ مَقْصُودًا أَوْ غَيْرَ مَقْصُودٍ. يَتَعَدَّى الْفِعْلُ أَحْيَانًا بِحَرْفِ الْجَرِّ فِي: أَبْطَأَ فِي الْعَمَلِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_007",
+      "arabic": "أَبْغَضَ",
+      "meaning_ar": "كَرِهَ شَخْصًا أَوْ شَيْئًا كَرَاهِيَةً شَدِيدَةً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ، وَجَذْرُهُ: ب غ ض.",
+        "الْمَاضِي: أَبْغَضَ. الْمُضَارِعُ: يُبْغِضُ. الْمَصْدَرُ: إِبْغَاضٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبْغَضَ الرَّجُلُ الْخِيَانَةَ وَالظُّلْمَ.",
+        "لَا يُبْغِضُ الْعَاقِلُ أَحَدًا بِغَيْرِ سَبَبٍ."
+      ],
+      "usage_note_ar": "الْبُغْضُ شُعُورٌ، وَيَخْتَلِفُ سَبَبُهُ وَحُكْمُهُ بِاخْتِلَافِ السِّيَاقِ. تُقَابِلُ الْمَحَبَّةُ الْبُغْضَ فِي الْمَعْنَى.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_008",
+      "arabic": "أَبْقَى",
+      "meaning_ar": "حَافَظَ عَلَى شَيْءٍ لِيَسْتَمِرَّ وَلَا يَزُولَ.",
+      "additional_meanings_ar": [
+        "تَرَكَ شَيْئًا فِي مَكَانِهِ أَوِ احْتَفَظَ بِبَعْضِهِ."
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ مُعْتَلُّ الْآخِرِ، وَجَذْرُهُ: ب ق ي.",
+        "الْمَاضِي: أَبْقَى. الْمُضَارِعُ: يُبْقِي. الْمَصْدَرُ: إِبْقَاءٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبْقَى الْمُدِيرُ عَلَى النِّظَامِ الْقَدِيمِ.",
+        "أَبْقَى الْأَبُ بَعْضَ الطَّعَامِ لِلضُّيُوفِ."
+      ],
+      "usage_note_ar": "يُقَالُ: أَبْقَى عَلَى الشَّيْءِ إِذَا حَافَظَ عَلَيْهِ. يُخْتَارُ الْمُرَادِفُ وَفْقَ مَعْنَى الْجُمْلَةِ؛ فَالْحِفْظُ غَيْرُ التَّرْكِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_009",
+      "arabic": "أَبَى",
+      "meaning_ar": "رَفَضَ فِعْلَ شَيْءٍ أَوِ الْقَبُولَ بِهِ، وَامْتَنَعَ عَنْهُ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مُعْتَلُّ الْآخِرِ.",
+        "الْمَاضِي: أَبَى. الْمُضَارِعُ: يَأْبَى. الْمَصْدَرُ: إِبَاءٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَبَى الرَّجُلُ أَنْ يَظْلِمَ غَيْرَهُ.",
+        "أَبَى الطِّفْلُ تَنَاوُلَ الدَّوَاءِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ مَعَ أَنْ وَالْفِعْلِ الْمُضَارِعِ، مِثْلَ: أَبَى أَنْ يَذْهَبَ. الْإِبَاءُ قَدْ يَكُونُ عَنِ الْحَقِّ أَوِ الْبَاطِلِ؛ وَالسِّيَاقُ يُبَيِّنُ الْمَقْصُودَ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_010",
+      "arabic": "أَتْقَنَ",
+      "meaning_ar": "أَحْكَمَ عَمَلَهُ وَأَدَّاهُ بِمَهَارَةٍ وَدِقَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ رُبَاعِيٌّ، وَجَذْرُهُ: ت ق ن.",
+        "الْمَاضِي: أَتْقَنَ. الْمُضَارِعُ: يُتْقِنُ. الْمَصْدَرُ: إِتْقَانٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَتْقَنَ الطَّبِيبُ عَمَلَهُ.",
+        "يُتْقِنُ الْمُتَعَلِّمُ الْقِرَاءَةَ بِالتَّدْرِيبِ."
+      ],
+      "usage_note_ar": "الْإِتْقَانُ يَتَعَلَّقُ بِجَوْدَةِ الْأَدَاءِ، وَلَا يَعْنِي السُّرْعَةَ وَحْدَهَا. يُقَالُ: أَتْقَنَ عَمَلَهُ، وَأَتْقَنَ صَنْعَتَهُ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_011",
+      "arabic": "أَتَى",
+      "meaning_ar": "جَاءَ وَحَضَرَ إِلَى مَكَانٍ.",
+      "additional_meanings_ar": [
+        "جَلَبَ شَيْئًا وَجَاءَ بِهِ."
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مُعْتَلُّ الْآخِرِ، وَجَذْرُهُ: أ ت ي.",
+        "الْمَاضِي: أَتَى. الْمُضَارِعُ: يَأْتِي. الْمَصْدَرُ: إِتْيَانٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَتَى الضَّيْفُ فِي الْمَسَاءِ.",
+        "أَتَى الطَّالِبُ بِفِكْرَةٍ جَدِيدَةٍ."
+      ],
+      "usage_note_ar": "أَتَى فِي جُمْلَةِ الْحُضُورِ يَخْتَلِفُ عَنْ أَتَى بِالشَّيْءِ بِمَعْنَى جَلَبَهُ. يَتَغَيَّرُ الْمَعْنَى بِحَسَبِ الْحَرْفِ الَّذِي يَأْتِي بَعْدَ الْفِعْلِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_012",
+      "arabic": "أَبْيَضُ",
+      "meaning_ar": "مَا كَانَ لَوْنُهُ لَوْنَ الثَّلْجِ أَوِ اللَّبَنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ لَوْنِيَّةٌ عَلَى وَزْنِ أَفْعَلَ.",
+        "الْمُذَكَّرُ: أَبْيَضُ. الْمُؤَنَّثُ: بَيْضَاءُ. الْجَمْعُ: بِيضٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "هَذَا ثَوْبٌ أَبْيَضُ.",
+        "هَذِهِ وَرَقَةٌ بَيْضَاءُ."
+      ],
+      "usage_note_ar": "يَخْتَلِفُ شَكْلُ الصِّفَةِ بِاخْتِلَافِ الْجِنْسِ: أَبْيَضُ وَبَيْضَاءُ. صِيغَةُ أَفْعَلَ الَّتِي مُؤَنَّثُهَا فَعْلَاءُ مَمْنُوعَةٌ مِنَ الصَّرْفِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_013",
+      "arabic": "إِبْرِيقٌ",
+      "meaning_ar": "إِنَاءٌ لَهُ مِقْبَضٌ وَفُوَّهَةٌ، يُصَبُّ مِنْهُ الْمَاءُ أَوْ غَيْرُهُ مِنَ السَّوَائِلِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ مُذَكَّرٌ.",
+        "الْمُفْرَدُ: إِبْرِيقٌ. الْجَمْعُ: أَبَارِيقُ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "وَضَعْتُ الْإِبْرِيقَ عَلَى الطَّاوِلَةِ.",
+        "صَبَّ الرَّجُلُ الْمَاءَ مِنَ الْإِبْرِيقِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ الْإِبْرِيقُ لِصَبِّ الْمَاءِ أَوِ الشَّايِ وَنَحْوِهِمَا. أَبَارِيقُ جَمْعُ تَكْسِيرٍ لِإِبْرِيقٍ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_014",
+      "arabic": "إِبِلٌ",
+      "meaning_ar": "جَمَاعَةٌ مِنَ الْجِمَالِ وَالنُّوقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمُ جَمْعٍ يُطْلَقُ عَلَى الْجِمَالِ وَالنُّوقِ.",
+        "الْوَاحِدُ مِنْهَا: بَعِيرٌ أَوْ نَاقَةٌ بِحَسَبِ الْجِنْسِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "تَرْعَى الْإِبِلُ فِي الصَّحْرَاءِ.",
+        "يَسْقِي الرَّاعِي الْإِبِلَ قُرْبَ الْبِئْرِ."
+      ],
+      "usage_note_ar": "الْإِبِلُ تَشْمَلُ الذُّكُورَ وَالْإِنَاثَ؛ وَالْمُفْرَدُ لَيْسَ مِنْ نَفْسِ لَفْظِهَا. تَرِدُ كَلِمَةُ الْإِبِلِ لِلدَّلَالَةِ عَلَى النَّوْعِ أَوِ الْجَمَاعَةِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_015",
+      "arabic": "أُبُوَّةٌ",
+      "meaning_ar": "عَلَاقَةُ الْأَبِ بِأَوْلَادِهِ، وَمَا يَتَعَلَّقُ بِهَا مِنْ رِعَايَةٍ وَمَسْؤُولِيَّةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ مُؤَنَّثٌ مَأْخُوذٌ مِنْ أَبٍ.",
+        "تَدُلُّ الْكَلِمَةُ عَلَى مَعْنَى الْأُبُوَّةِ وَلَا تُسْتَعْمَلُ جَمْعًا لِأَبٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "تَظْهَرُ الْأُبُوَّةُ فِي رِعَايَةِ الْأَوْلَادِ.",
+        "تَحَمَّلَ الْأَبُ مَسْؤُولِيَّةَ الْأُبُوَّةِ."
+      ],
+      "usage_note_ar": "الْأُبُوَّةُ مَعْنًى مُجَرَّدٌ، وَأَمَّا الْأَبُ فَاسْمٌ لِلشَّخْصِ. لَا يُخْلَطُ بَيْنَ أُبُوَّةٍ وَأُمُومَةٍ وَلَا يُعَدَّانِ ضِدَّيْنِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_016",
+      "arabic": "أَبْوَابٌ",
+      "meaning_ar": "جَمْعُ بَابٍ، وَهُوَ مَدْخَلٌ يُفْتَحُ وَيُغْلَقُ.",
+      "additional_meanings_ar": [
+        "وَقَدْ يَدُلُّ الْبَابُ عَلَى قِسْمٍ مِنْ أَقْسَامِ الْعِلْمِ أَوِ الْكِتَابِ."
+      ],
+      "grammar": [
+        "اِسْمٌ، وَمُفْرَدُهُ: بَابٌ.",
+        "الْجَمْعُ: أَبْوَابٌ، وَهُوَ جَمْعُ تَكْسِيرٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "فَتَحَ الْحَارِسُ أَبْوَابَ الْمَدْرَسَةِ.",
+        "يَشْتَمِلُ الْكِتَابُ عَلَى أَبْوَابٍ مُتَعَدِّدَةٍ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ الْبَابُ لِلْمَدْخَلِ الْحِسِّيِّ وَلِلْقِسْمِ فِي الْكُتُبِ. يَتَحَدَّدُ مَعْنَى أَبْوَابٍ بِحَسَبِ السِّيَاقِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_017",
+      "arabic": "أَبْنَاءٌ",
+      "meaning_ar": "جَمْعُ ابْنٍ، وَيُطْلَقُ عَلَى الْأَوْلَادِ أَوِ الذُّكُورِ مِنْهُمْ بِحَسَبِ السِّيَاقِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ، وَمُفْرَدُهُ: ابْنٌ.",
+        "الْجَمْعُ: أَبْنَاءٌ، وَهُوَ جَمْعُ تَكْسِيرٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "يَهْتَمُّ الْآبَاءُ بِتَرْبِيَةِ الْأَبْنَاءِ.",
+        "اجْتَمَعَ الْأَبْنَاءُ مَعَ أَبِيهِمْ."
+      ],
+      "usage_note_ar": "الِابْنُ يَدُلُّ عَلَى الْوَلَدِ الذَّكَرِ، وَقَدْ يَرِدُ جَمْعُهُ فِي سِيَاقٍ أَوْسَعَ. الْمُفْرَدُ ابْنٌ، وَلَيْسَ أَبًا.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_018",
+      "arabic": "أَبْيَاتٌ",
+      "meaning_ar": "جَمْعُ بَيْتٍ، وَيُسْتَعْمَلُ كَثِيرًا لِلْأَبْيَاتِ الشِّعْرِيَّةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ، وَمُفْرَدُهُ: بَيْتٌ.",
+        "الْجَمْعُ: أَبْيَاتٌ؛ وَيَكْثُرُ فِي الشِّعْرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "حَفِظَ الطَّالِبُ أَبْيَاتًا مِنَ الشِّعْرِ.",
+        "قَرَأَ الْمُعَلِّمُ ثَلَاثَةَ أَبْيَاتٍ."
+      ],
+      "usage_note_ar": "بُيُوتٌ جَمْعٌ شَائِعٌ لِلْمَسَاكِنِ، وَأَبْيَاتٌ جَمْعٌ شَائِعٌ لِلشِّعْرِ. لَا يُفْهَمُ مَعْنَى الْبَيْتِ مِنْ صِيغَةِ الْجَمْعِ وَحْدَهَا دُونَ السِّيَاقِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_019",
+      "arabic": "أَبْطَالٌ",
+      "meaning_ar": "جَمْعُ بَطَلٍ، وَهُوَ الشُّجَاعُ الَّذِي يَثْبُتُ فِي الْمَوَاقِفِ الصَّعْبَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ، وَمُفْرَدُهُ: بَطَلٌ.",
+        "الْجَمْعُ: أَبْطَالٌ، وَهُوَ جَمْعُ تَكْسِيرٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "يَذْكُرُ التَّارِيخُ أَسْمَاءَ أَبْطَالٍ كَثِيرِينَ.",
+        "أَظْهَرَ الْأَبْطَالُ شَجَاعَةً فِي الْمَوْقِفِ."
+      ],
+      "usage_note_ar": "يُسْتَعْمَلُ بَطَلٌ لِلشَّجَاعِ، وَقَدْ يُطْلَقُ عَلَى الْفَائِزِ فِي الْمُسَابَقَاتِ. يُخْتَارُ الْمَعْنَى الْمُرَادُ مِنَ السِّيَاقِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
+    },
+    {
+      "id": "bayna_scan_v1_020",
+      "arabic": "أَبْرِيَاءُ",
+      "meaning_ar": "جَمْعُ بَرِيءٍ، وَهُوَ مَنْ لَمْ يَرْتَكِبْ ذَنْبًا أَوْ جُرْمًا نُسِبَ إِلَيْهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ، وَمُفْرَدُهُ: بَرِيءٌ.",
+        "الْجَمْعُ: أَبْرِيَاءُ، وَهُوَ مَمْنُوعٌ مِنَ الصَّرْفِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "دَافَعَ الْمُحَامِي عَنِ الْأَبْرِيَاءِ.",
+        "لَا يَجُوزُ اتِّهَامُ الْأَبْرِيَاءِ بِغَيْرِ دَلِيلٍ."
+      ],
+      "usage_note_ar": "الْبَرَاءَةُ تَدُلُّ عَلَى عَدَمِ ثُبُوتِ الذَّنْبِ أَوِ التُّهْمَةِ. أَبْرِيَاءُ جَمْعٌ، وَبَرِيءٌ مُفْرَدٌ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "text_status": "source_sense_checked_arabic_article_independently_worded"
+      }
     }
   ]
 }
