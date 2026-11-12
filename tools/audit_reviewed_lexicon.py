@@ -165,7 +165,8 @@ def main():
     print("CAUTION: Pair evidence is existing original corpus definitions, not verified verbatim against the published dictionary.")
 
     print(f"Independently authored Arabic entries checked against scan: {len(source_words)}")
-    print(f"PDF pages represented by source-linked articles: {len({e[\"source_provenance\"][\"pdf_page\"] for e in source_words})}")
+    page_count = len({e['source_provenance']['pdf_page'] for e in source_words})
+    print(f"PDF pages represented by source-linked articles: {page_count}")
     print(f"Corpus: {len(headwords)} unique exact vocalized headwords")
     for field in ("grammar", "synonyms", "antonyms", "collocations", "examples_ar", "usage_note_ar"):
         print(f"Legacy section {field}: {coverage[field]} / {len(headwords)} non-empty")
