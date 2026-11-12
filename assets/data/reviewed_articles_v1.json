@@ -8704,33 +8704,48 @@
       "arabic": "أُسْبُوعٌ",
       "definition": [
         {
-          "ar": "مُدَّةٌ مِنَ الزَّمَنِ تَتَكَوَّنُ مِنْ سَبْعَةِ أَيَّامٍ."
+          "ar": "مُدَّةٌ زَمَنِيَّةٌ تَتَكَوَّنُ مِنْ سَبْعَةِ أَيَّامٍ."
+        },
+        {
+          "ar": "وَفِي سِيَاقِ الطَّوَافِ قَدْ يُرَادُ بِهِ سَبْعَةُ أَشْوَاطٍ."
         }
       ],
       "grammar": [
         {
-          "ar": "اِسْمٌ مُذَكَّرٌ؛ الْجَمْعُ: أَسَابِيعُ."
+          "ar": "اِسْمٌ مُذَكَّرٌ مُفْرَدٌ، وَجَمْعُهُ: أَسَابِيعُ."
+        },
+        {
+          "ar": "يَرْتَبِطُ مَعْنَى الْكَلِمَةِ بِالْعَدَدِ سَبْعَةٍ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "سَيَعُودُ الْمُسَافِرُ بَعْدَ أُسْبُوعٍ."
+          "ar": "يَتَكَوَّنُ الْأُسْبُوعُ مِنْ سَبْعَةِ أَيَّامٍ."
+        },
+        {
+          "ar": "أَنْهَيْتُ الْعَمَلَ خِلَالَ أُسْبُوعَيْنِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "أُسْبُوعٌ مُفْرَدٌ، أَمَّا أَسَابِيعُ فَجَمْعُ تَكْسِيرٍ."
+        },
+        {
+          "ar": "يُقَالُ أَيْضًا أُسْبُوعٌ لِسَبْعَةِ أَشْوَاطٍ مِنَ الطَّوَافِ، وَيُعْرَفُ الْمَعْنَى مِنَ السِّيَاقِ."
         }
       ],
       "source_urls": [
-        "https://saaid.org/book/open.php?book=11997"
+        "https://aljam3.com/ar/39951/73248/16",
+        "https://arabily.app/bayna-yadayk-1/unit-13/",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B3%D8%A8%D8%B9"
       ],
       "source_pdf_page": 16,
       "source_printed_page": 12,
       "source_review": "scan_page_inspected_first_pass_pending_linguistic_proofread",
-      "editorial_method": "arabic_only_original_explanation_first_pass"
+      "editorial_method": "arabic_only_original_explanation_first_pass",
+      "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
     },
     {
       "arabic": "أُسْتَاذٌ",
@@ -17945,65 +17960,114 @@
       "arabic": "أَقَامَ",
       "definition": [
         {
-          "ar": "سَكَنَ فِي مَكَانٍ أَوْ أَنْشَأَ شَيْئًا."
+          "ar": "سَكَنَ فِي مَكَانٍ وَمَكَثَ فِيهِ."
+        },
+        {
+          "ar": "نَظَّمَ حَدَثًا وَهَيَّأَ لَهُ."
+        },
+        {
+          "ar": "وَاظَبَ عَلَى عَمَلٍ وَأَدَّاهُ عَلَى الْوَجْهِ الْمَطْلُوبِ."
+        },
+        {
+          "ar": "قَدَّمَ دَلِيلًا لِإِثْبَاتِ أَمْرٍ."
         }
       ],
       "grammar": [
         {
-          "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُقِيمُ؛ الْمَصْدَرُ: إِقَامَةٌ."
+          "ar": "فِعْلٌ مَاضٍ رُبَاعِيٌّ عَلَى وَزْنِ أَفْعَلَ، وَجَذْرُهُ: ق و م."
+        },
+        {
+          "ar": "الْمَاضِي: أَقَامَ؛ الْمُضَارِعُ: يُقِيمُ؛ الْمَصْدَرُ: إِقَامَةٌ."
         }
       ],
-      "synonyms": [],
+      "synonyms": [
+        {
+          "ar": "سَكَنَ: فِي مَعْنَى الْإِقَامَةِ بِمَكَانٍ."
+        },
+        {
+          "ar": "نَظَّمَ: فِي سِيَاقِ إِقَامَةِ حَفْلٍ أَوْ نَشَاطٍ."
+        }
+      ],
       "contrasts": [],
       "examples": [
         {
-          "ar": "أَقَامَ الرَّجُلُ فِي الْمَدِينَةِ."
+          "ar": "أَقَامَ الْمُهَنْدِسُ فِي الْمَدِينَةِ عَامًا."
+        },
+        {
+          "ar": "أَقَامَتِ الْمَدْرَسَةُ مَعْرِضًا لِلْكُتُبِ."
+        },
+        {
+          "ar": "يُقِيمُ الرَّجُلُ الصَّلَاةَ فِي وَقْتِهَا."
+        },
+        {
+          "ar": "أَقَامَ الْبَاحِثُ دَلِيلًا عَلَى رَأْيِهِ."
         }
       ],
       "important": [
         {
-          "ar": "يُنْظَرُ إِلَى صِيغَةِ الْمَاضِي وَالْمُضَارِعِ وَالْمَصْدَرِ عِنْدَ تَحْلِيلِ الْفِعْلِ."
+          "ar": "يَتَغَيَّرُ مَعْنَى أَقَامَ بِحَسَبِ السِّيَاقِ، فَأَقَامَ فِي مَكَانٍ غَيْرُ أَقَامَ حَفْلًا."
+        },
+        {
+          "ar": "أَقَامَ الصَّلَاةَ يَدُلُّ عَلَى الْمُوَاظَبَةِ عَلَيْهَا وَأَدَائِهَا."
         }
       ],
       "source_urls": [
-        "https://saaid.org/book/open.php?book=11997"
+        "https://aljam3.com/ar/39951/73248/29",
+        "https://arabily.app/bayna-yadayk-1/unit-13/",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D9%82%D9%88%D9%85"
       ],
       "source_pdf_page": 29,
       "source_printed_page": 25,
       "source_review": "scan_page_inspected_first_pass_pending_linguistic_proofread",
-      "editorial_method": "arabic_only_original_explanation_first_pass"
+      "editorial_method": "arabic_only_original_explanation_first_pass",
+      "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
     },
     {
       "arabic": "إِقَامَةٌ",
       "definition": [
         {
-          "ar": "السُّكْنَى فِي مَكَانٍ أَوْ إِنْشَاءُ شَيْءٍ وَإِدَارَتُهُ."
+          "ar": "الْمَكْثُ فِي مَكَانٍ مُدَّةً مِنَ الزَّمَنِ."
+        },
+        {
+          "ar": "وَتَدُلُّ أَيْضًا عَلَى إِنْجَازِ أَمْرٍ أَوِ الْمُوَاظَبَةِ عَلَيْهِ بِحَسَبِ السِّيَاقِ."
         }
       ],
       "grammar": [
         {
-          "ar": "مَصْدَرُ أَقَامَ يُقِيمُ."
+          "ar": "مَصْدَرٌ لِلْفِعْلِ أَقَامَ، وَمُضَارِعُهُ يُقِيمُ."
+        },
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ؛ وَيُقَالُ: مَكَانُ الْإِقَامَةِ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "طَالَتْ إِقَامَةُ الْمُسَافِرِ."
+          "ar": "كَانَتْ إِقَامَةُ الطَّالِبِ فِي الْمَدِينَةِ قَصِيرَةً."
+        },
+        {
+          "ar": "تَحْتَاجُ إِقَامَةُ الْمَعْرِضِ إِلَى تَنْظِيمٍ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "الْإِقَامَةُ مَصْدَرٌ، وَقَدْ تَدُلُّ عَلَى السُّكْنَى أَوْ إِنْجَازِ عَمَلٍ وَفْقَ السِّيَاقِ."
+        },
+        {
+          "ar": "مَكَانُ الْإِقَامَةِ تَرْكِيبٌ يُسْتَعْمَلُ لِلدَّلَالَةِ عَلَى مَوْضِعِ السُّكْنَى."
         }
       ],
       "source_urls": [
-        "https://saaid.org/book/open.php?book=11997"
+        "https://aljam3.com/ar/39951/73248/29",
+        "https://arabily.app/bayna-yadayk-1/unit-13/",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D9%82%D9%88%D9%85"
       ],
       "source_pdf_page": 29,
       "source_printed_page": 25,
       "source_review": "scan_page_inspected_first_pass_pending_linguistic_proofread",
-      "editorial_method": "arabic_only_original_explanation_first_pass"
+      "editorial_method": "arabic_only_original_explanation_first_pass",
+      "tri_source_fact_check": "2026-11-12_verified_forms_and_context_not_full_proofread"
     },
     {
       "arabic": "أَقْبَلَ",
