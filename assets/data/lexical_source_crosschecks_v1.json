@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "editorial_policy": "Bayna aljam3 OCR supplies sense context but never proves harakat. Arabily validates selected lesson morphology; Cairo Academy validates dictionary headwords, plurals and sense distinctions. All final Arabic prose is independently written and requires further proofreading.",
+  "records": [
+    {
+      "arabic": "أُسْبُوعٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/16",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-13/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B3%D8%A8%D8%B9",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أُسْبُوعٌ",
+          "verified_by": [
+            "arabily",
+            "academy"
+          ]
+        },
+        {
+          "role": "plural",
+          "arabic": "أَسَابِيعُ",
+          "verified_by": [
+            "arabily",
+            "academy"
+          ]
+        }
+      ],
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "أَقَامَ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/29",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-13/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D9%82%D9%88%D9%85",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "أَقَامَ",
+          "verified_by": [
+            "arabily",
+            "academy"
+          ]
+        },
+        {
+          "role": "imperfect",
+          "arabic": "يُقِيمُ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "masdar",
+          "arabic": "إِقَامَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        }
+      ],
+      "source_independent_full_proofread": false
+    },
+    {
+      "arabic": "إِقَامَةٌ",
+      "review_scope": "forms_and_meanings_only",
+      "sources": {
+        "bayna_ocr": {
+          "url": "https://aljam3.com/ar/39951/73248/29",
+          "mode": "ocr_context_only"
+        },
+        "arabily": {
+          "url": "https://arabily.app/bayna-yadayk-1/unit-13/",
+          "mode": "selectable_vocabulary"
+        },
+        "academy": {
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D9%82%D9%88%D9%85",
+          "mode": "official_selectable_lexicon"
+        }
+      },
+      "forms": [
+        {
+          "role": "headword",
+          "arabic": "إِقَامَةٌ",
+          "verified_by": [
+            "arabily"
+          ]
+        },
+        {
+          "role": "origin_verb",
+          "arabic": "أَقَامَ",
+          "verified_by": [
+            "arabily",
+            "academy"
+          ]
+        }
+      ],
+      "source_independent_full_proofread": false
+    }
+  ]
+}
