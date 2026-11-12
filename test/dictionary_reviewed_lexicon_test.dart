@@ -57,6 +57,37 @@ void main() {
     expect(attached, isEmpty);
   });
 
+  test('Distinct Arabic vowel patterns may attach to their exact headwords', () {
+    final root = jsonDecode(fixture) as Map<String, dynamic>;
+    final first = (root['entries'] as List<dynamic>).single as Map<String, dynamic>;
+    first['arabic'] = 'أَبْيَضُ';
+    final reviewed = decodeReviewedArticles(jsonEncode(root));
+    final corpus = [
+      sample('adjective', 'أَبْيَضُ'),
+      sample('another-vowel', 'أَبْيَضَ'),
+    ];
+    final attached = matchReviewedArticles(corpus, reviewed);
+    expect(attached.keys, contains('adjective'));
+    expect(attached.keys, isNot(contains('another-vowel')));
+  });
+
+  test('Distinct vowel-patterned homographs may have distinct reviewed articles', () {
+    final root = jsonDecode(fixture) as Map<String, dynamic>;
+    final first = (root['entries'] as List<dynamic>).single as Map<String, dynamic>;
+    first['arabic'] = 'أَبْطَالٌ';
+    final second = Map<String, dynamic>.from(first)..['arabic'] = 'إِبْطَالٌ';
+    (root['entries'] as List<dynamic>).add(second);
+    final reviewed = decodeReviewedArticles(jsonEncode(root));
+    expect(reviewed.length, 2);
+    final matches = matchReviewedArticles([
+      sample('heroes', 'أَبْطَالٌ'),
+      sample('annulment', 'إِبْطَالٌ'),
+    ], reviewed);
+    expect(matches.length, 2);
+    expect(matches['heroes']!.arabic, 'أَبْطَالٌ');
+    expect(matches['annulment']!.arabic, 'إِبْطَالٌ');
+  });
+
   test('Duplicate reviewed headwords are rejected', () {
     final root = jsonDecode(fixture) as Map<String, dynamic>;
     final items = root['entries'] as List<dynamic>;
