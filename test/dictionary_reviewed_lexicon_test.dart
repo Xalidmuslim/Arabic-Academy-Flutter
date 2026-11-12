@@ -48,11 +48,24 @@ void main() {
     expect(() => decodeReviewedArticles(jsonEncode(root)), throwsFormatException);
   });
 
-  test('Ambiguous unvowelled forms are never enriched by guessed sense', () {
+  test('Equivalent combining-mark order prefers the exact reviewed spelling', () {
     final articles = decodeReviewedArticles(fixture);
     final attached = matchReviewedArticles([
       sample('a', 'تَحِيَّةٌ'),
       sample('b', 'تَحِيَّةٌ'),
+    ], articles);
+    expect(attached.keys, contains('a'));
+    expect(attached.keys, isNot(contains('b')));
+  });
+
+  test('An ambiguous canonical match without an exact spelling is not guessed', () {
+    final root = jsonDecode(fixture) as Map<String, dynamic>;
+    final entry = (root['entries'] as List<dynamic>).single as Map<String, dynamic>;
+    entry['arabic'] = 'مُعَلِّمٌ';
+    final articles = decodeReviewedArticles(jsonEncode(root));
+    final attached = matchReviewedArticles([
+      sample('vowel-order-a', 'مُعَلِّمٌ'),
+      sample('vowel-order-b', 'مُعَلِّمٌ'),
     ], articles);
     expect(attached, isEmpty);
   });
