@@ -102,6 +102,32 @@ class SourceCrosscheckTests(unittest.TestCase):
         })
         self.assertEqual(validate_registry(data), 1)
 
+    def test_inaccurate_lesson_row_cannot_claim_independent_proof(self):
+        data = sample()
+        data["records"][0]["evidence_details"] = {
+            "arabily_book": 1, "arabily_unit": 13, "arabily_row": 0,
+            "arabily_column_kind": "headword", "academy_root": "سبع",
+            "bayna_ocr_page": 16, "ocr_used_for_diacritics": False,
+        }
+        with self.assertRaises(ValueError):
+            validate_registry(data)
+
+    def test_tri_source_registry_covers_expected_sourced_articles(self):
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[1]
+        registry = json.loads((root / "assets/data/lexical_source_crosschecks_v1.json")
+                              .read_text(encoding="utf-8"))
+        articles = json.loads((root / "assets/data/reviewed_articles_v1.json")
+                             .read_text(encoding="utf-8"))["entries"]
+        self.assertGreaterEqual(validate_registry(registry), 31)
+        self.assertEqual(
+            verify_article_alignment(registry, {a["arabic"]: a for a in articles}),
+            len(registry["records"]),
+        )
+        checked = {r["arabic"] for r in registry["records"]}
+        for required in ("أُسْرَةٌ", "أَجَازَ", "أَشْوَاطٌ", "أَحَاطَ"):
+            self.assertIn(required, checked)
+
     def test_duplicate_lemma_not_allowed(self):
         data = sample()
         data["records"].append(json.loads(json.dumps(data["records"][0], ensure_ascii=False)))
