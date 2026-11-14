@@ -12889,7 +12889,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -12926,7 +12926,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -12963,7 +12963,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13000,14 +13000,16 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
       "id": "bayna_scan_v1_349",
       "arabic": "أَصْدَرَ",
-      "meaning_ar": "أَعْلَنَ قَرَارًا أَوْ نَشَرَ شَيْئًا.",
-      "additional_meanings_ar": [],
+      "meaning_ar": "أَنْفَذَ قَرَارًا وَجَعَلَهُ سَارِيًا.",
+      "additional_meanings_ar": [
+        "نَشَرَ كِتَابًا أَوْ عَمَلًا وَوَزَّعَهُ."
+      ],
       "grammar": [
         "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُصْدِرُ؛ الْمَصْدَرُ: إِصْدَارٌ."
       ],
@@ -13015,9 +13017,10 @@
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "أَصْدَرَتِ الْمَكْتَبَةُ كِتَابًا جَدِيدًا."
+        "أَصْدَرَتِ الْمَكْتَبَةُ كِتَابًا جَدِيدًا.",
+        "أَصْدَرَ النَّاشِرُ كِتَابًا جَدِيدًا."
       ],
-      "usage_note_ar": "يُنْظَرُ إِلَى صِيغَةِ الْمَاضِي وَالْمُضَارِعِ وَالْمَصْدَرِ عِنْدَ تَحْلِيلِ الْفِعْلِ.",
+      "usage_note_ar": "يُقَالُ: أَصْدَرَ قَرَارًا بِمَعْنَى أَنْفَذَهُ، وَأَصْدَرَ كِتَابًا بِمَعْنَى نَشَرَهُ وَوَزَّعَهُ.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
@@ -13037,7 +13040,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13074,7 +13077,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13111,7 +13114,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13148,7 +13151,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13185,7 +13188,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13222,7 +13225,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13259,13 +13262,13 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
       "id": "bayna_scan_v1_356",
       "arabic": "أَصْغَى",
-      "meaning_ar": "أَحْسَنَ الِاسْتِمَاعَ وَوَجَّهَ انْتِبَاهَهُ إِلَى الْمُتَحَدِّثِ.",
+      "meaning_ar": "أَحْسَنَ الِاسْتِمَاعَ وَوَجَّهَ انْتِبَاهَهُ إِلَى الْكَلَامِ.",
       "additional_meanings_ar": [],
       "grammar": [
         "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُصْغِي؛ الْمَصْدَرُ: إِصْغَاءٌ."
@@ -13296,7 +13299,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13333,7 +13336,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13370,7 +13373,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13407,14 +13410,16 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
       "id": "bayna_scan_v1_360",
       "arabic": "أَصْلَحَ",
       "meaning_ar": "أَزَالَ الْفَسَادَ أَوِ الْعَيْبَ مِنْ شَيْءٍ.",
-      "additional_meanings_ar": [],
+      "additional_meanings_ar": [
+        "أَزَالَ الْخِصَامَ بَيْنَ شَخْصَيْنِ وَأَعَادَ الْوِفَاقَ."
+      ],
       "grammar": [
         "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُصْلِحُ؛ الْمَصْدَرُ: إِصْلَاحٌ."
       ],
@@ -13422,9 +13427,10 @@
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "أَصْلَحَ الْمُهَنْدِسُ الْآلَةَ."
+        "أَصْلَحَ الْمُهَنْدِسُ الْآلَةَ.",
+        "أَصْلَحَ الْمُعَلِّمُ بَيْنَ الطَّالِبَيْنِ."
       ],
-      "usage_note_ar": "يُنْظَرُ إِلَى صِيغَةِ الْمَاضِي وَالْمُضَارِعِ وَالْمَصْدَرِ عِنْدَ تَحْلِيلِ الْفِعْلِ.",
+      "usage_note_ar": "يُقَالُ: أَصْلَحَ الْآلَةَ لِإِزَالَةِ الْعَيْبِ، وَأَصْلَحَ بَيْنَ النَّاسِ لِإِزَالَةِ الْخِصَامِ.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
@@ -13444,11 +13450,10 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences",
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate",
         "uncovered_source_headwords": [
           "أَصْلَحُ"
-        ],
-        "note": "في الصَّفْحَةِ الْمَطْبُوعَةِ ١٦ مَدْخَلَانِ: أَصْلَحُ اِسْمُ تَفْضِيلٍ (أَكْثَرُ صَلَاحًا وَمَنْفَعَةً)، وَأَصْلَحَ فِعْلٌ مَاضٍ بِمَعْنَى أَزَالَ الْفَسَادَ. لَا يُدْمَجَانِ فِي مَدْخَلٍ وَاحِدٍ."
+        ]
       }
     },
     {
@@ -13485,7 +13490,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13522,7 +13527,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13559,7 +13564,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13596,7 +13601,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13633,7 +13638,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13670,7 +13675,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13707,7 +13712,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13744,7 +13749,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13753,7 +13758,9 @@
       "meaning_ar": "مَا كَانَ ثَابِتَ الْأَصْلِ أَوْ كَرِيمَ الْمَنْشَإِ.",
       "additional_meanings_ar": [
         "مُبْتَكَرٌ غَيْرُ مُقَلَّدٍ؛ كَفِكْرَةٍ أَصِيلَةٍ أَوْ بَحْثٍ أَصِيلٍ.",
-        "مِنْ نَوْعٍ جَيِّدٍ وَذُو جَوْدَةٍ وَمَنْشَإٍ مَوْثُوقٍ."
+        "مِنْ نَوْعٍ جَيِّدٍ وَذُو جَوْدَةٍ وَمَنْشَإٍ مَوْثُوقٍ.",
+        "فِكْرٌ مُبْتَكَرٌ غَيْرُ مُقَلَّدٍ.",
+        "مِنْ نَوْعٍ جَيِّدٍ وَذُو جَوْدَةٍ عَالِيَةٍ."
       ],
       "grammar": [
         "صِفَةٌ؛ الْمُؤَنَّثُ: أَصِيلَةٌ."
@@ -13762,9 +13769,11 @@
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "هَذَا رَأْيٌ أَصِيلٌ."
+        "هَذَا رَأْيٌ أَصِيلٌ.",
+        "يَقْدُمُ الْبَاحِثُ أَفْكَارًا أَصِيلَةً فِي دِرَاسَتِهِ.",
+        "هَذَا حِصَانٌ أَصِيلٌ مَعْرُوفٌ بِقُوَّتِهِ."
       ],
-      "usage_note_ar": "يُقَالُ: رَجُلٌ أَصِيلٌ لِشَرَفِ أَصْلِهِ، وَفِكْرَةٌ أَصِيلَةٌ إِذَا كَانَتْ مُبْتَكَرَةً، وَمُنْتَجٌ أَصِيلٌ إِذَا كَانَ غَيْرَ مُقَلَّدٍ.",
+      "usage_note_ar": "لِلصِّفَةِ مَعَانٍ مُخْتَلِفَةٌ: كَرَمُ الْأَصْلِ، وَالِابْتِكَارُ فِي الْفِكْرِ، وَالْجَوْدَةُ فِي النَّوْعِ؛ وَيُحَدِّدُ السِّيَاقُ الْمَعْنَى.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
@@ -13784,7 +13793,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13821,7 +13830,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13858,7 +13867,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13895,7 +13904,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13932,7 +13941,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -13969,7 +13978,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14006,7 +14015,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14043,7 +14052,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14080,7 +14089,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14108,16 +14117,18 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "unmatched_printed_lemma_source_page_21_relocation_required"
       },
       "visual_verification": {
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
         "checked_on": "2026-11-14",
-        "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
+        "status": "source_headword_mismatch_requires_relocation",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate",
+        "printed_headword": "أُضْحِيَّةٌ",
+        "note": "الْمَطْبُوعُ فِي الصَّفْحَةِ ١٧: أُضْحِيَّةٌ (اسْمٌ)، لَيْسَ أَضْحَى (فِعْلٌ). الْفِعْلُ صَحِيحٌ لُغَوِيًّا وَلَكِنَّ نِسْبَتَهُ إِلَى هَذَا الْمَوْضِعِ غَيْرُ صَحِيحَةٍ."
       }
     },
     {
@@ -14154,7 +14165,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14191,7 +14202,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14228,7 +14239,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14265,7 +14276,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14302,7 +14313,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14339,7 +14350,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14376,7 +14387,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14413,7 +14424,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14450,7 +14461,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14487,7 +14498,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14524,7 +14535,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14561,7 +14572,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14598,7 +14609,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14635,7 +14646,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14672,7 +14683,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14709,7 +14720,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14746,7 +14757,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14783,7 +14794,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14820,7 +14831,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14857,7 +14868,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14897,7 +14908,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14934,7 +14945,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -14974,7 +14985,10 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate",
+        "uncovered_source_headwords": [
+          "أَطْقُمٌ"
+        ]
       }
     },
     {
@@ -15011,7 +15025,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15048,7 +15062,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15085,7 +15099,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15122,7 +15136,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15159,17 +15173,19 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
       "id": "bayna_scan_v1_407",
       "arabic": "أَطْلَقَ",
-      "meaning_ar": "تَرَكَ الشَّيْءَ يَنْطَلِقُ أَوْ سَمَحَ لَهُ بِالْحَرَكَةِ.",
+      "meaning_ar": "حَرَّرَ شَيْئًا مِنَ الْقَيْدِ أَوْ رَفَعَ عَنْهُ الْمَنْعَ.",
       "additional_meanings_ar": [
         "حَرَّرَ شَخْصًا مِنَ الْقَيْدِ أَوِ الْحَبْسِ وَسَمَحَ لَهُ بِالْخُرُوجِ.",
         "أَطْلَقَ الرَّصَاصَ نَحْوَ الْهَدَفِ؛ أَيْ أَخْرَجَهُ مِنَ السِّلَاحِ.",
-        "سَمَّى شَخْصًا أَوْ شَيْئًا بِاسْمٍ؛ فَيُقَالُ: أَطْلَقَ عَلَيْهِ اسْمًا مُعَيَّنًا."
+        "سَمَّى شَخْصًا أَوْ شَيْئًا بِاسْمٍ؛ فَيُقَالُ: أَطْلَقَ عَلَيْهِ اسْمًا مُعَيَّنًا.",
+        "وَجَّهَ شَيْئًا نَحْوَ هَدَفٍ، كَمَنْ أَطْلَقَ الرَّصَاصَ.",
+        "سَمَّى شَخْصًا أَوْ شَيْئًا اسْمًا مُعَيَّنًا."
       ],
       "grammar": [
         "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُطْلِقُ؛ الْمَصْدَرُ: إِطْلَاقٌ."
@@ -15180,9 +15196,11 @@
       "examples_ar": [
         "أَطْلَقَ الْمَسْؤُولُ الطَّائِرَ مِنَ الْقَفَصِ.",
         "أَطْلَقَ الْقَاضِي سَرَاحَ السَّجِينِ بَعْدَ انْتِهَاءِ مُدَّتِهِ.",
-        "أَطْلَقَ الْكَاتِبُ عَلَى بَطَلِ قِصَّتِهِ اسْمًا جَدِيدًا."
+        "أَطْلَقَ الْكَاتِبُ عَلَى بَطَلِ قِصَّتِهِ اسْمًا جَدِيدًا.",
+        "أَطْلَقَ الرَّامِي سَهْمًا نَحْوَ الْهَدَفِ.",
+        "أَطْلَقَ الْأَبُ عَلَى ابْنِهِ اسْمًا جَدِيدًا."
       ],
-      "usage_note_ar": "تَتَعَدَّدُ اسْتِعْمَالَاتُ أَطْلَقَ بِحَسَبِ الْمَفْعُولِ وَحَرْفِ الْجَرِّ. وَيُقَالُ: لَمْ يَحْدُثْ ذَلِكَ إِطْلَاقًا؛ فَإِطْلَاقًا هُنَا مَصْدَرٌ مَنْصُوبٌ لِلتَّوْكِيدِ، وَلَيْسَ مَعْنًى رَابِعًا لِلْفِعْلِ.",
+      "usage_note_ar": "لِلْفِعْلِ أَطْلَقَ مَعَانٍ بِحَسَبِ السِّيَاقِ، أَمَّا إِطْلَاقًا فَهُوَ مَصْدَرٌ يُسْتَعْمَلُ لِنَفْيِ الْأَمْرِ عَلَى الْإِطْلَاقِ: لَمْ يَحْدُثْ إِطْلَاقًا.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
@@ -15202,7 +15220,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15239,7 +15257,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15276,7 +15294,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15313,7 +15331,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15350,7 +15368,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15387,7 +15405,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15424,7 +15442,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15461,7 +15479,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15498,7 +15516,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15535,7 +15553,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15572,14 +15590,16 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
       "id": "bayna_scan_v1_418",
       "arabic": "أَعَارَ",
       "meaning_ar": "أَعْطَى شَيْئًا لِغَيْرِهِ عَلَى أَنْ يَرُدَّهُ.",
-      "additional_meanings_ar": [],
+      "additional_meanings_ar": [
+        "أَعَارَ الْأَمْرَ اهْتِمَامًا: أَوْلَاهُ عِنَايَةً وَاهْتَمَّ بِهِ."
+      ],
       "grammar": [
         "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُعِيرُ؛ الْمَصْدَرُ: إِعَارَةٌ."
       ],
@@ -15587,9 +15607,10 @@
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "أَعَارَ الْمُعَلِّمُ الطَّالِبَ كِتَابًا."
+        "أَعَارَ الْمُعَلِّمُ الطَّالِبَ كِتَابًا.",
+        "أَعَارَ الطَّالِبُ النَّصِيحَةَ اهْتِمَامًا كَبِيرًا."
       ],
-      "usage_note_ar": "يُنْظَرُ إِلَى صِيغَةِ الْمَاضِي وَالْمُضَارِعِ وَالْمَصْدَرِ عِنْدَ تَحْلِيلِ الْفِعْلِ.",
+      "usage_note_ar": "يُقَالُ: أَعَارَ كِتَابًا لِغَيْرِهِ لِيَرُدَّهُ، وَأَعَارَ أَمْرًا اهْتِمَامًا بِمَعْنَى اهْتَمَّ بِهِ.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
@@ -15609,7 +15630,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15646,7 +15667,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15683,7 +15704,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15720,7 +15741,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15757,7 +15778,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15794,7 +15815,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15831,7 +15852,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15868,7 +15889,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15905,7 +15926,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15942,7 +15963,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -15979,7 +16000,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16016,7 +16037,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16053,7 +16074,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16093,7 +16114,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16130,7 +16151,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16167,7 +16188,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16204,7 +16225,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16241,7 +16262,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16278,7 +16299,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16315,7 +16336,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16352,7 +16373,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16360,19 +16381,21 @@
       "arabic": "أَعْرَاضٌ",
       "meaning_ar": "ظَوَاهِرُ تَدُلُّ عَلَى مَرَضٍ أَوْ حَالَةٍ.",
       "additional_meanings_ar": [
-        "أَعْرَاضُ النَّاسِ: جَمْعُ عِرْضٍ، أَيْ حُرُمَاتُهُمْ وَمَا يَجِبُ صَوْنُهُ مِنْ سُمْعَتِهِمْ وَشَرَفِهِمْ."
+        "أَعْرَاضُ النَّاسِ: جَمْعُ عِرْضٍ، أَيْ حُرُمَاتُهُمْ وَمَا يَجِبُ صَوْنُهُ مِنْ سُمْعَتِهِمْ وَشَرَفِهِمْ.",
+        "جَمْعُ عِرْضٍ، وَهُوَ الشَّرَفُ وَالسُّمْعَةُ الَّتِي يَصُونُهَا الْإِنْسَانُ."
       ],
       "grammar": [
-        "جَمْعُ عَرَضٍ فِي مَعْنَى الْعَلَامَةِ وَالْحَالَةِ، وَجَمْعُ عِرْضٍ فِي مَعْنَى الشَّرَفِ وَالْحُرْمَةِ."
+        "جَمْعُ عَرَضٍ بِمَعْنَى عَلَامَةِ الْمَرَضِ، وَجَمْعُ عِرْضٍ بِمَعْنَى الشَّرَفِ وَالسُّمْعَةِ."
       ],
       "synonyms": [],
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
         "تَظْهَرُ أَعْرَاضُ الْمَرَضِ بَعْدَ الْعَدْوَى.",
-        "يَجِبُ صَوْنُ أَعْرَاضِ النَّاسِ وَعَدَمُ الْخَوْضِ فِيهَا."
+        "يَجِبُ صَوْنُ أَعْرَاضِ النَّاسِ وَعَدَمُ الْخَوْضِ فِيهَا.",
+        "صَانَ النَّاسُ أَعْرَاضَهُمْ مِنَ الْأَذَى."
       ],
-      "usage_note_ar": "يَجِبُ التَّمْيِيزُ بَيْنَ عَرَضٍ (عَلَامَةٍ) وَعِرْضٍ (شَرَفٍ)، وَإِنِ اتَّفَقَتْ صِيغَةُ الْجَمْعِ أَعْرَاضٌ فِي الْكِتَابَةِ.",
+      "usage_note_ar": "تَتَّفِقُ صِيغَةُ الْجَمْعِ أَعْرَاضٌ فِي رَسْمِهَا مَعَ اخْتِلَافِ الْمُفْرَدِ: عَرَضٌ لِلْعَلَامَةِ، وَعِرْضٌ لِلشَّرَفِ.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
@@ -16392,7 +16415,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16429,7 +16452,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16466,7 +16489,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16503,7 +16526,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16540,7 +16563,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16577,7 +16600,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16614,7 +16637,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16651,7 +16674,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16688,7 +16711,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16725,7 +16748,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16762,7 +16785,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
@@ -16799,7 +16822,7 @@
         "checked_on": "2026-11-14",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "original_scanned_headword_letters_and_visible_harakat_not_all_new_example_sentences"
+        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
       }
     },
     {
