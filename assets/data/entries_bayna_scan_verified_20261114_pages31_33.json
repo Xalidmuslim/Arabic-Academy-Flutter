@@ -1,0 +1,440 @@
+{
+  "schema_version": 3,
+  "source_status": "printed_headwords_and_meanings_visually_checked_original_scan_examples_independently_authored",
+  "original_scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "entries": [
+    {
+      "id": "bayna_scan_20261114_001",
+      "arabic": "أَكْثَرَ",
+      "meaning_ar": "فَعَلَ الشَّيْءَ مَرَّاتٍ كَثِيرَةً، أَوْ زَادَ فِي مِقْدَارِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ مَزِيدٌ بِهَمْزَةٍ عَلَى وَزْنِ أَفْعَلَ، وَجَذْرُهُ: ك ـ ث ـ ر.",
+        "الْمَاضِي: أَكْثَرَ. الْمُضَارِعُ: يُكْثِرُ. الْمَصْدَرُ: إِكْثَارٌ."
+      ],
+      "synonyms": [
+        "زَادَ مِنَ الشَّيْءِ: مُرَادِفٌ فِي سِيَاقِ الزِّيَادَةِ، لَا فِي جَمِيعِ التَّرَاكِيبِ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَكْثَرَ الطَّالِبُ مِنَ الْقِرَاءَةِ فِي الْعُطْلَةِ.",
+        "أَكْثَرَ الْمُتَحَدِّثُ مِنَ التَّفْصِيلِ حَتَّى طَالَ الْحَدِيثُ."
+      ],
+      "usage_note_ar": "يُقَالُ: أَكْثَرَ مِنَ الْقِرَاءَةِ، وَأَكْثَرَ الْكَلَامَ؛ وَيَخْتَلِفُ التَّرْكِيبُ بِاخْتِلَافِ الْمَقْصُودِ. لَا يُسَاوِي الْفِعْلُ أَكْثَرَ الصِّفَةَ أَكْبَرَ؛ فَالْأَوَّلُ يَدُلُّ عَلَى الْكَثْرَةِ، وَالثَّانِي عَلَى الْكِبَرِ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/31",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/كثر"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 31,
+        "printed_page": 27,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_002",
+      "arabic": "أَكْرَمَ",
+      "meaning_ar": "أَحْسَنَ إِلَى شَخْصٍ وَأَظْهَرَ لَهُ التَّقْدِيرَ وَالِاحْتِرَامَ.",
+      "additional_meanings_ar": [
+        "هَيَّأَ لِلضَّيْفِ مَا يَحْتَاجُ إِلَيْهِ مِنْ طَعَامٍ وَشَرَابٍ وَحُسْنِ اسْتِقْبَالٍ."
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ عَلَى وَزْنِ أَفْعَلَ، وَجَذْرُهُ: ك ـ ر ـ م.",
+        "الْمَاضِي: أَكْرَمَ. الْمُضَارِعُ: يُكْرِمُ. الْمَصْدَرُ: إِكْرَامٌ."
+      ],
+      "synonyms": [
+        "أَحْسَنَ إِلَى: مُرَادِفٌ فِي سِيَاقِ الْمُعَامَلَةِ الْحَسَنَةِ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَكْرَمَتِ الْأُسْرَةُ ضُيُوفَهَا بِحُسْنِ الِاسْتِقْبَالِ.",
+        "أَكْرَمَ الْمُدِيرُ الْمُعَلِّمَ تَقْدِيرًا لِجُهُودِهِ."
+      ],
+      "usage_note_ar": "يَتَعَدَّى الْفِعْلُ إِلَى الْمَفْعُولِ بِهِ، فَيُقَالُ: أَكْرَمَ ضَيْفَهُ. الْإِكْرَامُ غَيْرُ الْإِكْرَاهِ؛ فَالْأَوَّلُ مِنَ الْكَرَمِ، وَالثَّانِي مِنَ الْكُرْهِ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/31",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/كرم"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 31,
+        "printed_page": 27,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_003",
+      "arabic": "أَلْغَى",
+      "meaning_ar": "أَبْطَلَ قَرَارًا أَوْ مَوْعِدًا أَوْ عَمَلًا كَانَ مُقَرَّرًا.",
+      "additional_meanings_ar": [
+        "أَسْقَطَ شَيْئًا مِنْ حِسَابٍ أَوْ قَائِمَةٍ."
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ بِهَمْزَةٍ، مُعْتَلُّ اللَّامِ، وَجَذْرُهُ: ل ـ غ ـ و.",
+        "الْمَاضِي: أَلْغَى. الْمُضَارِعُ: يُلْغِي. الْمَصْدَرُ: إِلْغَاءٌ."
+      ],
+      "synonyms": [
+        "أَبْطَلَ: مُرَادِفٌ عِنْدَ الْحَدِيثِ عَنْ قَرَارٍ أَوْ إِجْرَاءٍ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَلْغَتِ الْمَدْرَسَةُ الرِّحْلَةَ بِسَبَبِ سُوءِ الطَّقْسِ.",
+        "أَلْغَى الْمُنَظِّمُ الْمَوْعِدَ وَحَدَّدَ يَوْمًا جَدِيدًا."
+      ],
+      "usage_note_ar": "الْفِعْلُ أَلْغَى مُتَعَدٍّ، وَيُقَالُ: أَلْغَى الْمَوْعِدَ، لَا أَلْغَى عَنِ الْمَوْعِدِ. يُنْتَبَهُ إِلَى الْفَرْقِ بَيْنَ أَلْغَى وَأَلْقَى؛ فَاخْتِلَافُ الْحَرْفِ يَغَيِّرُ الْمَعْنَى.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/32",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/لغو"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 32,
+        "printed_page": 28,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_004",
+      "arabic": "أَلْفٌ",
+      "meaning_ar": "عَدَدٌ يُسَاوِي عَشْرَ مِئَاتٍ، وَيُكْتَبُ بِالْأَرْقَامِ: ١٠٠٠.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمُ عَدَدٍ، وَالْمُفْرَدُ: أَلْفٌ. الْجَمْعُ: آلَافٌ وَأُلُوفٌ.",
+        "يَأْتِي بَعْدَ أَلْفٍ تَمْيِيزٌ مُفْرَدٌ مَجْرُورٌ، نَحْوَ: أَلْفُ كِتَابٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "فِي الْمَكْتَبَةِ أَلْفُ كِتَابٍ.",
+        "حَضَرَ إِلَى الْمَعْرِضِ أَلْفُ زَائِرٍ."
+      ],
+      "usage_note_ar": "أَلْفٌ عَدَدٌ، أَمَّا أُلْفَةٌ فَتَدُلُّ عَلَى الْمَوَدَّةِ وَالِانْسِجَامِ. يُرَاعَى إِفْرَادُ الْمَعْدُودِ وَجَرُّهُ عِنْدَ اسْتِعْمَالِ كَلِمَةِ أَلْفٍ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/32",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/ألف"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 32,
+        "printed_page": 28,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_005",
+      "arabic": "أَمَامَ",
+      "meaning_ar": "ظَرْفُ مَكَانٍ يَدُلُّ عَلَى الْجِهَةِ الْمُقَابِلَةِ لِوَجْهِ الشَّخْصِ أَوْ مُقَدِّمَةِ الشَّيْءِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "ظَرْفُ مَكَانٍ مَنْصُوبٌ، وَهُوَ غَالِبًا مُضَافٌ إِلَى اسْمٍ بَعْدَهُ.",
+        "يُقَالُ: أَمَامَ الْبَيْتِ، وَأَمَامَ الْمَدْرَسَةِ."
+      ],
+      "synonyms": [
+        "قُدَّامَ: مُرَادِفٌ مَكَانِيٌّ فِي كَثِيرٍ مِنَ السِّيَاقَاتِ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "وَقَفَ الطَّالِبُ أَمَامَ السَّبُّورَةِ.",
+        "تَوَقَّفَتِ السَّيَّارَةُ أَمَامَ الْمَنْزِلِ."
+      ],
+      "usage_note_ar": "أَمَامَ ظَرْفٌ، فَلَا يُطْلَبُ لَهُ جَمْعٌ عَلَى نَمَطِ الْأَسْمَاءِ الْمَحْسُوسَةِ. تَكُونُ الْكَلِمَةُ مُضَافَةً فِي قَوْلِنَا: أَمَامَ الْمَنْزِلِ؛ فَالْمَنْزِلِ مُضَافٌ إِلَيْهِ مَجْرُورٌ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/33"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 33,
+        "printed_page": 29,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_006",
+      "arabic": "أَمَاطَ",
+      "meaning_ar": "أَبْعَدَ الشَّيْءَ عَنْ مَوْضِعِهِ وَنَحَّاهُ جَانِبًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ بِهَمْزَةٍ عَلَى وَزْنِ أَفْعَلَ، وَجَذْرُهُ: م ـ ي ـ ط.",
+        "الْمَاضِي: أَمَاطَ. الْمُضَارِعُ: يُمِيطُ. الْمَصْدَرُ: إِمَاطَةٌ."
+      ],
+      "synonyms": [
+        "أَزَالَ: مُرَادِفٌ فِي سِيَاقِ إِبْعَادِ الْأَذَى أَوِ الْعَائِقِ.",
+        "نَحَّى: مُرَادِفٌ عِنْدَ نَقْلِ الشَّيْءِ جَانِبًا."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَمَاطَ الْعَامِلُ الْحَجَرَ عَنِ الطَّرِيقِ.",
+        "أَمَاطَتِ الطَّالِبَةُ الْغُصْنَ عَنْ مَمَرِّ الْمَشَاةِ."
+      ],
+      "usage_note_ar": "يُقَالُ: أَمَاطَ الشَّيْءَ عَنِ الطَّرِيقِ، وَتَأْتِي عَنْ لِبَيَانِ مَوْضِعِ الْإِزَالَةِ. الْمَصْدَرُ إِمَاطَةٌ، وَيُسْتَعْمَلُ فِي تَرْكِيبِ إِمَاطَةِ الْأَذَى عَنِ الطَّرِيقِ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/33"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 33,
+        "printed_page": 29,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_007",
+      "arabic": "إِمَامٌ",
+      "meaning_ar": "شَخْصٌ يَتَقَدَّمُ الْمُصَلِّينَ وَيَقْتَدُونَ بِهِ فِي الصَّلَاةِ.",
+      "additional_meanings_ar": [
+        "قَائِدٌ أَوْ رَئِيسٌ يَتَّبِعُهُ النَّاسُ فِي شَأْنٍ مِنْ شُؤُونِهِمْ."
+      ],
+      "grammar": [
+        "اِسْمٌ مُذَكَّرٌ، وَجَذْرُهُ: أ ـ م ـ م.",
+        "الْمُفْرَدُ: إِمَامٌ. الْجَمْعُ: أَئِمَّةٌ."
+      ],
+      "synonyms": [
+        "قَائِدٌ: مُرَادِفٌ فِي مَعْنَى الرِّيَاسَةِ وَالْقِيَادَةِ، لَا فِي كُلِّ اسْتِعْمَالٍ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "صَلَّى النَّاسُ خَلْفَ إِمَامِ الْمَسْجِدِ.",
+        "اخْتَارَ الْمُصَلُّونَ إِمَامًا يُحْسِنُ الْقِرَاءَةَ."
+      ],
+      "usage_note_ar": "إِمَامٌ اسْمٌ لِلْقَائِدِ أَوْ لِمَنْ يَتَقَدَّمُ النَّاسَ فِي الصَّلَاةِ، وَيُحَدِّدُ السِّيَاقُ الْمَقْصُودَ. يُكْتَبُ جَمْعُ إِمَامٍ: أَئِمَّةٌ، وَفِيهِ هَمْزَةٌ وَشَدَّةٌ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/33"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 33,
+        "printed_page": 29,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_008",
+      "arabic": "أُكْذُوبَةٌ",
+      "meaning_ar": "خَبَرٌ مُخْتَلَقٌ غَيْرُ صَحِيحٍ يُرَادُ بِهِ خِدَاعُ السَّامِعِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ مُؤَنَّثٌ، وَجَذْرُهُ: ك ـ ذ ـ ب.",
+        "الْمُفْرَدُ: أُكْذُوبَةٌ. الْجَمْعُ: أَكَاذِيبُ."
+      ],
+      "synonyms": [
+        "كَذِبَةٌ: مُرَادِفٌ قَرِيبٌ فِي مَعْنَى الْقَوْلِ الْمَخْتَلَقِ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "انْتَشَرَتْ أُكْذُوبَةٌ عَنْ إِغْلَاقِ الْمَدْرَسَةِ.",
+        "كَشَفَ التَّحْقِيقُ أَنَّ الْخَبَرَ أُكْذُوبَةٌ."
+      ],
+      "usage_note_ar": "تُضْبَطُ هَمْزَةُ الْكَلِمَةِ بِالضَّمَّةِ: أُكْذُوبَةٌ، وَلَا تُكْتَبُ أَكْذُوبَةٌ. جَمْعُ أُكْذُوبَةٍ أَكَاذِيبُ، وَهُوَ جَمْعُ تَكْسِيرٍ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/31",
+        "https://www.arabicterminology.com/content/%D8%A3%D9%8F%D9%83%D9%92%D8%B0%D9%8F%D9%88%D8%A8%D9%8E%D8%A9%D9%8C",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/كذب"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 31,
+        "printed_page": 27,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_009",
+      "arabic": "أُلْفَةٌ",
+      "meaning_ar": "مَوَدَّةٌ وَانْسِجَامٌ يَجْمَعَانِ بَيْنَ شَخْصَيْنِ أَوْ أَكْثَرَ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ مُؤَنَّثٌ، وَمَصْدَرٌ لِلْفِعْلِ أَلِفَ، وَجَذْرُهُ: أ ـ ل ـ ف.",
+        "الْمُفْرَدُ: أُلْفَةٌ، وَيُسْتَعْمَلُ لِلدَّلَالَةِ عَلَى الْمَوَدَّةِ وَالْأُنْسِ."
+      ],
+      "synonyms": [
+        "مَوَدَّةٌ: مُرَادِفٌ قَرِيبٌ فِي مَعْنَى الْمَحَبَّةِ وَالْأُنْسِ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "نَشَأَتْ أُلْفَةٌ بَيْنَ الْجَارَيْنِ.",
+        "تُقَوِّي الْمُعَامَلَةُ الْحَسَنَةُ الْأُلْفَةَ بَيْنَ النَّاسِ."
+      ],
+      "usage_note_ar": "الضَّبْطُ الصَّحِيحُ لِلْكَلِمَةِ هُوَ أُلْفَةٌ بِضَمِّ الْهَمْزَةِ. تَخْتَلِفُ أُلْفَةٌ عَنْ أَلْفٍ الَّذِي يَدُلُّ عَلَى الْعَدَدِ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/32",
+        "https://sina.birzeit.edu/qabas/lemma/2022830200",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/ألف"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 32,
+        "printed_page": 28,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_010",
+      "arabic": "أَلِيمٌ",
+      "meaning_ar": "شَدِيدُ الْإِيلَامِ أَوْ مُسَبِّبٌ لِأَلَمٍ شَدِيدٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِفَةٌ مُشَبَّهَةٌ عَلَى وَزْنِ فَعِيلٍ، وَجَذْرُهُ: أ ـ ل ـ م.",
+        "الْمُذَكَّرُ: أَلِيمٌ. الْمُؤَنَّثُ: أَلِيمَةٌ."
+      ],
+      "synonyms": [
+        "مُؤْلِمٌ: مُرَادِفٌ قَرِيبٌ فِي وَصْفِ مَا يُسَبِّبُ الْأَلَمَ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "كَانَ الْجُرْحُ أَلِيمًا بَعْدَ السُّقُوطِ.",
+        "سَمِعَتِ الْأُسْرَةُ خَبَرًا أَلِيمًا."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ الصِّفَةُ لِلْأَلَمِ الْجَسَدِيِّ وَالْمَعْنَوِيِّ بِحَسَبِ السِّيَاقِ. يُقَالُ: عَذَابٌ أَلِيمٌ، وَخَبَرٌ أَلِيمٌ، وَيُطَابِقُ النَّعْتُ مَنْعُوتَهُ فِي الْجِنْسِ وَالْإِعْرَابِ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/32"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 32,
+        "printed_page": 28,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_011",
+      "arabic": "أَلْهَمَ",
+      "meaning_ar": "أَوْقَعَ فِي نَفْسِ شَخْصٍ فِكْرَةً أَوْ مَعْنًى دُونَ شَرْحٍ مُبَاشِرٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ بِهَمْزَةٍ عَلَى وَزْنِ أَفْعَلَ، وَجَذْرُهُ: ل ـ ه ـ م.",
+        "الْمَاضِي: أَلْهَمَ. الْمُضَارِعُ: يُلْهِمُ. الْمَصْدَرُ: إِلْهَامٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَلْهَمَ الْمَوْقِفُ الْكَاتِبَ فِكْرَةً لِقِصَّةٍ جَدِيدَةٍ.",
+        "أَلْهَمَتِ التَّجْرِبَةُ الْبَاحِثَ حَلًّا مُبْتَكَرًا."
+      ],
+      "usage_note_ar": "يُقَالُ: أَلْهَمَهُ فِكْرَةً، وَيَكُونُ الشَّخْصُ هُنَا مُتَلَقِّيًا لِلْإِلْهَامِ. الْإِلْهَامُ غَيْرُ التَّعْلِيمِ الْمُبَاشِرِ؛ فَالسِّيَاقُ يُحَدِّدُ الْمَقْصُودَ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/32"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 32,
+        "printed_page": 28,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_012",
+      "arabic": "إِمَارَةٌ",
+      "meaning_ar": "مَنْصِبُ الْأَمِيرِ أَوْ وِلَايَتُهُ وَتَوَلِّيهِ شُؤُونَ النَّاسِ.",
+      "additional_meanings_ar": [
+        "إِقْلِيمٌ يُدِيرُهُ أَمِيرٌ أَوْ تَكُونُ لَهُ صِفَةُ الْإِمَارَةِ."
+      ],
+      "grammar": [
+        "اِسْمٌ مُؤَنَّثٌ، وَجَذْرُهُ: أ ـ م ـ ر.",
+        "الْمُفْرَدُ: إِمَارَةٌ. الْجَمْعُ: إِمَارَاتٌ."
+      ],
+      "synonyms": [
+        "وِلَايَةٌ: مُرَادِفٌ فِي سِيَاقِ تَوَلِّي الْحُكْمِ، لَا فِي جَمِيعِ الدَّلَالَاتِ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "تَوَلَّى الْأَمِيرُ شُؤُونَ الْإِمَارَةِ.",
+        "تَتَكَوَّنُ الدَّوْلَةُ مِنْ عِدَّةِ إِمَارَاتٍ."
+      ],
+      "usage_note_ar": "يُفْهَمُ مِنَ السِّيَاقِ هَلِ الْمُرَادُ مَنْصِبُ الْحُكْمِ أَوِ الْإِقْلِيمُ نَفْسُهُ. يَجِبُ التَّفْرِيقُ بَيْنَ إِمَارَةٍ بِكَسْرِ الْهَمْزَةِ، وَهِيَ وِلَايَةُ الْأَمِيرِ، وَأَمَارَةٍ بِفَتْحِ الْهَمْزَةِ، وَهِيَ عَلَامَةٌ أَوْ دَلِيلٌ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/33",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أمر"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 33,
+        "printed_page": 29,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    },
+    {
+      "id": "bayna_scan_20261114_013",
+      "arabic": "أَمَاتَ",
+      "meaning_ar": "جَعَلَ الْكَائِنَ الْحَيَّ يَفْقِدُ حَيَاتَهُ.",
+      "additional_meanings_ar": [
+        "يُسْتَعْمَلُ مَجَازًا فِي تَرْكِ اسْتِعْمَالِ لَفْظٍ أَوْ إِهْمَالِهِ."
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ بِهَمْزَةٍ عَلَى وَزْنِ أَفْعَلَ، وَجَذْرُهُ: م ـ و ـ ت.",
+        "الْمَاضِي: أَمَاتَ. الْمُضَارِعُ: يُمِيتُ. الْمَصْدَرُ: إِمَاتَةٌ."
+      ],
+      "synonyms": [
+        "قَضَى عَلَى: تَعْبِيرٌ قَرِيبٌ فِي سِيَاقِ إِزْهَاقِ الْحَيَاةِ."
+      ],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "أَمَاتَ الْبَرْدُ الْقَاسِي بَعْضَ النَّبَاتَاتِ.",
+        "قَدْ يُمِيتُ الْإِهْمَالُ بَعْضَ الْكَلِمَاتِ فِي الِاسْتِعْمَالِ."
+      ],
+      "usage_note_ar": "الْفِعْلُ أَمَاتَ مُتَعَدٍّ، وَأَمَّا مَاتَ فَلَازِمٌ فِي اسْتِعْمَالِهِ الْأَصْلِيِّ. إِمَاتَةٌ مَصْدَرُ أَمَاتَ، وَلَا تَخْتَلِطُ بِالْكَلِمَةِ أَمَاطَ الَّتِي تَدُلُّ عَلَى الْإِزَالَةِ.",
+      "book_references": [],
+      "sources": [
+        "https://aljam3.com/ar/39951/73248/33",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/موت"
+      ],
+      "source_group": "visually_checked_original_printed_dictionary_page_lemma_own_arabic_examples",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 33,
+        "printed_page": 29,
+        "text_status": "original_printed_headword_and_senses_visually_verified_arabic_examples_independently_written_pending_final_linguistic_review"
+      }
+    }
+  ]
+}
