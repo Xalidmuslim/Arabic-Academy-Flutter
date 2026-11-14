@@ -1,0 +1,72 @@
+name: Bayna linguistic QA (read only)
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/bayna-audit-three-tools-20261114
+    paths:
+      - 'tools/bayna_linguistic_audit.py'
+      - 'tools/test_bayna_linguistic_audit.py'
+      - 'assets/data/**'
+      - '.github/workflows/bayna-linguistic-audit.yml'
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests (no external model downloads)
+        run: python3 -m unittest discover -s tools -p 'test_bayna_linguistic_audit.py' -v
+      - name: Download exact Quranic Arabic Corpus v0.4 (unchanged, checksum verified)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/bayna-qac"
+          curl --fail --location --silent --show-error --retry 3 --connect-timeout 15 \
+            'https://raw.githubusercontent.com/cltk/arabic_morphology_quranic-corpus/b5abd4d8fadd775f3329f34cbe10531fac71e391/quranic-corpus-morphology-0.4.txt' \
+            --output "$RUNNER_TEMP/bayna-qac/quranic-corpus-morphology-0.4.txt"
+          printf '%s  %s\n' \
+            'a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46' \
+            "$RUNNER_TEMP/bayna-qac/quranic-corpus-morphology-0.4.txt" | sha256sum -c -
+          python3 - <<'PY'
+          import csv, os, re
+          from pathlib import Path
+          corpus = Path(os.environ['RUNNER_TEMP']) / 'bayna-qac' / 'quranic-corpus-morphology-0.4.txt'
+          with corpus.open(encoding='utf-8-sig', newline='') as stream:
+              lines = list(csv.reader(stream, delimiter='\t'))
+          assert any(row and 'Copyright (C) 2011 Kais Dukes' in row[0] for row in lines)
+          assert any(row and 'Copyright (C) 2008-2009 Tanzil.info' in row[0] for row in lines)
+          records = [row for row in lines if row and re.fullmatch(r'\(\d+:\d+:\d+:\d+\)', row[0])]
+          assert len(records) == 128219, len(records)
+          assert all(len(row) == 4 for row in records)
+          print(f'Unchanged Quranic Arabic Corpus v0.4: {len(records)} morphological segments')
+          PY
+      - name: Audit full Bayna corpus with genuine Quranic morphology references
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/bayna_linguistic_audit.py --repo . --output linguistic-audit.json \
+            --quran-corpus "$RUNNER_TEMP/bayna-qac/quranic-corpus-morphology-0.4.txt"
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          d = json.loads(Path('linguistic-audit.json').read_text(encoding='utf-8'))
+          assert d['engines']['quranic_arabic_corpus'] == 'enabled'
+          n = Counter(r['quran_references'][0]['match_type']
+                      for r in d['results'] if r['quran_references'])
+          print('Corpus-linked entries:', sum(n.values()))
+          print('Reference types:', dict(n))
+          print('Total dictionary records:', d['summary']['entries'])
+          PY
+      - name: Publish read-only report (not copyrighted source corpus)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bayna-linguistic-audit
+          path: linguistic-audit.json
+          if-no-files-found: warn
