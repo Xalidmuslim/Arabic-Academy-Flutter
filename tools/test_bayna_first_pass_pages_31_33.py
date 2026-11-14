@@ -15,7 +15,7 @@ EXPECTED = {
     "أَمَانَةٌ": 33, "أَمَامَ": 33, "أَمَاطَ": 33,
     "إِمَامٌ": 33, "إِمَارَةٌ": 33, "أُمَّةٌ": 33, "أَمَاتَ": 33,
 }
-STATUS = "online_ocr_page_located_arabic_editorial_first_pass_pending_print_image_proofread"
+STATUS = "original_printed_headword_and_senses_visually_checked_original_examples_second_pass_pending"
 
 
 class FirstPassArabicEditorialTest(unittest.TestCase):
