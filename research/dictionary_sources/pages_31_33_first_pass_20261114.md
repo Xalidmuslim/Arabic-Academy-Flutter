@@ -97,3 +97,36 @@ The 13 unlinked first-pass entries:
 **Do not imply these 13 are already displayed in the app.** Their reviewed article records exist but are not matched by canonical fully vowelled headword in the current corpus. Before publication or linking: verify source scan letters and vowel patterns, disambiguate same-bare-letters senses, then attach/add an appropriate canonical record preserving original IDs and bookmarks. Do **not** force a bare-letter match, strip vowels, or silently graft an article onto a different inflection.
 
 The test pipeline passed but did not treat this content-coverage gap as a failure; it is therefore an explicit outstanding release blocker for considering the 20-record expansion complete.
+
+## Original supplied PDF received and visually inspected — definitive update
+
+**This November 14 update supersedes earlier statements above that the original image was unavailable.**
+
+- Uploaded user source: `12383.pdf`; checked locally using the actual file bytes.
+- PDF metadata: **404 pages** (do not use a truncated preview's page count).
+- Computed SHA-256: **`a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995`**, exactly matching the project's original reference.
+- Original PDF pages **31, 32, 33** were rendered at **240 DPI** and visually inspected (printed dictionary pages **27, 28, 29**).
+- All **20** November batch headword spellings and principal contextual senses were located in the original printed pages. In a few cases the educational fully vocalized lemma includes grammatical case/tanwin not explicitly printed in the source heading; this is an added i'rab choice, not a verbatim transcription.
+- Each reviewed overlay now contains `visual_verification` with PDF page, printed page, scan digest and `printed_lemma_and_senses_visually_checked_examples_independently_authored`; the prior `source_text_status` was replaced with `original_printed_headword_and_senses_visually_checked_original_examples_second_pass_pending`.
+- The ***independently authored pedagogical explanations, examples, and every case ending*** are *not quotations from the source*. These are a separate grammatical editorial layer and are not certified as publisher-verified or full professional native-speaker proofread.
+
+### Semantic corrections from the printed source
+
+- `أَكَلَ` on printed p. 27 expressly has a third meaning `أَكَلَ لَحْمَهُ` in the sense of backbiting. That sense, an original new pedagogical example, and a contextual note were added to the reviewed article.
+- `أَكْرَمَ`: the second definition was reworded in natural literary Arabic to match hospitality in the source.
+- `أَمَاطَ`: the definition was broadened from removing only a path obstacle to removing or moving something aside, which covers the source's `أَمَاطَ` contexts.
+
+### Critical fix: 13 reviewed articles not reachable from the app
+
+A new schema-3 source chunk `assets/data/entries_bayna_scan_verified_20261114_pages31_33.json` adds the **13** formerly unattached source-verified headwords, with page and PDF SHA provenance and independently written Arabic examples. The new chunk is appended to `assets/data/corpus_manifest.json`. No existing old IDs, study references, old source chunks, or bookmarks are overwritten; the existing Flutter corpus merge retains first-occurrence canonical entries.
+
+The new scan-linked entries are:
+`أَكْثَرَ`, `أَكْرَمَ`, `أَلْغَى`, `أَلْفٌ`, `أَمَامَ`, `أَمَاطَ`, `إِمَامٌ`, `أُكْذُوبَةٌ`, `أُلْفَةٌ`, `أَلِيمٌ`, `أَلْهَمَ`, `إِمَارَةٌ`, `أَمَاتَ`.
+
+The batch-specific regression test `tools/test_bayna_first_pass_pages_31_33.py` now verifies that **all 20** source-checked reviewed articles resolve unambiguously to corpus words; that the source digest and pagination are identical to the original; and that `أَكَلَ` includes the missing attested `اغْتَابَ` sense.
+
+The Flutter corpus-integration test was updated to account for the 13 new standalone original dictionary lemmas and to compute merged count from the actual pre-scan corpus, rather than an outdated fixed baseline.
+
+### What remains
+
+Only the **20 headword and source-sense comparisons** were completed from these three pages in the present pass; this does *not* upgrade all 594 reviewed overlays nor all 7,597 unique dictionary words to linguistically proofread. Do not conflate the exact scan comparison with the separately authored instructional examples. Further Arabic grammatical and typographic line-editing and future pages still need their own evidence.
