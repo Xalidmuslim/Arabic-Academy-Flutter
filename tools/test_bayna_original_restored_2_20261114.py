@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify that the two print-attested headwords missing from old page citations are present.
+"""Verify that the two original print headwords: one restored and one matched to its existing ID.
 
 Grounding: the actual 404-page scanned source supplied 2026-11-14;
 SHA256 a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995.
@@ -15,7 +15,7 @@ DATA = ROOT/"assets"/"data"
 CORRECTIONS = DATA/"entries_bayna_scan_restored_print_20261114.json"
 MANIFEST = DATA/"corpus_manifest.json"
 REVIEW = DATA/"reviewed_articles_v1.json"
-EXPECTED = {"أَسْمَعُ": (17, 13), "أُضْحِيَّةٌ": (21, 17)}
+EXPECTED = {"أَسْمَعُ": (17, 13), "أُضْحِيَّةٌ": (21, 17)}
 SHA = "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
 
 
@@ -27,11 +27,10 @@ class RestoredPrintedLemmaTest(unittest.TestCase):
         cls.review = json.loads(REVIEW.read_text(encoding="utf-8"))["entries"]
 
     def test_both_printed_lemmas_are_represented_without_rewriting_mismatched_ids(self):
-        self.assertEqual(len(self.scan), 2)
-        self.assertEqual(set(x["arabic"] for x in self.scan), set(EXPECTED))
+        self.assertEqual(len(self.scan), 1)
+        self.assertEqual(set(x["arabic"] for x in self.scan), {"أَسْمَعُ"})
         for entry in self.scan:
             with self.subTest(headword=entry["arabic"]):
-                self.assertIn("أُضْحِيَّةٌ", EXPECTED)
                 self.assertTrue(entry["id"].startswith("bayna_scan_print_restored_20261114_"))
                 self.assertEqual(
                     (entry["source_provenance"]["pdf_page"], entry["source_provenance"]["printed_page"]),
@@ -52,6 +51,11 @@ class RestoredPrintedLemmaTest(unittest.TestCase):
                     for s in [entry["arabic"], entry["meaning_ar"], *entry["examples_ar"]]
                 ))
         self.assertIn("assets/data/entries_bayna_scan_restored_print_20261114.json", self.manifest)
+        original=json.loads((DATA/"entries.json").read_text(encoding="utf-8"))["entries"]
+        original_matches=[e for e in original if e["arabic"]=="أُضْحِيَّةٌ"]
+        self.assertEqual(len(original_matches),1,"Use the original stable ID; never add a second raw card")
+        self.assertTrue(original_matches[0]["id"])
+        self.assertNotIn("أُضْحِيَّةٌ", [e["arabic"] for e in self.scan])
 
     def test_new_reviewed_overlays_keep_source_and_example_evidence_separate(self):
         for lemma, (page, printed_page) in EXPECTED.items():
