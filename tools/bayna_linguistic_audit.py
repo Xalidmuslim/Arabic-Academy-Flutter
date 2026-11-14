@@ -45,6 +45,16 @@ def root_key(s: str) -> str:
     return re.sub(r"[^\u0621-\u064a\u0671]", "", bare(to_arabic(s)))
 
 
+def comparable_diac(s: str) -> str:
+    """Ignore optional fatHa before bare alif for candidate comparison only.
+
+    The original form and all its diacritics remain unchanged in the corpus.
+    Other vowel distinctions (including case endings) are preserved.
+    """
+    normalized = unicodedata.normalize("NFC", s)
+    return re.sub("\u064e(?=\u0627)", "", normalized)
+
+
 def root_from_grammar(parts: list[str]) -> str:
     for text in parts:
         match = re.search(r"جَذْرُهُ\s*[:：]\s*([^\.،\n]+)", text)
@@ -190,7 +200,7 @@ def audit(entries: list[dict], morph=None, corpus: QuranIndex | None = None, par
                 roots = {root_key(a.get("root", "")) for a in analyses}
                 if entry.get("root") and root_key(entry["root"]) not in roots:
                     issues.append(finding("root_candidate_disagreement", "Корень отсутствует среди вариантов модели; нужна ручная сверка", source="camel_tools"))
-                if analyses and all(unicodedata.normalize("NFC", to_arabic(str(a.get("diac", "")))) != unicodedata.normalize("NFC", word) for a in analyses):
+                if analyses and all(comparable_diac(to_arabic(str(a.get("diac", "")))) != comparable_diac(word) for a in analyses):
                     issues.append(finding("diac_candidate_disagreement", "Нет точного совпадения огласовок среди вариантов модели; не исправлять автоматически", source="camel_tools"))
             except Exception as exc:
                 issues.append(finding("camel_runtime_error", str(exc)[:300], source="camel_tools"))
