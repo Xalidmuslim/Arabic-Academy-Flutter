@@ -18,6 +18,11 @@ WORDS = (
     "أَرْجَأَ", "أَرْدَى", "أَرْسَلَ", "أَرْشَدَ", "أَرْضَعَ", "أَرْضَى",
     "أَرْغَمَ", "أَرِقَ", "أَزْعَجَ", "أَزْمَعَ", "أَرْهَقَ", "أَزَاحَ",
     "أَزَالَ", "أَسَاءَ", "أَسْبَغَ", "أَسْبَلَ", "أَضْحَى", "أُغْمِيَ",
+    "أَسْدَلَ", "أَسْدَى", "أَسَرَ", "أَسْرَعَ", "أَسْرَفَ", "أَسْرَى",
+    "أَسِفَ", "أَسْمَعَ", "أَسْهَبَ", "أَسْهَمَ", "أَسِيَ", "أَشَاحَ",
+    "أَشَادَ", "أَشَّرَ", "أَشْرَقَ", "أَشْعَلَ", "أَشْهَرَ", "أَصْبَحَ",
+    "أَصَرَّ", "أَصْغَى", "أَضَاءَ", "أَضَاعَ", "أَضَافَ", "أَضْحَكَ",
+    "أَضْرَبَ", "أَضْرَمَ", "أَضْعَفَ", "أَضْنَى", "أَطَاعَ", "أَطَاقَ",
 )
 
 
@@ -35,9 +40,9 @@ class SpecificArabicUsageNotes(unittest.TestCase):
             )["entries"]
         }
 
-    def test_eighteen_edited_notes_are_specific_and_mirrored(self):
-        self.assertEqual(len(WORDS), 18)
-        self.assertEqual(len(set(WORDS)), 18)
+    def test_forty_eight_edited_notes_are_specific_and_mirrored(self):
+        self.assertEqual(len(WORDS), 48)
+        self.assertEqual(len(set(WORDS)), 48)
         for word in WORDS:
             with self.subTest(word=word):
                 src, article = self.source[word], self.review[word]
