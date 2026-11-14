@@ -10,7 +10,7 @@ void main() {
       await File('assets/data/corpus_manifest.json').readAsString(),
     ) as Map<String, dynamic>;
     final paths = (manifest['files'] as List<dynamic>).cast<String>();
-    expect(paths, hasLength(81));
+    expect(paths, hasLength(82));
     expect(paths, contains('assets/data/entries_editorial_photography_20261101.json'));
 
     final texts = await Future.wait(paths.map((path) => File(path).readAsString()));
@@ -20,7 +20,7 @@ void main() {
       for (var i = 0; i < paths.length; i++)
         if (paths[i] != scanFile) texts[i],
     ]);
-    expect(beforeSource, hasLength(7125));
+    expect(beforeSource, hasLength(7138));
     final originalByHeadword = {for (final w in beforeSource) w.arabic: w};
     final expectedNew = (jsonDecode(await File(scanFile).readAsString())
             as Map<String, dynamic>)['entries'] as List<dynamic>;
