@@ -82,6 +82,23 @@ class PrintPages16To19(unittest.TestCase):
         self.assertGreaterEqual(len(overlay["definition"]), 3)
         self.assertIn("إِطْلَاقًا", " ".join(x["ar"] for x in overlay["important"]))
 
+    def test_asgha_misspelled_verb_has_been_corrected(self):
+        article = self.byword[norm("أَصْغَى")]
+        self.assertIn("وَوَجَّهَ", article["meaning_ar"])
+        self.assertNotIn("أَوْجَهَ", article["meaning_ar"])
+        self.assertEqual(
+            self.review[norm("أَصْغَى")]["definition"][0]["ar"],
+            article["meaning_ar"]
+        )
+
+    def test_asil_multiple_printed_meanings_and_example_agree(self):
+        article = self.byword[norm("أَصِيلٌ")]
+        all_senses = " ".join([article["meaning_ar"], *article["additional_meanings_ar"]])
+        self.assertIn("مُبْتَكَرٌ", all_senses)
+        self.assertIn("جَوْدَةٍ", all_senses)
+        self.assertTrue(any("مُبْتَكَرٌ" in d["ar"] for d in
+                            self.review[norm("أَصِيلٌ")]["definition"]))
+
     def test_original_aslah_two_headings_not_to_be_mixed(self):
         e = self.byword[norm("أَصْلَحَ")]
         self.assertEqual(e["grammar"][0], self.review[norm("أَصْلَحَ")]["grammar"][0]["ar"])
