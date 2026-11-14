@@ -130,3 +130,18 @@ The Flutter corpus-integration test was updated to account for the 13 new standa
 ### What remains
 
 Only the **20 headword and source-sense comparisons** were completed from these three pages in the present pass; this does *not* upgrade all 594 reviewed overlays nor all 7,597 unique dictionary words to linguistically proofread. Do not conflate the exact scan comparison with the separately authored instructional examples. Further Arabic grammatical and typographic line-editing and future pages still need their own evidence.
+
+### Completed corpus integration audit
+
+Github Actions `Bayna reviewed lexicon QA`, run `43578765747`, completed successfully after the restored 13-headword source chunk and regression corrections:
+- **158 Python tests passed**
+- **80 Flutter tests passed**, 2 skipped
+- `flutter analyze`: no issues
+- Corpus: **7,597** distinct fully vocalized headwords
+- Reviewed overlays: **594**, all **594 attached unambiguously**
+- 7,003 corpus words not yet covered by a reviewed enrichment
+- Source audit and existing stable-ID preservation checks passed.
+
+An additional source review of PDF page 33 (printed 29) identified a third distinct `أَمَانَةٌ` sense, `الْمَسْؤُولِيَّةُ`, alongside trustworthiness and deposit. The reviewed article now includes this meaning, a separate fully vowelled original educational example, and a contextual note, guarded by `test_amanah_third_source_sense_is_retained`.
+
+Publication status remains **source headwords and printed senses checked; independent example/case-ending proofreading is still an editorial responsibility**, not a blanket attestation of all Arabic text across the 7,597-word dictionary.
