@@ -31,7 +31,10 @@ jobs:
       - name: Verify three-source evidence against reviewed articles
         run: python3 tools/source_crosschecks.py
       - name: Audit full dictionary corpus and reviewed entries
-        run: python3 tools/audit_reviewed_lexicon.py | tee reviewed-lexicon-coverage.txt
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 tools/audit_reviewed_lexicon.py | tee reviewed-lexicon-coverage.txt
       - name: Generate Android platform files
         run: flutter create --project-name bayna_dictionary --platforms android --org com.xalidmuslim .
       - name: Install packages
