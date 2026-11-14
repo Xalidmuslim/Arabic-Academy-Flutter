@@ -9884,7 +9884,11 @@
         "status": "print_headword_and_visible_vowels_compared_examples_unchecked",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "checked_on": "2026-11-14",
-        "evidence_scope": "printed_lemma_spelling_and_visible_harakat_only_not_independently_created_sentences"
+        "evidence_scope": "printed_lemma_spelling_and_visible_harakat_only_not_independently_created_sentences",
+        "uncovered_source_headwords": [
+          "أَسْرَعُ"
+        ],
+        "note": "تَضُمُّ الصَّفْحَةُ الْمَطْبُوعَةُ ١٣ «أَسْرَعَ» الْفِعْلَ الْمَاضِيَ، وَ«أَسْرَعُ» اسْمَ التَّفْضِيلِ فِي مَدْخَلٍ مُسْتَقِلٍّ. الْمَدْخَلُ الْأَخِيرُ غَيْرُ مُمَثَّلٍ فِي هَذِهِ الْقِطْعَةِ مِنَ الْمُدَوَّنَةِ."
       }
     },
     {
@@ -11398,9 +11402,10 @@
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "أَشَارَ الْمُرْشِدُ إِلَى الطَّرِيقِ."
+        "أَشَارَ الْمُرْشِدُ إِلَى الطَّرِيقِ.",
+        "أَشَارَ الْمُعَلِّمُ عَلَى الطَّالِبِ بِالْمُرَاجَعَةِ."
       ],
-      "usage_note_ar": "يُنْظَرُ إِلَى صِيغَةِ الْمَاضِي وَالْمُضَارِعِ وَالْمَصْدَرِ عِنْدَ تَحْلِيلِ الْفِعْلِ.",
+      "usage_note_ar": "يُقَالُ: أَشَارَ إِلَى الشَّيْءِ إِذَا دَلَّ عَلَيْهِ، وَأَشَارَ عَلَيْهِ بِالرَّأْيِ إِذَا نَصَحَهُ بِهِ.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
@@ -12700,7 +12705,9 @@
       "id": "bayna_scan_v1_341",
       "arabic": "أَصَابَ",
       "meaning_ar": "وَصَلَ إِلَى الْهَدَفِ أَوْ نَالَ شَيْئًا.",
-      "additional_meanings_ar": [],
+      "additional_meanings_ar": [
+        "حَدَثَ لِلشَّخْصِ أَمْرٌ أَوْ نَزَلَ بِهِ؛ يُقَالُ: أَصَابَتْهُ مُصِيبَةٌ."
+      ],
       "grammar": [
         "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُصِيبُ؛ الْمَصْدَرُ: إِصَابَةٌ."
       ],
@@ -12708,9 +12715,10 @@
       "antonyms": [],
       "collocations": [],
       "examples_ar": [
-        "أَصَابَ السَّهْمُ الْهَدَفَ."
+        "أَصَابَ السَّهْمُ الْهَدَفَ.",
+        "أَصَابَتْهُ مُصِيبَةٌ فَصَبَرَ."
       ],
-      "usage_note_ar": "يُنْظَرُ إِلَى صِيغَةِ الْمَاضِي وَالْمُضَارِعِ وَالْمَصْدَرِ عِنْدَ تَحْلِيلِ الْفِعْلِ.",
+      "usage_note_ar": "يَأْتِي أَصَابَ بِمَعْنَى بَلَغَ الْهَدَفَ، وَيَأْتِي بِمَعْنَى وَقَعَ لَهُ أَمْرٌ؛ فَالْمَعْنَى يُحَدِّدُهُ السِّيَاقُ.",
       "book_references": [],
       "sources": [
         "https://saaid.org/book/open.php?book=11997"
