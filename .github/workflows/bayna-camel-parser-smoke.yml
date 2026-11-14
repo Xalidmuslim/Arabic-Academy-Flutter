@@ -1,0 +1,60 @@
+name: Bayna CamelParser syntax smoke test (isolated legacy environment)
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/bayna-audit-three-tools-20261114
+    paths:
+      - '.github/workflows/bayna-camel-parser-smoke.yml'
+permissions:
+  contents: read
+jobs:
+  parser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11.13'
+      - name: Clone pinned CamelParser into temporary workspace
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone https://github.com/CAMeL-Lab/camel_parser.git "$RUNNER_TEMP/camel_parser"
+          git -C "$RUNNER_TEMP/camel_parser" checkout --detach 66f29f7e34e3b5b38780d08bd56cf481635bf1c6
+      - name: Install isolated legacy dependencies and model assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m pip install -r "$RUNNER_TEMP/camel_parser/requirements.txt"
+          camel_data -i light
+          (cd "$RUNNER_TEMP/camel_parser" && python3 download_models.py)
+      - name: Verify syntax CLI on one Arabic sentence
+        shell: bash
+        run: |
+          set -euo pipefail
+          (cd "$RUNNER_TEMP/camel_parser" && python3 text_to_conll_cli.py -f text -d mle -m catib -s 'هَذَا كِتَابٌ جَمِيلٌ.' > "$RUNNER_TEMP/camel-parser-probe.conll")
+          test -s "$RUNNER_TEMP/camel-parser-probe.conll"
+          head -n 8 "$RUNNER_TEMP/camel-parser-probe.conll"
+      - name: Analyze one Bayna example using the existing safe adapter
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/bayna_linguistic_audit.py --repo . --limit 1 --output camel-parser-smoke.json \
+            --parser-repo "$RUNNER_TEMP/camel_parser" --parser-python "$(command -v python3)" --parser-max-entries 1
+          python3 - <<'PY'
+          import json
+          d = json.load(open('camel-parser-smoke.json', encoding='utf-8'))
+          assert d['summary']['entries'] == 1
+          status = d['results'][0]['syntax'][0]['status']
+          assert status == 'ok', f'CamelParser not operational: {d["results"][0]["syntax"]}'
+          print('CamelParser real sentence analysis passed')
+          PY
+      - name: Save parsed-sentence audit only (exclude models)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bayna-camel-parser-smoke
+          path: camel-parser-smoke.json
+          if-no-files-found: warn
