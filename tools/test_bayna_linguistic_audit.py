@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from bayna_linguistic_audit import audit, iter_entries, root_from_grammar, quran_lookup, to_arabic, valid_arabic
+from bayna_linguistic_audit import audit, iter_entries, root_from_grammar, quran_lookup, to_arabic, valid_arabic, comparable_diac
 
 
 class FakeMorph:
@@ -35,6 +35,14 @@ class BaynaLinguisticAuditTests(unittest.TestCase):
             self.assertEqual(result["summary"]["entries"], 2)
             self.assertEqual(result["engines"]["camel_tools"], "enabled")
             self.assertFalse(any(x["code"] == "missing_synonyms" for x in result["results"][0]["findings"]))
+
+    def test_optional_fatha_before_alif_is_not_a_diacritic_error(self):
+        self.assertEqual(comparable_diac("كِتَابٌ"), comparable_diac("كِتابٌ"))
+        self.assertEqual(comparable_diac("بَابٌ"), comparable_diac("بابٌ"))
+        self.assertEqual(comparable_diac("جَامِعَةٌ"), comparable_diac("جامِعَةٌ"))
+        # Genuine consonantal vowel distinctions must remain visible.
+        self.assertNotEqual(comparable_diac("كَتَبَ"), comparable_diac("كُتِبَ"))
+        self.assertNotEqual(comparable_diac("كِتَابٌ"), comparable_diac("كُتّابٌ"))
 
     def test_diacritics_and_foreign_text_flagged_not_fixed(self):
         e = {"id": "1", "word": "كتاب", "meaning": ["Привет"], "grammar": ["اِسْمٌ"], "examples": ["هذا كتاب"], "important": ["معنى"]}
