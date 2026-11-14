@@ -79,3 +79,21 @@ Continue with online-page 34 / printed-page 30 only after the candidate-word lis
 - The existing CI for reviewed lexicon tests structural data, Python lexical QA, Flutter tests, and static analysis.
 - A failing-test-first pass caught two NFC problems and one missing vowel-sensitive homograph distinction; the minimal data patch then resolved these.
 - New entries retain `source_text_status=online_ocr_page_located_arabic_editorial_first_pass_pending_print_image_proofread` and do not set the stronger `source_review` flag.
+
+### Critical attachment-coverage finding — CI audit
+
+The exact complete **successful** CI audit for commit `2434b8c67f459771c58be0c019194432ebe00b47` reports:
+
+- **7,584** unique fully vocalized corpus headwords (this number supersedes earlier approximate reporting of 7,591).
+- **594** reviewed article overlays.
+- **581** unambiguously attached article overlays.
+- **13** article overlays NOT ATTACHED; all are from the 20 newly drafted records.
+- **7** of the 20 new editorial overlays therefore match existing corpus words.
+- **7,003** corpus words lack an attached reviewed article.
+
+The 13 unlinked first-pass entries:
+`أَكْثَرَ`, `أَكْرَمَ`, `أَلْغَى`, `أَلْفٌ`, `أَمَامَ`, `أَمَاطَ`, `إِمَامٌ`, `أُكْذُوبَةٌ`, `أُلْفَةٌ`, `أَلِيمٌ`, `أَلْهَمَ`, `إِمَارَةٌ`, `أَمَاتَ`.
+
+**Do not imply these 13 are already displayed in the app.** Their reviewed article records exist but are not matched by canonical fully vowelled headword in the current corpus. Before publication or linking: verify source scan letters and vowel patterns, disambiguate same-bare-letters senses, then attach/add an appropriate canonical record preserving original IDs and bookmarks. Do **not** force a bare-letter match, strip vowels, or silently graft an article onto a different inflection.
+
+The test pipeline passed but did not treat this content-coverage gap as a failure; it is therefore an explicit outstanding release blocker for considering the 20-record expansion complete.
