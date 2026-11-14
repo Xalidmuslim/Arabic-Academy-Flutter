@@ -58,6 +58,16 @@ class OriginalPrintedPages12To15(unittest.TestCase):
         self.assertIn("إِسْمَاعٌ",row["grammar"][0])
         self.assertIn("جَعَلَ",row["meaning_ar"])
 
+    def test_original_has_distinct_asra3_comparative_not_only_the_verb(self):
+        word=next(e for e in self.subset if e["arabic"]=="أَسْرَعَ")
+        proof=word["visual_verification"]
+        self.assertIn("أَسْرَعُ",proof["uncovered_source_headwords"])
+
+    def test_original_fish_plural_has_correct_singular(self):
+        fish=next(e for e in self.subset if e["arabic"]=="أَسْمَاكٌ")
+        self.assertIn("سَمَكَةٍ",fish["grammar"][0])
+        self.assertEqual(self.overlays[canon("أَسْمَاكٌ")]["grammar"][0]["ar"],fish["grammar"][0])
+
     def test_vocalized_homographs_not_collapsed(self):
         headwords={canon(e["arabic"]) for e in self.subset}
         for w in ("أُسْقُفٌ","أَسْقُفٌ","أَشْهَرُ","أَشْهَرَ","أَسْرَى"):
