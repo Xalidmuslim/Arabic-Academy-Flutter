@@ -62,8 +62,8 @@ class SpecificArabicUsageNotes(unittest.TestCase):
                     "independently_authored_pending_separate_i3rab_review",
                 )
 
-    def test_no_boilerplate_note_remains_in_594_reviewed_articles(self):
-        self.assertEqual(len(self.review), 594)
+    def test_no_boilerplate_note_remains_in_reviewed_articles(self):
+        self.assertEqual(len(self.review), 626)
         for word, article in self.review.items():
             with self.subTest(word=word):
                 self.assertFalse(
