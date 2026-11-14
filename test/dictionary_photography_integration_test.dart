@@ -10,7 +10,9 @@ void main() {
       await File('assets/data/corpus_manifest.json').readAsString(),
     ) as Map<String, dynamic>;
     final paths = (manifest['files'] as List<dynamic>).cast<String>();
-    expect(paths, hasLength(82));
+    expect(paths, hasLength(83));
+    expect(paths.toSet(), hasLength(paths.length));
+    expect(paths, contains('assets/data/entries_bayna_scan_restored_print_20261114.json'));
     expect(paths, contains('assets/data/entries_editorial_photography_20261101.json'));
 
     final texts = await Future.wait(paths.map((path) => File(path).readAsString()));
@@ -20,7 +22,7 @@ void main() {
       for (var i = 0; i < paths.length; i++)
         if (paths[i] != scanFile) texts[i],
     ]);
-    expect(beforeSource, hasLength(7138));
+    expect(beforeSource, hasLength(7139));
     final originalByHeadword = {for (final w in beforeSource) w.arabic: w};
     final expectedNew = (jsonDecode(await File(scanFile).readAsString())
             as Map<String, dynamic>)['entries'] as List<dynamic>;
@@ -31,6 +33,13 @@ void main() {
         .toSet();
     expect(merged, hasLength(beforeSource.length + newHeadwords.length));
     final afterByHeadword = {for (final word in merged) word.arabic: word};
+    // The original أُضْحِيَّةٌ card existed with its NFC spelling and ID.
+    // The newly print-reviewed overlay must enrich it, not introduce a duplicate.
+    final originalCorpus = decodeWords(await File('assets/data/entries.json').readAsString());
+    final originalSacrifice = originalCorpus.singleWhere((w) => w.arabic == 'أُضْحِيَّةٌ');
+    expect(afterByHeadword['أُضْحِيَّةٌ']?.id, originalSacrifice.id);
+    expect(merged.where((w) => w.arabic == 'أُضْحِيَّةٌ'), hasLength(1));
+    expect(afterByHeadword, contains('أَسْمَعُ'));
     for (final original in beforeSource) {
       expect(afterByHeadword[original.arabic]?.id, original.id,
           reason: 'Original stable word ID must remain: ${original.arabic}');
