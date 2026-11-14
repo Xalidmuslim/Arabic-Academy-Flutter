@@ -29,6 +29,19 @@ class FirstPassArabicEditorialTest(unittest.TestCase):
         self.assertEqual(len(names), len(set(names)))
         self.assertEqual(set(names), set(EXPECTED))
 
+
+    def test_arabic_headwords_use_nfc(self):
+        import unicodedata
+        for e in self.batch:
+            with self.subTest(e=e["arabic"]):
+                self.assertEqual(e["arabic"], unicodedata.normalize("NFC", e["arabic"]))
+
+    def test_emirate_vowel_contrast_is_explicit(self):
+        article = next(e for e in self.batch if e["arabic"] == "إِمَارَةٌ")
+        notes = " ".join(f["ar"] for f in article["important"])
+        self.assertIn("أَمَارَةٍ", notes, "Distinguish إِمَارَةٌ from أَمَارَةٌ")
+        self.assertIn("إِمَارَةٍ", notes)
+
     def test_no_false_claim_of_visual_scan_review(self):
         for e in self.batch:
             with self.subTest(e=e["arabic"]):
