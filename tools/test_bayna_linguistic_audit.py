@@ -51,6 +51,9 @@ class BaynaLinguisticAuditTests(unittest.TestCase):
             matches = quran_lookup(p, "كِتَابٌ", "كتب", limit=2)
             self.assertEqual(matches[0]["location"], "(1:2:3:1)")
             self.assertEqual(matches[0]["match_type"], "root_reference")
+            # Only a reference location is retained in public audit artifacts.
+            # Do not reproduce third-party Quranic morphological annotations.
+            self.assertEqual(set(matches[0]), {"location", "match_type"})
             self.assertEqual(to_arabic("kitAb"), "كِتاب")
             self.assertEqual(quran_lookup(p, "سَلَامٌ", "سلم"), [])
 
