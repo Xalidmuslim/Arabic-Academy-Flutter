@@ -6,6 +6,8 @@ on:
       - codex/bayna-audit-three-tools-20261114
     paths:
       - '.github/workflows/bayna-camel-morphology-sample.yml'
+      - 'tools/bayna_linguistic_audit.py'
+      - 'tools/test_bayna_linguistic_audit.py'
 permissions:
   contents: read
 jobs:
