@@ -1,0 +1,85 @@
+{
+  "schema_version": 3,
+  "source_status": "printed_lemma_and_gloss_manually_checked_original_pdf_independent_examples_pending",
+  "original_scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "entries": [
+    {
+      "id": "bayna_scan_print_restored_20261114_001",
+      "arabic": "أَسْمَعُ",
+      "meaning_ar": "كَثِيرُ السَّمْعِ، أَكْثَرُ إِصْغَاءً.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ أَفْعَلَ، وَجَذْرُهُ: س ـ م ـ ع.",
+        "تُسْتَعْمَلُ صِيغَةُ «أَسْمَعُ» لِلدَّلَالَةِ عَلَى شِدَّةِ السَّمْعِ أَوْ كَثْرَةِ الْإِصْغَاءِ بِحَسَبِ السِّيَاقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [],
+      "examples_ar": [
+        "الطَّالِبُ الْمُجْتَهِدُ أَسْمَعُ لِشَرْحِ الْمُعَلِّمِ مِنْ صَاحِبِهِ."
+      ],
+      "usage_note_ar": "«أَسْمَعُ» فِي هَذَا الْمَوْضِعِ اِسْمُ تَفْضِيلٍ، وَلَيْسَ الْفِعْلَ الْمَاضِيَ «أَسْمَعَ». وَقَدْ تَكُونُ «أَسْمَعُ» أَيْضًا فِعْلًا مُضَارِعًا لِلْمُتَكَلِّمِ، وَيُعْرَفُ الْمَعْنَى مِنَ السِّيَاقِ.",
+      "book_references": [],
+      "sources": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/سمع"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "text_status": "original_printed_headword_and_gloss_manually_verified_new_independent_example_pending_proofread"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "checked_on": "2026-11-14",
+        "status": "printed_lemma_and_gloss_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_lemma_and_short_gloss_only_original_example_not_given"
+      }
+    },
+    {
+      "id": "bayna_scan_print_restored_20261114_002",
+      "arabic": "أُضْحِيَّةٌ",
+      "meaning_ar": "الشَّاةُ أَوْ نَحْوُهَا مِمَّا يُضَحَّى بِهِ فِي عِيدِ الْأَضْحَى.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمٌ مُؤَنَّثٌ، وَجَذْرُهُ: ض ـ ح ـ ي.",
+        "الْمُفْرَدُ: أُضْحِيَّةٌ. الْجَمْعُ: أَضَاحِي."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "عِيدُ الْأَضْحَى"
+      ],
+      "examples_ar": [
+        "ذَبَحَ الرَّجُلُ أُضْحِيَّةً يَوْمَ عِيدِ الْأَضْحَى."
+      ],
+      "usage_note_ar": "«أُضْحِيَّةٌ» اِسْمٌ لِمَا يُذْبَحُ تَقَرُّبًا إِلَى اللَّهِ فِي وَقْتِ الْأُضْحِيَّةِ، وَجَمْعُهَا «أَضَاحِي». وَلَا تُخْلَطُ بِالْفِعْلِ «أَضْحَى» الَّذِي يَدُلُّ عَلَى الصَّيْرُورَةِ أَوِ الدُّخُولِ فِي وَقْتِ الضُّحَى.",
+      "book_references": [],
+      "sources": [
+        "https://almougem.com/search.php?mdatabase=lmougem&query=%D8%B6%D8%AD%D9%8A"
+      ],
+      "source_group": "original_arabic_editorial_after_visual_review_of_scan",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 21,
+        "printed_page": 17,
+        "text_status": "original_printed_headword_and_gloss_manually_verified_new_independent_example_pending_proofread"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 21,
+        "printed_page": 17,
+        "checked_on": "2026-11-14",
+        "status": "printed_lemma_and_gloss_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_lemma_gloss_plural_only_new_example_separate"
+      }
+    }
+  ]
+}
