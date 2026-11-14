@@ -25654,6 +25654,1288 @@
         "printed_page": 29,
         "status": "printed_lemma_and_senses_visually_checked_examples_independently_authored"
       }
+    },
+    {
+      "arabic": "مَنْهَجٌ",
+      "definition": [
+        {
+          "ar": "خُطَّةٌ مُنَظَّمَةٌ تَتَضَمَّنُ مَوَادَّ الدِّرَاسَةِ وَأَهْدَافَهَا وَطَرَائِقَ تَعْلِيمِهَا."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُذَكَّرٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ن ـ ه ـ ج."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مَنْهَجٌ. الْجَمْعُ: مَنَاهِجُ."
+        }
+      ],
+      "synonyms": [
+        {
+          "ar": "مِنْهَاجٌ: يُقَارِبُهُ فِي مَعْنَى الطَّرِيقَةِ الْوَاضِحَةِ."
+        }
+      ],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "وَضَعَتِ الْمَدْرَسَةُ مَنْهَجًا جَدِيدًا."
+        },
+        {
+          "ar": "يَتَّبِعُ الْبَاحِثُ مَنْهَجًا وَاضِحًا فِي دِرَاسَتِهِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "الْمَنْهَجُ خُطَّةٌ مُنَظَّمَةٌ لِلْعَمَلِ أَوِ الدِّرَاسَةِ؛ وَيُقَالُ: مَنْهَجُ الْبَحْثِ وَالْمَنْهَجُ الدِّرَاسِيُّ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/نهج"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُقَرَّرٌ",
+      "definition": [
+        {
+          "ar": "مَادَّةٌ دِرَاسِيَّةٌ مُحَدَّدَةٌ يَلْتَزِمُ الطَّالِبُ بِتَعَلُّمِهَا فِي مُدَّةٍ مَعْلُومَةٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ مَفْعُولٍ مِنَ الْفِعْلِ «قَرَّرَ»."
+        },
+        {
+          "ar": "الْجَذْرُ: ق ـ ر ـ ر."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُقَرَّرٌ. الْجَمْعُ: مُقَرَّرَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "أَنْهَى الطَّالِبُ الْمُقَرَّرَ قَبْلَ الِاخْتِبَارِ."
+        },
+        {
+          "ar": "يُرَاجِعُ الطَّالِبُ مُقَرَّرَ النَّحْوِ قَبْلَ الِامْتِحَانِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "الْمُقَرَّرُ الدِّرَاسِيُّ مَادَّةٌ أَوْ مَحْتَوًى مُحَدَّدٌ، أَمَّا الْمَنْهَجُ فَيَشْمَلُ الْخُطَّةَ وَالْأَهْدَافَ وَطَرَائِقَ التَّدْرِيسِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "حِصَّةٌ",
+      "definition": [
+        {
+          "ar": "فَتْرَةٌ زَمَنِيَّةٌ مُخَصَّصَةٌ لِتَدْرِيسِ مَادَّةٍ أَوْ مُزَاوَلَةِ نَشَاطٍ."
+        },
+        {
+          "ar": "الْحِصَّةُ هِيَ النَّصِيبُ الْمُخَصَّصُ لِشَخْصٍ مِنْ شَيْءٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ح ـ ص ـ ص."
+        },
+        {
+          "ar": "الْمُفْرَدُ: حِصَّةٌ. الْجَمْعُ: حِصَصٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "بَدَأَتْ حِصَّةُ الْعَرَبِيَّةِ فِي الصَّبَاحِ."
+        },
+        {
+          "ar": "تَسْتَغْرِقُ حِصَّةُ الْقِرَاءَةِ خَمْسًا وَأَرْبَعِينَ دَقِيقَةً."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تَأْتِي «حِصَّةٌ» بِمَعْنَى وَقْتِ الدَّرْسِ أَوْ نَصِيبِ الشَّخْصِ مِنْ شَيْءٍ؛ فَيُحَدِّدُ السِّيَاقُ الْمَعْنَى."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/حصص"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُحَاضَرَةٌ",
+      "definition": [
+        {
+          "ar": "حَدِيثٌ عِلْمِيٌّ مُنَظَّمٌ يُلْقِيهِ مُتَخَصِّصٌ أَمَامَ مُسْتَمِعِينَ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرٌ لِلْفِعْلِ «حَاضَرَ»، وَيُسْتَعْمَلُ اسْمًا لِلدَّرْسِ الْمُلْقَى."
+        },
+        {
+          "ar": "الْجَذْرُ: ح ـ ض ـ ر."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُحَاضَرَةٌ. الْجَمْعُ: مُحَاضَرَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "حَضَرَ الطُّلَّابُ مُحَاضَرَةً عَنِ التَّارِيخِ."
+        },
+        {
+          "ar": "أَلْقَى الْأُسْتَاذُ مُحَاضَرَةً فِي عِلْمِ اللُّغَةِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تُرَكِّزُ الْمُحَاضَرَةُ غَالِبًا عَلَى الْعَرْضِ وَالشَّرْحِ، أَمَّا النَّدْوَةُ فَقَدْ يَشْتَرِكُ فِيهَا عِدَّةُ مُتَحَدِّثِينَ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "نَدْوَةٌ",
+      "definition": [
+        {
+          "ar": "لِقَاءٌ يَتَحَدَّثُ فِيهِ عِدَّةُ مُتَخَصِّصِينَ عَنْ مَوْضُوعٍ وَاحِدٍ وَيَتَنَاقَشُونَ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ن ـ د ـ و."
+        },
+        {
+          "ar": "الْمُفْرَدُ: نَدْوَةٌ. الْجَمْعُ: نَدَوَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "نَظَّمَتِ الْمَكْتَبَةُ نَدْوَةً لِلْقُرَّاءِ."
+        },
+        {
+          "ar": "شَارَكَ ثَلَاثَةُ بَاحِثِينَ فِي نَدْوَةٍ عِلْمِيَّةٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "فِي النَّدْوَةِ يَجْتَمِعُ الْمُتَحَدِّثُونَ لِلْحِوَارِ حَوْلَ مَوْضُوعٍ، وَلَا تُسَاوِي الْمُحَاضَرَةَ فِي جَمِيعِ السِّيَاقَاتِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "وَرْشَةٌ",
+      "definition": [
+        {
+          "ar": "لِقَاءٌ عَمَلِيٌّ يَتَدَرَّبُ فِيهِ الْمُشَارِكُونَ عَلَى مَهَارَةٍ مُحَدَّدَةٍ."
+        },
+        {
+          "ar": "الْوَرْشَةُ مَكَانٌ تُنْجَزُ فِيهِ أَعْمَالٌ حِرَفِيَّةٌ أَوْ صِنَاعِيَّةٌ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ يُطْلَقُ عَلَى مَكَانِ الْعَمَلِ الْحِرَفِيِّ وَالنَّشَاطِ التَّدْرِيبِيِّ."
+        },
+        {
+          "ar": "تَأْتِي الْكَلِمَةُ فِي الِاسْتِعْمَالِ الْحَدِيثِ بِمَعْنًى اِصْطِلَاحِيٍّ."
+        },
+        {
+          "ar": "الْمُفْرَدُ: وَرْشَةٌ. الْجَمْعُ: وَرْشَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "حَضَرَتْ وَرْشَةً لِتَعَلُّمِ الْخَطِّ."
+        },
+        {
+          "ar": "تَعَلَّمَ الْمُشَارِكُونَ مَهَارَةَ الْكِتَابَةِ فِي وَرْشَةِ عَمَلٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«وَرْشَةُ عَمَلٍ» نَشَاطٌ تَطْبِيقِيٌّ، أَمَّا «وَرْشَةُ نِجَارَةٍ» فَمَكَانٌ لِمُمَارَسَةِ الْحِرْفَةِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُدَرِّسٌ",
+      "definition": [
+        {
+          "ar": "شَخْصٌ يَقُومُ بِشَرْحِ الْمَعْلُومَاتِ وَتَدْرِيبِ الطُّلَّابِ عَلَى فَهْمِهَا."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ فَاعِلٍ مِنَ الْفِعْلِ «دَرَّسَ»، وَمُؤَنَّثُهُ «مُدَرِّسَةٌ»."
+        },
+        {
+          "ar": "الْجَذْرُ: د ـ ر ـ س."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُدَرِّسٌ. الْجَمْعُ: مُدَرِّسُونَ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "شَرَحَ الْمُدَرِّسُ الْمَسْأَلَةَ بِوُضُوحٍ."
+        },
+        {
+          "ar": "يَشْرَحُ الْمُدَرِّسُ الْقَاعِدَةَ ثُمَّ يَطْلُبُ أَمْثِلَةً."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«مُدَرِّسٌ» مَنْ يَقُومُ بِالتَّدْرِيسِ، وَ«مُتَعَلِّمٌ» مَنْ يَتَلَقَّى الْعِلْمَ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُتَعَلِّمٌ",
+      "definition": [
+        {
+          "ar": "شَخْصٌ يَكْتَسِبُ الْعِلْمَ أَوِ الْمَهَارَةَ بِالدِّرَاسَةِ وَالْمُمَارَسَةِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ فَاعِلٍ مِنْ «تَعَلَّمَ»، وَمُؤَنَّثُهُ «مُتَعَلِّمَةٌ»."
+        },
+        {
+          "ar": "الْجَذْرُ: ع ـ ل ـ م."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُتَعَلِّمٌ. الْجَمْعُ: مُتَعَلِّمُونَ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "يَحْتَاجُ الْمُتَعَلِّمُ إِلَى الْمُرَاجَعَةِ."
+        },
+        {
+          "ar": "يَسْأَلُ الْمُتَعَلِّمُ عَنْ مَعْنَى الْكَلِمَةِ الْجَدِيدَةِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يَصْلُحُ هَذَا الِاسْمُ لِمَنْ يَتَعَلَّمُ فِي الْمَدْرَسَةِ أَوْ خَارِجَهَا."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُبْتَدِئٌ",
+      "definition": [
+        {
+          "ar": "شَخْصٌ دَخَلَ فِي تَعَلُّمِ شَيْءٍ حَدِيثًا وَلَمْ يَكْتَسِبْ فِيهِ خِبْرَةً كَبِيرَةً."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ فَاعِلٍ مِنْ «اِبْتَدَأَ»، وَمُؤَنَّثُهُ «مُبْتَدِئَةٌ»."
+        },
+        {
+          "ar": "الْجَذْرُ: ب ـ د ـ أ."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُبْتَدِئٌ. الْجَمْعُ: مُبْتَدِئُونَ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [
+        {
+          "ar": "مُتَقَدِّمٌ: مُقَابِلٌ فِي سِيَاقِ مُسْتَوَى التَّعَلُّمِ."
+        }
+      ],
+      "examples": [
+        {
+          "ar": "يَقْرَأُ الْمُبْتَدِئُ جُمَلًا قَصِيرَةً."
+        },
+        {
+          "ar": "يَحْتَاجُ الْمُبْتَدِئُ إِلَى شَرْحٍ بَسِيطٍ وَأَمْثِلَةٍ وَاضِحَةٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«مُبْتَدِئٌ» يَدُلُّ عَلَى قِلَّةِ الْخِبْرَةِ فِي مَجَالٍ مُعَيَّنٍ، لَا عَلَى قِلَّةِ الْعِلْمِ مُطْلَقًا."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُتَقَدِّمٌ",
+      "definition": [
+        {
+          "ar": "شَخْصٌ بَلَغَ مَرْحَلَةً عَالِيَةً فِي تَعَلُّمِ مَجَالٍ أَوْ مُمَارَسَتِهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ فَاعِلٍ مِنْ «تَقَدَّمَ»، وَمُؤَنَّثُهُ «مُتَقَدِّمَةٌ»."
+        },
+        {
+          "ar": "الْجَذْرُ: ق ـ د ـ م."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُتَقَدِّمٌ. الْجَمْعُ: مُتَقَدِّمُونَ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [
+        {
+          "ar": "مُبْتَدِئٌ: مُقَابِلٌ فِي سِيَاقِ دَرَجَةِ الْخِبْرَةِ."
+        }
+      ],
+      "examples": [
+        {
+          "ar": "يَحْلُّ الْمُتَقَدِّمُ مَسَائِلَ مُعَقَّدَةً."
+        },
+        {
+          "ar": "يَقْرَأُ الْمُتَقَدِّمُ نُصُوصًا أَطْوَلَ وَأَشَدَّ تَعْقِيدًا."
+        }
+      ],
+      "important": [
+        {
+          "ar": "قَدْ يَدُلُّ «مُتَقَدِّمٌ» عَلَى الْمُسْتَوَى الْعَالِي أَوْ عَلَى السَّبْقِ فِي الزَّمَنِ وَالتَّرْتِيبِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "تَمْرِينٌ",
+      "definition": [
+        {
+          "ar": "عَمَلٌ مُتَكَرِّرٌ يَقْصِدُ بِهِ الْمُتَعَلِّمُ تَثْبِيتَ مَهَارَةٍ أَوْ تَطْبِيقَ قَاعِدَةٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرٌ مِنْ «مَرَّنَ»، وَيُسْتَعْمَلُ اسْمًا لِلنَّشَاطِ التَّطْبِيقِيِّ."
+        },
+        {
+          "ar": "الْجَذْرُ: م ـ ر ـ ن."
+        },
+        {
+          "ar": "الْمُفْرَدُ: تَمْرِينٌ. الْجَمْعُ: تَمَارِينُ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "أَكْمَلَتِ الطَّالِبَةُ تَمْرِينَ النَّحْوِ."
+        },
+        {
+          "ar": "حَلَّ الطَّالِبُ تَمْرِينَيْنِ فِي قَوَاعِدِ الْعَرَبِيَّةِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تُسْتَعْمَلُ «تَمَارِينُ» فِي الدِّرَاسَةِ وَالرِّيَاضَةِ، وَتُحَدِّدُ الْإِضَافَةُ مَجَالَ التَّمْرِينِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "وَاجِبٌ",
+      "definition": [
+        {
+          "ar": "عَمَلٌ يُطْلَبُ مِنَ الطَّالِبِ أَنْ يُنْجِزَهُ خَارِجَ الْحِصَّةِ أَوْ دَاخِلَهَا."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ فَاعِلٍ مِنْ «وَجَبَ»، وَيُسْتَعْمَلُ اسْمًا لِلْمُهِمَّةِ الْمَطْلُوبَةِ."
+        },
+        {
+          "ar": "الْجَذْرُ: و ـ ج ـ ب."
+        },
+        {
+          "ar": "الْمُفْرَدُ: وَاجِبٌ. الْجَمْعُ: وَاجِبَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "سَلَّمَ الطَّالِبُ وَاجِبَهُ فِي الْمَوْعِدِ."
+        },
+        {
+          "ar": "كَتَبَ الْطَّالِبُ وَاجِبَهُ الْمَنْزِلِيَّ فِي دَفْتَرِهِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يُقَالُ: «وَاجِبٌ مَنْزِلِيٌّ» فِي الدِّرَاسَةِ، وَ«وَاجِبٌ أَخْلَاقِيٌّ» فِي مَجَالِ الْمَسْؤُولِيَّةِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "اِخْتِبَارٌ",
+      "definition": [
+        {
+          "ar": "وَسِيلَةٌ لِقِيَاسِ مَا فَهِمَهُ الْمُتَعَلِّمُ وَمَا يَسْتَطِيعُ أَدَاءَهُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرٌ لِلْفِعْلِ «اِخْتَبَرَ»، وَالْمُضَارِعُ «يَخْتَبِرُ»."
+        },
+        {
+          "ar": "الْجَذْرُ: خ ـ ب ـ ر."
+        },
+        {
+          "ar": "الْمُفْرَدُ: اِخْتِبَارٌ. الْجَمْعُ: اِخْتِبَارَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "اِسْتَعَدَّ الطُّلَّابُ لِلِاخْتِبَارِ النِّهَائِيِّ."
+        },
+        {
+          "ar": "أَجْرَتِ الْمَدْرَسَةُ اخْتِبَارًا قَصِيرًا فِي الْإِمْلَاءِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يُسْتَعْمَلُ «اِخْتِبَارٌ» لِلتَّقْوِيمِ الدِّرَاسِيِّ وَلِلتَّحَقُّقِ مِنْ صَلَاحِيَّةِ شَيْءٍ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "اِمْتِحَانٌ",
+      "definition": [
+        {
+          "ar": "إِجْرَاءٌ تُطْرَحُ فِيهِ أَسْئِلَةٌ لِتَقْوِيمِ مَعْرِفَةِ الشَّخْصِ وَقُدْرَتِهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرٌ لِلْفِعْلِ «اِمْتَحَنَ»، وَالْمُضَارِعُ «يَمْتَحِنُ»."
+        },
+        {
+          "ar": "الْجَذْرُ: م ـ ح ـ ن."
+        },
+        {
+          "ar": "الْمُفْرَدُ: اِمْتِحَانٌ. الْجَمْعُ: اِمْتِحَانَاتٌ."
+        }
+      ],
+      "synonyms": [
+        {
+          "ar": "اِخْتِبَارٌ: مُرَادِفٌ سِيَاقِيٌّ فِي تَقْوِيمِ الطُّلَّابِ."
+        }
+      ],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "نَجَحَتِ الطَّالِبَةُ فِي الِامْتِحَانِ."
+        },
+        {
+          "ar": "اِسْتَعَدَّتِ الطَّالِبَةُ لِلِامْتِحَانِ النِّهَائِيِّ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«اِمْتِحَانٌ» وَ«اِخْتِبَارٌ» مُتَقَارِبَانِ فِي السِّيَاقِ الدِّرَاسِيِّ وَلَا يَتَطَابَقَانِ فِي جَمِيعِ الِاسْتِعْمَالَاتِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "دَرَجَةٌ",
+      "definition": [
+        {
+          "ar": "عَلَامَةٌ رَقْمِيَّةٌ أَوْ وَصْفِيَّةٌ تُبَيِّنُ مُسْتَوَى أَدَاءِ الطَّالِبِ."
+        },
+        {
+          "ar": "الدَّرَجَةُ مِقْدَارٌ يُسْتَعْمَلُ لِقِيَاسِ الْحَرَارَةِ أَوْ تَحْدِيدِ مَرْتَبَةٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: د ـ ر ـ ج."
+        },
+        {
+          "ar": "الْمُفْرَدُ: دَرَجَةٌ. الْجَمْعُ: دَرَجَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "حَصَلَتْ عَلَى دَرَجَةٍ مُرْتَفِعَةٍ."
+        },
+        {
+          "ar": "حَصَلَ الْمُتَعَلِّمُ عَلَى دَرَجَةٍ مُرْتَفِعَةٍ فِي الِاخْتِبَارِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تَدُلُّ «دَرَجَةٌ» عَلَى عَلَامَةِ الِاخْتِبَارِ أَوِ الْمَرْتَبَةِ أَوْ مِقْدَارِ الْحَرَارَةِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "نَتِيجَةٌ",
+      "definition": [
+        {
+          "ar": "مَا يَظْهَرُ بَعْدَ عَمَلٍ أَوْ تَجْرِبَةٍ أَوْ اِخْتِبَارٍ مِنْ أَثَرٍ مَعْلُومٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ن ـ ت ـ ج."
+        },
+        {
+          "ar": "الْمُفْرَدُ: نَتِيجَةٌ. الْجَمْعُ: نَتَائِجُ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "ظَهَرَتْ نَتِيجَةُ الِاخْتِبَارِ الْيَوْمَ."
+        },
+        {
+          "ar": "أَعْلَنَتِ الْمَدْرَسَةُ نَتَائِجَ الِاخْتِبَارِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تَكُونُ النَّتِيجَةُ مَا يَتَرَتَّبُ عَلَى عَمَلٍ أَوْ تَجْرِبَةٍ، وَلَا تَقْتَصِرُ عَلَى عَلامَاتِ الطُّلَّابِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُرَاجَعَةٌ",
+      "definition": [
+        {
+          "ar": "إِعَادَةُ النَّظَرِ فِي مَعْلُومَاتٍ سَابِقَةٍ لِتَثْبِيتِهَا أَوْ تَصْحِيحِهَا."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرٌ لِلْفِعْلِ «رَاجَعَ»، وَالْمُضَارِعُ «يُرَاجِعُ»."
+        },
+        {
+          "ar": "الْجَذْرُ: ر ـ ج ـ ع."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُرَاجَعَةٌ. الْجَمْعُ: مُرَاجَعَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "خَصَّصَ وَقْتًا لِمُرَاجَعَةِ الْكَلِمَاتِ."
+        },
+        {
+          "ar": "يَخُصُّ الطَّالِبُ سَاعَةً لِمُرَاجَعَةِ الدُّرُوسِ كُلَّ يَوْمٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تَشْمَلُ الْمُرَاجَعَةُ تَثْبِيتَ الْمَعْلُومَاتِ وَتَصْحِيحَ الْأَخْطَاءِ وَإِعَادَةَ النَّظَرِ فِي الْوَثَائِقِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُلَخَّصٌ",
+      "definition": [
+        {
+          "ar": "نَصٌّ قَصِيرٌ يَجْمَعُ الْأَفْكَارَ الرَّئِيسِيَّةَ مِنْ نَصٍّ أَطْوَلَ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ مَفْعُولٍ مِنْ «لَخَّصَ»، وَيُسْتَعْمَلُ اسْمًا لِلنَّصِّ الْمُوجَزِ."
+        },
+        {
+          "ar": "الْجَذْرُ: ل ـ خ ـ ص."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُلَخَّصٌ. الْجَمْعُ: مُلَخَّصَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "كَتَبَ مُلَخَّصًا لِلْفَصْلِ الْأَوَّلِ."
+        },
+        {
+          "ar": "قَرَأَتِ الطَّالِبَةُ مُلَخَّصَ الْبَحْثِ قَبْلَ النِّقَاشِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يَحْفَظُ الْمُلَخَّصُ الْأَفْكَارَ الْأَسَاسِيَّةَ دُونَ اسْتِيعَابِ كُلِّ التَّفَاصِيلِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مِلَفٌّ",
+      "definition": [
+        {
+          "ar": "مَجْمُوعَةٌ مِنَ الْأَوْرَاقِ أَوِ الْبَيَانَاتِ الْمُنَظَّمَةِ وَالْمَحْفُوظَةِ مَعًا."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُذَكَّرٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ل ـ ف ـ ف."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مِلَفٌّ. الْجَمْعُ: مَلَفَّاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "حَفِظَ الْمُدَرِّسُ أَوْرَاقَ الطَّالِبِ فِي مِلَفٍّ."
+        },
+        {
+          "ar": "أَرْسَلَ الْبَاحِثُ مِلَفًّا رَقْمِيًّا إِلَى الْمُشْرِفِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يُسْتَعْمَلُ «مِلَفٌّ» لِلْأَوْرَاقِ الْمَجْمُوعَةِ وَلِبَيَانَاتِ الْحَاسُوبِ، وَالْجَمْعُ «مَلَفَّاتٌ»."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "شَهَادَةٌ",
+      "definition": [
+        {
+          "ar": "وَثِيقَةٌ رَسْمِيَّةٌ تُثْبِتُ إِتْمَامَ دِرَاسَةٍ أَوْ بُلُوغَ مُسْتَوًى مُحَدَّدٍ."
+        },
+        {
+          "ar": "الشَّهَادَةُ إِخْبَارٌ عَنْ أَمْرٍ شَهِدَهُ الْإِنْسَانُ أَوْ عَلِمَهُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ش ـ ه ـ د."
+        },
+        {
+          "ar": "الْمُفْرَدُ: شَهَادَةٌ. الْجَمْعُ: شَهَادَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "تَسَلَّمَ شَهَادَتَهُ بَعْدَ التَّخَرُّجِ."
+        },
+        {
+          "ar": "قَدَّمَ الْخَرِّيجُ شَهَادَةَ التَّخَرُّجِ عِنْدَ التَّوْظِيفِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "قَدْ تَكُونُ «الشَّهَادَةُ» وَثِيقَةً رَسْمِيَّةً أَوْ إِخْبَارًا عَمَّا شَاهَدَهُ الْإِنْسَانُ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مَكْتَبَةٌ",
+      "definition": [
+        {
+          "ar": "مَكَانٌ تُجْمَعُ فِيهِ الْكُتُبُ وَتُنَظَّمُ لِلْقِرَاءَةِ أَوِ الِاسْتِعَارَةِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ك ـ ت ـ ب."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مَكْتَبَةٌ. الْجَمْعُ: مَكْتَبَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "اِسْتَعَارَ كِتَابًا مِنَ الْمَكْتَبَةِ."
+        },
+        {
+          "ar": "تَحْتَوِي الْمَكْتَبَةُ عَلَى مَرَاجِعَ فِي عُلُومٍ مُخْتَلِفَةٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "الْمَكْتَبَةُ مَكَانٌ لِحِفْظِ الْكُتُبِ وَقِرَاءَتِهَا، وَقَدْ تُسَمَّى بِهِ مَحَلَّاتُ بَيْعِ الْكُتُبِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "فِهْرِسٌ",
+      "definition": [
+        {
+          "ar": "قَائِمَةٌ مُرَتَّبَةٌ تُبَيِّنُ مَوَاضِعَ الْكُتُبِ أَوْ أَجْزَاءِ الْمُؤَلَّفِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُعَرَّبٌ يُسْتَعْمَلُ لِقَائِمَةِ الْعَنَاوِينِ وَالْمَوْضُوعَاتِ."
+        },
+        {
+          "ar": "تَأْتِي الْكَلِمَةُ فِي الِاسْتِعْمَالِ الْحَدِيثِ بِمَعْنًى اِصْطِلَاحِيٍّ."
+        },
+        {
+          "ar": "الْمُفْرَدُ: فِهْرِسٌ. الْجَمْعُ: فَهَارِسُ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "بَحَثَ عَنِ الْعُنْوَانِ فِي الْفِهْرِسِ."
+        },
+        {
+          "ar": "رَاجَعَ الْقَارِئُ فِهْرِسَ الْكِتَابِ لِيَجِدَ الْفَصْلَ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يُرْشِدُ الْفِهْرِسُ إِلَى مَوَاضِعِ الْمَوْضُوعَاتِ، وَلَيْسَ هُوَ نَفْسَهُ شَرْحًا لِمَعَانِي الْكَلِمَاتِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مَرْجِعٌ",
+      "definition": [
+        {
+          "ar": "كِتَابٌ أَوْ مَصْدَرٌ يَعُودُ إِلَيْهِ الْبَاحِثُ لِلتَّحَقُّقِ مِنْ مَعْلُومَةٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُذَكَّرٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ر ـ ج ـ ع."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مَرْجِعٌ. الْجَمْعُ: مَرَاجِعُ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "اِسْتَعَانَ بِمَرْجِعٍ لُغَوِيٍّ فِي بَحْثِهِ."
+        },
+        {
+          "ar": "رَجَعَ الْبَاحِثُ إِلَى مَرْجِعَيْنِ قَبْلَ كِتَابَةِ الْفَصْلِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "الْمَرْجِعُ مَصْدَرٌ يُعْتَمَدُ عَلَيْهِ فِي التَّحَقُّقِ، وَقَدْ يَكُونُ كِتَابًا أَوْ دِرَاسَةً أَوْ وَثِيقَةً."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مَوْسُوعَةٌ",
+      "definition": [
+        {
+          "ar": "مُؤَلَّفٌ وَاسِعٌ يَضُمُّ مَعْلُومَاتٍ عَنْ مَوْضُوعَاتٍ كَثِيرَةٍ بِتَرْتِيبٍ مُنَظَّمٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: و ـ س ـ ع."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مَوْسُوعَةٌ. الْجَمْعُ: مَوْسُوعَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "رَجَعَتْ إِلَى الْمَوْسُوعَةِ لِمَعْرِفَةِ الْمَصْطَلَحِ."
+        },
+        {
+          "ar": "تَضُمُّ الْمَوْسُوعَةُ مَقَالَاتٍ فِي مَجَالَاتٍ مُتَنَوِّعَةٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تَجْمَعُ الْمَوْسُوعَةُ مَعْلُومَاتٍ وَاسِعَةً، أَمَّا الْمُعْجَمُ فَيَرْكِّزُ عَلَى الْمُفْرَدَاتِ وَدَلَالَاتِهَا."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "قَامُوسٌ",
+      "definition": [
+        {
+          "ar": "كِتَابٌ أَوْ وَسِيلَةٌ تَجْمَعُ الْكَلِمَاتِ وَتُبَيِّنُ مَعَانِيَهَا أَوْ تَرْجَمَاتِهَا."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُذَكَّرٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ق ـ م ـ س."
+        },
+        {
+          "ar": "الْمُفْرَدُ: قَامُوسٌ. الْجَمْعُ: قَوَامِيسُ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "فَتَحَ الْقَامُوسَ لِيَفْهَمَ الْكَلِمَةَ."
+        },
+        {
+          "ar": "اِسْتَعْمَلَ الطَّالِبُ قَامُوسًا عَرَبِيًّا لِفَهْمِ الْكَلِمَةِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يُطْلَقُ «قَامُوسٌ» فِي الِاسْتِعْمَالِ الْحَدِيثِ عَلَى الْمُعْجَمِ اللُّغَوِيِّ، وَقَدْ يَكُونُ ثُنَائِيَّ اللُّغَةِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُعْجَمٌ",
+      "definition": [
+        {
+          "ar": "مَرْجِعٌ يَضُمُّ أَلْفَاظَ لُغَةٍ وَيُرَتِّبُهَا لِشَرْحِ مَعَانِيهَا وَاسْتِعْمَالَاتِهَا."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُذَكَّرٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ع ـ ج ـ م."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُعْجَمٌ. الْجَمْعُ: مَعَاجِمُ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "بَحَثَ عَنِ الْفِعْلِ فِي الْمُعْجَمِ."
+        },
+        {
+          "ar": "بَحَثَتِ الطَّالِبَةُ عَنْ جَذْرِ الْكَلِمَةِ فِي الْمُعْجَمِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يَرْتِّبُ الْمُعْجَمُ الْأَلْفَاظَ لِتَوْضِيحِ مَعَانِيهَا وَاسْتِعْمَالَاتِهَا؛ وَتَخْتَلِفُ طَرَائِقُ تَرْتِيبِ الْمَدَاخِلِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُفْرَدَةٌ",
+      "definition": [
+        {
+          "ar": "كَلِمَةٌ وَاحِدَةٌ تُدْرَسُ ضِمْنَ مَجْمُوعَةِ أَلْفَاظِ اللُّغَةِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ف ـ ر ـ د."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُفْرَدَةٌ. الْجَمْعُ: مُفْرَدَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "حَفِظَ خَمْسَ مُفْرَدَاتٍ فِي الدَّرْسِ."
+        },
+        {
+          "ar": "تَعَلَّمَ الطُّلَّابُ مُفْرَدَاتٍ جَدِيدَةً فِي الدَّرْسِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تَدُلُّ «مُفْرَدَةٌ» عَلَى كَلِمَةٍ وَاحِدَةٍ، أَمَّا «مُفْرَدَاتٌ» فَتُسْتَعْمَلُ لِمَجْمُوعَةٍ مِنَ الْكَلِمَاتِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مُصْطَلَحٌ",
+      "definition": [
+        {
+          "ar": "لَفْظٌ اتَّفَقَ أَهْلُ تَخَصُّصٍ عَلَى اسْتِعْمَالِهِ لِمَعْنًى مُحَدَّدٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ يَدُلُّ عَلَى لَفْظٍ اتَّفَقَ الْمُتَخَصِّصُونَ عَلَى مَعْنَاهُ."
+        },
+        {
+          "ar": "الْجَذْرُ: ص ـ ل ـ ح."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مُصْطَلَحٌ. الْجَمْعُ: مُصْطَلَحَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "شَرَحَ الْأُسْتَاذُ مَصْطَلَحًا جَدِيدًا."
+        },
+        {
+          "ar": "يَحْمِلُ الْمُصْطَلَحُ مَعْنًى دَقِيقًا فِي مَجَالِهِ الْعِلْمِيِّ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "قَدْ يَخْتَلِفُ مَعْنَى الْمُصْطَلَحِ عَنْ مَعْنَى الْكَلِمَةِ فِي الِاسْتِعْمَالِ الْعَامِّ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "قَاعِدَةٌ",
+      "definition": [
+        {
+          "ar": "حُكْمٌ عَامٌّ يُسْتَفَادُ مِنْهُ فِي فَهْمِ حَالَاتٍ جُزْئِيَّةٍ وَتَطْبِيقِهَا."
+        },
+        {
+          "ar": "الْقَاعِدَةُ أَسَاسٌ يُبْنَى عَلَيْهِ الشَّيْءُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: ق ـ ع ـ د."
+        },
+        {
+          "ar": "الْمُفْرَدُ: قَاعِدَةٌ. الْجَمْعُ: قَوَاعِدُ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "تَعَلَّمَ الطِّفْلُ قَاعِدَةً جَدِيدَةً."
+        },
+        {
+          "ar": "طَبَّقَ الطَّالِبُ الْقَاعِدَةَ النَّحْوِيَّةَ عَلَى ثَلَاثِ جُمَلٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تُسْتَعْمَلُ «قَاعِدَةٌ» فِي النَّحْوِ وَالْعُلُومِ، وَقَدْ تَدُلُّ عَلَى أَسَاسِ الْبِنَاءِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "اِسْتِثْنَاءٌ",
+      "definition": [
+        {
+          "ar": "حَالَةٌ تُخَالِفُ الْحُكْمَ الْعَامَّ وَتُخْرَجُ مِنْ نِطَاقِ تَطْبِيقِهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرٌ لِلْفِعْلِ «اِسْتَثْنَى»، وَالْمُضَارِعُ «يَسْتَثْنِي»."
+        },
+        {
+          "ar": "الْجَذْرُ: ث ـ ن ـ ي."
+        },
+        {
+          "ar": "الْمُفْرَدُ: اِسْتِثْنَاءٌ. الْجَمْعُ: اِسْتِثْنَاءَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "ذَكَرَ الْمُدَرِّسُ اسْتِثْنَاءً وَاحِدًا."
+        },
+        {
+          "ar": "حَضَرَ الطُّلَّابُ إِلَّا طَالِبًا وَاحِدًا."
+        }
+      ],
+      "important": [
+        {
+          "ar": "فِي جُمْلَةِ «حَضَرَ الطُّلَّابُ إِلَّا طَالِبًا» تُسْتَعْمَلُ «إِلَّا» أَدَاةً لِلِاسْتِثْنَاءِ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "تَعْرِيفٌ",
+      "definition": [
+        {
+          "ar": "عِبَارَةٌ تُوَضِّحُ مَعْنَى شَيْءٍ وَتُمَيِّزُهُ عَمَّا سِوَاهُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرٌ لِلْفِعْلِ «عَرَّفَ»، وَالْمُضَارِعُ «يُعَرِّفُ»."
+        },
+        {
+          "ar": "الْجَذْرُ: ع ـ ر ـ ف."
+        },
+        {
+          "ar": "الْمُفْرَدُ: تَعْرِيفٌ. الْجَمْعُ: تَعْرِيفَاتٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "كَتَبَ تَعْرِيفًا مُخْتَصَرًا لِلْمُصْطَلَحِ."
+        },
+        {
+          "ar": "كَتَبَ الْبَاحِثُ تَعْرِيفًا دَقِيقًا لِلْمَصْطَلَحِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "التَّعْرِيفُ يَشْرَحُ مَعْنَى اللَّفْظِ، وَقَدْ يَعْنِي أَيْضًا تَقْدِيمَ شَخْصٍ إِلَى شَخْصٍ آخَرَ."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "مِثَالٌ",
+      "definition": [
+        {
+          "ar": "حَالَةٌ مُحَدَّدَةٌ تُذْكَرُ لِتَوْضِيحِ فِكْرَةٍ أَوْ قَاعِدَةٍ عَامَّةٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُذَكَّرٌ."
+        },
+        {
+          "ar": "الْجَذْرُ: م ـ ث ـ ل."
+        },
+        {
+          "ar": "الْمُفْرَدُ: مِثَالٌ. الْجَمْعُ: أَمْثِلَةٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "ذَكَرَ الْمُعَلِّمُ مِثَالًا لِتَوْضِيحِ الْقَاعِدَةِ."
+        },
+        {
+          "ar": "تَتَّضِحُ الْقَاعِدَةُ عِنْدَ ذِكْرِ مِثَالٍ مُنَاسِبٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "الْمِثَالُ يُوَضِّحُ الْقَاعِدَةَ، وَيَخْتَلِفُ عَنِ «الْمَثَلِ» الَّذِي قَدْ يَكُونُ قَوْلًا مَأْثُورًا."
+        }
+      ],
+      "source_urls": [
+        "https://github.com/Xalidmuslim/Arabic-Academy-Flutter/blob/codex/bayna-lexicon-reviewed-details-20261112/assets/data/entries_daily_education_20261025.json",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/مثل"
+      ],
+      "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
+      "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
     }
   ]
 }
