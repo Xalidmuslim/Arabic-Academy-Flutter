@@ -26939,6 +26939,94 @@
       ],
       "source_text_status": "existing_corpus_editorial_enrichment_pending_independent_final_i3rab_review",
       "source_origin": "existing_app_education_lexicon_not_automatically_original_print_attested"
+    },
+    {
+      "arabic": "أَسْمَعُ",
+      "definition": [
+        {
+          "ar": "كَثِيرُ السَّمْعِ، أَكْثَرُ إِصْغَاءً."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ تَفْضِيلٍ مِنْ «سَمِعَ» عَلَى وَزْنِ أَفْعَلَ."
+        },
+        {
+          "ar": "الْجَذْرُ: س ـ م ـ ع."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "الطَّالِبُ الْمُجْتَهِدُ أَسْمَعُ لِشَرْحِ الْمُعَلِّمِ مِنْ صَاحِبِهِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أَسْمَعُ» اسْمُ تَفْضِيلٍ فِي هَذِهِ الْمَادَّةِ، وَلَيْسَ الْفِعْلَ الْمَاضِيَ «أَسْمَعَ»."
+        },
+        {
+          "ar": "وَقَدْ تَرِدُ «أَسْمَعُ» فِعْلًا مُضَارِعًا لِلْمُتَكَلِّمِ، وَيُفَرَّقُ بَيْنَ الْمَعْنَيَيْنِ بِالسِّيَاقِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/سمع"
+      ],
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "checked_on": "2026-11-14",
+        "status": "printed_lemma_and_gloss_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_gloss_only_not_full_linguistic_approval"
+      },
+      "editorial_batch": "2026-11-14-original-restored-two"
+    },
+    {
+      "arabic": "أُضْحِيَّةٌ",
+      "definition": [
+        {
+          "ar": "الشَّاةُ أَوْ نَحْوُهَا مِمَّا يُضَحَّى بِهِ فِي عِيدِ الْأَضْحَى."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ، وَالْجَذْرُ: ض ـ ح ـ ي."
+        },
+        {
+          "ar": "الْمُفْرَدُ: أُضْحِيَّةٌ. الْجَمْعُ: أَضَاحِي."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "ذَبَحَ الرَّجُلُ أُضْحِيَّةً يَوْمَ عِيدِ الْأَضْحَى."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أُضْحِيَّةٌ» اِسْمٌ، وَلَيْسَ هِيَ الْفِعْلَ «أَضْحَى»."
+        },
+        {
+          "ar": "الْجَمْعُ «أَضَاحِي»، وَيَتَّصِلُ مَعْنَاهَا بِمَا يُذْبَحُ مِنَ الْأَنْعَامِ فِي أَيَّامِ النَّحْرِ."
+        }
+      ],
+      "source_urls": [
+        "https://almougem.com/search.php?mdatabase=lmougem&query=%D8%B6%D8%AD%D9%8A"
+      ],
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 21,
+        "printed_page": 17,
+        "checked_on": "2026-11-14",
+        "status": "printed_lemma_and_gloss_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_gloss_only_not_full_linguistic_approval"
+      },
+      "editorial_batch": "2026-11-14-original-restored-two"
     }
   ]
 }
