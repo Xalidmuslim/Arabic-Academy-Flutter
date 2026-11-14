@@ -1,0 +1,32 @@
+name: Bayna linguistic QA (read only)
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/bayna-audit-three-tools-20261114
+    paths:
+      - 'tools/bayna_linguistic_audit.py'
+      - 'tools/test_bayna_linguistic_audit.py'
+      - 'assets/data/**'
+      - '.github/workflows/bayna-linguistic-audit.yml'
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests (no external model downloads)
+        run: python3 -m unittest discover -s tools -p 'test_bayna_linguistic_audit.py' -v
+      - name: Audit real corpus and reviewed additions (offline)
+        run: python3 tools/bayna_linguistic_audit.py --repo . --output linguistic-audit.json
+      - name: Publish read-only report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bayna-linguistic-audit
+          path: linguistic-audit.json
+          if-no-files-found: warn
