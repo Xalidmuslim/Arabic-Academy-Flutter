@@ -23,6 +23,11 @@ jobs:
           set -euo pipefail
           git clone https://github.com/CAMeL-Lab/camel_parser.git "$RUNNER_TEMP/camel_parser"
           git -C "$RUNNER_TEMP/camel_parser" checkout --detach 66f29f7e34e3b5b38780d08bd56cf481635bf1c6
+      - name: System prerequisites for legacy camel-kenlm
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends cmake libboost-all-dev libeigen3-dev
       - name: Install isolated legacy dependencies and model assets
         shell: bash
         run: |
