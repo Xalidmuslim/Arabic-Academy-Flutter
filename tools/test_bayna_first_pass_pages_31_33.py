@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+"""Guard the provenance and Arabic-only status of the November editorial batch."""
+import json
+import re
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE = ROOT / "assets/data/reviewed_articles_v1.json"
+EXPECTED = {
+    "أَكْثَرَ": 31, "أَكْرَمَ": 31, "أَكْمَلَ": 31,
+    "أَكَّدَ": 31, "أَكَلَ": 31, "أُكْذُوبَةٌ": 31, "آلَةٌ": 31,
+    "أَلْغَى": 32, "أَلْقَى": 32, "أَلْفٌ": 32,
+    "أُلْفَةٌ": 32, "أَلِيمٌ": 32, "أَلْهَمَ": 32,
+    "أَمَانَةٌ": 33, "أَمَامَ": 33, "أَمَاطَ": 33,
+    "إِمَامٌ": 33, "إِمَارَةٌ": 33, "أُمَّةٌ": 33, "أَمَاتَ": 33,
+}
+STATUS = "online_ocr_page_located_arabic_editorial_first_pass_pending_print_image_proofread"
+
+
+class FirstPassArabicEditorialTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        doc = json.loads(SOURCE.read_text(encoding="utf-8"))
+        cls.batch = [e for e in doc["entries"] if e.get("editorial_batch") == "2026-11-14-pages-31-33"]
+
+    def test_exact_headwords_without_duplicates(self):
+        names = [e["arabic"] for e in self.batch]
+        self.assertEqual(len(names), len(set(names)))
+        self.assertEqual(set(names), set(EXPECTED))
+
+    def test_no_false_claim_of_visual_scan_review(self):
+        for e in self.batch:
+            with self.subTest(e=e["arabic"]):
+                self.assertEqual(e["source_text_status"], STATUS)
+                self.assertNotIn("source_review", e)
+                self.assertEqual(e["source_pdf_page"], EXPECTED[e["arabic"]])
+                self.assertEqual(e["source_printed_page"], EXPECTED[e["arabic"]] - 4)
+                self.assertIn(
+                    f'https://aljam3.com/ar/39951/73248/{EXPECTED[e["arabic"]]}',
+                    e["source_urls"],
+                )
+
+    def test_arabic_content_with_tashkeel_and_required_facts(self):
+        diacritics = re.compile(r"[\u064b-\u065f\u0670]")
+        cyrillic = re.compile(r"[\u0400-\u04ff]")
+        arabic = re.compile(r"[\u0621-\u064a]")
+        for e in self.batch:
+            with self.subTest(e=e["arabic"]):
+                for key in ("definition", "grammar", "examples", "important"):
+                    self.assertTrue(e.get(key), f'{e["arabic"]}: {key} is empty')
+                for key in ("definition", "grammar", "examples", "important", "synonyms", "contrasts"):
+                    for fact in e.get(key, []):
+                        self.assertEqual(set(fact), {"ar"})
+                        value = fact["ar"]
+                        self.assertRegex(value, arabic)
+                        self.assertRegex(value, diacritics)
+                        self.assertNotRegex(value, cyrillic)
+                self.assertNotIn("translation_ru", e)
+
+
+if __name__ == "__main__":
+    unittest.main()
