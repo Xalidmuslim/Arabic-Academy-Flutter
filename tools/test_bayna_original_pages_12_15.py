@@ -83,6 +83,21 @@ class OriginalPrintedPages12To15(unittest.TestCase):
                     self.assertIn(sense,supplementary)
                     self.assertIn(sense,overlay)
 
+    def test_printer_attested_asaba_secondary_sense(self):
+        row=next(e for e in self.subset if e["arabic"]=="أَصَابَ")
+        senses=" ".join(row["additional_meanings_ar"])
+        self.assertIn("أَصَابَتْهُ",senses)
+        self.assertIn("مُصِيبَةٌ",senses)
+        review=self.overlays[canon("أَصَابَ")]
+        self.assertIn("مُصِيبَةٌ"," ".join(x["ar"] for x in review["definition"]))
+
+    def test_ashara_two_distinct_prepositional_usages(self):
+        row=next(e for e in self.subset if e["arabic"]=="أَشَارَ")
+        self.assertIn("أَشَارَ إِلَى",row["usage_note_ar"])
+        self.assertIn("أَشَارَ عَلَيْهِ",row["usage_note_ar"])
+        review=self.overlays[canon("أَشَارَ")]
+        self.assertTrue(any("أَشَارَ عَلَيْهِ" in x["ar"] for x in review["important"]))
+
     def test_vocalized_homographs_not_collapsed(self):
         headwords={canon(e["arabic"]) for e in self.subset}
         for w in ("أُسْقُفٌ","أَسْقُفٌ","أَشْهَرُ","أَشْهَرَ","أَسْرَى"):
