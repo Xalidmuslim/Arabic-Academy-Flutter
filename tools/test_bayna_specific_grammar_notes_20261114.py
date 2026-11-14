@@ -62,6 +62,17 @@ class SpecificArabicUsageNotes(unittest.TestCase):
                     "independently_authored_pending_separate_i3rab_review",
                 )
 
+    def test_no_boilerplate_note_remains_in_594_reviewed_articles(self):
+        self.assertEqual(len(self.review), 594)
+        for word, article in self.review.items():
+            with self.subTest(word=word):
+                self.assertFalse(
+                    any(fact["ar"] == GENERIC for fact in article["important"])
+                )
+        for word, source in self.source.items():
+            with self.subTest(scan_word=word):
+                self.assertNotEqual(source["usage_note_ar"], GENERIC)
+
     def test_specific_verb_forms_match_in_both_files(self):
         for word, fragments in {
             "أَضْحَى": ("يُضْحِي", "إِضْحَاءٌ"),
