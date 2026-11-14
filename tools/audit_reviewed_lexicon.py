@@ -89,6 +89,14 @@ def main():
                 assert proof.get("status") == "source_headword_mismatch_requires_relocation"
                 assert proof.get("printed_headword") == "أَرْذَل"
                 source_page_mismatches += 1
+            elif entry["arabic"] == "أَسْمَعَ" and prov["pdf_page"] == 17:
+                # Printed p13 contains أَسْمَعُ (comparative), not
+                # أَسْمَعَ (transitive form-IV verb). Preserve original IDs.
+                assert prov["text_status"] == "unmatched_printed_lemma_source_page_17_relocation_required"
+                proof = entry.get("visual_verification") or {}
+                assert proof.get("status") == "source_headword_mismatch_requires_relocation"
+                assert proof.get("printed_headword") == "أَسْمَعُ"
+                source_page_mismatches += 1
             else:
                 assert prov["text_status"] == "arabic_first_pass_page_inspected_pending_independent_proofread"
         assert entry["arabic"] in original
@@ -192,7 +200,7 @@ def main():
 
     print(f"Independently authored Arabic entries checked against scan: {len(source_words)}")
     page_count = len({e['source_provenance']['pdf_page'] for e in source_words})
-    assert source_page_mismatches == 1, "Previously detected printed-page mismatch must be explicitly retained until resolved"
+    assert source_page_mismatches == 2, "Both visually confirmed printed-page mismatches must remain tracked until resolved"
     print(f"Explicit source-page mismatches pending relocation: {source_page_mismatches}")
     print(f"PDF pages represented by source-linked articles: {page_count}")
     print(f"Corpus: {len(headwords)} unique exact vocalized headwords")
