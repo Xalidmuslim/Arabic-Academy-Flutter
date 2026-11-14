@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "assets/data"
 EXPECTED_SHA256 = "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
-STATUS = "printed_headword_vowels_visually_collated_examples_pending_independent_language_review"
+STATUS = "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source"
 PAGE_COUNTS = {5: 4, 6: 16, 7: 26}
 KNOWN_INFLECTIONS = {
     "أَبَاحَ": ("يُبِيحُ", "إِبَاحَةٌ"),
