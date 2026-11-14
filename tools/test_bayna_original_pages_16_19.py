@@ -104,6 +104,8 @@ class PrintPages16To19(unittest.TestCase):
         all_senses = " ".join([article["meaning_ar"], *article["additional_meanings_ar"]])
         self.assertIn("مُبْتَكَرٌ", all_senses)
         self.assertIn("جَوْدَةٍ", all_senses)
+        self.assertIn("يُقَدِّمُ الْبَاحِثُ", " ".join(article["examples_ar"]))
+        self.assertNotIn("يَقْدُمُ الْبَاحِثُ", " ".join(article["examples_ar"]))
         self.assertTrue(any("مُبْتَكَرٌ" in d["ar"] for d in
                             self.review[norm("أَصِيلٌ")]["definition"]))
 
