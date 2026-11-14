@@ -139,10 +139,13 @@ class QuranIndex:
                 self.segments.setdefault(bare(to_arabic(form)), []).append(rec)
 
     def lookup(self, word: str, root: str, limit: int = 5) -> list[dict]:
+        """Return only source locations; never republish corpus annotation rows."""
         root = root_key(root)
         if root and root in self.roots:
-            return [dict(r, match_type="root_reference") for r in self.roots[root][:limit]]
-        return [dict(r, match_type="segment_reference") for r in self.segments.get(bare(word), [])[:limit]]
+            return [{"location": r["location"], "match_type": "root_reference"}
+                    for r in self.roots[root][:limit]]
+        return [{"location": r["location"], "match_type": "segment_reference"}
+                for r in self.segments.get(bare(word), [])[:limit]]
 
 
 def quran_lookup(path: Path, word: str, root: str, limit: int = 5) -> list[dict]:
