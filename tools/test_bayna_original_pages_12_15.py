@@ -68,6 +68,21 @@ class OriginalPrintedPages12To15(unittest.TestCase):
         self.assertIn("سَمَكَةٍ",fish["grammar"][0])
         self.assertEqual(self.overlays[canon("أَسْمَاكٌ")]["grammar"][0]["ar"],fish["grammar"][0])
 
+    def test_all_original_attested_secondary_senses_are_restored(self):
+        expected = {
+            "أَسْلَمَ": ("أَخْلَصَ", "سَلَّمَ", "تَرَكَهُ"),
+            "أَشْرَفَ": ("قَارَبَ",),
+            "أَشْفَقَ": ("حَذِرَهُ",),
+        }
+        for word, senses in expected.items():
+            with self.subTest(lemma=word):
+                row=next(e for e in self.subset if e["arabic"]==word)
+                supplementary=" ".join(row["additional_meanings_ar"])
+                overlay=" ".join(e["ar"] for e in self.overlays[canon(word)]["definition"])
+                for sense in senses:
+                    self.assertIn(sense,supplementary)
+                    self.assertIn(sense,overlay)
+
     def test_vocalized_homographs_not_collapsed(self):
         headwords={canon(e["arabic"]) for e in self.subset}
         for w in ("أُسْقُفٌ","أَسْقُفٌ","أَشْهَرُ","أَشْهَرَ","أَسْرَى"):
