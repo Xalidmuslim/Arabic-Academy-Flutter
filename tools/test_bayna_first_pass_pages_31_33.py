@@ -2,6 +2,7 @@
 """Guard the provenance and Arabic-only status of the November editorial batch."""
 import json
 import re
+import unicodedata
 import unittest
 from pathlib import Path
 
@@ -33,8 +34,7 @@ class FirstPassArabicEditorialTest(unittest.TestCase):
             manifest["files"],
         )
         def canon(value):
-            return re.sub(r"[\\u064b-\\u065f\\u0670]+",
-                          lambda m: "".join(sorted(m.group())), value)
+            return unicodedata.normalize("NFC", value)
         merged = {}
         for path in manifest["files"]:
             payload = json.loads((ROOT / path).read_text(encoding="utf-8"))
