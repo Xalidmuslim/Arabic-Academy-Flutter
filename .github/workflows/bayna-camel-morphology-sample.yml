@@ -1,0 +1,58 @@
+name: Bayna CAMeL Tools morphology sample (separate Python job)
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/bayna-audit-three-tools-20261114
+    paths:
+      - '.github/workflows/bayna-camel-morphology-sample.yml'
+permissions:
+  contents: read
+jobs:
+  morphology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install CAMeL Tools and morphology data in the isolated runner
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m pip install --upgrade pip
+          python3 -m pip install camel-tools
+          camel_data -i light
+      - name: Verify real analysis of Arabic test word
+        run: |
+          python3 - <<'PY'
+          from camel_tools.morphology.analyzer import Analyzer
+          from camel_tools.morphology.database import MorphologyDB
+          analyzer = Analyzer(MorphologyDB.builtin_db())
+          analyses = analyzer.analyze('كتاب')
+          assert analyses, 'No real CAMeL Tools analyses for كتاب'
+          print('CAMeL Tools: real morphological analyses:', len(analyses))
+          PY
+      - name: Audit first 100 dictionary records with real CAMeL Tools (read only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/bayna_linguistic_audit.py --repo . --output camel-morphology-sample.json --limit 100 --camel
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('camel-morphology-sample.json').read_text(encoding='utf-8'))
+          assert data['engines']['camel_tools'] == 'enabled'
+          n = sum(bool(row['morphology_candidates']) for row in data['results'])
+          print('Entries:', data['summary']['entries'], 'with morphology:', n)
+          assert data['summary']['entries'] == 100
+          assert n > 0, 'CAMeL Tools returned no candidates for test corpus'
+          PY
+      - name: Archive small QA sample (no source changes)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bayna-camel-morphology-sample
+          path: camel-morphology-sample.json
+          if-no-files-found: warn
