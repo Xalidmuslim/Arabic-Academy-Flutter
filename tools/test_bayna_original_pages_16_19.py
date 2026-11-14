@@ -71,14 +71,16 @@ class PrintPages16To19(unittest.TestCase):
         overlay = self.review[norm(e["arabic"])]
         self.assertTrue(any("عِرْضٍ" in x["ar"] for x in overlay["definition"]))
 
-    def test_beat_out_four_original_senses_of_atlaqa(self):
+    def test_atlaqa_has_three_verb_senses_and_separate_adverbial_masdar(self):
         e = self.byword[norm("أَطْلَقَ")]
         all_senses = " ".join([e["meaning_ar"], *e["additional_meanings_ar"]])
-        for term in ["الْقَيْدِ", "الرَّصَاصَ", "اسْمًا", "مُطْلَقًا"]:
+        for term in ["الْقَيْدِ", "الرَّصَاصَ", "اسْمًا"]:
             with self.subTest(term=term):
                 self.assertIn(term, all_senses)
+        self.assertIn("إِطْلَاقًا", e["usage_note_ar"])
         overlay = self.review[norm("أَطْلَقَ")]
-        self.assertGreaterEqual(len(overlay["definition"]), 4)
+        self.assertGreaterEqual(len(overlay["definition"]), 3)
+        self.assertIn("إِطْلَاقًا", " ".join(x["ar"] for x in overlay["important"]))
 
     def test_original_aslah_two_headings_not_to_be_mixed(self):
         e = self.byword[norm("أَصْلَحَ")]
