@@ -29,7 +29,7 @@ void main() {
         .map((e) => e['arabic'] as String)
         .where((lemma) => !originalByHeadword.containsKey(lemma))
         .toSet();
-    expect(merged, hasLength(7125 + newHeadwords.length));
+    expect(merged, hasLength(beforeSource.length + newHeadwords.length));
     final afterByHeadword = {for (final word in merged) word.arabic: word};
     for (final original in beforeSource) {
       expect(afterByHeadword[original.arabic]?.id, original.id,
