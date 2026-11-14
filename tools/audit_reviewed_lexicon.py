@@ -63,6 +63,7 @@ def main():
     }
     indexed_articles = {e["arabic"]: e for e in reviewed["entries"]
                         if e.get("source_review") in review_kinds}
+    source_page_mismatches = 0
     for entry in source_words:
         prov = entry["source_provenance"]
         assert 5 <= prov["pdf_page"] <= 30 and prov["pdf_page"] not in (24, 25), (
@@ -79,7 +80,17 @@ def main():
         assert [g["ar"] for g in article["examples"]] == entry["examples_ar"]
         if prov["pdf_page"] >= 14:
             assert article["source_review"] == "scan_page_inspected_first_pass_pending_linguistic_proofread"
-            assert prov["text_status"] == "arabic_first_pass_page_inspected_pending_independent_proofread"
+            if entry["arabic"] == "أَرْذَالٌ" and prov["pdf_page"] == 14:
+                # The user-supplied scan actually has أَرْذَل on this
+                # printed page. Keep the independently valid plural word
+                # and stable ID, but do not claim it matches this page.
+                assert prov["text_status"] == "unmatched_printed_lemma_source_page_14_relocation_required"
+                proof = entry.get("visual_verification") or {}
+                assert proof.get("status") == "source_headword_mismatch_requires_relocation"
+                assert proof.get("printed_headword") == "أَرْذَل"
+                source_page_mismatches += 1
+            else:
+                assert prov["text_status"] == "arabic_first_pass_page_inspected_pending_independent_proofread"
         assert entry["arabic"] in original
         assert prov["scan_sha256"] == expected_scan
         assert isinstance(prov["pdf_page"], int) and 1 <= prov["pdf_page"] <= 404
@@ -181,6 +192,8 @@ def main():
 
     print(f"Independently authored Arabic entries checked against scan: {len(source_words)}")
     page_count = len({e['source_provenance']['pdf_page'] for e in source_words})
+    assert source_page_mismatches == 1, "Previously detected printed-page mismatch must be explicitly retained until resolved"
+    print(f"Explicit source-page mismatches pending relocation: {source_page_mismatches}")
     print(f"PDF pages represented by source-linked articles: {page_count}")
     print(f"Corpus: {len(headwords)} unique exact vocalized headwords")
     for field in ("grammar", "synonyms", "antonyms", "collocations", "examples_ar", "usage_note_ar"):
