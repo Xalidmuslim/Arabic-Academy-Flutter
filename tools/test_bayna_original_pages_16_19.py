@@ -51,7 +51,13 @@ class PrintPages16To19(unittest.TestCase):
                 self.assertEqual(proof["scan_sha256"], SCAN_SHA)
                 self.assertEqual(proof["pdf_page"], e["source_provenance"]["pdf_page"])
                 self.assertEqual(proof["printed_page"], proof["pdf_page"]-4)
-                self.assertEqual(proof["status"], SCAN_STATUS)
+                if e["arabic"] == "أَضْحَى":
+                    self.assertEqual(proof["status"], "source_headword_mismatch_requires_relocation")
+                    self.assertEqual(proof["printed_headword"], "أُضْحِيَّةٌ")
+                    self.assertEqual(e["source_provenance"]["text_status"],
+                                     "unmatched_printed_lemma_source_page_21_relocation_required")
+                else:
+                    self.assertEqual(proof["status"], SCAN_STATUS)
                 self.assertEqual(
                     proof["examples_status"],
                     "independently_authored_pending_separate_i3rab_review",
@@ -61,6 +67,8 @@ class PrintPages16To19(unittest.TestCase):
     def test_original_contains_distinct_comparative_aslah_not_just_verb(self):
         e = self.byword[norm("أَصْلَحَ")]
         self.assertIn("أَصْلَحُ", e["visual_verification"]["uncovered_source_headwords"])
+        other = self.byword[norm("أَطْفَالٌ")]
+        self.assertIn("أَطْقُمٌ",other["visual_verification"]["uncovered_source_headwords"])
 
     def test_two_printed_arad_plural_senses_not_silently_collapsed(self):
         e = self.byword[norm("أَعْرَاضٌ")]
@@ -98,6 +106,22 @@ class PrintPages16To19(unittest.TestCase):
         self.assertIn("جَوْدَةٍ", all_senses)
         self.assertTrue(any("مُبْتَكَرٌ" in d["ar"] for d in
                             self.review[norm("أَصِيلٌ")]["definition"]))
+
+    def test_other_attested_word_senses_are_preserved(self):
+        expected = {
+            "أَصْدَرَ": ["أَنْفَذَ", "نَشَرَ"],
+            "أَصْلَحَ": ["الْخِصَامَ"],
+            "أَعَارَ": ["اهْتِمَامًا"],
+        }
+        for headword,terms in expected.items():
+            with self.subTest(headword=headword):
+                source = self.byword[norm(headword)]
+                review = self.review[norm(headword)]
+                meanings = " ".join([source["meaning_ar"], *source["additional_meanings_ar"]])
+                for term in terms:
+                    self.assertIn(term,meanings)
+                    self.assertIn(term," ".join(v["ar"] for v in review["definition"]))
+                self.assertEqual(source["examples_ar"], [v["ar"] for v in review["examples"]])
 
     def test_original_aslah_two_headings_not_to_be_mixed(self):
         e = self.byword[norm("أَصْلَحَ")]
