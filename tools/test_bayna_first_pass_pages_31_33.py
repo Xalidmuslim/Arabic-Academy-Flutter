@@ -66,6 +66,11 @@ class FirstPassArabicEditorialTest(unittest.TestCase):
                     "printed_lemma_and_senses_visually_checked_examples_independently_authored",
                 )
 
+    def test_amanah_third_source_sense_is_retained(self):
+        article = next(e for e in self.batch if e["arabic"] == "أَمَانَةٌ")
+        meanings = " ".join(f["ar"] for f in article["definition"])
+        self.assertIn("مَسْؤُولِيَّةٌ", meanings)
+
     def test_original_eating_entry_includes_backbiting_sense(self):
         article = next(e for e in self.batch if e["arabic"] == "أَكَلَ")
         full_meaning = " ".join(f["ar"] for f in article["definition"])
