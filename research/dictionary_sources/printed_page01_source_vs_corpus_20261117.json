@@ -166,7 +166,7 @@
       "headword": "أَبَالِسَةٌ",
       "position": "العمود الأيمن",
       "order_in_column": 9,
-      "source_sense_summary_ar": "جَمْعُ إِبْلِيسَ؛ وَيُطْلَقُ عَلَى الشَّيَاطِينِ.",
+      "source_sense_summary_ar": "جَمْعُ إِبْلِيسَ.",
       "original_pdf_page": 5,
       "printed_page": 1,
       "source_scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
@@ -345,7 +345,7 @@
       "headword": "إِبْرَةٌ",
       "position": "العمود الأيسر",
       "order_in_column": 8,
-      "source_sense_summary_ar": "أَدَاةٌ دَقِيقَةٌ يُخَاطُ بِهَا؛ وَلَهَا اسْتِعْمَالَاتٌ أُخْرَى.",
+      "source_sense_summary_ar": "أَدَاةٌ دَقِيقَةٌ يُخَاطُ بِهَا.",
       "original_pdf_page": 5,
       "printed_page": 1,
       "source_scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
@@ -395,5 +395,6 @@
       "corpus_source_files": [],
       "corpus_duplicate_raw_occurrences": false
     }
-  ]
+  ],
+  "source_status_note": "Source-sense summaries include only clearly visible facts printed on the page; independently verified other meanings are not silently attributed to the source. Fully vocalized pedagogical headwords are Unicode NFC and may include case endings not literally printed."
 }
