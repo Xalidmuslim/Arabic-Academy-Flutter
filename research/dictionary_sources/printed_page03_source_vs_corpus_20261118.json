@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "source": "المعجم العربي بين يديك",
+  "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "pdf_page": 7,
+  "printed_page": 3,
+  "checked_date": "2026-11-18",
+  "evidence": "visual_manually_read_enlarged_scan_not_OCR",
+  "counts": {
+    "printed_headwords": 27,
+    "right_column": 11,
+    "left_column": 16,
+    "previously_existing_exact_lemmas": 25,
+    "missing_exact_lemmas": 2
+  },
+  "provenance_mismatch": {
+    "existing_id": "bayna_scan_v1_032",
+    "existing_headword": "أَثِمَ",
+    "printed_headword": "إِثْمٌ",
+    "action": "retain_existing_id_and_valid_verb_content_mark_source_headword_mismatch_requires_relocation"
+  },
+  "missing_lemmas": [
+    "إِثْمٌ",
+    "أَثِيرٌ"
+  ],
+  "source_excerpt_scope": {
+    "إِثْمٌ": "الذنب الذي يستحق العقوبة على فعله؛ (ج) آثام",
+    "أَثِيرٌ": "الفضاء؛ نقلت الصلاة عبر الأثير"
+  },
+  "review_boundaries": "Only scanned printed headings and short senses checked. All independently written grammar/examples remain pending separate detailed Arabic i3rab review.",
+  "entries": [
+    {
+      "position": 1,
+      "column": "right",
+      "headword": "أَثَاثٌ",
+      "previous_scan_id": "bayna_scan_v1_021",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 2,
+      "column": "right",
+      "headword": "آثَارٌ",
+      "previous_scan_id": "bayna_scan_v1_022",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 3,
+      "column": "right",
+      "headword": "أَثَارَ",
+      "previous_scan_id": "bayna_scan_v1_023",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 4,
+      "column": "right",
+      "headword": "إِثَارَةٌ",
+      "previous_scan_id": "bayna_scan_v1_024",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 5,
+      "column": "right",
+      "headword": "أَثْبَتَ",
+      "previous_scan_id": "bayna_scan_v1_025",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 6,
+      "column": "right",
+      "headword": "آثَرَ",
+      "previous_scan_id": "bayna_scan_v1_026",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 7,
+      "column": "right",
+      "headword": "أَثَرٌ",
+      "previous_scan_id": "bayna_scan_v1_027",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 8,
+      "column": "right",
+      "headword": "أَثَّرَ",
+      "previous_scan_id": "bayna_scan_v1_028",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 9,
+      "column": "right",
+      "headword": "إِثْرَاءٌ",
+      "previous_scan_id": "bayna_scan_v1_029",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 10,
+      "column": "right",
+      "headword": "أَثْرَى",
+      "previous_scan_id": "bayna_scan_v1_030",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 11,
+      "column": "right",
+      "headword": "أَثْقَلُ",
+      "previous_scan_id": "bayna_scan_v1_031",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 12,
+      "column": "left",
+      "headword": "إِثْمٌ",
+      "previous_scan_id": null,
+      "corpus_status": "missing_printed_lemma_to_restore"
+    },
+    {
+      "position": 13,
+      "column": "left",
+      "headword": "أَثْمَنُ",
+      "previous_scan_id": "bayna_scan_v1_033",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 14,
+      "column": "left",
+      "headword": "أَثْنَاءَ",
+      "previous_scan_id": "bayna_scan_v1_034",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 15,
+      "column": "left",
+      "headword": "أَثْنَى",
+      "previous_scan_id": "bayna_scan_v1_035",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 16,
+      "column": "left",
+      "headword": "أَثْوَابٌ",
+      "previous_scan_id": "bayna_scan_v1_036",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 17,
+      "column": "left",
+      "headword": "أَثِيرٌ",
+      "previous_scan_id": null,
+      "corpus_status": "missing_printed_lemma_to_restore"
+    },
+    {
+      "position": 18,
+      "column": "left",
+      "headword": "أَثِيمٌ",
+      "previous_scan_id": "bayna_scan_v1_037",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 19,
+      "column": "left",
+      "headword": "أَجَابَ",
+      "previous_scan_id": "bayna_scan_v1_038",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 20,
+      "column": "left",
+      "headword": "أَجَادَ",
+      "previous_scan_id": "bayna_scan_v1_039",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 21,
+      "column": "left",
+      "headword": "أَجَازَ",
+      "previous_scan_id": "bayna_scan_v1_040",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 22,
+      "column": "left",
+      "headword": "إِجَازَةٌ",
+      "previous_scan_id": "bayna_scan_v1_041",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 23,
+      "column": "left",
+      "headword": "أَجَانِبُ",
+      "previous_scan_id": "bayna_scan_v1_042",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 24,
+      "column": "left",
+      "headword": "إِجْبَارٌ",
+      "previous_scan_id": "bayna_scan_v1_043",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 25,
+      "column": "left",
+      "headword": "أَجْبَرَ",
+      "previous_scan_id": "bayna_scan_v1_044",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 26,
+      "column": "left",
+      "headword": "أَجْدَادٌ",
+      "previous_scan_id": "bayna_scan_v1_045",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    },
+    {
+      "position": 27,
+      "column": "left",
+      "headword": "أُجُورٌ",
+      "previous_scan_id": "bayna_scan_v1_046",
+      "corpus_status": "existing_headword_requires_ongoing_editorial_i3rab_review"
+    }
+  ]
+}
