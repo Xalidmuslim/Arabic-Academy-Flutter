@@ -27027,6 +27027,694 @@
         "evidence_scope": "printed_headword_and_short_gloss_only_not_full_linguistic_approval"
       },
       "editorial_batch": "2026-11-14-original-restored-two"
+    },
+    {
+      "arabic": "أَئِمَّةٌ",
+      "definition": [
+        {
+          "ar": "جَمْعُ إِمَامٍ؛ وَالْإِمَامُ مَنْ يَتَقَدَّمُ النَّاسَ فِي الصَّلَاةِ أَوْ يُقْتَدَى بِهِ فِي شَأْنٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ؛ جَمْعُ تَكْسِيرٍ، مُفْرَدُهُ: إِمَامٌ، وَجَذْرُهُ: أ ـ م ـ م."
+        },
+        {
+          "ar": "يُرْفَعُ بِالضَّمَّةِ، وَيُنْصَبُ بِالْفَتْحَةِ، وَيُجَرُّ بِالْكَسْرَةِ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "يَقْتَدِي الْمُصَلُّونَ بِأَئِمَّةِ الْمَسَاجِدِ."
+        },
+        {
+          "ar": "اِجْتَمَعَ أَئِمَّةُ الْمَسَاجِدِ لِبَحْثِ شُؤُونِهَا."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تُنْطَقُ الْهَمْزَةُ فِي أَوَّلِ «أَئِمَّةٌ»، وَتُشَدَّدُ الْمِيمُ. لَا تُخْلَطُ بِكَلِمَةِ «أُمَّةٌ»."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/محرك-البحث/الإمام"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "آبَاءٌ",
+      "definition": [
+        {
+          "ar": "جَمْعُ أَبٍ؛ وَهُمُ الرِّجَالُ الَّذِينَ لَهُمْ أَبْنَاءٌ أَوْ بَنَاتٌ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ؛ جَمْعُ تَكْسِيرٍ لِـ«أَبٍ»، وَيُسْتَعْمَلُ لِلْمُذَكَّرِ."
+        },
+        {
+          "ar": "تُكْتَبُ الْهَمْزَةُ فِي آخِرِ الْجَمْعِ، وَيَبْدَأُ بِآلِفِ الْمَدِّ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "حَضَرَ الْآبَاءُ حَفْلَ الْمَدْرَسَةِ."
+        },
+        {
+          "ar": "يَحْرِصُ الْآبَاءُ عَلَى تَعْلِيمِ أَبْنَائِهِمْ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«آبَاءٌ» جَمْعُ «أَبٍ»، وَأَمَّا «أَبُو، أَبَا، أَبِي» فَهِيَ صِيَغُ إِعْرَابِ الْمُفْرَدِ عِنْدَ تَحَقُّقِ شُرُوطِ الْأَسْمَاءِ الْخَمْسَةِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أبو"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "إِبَاحَةٌ",
+      "definition": [
+        {
+          "ar": "السَّمَاحُ بِالشَّيْءِ وَالْإِذْنُ بِفِعْلِهِ."
+        },
+        {
+          "ar": "حُكْمٌ شَرْعِيٌّ يَقْتَضِي التَّخْيِيرَ بَيْنَ الْفِعْلِ وَالتَّرْكِ، عِنْدَ الْأُصُولِيِّينَ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ؛ مَصْدَرُ «أَبَاحَ»، وَجَذْرُهُ: ب ـ و ـ ح."
+        },
+        {
+          "ar": "تُسْتَعْمَلُ «إِبَاحَةٌ» فِي مَعْنَى السَّمَاحِ، وَلَهَا مَعْنًى اصْطِلَاحِيٌّ مَخْصُوصٌ فِي أُصُولِ الْفِقْهِ."
+        }
+      ],
+      "synonyms": [
+        {
+          "ar": "إِذْنٌ: فِي سِيَاقِ السَّمَاحِ بِفِعْلٍ مُعَيَّنٍ، لَا فِي جَمِيعِ الْمَعَانِي."
+        }
+      ],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "أَعْلَنَتِ الْإِدَارَةُ إِبَاحَةَ الدُّخُولِ إِلَى الْمَكْتَبَةِ."
+        },
+        {
+          "ar": "تَدُلُّ الْإِبَاحَةُ فِي أُصُولِ الْفِقْهِ عَلَى التَّخْيِيرِ بَيْنَ الْفِعْلِ وَالتَّرْكِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "مَصْدَرُ «أَبَاحَ» هُوَ «إِبَاحَةٌ». فِي أُصُولِ الْفِقْهِ يَخْتَلِفُ مَعْنَاهَا الِاصْطِلَاحِيُّ عَنْ مُجَرَّدِ الْإِذْنِ الْإِدَارِيِّ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/بوح"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبَادَ",
+      "definition": [
+        {
+          "ar": "أَهْلَكَ الشَّيْءَ وَأَفْنَاهُ حَتَّى لَمْ يَبْقَ لَهُ أَثَرٌ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ بِالْهَمْزَةِ، أَجْوَفُ، وَجَذْرُهُ: ب ـ ي ـ د."
+        },
+        {
+          "ar": "الْمَاضِي: أَبَادَ؛ الْمُضَارِعُ: يُبِيدُ؛ الْمَصْدَرُ: إِبَادَةٌ؛ الْأَمْرُ: أَبِدْ."
+        },
+        {
+          "ar": "فِعْلٌ مُتَعَدٍّ؛ اسْمُ الْفَاعِلِ: مُبِيدٌ؛ وَاسْمُ الْمَفْعُولِ: مُبَادٌ."
+        }
+      ],
+      "synonyms": [
+        {
+          "ar": "أَهْلَكَ: فِي سِيَاقِ الْإِفْنَاءِ وَالْإِزَالَةِ."
+        }
+      ],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "أَبَادَ الْجَفَافُ بَعْضَ الْمَحَاصِيلِ."
+        },
+        {
+          "ar": "أَبَادَتِ الْحَرِيقَةُ أَشْجَارًا كَثِيرَةً."
+        }
+      ],
+      "important": [
+        {
+          "ar": "لَا يُخْلَطُ بَيْنَ «أَبَادَ» بِمَعْنَى أَهْلَكَ، وَ«أَبْدَى» بِمَعْنَى أَظْهَرَ؛ فَاخْتِلَافُ حُرُوفِ الْجَذْرِ يَغَيِّرُ الْمَعْنَى."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicterminology.com/content/أبادَ-يُبيد،-أَبِدْ،-إبادةً،-فهو-مُبيد،-والمفعول-مُباد"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "آبَارٌ",
+      "definition": [
+        {
+          "ar": "جَمْعُ بِئْرٍ، وَهِيَ حُفْرَةٌ عَمِيقَةٌ يُسْتَخْرَجُ مِنْهَا الْمَاءُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ؛ جَمْعُ تَكْسِيرٍ لِـ«بِئْرٍ»، وَمُفْرَدُهُ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "مِنْ جُمُوعِ «بِئْرٍ» أَيْضًا: أَبْؤُرٌ وَبِئَارٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "حَفَرَ الْعُمَّالُ آبَارًا جَدِيدَةً."
+        },
+        {
+          "ar": "تَمْتَلِئُ الْآبَارُ بِالْمَاءِ بَعْدَ هُطُولِ الْأَمْطَارِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تَجِبُ مُرَاعَاةُ الْفَرْقِ بَيْنَ الْمُفْرَدِ «بِئْرٌ» وَالْجَمْعِ «آبَارٌ»؛ وَالْمُفْرَدُ مُؤَنَّثٌ، فَيُقَالُ: بِئْرٌ عَمِيقَةٌ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/محرك-البحث/البئر"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبَارِيقُ",
+      "definition": [
+        {
+          "ar": "جَمْعُ إِبْرِيقٍ، وَهُوَ وِعَاءٌ يُصَبُّ مِنْهُ الْمَاءُ أَوْ غَيْرُهُ مِنَ السَّوَائِلِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ؛ جَمْعُ تَكْسِيرٍ لِـ«إِبْرِيقٍ»، عَلَى صِيغَةِ مُنْتَهَى الْجُمُوعِ."
+        },
+        {
+          "ar": "«أَبَارِيقُ» مَمْنُوعٌ مِنَ الصَّرْفِ، فَيُجَرُّ بِالْفَتْحَةِ إِذَا لَمْ يُضَفْ وَلَمْ يَقْتَرِنْ بِـ«الـ»."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "فِي الْمَطْبَخِ أَبَارِيقُ نَظِيفَةٌ."
+        },
+        {
+          "ar": "وَضَعَ الْعَامِلُ أَبَارِيقَ الشَّايِ عَلَى الرَّفِّ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يُرْفَعُ «أَبَارِيقُ» بِالضَّمَّةِ مِنْ غَيْرِ تَنْوِينٍ، وَيُجَرُّ بِالْفَتْحَةِ إِذَا كَانَ نَكِرَةً غَيْرَ مُضَافَةٍ، لِأَنَّهُ عَلَى صِيغَةِ مُنْتَهَى الْجُمُوعِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/محرك-البحث/الإبريق"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبَالِسَةٌ",
+      "definition": [
+        {
+          "ar": "جَمْعٌ لِاسْمِ «إِبْلِيسَ»؛ وَيَرِدُ فِي الْمَعَاجِمِ جَمْعٌ آخَرُ: «أَبَالِيسُ»."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ؛ جَمْعُ تَكْسِيرٍ لِـ«إِبْلِيسَ» فِي هَذَا الِاسْتِعْمَالِ."
+        },
+        {
+          "ar": "لَا يُفْتَرَضُ لِلَفْظِ جَذْرٌ ثُلَاثِيٌّ قَطْعِيٌّ، لِأَنَّ أَصْلَ اسْمِ «إِبْلِيسَ» مَوْضِعُ خِلَافٍ لُغَوِيٍّ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "تَذْكُرُ بَعْضُ الْمَعَاجِمِ «أَبَالِسَةٌ» جَمْعًا لِـ«إِبْلِيسَ»."
+        },
+        {
+          "ar": "وَرَدَتْ صِيغَةُ «أَبَالِيسُ» أَيْضًا فِي بَعْضِ الْمَعَاجِمِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تُثْبِتُ الْمَعَاجِمُ «أَبَالِسَةٌ» وَ«أَبَالِيسُ» جَمْعَيْنِ لِـ«إِبْلِيسَ»، وَلَا يَلْزَمُ مِنْ ذَلِكَ أَنَّ «شَيَاطِينُ» مُرَادِفٌ تَامٌّ لَهُمَا فِي كُلِّ سِيَاقٍ."
+        }
+      ],
+      "source_urls": [
+        "https://www.mofradat.com/إبليس"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبْجَدِيَّةٌ",
+      "definition": [
+        {
+          "ar": "تَرْتِيبٌ قَدِيمٌ لِحُرُوفِ الْعَرَبِيَّةِ يَبْدَأُ بِـ«أَبْجَدْ هَوَّزْ حُطِّي»."
+        },
+        {
+          "ar": "مَبَادِئُ عِلْمٍ أَوْ مَعْرِفَةٍ تُعَدُّ أُصُولًا لِتَعَلُّمِهَا؛ وَهَذَا مَعْنًى مُسْتَقِلٌّ أَثْبَتَهُ الْمَعْجَمُ الْوَسِيطُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُؤَنَّثٌ، وَتُجْمَعُ عَلَى: أَبْجَدِيَّاتٌ."
+        },
+        {
+          "ar": "تُسْتَعْمَلُ لِلتَّرْتِيبِ الْأَبْجَدِيِّ الْقَدِيمِ، وَهُوَ غَيْرُ التَّرْتِيبِ الْأَلِفْبَائِيِّ الشَّائِعِ الْآنَ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "يَبْدَأُ التَّرْتِيبُ الْأَبْجَدِيُّ بِـ«أَبْجَدْ هَوَّزْ»."
+        },
+        {
+          "ar": "دَرَسَ الطَّالِبُ أَبْجَدِيَّاتِ الْعِلْمِ قَبْلَ التَّوَسُّعِ فِيهِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "لَا تُسَاوِي «أَبْجَدِيَّةٌ» فِي مَعْنَاهَا التَّارِيخِيِّ التَّرْتِيبَ الْهَجَائِيَّ الْحَدِيثَ؛ وَتَرِدُ «أَبْجَدِيَّاتٌ» أَيْضًا بِمَعْنَى الْمَبَادِئِ وَالْأُصُولِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أبجدية"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبْحَاثٌ",
+      "definition": [
+        {
+          "ar": "جَمْعُ بَحْثٍ؛ وَالْبَحْثُ دِرَاسَةٌ مُنَظَّمَةٌ لِمَسْأَلَةٍ أَوْ مَوْضُوعٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ؛ جَمْعُ تَكْسِيرٍ لِـ«بَحْثٍ»، وَجَذْرُهُ: ب ـ ح ـ ث."
+        },
+        {
+          "ar": "يَأْتِي جَمْعُ «بَحْثٍ» أَيْضًا عَلَى «بُحُوثٌ» فِي اسْتِعْمَالٍ مَعْرُوفٍ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "نَشَرَ الْبَاحِثُ أَبْحَاثًا عِلْمِيَّةً."
+        },
+        {
+          "ar": "نَاقَشَ الطُّلَّابُ أَبْحَاثَ زُمَلَائِهِمْ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "الْمُفْرَدُ «بَحْثٌ»، وَمِنْ جُمُوعِهِ «أَبْحَاثٌ» وَ«بُحُوثٌ»؛ وَلَا يَدُلُّ الْجَمْعُ وَحْدَهُ عَلَى أَنَّ الْبَحْثَ نُشِرَ فِي مَجَلَّةٍ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/محرك-البحث/أبحاث"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبَدًا",
+      "definition": [
+        {
+          "ar": "ظَرْفُ زَمَانٍ يُسْتَعْمَلُ لِلدَّلَالَةِ عَلَى اسْتِمْرَارِ الْأَمْرِ فِي الْمُسْتَقْبَلِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "ظَرْفُ زَمَانٍ مَنْصُوبٌ؛ وَيَلْزَمُ الْفَتْحَةَ فِي هَذَا الِاسْتِعْمَالِ."
+        },
+        {
+          "ar": "يَرِدُ فِي جُمَلِ الْإِثْبَاتِ وَالنَّفْيِ، وَقَدْ يَتَحَدَّدُ مَدَاهُ بِالْقَرَائِنِ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "لَنْ أَنْسَى هَذَا الْمَعْرُوفَ أَبَدًا."
+        },
+        {
+          "ar": "سَنَحْفَظُ الْعَهْدَ أَبَدًا."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أَبَدًا» ظَرْفُ زَمَانٍ، وَلَيْسَ فِعْلًا. وَيُسْتَعْمَلُ مَعَ الْإِثْبَاتِ وَالنَّفْيِ، وَلَا يَنْحَصِرُ فِي النَّفْيِ وَحْدَهُ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/محرك-البحث/أبدا"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبْدَانٌ",
+      "definition": [
+        {
+          "ar": "جَمْعُ بَدَنٍ؛ وَالْبَدَنُ الْجِسْمُ أَوْ مَا سِوَى الرَّأْسِ وَالْأَطْرَافِ مِنْهُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ؛ جَمْعُ تَكْسِيرٍ لِـ«بَدَنٍ»، وَجَذْرُهُ: ب ـ د ـ ن."
+        },
+        {
+          "ar": "«بَدَنٌ» اِسْمٌ مُذَكَّرٌ، وَتَأْتِي «أَبْدَانٌ» عَلَى وَزْنِ «أَفْعَالٍ»."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "تَحْتَاجُ الْأَبْدَانُ إِلَى غِذَاءٍ صِحِّيٍّ."
+        },
+        {
+          "ar": "تَتَغَيَّرُ أَبْدَانُ النَّاسِ مَعَ مُرُورِ السِّنِينَ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«بَدَنٌ» قَدْ يَدُلُّ عَلَى الْجِسْمِ كُلِّهِ، وَقَدْ يُخَصُّ بِمَا دُونَ الرَّأْسِ وَالْأَطْرَافِ؛ فَيُحَدِّدُ السِّيَاقُ الْمَعْنَى."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/بدن"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "إِبَرٌ",
+      "definition": [
+        {
+          "ar": "جَمْعُ إِبْرَةٍ؛ وَالْإِبْرَةُ أَدَاةٌ رَفِيعَةٌ ذَاتُ طَرَفٍ دَقِيقٍ تُسْتَعْمَلُ فِي الْخِيَاطَةِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ؛ جَمْعُ تَكْسِيرٍ لِـ«إِبْرَةٍ»، وَمُفْرَدُهُ مُؤَنَّثٌ."
+        },
+        {
+          "ar": "«إِبَرٌ» جَمْعٌ مُعْرَبٌ بِالْحَرَكَاتِ، وَهُوَ غَيْرُ الْمُفْرَدِ «إِبْرَةٌ»."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "وَضَعَتِ الْخَيَّاطَةُ إِبَرًا صَغِيرَةً فِي الْعُلْبَةِ."
+        },
+        {
+          "ar": "فِي الْعُلْبَةِ إِبَرٌ مُتَعَدِّدَةٌ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تُسْتَعْمَلُ «إِبَرٌ» لِأَدَوَاتِ الْخِيَاطَةِ، وَقَدْ تُسْتَعْمَلُ فِي الْمَجَالِ الطِّبِّيِّ بِحَسَبِ النَّوْعِ؛ وَالْمُفْرَدُ «إِبْرَةٌ»."
+        }
+      ],
+      "source_urls": [
+        "https://www.almougem.com/search.php?query=الْإِبْرَةَ"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبْرَدَ",
+      "definition": [
+        {
+          "ar": "جَعَلَ الشَّيْءَ بَارِدًا أَوْ خَفَّضَ حَرَارَتَهُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ بِالْهَمْزَةِ، وَجَذْرُهُ: ب ـ ر ـ د، وَوَزْنُهُ «أَفْعَلَ»."
+        },
+        {
+          "ar": "الْمَاضِي: أَبْرَدَ؛ الْمُضَارِعُ: يُبْرِدُ؛ الْمَصْدَرُ: إِبْرَادٌ؛ الْأَمْرُ: أَبْرِدْ."
+        },
+        {
+          "ar": "فِعْلٌ مُتَعَدٍّ؛ اسْمُ الْفَاعِلِ: مُبْرِدٌ، وَاسْمُ الْمَفْعُولِ: مُبْرَدٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "أَبْرَدَ الطَّبَّاخُ الطَّعَامَ قَبْلَ تَقْدِيمِهِ."
+        },
+        {
+          "ar": "أَبْرَدَ الْمَاءَ قَبْلَ أَنْ يَشْرَبَهُ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "مَصْدَرُ «أَبْرَدَ» هُوَ «إِبْرَادٌ»، وَمَصْدَرُ «بَرَّدَ» هُوَ «تَبْرِيدٌ»؛ فَالْفِعْلَانِ مُخْتَلِفَانِ فِي الصِّيغَةِ وَلَوْ تَقَارَبَ مَعْنَاهُمَا فِي بَعْضِ السِّيَاقَاتِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/برد"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبْرَزَ",
+      "definition": [
+        {
+          "ar": "أَظْهَرَ الشَّيْءَ وَبَيَّنَهُ بَعْدَ أَنْ كَانَ غَيْرَ وَاضِحٍ."
+        },
+        {
+          "ar": "مَيَّزَ شَخْصًا وَفَضَّلَهُ عَلَى غَيْرِهِ فِي سِيَاقٍ مُعَيَّنٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ بِالْهَمْزَةِ، وَجَذْرُهُ: ب ـ ر ـ ز، وَوَزْنُهُ «أَفْعَلَ»."
+        },
+        {
+          "ar": "الْمَاضِي: أَبْرَزَ؛ الْمُضَارِعُ: يُبْرِزُ؛ الْمَصْدَرُ: إِبْرَازٌ؛ الْأَمْرُ: أَبْرِزْ."
+        },
+        {
+          "ar": "فِعْلٌ مُتَعَدٍّ؛ اسْمُ الْفَاعِلِ: مُبْرِزٌ، وَاسْمُ الْمَفْعُولِ: مُبْرَزٌ."
+        }
+      ],
+      "synonyms": [
+        {
+          "ar": "أَظْهَرَ: فِي سِيَاقِ إِبْرَازِ الْحَقَائِقِ وَالْمَعَانِي."
+        }
+      ],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "أَبْرَزَ الْبَاحِثُ النَّتَائِجَ فِي التَّقْرِيرِ."
+        },
+        {
+          "ar": "أَبْرَزَ الْمُعَلِّمُ الْفَرْقَ بَيْنَ الْكَلِمَتَيْنِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أَبْرَزَ» مِنَ الْبُرُوزِ وَالظُّهُورِ؛ وَيُقَالُ: أَبْرَزَ الْفِكْرَةَ أَوْ أَبْرَزَ الْفَرْقَ. وَلَا يُخْلَطُ بِـ«أَبْرَدَ» مِنَ الْبَرْدِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/برز"
+      ],
+      "source_pdf_page": 5,
+      "source_printed_page": 1,
+      "editorial_batch": "2026-11-18-original-print-page01-restored-14",
+      "source_text_status": "printed_lemma_and_short_gloss_visually_checked_authored_prose_pending_independent_final_linguistic_review",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 5,
+        "printed_page": 1,
+        "checked_on": "2026-11-18",
+        "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
     }
   ]
 }
