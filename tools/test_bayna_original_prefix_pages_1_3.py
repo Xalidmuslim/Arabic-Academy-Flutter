@@ -76,9 +76,15 @@ class FirstPrintedPagesOriginalAudit(unittest.TestCase):
                 self.assertEqual(evidence["scan_sha256"], EXPECTED_SHA256)
                 self.assertEqual(evidence["pdf_page"], page)
                 self.assertEqual(evidence["printed_page"], page - 4)
-                if x["arabic"] == "أَبْغَضَ" and page == 6:
+                mismatches = {
+                    (6, "أَبْغَضَ"): "أَبْغَضُ",
+                    (7, "أَثِمَ"): "إِثْمٌ",
+                }
+                printed = mismatches.get((page, x["arabic"]))
+                if printed:
                     self.assertEqual(evidence["status"], "source_headword_mismatch_requires_relocation")
-                    self.assertEqual(evidence["printed_headword"], "أَبْغَضُ")
+                    self.assertEqual(evidence["printed_headword"], printed)
+                    self.assertIn("unmatched_printed_lemma", x["source_provenance"]["text_status"])
                 else:
                     self.assertEqual(evidence["status"], STATUS)
                 self.assertEqual(evidence["examples_status"], "independently_authored_pending_separate_i3rab_review")
