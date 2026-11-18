@@ -5,6 +5,8 @@ on:
     paths:
       - 'lib/main.dart'
       - 'test/local_state_regression_test.dart'
+      - 'test/local_state_failure_test.dart'
+      - 'pubspec.yaml'
       - '.github/workflows/council-regression.yml'
 
 permissions:
