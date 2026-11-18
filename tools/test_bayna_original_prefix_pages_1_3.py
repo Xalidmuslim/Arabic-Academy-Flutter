@@ -76,10 +76,14 @@ class FirstPrintedPagesOriginalAudit(unittest.TestCase):
                 self.assertEqual(evidence["scan_sha256"], EXPECTED_SHA256)
                 self.assertEqual(evidence["pdf_page"], page)
                 self.assertEqual(evidence["printed_page"], page - 4)
-                self.assertEqual(evidence["status"], STATUS)
+                if x["arabic"] == "أَبْغَضَ" and page == 6:
+                    self.assertEqual(evidence["status"], "source_headword_mismatch_requires_relocation")
+                    self.assertEqual(evidence["printed_headword"], "أَبْغَضُ")
+                else:
+                    self.assertEqual(evidence["status"], STATUS)
                 self.assertEqual(evidence["examples_status"], "independently_authored_pending_separate_i3rab_review")
                 y = self.overlay[norm(x["arabic"])]
-                self.assertEqual(y["visual_verification"]["status"], STATUS)
+                self.assertEqual(y["visual_verification"]["status"], evidence["status"])
                 self.assertEqual(y["visual_verification"]["pdf_page"], page)
 
     def test_first_original_page_conjugations_and_verbal_nouns_are_retained(self):

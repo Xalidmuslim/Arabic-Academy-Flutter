@@ -564,11 +564,14 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 6,
         "printed_page": 2,
-        "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
+        "status": "source_headword_mismatch_requires_relocation",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "checked_on": "2026-11-14",
-        "evidence_scope": "headword_lexeme_and_visible_diacritics_only_not_full_quotation_or_phrase_proof"
-      }
+        "evidence_scope": "headword_lexeme_and_visible_diacritics_only_not_full_quotation_or_phrase_proof",
+        "printed_headword": "أَبْغَضُ",
+        "note": "الْمَطْبُوعُ فِي الصَّفْحَةِ ٢ هُوَ «أَبْغَضُ» اسْمُ تَفْضِيلٍ، وَلَيْسَ «أَبْغَضَ» فِعْلًا مَاضِيًا."
+      },
+      "source_text_status": "unmatched_printed_lemma_source_page_6_relocation_required"
     },
     {
       "arabic": "أَبْقَى",
@@ -27714,6 +27717,570 @@
         "status": "printed_lemma_and_core_sense_manually_checked_original_pdf",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "source_headword_and_short_sense_only_case_endings_and_new_examples_not_literal_print"
+      }
+    },
+    {
+      "arabic": "أَبْرَصُ",
+      "definition": [
+        {
+          "ar": "مَنْ بِهِ بَرَصٌ، وَهُوَ تَغَيُّرُ لَوْنِ بَعْضِ مَوَاضِعِ الْجِلْدِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "صِفَةٌ عَلَى وَزْنِ أَفْعَلَ؛ وَمُؤَنَّثُهَا: بَرْصَاءُ."
+        },
+        {
+          "ar": "يُفَرَّقُ بَيْنَ وَصْفِ الشَّخْصِ وَاسْمِ الْمَرَضِ «بَرَصٌ»."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "وَصَفَ الطَّبِيبُ رَجُلًا أَبْرَصَ."
+        },
+        {
+          "ar": "لَا يَجُوزُ السُّخْرِيَةُ مِنْ إِنْسَانٍ أَبْرَصَ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يُفَرَّقُ بَيْنَ وَصْفِ الشَّخْصِ وَاسْمِ الْمَرَضِ «بَرَصٌ»."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/برص"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "إِبْطٌ",
+      "definition": [
+        {
+          "ar": "الْمَوْضِعُ الَّذِي تَتَّصِلُ فِيهِ الذِّرَاعُ بِالْجِسْمِ تَحْتَ الْكَتِفِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمٌ مُذَكَّرٌ، وَجَمْعُهُ: آبَاطٌ."
+        },
+        {
+          "ar": "تُكْسَرُ الْهَمْزَةُ وَتُسَكَّنُ الْبَاءُ فِي «إِبْطٌ»."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "غَسَلَ الرَّجُلُ إِبْطَهُ بِالْمَاءِ."
+        },
+        {
+          "ar": "يَقَعُ الْإِبْطُ تَحْتَ الْكَتِفِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تُكْسَرُ الْهَمْزَةُ وَتُسَكَّنُ الْبَاءُ فِي «إِبْطٌ»."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أبط"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "أَبْعَدُ",
+      "definition": [
+        {
+          "ar": "أَكْثَرُ بُعْدًا مِنْ غَيْرِهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ أَفْعَلَ؛ وَجَذْرُهُ: ب ـ ع ـ د."
+        },
+        {
+          "ar": "«أَبْعَدُ» اسْمُ تَفْضِيلٍ، وَ«أَبْعَدَ» فِعْلٌ مَاضٍ؛ وَيُقَابِلُهُ «أَقْرَبُ» فِي الْمَسَافَةِ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "هَذَا الْبَيْتُ أَبْعَدُ مِنَ الْمَسْجِدِ."
+        },
+        {
+          "ar": "الْمَدْرَسَةُ أَبْعَدُ مِنَ الْمَكْتَبَةِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أَبْعَدُ» اسْمُ تَفْضِيلٍ، وَ«أَبْعَدَ» فِعْلٌ مَاضٍ؛ وَيُقَابِلُهُ «أَقْرَبُ» فِي الْمَسَافَةِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/بعد"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "أَبْغَضُ",
+      "definition": [
+        {
+          "ar": "أَشَدُّ بُغْضًا وَكَرَاهِيَةً مِنْ غَيْرِهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ أَفْعَلَ؛ وَجَذْرُهُ: ب ـ غ ـ ض."
+        },
+        {
+          "ar": "«أَبْغَضُ» اسْمُ تَفْضِيلٍ، وَلَيْسَ الْفِعْلَ الْمَاضِيَ «أَبْغَضَ»."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "هَذَا الْفِعْلُ أَبْغَضُ إِلَيَّ مِنْ ذَاكَ."
+        },
+        {
+          "ar": "الْخِيَانَةُ أَبْغَضُ إِلَيْهِ مِنَ الْكَسَلِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أَبْغَضُ» اسْمُ تَفْضِيلٍ، وَلَيْسَ الْفِعْلَ الْمَاضِيَ «أَبْغَضَ»."
+        }
+      ],
+      "source_urls": [
+        "https://islamweb.net/ar/library/content/122/591/بغض"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "إِبْقَاءٌ",
+      "definition": [
+        {
+          "ar": "الْمُحَافَظَةُ عَلَى الشَّيْءِ وَمَنْعُ زَوَالِهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرُ الْفِعْلِ «أَبْقَى»؛ وَجَذْرُهُ: ب ـ ق ـ ي."
+        },
+        {
+          "ar": "يَخْتَلِفُ «إِبْقَاءٌ» الْمُتَعَدِّي بِمَعْنَى الْحِفَاظِ عَنْ «بَقَاءٍ» بِمَعْنَى الِاسْتِمْرَارِ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "قَرَّرَ الْمُدِيرُ إِبْقَاءَ الْبَابِ مَفْتُوحًا."
+        },
+        {
+          "ar": "إِبْقَاءُ الْمَاءِ نَقِيًّا أَمْرٌ مُهِمٌّ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "يَخْتَلِفُ «إِبْقَاءٌ» الْمُتَعَدِّي بِمَعْنَى الْحِفَاظِ عَنْ «بَقَاءٍ» بِمَعْنَى الِاسْتِمْرَارِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/بقي"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "إِبْلِيسُ",
+      "definition": [
+        {
+          "ar": "اسْمُ الشَّيْطَانِ الَّذِي عَصَى أَمْرَ اللَّهِ بِالسُّجُودِ لِآدَمَ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ عَلَمٍ لِمَوْجُودٍ مُعَيَّنٍ؛ وَلَيْسَ اسْمًا عَامًّا لِكُلِّ شَيْطَانٍ."
+        },
+        {
+          "ar": "لَا يُجْزَمُ بِجَذْرٍ عَرَبِيٍّ لِاسْمِ «إِبْلِيسَ» لِاخْتِلَافِ أَهْلِ اللُّغَةِ فِي أَصْلِهِ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "ذُكِرَ إِبْلِيسُ فِي الْقُرْآنِ الْكَرِيمِ."
+        },
+        {
+          "ar": "عَصَى إِبْلِيسُ أَمْرَ رَبِّهِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "لَا يُجْزَمُ بِجَذْرٍ عَرَبِيٍّ لِاسْمِ «إِبْلِيسَ» لِاخْتِلَافِ أَهْلِ اللُّغَةِ فِي أَصْلِهِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/بلس"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "آتٍ",
+      "definition": [
+        {
+          "ar": "مَنْ سَيَأْتِي أَوْ يَحْضُرُ، وَيُوصَفُ بِهِ أَيْضًا الْوَقْتُ الْمُقْبِلُ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ فَاعِلٍ مَنْقُوصٌ مِنَ «أَتَى»؛ وَجَذْرُهُ: أ ـ ت ـ ي."
+        },
+        {
+          "ar": "تُحْذَفُ الْيَاءُ مِنَ النَّكِرَةِ فِي الرَّفْعِ وَالْجَرِّ: «رَجُلٌ آتٍ»؛ وَتَظْهَرُ فِي النَّصْبِ: «رَجُلًا آتِيًا»."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "الضَّيْفُ آتٍ غَدًا."
+        },
+        {
+          "ar": "هَذَا يَوْمٌ آتٍ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تُحْذَفُ الْيَاءُ مِنَ النَّكِرَةِ فِي الرَّفْعِ وَالْجَرِّ: «رَجُلٌ آتٍ»؛ وَتَظْهَرُ فِي النَّصْبِ: «رَجُلًا آتِيًا»."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أتي"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "أَتْبَاعٌ",
+      "definition": [
+        {
+          "ar": "جَمَاعَةٌ يَتْبَعُونَ غَيْرَهُمْ فِي رَأْيٍ أَوْ أَمْرٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«تَبَعٍ» فِي هَذَا السِّيَاقِ."
+        },
+        {
+          "ar": "لَا تَدُلُّ «أَتْبَاعٌ» عَلَى «أَصْدِقَاءَ» فِي كُلِّ سِيَاقٍ؛ فَالِاتِّبَاعُ غَيْرُ الصَّدَاقَةِ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "حَضَرَ أَتْبَاعُ الْقَائِدِ."
+        },
+        {
+          "ar": "اِجْتَمَعَ أَتْبَاعُ الْمُعَلِّمِ لِسَمَاعِ دَرْسِهِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "لَا تَدُلُّ «أَتْبَاعٌ» عَلَى «أَصْدِقَاءَ» فِي كُلِّ سِيَاقٍ؛ فَالِاتِّبَاعُ غَيْرُ الصَّدَاقَةِ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/تبع"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "إِتْقَانٌ",
+      "definition": [
+        {
+          "ar": "أَدَاءُ الْعَمَلِ بِدِقَّةٍ وَمَهَارَةٍ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "مَصْدَرُ «أَتْقَنَ»؛ وَجَذْرُهُ: ت ـ ق ـ ن."
+        },
+        {
+          "ar": "تَأْتِي الْإِضَافَةُ فِي تَرْكِيبِ «إِتْقَانُ الْعَمَلِ»؛ وَهُوَ مَصْدَرٌ، لَا فِعْلٌ مَاضٍ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "يَحْتَاجُ إِتْقَانُ الْعَمَلِ إِلَى تَدْرِيبٍ."
+        },
+        {
+          "ar": "يَدُلُّ إِتْقَانُ الصَّنْعَةِ عَلَى الْمَهَارَةِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "تَأْتِي الْإِضَافَةُ فِي تَرْكِيبِ «إِتْقَانُ الْعَمَلِ»؛ وَهُوَ مَصْدَرٌ، لَا فِعْلٌ مَاضٍ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/تقن"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "أَتْقَى",
+      "definition": [
+        {
+          "ar": "أَكْثَرُ تَقْوًى وَخَشْيَةً مِنَ اللَّهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ تَفْضِيلٍ مِنْ «تَقِيٍّ»، وَجَذْرُهُ: و ـ ق ـ ي."
+        },
+        {
+          "ar": "«أَتْقَى» اسْمُ تَفْضِيلٍ، وَ«اِتَّقَى» فِعْلٌ مَاضٍ؛ فَلَا يُخْلَطُ بَيْنَهُمَا."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "يَسْعَى الْمُسْلِمُ إِلَى أَنْ يَكُونَ أَتْقَى لِلَّهِ."
+        },
+        {
+          "ar": "لَيْسَ الْغِنَى دَلِيلًا عَلَى أَنَّ صَاحِبَهُ أَتْقَى مِنْ غَيْرِهِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أَتْقَى» اسْمُ تَفْضِيلٍ، وَ«اِتَّقَى» فِعْلٌ مَاضٍ؛ فَلَا يُخْلَطُ بَيْنَهُمَا."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/وقي"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "أَتْقِيَاءُ",
+      "definition": [
+        {
+          "ar": "جَمَاعَةٌ مِنَ النَّاسِ يَتَّصِفُونَ بِالتَّقْوَى."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«تَقِيٍّ»، وَجَذْرُهُ: و ـ ق ـ ي."
+        },
+        {
+          "ar": "«أَتْقِيَاءُ» جَمْعٌ، وَأَمَّا «أَتْقَى» فَاسْمُ تَفْضِيلٍ مُفْرَدٌ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "يَحْرِصُ الْأَتْقِيَاءُ عَلَى الْعَدْلِ."
+        },
+        {
+          "ar": "يَذْكُرُ الْمُؤَلِّفُ سِيَرَ أَتْقِيَاءَ مِنَ الْعُلَمَاءِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أَتْقِيَاءُ» جَمْعٌ، وَأَمَّا «أَتْقَى» فَاسْمُ تَفْضِيلٍ مُفْرَدٌ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/وقي"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
+      }
+    },
+    {
+      "arabic": "أَثَابَ",
+      "definition": [
+        {
+          "ar": "كَافَأَ شَخْصًا وَجَزَاهُ عَلَى عَمَلِهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ بِالْهَمْزَةِ؛ وَجَذْرُهُ: ث ـ و ـ ب."
+        },
+        {
+          "ar": "الْمَاضِي: أَثَابَ؛ الْمُضَارِعُ: يُثِيبُ؛ الْمَصْدَرُ: إِثَابَةٌ؛ وَالْفِعْلُ مُتَعَدٍّ."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "أَثَابَ الْمُدِيرُ الْعَامِلَ عَلَى إِتْقَانِهِ."
+        },
+        {
+          "ar": "يُثِيبُ اللَّهُ الْمُحْسِنِينَ عَلَى أَعْمَالِهِمْ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "الْمَاضِي: أَثَابَ؛ الْمُضَارِعُ: يُثِيبُ؛ الْمَصْدَرُ: إِثَابَةٌ؛ وَالْفِعْلُ مُتَعَدٍّ."
+        }
+      ],
+      "source_urls": [
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/ثوب"
+      ],
+      "source_pdf_page": 6,
+      "source_printed_page": 2,
+      "editorial_batch": "2026-11-18-original-print-page02-restored-12",
+      "source_text_status": "print_headword_and_gloss_seen_authored_examples_pending_final_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 6,
+        "printed_page": 2,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_new_examples"
       }
     }
   ]
