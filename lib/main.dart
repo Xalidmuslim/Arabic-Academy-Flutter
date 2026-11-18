@@ -22,40 +22,123 @@ class AcademyState extends ChangeNotifier {
   AcademyState(this.prefs, this.catalog) {
     completed.addAll(prefs.getStringList('completed') ?? []);
     final jsonText = prefs.getString('teacher_lessons') ?? '[]';
-    teacherLessons.addAll((jsonDecode(jsonText) as List).cast<Map<String, dynamic>>());
+    try {
+      final decoded = jsonDecode(jsonText);
+      if (decoded is! List) {
+        throw const FormatException('Expected a list of lessons');
+      }
+      final restored = <Map<String, dynamic>>[];
+      for (final item in decoded) {
+        if (item is! Map<String, dynamic> ||
+            item['id'] is! String ||
+            item['title'] is! String) {
+          throw const FormatException('Invalid saved lesson');
+        }
+        restored.add(item);
+      }
+      teacherLessons.addAll(restored);
+    } on FormatException {
+      // Do not overwrite the unreadable source until a recovery copy is saved.
+      _unreadableTeacherLessons = jsonText;
+    }
   }
+
   final SharedPreferences prefs;
   final Map<String, dynamic> catalog;
   final Set<String> completed = {};
   final List<Map<String, dynamic>> teacherLessons = [];
+  String? _unreadableTeacherLessons;
+  Future<void> _writeTail = Future<void>.value();
+
   List get units => catalog['modules'] as List;
   List get lessons => catalog['lessons'] as List;
-  List<Map<String, dynamic>> get published => teacherLessons.where((x) => x['published'] == true).toList();
+  List<Map<String, dynamic>> get published =>
+      teacherLessons.where((x) => x['published'] == true).toList();
 
-  Future<void> finish(String id) async {
-    completed.add(id);
-    await prefs.setStringList('completed', completed.toList());
-    notifyListeners();
+  // Persist updates in their invocation order. A failed transaction must not
+  // poison later writes or publish uncommitted state to the interface.
+  Future<void> _enqueue(Future<void> Function() operation) {
+    final current = _writeTail.then((_) => operation());
+    _writeTail = current.then<void>(
+      (_) {},
+      onError: (Object _, StackTrace __) {},
+    );
+    return current;
   }
 
-  Future<void> save(Map<String, dynamic> data) async {
-    final index = teacherLessons.indexWhere((x) => x['id'] == data['id']);
-    if (index < 0) {
-      teacherLessons.add(data);
-    } else {
-      teacherLessons[index] = data;
+  Future<void> finish(String id) => _enqueue(() async {
+    final next = <String>{...completed, id};
+    try {
+      if (!await prefs.setStringList('completed', next.toList())) {
+        throw StateError('Failed to save lesson progress');
+      }
+    } catch (_) {
+      await prefs.reload();
+      rethrow;
     }
-    await _persist();
-  }
-
-  Future<void> remove(String id) async {
-    teacherLessons.removeWhere((x) => x['id'] == id);
-    await _persist();
-  }
-
-  Future<void> _persist() async {
-    await prefs.setString('teacher_lessons', jsonEncode(teacherLessons));
+    completed
+      ..clear()
+      ..addAll(next);
     notifyListeners();
+  });
+
+  Future<void> save(Map<String, dynamic> data) {
+    final submitted = Map<String, dynamic>.from(data);
+    return _enqueue(() async {
+      final next = <Map<String, dynamic>>[...teacherLessons];
+      final index = next.indexWhere((x) => x['id'] == submitted['id']);
+      if (index < 0) {
+        next.add(submitted);
+      } else {
+        next[index] = submitted;
+      }
+      await _persist(next);
+      teacherLessons
+        ..clear()
+        ..addAll(next);
+      notifyListeners();
+    });
+  }
+
+  Future<void> remove(String id) => _enqueue(() async {
+    final next = teacherLessons.where((x) => x['id'] != id).toList();
+    await _persist(next);
+    teacherLessons
+      ..clear()
+      ..addAll(next);
+    notifyListeners();
+  });
+
+  Future<void> _persist(List<Map<String, dynamic>> next) async {
+    try {
+      final unreadable = _unreadableTeacherLessons;
+      if (unreadable != null) {
+        var backupKey = 'teacher_lessons_backup';
+        var suffix = 0;
+        var alreadySaved = false;
+        while (prefs.containsKey(backupKey)) {
+          if (prefs.get(backupKey) == unreadable) {
+            alreadySaved = true;
+            break;
+          }
+          suffix++;
+          backupKey = 'teacher_lessons_backup_$suffix';
+        }
+        if (!alreadySaved && !await prefs.setString(backupKey, unreadable)) {
+          throw StateError('Failed to back up unreadable lessons');
+        }
+      }
+      if (!await prefs.setString('teacher_lessons', jsonEncode(next))) {
+        throw StateError('Failed to save lessons');
+      }
+      // Clear recovery marker only after the primary write succeeded.
+      _unreadableTeacherLessons = null;
+    } catch (_) {
+      // Legacy SharedPreferences updates its in-memory cache before awaiting
+      // the backing-store result. Reload to avoid reading an uncommitted value.
+      await prefs.reload();
+      rethrow;
+    }
   }
 }
 

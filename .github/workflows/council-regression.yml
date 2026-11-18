@@ -1,0 +1,35 @@
+name: AI-Council local-data regression (PR)
+
+on:
+  pull_request:
+    paths:
+      - 'lib/main.dart'
+      - 'test/local_state_regression_test.dart'
+      - 'test/local_state_failure_test.dart'
+      - 'pubspec.yaml'
+      - '.github/workflows/council-regression.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.50.0'
+          channel: stable
+          cache: true
+      - name: Generate temporary Flutter platform folders
+        run: flutter create --project-name arabic_academy --platforms android,ios .
+      - name: Install dependencies
+        run: flutter pub get
+      - name: Static analysis (info-level deprecations visible, errors still fatal)
+        run: flutter analyze --no-fatal-infos
+      - name: Test existing features and local data recovery
+        run: flutter test --reporter expanded
