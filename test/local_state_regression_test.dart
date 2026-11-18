@@ -88,6 +88,7 @@ void main() {
       'published': false,
     });
     expect(state.prefs.getString('teacher_lessons_backup'), 'previous-backup');
+    expect(state.prefs.getString('teacher_lessons_backup_1'), badShape);
     expect(state.prefs.getString('teacher_lessons'), isNot(badShape));
   });
 
