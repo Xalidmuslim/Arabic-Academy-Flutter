@@ -1,0 +1,71 @@
+name: AI-Council Flutter PR tests (no API)
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ai-council-flutter-pr-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout exact PR head
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Record actual revision (no source upload)
+        shell: bash
+        run: |
+          mkdir -p ci-evidence
+          git rev-parse HEAD > ci-evidence/commit.txt
+          git status --short > ci-evidence/working-tree-before.txt
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.50.0'
+          channel: stable
+          cache: true
+      - name: Generate missing platform scaffolding only inside runner
+        run: flutter create --project-name arabic_academy --platforms android,ios .
+      - name: Resolve project dependencies
+        id: dependencies
+        run: flutter pub get
+      - name: Static analysis (info diagnostics visible)
+        working-directory: .
+        shell: bash
+        run: |
+          set -o pipefail
+          flutter analyze --no-fatal-infos 2>&1 | tee ci-evidence/flutter-analyze.log
+      - name: Flutter regression tests (also run when analyzer reports problems)
+        if: ${{ always() && steps.dependencies.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          flutter test --reporter expanded 2>&1 | tee ci-evidence/flutter-test.log
+      - name: Report checked revision and limitations
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo '## AI-Council Flutter CI'
+            echo "Git commit: $(cat ci-evidence/commit.txt)"
+            echo 'No OpenAI API key or AI model ran in this workflow.'
+            echo 'No APK was built and no device FPS was measured.'
+            echo 'flutter analyze --no-fatal-infos still displays informational diagnostics.'
+            echo 'Check the individual step conclusions and artifact logs before asserting PASS.'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve full test logs (including failures)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-council-flutter-pr-evidence
+          path: ci-evidence/
+          if-no-files-found: warn
+          retention-days: 7
