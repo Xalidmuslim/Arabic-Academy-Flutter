@@ -21,6 +21,12 @@ class ControlledStore extends SharedPreferencesStorePlatform {
   Future<Map<String, Object>> getAll() => delegate.getAll();
 
   @override
+  Future<bool> clear() => delegate.clear();
+
+  @override
+  Future<bool> remove(String key) => delegate.remove(key);
+
+  @override
   Future<bool> setValue(String valueType, String key, Object value) async {
     if (key == 'flutter.teacher_lessons') {
       teacherWriteCalls++;
