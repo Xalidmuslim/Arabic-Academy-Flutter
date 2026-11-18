@@ -1,0 +1,923 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "source": "المعجم العربي بين يديك",
+  "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "pages_scanned_from_images_not_OCR": true,
+  "visual_scope": "Printed column headwords in normalised pedagogical form; printed vowel marks are compared where legible. Editorial case endings not asserted as literal print where unclear. Authored examples require separate verification.",
+  "inventory_counts": {
+    "scanned_pages": 5,
+    "printed_headings": 123,
+    "already_present_in_scan_chunk": 112,
+    "missing_in_scan_chunk": 11
+  },
+  "notes": [
+    "PDF 8 (print 4): photographic labels name devices illustrating أَجْهِزَةٌ and are not individually counted as dictionary headers.",
+    "PDF 9 (print 5): distinguishes أُحُدٌ (mountain proper name) from أَحَدٌ and آحَادٌ.",
+    "PDF 11 (print 7): distinguishes participle آخِذٌ from verb أَخَذَ, and comparative أَخْطَرُ from plural أَخْطَارٌ.",
+    "PDF 12 (print 8): form III آخَى is not a replacement for noun أُخُوَّةٌ; and أُدَبَاءُ / أَدْبَارٌ are independently printed."
+  ],
+  "pages": [
+    {
+      "pdf_page": 8,
+      "printed_page": 4,
+      "right_column": 15,
+      "left_column": 5,
+      "headings": [
+        {
+          "headword": "أَجَرَ",
+          "column": "right",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_047",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أُجَرَاءُ",
+          "column": "right",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_048",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِجْرَاءٌ",
+          "column": "right",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_049",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِجْرَامٌ",
+          "column": "right",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_050",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْرَى",
+          "column": "right",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_051",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْزَأَ",
+          "column": "right",
+          "order_in_column": 6,
+          "existing_scan_id": "bayna_scan_v1_052",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْزَاءٌ",
+          "column": "right",
+          "order_in_column": 7,
+          "existing_scan_id": "bayna_scan_v1_053",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْسَامٌ",
+          "column": "right",
+          "order_in_column": 8,
+          "existing_scan_id": "bayna_scan_v1_054",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْلٌ",
+          "column": "right",
+          "order_in_column": 9,
+          "existing_scan_id": "bayna_scan_v1_055",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجَّلَ",
+          "column": "right",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_056",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِجْلَالٌ",
+          "column": "right",
+          "order_in_column": 11,
+          "existing_scan_id": "bayna_scan_v1_057",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِجْمَاعٌ",
+          "column": "right",
+          "order_in_column": 12,
+          "existing_scan_id": "bayna_scan_v1_058",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْمَعَ",
+          "column": "right",
+          "order_in_column": 13,
+          "existing_scan_id": "bayna_scan_v1_059",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْمَلُ",
+          "column": "right",
+          "order_in_column": 14,
+          "existing_scan_id": "bayna_scan_v1_060",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْنَبِيٌّ",
+          "column": "right",
+          "order_in_column": 15,
+          "existing_scan_id": "bayna_scan_v1_061",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجِنَّةٌ",
+          "column": "left",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_062",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْنِحَةٌ",
+          "column": "left",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_063",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِجْهَادٌ",
+          "column": "left",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_064",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْهَدَ",
+          "column": "left",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_065",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْهِزَةٌ",
+          "column": "left",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_066",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        }
+      ]
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 5,
+      "right_column": 10,
+      "left_column": 14,
+      "headings": [
+        {
+          "headword": "أَجْهَلُ",
+          "column": "right",
+          "order_in_column": 1,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْوِبَةٌ",
+          "column": "right",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_067",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْوَفُ",
+          "column": "right",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_068",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجْيَالٌ",
+          "column": "right",
+          "order_in_column": 4,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَجِيرٌ",
+          "column": "right",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_069",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "آحَادٌ",
+          "column": "right",
+          "order_in_column": 6,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحَادِيثُ",
+          "column": "right",
+          "order_in_column": 7,
+          "existing_scan_id": "bayna_scan_v1_070",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحَاطَ",
+          "column": "right",
+          "order_in_column": 8,
+          "existing_scan_id": "bayna_scan_v1_071",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحَبَّ",
+          "column": "right",
+          "order_in_column": 9,
+          "existing_scan_id": "bayna_scan_v1_072",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحِبَّةٌ",
+          "column": "right",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_073",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْجَارٌ",
+          "column": "left",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_074",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْجَمَ",
+          "column": "left",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_075",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أُحُدٌ",
+          "column": "left",
+          "order_in_column": 3,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحَدٌ",
+          "column": "left",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_076",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحَدَ عَشَرَ",
+          "column": "left",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_077",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْدَاثٌ",
+          "column": "left",
+          "order_in_column": 6,
+          "existing_scan_id": "bayna_scan_v1_078",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْدَاقٌ",
+          "column": "left",
+          "order_in_column": 7,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْدَثَ",
+          "column": "left",
+          "order_in_column": 8,
+          "existing_scan_id": "bayna_scan_v1_079",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِحْدَى",
+          "column": "left",
+          "order_in_column": 9,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْرَارٌ",
+          "column": "left",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_080",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِحْرَاقٌ",
+          "column": "left",
+          "order_in_column": 11,
+          "existing_scan_id": "bayna_scan_v1_081",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْرُفٌ",
+          "column": "left",
+          "order_in_column": 12,
+          "existing_scan_id": "bayna_scan_v1_083",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْرَقَ",
+          "column": "left",
+          "order_in_column": 13,
+          "existing_scan_id": "bayna_scan_v1_082",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْرَمَ",
+          "column": "left",
+          "order_in_column": 14,
+          "existing_scan_id": "bayna_scan_v1_084",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        }
+      ]
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 6,
+      "right_column": 15,
+      "left_column": 14,
+      "headings": [
+        {
+          "headword": "أَحْزَابٌ",
+          "column": "right",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_085",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْزَانٌ",
+          "column": "right",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_086",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْزَنَ",
+          "column": "right",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_087",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحَسَّ",
+          "column": "right",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_088",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِحْسَانٌ",
+          "column": "right",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_089",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْسَنَ",
+          "column": "right",
+          "order_in_column": 6,
+          "existing_scan_id": "bayna_scan_v1_090",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْشَمَ",
+          "column": "right",
+          "order_in_column": 7,
+          "existing_scan_id": "bayna_scan_v1_091",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِحْصَاءٌ",
+          "column": "right",
+          "order_in_column": 8,
+          "existing_scan_id": "bayna_scan_v1_092",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْصَى",
+          "column": "right",
+          "order_in_column": 9,
+          "existing_scan_id": "bayna_scan_v1_093",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْضَانٌ",
+          "column": "right",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_094",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْضَرَ",
+          "column": "right",
+          "order_in_column": 11,
+          "existing_scan_id": "bayna_scan_v1_095",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحَقُّ",
+          "column": "right",
+          "order_in_column": 12,
+          "existing_scan_id": "bayna_scan_v1_096",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْقَادٌ",
+          "column": "right",
+          "order_in_column": 13,
+          "existing_scan_id": "bayna_scan_v1_097",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِحْكَامٌ",
+          "column": "right",
+          "order_in_column": 14,
+          "existing_scan_id": "bayna_scan_v1_098",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْكَامٌ",
+          "column": "right",
+          "order_in_column": 15,
+          "existing_scan_id": "bayna_scan_v1_099",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْكَمَ",
+          "column": "left",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_100",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحَلَّ",
+          "column": "left",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_101",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْلَامٌ",
+          "column": "left",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_102",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْلَى",
+          "column": "left",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_103",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْمَالٌ",
+          "column": "left",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_104",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْمَرُ",
+          "column": "left",
+          "order_in_column": 6,
+          "existing_scan_id": "bayna_scan_v1_105",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْمَقُ",
+          "column": "left",
+          "order_in_column": 7,
+          "existing_scan_id": "bayna_scan_v1_106",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْمَى",
+          "column": "left",
+          "order_in_column": 8,
+          "existing_scan_id": "bayna_scan_v1_107",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْوَالٌ",
+          "column": "left",
+          "order_in_column": 9,
+          "existing_scan_id": "bayna_scan_v1_108",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْيَا",
+          "column": "left",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_109",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَحْيَانٌ",
+          "column": "left",
+          "order_in_column": 11,
+          "existing_scan_id": "bayna_scan_v1_110",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخٌ",
+          "column": "left",
+          "order_in_column": 12,
+          "existing_scan_id": "bayna_scan_v1_111",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِخَاءٌ",
+          "column": "left",
+          "order_in_column": 13,
+          "existing_scan_id": "bayna_scan_v1_112",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخَادِيدُ",
+          "column": "left",
+          "order_in_column": 14,
+          "existing_scan_id": "bayna_scan_v1_113",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        }
+      ]
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 7,
+      "right_column": 10,
+      "left_column": 12,
+      "headings": [
+        {
+          "headword": "أَخَافَ",
+          "column": "right",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_114",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْبَارٌ",
+          "column": "right",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_115",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْبَرَ",
+          "column": "right",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_116",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أُخْتٌ",
+          "column": "right",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_117",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أُخْدُودٌ",
+          "column": "right",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_118",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "آخِذٌ",
+          "column": "right",
+          "order_in_column": 6,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخَذَ",
+          "column": "right",
+          "order_in_column": 7,
+          "existing_scan_id": "bayna_scan_v1_119",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "آخِرٌ",
+          "column": "right",
+          "order_in_column": 8,
+          "existing_scan_id": "bayna_scan_v1_120",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "آخَرُ",
+          "column": "right",
+          "order_in_column": 9,
+          "existing_scan_id": "bayna_scan_v1_121",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخَّرَ",
+          "column": "right",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_122",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِخْرَاجٌ",
+          "column": "left",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_123",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْرَجَ",
+          "column": "left",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_124",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "آخِرَةٌ",
+          "column": "left",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_125",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْرَسُ",
+          "column": "left",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_126",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أُخْرَى",
+          "column": "left",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_127",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْضَرُ",
+          "column": "left",
+          "order_in_column": 6,
+          "existing_scan_id": "bayna_scan_v1_128",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْطَأَ",
+          "column": "left",
+          "order_in_column": 7,
+          "existing_scan_id": "bayna_scan_v1_129",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْطَارٌ",
+          "column": "left",
+          "order_in_column": 8,
+          "existing_scan_id": "bayna_scan_v1_130",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْطَرُ",
+          "column": "left",
+          "order_in_column": 9,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "إِخْفَاءٌ",
+          "column": "left",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_131",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْفَى",
+          "column": "left",
+          "order_in_column": 11,
+          "existing_scan_id": "bayna_scan_v1_132",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخَلَّ",
+          "column": "left",
+          "order_in_column": 12,
+          "existing_scan_id": "bayna_scan_v1_133",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        }
+      ]
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 8,
+      "right_column": 13,
+      "left_column": 15,
+      "headings": [
+        {
+          "headword": "إِخْلَاصٌ",
+          "column": "right",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_134",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْلَاقٌ",
+          "column": "right",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_135",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخَوَاتٌ",
+          "column": "right",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_136",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْوَالٌ",
+          "column": "right",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_137",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِخْوَانٌ",
+          "column": "right",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_138",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أُخُوَّةٌ",
+          "column": "right",
+          "order_in_column": 6,
+          "existing_scan_id": "bayna_scan_v1_139",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِخْوَةٌ",
+          "column": "right",
+          "order_in_column": 7,
+          "existing_scan_id": "bayna_scan_v1_140",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "آخَى",
+          "column": "right",
+          "order_in_column": 8,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخْيَارٌ",
+          "column": "right",
+          "order_in_column": 9,
+          "existing_scan_id": "bayna_scan_v1_141",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَخِيرٌ",
+          "column": "right",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_142",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدَاءٌ",
+          "column": "right",
+          "order_in_column": 11,
+          "existing_scan_id": "bayna_scan_v1_143",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "آدَابٌ",
+          "column": "right",
+          "order_in_column": 12,
+          "existing_scan_id": "bayna_scan_v1_144",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدَاةٌ",
+          "column": "right",
+          "order_in_column": 13,
+          "existing_scan_id": "bayna_scan_v1_145",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدَارَ",
+          "column": "left",
+          "order_in_column": 1,
+          "existing_scan_id": "bayna_scan_v1_146",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِدَارَةٌ",
+          "column": "left",
+          "order_in_column": 2,
+          "existing_scan_id": "bayna_scan_v1_147",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدَامَ",
+          "column": "left",
+          "order_in_column": 3,
+          "existing_scan_id": "bayna_scan_v1_148",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدَبٌ",
+          "column": "left",
+          "order_in_column": 4,
+          "existing_scan_id": "bayna_scan_v1_149",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدَّبَ",
+          "column": "left",
+          "order_in_column": 5,
+          "existing_scan_id": "bayna_scan_v1_150",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أُدَبَاءُ",
+          "column": "left",
+          "order_in_column": 6,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدْبَارٌ",
+          "column": "left",
+          "order_in_column": 7,
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
+        },
+        {
+          "headword": "إِدْخَالٌ",
+          "column": "left",
+          "order_in_column": 8,
+          "existing_scan_id": "bayna_scan_v1_151",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدْخَلَ",
+          "column": "left",
+          "order_in_column": 9,
+          "existing_scan_id": "bayna_scan_v1_152",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدْخِنَةٌ",
+          "column": "left",
+          "order_in_column": 10,
+          "existing_scan_id": "bayna_scan_v1_153",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "إِدْرَاكٌ",
+          "column": "left",
+          "order_in_column": 11,
+          "existing_scan_id": "bayna_scan_v1_154",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدْرَكَ",
+          "column": "left",
+          "order_in_column": 12,
+          "existing_scan_id": "bayna_scan_v1_155",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدْعِيَةٌ",
+          "column": "left",
+          "order_in_column": 13,
+          "existing_scan_id": "bayna_scan_v1_156",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدْنَى",
+          "column": "left",
+          "order_in_column": 14,
+          "existing_scan_id": "bayna_scan_v1_157",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        },
+        {
+          "headword": "أَدْوَاءٌ",
+          "column": "left",
+          "order_in_column": 15,
+          "existing_scan_id": "bayna_scan_v1_158",
+          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+        }
+      ]
+    }
+  ]
+}
