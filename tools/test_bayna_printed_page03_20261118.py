@@ -49,7 +49,8 @@ class PrintedPageThreeTest(unittest.TestCase):
 
     def test_complete_printed_27_heading_inventory(self):
         self.assertEqual(len(self.audit["entries"]), 27)
-        self.assertEqual([e["headword"] for e in self.audit["entries"]], ORDER)
+        self.assertEqual([nfc(e["headword"]) for e in self.audit["entries"]], [nfc(s) for s in ORDER])
+        self.assertTrue(all(e["headword"] == nfc(e["headword"]) for e in self.audit["entries"]))
         self.assertEqual(sum(e["column"] == "right" for e in self.audit["entries"]), 11)
         self.assertEqual(sum(e["column"] == "left" for e in self.audit["entries"]), 16)
         self.assertEqual(self.audit["scan_sha256"], SHA)
