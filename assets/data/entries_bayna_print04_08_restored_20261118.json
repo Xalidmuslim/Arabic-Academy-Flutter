@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "source_status": "printed_headwords_and_short_senses_checked_other_morphology_authored_examples_pending_separate_i3rab_review",
+  "original_scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "entries": [
+    {
+      "id": "bayna_print04_08_restored_20261118_001",
+      "arabic": "أَجْهَلُ",
+      "meaning_ar": "أَكْثَرُ جَهْلًا مِنْ غَيْرِهِ، أَوْ أَقَلُّ عِلْمًا بِأَمْرٍ مُعَيَّنٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ «أَفْعَلَ»، وَجَذْرُهُ: ج ـ ه ـ ل.",
+        "يَأْتِي مَعَ «مِنْ» فِي الْمُقَارَنَةِ، وَقَدْ يُعَدَّى بِالْبَاءِ لِبَيَانِ مَوْضُوعِ الْجَهْلِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَجْهَلُ بِالْمَسْأَلَةِ",
+        "أَجْهَلُ مِنْ غَيْرِهِ"
+      ],
+      "examples_ar": [
+        "هَذَا الطَّالِبُ أَجْهَلُ بِالْقَاعِدَةِ مِنْ زَمِيلِهِ.",
+        "لَا تَقُلْ إِنَّ زَمِيلَكَ أَجْهَلُ مِنْكَ دُونَ دَلِيلٍ."
+      ],
+      "usage_note_ar": "«أَجْهَلُ» اسْمُ تَفْضِيلٍ، فَلَا يُخْلَطُ بِالْفِعْلِ الْمَاضِي «أَجْهَلَ»؛ فَالْحَرَكَةُ الْأَخِيرَةُ تُمَيِّزُ الْوَظِيفَةَ النَّحْوِيَّةَ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/جهل"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_002",
+      "arabic": "أَجْيَالٌ",
+      "meaning_ar": "جَمَاعَاتٌ مِنَ النَّاسِ تَتَعَاقَبُ فِي أَزْمِنَةٍ مُخْتَلِفَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ، وَمُفْرَدُهُ «جِيلٌ»، وَجَذْرُهُ: ج ـ ي ـ ل.",
+        "يُسْتَعْمَلُ لِلْجَمَاعَاتِ الْمُتَعَاقِبَةِ الَّتِي تَعِيشُ فِي فَتَرَاتٍ مُخْتَلِفَةٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "الْأَجْيَالُ الْجَدِيدَةُ",
+        "تَعَاقُبُ الْأَجْيَالِ"
+      ],
+      "examples_ar": [
+        "تَعَاقَبَتْ أَجْيَالٌ عَلَى عِمَارَةِ هَذِهِ الْمَدِينَةِ.",
+        "تَنْقُلُ الْأُسَرُ خِبْرَاتِهَا إِلَى الْأَجْيَالِ الْجَدِيدَةِ."
+      ],
+      "usage_note_ar": "«أَجْيَالٌ» جَمْعُ «جِيلٍ»، وَالْجِيلُ لَيْسَ مُرَادِفًا لِكُلِّ جَمَاعَةٍ مِنَ النَّاسِ؛ بَلْ يَرْتَبِطُ بِالتَّقَارُبِ الزَّمَنِيِّ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_003",
+      "arabic": "آحَادٌ",
+      "meaning_ar": "أَفْرَادٌ يُنْظَرُ إِلَى كُلِّ وَاحِدٍ مِنْهُمْ عَلَى حِدَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«أَحَدٍ» فِي اسْتِعْمَالِ الْأَفْرَادِ، وَجَذْرُهُ: أ ـ ح ـ د.",
+        "يَكْثُرُ اسْتِعْمَالُهُ فِي الْعِبَارَاتِ الَّتِي تُقَابِلُ الْفَرْدَ بِالْجَمَاعَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "الْحُضُورُ آحَادًا",
+        "خَبَرُ الْآحَادِ"
+      ],
+      "examples_ar": [
+        "وَصَلَ الزُّوَّارُ آحَادًا قَبْلَ وُصُولِ الْجَمَاعَةِ.",
+        "يَدْرُسُ الطَّالِبُ مَعْنَى خَبَرِ الْآحَادِ فِي عِلْمِ الْحَدِيثِ."
+      ],
+      "usage_note_ar": "«آحَادٌ» جَمْعٌ يَدُلُّ عَلَى الْأَفْرَادِ، وَ«أَحَدٌ» مُفْرَدٌ؛ وَلَا تُسَاوِي كَلِمَةُ «آحَادٍ» كَلِمَةَ «أُحُدٍ» اسْمَ الْجَبَلِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/وحد"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_004",
+      "arabic": "أُحُدٌ",
+      "meaning_ar": "جَبَلٌ مَعْرُوفٌ يَقَعُ شَمَالَ الْمَدِينَةِ الْمُنَوَّرَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اسْمُ عَلَمٍ لِجَبَلٍ، وَهُوَ اسْمٌ مُفْرَدٌ.",
+        "يَرِدُ بَعْدَ كَلِمَةِ «جَبَلٍ» فِي التَّرْكِيبِ «جَبَلُ أُحُدٍ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "جَبَلُ أُحُدٍ",
+        "زِيَارَةُ أُحُدٍ"
+      ],
+      "examples_ar": [
+        "يَقَعُ جَبَلُ أُحُدٍ شَمَالَ الْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "زَارَ الطُّلَّابُ جَبَلَ أُحُدٍ فِي رِحْلَةٍ تَعْلِيمِيَّةٍ."
+      ],
+      "usage_note_ar": "«أُحُدٌ» عَلَمٌ عَلَى جَبَلٍ، وَلَيْسَ «أَحَدٌ» الَّذِي يَدُلُّ عَلَى الْفَرْدِ؛ اخْتِلَافُ الْحَرَكَاتِ هُنَا يُغَيِّرُ الْمَعْنَى.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_005",
+      "arabic": "أَحْدَاقٌ",
+      "meaning_ar": "أَجْزَاءٌ مِنَ الْعُيُونِ تَتَّصِلُ بِالسَّوَادِ الَّذِي يُبْصَرُ فِي وَسَطِ الْعَيْنِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«حَدَقٍ»، وَيَتَّصِلُ مَعْنَاهُ بِـ«حَدَقَةِ الْعَيْنِ».",
+        "جَذْرُهُ: ح ـ د ـ ق، وَهُوَ جَمْعٌ عَلَى وَزْنِ «أَفْعَالٍ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَحْدَاقُ الْعُيُونِ",
+        "فِي أَحْدَاقِ الْحَاضِرِينَ"
+      ],
+      "examples_ar": [
+        "لَاحَتِ الدَّهْشَةُ فِي أَحْدَاقِ الْحَاضِرِينَ.",
+        "رَاقَبَ الطَّبِيبُ أَحْدَاقَ الْعَيْنَيْنِ بِعِنَايَةٍ."
+      ],
+      "usage_note_ar": "تُسْتَعْمَلُ «أَحْدَاقٌ» جَمْعًا، وَتَرِدُ «حَدَقَةٌ» فِي تَسْمِيَةِ جُزْءٍ مِنَ الْعَيْنِ؛ فَلَا تُسَاوِي الْكَلِمَةُ «عُيُونًا» فِي كُلِّ سِيَاقٍ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/حدق"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_006",
+      "arabic": "إِحْدَى",
+      "meaning_ar": "كَلِمَةٌ تُدَلُّ بِهَا عَلَى وَاحِدَةٍ مُؤَنَّثَةٍ مِنْ مَجْمُوعَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "صِيغَةٌ مُؤَنَّثَةٌ لِـ«أَحَدٍ» فِي بَعْضِ الِاسْتِعْمَالَاتِ، وَجَذْرُهَا: أ ـ ح ـ د.",
+        "تُضَافُ إِلَى الْجَمْعِ فِي نَحْوِ «إِحْدَى الطَّالِبَاتِ» وَ«إِحْدَى الْقِصَصِ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "إِحْدَى الطَّالِبَاتِ",
+        "إِحْدَى الْقِصَصِ"
+      ],
+      "examples_ar": [
+        "قَرَأْتُ إِحْدَى الْقِصَصِ الْقَصِيرَةِ.",
+        "فَازَتْ إِحْدَى الطَّالِبَاتِ بِالْجَائِزَةِ."
+      ],
+      "usage_note_ar": "«إِحْدَى» تُفِيدُ اخْتِيَارَ وَاحِدَةٍ مِنْ جَمْعٍ، وَتُسْتَعْمَلُ فِي تَرَاكِيبَ خَاصَّةٍ مِثْلَ «إِحْدَى عَشْرَةَ»؛ فَلَا يُحْكَمُ عَلَى إِعْرَابِهَا بِمَعْزِلٍ عَنْ سِيَاقِهَا.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أحد"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 9,
+        "printed_page": 5,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_007",
+      "arabic": "آخِذٌ",
+      "meaning_ar": "اسْمٌ لِمَنْ يَأْخُذُ شَيْئًا أَوْ يَقْبِضُهُ.",
+      "additional_meanings_ar": [
+        "يَدُلُّ فِي التَّرْكِيبِ «آخِذٌ فِي» عَلَى الدُّخُولِ فِي الْفِعْلِ وَاسْتِمْرَارِهِ."
+      ],
+      "grammar": [
+        "اِسْمُ فَاعِلٍ مِنَ الْفِعْلِ «أَخَذَ يَأْخُذُ» عَلَى وَزْنِ «فَاعِلٍ»، وَمُؤَنَّثُهُ «آخِذَةٌ».",
+        "يَتْبَعُ تَرْكِيبَ «آخِذٌ فِي» اسْمٌ مَجْرُورٌ يَدُلُّ عَلَى الْعَمَلِ الْمُسْتَمِرِّ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "آخِذٌ فِي الِاتِّسَاعِ",
+        "آخِذَةٌ فِي النُّمُوِّ"
+      ],
+      "examples_ar": [
+        "الْعِلْمُ آخِذٌ فِي الِاتِّسَاعِ.",
+        "أَصْبَحَتِ الْمَدِينَةُ آخِذَةً فِي النُّمُوِّ."
+      ],
+      "usage_note_ar": "لَا يَقْتَصِرُ «آخِذٌ» عَلَى مَنْ يَأْخُذُ شَيْئًا بِيَدِهِ؛ فَقَدْ يَدُلُّ مَعَ «فِي» عَلَى تَدَرُّجِ الْحَدَثِ، وَهُوَ مُخْتَلِفٌ عَنْ «أَخَذَ» فِي الْمَبْنَى النَّحْوِيِّ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أخذ"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 11,
+        "printed_page": 7,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 11,
+        "printed_page": 7,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_008",
+      "arabic": "أَخْطَرُ",
+      "meaning_ar": "أَشَدُّ خَطَرًا وَأَكْثَرُ احْتِمَالًا لِإِحْدَاثِ الضَّرَرِ مِنْ غَيْرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ «أَفْعَلَ»، وَجَذْرُهُ: خ ـ ط ـ ر.",
+        "يُقَارَنُ بِهِ بَيْنَ شَيْئَيْنِ، وَيَتْبَعُهُ «مِنْ» فِي نَحْوِ «أَخْطَرُ مِنْ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَخْطَرُ مِنَ السَّابِقِ",
+        "أَخْطَرُ الْأَخْطَارِ"
+      ],
+      "examples_ar": [
+        "هَذَا الطَّرِيقُ أَخْطَرُ مِنَ الطَّرِيقِ الْعَامِّ.",
+        "الْإِهْمَالُ فِي الْعَمَلِ أَخْطَرُ مِنَ التَّأَخُّرِ الْيَسِيرِ."
+      ],
+      "usage_note_ar": "«أَخْطَرُ» اسْمُ تَفْضِيلٍ، أَمَّا «أَخْطَارٌ» فَجَمْعُ «خَطَرٍ»؛ لَا يُجْمَعُ الْمَعْنَيَانِ فِي بَطَاقَةٍ وَاحِدَةٍ بِسَبَبِ تَشَابُهِ الْحُرُوفِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/خطر"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 11,
+        "printed_page": 7,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 11,
+        "printed_page": 7,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_009",
+      "arabic": "آخَى",
+      "meaning_ar": "جَعَلَ شَخْصًا كَالْأَخِ لَهُ فِي الْمَوَدَّةِ وَالْمُعَامَلَةِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ ثُلَاثِيٌّ مَزِيدٌ عَلَى وَزْنِ «فَاعَلَ»؛ الْمُضَارِعُ «يُؤَاخِي» وَالْمَصْدَرُ «مُؤَاخَاةٌ».",
+        "فِعْلٌ مُتَعَدٍّ؛ يُقَالُ «آخَى فُلَانًا»، وَيُقَالُ «آخَى بَيْنَ الشَّخْصَيْنِ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "آخَى بَيْنَ الطَّالِبَيْنِ",
+        "آخَى صَدِيقَهُ"
+      ],
+      "examples_ar": [
+        "آخَى الْمُرَبِّي بَيْنَ الطَّالِبَيْنِ لِيَتَعَاوَنَا.",
+        "آخَى الرَّجُلُ جَارَهُ وَسَاعَدَهُ عِنْدَ الْحَاجَةِ."
+      ],
+      "usage_note_ar": "الْفِعْلُ «آخَى» لَيْسَ مُجَرَّدَ الْاِسْمِ «أَخٌ»؛ بَلْ يَدُلُّ عَلَى إِنْشَاءِ رَابِطَةِ الْأُخُوَّةِ، وَمَصْدَرُهُ «مُؤَاخَاةٌ».",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/محرك-البحث/آخَى?exact_search=true"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 12,
+        "printed_page": 8,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 12,
+        "printed_page": 8,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_010",
+      "arabic": "أُدَبَاءُ",
+      "meaning_ar": "كُتَّابٌ وَأَصْحَابُ مَوَاهِبَ فِي الْأَدَبِ وَفُنُونِ التَّعْبِيرِ.",
+      "additional_meanings_ar": [
+        "يُطْلَقُ «الْأَدِيبُ» أَيْضًا عَلَى مَنْ حَسُنَ أَدَبُهُ وَسُلُوكُهُ فِي سِيَاقَاتٍ مُعَيَّنَةٍ."
+      ],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«أَدِيبٍ» عَلَى وَزْنِ «فُعَلَاءَ»، وَجَذْرُهُ: أ ـ د ـ ب.",
+        "يُسْتَعْمَلُ فِي جَمَاعَةِ أَهْلِ الْأَدَبِ؛ وَمُفْرَدُهُ الْمُذَكَّرُ «أَدِيبٌ» وَمُؤَنَّثُهُ «أَدِيبَةٌ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "كَتَبَ الْأُدَبَاءُ",
+        "أَعْمَالُ الْأُدَبَاءِ"
+      ],
+      "examples_ar": [
+        "اجْتَمَعَ الْأُدَبَاءُ فِي الْمُنْتَدَى الثَّقَافِيِّ.",
+        "نَشَرَ الْأُدَبَاءُ قِصَصًا وَمَقَالَاتٍ مُفِيدَةً."
+      ],
+      "usage_note_ar": "«أُدَبَاءُ» جَمْعُ «أَدِيبٍ»، وَقَدْ يَتَّسِعُ مَعْنَى «الْأَدَبِ» لِلْأَخْلَاقِ وَحُسْنِ السُّلُوكِ؛ فَيُحَدِّدُ السِّيَاقُ الْمُرَادَ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أدب"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 12,
+        "printed_page": 8,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 12,
+        "printed_page": 8,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    },
+    {
+      "id": "bayna_print04_08_restored_20261118_011",
+      "arabic": "أَدْبَارٌ",
+      "meaning_ar": "الْجِهَاتُ الْخَلْفِيَّةُ لِلْأَجْسَامِ وَالْأَشْيَاءِ.",
+      "additional_meanings_ar": [
+        "قَدْ يَدُلُّ الْمُفْرَدُ «دُبُرٌ» عَلَى آخِرِ الشَّيْءِ أَوْ عَاقِبَتِهِ فِي بَعْضِ السِّيَاقَاتِ."
+      ],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«دُبُرٍ»، وَجَذْرُهُ: د ـ ب ـ ر.",
+        "يُضَافُ إِلَى ضَمِيرٍ فِي الْعِبَارَةِ «وَلَّوْا أَدْبَارَهُمْ»؛ فَـ«أَدْبَارَهُمْ» مَفْعُولٌ بِهِ مَنْصُوبٌ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "وَلَّوْا أَدْبَارَهُمْ",
+        "أَدْبَارُ الْبُيُوتِ"
+      ],
+      "examples_ar": [
+        "وَلَّى الْمُنْسَحِبُونَ أَدْبَارَهُمْ لِخُصُومِهِمْ.",
+        "وَقَفَ الْعُمَّالُ عِنْدَ أَدْبَارِ الْبُيُوتِ لِإِصْلَاحِ الْجُدْرَانِ."
+      ],
+      "usage_note_ar": "«أَدْبَارٌ» جَمْعٌ لِمَا يَقَعُ خَلْفَ الشَّيْءِ، وَتَسْتَعْمِلُ الْعَرَبِيَّةُ «وَلَّى دُبُرَهُ» لِلدَّلَالَةِ عَلَى الِانْصِرَافِ؛ فَلَا يَقْتَصِرُ الِاسْتِعْمَالُ عَلَى الْمَكَانِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/دبر"
+      ],
+      "source_group": "original_printed_bayna_pages04_08_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 12,
+        "printed_page": 8,
+        "text_status": "source_headword_and_core_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 12,
+        "printed_page": 8,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-18",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_meaning_not_independently_authored_examples"
+      }
+    }
+  ]
+}
