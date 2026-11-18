@@ -22,8 +22,28 @@ class AcademyState extends ChangeNotifier {
   AcademyState(this.prefs, this.catalog) {
     completed.addAll(prefs.getStringList('completed') ?? []);
     final jsonText = prefs.getString('teacher_lessons') ?? '[]';
-    teacherLessons.addAll((jsonDecode(jsonText) as List).cast<Map<String, dynamic>>());
+    try {
+      final decoded = jsonDecode(jsonText);
+      if (decoded is! List) {
+        throw const FormatException('Expected a list of lessons');
+      }
+      final restored = <Map<String, dynamic>>[];
+      for (final item in decoded) {
+        if (item is! Map<String, dynamic> ||
+            item['id'] is! String ||
+            item['title'] is! String) {
+          throw const FormatException('Invalid saved lesson');
+        }
+        restored.add(item);
+      }
+      teacherLessons.addAll(restored);
+    } on FormatException {
+      // Leave the original SharedPreferences entry unchanged until the next
+      // user edit. Its raw contents must be backed up before that edit saves.
+      _unreadableTeacherLessons = jsonText;
+    }
   }
+  String? _unreadableTeacherLessons;
   final SharedPreferences prefs;
   final Map<String, dynamic> catalog;
   final Set<String> completed = {};
@@ -54,6 +74,20 @@ class AcademyState extends ChangeNotifier {
   }
 
   Future<void> _persist() async {
+    final unreadable = _unreadableTeacherLessons;
+    if (unreadable != null) {
+      var backupKey = 'teacher_lessons_backup';
+      var suffix = 0;
+      while (prefs.containsKey(backupKey)) {
+        suffix++;
+        backupKey = 'teacher_lessons_backup_$suffix';
+      }
+      // Never overwrite damaged local data without saving a recovery copy.
+      if (!await prefs.setString(backupKey, unreadable)) {
+        throw StateError('Could not back up unreadable lessons');
+      }
+      _unreadableTeacherLessons = null;
+    }
     await prefs.setString('teacher_lessons', jsonEncode(teacherLessons));
     notifyListeners();
   }
