@@ -63,7 +63,9 @@ class SpecificArabicUsageNotes(unittest.TestCase):
                 )
 
     def test_no_boilerplate_note_remains_in_reviewed_articles(self):
-        self.assertEqual(len(self.review), 628)
+        # The lexicon grows in separately audited batches: preserve the reviewed
+        # baseline without prohibiting verified, uniquely keyed new articles.
+        self.assertGreaterEqual(len(self.review), 628)
         for word, article in self.review.items():
             with self.subTest(word=word):
                 self.assertFalse(
