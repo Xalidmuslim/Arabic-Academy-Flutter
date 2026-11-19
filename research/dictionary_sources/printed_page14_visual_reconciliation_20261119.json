@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "source": "المعجم العربي بين يديك",
+  "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "pdf_page": 18,
+  "printed_page": 14,
+  "method": "All 28 orange printed headwords read in order from enlarged scan image; no OCR is accepted as vowel proof.",
+  "right_column_count": 16,
+  "left_column_count": 12,
+  "printed_headings_count": 28,
+  "old_scan_records_attributed_to_page": 28,
+  "exact_old_scan_matches": 27,
+  "source_mismatch_count": 1,
+  "original_source_restorations_added": 1,
+  "headings": [
+    {
+      "headword": "إِسْمَنْتٌ",
+      "column": "right",
+      "order_in_column": 1,
+      "existing_scan_id": "bayna_scan_v1_287",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْنَانٌ",
+      "column": "right",
+      "order_in_column": 2,
+      "existing_scan_id": "bayna_scan_v1_288",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسِنَّةٌ",
+      "column": "right",
+      "order_in_column": 3,
+      "existing_scan_id": "bayna_scan_v1_289",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "إِسْهَامٌ",
+      "column": "right",
+      "order_in_column": 4,
+      "existing_scan_id": "bayna_scan_v1_290",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْهَبَ",
+      "column": "right",
+      "order_in_column": 5,
+      "existing_scan_id": "bayna_scan_v1_291",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْهَمَ",
+      "column": "right",
+      "order_in_column": 6,
+      "existing_scan_id": "bayna_scan_v1_292",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْوَأُ",
+      "column": "right",
+      "order_in_column": 7,
+      "existing_scan_id": "bayna_scan_v1_293",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْوَارٌ",
+      "column": "right",
+      "order_in_column": 8,
+      "existing_scan_id": "bayna_scan_v1_294",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْوَاطٌ",
+      "column": "right",
+      "order_in_column": 9,
+      "existing_scan_id": "bayna_scan_v1_295",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْوَاقٌ",
+      "column": "right",
+      "order_in_column": 10,
+      "existing_scan_id": "bayna_scan_v1_296",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أُسْوَةٌ",
+      "column": "right",
+      "order_in_column": 11,
+      "existing_scan_id": "bayna_scan_v1_297",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْوَدُ",
+      "column": "right",
+      "order_in_column": 12,
+      "existing_scan_id": "bayna_scan_v1_298",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْوِرَةٌ",
+      "column": "right",
+      "order_in_column": 13,
+      "existing_scan_id": "bayna_scan_v1_299",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسِيَ",
+      "column": "right",
+      "order_in_column": 14,
+      "existing_scan_id": "bayna_scan_v1_300",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسْيَافٌ",
+      "column": "right",
+      "order_in_column": 15,
+      "existing_scan_id": "bayna_scan_v1_301",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَسِيرٌ",
+      "column": "right",
+      "order_in_column": 16,
+      "existing_scan_id": "bayna_scan_v1_302",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَشَاحَ",
+      "column": "left",
+      "order_in_column": 1,
+      "existing_scan_id": "bayna_scan_v1_303",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَشَادَ",
+      "column": "left",
+      "order_in_column": 2,
+      "existing_scan_id": "bayna_scan_v1_304",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "إِشَادَةٌ",
+      "column": "left",
+      "order_in_column": 3,
+      "existing_scan_id": "bayna_scan_v1_305",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَشَارَ",
+      "column": "left",
+      "order_in_column": 4,
+      "existing_scan_id": "bayna_scan_v1_306",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "إِشَارَةٌ",
+      "column": "left",
+      "order_in_column": 5,
+      "existing_scan_id": "bayna_scan_v1_307",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "إِشَاعَةٌ",
+      "column": "left",
+      "order_in_column": 6,
+      "existing_scan_id": "bayna_scan_v1_308",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَشْبَارٌ",
+      "column": "left",
+      "order_in_column": 7,
+      "existing_scan_id": "bayna_scan_v1_309",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَشْبَالٌ",
+      "column": "left",
+      "order_in_column": 8,
+      "existing_scan_id": "bayna_scan_v1_310",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَشْبَاهٌ",
+      "column": "left",
+      "order_in_column": 9,
+      "existing_scan_id": "bayna_scan_v1_311",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَشْبَهَ",
+      "column": "left",
+      "order_in_column": 10,
+      "old_scan_id_mismatched": "bayna_scan_v1_312",
+      "restored_corpus_id": "bayna_print14_restored_20261119_001",
+      "source_match_status": "printed_headword_missing_from_old_scan_chunk_mismatched_comparative_retained"
+    },
+    {
+      "headword": "أَشْتَاتٌ",
+      "column": "left",
+      "order_in_column": 11,
+      "existing_scan_id": "bayna_scan_v1_313",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    },
+    {
+      "headword": "أَشْجَارٌ",
+      "column": "left",
+      "order_in_column": 12,
+      "existing_scan_id": "bayna_scan_v1_314",
+      "source_match_status": "printed_headword_present_in_old_scan_chunk"
+    }
+  ],
+  "notes": [
+    "Printed أَشْبَهَ is a transitive verb with printed explanation يُشْبِهُ شَبَهًا: مَاثَلَ.",
+    "Old أَشْبَهُ is a different comparative adjective and retained as ID bayna_scan_v1_312, with false page attribution marked.",
+    "All 88 pre-restoration registered corpus files were searched; no separately vocalized أَشْبَهَ entry was found, therefore one distinct stable ID was added.",
+    "All added examples and explanatory grammar are independently authored drafts pending separate i3rab review; the scanned page proves only the headword and brief meaning.",
+    "PDF page number 18 corresponds to printed dictionary page 14; textbook lesson references remain absent."
+  ]
+}
