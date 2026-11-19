@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "source": "المعجم العربي بين يديك",
+  "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "method": "Visually inspected and enlarged PDF images 13-17; no OCR used as proof of letters or vowels",
+  "scope_note": "Column heading blocks, not sense-level subentries. Editorial endings not claimed to be literally printed where ambiguous.",
+  "pages": [
+    {
+      "pdf_page": 13,
+      "printed_page": 9,
+      "printed_headings": 29,
+      "previously_attributed_scan_cards": 23,
+      "confirmed_source_matches": 22,
+      "source_mismatch_ids": [
+        "bayna_scan_v1_179"
+      ],
+      "not_in_existing_scan_chunk": [
+        "أَذْوَاق",
+        "آذَى",
+        "أَذًى",
+        "أَرَاك",
+        "أَرَاكَة",
+        "أَرْبَع",
+        "أَرْبَعَةَ عَشَرَ"
+      ]
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 10,
+      "printed_headings": 29,
+      "previously_attributed_scan_cards": 27,
+      "confirmed_source_matches": 26,
+      "source_mismatch_ids": [
+        "bayna_scan_v1_204"
+      ],
+      "not_in_existing_scan_chunk": [
+        "أَرْسُن",
+        "أَرْطَال",
+        "أَرْطَب"
+      ]
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 11,
+      "printed_headings": 26,
+      "previously_attributed_scan_cards": 26,
+      "confirmed_source_matches": 26,
+      "source_mismatch_ids": [],
+      "not_in_existing_scan_chunk": []
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 12,
+      "printed_headings": 30,
+      "previously_attributed_scan_cards": 29,
+      "confirmed_source_matches": 28,
+      "source_mismatch_ids": [
+        "bayna_scan_v1_259"
+      ],
+      "not_in_existing_scan_chunk": [
+        "أُسَر",
+        "إِسْرَائِيل"
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 13,
+      "printed_headings": 26,
+      "previously_attributed_scan_cards": 22,
+      "confirmed_source_matches": 20,
+      "source_mismatch_ids": [
+        "bayna_scan_v1_276",
+        "bayna_scan_v1_286"
+      ],
+      "not_in_existing_scan_chunk": [
+        "أَسِرَّة",
+        "أَسْرَعُ",
+        "أَسْرَى",
+        "إِسْكَاف",
+        "أُسْلُوب",
+        "أَسْمَعُ"
+      ]
+    }
+  ],
+  "source_attribution_mismatches": [
+    {
+      "id": "bayna_scan_v1_179",
+      "old_headword": "أَرْبَعَةٌ",
+      "printed_headword": "أَرْبَع",
+      "pdf_page": 13,
+      "prior_status": "unflagged"
+    },
+    {
+      "id": "bayna_scan_v1_204",
+      "old_headword": "أَرْذَالٌ",
+      "printed_headword": "أَرْذَل",
+      "pdf_page": 14,
+      "prior_status": "already_flagged"
+    },
+    {
+      "id": "bayna_scan_v1_259",
+      "old_headword": "أَسْرٌ",
+      "printed_headword": "أُسَر",
+      "pdf_page": 16,
+      "prior_status": "unflagged"
+    },
+    {
+      "id": "bayna_scan_v1_276",
+      "old_headword": "إِسْكَانٌ",
+      "printed_headword": "إِسْكَاف",
+      "pdf_page": 17,
+      "prior_status": "unflagged"
+    },
+    {
+      "id": "bayna_scan_v1_286",
+      "old_headword": "أَسْمَعَ",
+      "printed_headword": "أَسْمَعُ",
+      "pdf_page": 17,
+      "prior_status": "already_flagged"
+    }
+  ],
+  "total_printed_headings": 140,
+  "total_previous_scan_cards": 127,
+  "total_exact_old_matches": 122,
+  "total_wrong_source_links": 5,
+  "total_not_in_scan_chunk": 18,
+  "special_cases": [
+    "PDF 13: printed أَرْبَع differs from retained old أَرْبَعَةٌ; the separate heading أَرْبَعَةَ عَشَرَ is also absent in this scan chunk.",
+    "PDF 16: printed أُسَر is plural of أُسْرَةٌ; existing أَسْرٌ is a different noun and must retain its ID and meaning.",
+    "PDF 17: أَسْرَى appears as a verb and separately as plural of أَسِير; do not create duplicate lemma IDs by blindly restoring its printed occurrences.",
+    "PDF 17: إِسْكَاف is a shoemaker, distinct from existing إِسْكَانٌ; أَسْمَعُ is distinct from أَسْمَعَ.",
+    "All missing cases are missing from entries_bayna_scan_verified_20261112.json alone; they may already occur elsewhere in 87 registered corpus chunks, so no new IDs are allocated before full-corpus comparison.",
+    "Original IDs, grammatical data, examples, bookmarks, progress and Flutter UI should be preserved. No APK build requested.",
+    "Manually read printed headings are distinct evidence from independent verification of authored Arabic explanation, صرف, نحو, إعراب, which remains pending."
+  ]
+}
