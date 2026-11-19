@@ -16,7 +16,7 @@ SHA="a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
 COUNTS={16:29,17:22,18:28,19:30}
 OK_STATUS="print_headword_and_visible_vowels_compared_examples_unchecked"
 MISMATCH_STATUS="source_headword_mismatch_requires_relocation"
-OTHER_MISMATCHES={"أَسْرٌ": "أُسَر", "إِسْكَانٌ": "إِسْكَاف"}
+OTHER_MISMATCHES={"أَسْرٌ": "أُسَر", "إِسْكَانٌ": "إِسْكَاف", "أَشْبَهُ": "أَشْبَهَ"}
 
 def canon(s):
     return unicodedata.normalize("NFC",s)
