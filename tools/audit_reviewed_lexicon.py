@@ -73,6 +73,7 @@ def main():
         "bayna_scan_v1_259": "أُسَر",
         "bayna_scan_v1_276": "إِسْكَاف",
         "bayna_scan_v1_286": "أَسْمَعُ",
+        "bayna_scan_v1_312": "أَشْبَهَ",
         "bayna_scan_v1_378": "أُضْحِيَّةٌ",
     }
     source_page_mismatches = set()
