@@ -16,6 +16,7 @@ PRINT_STATUS = "printed_lemma_visible_vowels_checked_pedagogical_endings_not_lit
 MISMATCH_STATUS = "source_headword_mismatch_requires_relocation"
 MISMATCH_LEMMA = "أَرْذَالٌ"
 MISMATCH_PRINTED = "أَرْذَل"
+OTHER_MISMATCHES = {"أَرْبَعَةٌ": "أَرْبَع"}
 
 
 def key(s):
@@ -54,6 +55,10 @@ class PrintedPagesEightToEleven(unittest.TestCase):
                     self.assertEqual(proof["status"], MISMATCH_STATUS)
                     self.assertEqual(proof["printed_headword"], MISMATCH_PRINTED)
                     self.assertNotEqual(proof["printed_headword"], e["arabic"])
+                elif key(e["arabic"]) in {key(k) for k in OTHER_MISMATCHES}:
+                    self.assertEqual(proof["status"], MISMATCH_STATUS)
+                    self.assertEqual(key(proof["printed_headword"]), key(OTHER_MISMATCHES[e["arabic"]]))
+                    self.assertIn("unmatched_printed_lemma", e["source_provenance"]["text_status"])
                 else:
                     self.assertEqual(proof["status"], PRINT_STATUS)
                 self.assertEqual(self.overlays[key(e["arabic"])]["visual_verification"], proof)
