@@ -1,7 +1,7 @@
 name: Bayna reviewed lexicon QA
 on:
   push:
-    branches: [codex/bayna-lexicon-reviewed-details-20261112, codex/bayna-print03-collation-20261118, codex/bayna-print04-08-batch-20261118, codex/bayna-print04-08-editorial-20261119, codex/bayna-print09-13-reconciliation-20261119, codex/bayna-print09-13-restored-20261119, codex/bayna-print14-collation-20261119]
+    branches: [codex/bayna-lexicon-reviewed-details-20261112, codex/bayna-print03-collation-20261118, codex/bayna-print04-08-batch-20261118, codex/bayna-print04-08-editorial-20261119, codex/bayna-print09-13-reconciliation-20261119, codex/bayna-print09-13-restored-20261119, codex/bayna-print14-collation-20261119, codex/bayna-print15-19-batch137-20261119]
     paths:
       - 'assets/data/**'
       - 'lib/**'
