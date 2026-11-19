@@ -32,24 +32,24 @@ class PagesFourEightDeepReview(unittest.TestCase):
         self.assertEqual(old["visual_verification"]["status"],MISMATCH)
         self.assertEqual(self.reviewed[old["arabic"]]["visual_verification"],old["visual_verification"])
         print4=self.inventory["pages"][0]
-        self.assertEqual(print4["headings"][0]["headword"],"أَجَّرَ")
+        self.assertEqual(print4["headings"][0]["headword"],unicodedata.normalize("NFC","أَجَّرَ"))
         self.assertEqual(print4["headings"][0]["source_match_status"],"printed_headword_missing_from_existing_scan_chunk")
         self.assertIsNone(print4["headings"][0]["existing_scan_id"])
 
-    def test_original_printed_form_is_new_distinct_entry(self):
+    def test_printed_form_reuses_existing_corpus_id_instead_of_creating_duplicate(self):
         fname="assets/data/entries_bayna_print04_corrected_20261119.json"
-        self.assertIn(fname,self.manifest)
-        arr=json.loads((ROOT/fname).read_text(encoding="utf8"))["entries"]
-        self.assertEqual(len(arr),1)
-        e=arr[0]
-        self.assertEqual(e["id"],"bayna_print04_corrected_20261119_001")
-        self.assertEqual(e["arabic"],"أَجَّرَ")
-        self.assertEqual(e["source_provenance"]["pdf_page"],8)
-        self.assertEqual(e["source_provenance"]["printed_page"],4)
-        self.assertEqual(e["source_provenance"]["scan_sha256"],SHA)
-        self.assertEqual(e["visual_verification"]["examples_status"],"independently_authored_pending_separate_i3rab_review")
-        self.assertIn(e["arabic"],self.reviewed)
-        self.assertNotEqual(e["id"],next(x for x in self.selected if x["arabic"]=="أَجَرَ")["id"])
+        self.assertNotIn(fname,self.manifest)
+        original=json.loads((DATA/"entries.json").read_text(encoding="utf8"))["entries"]
+        same=[e for e in original if e["arabic"]==unicodedata.normalize("NFC","أَجَّرَ")]
+        self.assertEqual(len(same),1)
+        self.assertEqual(same[0]["id"],"l1u3_031")
+        self.assertEqual(same[0]["source_group"],"book1_chapter3_secondary")
+        overlay=self.reviewed[unicodedata.normalize("NFC","أَجَّرَ")]
+        self.assertEqual(overlay["source_existing_corpus_id"],"l1u3_031")
+        self.assertEqual(overlay["source_pdf_page"],8)
+        self.assertEqual(overlay["source_printed_page"],4)
+        self.assertEqual(overlay["visual_verification"]["scan_sha256"],SHA)
+        self.assertEqual(overlay["visual_verification"]["examples_status"],"independently_authored_pending_separate_i3rab_review")
 
     def test_111_preserved_entries_get_individual_clarifications_and_context(self):
         self.assertEqual(len(self.selected),112)
@@ -84,7 +84,8 @@ class PagesFourEightDeepReview(unittest.TestCase):
                 all_ids.append(e["id"])
                 all_words.append(unicodedata.normalize("NFC",e["arabic"]))
         self.assertEqual(len(all_ids),len(set(all_ids)))
-        self.assertEqual(len(all_words),len(set(all_words)))
+        self.assertEqual(sum(w==unicodedata.normalize("NFC","أَجَّرَ") for w in all_words),1)
+        self.assertIn(unicodedata.normalize("NFC","أَجَرَ"),all_words)
         self.assertIn("bayna_scan_v1_047",all_ids)
 
 if __name__=="__main__":
