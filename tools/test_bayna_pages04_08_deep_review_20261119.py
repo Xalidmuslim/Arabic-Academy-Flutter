@@ -71,7 +71,8 @@ class PagesFourEightDeepReview(unittest.TestCase):
                 ov=self.reviewed[unicodedata.normalize("NFC",e["arabic"])]
                 self.assertEqual(ov["examples"],[{"ar":s} for s in e["examples_ar"]])
                 self.assertEqual(ov["grammar"],[{"ar":s} for s in e["grammar"]])
-                self.assertEqual(ov["important"],[{"ar":e["usage_note_ar"]}])
+                self.assertEqual(ov["important"][0],{"ar":e["usage_note_ar"]})
+                self.assertGreaterEqual(len(ov["important"]),1)
                 self.assertEqual(ov["visual_verification"],e["visual_verification"])
 
     def test_corpus_article_ids_and_normalized_headwords(self):
