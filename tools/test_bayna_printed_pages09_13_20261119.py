@@ -68,7 +68,7 @@ class PrintedPagesNineToThirteen(unittest.TestCase):
                                  e["visual_verification"])
 
     def test_old_source_ids_unchanged_and_no_new_duplicates(self):
-        self.assertEqual(len(self.manifest), 89)
+        self.assertEqual(len(self.manifest), 90)
         seen = set()
         for filename in self.manifest:
             for e in json.loads((ROOT / filename).read_text(encoding="utf-8"))["entries"]:
