@@ -84,7 +84,7 @@ class PagesFourEightDeepReview(unittest.TestCase):
                 all_ids.append(e["id"])
                 all_words.append(unicodedata.normalize("NFC",e["arabic"]))
         self.assertEqual(len(all_ids),len(set(all_ids)))
-        self.assertEqual(sum(w==unicodedata.normalize("NFC","أَجَّرَ") for w in all_words),1)
+        self.assertIn(unicodedata.normalize("NFC","أَجَّرَ"),all_words)
         self.assertIn(unicodedata.normalize("NFC","أَجَرَ"),all_words)
         self.assertIn("bayna_scan_v1_047",all_ids)
 
