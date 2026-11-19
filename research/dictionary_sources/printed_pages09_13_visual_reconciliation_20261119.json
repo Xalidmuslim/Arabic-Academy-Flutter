@@ -133,5 +133,55 @@
     "All missing cases are missing from entries_bayna_scan_verified_20261112.json alone; they may already occur elsewhere in 87 registered corpus chunks, so no new IDs are allocated before full-corpus comparison.",
     "Original IDs, grammatical data, examples, bookmarks, progress and Flutter UI should be preserved. No APK build requested.",
     "Manually read printed headings are distinct evidence from independent verification of authored Arabic explanation, صرف, نحو, إعراب, which remains pending."
-  ]
+  ],
+  "global_corpus_reconciliation": {
+    "checked_date": "2026-11-19",
+    "registered_files_inspected": 87,
+    "scope": "All 87 manifest entries parsed, candidate letter forms compared after NFC and removal of Arabic diacritics; matching consonantal spellings manually disambiguated by full-vowel morphology.",
+    "initial_headings_not_in_old_scan_chunk": 18,
+    "confirmed_already_present_in_other_corpus_chunks": [
+      {
+        "headword": "أُسْلُوبٌ",
+        "existing_ids": [
+          "l3u01_017",
+          "l4draft07_028",
+          "ind_noun_education_20261025_167"
+        ],
+        "note": "Same fully vocalized lexical heading in three previous registered chunks; app merges repeated headings, do not invent an ID."
+      },
+      {
+        "headword": "أَسْمَعُ",
+        "existing_ids": [
+          "bayna_scan_print_restored_20261114_001"
+        ],
+        "note": "Already restored directly from PDF17 print13; do not create duplicate."
+      }
+    ],
+    "same_printed_spelling_multiple_lexical_senses": [
+      {
+        "headword": "أَسْرَى",
+        "existing_id": "bayna_scan_v1_266",
+        "note": "The scan includes a verb and a separately printed plural of أَسِير. Matching the written spelling does not certify equivalent meanings. Preserve the existing entry and queue sense-level review."
+      }
+    ],
+    "missing_distinct_vocalized_headwords_after_full_corpus_scan": [
+      "أَذْوَاق",
+      "آذَى",
+      "أَذًى",
+      "أَرَاك",
+      "أَرَاكَة",
+      "أَرْبَع",
+      "أَرْبَعَةَ عَشَرَ",
+      "أَرْسُن",
+      "أَرْطَال",
+      "أَرْطَب",
+      "أُسَر",
+      "إِسْرَائِيل",
+      "أَسِرَّة",
+      "أَسْرَعُ",
+      "إِسْكَاف"
+    ],
+    "missing_distinct_count": 15,
+    "next_stage": "Consult enlarged original word/gloss blocks and independent Arabic dictionaries for each pending headword, then author Arabic examples and validate i3rab before integrating new stable IDs; do not fabricate plurals, meanings, synonyms or antonyms."
+  }
 }
