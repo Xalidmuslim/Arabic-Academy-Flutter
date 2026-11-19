@@ -13092,16 +13092,18 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 18,
         "printed_page": 14,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "unmatched_printed_lemma_source_page_18_relocation_required"
       },
       "visual_verification": {
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 18,
         "printed_page": 14,
-        "status": "print_headword_and_visible_vowels_compared_examples_unchecked",
+        "status": "source_headword_mismatch_requires_relocation",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "checked_on": "2026-11-14",
-        "evidence_scope": "printed_lemma_spelling_and_visible_harakat_only_not_independently_created_sentences"
+        "checked_on": "2026-11-19",
+        "evidence_scope": "printed_headword_mismatch_only; independently_authored_examples_not_certified",
+        "printed_headword": "أَشْبَهَ",
+        "note": "فِي الصَّفْحَةِ الْمَطْبُوعَةِ الرَّابِعَةِ عَشْرَةَ وَرَدَ الْفِعْلُ «أَشْبَهَ» بِمَعْنَى «مَاثَلَ»، وَلَيْسَ اسْمَ التَّفْضِيلِ «أَشْبَهُ»؛ تُحْفَظُ الْمَادَّةُ الْقَدِيمَةُ وَمُعَرِّفُهَا دُونَ نِسْبَتِهَا إِلَى هَذِهِ الصَّفْحَةِ."
       }
     },
     {
