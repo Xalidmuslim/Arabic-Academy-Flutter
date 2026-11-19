@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "source_status": "printed_comparative_missing_from_corpus_visually_restored_author_examples_pending",
+  "original_scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "entries": [
+    {
+      "id": "bayna_print15_19_restored_20261119_001",
+      "arabic": "أَصْلَحُ",
+      "meaning_ar": "أَكْثَرُ صَلَاحًا وَمَنْفَعَةً مِنْ غَيْرِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ «أَفْعَلُ»، وَجَذْرُهُ: ص ـ ل ـ ح.",
+        "يَدُلُّ عَلَى الْمُفَاضَلَةِ بَيْنَ شَيْئَيْنِ مِنْ جِهَةِ الصَّلَاحِ وَالنَّفْعِ، وَقَدْ يَأْتِي بَعْدَهُ حَرْفُ الْجَرِّ «مِنْ» لِلْمُقَارَنَةِ.",
+        "فِي «هَذَا الْحَلُّ أَصْلَحُ»، يَكُونُ «أَصْلَحُ» خَبَرًا مَرْفُوعًا، وَيَخْتَلِفُ عَنْ فِعْلِ الْمَاضِي «أَصْلَحَ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "الْحَلُّ الْأَصْلَحُ",
+        "أَصْلَحُ مِنْ غَيْرِهِ"
+      ],
+      "examples_ar": [
+        "هَذَا الْحَلُّ أَصْلَحُ لِلطُّلَّابِ مِنَ الْحَلِّ السَّابِقِ.",
+        "اخْتَارَ الْمُدِيرُ الرَّأْيَ الْأَصْلَحَ لِلْمَدْرَسَةِ."
+      ],
+      "usage_note_ar": "«أَصْلَحُ» اسْمُ تَفْضِيلٍ، وَ«أَصْلَحَ» فِعْلٌ مَاضٍ؛ الْفَارِقُ فِي النُّطْقِ بَيْنَ صِيغَتَيْهِمَا هُوَ حَرَكَةُ الْحَرْفِ الْأَخِيرِ، فَلَا تُنْقَلُ تَصَارِيفُ الْفِعْلِ إِلَى بَابِ التَّفْضِيلِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/صلح"
+      ],
+      "source_group": "original_printed_bayna_pages15_19_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 20,
+        "printed_page": 16,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab",
+        "printed_headword": "أَصْلَح",
+        "printed_case_ending_status": "teaching_nominative_not_certified_identical_to_print_end_case"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 20,
+        "printed_page": 16,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_short_gloss_only_extended_grammar_and_independent_examples_not_a_printed_quotation"
+      }
+    }
+  ]
+}
