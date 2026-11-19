@@ -9227,7 +9227,7 @@
           "ar": "جَمْعُ دُعَاءٍ؛ الْمُفْرَدُ: دُعَاءٌ."
         },
         {
-          "ar": "جَمْعُ تَكْسِيرٍ لِـ«دُعَاءٍ»، وَيَتَعَلَّقُ بِالْطَّلَبِ مِنَ اللَّهِ."
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«دُعَاءٍ»، وَيَتَعَلَّقُ بِالطَّلَبِ مِنَ اللَّهِ."
         }
       ],
       "synonyms": [],
@@ -31194,7 +31194,10 @@
         "checked_on": "2026-11-19",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_red_headword_with_shadda_and_source_black_imperfect_yuajjiru_and_masdar_taajiran_not_new_examples"
-      }
+      },
+      "source_existing_corpus_id": "l1u3_031",
+      "source_existing_data_file": "assets/data/entries.json",
+      "source_corpus_integration": "existing_lemma_and_ID_preserved_no_new_duplicate"
     }
   ]
 }
