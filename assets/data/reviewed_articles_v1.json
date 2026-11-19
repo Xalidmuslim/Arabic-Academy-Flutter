@@ -31184,7 +31184,7 @@
       ],
       "source_pdf_page": 8,
       "source_printed_page": 4,
-      "source_review": "correction_from_original_page_image_pdf8_20261119",
+      "source_review": "visual_check_of_user_supplied_scan_12383_pdf",
       "editorial_method": "printed_form_verified_authored_Arabic_examples_pending_independent_review",
       "visual_verification": {
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
@@ -31197,7 +31197,8 @@
       },
       "source_existing_corpus_id": "l1u3_031",
       "source_existing_data_file": "assets/data/entries.json",
-      "source_corpus_integration": "existing_lemma_and_ID_preserved_no_new_duplicate"
+      "source_corpus_integration": "existing_lemma_and_ID_preserved_no_new_duplicate",
+      "source_text_status": "printed_headword_and_conjugation_visually_checked_authored_text_pending_independent_Arabic_review"
     }
   ]
 }
