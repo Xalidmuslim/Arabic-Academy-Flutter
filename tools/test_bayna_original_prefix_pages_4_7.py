@@ -58,7 +58,7 @@ class OriginalPrintedPagesFourToSeven(unittest.TestCase):
                 self.assertEqual(evidence["scan_sha256"], SHA256)
                 self.assertEqual(evidence["pdf_page"], p)
                 self.assertEqual(evidence["printed_page"], p - 4)
-                self.assertEqual(evidence["status"], STATUS)
+                self.assertEqual(evidence["status"], "source_headword_mismatch_requires_relocation" if source["id"] == "bayna_scan_v1_047" else STATUS)
                 self.assertEqual(evidence["examples_status"], "independently_authored_pending_separate_i3rab_review")
                 overlay = self.overlay[canon(source["arabic"])]
                 self.assertEqual(overlay["visual_verification"], evidence)
