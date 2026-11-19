@@ -76,7 +76,7 @@ class PagesFourEightDeepReview(unittest.TestCase):
                 self.assertEqual(ov["visual_verification"],e["visual_verification"])
 
     def test_corpus_article_ids_and_normalized_headwords(self):
-        self.assertEqual(len(self.reviewed),683)
+        self.assertEqual(len(self.reviewed),684)
         all_ids=[]
         all_words=[]
         for filename in self.manifest:
