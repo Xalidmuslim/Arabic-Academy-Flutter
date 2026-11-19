@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "source_status": "source_lemma_and_brief_sense_checked_independent_examples_pending_review",
+  "original_scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "entries": [
+    {
+      "id": "bayna_print14_restored_20261119_001",
+      "arabic": "أَشْبَهَ",
+      "meaning_ar": "مَاثَلَ غَيْرَهُ فِي صِفَةٍ أَوْ فِي هَيْئَةٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ مُتَعَدٍّ عَلَى وَزْنِ «أَفْعَلَ»، وَجَذْرُهُ: ش ـ ب ـ ه.",
+        "الْمَاضِي: «أَشْبَهَ»، وَالْمُضَارِعُ: «يُشْبِهُ»؛ وَيُقَالُ «أَشْبَهَ فُلَانٌ أَبَاهُ».",
+        "تَأْتِي صِيغَةُ «شَبَهًا» فِي عِبَارَةِ الْمَعْجَمِ لِبَيَانِ الْحَدَثِ؛ وَلَا تُفْتَرَضُ صِيَغٌ أُخْرَى دُونَ دَلِيلٍ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَشْبَهَ أَبَاهُ",
+        "أَشْبَهَ غَيْرَهُ فِي الْهَيْئَةِ"
+      ],
+      "examples_ar": [
+        "أَشْبَهَ الطِّفْلُ أَبَاهُ فِي الْمَلَامِحِ.",
+        "تُشْبِهُ هَذِهِ الزَّهْرَةُ تِلْكَ فِي لَوْنِهَا."
+      ],
+      "usage_note_ar": "«أَشْبَهَ» فِعْلٌ مَاضٍ آخِرُهُ فَتْحَةٌ، وَ«أَشْبَهُ» اسْمُ تَفْضِيلٍ آخِرُهُ ضَمَّةٌ فِي الرَّفْعِ؛ فَلَا تُخْلَطُ صِيغَةُ الْفِعْلِ بِصِيغَةِ الْمُقَارَنَةِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/شبه"
+      ],
+      "source_group": "original_printed_bayna_page14_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 18,
+        "printed_page": 14,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 18,
+        "printed_page": 14,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "source_headword_and_brief_sense_checked_extended_grammar_and_authored_examples_require_separate_validation"
+      }
+    }
+  ]
+}
