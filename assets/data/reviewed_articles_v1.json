@@ -18523,6 +18523,9 @@
       ],
       "important": [
         {
+          "ar": "«أَضَاءَ» يَتَعَلَّقُ بِظُهُورِ النُّورِ أَوْ إِحْدَاثِهِ، وَمَصْدَرُهُ «إِضَاءَةٌ»، فَلَا يُخْلَطُ بِـ«أَضَاعَ»."
+        },
+        {
           "ar": "«أَضَاءَ الْمِصْبَاحُ الْغُرْفَةَ» اسْتِعْمَالٌ مُتَعَدٍّ، وَ«أَضَاءَ الْمِصْبَاحُ» اسْتِعْمَالٌ لَازِمٌ بِحَسَبِ السِّيَاقِ."
         }
       ],
@@ -18537,11 +18540,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِضَاءَةٌ",
@@ -18560,11 +18564,14 @@
       "examples": [
         {
           "ar": "تَحْتَاجُ الْغُرْفَةُ إِلَى إِضَاءَةٍ جَيِّدَةٍ."
+        },
+        {
+          "ar": "تَحْتَاجُ الْقَاعَةُ إِلَى إِضَاءَةٍ قَوِيَّةٍ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِضَاءَةٌ» مَصْدَرُ «أَضَاءَ»، وَتَدُلُّ عَلَى النُّورِ أَوْ إِنَارَةِ الْمَكَانِ، وَلَيْسَتْ مَصْدَرَ «أَضَاعَ»."
         }
       ],
       "source_urls": [
@@ -18578,11 +18585,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضَاعَ",
@@ -18601,9 +18609,15 @@
       "examples": [
         {
           "ar": "أَضَاعَ الْوَلَدُ مِفْتَاحَهُ."
+        },
+        {
+          "ar": "أَضَاعَ الطَّالِبُ وَقْتَهُ فِي اللَّعِبِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَضَاعَ» بِالْعَيْنِ يَدُلُّ عَلَى فَقْدِ الشَّيْءِ أَوْ تَفْرِيطٍ فِيهِ، وَ«أَضَاءَ» بِالْهَمْزَةِ يَدُلُّ عَلَى النُّورِ."
+        },
         {
           "ar": "«أَضَاعَ مِفْتَاحَهُ» فِعْلٌ مُتَعَدٍّ، أَمَّا «ضَاعَ الْمِفْتَاحُ» فَفِعْلٌ لَازِمٌ؛ وَيُفَرَّقُ بَيْنَهُمَا فِي الْمَعْنَى وَالْبِنْيَةِ."
         }
@@ -18619,11 +18633,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِضَاعَةٌ",
@@ -18646,7 +18661,7 @@
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِضَاعَةٌ» مَصْدَرُ «أَضَاعَ»، وَتَخْتَلِفُ عَنْ «إِضَاءَةٍ» فِي الْحَرْفِ وَالْمَعْنَى."
         }
       ],
       "source_urls": [
@@ -18660,11 +18675,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضَافَ",
@@ -18683,9 +18699,15 @@
       "examples": [
         {
           "ar": "أَضَافَ الْمُعَلِّمُ مِثَالًا إِلَى الدَّرْسِ."
+        },
+        {
+          "ar": "أَضَافَ الطَّاهِي الْمِلْحَ إِلَى الطَّعَامِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَضَافَ» يَتَعَدَّى بِنَفْسِهِ إِلَى الشَّيْءِ الْمُضَافِ، وَبِـ«إِلَى» إِلَى مَا يُضَافُ إِلَيْهِ."
+        },
         {
           "ar": "يُقَالُ: أَضَافَ الْمُعَلِّمُ مِثَالًا إِلَى الدَّرْسِ؛ فَـ«مِثَالًا» مَفْعُولٌ بِهِ، وَ«إِلَى الدَّرْسِ» تُبَيِّنُ مَوْضِعَ الْإِضَافَةِ."
         }
@@ -18701,11 +18723,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِضَافَةٌ",
@@ -18724,11 +18747,14 @@
       "examples": [
         {
           "ar": "يَدُلُّ تَرْكِيبُ «كِتَابُ الطَّالِبِ» عَلَى الْإِضَافَةِ."
+        },
+        {
+          "ar": "فِي تَرْكِيبِ الْإِضَافَةِ يُجَرُّ الْمُضَافُ إِلَيْهِ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِضَافَةٌ» تَدُلُّ عَلَى الزِّيَادَةِ، وَفِي النَّحْوِ عَلَى تَرْكِيبٍ مِنْ مُضَافٍ وَمُضَافٍ إِلَيْهِ."
         }
       ],
       "source_urls": [
@@ -18742,11 +18768,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِضْحَاكٌ",
@@ -18765,11 +18792,14 @@
       "examples": [
         {
           "ar": "كَانَ لِلْقِصَّةِ أَثَرٌ فِي إِضْحَاكِ الْأَطْفَالِ."
+        },
+        {
+          "ar": "إِضْحَاكُ الْأَطْفَالِ يُسْعِدُ الْمُرَبِّيَ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِضْحَاكٌ» مَصْدَرُ «أَضْحَكَ» الْمُتَعَدِّي، وَ«ضَحِكٌ» أَوْ «ضَحْكٌ» حَدَثٌ يَقَعُ مِنَ الضَّاحِكِ نَفْسِهِ."
         }
       ],
       "source_urls": [
@@ -18783,11 +18813,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْحَكَ",
@@ -18810,6 +18841,9 @@
       ],
       "important": [
         {
+          "ar": "«أَضْحَكَ» فِعْلٌ مُتَعَدٍّ يُسْنَدُ إِلَى سَبَبِ الضَّحِكِ، وَ«ضَحِكَ» فِعْلٌ يَدُلُّ عَلَى فِعْلِ الضَّاحِكِ."
+        },
+        {
           "ar": "«أَضْحَكَتِ الْقِصَّةُ الْأَطْفَالَ» فِعْلٌ مُتَعَدٍّ، أَمَّا «ضَحِكَ الْأَطْفَالُ» فَيَدُلُّ عَلَى فِعْلِ الضَّحِكِ نَفْسِهِ."
         }
       ],
@@ -18824,11 +18858,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْحَى",
@@ -18891,11 +18926,14 @@
       "examples": [
         {
           "ar": "تُسَبِّبُ الْحَرَائِقُ أَضْرَارًا كَبِيرَةً."
+        },
+        {
+          "ar": "أَصَابَتِ الْعَاصِفَةُ الْمَزَارِعَ بِأَضْرَارٍ كَبِيرَةٍ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَضْرَارٌ» جَمْعُ «ضَرَرٍ»، وَالضَّرَرُ مَا يُصِيبُ الشَّخْصَ أَوِ الشَّيْءَ مِنْ أَذًى أَوْ خَسَارَةٍ."
         }
       ],
       "source_urls": [
@@ -18909,11 +18947,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْرَبَ",
@@ -18932,9 +18971,15 @@
       "examples": [
         {
           "ar": "أَضْرَبَ الْعُمَّالُ عَنِ الْعَمَلِ."
+        },
+        {
+          "ar": "أَضْرَبَ الْعُمَّالُ عَنِ الْعَمَلِ يَوْمًا وَاحِدًا."
         }
       ],
       "important": [
+        {
+          "ar": "«أَضْرَبَ عَنِ الْعَمَلِ» بِمَعْنَى امْتَنَعَ عَنْهُ احْتِجَاجًا، وَالْمَصْدَرُ «إِضْرَابٌ»."
+        },
         {
           "ar": "يُقَالُ: أَضْرَبَ الْعُمَّالُ عَنِ الْعَمَلِ؛ فَـ«عَنْ» تَدُلُّ عَلَى الْعَمَلِ الَّذِي تَوَقَّفُوا عَنْهُ."
         }
@@ -18950,11 +18995,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْرَمَ",
@@ -18981,6 +19027,9 @@
       ],
       "important": [
         {
+          "ar": "«أَضْرَمَ النَّارَ» يَعْنِي أَوْقَدَهَا وَأَشْعَلَهَا، وَيَتَعَدَّى إِلَى «النَّارِ» مَفْعُولًا بِهِ."
+        },
+        {
           "ar": "يُقَالُ: أَضْرَمَ النَّارَ فِي الْحَطَبِ؛ فَ«النَّارَ» مَفْعُولٌ بِهِ، وَ«فِي الْحَطَبِ» تُبَيِّنُ مَوْضِعَ الِاشْتِعَالِ."
         }
       ],
@@ -18995,11 +19044,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْعَافٌ",
@@ -19018,11 +19068,14 @@
       "examples": [
         {
           "ar": "زَادَ الْإِنْتَاجُ أَضْعَافًا."
+        },
+        {
+          "ar": "تَضَاعَفَ عَدَدُ الْكُتُبِ أَضْعَافًا."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَضْعَافٌ» جَمْعُ «ضِعْفٍ»، وَيُسْتَعْمَلُ لِلتَّعْبِيرِ عَنْ تَكَرُّرِ الْمِقْدَارِ وَزِيَادَتِهِ."
         }
       ],
       "source_urls": [
@@ -19036,11 +19089,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِضْعَافٌ",
@@ -19059,11 +19113,14 @@
       "examples": [
         {
           "ar": "يُؤَدِّي الْإِهْمَالُ إِلَى إِضْعَافِ النَّتَائِجِ."
+        },
+        {
+          "ar": "أَدَّتْ قِلَّةُ النَّوْمِ إِلَى إِضْعَافِ الْجِسْمِ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِضْعَافٌ» مَصْدَرُ «أَضْعَفَ»، وَيَدُلُّ عَلَى جَعْلِ الشَّيْءِ ضَعِيفًا؛ أَمَّا «ضَعْفٌ» فَهُوَ حَالَةُ الضَّعِيفِ."
         }
       ],
       "source_urls": [
@@ -19077,11 +19134,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْعَفَ",
@@ -19104,6 +19162,9 @@
       ],
       "important": [
         {
+          "ar": "«أَضْعَفَ» فِعْلٌ مُتَعَدٍّ، وَمَفْعُولُهُ مَنْ أُصِيبَ بِالضَّعْفِ، وَمَصْدَرُهُ «إِضْعَافٌ»."
+        },
+        {
           "ar": "«أَضْعَفَ الْمَرَضُ جِسْمَهُ» فِعْلٌ مُتَعَدٍّ، أَمَّا «ضَعُفَ جِسْمُهُ» فَيَصِفُ حَالَةَ الضَّعْفِ."
         }
       ],
@@ -19118,11 +19179,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْغَانٌ",
@@ -19141,11 +19203,14 @@
       "examples": [
         {
           "ar": "يَنْبَغِي تَرْكُ الْأَضْغَانِ وَالْخُصُومَاتِ."
+        },
+        {
+          "ar": "أَخْفَى الرَّجُلُ أَضْغَانَهُ وَرَاءَ كَلَامٍ لَطِيفٍ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَضْغَانٌ» جَمْعُ «ضِغْنٍ»، وَهِيَ أَحْقَادٌ مُضْمَرَةٌ؛ فَلَا تَدُلُّ عَلَى مُجَرَّدِ اخْتِلَافِ الرَّأْيِ."
         }
       ],
       "source_urls": [
@@ -19159,11 +19224,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْلَاعٌ",
@@ -19182,11 +19248,14 @@
       "examples": [
         {
           "ar": "تُسَاعِدُ الْأَضْلَاعُ عَلَى حِمَايَةِ الْقَلْبِ."
+        },
+        {
+          "ar": "كَسَرَ السُّقُوطُ أَحَدَ أَضْلَاعِهِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَضْلَاعٌ» جَمْعُ «ضِلْعٍ»، وَيُطْلَقُ عَلَى عِظَامِ الصَّدْرِ، وَيَرِدُ أَيْضًا فِي الْهَنْدَسَةِ."
         }
       ],
       "source_urls": [
@@ -19200,11 +19269,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَضْنَى",
@@ -19223,9 +19293,15 @@
       "examples": [
         {
           "ar": "أَضْنَى السَّهَرُ الْمَرِيضَ."
+        },
+        {
+          "ar": "أَضْنَاهُ الْمَرَضُ الطَّوِيلُ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَضْنَى» يَدُلُّ عَلَى شِدَّةِ الْإِعْيَاءِ وَالْإِنْهَاكِ، وَهُوَ غَيْرُ «أَضْنِي» بِضَبْطٍ يُغَيِّرُ الصِّيغَةَ."
+        },
         {
           "ar": "يُقَالُ: أَضْنَى السَّهَرُ الْمَرِيضَ؛ فَ«السَّهَرُ» فَاعِلٌ، وَ«الْمَرِيضَ» مَفْعُولٌ بِهِ، وَالْمَعْنَى أَتْعَبَهُ تَعَبًا شَدِيدًا."
         }
@@ -19241,11 +19317,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِطَارٌ",
@@ -19264,9 +19341,15 @@
       "examples": [
         {
           "ar": "وَضَعَ الصُّورَةَ فِي إِطَارٍ خَشَبِيٍّ."
+        },
+        {
+          "ar": "وَضَعَتِ الْفَنَّانَةُ الصُّورَةَ فِي إِطَارٍ خَشَبِيٍّ."
         }
       ],
       "important": [
+        {
+          "ar": "«إِطَارٌ» مَا يُحِيطُ بِالشَّيْءِ، وَيُسْتَعْمَلُ حَقِيقَةً فِي الصُّوَرِ وَمَجَازًا فِي حُدُودِ الْبَحْثِ."
+        },
         {
           "ar": "«إِطَارٌ» اسْمٌ مُفْرَدٌ، وَالْجَمْعُ: إِطَارَاتٌ وَأُطُرٌ."
         }
@@ -19282,11 +19365,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِطَارَاتٌ",
@@ -19305,11 +19389,14 @@
       "examples": [
         {
           "ar": "اسْتَبْدَلَ السَّائِقُ إِطَارَاتِ السَّيَّارَةِ."
+        },
+        {
+          "ar": "غَيَّرَ السَّائِقُ إِطَارَاتِ السَّيَّارَةِ قَبْلَ السَّفَرِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«إِطَارَاتٌ» جَمْعُ «إِطَارٍ»، وَيُرَادُ بِهَا أُطُرُ الصُّوَرِ أَوْ إِطَارَاتُ الْعَجَلَاتِ بِحَسَبِ السِّيَاقِ."
         }
       ],
       "source_urls": [
@@ -19323,11 +19410,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطَاعَ",
@@ -19350,9 +19438,15 @@
       "examples": [
         {
           "ar": "أَطَاعَ الْوَلَدُ وَالِدَيْهِ."
+        },
+        {
+          "ar": "أَطَاعَ الطِّفْلُ أَبَاهُ فِي الْأَمْرِ الْمَعْرُوفِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَطَاعَ» يَتَعَدَّى إِلَى الْمُطَاعِ بِنَفْسِهِ، وَمَصْدَرُهُ «إِطَاعَةٌ» أَوْ «طَاعَةٌ»."
+        },
         {
           "ar": "فِي «أَطَاعَ الْوَلَدُ وَالِدَيْهِ» كَلِمَةُ «وَالِدَيْهِ» مَفْعُولٌ بِهِ مَنْصُوبٌ بِالْيَاءِ لِأَنَّهُ مُثَنًّى."
         }
@@ -19368,11 +19462,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطَاقَ",
@@ -19391,9 +19486,15 @@
       "examples": [
         {
           "ar": "لَمْ يُطِقِ الرَّجُلُ حَمْلَ الصُّنْدُوقِ الثَّقِيلِ."
+        },
+        {
+          "ar": "لَا يُطِيقُ الْمَرِيضُ الْمَشْيَ طَوِيلًا."
         }
       ],
       "important": [
+        {
+          "ar": "«أَطَاقَ» يَدُلُّ عَلَى الْقُدْرَةِ وَالتَّحَمُّلِ، وَمُضَارِعُهُ «يُطِيقُ»؛ فَلَا يُخْلَطُ بِـ«أَطَاعَ»."
+        },
         {
           "ar": "فِي «لَمْ يُطِقِ الرَّجُلُ» جُزِمَ الْمُضَارِعُ بِـ«لَمْ»، وَحُرِّكَتِ الْقَافُ بِالْكَسْرِ لِمَنْعِ اجْتِمَاعِ سَاكِنَيْنِ."
         }
@@ -19409,11 +19510,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطَالَ",
@@ -19436,9 +19538,15 @@
       "examples": [
         {
           "ar": "أَطَالَ الْمُحَاضِرُ الْكَلَامَ."
+        },
+        {
+          "ar": "أَطَالَ الْخَطِيبُ كَلَامَهُ بِغَيْرِ حَاجَةٍ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَطَالَ» يَدُلُّ عَلَى جَعْلِ الشَّيْءِ طَوِيلًا فِي الزَّمَانِ أَوِ الْمِقْدَارِ، وَ«أَطْنَبَ» يُسْتَعْمَلُ خُصُوصًا فِي الْكَلَامِ."
+        },
         {
           "ar": "يُقَالُ: أَطَالَ الْمُحَاضِرُ الْكَلَامَ، أَيْ زَادَ مُدَّتَهُ؛ وَيُسْتَعْمَلُ الْفِعْلُ أَيْضًا لِزِيَادَةِ الطُّولِ الْحِسِّيِّ."
         }
@@ -19454,11 +19562,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطِبَّاءُ",
@@ -19477,11 +19586,14 @@
       "examples": [
         {
           "ar": "يَعْمَلُ الْأَطِبَّاءُ فِي الْمُسْتَشْفَى."
+        },
+        {
+          "ar": "عَالَجَ الْأَطِبَّاءُ الْمَرْضَى فِي الْمُسْتَشْفَى."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَطِبَّاءُ» جَمْعُ «طَبِيبٍ»، وَيُسْتَعْمَلُ لِمَنْ يَتَوَلَّوْنَ التَّشْخِيصَ وَالْعِلَاجَ."
         }
       ],
       "source_urls": [
@@ -19495,11 +19607,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطْبَاقٌ",
@@ -19518,11 +19631,14 @@
       "examples": [
         {
           "ar": "وَضَعَتِ الْأُمُّ الْأَطْبَاقَ عَلَى الْمَائِدَةِ."
+        },
+        {
+          "ar": "وَضَعَتِ الْأُمُّ أَطْبَاقًا نَظِيفَةً عَلَى الْمَائِدَةِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَطْبَاقٌ» جَمْعُ «طَبَقٍ»، وَيَدُلُّ عَلَى أَوْعِيَةِ الطَّعَامِ أَوْ أَصْنَافِهِ بِحَسَبِ التَّرْكِيبِ."
         }
       ],
       "source_urls": [
@@ -19536,11 +19652,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطْرَافٌ",
@@ -19559,11 +19676,14 @@
       "examples": [
         {
           "ar": "جَلَسَ النَّاسُ عَلَى أَطْرَافِ الْقَاعَةِ."
+        },
+        {
+          "ar": "جَلَسَ الطُّلَّابُ عَلَى أَطْرَافِ الْحَدِيقَةِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَطْرَافٌ» جَمْعُ «طَرَفٍ»، وَيَدُلُّ عَلَى نَوَاحِي الشَّيْءِ وَحُدُودِهِ، لَا عَلَى وَسَطِهِ."
         }
       ],
       "source_urls": [
@@ -19577,11 +19697,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطْرَشُ",
@@ -19600,11 +19721,14 @@
       "examples": [
         {
           "ar": "يَسْتَعْمِلُ الشَّخْصُ الْأَطْرَشُ لُغَةَ الْإِشَارَةِ."
+        },
+        {
+          "ar": "تَوَاصَلَ الْمُعَلِّمُ مَعَ طَالِبٍ أَطْرَشَ بِالْإِشَارَاتِ."
         }
       ],
       "important": [
         {
-          "ar": "يُحَدِّدُ السِّيَاقُ الْمَعْنَى الْمَقْصُودَ، وَيَجِبُ مُرَاعَاةُ ضَبْطِ الْكَلِمَةِ."
+          "ar": "«أَطْرَشُ» صِفَةٌ لِمَنْ لَا يَسْمَعُ أَوْ ضَعُفَ سَمْعُهُ، وَمُؤَنَّثُهَا «طَرْشَاءُ»."
         }
       ],
       "source_urls": [
@@ -19618,11 +19742,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطْرَى",
@@ -19641,9 +19766,15 @@
       "examples": [
         {
           "ar": "أَطْرَى الْمُدِيرُ الْمُوَظَّفَ الْمُجْتَهِدَ."
+        },
+        {
+          "ar": "أَطْرَى الشَّاعِرُ صَدِيقَهُ بِكَلَامٍ جَمِيلٍ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَطْرَى» يَدُلُّ عَلَى كَثْرَةِ الْمَدْحِ وَالْمُبَالَغَةِ فِيهِ، وَيَتَعَدَّى إِلَى الْمَمْدُوحِ بِنَفْسِهِ."
+        },
         {
           "ar": "يُقَالُ: أَطْرَى الْمُدِيرُ الْمُوَظَّفَ؛ فَالْفِعْلُ مُتَعَدٍّ، وَيَدُلُّ عَلَى الْإِكْثَارِ مِنَ الْمَدْحِ."
         }
@@ -19659,11 +19790,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_visually_compared; independent_examples_and_i3rab_pending"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَطْعَمَ",
@@ -29503,9 +29635,15 @@
       "examples": [
         {
           "ar": "ذَبَحَ الرَّجُلُ أُضْحِيَّةً يَوْمَ عِيدِ الْأَضْحَى."
+        },
+        {
+          "ar": "تُذْبَحُ الْأُضْحِيَّةُ فِي أَيَّامِ النَّحْرِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أُضْحِيَّةٌ» اسْمٌ لِمَا يُذْبَحُ مِنَ الْأَنْعَامِ فِي أَيَّامِ النَّحْرِ، وَجَمْعُهَا «أَضَاحٍ»، وَهِيَ غَيْرُ الْفِعْلِ «أَضْحَى»."
+        },
         {
           "ar": "«أُضْحِيَّةٌ» اِسْمٌ، وَلَيْسَ هِيَ الْفِعْلَ «أَضْحَى»."
         },
@@ -29520,12 +29658,14 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 21,
         "printed_page": 17,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_and_gloss_manually_checked_original_pdf",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_short_gloss_only_not_full_linguistic_approval"
+        "evidence_scope": "printed_headword_and_short_sense_checked_against_pdf21; edited_independent_examples_pending_separate_i3rab_review"
       },
-      "editorial_batch": "2026-11-14-original-restored-two"
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial",
+      "source_pdf_page": 21,
+      "source_printed_page": 17
     },
     {
       "arabic": "أَئِمَّةٌ",
