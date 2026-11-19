@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "source_status": "visually_checked_short_source_senses_extended_Arabic_authored_pending_independent_proofread",
+  "original_scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "entries": [
+    {
+      "id": "bayna_print09_13_restored_20261119_001",
+      "arabic": "أَذْوَاقٌ",
+      "meaning_ar": "جَمْعُ «ذَوْقٍ»، وَيُرَادُ بِهِ تَعَدُّدُ طَرَائِقِ الْإِحْسَاسِ بِالطَّعْمِ أَوِ الْمَيْلِ إِلَى الْجَمَالِ وَالْفَنِّ.",
+      "additional_meanings_ar": [
+        "وَقَدْ يُسْتَعْمَلُ لِلْمُيُولِ الْمُخْتَلِفَةِ بَيْنَ النَّاسِ."
+      ],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«ذَوْقٍ»، وَجَذْرُهُ: ذ ـ و ـ ق.",
+        "الْمُفْرَدُ «ذَوْقٌ»، وَهُوَ اسْمٌ مُذَكَّرٌ؛ وَتَخْتَلِفُ دَلَالَتُهُ بِاخْتِلَافِ السِّيَاقِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَذْوَاقٌ مُخْتَلِفَةٌ",
+        "اخْتِلَافُ الْأَذْوَاقِ"
+      ],
+      "examples_ar": [
+        "تَخْتَلِفُ أَذْوَاقُ النَّاسِ فِي اخْتِيَارِ الطَّعَامِ.",
+        "احْتَرَمَ الْمُصَمِّمُ أَذْوَاقَ زَبَائِنِهِ الْمُخْتَلِفَةَ."
+      ],
+      "usage_note_ar": "«أَذْوَاقٌ» جَمْعُ «ذَوْقٍ»؛ فَذَوْقُ الطَّعَامِ يَتَعَلَّقُ بِحَاسَّةٍ، وَالذَّوْقُ الْفَنِّيُّ يَتَعَلَّقُ بِالِاسْتِحْسَانِ، وَلَا يَتَّحِدُ الْمَعْنَيَانِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/ذوق"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_002",
+      "arabic": "آذَى",
+      "meaning_ar": "أَوْقَعَ بِغَيْرِهِ ضَرَرًا أَوْ أَلَمًا.",
+      "additional_meanings_ar": [
+        "وَقَدْ يَكُونُ الْإِيذَاءُ بِالْكَلَامِ أَوْ بِالْفِعْلِ."
+      ],
+      "grammar": [
+        "فِعْلٌ مَاضٍ مُتَعَدٍّ، وَجَذْرُهُ: أ ـ ذ ـ ي.",
+        "الْمَاضِي: «آذَى»، الْمُضَارِعُ: «يُؤْذِي»، الْمَصْدَرُ: «إِيذَاءٌ»؛ وَالْفِعْلُ مُعْتَلُّ الْآخِرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "آذَى جَارَهُ",
+        "إِيذَاءُ الْآخَرِينَ"
+      ],
+      "examples_ar": [
+        "آذَى الضَّجِيجُ الْمَرْضَى فِي الْمُسْتَشْفَى.",
+        "لَا تُؤْذِ أَحَدًا بِكَلَامِكَ."
+      ],
+      "usage_note_ar": "«آذَى» فِعْلٌ مَاضٍ يُسْنَدُ إِلَى سَبَبِ الضَّرَرِ، وَ«أَذًى» اسْمٌ لِلضَّرَرِ؛ وَالْمَصْدَرُ مِنَ الْفِعْلِ «إِيذَاءٌ» لَا «أَذًى» فِي هَذَا الْبَابِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أذي"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_003",
+      "arabic": "أَذًى",
+      "meaning_ar": "ضَرَرٌ يَصِيبُ الْإِنْسَانَ أَوْ غَيْرَهُ، وَقَدْ يَكُونُ قَلِيلًا أَوْ عَارِضًا.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اسْمٌ مَقْصُورٌ، وَجَذْرُهُ: أ ـ ذ ـ ي.",
+        "تُقَدَّرُ حَرَكَاتُ الْإِعْرَابِ عَلَى أَلِفِهِ الْمَقْصُورَةِ لِلتَّعَذُّرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "دَفْعُ الْأَذَى",
+        "أَذَى الطَّرِيقِ"
+      ],
+      "examples_ar": [
+        "أَزَالَ الرَّجُلُ الْأَذَى عَنِ الطَّرِيقِ.",
+        "يَنْبَغِي حِمَايَةُ الْأَطْفَالِ مِنَ الْأَذَى."
+      ],
+      "usage_note_ar": "«أَذًى» اسْمٌ مَقْصُورٌ يُكْتَبُ بِأَلِفٍ مَقْصُورَةٍ، وَيَخْتَلِفُ عَنْ «آذَى» الْفِعْلِ الْمَاضِي وَ«إِيذَاءٍ» الْمَصْدَرِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/أذي"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_004",
+      "arabic": "أَرَاكٌ",
+      "meaning_ar": "أَشْجَارٌ مِنْ نَوْعِ الْأَرَاكَةِ، وَتُؤْخَذُ مِنْهَا عِيدَانُ السِّوَاكِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اسْمٌ يَدُلُّ هُنَا عَلَى جَمْعِ «أَرَاكَةٍ»، وَجَذْرُهُ: أ ـ ر ـ ك.",
+        "يُسْتَعْمَلُ اسْمُ «الْأَرَاكِ» أَيْضًا لِهَذَا النَّوْعِ مِنَ الشَّجَرِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "شَجَرُ الْأَرَاكِ",
+        "عِيدَانُ الْأَرَاكِ"
+      ],
+      "examples_ar": [
+        "يَنْمُو الْأَرَاكُ فِي بَعْضِ الْبِلَادِ الْحَارَّةِ.",
+        "صُنِعَ السِّوَاكُ مِنْ أَغْصَانِ الْأَرَاكِ."
+      ],
+      "usage_note_ar": "ذَكَرَ الْمَعْجَمُ «أَرَاكًا» جَمْعًا لِـ«أَرَاكَةٍ»؛ وَيَجِبُ تَمْيِيزُ اسْمِ الشَّجَرِ مِنْ صِيغِ الْأَفْعَالِ الْمُشَابِهَةِ لَهُ فِي الرَّسْمِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_005",
+      "arabic": "أَرَاكَةٌ",
+      "meaning_ar": "شَجَرَةٌ تَنْبُتُ فِي الْبِلَادِ الْحَارَّةِ، وَتُؤْخَذُ مِنْهَا عِيدَانٌ لِلتَّسَوُّكِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اسْمٌ مُؤَنَّثٌ مُفْرَدٌ، وَجَذْرُهُ: أ ـ ر ـ ك.",
+        "جَمْعُهُ الْمَذْكُورُ فِي الْمَعْجَمِ: «أَرَاكٌ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "شَجَرَةُ الْأَرَاكَةِ",
+        "أَغْصَانُ الْأَرَاكَةِ"
+      ],
+      "examples_ar": [
+        "نَمَتْ أَرَاكَةٌ قُرْبَ الْوَادِي.",
+        "أَخَذَ الرَّجُلُ غُصْنًا مِنَ الْأَرَاكَةِ لِيَتَسَوَّكَ بِهِ."
+      ],
+      "usage_note_ar": "«أَرَاكَةٌ» اسْمٌ لِشَجَرَةٍ وَاحِدَةٍ، وَ«أَرَاكٌ» اسْمُ الْجَمْعِ الْمَذْكُورِ فِي الْمَصْدَرِ؛ فَلَا يُخْلَطُ بَيْنَ الْمُفْرَدِ وَالْجَمْعِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_006",
+      "arabic": "أَرْبَعُ",
+      "meaning_ar": "عَدَدٌ أَصْلِيٌّ يَدُلُّ عَلَى أَرْبَعِ وَحَدَاتٍ، وَهُوَ الصِّيغَةُ الَّتِي تُسْتَعْمَلُ مَعَ الْمَعْدُودِ الْمُؤَنَّثِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "عَدَدٌ أَصْلِيٌّ، وَجَذْرُهُ: ر ـ ب ـ ع.",
+        "يُضَافُ إِلَى جَمْعٍ مَجْرُورٍ فِي «أَرْبَعُ بَنَاتٍ»؛ وَيَتَغَيَّرُ آخِرُ الْعَدَدِ بِحَسَبِ مَوْقِعِهِ مِنَ الْإِعْرَابِ.",
+        "لِلْمَعْدُودِ الْمُذَكَّرِ تُسْتَعْمَلُ صِيغَةُ «أَرْبَعَةٍ» فِي هَذَا التَّرْكِيبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَرْبَعُ صَفَحَاتٍ",
+        "أَرْبَعُ بَنَاتٍ"
+      ],
+      "examples_ar": [
+        "فِي الْحَدِيقَةِ أَرْبَعُ شَجَرَاتٍ.",
+        "قَرَأَ الطَّالِبُ أَرْبَعَ صَفَحَاتٍ مِنَ الْكِتَابِ."
+      ],
+      "usage_note_ar": "فِي الصَّفْحَةِ الْمَطْبُوعَةِ كُتِبَ «أَرْبَع» دُونَ نِهَايَةٍ إِعْرَابِيَّةٍ مُلْزِمَةٍ؛ وَهُنَا «أَرْبَعُ» صِيغَةُ الرَّفْعِ لِلتَّعْلِيمِ، وَلَيْسَتْ نَصًّا حَرْفِيًّا عَلَى آخِرِ الْمَطْبُوعِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/ربع"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab",
+        "printed_headword": "أَرْبَع"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading",
+        "editorial_case_ending_not_printed": true
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_007",
+      "arabic": "أَرْبَعَةَ عَشَرَ",
+      "meaning_ar": "عَدَدٌ مُرَكَّبٌ يَدُلُّ عَلَى أَرْبَعَ عَشْرَةَ وَحْدَةً، وَيُسْتَعْمَلُ مَعَ الْمَعْدُودِ الْمُذَكَّرِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "عَدَدٌ مُرَكَّبٌ مِنْ «أَرْبَعَةَ» وَ«عَشَرَ»، وَهُوَ مَبْنِيٌّ عَلَى فَتْحِ الْجُزْأَيْنِ.",
+        "تَمْيِيزُ الْعَدَدِ مُفْرَدٌ مَنْصُوبٌ، مِثْلُ «أَرْبَعَةَ عَشَرَ طَالِبًا».",
+        "لِلْمَعْدُودِ الْمُؤَنَّثِ تُسْتَعْمَلُ صِيغَةُ «أَرْبَعَ عَشْرَةَ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَرْبَعَةَ عَشَرَ طَالِبًا",
+        "أَرْبَعَةَ عَشَرَ كِتَابًا"
+      ],
+      "examples_ar": [
+        "حَضَرَ أَرْبَعَةَ عَشَرَ طَالِبًا إِلَى الْقَاعَةِ.",
+        "اشْتَرَى أَخِي أَرْبَعَةَ عَشَرَ كِتَابًا."
+      ],
+      "usage_note_ar": "تُفْتَحُ أَجْزَاءُ الْعَدَدِ الْمُرَكَّبِ «أَرْبَعَةَ عَشَرَ» فِي مَوَاقِعِ الْإِعْرَابِ الْمُخْتَلِفَةِ، وَيَأْتِي تَمْيِيزُهُ مُفْرَدًا مَنْصُوبًا.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/ربع"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 13,
+        "printed_page": 9,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_008",
+      "arabic": "أَرْسُنٌ",
+      "meaning_ar": "جَمْعُ «رَسَنٍ»، وَهُوَ حَبْلٌ يُمْسَكُ بِهِ رَأْسُ الدَّابَّةِ أَوْ تُقَادُ بِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«رَسَنٍ»، وَجَذْرُهُ: ر ـ س ـ ن.",
+        "مِنْ جُمُوعِ «رَسَنٍ» أَيْضًا «أَرْسَانٌ»، وَهَذَا مُثْبَتٌ فِي «الْمُعْجَمِ الْوَسِيطِ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَرْسُنُ الْخَيْلِ",
+        "أَرْسُنُ الدَّوَابِّ"
+      ],
+      "examples_ar": [
+        "حَفِظَ الرَّاعِي أَرْسُنَ الدَّوَابِّ فِي الْمَخْزَنِ.",
+        "اشْتَرَى الْفَلَّاحُ أَرْسُنًا جَدِيدَةً."
+      ],
+      "usage_note_ar": "«أَرْسُنٌ» جَمْعُ «رَسَنٍ» الَّذِي يُسْتَعْمَلُ لِقِيَادَةِ الدَّابَّةِ، وَلَا يُسَاوِي «رِسَالَةً» أَوْ «رَسْمًا» لِتَشَابُهِ بَعْضِ الْحُرُوفِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/محرك-البحث/معجم/dic-19/الرسن"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 14,
+        "printed_page": 10,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 14,
+        "printed_page": 10,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_009",
+      "arabic": "أَرْطَالٌ",
+      "meaning_ar": "جَمْعُ «رِطْلٍ»، وَهُوَ مِقْدَارٌ يُوزَنُ بِهِ أَوْ يُكَالُ، وَتَخْتَلِفُ قِيمَتُهُ بِاخْتِلَافِ الْبِلَادِ وَالْعُصُورِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«رِطْلٍ»، وَتَرِدُ أَيْضًا لُغَةُ «رَطْلٍ».",
+        "جَذْرُ الْكَلِمَةِ: ر ـ ط ـ ل؛ وَالْجَمْعُ يُعْرَبُ بِالْحَرَكَاتِ الظَّاهِرَةِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَرْطَالٌ مِنَ الطَّعَامِ",
+        "وَزْنُ الْأَرْطَالِ"
+      ],
+      "examples_ar": [
+        "بَاعَ التَّاجِرُ أَرْطَالًا مِنَ التَّمْرِ.",
+        "اخْتَلَفَتْ قِيمَةُ الرَّطْلِ بِاخْتِلَافِ الْبِلَادِ."
+      ],
+      "usage_note_ar": "«الرِّطْلُ» وَحْدَةُ قِيَاسٍ قَدِيمَةٌ لَيْسَ لَهَا مِقْدَارٌ وَاحِدٌ فِي كُلِّ الْبِلَادِ؛ لِذَلِكَ لَا تُحَوَّلُ «أَرْطَالٌ» إِلَى وَحْدَةٍ حَدِيثَةٍ دُونَ سِيَاقٍ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/محرك-البحث/الرِّطْلُ?exact_search=true"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 14,
+        "printed_page": 10,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 14,
+        "printed_page": 10,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_010",
+      "arabic": "أَرْطَبَ",
+      "meaning_ar": "صَارَ الْبُسْرُ رُطَبًا، أَوْ بَدَا فِيهِ النُّضْجُ الَّذِي يَتَحَوَّلُ بِهِ إِلَى رُطَبٍ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "فِعْلٌ مَاضٍ عَلَى وَزْنِ «أَفْعَلَ»، وَجَذْرُهُ: ر ـ ط ـ ب.",
+        "الْمَاضِي: «أَرْطَبَ»، الْمُضَارِعُ: «يُرْطِبُ»، الْمَصْدَرُ: «إِرْطَابٌ».",
+        "يَرِدُ لَازِمًا عِنْدَ وَصْفِ تَحَوُّلِ الْبُسْرِ إِلَى الرُّطَبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَرْطَبَ الْبُسْرُ",
+        "بَدَأَ الْبُسْرُ يُرْطِبُ"
+      ],
+      "examples_ar": [
+        "أَرْطَبَ الْبُسْرُ عَلَى النَّخْلَةِ.",
+        "يُرْطِبُ بَعْضُ الْبُسْرِ قَبْلَ بَعْضٍ."
+      ],
+      "usage_note_ar": "«أَرْطَبَ» فِعْلٌ يُسْتَعْمَلُ فِي نُضْجِ الْبُسْرِ، وَلَيْسَ اسْمَ تَفْضِيلٍ بِمَعْنَى «أَكْثَرَ رُطُوبَةً»؛ وَ«رُطَبٌ» اسْمٌ لِمَرْحَلَةٍ مِنْ نُضْجِ التَّمْرِ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/رطب"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 14,
+        "printed_page": 10,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 14,
+        "printed_page": 10,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_011",
+      "arabic": "أُسَرٌ",
+      "meaning_ar": "جَمْعُ «أُسْرَةٍ»، وَهِيَ جَمَاعَةٌ تَرْتَبِطُ أَفْرَادُهَا بِالْقَرَابَةِ وَالْعَيْشِ الْمُشْتَرَكِ.",
+      "additional_meanings_ar": [
+        "وَقَدْ يُسْتَعْمَلُ لِجَمَاعَاتٍ تَجْمَعُهَا رَابِطَةٌ أَوْ مَصْلَحَةٌ مُشْتَرَكَةٌ فِي سِيَاقٍ مَجَازِيٍّ."
+      ],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«أُسْرَةٍ»، وَالْمُفْرَدُ اسْمٌ مُؤَنَّثٌ.",
+        "يُعَامَلُ الْجَمْعُ لِغَيْرِ الْعَاقِلِ فِي الْوَصْفِ مُعَامَلَةَ الْمُفْرَدِ الْمُؤَنَّثِ، وَيَجُوزُ اعْتِبَارُ أَفْرَادِ الْجَمَاعَاتِ بِحَسَبِ التَّرْكِيبِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أُسَرٌ مُتَعَاوِنَةٌ",
+        "رِعَايَةُ الْأُسَرِ"
+      ],
+      "examples_ar": [
+        "تَعِيشُ فِي الْقَرْيَةِ أُسَرٌ كَثِيرَةٌ.",
+        "سَاعَدَتِ الْجَمْعِيَّةُ الْأُسَرَ الْمُحْتَاجَةَ."
+      ],
+      "usage_note_ar": "«أُسَرٌ» جَمْعُ «أُسْرَةٍ»، أَمَّا «أَسْرٌ» فَمَصْدَرُ «أَسَرَ» وَيَدُلُّ عَلَى الْحَبْسِ؛ وَتَغْيِيرُ حَرَكَةِ الْهَمْزَةِ وَالسُّكُونِ يُغَيِّرُ الْمَعْنَى.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 16,
+        "printed_page": 12,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 16,
+        "printed_page": 12,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_012",
+      "arabic": "إِسْرَائِيلُ",
+      "meaning_ar": "لَقَبٌ لِنَبِيِّ اللَّهِ يَعْقُوبَ بْنِ إِسْحَاقَ عَلَيْهِمَا السَّلَامُ.",
+      "additional_meanings_ar": [
+        "يُقَالُ «بَنُو إِسْرَائِيلَ» لِذُرِّيَّةِ يَعْقُوبَ عَلَيْهِ السَّلَامُ."
+      ],
+      "grammar": [
+        "اسْمُ عَلَمٍ أَعْجَمِيٌّ، وَهُوَ مَمْنُوعٌ مِنَ الصَّرْفِ لِلْعَلَمِيَّةِ وَالْعُجْمَةِ.",
+        "يُجَرُّ بِالْفَتْحَةِ عِوَضًا عَنِ الْكَسْرَةِ مَا لَمْ يُضَفْ أَوْ يُعَرَّفْ بِـ«أَلْ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "بَنُو إِسْرَائِيلَ",
+        "نَبِيُّ اللَّهِ إِسْرَائِيلُ"
+      ],
+      "examples_ar": [
+        "إِسْرَائِيلُ لَقَبٌ لِنَبِيِّ اللَّهِ يَعْقُوبَ عَلَيْهِ السَّلَامُ.",
+        "يُنْسَبُ بَنُو إِسْرَائِيلَ إِلَى يَعْقُوبَ عَلَيْهِ السَّلَامُ."
+      ],
+      "usage_note_ar": "يُحَافَظُ عَلَى «إِسْرَائِيلَ» بِالْفَتْحَةِ فِي مَوْضِعِ الْجَرِّ فِي تَرْكِيبِ «بَنُو إِسْرَائِيلَ» لِأَنَّهُ اسْمٌ أَعْجَمِيٌّ مَمْنُوعٌ مِنَ الصَّرْفِ؛ وَلَا يُجْعَلُ اسْمُ الْعَلَمِ مَرَادِفًا لِاسْمِ الْبَلَدِ فِي كُلِّ سِيَاقٍ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 16,
+        "printed_page": 12,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab",
+        "printed_headword": "إِسْرَائِيل"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 16,
+        "printed_page": 12,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading",
+        "editorial_case_ending_not_printed": true
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_013",
+      "arabic": "أَسِرَّةٌ",
+      "meaning_ar": "جَمْعُ «سَرِيرٍ»، وَهُوَ مَا يُهَيَّأُ لِنَوْمِ الْإِنْسَانِ أَوِ اضْطِجَاعِهِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "جَمْعُ تَكْسِيرٍ لِـ«سَرِيرٍ»، وَجَذْرُهُ: س ـ ر ـ ر.",
+        "مِنْ جُمُوعِ «سَرِيرٍ» أَيْضًا «سُرُرٌ»، وَيُعَامَلُ الْجَمْعُ غَيْرُ الْعَاقِلِ فِي الْوَصْفِ مُعَامَلَةَ الْمُفْرَدِ الْمُؤَنَّثِ."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَسِرَّةُ الْمَرْضَى",
+        "أَسِرَّةٌ مُرِيحَةٌ"
+      ],
+      "examples_ar": [
+        "فِي الْغُرْفَةِ أَسِرَّةٌ مُرِيحَةٌ.",
+        "رَتَّبَ الْعَامِلُونَ أَسِرَّةَ الْمَرْضَى فِي الْمُسْتَشْفَى."
+      ],
+      "usage_note_ar": "«أَسِرَّةٌ» جَمْعُ «سَرِيرٍ»، وَلَا تُخْلَطُ بِـ«أُسَرٍ» جَمْعِ «أُسْرَةٍ»؛ فَالْفَرْقُ فِي الْحُرُوفِ وَالضَّبْطِ يُغَيِّرُ الدَّلَالَةَ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/سرر"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_014",
+      "arabic": "أَسْرَعُ",
+      "meaning_ar": "أَكْثَرُ سُرْعَةً مِنْ غَيْرِهِ، أَوْ أَقَلُّ اسْتِغْرَاقًا لِلْوَقْتِ.",
+      "additional_meanings_ar": [],
+      "grammar": [
+        "اسْمُ تَفْضِيلٍ عَلَى وَزْنِ «أَفْعَلُ»، وَجَذْرُهُ: س ـ ر ـ ع.",
+        "يُسْتَعْمَلُ مَعَ «مِنْ» لِلْمُقَارَنَةِ؛ وَهُوَ غَيْرُ الْفِعْلِ الْمَاضِي «أَسْرَعَ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "أَسْرَعُ مِنَ السَّيَّارَةِ",
+        "الطَّرِيقُ الْأَسْرَعُ"
+      ],
+      "examples_ar": [
+        "الْقِطَارُ أَسْرَعُ مِنَ الدَّرَّاجَةِ.",
+        "هَذَا الطَّرِيقُ أَسْرَعُ مِنْ ذَاكَ."
+      ],
+      "usage_note_ar": "«أَسْرَعُ» اسْمُ تَفْضِيلٍ آخِرُهُ ضَمَّةٌ فِي الرَّفْعِ، وَ«أَسْرَعَ» فِعْلٌ مَاضٍ آخِرُهُ فَتْحَةٌ؛ وَلَا تُجْمَعُ مَعْلُومَاتُهُمَا فِي بَابٍ صَرْفِيٍّ وَاحِدٍ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/سرع"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    },
+    {
+      "id": "bayna_print09_13_restored_20261119_015",
+      "arabic": "إِسْكَافٌ",
+      "meaning_ar": "شَخْصٌ يَصْنَعُ الْأَحْذِيَةَ أَوْ يُصْلِحُهَا.",
+      "additional_meanings_ar": [
+        "وَقَدْ يُسْتَعْمَلُ اللَّفْظُ لِمَنْ يَعْمَلُ فِي صِنَاعَةِ الْجِلْدِ."
+      ],
+      "grammar": [
+        "اسْمٌ مُذَكَّرٌ لِصَاحِبِ مِهْنَةٍ، وَجَمْعُهُ «أَسَاكِفَةٌ».",
+        "يَدُلُّ عَلَى مَنْ يَصْنَعُ الْحِذَاءَ أَوْ يُرَمِّمُهُ، وَلَيْسَ مَصْدَرًا مِنَ الْفِعْلِ «أَسْكَنَ»."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "عَمَلُ الْإِسْكَافِ",
+        "وَرْشَةُ الْإِسْكَافِ"
+      ],
+      "examples_ar": [
+        "أَصْلَحَ الْإِسْكَافُ حِذَاءَ الطِّفْلِ.",
+        "يَصْنَعُ الْإِسْكَافُ أَحْذِيَةً مِنَ الْجِلْدِ."
+      ],
+      "usage_note_ar": "«إِسْكَافٌ» اسْمُ مِهْنَةٍ، وَهُوَ مُخْتَلِفٌ عَنْ «إِسْكَانٍ» الْمَصْدَرِ الَّذِي يَدُلُّ عَلَى تَوْفِيرِ الْمَسْكَنِ؛ وَقَدْ سُوِّيَتْ خَطَأً بَيْنَهُمَا نِسْبَةُ الْمَصْدَرِ فِي اسْتِيرَادٍ أَقْدَمَ.",
+      "book_references": [],
+      "sources": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/سكف"
+      ],
+      "source_group": "original_printed_bayna_pages09_13_restored_editorial",
+      "source_provenance": {
+        "source": "المعجم العربي بين يديك",
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "text_status": "source_headword_and_short_sense_visually_checked_authored_examples_pending_independent_i3rab"
+      },
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 17,
+        "printed_page": 13,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-19",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "printed_headword_and_short_sense_only_extended_grammar_and_examples_require_independent_proofreading"
+      }
+    }
+  ]
+}
