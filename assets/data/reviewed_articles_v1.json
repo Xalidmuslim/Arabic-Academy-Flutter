@@ -20900,11 +20900,14 @@
       "examples": [
         {
           "ar": "قَدَّمَتِ الْجَمْعِيَّةُ إِعَانَةً لِلْمُحْتَاجِينَ."
+        },
+        {
+          "ar": "قَدَّمَتِ الْجَمْعِيَّةُ إِعَانَةً لِلْأُسَرِ الْمُحْتَاجَةِ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِعَانَةٌ» مَصْدَرُ «أَعَانَ»، وَتَدُلُّ عَلَى الْمُسَاعَدَةِ؛ وَقَدْ تَكُونُ الْإِعَانَةُ بِالْمَالِ أَوِ الْعَمَلِ."
         }
       ],
       "source_urls": [
@@ -20918,11 +20921,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْبَاءٌ",
@@ -20941,11 +20945,14 @@
       "examples": [
         {
           "ar": "تَزْدَادُ الْأَعْبَاءُ بِكَثْرَةِ الْمَهَامِّ."
+        },
+        {
+          "ar": "يَتَحَمَّلُ الْأَبُ أَعْبَاءَ الْأُسْرَةِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْبَاءٌ» جَمْعُ «عِبْءٍ»، وَيُسْتَعْمَلُ لِلْأَحْمَالِ الثَّقِيلَةِ وَالْمَسْؤُولِيَّاتِ الْمُرْهِقَةِ."
         }
       ],
       "source_urls": [
@@ -20959,11 +20966,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "اِعْتَزَلَ",
@@ -20982,9 +20990,15 @@
       "examples": [
         {
           "ar": "اِعْتَزَلَ الرَّجُلُ الْجَمَاعَةَ."
+        },
+        {
+          "ar": "اِعْتَزَلَ الرَّجُلُ الْجَمَاعَةَ وَآثَرَ الْهُدُوءَ."
         }
       ],
       "important": [
+        {
+          "ar": "«اِعْتَزَلَ» فِعْلٌ خُمَاسِيٌّ هَمْزَتُهُ لِلْوَصْلِ، وَقَدْ يَتَعَدَّى إِلَى مَا يَتْرُكُهُ الْإِنْسَانُ."
+        },
         {
           "ar": "«اِعْتَزَلَ» فِعْلٌ خُمَاسِيٌّ عَلَى وَزْنِ «اِفْتَعَلَ»، وَهَمْزَتُهُ هَمْزَةُ وَصْلٍ؛ وَيُقَالُ: اِعْتَزَلَ الْجَمَاعَةَ."
         }
@@ -21000,11 +21014,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْتَقَ",
@@ -21023,9 +21038,15 @@
       "examples": [
         {
           "ar": "أَعْتَقَ الرَّجُلُ مَمْلُوكًا."
+        },
+        {
+          "ar": "أَعْتَقَ الرَّجُلُ الْمَمْلُوكَ فِي زَمَنٍ مَضَى."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعْتَقَ» يَدُلُّ عَلَى تَحْرِيرِ الْمَمْلُوكِ مِنَ الرِّقِّ، وَهُوَ فِعْلٌ مُتَعَدٍّ يَأْخُذُ مَفْعُولًا بِهِ."
+        },
         {
           "ar": "يُقَالُ: أَعْتَقَ الْمَمْلُوكَ مِنَ الرِّقِّ؛ فَالْفِعْلُ مُتَعَدٍّ، وَمَصْدَرُهُ «إِعْتَاقٌ»."
         }
@@ -21041,11 +21062,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِعْجَازٌ",
@@ -21064,11 +21086,14 @@
       "examples": [
         {
           "ar": "يُدْرَسُ الْإِعْجَازُ فِي بَحْثِ الْبَلَاغَةِ."
+        },
+        {
+          "ar": "يَدْرُسُ الْبَاحِثُ مَسْأَلَةَ الْإِعْجَازِ فِي الْبَلَاغَةِ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِعْجَازٌ» مَصْدَرُ «أَعْجَزَ»، وَمَعْنَاهُ إِظْهَارُ عَجْزِ الْغَيْرِ، أَمَّا «إِعْجَازُ الْقُرْآنِ» فَتَرْكِيبٌ اصْطِلَاحِيٌّ مُخَصَّصٌ."
         }
       ],
       "source_urls": [
@@ -21082,11 +21107,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِعْجَازُ الْقُرْآنِ",
@@ -21105,11 +21131,14 @@
       "examples": [
         {
           "ar": "تَنَاوَلَ الْبَاحِثُ إِعْجَازَ الْقُرْآنِ فِي دَرْسِهِ."
+        },
+        {
+          "ar": "يَدْرُسُ الْعُلَمَاءُ وُجُوهَ إِعْجَازِ الْقُرْآنِ."
         }
       ],
       "important": [
         {
-          "ar": "يُحَدِّدُ السِّيَاقُ الْمَعْنَى الْمَقْصُودَ، وَيَجِبُ مُرَاعَاةُ ضَبْطِ الْكَلِمَةِ."
+          "ar": "«إِعْجَازُ الْقُرْآنِ» تَرْكِيبٌ إِضَافِيٌّ اصْطِلَاحِيٌّ يَدُلُّ عَلَى عَجْزِ الْخَلْقِ عَنْ مُعَارَضَتِهِ وَالْإِتْيَانِ بِمِثْلِهِ."
         }
       ],
       "source_urls": [
@@ -21123,11 +21152,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْجَبَ",
@@ -21146,9 +21176,15 @@
       "examples": [
         {
           "ar": "أَعْجَبَنِي هَذَا الْكِتَابُ."
+        },
+        {
+          "ar": "أَعْجَبَنِي أُسْلُوبُ الْكَاتِبِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعْجَبَنِي الْكِتَابُ» تَرْكِيبٌ يَكُونُ فِيهِ «الْكِتَابُ» فَاعِلًا وَيَاءُ الْمُتَكَلِّمِ مَفْعُولًا بِهِ."
+        },
         {
           "ar": "فِي «أَعْجَبَنِي هَذَا الْكِتَابُ» «هَذَا» اسْمُ إِشَارَةٍ فِي مَحَلِّ رَفْعِ فَاعِلٍ، وَ«الْكِتَابُ» بَدَلٌ مَرْفُوعٌ، وَيَاءُ الْمُتَكَلِّمِ مَفْعُولٌ بِهِ."
         }
@@ -21164,11 +21200,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْجَزَ",
@@ -21187,9 +21224,15 @@
       "examples": [
         {
           "ar": "أَعْجَزَ السُّؤَالُ بَعْضَ الطُّلَّابِ."
+        },
+        {
+          "ar": "أَعْجَزَ الْمَرَضُ الرَّجُلَ عَنِ السَّفَرِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعْجَزَ فُلَانًا عَنْ شَيْءٍ» يَعْنِي جَعَلَهُ غَيْرَ قَادِرٍ عَلَيْهِ؛ وَيُسْتَعْمَلُ حَرْفُ الْجَرِّ «عَنْ» لِبَيَانِ الْأَمْرِ."
+        },
         {
           "ar": "يُقَالُ: أَعْجَزَ السُّؤَالُ الطَّالِبَ عَنِ الْإِجَابَةِ؛ فَـ«الطَّالِبَ» مَفْعُولٌ بِهِ، وَ«عَنِ الْإِجَابَةِ» تُبَيِّنُ مَا عَجَزَ عَنْهُ."
         }
@@ -21205,11 +21248,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْجَمِيٌّ",
@@ -21228,11 +21272,14 @@
       "examples": [
         {
           "ar": "يَتَعَلَّمُ الطَّالِبُ الْأَعْجَمِيُّ الْعَرَبِيَّةَ."
+        },
+        {
+          "ar": "يَتَعَلَّمُ طَالِبٌ أَعْجَمِيٌّ اللُّغَةَ الْعَرَبِيَّةَ."
         }
       ],
       "important": [
         {
-          "ar": "يُحَدِّدُ السِّيَاقُ الْمَعْنَى الْمَقْصُودَ، وَيَجِبُ مُرَاعَاةُ ضَبْطِ الْكَلِمَةِ."
+          "ar": "«أَعْجَمِيٌّ» يُسْتَعْمَلُ لِمَنْ لَيْسَ عَرَبِيًّا أَوْ لِمَا لَيْسَ بِعَرَبِيٍّ، وَلَا يُسَاوِي «أَعْرَابِيًّا» سَاكِنَ الْبَادِيَةِ."
         }
       ],
       "source_urls": [
@@ -21246,11 +21293,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعَدَّ",
@@ -21273,9 +21321,15 @@
       "examples": [
         {
           "ar": "أَعَدَّتِ الْأُمُّ الطَّعَامَ."
+        },
+        {
+          "ar": "أَعَدَّ الْبَاحِثُ مَقَالًا لِلنَّشْرِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعَدَّ» فِعْلٌ مُضَعَّفٌ يَدُلُّ عَلَى التَّهْيِئَةِ وَالتَّجْهِيزِ، وَمَصْدَرُهُ «إِعْدَادٌ»."
+        },
         {
           "ar": "«أَعَدَّ الطَّعَامَ» يَدُلُّ عَلَى التَّجْهِيزِ، وَيُقَالُ أَيْضًا: أَعَدَّ نَفْسَهُ لِلِامْتِحَانِ؛ فَيَتَحَدَّدُ الْغَرَضُ بِالسِّيَاقِ."
         }
@@ -21291,11 +21345,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْدَاءٌ",
@@ -21314,11 +21369,14 @@
       "examples": [
         {
           "ar": "تَصَالَحَ الْأَعْدَاءُ بَعْدَ الْخِلَافِ."
+        },
+        {
+          "ar": "سَعَى الرَّجُلُ إِلَى الصُّلْحِ مَعَ أَعْدَائِهِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْدَاءٌ» جَمْعُ «عَدُوٍّ»، وَتَدُلُّ عَلَى وُجُودِ الْعَدَاوَةِ، وَلَا تَدُلُّ عَلَى مُجَرَّدِ اخْتِلَافِ الرَّأْيِ."
         }
       ],
       "source_urls": [
@@ -21332,11 +21390,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْدَادٌ",
@@ -21355,11 +21414,14 @@
       "examples": [
         {
           "ar": "تَعَلَّمَ الطِّفْلُ الْأَعْدَادَ."
+        },
+        {
+          "ar": "كَتَبَ الْمُعَلِّمُ أَعْدَادًا عَلَى السَّبُّورَةِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْدَادٌ» جَمْعُ «عَدَدٍ»، وَهِيَ غَيْرُ «إِعْدَادٍ» الْمَصْدَرِ مِنْ «أَعَدَّ»؛ وَيَظْهَرُ الْفَرْقُ فِي الْهَمْزَةِ وَالضَّبْطِ."
         }
       ],
       "source_urls": [
@@ -21375,11 +21437,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِعْدَادٌ",
@@ -21398,11 +21461,14 @@
       "examples": [
         {
           "ar": "يَحْتَاجُ إِعْدَادُ الدَّرْسِ إِلَى وَقْتٍ."
+        },
+        {
+          "ar": "بَدَأَ الْفَرِيقُ إِعْدَادَ الْخُطَّةِ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِعْدَادٌ» مَصْدَرُ «أَعَدَّ»، وَيَدُلُّ عَلَى التَّحْضِيرِ، وَلَا يُخْلَطُ بِـ«أَعْدَادٍ» جَمْعِ «عَدَدٍ»."
         }
       ],
       "source_urls": [
@@ -21416,11 +21482,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْدَى",
@@ -21439,9 +21506,15 @@
       "examples": [
         {
           "ar": "أَعْدَى الْمَرَضُ بَعْضَ الْمُخَالِطِينَ."
+        },
+        {
+          "ar": "أَعْدَى الْمَرِيضُ شَخْصًا آخَرَ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعْدَى» يَدُلُّ عَلَى نَقْلِ الْعَدْوَى إِلَى الْغَيْرِ، وَمُضَارِعُهُ «يُعْدِي»، وَهُوَ فِعْلٌ مُعْتَلُّ الْآخِرِ."
+        },
         {
           "ar": "يُقَالُ: أَعْدَى الْمَرَضُ شَخْصًا آخَرَ؛ فَالْفِعْلُ مُتَعَدٍّ، وَ«الْعَدْوَى» اسْمٌ لِانْتِقَالِ الْمَرَضِ."
         }
@@ -21457,11 +21530,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْذَارٌ",
@@ -21480,11 +21554,14 @@
       "examples": [
         {
           "ar": "قَدَّمَ الطَّالِبُ أَعْذَارًا لِتَأَخُّرِهِ."
+        },
+        {
+          "ar": "قَدَّمَ الْمُوَظَّفُ أَعْذَارًا لِتَأَخُّرِهِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْذَارٌ» جَمْعُ «عُذْرٍ»، وَالْعُذْرُ سَبَبٌ يُذْكَرُ لِتَفْسِيرِ الْفِعْلِ أَوِ التَّرْكِ."
         }
       ],
       "source_urls": [
@@ -21498,11 +21575,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْنَاقٌ",
@@ -21521,11 +21599,14 @@
       "examples": [
         {
           "ar": "حَمَلَ الرِّجَالُ الْحِبَالَ عَلَى أَعْنَاقِهِمْ."
+        },
+        {
+          "ar": "مَدَّتِ الطُّيُورُ أَعْنَاقَهَا نَحْوَ الْمَاءِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْنَاقٌ» جَمْعُ «عُنُقٍ»، وَالْعُنُقُ يَصِلُ الرَّأْسَ بِالْجِسْمِ؛ وَيَتَعَلَّقُ الْمَعْنَى بِالْجِسْمِ فِي هَذَا السِّيَاقِ."
         }
       ],
       "source_urls": [
@@ -21539,11 +21620,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْرَابٌ",
@@ -21562,11 +21644,14 @@
       "examples": [
         {
           "ar": "كَانَ الْأَعْرَابُ يَنْتَقِلُونَ بَيْنَ مَوَاقِعِ الْمَاءِ."
+        },
+        {
+          "ar": "سَكَنَ بَعْضُ الْأَعْرَابِ فِي الصَّحْرَاءِ."
         }
       ],
       "important": [
         {
-          "ar": "يُحَدِّدُ السِّيَاقُ الْمَعْنَى الْمَقْصُودَ، وَيَجِبُ مُرَاعَاةُ ضَبْطِ الْكَلِمَةِ."
+          "ar": "«أَعْرَابٌ» يَدُلُّ عَلَى سُكَّانِ الْبَادِيَةِ مِنَ الْعَرَبِ، وَلَا يَشْمَلُ كُلَّ الْعَرَبِ فِي الْمُدُنِ وَالْقُرَى."
         }
       ],
       "source_urls": [
@@ -21580,11 +21665,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْرَابِيٌّ",
@@ -21603,9 +21689,15 @@
       "examples": [
         {
           "ar": "وَصَلَ أَعْرَابِيٌّ إِلَى الْمَدِينَةِ."
+        },
+        {
+          "ar": "تَحَدَّثَ رَاوٍ أَعْرَابِيٌّ عَنْ حَيَاةِ الْبَادِيَةِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعْرَابِيٌّ» مَنْسُوبٌ إِلَى «الْأَعْرَابِ»، وَهُوَ غَيْرُ «أَعْجَمِيٍّ» الَّذِي لَا يُنْسَبُ إِلَى الْعَرَبِ."
+        },
         {
           "ar": "«أَعْرَابِيٌّ» اسْمٌ مُفْرَدٌ، وَالْجَمْعُ: أَعْرَابٌ."
         }
@@ -21621,11 +21713,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْرَاسٌ",
@@ -21644,11 +21737,14 @@
       "examples": [
         {
           "ar": "يَجْتَمِعُ الْأَقَارِبُ فِي الْأَعْرَاسِ."
+        },
+        {
+          "ar": "أُقِيمَتْ أَعْرَاسٌ فِي الْقَرْيَةِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْرَاسٌ» جَمْعُ «عُرْسٍ»، وَيُقْصَدُ بِهَا مُنَاسَبَاتُ الزَّوَاجِ وَمَا يَرْتَبِطُ بِهَا مِنَ الِاحْتِفَالِ."
         }
       ],
       "source_urls": [
@@ -21662,11 +21758,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْرَاضٌ",
@@ -21697,9 +21794,15 @@
         },
         {
           "ar": "صَانَ النَّاسُ أَعْرَاضَهُمْ مِنَ الْأَذَى."
+        },
+        {
+          "ar": "لَا يَجُوزُ الِاعْتِدَاءُ عَلَى أَعْرَاضِ النَّاسِ."
         }
       ],
       "important": [
+        {
+          "ar": "تَتَّحِدُ «أَعْرَاضٌ» فِي صِيغَةِ الْجَمْعِ، وَلَكِنَّهَا جَمْعُ «عَرَضٍ» لِعَلَامَةِ الْمَرَضِ وَجَمْعُ «عِرْضٍ» لِلشَّرَفِ؛ وَقَدْ وَرَدَ الْمَعْنَيَانِ فِي مَدْخَلَيْنِ مُتَجَاوِرَيْنِ فِي الْمَطْبُوعِ."
+        },
         {
           "ar": "تَتَّفِقُ صِيغَةُ الْجَمْعِ أَعْرَاضٌ فِي رَسْمِهَا مَعَ اخْتِلَافِ الْمُفْرَدِ: عَرَضٌ لِلْعَلَامَةِ، وَعِرْضٌ لِلشَّرَفِ."
         }
@@ -21715,11 +21818,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِعْرَاضٌ",
@@ -21738,11 +21842,14 @@
       "examples": [
         {
           "ar": "إِعْرَاضُ الطَّالِبِ عَنِ الدَّرْسِ يُضْعِفُ نَجَاحَهُ."
+        },
+        {
+          "ar": "أَدَّى الْإِعْرَاضُ عَنِ النَّصِيحَةِ إِلَى تَكْرَارِ الْخَطَإِ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "«إِعْرَاضٌ» مَصْدَرُ «أَعْرَضَ عَنْ»، وَهُوَ صَرْفُ الْوَجْهِ أَوِ الِاهْتِمَامِ، وَلَيْسَ جَمْعَ «عَرَضٍ»."
         }
       ],
       "source_urls": [
@@ -21756,11 +21863,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْرَاقٌ",
@@ -21779,11 +21887,14 @@
       "examples": [
         {
           "ar": "يَنْتَمِي النَّاسُ إِلَى أَعْرَاقٍ مُخْتَلِفَةٍ."
+        },
+        {
+          "ar": "تَخْتَلِفُ أَعْرَاقُ النَّاسِ وَأَلْسِنَتُهُمْ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْرَاقٌ» جَمْعُ «عِرْقٍ»، وَقَدْ يُرَادُ بِهَا الْأَنْسَابُ وَالْأُصُولُ أَوْ عُرُوقُ الْجِسْمِ بِحَسَبِ الْمَقَامِ."
         }
       ],
       "source_urls": [
@@ -21797,11 +21908,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْرَبَ",
@@ -21820,9 +21932,15 @@
       "examples": [
         {
           "ar": "أَعْرَبَ الطَّالِبُ الْجُمْلَةَ."
+        },
+        {
+          "ar": "أَعْرَبَ الطَّالِبُ الْجُمْلَةَ إِعْرَابًا صَحِيحًا."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعْرَبَ الْجُمْلَةَ» يَعْنِي بَيَّنَ وَظَائِفَ كَلِمَاتِهَا، وَ«أَعْرَبَ عَنْ رَأْيِهِ» يَعْنِي أَفْصَحَ عَنْهُ."
+        },
         {
           "ar": "«أَعْرَبَ الطَّالِبُ الْجُمْلَةَ» يَعْنِي بَيَّنَ وَظَائِفَ كَلِمَاتِهَا، أَمَّا «أَعْرَبَ عَنْ رَأْيِهِ» فَيَعْنِي أَفْصَحَ عَنْهُ."
         }
@@ -21838,11 +21956,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْرَسَ",
@@ -21861,9 +21980,15 @@
       "examples": [
         {
           "ar": "أَعْرَسَ الشَّابُّ فِي الصَّيْفِ."
+        },
+        {
+          "ar": "أَعْرَسَ الشَّابُّ بَعْدَ تَجْهِيزِ الْبَيْتِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعْرَسَ» يَعْنِي تَزَوَّجَ أَوْ أَقَامَ عُرْسًا، وَمَصْدَرُهُ «إِعْرَاسٌ»، وَهُوَ غَيْرُ «أَعْرَبَ»."
+        },
         {
           "ar": "يُقَالُ: أَعْرَسَ الشَّابُّ، أَيْ تَزَوَّجَ أَوْ أَقَامَ عُرْسًا؛ وَالْفِعْلُ لَازِمٌ فِي هَذَا الْمِثَالِ."
         }
@@ -21879,11 +22004,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْرَضَ",
@@ -21902,9 +22028,15 @@
       "examples": [
         {
           "ar": "أَعْرَضَ الرَّجُلُ عَنِ الْخِلَافِ."
+        },
+        {
+          "ar": "أَعْرَضَ الْفَتَى عَنِ الْجِدَالِ."
         }
       ],
       "important": [
+        {
+          "ar": "«أَعْرَضَ عَنْ» تَدُلُّ عَلَى تَرْكِ الشَّيْءِ وَصَرْفِ الِاهْتِمَامِ عَنْهُ، وَحَرْفُ الْجَرِّ «عَنْ» جُزْءٌ مُهِمٌّ مِنَ التَّرْكِيبِ."
+        },
         {
           "ar": "يُقَالُ: أَعْرَضَ عَنِ الْخِلَافِ أَوْ عَنِ الْجِدَالِ؛ فَحَرْفُ الْجَرِّ «عَنْ» يَدُلُّ عَلَى الْأَمْرِ الَّذِي صَرَفَ عَنْهُ اهْتِمَامَهُ."
         }
@@ -21920,11 +22052,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعَزُّ",
@@ -21943,11 +22076,14 @@
       "examples": [
         {
           "ar": "الْعِلْمُ أَعَزُّ مِنَ الْجَهْلِ."
+        },
+        {
+          "ar": "الْأَمَانَةُ أَعَزُّ مِنَ الْمَالِ عِنْدَ الصَّادِقِ."
         }
       ],
       "important": [
         {
-          "ar": "يُسْتَعْمَلُ اسْمُ التَّفْضِيلِ لِلْمُقَارَنَةِ، وَيَأْتِي مَعَ «مِنْ» فِي كَثِيرٍ مِنَ الْجُمَلِ."
+          "ar": "«أَعَزُّ» اسْمُ تَفْضِيلٍ يَدُلُّ عَلَى زِيَادَةِ الْعِزَّةِ أَوِ الْقِيمَةِ، وَيَخْتَلِفُ عَنْ «عَزِيزٍ» الَّذِي لَا يَشْتَرِطُ مُفَاضَلَةً."
         }
       ],
       "source_urls": [
@@ -21961,11 +22097,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْشَابٌ",
@@ -21984,11 +22121,14 @@
       "examples": [
         {
           "ar": "نَمَتِ الْأَعْشَابُ بَعْدَ الْمَطَرِ."
+        },
+        {
+          "ar": "جَمَعَ الْبَاحِثُ أَعْشَابًا مِنَ الْحَقْلِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْشَابٌ» جَمْعُ «عُشْبٍ»، وَيَدُلُّ عَلَى النَّبَاتَاتِ الصَّغِيرَةِ وَالنَّبَاتَاتِ اللَّيِّنَةِ."
         }
       ],
       "source_urls": [
@@ -22002,11 +22142,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْشَاشٌ",
@@ -22025,11 +22166,14 @@
       "examples": [
         {
           "ar": "بَنَتِ الطُّيُورُ أَعْشَاشًا فَوْقَ الْأَشْجَارِ."
+        },
+        {
+          "ar": "بَنَتِ الطُّيُورُ أَعْشَاشَهَا فَوْقَ الْأَغْصَانِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْشَاشٌ» جَمْعُ «عُشٍّ»، وَالْعُشُّ مَأْوًى تَبْنِيهِ الطُّيُورُ لِلْبَيْضِ وَالصِّغَارِ."
         }
       ],
       "source_urls": [
@@ -22043,11 +22187,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْصَابٌ",
@@ -22066,11 +22211,14 @@
       "examples": [
         {
           "ar": "تَنْقُلُ الْأَعْصَابُ الْإِحْسَاسَ."
+        },
+        {
+          "ar": "تَنْقُلُ الْأَعْصَابُ إِشَارَاتٍ بَيْنَ أَجْزَاءِ الْجِسْمِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْصَابٌ» جَمْعُ «عَصَبٍ»، وَتَدُلُّ هُنَا عَلَى أَجْزَاءٍ مِنَ الْجِهَازِ الْعَصَبِيِّ، لَا عَلَى مُجَرَّدِ الْغَضَبِ."
         }
       ],
       "source_urls": [
@@ -22084,11 +22232,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "إِعْصَارٌ",
@@ -22107,9 +22256,15 @@
       "examples": [
         {
           "ar": "اقْتَرَبَ إِعْصَارٌ مِنَ السَّاحِلِ."
+        },
+        {
+          "ar": "ضَرَبَ إِعْصَارٌ السَّاحِلَ وَأَتْلَفَ الْأَشْجَارَ."
         }
       ],
       "important": [
+        {
+          "ar": "«إِعْصَارٌ» رِيحٌ شَدِيدَةٌ دَوَّارَةٌ، وَجَمْعُهُ «أَعَاصِيرُ»، فَلَا يُسَمَّى كُلُّ هُبُوبِ رِيحٍ إِعْصَارًا."
+        },
         {
           "ar": "«إِعْصَارٌ» اسْمٌ مُفْرَدٌ، وَالْجَمْعُ: أَعَاصِيرُ."
         }
@@ -22125,11 +22280,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْضَاءٌ",
@@ -22148,11 +22304,14 @@
       "examples": [
         {
           "ar": "حَضَرَ أَعْضَاءُ الْفَرِيقِ الِاجْتِمَاعَ."
+        },
+        {
+          "ar": "حَضَرَ أَعْضَاءُ الْفَرِيقِ إِلَى الِاجْتِمَاعِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَعْضَاءٌ» جَمْعُ «عُضْوٍ»، وَيُسْتَعْمَلُ لِأَجْزَاءِ الْجِسْمِ وَلِلْمُنْتَسِبِينَ إِلَى جَمَاعَةٍ."
         }
       ],
       "source_urls": [
@@ -22166,11 +22325,12 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 23,
         "printed_page": 19,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-19",
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
-      }
+        "evidence_scope": "printed_headword_and_core_gloss_checked; distinct singulars for أعراض confirmed; authored examples_not_yet_independently_proofread"
+      },
+      "editorial_batch": "2026-11-19-original-printed-pages15-19-137-editorial"
     },
     {
       "arabic": "أَعْطَى",
