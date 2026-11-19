@@ -8156,16 +8156,18 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 13,
         "printed_page": 9,
-        "text_status": "source_sense_checked_arabic_article_independently_worded"
+        "text_status": "unmatched_printed_lemma_source_page_13_relocation_required"
       },
       "visual_verification": {
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 13,
         "printed_page": 9,
-        "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
+        "status": "source_headword_mismatch_requires_relocation",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "checked_on": "2026-11-14",
-        "evidence_scope": "lexeme_headword_and_visible_harakat_only_no_pedagogical_paragraph_certification"
+        "checked_on": "2026-11-19",
+        "evidence_scope": "source_headword_mismatch_only; independently_authored_examples_not_certified",
+        "printed_headword": "أَرْبَع",
+        "note": "فِي الصَّفْحَةِ الْمَطْبُوعَةِ التَّاسِعَةِ وَرَدَ «أَرْبَع»، لَا «أَرْبَعَةٌ». تُحْفَظُ الْمَادَّةُ الْقَدِيمَةُ وَمُعَرِّفُهَا، وَلَا تُنْسَبُ إِلَى هَذِهِ الصَّفْحَةِ حَتَّى يُصَحَّحَ مَوْضِعُهَا."
       }
     },
     {
@@ -11134,16 +11136,18 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 16,
         "printed_page": 12,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "unmatched_printed_lemma_source_page_16_relocation_required"
       },
       "visual_verification": {
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 16,
         "printed_page": 12,
-        "status": "print_headword_and_visible_vowels_compared_examples_unchecked",
+        "status": "source_headword_mismatch_requires_relocation",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "checked_on": "2026-11-14",
-        "evidence_scope": "printed_lemma_spelling_and_visible_harakat_only_not_independently_created_sentences"
+        "checked_on": "2026-11-19",
+        "evidence_scope": "source_headword_mismatch_only; independently_authored_examples_not_certified",
+        "printed_headword": "أُسَر",
+        "note": "فِي الصَّفْحَةِ الْمَطْبُوعَةِ الثَّانِيَةِ عَشْرَةَ وَرَدَ «أُسَر» جَمْعَ «أُسْرَةٍ»، وَلَيْسَ «أَسْرٌ» بِمَعْنَى الْحَبْسِ؛ فَالْكَلِمَتَانِ مُخْتَلِفَتَانِ، وَيَجِبُ حِفْظُ الْمَادَّةِ الْقَدِيمَةِ وَمُعَرِّفِهَا."
       }
     },
     {
@@ -11738,16 +11742,18 @@
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 17,
         "printed_page": 13,
-        "text_status": "arabic_first_pass_page_inspected_pending_independent_proofread"
+        "text_status": "unmatched_printed_lemma_source_page_17_relocation_required"
       },
       "visual_verification": {
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
         "pdf_page": 17,
         "printed_page": 13,
-        "status": "print_headword_and_visible_vowels_compared_examples_unchecked",
+        "status": "source_headword_mismatch_requires_relocation",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "checked_on": "2026-11-14",
-        "evidence_scope": "printed_lemma_spelling_and_visible_harakat_only_not_independently_created_sentences"
+        "checked_on": "2026-11-19",
+        "evidence_scope": "source_headword_mismatch_only; independently_authored_examples_not_certified",
+        "printed_headword": "إِسْكَاف",
+        "note": "فِي الصَّفْحَةِ الْمَطْبُوعَةِ الثَّالِثَةِ عَشْرَةَ وَرَدَ «إِسْكَافٌ» لِصَانِعِ الْأَحْذِيَةِ، لَا «إِسْكَانٌ» بِمَعْنَى تَوْفِيرِ الْمَسْكَنِ؛ وَتَبْقَى الْمَادَّةُ الْقَدِيمَةُ بِمُعَرِّفِهَا دُونَ نِسْبَتِهَا إِلَى هَذِهِ الصَّفْحَةِ."
       }
     },
     {
