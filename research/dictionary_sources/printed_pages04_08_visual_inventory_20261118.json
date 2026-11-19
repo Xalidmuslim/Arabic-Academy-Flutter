@@ -8,10 +8,13 @@
   "inventory_counts": {
     "scanned_pages": 5,
     "printed_headings": 123,
-    "already_present_in_scan_chunk": 112,
-    "missing_in_scan_chunk": 11
+    "already_present_in_scan_chunk": 111,
+    "missing_in_scan_chunk": 12,
+    "previous_scan_entries_assigned_to_these_pages": 112,
+    "existing_entry_with_disputed_source_link": 1
   },
   "notes": [
+    "2026-11-19 correction: PDF 8 printed headword أَجَّرَ (with shadda; يُؤَجِّرُ تَأْجِيرًا), NOT existing unaugmented أَجَرَ. Earlier inventory mistakenly counted one false match.",
     "PDF 8 (print 4): photographic labels name devices illustrating أَجْهِزَةٌ and are not individually counted as dictionary headers.",
     "PDF 9 (print 5): distinguishes أُحُدٌ (mountain proper name) from أَحَدٌ and آحَادٌ.",
     "PDF 11 (print 7): distinguishes participle آخِذٌ from verb أَخَذَ, and comparative أَخْطَرُ from plural أَخْطَارٌ.",
@@ -25,11 +28,11 @@
       "left_column": 5,
       "headings": [
         {
-          "headword": "أَجَرَ",
+          "headword": "أَجَّرَ",
           "column": "right",
           "order_in_column": 1,
-          "existing_scan_id": "bayna_scan_v1_047",
-          "source_match_status": "printed_headword_present_in_existing_scan_chunk"
+          "existing_scan_id": null,
+          "source_match_status": "printed_headword_missing_from_existing_scan_chunk"
         },
         {
           "headword": "أُجَرَاءُ",
@@ -919,5 +922,11 @@
         }
       ]
     }
-  ]
+  ],
+  "correction_2026_11_19": {
+    "incorrect_claim_in_original_inventory": "أَجَرَ (bayna_scan_v1_047) incorrectly treated as source heading on printed page 4",
+    "visually_confirmed_printed_form": "أَجَّرَ",
+    "evidence": "Printed PDF page 8 / print 4: red headword with shadda on ج and black imperfect يُؤَجِّرُ and masdar تَأْجِيرًا",
+    "preservation": "Keep historical ID أَجَرَ, invalidate claimed source position, add separate headword أَجَّرَ; original initial matching count now 111, not 112"
+  }
 }
