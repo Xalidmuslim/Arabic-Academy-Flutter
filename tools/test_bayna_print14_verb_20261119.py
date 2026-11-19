@@ -25,6 +25,24 @@ class PrintedPageFourteenCollation(unittest.TestCase):
         cls.manifest=json.loads((DATA/"corpus_manifest.json").read_text(encoding="utf-8"))["files"]
         cls.restored=json.loads((ROOT/VERB_FILE).read_text(encoding="utf-8"))["entries"]
         cls.review={nfc(x["arabic"]):x for x in json.loads((DATA/"reviewed_articles_v1.json").read_text(encoding="utf-8"))["entries"]}
+        cls.inventory=json.loads((ROOT/"research/dictionary_sources/printed_page14_visual_reconciliation_20261119.json").read_text(encoding="utf-8"))
+
+    def test_all_28_printed_heading_blocks_match_original_column_order(self):
+        r=self.inventory
+        self.assertEqual((r["pdf_page"],r["printed_page"]),(18,14))
+        self.assertEqual((r["right_column_count"],r["left_column_count"]),(16,12))
+        self.assertEqual(r["printed_headings_count"],28)
+        self.assertEqual((r["exact_old_scan_matches"],r["source_mismatch_count"]),(27,1))
+        self.assertEqual(len(r["headings"]),28)
+        self.assertEqual(len({nfc(x["headword"]) for x in r["headings"]}),28)
+        self.assertEqual([x["column"] for x in r["headings"]],["right"]*16+["left"]*12)
+        self.assertEqual([x["order_in_column"] for x in r["headings"][:16]],list(range(1,17)))
+        self.assertEqual([x["order_in_column"] for x in r["headings"][16:]],list(range(1,13)))
+        self.assertEqual(sum("old_scan_id_mismatched" in x for x in r["headings"]),1)
+        self.assertEqual(r["headings"][25]["headword"],"أَشْبَهَ")
+        self.assertEqual(r["headings"][25]["old_scan_id_mismatched"],"bayna_scan_v1_312")
+        self.assertEqual(r["scan_sha256"],SHA)
+        self.assertTrue(all(nfc(x["headword"])==x["headword"] for x in r["headings"]))
 
     def test_existing_comparative_keeps_its_id_and_rejects_false_source_page(self):
         old=next(x for x in self.scan if x["id"]=="bayna_scan_v1_312")
