@@ -16,6 +16,7 @@ SHA="a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
 COUNTS={16:29,17:22,18:28,19:30}
 OK_STATUS="print_headword_and_visible_vowels_compared_examples_unchecked"
 MISMATCH_STATUS="source_headword_mismatch_requires_relocation"
+OTHER_MISMATCHES={"أَسْرٌ": "أُسَر", "إِسْكَانٌ": "إِسْكَاف"}
 
 def canon(s):
     return unicodedata.normalize("NFC",s)
@@ -47,6 +48,11 @@ class OriginalPrintedPages12To15(unittest.TestCase):
                     self.assertEqual(proof["printed_headword"],"أَسْمَعُ")
                     self.assertIn("أَسْمَع",proof["note"])
                     self.assertEqual(e["source_provenance"]["text_status"],"unmatched_printed_lemma_source_page_17_relocation_required")
+                elif e["arabic"] in OTHER_MISMATCHES:
+                    self.assertEqual(proof["status"],MISMATCH_STATUS)
+                    self.assertEqual(canon(proof["printed_headword"]),canon(OTHER_MISMATCHES[e["arabic"]]))
+                    self.assertIn("unmatched_printed_lemma",e["source_provenance"]["text_status"])
+                    self.assertNotEqual(canon(e["arabic"]),canon(proof["printed_headword"]))
                 else:
                     self.assertEqual(proof["status"],OK_STATUS)
                 self.assertEqual(self.overlays[canon(e["arabic"])]["visual_verification"],proof)
