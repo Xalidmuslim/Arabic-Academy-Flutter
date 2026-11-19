@@ -123,7 +123,12 @@ class PrintPages16To19(unittest.TestCase):
                 for term in terms:
                     self.assertIn(term,meanings)
                     self.assertIn(term," ".join(v["ar"] for v in review["definition"]))
-                self.assertEqual(source["examples_ar"], [v["ar"] for v in review["examples"]])
+                # Preserve all prior source examples in order; new authored examples
+                # extend the reviewed overlay instead of rewriting the source corpus.
+                old_examples = source["examples_ar"]
+                new_examples = [v["ar"] for v in review["examples"]]
+                self.assertGreaterEqual(len(new_examples), len(old_examples))
+                self.assertEqual(old_examples, new_examples[:len(old_examples)])
 
     def test_original_aslah_two_headings_not_to_be_mixed(self):
         e = self.byword[norm("أَصْلَحَ")]
