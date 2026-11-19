@@ -1,0 +1,1327 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "source": "المعجم العربي بين يديك",
+  "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "scan_pdf_filename": "12383.pdf",
+  "source_inspection_method": "Five exact pages rendered at 2.75x and visually compared against all previously attributed headword blocks; page numbers verified in lower margin. No OCR accepted as proof of harakat.",
+  "pdf_range": [
+    19,
+    23
+  ],
+  "printed_range": [
+    15,
+    19
+  ],
+  "printed_slots_count": 138,
+  "distinct_vocalized_headwords_count": 137,
+  "existing_exact_scan_headwords_count": 135,
+  "existing_course_headwords_count": 1,
+  "new_distinct_lemma_count": 1,
+  "duplicate_printed_sense_blocks_count": 1,
+  "misattributed_source_ids": [
+    "bayna_scan_v1_378"
+  ],
+  "key_findings": [
+    "Print page16 / PDF20 gives two different أَصْلَح forms: اسم التفضيل أَصْلَحُ أكثر صلاحًا ومنفعةً and past verb أَصْلَحَ with two meanings. The comparative was absent from 89 registered corpus fragments; the verb exists and is retained.",
+    "Print page17 / PDF21 gives the noun أُضْحِيَّةٌ; scan-source record bayna_scan_v1_378 incorrectly attributes the distinct verb أَضْحَى. The noun already exists as l1u16_011, preserved unchanged.",
+    "Print page19 / PDF23 gives two أَعْرَاض records: plural of عَرَضٌ symptoms and plural of عِرْضٌ honor, both included under one stable vocalized lemma bayna_scan_v1_439 (no duplicate ID).",
+    "Print page15 / PDF19 gives verb أَشْهَرَ then plural أَشْهُرٌ then comparative أَشْهَرُ; historical IDs 337,336,335 had those three words in a different order. Source page was correct; only sequence differed.",
+    "Print page counts include printed headword BLOCKS; duplicate sense blocks must not inflate unique app headword count.",
+    "Original printed headword / short meaning proof is strictly separate from independently authored grammar, examples, and i3rab; no article is labeled fully certified solely from this inventory."
+  ],
+  "pages": [
+    {
+      "pdf_page": 19,
+      "printed_page": 15,
+      "printed_slots_count": 30,
+      "right_column_count": 15,
+      "left_column_count": 15,
+      "slots": [
+        {
+          "headword": "أَشْجَانٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_315",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشِحَّةٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_316",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْخَاصٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_317",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشَدُّ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_318",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشِدَّاءُ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_319",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشَّرَ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_320",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْرَافٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_321",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِشْرَافٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_322",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْرِطَةٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_323",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْرَفَ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_324",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْرَقَ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_325",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِشْعَالٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_326",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشِعَّةٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 13,
+          "corpus_id": "bayna_scan_v1_327",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْعَلَ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 14,
+          "corpus_id": "bayna_scan_v1_328",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْغَالٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "right",
+          "column_index": 15,
+          "corpus_id": "bayna_scan_v1_329",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْفَقَ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_330",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشِقَّاءُ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_331",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْكَالٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_332",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْمَلُ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_333",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْهَبُ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_334",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْهَرَ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_337",
+          "match_status": "original_scan_card_present",
+          "source_order_note": "two distinct forms; legacy numeric IDs reverse the actual source order: verb before noun and plural"
+        },
+        {
+          "headword": "أَشْهُرٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_336",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْهَرُ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_335",
+          "match_status": "original_scan_card_present",
+          "source_order_note": "two distinct forms; legacy numeric IDs reverse the actual source order: verb before noun and plural"
+        },
+        {
+          "headword": "أَشْوَاطٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_338",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْيَاءُ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_339",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَشْيَاعٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_340",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصَابَ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_341",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِصَابَةٌ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 13,
+          "corpus_id": "bayna_scan_v1_342",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصَابِعُ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 14,
+          "corpus_id": "bayna_scan_v1_343",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْبَحَ",
+          "pdf_page": 19,
+          "printed_page": 15,
+          "column": "left",
+          "column_index": 15,
+          "corpus_id": "bayna_scan_v1_344",
+          "match_status": "original_scan_card_present"
+        }
+      ]
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 16,
+      "printed_slots_count": 26,
+      "right_column_count": 12,
+      "left_column_count": 14,
+      "slots": [
+        {
+          "headword": "إِصْبَعٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_345",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصِحَّاءُ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_346",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْحَابٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_347",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْدَاءٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_348",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْدَرَ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_349",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْدَقُ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_350",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْدِقَاءُ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_351",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصَرَّ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_352",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِصْرَارٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_353",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْعَبُ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_354",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْغَرُ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_355",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْغَى",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "right",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_356",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْفَرُ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_357",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْلٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_358",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِصْلَاحٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_359",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْلَحُ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 4,
+          "corpus_id": "bayna_print15_19_restored_20261119_001",
+          "match_status": "printed_headword_absent_across_89_registered_json_chunks",
+          "printed_case_ending_status": "pedagogical_nominative_requires_independent_syntax_check"
+        },
+        {
+          "headword": "أَصْلَحَ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_360",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْلَعُ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_361",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْنَافٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_362",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْنَامٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_363",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْهَارٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_364",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْوَاتٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_365",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصْوَافٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_366",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أُصُولٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_367",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أُصُولِيٌّ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 13,
+          "corpus_id": "bayna_scan_v1_368",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَصِيلٌ",
+          "pdf_page": 20,
+          "printed_page": 16,
+          "column": "left",
+          "column_index": 14,
+          "corpus_id": "bayna_scan_v1_369",
+          "match_status": "original_scan_card_present"
+        }
+      ]
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 17,
+      "printed_slots_count": 28,
+      "right_column_count": 12,
+      "left_column_count": 16,
+      "slots": [
+        {
+          "headword": "أَضَاءَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_370",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِضَاءَةٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_371",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضَاعَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_372",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِضَاعَةٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_373",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضَافَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_374",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِضَافَةٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_375",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِضْحَاكٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_376",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضْحَكَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_377",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أُضْحِيَّةٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 9,
+          "corpus_id": "l1u16_011",
+          "match_status": "existing_registered_course_headword_scan_mismatch_id378_remains_detached"
+        },
+        {
+          "headword": "أَضْرَارٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_379",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضْرَبَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_380",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضْرَمَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "right",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_381",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضْعَافٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_382",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِضْعَافٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_383",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضْعَفَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_384",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضْغَانٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_385",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضْلَاعٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_386",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَضْنَى",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_387",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِطَارٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_388",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِطَارَاتٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_389",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطَاعَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_390",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطَاقَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_391",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطَالَ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_392",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطِبَّاءُ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_393",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْبَاقٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 13,
+          "corpus_id": "bayna_scan_v1_394",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْرَافٌ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 14,
+          "corpus_id": "bayna_scan_v1_395",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْرَشُ",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 15,
+          "corpus_id": "bayna_scan_v1_396",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْرَى",
+          "pdf_page": 21,
+          "printed_page": 17,
+          "column": "left",
+          "column_index": 16,
+          "corpus_id": "bayna_scan_v1_397",
+          "match_status": "original_scan_card_present"
+        }
+      ]
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 18,
+      "printed_slots_count": 22,
+      "right_column_count": 10,
+      "left_column_count": 12,
+      "slots": [
+        {
+          "headword": "أَطْعَمَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_398",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْعِمَةٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_399",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْفَأَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_400",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْفَالٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_401",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطَلَّ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_402",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِطْلَاقٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_403",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْلَالٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_404",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْلَسٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_405",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْلَعَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_406",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْلَقَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "right",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_407",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْنَابٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_408",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْنَبَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_409",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْهَرُ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_410",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْوَادٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_411",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَطْوَارٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_412",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَظَافِرُ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_413",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَظْلَافٌ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_414",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَظْلَمَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_415",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَظْهَرَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_416",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعَادَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_417",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعَارَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_418",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعَانَ",
+          "pdf_page": 22,
+          "printed_page": 18,
+          "column": "left",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_419",
+          "match_status": "original_scan_card_present"
+        }
+      ]
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 19,
+      "printed_slots_count": 32,
+      "right_column_count": 14,
+      "left_column_count": 18,
+      "slots": [
+        {
+          "headword": "إِعَانَةٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_420",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْبَاءٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_421",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "اِعْتَزَلَ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_422",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْتَقَ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_423",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِعْجَازٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_424",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِعْجَازُ الْقُرْآنِ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_425",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْجَبَ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_426",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْجَزَ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_427",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْجَمِيٌّ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_428",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعَدَّ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_429",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْدَاءٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_430",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْدَادٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_431",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِعْدَادٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 13,
+          "corpus_id": "bayna_scan_v1_432",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْدَى",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "right",
+          "column_index": 14,
+          "corpus_id": "bayna_scan_v1_433",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْذَارٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 1,
+          "corpus_id": "bayna_scan_v1_434",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْنَاقٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 2,
+          "corpus_id": "bayna_scan_v1_435",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْرَابٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 3,
+          "corpus_id": "bayna_scan_v1_436",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْرَابِيٌّ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 4,
+          "corpus_id": "bayna_scan_v1_437",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْرَاسٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 5,
+          "corpus_id": "bayna_scan_v1_438",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْرَاضٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 6,
+          "corpus_id": "bayna_scan_v1_439",
+          "match_status": "same_printed_lemma_distinct_singular_and_sense_combined_in_one_card",
+          "printed_singular": "عَرَضٌ"
+        },
+        {
+          "headword": "أَعْرَاضٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 7,
+          "corpus_id": "bayna_scan_v1_439",
+          "match_status": "same_printed_lemma_distinct_singular_and_sense_combined_in_one_card",
+          "printed_singular": "عِرْضٌ"
+        },
+        {
+          "headword": "إِعْرَاضٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 8,
+          "corpus_id": "bayna_scan_v1_440",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْرَاقٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 9,
+          "corpus_id": "bayna_scan_v1_441",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْرَبَ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 10,
+          "corpus_id": "bayna_scan_v1_442",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْرَسَ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 11,
+          "corpus_id": "bayna_scan_v1_443",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْرَضَ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 12,
+          "corpus_id": "bayna_scan_v1_444",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعَزُّ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 13,
+          "corpus_id": "bayna_scan_v1_445",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْشَابٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 14,
+          "corpus_id": "bayna_scan_v1_446",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْشَاشٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 15,
+          "corpus_id": "bayna_scan_v1_447",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْصَابٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 16,
+          "corpus_id": "bayna_scan_v1_448",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "إِعْصَارٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 17,
+          "corpus_id": "bayna_scan_v1_449",
+          "match_status": "original_scan_card_present"
+        },
+        {
+          "headword": "أَعْضَاءٌ",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "column": "left",
+          "column_index": 18,
+          "corpus_id": "bayna_scan_v1_450",
+          "match_status": "original_scan_card_present"
+        }
+      ]
+    }
+  ]
+}
