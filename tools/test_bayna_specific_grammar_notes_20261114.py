@@ -48,7 +48,9 @@ class SpecificArabicUsageNotes(unittest.TestCase):
                 src, article = self.source[word], self.review[word]
                 note = src["usage_note_ar"]
                 self.assertNotEqual(note, GENERIC)
-                self.assertEqual(note, article["important"][0]["ar"])
+                # Later editorial batches prepend targeted comments, but the
+                # historically reviewed specific note must remain available.
+                self.assertIn(note, [fact["ar"] for fact in article["important"]])
                 self.assertEqual(note, unicodedata.normalize("NFC", note))
                 self.assertTrue(re.search(r"[\u0621-\u064A]", note))
                 self.assertTrue(re.search(r"[\u064B-\u065F]", note))
