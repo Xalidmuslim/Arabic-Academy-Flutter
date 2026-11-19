@@ -56,7 +56,7 @@ class PrintedPagesNineToThirteen(unittest.TestCase):
                 e = self.scan_by_id[bad["id"]]
                 self.assertEqual(nfc(e["arabic"]), nfc(bad["old_headword"]))
                 self.assertEqual(e["source_provenance"]["pdf_page"], bad["pdf_page"])
-                self.assertIn("mismatch", e["source_provenance"]["text_status"])
+                self.assertIn("unmatched_printed_lemma", e["source_provenance"]["text_status"])
                 self.assertEqual(e["visual_verification"]["status"], MISMATCH)
                 self.assertEqual(nfc(e["visual_verification"]["printed_headword"]), nfc(bad["printed_headword"]))
                 self.assertEqual(e["visual_verification"]["examples_status"],
