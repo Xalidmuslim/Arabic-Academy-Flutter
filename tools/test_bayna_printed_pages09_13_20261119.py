@@ -27,6 +27,8 @@ class PrintedPagesNineToThirteen(unittest.TestCase):
         cls.scan = json.loads((DATA / "entries_bayna_scan_verified_20261112.json").read_text(encoding="utf-8"))["entries"]
         cls.scan_by_id = {row["id"]: row for row in cls.scan}
         cls.manifest = json.loads((DATA / "corpus_manifest.json").read_text(encoding="utf-8"))["files"]
+        cls.review = json.loads((DATA / "reviewed_articles_v1.json").read_text(encoding="utf-8"))["entries"]
+        cls.review_by_word = {nfc(e["arabic"]): e for e in cls.review}
 
     def test_inventory_counts_and_original_provenance(self):
         self.assertEqual(self.audit["scan_sha256"], SHA)
@@ -62,6 +64,8 @@ class PrintedPagesNineToThirteen(unittest.TestCase):
                 self.assertEqual(e["visual_verification"]["examples_status"],
                                  "independently_authored_pending_separate_i3rab_review")
                 self.assertNotEqual(nfc(e["arabic"]), nfc(bad["printed_headword"]))
+                self.assertEqual(self.review_by_word[nfc(e["arabic"])]["visual_verification"],
+                                 e["visual_verification"])
 
     def test_old_source_ids_unchanged_and_no_new_duplicates(self):
         self.assertEqual(len(self.manifest), 87)
