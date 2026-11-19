@@ -60,10 +60,22 @@ def main():
     review_kinds = {
         "visual_check_of_user_supplied_scan_12383_pdf",
         "scan_page_inspected_first_pass_pending_linguistic_proofread",
+        "source_headword_mismatch_requires_relocation",
     }
     indexed_articles = {e["arabic"]: e for e in reviewed["entries"]
                         if e.get("source_review") in review_kinds}
-    source_page_mismatches = 0
+    expected_mismatches = {
+        "bayna_scan_v1_007": "أَبْغَضُ",
+        "bayna_scan_v1_032": "إِثْمٌ",
+        "bayna_scan_v1_047": None,  # print أَجَّرَ belongs to separate existing ID
+        "bayna_scan_v1_179": "أَرْبَع",
+        "bayna_scan_v1_204": "أَرْذَل",
+        "bayna_scan_v1_259": "أُسَر",
+        "bayna_scan_v1_276": "إِسْكَاف",
+        "bayna_scan_v1_286": "أَسْمَعُ",
+        "bayna_scan_v1_378": "أُضْحِيَّةٌ",
+    }
+    source_page_mismatches = set()
     for entry in source_words:
         prov = entry["source_provenance"]
         assert 5 <= prov["pdf_page"] <= 30 and prov["pdf_page"] not in (24, 25), (
@@ -78,35 +90,21 @@ def main():
         assert article["definition"][0]["ar"] == entry["meaning_ar"]
         assert [g["ar"] for g in article["grammar"]] == entry["grammar"]
         assert [g["ar"] for g in article["examples"]] == entry["examples_ar"]
-        if prov["pdf_page"] >= 14:
-            assert article["source_review"] == "scan_page_inspected_first_pass_pending_linguistic_proofread"
-            if entry["arabic"] == "أَرْذَالٌ" and prov["pdf_page"] == 14:
-                # The user-supplied scan actually has أَرْذَل on this
-                # printed page. Keep the independently valid plural word
-                # and stable ID, but do not claim it matches this page.
-                assert prov["text_status"] == "unmatched_printed_lemma_source_page_14_relocation_required"
-                proof = entry.get("visual_verification") or {}
-                assert proof.get("status") == "source_headword_mismatch_requires_relocation"
-                assert proof.get("printed_headword") == "أَرْذَل"
-                source_page_mismatches += 1
-            elif entry["arabic"] == "أَسْمَعَ" and prov["pdf_page"] == 17:
-                # Printed p13 contains أَسْمَعُ (comparative), not
-                # أَسْمَعَ (transitive form-IV verb). Preserve original IDs.
-                assert prov["text_status"] == "unmatched_printed_lemma_source_page_17_relocation_required"
-                proof = entry.get("visual_verification") or {}
-                assert proof.get("status") == "source_headword_mismatch_requires_relocation"
-                assert proof.get("printed_headword") == "أَسْمَعُ"
-                source_page_mismatches += 1
-            elif entry["arabic"] == "أَضْحَى" and prov["pdf_page"] == 21:
-                # The original actually prints أُضْحِيَّةٌ (noun, sacrificial
-                # offering), not أَضْحَى (past tense verb).
-                assert prov["text_status"] == "unmatched_printed_lemma_source_page_21_relocation_required"
-                proof = entry.get("visual_verification") or {}
-                assert proof.get("status") == "source_headword_mismatch_requires_relocation"
-                assert proof.get("printed_headword") == "أُضْحِيَّةٌ"
-                source_page_mismatches += 1
+        proof = entry.get("visual_verification") or {}
+        if proof.get("status") == "source_headword_mismatch_requires_relocation":
+            assert entry["id"] in expected_mismatches, (
+                f"Unreviewed source-page mismatch: {entry['id']}")
+            printed = expected_mismatches[entry["id"]]
+            if printed is not None:
+                assert proof.get("printed_headword") == printed, (
+                    f"Wrong printed heading for {entry['arabic']}")
+                assert prov["text_status"] == (
+                    f"unmatched_printed_lemma_source_page_{prov['pdf_page']}_relocation_required")
             else:
-                assert prov["text_status"] == "arabic_first_pass_page_inspected_pending_independent_proofread"
+                assert prov["text_status"] == "source_headword_mismatch_requires_relocation"
+            source_page_mismatches.add(entry["id"])
+        elif prov["pdf_page"] >= 14:
+            assert prov["text_status"] == "arabic_first_pass_page_inspected_pending_independent_proofread"
         assert entry["arabic"] in original
         assert prov["scan_sha256"] == expected_scan
         assert isinstance(prov["pdf_page"], int) and 1 <= prov["pdf_page"] <= 404
@@ -126,6 +124,7 @@ def main():
     effective = 0
     visually_checked = 0
     first_pass = 0
+    mismatched_reviewed = 0
     for article in reviewed["entries"]:
         word = article["arabic"]
         key = vocalized_key(word)
@@ -141,8 +140,11 @@ def main():
                 article["source_printed_page"] >= 1), f"Bad printed page: {word}"
             if article["source_review"] == "visual_check_of_user_supplied_scan_12383_pdf":
                 visually_checked += 1
-            else:
+            elif article["source_review"] == "scan_page_inspected_first_pass_pending_linguistic_proofread":
                 first_pass += 1
+            else:
+                assert article["visual_verification"]["status"] == "source_headword_mismatch_requires_relocation"
+                mismatched_reviewed += 1
         assert article.get("source_urls"), f"No sources: {word}"
         assert all(s.startswith("https://") for s in article["source_urls"])
         for field in ("definition", "grammar", "examples", "important"):
@@ -208,7 +210,7 @@ def main():
 
     print(f"Independently authored Arabic entries checked against scan: {len(source_words)}")
     page_count = len({e['source_provenance']['pdf_page'] for e in source_words})
-    assert source_page_mismatches == 3, "All three visually confirmed printed-page mismatches must remain tracked until resolved"
+    assert source_page_mismatches == set(expected_mismatches), "Every confirmed mismatch must remain tracked until resolved"
     print(f"Explicit source-page mismatches pending relocation: {source_page_mismatches}")
     print(f"PDF pages represented by source-linked articles: {page_count}")
     print(f"Corpus: {len(headwords)} unique exact vocalized headwords")
@@ -217,6 +219,7 @@ def main():
     print(f"Reviewed articles: {len(reviewed['entries'])}; unambiguously attached: {effective}")
     print(f"Earlier scan-checked articles: {visually_checked}")
     print(f"New first-pass page-inspected articles pending linguistic proofreading: {first_pass}")
+    print(f"Reviewed articles with disputed source-page attribution: {mismatched_reviewed}")
     print(f"Remaining without reviewed article: {len(headwords) - effective}")
     print("NOTE: This script validates structure/vocalization presence, NOT linguistic correctness.")
 
