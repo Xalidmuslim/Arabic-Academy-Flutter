@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Revoked printed-page claim must not delete a correct Arabic lexical entry."""
 import json
+import unicodedata
 import unittest
 from pathlib import Path
 
@@ -39,7 +40,7 @@ class IncorrectSourceAttribution(unittest.TestCase):
         self.assertEqual(len(set(self.by_id)),571)
         matches=[x for x in self.main if x["id"]=="l1u16_011"]
         self.assertEqual(len(matches),1)
-        self.assertEqual(matches[0]["arabic"],"أُضْحِيَّةٌ")
+        self.assertEqual(unicodedata.normalize("NFC",matches[0]["arabic"]),unicodedata.normalize("NFC","أُضْحِيَّةٌ"))
         self.assertEqual(self.by_id["bayna_scan_v1_377"]["arabic"],"أَضْحَكَ")
         self.assertEqual(self.by_id["bayna_scan_v1_379"]["arabic"],"أَضْرَارٌ")
 
