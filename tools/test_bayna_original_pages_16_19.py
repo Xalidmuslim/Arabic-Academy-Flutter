@@ -92,7 +92,7 @@ class PrintPages16To19(unittest.TestCase):
 
     def test_asgha_misspelled_verb_has_been_corrected(self):
         article = self.byword[norm("أَصْغَى")]
-        self.assertIn("وَوَجَّهَ", article["meaning_ar"])
+        self.assertIn(unicodedata.normalize("NFC", "وَوَجَّهَ"), unicodedata.normalize("NFC", article["meaning_ar"]))
         self.assertNotIn("أَوْجَهَ", article["meaning_ar"])
         self.assertEqual(
             self.review[norm("أَصْغَى")]["definition"][0]["ar"],
@@ -104,7 +104,7 @@ class PrintPages16To19(unittest.TestCase):
         all_senses = " ".join([article["meaning_ar"], *article["additional_meanings_ar"]])
         self.assertIn("مُبْتَكَرٌ", all_senses)
         self.assertIn("جَوْدَةٍ", all_senses)
-        self.assertIn("يُقَدِّمُ الْبَاحِثُ", " ".join(article["examples_ar"]))
+        self.assertIn(unicodedata.normalize("NFC", "يُقَدِّمُ الْبَاحِثُ"), unicodedata.normalize("NFC", " ".join(article["examples_ar"])))
         self.assertNotIn("يَقْدُمُ الْبَاحِثُ", " ".join(article["examples_ar"]))
         self.assertTrue(any("مُبْتَكَرٌ" in d["ar"] for d in
                             self.review[norm("أَصِيلٌ")]["definition"]))
