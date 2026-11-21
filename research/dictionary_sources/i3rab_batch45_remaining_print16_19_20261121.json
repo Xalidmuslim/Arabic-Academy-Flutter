@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-21",
+  "source": "المعجم العربي بين يديك",
+  "source_pdf_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "reviewed_example_count": 45,
+  "certifies_full_articles": false,
+  "certifies_all_examples_per_article": false,
+  "method": "Independent focused reading of one previously authored sentence per remaining article and manual analysis of its grammar/case roles; scan authority limited to original printed headings and short meanings, not these composed examples.",
+  "examples": [
+    {
+      "source_entry_id": "bayna_scan_v1_392",
+      "headword": "أَطَالَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "example_ar": "أَطَالَ الْمُتَحَدِّثُ الْكَلَامَ حَتَّى تَأَخَّرَ الْمَوْعِدُ.",
+      "i3rab_ar": [
+        "أَطَالَ: فِعْلٌ مَاضٍ؛ الْمُتَحَدِّثُ فَاعِلٌ مَرْفُوعٌ.",
+        "الْكَلَامَ: مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "حَتَّى تَأَخَّرَ الْمَوْعِدُ: جُمْلَةٌ تَدُلُّ عَلَى النَّتِيجَةِ، وَ«الْمَوْعِدُ» فَاعِلُ «تَأَخَّرَ»."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_393",
+      "headword": "أَطِبَّاءُ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "example_ar": "اجْتَمَعَ الْأَطِبَّاءُ لِمُنَاقَشَةِ خُطَّةِ الْعِلَاجِ.",
+      "i3rab_ar": [
+        "اجْتَمَعَ: فِعْلٌ مَاضٍ؛ الْأَطِبَّاءُ فَاعِلٌ مَرْفُوعٌ.",
+        "لِمُنَاقَشَةِ: جَارٌّ وَمَجْرُورٌ لِلتَّعْلِيلِ وَهُوَ مُضَافٌ.",
+        "خُطَّةِ الْعِلَاجِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ وَهُوَ مُضَافٌ إِلَى «الْعِلَاجِ»."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_395",
+      "headword": "أَطْرَافٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "example_ar": "جَلَسَ الطِّفْلُ عِنْدَ أَطْرَافِ الْحَدِيقَةِ.",
+      "i3rab_ar": [
+        "جَلَسَ: فِعْلٌ مَاضٍ؛ الطِّفْلُ فَاعِلٌ مَرْفُوعٌ.",
+        "عِنْدَ: ظَرْفُ مَكَانٍ مَنْصُوبٌ وَهُوَ مُضَافٌ.",
+        "أَطْرَافِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ وَهُوَ مُضَافٌ؛ الْحَدِيقَةِ مُضَافٌ إِلَيْهِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_397",
+      "headword": "أَطْرَى",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "example_ar": "أَطْرَى النَّاقِدُ الْكِتَابَ لِجَوْدَةِ أُسْلُوبِهِ.",
+      "i3rab_ar": [
+        "أَطْرَى: فِعْلٌ مَاضٍ مُتَعَدٍّ مَبْنِيٌّ عَلَى فَتْحٍ مُقَدَّرٍ.",
+        "النَّاقِدُ: فَاعِلٌ مَرْفُوعٌ؛ الْكِتَابَ مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "لِجَوْدَةِ أُسْلُوبِهِ: جَارٌّ وَمَجْرُورٌ يَذْكُرَانِ سَبَبَ الثَّنَاءِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_400",
+      "headword": "أَطْفَأَ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "أَطْفَأَ الْوَلَدُ الْمِصْبَاحَ.",
+      "i3rab_ar": [
+        "أَطْفَأَ: فِعْلٌ مَاضٍ مُتَعَدٍّ مَهْمُوزُ الْآخِرِ.",
+        "الْوَلَدُ: فَاعِلٌ مَرْفُوعٌ.",
+        "الْمِصْبَاحَ: مَفْعُولٌ بِهِ مَنْصُوبٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_401",
+      "headword": "أَطْفَالٌ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "لَعِبَ الْأَطْفَالُ فِي الْحَدِيقَةِ.",
+      "i3rab_ar": [
+        "لَعِبَ: فِعْلٌ مَاضٍ؛ الْأَطْفَالُ فَاعِلٌ مَرْفُوعٌ.",
+        "فِي الْحَدِيقَةِ: جَارٌّ وَمَجْرُورٌ.",
+        "الْأَطْفَالُ جَمْعُ تَكْسِيرٍ لِـ«طِفْلٍ» وَرُفِعَ هُنَا بِالضَّمَّةِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_403",
+      "headword": "إِطْلَاقٌ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "أُعْلِنَ إِطْلَاقُ الْمَشْرُوعِ الْجَدِيدِ.",
+      "i3rab_ar": [
+        "أُعْلِنَ: فِعْلٌ مَاضٍ مَبْنِيٌّ لِلْمَجْهُولِ.",
+        "إِطْلَاقُ: نَائِبُ فَاعِلٍ مَرْفُوعٌ وَهُوَ مُضَافٌ.",
+        "الْمَشْرُوعِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ؛ الْجَدِيدِ نَعْتٌ مَجْرُورٌ لِـ«الْمَشْرُوعِ»."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_404",
+      "headword": "أَطْلَالٌ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "وَقَفَ السَّائِحُ عِنْدَ أَطْلَالِ الْمَدِينَةِ.",
+      "i3rab_ar": [
+        "وَقَفَ: فِعْلٌ مَاضٍ؛ السَّائِحُ فَاعِلٌ مَرْفُوعٌ.",
+        "عِنْدَ: ظَرْفُ مَكَانٍ مَنْصُوبٌ وَهُوَ مُضَافٌ.",
+        "أَطْلَالِ الْمَدِينَةِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ، وَهُوَ مُضَافٌ إِلَى «الْمَدِينَةِ»."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_405",
+      "headword": "أَطْلَسٌ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "يَضُمُّ الْأَطْلَسُ خَرَائِطَ لِلْقَارَّاتِ وَالْبُحَارِ.",
+      "i3rab_ar": [
+        "يَضُمُّ: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ؛ الْأَطْلَسُ فَاعِلٌ مَرْفُوعٌ.",
+        "خَرَائِطَ: مَفْعُولٌ بِهِ مَنْصُوبٌ بِالْفَتْحَةِ مِنْ غَيْرِ تَنْوِينٍ.",
+        "لِلْقَارَّاتِ وَالْبِحَارِ: جَارٌّ وَمَجْرُورٌ وَاسْمٌ مَعْطُوفٌ مَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_408",
+      "headword": "أَطْنَابٌ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "شَدَّ الرَّاعِي أَطْنَابَ الْخَيْمَةِ قَبْلَ هُبُوبِ الرِّيحِ.",
+      "i3rab_ar": [
+        "شَدَّ: فِعْلٌ مَاضٍ؛ الرَّاعِي فَاعِلٌ مَرْفُوعٌ بِضَمَّةٍ مُقَدَّرَةٍ عَلَى الْيَاءِ.",
+        "أَطْنَابَ: مَفْعُولٌ بِهِ مَنْصُوبٌ وَهُوَ مُضَافٌ؛ الْخَيْمَةِ مُضَافٌ إِلَيْهِ.",
+        "قَبْلَ هُبُوبِ الرِّيحِ: ظَرْفُ زَمَانٍ وَتَرْكِيبٌ إِضَافِيٌّ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_409",
+      "headword": "أَطْنَبَ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "أَطْنَبَ الْخَطِيبُ فِي وَصْفِ الْحَدَثِ.",
+      "i3rab_ar": [
+        "أَطْنَبَ: فِعْلٌ مَاضٍ؛ الْخَطِيبُ فَاعِلٌ مَرْفُوعٌ.",
+        "فِي وَصْفِ: جَارٌّ وَمَجْرُورٌ، وَ«وَصْفِ» مُضَافٌ.",
+        "الْحَدَثِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_410",
+      "headword": "أَطْهَرُ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "هَذَا الْمَاءُ أَطْهَرُ مِنْ ذَاكَ.",
+      "i3rab_ar": [
+        "هَذَا: اسْمُ إِشَارَةٍ فِي مَحَلِّ رَفْعِ مُبْتَدَأٍ؛ الْمَاءُ بَدَلٌ مَرْفُوعٌ.",
+        "أَطْهَرُ: خَبَرٌ مَرْفُوعٌ.",
+        "مِنْ ذَاكَ: جَارٌّ وَاسْمُ إِشَارَةٍ مَبْنِيٌّ فِي مَحَلِّ جَرٍّ لِلْمُفَاضَلَةِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_411",
+      "headword": "أَطْوَادٌ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "ظَهَرَتِ الْأَطْوَادُ فِي الْأُفُقِ.",
+      "i3rab_ar": [
+        "ظَهَرَتِ: فِعْلٌ مَاضٍ وَالتَّاءُ لِلتَّأْنِيثِ حُرِّكَتْ بِالْكَسْرِ.",
+        "الْأَطْوَادُ: فَاعِلٌ مَرْفُوعٌ وَهُوَ جَمْعُ تَكْسِيرٍ لِغَيْرِ الْعَاقِلِ.",
+        "فِي الْأُفُقِ: جَارٌّ وَمَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_412",
+      "headword": "أَطْوَارٌ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "يَمُرُّ النَّبَاتُ بِأَطْوَارٍ مُخْتَلِفَةٍ.",
+      "i3rab_ar": [
+        "يَمُرُّ: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ؛ النَّبَاتُ فَاعِلٌ مَرْفُوعٌ.",
+        "بِأَطْوَارٍ: جَارٌّ وَمَجْرُورٌ.",
+        "مُخْتَلِفَةٍ: نَعْتٌ مَجْرُورٌ مُفْرَدٌ مُؤَنَّثٌ لِجَمْعِ غَيْرِ الْعَاقِلِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_415",
+      "headword": "أَظْلَمَ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "أَظْلَمَ الْمَكَانُ بَعْدَ انْقِطَاعِ الْكَهْرَبَاءِ.",
+      "i3rab_ar": [
+        "أَظْلَمَ: فِعْلٌ مَاضٍ لَازِمٌ فِي هَذَا الْمَعْنَى.",
+        "الْمَكَانُ: فَاعِلٌ مَرْفُوعٌ.",
+        "بَعْدَ انْقِطَاعِ الْكَهْرَبَاءِ: ظَرْفُ زَمَانٍ وَتَرْكِيبُ إِضَافَةٍ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_416",
+      "headword": "أَظْهَرَ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "أَظْهَرَ الْفَحْصُ سَبَبَ الْعُطْلِ.",
+      "i3rab_ar": [
+        "أَظْهَرَ: فِعْلٌ مَاضٍ مُتَعَدٍّ؛ الْفَحْصُ فَاعِلٌ مَرْفُوعٌ.",
+        "سَبَبَ: مَفْعُولٌ بِهِ مَنْصُوبٌ وَهُوَ مُضَافٌ.",
+        "الْعُطْلِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_417",
+      "headword": "أَعَادَ",
+      "source_pdf_page": 22,
+      "source_printed_page": 18,
+      "example_ar": "أَعَادَ الْمُسْتَعِيرُ الْكِتَابَ إِلَى صَاحِبِهِ.",
+      "i3rab_ar": [
+        "أَعَادَ: فِعْلٌ مَاضٍ؛ الْمُسْتَعِيرُ فَاعِلٌ مَرْفُوعٌ.",
+        "الْكِتَابَ: مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "إِلَى صَاحِبِهِ: جَارٌّ وَمَجْرُورٌ، وَالْهَاءُ فِي مَحَلِّ جَرٍّ بِالْإِضَافَةِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_420",
+      "headword": "إِعَانَةٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "قَدَّمَتِ الْجَمْعِيَّةُ إِعَانَةً لِلْمُحْتَاجِينَ.",
+      "i3rab_ar": [
+        "قَدَّمَتِ: فِعْلٌ مَاضٍ وَالتَّاءُ لِلتَّأْنِيثِ حُرِّكَتْ بِالْكَسْرِ.",
+        "الْجَمْعِيَّةُ: فَاعِلٌ مَرْفُوعٌ؛ إِعَانَةً مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "لِلْمُحْتَاجِينَ: جَارٌّ وَمَجْرُورٌ، وَعَلَامَةُ جَرِّ الِاسْمِ الْيَاءُ لِأَنَّهُ جَمْعُ مُذَكَّرٍ سَالِمٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_421",
+      "headword": "أَعْبَاءٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "خَفَّفَ التَّعَاوُنُ أَعْبَاءَ الْعَمَلِ عَلَى الْفَرِيقِ.",
+      "i3rab_ar": [
+        "خَفَّفَ: فِعْلٌ مَاضٍ؛ التَّعَاوُنُ فَاعِلٌ مَرْفُوعٌ.",
+        "أَعْبَاءَ: مَفْعُولٌ بِهِ مَنْصُوبٌ وَهُوَ مُضَافٌ؛ الْعَمَلِ مُضَافٌ إِلَيْهِ.",
+        "عَلَى الْفَرِيقِ: جَارٌّ وَمَجْرُورٌ يُبَيِّنَانِ مَنْ تَحَمَّلَ الْأَعْبَاءَ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_422",
+      "headword": "اِعْتَزَلَ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "اِعْتَزَلَ الْمُوَظَّفُ الْعَمَلَ بَعْدَ سَنَوَاتٍ طَوِيلَةٍ.",
+      "i3rab_ar": [
+        "اِعْتَزَلَ: فِعْلٌ مَاضٍ خُمَاسِيٌّ وَهَمْزَتُهُ هَمْزَةُ وَصْلٍ.",
+        "الْمُوَظَّفُ: فَاعِلٌ مَرْفُوعٌ؛ الْعَمَلَ مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "بَعْدَ: ظَرْفُ زَمَانٍ مَنْصُوبٌ؛ سَنَوَاتٍ مُضَافٌ إِلَيْهِ مَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_423",
+      "headword": "أَعْتَقَ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "أَعْتَقَ السَّيِّدُ مَمْلُوكَهُ فَأَصْبَحَ حُرًّا.",
+      "i3rab_ar": [
+        "أَعْتَقَ: فِعْلٌ مَاضٍ؛ السَّيِّدُ فَاعِلٌ مَرْفُوعٌ.",
+        "مَمْلُوكَهُ: مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "أَصْبَحَ: فِعْلٌ مَاضٍ نَاقِصٌ، اسْمُهُ ضَمِيرٌ مُسْتَتِرٌ، وَ«حُرًّا» خَبَرُهُ مَنْصُوبٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_424",
+      "headword": "إِعْجَازٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "يُدْرَسُ الْإِعْجَازُ فِي بَحْثِ الْبَلَاغَةِ.",
+      "i3rab_ar": [
+        "يُدْرَسُ: فِعْلٌ مُضَارِعٌ مَبْنِيٌّ لِلْمَجْهُولِ مَرْفُوعٌ.",
+        "الْإِعْجَازُ: نَائِبُ فَاعِلٍ مَرْفُوعٌ.",
+        "فِي بَحْثِ الْبَلَاغَةِ: جَارٌّ وَمَجْرُورٌ مَعَ إِضَافَةٍ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_425",
+      "headword": "إِعْجَازُ الْقُرْآنِ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "يَتَنَاوَلُ الْبَحْثُ إِعْجَازَ الْقُرْآنِ مِنْ جِهَةِ بَيَانِهِ.",
+      "i3rab_ar": [
+        "يَتَنَاوَلُ: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ؛ الْبَحْثُ فَاعِلٌ مَرْفُوعٌ.",
+        "إِعْجَازَ: مَفْعُولٌ بِهِ مَنْصُوبٌ وَهُوَ مُضَافٌ.",
+        "الْقُرْآنِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ؛ مِنْ جِهَةِ بَيَانِهِ جَارٌّ وَمَجْرُورٌ مَعَ إِضَافَةٍ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_427",
+      "headword": "أَعْجَزَ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "أَعْجَزَتِ الْمَسْأَلَةُ الطُّلَّابَ عَنِ الْإِجَابَةِ.",
+      "i3rab_ar": [
+        "أَعْجَزَتِ: فِعْلٌ مَاضٍ وَالتَّاءُ لِلتَّأْنِيثِ؛ الْمَسْأَلَةُ فَاعِلٌ مَرْفُوعٌ.",
+        "الطُّلَّابَ: مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "عَنِ الْإِجَابَةِ: جَارٌّ وَمَجْرُورٌ يُحَدِّدَانِ مَجَالَ الْعَجْزِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_428",
+      "headword": "أَعْجَمِيٌّ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "وَجَدَ الْبَاحِثُ كَلِمَةً أَعْجَمِيَّةً فِي النَّصِّ.",
+      "i3rab_ar": [
+        "وَجَدَ: فِعْلٌ مَاضٍ؛ الْبَاحِثُ فَاعِلٌ مَرْفُوعٌ.",
+        "كَلِمَةً: مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "أَعْجَمِيَّةً: نَعْتٌ مَنْصُوبٌ لِـ«كَلِمَةً»؛ فِي النَّصِّ جَارٌّ وَمَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_429",
+      "headword": "أَعَدَّ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "أَعَدَّتِ الْمُعَلِّمَةُ أَسْئِلَةً جَدِيدَةً لِلدَّرْسِ.",
+      "i3rab_ar": [
+        "أَعَدَّتِ: فِعْلٌ مَاضٍ مُضَعَّفٌ وَالتَّاءُ لِلتَّأْنِيثِ مَكْسُورَةٌ.",
+        "الْمُعَلِّمَةُ: فَاعِلٌ مَرْفُوعٌ؛ أَسْئِلَةً مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "جَدِيدَةً: نَعْتٌ مَنْصُوبٌ لِجَمْعِ غَيْرِ الْعَاقِلِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_430",
+      "headword": "أَعْدَاءٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "كَانُوا أَعْدَاءً ثُمَّ تَصَالَحُوا.",
+      "i3rab_ar": [
+        "كَانُوا: فِعْلٌ مَاضٍ نَاقِصٌ وَالْوَاوُ ضَمِيرٌ فِي مَحَلِّ رَفْعِ اسْمِهِ.",
+        "أَعْدَاءً: خَبَرُ «كَانَ» مَنْصُوبٌ.",
+        "تَصَالَحُوا: فِعْلٌ مَاضٍ مَبْنِيٌّ عَلَى الضَّمِّ لِاتِّصَالِهِ بِوَاوِ الْجَمَاعَةِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_431",
+      "headword": "أَعْدَادٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "تَعَلَّمَ الْأَطْفَالُ قِرَاءَةَ الْأَعْدَادِ الْكَبِيرَةِ.",
+      "i3rab_ar": [
+        "تَعَلَّمَ: فِعْلٌ مَاضٍ؛ الْأَطْفَالُ فَاعِلٌ مَرْفُوعٌ.",
+        "قِرَاءَةَ: مَفْعُولٌ بِهِ مَنْصُوبٌ وَهُوَ مُضَافٌ؛ الْأَعْدَادِ مُضَافٌ إِلَيْهِ.",
+        "الْكَبِيرَةِ: نَعْتٌ مَجْرُورٌ مُفْرَدٌ مُؤَنَّثٌ لِجَمْعِ غَيْرِ الْعَاقِلِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_432",
+      "headword": "إِعْدَادٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "يَحْتَاجُ إِعْدَادُ الدَّرْسِ إِلَى وَقْتٍ.",
+      "i3rab_ar": [
+        "يَحْتَاجُ: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ.",
+        "إِعْدَادُ: فَاعِلٌ مَرْفُوعٌ وَهُوَ مُضَافٌ؛ الدَّرْسِ مُضَافٌ إِلَيْهِ.",
+        "إِلَى وَقْتٍ: جَارٌّ وَمَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_434",
+      "headword": "أَعْذَارٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "قَدَّمَ الْغَائِبُونَ أَعْذَارَهُمْ لِلْمُسْؤُولِ.",
+      "i3rab_ar": [
+        "قَدَّمَ: فِعْلٌ مَاضٍ؛ الْغَائِبُونَ فَاعِلٌ مَرْفُوعٌ بِالْوَاوِ لِأَنَّهُ جَمْعُ مُذَكَّرٍ سَالِمٌ.",
+        "أَعْذَارَهُمْ: مَفْعُولٌ بِهِ مَنْصُوبٌ وَهُوَ مُضَافٌ.",
+        "لِلْمَسْؤُولِ: جَارٌّ وَمَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_435",
+      "headword": "أَعْنَاقٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "مَدَّتِ الزَّرَافَاتُ أَعْنَاقَهَا نَحْوَ الْأَوْرَاقِ.",
+      "i3rab_ar": [
+        "مَدَّتِ: فِعْلٌ مَاضٍ وَالتَّاءُ لِلتَّأْنِيثِ حُرِّكَتْ بِالْكَسْرِ.",
+        "الزَّرَافَاتُ: فَاعِلٌ مَرْفُوعٌ؛ أَعْنَاقَهَا مَفْعُولٌ بِهِ مَنْصُوبٌ وَهُوَ مُضَافٌ.",
+        "نَحْوَ الْأَوْرَاقِ: ظَرْفُ مَكَانٍ مَنْصُوبٌ وَمُضَافٌ إِلَيْهِ مَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_436",
+      "headword": "أَعْرَابٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "كَانَ الْأَعْرَابُ يَنْتَقِلُونَ بَيْنَ مَوَاقِعِ الْمَاءِ.",
+      "i3rab_ar": [
+        "كَانَ: فِعْلٌ مَاضٍ نَاقِصٌ؛ الْأَعْرَابُ اسْمُهُ مَرْفُوعٌ.",
+        "يَنْتَقِلُونَ: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ بِثُبُوتِ النُّونِ، وَالْجُمْلَةُ فِي مَحَلِّ نَصْبِ خَبَرِ «كَانَ».",
+        "بَيْنَ مَوَاقِعِ الْمَاءِ: ظَرْفُ مَكَانٍ مَنْصُوبٌ مَعَ تَرْكِيبِ إِضَافَةٍ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_437",
+      "headword": "أَعْرَابِيٌّ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "وَصَلَ أَعْرَابِيٌّ إِلَى الْمَدِينَةِ.",
+      "i3rab_ar": [
+        "وَصَلَ: فِعْلٌ مَاضٍ؛ أَعْرَابِيٌّ فَاعِلٌ مَرْفُوعٌ.",
+        "إِلَى الْمَدِينَةِ: جَارٌّ وَمَجْرُورٌ.",
+        "«أَعْرَابِيٌّ» اسْمُ نِسْبَةٍ نَكِرَةٌ مَرْفُوعٌ بِالتَّنْوِينِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_438",
+      "headword": "أَعْرَاسٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "كَثُرَتِ الْأَعْرَاسُ فِي الْقَرْيَةِ خِلَالَ الصَّيْفِ.",
+      "i3rab_ar": [
+        "كَثُرَتِ: فِعْلٌ مَاضٍ وَالتَّاءُ لِلتَّأْنِيثِ حُرِّكَتْ بِالْكَسْرِ.",
+        "الْأَعْرَاسُ: فَاعِلٌ مَرْفُوعٌ وَهُوَ جَمْعُ تَكْسِيرٍ لِغَيْرِ الْعَاقِلِ.",
+        "فِي الْقَرْيَةِ: جَارٌّ وَمَجْرُورٌ؛ خِلَالَ الصَّيْفِ ظَرْفُ زَمَانٍ وَمُضَافٌ إِلَيْهِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_440",
+      "headword": "إِعْرَاضٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "إِعْرَاضُ الطَّالِبِ عَنِ الدَّرْسِ يُضْعِفُ نَجَاحَهُ.",
+      "i3rab_ar": [
+        "إِعْرَاضُ: مُبْتَدَأٌ مَرْفُوعٌ وَهُوَ مُضَافٌ؛ الطَّالِبِ مُضَافٌ إِلَيْهِ.",
+        "عَنِ الدَّرْسِ: جَارٌّ وَمَجْرُورٌ يَتَعَلَّقَانِ بِـ«إِعْرَاضُ».",
+        "يُضْعِفُ نَجَاحَهُ: جُمْلَةٌ فِعْلِيَّةٌ فِي مَحَلِّ رَفْعِ خَبَرِ الْمُبْتَدَأِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_441",
+      "headword": "أَعْرَاقٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "يَنْتَمِي النَّاسُ إِلَى أَعْرَاقٍ مُخْتَلِفَةٍ.",
+      "i3rab_ar": [
+        "يَنْتَمِي: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ بِضَمَّةٍ مُقَدَّرَةٍ عَلَى الْيَاءِ.",
+        "النَّاسُ: فَاعِلٌ مَرْفُوعٌ؛ إِلَى أَعْرَاقٍ جَارٌّ وَمَجْرُورٌ.",
+        "مُخْتَلِفَةٍ: نَعْتٌ مَجْرُورٌ مُفْرَدٌ مُؤَنَّثٌ لِجَمْعِ غَيْرِ الْعَاقِلِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_442",
+      "headword": "أَعْرَبَ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "أَعْرَبَ الْمُتَحَدِّثُ عَنْ رَأْيِهِ بِوُضُوحٍ.",
+      "i3rab_ar": [
+        "أَعْرَبَ: فِعْلٌ مَاضٍ؛ الْمُتَحَدِّثُ فَاعِلٌ مَرْفُوعٌ.",
+        "عَنْ رَأْيِهِ: جَارٌّ وَمَجْرُورٌ مَعَ ضَمِيرٍ مُضَافٍ إِلَيْهِ.",
+        "بِوُضُوحٍ: جَارٌّ وَمَجْرُورٌ يَبَيِّنَانِ الْهَيْئَةَ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_443",
+      "headword": "أَعْرَسَ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "أَعْرَسَ الشَّابُّ بَعْدَ إِكْمَالِ دِرَاسَتِهِ.",
+      "i3rab_ar": [
+        "أَعْرَسَ: فِعْلٌ مَاضٍ لَازِمٌ؛ الشَّابُّ فَاعِلٌ مَرْفُوعٌ.",
+        "بَعْدَ: ظَرْفُ زَمَانٍ مَنْصُوبٌ وَهُوَ مُضَافٌ.",
+        "إِكْمَالِ دِرَاسَتِهِ: إِضَافَةٌ مُتَدَاخِلَةٌ، وَ«إِكْمَالِ» مُضَافٌ إِلَيْهِ مَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_444",
+      "headword": "أَعْرَضَ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "أَعْرَضَ الطَّالِبُ عَنِ اللَّغْوِ وَرَكَّزَ عَلَى دَرْسِهِ.",
+      "i3rab_ar": [
+        "أَعْرَضَ: فِعْلٌ مَاضٍ؛ الطَّالِبُ فَاعِلٌ مَرْفُوعٌ.",
+        "عَنِ اللَّغْوِ: جَارٌّ وَمَجْرُورٌ يُبَيِّنَانِ الْمَتْرُوكَ.",
+        "رَكَّزَ: فِعْلٌ مَاضٍ مَعْطُوفٌ، وَفَاعِلُهُ ضَمِيرٌ مُسْتَتِرٌ يَعُودُ إِلَى الطَّالِبِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_445",
+      "headword": "أَعَزُّ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "هَذَا الْكِتَابُ أَعَزُّ عَلَيَّ مِنْ سَائِرِ كُتُبِي.",
+      "i3rab_ar": [
+        "هَذَا: اسْمُ إِشَارَةٍ فِي مَحَلِّ رَفْعِ مُبْتَدَأٍ؛ الْكِتَابُ بَدَلٌ مَرْفُوعٌ.",
+        "أَعَزُّ: خَبَرٌ مَرْفُوعٌ؛ عَلَيَّ جَارٌّ وَمَجْرُورٌ.",
+        "مِنْ سَائِرِ كُتُبِي: جَارٌّ وَمَجْرُورٌ مَعَ إِضَافَةٍ لِلْمُفَاضَلَةِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_446",
+      "headword": "أَعْشَابٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "جَمَعَتِ الْمُزَارِعَةُ أَعْشَابًا عِطْرِيَّةً مِنَ الْحَدِيقَةِ.",
+      "i3rab_ar": [
+        "جَمَعَتِ: فِعْلٌ مَاضٍ وَالتَّاءُ لِلتَّأْنِيثِ.",
+        "الْمُزَارِعَةُ: فَاعِلٌ مَرْفُوعٌ؛ أَعْشَابًا مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "عِطْرِيَّةً: نَعْتٌ مَنْصُوبٌ لِجَمْعِ غَيْرِ الْعَاقِلِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_447",
+      "headword": "أَعْشَاشٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "بَنَتِ الطُّيُورُ أَعْشَاشًا فَوْقَ الْأَشْجَارِ.",
+      "i3rab_ar": [
+        "بَنَتِ: فِعْلٌ مَاضٍ وَالتَّاءُ تَاءُ التَّأْنِيثِ مَكْسُورَةٌ.",
+        "الطُّيُورُ: فَاعِلٌ مَرْفُوعٌ؛ أَعْشَاشًا مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "فَوْقَ الْأَشْجَارِ: ظَرْفُ مَكَانٍ مَنْصُوبٌ وَمُضَافٌ إِلَيْهِ مَجْرُورٌ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_448",
+      "headword": "أَعْصَابٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "تَنْقُلُ الْأَعْصَابُ الْإِشَارَاتِ بَيْنَ الدِّمَاغِ وَأَجْزَاءِ الْجِسْمِ.",
+      "i3rab_ar": [
+        "تَنْقُلُ: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ؛ الْأَعْصَابُ فَاعِلٌ مَرْفُوعٌ.",
+        "الْإِشَارَاتِ: مَفْعُولٌ بِهِ مَنْصُوبٌ بِالْكَسْرَةِ لِأَنَّهُ جَمْعُ مُؤَنَّثٍ سَالِمٌ.",
+        "بَيْنَ الدِّمَاغِ وَأَجْزَاءِ الْجِسْمِ: ظَرْفُ مَكَانٍ مَعَ مُضَافٍ إِلَيْهِ وَمَعْطُوفٍ مَجْرُورٍ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_449",
+      "headword": "إِعْصَارٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "سَبَّبَ الْإِعْصَارُ دَمَارًا فِي الْمِنْطَقَةِ.",
+      "i3rab_ar": [
+        "سَبَّبَ: فِعْلٌ مَاضٍ؛ الْإِعْصَارُ فَاعِلٌ مَرْفُوعٌ.",
+        "دَمَارًا: مَفْعُولٌ بِهِ مَنْصُوبٌ.",
+        "فِي الْمِنْطَقَةِ: جَارٌّ وَمَجْرُورٌ يَدُلَّانِ عَلَى مَوْضِعِ الدَّمَارِ."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_450",
+      "headword": "أَعْضَاءٌ",
+      "source_pdf_page": 23,
+      "source_printed_page": 19,
+      "example_ar": "حَضَرَ أَعْضَاءُ الْفَرِيقِ الِاجْتِمَاعَ.",
+      "i3rab_ar": [
+        "حَضَرَ: فِعْلٌ مَاضٍ؛ أَعْضَاءُ فَاعِلٌ مَرْفُوعٌ وَهُوَ مُضَافٌ.",
+        "الْفَرِيقِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ.",
+        "الِاجْتِمَاعَ: مَفْعُولٌ بِهِ مَنْصُوبٌ لِلْفِعْلِ «حَضَرَ»."
+      ],
+      "source_relationship": "author_composed_example_not_verbatim_book_source",
+      "review_scope": "focused_manual_independent_example_syntax_case_and_government_not_full_article_proofread"
+    }
+  ],
+  "limitations": [
+    "All 105 articles still need complete review of remaining sentences, grammar, meanings, and sourced relationships.",
+    "This register supplies independent scoped syntax review for these 45 selected samples only; it does not automatically certify their full dictionary entries."
+  ]
+}
