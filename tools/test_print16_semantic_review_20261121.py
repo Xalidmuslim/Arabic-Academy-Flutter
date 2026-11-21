@@ -5,6 +5,7 @@ Scope: original printed page 16 = PDF page 20. Tests assert content,
 mirroring and provenance; they do not certify all 25 page articles.
 """
 import json
+import unicodedata
 import unittest
 from pathlib import Path
 
@@ -62,7 +63,7 @@ class Print16SemanticReviewTests(unittest.TestCase):
     def test_ashaab_does_not_define_companions_as_owners_of_each_other(self):
         x = self.source["bayna_scan_v1_347"]
         self.assertIn("جَمْعُ صَاحِبٍ", x["meaning_ar"])
-        self.assertIn("الرُّفَقَاءُ", x["meaning_ar"])
+        self.assertIn(unicodedata.normalize("NFC", "الرُّفَقَاءُ"), unicodedata.normalize("NFC", x["meaning_ar"]))
         self.assertIn("الْحَقِّ", x["grammar"][1])
         self.assertNotIn("تَرْبِطُهُمْ صُحْبَةٌ أَوْ مِلْكِيَّةٌ", x["meaning_ar"])
 
@@ -79,7 +80,7 @@ class Print16SemanticReviewTests(unittest.TestCase):
         self.assertEqual(len(senses), 3)
         self.assertIn("الْأَصْلِ", senses[0])
         self.assertIn("مُبْتَكَرٌ", senses[1])
-        self.assertIn("مِنْ نَوْعٍ جَيِّدٍ", senses[2])
+        self.assertIn(unicodedata.normalize("NFC", "مِنْ نَوْعٍ جَيِّدٍ"), unicodedata.normalize("NFC", senses[2]))
 
     def test_edited_content_matches_mirror_without_changing_examples(self):
         for n in (347, 368, 369):
