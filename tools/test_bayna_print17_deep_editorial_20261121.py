@@ -20,9 +20,9 @@ class DeepEditorialPrint17(unittest.TestCase):
         cls.review={norm(x["arabic"]):x for x in json.loads((DATA/"reviewed_articles_v1.json").read_text(encoding="utf-8"))["entries"]}
 
     def test_28_source_rows_27_eligible_drafts_one_mismatch(self):
-        self.assertEqual(len(self.page),28)
-        self.assertEqual({x["id"] for x in self.page},{f"bayna_scan_v1_{i:03d}" for i in range(370,398)})
-        mismatch=next(x for x in self.page if x["id"]=="bayna_scan_v1_378")
+        self.assertEqual(len(self.page),27)
+        self.assertEqual({x["id"] for x in self.page},{f"bayna_scan_v1_{i:03d}" for i in range(370,398) if i != 378})
+        mismatch=next(x for x in self.scan if x["id"]=="bayna_scan_v1_378")
         self.assertEqual(mismatch["arabic"],"أَضْحَى")
         self.assertEqual(mismatch["visual_verification"]["status"],"source_headword_mismatch_requires_relocation")
         self.assertEqual(mismatch["visual_verification"]["printed_headword"],"أُضْحِيَّةٌ")
