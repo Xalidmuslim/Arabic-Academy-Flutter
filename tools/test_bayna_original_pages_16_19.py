@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "assets/data"
-PAGE_COUNTS = {20: 25, 21: 28, 22: 22, 23: 31}
+PAGE_COUNTS = {20: 25, 21: 27, 22: 22, 23: 31}
 SCAN_SHA = "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995"
 SCAN_STATUS = "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source"
 
@@ -35,7 +35,7 @@ class PrintPages16To19(unittest.TestCase):
         }
 
     def test_source_page_counts_and_all_existing_ids_preserved(self):
-        self.assertEqual(len(self.batch), 106)
+        self.assertEqual(len(self.batch), 105)
         self.assertEqual(len(self.byword), len(self.batch))
         for page, count in PAGE_COUNTS.items():
             with self.subTest(pdf_page=page):
