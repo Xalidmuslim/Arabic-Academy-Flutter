@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-21",
+  "source": "المعجم العربي بين يديك (user uploaded original 12383.pdf)",
+  "source_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "pdf_page": 31,
+  "printed_page": 27,
+  "comparison_method": "Read both printed columns from rendered original PDF 31; compare each fully vowelled NFC headword against all 90 files listed in corpus_manifest.json, not merely page-specific scan. Source image is authoritative; OCR is not evidence. No generated morphological derivations or sample sentences treated as printed source.",
+  "normalization": "NFC; do not strip final case vowels during exact headword equality; أَكْثَرُ and أَكْثَرَ remain separate.",
+  "manifest_file_count_checked": 90,
+  "printed_headword_occurrences": 23,
+  "already_present_distinct_headwords": 8,
+  "not_present_as_exact_vocalized_headword": 15,
+  "new_dictionary_entries_created": 0,
+  "known_existing_duplicate_input_word": {
+    "headword": "أُكْسِجِينٌ",
+    "existing_ids": [
+      "l2u15_014",
+      "ind_noun_health_20261025_055"
+    ],
+    "note": "Duplicate already existed in raw input files; corpus merge picks first. Do not create a third ID."
+  },
+  "headings": [
+    {
+      "position": 1,
+      "printed_column": "right",
+      "headword": "أَكْثَرُ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 2,
+      "printed_column": "right",
+      "headword": "أَكْثَرَ",
+      "existing_corpus_matches": [
+        {
+          "id": "bayna_scan_20261114_001",
+          "file": "assets/data/entries_bayna_scan_verified_20261114_pages31_33.json"
+        }
+      ],
+      "status": "already_in_corpus",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 3,
+      "printed_column": "right",
+      "headword": "أَكَّدَ",
+      "existing_corpus_matches": [
+        {
+          "id": "l1u13_011",
+          "file": "assets/data/entries.json"
+        }
+      ],
+      "status": "already_in_corpus",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 4,
+      "printed_column": "right",
+      "headword": "أُكْذُوبَةٌ",
+      "existing_corpus_matches": [
+        {
+          "id": "bayna_scan_20261114_008",
+          "file": "assets/data/entries_bayna_scan_verified_20261114_pages31_33.json"
+        }
+      ],
+      "status": "already_in_corpus",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 5,
+      "printed_column": "right",
+      "headword": "إِكْرَاهٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 6,
+      "printed_column": "right",
+      "headword": "أَكْرَمَ",
+      "existing_corpus_matches": [
+        {
+          "id": "bayna_scan_20261114_002",
+          "file": "assets/data/entries_bayna_scan_verified_20261114_pages31_33.json"
+        }
+      ],
+      "status": "already_in_corpus",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 7,
+      "printed_column": "right",
+      "headword": "أَكْرَهَ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 8,
+      "printed_column": "right",
+      "headword": "أَكْسَبَ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 9,
+      "printed_column": "right",
+      "headword": "أُكْسِجِينٌ",
+      "existing_corpus_matches": [
+        {
+          "id": "l2u15_014",
+          "file": "assets/data/entries_level2_15_16.json"
+        },
+        {
+          "id": "ind_noun_health_20261025_055",
+          "file": "assets/data/entries_nouns_health_20261025.json"
+        }
+      ],
+      "status": "already_in_corpus",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 10,
+      "printed_column": "right",
+      "headword": "أَكَلَ",
+      "existing_corpus_matches": [
+        {
+          "id": "l1u5_025",
+          "file": "assets/data/entries.json"
+        }
+      ],
+      "status": "already_in_corpus",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 11,
+      "printed_column": "left",
+      "headword": "أَكْلَةٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 12,
+      "printed_column": "left",
+      "headword": "أَكْمَلَ",
+      "existing_corpus_matches": [
+        {
+          "id": "editorial_verbs_social_20261025_097",
+          "file": "assets/data/entries_verbs_social_20261025.json"
+        }
+      ],
+      "status": "already_in_corpus",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 13,
+      "printed_column": "left",
+      "headword": "أَكْمَهُ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 14,
+      "printed_column": "left",
+      "headword": "أَكَنَّ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 15,
+      "printed_column": "left",
+      "headword": "أَكْوَابٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 16,
+      "printed_column": "left",
+      "headword": "أَكْوَانٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 17,
+      "printed_column": "left",
+      "headword": "أَكِيدٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 18,
+      "printed_column": "left",
+      "headword": "آلَافٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 19,
+      "printed_column": "left",
+      "headword": "آلَامٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 20,
+      "printed_column": "left",
+      "headword": "أَلْبَانٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 21,
+      "printed_column": "left",
+      "headword": "آلَةٌ",
+      "existing_corpus_matches": [
+        {
+          "id": "l2u16_014",
+          "file": "assets/data/entries_level2_15_16.json"
+        }
+      ],
+      "status": "already_in_corpus",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 22,
+      "printed_column": "left",
+      "headword": "أَلَحَّ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    },
+    {
+      "position": 23,
+      "printed_column": "left",
+      "headword": "إِلْحَادٌ",
+      "existing_corpus_matches": [],
+      "status": "not_present_as_exact_vocalized_lemma",
+      "headword_status": "manually_read_from_original_printed_scan_pending_separate_full_harakat_and_grammar_proofread"
+    }
+  ],
+  "limitations": [
+    "Printed page contains 23 distinct headwords; this report does not claim complete independent linguistic verification of each vowel or authored Arabic examples.",
+    "The comparative أَكْثَرُ and verb أَكْثَرَ must not merge when the headword's ending differs.",
+    "Not present as the exact NFC fully vocalized lemma in the 90 files is NOT proof that a related undiacritized spelling or another inflection is absent from every source outside this manifest.",
+    "Fifteen missing headwords are an editorial acquisition queue; no speculative cards were added or existing IDs removed."
+  ]
+}
