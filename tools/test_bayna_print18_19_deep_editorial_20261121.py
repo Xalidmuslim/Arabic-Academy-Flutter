@@ -46,11 +46,11 @@ class DeepEditorialPrint18And19(unittest.TestCase):
         a={x["arabic"]:x for x in self.rows}
         self.assertIn("عَرَضٌ"," ".join(a["أَعْرَاضٌ"]["grammar"]))
         self.assertIn("عِرْضٌ"," ".join(a["أَعْرَاضٌ"]["grammar"]))
-        self.assertIn("إِلَى"," ".join(a["أَطْلَعَ"]["collocations"]))
+        self.assertIn("عَلَى"," ".join(a["أَطْلَعَ"]["collocations"]))
         self.assertIn("عَنْ"," ".join(a["أَعْرَبَ"]["collocations"]))
         self.assertIn("أَفْعَلُ"," ".join(a["أَطْهَرُ"]["grammar"]))
         self.assertIn("أَفْعَلُ"," ".join(a["أَعَزُّ"]["grammar"]))
-        self.assertIn("أَمْرَ"," ".join(a["أَطْلَقَ"]["collocations"]))
+        self.assertIn("سَرَاحَ"," ".join(a["أَطْلَقَ"]["collocations"]))
         self.assertEqual(a["إِعْجَازُ الْقُرْآنِ"]["arabic"],"إِعْجَازُ الْقُرْآنِ")
 
 if __name__=="__main__": unittest.main()
