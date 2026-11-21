@@ -54,6 +54,6 @@ class DeepEditorialPrint16(unittest.TestCase):
         self.assertIn(unicodedata.normalize("NFC", "النَّشْرِ"), a["أَصْدَرَ"]["usage_note_ar"])
         self.assertIn("صَفْرَاءُ"," ".join(a["أَصْفَرُ"]["grammar"]))
         self.assertTrue(any("أُصُولٌ" in g for g in a["أَصْلٌ"]["grammar"]))
-        self.assertTrue(any("يَمْلِكُهُ" in g for g in a["أَصْحَابٌ"]["grammar"]))
+        self.assertTrue(any("مَالِكُوهُ" in g for g in a["أَصْحَابٌ"]["grammar"]))
 
 if __name__=="__main__": unittest.main()
