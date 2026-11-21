@@ -84,11 +84,11 @@ class PrintPages16To19(unittest.TestCase):
         all_senses = " ".join([e["meaning_ar"], *e["additional_meanings_ar"]])
         for term in ["الْقَيْدِ", "الرَّصَاصَ", "اسْمًا"]:
             with self.subTest(term=term):
-                self.assertIn(term, all_senses)
-        self.assertIn("إِطْلَاقًا", e["usage_note_ar"])
+                self.assertIn(norm(term), norm(all_senses))
+        self.assertIn(norm("إِطْلَاقًا"), norm(e["usage_note_ar"]))
         overlay = self.review[norm("أَطْلَقَ")]
         self.assertGreaterEqual(len(overlay["definition"]), 3)
-        self.assertIn("إِطْلَاقًا", " ".join(x["ar"] for x in overlay["important"]))
+        self.assertIn(norm("إِطْلَاقًا"), norm(" ".join(x["ar"] for x in overlay["important"])))
 
     def test_asgha_misspelled_verb_has_been_corrected(self):
         article = self.byword[norm("أَصْغَى")]
