@@ -38,9 +38,9 @@ class Print17SemanticExamplesTests(unittest.TestCase):
     def test_adhraba_is_not_restricted_to_work_only(self):
         x = self.source["bayna_scan_v1_380"]
         self.assertIn("فِعْلِ شَيْءٍ", norm(x["meaning_ar"]))
-        self.assertIn("الطَّعَامِ", norm(" ".join(x["examples_ar"])))
+        self.assertIn(norm("الطَّعَامِ"), norm(" ".join(x["examples_ar"])))
         self.assertIn("عَنِ", norm(" ".join(x["grammar"])))
-        self.assertIn("الطَّعَامِ", norm(x["usage_note_ar"]))
+        self.assertIn(norm("الطَّعَامِ"), norm(x["usage_note_ar"]))
 
     def test_atra_denotes_excessive_praise(self):
         x = self.source["bayna_scan_v1_397"]
@@ -53,8 +53,8 @@ class Print17SemanticExamplesTests(unittest.TestCase):
         itarat = self.source["bayna_scan_v1_389"]
         self.assertEqual(len(itar["examples_ar"]), 2)
         self.assertEqual(len(itarat["examples_ar"]), 2)
-        self.assertIn("إِطَارِ الْمَشْرُوعِ", norm(itar["examples_ar"][1]))
-        self.assertIn("إِطَارَاتٍ خَشَبِيَّةٍ", norm(itarat["examples_ar"][1]))
+        self.assertIn(norm("إِطَارِ الْمَشْرُوعِ"), norm(itar["examples_ar"][1]))
+        self.assertIn(norm("إِطَارَاتٍ خَشَبِيَّةٍ"), norm(itarat["examples_ar"][1]))
         self.assertNotEqual(itar["examples_ar"][0], itar["examples_ar"][1])
 
     def test_changed_cards_and_new_examples_mirror_and_audit(self):
