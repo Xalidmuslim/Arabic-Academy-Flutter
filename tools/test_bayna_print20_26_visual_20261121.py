@@ -75,6 +75,20 @@ class PrintedPagesTwentyThroughTwentySix(unittest.TestCase):
         self.assertFalse(self.audit["certifies_independent_grammar_or_examples"])
         self.assertEqual(self.audit["corpus_data_files_modified"], [])
 
+    def test_editorial_queue_counts_are_measured_not_fabricated(self):
+        selected = [x for x in self.source
+                    if 26 <= x["source_provenance"]["pdf_page"] <= 30]
+        measured = {
+            "one_grammar_line": sum(len(x.get("grammar", [])) == 1 for x in selected),
+            "one_example_sentence": sum(len(x.get("examples_ar", [])) == 1 for x in selected),
+            "zero_collocations": sum(not x.get("collocations") for x in selected),
+            "zero_synonyms": sum(not x.get("synonyms") for x in selected),
+            "zero_antonyms": sum(not x.get("antonyms") for x in selected),
+            "additional_meaning_records": sum(bool(x.get("additional_meanings_ar")) for x in selected),
+        }
+        self.assertEqual(measured, self.audit["source_editorial_queue_summary"])
+
+
     def test_known_form_distinctions_preserved(self):
         rows = {h["existing_scan_id"]: h["headword"]
                 for p in self.audit["lexicon_pages"] for h in p["headings"]}
