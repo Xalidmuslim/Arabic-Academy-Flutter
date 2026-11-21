@@ -20300,24 +20300,30 @@
       "arabic": "أَطْعَمَ",
       "definition": [
         {
-          "ar": "قَدَّمَ الطَّعَامَ لِغَيْرِهِ."
+          "ar": "قَدَّمَ الطَّعَامَ لِغَيْرِهِ."
         }
       ],
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُطْعِمُ؛ الْمَصْدَرُ: إِطْعَامٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ مُتَعَدٍّ؛ وَيَجُوزُ أَنْ يُذْكَرَ مَنْ تَنَاوَلَ الطَّعَامَ وَمَا قُدِّمَ لَهُ مَفْعُولَيْنِ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "أَطْعَمَتِ الْأُمُّ طِفْلَهَا."
+          "ar": "أَطْعَمَتِ الْأُمُّ طِفْلَهَا."
+        },
+        {
+          "ar": "أَطْعَمَ الْمُتَطَوِّعُ الْفَقِيرَ خُبْزًا طَازَجًا."
         }
       ],
       "important": [
         {
-          "ar": "فِي «أَطْعَمَتِ الْأُمُّ طِفْلَهَا» يَكُونُ «طِفْلَهَا» مَفْعُولًا بِهِ، وَالْفِعْلُ يُبَيِّنُ مَنْ قَدَّمَ الطَّعَامَ وَلِمَنْ قُدِّمَ."
+          "ar": "يُقَالُ «أَطْعَمَ الْفَقِيرَ طَعَامًا»؛ فَـ«الْفَقِيرَ» مَفْعُولٌ بِهِ أَوَّلٌ وَ«طَعَامًا» مَفْعُولٌ بِهِ ثَانٍ فِي هَذَا التَّرْكِيبِ."
         }
       ],
       "source_urls": [
@@ -20335,6 +20341,11 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
@@ -20347,18 +20358,24 @@
       "grammar": [
         {
           "ar": "جَمْعُ طَعَامٍ؛ الْمُفْرَدُ: طَعَامٌ."
+        },
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«طَعَامٍ» عَلَى وَزْنِ «أَفْعِلَةٍ»، وَيُسْتَعْمَلُ عِنْدَ تَعَدُّدِ أَنْوَاعِ الطَّعَامِ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "تُقَدِّمُ الْمَطَاعِمُ أَطْعِمَةً مُتَنَوِّعَةً."
+          "ar": "تُقَدِّمُ الْمَطَاعِمُ أَطْعِمَةً مُتَنَوِّعَةً."
+        },
+        {
+          "ar": "تَقْدِمُ الْمَدْرَسَةُ أَطْعِمَةً صِحِّيَّةً لِلتَّلَامِيذِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«طَعَامٌ» قَدْ يَدُلُّ عَلَى الْمَأْكُولِ عُمُومًا، أَمَّا «أَطْعِمَةٌ» فَيُبْرِزُ تَعَدُّدَ أَنْوَاعِهِ، وَالْمُفْرَدُ لَهُ «طَعَامٌ»."
         }
       ],
       "source_urls": [
@@ -20378,18 +20395,26 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَطْفَأَ",
       "definition": [
         {
-          "ar": "جَعَلَ النَّارَ أَوِ الضَّوْءَ يَتَوَقَّفُ عَنِ الِاشْتِعَالِ."
+          "ar": "جَعَلَ النَّارَ أَوِ الضَّوْءَ يَتَوَقَّفُ عَنِ الِاشْتِعَالِ."
         }
       ],
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُطْفِئُ؛ الْمَصْدَرُ: إِطْفَاءٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ مَهْمُوزُ اللَّامِ وَمُتَعَدٍّ، وَيَتَعَلَّقُ بِإِزَالَةِ النَّارِ أَوِ النُّورِ."
         }
       ],
       "synonyms": [
@@ -20405,11 +20430,14 @@
       "examples": [
         {
           "ar": "أَطْفَأَ الْوَلَدُ الْمِصْبَاحَ."
+        },
+        {
+          "ar": "أَطْفَأَ الرَّجُلُ الْمِصْبَاحَ قَبْلَ النَّوْمِ."
         }
       ],
       "important": [
         {
-          "ar": "«أَطْفَأَ الْمِصْبَاحَ» فِعْلٌ مُتَعَدٍّ، أَمَّا «انْطَفَأَ الْمِصْبَاحُ» فَيَدُلُّ عَلَى انْقِطَاعِ الضَّوْءِ دُونَ ذِكْرِ فَاعِلٍ أَطْفَأَهُ."
+          "ar": "«أَطْفَأَ النَّارَ» لِإِزَالَةِ اشْتِعَالِهَا، وَ«أَطْفَأَ الْمِصْبَاحَ» لِقَطْعِ نُورِهِ؛ وَهَذَا الْفِعْلُ مُخْتَلِفٌ عَنْ «انْطَفَأَ» اللَّازِمِ."
         }
       ],
       "source_urls": [
@@ -20427,18 +20455,26 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَطْفَالٌ",
       "definition": [
         {
-          "ar": "أَوْلَادٌ صِغَارٌ لَمْ يَبْلُغُوا سِنَّ الرُّشْدِ."
+          "ar": "أَوْلَادٌ صِغَارٌ لَمْ يَبْلُغُوا سِنَّ الرُّشْدِ."
         }
       ],
       "grammar": [
         {
           "ar": "جَمْعُ طِفْلٍ؛ الْمُفْرَدُ: طِفْلٌ."
+        },
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«طِفْلٍ»، وَمُؤَنَّثُ الْمُفْرَدِ «طِفْلَةٌ»، وَجَمْعُهَا «طِفْلَاتٌ»."
         }
       ],
       "synonyms": [],
@@ -20446,11 +20482,14 @@
       "examples": [
         {
           "ar": "لَعِبَ الْأَطْفَالُ فِي الْحَدِيقَةِ."
+        },
+        {
+          "ar": "لَعِبَ الْأَطْفَالُ فِي سَاحَةِ الْمَدْرَسَةِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَطْفَالٌ» جَمْعُ «طِفْلٍ»، وَيَشْمَلُ الْأَوْلَادَ الصِّغَارَ؛ وَلِلدَّلَالَةِ عَلَى الْبَنَاتِ وَحْدَهُنَّ يُقَالُ «طِفْلَاتٌ»."
         }
       ],
       "source_urls": [
@@ -20473,6 +20512,11 @@
         "uncovered_source_headwords": [
           "أَطْقُمٌ"
         ]
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
@@ -20484,19 +20528,25 @@
       ],
       "grammar": [
         {
-          "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُطِلُّ؛ الْمَصْدَرُ: إِطْلَالٌ."
+          "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُطِلُّ؛ الْمَصْدَرُ: إِطْلَالٌ."
+        },
+        {
+          "ar": "فِعْلٌ مَاضٍ مُضَعَّفٌ؛ الْمُضَارِعُ «يُطِلُّ»، وَيَتَعَدَّى بِـ«عَلَى» فِي مَعْنَى النَّظَرِ مِنْ مَوْضِعٍ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "أَطَلَّ الرَّجُلُ مِنَ النَّافِذَةِ."
+          "ar": "أَطَلَّ الرَّجُلُ مِنَ النَّافِذَةِ."
+        },
+        {
+          "ar": "تُطِلُّ شُرْفَةُ الْمَنْزِلِ عَلَى الْحَدِيقَةِ."
         }
       ],
       "important": [
         {
-          "ar": "يُقَالُ: أَطَلَّ مِنَ النَّافِذَةِ وَأَطَلَّ عَلَى الْمَدِينَةِ؛ وَيَخْتَلِفُ تَعَلُّقُ حَرْفِ الْجَرِّ بِحَسَبِ الْمَعْنَى."
+          "ar": "«أَطَلَّ مِنَ النَّافِذَةِ» لِظُهُورِ الشَّخْصِ مِنْهَا، وَ«أَطَلَّ عَلَى الْبَحْرِ» لِلْإِشْرَافِ عَلَيْهِ مِنْ مَوْضِعٍ."
         }
       ],
       "source_urls": [
@@ -20514,18 +20564,26 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "إِطْلَاقٌ",
       "definition": [
         {
-          "ar": "تَرْكُ الشَّيْءِ حُرًّا أَوْ بَدْءُ انْطِلَاقِهِ."
+          "ar": "تَرْكُ الشَّيْءِ حُرًّا أَوْ بَدْءُ انْطِلَاقِهِ."
         }
       ],
       "grammar": [
         {
           "ar": "مَصْدَرُ أَطْلَقَ يُطْلِقُ."
+        },
+        {
+          "ar": "مَصْدَرٌ لِـ«أَطْلَقَ»؛ وَيَتَعَدَّدُ مَعْنَاهُ بَيْنَ التَّحْرِيرِ وَالتَّسْمِيَةِ وَالْإِرْسَالِ وَعَدَمِ التَّقْيِيدِ."
         }
       ],
       "synonyms": [],
@@ -20533,11 +20591,14 @@
       "examples": [
         {
           "ar": "أُعْلِنَ إِطْلَاقُ الْمَشْرُوعِ الْجَدِيدِ."
+        },
+        {
+          "ar": "أَعْلَنَتِ الْجِهَةُ الْمُخْتَصَّةُ إِطْلَاقَ سَرَاحِ الْأَسِيرِ."
         }
       ],
       "important": [
         {
-          "ar": "يَدُلُّ الْمَصْدَرُ عَلَى الْحَدَثِ دُونَ تَقْيِيدِهِ بِزَمَنٍ، بِخِلَافِ الْفِعْلِ."
+          "ar": "يُخْتَلَفُ فِي مَعْنَى «إِطْلَاقِ السَّرَاحِ» وَ«إِطْلَاقِ الِاسْمِ» وَ«عَلَى الْإِطْلَاقِ»؛ فَالْأَوَّلُ تَحْرِيرٌ وَالثَّانِي تَسْمِيَةٌ وَالثَّالِثُ تَعْمِيمٌ."
         }
       ],
       "source_urls": [
@@ -20555,30 +20616,41 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَطْلَالٌ",
       "definition": [
         {
-          "ar": "بَقَايَا بِنَايَاتٍ قَدِيمَةٍ تَهَدَّمَتْ."
+          "ar": "بَقَايَا بِنَايَاتٍ قَدِيمَةٍ تَهَدَّمَتْ."
         }
       ],
       "grammar": [
         {
           "ar": "جَمْعُ طَلَلٍ؛ الْمُفْرَدُ: طَلَلٌ."
+        },
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«طَلَلٍ»، وَيُرَادُ بِهِ مَا بَقِيَ مِنْ آثَارِ مَسْكَنٍ أَوْ بِنَاءٍ دَرَسَ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "وَقَفَ السَّائِحُ عِنْدَ أَطْلَالِ الْمَدِينَةِ."
+          "ar": "وَقَفَ السَّائِحُ عِنْدَ أَطْلَالِ الْمَدِينَةِ."
+        },
+        {
+          "ar": "وَقَفَ الْمُسَافِرُ عِنْدَ أَطْلَالِ الْقَرْيَةِ الْقَدِيمَةِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«الطَّلَلُ» أَثَرُ مَسْكَنٍ قَدِيمٍ بَعْدَ خَرَابِهِ؛ وَيَكْثُرُ ذِكْرُ «الْأَطْلَالِ» فِي وَصْفِ الْأَمَاكِنِ الْمَهْجُورَةِ."
         }
       ],
       "source_urls": [
@@ -20596,30 +20668,41 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَطْلَسٌ",
       "definition": [
         {
-          "ar": "كِتَابٌ يَشْتَمِلُ عَلَى خَرَائِطَ جُغْرَافِيَّةٍ."
+          "ar": "كِتَابٌ يَشْتَمِلُ عَلَى خَرَائِطَ جُغْرَافِيَّةٍ."
         }
       ],
       "grammar": [
         {
-          "ar": "اِسْمٌ مُذَكَّرٌ؛ الْجَمْعُ: أَطَالِسُ."
+          "ar": "اِسْمٌ مُذَكَّرٌ؛ الْجَمْعُ: أَطَالِسُ."
+        },
+        {
+          "ar": "اِسْمٌ مُذَكَّرٌ لِمَجْمُوعَةٍ مِنَ الْخَرَائِطِ، وَجَمْعُهُ «أَطَالِسُ» عَلَى صِيغَةِ مُنْتَهَى الْجُمُوعِ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "فَتَحَ الطَّالِبُ الْأَطْلَسَ لِيَبْحَثَ عَنْ خَرِيطَةٍ."
+          "ar": "فَتَحَ الطَّالِبُ الْأَطْلَسَ لِيَبْحَثَ عَنْ خَرِيطَةٍ."
+        },
+        {
+          "ar": "يَضُمُّ الْأَطْلَسُ خَرَائِطَ لِلْقَارَّاتِ وَالْبُحَارِ."
         }
       ],
       "important": [
         {
-          "ar": "«أَطْلَسٌ» اسْمٌ مُفْرَدٌ، وَالْجَمْعُ: أَطَالِسُ."
+          "ar": "«الْأَطْلَسُ» كِتَابُ خَرَائِطَ، وَجَمْعُهُ «أَطَالِسُ»؛ وَلَا تُنَوَّنُ «أَطَالِسُ» لِأَنَّهَا مِنْ صِيَغِ مُنْتَهَى الْجُمُوعِ."
         }
       ],
       "source_urls": [
@@ -20637,6 +20720,11 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
@@ -20649,18 +20737,24 @@
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُطْلِعُ؛ الْمَصْدَرُ: إِطْلَاعٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ مُتَعَدٍّ؛ وَيُقَالُ «أَطْلَعَ فُلَانًا عَلَى الْأَمْرِ» أَيْ أَعْلَمَهُ بِهِ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "أَطْلَعَ الْمُدِيرُ الْفَرِيقَ عَلَى الْخُطَّةِ."
+          "ar": "أَطْلَعَ الْمُدِيرُ الْفَرِيقَ عَلَى الْخُطَّةِ."
+        },
+        {
+          "ar": "أَطْلَعَ الْمُدِيرُ الْعَامِلِينَ عَلَى خُطَّةِ الْعَمَلِ."
         }
       ],
       "important": [
         {
-          "ar": "يُقَالُ: أَطْلَعَ الْمُدِيرُ الْفَرِيقَ عَلَى الْخُطَّةِ؛ فَـ«الْفَرِيقَ» مَفْعُولٌ بِهِ، وَ«عَلَى الْخُطَّةِ» تَدُلُّ عَلَى مَا عَرَفَهُ الْفَرِيقُ."
+          "ar": "لِلْإِعْلَامِ يُقَالُ «أَطْلَعَ الْمُدِيرُ الْمُوَظَّفَ عَلَى الْقَرَارِ»؛ فَـ«الْمُوَظَّفَ» مَفْعُولٌ بِهِ، وَ«عَلَى» تَدْخُلُ عَلَى مَضْمُونِ الْإِعْلَامِ."
         }
       ],
       "source_urls": [
@@ -20678,49 +20772,57 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَطْلَقَ",
       "definition": [
         {
-          "ar": "حَرَّرَ شَيْئًا مِنَ الْقَيْدِ أَوْ رَفَعَ عَنْهُ الْمَنْعَ."
+          "ar": "حَرَّرَ شَيْئًا مِنَ الْقَيْدِ أَوْ رَفَعَ عَنْهُ الْمَنْعَ."
         },
         {
-          "ar": "حَرَّرَ شَخْصًا مِنَ الْقَيْدِ أَوِ الْحَبْسِ وَسَمَحَ لَهُ بِالْخُرُوجِ."
+          "ar": "حَرَّرَ شَخْصًا مِنَ الْقَيْدِ أَوِ الْحَبْسِ وَسَمَحَ لَهُ بِالْخُرُوجِ."
         },
         {
-          "ar": "أَطْلَقَ الرَّصَاصَ نَحْوَ الْهَدَفِ؛ أَيْ أَخْرَجَهُ مِنَ السِّلَاحِ."
+          "ar": "أَطْلَقَ الرَّصَاصَ نَحْوَ الْهَدَفِ؛ أَيْ أَخْرَجَهُ مِنَ السِّلَاحِ."
         },
         {
-          "ar": "سَمَّى شَخْصًا أَوْ شَيْئًا بِاسْمٍ؛ فَيُقَالُ: أَطْلَقَ عَلَيْهِ اسْمًا مُعَيَّنًا."
+          "ar": "سَمَّى شَخْصًا أَوْ شَيْئًا بِاسْمٍ؛ فَيُقَالُ: أَطْلَقَ عَلَيْهِ اسْمًا مُعَيَّنًا."
         },
         {
-          "ar": "وَجَّهَ شَيْئًا نَحْوَ هَدَفٍ، كَمَنْ أَطْلَقَ الرَّصَاصَ."
+          "ar": "وَجَّهَ شَيْئًا نَحْوَ هَدَفٍ، كَمَنْ أَطْلَقَ الرَّصَاصَ."
         },
         {
-          "ar": "سَمَّى شَخْصًا أَوْ شَيْئًا اسْمًا مُعَيَّنًا."
+          "ar": "سَمَّى شَخْصًا أَوْ شَيْئًا اسْمًا مُعَيَّنًا."
         }
       ],
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُطْلِقُ؛ الْمَصْدَرُ: إِطْلَاقٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ مُتَعَدٍّ؛ وَمِنْ تَرَاكِيبِهِ «أَطْلَقَ سَرَاحَهُ» وَ«أَطْلَقَ اسْمًا عَلَى شَيْءٍ»."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "أَطْلَقَ الْمَسْؤُولُ الطَّائِرَ مِنَ الْقَفَصِ."
+          "ar": "أَطْلَقَ الْمَسْؤُولُ الطَّائِرَ مِنَ الْقَفَصِ."
         },
         {
-          "ar": "أَطْلَقَ الْقَاضِي سَرَاحَ السَّجِينِ بَعْدَ انْتِهَاءِ مُدَّتِهِ."
+          "ar": "أَطْلَقَ الْقَاضِي سَرَاحَ السَّجِينِ بَعْدَ انْتِهَاءِ مُدَّتِهِ."
         },
         {
-          "ar": "أَطْلَقَ الْكَاتِبُ عَلَى بَطَلِ قِصَّتِهِ اسْمًا جَدِيدًا."
+          "ar": "أَطْلَقَ الْكَاتِبُ عَلَى بَطَلِ قِصَّتِهِ اسْمًا جَدِيدًا."
         },
         {
-          "ar": "أَطْلَقَ الرَّامِي سَهْمًا نَحْوَ الْهَدَفِ."
+          "ar": "أَطْلَقَ الرَّامِي سَهْمًا نَحْوَ الْهَدَفِ."
         },
         {
           "ar": "أَطْلَقَ الْأَبُ عَلَى ابْنِهِ اسْمًا جَدِيدًا."
@@ -20728,7 +20830,7 @@
       ],
       "important": [
         {
-          "ar": "لِلْفِعْلِ أَطْلَقَ مَعَانٍ بِحَسَبِ السِّيَاقِ، أَمَّا إِطْلَاقًا فَهُوَ مَصْدَرٌ يُسْتَعْمَلُ لِنَفْيِ الْأَمْرِ عَلَى الْإِطْلَاقِ: لَمْ يَحْدُثْ إِطْلَاقًا."
+          "ar": "«أَطْلَقَ سَرَاحَهُ» لِلتَّحْرِيرِ مِنَ الْقَيْدِ، وَ«أَطْلَقَ عَلَيْهِ اسْمًا» لِلتَّسْمِيَةِ؛ وَلَا يُحْمَلُ الْفِعْلُ عَلَى مَعْنًى وَاحِدٍ فِي جَمِيعِ التَّرَاكِيبِ."
         }
       ],
       "source_urls": [
@@ -20746,6 +20848,11 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
@@ -20758,18 +20865,24 @@
       "grammar": [
         {
           "ar": "جَمْعُ طُنُبٍ؛ الْمُفْرَدُ: طُنُبٌ."
+        },
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«طُنُبٍ»، وَهُوَ حَبْلٌ يُشَدُّ لِتَثْبِيتِ الْخَيْمَةِ وَنَحْوِهَا."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "شَدَّ الرَّجُلُ أَطْنَابَ الْخَيْمَةِ."
+          "ar": "شَدَّ الرَّجُلُ أَطْنَابَ الْخَيْمَةِ."
+        },
+        {
+          "ar": "شَدَّ الرَّاعِي أَطْنَابَ الْخَيْمَةِ قَبْلَ هُبُوبِ الرِّيحِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَطْنَابٌ» هُنَا حِبَالُ الْخَيْمَةِ؛ وَهِيَ غَيْرُ «إِطْنَابٍ» الَّذِي يَعْنِي التَّوَسُّعَ فِي الْكَلَامِ."
         }
       ],
       "source_urls": [
@@ -20787,18 +20900,26 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَطْنَبَ",
       "definition": [
         {
-          "ar": "أَطَالَ الْكَلَامَ وَتَوَسَّعَ فِيهِ."
+          "ar": "أَطَالَ الْكَلَامَ وَتَوَسَّعَ فِيهِ."
         }
       ],
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُطْنِبُ؛ الْمَصْدَرُ: إِطْنَابٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ؛ وَيَتَعَدَّى بِـ«فِي» فِي تَرْكِيبِ «أَطْنَبَ فِي الْحَدِيثِ»."
         }
       ],
       "synonyms": [],
@@ -20806,11 +20927,14 @@
       "examples": [
         {
           "ar": "أَطْنَبَ الْخَطِيبُ فِي وَصْفِ الْحَدَثِ."
+        },
+        {
+          "ar": "أَطْنَبَ الْخَطِيبُ فِي شَرْحِ الْمَسْأَلَةِ."
         }
       ],
       "important": [
         {
-          "ar": "يُقَالُ: أَطْنَبَ الْخَطِيبُ فِي وَصْفِ الْحَدَثِ؛ فَالْفِعْلُ يَدُلُّ عَلَى الْإِطَالَةِ فِي الْبَيَانِ وَالتَّفْصِيلِ."
+          "ar": "«أَطْنَبَ فِي الْحَدِيثِ» أَيْ تَوَسَّعَ فِيهِ؛ وَقَدْ يَكُونُ الْإِطْنَابُ مُفِيدًا إِذَا كَانَتْ فِيهِ زِيَادَةٌ تَقْتَضِيهَا الْفَائِدَةُ."
         }
       ],
       "source_urls": [
@@ -20828,18 +20952,26 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَطْهَرُ",
       "definition": [
         {
-          "ar": "أَكْثَرُ نَقَاءً وَبُعْدًا عَنِ النَّجَاسَةِ."
+          "ar": "أَكْثَرُ نَقَاءً وَبُعْدًا عَنِ النَّجَاسَةِ."
         }
       ],
       "grammar": [
         {
-          "ar": "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ أَفْعَلَ."
+          "ar": "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ أَفْعَلُ."
+        },
+        {
+          "ar": "اِسْمُ تَفْضِيلٍ مِنَ الطَّهَارَةِ عَلَى وَزْنِ «أَفْعَلُ»، وَيُسْتَعْمَلُ مَعَ «مِنْ» لِلْمُقَارَنَةِ."
         }
       ],
       "synonyms": [],
@@ -20847,11 +20979,14 @@
       "examples": [
         {
           "ar": "هَذَا الْمَاءُ أَطْهَرُ مِنْ ذَاكَ."
+        },
+        {
+          "ar": "هَذَا الثَّوْبُ أَطْهَرُ مِنْ ذَاكَ بَعْدَ غَسْلِهِ."
         }
       ],
       "important": [
         {
-          "ar": "يُسْتَعْمَلُ اسْمُ التَّفْضِيلِ لِلْمُقَارَنَةِ، وَيَأْتِي مَعَ «مِنْ» فِي كَثِيرٍ مِنَ الْجُمَلِ."
+          "ar": "«أَطْهَرُ» يَدُلُّ عَلَى الْمُفَاضَلَةِ فِي الطَّهَارَةِ، وَهُوَ خِلَافُ «طَاهِرٍ» الَّذِي يَصِفُ الشَّيْءَ دُونَ مُقَارَنَةٍ."
         }
       ],
       "source_urls": [
@@ -20869,6 +21004,11 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
@@ -20881,6 +21021,9 @@
       "grammar": [
         {
           "ar": "جَمْعُ طَوْدٍ؛ الْمُفْرَدُ: طَوْدٌ."
+        },
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«طَوْدٍ»؛ وَ«الطَّوْدُ» جَبَلٌ عَظِيمٌ يُوصَفُ بِالرُّسُوخِ."
         }
       ],
       "synonyms": [],
@@ -20888,11 +21031,14 @@
       "examples": [
         {
           "ar": "ظَهَرَتِ الْأَطْوَادُ فِي الْأُفُقِ."
+        },
+        {
+          "ar": "تَبْدُو الْأَطْوَادُ شَامِخَةً عِنْدَ الْأُفُقِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«طَوْدٌ» اسْمٌ لِلْجَبَلِ الْعَظِيمِ، وَ«أَطْوَادٌ» جَمْعُهُ؛ وَهُوَ أَخَصُّ مِنْ لَفْظِ «جَبَلٍ» عِنْدَ الدَّلَالَةِ عَلَى الْعِظَمِ."
         }
       ],
       "source_urls": [
@@ -20910,30 +21056,41 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَطْوَارٌ",
       "definition": [
         {
-          "ar": "مَرَاحِلُ مُتَعَاقِبَةٌ مِنَ التَّطَوُّرِ."
+          "ar": "مَرَاحِلُ مُتَعَاقِبَةٌ مِنَ التَّطَوُّرِ."
         }
       ],
       "grammar": [
         {
           "ar": "جَمْعُ طَوْرٍ؛ الْمُفْرَدُ: طَوْرٌ."
+        },
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«طَوْرٍ»؛ وَهُوَ مَرْحَلَةٌ مُعَيَّنَةٌ فِي مَسَارِ حَدَثٍ أَوْ نُمُوٍّ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "يَمُرُّ النَّبَاتُ بِأَطْوَارٍ مُخْتَلِفَةٍ."
+          "ar": "يَمُرُّ النَّبَاتُ بِأَطْوَارٍ مُخْتَلِفَةٍ."
+        },
+        {
+          "ar": "مَرَّ الْمَشْرُوعُ بِأَطْوَارٍ مُخْتَلِفَةٍ قَبْلَ اكْتِمَالِهِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«طَوْرٌ» مَرْحَلَةٌ وَاحِدَةٌ، وَ«أَطْوَارٌ» مَرَاحِلُ؛ وَيَجُوزُ أَنْ تَكُونَ أَطْوَارُ النُّمُوِّ طَبِيعِيَّةً أَوْ أَطْوَارُ الْعَمَلِ تَنْظِيمِيَّةً."
         }
       ],
       "source_urls": [
@@ -20951,6 +21108,11 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
@@ -20963,18 +21125,24 @@
       "grammar": [
         {
           "ar": "جَمْعُ ظُفْرٍ؛ الْمُفْرَدُ: ظُفْرٌ."
+        },
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«ظُفْرٍ» عَلَى صِيغَةِ مُنْتَهَى الْجُمُوعِ؛ وَيُرَادُ بِهِ أَظْفَارُ الْإِنْسَانِ أَوِ الْحَيَوَانِ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "قَصَّ الطِّفْلُ أَظَافِرَهُ."
+          "ar": "قَصَّ الطِّفْلُ أَظَافِرَهُ."
+        },
+        {
+          "ar": "نَظَّفَ الْوَلَدُ أَظَافِرَهُ بَعْدَ الْعَمَلِ فِي الْحَدِيقَةِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«أَظَافِرُ» جَمْعُ «ظُفْرٍ»، وَهِيَ مَمْنُوعَةٌ مِنَ الصَّرْفِ؛ لِذَلِكَ لَا تُنَوَّنُ فِي حَالَةِ التَّنْكِيرِ."
         }
       ],
       "source_urls": [
@@ -20992,6 +21160,11 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
@@ -21004,6 +21177,9 @@
       "grammar": [
         {
           "ar": "جَمْعُ ظِلْفٍ؛ الْمُفْرَدُ: ظِلْفٌ."
+        },
+        {
+          "ar": "جَمْعُ تَكْسِيرٍ لِـ«ظِلْفٍ»؛ وَهُوَ الطَّرَفُ الصُّلْبُ فِي قَدَمِ بَعْضِ الْحَيَوَانَاتِ."
         }
       ],
       "synonyms": [],
@@ -21011,11 +21187,14 @@
       "examples": [
         {
           "ar": "تَسِيرُ الْمَاعِزُ عَلَى أَظْلَافِهَا."
+        },
+        {
+          "ar": "تَظْهَرُ آثَارُ أَظْلَافِ الْمَاعِزِ عَلَى التُّرَابِ."
         }
       ],
       "important": [
         {
-          "ar": "هَذِهِ صِيغَةُ جَمْعٍ؛ وَتَعْيِينُ مُفْرَدِهَا يُسَاعِدُ عَلَى فَهْمِ بِنْيَةِ الْكَلِمَةِ."
+          "ar": "«الظِّلْفُ» يَخُصُّ أَطْرَافَ الْأَرْجُلِ فِي حَيَوَانَاتٍ مُعَيَّنَةٍ، وَلَيْسَ اسْمًا لِقَدَمِ الْإِنْسَانِ."
         }
       ],
       "source_urls": [
@@ -21033,30 +21212,41 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَظْلَمَ",
       "definition": [
         {
-          "ar": "جَعَلَ الْمَكَانَ مُظْلِمًا أَوْ دَخَلَ فِي الظَّلَامِ."
+          "ar": "جَعَلَ الْمَكَانَ مُظْلِمًا أَوْ دَخَلَ فِي الظَّلَامِ."
         }
       ],
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُظْلِمُ؛ الْمَصْدَرُ: إِظْلَامٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ يَرِدُ لَازِمًا عِنْدَ دُخُولِ الظَّلَامِ، وَيَرِدُ مُتَعَدِّيًا لِجَعْلِ الْمَكَانِ مُظْلِمًا."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "أَظْلَمَتِ السَّمَاءُ قَبْلَ الْمَطَرِ."
+          "ar": "أَظْلَمَتِ السَّمَاءُ قَبْلَ الْمَطَرِ."
+        },
+        {
+          "ar": "أَظْلَمَ الْمَكَانُ بَعْدَ انْقِطَاعِ الْكَهْرَبَاءِ."
         }
       ],
       "important": [
         {
-          "ar": "فِي «أَظْلَمَتِ السَّمَاءُ» يَدُلُّ الْفِعْلُ عَلَى صَيْرُورَتِهَا مُظْلِمَةً؛ وَقَدْ يُسْتَعْمَلُ مُتَعَدِّيًا فِي مَعْنَى جَعْلِ الشَّيْءِ مُظْلِمًا."
+          "ar": "«أَظْلَمَتِ السَّمَاءُ» يَدُلُّ عَلَى دُخُولِهَا فِي الظَّلَامِ، وَالْفِعْلُ فِي هَذَا الْمَعْنَى لَازِمٌ."
         }
       ],
       "source_urls": [
@@ -21074,18 +21264,26 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَظْهَرَ",
       "definition": [
         {
-          "ar": "جَعَلَ الْأَمْرَ وَاضِحًا بَعْدَ أَنْ كَانَ خَفِيًّا."
+          "ar": "جَعَلَ الْأَمْرَ وَاضِحًا بَعْدَ أَنْ كَانَ خَفِيًّا."
         }
       ],
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُظْهِرُ؛ الْمَصْدَرُ: إِظْهَارٌ."
+        },
+        {
+          "ar": "فِعْلٌ مَاضٍ رُبَاعِيٌّ مُتَعَدٍّ؛ وَمَفْعُولُهُ مَا يَكْشِفُهُ الْفَاعِلُ أَوْ يُبْرِزُهُ."
         }
       ],
       "synonyms": [
@@ -21100,12 +21298,15 @@
       ],
       "examples": [
         {
-          "ar": "أَظْهَرَ الْبَاحِثُ النَّتَائِجَ."
+          "ar": "أَظْهَرَ الْبَاحِثُ النَّتَائِجَ."
+        },
+        {
+          "ar": "أَظْهَرَ الْفَحْصُ سَبَبَ الْعُطْلِ."
         }
       ],
       "important": [
         {
-          "ar": "«أَظْهَرَ الْبَاحِثُ النَّتَائِجَ» فِعْلٌ مُتَعَدٍّ، وَيُقَابِلُهُ فِي هَذَا السِّيَاقِ إِخْفَاءُ النَّتَائِجِ."
+          "ar": "«أَظْهَرَ الْحَقِيقَةَ» أَيْ كَشَفَهَا، أَمَّا «ظَهَرَتِ الْحَقِيقَةُ» فَيَدُلُّ عَلَى وُضُوحِهَا دُونَ ذِكْرِ مَنْ أَظْهَرَهَا."
         }
       ],
       "source_urls": [
@@ -21123,30 +21324,41 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَعَادَ",
       "definition": [
         {
-          "ar": "جَعَلَ الشَّيْءَ يَحْدُثُ مَرَّةً أُخْرَى أَوْ رَدَّهُ."
+          "ar": "جَعَلَ الشَّيْءَ يَحْدُثُ مَرَّةً أُخْرَى أَوْ رَدَّهُ."
         }
       ],
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُعِيدُ؛ الْمَصْدَرُ: إِعَادَةٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ مُعْتَلُّ الْعَيْنِ وَمُتَعَدٍّ؛ وَيَخْتَلِفُ مَعْنَاهُ بِحَسَبِ مَا يُعَادُ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "أَعَادَ الطَّالِبُ قِرَاءَةَ النَّصِّ."
+          "ar": "أَعَادَ الطَّالِبُ قِرَاءَةَ النَّصِّ."
+        },
+        {
+          "ar": "أَعَادَ الْمُسْتَعِيرُ الْكِتَابَ إِلَى صَاحِبِهِ."
         }
       ],
       "important": [
         {
-          "ar": "يُقَالُ: أَعَادَ قِرَاءَةَ النَّصِّ أَيْ قَرَأَهُ مَرَّةً أُخْرَى، وَأَعَادَ الْكِتَابَ أَيْ رَدَّهُ؛ فَلِلْفِعْلِ اسْتِعْمَالَانِ مُخْتَلِفَانِ."
+          "ar": "«أَعَادَ قِرَاءَةَ النَّصِّ» أَيْ كَرَّرَهَا، وَ«أَعَادَ الْكِتَابَ» أَيْ رَدَّهُ؛ فَتُفَرَّقُ الدَّلَالَتَانِ بِالْمَفْعُولِ بِهِ."
         }
       ],
       "source_urls": [
@@ -21164,36 +21376,47 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
       "arabic": "أَعَارَ",
       "definition": [
         {
-          "ar": "أَعْطَى شَيْئًا لِغَيْرِهِ عَلَى أَنْ يَرُدَّهُ."
+          "ar": "أَعْطَى شَيْئًا لِغَيْرِهِ عَلَى أَنْ يَرُدَّهُ."
         },
         {
-          "ar": "أَعَارَ الْأَمْرَ اهْتِمَامًا: أَوْلَاهُ عِنَايَةً وَاهْتَمَّ بِهِ."
+          "ar": "أَعَارَ الْأَمْرَ اهْتِمَامًا: أَوْلَاهُ عِنَايَةً وَاهْتَمَّ بِهِ."
         }
       ],
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُعِيرُ؛ الْمَصْدَرُ: إِعَارَةٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ مُتَعَدٍّ؛ وَيُمْكِنُ أَنْ يَتَعَدَّى إِلَى مُسْتَعِيرٍ وَشَيْءٍ مُعَارٍ."
         }
       ],
       "synonyms": [],
       "contrasts": [],
       "examples": [
         {
-          "ar": "أَعَارَ الْمُعَلِّمُ الطَّالِبَ كِتَابًا."
+          "ar": "أَعَارَ الْمُعَلِّمُ الطَّالِبَ كِتَابًا."
         },
         {
-          "ar": "أَعَارَ الطَّالِبُ النَّصِيحَةَ اهْتِمَامًا كَبِيرًا."
+          "ar": "أَعَارَ الطَّالِبُ النَّصِيحَةَ اهْتِمَامًا كَبِيرًا."
+        },
+        {
+          "ar": "أَعَارَ الْجَارُ صَدِيقَهُ دَرَّاجَةً لِيَسْتَعْمِلَهَا."
         }
       ],
       "important": [
         {
-          "ar": "يُقَالُ: أَعَارَ كِتَابًا لِغَيْرِهِ لِيَرُدَّهُ، وَأَعَارَ أَمْرًا اهْتِمَامًا بِمَعْنَى اهْتَمَّ بِهِ."
+          "ar": "«أَعَارَ» بِمَعْنَى أَعْطَى شَيْئًا لِمُدَّةٍ ثُمَّ يُرَدُّ، وَ«أَعَارَ الْأَمْرَ اهْتِمَامًا» اسْتِعْمَالٌ مَجَازِيٌّ مُخْتَلِفٌ."
         }
       ],
       "source_urls": [
@@ -21211,6 +21434,11 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
@@ -21223,6 +21451,9 @@
       "grammar": [
         {
           "ar": "فِعْلٌ مَاضٍ؛ الْمُضَارِعُ: يُعِينُ؛ الْمَصْدَرُ: إِعَانَةٌ."
+        },
+        {
+          "ar": "فِعْلٌ رُبَاعِيٌّ مُعْتَلُّ الْعَيْنِ وَمُتَعَدٍّ؛ وَيُذْكَرُ مَوْضُوعُ الْمُسَاعَدَةِ مَعَ «عَلَى» أَوْ «فِي»."
         }
       ],
       "synonyms": [
@@ -21234,11 +21465,14 @@
       "examples": [
         {
           "ar": "أَعَانَ الْوَلَدُ أَبَاهُ فِي الْعَمَلِ."
+        },
+        {
+          "ar": "أَعَانَتِ الْأُخْتُ أَخَاهَا عَلَى حَلِّ الْمَسْأَلَةِ."
         }
       ],
       "important": [
         {
-          "ar": "يُقَالُ: أَعَانَ أَبَاهُ عَلَى الْعَمَلِ أَوْ أَعَانَهُ فِي الْعَمَلِ؛ فَالْفِعْلُ يَتَعَدَّى إِلَى مَنْ تَلَقَّى الْمُسَاعَدَةَ."
+          "ar": "يُقَالُ «أَعَانَ صَدِيقَهُ عَلَى الْعَمَلِ» وَ«أَعَانَهُ فِي الْعَمَلِ»؛ وَالْمَفْعُولُ بِهِ هُوَ الشَّخْصُ الَّذِي نَالَ الْمُسَاعَدَةَ."
         }
       ],
       "source_urls": [
@@ -21256,6 +21490,11 @@
         "status": "printed_lemma_visible_vowels_checked_pedagogical_endings_not_literal_source",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate"
+      },
+      "editorial_review": {
+        "status": "individual_arabic_draft_requires_independent_linguistic_review",
+        "reviewed_on": "2026-11-21",
+        "scope": "individually_revised_grammatical_draft_and_examples_no_independent_full_i3rab_certification"
       }
     },
     {
