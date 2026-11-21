@@ -34,6 +34,31 @@ class Print16SemanticReviewTests(unittest.TestCase):
                              "individual_arabic_draft_requires_independent_linguistic_review")
             self.assertEqual(self.mirror[src["arabic"]]["source_pdf_page"], 20)
 
+    def test_scoped_visual_source_inventory_is_complete_and_not_overcertified(self):
+        report = json.loads((ROOT / "research" / "dictionary_sources" /
+                             "print16_semantic_sweep_20261121.json").read_text(
+                                 encoding="utf-8"))
+        self.assertEqual(report["covered_source_entries"], 25)
+        self.assertEqual(report["corrected_source_entries"], 3)
+        self.assertEqual(report["unchanged_after_scoped_pass"], 22)
+        self.assertEqual(report["full_article_certification_count"], 0)
+        expected = {e["id"] for e in self.source.values()
+                    if e.get("source_provenance", {}).get("pdf_page") == 20}
+        actual = {e["source_entry_id"] for e in report["entries"]}
+        self.assertEqual(len(actual), 25)
+        self.assertEqual(expected, actual)
+        flagged = {e["source_entry_id"] for e in report["entries"]
+                   if e["semantic_issue_status"] == "corrected_with_targeted_evidence"}
+        self.assertEqual(flagged, {"bayna_scan_v1_347",
+                                   "bayna_scan_v1_368", "bayna_scan_v1_369"})
+        for row in report["entries"]:
+            record = self.source[row["source_entry_id"]]
+            self.assertEqual(row["headword"], record["arabic"])
+            self.assertEqual(row["source_pdf_page"], 20)
+            self.assertEqual(row["source_printed_page"], 16)
+            self.assertEqual(record["editorial_review"]["status"],
+                             "individual_arabic_draft_requires_independent_linguistic_review")
+
     def test_ashaab_does_not_define_companions_as_owners_of_each_other(self):
         x = self.source["bayna_scan_v1_347"]
         self.assertIn("جَمْعُ صَاحِبٍ", x["meaning_ar"])
