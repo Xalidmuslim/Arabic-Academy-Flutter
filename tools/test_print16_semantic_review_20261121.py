@@ -64,7 +64,7 @@ class Print16SemanticReviewTests(unittest.TestCase):
         x = self.source["bayna_scan_v1_347"]
         self.assertIn("جَمْعُ صَاحِبٍ", x["meaning_ar"])
         self.assertIn(unicodedata.normalize("NFC", "الرُّفَقَاءُ"), unicodedata.normalize("NFC", x["meaning_ar"]))
-        self.assertIn("الْحَقِّ", x["grammar"][1])
+        self.assertIn(unicodedata.normalize("NFC", "الْحَقِّ"), unicodedata.normalize("NFC", x["grammar"][1]))
         self.assertNotIn("تَرْبِطُهُمْ صُحْبَةٌ أَوْ مِلْكِيَّةٌ", x["meaning_ar"])
 
     def test_usuli_matches_wider_printed_source_sense(self):
