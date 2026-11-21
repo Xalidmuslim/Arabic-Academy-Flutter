@@ -80,11 +80,21 @@ def inspect_raw_cards(cards: Iterable[tuple[str, dict[str, Any]]]) -> dict[str, 
                 # examples remain mandatory; other corpus chunks are unchanged.
                 optional_source_collocation = (
                     field == "collocations"
-                    and card.get("source_group")
-                    == "original_arabic_editorial_after_visual_review_of_scan"
                     and isinstance(card.get("source_provenance"), dict)
-                    and isinstance(
-                        card["source_provenance"].get("pdf_page"), int)
+                    and (
+                        (card.get("source_group")
+                         == "original_arabic_editorial_after_visual_review_of_scan"
+                         and isinstance(card["source_provenance"].get("pdf_page"), int))
+                        or
+                        # Only one disproved page attribution: keep the
+                        # unlocated valid verb without inventing a collocation.
+                        (card.get("id") == "bayna_scan_v1_378"
+                         and card.get("source_group")
+                         == "independently_authored_arabic_card_print_provenance_unverified"
+                         and card["source_provenance"].get("pdf_page") is None
+                         and card["source_provenance"].get("text_status")
+                         == "print_dictionary_attribution_revoked_source_not_located")
+                    )
                     and isinstance(card.get("grammar"), list)
                     and bool(card.get("grammar"))
                     and isinstance(card.get("examples_ar"), list)
