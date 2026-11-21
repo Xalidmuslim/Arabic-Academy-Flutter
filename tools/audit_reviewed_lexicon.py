@@ -79,8 +79,19 @@ def main():
     source_page_mismatches = set()
     for entry in source_words:
         prov = entry["source_provenance"]
-        assert 5 <= prov["pdf_page"] <= 30 and prov["pdf_page"] not in (24, 25), (
-            f"Uninspected source page: {entry['arabic']}")
+        detached = entry["id"] == "bayna_scan_v1_378"
+        if detached:
+            # Preserve this valid verb but never cite print 17's unrelated noun
+            # as its own source. PDF21 remains only in the audit history.
+            assert prov["pdf_page"] is None and prov["printed_page"] is None
+            assert prov["scan_sha256"] is None
+            assert prov["text_status"] == "print_dictionary_attribution_revoked_source_not_located"
+            history = prov["misattribution_history"]
+            assert (history["pdf_page"], history["printed_page"]) == (21, 17)
+            assert history["printed_headword"] == "أُضْحِيَّةٌ"
+        else:
+            assert 5 <= prov["pdf_page"] <= 30 and prov["pdf_page"] not in (24, 25), (
+                f"Uninspected source page: {entry['arabic']}")
         assert entry.get("meaning_ar") and entry.get("grammar") and entry.get("examples_ar")
         assert all(ARABIC.search(part) and TASHKEEL.search(part)
                    for part in [entry["meaning_ar"], *entry["grammar"], *entry["examples_ar"]])
@@ -99,17 +110,21 @@ def main():
             if printed is not None:
                 assert proof.get("printed_headword") == printed, (
                     f"Wrong printed heading for {entry['arabic']}")
-                assert prov["text_status"] == (
-                    f"unmatched_printed_lemma_source_page_{prov['pdf_page']}_relocation_required")
+                if detached:
+                    assert prov["text_status"] == "print_dictionary_attribution_revoked_source_not_located"
+                else:
+                    assert prov["text_status"] == (
+                        f"unmatched_printed_lemma_source_page_{prov['pdf_page']}_relocation_required")
             else:
                 assert prov["text_status"] == "source_headword_mismatch_requires_relocation"
             source_page_mismatches.add(entry["id"])
         elif prov["pdf_page"] >= 14:
             assert prov["text_status"] == "arabic_first_pass_page_inspected_pending_independent_proofread"
         assert entry["arabic"] in original
-        assert prov["scan_sha256"] == expected_scan
-        assert isinstance(prov["pdf_page"], int) and 1 <= prov["pdf_page"] <= 404
-        assert isinstance(prov["printed_page"], int) and prov["printed_page"] >= 1
+        if not detached:
+            assert prov["scan_sha256"] == expected_scan
+            assert isinstance(prov["pdf_page"], int) and 1 <= prov["pdf_page"] <= 404
+            assert isinstance(prov["printed_page"], int) and prov["printed_page"] >= 1
         assert entry["sources"]
         assert not re.search(r"[\u0400-\u04ff]", str(entry)), (
             f"Cyrillic in Arabic corpus entry: {entry['arabic']}")
@@ -135,10 +150,16 @@ def main():
         if "source_review" in article:
             assert article["source_review"] in review_kinds, (
                 f"Unrecognized scan review marker: {word}")
-            assert type(article.get("source_pdf_page")) is int and (
-                1 <= article["source_pdf_page"] <= 404), f"Bad PDF page: {word}"
-            assert type(article.get("source_printed_page")) is int and (
-                article["source_printed_page"] >= 1), f"Bad printed page: {word}"
+            if word == "أَضْحَى":
+                assert article.get("source_pdf_page") is None
+                assert article.get("source_printed_page") is None
+                assert article["source_review"] == "source_headword_mismatch_requires_relocation"
+                assert article.get("source_attribution_status") == "printed_location_disproved_not_reassigned"
+            else:
+                assert type(article.get("source_pdf_page")) is int and (
+                    1 <= article["source_pdf_page"] <= 404), f"Bad PDF page: {word}"
+                assert type(article.get("source_printed_page")) is int and (
+                    article["source_printed_page"] >= 1), f"Bad printed page: {word}"
             if article["source_review"] == "visual_check_of_user_supplied_scan_12383_pdf":
                 visually_checked += 1
             elif article["source_review"] == "scan_page_inspected_first_pass_pending_linguistic_proofread":
@@ -210,7 +231,8 @@ def main():
     print("CAUTION: Pair evidence is existing original corpus definitions, not verified verbatim against the published dictionary.")
 
     print(f"Independently authored Arabic entries checked against scan: {len(source_words)}")
-    page_count = len({e['source_provenance']['pdf_page'] for e in source_words})
+    page_count = len({e['source_provenance']['pdf_page'] for e in source_words
+                      if isinstance(e['source_provenance']['pdf_page'], int)})
     assert source_page_mismatches == set(expected_mismatches), "Every confirmed mismatch must remain tracked until resolved"
     print(f"Explicit source-page mismatches pending relocation: {source_page_mismatches}")
     print(f"PDF pages represented by source-linked articles: {page_count}")
