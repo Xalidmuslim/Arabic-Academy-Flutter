@@ -3,7 +3,7 @@
   "audit_date": "2026-11-21",
   "source": "User supplied original printed المعجم العربي بين يديك PDF 12383.pdf",
   "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
-  "source_existing_blob_sha": "f9f6412a166de082b14c2f22a1cd37a660017273",
+  "source_existing_blob_sha": "517d9f047c99c538600f26ee6e7db7ef7d86012c",
   "pdf_to_print_page_offset": 4,
   "method": "manual reading of full page images; no OCR; separate illustrated labels from lexicon blocks; visual base spelling paired to already registered corpus scan ID; independent full harakat and i3rab not certified",
   "illustration_pages": [
@@ -1134,5 +1134,6 @@
     "Do not mistake a manually observed bare headword match for verification of every shadda, haraka, tanwin, case ending, grammar or independently authored example.",
     "No original lexical IDs have been removed or relocated; no new dictionary entries inferred from diagram labels.",
     "Authoritative independent Arabic morphological and syntactic proofread of 122 source cards remains pending."
-  ]
+  ],
+  "source_data_note": "Current deep-editorial branch contains independent earlier edits to PDF19/printed15; this audit compares PDF26-30 headings only and does not overwrite the earlier editorial data"
 }
