@@ -263,5 +263,22 @@
     "Visual scanning of printed entries and reviewing selected author definitions does not certify all created examples, inflections, antonyms or synonyms.",
     "All 25 retain independent editorial proofreading requirement until each field and all examples are individually assessed.",
     "No new dictionary entries, deletions or false source page claims."
-  ]
+  ],
+  "independent_arabic_evidence": {
+    "bayna_scan_v1_347": {
+      "source": "مجمع اللغة العربية بالقاهرة — المعجم الوسيط",
+      "url": "https://www.arabicacademy.gov.eg/ar/محرك-البحث/معجم/dic-19/صاحب",
+      "scope": "الصَّاحِبُ الْمُرَافِقُ وَمَالِكُ الشَّيْءِ وَصَاحِبُ الرَّأْيِ"
+    },
+    "bayna_scan_v1_368": {
+      "source": "مجمع اللغة العربية بالقاهرة — المعجم الوسيط",
+      "url": "https://www.arabicacademy.gov.eg/ar/محرك-البحث/أصل",
+      "scope": "أُصُولُ الْعُلُومِ وَعِلْمُ أُصُولِ الْفِقْهِ؛ شُرُوحُ التَّوْسِيعِ مُطَابَقَةٌ لِاسْتِعْمَالِ الْأَصْلِ الْمَطْبُوعِ"
+    },
+    "bayna_scan_v1_369": {
+      "source": "مجمع اللغة العربية بالقاهرة — المعجم الوسيط",
+      "url": "https://www.arabicacademy.gov.eg/ar/محرك-البحث/أصل",
+      "scope": "شَرَفُ النَّسَبِ وَأَصَالَةُ الْأُسْلُوبِ؛ الْمَعْنَى الثَّالِثُ ثَبَتَ فِي الْأَصْلِ الْمَطْبُوعِ"
+    }
+  }
 }
