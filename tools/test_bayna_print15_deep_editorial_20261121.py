@@ -61,6 +61,17 @@ class PrintedPage15DeepEditorial(unittest.TestCase):
                 self.assertEqual(ov["important"][0]["ar"], e["usage_note_ar"])
                 self.assertEqual(ov["visual_verification"], e["visual_verification"])
 
+    def test_every_changed_arabic_field_has_unicode_nfc_order(self):
+        for e in self.page:
+            with self.subTest(word=e["arabic"]):
+                fields = [
+                    e["meaning_ar"], *e["additional_meanings_ar"],
+                    *e["grammar"], *e["examples_ar"],
+                    *e["collocations"], e["usage_note_ar"]
+                ]
+                for value in fields:
+                    self.assertEqual(value, nfc(value))
+
     def test_documented_grammar_and_semantic_regressions(self):
         d = {e["arabic"]: e for e in self.page}
         for word in ("أَشَدُّ", "أَشْمَلُ", "أَشْهَرُ"):
