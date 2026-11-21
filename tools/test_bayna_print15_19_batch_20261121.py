@@ -87,7 +87,7 @@ class OriginalPrintedPagesFifteenNineteen(unittest.TestCase):
         x=next(x for x in self.scan if x["id"]=="bayna_scan_v1_439")
         self.assertEqual(x["arabic"],"أَعْرَاضٌ")
         defs=[x["meaning_ar"],*x["additional_meanings_ar"]]
-        self.assertTrue(any("الْمَرَضِ" in y for y in defs))
+        self.assertTrue(any("مَرَضٍ" in y for y in defs))
         self.assertTrue(any("الشَّرَفُ" in y or "شَرَفِهِمْ" in y for y in defs))
         article=next(z for z in self.reviewed if z["arabic"]=="أَعْرَاضٌ")
         self.assertEqual([e["ar"] for e in article["definition"]],defs)
