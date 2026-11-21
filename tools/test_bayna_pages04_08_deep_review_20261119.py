@@ -22,7 +22,7 @@ class PagesFourEightDeepReview(unittest.TestCase):
         cls.overlay=json.loads((DATA/"reviewed_articles_v1.json").read_text(encoding="utf8"))["entries"]
         cls.manifest=json.loads((DATA/"corpus_manifest.json").read_text(encoding="utf8"))["files"]
         cls.inventory=json.loads((ROOT/"research/dictionary_sources/printed_pages04_08_visual_inventory_20261118.json").read_text(encoding="utf8"))
-        cls.selected=[e for e in cls.original if 8<=e["source_provenance"]["pdf_page"]<=12]
+        cls.selected=[e for e in cls.original if isinstance(e["source_provenance"]["pdf_page"],int) and 8<=e["source_provenance"]["pdf_page"]<=12]
         cls.reviewed={unicodedata.normalize("NFC",e["arabic"]):e for e in cls.overlay}
 
     def test_source_mismatch_does_not_relabel_old_id(self):
