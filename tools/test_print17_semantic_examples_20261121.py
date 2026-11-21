@@ -42,6 +42,14 @@ class Print17SemanticExamplesTests(unittest.TestCase):
         self.assertIn("عَنِ", norm(" ".join(x["grammar"])))
         self.assertIn(norm("الطَّعَامِ"), norm(x["usage_note_ar"]))
 
+    def test_adhrama_preserves_printed_figurative_conflict_sense(self):
+        x = self.source["bayna_scan_v1_381"]
+        self.assertIn(norm("النَّارَ"), norm(x["meaning_ar"]))
+        self.assertEqual(len(x["additional_meanings_ar"]), 1)
+        self.assertIn(norm("الْحَرْبَ"), norm(x["additional_meanings_ar"][0]))
+        self.assertIn(norm("الْخِلَافَ"), norm(x["examples_ar"][-1]))
+        self.assertIn(norm("مَجَازِيٌّ"), norm(x["usage_note_ar"]))
+
     def test_atra_denotes_excessive_praise(self):
         x = self.source["bayna_scan_v1_397"]
         self.assertIn("بَالَغَ", norm(x["meaning_ar"]))
@@ -58,7 +66,7 @@ class Print17SemanticExamplesTests(unittest.TestCase):
         self.assertNotEqual(itar["examples_ar"][0], itar["examples_ar"][1])
 
     def test_changed_cards_and_new_examples_mirror_and_audit(self):
-        for n in (380, 388, 389, 397):
+        for n in (380, 381, 388, 389, 397):
             x = self.source[f"bayna_scan_v1_{n}"]
             y = self.review[norm(x["arabic"])]
             self.assertEqual([x["meaning_ar"], *x["additional_meanings_ar"]],
@@ -76,10 +84,14 @@ class Print17SemanticExamplesTests(unittest.TestCase):
                     if x.get("source_provenance", {}).get("pdf_page") == 21}
         self.assertEqual({e["source_entry_id"] for e in audit["entries"]}, page_ids)
         self.assertEqual(audit["scoped_entry_count"], 27)
-        self.assertEqual(audit["corrected_entry_count"], 4)
+        self.assertEqual(audit["corrected_entry_count"], 5)
         self.assertEqual(audit["full_article_certification_count"], 0)
         new_examples = audit["independent_examples_i3rab"]
-        self.assertEqual(len(new_examples), 3)
+        self.assertEqual(len(new_examples), 4)
+        self.assertEqual(
+            [x["source_entry_id"] for x in audit["unresolved_lexical_discrepancies"]],
+            ["bayna_scan_v1_385"],
+        )
         for row in new_examples:
             self.assertIn(row["example_ar"], self.source[row["source_entry_id"]]["examples_ar"])
             self.assertTrue(row["i3rab_ar"])
