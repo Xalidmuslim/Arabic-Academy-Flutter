@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-21",
+  "source": "المعجم العربي بين يديك",
+  "source_pdf_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "source_pdf_page": 21,
+  "source_printed_page": 17,
+  "scoped_entry_count": 27,
+  "corrected_entry_count": 4,
+  "unchanged_entry_count": 23,
+  "full_article_certification_count": 0,
+  "headword_in_print_not_in_page21_scan_subset": {
+    "headword_ar": "أُضْحِيَّةٌ",
+    "already_present_in_entries_id": "l1u16_011",
+    "already_present_in_reviewed_articles": true,
+    "archived_source_mismatch_id": "bayna_scan_v1_378",
+    "source_provenance_note": "Restored separate noun in reviewed overlay, not a newly missing word; old verb had its printed attribution revoked. Preserve both."
+  },
+  "arabic_sources_for_specific_claims": [
+    {
+      "lemma": "أَضْرَبَ",
+      "url": "https://www.arabicacademy.gov.eg/ar/محرك-البحث/أَضْرَبَ?exact_search=true",
+      "scope": "Distinguish work stoppage from other abstention; printed original also uses prisoner fasting protest."
+    },
+    {
+      "lemma": "أَطْرَى",
+      "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/طري",
+      "scope": "Lexicographic evidence for exaggeration in praise and praise not necessarily deserved."
+    }
+  ],
+  "independent_examples_i3rab": [
+    {
+      "source_entry_id": "bayna_scan_v1_380",
+      "example_ar": "أَضْرَبَ السَّجِينُ عَنِ الطَّعَامِ مُطَالِبًا بِتَحْسِينِ أَوْضَاعِهِ.",
+      "authorship": "new_editorial_example_not_in_printed_book",
+      "grammar_review_scope": "case_inflection_and_sentence_roles_on_this_exact_example_only",
+      "i3rab_ar": [
+        "أَضْرَبَ: فِعْلٌ مَاضٍ مَبْنِيٌّ عَلَى الْفَتْحِ.",
+        "السَّجِينُ: فَاعِلٌ مَرْفُوعٌ بِالضَّمَّةِ.",
+        "عَنِ الطَّعَامِ: جَارٌّ وَمَجْرُورٌ مُتَعَلِّقَانِ بِالْفِعْلِ «أَضْرَبَ».",
+        "مُطَالِبًا: حَالٌ مَنْصُوبَةٌ مِنَ «السَّجِينِ»، وَعَلَامَةُ نَصْبِهَا الْفَتْحَةُ.",
+        "بِتَحْسِينِ: جَارٌّ وَمَجْرُورٌ مُتَعَلِّقَانِ بِـ«مُطَالِبًا»، وَ«تَحْسِينِ» مُضَافٌ.",
+        "أَوْضَاعِهِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ، وَالْهَاءُ ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ بِالْإِضَافَةِ."
+      ]
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_388",
+      "example_ar": "نَاقَشَ الْفَرِيقُ الْخُطَّةَ فِي إِطَارِ الْمَشْرُوعِ.",
+      "authorship": "new_editorial_example_not_in_printed_book",
+      "grammar_review_scope": "case_inflection_and_sentence_roles_on_this_exact_example_only",
+      "i3rab_ar": [
+        "نَاقَشَ: فِعْلٌ مَاضٍ مَبْنِيٌّ عَلَى الْفَتْحِ.",
+        "الْفَرِيقُ: فَاعِلٌ مَرْفُوعٌ بِالضَّمَّةِ.",
+        "الْخُطَّةَ: مَفْعُولٌ بِهِ مَنْصُوبٌ بِالْفَتْحَةِ.",
+        "فِي إِطَارِ: جَارٌّ وَمَجْرُورٌ مُتَعَلِّقَانِ بِالْفِعْلِ «نَاقَشَ»، وَ«إِطَارِ» مُضَافٌ.",
+        "الْمَشْرُوعِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ بِالْكَسْرَةِ."
+      ]
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_389",
+      "example_ar": "وَضَعَ الرَّسَّامُ لَوْحَاتِهِ فِي إِطَارَاتٍ خَشَبِيَّةٍ.",
+      "authorship": "new_editorial_example_not_in_printed_book",
+      "grammar_review_scope": "case_inflection_and_sentence_roles_on_this_exact_example_only",
+      "i3rab_ar": [
+        "وَضَعَ: فِعْلٌ مَاضٍ مَبْنِيٌّ عَلَى الْفَتْحِ.",
+        "الرَّسَّامُ: فَاعِلٌ مَرْفُوعٌ بِالضَّمَّةِ.",
+        "لَوْحَاتِهِ: مَفْعُولٌ بِهِ مَنْصُوبٌ بِالْكَسْرَةِ نِيَابَةً عَنِ الْفَتْحَةِ؛ لِأَنَّهُ جَمْعُ مُؤَنَّثٍ سَالِمٌ، وَهُوَ مُضَافٌ، وَالْهَاءُ فِي مَحَلِّ جَرٍّ بِالْإِضَافَةِ.",
+        "فِي إِطَارَاتٍ: جَارٌّ وَمَجْرُورٌ مُتَعَلِّقَانِ بِالْفِعْلِ «وَضَعَ».",
+        "خَشَبِيَّةٍ: نَعْتٌ مَجْرُورٌ لِـ«إِطَارَاتٍ»؛ وَجَاءَ مُفْرَدًا مُؤَنَّثًا لِأَنَّ الْمَنْعُوتَ جَمْعُ غَيْرِ عَاقِلٍ."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "source_entry_id": "bayna_scan_v1_370",
+      "headword_ar": "أَضَاءَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_371",
+      "headword_ar": "إِضَاءَةٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_372",
+      "headword_ar": "أَضَاعَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_373",
+      "headword_ar": "إِضَاعَةٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_374",
+      "headword_ar": "أَضَافَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_375",
+      "headword_ar": "إِضَافَةٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_376",
+      "headword_ar": "إِضْحَاكٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_377",
+      "headword_ar": "أَضْحَكَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_379",
+      "headword_ar": "أَضْرَارٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_380",
+      "headword_ar": "أَضْرَبَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "targeted_semantic_or_example_correction_not_complete_editorial_review",
+      "corrected_fields": [
+        "meaning_ar",
+        "grammar[1]",
+        "examples_ar[1]",
+        "usage_note_ar"
+      ],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_381",
+      "headword_ar": "أَضْرَمَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_382",
+      "headword_ar": "أَضْعَافٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_383",
+      "headword_ar": "إِضْعَافٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_384",
+      "headword_ar": "أَضْعَفَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_385",
+      "headword_ar": "أَضْغَانٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_386",
+      "headword_ar": "أَضْلَاعٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_387",
+      "headword_ar": "أَضْنَى",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_388",
+      "headword_ar": "إِطَارٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "targeted_semantic_or_example_correction_not_complete_editorial_review",
+      "corrected_fields": [
+        "examples_ar[1]"
+      ],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_389",
+      "headword_ar": "إِطَارَاتٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "targeted_semantic_or_example_correction_not_complete_editorial_review",
+      "corrected_fields": [
+        "examples_ar[1]"
+      ],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_390",
+      "headword_ar": "أَطَاعَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_391",
+      "headword_ar": "أَطَاقَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_392",
+      "headword_ar": "أَطَالَ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_393",
+      "headword_ar": "أَطِبَّاءُ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_394",
+      "headword_ar": "أَطْبَاقٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_395",
+      "headword_ar": "أَطْرَافٌ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_396",
+      "headword_ar": "أَطْرَشُ",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "scoped_visual_sweep_no_content_change",
+      "corrected_fields": [],
+      "all_example_and_i3rab_certified": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_397",
+      "headword_ar": "أَطْرَى",
+      "source_pdf_page": 21,
+      "source_printed_page": 17,
+      "review_status": "targeted_semantic_or_example_correction_not_complete_editorial_review",
+      "corrected_fields": [
+        "meaning_ar",
+        "usage_note_ar"
+      ],
+      "all_example_and_i3rab_certified": false
+    }
+  ],
+  "limitations": [
+    "The printed page is primary evidence for headwords and recorded glosses; independently authored example sentences are not attributed to the book.",
+    "The other 23 cards are not fully validated by a scoped sweep.",
+    "Three authored examples received narrowly scoped, manually composed role/case analyses; existing samples are preserved, and no full-article approval is assigned."
+  ]
+}
