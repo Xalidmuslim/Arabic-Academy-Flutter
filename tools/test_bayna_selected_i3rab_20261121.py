@@ -20,7 +20,7 @@ class SelectedIrabIndependentSecondPass(unittest.TestCase):
 
     def test_targeted_corrections_of_verified_errors(self):
         yellow=self.byid["bayna_scan_v1_357"]
-        self.assertIn(nfc("اِشْتَرَتِ الْأُمُّ"),yellow["examples_ar"])
+        self.assertTrue(any(nfc("اِشْتَرَتِ الْأُمُّ") in x for x in yellow["examples_ar"]))
         # Corrected example contains the full sentence, not only a phrase.
         self.assertIn(nfc("اِشْتَرَتِ الْأُمُّ وَرْدَةً صَفْرَاءَ لِلْبَيْتِ."),yellow["examples_ar"])
         self.assertIn(nfc("أَفْعَلُ"),yellow["usage_note_ar"])
