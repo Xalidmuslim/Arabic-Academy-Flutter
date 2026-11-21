@@ -103,7 +103,7 @@ class PrintPages16To19(unittest.TestCase):
         article = self.byword[norm("أَصِيلٌ")]
         all_senses = " ".join([article["meaning_ar"], *article["additional_meanings_ar"]])
         self.assertIn("مُبْتَكَرٌ", all_senses)
-        self.assertIn("جَوْدَةٍ", all_senses)
+        self.assertIn(norm("مِنْ نَوْعٍ جَيِّدٍ"), norm(all_senses))
         self.assertIn(unicodedata.normalize("NFC", "يُقَدِّمُ الْبَاحِثُ"), unicodedata.normalize("NFC", " ".join(article["examples_ar"])))
         self.assertNotIn("يَقْدُمُ الْبَاحِثُ", " ".join(article["examples_ar"]))
         self.assertTrue(any("مُبْتَكَرٌ" in d["ar"] for d in
