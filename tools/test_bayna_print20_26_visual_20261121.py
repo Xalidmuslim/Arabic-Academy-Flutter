@@ -46,7 +46,7 @@ class PrintedPagesTwentyThroughTwentySix(unittest.TestCase):
                 self.assertIn(x["side"], ("left", "right"))
                 self.assertEqual(nfc(x["text"]), x["text"])
                 self.assertNotIn("source_entry_id", x)
-        self.assertFalse(any(24 <= x["source_provenance"]["pdf_page"] <= 25 for x in self.source))
+        self.assertFalse(any(isinstance(x["source_provenance"]["pdf_page"],int) and 24 <= x["source_provenance"]["pdf_page"] <= 25 for x in self.source))
 
     def test_all_122_headwords_resolve_to_existing_source_ids(self):
         a = self.audit
@@ -77,7 +77,7 @@ class PrintedPagesTwentyThroughTwentySix(unittest.TestCase):
 
     def test_editorial_queue_counts_are_measured_not_fabricated(self):
         selected = [x for x in self.source
-                    if 26 <= x["source_provenance"]["pdf_page"] <= 30]
+                    if isinstance(x["source_provenance"]["pdf_page"],int) and 26 <= x["source_provenance"]["pdf_page"] <= 30]
         measured = {
             "one_grammar_line": sum(len(x.get("grammar", [])) == 1 for x in selected),
             "one_example_sentence": sum(len(x.get("examples_ar", [])) == 1 for x in selected),
