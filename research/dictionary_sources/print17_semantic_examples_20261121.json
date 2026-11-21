@@ -6,8 +6,8 @@
   "source_pdf_page": 21,
   "source_printed_page": 17,
   "scoped_entry_count": 27,
-  "corrected_entry_count": 4,
-  "unchanged_entry_count": 23,
+  "corrected_entry_count": 5,
+  "unchanged_entry_count": 22,
   "full_article_certification_count": 0,
   "headword_in_print_not_in_page21_scan_subset": {
     "headword_ar": "أُضْحِيَّةٌ",
@@ -26,6 +26,11 @@
       "lemma": "أَطْرَى",
       "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/طري",
       "scope": "Lexicographic evidence for exaggeration in praise and praise not necessarily deserved."
+    },
+    {
+      "lemma": "أَضْرَمَ",
+      "url": "https://www.arabicterminology.com/content/أضرمَ-يُضرم،-إضرامًا،-فهو-مُضرِم،-والمفعول-مُضرَم",
+      "scope": "Independent Arabic explanation allows أضرم الحرب/الفتنة, beyond physical fire; printed original has أضرم الكاذب الحرب بين الصديقين."
     }
   ],
   "independent_examples_i3rab": [
@@ -67,6 +72,19 @@
         "لَوْحَاتِهِ: مَفْعُولٌ بِهِ مَنْصُوبٌ بِالْكَسْرَةِ نِيَابَةً عَنِ الْفَتْحَةِ؛ لِأَنَّهُ جَمْعُ مُؤَنَّثٍ سَالِمٌ، وَهُوَ مُضَافٌ، وَالْهَاءُ فِي مَحَلِّ جَرٍّ بِالْإِضَافَةِ.",
         "فِي إِطَارَاتٍ: جَارٌّ وَمَجْرُورٌ مُتَعَلِّقَانِ بِالْفِعْلِ «وَضَعَ».",
         "خَشَبِيَّةٍ: نَعْتٌ مَجْرُورٌ لِـ«إِطَارَاتٍ»؛ وَجَاءَ مُفْرَدًا مُؤَنَّثًا لِأَنَّ الْمَنْعُوتَ جَمْعُ غَيْرِ عَاقِلٍ."
+      ]
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_381",
+      "example_ar": "أَضْرَمَ الْمُحَرِّضُ الْخِلَافَ بَيْنَ الْجَارَيْنِ.",
+      "authorship": "new_editorial_example_not_in_printed_book",
+      "grammar_review_scope": "case_inflection_and_sentence_roles_on_this_exact_example_only",
+      "i3rab_ar": [
+        "أَضْرَمَ: فِعْلٌ مَاضٍ مَبْنِيٌّ عَلَى الْفَتْحِ.",
+        "الْمُحَرِّضُ: فَاعِلٌ مَرْفُوعٌ بِالضَّمَّةِ.",
+        "الْخِلَافَ: مَفْعُولٌ بِهِ مَنْصُوبٌ بِالْفَتْحَةِ.",
+        "بَيْنَ: ظَرْفُ مَكَانٍ مَنْصُوبٌ، وَهُوَ مُضَافٌ.",
+        "الْجَارَيْنِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ بِالْيَاءِ؛ لِأَنَّهُ مُثَنًّى."
       ]
     }
   ],
@@ -171,8 +189,12 @@
       "headword_ar": "أَضْرَمَ",
       "source_pdf_page": 21,
       "source_printed_page": 17,
-      "review_status": "scoped_visual_sweep_no_content_change",
-      "corrected_fields": [],
+      "review_status": "targeted_semantic_or_example_correction_not_complete_editorial_review",
+      "corrected_fields": [
+        "additional_meanings_ar[0]",
+        "examples_ar[2]",
+        "usage_note_ar"
+      ],
       "all_example_and_i3rab_certified": false
     },
     {
@@ -330,6 +352,19 @@
   "limitations": [
     "The printed page is primary evidence for headwords and recorded glosses; independently authored example sentences are not attributed to the book.",
     "The other 23 cards are not fully validated by a scoped sweep.",
-    "Three authored examples received narrowly scoped, manually composed role/case analyses; existing samples are preserved, and no full-article approval is assigned."
+    "Three authored examples received narrowly scoped, manually composed role/case analyses; existing samples are preserved, and no full-article approval is assigned.",
+    "The printed أَضْغَانٌ cross-reference may conflict with classical plural morphology; left as a flagged unresolved source discrepancy, with the correct existing app grammar preserved."
+  ],
+  "unresolved_lexical_discrepancies": [
+    {
+      "source_entry_id": "bayna_scan_v1_385",
+      "headword_ar": "أَضْغَانٌ",
+      "status": "requires_scan_and_independent_arabic_review",
+      "printed_page": 17,
+      "pdf_page": 21,
+      "issue": "The scanned brief entry appears to refer to ضَغِينَةٌ as its singular; classical لسان العرب explicitly gives ضِغْنٌ → أَضْغَانٌ and ضَغِينَةٌ → ضَغَائِنُ. The existing app correctly has ضِغْنٌ. No change made pending higher-resolution print check.",
+      "independent_source_url": "https://www.islamweb.net/ar/library/content/122/4869/ضغن",
+      "recommended_action": "Check original print at higher resolution and determine whether it contains a typographical error; do not overwrite correct grammar to match an uncertain scan."
+    }
   ]
 }
