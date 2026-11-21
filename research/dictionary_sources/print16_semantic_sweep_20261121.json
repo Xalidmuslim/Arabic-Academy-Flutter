@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-21",
+  "source": "المعجم العربي بين يديك",
+  "source_file_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "source_pdf_page": 20,
+  "source_printed_page": 16,
+  "source_continuation_pdf_page": 21,
+  "covered_source_entries": 25,
+  "corrected_source_entries": 3,
+  "unchanged_after_scoped_pass": 22,
+  "full_article_certification_count": 0,
+  "arabic_dictionary_crosscheck": [
+    "https://www.arabicacademy.gov.eg/ar/محرك-البحث/أصل"
+  ],
+  "source_image_review": "Original PDF page 20 inspected visually; scan page 21 top inspected for continuation of أَصِيلٌ; OCR not relied on",
+  "entries": [
+    {
+      "source_entry_id": "bayna_scan_v1_345",
+      "headword": "إِصْبَعٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_346",
+      "headword": "أَصِحَّاءُ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_347",
+      "headword": "أَصْحَابٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "corrected_with_targeted_evidence",
+      "issue": "The previous meaning falsely grouped friendship and common property as a relation between all أصحاب.",
+      "corrected_fields": [
+        "meaning_ar",
+        "grammar[1]"
+      ],
+      "source_evidence": "printed headword: جمع صاحب; independent contextual sense distinction",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_348",
+      "headword": "أَصْدَاءٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_349",
+      "headword": "أَصْدَرَ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_350",
+      "headword": "أَصْدَقُ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_351",
+      "headword": "أَصْدِقَاءُ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_352",
+      "headword": "أَصَرَّ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_353",
+      "headword": "إِصْرَارٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_354",
+      "headword": "أَصْعَبُ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_355",
+      "headword": "أَصْغَرُ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_356",
+      "headword": "أَصْغَى",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_357",
+      "headword": "أَصْفَرُ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_358",
+      "headword": "أَصْلٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_359",
+      "headword": "إِصْلَاحٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_360",
+      "headword": "أَصْلَحَ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_361",
+      "headword": "أَصْلَعُ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_362",
+      "headword": "أَصْنَافٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_363",
+      "headword": "أَصْنَامٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_364",
+      "headword": "أَصْهَارٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_365",
+      "headword": "أَصْوَاتٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_366",
+      "headword": "أَصْوَافٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_367",
+      "headword": "أُصُولٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "no_change_in_scoped_pass_not_full_editorial_certification",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_368",
+      "headword": "أُصُولِيٌّ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "corrected_with_targeted_evidence",
+      "issue": "Definition was artificially restricted to specialists in أصول الفقه; printed gloss covers a person or matter following rules and principles.",
+      "corrected_fields": [
+        "meaning_ar",
+        "grammar[1]",
+        "usage_note_ar"
+      ],
+      "source_evidence": "print16 explicitly uses أَمْرٌ أَوْ شَخْصٌ and this is an أُصُولِيّ direction",
+      "source_continues_on_pdf21": false
+    },
+    {
+      "source_entry_id": "bayna_scan_v1_369",
+      "headword": "أَصِيلٌ",
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "review_scope": "visual printed headword and visible introductory sense; targeted editorial data sweep; not complete independent linguistic certification",
+      "semantic_issue_status": "corrected_with_targeted_evidence",
+      "issue": "Five definitions repeated printed senses 2 and 3. Source has three distinct numbered meanings across print16 and start of print17.",
+      "corrected_fields": [
+        "additional_meanings_ar"
+      ],
+      "source_evidence": "printed scan PDF20-21 has 1 noble origin, 2 innovative, 3 good type",
+      "source_continues_on_pdf21": true
+    }
+  ],
+  "limitations": [
+    "Visual scanning of printed entries and reviewing selected author definitions does not certify all created examples, inflections, antonyms or synonyms.",
+    "All 25 retain independent editorial proofreading requirement until each field and all examples are individually assessed.",
+    "No new dictionary entries, deletions or false source page claims."
+  ]
+}
