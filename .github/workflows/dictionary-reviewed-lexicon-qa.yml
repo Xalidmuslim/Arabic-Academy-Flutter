@@ -7,6 +7,7 @@ on:
       - 'lib/**'
       - 'test/**'
       - 'tools/**'
+      - 'research/dictionary_sources/**'
       - '.github/workflows/dictionary-reviewed-lexicon-qa.yml'
   workflow_dispatch:
 
