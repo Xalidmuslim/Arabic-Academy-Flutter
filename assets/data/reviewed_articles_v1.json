@@ -19277,12 +19277,11 @@
         }
       ],
       "source_urls": [
-        "https://saaid.org/book/open.php?book=11997",
         "https://almougem.com/search.php?mdatabase=lmougem&query=%D8%A3%D8%B6%D8%AD%D9%89"
       ],
-      "source_pdf_page": 21,
-      "source_printed_page": 17,
-      "source_review": "scan_page_inspected_first_pass_pending_linguistic_proofread",
+      "source_pdf_page": null,
+      "source_printed_page": null,
+      "source_review": "source_headword_mismatch_requires_relocation",
       "editorial_method": "arabic_only_original_explanation_first_pass",
       "visual_verification": {
         "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
@@ -19291,9 +19290,17 @@
         "checked_on": "2026-11-14",
         "status": "source_headword_mismatch_requires_relocation",
         "examples_status": "independently_authored_pending_separate_i3rab_review",
-        "evidence_scope": "printed_headword_and_visible_marks_only_arabic_explanations_and_case_endings_separate",
+        "evidence_scope": "historical_visual_discrepancy_only_no_claim_this_verb_is_printed_on_pdf21",
         "printed_headword": "أُضْحِيَّةٌ",
-        "note": "الْمَطْبُوعُ فِي الصَّفْحَةِ ١٧: أُضْحِيَّةٌ (اسْمٌ)، لَيْسَ أَضْحَى (فِعْلٌ). الْفِعْلُ صَحِيحٌ لُغَوِيًّا وَلَكِنَّ نِسْبَتَهُ إِلَى هَذَا الْمَوْضِعِ غَيْرُ صَحِيحَةٍ."
+        "note": "الْمَطْبُوعُ فِي الصَّفْحَةِ ١٧: أُضْحِيَّةٌ (اسْمٌ)، لَيْسَ أَضْحَى (فِعْلٌ). الْفِعْلُ صَحِيحٌ لُغَوِيًّا وَلَكِنَّ نِسْبَتَهُ إِلَى هَذَا الْمَوْضِعِ غَيْرُ صَحِيحَةٍ.",
+        "revoked_attribution": true
+      },
+      "source_attribution_status": "printed_location_disproved_not_reassigned",
+      "misattribution_history": {
+        "pdf_page": 21,
+        "printed_page": 17,
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "printed_headword": "أُضْحِيَّةٌ"
       }
     },
     {
