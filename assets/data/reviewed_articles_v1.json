@@ -32096,6 +32096,64 @@
         "examples_status": "independently_authored_pending_separate_i3rab_review",
         "evidence_scope": "source_headword_and_brief_sense_checked_extended_grammar_and_authored_examples_require_separate_validation"
       }
+    },
+    {
+      "arabic": "أَصْلَحُ",
+      "definition": [
+        {
+          "ar": "أَكْثَرُ صَلَاحًا وَنَفْعًا مِنْ غَيْرِهِ."
+        }
+      ],
+      "grammar": [
+        {
+          "ar": "اِسْمُ تَفْضِيلٍ عَلَى وَزْنِ «أَفْعَلُ»، وَجَذْرُهُ: ص ـ ل ـ ح."
+        },
+        {
+          "ar": "يُسْتَعْمَلُ لِلْمُقَارَنَةِ، وَيَأْتِي مَعَ «مِنْ» لِذِكْرِ مَا يُقَارَنُ بِهِ؛ وَتَتَغَيَّرُ حَرَكَةُ آخِرِهِ بِحَسَبِ مَوْقِعِهِ الْإِعْرَابِيِّ."
+        },
+        {
+          "ar": "يُرَاعَى الْفَرْقُ بَيْنَ اسْمِ التَّفْضِيلِ «أَصْلَحُ» وَالْفِعْلِ الْمَاضِي «أَصْلَحَ»."
+        }
+      ],
+      "synonyms": [],
+      "contrasts": [],
+      "examples": [
+        {
+          "ar": "هَذَا الْحَلُّ أَصْلَحُ مِنْ غَيْرِهِ لِهَذِهِ الْمَسْأَلَةِ."
+        },
+        {
+          "ar": "اخْتَارَ الْمُعَلِّمُ الْوَقْتَ الْأَصْلَحَ لِلْمُرَاجَعَةِ."
+        }
+      ],
+      "important": [
+        {
+          "ar": "«أَصْلَحُ» اسْمُ تَفْضِيلٍ يَدُلُّ عَلَى زِيَادَةِ الصَّلَاحِ وَالنَّفْعِ، أَمَّا «أَصْلَحَ» فَفِعْلٌ مَاضٍ مَعْنَاهُ إِزَالَةُ الْخَلَلِ أَوِ الْفَسَادِ؛ وَلَا يُفْهَمُ هَذَا الْفَرْقُ مِنْ رَسْمِ الْحُرُوفِ بِدُونِ ضَبْطٍ."
+        },
+        {
+          "ar": "الْحَلُّ الْأَصْلَحُ"
+        },
+        {
+          "ar": "أَصْلَحُ مِنْ غَيْرِهِ"
+        }
+      ],
+      "source_urls": [
+        "https://saaid.org/book/open.php?book=11997",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/صلح"
+      ],
+      "source_pdf_page": 20,
+      "source_printed_page": 16,
+      "editorial_batch": "2026-11-21-original-printed-pages15-19-restored-one",
+      "source_text_status": "source_headword_and_brief_gloss_visually_checked_authored_examples_pending_independent_i3rab",
+      "visual_verification": {
+        "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+        "pdf_page": 20,
+        "printed_page": 16,
+        "status": "printed_lemma_and_short_gloss_visually_checked",
+        "checked_on": "2026-11-21",
+        "examples_status": "independently_authored_pending_separate_i3rab_review",
+        "evidence_scope": "original_printed_headword_and_gloss_only_extended_grammar_examples_and_case_endings_not_certified",
+        "editorial_case_ending_not_printed": true
+      }
     }
   ]
 }
