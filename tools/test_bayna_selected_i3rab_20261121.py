@@ -25,6 +25,8 @@ class SelectedIrabIndependentSecondPass(unittest.TestCase):
         self.assertIn(nfc("اِشْتَرَتِ الْأُمُّ وَرْدَةً صَفْرَاءَ لِلْبَيْتِ."),yellow["examples_ar"])
         self.assertIn(nfc("أَفْعَلُ"),yellow["usage_note_ar"])
         self.assertNotIn(nfc("وَزْنِ «أَفْعَلَ»"),yellow["usage_note_ar"])
+        self.assertIn(nfc("صَارَ الِامْتِحَانُ أَصْعَبَ بَعْدَ زِيَادَةِ الْأَسْئِلَةِ."),
+                      self.byid["bayna_scan_v1_354"]["examples_ar"])
         self.assertEqual(self.review[nfc(yellow["arabic"])]["examples"][-1]["ar"],
                          yellow["examples_ar"][-1])
 
