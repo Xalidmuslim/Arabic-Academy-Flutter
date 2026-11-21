@@ -80,7 +80,12 @@ class RestoredPrintedLemmaTest(unittest.TestCase):
                 self.assertEqual(len(matches), 1)
                 self.assertEqual(matches[0]["visual_verification"]["status"],
                                  "source_headword_mismatch_requires_relocation")
-                self.assertIn("unmatched_printed_lemma",matches[0]["source_provenance"]["text_status"])
+                if word=="أَضْحَى":
+                    self.assertEqual(matches[0]["source_provenance"]["text_status"],
+                                     "print_dictionary_attribution_revoked_source_not_located")
+                    self.assertIsNone(matches[0]["source_provenance"]["pdf_page"])
+                else:
+                    self.assertIn("unmatched_printed_lemma",matches[0]["source_provenance"]["text_status"])
 
 
 if __name__=="__main__":
