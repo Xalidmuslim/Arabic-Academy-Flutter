@@ -46,6 +46,40 @@ class OriginalPrintedPagesFifteenNineteen(unittest.TestCase):
                 self.assertEqual(x["position"],j)
                 self.assertEqual(nfc(x["headword"]),x["headword"])
 
+    def test_each_visual_heading_resolves_to_its_actual_registered_source(self):
+        prior={x["id"]:x for x in self.scan}
+        old_ids=set()
+        status_counts={}
+        for page in self.audit["pages"]:
+            prior_page=[x for x in self.scan if x["source_provenance"]["pdf_page"]==page["pdf_page"]]
+            self.assertEqual(len(prior_page),page["existing_scan_record_count"])
+            for head in page["headings"]:
+                status=head["match_status"]
+                status_counts[status]=status_counts.get(status,0)+1
+                if status in ("original_scan_headword_present","second_printed_meaning_same_lemma_no_second_id"):
+                    source=prior[head["existing_scan_id"]]
+                    self.assertEqual(source["source_provenance"]["pdf_page"],page["pdf_page"])
+                    self.assertEqual(nfc(source["arabic"]),nfc(head["headword"]))
+                    old_ids.add(source["id"])
+                elif status=="old_scan_source_mismatch_existing_elsewhere":
+                    source=prior[head["mismatched_old_id"]]
+                    self.assertEqual(source["visual_verification"]["status"],"source_headword_mismatch_requires_relocation")
+                    self.assertEqual(nfc(source["visual_verification"]["printed_headword"]),nfc(head["headword"]))
+                    self.assertEqual(head["existing_corpus_id"],"l1u16_011")
+                    old_ids.add(source["id"])
+                elif status=="newly_restored_after_corpus_wide_search":
+                    self.assertEqual(head["restored_id"],self.restored[0]["id"])
+                    self.assertEqual(nfc(head["headword"]),nfc(self.restored[0]["arabic"]))
+                else:
+                    self.fail("Untracked printed source status: "+str(status))
+        self.assertEqual(len(old_ids),136)
+        self.assertEqual(status_counts,{
+            "original_scan_headword_present":135,
+            "newly_restored_after_corpus_wide_search":1,
+            "old_scan_source_mismatch_existing_elsewhere":1,
+            "second_printed_meaning_same_lemma_no_second_id":1
+        })
+
     def test_source_page_16_previously_missing_comparative_restored(self):
         self.assertIn(RESTORED,self.manifest)
         self.assertEqual(len(self.restored),1)
