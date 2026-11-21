@@ -44,8 +44,8 @@ class DeepEditorialPrint18And19(unittest.TestCase):
 
     def test_distinct_senses_and_grammar_traps_preserved(self):
         a={x["arabic"]:x for x in self.rows}
-        self.assertIn("عَرَضٌ"," ".join(a["أَعْرَاضٌ"]["grammar"]))
-        self.assertIn("عِرْضٌ"," ".join(a["أَعْرَاضٌ"]["grammar"]))
+        self.assertIn("عَرَضٍ"," ".join(a["أَعْرَاضٌ"]["grammar"]))
+        self.assertIn("عِرْضٍ"," ".join(a["أَعْرَاضٌ"]["grammar"]))
         self.assertIn("عَلَى"," ".join(a["أَطْلَعَ"]["collocations"]))
         self.assertIn("عَنْ"," ".join(a["أَعْرَبَ"]["collocations"]))
         self.assertIn("أَفْعَلُ"," ".join(a["أَطْهَرُ"]["grammar"]))
