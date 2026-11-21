@@ -1,0 +1,1138 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-21",
+  "source": "User supplied original printed المعجم العربي بين يديك PDF 12383.pdf",
+  "scan_sha256": "a2d98cbf6cd309bac2ac072e09679260b1fa20dec0af4cfa7ddf82d7fae2f995",
+  "source_existing_blob_sha": "f9f6412a166de082b14c2f22a1cd37a660017273",
+  "pdf_to_print_page_offset": 4,
+  "method": "manual reading of full page images; no OCR; separate illustrated labels from lexicon blocks; visual base spelling paired to already registered corpus scan ID; independent full harakat and i3rab not certified",
+  "illustration_pages": [
+    {
+      "pdf_page": 24,
+      "printed_page": 20,
+      "kind": "anatomical_illustration",
+      "title_ar": "أعضاء جسم الإنسان الخارجية",
+      "labels_are_not_independently_validated_dictionary_entries": true,
+      "labels_harakat_status": "bare_spelling_visual_index_only_not_full_diacritic_collation",
+      "labels": [
+        {
+          "side": "left",
+          "text": "رأس"
+        },
+        {
+          "side": "left",
+          "text": "عين"
+        },
+        {
+          "side": "left",
+          "text": "خد"
+        },
+        {
+          "side": "left",
+          "text": "أذن"
+        },
+        {
+          "side": "left",
+          "text": "شارب"
+        },
+        {
+          "side": "left",
+          "text": "رقبة"
+        },
+        {
+          "side": "left",
+          "text": "كتف"
+        },
+        {
+          "side": "left",
+          "text": "منكب"
+        },
+        {
+          "side": "left",
+          "text": "نحر"
+        },
+        {
+          "side": "left",
+          "text": "سرة"
+        },
+        {
+          "side": "left",
+          "text": "مرفق"
+        },
+        {
+          "side": "left",
+          "text": "ورك"
+        },
+        {
+          "side": "left",
+          "text": "فخذ"
+        },
+        {
+          "side": "left",
+          "text": "راحة"
+        },
+        {
+          "side": "left",
+          "text": "ركبة"
+        },
+        {
+          "side": "left",
+          "text": "قدم"
+        },
+        {
+          "side": "left",
+          "text": "كعب"
+        },
+        {
+          "side": "right",
+          "text": "شعر"
+        },
+        {
+          "side": "right",
+          "text": "حاجب"
+        },
+        {
+          "side": "right",
+          "text": "أنف"
+        },
+        {
+          "side": "right",
+          "text": "فم"
+        },
+        {
+          "side": "right",
+          "text": "ذقن"
+        },
+        {
+          "side": "right",
+          "text": "صدر"
+        },
+        {
+          "side": "right",
+          "text": "عضد"
+        },
+        {
+          "side": "right",
+          "text": "يد"
+        },
+        {
+          "side": "right",
+          "text": "بطن"
+        },
+        {
+          "side": "right",
+          "text": "رسغ"
+        },
+        {
+          "side": "right",
+          "text": "إصبع"
+        },
+        {
+          "side": "right",
+          "text": "ساق"
+        },
+        {
+          "side": "right",
+          "text": "ظفر"
+        }
+      ]
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 21,
+      "kind": "anatomical_illustration",
+      "title_ar": "أعضاء جسم الإنسان الداخلية",
+      "labels_are_not_independently_validated_dictionary_entries": true,
+      "labels_harakat_status": "bare_spelling_visual_index_only_not_full_diacritic_collation",
+      "labels": [
+        {
+          "side": "left",
+          "text": "حلق"
+        },
+        {
+          "side": "left",
+          "text": "أسنان"
+        },
+        {
+          "side": "left",
+          "text": "رئة"
+        },
+        {
+          "side": "left",
+          "text": "شرايين"
+        },
+        {
+          "side": "left",
+          "text": "المرارة"
+        },
+        {
+          "side": "left",
+          "text": "كبد"
+        },
+        {
+          "side": "left",
+          "text": "وريد"
+        },
+        {
+          "side": "left",
+          "text": "زائدة"
+        },
+        {
+          "side": "left",
+          "text": "عظم"
+        },
+        {
+          "side": "left",
+          "text": "نخاع"
+        },
+        {
+          "side": "right",
+          "text": "مخ"
+        },
+        {
+          "side": "right",
+          "text": "المريء"
+        },
+        {
+          "side": "right",
+          "text": "قلب"
+        },
+        {
+          "side": "right",
+          "text": "معدة"
+        },
+        {
+          "side": "right",
+          "text": "طحال"
+        },
+        {
+          "side": "right",
+          "text": "كلية"
+        },
+        {
+          "side": "right",
+          "text": "غدة (البنكرياس)"
+        },
+        {
+          "side": "right",
+          "text": "أمعاء"
+        }
+      ]
+    }
+  ],
+  "lexicon_pages": [
+    {
+      "pdf_page": 26,
+      "printed_page": 22,
+      "kind": "alphabetical_lexicon",
+      "existing_scan_record_count": 23,
+      "headings": [
+        {
+          "position": 1,
+          "headword": "أَعْطَى",
+          "existing_scan_id": "bayna_scan_v1_451",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 2,
+          "headword": "أَعْظَمُ",
+          "existing_scan_id": "bayna_scan_v1_452",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 3,
+          "headword": "أَعْقَابٌ",
+          "existing_scan_id": "bayna_scan_v1_453",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 4,
+          "headword": "أَعْلَافٌ",
+          "existing_scan_id": "bayna_scan_v1_454",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 5,
+          "headword": "إِعْلَامٌ",
+          "existing_scan_id": "bayna_scan_v1_455",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 6,
+          "headword": "إِعْلَانٌ",
+          "existing_scan_id": "bayna_scan_v1_456",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 7,
+          "headword": "أَعْلَنَ",
+          "existing_scan_id": "bayna_scan_v1_457",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 8,
+          "headword": "أَعْلَى",
+          "existing_scan_id": "bayna_scan_v1_458",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 9,
+          "headword": "أَعْمَارٌ",
+          "existing_scan_id": "bayna_scan_v1_459",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 10,
+          "headword": "إِعْمَارٌ",
+          "existing_scan_id": "bayna_scan_v1_460",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 11,
+          "headword": "أَعْمَاقٌ",
+          "existing_scan_id": "bayna_scan_v1_461",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 12,
+          "headword": "أَعْمَالٌ",
+          "existing_scan_id": "bayna_scan_v1_462",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 13,
+          "headword": "أَعْمَامٌ",
+          "existing_scan_id": "bayna_scan_v1_463",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 14,
+          "headword": "أَعْمَشُ",
+          "existing_scan_id": "bayna_scan_v1_464",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 15,
+          "headword": "أَعْمَقُ",
+          "existing_scan_id": "bayna_scan_v1_465",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 16,
+          "headword": "أَعْمَى",
+          "existing_scan_id": "bayna_scan_v1_466",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 17,
+          "headword": "أَعِنَّةٌ",
+          "existing_scan_id": "bayna_scan_v1_467",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 18,
+          "headword": "أَعْوَامٌ",
+          "existing_scan_id": "bayna_scan_v1_468",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 19,
+          "headword": "أَعْوَرُ",
+          "existing_scan_id": "bayna_scan_v1_469",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 20,
+          "headword": "أَعْيَادٌ",
+          "existing_scan_id": "bayna_scan_v1_470",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 21,
+          "headword": "أَعْيُنٌ",
+          "existing_scan_id": "bayna_scan_v1_471",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 22,
+          "headword": "أَغَاثَ",
+          "existing_scan_id": "bayna_scan_v1_472",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 23,
+          "headword": "أَغَارَ",
+          "existing_scan_id": "bayna_scan_v1_473",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        }
+      ]
+    },
+    {
+      "pdf_page": 27,
+      "printed_page": 23,
+      "kind": "alphabetical_lexicon",
+      "existing_scan_record_count": 27,
+      "headings": [
+        {
+          "position": 1,
+          "headword": "أَغْبِيَاءُ",
+          "existing_scan_id": "bayna_scan_v1_474",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 2,
+          "headword": "أَغْذِيَةٌ",
+          "existing_scan_id": "bayna_scan_v1_475",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 3,
+          "headword": "أَغْرَاضٌ",
+          "existing_scan_id": "bayna_scan_v1_476",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 4,
+          "headword": "أَغْرَى",
+          "existing_scan_id": "bayna_scan_v1_477",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 5,
+          "headword": "أَغْشِيَةٌ",
+          "existing_scan_id": "bayna_scan_v1_478",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 6,
+          "headword": "أَغْصَانٌ",
+          "existing_scan_id": "bayna_scan_v1_479",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 7,
+          "headword": "إِغْضَابٌ",
+          "existing_scan_id": "bayna_scan_v1_480",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 8,
+          "headword": "أَغْضَبَ",
+          "existing_scan_id": "bayna_scan_v1_481",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 9,
+          "headword": "أَغْطِيَةٌ",
+          "existing_scan_id": "bayna_scan_v1_482",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 10,
+          "headword": "أَغْلَاطٌ",
+          "existing_scan_id": "bayna_scan_v1_483",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 11,
+          "headword": "إِغْلَاقٌ",
+          "existing_scan_id": "bayna_scan_v1_484",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 12,
+          "headword": "أَغْلَالٌ",
+          "existing_scan_id": "bayna_scan_v1_485",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 13,
+          "headword": "أَغْلَبُ",
+          "existing_scan_id": "bayna_scan_v1_486",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 14,
+          "headword": "أَغْلَى",
+          "existing_scan_id": "bayna_scan_v1_487",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 15,
+          "headword": "أَغْلَقَ",
+          "existing_scan_id": "bayna_scan_v1_488",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 16,
+          "headword": "أَغْمَضَ",
+          "existing_scan_id": "bayna_scan_v1_489",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 17,
+          "headword": "أُغْمِيَ",
+          "existing_scan_id": "bayna_scan_v1_490",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 18,
+          "headword": "أَغْنَامٌ",
+          "existing_scan_id": "bayna_scan_v1_491",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 19,
+          "headword": "أَغْنَى",
+          "existing_scan_id": "bayna_scan_v1_492",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 20,
+          "headword": "أَغْنِيَاءُ",
+          "existing_scan_id": "bayna_scan_v1_493",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 21,
+          "headword": "أَغْيَرُ",
+          "existing_scan_id": "bayna_scan_v1_494",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 22,
+          "headword": "أُفٍّ",
+          "existing_scan_id": "bayna_scan_v1_495",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 23,
+          "headword": "أَفْئِدَةٌ",
+          "existing_scan_id": "bayna_scan_v1_496",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 24,
+          "headword": "أَفَادَ",
+          "existing_scan_id": "bayna_scan_v1_497",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 25,
+          "headword": "أَفَاضَ",
+          "existing_scan_id": "bayna_scan_v1_498",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 26,
+          "headword": "أَفَاعٍ",
+          "existing_scan_id": "bayna_scan_v1_499",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 27,
+          "headword": "أَفَاقَ",
+          "existing_scan_id": "bayna_scan_v1_500",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        }
+      ]
+    },
+    {
+      "pdf_page": 28,
+      "printed_page": 24,
+      "kind": "alphabetical_lexicon",
+      "existing_scan_record_count": 23,
+      "headings": [
+        {
+          "position": 1,
+          "headword": "إِفْتَاءٌ",
+          "existing_scan_id": "bayna_scan_v1_501",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 2,
+          "headword": "أَفْتَى",
+          "existing_scan_id": "bayna_scan_v1_502",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 3,
+          "headword": "أَفْحَشُ",
+          "existing_scan_id": "bayna_scan_v1_503",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 4,
+          "headword": "أَفْخَاذٌ",
+          "existing_scan_id": "bayna_scan_v1_504",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 5,
+          "headword": "أَفْرَادٌ",
+          "existing_scan_id": "bayna_scan_v1_505",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 6,
+          "headword": "إِفْرَاطٌ",
+          "existing_scan_id": "bayna_scan_v1_506",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 7,
+          "headword": "أَفْرَانٌ",
+          "existing_scan_id": "bayna_scan_v1_507",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 8,
+          "headword": "أَفْرَجَ",
+          "existing_scan_id": "bayna_scan_v1_508",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 9,
+          "headword": "أَفْرَطَ",
+          "existing_scan_id": "bayna_scan_v1_509",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 10,
+          "headword": "أَفْرَغَ",
+          "existing_scan_id": "bayna_scan_v1_510",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 11,
+          "headword": "أَفْزَعَ",
+          "existing_scan_id": "bayna_scan_v1_511",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 12,
+          "headword": "أَفْسَدَ",
+          "existing_scan_id": "bayna_scan_v1_512",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 13,
+          "headword": "إِفْشَاءٌ",
+          "existing_scan_id": "bayna_scan_v1_513",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 14,
+          "headword": "أَفْشَى",
+          "existing_scan_id": "bayna_scan_v1_514",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 15,
+          "headword": "أَفْصَحَ",
+          "existing_scan_id": "bayna_scan_v1_515",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 16,
+          "headword": "أَفْضَلُ",
+          "existing_scan_id": "bayna_scan_v1_516",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 17,
+          "headword": "إِفْطَارٌ",
+          "existing_scan_id": "bayna_scan_v1_517",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 18,
+          "headword": "أَفْطَرَ",
+          "existing_scan_id": "bayna_scan_v1_518",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 19,
+          "headword": "أَفْعَالٌ",
+          "existing_scan_id": "bayna_scan_v1_519",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 20,
+          "headword": "أَفْعَى",
+          "existing_scan_id": "bayna_scan_v1_520",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 21,
+          "headword": "أُفُقٌ",
+          "existing_scan_id": "bayna_scan_v1_521",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 22,
+          "headword": "أَفْقَدَ",
+          "existing_scan_id": "bayna_scan_v1_522",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 23,
+          "headword": "أَفْقَرَ",
+          "existing_scan_id": "bayna_scan_v1_523",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        }
+      ]
+    },
+    {
+      "pdf_page": 29,
+      "printed_page": 25,
+      "kind": "alphabetical_lexicon",
+      "existing_scan_record_count": 25,
+      "headings": [
+        {
+          "position": 1,
+          "headword": "أَفْكَارٌ",
+          "existing_scan_id": "bayna_scan_v1_524",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 2,
+          "headword": "إِفْلَاتٌ",
+          "existing_scan_id": "bayna_scan_v1_525",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 3,
+          "headword": "إِفْلَاسٌ",
+          "existing_scan_id": "bayna_scan_v1_526",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 4,
+          "headword": "أَفْلَتَ",
+          "existing_scan_id": "bayna_scan_v1_527",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 5,
+          "headword": "أَفْلَحَ",
+          "existing_scan_id": "bayna_scan_v1_528",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 6,
+          "headword": "أَفْلَسَ",
+          "existing_scan_id": "bayna_scan_v1_529",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 7,
+          "headword": "أَفْنَى",
+          "existing_scan_id": "bayna_scan_v1_530",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 8,
+          "headword": "أَفْنِيَةٌ",
+          "existing_scan_id": "bayna_scan_v1_531",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 9,
+          "headword": "أَفْهَمَ",
+          "existing_scan_id": "bayna_scan_v1_532",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 10,
+          "headword": "أَفْوَاجٌ",
+          "existing_scan_id": "bayna_scan_v1_533",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 11,
+          "headword": "أَفْوَاهٌ",
+          "existing_scan_id": "bayna_scan_v1_534",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 12,
+          "headword": "أَفْيَالٌ",
+          "existing_scan_id": "bayna_scan_v1_535",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 13,
+          "headword": "أَقَالَ",
+          "existing_scan_id": "bayna_scan_v1_536",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 14,
+          "headword": "أَقَامَ",
+          "existing_scan_id": "bayna_scan_v1_537",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 15,
+          "headword": "إِقَامَةٌ",
+          "existing_scan_id": "bayna_scan_v1_538",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 16,
+          "headword": "أَقْبَلَ",
+          "existing_scan_id": "bayna_scan_v1_539",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 17,
+          "headword": "أَقْحَمَ",
+          "existing_scan_id": "bayna_scan_v1_540",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 18,
+          "headword": "أَقْدَامٌ",
+          "existing_scan_id": "bayna_scan_v1_541",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 19,
+          "headword": "إِقْدَامٌ",
+          "existing_scan_id": "bayna_scan_v1_542",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 20,
+          "headword": "أَقْدَرُ",
+          "existing_scan_id": "bayna_scan_v1_543",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 21,
+          "headword": "أَقْدَمَ",
+          "existing_scan_id": "bayna_scan_v1_544",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 22,
+          "headword": "أَقَرَّ",
+          "existing_scan_id": "bayna_scan_v1_545",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 23,
+          "headword": "أَقْرَأَ",
+          "existing_scan_id": "bayna_scan_v1_546",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 24,
+          "headword": "أَقْرَضَ",
+          "existing_scan_id": "bayna_scan_v1_547",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 25,
+          "headword": "أَقْرَانٌ",
+          "existing_scan_id": "bayna_scan_v1_548",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        }
+      ]
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": 26,
+      "kind": "alphabetical_lexicon",
+      "existing_scan_record_count": 24,
+      "headings": [
+        {
+          "position": 1,
+          "headword": "أَقْسَاطٌ",
+          "existing_scan_id": "bayna_scan_v1_549",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 2,
+          "headword": "أَقْسَطَ",
+          "existing_scan_id": "bayna_scan_v1_550",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 3,
+          "headword": "أَقْسَمَ",
+          "existing_scan_id": "bayna_scan_v1_551",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 4,
+          "headword": "أُقْصُوصَةٌ",
+          "existing_scan_id": "bayna_scan_v1_552",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 5,
+          "headword": "أَقْصَى",
+          "existing_scan_id": "bayna_scan_v1_553",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 6,
+          "headword": "أَقْطَارٌ",
+          "existing_scan_id": "bayna_scan_v1_554",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 7,
+          "headword": "أَقْعَدَ",
+          "existing_scan_id": "bayna_scan_v1_555",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 8,
+          "headword": "أَقْفَاصٌ",
+          "existing_scan_id": "bayna_scan_v1_556",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 9,
+          "headword": "أَقْفَرَ",
+          "existing_scan_id": "bayna_scan_v1_557",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 10,
+          "headword": "أَقْفَلَ",
+          "existing_scan_id": "bayna_scan_v1_558",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 11,
+          "headword": "إِقْلَاعٌ",
+          "existing_scan_id": "bayna_scan_v1_559",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 12,
+          "headword": "أَقْلَامٌ",
+          "existing_scan_id": "bayna_scan_v1_560",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 13,
+          "headword": "أَقْلَعَ",
+          "existing_scan_id": "bayna_scan_v1_561",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 14,
+          "headword": "أَقْلَقَ",
+          "existing_scan_id": "bayna_scan_v1_562",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 15,
+          "headword": "أَقَلِّيَّةٌ",
+          "existing_scan_id": "bayna_scan_v1_563",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 16,
+          "headword": "إِقْلِيمٌ",
+          "existing_scan_id": "bayna_scan_v1_564",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 17,
+          "headword": "أَقْمِشَةٌ",
+          "existing_scan_id": "bayna_scan_v1_565",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 18,
+          "headword": "أَقْنَعَ",
+          "existing_scan_id": "bayna_scan_v1_566",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 19,
+          "headword": "أَقْوَاسٌ",
+          "existing_scan_id": "bayna_scan_v1_567",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 20,
+          "headword": "أَقْوَالٌ",
+          "existing_scan_id": "bayna_scan_v1_568",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 21,
+          "headword": "أَقْوَامٌ",
+          "existing_scan_id": "bayna_scan_v1_569",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 22,
+          "headword": "أَقْوَى",
+          "existing_scan_id": "bayna_scan_v1_570",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 23,
+          "headword": "أَكَبَّ",
+          "existing_scan_id": "bayna_scan_v1_571",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        },
+        {
+          "position": 24,
+          "headword": "أَكْبَرُ",
+          "existing_scan_id": "bayna_scan_v1_572",
+          "comparison_status": "printed_base_letters_compared_full_harakat_recheck_pending",
+          "examples_status": "independently_authored_pending_i3rab_review"
+        }
+      ]
+    }
+  ],
+  "existing_lexicon_headwords_total": 122,
+  "diagram_label_occurrences": 48,
+  "certifies_independent_grammar_or_examples": false,
+  "corpus_data_files_modified": [],
+  "source_editorial_queue_summary": {
+    "one_grammar_line": 120,
+    "one_example_sentence": 118,
+    "zero_collocations": 122,
+    "zero_synonyms": 122,
+    "zero_antonyms": 122,
+    "additional_meaning_records": 7
+  },
+  "status": "visual_base_spelling_and_source_id_alignment_only",
+  "limitations": [
+    "Diagrams are illustrations, not entries in the alphabetical dictionary; labels are indexed separately with bare spelling to avoid invented diacritics.",
+    "Do not mistake a manually observed bare headword match for verification of every shadda, haraka, tanwin, case ending, grammar or independently authored example.",
+    "No original lexical IDs have been removed or relocated; no new dictionary entries inferred from diagram labels.",
+    "Authoritative independent Arabic morphological and syntactic proofread of 122 source cards remains pending."
+  ]
+}
