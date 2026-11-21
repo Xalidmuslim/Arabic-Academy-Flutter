@@ -39,7 +39,7 @@ class Print17SemanticExamplesTests(unittest.TestCase):
         x = self.source["bayna_scan_v1_380"]
         self.assertIn("فِعْلِ شَيْءٍ", norm(x["meaning_ar"]))
         self.assertIn(norm("الطَّعَامِ"), norm(" ".join(x["examples_ar"])))
-        self.assertIn("عَنِ", norm(" ".join(x["grammar"])))
+        self.assertIn(norm("عَنْ"), norm(" ".join(x["grammar"])))
         self.assertIn(norm("الطَّعَامِ"), norm(x["usage_note_ar"]))
 
     def test_adhrama_preserves_printed_figurative_conflict_sense(self):
